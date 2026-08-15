@@ -18,7 +18,7 @@ def main() -> None:
         "--user-agent",
         default=os.getenv(
             "NSYSU_API_USER_AGENT",
-            "nsysu-program-api/0.1 (+https://github.com/Brian-Yah/nsysu-program-api)",
+            "nsysu-program-api/0.1.1 (+https://github.com/Brian-Yah/nsysu-program-api)",
         ),
     )
     sub = parser.add_subparsers(dest="command", required=True)

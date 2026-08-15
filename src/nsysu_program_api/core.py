@@ -19,7 +19,7 @@ from urllib.parse import urljoin
 
 CATALOG_URL = "https://ctdr.nsysu.edu.tw/class2.php"
 SCHEMA_VERSION = "1.0"
-PARSER_VERSION = "0.1.0"
+PARSER_VERSION = "0.1.1"
 NAMESPACE = uuid.UUID("a441fd7d-a05f-4f28-8bb7-7ccbdd0a6cab")
 TYPE_NAMES = {
     0: "integrated_program",

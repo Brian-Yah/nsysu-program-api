@@ -94,6 +94,7 @@ def process_pdfs(root: Path, catalog: dict, user_agent: str, reuse_cache: bool =
             rule_versions, table_warnings = extract_pdf_tables(pdf_path)
             warnings.extend(table_warnings)
             source = program["source"]
+            source["parser_version"] = PARSER_VERSION
             source["extractor_versions"] = runtime_extractors
             source["pdf_binary_sha256"] = digest
             source["http"] = {
