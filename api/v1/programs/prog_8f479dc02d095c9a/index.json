@@ -29,7 +29,7 @@
         "last_modified": "Tue, 23 Dec 2025 06:56:05 GMT",
         "content_length": 360369
       },
-      "parser_version": "0.2.1",
+      "parser_version": "0.2.2",
       "extractor_versions": {
         "pypdf": "6.10.0",
         "pdfplumber": "0.11.9"
@@ -45,6 +45,7 @@
     "course_catalog": [
       {
         "course_code": null,
+        "catalog_entry_id": "entry_68865730feac0d9f",
         "opening_units": [
           "外文系",
           "西灣學院"
@@ -53,6 +54,8 @@
         "course_name_snapshot": "日文(一)",
         "credits_snapshot": 3.0,
         "requirement_group": "core",
+        "requirement_section": "core",
+        "program_course_name_snapshot": null,
         "notes": "相關規定請見本表底下說明。",
         "source_page": 1,
         "evidence_match": true,
@@ -61,6 +64,7 @@
       },
       {
         "course_code": null,
+        "catalog_entry_id": "entry_a518f33d014a5b44",
         "opening_units": [
           "機電系"
         ],
@@ -68,6 +72,8 @@
         "course_name_snapshot": "工程日文(一)",
         "credits_snapshot": 3.0,
         "requirement_group": "core",
+        "requirement_section": "core",
+        "program_course_name_snapshot": null,
         "notes": "",
         "source_page": 1,
         "evidence_match": true,
@@ -76,6 +82,7 @@
       },
       {
         "course_code": null,
+        "catalog_entry_id": "entry_510f2911106b1965",
         "opening_units": [
           "企管系"
         ],
@@ -83,6 +90,8 @@
         "course_name_snapshot": "商用日文(一)",
         "credits_snapshot": 3.0,
         "requirement_group": "core",
+        "requirement_section": "core",
+        "program_course_name_snapshot": null,
         "notes": "",
         "source_page": 1,
         "evidence_match": true,
@@ -91,6 +100,7 @@
       },
       {
         "course_code": null,
+        "catalog_entry_id": "entry_45a104eddd543136",
         "opening_units": [
           "亞太所"
         ],
@@ -98,6 +108,8 @@
         "course_name_snapshot": "法學日文(一)",
         "credits_snapshot": 3.0,
         "requirement_group": "core",
+        "requirement_section": "core",
+        "program_course_name_snapshot": null,
         "notes": "",
         "source_page": 1,
         "evidence_match": true,
@@ -106,6 +118,7 @@
       },
       {
         "course_code": null,
+        "catalog_entry_id": "entry_75339d9c888bed54",
         "opening_units": [
           "西灣學院"
         ],
@@ -113,6 +126,8 @@
         "course_name_snapshot": "日本文化概論",
         "credits_snapshot": 3.0,
         "requirement_group": "core",
+        "requirement_section": "core",
+        "program_course_name_snapshot": null,
         "notes": "",
         "source_page": 1,
         "evidence_match": true,
@@ -121,6 +136,7 @@
       },
       {
         "course_code": null,
+        "catalog_entry_id": "entry_45e300339992e412",
         "opening_units": [
           "中文系"
         ],
@@ -128,6 +144,8 @@
         "course_name_snapshot": "臺語流行歌曲及其語言風格和文化意涵(一)",
         "credits_snapshot": 3.0,
         "requirement_group": "elective",
+        "requirement_section": "elective",
+        "program_course_name_snapshot": null,
         "notes": "",
         "source_page": 1,
         "evidence_match": true,
@@ -136,6 +154,7 @@
       },
       {
         "course_code": null,
+        "catalog_entry_id": "entry_db5a06930cb695c3",
         "opening_units": [
           "外文系"
         ],
@@ -143,6 +162,8 @@
         "course_name_snapshot": "日文三(一)",
         "credits_snapshot": 3.0,
         "requirement_group": "elective",
+        "requirement_section": "elective",
+        "program_course_name_snapshot": null,
         "notes": "",
         "source_page": 1,
         "evidence_match": true,
@@ -151,6 +172,7 @@
       },
       {
         "course_code": null,
+        "catalog_entry_id": "entry_5331c82ab06eae41",
         "opening_units": [
           "劇藝系(碩)"
         ],
@@ -158,6 +180,8 @@
         "course_name_snapshot": "文化資產保存與再生",
         "credits_snapshot": 3.0,
         "requirement_group": "elective",
+        "requirement_section": "elective",
+        "program_course_name_snapshot": null,
         "notes": "",
         "source_page": 1,
         "evidence_match": true,
@@ -166,6 +190,7 @@
       },
       {
         "course_code": null,
+        "catalog_entry_id": "entry_59c7064a13bcab18",
         "opening_units": [
           "哲學所"
         ],
@@ -173,6 +198,8 @@
         "course_name_snapshot": "文化哲學",
         "credits_snapshot": 3.0,
         "requirement_group": "elective",
+        "requirement_section": "elective",
+        "program_course_name_snapshot": null,
         "notes": "",
         "source_page": 1,
         "evidence_match": true,
@@ -181,6 +208,7 @@
       },
       {
         "course_code": null,
+        "catalog_entry_id": "entry_9380c80f6af18498",
         "opening_units": [
           "人科學程"
         ],
@@ -188,6 +216,8 @@
         "course_name_snapshot": "文化人類學",
         "credits_snapshot": 3.0,
         "requirement_group": "elective",
+        "requirement_section": "elective",
+        "program_course_name_snapshot": null,
         "notes": "",
         "source_page": 1,
         "evidence_match": true,
@@ -196,6 +226,7 @@
       },
       {
         "course_code": null,
+        "catalog_entry_id": "entry_201decbfed956c46",
         "opening_units": [
           "國際學士學程"
         ],
@@ -203,6 +234,8 @@
         "course_name_snapshot": "跨文化溝通",
         "credits_snapshot": 3.0,
         "requirement_group": "elective",
+        "requirement_section": "elective",
+        "program_course_name_snapshot": null,
         "notes": "※英語授課",
         "source_page": 1,
         "evidence_match": true,
@@ -211,6 +244,7 @@
       },
       {
         "course_code": null,
+        "catalog_entry_id": "entry_96185da0732ea62c",
         "opening_units": [
           "政經系"
         ],
@@ -218,6 +252,8 @@
         "course_name_snapshot": "國際政治經濟學",
         "credits_snapshot": 3.0,
         "requirement_group": "elective",
+        "requirement_section": "elective",
+        "program_course_name_snapshot": null,
         "notes": "",
         "source_page": 1,
         "evidence_match": true,
@@ -226,6 +262,7 @@
       },
       {
         "course_code": null,
+        "catalog_entry_id": "entry_ce3789f511d4efef",
         "opening_units": [
           "政治所"
         ],
@@ -233,6 +270,8 @@
         "course_name_snapshot": "韓國與東亞政治經濟",
         "credits_snapshot": 3.0,
         "requirement_group": "elective",
+        "requirement_section": "elective",
+        "program_course_name_snapshot": null,
         "notes": "※英語授課",
         "source_page": 1,
         "evidence_match": true,
@@ -241,6 +280,7 @@
       },
       {
         "course_code": null,
+        "catalog_entry_id": "entry_c0d82939368ec3e2",
         "opening_units": [
           "公事所"
         ],
@@ -248,6 +288,8 @@
         "course_name_snapshot": "地區經營管理",
         "credits_snapshot": 2.0,
         "requirement_group": "elective",
+        "requirement_section": "elective",
+        "program_course_name_snapshot": null,
         "notes": "",
         "source_page": 2,
         "evidence_match": true,
@@ -256,6 +298,7 @@
       },
       {
         "course_code": null,
+        "catalog_entry_id": "entry_416502fbe56e8248",
         "opening_units": [
           "亞太所"
         ],
@@ -263,6 +306,8 @@
         "course_name_snapshot": "美日關係與軍事同盟",
         "credits_snapshot": 3.0,
         "requirement_group": "elective",
+        "requirement_section": "elective",
+        "program_course_name_snapshot": null,
         "notes": "",
         "source_page": 2,
         "evidence_match": true,
@@ -271,6 +316,7 @@
       },
       {
         "course_code": null,
+        "catalog_entry_id": "entry_f4a156155d46bce5",
         "opening_units": [
           "亞太英語碩程"
         ],
@@ -278,6 +324,8 @@
         "course_name_snapshot": "日本政府與政治",
         "credits_snapshot": 3.0,
         "requirement_group": "elective",
+        "requirement_section": "elective",
+        "program_course_name_snapshot": null,
         "notes": "※英語授課",
         "source_page": 2,
         "evidence_match": true,
@@ -286,6 +334,7 @@
       },
       {
         "course_code": null,
+        "catalog_entry_id": "entry_918779d7dadaee69",
         "opening_units": [
           "文學院"
         ],
@@ -293,6 +342,8 @@
         "course_name_snapshot": "世界宗教介紹",
         "credits_snapshot": 3.0,
         "requirement_group": "elective",
+        "requirement_section": "elective",
+        "program_course_name_snapshot": null,
         "notes": "",
         "source_page": 2,
         "evidence_match": true,
@@ -301,6 +352,7 @@
       },
       {
         "course_code": null,
+        "catalog_entry_id": "entry_b8075597409bc02e",
         "opening_units": [
           "社科院"
         ],
@@ -308,6 +360,8 @@
         "course_name_snapshot": "台灣當代政治發展",
         "credits_snapshot": 2.0,
         "requirement_group": "elective",
+        "requirement_section": "elective",
+        "program_course_name_snapshot": null,
         "notes": "",
         "source_page": 2,
         "evidence_match": true,
@@ -316,6 +370,7 @@
       },
       {
         "course_code": null,
+        "catalog_entry_id": "entry_3e92b8b64cfd178e",
         "opening_units": [
           "醫學院"
         ],
@@ -323,6 +378,8 @@
         "course_name_snapshot": "醫學史(二)-台灣醫學史",
         "credits_snapshot": 2.0,
         "requirement_group": "elective",
+        "requirement_section": "elective",
+        "program_course_name_snapshot": null,
         "notes": "限制大學部學生選修",
         "source_page": 2,
         "evidence_match": true,
@@ -331,6 +388,7 @@
       },
       {
         "course_code": null,
+        "catalog_entry_id": "entry_ee82f8ff413f658e",
         "opening_units": [
           "西灣學院"
         ],
@@ -338,6 +396,8 @@
         "course_name_snapshot": "從國際新聞學人文地理",
         "credits_snapshot": 3.0,
         "requirement_group": "elective",
+        "requirement_section": "elective",
+        "program_course_name_snapshot": null,
         "notes": "※英語授課",
         "source_page": 2,
         "evidence_match": true,

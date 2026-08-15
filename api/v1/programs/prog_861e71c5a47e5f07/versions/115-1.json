@@ -23,7 +23,7 @@
       "last_modified": "Wed, 20 Dec 2023 02:39:06 GMT",
       "content_length": 194251
     },
-    "parser_version": "0.2.1",
+    "parser_version": "0.2.2",
     "extractor_versions": {
       "pypdf": "6.10.0",
       "pdfplumber": "0.11.9"
@@ -41,6 +41,7 @@
   "course_catalog": [
     {
       "course_code": null,
+      "catalog_entry_id": "entry_675a4ee22a70ce77",
       "opening_units": [
         "政治經濟學系"
       ],
@@ -48,6 +49,8 @@
       "course_name_snapshot": "智慧城市與智慧運輸趨勢、發展及課題研析",
       "credits_snapshot": 3.0,
       "requirement_group": "core",
+      "requirement_section": "core",
+      "program_course_name_snapshot": null,
       "notes": "",
       "source_page": 1,
       "evidence_match": false,
@@ -56,6 +59,7 @@
     },
     {
       "course_code": null,
+      "catalog_entry_id": "entry_2ed1b2e6e0b76b04",
       "opening_units": [
         "社會科學院"
       ],
@@ -63,6 +67,8 @@
       "course_name_snapshot": "智慧城市與智慧運輸趨勢、發展及課題研析",
       "credits_snapshot": 3.0,
       "requirement_group": "core",
+      "requirement_section": "core",
+      "program_course_name_snapshot": null,
       "notes": "",
       "source_page": 1,
       "evidence_match": false,
@@ -71,6 +77,7 @@
     },
     {
       "course_code": null,
+      "catalog_entry_id": "entry_8e567ca765b78183",
       "opening_units": [
         "人文暨科技跨領域學士學位學程"
       ],
@@ -78,6 +85,8 @@
       "course_name_snapshot": "智慧型運輸系統",
       "credits_snapshot": 3.0,
       "requirement_group": "core",
+      "requirement_section": "core",
+      "program_course_name_snapshot": null,
       "notes": "",
       "source_page": 1,
       "evidence_match": true,
@@ -86,6 +95,7 @@
     },
     {
       "course_code": null,
+      "catalog_entry_id": "entry_07c5f5c7a13f9c1e",
       "opening_units": [
         "資工系"
       ],
@@ -93,6 +103,8 @@
       "course_name_snapshot": "C 程式設計",
       "credits_snapshot": 3.0,
       "requirement_group": "elective",
+      "requirement_section": "elective",
+      "program_course_name_snapshot": null,
       "notes": "",
       "source_page": 1,
       "evidence_match": true,
@@ -101,6 +113,7 @@
     },
     {
       "course_code": null,
+      "catalog_entry_id": "entry_0dc2b3b683eee6fb",
       "opening_units": [
         "資工系"
       ],
@@ -108,6 +121,8 @@
       "course_name_snapshot": "資訊安全",
       "credits_snapshot": 3.0,
       "requirement_group": "elective",
+      "requirement_section": "elective",
+      "program_course_name_snapshot": null,
       "notes": "",
       "source_page": 1,
       "evidence_match": true,
@@ -116,6 +131,7 @@
     },
     {
       "course_code": null,
+      "catalog_entry_id": "entry_8f6cac5c7af36f3f",
       "opening_units": [
         "電機系"
       ],
@@ -123,6 +139,8 @@
       "course_name_snapshot": "機器學習系統設計實務與應用",
       "credits_snapshot": 3.0,
       "requirement_group": "elective",
+      "requirement_section": "elective",
+      "program_course_name_snapshot": null,
       "notes": "",
       "source_page": 1,
       "evidence_match": true,
@@ -131,6 +149,7 @@
     },
     {
       "course_code": null,
+      "catalog_entry_id": "entry_4d10b72f907879aa",
       "opening_units": [
         "博雅"
       ],
@@ -138,6 +157,8 @@
       "course_name_snapshot": "橘子蘋果統計學",
       "credits_snapshot": 3.0,
       "requirement_group": "elective",
+      "requirement_section": "elective",
+      "program_course_name_snapshot": null,
       "notes": "",
       "source_page": 1,
       "evidence_match": true,
@@ -146,6 +167,7 @@
     },
     {
       "course_code": null,
+      "catalog_entry_id": "entry_edb7662325ad1e86",
       "opening_units": [
         "人科學程"
       ],
@@ -153,6 +175,8 @@
       "course_name_snapshot": "公共運輸系統概論",
       "credits_snapshot": 3.0,
       "requirement_group": "elective",
+      "requirement_section": "elective",
+      "program_course_name_snapshot": null,
       "notes": "",
       "source_page": 1,
       "evidence_match": true,

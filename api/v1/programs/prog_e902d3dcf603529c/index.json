@@ -29,7 +29,7 @@
         "last_modified": "Tue, 23 Dec 2025 06:55:22 GMT",
         "content_length": 239765
       },
-      "parser_version": "0.2.1",
+      "parser_version": "0.2.2",
       "extractor_versions": {
         "pypdf": "6.10.0",
         "pdfplumber": "0.11.9"
@@ -47,6 +47,7 @@
     "course_catalog": [
       {
         "course_code": null,
+        "catalog_entry_id": "entry_f90e23282bbb822d",
         "opening_units": [
           "文學院"
         ],
@@ -54,6 +55,8 @@
         "course_name_snapshot": "表演藝術走入城市生活(一)",
         "credits_snapshot": 3.0,
         "requirement_group": "core",
+        "requirement_section": "core",
+        "program_course_name_snapshot": null,
         "notes": "",
         "source_page": 1,
         "evidence_match": true,
@@ -62,6 +65,7 @@
       },
       {
         "course_code": null,
+        "catalog_entry_id": "entry_da304f6167052ad0",
         "opening_units": [
           "劇藝系"
         ],
@@ -69,6 +73,8 @@
         "course_name_snapshot": "創作性戲劇",
         "credits_snapshot": 2.0,
         "requirement_group": "core",
+        "requirement_section": "core",
+        "program_course_name_snapshot": null,
         "notes": "",
         "source_page": 1,
         "evidence_match": true,
@@ -77,6 +83,7 @@
       },
       {
         "course_code": null,
+        "catalog_entry_id": "entry_69c96d364b7dc02a",
         "opening_units": [
           "博雅向度二"
         ],
@@ -84,6 +91,8 @@
         "course_name_snapshot": "生命教育",
         "credits_snapshot": 2.0,
         "requirement_group": "core",
+        "requirement_section": "core",
+        "program_course_name_snapshot": null,
         "notes": "",
         "source_page": 1,
         "evidence_match": true,
@@ -92,6 +101,7 @@
       },
       {
         "course_code": null,
+        "catalog_entry_id": "entry_d47d2953cca04625",
         "opening_units": [
           "社會系"
         ],
@@ -99,6 +109,8 @@
         "course_name_snapshot": "藝術社會學",
         "credits_snapshot": 3.0,
         "requirement_group": "core",
+        "requirement_section": "core",
+        "program_course_name_snapshot": null,
         "notes": "",
         "source_page": 1,
         "evidence_match": true,
@@ -107,6 +119,7 @@
       },
       {
         "course_code": null,
+        "catalog_entry_id": "entry_80357fe40c206c11",
         "opening_units": [
           "劇藝系(研究所課程)"
         ],
@@ -114,6 +127,8 @@
         "course_name_snapshot": "跨文化表演研究",
         "credits_snapshot": 3.0,
         "requirement_group": "core",
+        "requirement_section": "core",
+        "program_course_name_snapshot": null,
         "notes": "",
         "source_page": 1,
         "evidence_match": true,
@@ -122,6 +137,7 @@
       },
       {
         "course_code": null,
+        "catalog_entry_id": "entry_f27b693fb68d3dd8",
         "opening_units": [
           "劇藝系(研究所課程)"
         ],
@@ -129,6 +145,8 @@
         "course_name_snapshot": "當代劇場研究與實作",
         "credits_snapshot": 3.0,
         "requirement_group": "core",
+        "requirement_section": "core",
+        "program_course_name_snapshot": null,
         "notes": "",
         "source_page": 1,
         "evidence_match": true,
@@ -137,6 +155,7 @@
       },
       {
         "course_code": null,
+        "catalog_entry_id": "entry_35ca6e10ade09d3b",
         "opening_units": [
           "劇藝系"
         ],
@@ -144,6 +163,8 @@
         "course_name_snapshot": "戲劇構作導論",
         "credits_snapshot": 2.0,
         "requirement_group": "core",
+        "requirement_section": "core",
+        "program_course_name_snapshot": null,
         "notes": "戲劇構作系列課程擇一,2學分,包括戲劇構作導論、戲劇構作實踐:古典、戲劇構作實踐:中古與近代、戲劇構作實踐:現當代",
         "source_page": 1,
         "evidence_match": true,
@@ -152,21 +173,61 @@
       },
       {
         "course_code": null,
+        "catalog_entry_id": "entry_8674670521d2d10c",
         "opening_units": [
           "劇藝系"
         ],
         "opening_unit_snapshot": "劇藝系",
-        "course_name_snapshot": "1. 戲劇構作實踐:古典2. 戲劇構作實踐:中古與近代3. 戲劇構作實踐:現當代",
+        "course_name_snapshot": "戲劇構作實踐:古典",
         "credits_snapshot": 2.0,
         "requirement_group": "core",
-        "notes": "戲劇構作系列課程擇一,2學分,包括戲劇構作導論、戲劇構作實踐:古典、戲劇構作實踐:中古與近代、戲劇構作實踐:現當代",
+        "requirement_section": "core",
+        "program_course_name_snapshot": null,
+        "notes": "戲劇構作系列課程擇一,2學分,包括戲劇構作導論、戲劇構作實踐:古典、戲劇構作實踐:中古與近代、戲劇構作實踐:現當代 1. 戲劇構作實踐:古典2. 戲劇構作實踐:中古與近代3. 戲劇構作實踐:現當代",
         "source_page": 1,
-        "evidence_match": false,
+        "evidence_match": true,
         "validation_status": "needs_course_code_verification",
         "uncertainty_reason": "Official PDF table does not provide a course code"
       },
       {
         "course_code": null,
+        "catalog_entry_id": "entry_8674670521d2d10c",
+        "opening_units": [
+          "劇藝系"
+        ],
+        "opening_unit_snapshot": "劇藝系",
+        "course_name_snapshot": "戲劇構作實踐:中古與近代",
+        "credits_snapshot": 2.0,
+        "requirement_group": "core",
+        "requirement_section": "core",
+        "program_course_name_snapshot": null,
+        "notes": "戲劇構作系列課程擇一,2學分,包括戲劇構作導論、戲劇構作實踐:古典、戲劇構作實踐:中古與近代、戲劇構作實踐:現當代 1. 戲劇構作實踐:古典2. 戲劇構作實踐:中古與近代3. 戲劇構作實踐:現當代",
+        "source_page": 1,
+        "evidence_match": true,
+        "validation_status": "needs_course_code_verification",
+        "uncertainty_reason": "Official PDF table does not provide a course code"
+      },
+      {
+        "course_code": null,
+        "catalog_entry_id": "entry_8674670521d2d10c",
+        "opening_units": [
+          "劇藝系"
+        ],
+        "opening_unit_snapshot": "劇藝系",
+        "course_name_snapshot": "戲劇構作實踐:現當代",
+        "credits_snapshot": 2.0,
+        "requirement_group": "core",
+        "requirement_section": "core",
+        "program_course_name_snapshot": null,
+        "notes": "戲劇構作系列課程擇一,2學分,包括戲劇構作導論、戲劇構作實踐:古典、戲劇構作實踐:中古與近代、戲劇構作實踐:現當代 1. 戲劇構作實踐:古典2. 戲劇構作實踐:中古與近代3. 戲劇構作實踐:現當代",
+        "source_page": 1,
+        "evidence_match": true,
+        "validation_status": "needs_course_code_verification",
+        "uncertainty_reason": "Official PDF table does not provide a course code"
+      },
+      {
+        "course_code": null,
+        "catalog_entry_id": "entry_b60af79604bf5233",
         "opening_units": [
           "劇藝系"
         ],
@@ -174,6 +235,8 @@
         "course_name_snapshot": "戲劇評論",
         "credits_snapshot": 3.0,
         "requirement_group": "elective",
+        "requirement_section": "elective",
+        "program_course_name_snapshot": null,
         "notes": "",
         "source_page": 1,
         "evidence_match": true,
@@ -182,6 +245,7 @@
       },
       {
         "course_code": null,
+        "catalog_entry_id": "entry_46c0712ad5195f20",
         "opening_units": [
           "劇藝系"
         ],
@@ -189,6 +253,8 @@
         "course_name_snapshot": "創意導演(一)/(二)",
         "credits_snapshot": 2.0,
         "requirement_group": "elective",
+        "requirement_section": "elective",
+        "program_course_name_snapshot": null,
         "notes": "限修畢導演(一)或導演(二)",
         "source_page": 1,
         "evidence_match": true,
@@ -197,6 +263,7 @@
       },
       {
         "course_code": null,
+        "catalog_entry_id": "entry_f340ceab558230d7",
         "opening_units": [
           "劇藝系"
         ],
@@ -204,6 +271,8 @@
         "course_name_snapshot": "當代劇場與展演",
         "credits_snapshot": 2.0,
         "requirement_group": "elective",
+        "requirement_section": "elective",
+        "program_course_name_snapshot": null,
         "notes": "",
         "source_page": 1,
         "evidence_match": true,
@@ -212,6 +281,7 @@
       },
       {
         "course_code": null,
+        "catalog_entry_id": "entry_380fd020c415bfed",
         "opening_units": [
           "劇藝系"
         ],
@@ -219,6 +289,8 @@
         "course_name_snapshot": "兒童劇場",
         "credits_snapshot": 2.0,
         "requirement_group": "elective",
+        "requirement_section": "elective",
+        "program_course_name_snapshot": null,
         "notes": "",
         "source_page": 1,
         "evidence_match": true,
@@ -227,6 +299,7 @@
       },
       {
         "course_code": null,
+        "catalog_entry_id": "entry_24e262b15ed295ec",
         "opening_units": [
           "劇藝系"
         ],
@@ -234,6 +307,8 @@
         "course_name_snapshot": "創意表演(一)/(二)",
         "credits_snapshot": 2.0,
         "requirement_group": "elective",
+        "requirement_section": "elective",
+        "program_course_name_snapshot": null,
         "notes": "限修畢進階表演(一)或進階表演(二)",
         "source_page": 1,
         "evidence_match": true,
@@ -242,6 +317,7 @@
       },
       {
         "course_code": null,
+        "catalog_entry_id": "entry_856a724c7bfeb302",
         "opening_units": [
           "文學院"
         ],
@@ -249,6 +325,8 @@
         "course_name_snapshot": "表演藝術走入城市生活(二)",
         "credits_snapshot": 3.0,
         "requirement_group": "elective",
+        "requirement_section": "elective",
+        "program_course_name_snapshot": null,
         "notes": "",
         "source_page": 1,
         "evidence_match": true,
@@ -257,6 +335,7 @@
       },
       {
         "course_code": null,
+        "catalog_entry_id": "entry_383ebe42f765a7c9",
         "opening_units": [
           "文學院"
         ],
@@ -264,6 +343,8 @@
         "course_name_snapshot": "跨文化人文思潮與美學導論",
         "credits_snapshot": 3.0,
         "requirement_group": "elective",
+        "requirement_section": "elective",
+        "program_course_name_snapshot": null,
         "notes": "",
         "source_page": 1,
         "evidence_match": true,
@@ -272,6 +353,7 @@
       },
       {
         "course_code": null,
+        "catalog_entry_id": "entry_bed0fc40590b198c",
         "opening_units": [
           "劇藝系"
         ],
@@ -279,6 +361,8 @@
         "course_name_snapshot": "台灣劇場",
         "credits_snapshot": 3.0,
         "requirement_group": "elective",
+        "requirement_section": "elective",
+        "program_course_name_snapshot": null,
         "notes": "",
         "source_page": 1,
         "evidence_match": true,
@@ -287,6 +371,7 @@
       },
       {
         "course_code": null,
+        "catalog_entry_id": "entry_1776559a3537694d",
         "opening_units": [
           "劇藝系"
         ],
@@ -294,6 +379,8 @@
         "course_name_snapshot": "現當代東亞戲劇與劇場",
         "credits_snapshot": 2.0,
         "requirement_group": "elective",
+        "requirement_section": "elective",
+        "program_course_name_snapshot": null,
         "notes": "",
         "source_page": 1,
         "evidence_match": true,
@@ -302,6 +389,7 @@
       },
       {
         "course_code": null,
+        "catalog_entry_id": "entry_690a31a633f2f5f5",
         "opening_units": [
           "劇藝系(研究所課程)"
         ],
@@ -309,6 +397,8 @@
         "course_name_snapshot": "環境劇場",
         "credits_snapshot": 3.0,
         "requirement_group": "elective",
+        "requirement_section": "elective",
+        "program_course_name_snapshot": null,
         "notes": "",
         "source_page": 2,
         "evidence_match": true,
@@ -317,6 +407,7 @@
       },
       {
         "course_code": null,
+        "catalog_entry_id": "entry_9b2351fb2cc28406",
         "opening_units": [
           "劇藝系(研究所課程)"
         ],
@@ -324,6 +415,8 @@
         "course_name_snapshot": "劇場展演與社會參與",
         "credits_snapshot": 3.0,
         "requirement_group": "elective",
+        "requirement_section": "elective",
+        "program_course_name_snapshot": null,
         "notes": "",
         "source_page": 2,
         "evidence_match": true,
@@ -332,6 +425,7 @@
       },
       {
         "course_code": null,
+        "catalog_entry_id": "entry_681e74faaa01cbf7",
         "opening_units": [
           "文學院"
         ],
@@ -339,6 +433,8 @@
         "course_name_snapshot": "跨文化人文思潮與美學-課程與教學實作專題",
         "credits_snapshot": 3.0,
         "requirement_group": "elective",
+        "requirement_section": "elective",
+        "program_course_name_snapshot": null,
         "notes": "",
         "source_page": 2,
         "evidence_match": false,
@@ -349,7 +445,50 @@
     "structured_requirements": {
       "core_credits_text_value": 2,
       "minimum_total_credits": 9,
-      "minimum_outside_home_department_credits": 3
+      "minimum_outside_home_department_credits": 3,
+      "course_count_constraints": [
+        {
+          "constraint_id": "constraint_6338e06b925bc0fd",
+          "kind": "course_equivalence",
+          "course_names": [
+            "戲劇構作實踐:古典",
+            "戲劇構作實踐:中古與近代",
+            "戲劇構作實踐:現當代"
+          ],
+          "min_courses": 1,
+          "max_courses": 1,
+          "requirement_group": "core",
+          "requirement_section": "core",
+          "source_page": 1,
+          "source_text": "1. 戲劇構作實踐:古典2. 戲劇構作實踐:中古與近代3. 戲劇構作實踐:現當代",
+          "validation_status": "source_text_match"
+        }
+      ],
+      "entry_selection_constraints": [
+        {
+          "constraint_id": "constraint_4fac6932a7aed5f5",
+          "kind": "select_entries",
+          "catalog_entry_ids": [
+            "entry_35ca6e10ade09d3b",
+            "entry_8674670521d2d10c"
+          ],
+          "course_names": [
+            "戲劇構作導論",
+            "戲劇構作實踐:古典",
+            "戲劇構作實踐:中古與近代",
+            "戲劇構作實踐:現當代"
+          ],
+          "min_entries": 1,
+          "max_entries": 1,
+          "declared_option_count": null,
+          "option_count_matches": true,
+          "requirement_group": "core",
+          "requirement_section": "core",
+          "source_page": 1,
+          "source_text": "戲劇構作系列課程擇一,2學分,包括戲劇構作導論、戲劇構作實踐:古典、戲劇構作實踐:中古與近代、戲劇構作實踐:現當代",
+          "validation_status": "source_text_match"
+        }
+      ]
     }
   }
 }

@@ -29,7 +29,7 @@
         "last_modified": "Thu, 13 Aug 2026 06:20:58 GMT",
         "content_length": 136856
       },
-      "parser_version": "0.2.1",
+      "parser_version": "0.2.2",
       "extractor_versions": {
         "pypdf": "6.10.0",
         "pdfplumber": "0.11.9"
@@ -47,6 +47,7 @@
     "course_catalog": [
       {
         "course_code": null,
+        "catalog_entry_id": "entry_97dd814f49b0118e",
         "opening_units": [
           "資訊工程學系"
         ],
@@ -54,6 +55,8 @@
         "course_name_snapshot": "人工智慧導論",
         "credits_snapshot": 3.0,
         "requirement_group": "unspecified",
+        "requirement_section": "unspecified",
+        "program_course_name_snapshot": null,
         "notes": "人工智慧導論",
         "source_page": 1,
         "evidence_match": true,
@@ -62,6 +65,7 @@
       },
       {
         "course_code": null,
+        "catalog_entry_id": "entry_07d1898272b82810",
         "opening_units": [
           "電機工程學系碩士班"
         ],
@@ -69,6 +73,8 @@
         "course_name_snapshot": "3D內容生成與體感互動",
         "credits_snapshot": 3.0,
         "requirement_group": "unspecified",
+        "requirement_section": "unspecified",
+        "program_course_name_snapshot": null,
         "notes": "3D內容生成與體感互動",
         "source_page": 1,
         "evidence_match": false,
@@ -77,6 +83,7 @@
       },
       {
         "course_code": null,
+        "catalog_entry_id": "entry_ff85748568cb48ca",
         "opening_units": [
           "資訊工程學系"
         ],
@@ -84,6 +91,8 @@
         "course_name_snapshot": "資料探勘",
         "credits_snapshot": 3.0,
         "requirement_group": "unspecified",
+        "requirement_section": "unspecified",
+        "program_course_name_snapshot": null,
         "notes": "資料探勘",
         "source_page": 1,
         "evidence_match": true,
@@ -92,6 +101,7 @@
       },
       {
         "course_code": null,
+        "catalog_entry_id": "entry_4b2cc6ecec26adf0",
         "opening_units": [
           "資訊工程學系碩士班資訊管理學系碩士班"
         ],
@@ -99,6 +109,8 @@
         "course_name_snapshot": "深度學習",
         "credits_snapshot": 3.0,
         "requirement_group": "unspecified",
+        "requirement_section": "unspecified",
+        "program_course_name_snapshot": null,
         "notes": "深度學習",
         "source_page": 1,
         "evidence_match": true,

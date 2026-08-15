@@ -29,7 +29,7 @@
         "last_modified": "Tue, 27 May 2025 02:24:57 GMT",
         "content_length": 105026
       },
-      "parser_version": "0.2.1",
+      "parser_version": "0.2.2",
       "extractor_versions": {
         "pypdf": "6.10.0",
         "pdfplumber": "0.11.9"
@@ -47,6 +47,7 @@
     "course_catalog": [
       {
         "course_code": null,
+        "catalog_entry_id": "entry_f721be0fc868f33c",
         "opening_units": [
           "海工碩"
         ],
@@ -54,6 +55,8 @@
         "course_name_snapshot": "海洋及森林碳匯與碳權概論",
         "credits_snapshot": 3.0,
         "requirement_group": "core",
+        "requirement_section": "core",
+        "program_course_name_snapshot": null,
         "notes": "",
         "source_page": 1,
         "evidence_match": true,
@@ -62,6 +65,7 @@
       },
       {
         "course_code": null,
+        "catalog_entry_id": "entry_0ceb79f7c2bdc601",
         "opening_units": [
           "海事碩"
         ],
@@ -69,6 +73,8 @@
         "course_name_snapshot": "永續發展",
         "credits_snapshot": 3.0,
         "requirement_group": "core",
+        "requirement_section": "core",
+        "program_course_name_snapshot": null,
         "notes": "",
         "source_page": 1,
         "evidence_match": true,
@@ -77,6 +83,7 @@
       },
       {
         "course_code": null,
+        "catalog_entry_id": "entry_d45851426953cd81",
         "opening_units": [
           "公事碩"
         ],
@@ -84,6 +91,8 @@
         "course_name_snapshot": "永續報告書寫作",
         "credits_snapshot": 2.0,
         "requirement_group": "core",
+        "requirement_section": "core",
+        "program_course_name_snapshot": null,
         "notes": "",
         "source_page": 1,
         "evidence_match": true,
@@ -92,6 +101,7 @@
       },
       {
         "course_code": null,
+        "catalog_entry_id": "entry_f21cf796d50870d8",
         "opening_units": [
           "公事碩"
         ],
@@ -99,6 +109,8 @@
         "course_name_snapshot": "溫室氣體盤查報告實作",
         "credits_snapshot": 2.0,
         "requirement_group": "core",
+        "requirement_section": "core",
+        "program_course_name_snapshot": null,
         "notes": "",
         "source_page": 1,
         "evidence_match": true,
@@ -107,6 +119,7 @@
       },
       {
         "course_code": null,
+        "catalog_entry_id": "entry_b1ffcdc1cac0fba3",
         "opening_units": [
           "公事碩"
         ],
@@ -114,6 +127,8 @@
         "course_name_snapshot": "新興公共議題研討",
         "credits_snapshot": 2.0,
         "requirement_group": "elective",
+        "requirement_section": "elective",
+        "program_course_name_snapshot": null,
         "notes": "",
         "source_page": 1,
         "evidence_match": true,
@@ -122,6 +137,7 @@
       },
       {
         "course_code": null,
+        "catalog_entry_id": "entry_14c06014f6fab288",
         "opening_units": [
           "公事碩"
         ],
@@ -129,6 +145,8 @@
         "course_name_snapshot": "公共事務專題研究",
         "credits_snapshot": 2.0,
         "requirement_group": "elective",
+        "requirement_section": "elective",
+        "program_course_name_snapshot": null,
         "notes": "",
         "source_page": 1,
         "evidence_match": true,
@@ -137,6 +155,7 @@
       },
       {
         "course_code": null,
+        "catalog_entry_id": "entry_b5a3c7c7194c2e02",
         "opening_units": [
           "公事碩"
         ],
@@ -144,6 +163,8 @@
         "course_name_snapshot": "企業社會責任專題",
         "credits_snapshot": 2.0,
         "requirement_group": "elective",
+        "requirement_section": "elective",
+        "program_course_name_snapshot": null,
         "notes": "",
         "source_page": 1,
         "evidence_match": true,
@@ -152,6 +173,7 @@
       },
       {
         "course_code": null,
+        "catalog_entry_id": "entry_7bbde7acc7b1621b",
         "opening_units": [
           "企管系",
           "博雅向度六"
@@ -160,6 +182,8 @@
         "course_name_snapshot": "淨零碳規劃管理專題講座",
         "credits_snapshot": 2.0,
         "requirement_group": "elective",
+        "requirement_section": "elective",
+        "program_course_name_snapshot": null,
         "notes": "新增開課單位",
         "source_page": 1,
         "evidence_match": true,
@@ -168,6 +192,7 @@
       },
       {
         "course_code": null,
+        "catalog_entry_id": "entry_7147d6df73537023",
         "opening_units": [
           "離岸風電碩"
         ],
@@ -175,6 +200,8 @@
         "course_name_snapshot": "離岸風電概論",
         "credits_snapshot": 3.0,
         "requirement_group": "elective",
+        "requirement_section": "elective",
+        "program_course_name_snapshot": null,
         "notes": "",
         "source_page": 1,
         "evidence_match": true,
@@ -183,6 +210,7 @@
       },
       {
         "course_code": null,
+        "catalog_entry_id": "entry_9775856e6cedefc8",
         "opening_units": [
           "離岸風電碩"
         ],
@@ -190,6 +218,8 @@
         "course_name_snapshot": "離岸風電運維實務",
         "credits_snapshot": 3.0,
         "requirement_group": "elective",
+        "requirement_section": "elective",
+        "program_course_name_snapshot": null,
         "notes": "新增課程",
         "source_page": 1,
         "evidence_match": true,

@@ -29,7 +29,7 @@
         "last_modified": "Tue, 23 Dec 2025 07:02:50 GMT",
         "content_length": 238702
       },
-      "parser_version": "0.2.1",
+      "parser_version": "0.2.2",
       "extractor_versions": {
         "pypdf": "6.10.0",
         "pdfplumber": "0.11.9"
@@ -47,6 +47,7 @@
     "course_catalog": [
       {
         "course_code": null,
+        "catalog_entry_id": "entry_fc9bd88762746bf7",
         "opening_units": [
           "博雅教育中心"
         ],
@@ -54,6 +55,8 @@
         "course_name_snapshot": "台灣社會與文化",
         "credits_snapshot": 3.0,
         "requirement_group": "core",
+        "requirement_section": "core",
+        "program_course_name_snapshot": null,
         "notes": "",
         "source_page": 1,
         "evidence_match": true,
@@ -62,6 +65,7 @@
       },
       {
         "course_code": null,
+        "catalog_entry_id": "entry_63f7a670fc8a50a2",
         "opening_units": [
           "博雅教育中心"
         ],
@@ -69,6 +73,8 @@
         "course_name_snapshot": "日本文化概論",
         "credits_snapshot": 3.0,
         "requirement_group": "core",
+        "requirement_section": "core",
+        "program_course_name_snapshot": null,
         "notes": "",
         "source_page": 1,
         "evidence_match": true,
@@ -77,6 +83,7 @@
       },
       {
         "course_code": null,
+        "catalog_entry_id": "entry_a3283209ac28bbbe",
         "opening_units": [
           "基礎教育中心"
         ],
@@ -84,6 +91,8 @@
         "course_name_snapshot": "跨文化溝通研究",
         "credits_snapshot": 3.0,
         "requirement_group": "elective",
+        "requirement_section": "elective",
+        "program_course_name_snapshot": null,
         "notes": "",
         "source_page": 1,
         "evidence_match": true,
@@ -92,6 +101,7 @@
       },
       {
         "course_code": null,
+        "catalog_entry_id": "entry_eb92c77e61c85a23",
         "opening_units": [
           "服務學習教育中心"
         ],
@@ -99,6 +109,8 @@
         "course_name_snapshot": "服務學習:日本國際志工服務學習",
         "credits_snapshot": 1.0,
         "requirement_group": "elective",
+        "requirement_section": "elective",
+        "program_course_name_snapshot": null,
         "notes": "",
         "source_page": 1,
         "evidence_match": true,
@@ -107,6 +119,7 @@
       },
       {
         "course_code": null,
+        "catalog_entry_id": "entry_4181ec37f517cc1e",
         "opening_units": [
           "服務學習教育中心"
         ],
@@ -114,6 +127,8 @@
         "course_name_snapshot": "服務學習:日本地方創生實務",
         "credits_snapshot": 1.0,
         "requirement_group": "elective",
+        "requirement_section": "elective",
+        "program_course_name_snapshot": null,
         "notes": "",
         "source_page": 1,
         "evidence_match": true,
@@ -122,6 +137,7 @@
       },
       {
         "course_code": null,
+        "catalog_entry_id": "entry_29bb54bf91ce72eb",
         "opening_units": [
           "服務學習教育中心"
         ],
@@ -129,6 +145,8 @@
         "course_name_snapshot": "服務學習:日本國際志工=愛媛縣",
         "credits_snapshot": 1.0,
         "requirement_group": "elective",
+        "requirement_section": "elective",
+        "program_course_name_snapshot": null,
         "notes": "",
         "source_page": 1,
         "evidence_match": true,
@@ -137,6 +155,7 @@
       },
       {
         "course_code": null,
+        "catalog_entry_id": "entry_6482dc1f93ddb6ab",
         "opening_units": [
           "博雅教育中心"
         ],
@@ -144,6 +163,8 @@
         "course_name_snapshot": "現代日本社會與宗教",
         "credits_snapshot": 3.0,
         "requirement_group": "elective",
+        "requirement_section": "elective",
+        "program_course_name_snapshot": null,
         "notes": "",
         "source_page": 1,
         "evidence_match": true,
@@ -152,6 +173,7 @@
       },
       {
         "course_code": null,
+        "catalog_entry_id": "entry_e2ac8a5323c1bc3c",
         "opening_units": [
           "基礎教育中心"
         ],
@@ -159,6 +181,8 @@
         "course_name_snapshot": "台日文化比較研究(一)",
         "credits_snapshot": 3.0,
         "requirement_group": "elective",
+        "requirement_section": "elective",
+        "program_course_name_snapshot": null,
         "notes": "",
         "source_page": 1,
         "evidence_match": true,
@@ -167,6 +191,7 @@
       },
       {
         "course_code": null,
+        "catalog_entry_id": "entry_4416da8b456d7b3d",
         "opening_units": [
           "基礎教育中心"
         ],
@@ -174,6 +199,8 @@
         "course_name_snapshot": "台日文化比較研究(2)",
         "credits_snapshot": 3.0,
         "requirement_group": "elective",
+        "requirement_section": "elective",
+        "program_course_name_snapshot": null,
         "notes": "",
         "source_page": 1,
         "evidence_match": true,
@@ -182,6 +209,7 @@
       },
       {
         "course_code": null,
+        "catalog_entry_id": "entry_21511aabc468a243",
         "opening_units": [
           "基礎教育中心"
         ],
@@ -189,6 +217,8 @@
         "course_name_snapshot": "創業講堂",
         "credits_snapshot": 3.0,
         "requirement_group": "elective",
+        "requirement_section": "elective",
+        "program_course_name_snapshot": null,
         "notes": "",
         "source_page": 1,
         "evidence_match": true,
@@ -197,6 +227,7 @@
       },
       {
         "course_code": null,
+        "catalog_entry_id": "entry_d026dcf2ccd3281c",
         "opening_units": [
           "基礎教育中心"
         ],
@@ -204,6 +235,8 @@
         "course_name_snapshot": "日本宗教文化與心靈",
         "credits_snapshot": 3.0,
         "requirement_group": "elective",
+        "requirement_section": "elective",
+        "program_course_name_snapshot": null,
         "notes": "",
         "source_page": 1,
         "evidence_match": true,
@@ -212,6 +245,7 @@
       },
       {
         "course_code": null,
+        "catalog_entry_id": "entry_a1b37420d93baa39",
         "opening_units": [
           "博雅教育中心"
         ],
@@ -219,6 +253,8 @@
         "course_name_snapshot": "地方文化採集與應用",
         "credits_snapshot": 3.0,
         "requirement_group": "elective",
+        "requirement_section": "elective",
+        "program_course_name_snapshot": null,
         "notes": "",
         "source_page": 1,
         "evidence_match": true,

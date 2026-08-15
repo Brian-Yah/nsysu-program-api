@@ -29,7 +29,7 @@
         "last_modified": "Tue, 27 May 2025 02:25:49 GMT",
         "content_length": 315680
       },
-      "parser_version": "0.2.1",
+      "parser_version": "0.2.2",
       "extractor_versions": {
         "pypdf": "6.10.0",
         "pdfplumber": "0.11.9"
@@ -45,6 +45,7 @@
     "course_catalog": [
       {
         "course_code": null,
+        "catalog_entry_id": "entry_d3284bd90fcb1eda",
         "opening_units": [
           "社會系"
         ],
@@ -52,6 +53,8 @@
         "course_name_snapshot": "文化社會學",
         "credits_snapshot": 3.0,
         "requirement_group": "core",
+        "requirement_section": "core",
+        "program_course_name_snapshot": null,
         "notes": "",
         "source_page": 1,
         "evidence_match": true,
@@ -60,6 +63,7 @@
       },
       {
         "course_code": null,
+        "catalog_entry_id": "entry_a01b7f0fbd4c6f47",
         "opening_units": [
           "社會系"
         ],
@@ -67,6 +71,8 @@
         "course_name_snapshot": "社區文創設計",
         "credits_snapshot": 3.0,
         "requirement_group": "elective",
+        "requirement_section": "elective",
+        "program_course_name_snapshot": null,
         "notes": "包括同性質的實習課程、實作課程或服務學習。",
         "source_page": 1,
         "evidence_match": true,
@@ -75,6 +81,7 @@
       },
       {
         "course_code": null,
+        "catalog_entry_id": "entry_b900a2f45c4045ac",
         "opening_units": [
           "中文系"
         ],
@@ -82,6 +89,8 @@
         "course_name_snapshot": "在地敘事與記憶",
         "credits_snapshot": 3.0,
         "requirement_group": "elective",
+        "requirement_section": "elective",
+        "program_course_name_snapshot": null,
         "notes": "",
         "source_page": 1,
         "evidence_match": true,
@@ -90,6 +99,7 @@
       },
       {
         "course_code": null,
+        "catalog_entry_id": "entry_f706db6846025807",
         "opening_units": [
           "外文系"
         ],
@@ -97,6 +107,8 @@
         "course_name_snapshot": "觀光英語",
         "credits_snapshot": 3.0,
         "requirement_group": "elective",
+        "requirement_section": "elective",
+        "program_course_name_snapshot": null,
         "notes": "",
         "source_page": 1,
         "evidence_match": true,
@@ -105,6 +117,7 @@
       },
       {
         "course_code": null,
+        "catalog_entry_id": "entry_caa61810b588bef1",
         "opening_units": [
           "音樂系"
         ],
@@ -112,6 +125,8 @@
         "course_name_snapshot": "展演實作專案",
         "credits_snapshot": 1.0,
         "requirement_group": "elective",
+        "requirement_section": "elective",
+        "program_course_name_snapshot": null,
         "notes": "包含展演實作專案(一)(二)",
         "source_page": 1,
         "evidence_match": true,
@@ -120,6 +135,7 @@
       },
       {
         "course_code": null,
+        "catalog_entry_id": "entry_68f1c80b2ca80b18",
         "opening_units": [
           "劇藝系"
         ],
@@ -127,6 +143,8 @@
         "course_name_snapshot": "歌唱技巧",
         "credits_snapshot": 2.0,
         "requirement_group": "elective",
+        "requirement_section": "elective",
+        "program_course_name_snapshot": null,
         "notes": "",
         "source_page": 1,
         "evidence_match": true,
@@ -135,6 +153,7 @@
       },
       {
         "course_code": null,
+        "catalog_entry_id": "entry_f944757f877d52ed",
         "opening_units": [
           "管理學院"
         ],
@@ -142,6 +161,8 @@
         "course_name_snapshot": "物質文化與人類學",
         "credits_snapshot": 3.0,
         "requirement_group": "elective",
+        "requirement_section": "elective",
+        "program_course_name_snapshot": null,
         "notes": "",
         "source_page": 1,
         "evidence_match": true,
@@ -150,6 +171,7 @@
       },
       {
         "course_code": null,
+        "catalog_entry_id": "entry_5f9ee9aa26e6b19c",
         "opening_units": [
           "人科學程"
         ],
@@ -157,6 +179,8 @@
         "course_name_snapshot": "設計思考:人文設計與創業",
         "credits_snapshot": 3.0,
         "requirement_group": "elective",
+        "requirement_section": "elective",
+        "program_course_name_snapshot": null,
         "notes": "",
         "source_page": 1,
         "evidence_match": true,
@@ -165,6 +189,7 @@
       },
       {
         "course_code": null,
+        "catalog_entry_id": "entry_98fdc0178f9d9b4b",
         "opening_units": [
           "西灣學院"
         ],
@@ -172,6 +197,8 @@
         "course_name_snapshot": "海洋文化",
         "credits_snapshot": 3.0,
         "requirement_group": "elective",
+        "requirement_section": "elective",
+        "program_course_name_snapshot": null,
         "notes": "",
         "source_page": 2,
         "evidence_match": true,

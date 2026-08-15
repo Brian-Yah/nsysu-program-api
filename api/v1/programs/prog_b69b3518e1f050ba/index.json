@@ -29,7 +29,7 @@
         "last_modified": "Tue, 24 Dec 2024 07:24:12 GMT",
         "content_length": 106991
       },
-      "parser_version": "0.2.1",
+      "parser_version": "0.2.2",
       "extractor_versions": {
         "pypdf": "6.10.0",
         "pdfplumber": "0.11.9"
@@ -47,6 +47,7 @@
     "course_catalog": [
       {
         "course_code": null,
+        "catalog_entry_id": "entry_58a1669b6fa97e7e",
         "opening_units": [
           "光電系"
         ],
@@ -54,6 +55,8 @@
         "course_name_snapshot": "創新資訊科技應用",
         "credits_snapshot": 3.0,
         "requirement_group": "core",
+        "requirement_section": "core",
+        "program_course_name_snapshot": null,
         "notes": "",
         "source_page": 1,
         "evidence_match": true,
@@ -62,6 +65,7 @@
       },
       {
         "course_code": null,
+        "catalog_entry_id": "entry_91bed3189147b53f",
         "opening_units": [
           "人文暨科技跨領域學士學位學程"
         ],
@@ -69,6 +73,8 @@
         "course_name_snapshot": "多維度媒體實務",
         "credits_snapshot": 3.0,
         "requirement_group": "core",
+        "requirement_section": "core",
+        "program_course_name_snapshot": null,
         "notes": "",
         "source_page": 1,
         "evidence_match": true,
@@ -77,6 +83,7 @@
       },
       {
         "course_code": null,
+        "catalog_entry_id": "entry_1587c8e3062cf2f7",
         "opening_units": [
           "音樂系"
         ],
@@ -84,6 +91,8 @@
         "course_name_snapshot": "音樂科技概論",
         "credits_snapshot": 2.0,
         "requirement_group": "core",
+        "requirement_section": "core",
+        "program_course_name_snapshot": null,
         "notes": "",
         "source_page": 1,
         "evidence_match": true,
@@ -92,6 +101,7 @@
       },
       {
         "course_code": null,
+        "catalog_entry_id": "entry_7833846815edf1c7",
         "opening_units": [
           "人文暨科技跨領域學士學位學程"
         ],
@@ -99,6 +109,8 @@
         "course_name_snapshot": "虛擬實境導論",
         "credits_snapshot": 1.0,
         "requirement_group": "elective",
+        "requirement_section": "elective",
+        "program_course_name_snapshot": null,
         "notes": "",
         "source_page": 1,
         "evidence_match": true,
@@ -107,6 +119,7 @@
       },
       {
         "course_code": null,
+        "catalog_entry_id": "entry_478d7d7aec7add47",
         "opening_units": [
           "人文暨科技跨領域學士學位學程"
         ],
@@ -114,6 +127,8 @@
         "course_name_snapshot": "成像技術導論",
         "credits_snapshot": 1.0,
         "requirement_group": "elective",
+        "requirement_section": "elective",
+        "program_course_name_snapshot": null,
         "notes": "",
         "source_page": 1,
         "evidence_match": true,
@@ -122,6 +137,7 @@
       },
       {
         "course_code": null,
+        "catalog_entry_id": "entry_42d06f4362a9f4ce",
         "opening_units": [
           "人文暨科技跨領域學士學位學程"
         ],
@@ -129,6 +145,8 @@
         "course_name_snapshot": "音場技術導論",
         "credits_snapshot": 1.0,
         "requirement_group": "elective",
+        "requirement_section": "elective",
+        "program_course_name_snapshot": null,
         "notes": "",
         "source_page": 1,
         "evidence_match": true,
@@ -137,6 +155,7 @@
       },
       {
         "course_code": null,
+        "catalog_entry_id": "entry_e6b414926dfdb9fe",
         "opening_units": [
           "人文暨科技跨領域學士學位學程"
         ],
@@ -144,6 +163,8 @@
         "course_name_snapshot": "情境感受導論",
         "credits_snapshot": 1.0,
         "requirement_group": "elective",
+        "requirement_section": "elective",
+        "program_course_name_snapshot": null,
         "notes": "",
         "source_page": 1,
         "evidence_match": true,
@@ -152,6 +173,7 @@
       },
       {
         "course_code": null,
+        "catalog_entry_id": "entry_5168345819cebeaa",
         "opening_units": [
           "人文暨科技跨領域學士學位學程"
         ],
@@ -159,6 +181,8 @@
         "course_name_snapshot": "體感技術導論",
         "credits_snapshot": 1.0,
         "requirement_group": "elective",
+        "requirement_section": "elective",
+        "program_course_name_snapshot": null,
         "notes": "",
         "source_page": 1,
         "evidence_match": true,
@@ -167,6 +191,7 @@
       },
       {
         "course_code": null,
+        "catalog_entry_id": "entry_4c7a7dd8fa1e3f1d",
         "opening_units": [
           "人文暨科技跨領域學士學位學程"
         ],
@@ -174,6 +199,8 @@
         "course_name_snapshot": "姿態辨識導論",
         "credits_snapshot": 1.0,
         "requirement_group": "elective",
+        "requirement_section": "elective",
+        "program_course_name_snapshot": null,
         "notes": "",
         "source_page": 1,
         "evidence_match": true,
@@ -182,6 +209,7 @@
       },
       {
         "course_code": null,
+        "catalog_entry_id": "entry_5ab681bfd5ae2e4d",
         "opening_units": [
           "人文暨科技跨領域學士學位學程"
         ],
@@ -189,6 +217,8 @@
         "course_name_snapshot": "感測器與定位",
         "credits_snapshot": 1.0,
         "requirement_group": "elective",
+        "requirement_section": "elective",
+        "program_course_name_snapshot": null,
         "notes": "",
         "source_page": 1,
         "evidence_match": true,
@@ -197,6 +227,7 @@
       },
       {
         "course_code": null,
+        "catalog_entry_id": "entry_790a54fb9fd5a563",
         "opening_units": [
           "人文暨科技跨領域學士學位學程"
         ],
@@ -204,6 +235,8 @@
         "course_name_snapshot": "體感運動機構導論",
         "credits_snapshot": 1.0,
         "requirement_group": "elective",
+        "requirement_section": "elective",
+        "program_course_name_snapshot": null,
         "notes": "",
         "source_page": 1,
         "evidence_match": true,
@@ -212,6 +245,7 @@
       },
       {
         "course_code": null,
+        "catalog_entry_id": "entry_ce36ba1f97aa0630",
         "opening_units": [
           "人文暨科技跨領域學士學位學程"
         ],
@@ -219,6 +253,8 @@
         "course_name_snapshot": "虛擬實境程式導論",
         "credits_snapshot": 1.0,
         "requirement_group": "elective",
+        "requirement_section": "elective",
+        "program_course_name_snapshot": null,
         "notes": "",
         "source_page": 1,
         "evidence_match": true,
@@ -227,6 +263,7 @@
       },
       {
         "course_code": null,
+        "catalog_entry_id": "entry_732b183d50968084",
         "opening_units": [
           "人文暨科技跨領域學士學位學程"
         ],
@@ -234,6 +271,8 @@
         "course_name_snapshot": "音樂與音效導論",
         "credits_snapshot": 1.0,
         "requirement_group": "elective",
+        "requirement_section": "elective",
+        "program_course_name_snapshot": null,
         "notes": "",
         "source_page": 1,
         "evidence_match": true,
@@ -242,6 +281,7 @@
       },
       {
         "course_code": null,
+        "catalog_entry_id": "entry_bbd113a0854bb944",
         "opening_units": [
           "人文暨科技跨領域學士學位學程"
         ],
@@ -249,6 +289,8 @@
         "course_name_snapshot": "故事編程",
         "credits_snapshot": 1.0,
         "requirement_group": "elective",
+        "requirement_section": "elective",
+        "program_course_name_snapshot": null,
         "notes": "",
         "source_page": 1,
         "evidence_match": true,
@@ -257,6 +299,7 @@
       },
       {
         "course_code": null,
+        "catalog_entry_id": "entry_00f4a5f1fdef2ca5",
         "opening_units": [
           "人文暨科技跨領域學士學位學程"
         ],
@@ -264,6 +307,8 @@
         "course_name_snapshot": "虛擬實境數位內容設計",
         "credits_snapshot": 3.0,
         "requirement_group": "elective",
+        "requirement_section": "elective",
+        "program_course_name_snapshot": null,
         "notes": "",
         "source_page": 1,
         "evidence_match": true,
@@ -272,6 +317,7 @@
       },
       {
         "course_code": null,
+        "catalog_entry_id": "entry_e9e5a43b8d539deb",
         "opening_units": [
           "人文暨科技跨領域學士學位學程"
         ],
@@ -279,6 +325,8 @@
         "course_name_snapshot": "多軸動感平台體感控制",
         "credits_snapshot": 3.0,
         "requirement_group": "elective",
+        "requirement_section": "elective",
+        "program_course_name_snapshot": null,
         "notes": "",
         "source_page": 1,
         "evidence_match": true,
@@ -287,6 +335,7 @@
       },
       {
         "course_code": null,
+        "catalog_entry_id": "entry_4c33dd84e880fc74",
         "opening_units": [
           "人文暨科技跨領域學士學位學程"
         ],
@@ -294,6 +343,8 @@
         "course_name_snapshot": "劇場藝術導論",
         "credits_snapshot": 1.0,
         "requirement_group": "elective",
+        "requirement_section": "elective",
+        "program_course_name_snapshot": null,
         "notes": "",
         "source_page": 1,
         "evidence_match": true,
@@ -302,6 +353,7 @@
       },
       {
         "course_code": null,
+        "catalog_entry_id": "entry_742cb5563b9d8c19",
         "opening_units": [
           "劇藝系"
         ],
@@ -309,6 +361,8 @@
         "course_name_snapshot": "電腦輔助繪圖",
         "credits_snapshot": 2.0,
         "requirement_group": "elective",
+        "requirement_section": "elective",
+        "program_course_name_snapshot": null,
         "notes": "",
         "source_page": 1,
         "evidence_match": true,
@@ -317,6 +371,7 @@
       },
       {
         "course_code": null,
+        "catalog_entry_id": "entry_daab1d3c93a3582a",
         "opening_units": [
           "光電系"
         ],
@@ -324,6 +379,8 @@
         "course_name_snapshot": "沉浸式體驗概論",
         "credits_snapshot": 3.0,
         "requirement_group": "elective",
+        "requirement_section": "elective",
+        "program_course_name_snapshot": null,
         "notes": "",
         "source_page": 1,
         "evidence_match": true,
@@ -332,6 +389,7 @@
       },
       {
         "course_code": null,
+        "catalog_entry_id": "entry_3aec4407030155bb",
         "opening_units": [
           "音樂系"
         ],
@@ -339,6 +397,8 @@
         "course_name_snapshot": "數位化編曲理論與實作(一)",
         "credits_snapshot": 2.0,
         "requirement_group": "elective",
+        "requirement_section": "elective",
+        "program_course_name_snapshot": null,
         "notes": "",
         "source_page": 1,
         "evidence_match": true,
@@ -347,6 +407,7 @@
       },
       {
         "course_code": null,
+        "catalog_entry_id": "entry_ae2cab0734ea5e6f",
         "opening_units": [
           "音樂系"
         ],
@@ -354,6 +415,8 @@
         "course_name_snapshot": "數位化編曲理論與實作(二)",
         "credits_snapshot": 2.0,
         "requirement_group": "elective",
+        "requirement_section": "elective",
+        "program_course_name_snapshot": null,
         "notes": "",
         "source_page": 2,
         "evidence_match": true,

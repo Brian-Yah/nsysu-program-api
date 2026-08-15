@@ -23,7 +23,7 @@
       "last_modified": "Wed, 01 Jul 2026 06:03:36 GMT",
       "content_length": 323177
     },
-    "parser_version": "0.2.1",
+    "parser_version": "0.2.2",
     "extractor_versions": {
       "pypdf": "6.10.0",
       "pdfplumber": "0.11.9"
@@ -39,6 +39,7 @@
   "course_catalog": [
     {
       "course_code": null,
+      "catalog_entry_id": "entry_aba3a6407fa7b7e4",
       "opening_units": [
         "中文系"
       ],
@@ -46,6 +47,8 @@
       "course_name_snapshot": "中國文學史(一)(二)",
       "credits_snapshot": 6.0,
       "requirement_group": "core",
+      "requirement_section": "core",
+      "program_course_name_snapshot": null,
       "notes": "中文系基礎必修課程文學/思想/語言文字三領域擇一修習至少 6 學分",
       "source_page": 1,
       "evidence_match": true,
@@ -54,6 +57,7 @@
     },
     {
       "course_code": null,
+      "catalog_entry_id": "entry_a51a2bfa20671fa5",
       "opening_units": [
         "中文系"
       ],
@@ -61,6 +65,8 @@
       "course_name_snapshot": "中國思想史(一)(二)",
       "credits_snapshot": 6.0,
       "requirement_group": "core",
+      "requirement_section": "core",
+      "program_course_name_snapshot": null,
       "notes": "",
       "source_page": 1,
       "evidence_match": true,
@@ -69,6 +75,7 @@
     },
     {
       "course_code": null,
+      "catalog_entry_id": "entry_2208f62120ddca26",
       "opening_units": [
         "中文系"
       ],
@@ -76,6 +83,8 @@
       "course_name_snapshot": "語言學概論",
       "credits_snapshot": 2.0,
       "requirement_group": "core",
+      "requirement_section": "core",
+      "program_course_name_snapshot": null,
       "notes": "",
       "source_page": 1,
       "evidence_match": true,
@@ -84,6 +93,7 @@
     },
     {
       "course_code": null,
+      "catalog_entry_id": "entry_940fd9ac7fa0c22d",
       "opening_units": [
         "中文系"
       ],
@@ -91,6 +101,8 @@
       "course_name_snapshot": "文字學",
       "credits_snapshot": 3.0,
       "requirement_group": "core",
+      "requirement_section": "core",
+      "program_course_name_snapshot": null,
       "notes": "",
       "source_page": 1,
       "evidence_match": true,
@@ -99,6 +111,7 @@
     },
     {
       "course_code": null,
+      "catalog_entry_id": "entry_dc42c81a3ae1edf7",
       "opening_units": [
         "中文系"
       ],
@@ -106,6 +119,8 @@
       "course_name_snapshot": "聲韻學",
       "credits_snapshot": 3.0,
       "requirement_group": "core",
+      "requirement_section": "core",
+      "program_course_name_snapshot": null,
       "notes": "",
       "source_page": 1,
       "evidence_match": true,
@@ -114,6 +129,7 @@
     },
     {
       "course_code": null,
+      "catalog_entry_id": "entry_e5469efbdb3475f8",
       "opening_units": [
         "中文系"
       ],
@@ -121,6 +137,8 @@
       "course_name_snapshot": "訓詁學",
       "credits_snapshot": 2.0,
       "requirement_group": "core",
+      "requirement_section": "core",
+      "program_course_name_snapshot": null,
       "notes": "",
       "source_page": 1,
       "evidence_match": true,
@@ -129,6 +147,7 @@
     },
     {
       "course_code": null,
+      "catalog_entry_id": "entry_04f5da9dc71b28ba",
       "opening_units": [
         "西灣學院"
       ],
@@ -136,6 +155,8 @@
       "course_name_snapshot": "中文思辨與表達(一)(二)",
       "credits_snapshot": 3.0,
       "requirement_group": "core",
+      "requirement_section": "core",
+      "program_course_name_snapshot": null,
       "notes": "基礎語文課程至少3 學分",
       "source_page": 1,
       "evidence_match": true,
@@ -144,6 +165,7 @@
     },
     {
       "course_code": null,
+      "catalog_entry_id": "entry_3c31d0749b923444",
       "opening_units": [
         "中文系"
       ],
@@ -151,6 +173,8 @@
       "course_name_snapshot": "文學閱讀與生命書寫(一)(二)",
       "credits_snapshot": 6.0,
       "requirement_group": "core",
+      "requirement_section": "core",
+      "program_course_name_snapshot": null,
       "notes": "",
       "source_page": 1,
       "evidence_match": false,
@@ -159,6 +183,7 @@
     },
     {
       "course_code": null,
+      "catalog_entry_id": "entry_9eb1731fd102c110",
       "opening_units": [
         "中文系"
       ],
@@ -166,6 +191,8 @@
       "course_name_snapshot": "青聽文學",
       "credits_snapshot": 3.0,
       "requirement_group": "core",
+      "requirement_section": "core",
+      "program_course_name_snapshot": null,
       "notes": "",
       "source_page": 1,
       "evidence_match": true,
@@ -174,6 +201,7 @@
     },
     {
       "course_code": null,
+      "catalog_entry_id": "entry_5c34adaf6b936058",
       "opening_units": [
         "中文系"
       ],
@@ -181,6 +209,8 @@
       "course_name_snapshot": "非虛構文學選讀",
       "credits_snapshot": 3.0,
       "requirement_group": "core",
+      "requirement_section": "core",
+      "program_course_name_snapshot": null,
       "notes": "",
       "source_page": 1,
       "evidence_match": true,
@@ -189,6 +219,7 @@
     },
     {
       "course_code": null,
+      "catalog_entry_id": "entry_5b867d772510b752",
       "opening_units": [
         "中文系"
       ],
@@ -196,6 +227,8 @@
       "course_name_snapshot": "詩選及習作(一)(二)",
       "credits_snapshot": 6.0,
       "requirement_group": "elective",
+      "requirement_section": "elective",
+      "program_course_name_snapshot": null,
       "notes": "古典文化與創意課程至少 3 學分",
       "source_page": 1,
       "evidence_match": true,
@@ -204,6 +237,7 @@
     },
     {
       "course_code": null,
+      "catalog_entry_id": "entry_d87d6510fff20960",
       "opening_units": [
         "中文系"
       ],
@@ -211,6 +245,8 @@
       "course_name_snapshot": "歷代文選及習作(一)(二)",
       "credits_snapshot": 6.0,
       "requirement_group": "elective",
+      "requirement_section": "elective",
+      "program_course_name_snapshot": null,
       "notes": "",
       "source_page": 1,
       "evidence_match": true,
@@ -219,6 +255,7 @@
     },
     {
       "course_code": null,
+      "catalog_entry_id": "entry_5c7c8bbb4687028c",
       "opening_units": [
         "中文系"
       ],
@@ -226,6 +263,8 @@
       "course_name_snapshot": "詞曲選及習作(一)(二)",
       "credits_snapshot": 6.0,
       "requirement_group": "elective",
+      "requirement_section": "elective",
+      "program_course_name_snapshot": null,
       "notes": "",
       "source_page": 1,
       "evidence_match": true,
@@ -234,6 +273,7 @@
     },
     {
       "course_code": null,
+      "catalog_entry_id": "entry_21b96ac5f4257ec1",
       "opening_units": [
         "中文系"
       ],
@@ -241,6 +281,8 @@
       "course_name_snapshot": "論語",
       "credits_snapshot": 3.0,
       "requirement_group": "elective",
+      "requirement_section": "elective",
+      "program_course_name_snapshot": null,
       "notes": "",
       "source_page": 1,
       "evidence_match": true,
@@ -249,6 +291,7 @@
     },
     {
       "course_code": null,
+      "catalog_entry_id": "entry_e7d4b9233aca88c2",
       "opening_units": [
         "中文系"
       ],
@@ -256,6 +299,8 @@
       "course_name_snapshot": "杜甫詩",
       "credits_snapshot": 3.0,
       "requirement_group": "elective",
+      "requirement_section": "elective",
+      "program_course_name_snapshot": null,
       "notes": "",
       "source_page": 1,
       "evidence_match": true,
@@ -264,6 +309,7 @@
     },
     {
       "course_code": null,
+      "catalog_entry_id": "entry_a0ff39f6f96b30ce",
       "opening_units": [
         "中文系"
       ],
@@ -271,6 +317,8 @@
       "course_name_snapshot": "李白詩",
       "credits_snapshot": 3.0,
       "requirement_group": "elective",
+      "requirement_section": "elective",
+      "program_course_name_snapshot": null,
       "notes": "",
       "source_page": 1,
       "evidence_match": true,
@@ -279,6 +327,7 @@
     },
     {
       "course_code": null,
+      "catalog_entry_id": "entry_16e7acfcdc38f9ff",
       "opening_units": [
         "中文系"
       ],
@@ -286,6 +335,8 @@
       "course_name_snapshot": "歐蘇文",
       "credits_snapshot": 3.0,
       "requirement_group": "elective",
+      "requirement_section": "elective",
+      "program_course_name_snapshot": null,
       "notes": "",
       "source_page": 1,
       "evidence_match": true,
@@ -294,6 +345,7 @@
     },
     {
       "course_code": null,
+      "catalog_entry_id": "entry_2772a9aa814b1bad",
       "opening_units": [
         "中文系"
       ],
@@ -301,6 +353,8 @@
       "course_name_snapshot": "紅樓夢",
       "credits_snapshot": 3.0,
       "requirement_group": "elective",
+      "requirement_section": "elective",
+      "program_course_name_snapshot": null,
       "notes": "",
       "source_page": 1,
       "evidence_match": true,
@@ -309,6 +363,7 @@
     },
     {
       "course_code": null,
+      "catalog_entry_id": "entry_8706a786ba0a2d36",
       "opening_units": [
         "中文系"
       ],
@@ -316,6 +371,8 @@
       "course_name_snapshot": "古典小說選(一)(二)",
       "credits_snapshot": 6.0,
       "requirement_group": "elective",
+      "requirement_section": "elective",
+      "program_course_name_snapshot": null,
       "notes": "",
       "source_page": 1,
       "evidence_match": true,
@@ -324,6 +381,7 @@
     },
     {
       "course_code": null,
+      "catalog_entry_id": "entry_465e453d566d734a",
       "opening_units": [
         "中文系"
       ],
@@ -331,6 +389,8 @@
       "course_name_snapshot": "古典戲劇選(一)(二)",
       "credits_snapshot": 6.0,
       "requirement_group": "elective",
+      "requirement_section": "elective",
+      "program_course_name_snapshot": null,
       "notes": "",
       "source_page": 1,
       "evidence_match": true,
@@ -339,6 +399,7 @@
     },
     {
       "course_code": null,
+      "catalog_entry_id": "entry_2a9a01b24c3c03c7",
       "opening_units": [
         "中文系"
       ],
@@ -346,6 +407,8 @@
       "course_name_snapshot": "臺灣古典文學概論",
       "credits_snapshot": 3.0,
       "requirement_group": "elective",
+      "requirement_section": "elective",
+      "program_course_name_snapshot": null,
       "notes": "",
       "source_page": 1,
       "evidence_match": true,
@@ -354,6 +417,7 @@
     },
     {
       "course_code": null,
+      "catalog_entry_id": "entry_4a876c1c025ec58d",
       "opening_units": [
         "中文系"
       ],
@@ -361,6 +425,8 @@
       "course_name_snapshot": "陶淵明詩文選讀",
       "credits_snapshot": 3.0,
       "requirement_group": "elective",
+      "requirement_section": "elective",
+      "program_course_name_snapshot": null,
       "notes": "",
       "source_page": 1,
       "evidence_match": true,
@@ -369,6 +435,7 @@
     },
     {
       "course_code": null,
+      "catalog_entry_id": "entry_b771393ad4612443",
       "opening_units": [
         "中文系"
       ],
@@ -376,6 +443,8 @@
       "course_name_snapshot": "李商隱詩",
       "credits_snapshot": 3.0,
       "requirement_group": "elective",
+      "requirement_section": "elective",
+      "program_course_name_snapshot": null,
       "notes": "",
       "source_page": 1,
       "evidence_match": true,
@@ -384,6 +453,7 @@
     },
     {
       "course_code": null,
+      "catalog_entry_id": "entry_af48ef1f08d1cedd",
       "opening_units": [
         "中文系"
       ],
@@ -391,6 +461,8 @@
       "course_name_snapshot": "當代戲曲(一)(二)",
       "credits_snapshot": 6.0,
       "requirement_group": "elective",
+      "requirement_section": "elective",
+      "program_course_name_snapshot": null,
       "notes": "",
       "source_page": 1,
       "evidence_match": true,
@@ -399,6 +471,7 @@
     },
     {
       "course_code": null,
+      "catalog_entry_id": "entry_e55ed74af4b21a25",
       "opening_units": [
         "中文系"
       ],
@@ -406,6 +479,8 @@
       "course_name_snapshot": "現代詩選與寫作",
       "credits_snapshot": 3.0,
       "requirement_group": "elective",
+      "requirement_section": "elective",
+      "program_course_name_snapshot": null,
       "notes": "現代文學與寫作課程至少 3 學分",
       "source_page": 1,
       "evidence_match": true,
@@ -414,6 +489,7 @@
     },
     {
       "course_code": null,
+      "catalog_entry_id": "entry_5aed16b8e0566350",
       "opening_units": [
         "中文系"
       ],
@@ -421,6 +497,8 @@
       "course_name_snapshot": "現代散文選與寫作",
       "credits_snapshot": 3.0,
       "requirement_group": "elective",
+      "requirement_section": "elective",
+      "program_course_name_snapshot": null,
       "notes": "",
       "source_page": 1,
       "evidence_match": true,
@@ -429,6 +507,7 @@
     },
     {
       "course_code": null,
+      "catalog_entry_id": "entry_6ad22112ca99b184",
       "opening_units": [
         "中文系"
       ],
@@ -436,6 +515,8 @@
       "course_name_snapshot": "現代小說選與寫作(一)(二)",
       "credits_snapshot": 6.0,
       "requirement_group": "elective",
+      "requirement_section": "elective",
+      "program_course_name_snapshot": null,
       "notes": "",
       "source_page": 1,
       "evidence_match": true,
@@ -444,6 +525,7 @@
     },
     {
       "course_code": null,
+      "catalog_entry_id": "entry_44c2f4cbee6c2549",
       "opening_units": [
         "中文系"
       ],
@@ -451,6 +533,8 @@
       "course_name_snapshot": "晚清到當代華文科幻小說",
       "credits_snapshot": 3.0,
       "requirement_group": "elective",
+      "requirement_section": "elective",
+      "program_course_name_snapshot": null,
       "notes": "",
       "source_page": 1,
       "evidence_match": true,
@@ -459,6 +543,7 @@
     },
     {
       "course_code": null,
+      "catalog_entry_id": "entry_086786c8eb29235e",
       "opening_units": [
         "中文系"
       ],
@@ -466,6 +551,8 @@
       "course_name_snapshot": "中外文學經典選讀(一)(二)",
       "credits_snapshot": 6.0,
       "requirement_group": "elective",
+      "requirement_section": "elective",
+      "program_course_name_snapshot": null,
       "notes": "",
       "source_page": 1,
       "evidence_match": true,
@@ -474,6 +561,7 @@
     },
     {
       "course_code": null,
+      "catalog_entry_id": "entry_fc1bf5fe563dc2c8",
       "opening_units": [
         "中文系"
       ],
@@ -481,6 +569,8 @@
       "course_name_snapshot": "華文文學與性別文化(一)(二)",
       "credits_snapshot": 6.0,
       "requirement_group": "elective",
+      "requirement_section": "elective",
+      "program_course_name_snapshot": null,
       "notes": "",
       "source_page": 2,
       "evidence_match": false,
@@ -489,6 +579,7 @@
     },
     {
       "course_code": null,
+      "catalog_entry_id": "entry_dd8588f933b1903f",
       "opening_units": [
         "中文系"
       ],
@@ -496,6 +587,8 @@
       "course_name_snapshot": "現代文學與影像轉譯",
       "credits_snapshot": 3.0,
       "requirement_group": "elective",
+      "requirement_section": "elective",
+      "program_course_name_snapshot": null,
       "notes": "",
       "source_page": 2,
       "evidence_match": true,
@@ -504,6 +597,7 @@
     },
     {
       "course_code": null,
+      "catalog_entry_id": "entry_2351683f0b73eb05",
       "opening_units": [
         "社會系"
       ],
@@ -511,6 +605,8 @@
       "course_name_snapshot": "閱讀與寫作",
       "credits_snapshot": 3.0,
       "requirement_group": "elective",
+      "requirement_section": "elective",
+      "program_course_name_snapshot": null,
       "notes": "",
       "source_page": 2,
       "evidence_match": true,
@@ -519,6 +615,7 @@
     },
     {
       "course_code": null,
+      "catalog_entry_id": "entry_b1f21c02c6bfb7c1",
       "opening_units": [
         "劇藝系"
       ],
@@ -526,6 +623,8 @@
       "course_name_snapshot": "劇本創作(一)(二)",
       "credits_snapshot": 6.0,
       "requirement_group": "elective",
+      "requirement_section": "elective",
+      "program_course_name_snapshot": null,
       "notes": "",
       "source_page": 2,
       "evidence_match": true,
@@ -534,6 +633,7 @@
     },
     {
       "course_code": null,
+      "catalog_entry_id": "entry_b12fcbfc4e50104e",
       "opening_units": [
         "中文系"
       ],
@@ -541,6 +641,8 @@
       "course_name_snapshot": "地方敘事與數位遊戲設計",
       "credits_snapshot": 3.0,
       "requirement_group": "elective",
+      "requirement_section": "elective",
+      "program_course_name_snapshot": null,
       "notes": "跨域實作應用課程至少 6 學分",
       "source_page": 2,
       "evidence_match": true,
@@ -549,6 +651,7 @@
     },
     {
       "course_code": null,
+      "catalog_entry_id": "entry_e15e4fa4a42aceda",
       "opening_units": [
         "中文系"
       ],
@@ -556,6 +659,8 @@
       "course_name_snapshot": "地方文化典藏與報導應用",
       "credits_snapshot": 3.0,
       "requirement_group": "elective",
+      "requirement_section": "elective",
+      "program_course_name_snapshot": null,
       "notes": "",
       "source_page": 2,
       "evidence_match": true,
@@ -564,6 +669,7 @@
     },
     {
       "course_code": null,
+      "catalog_entry_id": "entry_86328ddb058279e4",
       "opening_units": [
         "中文系"
       ],
@@ -571,6 +677,8 @@
       "course_name_snapshot": "中文之路專題製作",
       "credits_snapshot": 3.0,
       "requirement_group": "elective",
+      "requirement_section": "elective",
+      "program_course_name_snapshot": null,
       "notes": "",
       "source_page": 2,
       "evidence_match": true,
@@ -579,6 +687,7 @@
     },
     {
       "course_code": null,
+      "catalog_entry_id": "entry_1dc3343858c746ad",
       "opening_units": [
         "中文系"
       ],
@@ -586,6 +695,8 @@
       "course_name_snapshot": "臺灣語言踏查之旅",
       "credits_snapshot": 3.0,
       "requirement_group": "elective",
+      "requirement_section": "elective",
+      "program_course_name_snapshot": null,
       "notes": "",
       "source_page": 2,
       "evidence_match": true,
@@ -594,6 +705,7 @@
     },
     {
       "course_code": null,
+      "catalog_entry_id": "entry_ad99446f44fb8cd8",
       "opening_units": [
         "博雅向度一"
       ],
@@ -601,6 +713,8 @@
       "course_name_snapshot": "紀錄片與台灣社會",
       "credits_snapshot": 3.0,
       "requirement_group": "elective",
+      "requirement_section": "elective",
+      "program_course_name_snapshot": null,
       "notes": "",
       "source_page": 2,
       "evidence_match": true,
@@ -609,6 +723,7 @@
     },
     {
       "course_code": null,
+      "catalog_entry_id": "entry_f711407d3cbcbda2",
       "opening_units": [
         "博雅向度一"
       ],
@@ -616,6 +731,8 @@
       "course_name_snapshot": "紀錄片企劃與製作",
       "credits_snapshot": 3.0,
       "requirement_group": "elective",
+      "requirement_section": "elective",
+      "program_course_name_snapshot": null,
       "notes": "",
       "source_page": 2,
       "evidence_match": true,
@@ -624,6 +741,7 @@
     },
     {
       "course_code": null,
+      "catalog_entry_id": "entry_464460dea47546c5",
       "opening_units": [
         "博雅向度三"
       ],
@@ -631,6 +749,8 @@
       "course_name_snapshot": "地方文化採集與應用",
       "credits_snapshot": 3.0,
       "requirement_group": "elective",
+      "requirement_section": "elective",
+      "program_course_name_snapshot": null,
       "notes": "",
       "source_page": 2,
       "evidence_match": true,
@@ -639,6 +759,7 @@
     },
     {
       "course_code": null,
+      "catalog_entry_id": "entry_d4ca7a079285160c",
       "opening_units": [
         "博雅向度三"
       ],
@@ -646,6 +767,8 @@
       "course_name_snapshot": "創造力與社會創新",
       "credits_snapshot": 3.0,
       "requirement_group": "elective",
+      "requirement_section": "elective",
+      "program_course_name_snapshot": null,
       "notes": "",
       "source_page": 2,
       "evidence_match": true,
@@ -654,6 +777,7 @@
     },
     {
       "course_code": null,
+      "catalog_entry_id": "entry_77b762e64bb0bf08",
       "opening_units": [
         "博雅向度四"
       ],
@@ -661,6 +785,8 @@
       "course_name_snapshot": "故事創意與數位繪本",
       "credits_snapshot": 2.0,
       "requirement_group": "elective",
+      "requirement_section": "elective",
+      "program_course_name_snapshot": null,
       "notes": "",
       "source_page": 2,
       "evidence_match": true,
@@ -669,6 +795,7 @@
     },
     {
       "course_code": null,
+      "catalog_entry_id": "entry_cca8776b4cdbf730",
       "opening_units": [
         "博雅向度四"
       ],
@@ -676,6 +803,8 @@
       "course_name_snapshot": "用影像說故事:探索科技、環境與社會",
       "credits_snapshot": 2.0,
       "requirement_group": "elective",
+      "requirement_section": "elective",
+      "program_course_name_snapshot": null,
       "notes": "",
       "source_page": 2,
       "evidence_match": false,
@@ -684,6 +813,7 @@
     },
     {
       "course_code": null,
+      "catalog_entry_id": "entry_344c2cfbdf9e9576",
       "opening_units": [
         "博雅向度四"
       ],
@@ -691,6 +821,8 @@
       "course_name_snapshot": "探尋建築工藝中的高雄故事",
       "credits_snapshot": 3.0,
       "requirement_group": "elective",
+      "requirement_section": "elective",
+      "program_course_name_snapshot": null,
       "notes": "",
       "source_page": 2,
       "evidence_match": true,
@@ -699,6 +831,7 @@
     },
     {
       "course_code": null,
+      "catalog_entry_id": "entry_fff3942faea4a031",
       "opening_units": [
         "跨院選修"
       ],
@@ -706,6 +839,8 @@
       "course_name_snapshot": "音樂故事劇場",
       "credits_snapshot": 3.0,
       "requirement_group": "elective",
+      "requirement_section": "elective",
+      "program_course_name_snapshot": null,
       "notes": "",
       "source_page": 2,
       "evidence_match": true,
@@ -714,6 +849,7 @@
     },
     {
       "course_code": null,
+      "catalog_entry_id": "entry_c28564405ab73e53",
       "opening_units": [
         "跨院選修"
       ],
@@ -721,6 +857,8 @@
       "course_name_snapshot": "當代台灣的人文視野與創意下的社會實踐",
       "credits_snapshot": 3.0,
       "requirement_group": "elective",
+      "requirement_section": "elective",
+      "program_course_name_snapshot": null,
       "notes": "",
       "source_page": 2,
       "evidence_match": false,
@@ -729,6 +867,7 @@
     },
     {
       "course_code": null,
+      "catalog_entry_id": "entry_65197e1e932993e3",
       "opening_units": [
         "跨院選修"
       ],
@@ -736,6 +875,8 @@
       "course_name_snapshot": "文化設計與展演",
       "credits_snapshot": 3.0,
       "requirement_group": "elective",
+      "requirement_section": "elective",
+      "program_course_name_snapshot": null,
       "notes": "",
       "source_page": 2,
       "evidence_match": true,
@@ -744,6 +885,7 @@
     },
     {
       "course_code": null,
+      "catalog_entry_id": "entry_1d567e0793e2e063",
       "opening_units": [
         "人科學程"
       ],
@@ -751,6 +893,8 @@
       "course_name_snapshot": "創意設計方法",
       "credits_snapshot": 3.0,
       "requirement_group": "elective",
+      "requirement_section": "elective",
+      "program_course_name_snapshot": null,
       "notes": "",
       "source_page": 2,
       "evidence_match": true,
@@ -759,6 +903,7 @@
     },
     {
       "course_code": null,
+      "catalog_entry_id": "entry_4510ff22e8a993ae",
       "opening_units": [
         "人科學程"
       ],
@@ -766,6 +911,8 @@
       "course_name_snapshot": "設計溝通與表達",
       "credits_snapshot": 3.0,
       "requirement_group": "elective",
+      "requirement_section": "elective",
+      "program_course_name_snapshot": null,
       "notes": "",
       "source_page": 2,
       "evidence_match": true,
@@ -774,6 +921,7 @@
     },
     {
       "course_code": null,
+      "catalog_entry_id": "entry_a600a90aff31c0c9",
       "opening_units": [
         "社會系"
       ],
@@ -781,6 +929,8 @@
       "course_name_snapshot": "社區文創設計",
       "credits_snapshot": 3.0,
       "requirement_group": "elective",
+      "requirement_section": "elective",
+      "program_course_name_snapshot": null,
       "notes": "",
       "source_page": 2,
       "evidence_match": true,
@@ -789,6 +939,7 @@
     },
     {
       "course_code": null,
+      "catalog_entry_id": "entry_c9480ced3ae05408",
       "opening_units": [
         "劇藝系"
       ],
@@ -796,6 +947,8 @@
       "course_name_snapshot": "音樂劇表演與製作",
       "credits_snapshot": 3.0,
       "requirement_group": "elective",
+      "requirement_section": "elective",
+      "program_course_name_snapshot": null,
       "notes": "",
       "source_page": 2,
       "evidence_match": true,
@@ -806,6 +959,55 @@
   "structured_requirements": {
     "core_credits_text_value": 9,
     "minimum_total_credits": 21,
-    "minimum_outside_home_department_credits": 6
+    "minimum_outside_home_department_credits": 6,
+    "named_group_selection_constraints": [
+      {
+        "constraint_id": "constraint_aa6a2d33bd035879",
+        "kind": "select_named_groups",
+        "options": [
+          {
+            "name": "文學",
+            "catalog_entry_ids": [
+              "entry_aba3a6407fa7b7e4"
+            ],
+            "course_names": [
+              "中國文學史(一)(二)"
+            ]
+          },
+          {
+            "name": "思想",
+            "catalog_entry_ids": [
+              "entry_a51a2bfa20671fa5"
+            ],
+            "course_names": [
+              "中國思想史(一)(二)"
+            ]
+          },
+          {
+            "name": "語言文字",
+            "catalog_entry_ids": [
+              "entry_2208f62120ddca26",
+              "entry_940fd9ac7fa0c22d",
+              "entry_dc42c81a3ae1edf7",
+              "entry_e5469efbdb3475f8"
+            ],
+            "course_names": [
+              "語言學概論",
+              "文字學",
+              "聲韻學",
+              "訓詁學"
+            ]
+          }
+        ],
+        "min_groups": 1,
+        "max_groups": 1,
+        "minimum_credits_per_selected_group": 6.0,
+        "requirement_group": "core",
+        "requirement_section": "core",
+        "source_page": 1,
+        "source_text": "中文系基礎必修課程文學/思想/語言文字三領域擇一修習至少 6 學分",
+        "validation_status": "source_text_match"
+      }
+    ]
   }
 }

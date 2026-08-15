@@ -23,7 +23,7 @@
       "last_modified": "Fri, 31 May 2024 07:14:01 GMT",
       "content_length": 132819
     },
-    "parser_version": "0.2.1",
+    "parser_version": "0.2.2",
     "extractor_versions": {
       "pypdf": "6.10.0",
       "pdfplumber": "0.11.9"
@@ -43,6 +43,7 @@
   "course_catalog": [
     {
       "course_code": null,
+      "catalog_entry_id": "entry_1e750269471b69c9",
       "opening_units": [
         "電機系"
       ],
@@ -50,6 +51,8 @@
       "course_name_snapshot": "電路學(一)",
       "credits_snapshot": 3.0,
       "requirement_group": "core",
+      "requirement_section": "core",
+      "program_course_name_snapshot": null,
       "notes": "",
       "source_page": 1,
       "evidence_match": true,
@@ -58,6 +61,7 @@
     },
     {
       "course_code": null,
+      "catalog_entry_id": "entry_b1dafdf2f5872b87",
       "opening_units": [
         "電機系"
       ],
@@ -65,6 +69,8 @@
       "course_name_snapshot": "電子學(一)",
       "credits_snapshot": 3.0,
       "requirement_group": "core",
+      "requirement_section": "core",
+      "program_course_name_snapshot": null,
       "notes": "",
       "source_page": 1,
       "evidence_match": true,
@@ -73,6 +79,7 @@
     },
     {
       "course_code": null,
+      "catalog_entry_id": "entry_d4b396948c16c29c",
       "opening_units": [
         "電機系",
         "資工系"
@@ -81,6 +88,8 @@
       "course_name_snapshot": "數位系統設計/數位系統",
       "credits_snapshot": 3.0,
       "requirement_group": "core",
+      "requirement_section": "core",
+      "program_course_name_snapshot": null,
       "notes": "",
       "source_page": 1,
       "evidence_match": true,
@@ -89,6 +98,7 @@
     },
     {
       "course_code": null,
+      "catalog_entry_id": "entry_1689bca47289b43c",
       "opening_units": [
         "電機系"
       ],
@@ -96,6 +106,8 @@
       "course_name_snapshot": "VLSI設計導論",
       "credits_snapshot": 3.0,
       "requirement_group": "core",
+      "requirement_section": "core",
+      "program_course_name_snapshot": null,
       "notes": "",
       "source_page": 1,
       "evidence_match": true,
@@ -104,6 +116,7 @@
     },
     {
       "course_code": null,
+      "catalog_entry_id": "entry_0b6841687c5d7843",
       "opening_units": [
         "電機系",
         "資工系"
@@ -112,6 +125,8 @@
       "course_name_snapshot": "計算機組織",
       "credits_snapshot": 3.0,
       "requirement_group": "core",
+      "requirement_section": "core",
+      "program_course_name_snapshot": null,
       "notes": "",
       "source_page": 1,
       "evidence_match": true,
@@ -120,6 +135,7 @@
     },
     {
       "course_code": null,
+      "catalog_entry_id": "entry_00e10da7dfc4017a",
       "opening_units": [
         "電機系",
         "資工系"
@@ -128,6 +144,8 @@
       "course_name_snapshot": "硬體描述語言",
       "credits_snapshot": 3.0,
       "requirement_group": "core",
+      "requirement_section": "core",
+      "program_course_name_snapshot": null,
       "notes": "",
       "source_page": 1,
       "evidence_match": true,
@@ -136,6 +154,7 @@
     },
     {
       "course_code": null,
+      "catalog_entry_id": "entry_0d6ae8518df1ef3b",
       "opening_units": [
         "電機系"
       ],
@@ -143,6 +162,8 @@
       "course_name_snapshot": "實用數位系統設計",
       "credits_snapshot": 3.0,
       "requirement_group": "core",
+      "requirement_section": "core",
+      "program_course_name_snapshot": null,
       "notes": "",
       "source_page": 1,
       "evidence_match": true,
@@ -151,6 +172,7 @@
     },
     {
       "course_code": null,
+      "catalog_entry_id": "entry_77af680d879e68e9",
       "opening_units": [
         "電機碩"
       ],
@@ -158,6 +180,8 @@
       "course_name_snapshot": "系統晶片設計",
       "credits_snapshot": 3.0,
       "requirement_group": "core",
+      "requirement_section": "core",
+      "program_course_name_snapshot": null,
       "notes": "",
       "source_page": 1,
       "evidence_match": true,
@@ -166,6 +190,7 @@
     },
     {
       "course_code": null,
+      "catalog_entry_id": "entry_3e6b73d596611ad9",
       "opening_units": [
         "電機碩"
       ],
@@ -173,6 +198,8 @@
       "course_name_snapshot": "系統晶片測試",
       "credits_snapshot": 3.0,
       "requirement_group": "core",
+      "requirement_section": "core",
+      "program_course_name_snapshot": null,
       "notes": "",
       "source_page": 1,
       "evidence_match": true,
@@ -181,6 +208,7 @@
     },
     {
       "course_code": null,
+      "catalog_entry_id": "entry_a2df90ebdc0e5c46",
       "opening_units": [
         "電機碩"
       ],
@@ -188,6 +216,8 @@
       "course_name_snapshot": "超大型積體電路數位訊號處理",
       "credits_snapshot": 3.0,
       "requirement_group": "core",
+      "requirement_section": "core",
+      "program_course_name_snapshot": null,
       "notes": "",
       "source_page": 1,
       "evidence_match": true,
@@ -196,13 +226,16 @@
     },
     {
       "course_code": null,
+      "catalog_entry_id": "entry_8885142244f8fda5",
       "opening_units": [
         "中山大學數位自學課程平台-Coursera"
       ],
       "opening_unit_snapshot": "中山大學數位自學課程平台-Coursera",
-      "course_name_snapshot": "演算法基礎 (Algorithmic Toolbox)",
+      "course_name_snapshot": "演算法基礎 (AlgorithmicToolbox)",
       "credits_snapshot": 2.0,
       "requirement_group": "core",
+      "requirement_section": "core",
+      "program_course_name_snapshot": null,
       "notes": "英語授課",
       "source_page": 1,
       "evidence_match": false,
@@ -211,6 +244,7 @@
     },
     {
       "course_code": null,
+      "catalog_entry_id": "entry_4e20b172bb168f6f",
       "opening_units": [
         "中山大學數位自學課程平台-Coursera"
       ],
@@ -218,6 +252,8 @@
       "course_name_snapshot": "數位系統: 從邏輯閘到處理器",
       "credits_snapshot": 2.0,
       "requirement_group": "core",
+      "requirement_section": "core",
+      "program_course_name_snapshot": null,
       "notes": "英語授課",
       "source_page": 1,
       "evidence_match": true,
@@ -226,13 +262,16 @@
     },
     {
       "course_code": null,
+      "catalog_entry_id": "entry_6ca41e474f9999fe",
       "opening_units": [
         "中山大學數位自學課程平台-Coursera"
       ],
       "opening_unit_snapshot": "中山大學數位自學課程平台-Coursera",
-      "course_name_snapshot": "演算法進階與複雜度(Advanced Algorithms and Complexity)",
+      "course_name_snapshot": "演算法進階與複雜度(AdvancedAlgorithms and Complexity)",
       "credits_snapshot": 2.0,
       "requirement_group": "core",
+      "requirement_section": "core",
+      "program_course_name_snapshot": null,
       "notes": "英語授課",
       "source_page": 1,
       "evidence_match": false,
@@ -241,6 +280,7 @@
     },
     {
       "course_code": null,
+      "catalog_entry_id": "entry_17395fd4d9760c06",
       "opening_units": [
         "中山大學數位自學課程平台-Coursera"
       ],
@@ -248,6 +288,8 @@
       "course_name_snapshot": "硬體安全",
       "credits_snapshot": 1.0,
       "requirement_group": "core",
+      "requirement_section": "core",
+      "program_course_name_snapshot": null,
       "notes": "英語授課",
       "source_page": 1,
       "evidence_match": true,
@@ -256,13 +298,16 @@
     },
     {
       "course_code": null,
+      "catalog_entry_id": "entry_ccce7d0fd30af528",
       "opening_units": [
         "中山大學數位自學課程平台-Coursera"
       ],
       "opening_unit_snapshot": "中山大學數位自學課程平台-Coursera",
-      "course_name_snapshot": "圖論演算法 (Algorithms on Graphs)",
+      "course_name_snapshot": "圖論演算法 (Algorithms onGraphs)",
       "credits_snapshot": 3.0,
       "requirement_group": "core",
+      "requirement_section": "core",
+      "program_course_name_snapshot": null,
       "notes": "英語授課",
       "source_page": 1,
       "evidence_match": false,
@@ -271,6 +316,7 @@
     },
     {
       "course_code": null,
+      "catalog_entry_id": "entry_7b45fd24fed16839",
       "opening_units": [
         "電機碩"
       ],
@@ -278,6 +324,8 @@
       "course_name_snapshot": "高等計算機結構",
       "credits_snapshot": 3.0,
       "requirement_group": "elective",
+      "requirement_section": "elective",
+      "program_course_name_snapshot": null,
       "notes": "任選1門",
       "source_page": 1,
       "evidence_match": true,
@@ -286,6 +334,7 @@
     },
     {
       "course_code": null,
+      "catalog_entry_id": "entry_285f2650fb425386",
       "opening_units": [
         "電機碩"
       ],
@@ -293,7 +342,9 @@
       "course_name_snapshot": "FPGA系統設計實務",
       "credits_snapshot": 3.0,
       "requirement_group": "elective",
-      "notes": "",
+      "requirement_section": "elective",
+      "program_course_name_snapshot": null,
+      "notes": "任選1門",
       "source_page": 1,
       "evidence_match": true,
       "validation_status": "needs_course_code_verification",
@@ -301,6 +352,7 @@
     },
     {
       "course_code": null,
+      "catalog_entry_id": "entry_32adde152e120382",
       "opening_units": [
         "資工碩"
       ],
@@ -308,7 +360,9 @@
       "course_name_snapshot": "SOPC 設計實務及FPGA系統整合設計",
       "credits_snapshot": 3.0,
       "requirement_group": "elective",
-      "notes": "",
+      "requirement_section": "elective",
+      "program_course_name_snapshot": null,
+      "notes": "任選1門",
       "source_page": 1,
       "evidence_match": false,
       "validation_status": "needs_course_code_verification",
@@ -316,6 +370,7 @@
     },
     {
       "course_code": null,
+      "catalog_entry_id": "entry_840e99d9d366c2c6",
       "opening_units": [
         "資工碩"
       ],
@@ -323,7 +378,9 @@
       "course_name_snapshot": "電子系統層級設計與驗證",
       "credits_snapshot": 3.0,
       "requirement_group": "elective",
-      "notes": "",
+      "requirement_section": "elective",
+      "program_course_name_snapshot": null,
+      "notes": "任選1門",
       "source_page": 1,
       "evidence_match": true,
       "validation_status": "needs_course_code_verification",
@@ -331,6 +388,7 @@
     },
     {
       "course_code": null,
+      "catalog_entry_id": "entry_d0e0ffa6299fd3bf",
       "opening_units": [
         "電機碩"
       ],
@@ -338,7 +396,9 @@
       "course_name_snapshot": "高可靠度系統之設計、測試與應用",
       "credits_snapshot": 3.0,
       "requirement_group": "elective",
-      "notes": "",
+      "requirement_section": "elective",
+      "program_course_name_snapshot": null,
+      "notes": "任選1門",
       "source_page": 1,
       "evidence_match": false,
       "validation_status": "needs_course_code_verification",
@@ -346,6 +406,7 @@
     },
     {
       "course_code": null,
+      "catalog_entry_id": "entry_34024c34cc718e77",
       "opening_units": [
         "電機碩"
       ],
@@ -353,7 +414,9 @@
       "course_name_snapshot": "數位通訊電路設計",
       "credits_snapshot": 3.0,
       "requirement_group": "elective",
-      "notes": "",
+      "requirement_section": "elective",
+      "program_course_name_snapshot": null,
+      "notes": "任選1門",
       "source_page": 1,
       "evidence_match": true,
       "validation_status": "needs_course_code_verification",
@@ -361,6 +424,7 @@
     },
     {
       "course_code": null,
+      "catalog_entry_id": "entry_18a5b74c07a23591",
       "opening_units": [
         "資工碩"
       ],
@@ -368,7 +432,9 @@
       "course_name_snapshot": "算術處理器設計與實作",
       "credits_snapshot": 3.0,
       "requirement_group": "elective",
-      "notes": "",
+      "requirement_section": "elective",
+      "program_course_name_snapshot": null,
+      "notes": "任選1門",
       "source_page": 1,
       "evidence_match": true,
       "validation_status": "needs_course_code_verification",
@@ -378,6 +444,39 @@
   "structured_requirements": {
     "minimum_total_credits": 28,
     "core_credits_text_value": 25,
-    "minimum_outside_home_department_credits": 6
+    "minimum_outside_home_department_credits": 6,
+    "entry_selection_constraints": [
+      {
+        "constraint_id": "constraint_a8ff023a8a40d507",
+        "kind": "select_entries",
+        "catalog_entry_ids": [
+          "entry_7b45fd24fed16839",
+          "entry_285f2650fb425386",
+          "entry_32adde152e120382",
+          "entry_840e99d9d366c2c6",
+          "entry_d0e0ffa6299fd3bf",
+          "entry_34024c34cc718e77",
+          "entry_18a5b74c07a23591"
+        ],
+        "course_names": [
+          "高等計算機結構",
+          "FPGA系統設計實務",
+          "SOPC 設計實務及FPGA系統整合設計",
+          "電子系統層級設計與驗證",
+          "高可靠度系統之設計、測試與應用",
+          "數位通訊電路設計",
+          "算術處理器設計與實作"
+        ],
+        "min_entries": 1,
+        "max_entries": 1,
+        "declared_option_count": null,
+        "option_count_matches": true,
+        "requirement_group": "elective",
+        "requirement_section": "elective",
+        "source_page": 1,
+        "source_text": "任選1門",
+        "validation_status": "source_text_match"
+      }
+    ]
   }
 }

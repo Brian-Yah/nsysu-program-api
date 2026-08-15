@@ -42,6 +42,7 @@
       "courses": [
         {
           "course_code": null,
+          "catalog_entry_id": "entry_b47cc75f0406e353",
           "opening_units": [
             "各開課系所",
             "資工系"
@@ -50,6 +51,8 @@
           "course_name_snapshot": "計算機概論或C程式設計(一)",
           "credits_snapshot": 3.0,
           "requirement_group": "core",
+          "requirement_section": "core",
+          "program_course_name_snapshot": null,
           "notes": "",
           "source_page": 1,
           "evidence_match": false,
@@ -58,6 +61,7 @@
         },
         {
           "course_code": null,
+          "catalog_entry_id": "entry_62380c217612cf04",
           "opening_units": [
             "應數系",
             "電機系",
@@ -69,6 +73,8 @@
           "course_name_snapshot": "計算機程式或程式設計或C程式設計(二)",
           "credits_snapshot": 3.0,
           "requirement_group": "core",
+          "requirement_section": "core",
+          "program_course_name_snapshot": null,
           "notes": "",
           "source_page": 1,
           "evidence_match": false,
@@ -77,6 +83,7 @@
         },
         {
           "course_code": null,
+          "catalog_entry_id": "entry_9ff4840e9b90a208",
           "opening_units": [
             "應數系",
             "資工系",
@@ -87,6 +94,8 @@
           "course_name_snapshot": "資料結構",
           "credits_snapshot": 3.0,
           "requirement_group": "core",
+          "requirement_section": "core",
+          "program_course_name_snapshot": null,
           "notes": "",
           "source_page": 1,
           "evidence_match": true,
@@ -95,6 +104,7 @@
         },
         {
           "course_code": null,
+          "catalog_entry_id": "entry_403c7eaef9ec2c80",
           "opening_units": [
             "資管系"
           ],
@@ -102,6 +112,8 @@
           "course_name_snapshot": "軟體工程",
           "credits_snapshot": 3.0,
           "requirement_group": "elective",
+          "requirement_section": "elective",
+          "program_course_name_snapshot": null,
           "notes": "【*詳見備註1】",
           "source_page": 1,
           "evidence_match": true,
@@ -110,6 +122,7 @@
         },
         {
           "course_code": null,
+          "catalog_entry_id": "entry_8de1ac7df2d86da0",
           "opening_units": [
             "資工系",
             "資管系"
@@ -118,6 +131,8 @@
           "course_name_snapshot": "物件導向程式設計或JAVA物件導向程式設計",
           "credits_snapshot": 3.0,
           "requirement_group": "elective",
+          "requirement_section": "elective",
+          "program_course_name_snapshot": null,
           "notes": "【*詳見備註1】",
           "source_page": 1,
           "evidence_match": false,
@@ -126,6 +141,7 @@
         },
         {
           "course_code": null,
+          "catalog_entry_id": "entry_3f08a5ffe5e5276f",
           "opening_units": [
             "資工系",
             "電機系",
@@ -135,6 +151,8 @@
           "course_name_snapshot": "作業系統",
           "credits_snapshot": 3.0,
           "requirement_group": "elective",
+          "requirement_section": "elective",
+          "program_course_name_snapshot": null,
           "notes": "【*詳見備註1】",
           "source_page": 1,
           "evidence_match": true,
@@ -143,6 +161,7 @@
         },
         {
           "course_code": null,
+          "catalog_entry_id": "entry_45dbfa063d7872a1",
           "opening_units": [
             "資管系"
           ],
@@ -150,6 +169,8 @@
           "course_name_snapshot": "系統分析與設計",
           "credits_snapshot": 3.0,
           "requirement_group": "elective",
+          "requirement_section": "elective",
+          "program_course_name_snapshot": null,
           "notes": "【*詳見備註1】",
           "source_page": 1,
           "evidence_match": true,
@@ -158,6 +179,7 @@
         },
         {
           "course_code": null,
+          "catalog_entry_id": "entry_e0be0328f673c027",
           "opening_units": [
             "資管系",
             "資工系"
@@ -166,6 +188,8 @@
           "course_name_snapshot": "資料庫管理或網際網路資料庫",
           "credits_snapshot": 3.0,
           "requirement_group": "elective",
+          "requirement_section": "elective",
+          "program_course_name_snapshot": null,
           "notes": "【*詳見備註1】",
           "source_page": 1,
           "evidence_match": false,
@@ -174,6 +198,7 @@
         },
         {
           "course_code": null,
+          "catalog_entry_id": "entry_e95e945832291462",
           "opening_units": [
             "應數系",
             "資工系",
@@ -183,6 +208,8 @@
           "course_name_snapshot": "離散數學(一)或離散數學",
           "credits_snapshot": 3.0,
           "requirement_group": "elective",
+          "requirement_section": "elective",
+          "program_course_name_snapshot": null,
           "notes": "",
           "source_page": 1,
           "evidence_match": false,
@@ -191,6 +218,7 @@
         },
         {
           "course_code": null,
+          "catalog_entry_id": "entry_35fce72a96c83d3a",
           "opening_units": [
             "應數系"
           ],
@@ -198,6 +226,8 @@
           "course_name_snapshot": "離散數學(二)",
           "credits_snapshot": 3.0,
           "requirement_group": "elective",
+          "requirement_section": "elective",
+          "program_course_name_snapshot": null,
           "notes": "",
           "source_page": 1,
           "evidence_match": true,
@@ -206,6 +236,7 @@
         },
         {
           "course_code": null,
+          "catalog_entry_id": "entry_8951bdbc2d7a45b5",
           "opening_units": [
             "應數系",
             "物理系",
@@ -215,6 +246,8 @@
           "course_name_snapshot": "數值分析(一)或數值分析",
           "credits_snapshot": 3.0,
           "requirement_group": "elective",
+          "requirement_section": "elective",
+          "program_course_name_snapshot": null,
           "notes": "",
           "source_page": 1,
           "evidence_match": false,
@@ -223,6 +256,7 @@
         },
         {
           "course_code": null,
+          "catalog_entry_id": "entry_4b54a5a5428739a9",
           "opening_units": [
             "應數系"
           ],
@@ -230,6 +264,8 @@
           "course_name_snapshot": "數值分析(二)",
           "credits_snapshot": 3.0,
           "requirement_group": "elective",
+          "requirement_section": "elective",
+          "program_course_name_snapshot": null,
           "notes": "",
           "source_page": 1,
           "evidence_match": true,
@@ -238,6 +274,7 @@
         },
         {
           "course_code": null,
+          "catalog_entry_id": "entry_cc4996f2116fddaa",
           "opening_units": [
             "應數系"
           ],
@@ -245,6 +282,8 @@
           "course_name_snapshot": "數學統計軟體應用",
           "credits_snapshot": 3.0,
           "requirement_group": "elective",
+          "requirement_section": "elective",
+          "program_course_name_snapshot": null,
           "notes": "",
           "source_page": 1,
           "evidence_match": true,
@@ -253,6 +292,7 @@
         },
         {
           "course_code": null,
+          "catalog_entry_id": "entry_9842d2cca7899eb6",
           "opening_units": [
             "資工系",
             "資管系",
@@ -263,6 +303,8 @@
           "course_name_snapshot": "電腦網路或企業資料通訊或計算機網路",
           "credits_snapshot": 3.0,
           "requirement_group": "elective",
+          "requirement_section": "elective",
+          "program_course_name_snapshot": null,
           "notes": "",
           "source_page": 1,
           "evidence_match": false,
@@ -271,6 +313,7 @@
         },
         {
           "course_code": null,
+          "catalog_entry_id": "entry_7882125c262d6aa8",
           "opening_units": [
             "資工系"
           ],
@@ -278,6 +321,8 @@
           "course_name_snapshot": "演算法",
           "credits_snapshot": 3.0,
           "requirement_group": "elective",
+          "requirement_section": "elective",
+          "program_course_name_snapshot": null,
           "notes": "",
           "source_page": 1,
           "evidence_match": true,
@@ -286,6 +331,7 @@
         },
         {
           "course_code": null,
+          "catalog_entry_id": "entry_71e22412bd307ba3",
           "opening_units": [
             "資工系"
           ],
@@ -293,6 +339,8 @@
           "course_name_snapshot": "高等程式設計與實作",
           "credits_snapshot": 3.0,
           "requirement_group": "elective",
+          "requirement_section": "elective",
+          "program_course_name_snapshot": null,
           "notes": "",
           "source_page": 1,
           "evidence_match": true,
@@ -322,6 +370,7 @@
       "courses": [
         {
           "course_code": null,
+          "catalog_entry_id": "entry_76bfe1351ca69918",
           "opening_units": [
             "各開課系所",
             "資工系"
@@ -330,6 +379,8 @@
           "course_name_snapshot": "計算機概論或C程式設計(一)",
           "credits_snapshot": 3.0,
           "requirement_group": "core",
+          "requirement_section": "core",
+          "program_course_name_snapshot": null,
           "notes": "",
           "source_page": 3,
           "evidence_match": false,
@@ -338,6 +389,7 @@
         },
         {
           "course_code": null,
+          "catalog_entry_id": "entry_ca688e7d375553c0",
           "opening_units": [
             "應數系",
             "電機系",
@@ -349,6 +401,8 @@
           "course_name_snapshot": "計算機程式或程式設計或C程式設計(二)",
           "credits_snapshot": 3.0,
           "requirement_group": "core",
+          "requirement_section": "core",
+          "program_course_name_snapshot": null,
           "notes": "",
           "source_page": 3,
           "evidence_match": false,
@@ -357,6 +411,7 @@
         },
         {
           "course_code": null,
+          "catalog_entry_id": "entry_bfe2cce33451e935",
           "opening_units": [
             "應數系",
             "資工系",
@@ -367,6 +422,8 @@
           "course_name_snapshot": "資料結構",
           "credits_snapshot": 3.0,
           "requirement_group": "core",
+          "requirement_section": "core",
+          "program_course_name_snapshot": null,
           "notes": "",
           "source_page": 3,
           "evidence_match": true,
@@ -375,6 +432,7 @@
         },
         {
           "course_code": null,
+          "catalog_entry_id": "entry_00eb104815f73b04",
           "opening_units": [
             "資管系"
           ],
@@ -382,6 +440,8 @@
           "course_name_snapshot": "軟體工程",
           "credits_snapshot": 3.0,
           "requirement_group": "elective",
+          "requirement_section": "elective",
+          "program_course_name_snapshot": null,
           "notes": "【*詳見備註1】",
           "source_page": 3,
           "evidence_match": true,
@@ -390,6 +450,7 @@
         },
         {
           "course_code": null,
+          "catalog_entry_id": "entry_ba3d35a086bde1c9",
           "opening_units": [
             "資工系",
             "資管系"
@@ -398,6 +459,8 @@
           "course_name_snapshot": "物件導向程式設計或JAVA物件導向程式設計",
           "credits_snapshot": 3.0,
           "requirement_group": "elective",
+          "requirement_section": "elective",
+          "program_course_name_snapshot": null,
           "notes": "【*詳見備註1】",
           "source_page": 3,
           "evidence_match": false,
@@ -406,6 +469,7 @@
         },
         {
           "course_code": null,
+          "catalog_entry_id": "entry_0ed7beed09e95b50",
           "opening_units": [
             "資工系",
             "電機系",
@@ -415,6 +479,8 @@
           "course_name_snapshot": "作業系統",
           "credits_snapshot": 3.0,
           "requirement_group": "elective",
+          "requirement_section": "elective",
+          "program_course_name_snapshot": null,
           "notes": "【*詳見備註1】",
           "source_page": 3,
           "evidence_match": true,
@@ -423,6 +489,7 @@
         },
         {
           "course_code": null,
+          "catalog_entry_id": "entry_68e3c7e639ccc3cf",
           "opening_units": [
             "資管系"
           ],
@@ -430,6 +497,8 @@
           "course_name_snapshot": "系統分析與設計",
           "credits_snapshot": 3.0,
           "requirement_group": "elective",
+          "requirement_section": "elective",
+          "program_course_name_snapshot": null,
           "notes": "【*詳見備註1】",
           "source_page": 3,
           "evidence_match": true,
@@ -438,6 +507,7 @@
         },
         {
           "course_code": null,
+          "catalog_entry_id": "entry_4ced32fd815eb0b9",
           "opening_units": [
             "資管系"
           ],
@@ -445,6 +515,8 @@
           "course_name_snapshot": "Web程式設計",
           "credits_snapshot": 3.0,
           "requirement_group": "elective",
+          "requirement_section": "elective",
+          "program_course_name_snapshot": null,
           "notes": "【*詳見備註1】",
           "source_page": 3,
           "evidence_match": true,
@@ -453,6 +525,7 @@
         },
         {
           "course_code": null,
+          "catalog_entry_id": "entry_284c410bdf23054c",
           "opening_units": [
             "資管系",
             "資工系"
@@ -461,6 +534,8 @@
           "course_name_snapshot": "資料庫管理或網際網路資料庫",
           "credits_snapshot": 3.0,
           "requirement_group": "elective",
+          "requirement_section": "elective",
+          "program_course_name_snapshot": null,
           "notes": "【*詳見備註1】",
           "source_page": 3,
           "evidence_match": false,
@@ -469,6 +544,7 @@
         },
         {
           "course_code": null,
+          "catalog_entry_id": "entry_b17fd6af134df8c3",
           "opening_units": [
             "應數系",
             "資工系",
@@ -478,6 +554,8 @@
           "course_name_snapshot": "離散數學(一)或離散數學",
           "credits_snapshot": 3.0,
           "requirement_group": "elective",
+          "requirement_section": "elective",
+          "program_course_name_snapshot": null,
           "notes": "",
           "source_page": 3,
           "evidence_match": false,
@@ -486,6 +564,7 @@
         },
         {
           "course_code": null,
+          "catalog_entry_id": "entry_4bf654d3e7947a1b",
           "opening_units": [
             "應數系"
           ],
@@ -493,6 +572,8 @@
           "course_name_snapshot": "離散數學(二)",
           "credits_snapshot": 3.0,
           "requirement_group": "elective",
+          "requirement_section": "elective",
+          "program_course_name_snapshot": null,
           "notes": "",
           "source_page": 3,
           "evidence_match": true,
@@ -501,6 +582,7 @@
         },
         {
           "course_code": null,
+          "catalog_entry_id": "entry_33c49cdad8bf08f9",
           "opening_units": [
             "應數系",
             "物理系",
@@ -510,6 +592,8 @@
           "course_name_snapshot": "數值分析(一)或數值分析",
           "credits_snapshot": 3.0,
           "requirement_group": "elective",
+          "requirement_section": "elective",
+          "program_course_name_snapshot": null,
           "notes": "",
           "source_page": 3,
           "evidence_match": false,
@@ -518,6 +602,7 @@
         },
         {
           "course_code": null,
+          "catalog_entry_id": "entry_c1b48a0e8f9ed54d",
           "opening_units": [
             "應數系"
           ],
@@ -525,6 +610,8 @@
           "course_name_snapshot": "數值分析(二)",
           "credits_snapshot": 3.0,
           "requirement_group": "elective",
+          "requirement_section": "elective",
+          "program_course_name_snapshot": null,
           "notes": "",
           "source_page": 3,
           "evidence_match": true,
@@ -533,6 +620,7 @@
         },
         {
           "course_code": null,
+          "catalog_entry_id": "entry_5631a6f1bf0f71ad",
           "opening_units": [
             "應數系"
           ],
@@ -540,6 +628,8 @@
           "course_name_snapshot": "數學統計軟體應用",
           "credits_snapshot": 3.0,
           "requirement_group": "elective",
+          "requirement_section": "elective",
+          "program_course_name_snapshot": null,
           "notes": "",
           "source_page": 3,
           "evidence_match": true,
@@ -548,6 +638,7 @@
         },
         {
           "course_code": null,
+          "catalog_entry_id": "entry_28b0f95ee4b0f2b8",
           "opening_units": [
             "資工系",
             "資管系",
@@ -558,6 +649,8 @@
           "course_name_snapshot": "電腦網路或企業資料通訊或計算機網路",
           "credits_snapshot": 3.0,
           "requirement_group": "elective",
+          "requirement_section": "elective",
+          "program_course_name_snapshot": null,
           "notes": "",
           "source_page": 3,
           "evidence_match": false,
@@ -566,6 +659,7 @@
         },
         {
           "course_code": null,
+          "catalog_entry_id": "entry_c33293ae525aaaef",
           "opening_units": [
             "資工系"
           ],
@@ -573,6 +667,8 @@
           "course_name_snapshot": "演算法",
           "credits_snapshot": 3.0,
           "requirement_group": "elective",
+          "requirement_section": "elective",
+          "program_course_name_snapshot": null,
           "notes": "",
           "source_page": 3,
           "evidence_match": true,
@@ -581,6 +677,7 @@
         },
         {
           "course_code": null,
+          "catalog_entry_id": "entry_e20b76f5e9f4e3b3",
           "opening_units": [
             "資工系"
           ],
@@ -588,6 +685,8 @@
           "course_name_snapshot": "高等程式設計與實作",
           "credits_snapshot": 3.0,
           "requirement_group": "elective",
+          "requirement_section": "elective",
+          "program_course_name_snapshot": null,
           "notes": "",
           "source_page": 3,
           "evidence_match": true,
@@ -596,6 +695,7 @@
         },
         {
           "course_code": null,
+          "catalog_entry_id": "entry_4a41bf056cda54ae",
           "opening_units": [
             "資工系",
             "電機系"
@@ -604,6 +704,8 @@
           "course_name_snapshot": "計算機組織",
           "credits_snapshot": 3.0,
           "requirement_group": "elective",
+          "requirement_section": "elective",
+          "program_course_name_snapshot": null,
           "notes": "",
           "source_page": 3,
           "evidence_match": true,
@@ -633,6 +735,7 @@
       "courses": [
         {
           "course_code": null,
+          "catalog_entry_id": "entry_8d308252764763a9",
           "opening_units": [
             "各開課系所",
             "資工系"
@@ -641,6 +744,8 @@
           "course_name_snapshot": "計算機概論或C程式設計(一)",
           "credits_snapshot": 3.0,
           "requirement_group": "core",
+          "requirement_section": "core",
+          "program_course_name_snapshot": null,
           "notes": "",
           "source_page": 5,
           "evidence_match": false,
@@ -649,6 +754,7 @@
         },
         {
           "course_code": null,
+          "catalog_entry_id": "entry_8e77f4f5ef782fa8",
           "opening_units": [
             "應數系",
             "電機系",
@@ -660,6 +766,8 @@
           "course_name_snapshot": "計算機程式或程式設計或C程式設計(二)",
           "credits_snapshot": 3.0,
           "requirement_group": "core",
+          "requirement_section": "core",
+          "program_course_name_snapshot": null,
           "notes": "",
           "source_page": 5,
           "evidence_match": false,
@@ -668,6 +776,7 @@
         },
         {
           "course_code": null,
+          "catalog_entry_id": "entry_cb83e220f16b8ea1",
           "opening_units": [
             "應數系",
             "資工系",
@@ -678,6 +787,8 @@
           "course_name_snapshot": "資料結構",
           "credits_snapshot": 3.0,
           "requirement_group": "core",
+          "requirement_section": "core",
+          "program_course_name_snapshot": null,
           "notes": "",
           "source_page": 5,
           "evidence_match": true,
@@ -686,6 +797,7 @@
         },
         {
           "course_code": null,
+          "catalog_entry_id": "entry_31fc42a22dfd7741",
           "opening_units": [
             "資管系"
           ],
@@ -693,6 +805,8 @@
           "course_name_snapshot": "軟體工程",
           "credits_snapshot": 3.0,
           "requirement_group": "elective",
+          "requirement_section": "elective",
+          "program_course_name_snapshot": null,
           "notes": "【*詳見備註1】",
           "source_page": 5,
           "evidence_match": true,
@@ -701,6 +815,7 @@
         },
         {
           "course_code": null,
+          "catalog_entry_id": "entry_ea69dc93d5113dc4",
           "opening_units": [
             "資工系",
             "資管系"
@@ -709,6 +824,8 @@
           "course_name_snapshot": "物件導向程式設計或JAVA物件導向程式設計",
           "credits_snapshot": 3.0,
           "requirement_group": "elective",
+          "requirement_section": "elective",
+          "program_course_name_snapshot": null,
           "notes": "【*詳見備註1】",
           "source_page": 5,
           "evidence_match": false,
@@ -717,6 +834,7 @@
         },
         {
           "course_code": null,
+          "catalog_entry_id": "entry_28c97e9f4c74d57e",
           "opening_units": [
             "資工系",
             "電機系",
@@ -726,6 +844,8 @@
           "course_name_snapshot": "作業系統",
           "credits_snapshot": 3.0,
           "requirement_group": "elective",
+          "requirement_section": "elective",
+          "program_course_name_snapshot": null,
           "notes": "【*詳見備註1】",
           "source_page": 5,
           "evidence_match": true,
@@ -734,6 +854,7 @@
         },
         {
           "course_code": null,
+          "catalog_entry_id": "entry_e8a1c2f269d6af70",
           "opening_units": [
             "資管系"
           ],
@@ -741,6 +862,8 @@
           "course_name_snapshot": "系統分析與設計",
           "credits_snapshot": 3.0,
           "requirement_group": "elective",
+          "requirement_section": "elective",
+          "program_course_name_snapshot": null,
           "notes": "【*詳見備註1】",
           "source_page": 5,
           "evidence_match": true,
@@ -749,6 +872,7 @@
         },
         {
           "course_code": null,
+          "catalog_entry_id": "entry_99ecc40f4da14bc3",
           "opening_units": [
             "資管系"
           ],
@@ -756,6 +880,8 @@
           "course_name_snapshot": "Web程式設計",
           "credits_snapshot": 3.0,
           "requirement_group": "elective",
+          "requirement_section": "elective",
+          "program_course_name_snapshot": null,
           "notes": "【*詳見備註1】",
           "source_page": 5,
           "evidence_match": true,
@@ -764,6 +890,7 @@
         },
         {
           "course_code": null,
+          "catalog_entry_id": "entry_3b29c13588cd278b",
           "opening_units": [
             "資管系",
             "資工系"
@@ -772,6 +899,8 @@
           "course_name_snapshot": "資料庫管理或網際網路資料庫",
           "credits_snapshot": 3.0,
           "requirement_group": "elective",
+          "requirement_section": "elective",
+          "program_course_name_snapshot": null,
           "notes": "【*詳見備註1】",
           "source_page": 5,
           "evidence_match": false,
@@ -780,6 +909,7 @@
         },
         {
           "course_code": null,
+          "catalog_entry_id": "entry_b6ee0a0ea876e223",
           "opening_units": [
             "應數系",
             "資工系",
@@ -789,6 +919,8 @@
           "course_name_snapshot": "離散數學(一)或離散數學",
           "credits_snapshot": 3.0,
           "requirement_group": "elective",
+          "requirement_section": "elective",
+          "program_course_name_snapshot": null,
           "notes": "",
           "source_page": 5,
           "evidence_match": false,
@@ -797,6 +929,7 @@
         },
         {
           "course_code": null,
+          "catalog_entry_id": "entry_427660054a775a03",
           "opening_units": [
             "應數系"
           ],
@@ -804,6 +937,8 @@
           "course_name_snapshot": "離散數學(二)",
           "credits_snapshot": 3.0,
           "requirement_group": "elective",
+          "requirement_section": "elective",
+          "program_course_name_snapshot": null,
           "notes": "",
           "source_page": 5,
           "evidence_match": true,
@@ -812,6 +947,7 @@
         },
         {
           "course_code": null,
+          "catalog_entry_id": "entry_cedbe81e1e5eb488",
           "opening_units": [
             "應數系",
             "物理系",
@@ -821,6 +957,8 @@
           "course_name_snapshot": "數值分析(一)或數值分析",
           "credits_snapshot": 3.0,
           "requirement_group": "elective",
+          "requirement_section": "elective",
+          "program_course_name_snapshot": null,
           "notes": "",
           "source_page": 5,
           "evidence_match": false,
@@ -829,6 +967,7 @@
         },
         {
           "course_code": null,
+          "catalog_entry_id": "entry_101c397b0ae14cc1",
           "opening_units": [
             "應數系"
           ],
@@ -836,6 +975,8 @@
           "course_name_snapshot": "數值分析(二)",
           "credits_snapshot": 3.0,
           "requirement_group": "elective",
+          "requirement_section": "elective",
+          "program_course_name_snapshot": null,
           "notes": "",
           "source_page": 5,
           "evidence_match": true,
@@ -844,6 +985,7 @@
         },
         {
           "course_code": null,
+          "catalog_entry_id": "entry_bbb20df9d5f4ad0b",
           "opening_units": [
             "應數系"
           ],
@@ -851,6 +993,8 @@
           "course_name_snapshot": "數學統計軟體應用",
           "credits_snapshot": 3.0,
           "requirement_group": "elective",
+          "requirement_section": "elective",
+          "program_course_name_snapshot": null,
           "notes": "",
           "source_page": 5,
           "evidence_match": true,
@@ -859,6 +1003,7 @@
         },
         {
           "course_code": null,
+          "catalog_entry_id": "entry_e5747f3a86afa7b0",
           "opening_units": [
             "資工系"
           ],
@@ -866,6 +1011,8 @@
           "course_name_snapshot": "電腦網路",
           "credits_snapshot": 3.0,
           "requirement_group": "elective",
+          "requirement_section": "elective",
+          "program_course_name_snapshot": null,
           "notes": "",
           "source_page": 5,
           "evidence_match": true,
@@ -874,6 +1021,7 @@
         },
         {
           "course_code": null,
+          "catalog_entry_id": "entry_cf98447782b7f13a",
           "opening_units": [
             "資工系"
           ],
@@ -881,6 +1029,8 @@
           "course_name_snapshot": "演算法",
           "credits_snapshot": 3.0,
           "requirement_group": "elective",
+          "requirement_section": "elective",
+          "program_course_name_snapshot": null,
           "notes": "",
           "source_page": 5,
           "evidence_match": true,
@@ -889,6 +1039,7 @@
         },
         {
           "course_code": null,
+          "catalog_entry_id": "entry_09498ea1b6044803",
           "opening_units": [
             "資工系"
           ],
@@ -896,6 +1047,8 @@
           "course_name_snapshot": "高等程式設計與實作",
           "credits_snapshot": 3.0,
           "requirement_group": "elective",
+          "requirement_section": "elective",
+          "program_course_name_snapshot": null,
           "notes": "",
           "source_page": 5,
           "evidence_match": true,
@@ -904,6 +1057,7 @@
         },
         {
           "course_code": null,
+          "catalog_entry_id": "entry_575ce4a2fefa3911",
           "opening_units": [
             "資工系",
             "電機系"
@@ -912,6 +1066,8 @@
           "course_name_snapshot": "計算機組織",
           "credits_snapshot": 3.0,
           "requirement_group": "elective",
+          "requirement_section": "elective",
+          "program_course_name_snapshot": null,
           "notes": "",
           "source_page": 5,
           "evidence_match": true,
@@ -920,6 +1076,7 @@
         },
         {
           "course_code": null,
+          "catalog_entry_id": "entry_b5dc56eaf05643f1",
           "opening_units": [
             "資工系"
           ],
@@ -927,6 +1084,8 @@
           "course_name_snapshot": "編譯器製作",
           "credits_snapshot": 3.0,
           "requirement_group": "elective",
+          "requirement_section": "elective",
+          "program_course_name_snapshot": null,
           "notes": "",
           "source_page": 5,
           "evidence_match": true,
@@ -956,6 +1115,7 @@
       "courses": [
         {
           "course_code": null,
+          "catalog_entry_id": "entry_3015e00cd7fdf516",
           "opening_units": [
             "各開課系所",
             "資工系"
@@ -964,6 +1124,8 @@
           "course_name_snapshot": "計算機概論或 C程式設計(一)",
           "credits_snapshot": 3.0,
           "requirement_group": "core",
+          "requirement_section": "core",
+          "program_course_name_snapshot": null,
           "notes": "",
           "source_page": 7,
           "evidence_match": false,
@@ -972,6 +1134,7 @@
         },
         {
           "course_code": null,
+          "catalog_entry_id": "entry_a7cb20e2aaae3f3f",
           "opening_units": [
             "應數系",
             "電機系",
@@ -983,6 +1146,8 @@
           "course_name_snapshot": "計算機程式或程式設計或 C程式設計(二)",
           "credits_snapshot": 3.0,
           "requirement_group": "core",
+          "requirement_section": "core",
+          "program_course_name_snapshot": null,
           "notes": "",
           "source_page": 7,
           "evidence_match": false,
@@ -991,6 +1156,7 @@
         },
         {
           "course_code": null,
+          "catalog_entry_id": "entry_2e95cb10396867cd",
           "opening_units": [
             "應數系",
             "資工系",
@@ -1001,6 +1167,8 @@
           "course_name_snapshot": "資料結構",
           "credits_snapshot": 3.0,
           "requirement_group": "core",
+          "requirement_section": "core",
+          "program_course_name_snapshot": null,
           "notes": "",
           "source_page": 7,
           "evidence_match": true,
@@ -1009,6 +1177,7 @@
         },
         {
           "course_code": null,
+          "catalog_entry_id": "entry_6c5b2184f1f2e1f3",
           "opening_units": [
             "資管系"
           ],
@@ -1016,6 +1185,8 @@
           "course_name_snapshot": "軟體工程",
           "credits_snapshot": 3.0,
           "requirement_group": "elective",
+          "requirement_section": "elective",
+          "program_course_name_snapshot": null,
           "notes": "【*詳見備註1】",
           "source_page": 7,
           "evidence_match": true,
@@ -1024,6 +1195,7 @@
         },
         {
           "course_code": null,
+          "catalog_entry_id": "entry_938b59872200cf60",
           "opening_units": [
             "資工系",
             "資管系"
@@ -1032,6 +1204,8 @@
           "course_name_snapshot": "物件導向程式設計或 JAVA 物件導向程式設計",
           "credits_snapshot": 3.0,
           "requirement_group": "elective",
+          "requirement_section": "elective",
+          "program_course_name_snapshot": null,
           "notes": "【*詳見備註1】",
           "source_page": 7,
           "evidence_match": false,
@@ -1040,6 +1214,7 @@
         },
         {
           "course_code": null,
+          "catalog_entry_id": "entry_fc85f051a775d62c",
           "opening_units": [
             "資工系",
             "電機系",
@@ -1049,6 +1224,8 @@
           "course_name_snapshot": "作業系統",
           "credits_snapshot": 3.0,
           "requirement_group": "elective",
+          "requirement_section": "elective",
+          "program_course_name_snapshot": null,
           "notes": "【*詳見備註1】",
           "source_page": 7,
           "evidence_match": true,
@@ -1057,6 +1234,7 @@
         },
         {
           "course_code": null,
+          "catalog_entry_id": "entry_fca1fd8fab7bc81d",
           "opening_units": [
             "資管系"
           ],
@@ -1064,6 +1242,8 @@
           "course_name_snapshot": "系統分析與設計",
           "credits_snapshot": 3.0,
           "requirement_group": "elective",
+          "requirement_section": "elective",
+          "program_course_name_snapshot": null,
           "notes": "【*詳見備註1】",
           "source_page": 7,
           "evidence_match": true,
@@ -1072,6 +1252,7 @@
         },
         {
           "course_code": null,
+          "catalog_entry_id": "entry_a9cc5e4da32da4e1",
           "opening_units": [
             "資管碩"
           ],
@@ -1079,6 +1260,8 @@
           "course_name_snapshot": "軟體架構",
           "credits_snapshot": 3.0,
           "requirement_group": "elective",
+          "requirement_section": "elective",
+          "program_course_name_snapshot": null,
           "notes": "【*詳見備註1】",
           "source_page": 7,
           "evidence_match": true,
@@ -1087,6 +1270,7 @@
         },
         {
           "course_code": null,
+          "catalog_entry_id": "entry_9f48320cbb21e073",
           "opening_units": [
             "資管系"
           ],
@@ -1094,6 +1278,8 @@
           "course_name_snapshot": "Web程式設計",
           "credits_snapshot": 3.0,
           "requirement_group": "elective",
+          "requirement_section": "elective",
+          "program_course_name_snapshot": null,
           "notes": "【*詳見備註1】",
           "source_page": 7,
           "evidence_match": true,
@@ -1102,6 +1288,7 @@
         },
         {
           "course_code": null,
+          "catalog_entry_id": "entry_c42dab1e754bc60d",
           "opening_units": [
             "應數系",
             "資工系",
@@ -1111,6 +1298,8 @@
           "course_name_snapshot": "離散數學(一)或離散數學",
           "credits_snapshot": 3.0,
           "requirement_group": "elective",
+          "requirement_section": "elective",
+          "program_course_name_snapshot": null,
           "notes": "",
           "source_page": 7,
           "evidence_match": false,
@@ -1119,6 +1308,7 @@
         },
         {
           "course_code": null,
+          "catalog_entry_id": "entry_bca016cf07014bbd",
           "opening_units": [
             "應數系"
           ],
@@ -1126,6 +1316,8 @@
           "course_name_snapshot": "離散數學(二)",
           "credits_snapshot": 3.0,
           "requirement_group": "elective",
+          "requirement_section": "elective",
+          "program_course_name_snapshot": null,
           "notes": "",
           "source_page": 7,
           "evidence_match": true,
@@ -1134,6 +1326,7 @@
         },
         {
           "course_code": null,
+          "catalog_entry_id": "entry_e449f8705b534d8b",
           "opening_units": [
             "應數系",
             "物理系",
@@ -1143,6 +1336,8 @@
           "course_name_snapshot": "數值分析(一)或數值分析",
           "credits_snapshot": 3.0,
           "requirement_group": "elective",
+          "requirement_section": "elective",
+          "program_course_name_snapshot": null,
           "notes": "",
           "source_page": 7,
           "evidence_match": false,
@@ -1151,6 +1346,7 @@
         },
         {
           "course_code": null,
+          "catalog_entry_id": "entry_e95092c179d6e69b",
           "opening_units": [
             "應數系"
           ],
@@ -1158,6 +1354,8 @@
           "course_name_snapshot": "數值分析(二)",
           "credits_snapshot": 3.0,
           "requirement_group": "elective",
+          "requirement_section": "elective",
+          "program_course_name_snapshot": null,
           "notes": "",
           "source_page": 7,
           "evidence_match": true,
@@ -1166,6 +1364,7 @@
         },
         {
           "course_code": null,
+          "catalog_entry_id": "entry_8787f747c2551597",
           "opening_units": [
             "應數系"
           ],
@@ -1173,6 +1372,8 @@
           "course_name_snapshot": "數學統計軟體應用",
           "credits_snapshot": 3.0,
           "requirement_group": "elective",
+          "requirement_section": "elective",
+          "program_course_name_snapshot": null,
           "notes": "",
           "source_page": 7,
           "evidence_match": true,
@@ -1181,6 +1382,7 @@
         },
         {
           "course_code": null,
+          "catalog_entry_id": "entry_39c4c802e917d47a",
           "opening_units": [
             "應數系"
           ],
@@ -1188,6 +1390,8 @@
           "course_name_snapshot": "多媒體系統",
           "credits_snapshot": 3.0,
           "requirement_group": "elective",
+          "requirement_section": "elective",
+          "program_course_name_snapshot": null,
           "notes": "",
           "source_page": 7,
           "evidence_match": true,
@@ -1196,6 +1400,7 @@
         },
         {
           "course_code": null,
+          "catalog_entry_id": "entry_f7948c68e82dada4",
           "opening_units": [
             "資工系"
           ],
@@ -1203,6 +1408,8 @@
           "course_name_snapshot": "電腦網路",
           "credits_snapshot": 3.0,
           "requirement_group": "elective",
+          "requirement_section": "elective",
+          "program_course_name_snapshot": null,
           "notes": "",
           "source_page": 7,
           "evidence_match": true,
@@ -1211,6 +1418,7 @@
         },
         {
           "course_code": null,
+          "catalog_entry_id": "entry_7c7ee63a55677ff9",
           "opening_units": [
             "資工系"
           ],
@@ -1218,6 +1426,8 @@
           "course_name_snapshot": "演算法",
           "credits_snapshot": 3.0,
           "requirement_group": "elective",
+          "requirement_section": "elective",
+          "program_course_name_snapshot": null,
           "notes": "",
           "source_page": 7,
           "evidence_match": true,
@@ -1226,6 +1436,7 @@
         },
         {
           "course_code": null,
+          "catalog_entry_id": "entry_dd60204d94bf93ad",
           "opening_units": [
             "資工系"
           ],
@@ -1233,6 +1444,8 @@
           "course_name_snapshot": "高等程式設計與實作",
           "credits_snapshot": 3.0,
           "requirement_group": "elective",
+          "requirement_section": "elective",
+          "program_course_name_snapshot": null,
           "notes": "",
           "source_page": 7,
           "evidence_match": true,
@@ -1263,6 +1476,7 @@
   "structured_courses": [
     {
       "course_code": null,
+      "catalog_entry_id": "entry_b47cc75f0406e353",
       "opening_units": [
         "各開課系所",
         "資工系"
@@ -1271,6 +1485,8 @@
       "course_name_snapshot": "計算機概論或C程式設計(一)",
       "credits_snapshot": 3.0,
       "requirement_group": "core",
+      "requirement_section": "core",
+      "program_course_name_snapshot": null,
       "notes": "",
       "source_page": 1,
       "evidence_match": false,
@@ -1279,6 +1495,7 @@
     },
     {
       "course_code": null,
+      "catalog_entry_id": "entry_62380c217612cf04",
       "opening_units": [
         "應數系",
         "電機系",
@@ -1290,6 +1507,8 @@
       "course_name_snapshot": "計算機程式或程式設計或C程式設計(二)",
       "credits_snapshot": 3.0,
       "requirement_group": "core",
+      "requirement_section": "core",
+      "program_course_name_snapshot": null,
       "notes": "",
       "source_page": 1,
       "evidence_match": false,
@@ -1298,6 +1517,7 @@
     },
     {
       "course_code": null,
+      "catalog_entry_id": "entry_9ff4840e9b90a208",
       "opening_units": [
         "應數系",
         "資工系",
@@ -1308,6 +1528,8 @@
       "course_name_snapshot": "資料結構",
       "credits_snapshot": 3.0,
       "requirement_group": "core",
+      "requirement_section": "core",
+      "program_course_name_snapshot": null,
       "notes": "",
       "source_page": 1,
       "evidence_match": true,
@@ -1316,6 +1538,7 @@
     },
     {
       "course_code": null,
+      "catalog_entry_id": "entry_403c7eaef9ec2c80",
       "opening_units": [
         "資管系"
       ],
@@ -1323,6 +1546,8 @@
       "course_name_snapshot": "軟體工程",
       "credits_snapshot": 3.0,
       "requirement_group": "elective",
+      "requirement_section": "elective",
+      "program_course_name_snapshot": null,
       "notes": "【*詳見備註1】",
       "source_page": 1,
       "evidence_match": true,
@@ -1331,6 +1556,7 @@
     },
     {
       "course_code": null,
+      "catalog_entry_id": "entry_8de1ac7df2d86da0",
       "opening_units": [
         "資工系",
         "資管系"
@@ -1339,6 +1565,8 @@
       "course_name_snapshot": "物件導向程式設計或JAVA物件導向程式設計",
       "credits_snapshot": 3.0,
       "requirement_group": "elective",
+      "requirement_section": "elective",
+      "program_course_name_snapshot": null,
       "notes": "【*詳見備註1】",
       "source_page": 1,
       "evidence_match": false,
@@ -1347,6 +1575,7 @@
     },
     {
       "course_code": null,
+      "catalog_entry_id": "entry_3f08a5ffe5e5276f",
       "opening_units": [
         "資工系",
         "電機系",
@@ -1356,6 +1585,8 @@
       "course_name_snapshot": "作業系統",
       "credits_snapshot": 3.0,
       "requirement_group": "elective",
+      "requirement_section": "elective",
+      "program_course_name_snapshot": null,
       "notes": "【*詳見備註1】",
       "source_page": 1,
       "evidence_match": true,
@@ -1364,6 +1595,7 @@
     },
     {
       "course_code": null,
+      "catalog_entry_id": "entry_45dbfa063d7872a1",
       "opening_units": [
         "資管系"
       ],
@@ -1371,6 +1603,8 @@
       "course_name_snapshot": "系統分析與設計",
       "credits_snapshot": 3.0,
       "requirement_group": "elective",
+      "requirement_section": "elective",
+      "program_course_name_snapshot": null,
       "notes": "【*詳見備註1】",
       "source_page": 1,
       "evidence_match": true,
@@ -1379,6 +1613,7 @@
     },
     {
       "course_code": null,
+      "catalog_entry_id": "entry_e0be0328f673c027",
       "opening_units": [
         "資管系",
         "資工系"
@@ -1387,6 +1622,8 @@
       "course_name_snapshot": "資料庫管理或網際網路資料庫",
       "credits_snapshot": 3.0,
       "requirement_group": "elective",
+      "requirement_section": "elective",
+      "program_course_name_snapshot": null,
       "notes": "【*詳見備註1】",
       "source_page": 1,
       "evidence_match": false,
@@ -1395,6 +1632,7 @@
     },
     {
       "course_code": null,
+      "catalog_entry_id": "entry_e95e945832291462",
       "opening_units": [
         "應數系",
         "資工系",
@@ -1404,6 +1642,8 @@
       "course_name_snapshot": "離散數學(一)或離散數學",
       "credits_snapshot": 3.0,
       "requirement_group": "elective",
+      "requirement_section": "elective",
+      "program_course_name_snapshot": null,
       "notes": "",
       "source_page": 1,
       "evidence_match": false,
@@ -1412,6 +1652,7 @@
     },
     {
       "course_code": null,
+      "catalog_entry_id": "entry_35fce72a96c83d3a",
       "opening_units": [
         "應數系"
       ],
@@ -1419,6 +1660,8 @@
       "course_name_snapshot": "離散數學(二)",
       "credits_snapshot": 3.0,
       "requirement_group": "elective",
+      "requirement_section": "elective",
+      "program_course_name_snapshot": null,
       "notes": "",
       "source_page": 1,
       "evidence_match": true,
@@ -1427,6 +1670,7 @@
     },
     {
       "course_code": null,
+      "catalog_entry_id": "entry_8951bdbc2d7a45b5",
       "opening_units": [
         "應數系",
         "物理系",
@@ -1436,6 +1680,8 @@
       "course_name_snapshot": "數值分析(一)或數值分析",
       "credits_snapshot": 3.0,
       "requirement_group": "elective",
+      "requirement_section": "elective",
+      "program_course_name_snapshot": null,
       "notes": "",
       "source_page": 1,
       "evidence_match": false,
@@ -1444,6 +1690,7 @@
     },
     {
       "course_code": null,
+      "catalog_entry_id": "entry_4b54a5a5428739a9",
       "opening_units": [
         "應數系"
       ],
@@ -1451,6 +1698,8 @@
       "course_name_snapshot": "數值分析(二)",
       "credits_snapshot": 3.0,
       "requirement_group": "elective",
+      "requirement_section": "elective",
+      "program_course_name_snapshot": null,
       "notes": "",
       "source_page": 1,
       "evidence_match": true,
@@ -1459,6 +1708,7 @@
     },
     {
       "course_code": null,
+      "catalog_entry_id": "entry_cc4996f2116fddaa",
       "opening_units": [
         "應數系"
       ],
@@ -1466,6 +1716,8 @@
       "course_name_snapshot": "數學統計軟體應用",
       "credits_snapshot": 3.0,
       "requirement_group": "elective",
+      "requirement_section": "elective",
+      "program_course_name_snapshot": null,
       "notes": "",
       "source_page": 1,
       "evidence_match": true,
@@ -1474,6 +1726,7 @@
     },
     {
       "course_code": null,
+      "catalog_entry_id": "entry_9842d2cca7899eb6",
       "opening_units": [
         "資工系",
         "資管系",
@@ -1484,6 +1737,8 @@
       "course_name_snapshot": "電腦網路或企業資料通訊或計算機網路",
       "credits_snapshot": 3.0,
       "requirement_group": "elective",
+      "requirement_section": "elective",
+      "program_course_name_snapshot": null,
       "notes": "",
       "source_page": 1,
       "evidence_match": false,
@@ -1492,6 +1747,7 @@
     },
     {
       "course_code": null,
+      "catalog_entry_id": "entry_7882125c262d6aa8",
       "opening_units": [
         "資工系"
       ],
@@ -1499,6 +1755,8 @@
       "course_name_snapshot": "演算法",
       "credits_snapshot": 3.0,
       "requirement_group": "elective",
+      "requirement_section": "elective",
+      "program_course_name_snapshot": null,
       "notes": "",
       "source_page": 1,
       "evidence_match": true,
@@ -1507,6 +1765,7 @@
     },
     {
       "course_code": null,
+      "catalog_entry_id": "entry_71e22412bd307ba3",
       "opening_units": [
         "資工系"
       ],
@@ -1514,6 +1773,8 @@
       "course_name_snapshot": "高等程式設計與實作",
       "credits_snapshot": 3.0,
       "requirement_group": "elective",
+      "requirement_section": "elective",
+      "program_course_name_snapshot": null,
       "notes": "",
       "source_page": 1,
       "evidence_match": true,

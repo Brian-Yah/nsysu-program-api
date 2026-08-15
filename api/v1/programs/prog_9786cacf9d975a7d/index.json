@@ -29,7 +29,7 @@
         "last_modified": "Wed, 01 Jul 2026 06:04:37 GMT",
         "content_length": 103500
       },
-      "parser_version": "0.2.1",
+      "parser_version": "0.2.2",
       "extractor_versions": {
         "pypdf": "6.10.0",
         "pdfplumber": "0.11.9"
@@ -47,6 +47,7 @@
     "course_catalog": [
       {
         "course_code": null,
+        "catalog_entry_id": "entry_a0b72443fc559f72",
         "opening_units": [
           "材光系"
         ],
@@ -54,6 +55,8 @@
         "course_name_snapshot": "材料科學導論",
         "credits_snapshot": 3.0,
         "requirement_group": "core",
+        "requirement_section": "core",
+        "program_course_name_snapshot": null,
         "notes": "",
         "source_page": 1,
         "evidence_match": true,
@@ -62,6 +65,7 @@
       },
       {
         "course_code": null,
+        "catalog_entry_id": "entry_849705c0eadb23aa",
         "opening_units": [
           "材光系"
         ],
@@ -69,6 +73,8 @@
         "course_name_snapshot": "材料熱力學",
         "credits_snapshot": 3.0,
         "requirement_group": "core",
+        "requirement_section": "core",
+        "program_course_name_snapshot": null,
         "notes": "",
         "source_page": 1,
         "evidence_match": true,
@@ -77,6 +83,7 @@
       },
       {
         "course_code": null,
+        "catalog_entry_id": "entry_73072929e3ee5d42",
         "opening_units": [
           "材光系"
         ],
@@ -84,6 +91,8 @@
         "course_name_snapshot": "X光與電子繞射",
         "credits_snapshot": 3.0,
         "requirement_group": "core",
+        "requirement_section": "core",
+        "program_course_name_snapshot": null,
         "notes": "",
         "source_page": 1,
         "evidence_match": true,
@@ -92,6 +101,7 @@
       },
       {
         "course_code": null,
+        "catalog_entry_id": "entry_2a526e4bed68909d",
         "opening_units": [
           "材光系"
         ],
@@ -99,6 +109,8 @@
         "course_name_snapshot": "奈米材料之特性與應用",
         "credits_snapshot": 3.0,
         "requirement_group": "elective",
+        "requirement_section": "elective",
+        "program_course_name_snapshot": null,
         "notes": "",
         "source_page": 1,
         "evidence_match": true,
@@ -107,6 +119,7 @@
       },
       {
         "course_code": null,
+        "catalog_entry_id": "entry_860aba363c79ebdb",
         "opening_units": [
           "機電系"
         ],
@@ -114,6 +127,8 @@
         "course_name_snapshot": "奈米科技概論",
         "credits_snapshot": 3.0,
         "requirement_group": "elective",
+        "requirement_section": "elective",
+        "program_course_name_snapshot": null,
         "notes": "",
         "source_page": 1,
         "evidence_match": true,
@@ -122,6 +137,7 @@
       },
       {
         "course_code": null,
+        "catalog_entry_id": "entry_a2d8ca61416dd11d",
         "opening_units": [
           "光電碩"
         ],
@@ -129,6 +145,8 @@
         "course_name_snapshot": "半導體表面分析技術",
         "credits_snapshot": 3.0,
         "requirement_group": "elective",
+        "requirement_section": "elective",
+        "program_course_name_snapshot": null,
         "notes": "",
         "source_page": 1,
         "evidence_match": true,
@@ -137,6 +155,7 @@
       },
       {
         "course_code": null,
+        "catalog_entry_id": "entry_dee3706c68ddeb35",
         "opening_units": [
           "機電碩"
         ],
@@ -144,6 +163,8 @@
         "course_name_snapshot": "微奈米材料",
         "credits_snapshot": 3.0,
         "requirement_group": "elective",
+        "requirement_section": "elective",
+        "program_course_name_snapshot": null,
         "notes": "",
         "source_page": 1,
         "evidence_match": true,
@@ -152,6 +173,7 @@
       },
       {
         "course_code": null,
+        "catalog_entry_id": "entry_0d57d83ff99e12d6",
         "opening_units": [
           "機電碩"
         ],
@@ -159,6 +181,8 @@
         "course_name_snapshot": "材料選擇與設計",
         "credits_snapshot": 3.0,
         "requirement_group": "elective",
+        "requirement_section": "elective",
+        "program_course_name_snapshot": null,
         "notes": "",
         "source_page": 1,
         "evidence_match": true,

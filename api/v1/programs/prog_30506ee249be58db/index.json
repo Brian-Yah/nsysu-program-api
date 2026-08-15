@@ -29,7 +29,7 @@
         "last_modified": "Tue, 24 Dec 2024 07:39:01 GMT",
         "content_length": 284277
       },
-      "parser_version": "0.2.1",
+      "parser_version": "0.2.2",
       "extractor_versions": {
         "pypdf": "6.10.0",
         "pdfplumber": "0.11.9"
@@ -47,16 +47,19 @@
     "course_catalog": [
       {
         "course_code": null,
+        "catalog_entry_id": "entry_0798fd37049677ec",
         "opening_units": [
           "電機系",
           "跨院選修(工)",
           "機電系"
         ],
         "opening_unit_snapshot": "電機系 / 跨院選修(工) / 機電系",
-        "course_name_snapshot": "電路學(一)、或電路學",
+        "course_name_snapshot": "電路學(一)",
         "credits_snapshot": 3.0,
         "requirement_group": "core",
-        "notes": "任選4門",
+        "requirement_section": "core",
+        "program_course_name_snapshot": null,
+        "notes": "任選4門 電路學(一)、或電路學",
         "source_page": 1,
         "evidence_match": true,
         "validation_status": "needs_course_code_verification",
@@ -64,6 +67,27 @@
       },
       {
         "course_code": null,
+        "catalog_entry_id": "entry_0798fd37049677ec",
+        "opening_units": [
+          "電機系",
+          "跨院選修(工)",
+          "機電系"
+        ],
+        "opening_unit_snapshot": "電機系 / 跨院選修(工) / 機電系",
+        "course_name_snapshot": "電路學",
+        "credits_snapshot": 3.0,
+        "requirement_group": "core",
+        "requirement_section": "core",
+        "program_course_name_snapshot": null,
+        "notes": "任選4門 電路學(一)、或電路學",
+        "source_page": 1,
+        "evidence_match": true,
+        "validation_status": "needs_course_code_verification",
+        "uncertainty_reason": "Official PDF table does not provide a course code"
+      },
+      {
+        "course_code": null,
+        "catalog_entry_id": "entry_19ad2c0646f80fdd",
         "opening_units": [
           "電機系",
           "跨院選修(工)",
@@ -72,10 +96,12 @@
           "資工系"
         ],
         "opening_unit_snapshot": "電機系 / 跨院選修(工) / 材光系 / 光電系 / 資工系",
-        "course_name_snapshot": "電子學(一)、或數位電子學",
+        "course_name_snapshot": "電子學(一)",
         "credits_snapshot": 3.0,
         "requirement_group": "core",
-        "notes": "",
+        "requirement_section": "core",
+        "program_course_name_snapshot": null,
+        "notes": "電子學(一)、或數位電子學 任選4門",
         "source_page": 1,
         "evidence_match": true,
         "validation_status": "needs_course_code_verification",
@@ -83,6 +109,29 @@
       },
       {
         "course_code": null,
+        "catalog_entry_id": "entry_19ad2c0646f80fdd",
+        "opening_units": [
+          "電機系",
+          "跨院選修(工)",
+          "材光系",
+          "光電系",
+          "資工系"
+        ],
+        "opening_unit_snapshot": "電機系 / 跨院選修(工) / 材光系 / 光電系 / 資工系",
+        "course_name_snapshot": "數位電子學",
+        "credits_snapshot": 3.0,
+        "requirement_group": "core",
+        "requirement_section": "core",
+        "program_course_name_snapshot": null,
+        "notes": "電子學(一)、或數位電子學 任選4門",
+        "source_page": 1,
+        "evidence_match": true,
+        "validation_status": "needs_course_code_verification",
+        "uncertainty_reason": "Official PDF table does not provide a course code"
+      },
+      {
+        "course_code": null,
+        "catalog_entry_id": "entry_2f82be18a4da0333",
         "opening_units": [
           "電機系",
           "跨院選修(工)",
@@ -93,7 +142,9 @@
         "course_name_snapshot": "電磁學(二)",
         "credits_snapshot": 3.0,
         "requirement_group": "core",
-        "notes": "",
+        "requirement_section": "core",
+        "program_course_name_snapshot": null,
+        "notes": "任選4門",
         "source_page": 1,
         "evidence_match": true,
         "validation_status": "needs_course_code_verification",
@@ -101,6 +152,7 @@
       },
       {
         "course_code": null,
+        "catalog_entry_id": "entry_109657803d9cc617",
         "opening_units": [
           "電機系",
           "跨院選修(工)",
@@ -109,10 +161,12 @@
           "機電系"
         ],
         "opening_unit_snapshot": "電機系 / 跨院選修(工) / 材光系 / 光電系 / 機電系",
-        "course_name_snapshot": "電子學(二)、或應用電子學",
+        "course_name_snapshot": "電子學(二)",
         "credits_snapshot": 3.0,
         "requirement_group": "core",
-        "notes": "",
+        "requirement_section": "core",
+        "program_course_name_snapshot": null,
+        "notes": "電子學(二)、或應用電子學 任選4門",
         "source_page": 1,
         "evidence_match": true,
         "validation_status": "needs_course_code_verification",
@@ -120,6 +174,29 @@
       },
       {
         "course_code": null,
+        "catalog_entry_id": "entry_109657803d9cc617",
+        "opening_units": [
+          "電機系",
+          "跨院選修(工)",
+          "材光系",
+          "光電系",
+          "機電系"
+        ],
+        "opening_unit_snapshot": "電機系 / 跨院選修(工) / 材光系 / 光電系 / 機電系",
+        "course_name_snapshot": "應用電子學",
+        "credits_snapshot": 3.0,
+        "requirement_group": "core",
+        "requirement_section": "core",
+        "program_course_name_snapshot": null,
+        "notes": "電子學(二)、或應用電子學 任選4門",
+        "source_page": 1,
+        "evidence_match": true,
+        "validation_status": "needs_course_code_verification",
+        "uncertainty_reason": "Official PDF table does not provide a course code"
+      },
+      {
+        "course_code": null,
+        "catalog_entry_id": "entry_d872f64d71ac30f7",
         "opening_units": [
           "電機系"
         ],
@@ -127,7 +204,9 @@
         "course_name_snapshot": "VLSI 設計導論",
         "credits_snapshot": 3.0,
         "requirement_group": "core",
-        "notes": "",
+        "requirement_section": "core",
+        "program_course_name_snapshot": null,
+        "notes": "任選4門",
         "source_page": 1,
         "evidence_match": true,
         "validation_status": "needs_course_code_verification",
@@ -135,16 +214,19 @@
       },
       {
         "course_code": null,
+        "catalog_entry_id": "entry_300b187530cb2ded",
         "opening_units": [
           "電機系",
           "跨院選修(工)",
           "光電系"
         ],
         "opening_unit_snapshot": "電機系 / 跨院選修(工) / 光電系",
-        "course_name_snapshot": "訊號與系統、或信號與系統",
+        "course_name_snapshot": "訊號與系統",
         "credits_snapshot": 3.0,
         "requirement_group": "core",
-        "notes": "",
+        "requirement_section": "core",
+        "program_course_name_snapshot": null,
+        "notes": "訊號與系統、或信號與系統 任選4門",
         "source_page": 1,
         "evidence_match": true,
         "validation_status": "needs_course_code_verification",
@@ -152,6 +234,27 @@
       },
       {
         "course_code": null,
+        "catalog_entry_id": "entry_300b187530cb2ded",
+        "opening_units": [
+          "電機系",
+          "跨院選修(工)",
+          "光電系"
+        ],
+        "opening_unit_snapshot": "電機系 / 跨院選修(工) / 光電系",
+        "course_name_snapshot": "信號與系統",
+        "credits_snapshot": 3.0,
+        "requirement_group": "core",
+        "requirement_section": "core",
+        "program_course_name_snapshot": null,
+        "notes": "訊號與系統、或信號與系統 任選4門",
+        "source_page": 1,
+        "evidence_match": true,
+        "validation_status": "needs_course_code_verification",
+        "uncertainty_reason": "Official PDF table does not provide a course code"
+      },
+      {
+        "course_code": null,
+        "catalog_entry_id": "entry_5ac74b72ab2449d7",
         "opening_units": [
           "電機碩",
           "資工碩",
@@ -161,6 +264,8 @@
         "course_name_snapshot": "高等類比積體電路設計",
         "credits_snapshot": 3.0,
         "requirement_group": "core",
+        "requirement_section": "core",
+        "program_course_name_snapshot": null,
         "notes": "任選2門",
         "source_page": 1,
         "evidence_match": true,
@@ -169,6 +274,7 @@
       },
       {
         "course_code": null,
+        "catalog_entry_id": "entry_9ea3e70b78ebe28e",
         "opening_units": [
           "電機碩"
         ],
@@ -176,7 +282,9 @@
         "course_name_snapshot": "射頻通訊電路設計",
         "credits_snapshot": 3.0,
         "requirement_group": "core",
-        "notes": "",
+        "requirement_section": "core",
+        "program_course_name_snapshot": null,
+        "notes": "任選2門",
         "source_page": 1,
         "evidence_match": true,
         "validation_status": "needs_course_code_verification",
@@ -184,6 +292,7 @@
       },
       {
         "course_code": null,
+        "catalog_entry_id": "entry_e7c117af847718ca",
         "opening_units": [
           "通訊碩"
         ],
@@ -191,7 +300,9 @@
         "course_name_snapshot": "數位信號處理",
         "credits_snapshot": 3.0,
         "requirement_group": "core",
-        "notes": "",
+        "requirement_section": "core",
+        "program_course_name_snapshot": null,
+        "notes": "任選2門",
         "source_page": 1,
         "evidence_match": true,
         "validation_status": "needs_course_code_verification",
@@ -199,6 +310,7 @@
       },
       {
         "course_code": null,
+        "catalog_entry_id": "entry_8abafd778d6d844a",
         "opening_units": [
           "電機系"
         ],
@@ -206,6 +318,8 @@
         "course_name_snapshot": "通訊系統",
         "credits_snapshot": 3.0,
         "requirement_group": "elective",
+        "requirement_section": "elective",
+        "program_course_name_snapshot": null,
         "notes": "任選1門",
         "source_page": 1,
         "evidence_match": true,
@@ -214,6 +328,7 @@
       },
       {
         "course_code": null,
+        "catalog_entry_id": "entry_c452f6e214aad70c",
         "opening_units": [
           "電機系",
           "機電系"
@@ -222,7 +337,9 @@
         "course_name_snapshot": "控制系統、自動控制",
         "credits_snapshot": 3.0,
         "requirement_group": "elective",
-        "notes": "",
+        "requirement_section": "elective",
+        "program_course_name_snapshot": null,
+        "notes": "任選1門",
         "source_page": 1,
         "evidence_match": true,
         "validation_status": "needs_course_code_verification",
@@ -230,23 +347,47 @@
       },
       {
         "course_code": null,
+        "catalog_entry_id": "entry_904720210d1483cc",
         "opening_units": [
           "電機系",
           "光電系",
           "材光碩"
         ],
         "opening_unit_snapshot": "電機系 / 光電系 / 材光碩",
-        "course_name_snapshot": "半導體元件(一)、半導體物理、或半導體元件",
+        "course_name_snapshot": "半導體元件(一)、半導體物",
         "credits_snapshot": 3.0,
         "requirement_group": "elective",
-        "notes": "任選1門",
+        "requirement_section": "elective",
+        "program_course_name_snapshot": null,
+        "notes": "任選1門 半導體元件(一)、半導體物理、或半導體元件",
         "source_page": 1,
-        "evidence_match": false,
+        "evidence_match": true,
         "validation_status": "needs_course_code_verification",
         "uncertainty_reason": "Official PDF table does not provide a course code"
       },
       {
         "course_code": null,
+        "catalog_entry_id": "entry_904720210d1483cc",
+        "opening_units": [
+          "電機系",
+          "光電系",
+          "材光碩"
+        ],
+        "opening_unit_snapshot": "電機系 / 光電系 / 材光碩",
+        "course_name_snapshot": "理、或半導體元件",
+        "credits_snapshot": 3.0,
+        "requirement_group": "elective",
+        "requirement_section": "elective",
+        "program_course_name_snapshot": null,
+        "notes": "任選1門 半導體元件(一)、半導體物理、或半導體元件",
+        "source_page": 1,
+        "evidence_match": true,
+        "validation_status": "needs_course_code_verification",
+        "uncertainty_reason": "Official PDF table does not provide a course code"
+      },
+      {
+        "course_code": null,
+        "catalog_entry_id": "entry_e3d435ecce2ad6a7",
         "opening_units": [
           "電機系",
           "物理系",
@@ -255,10 +396,34 @@
           "機電碩"
         ],
         "opening_unit_snapshot": "電機系 / 物理系 / 跨院選修(理) / 光電系 / 機電碩",
-        "course_name_snapshot": "微電子技術、或半導體奈米元件製造技術、或半導體製程設備與技術",
+        "course_name_snapshot": "微電子技術",
         "credits_snapshot": 3.0,
         "requirement_group": "elective",
-        "notes": "",
+        "requirement_section": "elective",
+        "program_course_name_snapshot": null,
+        "notes": "微電子技術、或半導體奈米元件製造技術、或半導體製程設備與技術 任選1門",
+        "source_page": 1,
+        "evidence_match": true,
+        "validation_status": "needs_course_code_verification",
+        "uncertainty_reason": "Official PDF table does not provide a course code"
+      },
+      {
+        "course_code": null,
+        "catalog_entry_id": "entry_e3d435ecce2ad6a7",
+        "opening_units": [
+          "電機系",
+          "物理系",
+          "跨院選修(理)",
+          "光電系",
+          "機電碩"
+        ],
+        "opening_unit_snapshot": "電機系 / 物理系 / 跨院選修(理) / 光電系 / 機電碩",
+        "course_name_snapshot": "半導體奈米元件製造技術",
+        "credits_snapshot": 3.0,
+        "requirement_group": "elective",
+        "requirement_section": "elective",
+        "program_course_name_snapshot": null,
+        "notes": "微電子技術、或半導體奈米元件製造技術、或半導體製程設備與技術 任選1門",
         "source_page": 1,
         "evidence_match": false,
         "validation_status": "needs_course_code_verification",
@@ -266,6 +431,29 @@
       },
       {
         "course_code": null,
+        "catalog_entry_id": "entry_e3d435ecce2ad6a7",
+        "opening_units": [
+          "電機系",
+          "物理系",
+          "跨院選修(理)",
+          "光電系",
+          "機電碩"
+        ],
+        "opening_unit_snapshot": "電機系 / 物理系 / 跨院選修(理) / 光電系 / 機電碩",
+        "course_name_snapshot": "半導體製程設備與技術",
+        "credits_snapshot": 3.0,
+        "requirement_group": "elective",
+        "requirement_section": "elective",
+        "program_course_name_snapshot": null,
+        "notes": "微電子技術、或半導體奈米元件製造技術、或半導體製程設備與技術 任選1門",
+        "source_page": 1,
+        "evidence_match": false,
+        "validation_status": "needs_course_code_verification",
+        "uncertainty_reason": "Official PDF table does not provide a course code"
+      },
+      {
+        "course_code": null,
+        "catalog_entry_id": "entry_4da9f16cbee04bf8",
         "opening_units": [
           "電機碩",
           "IC設計所"
@@ -274,6 +462,8 @@
         "course_name_snapshot": "通訊介面 IC設計",
         "credits_snapshot": 3.0,
         "requirement_group": "elective",
+        "requirement_section": "elective",
+        "program_course_name_snapshot": null,
         "notes": "任選1門",
         "source_page": 1,
         "evidence_match": true,
@@ -282,6 +472,7 @@
       },
       {
         "course_code": null,
+        "catalog_entry_id": "entry_2eb2f7cff6bc69d9",
         "opening_units": [
           "電機碩",
           "IC設計所"
@@ -290,7 +481,9 @@
         "course_name_snapshot": "低功率系統設計",
         "credits_snapshot": 3.0,
         "requirement_group": "elective",
-        "notes": "",
+        "requirement_section": "elective",
+        "program_course_name_snapshot": null,
+        "notes": "任選1門",
         "source_page": 1,
         "evidence_match": true,
         "validation_status": "needs_course_code_verification",
@@ -300,7 +493,224 @@
     "structured_requirements": {
       "minimum_total_credits": 27,
       "core_credits_text_value": 18,
-      "minimum_outside_home_department_credits": 6
+      "minimum_outside_home_department_credits": 6,
+      "course_count_constraints": [
+        {
+          "constraint_id": "constraint_032f8551a7345efc",
+          "kind": "course_equivalence",
+          "course_names": [
+            "電子學(一)",
+            "數位電子學"
+          ],
+          "min_courses": 1,
+          "max_courses": 1,
+          "requirement_group": "core",
+          "requirement_section": "core",
+          "source_page": 1,
+          "source_text": "電子學(一)、或數位電子學",
+          "validation_status": "source_text_match"
+        },
+        {
+          "constraint_id": "constraint_372c9b2079c9513b",
+          "kind": "course_equivalence",
+          "course_names": [
+            "微電子技術",
+            "半導體奈米元件製造技術",
+            "半導體製程設備與技術"
+          ],
+          "min_courses": 1,
+          "max_courses": 1,
+          "requirement_group": "elective",
+          "requirement_section": "elective",
+          "source_page": 1,
+          "source_text": "微電子技術、或半導體奈米元件製造技術、或半導體製程設備與技術",
+          "validation_status": "source_text_match"
+        },
+        {
+          "constraint_id": "constraint_6f950fd3fed72f18",
+          "kind": "course_equivalence",
+          "course_names": [
+            "電子學(二)",
+            "應用電子學"
+          ],
+          "min_courses": 1,
+          "max_courses": 1,
+          "requirement_group": "core",
+          "requirement_section": "core",
+          "source_page": 1,
+          "source_text": "電子學(二)、或應用電子學",
+          "validation_status": "source_text_match"
+        },
+        {
+          "constraint_id": "constraint_77f009573dde8440",
+          "kind": "course_equivalence",
+          "course_names": [
+            "電路學(一)",
+            "電路學"
+          ],
+          "min_courses": 1,
+          "max_courses": 1,
+          "requirement_group": "core",
+          "requirement_section": "core",
+          "source_page": 1,
+          "source_text": "電路學(一)、或電路學",
+          "validation_status": "source_text_match"
+        },
+        {
+          "constraint_id": "constraint_a1f8f8e27b1147c4",
+          "kind": "course_equivalence",
+          "course_names": [
+            "訊號與系統",
+            "信號與系統"
+          ],
+          "min_courses": 1,
+          "max_courses": 1,
+          "requirement_group": "core",
+          "requirement_section": "core",
+          "source_page": 1,
+          "source_text": "訊號與系統、或信號與系統",
+          "validation_status": "source_text_match"
+        },
+        {
+          "constraint_id": "constraint_ba7001ceddf84685",
+          "kind": "course_equivalence",
+          "course_names": [
+            "半導體元件(一)、半導體物",
+            "理、或半導體元件"
+          ],
+          "min_courses": 1,
+          "max_courses": 1,
+          "requirement_group": "elective",
+          "requirement_section": "elective",
+          "source_page": 1,
+          "source_text": "半導體元件(一)、半導體物理、或半導體元件",
+          "validation_status": "source_text_match"
+        }
+      ],
+      "entry_selection_constraints": [
+        {
+          "constraint_id": "constraint_1b045afa45272d07",
+          "kind": "select_entries",
+          "catalog_entry_ids": [
+            "entry_0798fd37049677ec",
+            "entry_19ad2c0646f80fdd",
+            "entry_2f82be18a4da0333",
+            "entry_109657803d9cc617",
+            "entry_d872f64d71ac30f7",
+            "entry_300b187530cb2ded"
+          ],
+          "course_names": [
+            "電路學(一)",
+            "電路學",
+            "電子學(一)",
+            "數位電子學",
+            "電磁學(二)",
+            "電子學(二)",
+            "應用電子學",
+            "VLSI 設計導論",
+            "訊號與系統",
+            "信號與系統"
+          ],
+          "min_entries": 4,
+          "max_entries": 4,
+          "declared_option_count": null,
+          "option_count_matches": true,
+          "requirement_group": "core",
+          "requirement_section": "core",
+          "source_page": 1,
+          "source_text": "任選4門",
+          "validation_status": "source_text_match"
+        },
+        {
+          "constraint_id": "constraint_9166b9a39c2c1450",
+          "kind": "select_entries",
+          "catalog_entry_ids": [
+            "entry_4da9f16cbee04bf8",
+            "entry_2eb2f7cff6bc69d9"
+          ],
+          "course_names": [
+            "通訊介面 IC設計",
+            "低功率系統設計"
+          ],
+          "min_entries": 1,
+          "max_entries": 1,
+          "declared_option_count": null,
+          "option_count_matches": true,
+          "requirement_group": "elective",
+          "requirement_section": "elective",
+          "source_page": 1,
+          "source_text": "任選1門",
+          "validation_status": "source_text_match"
+        },
+        {
+          "constraint_id": "constraint_aeb734803b09f3a9",
+          "kind": "select_entries",
+          "catalog_entry_ids": [
+            "entry_8abafd778d6d844a",
+            "entry_c452f6e214aad70c"
+          ],
+          "course_names": [
+            "通訊系統",
+            "控制系統、自動控制"
+          ],
+          "min_entries": 1,
+          "max_entries": 1,
+          "declared_option_count": null,
+          "option_count_matches": true,
+          "requirement_group": "elective",
+          "requirement_section": "elective",
+          "source_page": 1,
+          "source_text": "任選1門",
+          "validation_status": "source_text_match"
+        },
+        {
+          "constraint_id": "constraint_b06ba2c3f588cd2d",
+          "kind": "select_entries",
+          "catalog_entry_ids": [
+            "entry_5ac74b72ab2449d7",
+            "entry_9ea3e70b78ebe28e",
+            "entry_e7c117af847718ca"
+          ],
+          "course_names": [
+            "高等類比積體電路設計",
+            "射頻通訊電路設計",
+            "數位信號處理"
+          ],
+          "min_entries": 2,
+          "max_entries": 2,
+          "declared_option_count": null,
+          "option_count_matches": true,
+          "requirement_group": "core",
+          "requirement_section": "core",
+          "source_page": 1,
+          "source_text": "任選2門",
+          "validation_status": "source_text_match"
+        },
+        {
+          "constraint_id": "constraint_fb65b4a23319694c",
+          "kind": "select_entries",
+          "catalog_entry_ids": [
+            "entry_904720210d1483cc",
+            "entry_e3d435ecce2ad6a7"
+          ],
+          "course_names": [
+            "半導體元件(一)、半導體物",
+            "理、或半導體元件",
+            "微電子技術",
+            "半導體奈米元件製造技術",
+            "半導體製程設備與技術"
+          ],
+          "min_entries": 1,
+          "max_entries": 1,
+          "declared_option_count": null,
+          "option_count_matches": true,
+          "requirement_group": "elective",
+          "requirement_section": "elective",
+          "source_page": 1,
+          "source_text": "任選1門",
+          "validation_status": "source_text_match"
+        }
+      ]
     }
   }
 }

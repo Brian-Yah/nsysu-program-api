@@ -23,7 +23,7 @@
       "last_modified": "Wed, 01 Jul 2026 06:11:58 GMT",
       "content_length": 419443
     },
-    "parser_version": "0.2.1",
+    "parser_version": "0.2.2",
     "extractor_versions": {
       "pypdf": "6.10.0",
       "pdfplumber": "0.11.9"
@@ -41,6 +41,7 @@
   "course_catalog": [
     {
       "course_code": null,
+      "catalog_entry_id": "entry_469c5daa6eaccb01",
       "opening_units": [
         "文學院"
       ],
@@ -48,6 +49,8 @@
       "course_name_snapshot": "跨文化人文思潮與美學導論",
       "credits_snapshot": 3.0,
       "requirement_group": "core",
+      "requirement_section": "core",
+      "program_course_name_snapshot": null,
       "notes": "",
       "source_page": 1,
       "evidence_match": true,
@@ -56,6 +59,7 @@
     },
     {
       "course_code": null,
+      "catalog_entry_id": "entry_8e6a48b57b61d856",
       "opening_units": [
         "外文系碩士班"
       ],
@@ -63,6 +67,8 @@
       "course_name_snapshot": "視覺文化與理論",
       "credits_snapshot": 3.0,
       "requirement_group": "core",
+      "requirement_section": "core",
+      "program_course_name_snapshot": null,
       "notes": "",
       "source_page": 1,
       "evidence_match": true,
@@ -71,6 +77,7 @@
     },
     {
       "course_code": null,
+      "catalog_entry_id": "entry_dfaccb71d2b98be7",
       "opening_units": [
         "哲學所碩士班"
       ],
@@ -78,6 +85,8 @@
       "course_name_snapshot": "電影哲學",
       "credits_snapshot": 3.0,
       "requirement_group": "core",
+      "requirement_section": "core",
+      "program_course_name_snapshot": null,
       "notes": "",
       "source_page": 1,
       "evidence_match": true,
@@ -86,6 +95,7 @@
     },
     {
       "course_code": null,
+      "catalog_entry_id": "entry_fcb5e0e490ca9c3c",
       "opening_units": [
         "音樂系"
       ],
@@ -93,6 +103,8 @@
       "course_name_snapshot": "音樂美學",
       "credits_snapshot": 2.0,
       "requirement_group": "core",
+      "requirement_section": "core",
+      "program_course_name_snapshot": null,
       "notes": "",
       "source_page": 1,
       "evidence_match": true,
@@ -101,6 +113,7 @@
     },
     {
       "course_code": null,
+      "catalog_entry_id": "entry_936d862380e905bf",
       "opening_units": [
         "劇藝系"
       ],
@@ -108,6 +121,8 @@
       "course_name_snapshot": "西洋藝術史",
       "credits_snapshot": 2.0,
       "requirement_group": "core",
+      "requirement_section": "core",
+      "program_course_name_snapshot": null,
       "notes": "",
       "source_page": 1,
       "evidence_match": true,
@@ -116,6 +131,7 @@
     },
     {
       "course_code": null,
+      "catalog_entry_id": "entry_c798f0014897573a",
       "opening_units": [
         "劇藝系"
       ],
@@ -123,6 +139,8 @@
       "course_name_snapshot": "藝術概論",
       "credits_snapshot": 2.0,
       "requirement_group": "core",
+      "requirement_section": "core",
+      "program_course_name_snapshot": null,
       "notes": "",
       "source_page": 1,
       "evidence_match": true,
@@ -131,6 +149,7 @@
     },
     {
       "course_code": null,
+      "catalog_entry_id": "entry_a8a032f9ddc1c043",
       "opening_units": [
         "哲學所碩士班"
       ],
@@ -138,6 +157,8 @@
       "course_name_snapshot": "藝術與哲學",
       "credits_snapshot": 3.0,
       "requirement_group": "core",
+      "requirement_section": "core",
+      "program_course_name_snapshot": null,
       "notes": "",
       "source_page": 1,
       "evidence_match": true,
@@ -146,6 +167,7 @@
     },
     {
       "course_code": null,
+      "catalog_entry_id": "entry_aebcc594b45615f2",
       "opening_units": [
         "哲學所碩士班"
       ],
@@ -153,6 +175,8 @@
       "course_name_snapshot": "文化哲學",
       "credits_snapshot": 3.0,
       "requirement_group": "core",
+      "requirement_section": "core",
+      "program_course_name_snapshot": null,
       "notes": "",
       "source_page": 1,
       "evidence_match": true,
@@ -161,6 +185,7 @@
     },
     {
       "course_code": null,
+      "catalog_entry_id": "entry_a6a769256fb86028",
       "opening_units": [
         "文學院"
       ],
@@ -168,6 +193,8 @@
       "course_name_snapshot": "跨文化人文思潮與美學-課程與教學實作專題",
       "credits_snapshot": 3.0,
       "requirement_group": "elective",
+      "requirement_section": "elective",
+      "program_course_name_snapshot": null,
       "notes": "",
       "source_page": 1,
       "evidence_match": false,
@@ -176,6 +203,7 @@
     },
     {
       "course_code": null,
+      "catalog_entry_id": "entry_2f8cf0d24d30f7ae",
       "opening_units": [
         "外文系"
       ],
@@ -183,6 +211,8 @@
       "course_name_snapshot": "多媒體英文與溝通",
       "credits_snapshot": 3.0,
       "requirement_group": "elective",
+      "requirement_section": "elective",
+      "program_course_name_snapshot": null,
       "notes": "",
       "source_page": 1,
       "evidence_match": true,
@@ -191,6 +221,7 @@
     },
     {
       "course_code": null,
+      "catalog_entry_id": "entry_820d7c9dd8eab684",
       "opening_units": [
         "中文系"
       ],
@@ -198,6 +229,8 @@
       "course_name_snapshot": "古典戲劇選(一)",
       "credits_snapshot": 3.0,
       "requirement_group": "elective",
+      "requirement_section": "elective",
+      "program_course_name_snapshot": null,
       "notes": "",
       "source_page": 1,
       "evidence_match": true,
@@ -206,6 +239,7 @@
     },
     {
       "course_code": null,
+      "catalog_entry_id": "entry_aa793fb5d7980196",
       "opening_units": [
         "中文系"
       ],
@@ -213,6 +247,8 @@
       "course_name_snapshot": "古典戲劇選(二)",
       "credits_snapshot": 3.0,
       "requirement_group": "elective",
+      "requirement_section": "elective",
+      "program_course_name_snapshot": null,
       "notes": "",
       "source_page": 1,
       "evidence_match": true,
@@ -221,6 +257,7 @@
     },
     {
       "course_code": null,
+      "catalog_entry_id": "entry_9972b4088c45b8c4",
       "opening_units": [
         "中文系"
       ],
@@ -228,6 +265,8 @@
       "course_name_snapshot": "當代戲曲(一)",
       "credits_snapshot": 3.0,
       "requirement_group": "elective",
+      "requirement_section": "elective",
+      "program_course_name_snapshot": null,
       "notes": "",
       "source_page": 1,
       "evidence_match": true,
@@ -236,6 +275,7 @@
     },
     {
       "course_code": null,
+      "catalog_entry_id": "entry_58ace7fa739decd3",
       "opening_units": [
         "中文系"
       ],
@@ -243,6 +283,8 @@
       "course_name_snapshot": "當代戲曲(二)",
       "credits_snapshot": 3.0,
       "requirement_group": "elective",
+      "requirement_section": "elective",
+      "program_course_name_snapshot": null,
       "notes": "",
       "source_page": 1,
       "evidence_match": true,
@@ -251,6 +293,7 @@
     },
     {
       "course_code": null,
+      "catalog_entry_id": "entry_81adecb16de34448",
       "opening_units": [
         "中文系碩士班"
       ],
@@ -258,6 +301,8 @@
       "course_name_snapshot": "中國書法美學",
       "credits_snapshot": 3.0,
       "requirement_group": "elective",
+      "requirement_section": "elective",
+      "program_course_name_snapshot": null,
       "notes": "",
       "source_page": 1,
       "evidence_match": true,
@@ -266,6 +311,7 @@
     },
     {
       "course_code": null,
+      "catalog_entry_id": "entry_eca67da69c46c0af",
       "opening_units": [
         "劇藝系"
       ],
@@ -273,6 +319,8 @@
       "course_name_snapshot": "西洋戲劇史(一)",
       "credits_snapshot": 2.0,
       "requirement_group": "elective",
+      "requirement_section": "elective",
+      "program_course_name_snapshot": null,
       "notes": "",
       "source_page": 1,
       "evidence_match": true,
@@ -281,6 +329,7 @@
     },
     {
       "course_code": null,
+      "catalog_entry_id": "entry_b57e34f4188f7651",
       "opening_units": [
         "劇藝系"
       ],
@@ -288,6 +337,8 @@
       "course_name_snapshot": "西洋戲劇史(二)",
       "credits_snapshot": 2.0,
       "requirement_group": "elective",
+      "requirement_section": "elective",
+      "program_course_name_snapshot": null,
       "notes": "",
       "source_page": 1,
       "evidence_match": true,
@@ -296,6 +347,7 @@
     },
     {
       "course_code": null,
+      "catalog_entry_id": "entry_049da49aabdf044a",
       "opening_units": [
         "劇藝系"
       ],
@@ -303,6 +355,8 @@
       "course_name_snapshot": "中國戲劇史(一)",
       "credits_snapshot": 2.0,
       "requirement_group": "elective",
+      "requirement_section": "elective",
+      "program_course_name_snapshot": null,
       "notes": "",
       "source_page": 1,
       "evidence_match": true,
@@ -311,6 +365,7 @@
     },
     {
       "course_code": null,
+      "catalog_entry_id": "entry_42cec1b9ab46c2aa",
       "opening_units": [
         "劇藝系"
       ],
@@ -318,6 +373,8 @@
       "course_name_snapshot": "中國戲劇史(二)",
       "credits_snapshot": 2.0,
       "requirement_group": "elective",
+      "requirement_section": "elective",
+      "program_course_name_snapshot": null,
       "notes": "",
       "source_page": 1,
       "evidence_match": true,
@@ -326,6 +383,7 @@
     },
     {
       "course_code": null,
+      "catalog_entry_id": "entry_70a17394bc3df47e",
       "opening_units": [
         "劇藝系"
       ],
@@ -333,6 +391,8 @@
       "course_name_snapshot": "設計風格",
       "credits_snapshot": 2.0,
       "requirement_group": "elective",
+      "requirement_section": "elective",
+      "program_course_name_snapshot": null,
       "notes": "",
       "source_page": 1,
       "evidence_match": true,
@@ -341,6 +401,7 @@
     },
     {
       "course_code": null,
+      "catalog_entry_id": "entry_2a0e6382b6e63f13",
       "opening_units": [
         "劇藝系"
       ],
@@ -348,6 +409,8 @@
       "course_name_snapshot": "西方名劇選讀",
       "credits_snapshot": 3.0,
       "requirement_group": "elective",
+      "requirement_section": "elective",
+      "program_course_name_snapshot": null,
       "notes": "",
       "source_page": 1,
       "evidence_match": true,
@@ -356,6 +419,7 @@
     },
     {
       "course_code": null,
+      "catalog_entry_id": "entry_0ac3eab7d3ecf7eb",
       "opening_units": [
         "劇藝系"
       ],
@@ -363,6 +427,8 @@
       "course_name_snapshot": "東方名劇選讀",
       "credits_snapshot": 3.0,
       "requirement_group": "elective",
+      "requirement_section": "elective",
+      "program_course_name_snapshot": null,
       "notes": "",
       "source_page": 1,
       "evidence_match": true,
@@ -371,6 +437,7 @@
     },
     {
       "course_code": null,
+      "catalog_entry_id": "entry_3ae6deffd18c3db0",
       "opening_units": [
         "博雅向度二"
       ],
@@ -378,6 +445,8 @@
       "course_name_snapshot": "文化差異與倫理規範",
       "credits_snapshot": 3.0,
       "requirement_group": "elective",
+      "requirement_section": "elective",
+      "program_course_name_snapshot": null,
       "notes": "",
       "source_page": 1,
       "evidence_match": true,
@@ -386,6 +455,7 @@
     },
     {
       "course_code": null,
+      "catalog_entry_id": "entry_8cde0cf3de6908d3",
       "opening_units": [
         "博雅向度一"
       ],
@@ -393,6 +463,8 @@
       "course_name_snapshot": "歐洲藝術與世界文化交流",
       "credits_snapshot": 3.0,
       "requirement_group": "elective",
+      "requirement_section": "elective",
+      "program_course_name_snapshot": null,
       "notes": "",
       "source_page": 1,
       "evidence_match": true,

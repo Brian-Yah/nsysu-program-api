@@ -23,7 +23,7 @@
       "last_modified": "Tue, 24 Dec 2024 07:16:46 GMT",
       "content_length": 134897
     },
-    "parser_version": "0.2.1",
+    "parser_version": "0.2.2",
     "extractor_versions": {
       "pypdf": "6.10.0",
       "pdfplumber": "0.11.9"
@@ -41,6 +41,7 @@
   "course_catalog": [
     {
       "course_code": null,
+      "catalog_entry_id": "entry_dcbdc59c4b325448",
       "opening_units": [
         "高雄醫學大學心理學系"
       ],
@@ -48,6 +49,8 @@
       "course_name_snapshot": "普通心理學",
       "credits_snapshot": 3.0,
       "requirement_group": "core",
+      "requirement_section": "core",
+      "program_course_name_snapshot": null,
       "notes": "",
       "source_page": 1,
       "evidence_match": true,
@@ -56,6 +59,7 @@
     },
     {
       "course_code": null,
+      "catalog_entry_id": "entry_bfe7410c6a10cb63",
       "opening_units": [
         "醫學科技研究所"
       ],
@@ -63,6 +67,8 @@
       "course_name_snapshot": "智慧長照創新服務開發模式",
       "credits_snapshot": 3.0,
       "requirement_group": "core",
+      "requirement_section": "core",
+      "program_course_name_snapshot": null,
       "notes": "",
       "source_page": 1,
       "evidence_match": true,
@@ -71,6 +77,7 @@
     },
     {
       "course_code": null,
+      "catalog_entry_id": "entry_62eceaee176a2f2c",
       "opening_units": [
         "高雄醫學大學醫社系"
       ],
@@ -78,6 +85,8 @@
       "course_name_snapshot": "諮商理論與技術",
       "credits_snapshot": 2.0,
       "requirement_group": "core",
+      "requirement_section": "core",
+      "program_course_name_snapshot": null,
       "notes": "需先選修普通心理學,始得修課*異動開課系所及學分數",
       "source_page": 1,
       "evidence_match": true,
@@ -86,6 +95,7 @@
     },
     {
       "course_code": null,
+      "catalog_entry_id": "entry_6d90f75127cc1de9",
       "opening_units": [
         "高雄醫學大學醫社系"
       ],
@@ -93,6 +103,8 @@
       "course_name_snapshot": "諮商理論與實務",
       "credits_snapshot": 2.0,
       "requirement_group": "core",
+      "requirement_section": "core",
+      "program_course_name_snapshot": null,
       "notes": "需先選修諮商理論與技術,始得修課",
       "source_page": 1,
       "evidence_match": true,
@@ -101,6 +113,7 @@
     },
     {
       "course_code": null,
+      "catalog_entry_id": "entry_b16b2930a4569bc9",
       "opening_units": [
         "後醫學系"
       ],
@@ -108,6 +121,8 @@
       "course_name_snapshot": "與老共舞",
       "credits_snapshot": 3.0,
       "requirement_group": "core",
+      "requirement_section": "core",
+      "program_course_name_snapshot": null,
       "notes": "",
       "source_page": 1,
       "evidence_match": true,
@@ -116,6 +131,7 @@
     },
     {
       "course_code": null,
+      "catalog_entry_id": "entry_c24efed07834eadc",
       "opening_units": [
         "音樂學系"
       ],
@@ -123,6 +139,8 @@
       "course_name_snapshot": "音樂治療",
       "credits_snapshot": 2.0,
       "requirement_group": "elective",
+      "requirement_section": "elective",
+      "program_course_name_snapshot": null,
       "notes": "",
       "source_page": 1,
       "evidence_match": true,
@@ -131,6 +149,7 @@
     },
     {
       "course_code": null,
+      "catalog_entry_id": "entry_94a56c9a5d0296c6",
       "opening_units": [
         "音樂學系"
       ],
@@ -138,6 +157,8 @@
       "course_name_snapshot": "音樂心理學",
       "credits_snapshot": 2.0,
       "requirement_group": "elective",
+      "requirement_section": "elective",
+      "program_course_name_snapshot": null,
       "notes": "",
       "source_page": 1,
       "evidence_match": true,
@@ -146,6 +167,7 @@
     },
     {
       "course_code": null,
+      "catalog_entry_id": "entry_8829b10941439a18",
       "opening_units": [
         "高雄醫學大學心理學系"
       ],
@@ -153,6 +175,8 @@
       "course_name_snapshot": "性格心理學",
       "credits_snapshot": 3.0,
       "requirement_group": "elective",
+      "requirement_section": "elective",
+      "program_course_name_snapshot": null,
       "notes": "",
       "source_page": 1,
       "evidence_match": true,
@@ -161,6 +185,7 @@
     },
     {
       "course_code": null,
+      "catalog_entry_id": "entry_44ea86e3f17b4743",
       "opening_units": [
         "高雄醫學大學心理學系"
       ],
@@ -168,6 +193,8 @@
       "course_name_snapshot": "發展心理學",
       "credits_snapshot": 3.0,
       "requirement_group": "elective",
+      "requirement_section": "elective",
+      "program_course_name_snapshot": null,
       "notes": "",
       "source_page": 1,
       "evidence_match": true,
@@ -176,6 +203,7 @@
     },
     {
       "course_code": null,
+      "catalog_entry_id": "entry_2e297a161ad0fd1a",
       "opening_units": [
         "音樂學系"
       ],
@@ -183,6 +211,8 @@
       "course_name_snapshot": "表達性藝術治療個案討論",
       "credits_snapshot": 3.0,
       "requirement_group": "elective",
+      "requirement_section": "elective",
+      "program_course_name_snapshot": null,
       "notes": "",
       "source_page": 1,
       "evidence_match": true,
@@ -191,6 +221,7 @@
     },
     {
       "course_code": null,
+      "catalog_entry_id": "entry_08dc96eb7e2afdb1",
       "opening_units": [
         "音樂學系"
       ],
@@ -198,6 +229,8 @@
       "course_name_snapshot": "音樂於高齡照護之設計與運用",
       "credits_snapshot": 3.0,
       "requirement_group": "elective",
+      "requirement_section": "elective",
+      "program_course_name_snapshot": null,
       "notes": "",
       "source_page": 1,
       "evidence_match": false,
@@ -206,6 +239,7 @@
     },
     {
       "course_code": null,
+      "catalog_entry_id": "entry_11003e3abd6d7c36",
       "opening_units": [
         "音樂學系"
       ],
@@ -213,6 +247,8 @@
       "course_name_snapshot": "音樂與律動於樂齡之運用",
       "credits_snapshot": 3.0,
       "requirement_group": "elective",
+      "requirement_section": "elective",
+      "program_course_name_snapshot": null,
       "notes": "",
       "source_page": 1,
       "evidence_match": true,
@@ -221,6 +257,7 @@
     },
     {
       "course_code": null,
+      "catalog_entry_id": "entry_4d0cced8146d93a8",
       "opening_units": [
         "後醫學系"
       ],
@@ -228,6 +265,8 @@
       "course_name_snapshot": "危老年代",
       "credits_snapshot": 2.0,
       "requirement_group": "elective",
+      "requirement_section": "elective",
+      "program_course_name_snapshot": null,
       "notes": "",
       "source_page": 1,
       "evidence_match": true,
@@ -236,6 +275,7 @@
     },
     {
       "course_code": null,
+      "catalog_entry_id": "entry_408efef43b71a764",
       "opening_units": [
         "後醫學系"
       ],
@@ -243,6 +283,8 @@
       "course_name_snapshot": "神經心理學",
       "credits_snapshot": 3.0,
       "requirement_group": "elective",
+      "requirement_section": "elective",
+      "program_course_name_snapshot": null,
       "notes": "",
       "source_page": 1,
       "evidence_match": true,
@@ -251,6 +293,7 @@
     },
     {
       "course_code": null,
+      "catalog_entry_id": "entry_5cf01390f17539e9",
       "opening_units": [
         "高雄醫學大學心理學系"
       ],
@@ -258,6 +301,8 @@
       "course_name_snapshot": "應用心理學實務與實習",
       "credits_snapshot": 3.0,
       "requirement_group": "elective",
+      "requirement_section": "elective",
+      "program_course_name_snapshot": null,
       "notes": "需先修畢本學程之核心課程6學分,始得修課",
       "source_page": 1,
       "evidence_match": true,

@@ -23,7 +23,7 @@
       "last_modified": "Fri, 31 May 2024 07:15:51 GMT",
       "content_length": 216441
     },
-    "parser_version": "0.2.1",
+    "parser_version": "0.2.2",
     "extractor_versions": {
       "pypdf": "6.10.0",
       "pdfplumber": "0.11.9"
@@ -41,6 +41,7 @@
   "course_catalog": [
     {
       "course_code": null,
+      "catalog_entry_id": "entry_50152ba07f2ac8cd",
       "opening_units": [
         "企管系",
         "資管系"
@@ -49,6 +50,8 @@
       "course_name_snapshot": "行銷管理",
       "credits_snapshot": 3.0,
       "requirement_group": "core",
+      "requirement_section": "core",
+      "program_course_name_snapshot": null,
       "notes": "",
       "source_page": 1,
       "evidence_match": true,
@@ -57,6 +60,7 @@
     },
     {
       "course_code": null,
+      "catalog_entry_id": "entry_3f4fac6ede79ce6c",
       "opening_units": [
         "企管系"
       ],
@@ -64,6 +68,8 @@
       "course_name_snapshot": "生產與作業管理",
       "credits_snapshot": 3.0,
       "requirement_group": "core",
+      "requirement_section": "core",
+      "program_course_name_snapshot": null,
       "notes": "",
       "source_page": 1,
       "evidence_match": true,
@@ -72,6 +78,7 @@
     },
     {
       "course_code": null,
+      "catalog_entry_id": "entry_e8ea3b23baceefc0",
       "opening_units": [
         "企管所"
       ],
@@ -79,6 +86,8 @@
       "course_name_snapshot": "科技創新管理",
       "credits_snapshot": 3.0,
       "requirement_group": "core",
+      "requirement_section": "core",
+      "program_course_name_snapshot": null,
       "notes": "",
       "source_page": 1,
       "evidence_match": true,
@@ -87,6 +96,7 @@
     },
     {
       "course_code": null,
+      "catalog_entry_id": "entry_e2607233005fabf0",
       "opening_units": [
         "企管系"
       ],
@@ -94,6 +104,8 @@
       "course_name_snapshot": "財務管理",
       "credits_snapshot": 3.0,
       "requirement_group": "elective",
+      "requirement_section": "elective",
+      "program_course_name_snapshot": null,
       "notes": "",
       "source_page": 1,
       "evidence_match": true,
@@ -102,6 +114,7 @@
     },
     {
       "course_code": null,
+      "catalog_entry_id": "entry_f0e9986304e13c66",
       "opening_units": [
         "企管系"
       ],
@@ -109,6 +122,8 @@
       "course_name_snapshot": "科技管理導論",
       "credits_snapshot": 3.0,
       "requirement_group": "elective",
+      "requirement_section": "elective",
+      "program_course_name_snapshot": null,
       "notes": "",
       "source_page": 1,
       "evidence_match": true,
@@ -117,6 +132,7 @@
     },
     {
       "course_code": null,
+      "catalog_entry_id": "entry_531b19267ee605c4",
       "opening_units": [
         "企管系"
       ],
@@ -124,6 +140,8 @@
       "course_name_snapshot": "科技管理",
       "credits_snapshot": 3.0,
       "requirement_group": "elective",
+      "requirement_section": "elective",
+      "program_course_name_snapshot": null,
       "notes": "",
       "source_page": 1,
       "evidence_match": true,
@@ -132,6 +150,7 @@
     },
     {
       "course_code": null,
+      "catalog_entry_id": "entry_ece4d901df5eb6ea",
       "opening_units": [
         "企管系"
       ],
@@ -139,6 +158,8 @@
       "course_name_snapshot": "策略管理",
       "credits_snapshot": 3.0,
       "requirement_group": "elective",
+      "requirement_section": "elective",
+      "program_course_name_snapshot": null,
       "notes": "",
       "source_page": 1,
       "evidence_match": true,
@@ -147,6 +168,7 @@
     },
     {
       "course_code": null,
+      "catalog_entry_id": "entry_b5e64aae2dd0f602",
       "opening_units": [
         "企管所"
       ],
@@ -154,6 +176,8 @@
       "course_name_snapshot": "知識管理",
       "credits_snapshot": 3.0,
       "requirement_group": "elective",
+      "requirement_section": "elective",
+      "program_course_name_snapshot": null,
       "notes": "",
       "source_page": 1,
       "evidence_match": true,
@@ -162,6 +186,7 @@
     },
     {
       "course_code": null,
+      "catalog_entry_id": "entry_c60ea7640b1eeb8f",
       "opening_units": [
         "企管所",
         "財管系",
@@ -171,6 +196,8 @@
       "course_name_snapshot": "管理資訊系統",
       "credits_snapshot": 3.0,
       "requirement_group": "elective",
+      "requirement_section": "elective",
+      "program_course_name_snapshot": null,
       "notes": "",
       "source_page": 1,
       "evidence_match": true,
@@ -179,6 +206,7 @@
     },
     {
       "course_code": null,
+      "catalog_entry_id": "entry_cb57b2eb3cbbde77",
       "opening_units": [
         "財管系"
       ],
@@ -186,6 +214,8 @@
       "course_name_snapshot": "微型創業",
       "credits_snapshot": 3.0,
       "requirement_group": "elective",
+      "requirement_section": "elective",
+      "program_course_name_snapshot": null,
       "notes": "",
       "source_page": 1,
       "evidence_match": true,
@@ -194,6 +224,7 @@
     },
     {
       "course_code": null,
+      "catalog_entry_id": "entry_72b3f652c2afe582",
       "opening_units": [
         "企管系",
         "資管碩"
@@ -202,6 +233,8 @@
       "course_name_snapshot": "供應鏈管理",
       "credits_snapshot": 3.0,
       "requirement_group": "elective",
+      "requirement_section": "elective",
+      "program_course_name_snapshot": null,
       "notes": "",
       "source_page": 1,
       "evidence_match": true,
@@ -210,6 +243,7 @@
     },
     {
       "course_code": null,
+      "catalog_entry_id": "entry_b31fcbc30deb2f51",
       "opening_units": [
         "資管所"
       ],
@@ -217,6 +251,8 @@
       "course_name_snapshot": "服務品質管理",
       "credits_snapshot": 3.0,
       "requirement_group": "elective",
+      "requirement_section": "elective",
+      "program_course_name_snapshot": null,
       "notes": "",
       "source_page": 1,
       "evidence_match": true,
@@ -225,6 +261,7 @@
     },
     {
       "course_code": null,
+      "catalog_entry_id": "entry_a29d925d21abdaa7",
       "opening_units": [
         "醫科所"
       ],
@@ -232,6 +269,8 @@
       "course_name_snapshot": "科技輔具創新與應用",
       "credits_snapshot": 3.0,
       "requirement_group": "elective",
+      "requirement_section": "elective",
+      "program_course_name_snapshot": null,
       "notes": "",
       "source_page": 1,
       "evidence_match": true,
@@ -240,6 +279,7 @@
     },
     {
       "course_code": null,
+      "catalog_entry_id": "entry_fb6cc83ed678320e",
       "opening_units": [
         "資管碩"
       ],
@@ -247,6 +287,8 @@
       "course_name_snapshot": "人工智慧",
       "credits_snapshot": 3.0,
       "requirement_group": "elective",
+      "requirement_section": "elective",
+      "program_course_name_snapshot": null,
       "notes": "",
       "source_page": 1,
       "evidence_match": true,
@@ -255,6 +297,7 @@
     },
     {
       "course_code": null,
+      "catalog_entry_id": "entry_80b6ca13d7cb872f",
       "opening_units": [
         "資管碩"
       ],
@@ -262,6 +305,8 @@
       "course_name_snapshot": "雲端運算導論",
       "credits_snapshot": 3.0,
       "requirement_group": "elective",
+      "requirement_section": "elective",
+      "program_course_name_snapshot": null,
       "notes": "",
       "source_page": 1,
       "evidence_match": true,
@@ -270,6 +315,7 @@
     },
     {
       "course_code": null,
+      "catalog_entry_id": "entry_ca35e2da948f6436",
       "opening_units": [
         "企管系",
         "企管所"
@@ -278,6 +324,8 @@
       "course_name_snapshot": "財務報表分析",
       "credits_snapshot": 3.0,
       "requirement_group": "elective",
+      "requirement_section": "elective",
+      "program_course_name_snapshot": null,
       "notes": "",
       "source_page": 1,
       "evidence_match": true,
@@ -286,6 +334,7 @@
     },
     {
       "course_code": null,
+      "catalog_entry_id": "entry_cc449c85c7978339",
       "opening_units": [
         "管理學院"
       ],
@@ -293,6 +342,8 @@
       "course_name_snapshot": "R 程式語言、機率統計與商業實",
       "credits_snapshot": 3.0,
       "requirement_group": "elective",
+      "requirement_section": "elective",
+      "program_course_name_snapshot": null,
       "notes": "",
       "source_page": 1,
       "evidence_match": true,
@@ -301,6 +352,7 @@
     },
     {
       "course_code": null,
+      "catalog_entry_id": "entry_bece7d39e9633f32",
       "opening_units": [
         "財管碩"
       ],
@@ -308,6 +360,8 @@
       "course_name_snapshot": "金融科技服務開發",
       "credits_snapshot": 3.0,
       "requirement_group": "elective",
+      "requirement_section": "elective",
+      "program_course_name_snapshot": null,
       "notes": "",
       "source_page": 1,
       "evidence_match": true,
@@ -316,6 +370,7 @@
     },
     {
       "course_code": null,
+      "catalog_entry_id": "entry_b35855c06ccd8591",
       "opening_units": [
         "資管碩"
       ],
@@ -323,6 +378,8 @@
       "course_name_snapshot": "金融科技",
       "credits_snapshot": 3.0,
       "requirement_group": "elective",
+      "requirement_section": "elective",
+      "program_course_name_snapshot": null,
       "notes": "",
       "source_page": 1,
       "evidence_match": true,
@@ -331,6 +388,7 @@
     },
     {
       "course_code": null,
+      "catalog_entry_id": "entry_f8b216741a54078e",
       "opening_units": [
         "資工系"
       ],
@@ -338,6 +396,8 @@
       "course_name_snapshot": "人工智慧導論",
       "credits_snapshot": 3.0,
       "requirement_group": "elective",
+      "requirement_section": "elective",
+      "program_course_name_snapshot": null,
       "notes": "",
       "source_page": 1,
       "evidence_match": true,
@@ -346,6 +406,7 @@
     },
     {
       "course_code": null,
+      "catalog_entry_id": "entry_5c750d621fccd92a",
       "opening_units": [
         "資管碩"
       ],
@@ -353,6 +414,8 @@
       "course_name_snapshot": "服務科學與服務創新",
       "credits_snapshot": 3.0,
       "requirement_group": "elective",
+      "requirement_section": "elective",
+      "program_course_name_snapshot": null,
       "notes": "",
       "source_page": 1,
       "evidence_match": true,
@@ -361,6 +424,7 @@
     },
     {
       "course_code": null,
+      "catalog_entry_id": "entry_6fb6192103f2580f",
       "opening_units": [
         "企管碩"
       ],
@@ -368,6 +432,8 @@
       "course_name_snapshot": "倫理與領導",
       "credits_snapshot": 3.0,
       "requirement_group": "elective",
+      "requirement_section": "elective",
+      "program_course_name_snapshot": null,
       "notes": "",
       "source_page": 1,
       "evidence_match": true,
@@ -376,6 +442,7 @@
     },
     {
       "course_code": null,
+      "catalog_entry_id": "entry_c49bf62b32fda64c",
       "opening_units": [
         "管理學院"
       ],
@@ -383,6 +450,8 @@
       "course_name_snapshot": "商業分析實務",
       "credits_snapshot": 3.0,
       "requirement_group": "elective",
+      "requirement_section": "elective",
+      "program_course_name_snapshot": null,
       "notes": "",
       "source_page": 1,
       "evidence_match": true,
@@ -391,6 +460,7 @@
     },
     {
       "course_code": null,
+      "catalog_entry_id": "entry_b78e6d256fdf9a63",
       "opening_units": [
         "行銷傳播碩"
       ],
@@ -398,6 +468,8 @@
       "course_name_snapshot": "品牌行銷",
       "credits_snapshot": 3.0,
       "requirement_group": "elective",
+      "requirement_section": "elective",
+      "program_course_name_snapshot": null,
       "notes": "",
       "source_page": 1,
       "evidence_match": true,
@@ -406,6 +478,7 @@
     },
     {
       "course_code": null,
+      "catalog_entry_id": "entry_41a9025aadaa092d",
       "opening_units": [
         "國際經營學程"
       ],
@@ -413,6 +486,8 @@
       "course_name_snapshot": "創新與創業管理",
       "credits_snapshot": 3.0,
       "requirement_group": "elective",
+      "requirement_section": "elective",
+      "program_course_name_snapshot": null,
       "notes": "",
       "source_page": 1,
       "evidence_match": true,
@@ -421,13 +496,16 @@
     },
     {
       "course_code": null,
+      "catalog_entry_id": "entry_49c2ff97c6a9b019",
       "opening_units": [
         "Coursera"
       ],
       "opening_unit_snapshot": "Coursera",
-      "course_name_snapshot": "Strategic Innovation: Managing Innovation Initiatives",
+      "course_name_snapshot": "Strategic Innovation: ManagingInnovation Initiatives",
       "credits_snapshot": 1.0,
       "requirement_group": "elective",
+      "requirement_section": "elective",
+      "program_course_name_snapshot": null,
       "notes": "",
       "source_page": 1,
       "evidence_match": false,
@@ -436,13 +514,16 @@
     },
     {
       "course_code": null,
+      "catalog_entry_id": "entry_dc58dc9465663d85",
       "opening_units": [
         "Coursera"
       ],
       "opening_unit_snapshot": "Coursera",
-      "course_name_snapshot": "Creativity Toolkit I: Changing Perspectives",
+      "course_name_snapshot": "Creativity Toolkit I: ChangingPerspectives",
       "credits_snapshot": 1.0,
       "requirement_group": "elective",
+      "requirement_section": "elective",
+      "program_course_name_snapshot": null,
       "notes": "",
       "source_page": 1,
       "evidence_match": false,
@@ -451,13 +532,16 @@
     },
     {
       "course_code": null,
+      "catalog_entry_id": "entry_8d5d2cbff1b2f709",
       "opening_units": [
         "Coursera"
       ],
       "opening_unit_snapshot": "Coursera",
-      "course_name_snapshot": "Creativity Toolkit II: Creative Collaboration",
+      "course_name_snapshot": "Creativity Toolkit II: CreativeCollaboration",
       "credits_snapshot": 1.0,
       "requirement_group": "elective",
+      "requirement_section": "elective",
+      "program_course_name_snapshot": null,
       "notes": "",
       "source_page": 1,
       "evidence_match": false,
@@ -466,13 +550,16 @@
     },
     {
       "course_code": null,
+      "catalog_entry_id": "entry_1f7a60e43951c7ad",
       "opening_units": [
         "Coursera"
       ],
       "opening_unit_snapshot": "Coursera",
-      "course_name_snapshot": "Entrepreneurship I: Laying the Foundation",
+      "course_name_snapshot": "Entrepreneurship I: Laying theFoundation",
       "credits_snapshot": 1.0,
       "requirement_group": "elective",
+      "requirement_section": "elective",
+      "program_course_name_snapshot": null,
       "notes": "",
       "source_page": 2,
       "evidence_match": false,
@@ -481,13 +568,16 @@
     },
     {
       "course_code": null,
+      "catalog_entry_id": "entry_5aeef8ddaaa18aca",
       "opening_units": [
         "Coursera"
       ],
       "opening_unit_snapshot": "Coursera",
-      "course_name_snapshot": "Entrepreneurship II: Preparing for Launch",
+      "course_name_snapshot": "Entrepreneurship II: Preparing forLaunch",
       "credits_snapshot": 1.0,
       "requirement_group": "elective",
+      "requirement_section": "elective",
+      "program_course_name_snapshot": null,
       "notes": "",
       "source_page": 2,
       "evidence_match": false,
@@ -496,6 +586,7 @@
     },
     {
       "course_code": null,
+      "catalog_entry_id": "entry_909c396183140885",
       "opening_units": [
         "企管系"
       ],
@@ -503,6 +594,8 @@
       "course_name_snapshot": "新興科技趨勢",
       "credits_snapshot": 3.0,
       "requirement_group": "elective",
+      "requirement_section": "elective",
+      "program_course_name_snapshot": null,
       "notes": "",
       "source_page": 2,
       "evidence_match": true,

@@ -23,7 +23,7 @@
       "last_modified": "Tue, 23 Dec 2025 06:52:25 GMT",
       "content_length": 225501
     },
-    "parser_version": "0.2.1",
+    "parser_version": "0.2.2",
     "extractor_versions": {
       "pypdf": "6.10.0",
       "pdfplumber": "0.11.9"
@@ -41,6 +41,7 @@
   "course_catalog": [
     {
       "course_code": null,
+      "catalog_entry_id": "entry_ad3ed152c46ff81e",
       "opening_units": [
         "化學系"
       ],
@@ -48,6 +49,8 @@
       "course_name_snapshot": "有機化學(三)",
       "credits_snapshot": 3.0,
       "requirement_group": "core",
+      "requirement_section": "core",
+      "program_course_name_snapshot": null,
       "notes": "",
       "source_page": 1,
       "evidence_match": true,
@@ -56,6 +59,7 @@
     },
     {
       "course_code": null,
+      "catalog_entry_id": "entry_7ec975110ff68704",
       "opening_units": [
         "化學系"
       ],
@@ -63,6 +67,8 @@
       "course_name_snapshot": "有機光譜概論",
       "credits_snapshot": 3.0,
       "requirement_group": "core",
+      "requirement_section": "core",
+      "program_course_name_snapshot": null,
       "notes": "「有機光譜概論」和「有機光譜學」之學分不得重複認列",
       "source_page": 1,
       "evidence_match": true,
@@ -71,6 +77,7 @@
     },
     {
       "course_code": null,
+      "catalog_entry_id": "entry_7dc0fee5187484d2",
       "opening_units": [
         "化學碩"
       ],
@@ -78,6 +85,8 @@
       "course_name_snapshot": "有機光譜學",
       "credits_snapshot": 3.0,
       "requirement_group": "core",
+      "requirement_section": "core",
+      "program_course_name_snapshot": null,
       "notes": "",
       "source_page": 1,
       "evidence_match": true,
@@ -86,6 +95,7 @@
     },
     {
       "course_code": null,
+      "catalog_entry_id": "entry_dae917d87b1cc15b",
       "opening_units": [
         "海資系"
       ],
@@ -93,6 +103,8 @@
       "course_name_snapshot": "生藥學",
       "credits_snapshot": 3.0,
       "requirement_group": "core",
+      "requirement_section": "core",
+      "program_course_name_snapshot": null,
       "notes": "",
       "source_page": 1,
       "evidence_match": true,
@@ -101,6 +113,7 @@
     },
     {
       "course_code": null,
+      "catalog_entry_id": "entry_80e638f3daa80666",
       "opening_units": [
         "化學碩"
       ],
@@ -108,6 +121,8 @@
       "course_name_snapshot": "高等有機化學",
       "credits_snapshot": 3.0,
       "requirement_group": "core",
+      "requirement_section": "core",
+      "program_course_name_snapshot": null,
       "notes": "",
       "source_page": 1,
       "evidence_match": true,
@@ -116,6 +131,7 @@
     },
     {
       "course_code": null,
+      "catalog_entry_id": "entry_57985ab999c2142d",
       "opening_units": [
         "化學碩"
       ],
@@ -123,6 +139,8 @@
       "course_name_snapshot": "物理有機化學",
       "credits_snapshot": 3.0,
       "requirement_group": "core",
+      "requirement_section": "core",
+      "program_course_name_snapshot": null,
       "notes": "",
       "source_page": 1,
       "evidence_match": true,
@@ -131,6 +149,7 @@
     },
     {
       "course_code": null,
+      "catalog_entry_id": "entry_063c3fc9e07fb8dd",
       "opening_units": [
         "化學碩"
       ],
@@ -138,6 +157,8 @@
       "course_name_snapshot": "天然物合成",
       "credits_snapshot": 3.0,
       "requirement_group": "core",
+      "requirement_section": "core",
+      "program_course_name_snapshot": null,
       "notes": "",
       "source_page": 1,
       "evidence_match": true,
@@ -146,6 +167,7 @@
     },
     {
       "course_code": null,
+      "catalog_entry_id": "entry_54536ede780b24df",
       "opening_units": [
         "化學系"
       ],
@@ -153,6 +175,8 @@
       "course_name_snapshot": "生物化學(一)",
       "credits_snapshot": 3.0,
       "requirement_group": "elective",
+      "requirement_section": "elective",
+      "program_course_name_snapshot": null,
       "notes": "相同課名之學分僅認列一次",
       "source_page": 1,
       "evidence_match": true,
@@ -161,6 +185,7 @@
     },
     {
       "course_code": null,
+      "catalog_entry_id": "entry_20cdcb87f2a72699",
       "opening_units": [
         "化學系"
       ],
@@ -168,6 +193,8 @@
       "course_name_snapshot": "生物化學(二)",
       "credits_snapshot": 3.0,
       "requirement_group": "elective",
+      "requirement_section": "elective",
+      "program_course_name_snapshot": null,
       "notes": "",
       "source_page": 1,
       "evidence_match": true,
@@ -176,6 +203,7 @@
     },
     {
       "course_code": null,
+      "catalog_entry_id": "entry_82c8f93a7b3eec9a",
       "opening_units": [
         "生科系"
       ],
@@ -183,6 +211,8 @@
       "course_name_snapshot": "生物化學(一)",
       "credits_snapshot": 3.0,
       "requirement_group": "elective",
+      "requirement_section": "elective",
+      "program_course_name_snapshot": null,
       "notes": "",
       "source_page": 1,
       "evidence_match": true,
@@ -191,6 +221,7 @@
     },
     {
       "course_code": null,
+      "catalog_entry_id": "entry_16bfc8cdb4918773",
       "opening_units": [
         "生科系"
       ],
@@ -198,6 +229,8 @@
       "course_name_snapshot": "生物化學(二)",
       "credits_snapshot": 3.0,
       "requirement_group": "elective",
+      "requirement_section": "elective",
+      "program_course_name_snapshot": null,
       "notes": "",
       "source_page": 1,
       "evidence_match": true,
@@ -206,6 +239,7 @@
     },
     {
       "course_code": null,
+      "catalog_entry_id": "entry_cd549b21850e5ad9",
       "opening_units": [
         "海資系"
       ],
@@ -213,6 +247,8 @@
       "course_name_snapshot": "生物化學(一)",
       "credits_snapshot": 3.0,
       "requirement_group": "elective",
+      "requirement_section": "elective",
+      "program_course_name_snapshot": null,
       "notes": "",
       "source_page": 1,
       "evidence_match": true,
@@ -221,6 +257,7 @@
     },
     {
       "course_code": null,
+      "catalog_entry_id": "entry_abb8167878294143",
       "opening_units": [
         "海資系"
       ],
@@ -228,6 +265,8 @@
       "course_name_snapshot": "生物化學(二)",
       "credits_snapshot": 3.0,
       "requirement_group": "elective",
+      "requirement_section": "elective",
+      "program_course_name_snapshot": null,
       "notes": "",
       "source_page": 1,
       "evidence_match": true,
@@ -236,6 +275,7 @@
     },
     {
       "course_code": null,
+      "catalog_entry_id": "entry_fc910d08447e182c",
       "opening_units": [
         "化學系"
       ],
@@ -243,6 +283,8 @@
       "course_name_snapshot": "生物無機化學",
       "credits_snapshot": 3.0,
       "requirement_group": "elective",
+      "requirement_section": "elective",
+      "program_course_name_snapshot": null,
       "notes": "",
       "source_page": 1,
       "evidence_match": true,
@@ -251,6 +293,7 @@
     },
     {
       "course_code": null,
+      "catalog_entry_id": "entry_294f95ae8a3fa70b",
       "opening_units": [
         "化學系"
       ],
@@ -258,6 +301,8 @@
       "course_name_snapshot": "生醫技術導論",
       "credits_snapshot": 3.0,
       "requirement_group": "elective",
+      "requirement_section": "elective",
+      "program_course_name_snapshot": null,
       "notes": "",
       "source_page": 1,
       "evidence_match": true,
@@ -266,6 +311,7 @@
     },
     {
       "course_code": null,
+      "catalog_entry_id": "entry_ddda90fe7ba6118a",
       "opening_units": [
         "海資系"
       ],
@@ -273,6 +319,8 @@
       "course_name_snapshot": "天然物化學概論",
       "credits_snapshot": 3.0,
       "requirement_group": "elective",
+      "requirement_section": "elective",
+      "program_course_name_snapshot": null,
       "notes": "",
       "source_page": 1,
       "evidence_match": true,
@@ -281,6 +329,7 @@
     },
     {
       "course_code": null,
+      "catalog_entry_id": "entry_262bef6129fc3b15",
       "opening_units": [
         "海資系"
       ],
@@ -288,6 +337,8 @@
       "course_name_snapshot": "訊息傳遞與藥物開發概論",
       "credits_snapshot": 3.0,
       "requirement_group": "elective",
+      "requirement_section": "elective",
+      "program_course_name_snapshot": null,
       "notes": "",
       "source_page": 1,
       "evidence_match": true,
@@ -296,6 +347,7 @@
     },
     {
       "course_code": null,
+      "catalog_entry_id": "entry_6abf6a2e94b9a817",
       "opening_units": [
         "海資系"
       ],
@@ -303,6 +355,8 @@
       "course_name_snapshot": "海洋化學光譜分析",
       "credits_snapshot": 3.0,
       "requirement_group": "elective",
+      "requirement_section": "elective",
+      "program_course_name_snapshot": null,
       "notes": "",
       "source_page": 1,
       "evidence_match": true,
@@ -311,6 +365,7 @@
     },
     {
       "course_code": null,
+      "catalog_entry_id": "entry_974c07cb1ab287c1",
       "opening_units": [
         "海資碩"
       ],
@@ -318,6 +373,8 @@
       "course_name_snapshot": "天然物化學(一)",
       "credits_snapshot": 3.0,
       "requirement_group": "elective",
+      "requirement_section": "elective",
+      "program_course_name_snapshot": null,
       "notes": "",
       "source_page": 1,
       "evidence_match": true,
@@ -326,6 +383,7 @@
     },
     {
       "course_code": null,
+      "catalog_entry_id": "entry_b04c42cc3f3784b2",
       "opening_units": [
         "海資碩"
       ],
@@ -333,6 +391,8 @@
       "course_name_snapshot": "色層分析",
       "credits_snapshot": 3.0,
       "requirement_group": "elective",
+      "requirement_section": "elective",
+      "program_course_name_snapshot": null,
       "notes": "",
       "source_page": 1,
       "evidence_match": true,
@@ -341,6 +401,7 @@
     },
     {
       "course_code": null,
+      "catalog_entry_id": "entry_0b22cb87aa05e3d7",
       "opening_units": [
         "海資碩"
       ],
@@ -348,6 +409,8 @@
       "course_name_snapshot": "分子標靶與天然物開發",
       "credits_snapshot": 3.0,
       "requirement_group": "elective",
+      "requirement_section": "elective",
+      "program_course_name_snapshot": null,
       "notes": "",
       "source_page": 1,
       "evidence_match": true,
@@ -356,6 +419,7 @@
     },
     {
       "course_code": null,
+      "catalog_entry_id": "entry_175be444135ce30e",
       "opening_units": [
         "生技醫藥碩"
       ],
@@ -363,6 +427,8 @@
       "course_name_snapshot": "生技醫藥研發與技術特論",
       "credits_snapshot": 3.0,
       "requirement_group": "elective",
+      "requirement_section": "elective",
+      "program_course_name_snapshot": null,
       "notes": "",
       "source_page": 1,
       "evidence_match": true,
@@ -371,6 +437,7 @@
     },
     {
       "course_code": null,
+      "catalog_entry_id": "entry_4018b96f0c5a91bc",
       "opening_units": [
         "生技醫藥碩"
       ],
@@ -378,6 +445,8 @@
       "course_name_snapshot": "大分子藥物開發特論",
       "credits_snapshot": 3.0,
       "requirement_group": "elective",
+      "requirement_section": "elective",
+      "program_course_name_snapshot": null,
       "notes": "",
       "source_page": 1,
       "evidence_match": true,
@@ -386,6 +455,7 @@
     },
     {
       "course_code": null,
+      "catalog_entry_id": "entry_a6f2e6733e75b3be",
       "opening_units": [
         "生技醫藥碩"
       ],
@@ -393,6 +463,8 @@
       "course_name_snapshot": "藥物化學(一)",
       "credits_snapshot": 3.0,
       "requirement_group": "elective",
+      "requirement_section": "elective",
+      "program_course_name_snapshot": null,
       "notes": "",
       "source_page": 1,
       "evidence_match": true,
@@ -401,6 +473,7 @@
     },
     {
       "course_code": null,
+      "catalog_entry_id": "entry_ddf26ed020e2ca8f",
       "opening_units": [
         "生技醫藥碩"
       ],
@@ -408,6 +481,8 @@
       "course_name_snapshot": "藥物開發通論",
       "credits_snapshot": 2.0,
       "requirement_group": "elective",
+      "requirement_section": "elective",
+      "program_course_name_snapshot": null,
       "notes": "",
       "source_page": 1,
       "evidence_match": true,
@@ -416,6 +491,7 @@
     },
     {
       "course_code": null,
+      "catalog_entry_id": "entry_c03093c7d0b6f856",
       "opening_units": [
         "生技醫藥碩"
       ],
@@ -423,6 +499,8 @@
       "course_name_snapshot": "分子藥物設計及合成",
       "credits_snapshot": 2.0,
       "requirement_group": "elective",
+      "requirement_section": "elective",
+      "program_course_name_snapshot": null,
       "notes": "",
       "source_page": 1,
       "evidence_match": true,
@@ -431,6 +509,7 @@
     },
     {
       "course_code": null,
+      "catalog_entry_id": "entry_046a270ab1f50f86",
       "opening_units": [
         "生技醫藥碩"
       ],
@@ -438,6 +517,8 @@
       "course_name_snapshot": "抗癌藥物現狀與展望",
       "credits_snapshot": 2.0,
       "requirement_group": "elective",
+      "requirement_section": "elective",
+      "program_course_name_snapshot": null,
       "notes": "",
       "source_page": 1,
       "evidence_match": true,

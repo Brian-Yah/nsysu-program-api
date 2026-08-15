@@ -29,7 +29,7 @@
         "last_modified": "Tue, 24 Dec 2024 07:39:17 GMT",
         "content_length": 124740
       },
-      "parser_version": "0.2.1",
+      "parser_version": "0.2.2",
       "extractor_versions": {
         "pypdf": "6.10.0",
         "pdfplumber": "0.11.9"
@@ -47,6 +47,7 @@
     "course_catalog": [
       {
         "course_code": null,
+        "catalog_entry_id": "entry_665f1d6bfe998880",
         "opening_units": [
           "化學系"
         ],
@@ -54,6 +55,8 @@
         "course_name_snapshot": "AI產業及半導體化學講座",
         "credits_snapshot": 3.0,
         "requirement_group": "core",
+        "requirement_section": "core",
+        "program_course_name_snapshot": null,
         "notes": "新增",
         "source_page": 1,
         "evidence_match": true,
@@ -62,6 +65,7 @@
       },
       {
         "course_code": null,
+        "catalog_entry_id": "entry_928aa0e2539e22bf",
         "opening_units": [
           "化學系"
         ],
@@ -69,6 +73,8 @@
         "course_name_snapshot": "半導體微汙染化學分析",
         "credits_snapshot": 3.0,
         "requirement_group": "core",
+        "requirement_section": "core",
+        "program_course_name_snapshot": null,
         "notes": "",
         "source_page": 1,
         "evidence_match": true,
@@ -77,6 +83,7 @@
       },
       {
         "course_code": null,
+        "catalog_entry_id": "entry_e9cbb69223d7ecaa",
         "opening_units": [
           "物理碩"
         ],
@@ -84,6 +91,8 @@
         "course_name_snapshot": "半導體奈米元件製造技術",
         "credits_snapshot": 3.0,
         "requirement_group": "core",
+        "requirement_section": "core",
+        "program_course_name_snapshot": null,
         "notes": "",
         "source_page": 1,
         "evidence_match": true,
@@ -92,6 +101,7 @@
       },
       {
         "course_code": null,
+        "catalog_entry_id": "entry_a40c9fc227509c1b",
         "opening_units": [
           "化學系"
         ],
@@ -99,6 +109,8 @@
         "course_name_snapshot": "分析化學(三)",
         "credits_snapshot": 3.0,
         "requirement_group": "core",
+        "requirement_section": "core",
+        "program_course_name_snapshot": null,
         "notes": "",
         "source_page": 1,
         "evidence_match": true,
@@ -107,6 +119,7 @@
       },
       {
         "course_code": null,
+        "catalog_entry_id": "entry_3c323033229ef657",
         "opening_units": [
           "物理碩"
         ],
@@ -114,6 +127,8 @@
         "course_name_snapshot": "半導體奈米元件物理",
         "credits_snapshot": 3.0,
         "requirement_group": "elective",
+        "requirement_section": "elective",
+        "program_course_name_snapshot": null,
         "notes": "",
         "source_page": 1,
         "evidence_match": true,
@@ -122,6 +137,7 @@
       },
       {
         "course_code": null,
+        "catalog_entry_id": "entry_52d33d4b817c123c",
         "opening_units": [
           "精密電子零組件研究所"
         ],
@@ -129,6 +145,8 @@
         "course_name_snapshot": "半導體材料",
         "credits_snapshot": 3.0,
         "requirement_group": "elective",
+        "requirement_section": "elective",
+        "program_course_name_snapshot": null,
         "notes": "",
         "source_page": 1,
         "evidence_match": true,
@@ -137,6 +155,7 @@
       },
       {
         "course_code": null,
+        "catalog_entry_id": "entry_fc4de60273873e45",
         "opening_units": [
           "化學系"
         ],
@@ -144,6 +163,8 @@
         "course_name_snapshot": "材料化學",
         "credits_snapshot": 3.0,
         "requirement_group": "elective",
+        "requirement_section": "elective",
+        "program_course_name_snapshot": null,
         "notes": "",
         "source_page": 1,
         "evidence_match": true,
@@ -152,6 +173,7 @@
       },
       {
         "course_code": null,
+        "catalog_entry_id": "entry_79308512df3a7f37",
         "opening_units": [
           "化學碩"
         ],
@@ -159,6 +181,8 @@
         "course_name_snapshot": "高分子化學",
         "credits_snapshot": 3.0,
         "requirement_group": "elective",
+        "requirement_section": "elective",
+        "program_course_name_snapshot": null,
         "notes": "",
         "source_page": 1,
         "evidence_match": true,
@@ -167,6 +191,7 @@
       },
       {
         "course_code": null,
+        "catalog_entry_id": "entry_b1ccda73d309384a",
         "opening_units": [
           "化學系"
         ],
@@ -174,6 +199,8 @@
         "course_name_snapshot": "高分子化學導論",
         "credits_snapshot": 3.0,
         "requirement_group": "elective",
+        "requirement_section": "elective",
+        "program_course_name_snapshot": null,
         "notes": "",
         "source_page": 1,
         "evidence_match": true,
@@ -182,6 +209,7 @@
       },
       {
         "course_code": null,
+        "catalog_entry_id": "entry_a0d64fc0a317fae2",
         "opening_units": [
           "化學碩"
         ],
@@ -189,6 +217,8 @@
         "course_name_snapshot": "電化學",
         "credits_snapshot": 3.0,
         "requirement_group": "elective",
+        "requirement_section": "elective",
+        "program_course_name_snapshot": null,
         "notes": "",
         "source_page": 1,
         "evidence_match": true,
@@ -197,6 +227,7 @@
       },
       {
         "course_code": null,
+        "catalog_entry_id": "entry_3a3d803b579971e9",
         "opening_units": [
           "化學碩"
         ],
@@ -204,6 +235,8 @@
         "course_name_snapshot": "材料微結構鑑定",
         "credits_snapshot": 3.0,
         "requirement_group": "elective",
+        "requirement_section": "elective",
+        "program_course_name_snapshot": null,
         "notes": "",
         "source_page": 1,
         "evidence_match": true,
@@ -212,6 +245,7 @@
       },
       {
         "course_code": null,
+        "catalog_entry_id": "entry_36958f4de46a4298",
         "opening_units": [
           "化學碩"
         ],
@@ -219,6 +253,8 @@
         "course_name_snapshot": "高分子材料化學",
         "credits_snapshot": 3.0,
         "requirement_group": "elective",
+        "requirement_section": "elective",
+        "program_course_name_snapshot": null,
         "notes": "",
         "source_page": 1,
         "evidence_match": true,
@@ -227,6 +263,7 @@
       },
       {
         "course_code": null,
+        "catalog_entry_id": "entry_c4af7c082a37d9ed",
         "opening_units": [
           "化學系"
         ],
@@ -234,6 +271,8 @@
         "course_name_snapshot": "化學與半導體產業創新與創業講座",
         "credits_snapshot": 3.0,
         "requirement_group": "elective",
+        "requirement_section": "elective",
+        "program_course_name_snapshot": null,
         "notes": "自核心課程改為選修",
         "source_page": 1,
         "evidence_match": false,

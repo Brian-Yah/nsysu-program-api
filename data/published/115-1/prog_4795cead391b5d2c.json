@@ -23,7 +23,7 @@
       "last_modified": "Tue, 23 Dec 2025 06:58:06 GMT",
       "content_length": 167366
     },
-    "parser_version": "0.2.1",
+    "parser_version": "0.2.2",
     "extractor_versions": {
       "pypdf": "6.10.0",
       "pdfplumber": "0.11.9"
@@ -39,6 +39,7 @@
   "course_catalog": [
     {
       "course_code": null,
+      "catalog_entry_id": "entry_1443d7dca754e891",
       "opening_units": [
         "應用性課程"
       ],
@@ -46,7 +47,9 @@
       "course_name_snapshot": "全民國防教育軍事訓練課程:國防科技(軍訓)",
       "credits_snapshot": 2.0,
       "requirement_group": "core",
-      "notes": "",
+      "requirement_section": "core",
+      "program_course_name_snapshot": null,
+      "notes": "核 心 課 程 A類 教育軍事訓練相關課程(至少擇一修習)   ",
       "source_page": 1,
       "evidence_match": false,
       "validation_status": "needs_course_code_verification",
@@ -54,6 +57,7 @@
     },
     {
       "course_code": null,
+      "catalog_entry_id": "entry_8b32cd3cb6b353c7",
       "opening_units": [
         "應用性課程"
       ],
@@ -61,7 +65,9 @@
       "course_name_snapshot": "全民國防教育軍事訓練課程:全民國防(軍訓)",
       "credits_snapshot": 2.0,
       "requirement_group": "core",
-      "notes": "",
+      "requirement_section": "core",
+      "program_course_name_snapshot": null,
+      "notes": "核 心 課 程 A類 教育軍事訓練相關課程(至少擇一修習)   ",
       "source_page": 1,
       "evidence_match": false,
       "validation_status": "needs_course_code_verification",
@@ -69,6 +75,7 @@
     },
     {
       "course_code": null,
+      "catalog_entry_id": "entry_9e4ac7d62ea99d02",
       "opening_units": [
         "應用性課程"
       ],
@@ -76,7 +83,9 @@
       "course_name_snapshot": "全民國防教育軍事訓練課程:防衛動員(軍訓)",
       "credits_snapshot": 2.0,
       "requirement_group": "core",
-      "notes": "",
+      "requirement_section": "core",
+      "program_course_name_snapshot": null,
+      "notes": "核 心 課 程 A類 教育軍事訓練相關課程(至少擇一修習)   ",
       "source_page": 1,
       "evidence_match": false,
       "validation_status": "needs_course_code_verification",
@@ -84,6 +93,7 @@
     },
     {
       "course_code": null,
+      "catalog_entry_id": "entry_8f293ed024f960fa",
       "opening_units": [
         "應用性課程"
       ],
@@ -91,7 +101,9 @@
       "course_name_snapshot": "全民國防教育軍事訓練課程:國際情勢(軍訓)",
       "credits_snapshot": 2.0,
       "requirement_group": "core",
-      "notes": "",
+      "requirement_section": "core",
+      "program_course_name_snapshot": null,
+      "notes": "核 心 課 程 A類 教育軍事訓練相關課程(至少擇一修習)   ",
       "source_page": 1,
       "evidence_match": false,
       "validation_status": "needs_course_code_verification",
@@ -99,6 +111,7 @@
     },
     {
       "course_code": null,
+      "catalog_entry_id": "entry_eb89c95dc82b3dff",
       "opening_units": [
         "應用性課程"
       ],
@@ -106,7 +119,9 @@
       "course_name_snapshot": "全民國防教育軍事訓練課程:國防政策(軍訓)",
       "credits_snapshot": 2.0,
       "requirement_group": "core",
-      "notes": "",
+      "requirement_section": "core",
+      "program_course_name_snapshot": null,
+      "notes": "核 心 課 程 A類 教育軍事訓練相關課程(至少擇一修習)   ",
       "source_page": 1,
       "evidence_match": false,
       "validation_status": "needs_course_code_verification",
@@ -114,6 +129,7 @@
     },
     {
       "course_code": null,
+      "catalog_entry_id": "entry_4cb31336a3ec1415",
       "opening_units": [
         "應用性課程"
       ],
@@ -121,7 +137,9 @@
       "course_name_snapshot": "淺談台海局勢與空軍現況分析",
       "credits_snapshot": 2.0,
       "requirement_group": "core",
-      "notes": "",
+      "requirement_section": "core",
+      "program_course_name_snapshot": null,
+      "notes": "核 心 課 程 A類 教育軍事訓練相關課程(至少擇一修習)   ",
       "source_page": 1,
       "evidence_match": true,
       "validation_status": "needs_course_code_verification",
@@ -129,6 +147,7 @@
     },
     {
       "course_code": null,
+      "catalog_entry_id": "entry_666a384a987993a2",
       "opening_units": [
         "醫學院",
         "跨院",
@@ -138,7 +157,9 @@
       "course_name_snapshot": "基礎外傷急救",
       "credits_snapshot": 2.0,
       "requirement_group": "core",
-      "notes": "",
+      "requirement_section": "core",
+      "program_course_name_snapshot": null,
+      "notes": " B類 急救課程(至少擇一修習)   ",
       "source_page": 1,
       "evidence_match": true,
       "validation_status": "needs_course_code_verification",
@@ -146,6 +167,7 @@
     },
     {
       "course_code": null,
+      "catalog_entry_id": "entry_24c3ebe24bec423a",
       "opening_units": [
         "博雅向度三"
       ],
@@ -153,6 +175,8 @@
       "course_name_snapshot": "國際事務與公民參與",
       "credits_snapshot": 3.0,
       "requirement_group": "elective",
+      "requirement_section": "elective",
+      "program_course_name_snapshot": null,
       "notes": "",
       "source_page": 1,
       "evidence_match": true,
@@ -161,6 +185,7 @@
     },
     {
       "course_code": null,
+      "catalog_entry_id": "entry_dfab283c2e620714",
       "opening_units": [
         "博雅向度三"
       ],
@@ -168,6 +193,8 @@
       "course_name_snapshot": "台灣政經發展",
       "credits_snapshot": 3.0,
       "requirement_group": "elective",
+      "requirement_section": "elective",
+      "program_course_name_snapshot": null,
       "notes": "",
       "source_page": 1,
       "evidence_match": true,
@@ -176,6 +203,7 @@
     },
     {
       "course_code": null,
+      "catalog_entry_id": "entry_152b95435ef2c464",
       "opening_units": [
         "博雅向度四"
       ],
@@ -183,6 +211,8 @@
       "course_name_snapshot": "射擊運動與硬體科技",
       "credits_snapshot": 2.0,
       "requirement_group": "elective",
+      "requirement_section": "elective",
+      "program_course_name_snapshot": null,
       "notes": "",
       "source_page": 1,
       "evidence_match": true,
@@ -191,6 +221,7 @@
     },
     {
       "course_code": null,
+      "catalog_entry_id": "entry_6846c9d44e13b6fc",
       "opening_units": [
         "醫學院",
         "跨院",
@@ -200,6 +231,8 @@
       "course_name_snapshot": "新生兒急救:從零開始掌握關鍵技能",
       "credits_snapshot": 2.0,
       "requirement_group": "elective",
+      "requirement_section": "elective",
+      "program_course_name_snapshot": null,
       "notes": "",
       "source_page": 1,
       "evidence_match": true,
@@ -208,6 +241,7 @@
     },
     {
       "course_code": null,
+      "catalog_entry_id": "entry_71c4c95b9e74d955",
       "opening_units": [
         "服務學習"
       ],
@@ -215,6 +249,8 @@
       "course_name_snapshot": "服務學習:推動高中民防實作教育",
       "credits_snapshot": 1.0,
       "requirement_group": "elective",
+      "requirement_section": "elective",
+      "program_course_name_snapshot": null,
       "notes": "",
       "source_page": 1,
       "evidence_match": true,
@@ -223,6 +259,7 @@
     },
     {
       "course_code": null,
+      "catalog_entry_id": "entry_c7daa5c8084b33d3",
       "opening_units": [
         "資工系"
       ],
@@ -230,6 +267,8 @@
       "course_name_snapshot": "資訊安全",
       "credits_snapshot": 3.0,
       "requirement_group": "elective",
+      "requirement_section": "elective",
+      "program_course_name_snapshot": null,
       "notes": "",
       "source_page": 1,
       "evidence_match": true,
@@ -238,6 +277,7 @@
     },
     {
       "course_code": null,
+      "catalog_entry_id": "entry_bac04c8c661ffe82",
       "opening_units": [
         "亞太英語碩程"
       ],
@@ -245,6 +285,8 @@
       "course_name_snapshot": "兩岸關係與亞太安全",
       "credits_snapshot": 3.0,
       "requirement_group": "elective",
+      "requirement_section": "elective",
+      "program_course_name_snapshot": null,
       "notes": "",
       "source_page": 1,
       "evidence_match": true,
@@ -253,6 +295,7 @@
     },
     {
       "course_code": null,
+      "catalog_entry_id": "entry_ff2b65a0fd5b82a7",
       "opening_units": [
         "亞太碩"
       ],
@@ -260,6 +303,8 @@
       "course_name_snapshot": "戰略與國家安全政策",
       "credits_snapshot": 3.0,
       "requirement_group": "elective",
+      "requirement_section": "elective",
+      "program_course_name_snapshot": null,
       "notes": "",
       "source_page": 1,
       "evidence_match": true,
@@ -268,6 +313,7 @@
     },
     {
       "course_code": null,
+      "catalog_entry_id": "entry_e944332feec63b6a",
       "opening_units": [
         "亞太碩"
       ],
@@ -275,6 +321,8 @@
       "course_name_snapshot": "國家安全與危機處理",
       "credits_snapshot": 3.0,
       "requirement_group": "elective",
+      "requirement_section": "elective",
+      "program_course_name_snapshot": null,
       "notes": "",
       "source_page": 1,
       "evidence_match": true,
@@ -283,6 +331,7 @@
     },
     {
       "course_code": null,
+      "catalog_entry_id": "entry_8682c6eb0943ca92",
       "opening_units": [
         "亞太碩"
       ],
@@ -290,6 +339,8 @@
       "course_name_snapshot": "危機處理與美中臺關係",
       "credits_snapshot": 3.0,
       "requirement_group": "elective",
+      "requirement_section": "elective",
+      "program_course_name_snapshot": null,
       "notes": "",
       "source_page": 1,
       "evidence_match": true,
@@ -298,6 +349,7 @@
     },
     {
       "course_code": null,
+      "catalog_entry_id": "entry_208330dcfd34edd3",
       "opening_units": [
         "亞太碩"
       ],
@@ -305,6 +357,8 @@
       "course_name_snapshot": "兩岸關係與國際關係理論",
       "credits_snapshot": 3.0,
       "requirement_group": "elective",
+      "requirement_section": "elective",
+      "program_course_name_snapshot": null,
       "notes": "",
       "source_page": 1,
       "evidence_match": true,
@@ -313,6 +367,7 @@
     },
     {
       "course_code": null,
+      "catalog_entry_id": "entry_eb588b564f34d1fd",
       "opening_units": [
         "亞太碩"
       ],
@@ -320,6 +375,8 @@
       "course_name_snapshot": "印太區域安全",
       "credits_snapshot": 3.0,
       "requirement_group": "elective",
+      "requirement_section": "elective",
+      "program_course_name_snapshot": null,
       "notes": "",
       "source_page": 1,
       "evidence_match": true,
@@ -328,6 +385,7 @@
     },
     {
       "course_code": null,
+      "catalog_entry_id": "entry_5b8263b8bf9f2c7d",
       "opening_units": [
         "西灣學院服務學習教育中心"
       ],
@@ -335,6 +393,8 @@
       "course_name_snapshot": "全民國防相關微學分課程",
       "credits_snapshot": 2.0,
       "requirement_group": "elective",
+      "requirement_section": "elective",
+      "program_course_name_snapshot": null,
       "notes": "限服務學習教育中心舉辦且有標註可認列本學程之課程",
       "source_page": 1,
       "evidence_match": true,
@@ -345,6 +405,56 @@
   "structured_requirements": {
     "core_credits_text_value": 4,
     "minimum_total_credits": 9,
-    "minimum_outside_home_department_credits": 3
+    "minimum_outside_home_department_credits": 3,
+    "entry_selection_constraints": [
+      {
+        "constraint_id": "constraint_2558285b26902c1f",
+        "kind": "select_entries",
+        "catalog_entry_ids": [
+          "entry_1443d7dca754e891",
+          "entry_8b32cd3cb6b353c7",
+          "entry_9e4ac7d62ea99d02",
+          "entry_8f293ed024f960fa",
+          "entry_eb89c95dc82b3dff",
+          "entry_4cb31336a3ec1415"
+        ],
+        "course_names": [
+          "全民國防教育軍事訓練課程:國防科技(軍訓)",
+          "全民國防教育軍事訓練課程:全民國防(軍訓)",
+          "全民國防教育軍事訓練課程:防衛動員(軍訓)",
+          "全民國防教育軍事訓練課程:國際情勢(軍訓)",
+          "全民國防教育軍事訓練課程:國防政策(軍訓)",
+          "淺談台海局勢與空軍現況分析"
+        ],
+        "min_entries": 1,
+        "max_entries": 1,
+        "declared_option_count": null,
+        "option_count_matches": true,
+        "requirement_group": "core",
+        "requirement_section": "core",
+        "source_page": 1,
+        "source_text": "核 心 課 程 A類 教育軍事訓練相關課程(至少擇一修習)   ",
+        "validation_status": "source_text_match"
+      },
+      {
+        "constraint_id": "constraint_3ac52002aec1654e",
+        "kind": "select_entries",
+        "catalog_entry_ids": [
+          "entry_666a384a987993a2"
+        ],
+        "course_names": [
+          "基礎外傷急救"
+        ],
+        "min_entries": 1,
+        "max_entries": 1,
+        "declared_option_count": null,
+        "option_count_matches": true,
+        "requirement_group": "core",
+        "requirement_section": "core",
+        "source_page": 1,
+        "source_text": " B類 急救課程(至少擇一修習)   ",
+        "validation_status": "source_text_match"
+      }
+    ]
   }
 }

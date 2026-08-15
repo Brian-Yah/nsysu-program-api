@@ -29,7 +29,7 @@
         "last_modified": "Mon, 12 Jun 2023 01:15:49 GMT",
         "content_length": 255429
       },
-      "parser_version": "0.2.1",
+      "parser_version": "0.2.2",
       "extractor_versions": {
         "pypdf": "6.10.0",
         "pdfplumber": "0.11.9"
@@ -47,6 +47,7 @@
     "course_catalog": [
       {
         "course_code": null,
+        "catalog_entry_id": "entry_e606b4f09d31f699",
         "opening_units": [
           "基礎教育中心"
         ],
@@ -54,6 +55,8 @@
         "course_name_snapshot": "創業講堂",
         "credits_snapshot": 3.0,
         "requirement_group": "core",
+        "requirement_section": "core",
+        "program_course_name_snapshot": null,
         "notes": "",
         "source_page": 1,
         "evidence_match": true,
@@ -62,6 +65,7 @@
       },
       {
         "course_code": null,
+        "catalog_entry_id": "entry_fdd82a4ba2baf106",
         "opening_units": [
           "博雅教育中心"
         ],
@@ -69,6 +73,8 @@
         "course_name_snapshot": "地方文化採集與應用",
         "credits_snapshot": 3.0,
         "requirement_group": "core",
+        "requirement_section": "core",
+        "program_course_name_snapshot": null,
         "notes": "",
         "source_page": 1,
         "evidence_match": true,
@@ -77,6 +83,7 @@
       },
       {
         "course_code": null,
+        "catalog_entry_id": "entry_6a078ad09f783988",
         "opening_units": [
           "基礎教育中心"
         ],
@@ -84,6 +91,8 @@
         "course_name_snapshot": "文化設計與展演",
         "credits_snapshot": 3.0,
         "requirement_group": "core",
+        "requirement_section": "core",
+        "program_course_name_snapshot": null,
         "notes": "",
         "source_page": 1,
         "evidence_match": true,
@@ -92,6 +101,7 @@
       },
       {
         "course_code": null,
+        "catalog_entry_id": "entry_03a39ba5f28ccdcc",
         "opening_units": [
           "博雅教育中心"
         ],
@@ -99,6 +109,8 @@
         "course_name_snapshot": "文化工作的倫理議題",
         "credits_snapshot": 3.0,
         "requirement_group": "core",
+        "requirement_section": "core",
+        "program_course_name_snapshot": null,
         "notes": "",
         "source_page": 1,
         "evidence_match": true,
@@ -107,6 +119,7 @@
       },
       {
         "course_code": null,
+        "catalog_entry_id": "entry_ef03c6e73780931d",
         "opening_units": [
           "社會創新研究所"
         ],
@@ -114,6 +127,8 @@
         "course_name_snapshot": "文化創新研究與實踐",
         "credits_snapshot": 3.0,
         "requirement_group": "core",
+        "requirement_section": "core",
+        "program_course_name_snapshot": null,
         "notes": "",
         "source_page": 1,
         "evidence_match": true,
@@ -122,6 +137,7 @@
       },
       {
         "course_code": null,
+        "catalog_entry_id": "entry_d91e8cda53d629bd",
         "opening_units": [
           "博雅教育中心"
         ],
@@ -129,6 +145,8 @@
         "course_name_snapshot": "地方品牌與文化行銷",
         "credits_snapshot": 3.0,
         "requirement_group": "elective",
+        "requirement_section": "elective",
+        "program_course_name_snapshot": null,
         "notes": "",
         "source_page": 1,
         "evidence_match": true,
@@ -137,6 +155,7 @@
       },
       {
         "course_code": null,
+        "catalog_entry_id": "entry_a4eada1655bbe2e2",
         "opening_units": [
           "博雅教育中心"
         ],
@@ -144,6 +163,8 @@
         "course_name_snapshot": "台灣社會與文化",
         "credits_snapshot": 3.0,
         "requirement_group": "elective",
+        "requirement_section": "elective",
+        "program_course_name_snapshot": null,
         "notes": "",
         "source_page": 1,
         "evidence_match": true,
@@ -152,6 +173,7 @@
       },
       {
         "course_code": null,
+        "catalog_entry_id": "entry_2f0ae7cac6d2d66a",
         "opening_units": [
           "博雅教育中心"
         ],
@@ -159,6 +181,8 @@
         "course_name_snapshot": "社群意識與倫理",
         "credits_snapshot": 3.0,
         "requirement_group": "elective",
+        "requirement_section": "elective",
+        "program_course_name_snapshot": null,
         "notes": "",
         "source_page": 1,
         "evidence_match": true,
@@ -167,6 +191,7 @@
       },
       {
         "course_code": null,
+        "catalog_entry_id": "entry_5952b54ee8ea0be9",
         "opening_units": [
           "博雅教育中心"
         ],
@@ -174,6 +199,8 @@
         "course_name_snapshot": "台灣文化史",
         "credits_snapshot": 3.0,
         "requirement_group": "elective",
+        "requirement_section": "elective",
+        "program_course_name_snapshot": null,
         "notes": "",
         "source_page": 1,
         "evidence_match": true,
@@ -182,6 +209,7 @@
       },
       {
         "course_code": null,
+        "catalog_entry_id": "entry_e707014fb1f3b1f8",
         "opening_units": [
           "博雅教育中心"
         ],
@@ -189,6 +217,8 @@
         "course_name_snapshot": "資訊科技與人文思維",
         "credits_snapshot": 3.0,
         "requirement_group": "elective",
+        "requirement_section": "elective",
+        "program_course_name_snapshot": null,
         "notes": "",
         "source_page": 1,
         "evidence_match": true,
@@ -197,6 +227,7 @@
       },
       {
         "course_code": null,
+        "catalog_entry_id": "entry_05eb162c3d903928",
         "opening_units": [
           "博雅教育中心"
         ],
@@ -204,6 +235,8 @@
         "course_name_snapshot": "故事創意與數位繪本",
         "credits_snapshot": 2.0,
         "requirement_group": "elective",
+        "requirement_section": "elective",
+        "program_course_name_snapshot": null,
         "notes": "",
         "source_page": 1,
         "evidence_match": true,
@@ -212,6 +245,7 @@
       },
       {
         "course_code": null,
+        "catalog_entry_id": "entry_78c94f9cc5374dc6",
         "opening_units": [
           "基礎教育中心"
         ],
@@ -219,6 +253,8 @@
         "course_name_snapshot": "地方敘事與遊戲",
         "credits_snapshot": 3.0,
         "requirement_group": "elective",
+        "requirement_section": "elective",
+        "program_course_name_snapshot": null,
         "notes": "",
         "source_page": 1,
         "evidence_match": true,
@@ -227,6 +263,7 @@
       },
       {
         "course_code": null,
+        "catalog_entry_id": "entry_14693cd0334e9ad2",
         "opening_units": [
           "社會創新研究所"
         ],
@@ -234,6 +271,8 @@
         "course_name_snapshot": "地方創生研究與實踐(一)",
         "credits_snapshot": 3.0,
         "requirement_group": "elective",
+        "requirement_section": "elective",
+        "program_course_name_snapshot": null,
         "notes": "",
         "source_page": 1,
         "evidence_match": true,
@@ -242,6 +281,7 @@
       },
       {
         "course_code": null,
+        "catalog_entry_id": "entry_fdd35fb269c6fc6d",
         "opening_units": [
           "社會創新研究所"
         ],
@@ -249,6 +289,8 @@
         "course_name_snapshot": "地方創生研究與實踐(二)",
         "credits_snapshot": 3.0,
         "requirement_group": "elective",
+        "requirement_section": "elective",
+        "program_course_name_snapshot": null,
         "notes": "",
         "source_page": 1,
         "evidence_match": true,
@@ -257,6 +299,7 @@
       },
       {
         "course_code": null,
+        "catalog_entry_id": "entry_e1d809ad8ba42dfe",
         "opening_units": [
           "社會創新研究所"
         ],
@@ -264,6 +307,8 @@
         "course_name_snapshot": "文化創新理論",
         "credits_snapshot": 3.0,
         "requirement_group": "elective",
+        "requirement_section": "elective",
+        "program_course_name_snapshot": null,
         "notes": "",
         "source_page": 1,
         "evidence_match": true,
@@ -272,6 +317,7 @@
       },
       {
         "course_code": null,
+        "catalog_entry_id": "entry_c5238941c8d8ae45",
         "opening_units": [
           "社會創新研究所"
         ],
@@ -279,6 +325,8 @@
         "course_name_snapshot": "科技創新研究與實踐",
         "credits_snapshot": 3.0,
         "requirement_group": "elective",
+        "requirement_section": "elective",
+        "program_course_name_snapshot": null,
         "notes": "",
         "source_page": 1,
         "evidence_match": true,
@@ -287,6 +335,7 @@
       },
       {
         "course_code": null,
+        "catalog_entry_id": "entry_72f3ce9175cee9eb",
         "opening_units": [
           "西灣學院"
         ],
@@ -294,6 +343,8 @@
         "course_name_snapshot": "社會文化分析",
         "credits_snapshot": 3.0,
         "requirement_group": "elective",
+        "requirement_section": "elective",
+        "program_course_name_snapshot": null,
         "notes": "",
         "source_page": 1,
         "evidence_match": true,
@@ -302,6 +353,7 @@
       },
       {
         "course_code": null,
+        "catalog_entry_id": "entry_a590c9a269b9944b",
         "opening_units": [
           "西灣學院"
         ],
@@ -309,6 +361,8 @@
         "course_name_snapshot": "人文經典導讀",
         "credits_snapshot": 3.0,
         "requirement_group": "elective",
+        "requirement_section": "elective",
+        "program_course_name_snapshot": null,
         "notes": "",
         "source_page": 1,
         "evidence_match": true,
@@ -317,6 +371,7 @@
       },
       {
         "course_code": null,
+        "catalog_entry_id": "entry_eec66248aade50a0",
         "opening_units": [
           "西灣學院"
         ],
@@ -324,6 +379,8 @@
         "course_name_snapshot": "青少年、流行文化與社會",
         "credits_snapshot": 3.0,
         "requirement_group": "elective",
+        "requirement_section": "elective",
+        "program_course_name_snapshot": null,
         "notes": "",
         "source_page": 1,
         "evidence_match": true,
@@ -332,6 +389,7 @@
       },
       {
         "course_code": null,
+        "catalog_entry_id": "entry_39f0bef5585a7dd5",
         "opening_units": [
           "西灣學院"
         ],
@@ -339,6 +397,8 @@
         "course_name_snapshot": "服務學習:文化設計與社區實作",
         "credits_snapshot": 1.0,
         "requirement_group": "elective",
+        "requirement_section": "elective",
+        "program_course_name_snapshot": null,
         "notes": "",
         "source_page": 1,
         "evidence_match": false,
@@ -347,6 +407,7 @@
       },
       {
         "course_code": null,
+        "catalog_entry_id": "entry_2a8b8d16c671ec7c",
         "opening_units": [
           "跨院選修(文)"
         ],
@@ -354,6 +415,8 @@
         "course_name_snapshot": "觀光英語",
         "credits_snapshot": 3.0,
         "requirement_group": "elective",
+        "requirement_section": "elective",
+        "program_course_name_snapshot": null,
         "notes": "",
         "source_page": 1,
         "evidence_match": true,

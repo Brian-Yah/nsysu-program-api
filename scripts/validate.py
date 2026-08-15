@@ -18,24 +18,78 @@ for path in (root / "data/published").glob("*/*.json"):
         errors.append(f"{path}: duplicate program_id {data['program_id']}")
     ids.add(data.get("program_id"))
     errors.extend(f"{path}: {error.message}" for error in validator.iter_errors(data))
-    course_names = {
-        course.get("course_name_snapshot") for course in data.get("course_catalog", [])
+    courses = data.get("course_catalog", [])
+    course_names = {course.get("course_name_snapshot") for course in courses}
+    entry_ids = {course.get("catalog_entry_id") for course in courses}
+    program_course_names = {
+        course.get("program_course_name_snapshot")
+        for course in courses
+        if course.get("program_course_name_snapshot")
     }
     constraint_ids = set()
-    constraints = data.get("structured_requirements", {}).get(
-        "course_count_constraints", []
+    requirements = data.get("structured_requirements", {})
+    constraint_groups = (
+        requirements.get("course_count_constraints", []),
+        requirements.get("entry_selection_constraints", []),
+        requirements.get("program_course_selection_constraints", []),
+        requirements.get("no_double_count_constraints", []),
+        requirements.get("named_group_selection_constraints", []),
     )
-    for constraint in constraints:
+    for group in constraint_groups:
+        for constraint in group:
+            constraint_id = constraint.get("constraint_id")
+            if constraint_id in constraint_ids:
+                errors.append(f"{path}: duplicate constraint_id {constraint_id}")
+            constraint_ids.add(constraint_id)
+    for constraint in requirements.get("course_count_constraints", []):
         constraint_id = constraint.get("constraint_id")
-        if constraint_id in constraint_ids:
-            errors.append(f"{path}: duplicate constraint_id {constraint_id}")
-        constraint_ids.add(constraint_id)
         names = constraint.get("course_names", [])
         if constraint.get("max_courses", 0) > len(names):
             errors.append(f"{path}: {constraint_id} max_courses exceeds course_names")
         missing = sorted(set(names) - course_names)
         if missing:
             errors.append(f"{path}: {constraint_id} references missing courses {missing}")
+        missing_entries = sorted(set(constraint.get("catalog_entry_ids", [])) - entry_ids)
+        if missing_entries:
+            errors.append(
+                f"{path}: {constraint_id} references missing entries {missing_entries}"
+            )
+        subject = constraint.get("program_course_name_snapshot")
+        if subject and subject not in program_course_names:
+            errors.append(f"{path}: {constraint_id} references missing subject {subject}")
+    for constraint in requirements.get("entry_selection_constraints", []):
+        constraint_id = constraint.get("constraint_id")
+        referenced = constraint.get("catalog_entry_ids", [])
+        missing_entries = sorted(set(referenced) - entry_ids)
+        if missing_entries:
+            errors.append(
+                f"{path}: {constraint_id} references missing entries {missing_entries}"
+            )
+        if constraint.get("max_entries", 0) > len(referenced):
+            errors.append(f"{path}: {constraint_id} max_entries exceeds entries")
+        if constraint.get("min_entries", 0) > constraint.get("max_entries", 0):
+            errors.append(f"{path}: {constraint_id} min_entries exceeds max_entries")
+    for constraint in requirements.get("program_course_selection_constraints", []):
+        constraint_id = constraint.get("constraint_id")
+        subjects = constraint.get("program_course_names", [])
+        missing_subjects = sorted(set(subjects) - program_course_names)
+        if missing_subjects:
+            errors.append(
+                f"{path}: {constraint_id} references missing subjects {missing_subjects}"
+            )
+        if constraint.get("max_program_courses", 0) > len(subjects):
+            errors.append(f"{path}: {constraint_id} max_program_courses exceeds subjects")
+    for constraint in requirements.get("named_group_selection_constraints", []):
+        constraint_id = constraint.get("constraint_id")
+        options = constraint.get("options", [])
+        if constraint.get("max_groups", 0) > len(options):
+            errors.append(f"{path}: {constraint_id} max_groups exceeds options")
+        for option in options:
+            missing_entries = sorted(set(option.get("catalog_entry_ids", [])) - entry_ids)
+            if missing_entries:
+                errors.append(
+                    f"{path}: {constraint_id} references missing entries {missing_entries}"
+                )
 if errors:
     print("\n".join(errors))
     sys.exit(1)

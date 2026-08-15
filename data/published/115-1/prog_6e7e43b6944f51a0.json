@@ -23,7 +23,7 @@
       "last_modified": "Fri, 31 May 2024 07:04:17 GMT",
       "content_length": 199099
     },
-    "parser_version": "0.2.1",
+    "parser_version": "0.2.2",
     "extractor_versions": {
       "pypdf": "6.10.0",
       "pdfplumber": "0.11.9"
@@ -41,6 +41,7 @@
   "course_catalog": [
     {
       "course_code": null,
+      "catalog_entry_id": "entry_d6b0fc84ee1ef0c6",
       "opening_units": [
         "物理系"
       ],
@@ -48,6 +49,8 @@
       "course_name_snapshot": "半導體奈米元件製造技術",
       "credits_snapshot": 3.0,
       "requirement_group": "core",
+      "requirement_section": "core",
+      "program_course_name_snapshot": null,
       "notes": "",
       "source_page": 1,
       "evidence_match": true,
@@ -56,6 +59,7 @@
     },
     {
       "course_code": null,
+      "catalog_entry_id": "entry_c5497f39971c531c",
       "opening_units": [
         "物理系"
       ],
@@ -63,6 +67,8 @@
       "course_name_snapshot": "半導體奈米元件物理",
       "credits_snapshot": 3.0,
       "requirement_group": "core",
+      "requirement_section": "core",
+      "program_course_name_snapshot": null,
       "notes": "",
       "source_page": 1,
       "evidence_match": true,
@@ -71,6 +77,7 @@
     },
     {
       "course_code": null,
+      "catalog_entry_id": "entry_ba3f943f1e03e409",
       "opening_units": [
         "創新半導體製造研究所"
       ],
@@ -78,6 +85,8 @@
       "course_name_snapshot": "半導體元件特性量測分析",
       "credits_snapshot": 3.0,
       "requirement_group": "core",
+      "requirement_section": "core",
+      "program_course_name_snapshot": null,
       "notes": "",
       "source_page": 1,
       "evidence_match": true,
@@ -86,6 +95,7 @@
     },
     {
       "course_code": null,
+      "catalog_entry_id": "entry_c48fb7d2376b8715",
       "opening_units": [
         "材光系"
       ],
@@ -93,6 +103,8 @@
       "course_name_snapshot": "半導體元件",
       "credits_snapshot": 3.0,
       "requirement_group": "elective",
+      "requirement_section": "elective",
+      "program_course_name_snapshot": null,
       "notes": "",
       "source_page": 1,
       "evidence_match": true,
@@ -101,6 +113,7 @@
     },
     {
       "course_code": null,
+      "catalog_entry_id": "entry_90449c1a26fb18e2",
       "opening_units": [
         "材光系"
       ],
@@ -108,6 +121,8 @@
       "course_name_snapshot": "記憶體元件與製程技術",
       "credits_snapshot": 3.0,
       "requirement_group": "elective",
+      "requirement_section": "elective",
+      "program_course_name_snapshot": null,
       "notes": "",
       "source_page": 1,
       "evidence_match": true,
@@ -116,6 +131,7 @@
     },
     {
       "course_code": null,
+      "catalog_entry_id": "entry_eb54e79f2a5c65c0",
       "opening_units": [
         "材光系"
       ],
@@ -123,6 +139,8 @@
       "course_name_snapshot": "固態物理",
       "credits_snapshot": 3.0,
       "requirement_group": "elective",
+      "requirement_section": "elective",
+      "program_course_name_snapshot": null,
       "notes": "",
       "source_page": 1,
       "evidence_match": true,
@@ -131,6 +149,7 @@
     },
     {
       "course_code": null,
+      "catalog_entry_id": "entry_1820edc7a37c4554",
       "opening_units": [
         "物理系"
       ],
@@ -138,6 +157,8 @@
       "course_name_snapshot": "物理研究專題(一)",
       "credits_snapshot": 3.0,
       "requirement_group": "elective",
+      "requirement_section": "elective",
+      "program_course_name_snapshot": null,
       "notes": "專題導向課程",
       "source_page": 1,
       "evidence_match": true,
@@ -146,6 +167,7 @@
     },
     {
       "course_code": null,
+      "catalog_entry_id": "entry_78eb73fe8c812fbe",
       "opening_units": [
         "物理系"
       ],
@@ -153,6 +175,8 @@
       "course_name_snapshot": "近代物理",
       "credits_snapshot": 3.0,
       "requirement_group": "elective",
+      "requirement_section": "elective",
+      "program_course_name_snapshot": null,
       "notes": "",
       "source_page": 1,
       "evidence_match": true,

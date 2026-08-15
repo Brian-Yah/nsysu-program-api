@@ -23,7 +23,7 @@
       "last_modified": "Tue, 24 Dec 2024 07:38:14 GMT",
       "content_length": 217120
     },
-    "parser_version": "0.2.1",
+    "parser_version": "0.2.2",
     "extractor_versions": {
       "pypdf": "6.10.0",
       "pdfplumber": "0.11.9"
@@ -41,6 +41,7 @@
   "course_catalog": [
     {
       "course_code": null,
+      "catalog_entry_id": "entry_16959d9db13a57af",
       "opening_units": [
         "醫學科技研究所"
       ],
@@ -48,6 +49,8 @@
       "course_name_snapshot": "智慧長照創新服務開發模式",
       "credits_snapshot": 3.0,
       "requirement_group": "elective",
+      "requirement_section": "elective",
+      "program_course_name_snapshot": null,
       "notes": "",
       "source_page": 1,
       "evidence_match": true,
@@ -56,6 +59,7 @@
     },
     {
       "course_code": null,
+      "catalog_entry_id": "entry_7b64d34b4bf8ff62",
       "opening_units": [
         "企業管理學系"
       ],
@@ -63,6 +67,8 @@
       "course_name_snapshot": "長期照護",
       "credits_snapshot": 3.0,
       "requirement_group": "elective",
+      "requirement_section": "elective",
+      "program_course_name_snapshot": null,
       "notes": "",
       "source_page": 1,
       "evidence_match": true,
@@ -71,6 +77,7 @@
     },
     {
       "course_code": null,
+      "catalog_entry_id": "entry_02d2f78dade46323",
       "opening_units": [
         "醫學科技研究所"
       ],
@@ -78,6 +85,8 @@
       "course_name_snapshot": "智慧長照實習",
       "credits_snapshot": 1.0,
       "requirement_group": "elective",
+      "requirement_section": "elective",
+      "program_course_name_snapshot": null,
       "notes": "",
       "source_page": 1,
       "evidence_match": true,
@@ -86,6 +95,7 @@
     },
     {
       "course_code": null,
+      "catalog_entry_id": "entry_140f847d23610bb1",
       "opening_units": [
         "資訊工程學系"
       ],
@@ -93,6 +103,8 @@
       "course_name_snapshot": "資料探勘",
       "credits_snapshot": 3.0,
       "requirement_group": "elective",
+      "requirement_section": "elective",
+      "program_course_name_snapshot": null,
       "notes": "",
       "source_page": 1,
       "evidence_match": true,
@@ -101,6 +113,7 @@
     },
     {
       "course_code": null,
+      "catalog_entry_id": "entry_e4e313d7ff359afe",
       "opening_units": [
         "醫學科技研究所"
       ],
@@ -108,6 +121,8 @@
       "course_name_snapshot": "智慧長照實務",
       "credits_snapshot": 3.0,
       "requirement_group": "elective",
+      "requirement_section": "elective",
+      "program_course_name_snapshot": null,
       "notes": "",
       "source_page": 1,
       "evidence_match": true,
@@ -116,6 +131,7 @@
     },
     {
       "course_code": null,
+      "catalog_entry_id": "entry_1604f6c05bd37112",
       "opening_units": [
         "醫學科技研究所"
       ],
@@ -123,6 +139,8 @@
       "course_name_snapshot": "智慧長照專論",
       "credits_snapshot": 3.0,
       "requirement_group": "elective",
+      "requirement_section": "elective",
+      "program_course_name_snapshot": null,
       "notes": "",
       "source_page": 1,
       "evidence_match": true,
@@ -131,6 +149,7 @@
     },
     {
       "course_code": null,
+      "catalog_entry_id": "entry_a25b69fa0f3c4d88",
       "opening_units": [
         "醫學科技研究所"
       ],
@@ -138,6 +157,8 @@
       "course_name_snapshot": "科技輔具與創新應用",
       "credits_snapshot": 3.0,
       "requirement_group": "elective",
+      "requirement_section": "elective",
+      "program_course_name_snapshot": null,
       "notes": "",
       "source_page": 1,
       "evidence_match": true,
@@ -146,6 +167,7 @@
     },
     {
       "course_code": null,
+      "catalog_entry_id": "entry_b2bbc9a1cf942ee8",
       "opening_units": [
         "後醫學系"
       ],
@@ -153,6 +175,8 @@
       "course_name_snapshot": "創新科技與健康照護",
       "credits_snapshot": 2.0,
       "requirement_group": "elective",
+      "requirement_section": "elective",
+      "program_course_name_snapshot": null,
       "notes": "",
       "source_page": 1,
       "evidence_match": true,
@@ -161,6 +185,7 @@
     },
     {
       "course_code": null,
+      "catalog_entry_id": "entry_9a2f033fde368a14",
       "opening_units": [
         "人科學程"
       ],
@@ -168,6 +193,8 @@
       "course_name_snapshot": "關懷設計",
       "credits_snapshot": 3.0,
       "requirement_group": "elective",
+      "requirement_section": "elective",
+      "program_course_name_snapshot": null,
       "notes": "",
       "source_page": 1,
       "evidence_match": true,
@@ -176,6 +203,7 @@
     },
     {
       "course_code": null,
+      "catalog_entry_id": "entry_47313d386e2ca270",
       "opening_units": [
         "高雄醫學大學心理學系"
       ],
@@ -183,6 +211,8 @@
       "course_name_snapshot": "應用心理學實務與實習",
       "credits_snapshot": 3.0,
       "requirement_group": "elective",
+      "requirement_section": "elective",
+      "program_course_name_snapshot": null,
       "notes": "",
       "source_page": 1,
       "evidence_match": true,
@@ -191,6 +221,7 @@
     },
     {
       "course_code": null,
+      "catalog_entry_id": "entry_5b44f1c344839454",
       "opening_units": [
         "後醫學系"
       ],
@@ -198,6 +229,8 @@
       "course_name_snapshot": "深睡的力量: 揭開睡眠與健康的面紗",
       "credits_snapshot": 3.0,
       "requirement_group": "elective",
+      "requirement_section": "elective",
+      "program_course_name_snapshot": null,
       "notes": "",
       "source_page": 1,
       "evidence_match": false,

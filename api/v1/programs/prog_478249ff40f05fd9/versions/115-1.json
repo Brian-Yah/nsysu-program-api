@@ -23,7 +23,7 @@
       "last_modified": "Mon, 12 Jun 2023 01:31:57 GMT",
       "content_length": 98259
     },
-    "parser_version": "0.2.1",
+    "parser_version": "0.2.2",
     "extractor_versions": {
       "pypdf": "6.10.0",
       "pdfplumber": "0.11.9"
@@ -42,6 +42,7 @@
   "course_catalog": [
     {
       "course_code": null,
+      "catalog_entry_id": "entry_3b35d6d45c34e80b",
       "opening_units": [
         "應數系"
       ],
@@ -49,6 +50,8 @@
       "course_name_snapshot": "數學導論(二)",
       "credits_snapshot": 3.0,
       "requirement_group": "unspecified",
+      "requirement_section": "unspecified",
+      "program_course_name_snapshot": null,
       "notes": "",
       "source_page": 1,
       "evidence_match": true,
@@ -57,6 +60,7 @@
     },
     {
       "course_code": null,
+      "catalog_entry_id": "entry_f565e16ee87e8830",
       "opening_units": [
         "應數系"
       ],
@@ -64,6 +68,8 @@
       "course_name_snapshot": "線性代數(二)",
       "credits_snapshot": 3.0,
       "requirement_group": "unspecified",
+      "requirement_section": "unspecified",
+      "program_course_name_snapshot": null,
       "notes": "",
       "source_page": 1,
       "evidence_match": true,
@@ -72,6 +78,7 @@
     },
     {
       "course_code": null,
+      "catalog_entry_id": "entry_4e0449da05f17a83",
       "opening_units": [
         "應數系"
       ],
@@ -79,6 +86,8 @@
       "course_name_snapshot": "微積分(一)",
       "credits_snapshot": 4.0,
       "requirement_group": "unspecified",
+      "requirement_section": "unspecified",
+      "program_course_name_snapshot": null,
       "notes": "",
       "source_page": 1,
       "evidence_match": true,
@@ -87,6 +96,7 @@
     },
     {
       "course_code": null,
+      "catalog_entry_id": "entry_63af0339d63efefa",
       "opening_units": [
         "應數系"
       ],
@@ -94,6 +104,8 @@
       "course_name_snapshot": "微積分(二)",
       "credits_snapshot": 4.0,
       "requirement_group": "unspecified",
+      "requirement_section": "unspecified",
+      "program_course_name_snapshot": null,
       "notes": "",
       "source_page": 1,
       "evidence_match": true,
@@ -102,6 +114,7 @@
     },
     {
       "course_code": null,
+      "catalog_entry_id": "entry_b4e7c4088f6a6763",
       "opening_units": [
         "應數系"
       ],
@@ -109,6 +122,8 @@
       "course_name_snapshot": "高等微積分(一)",
       "credits_snapshot": 4.0,
       "requirement_group": "unspecified",
+      "requirement_section": "unspecified",
+      "program_course_name_snapshot": null,
       "notes": "",
       "source_page": 1,
       "evidence_match": true,
@@ -117,6 +132,7 @@
     },
     {
       "course_code": null,
+      "catalog_entry_id": "entry_ab7839ffc57aa336",
       "opening_units": [
         "應數系"
       ],
@@ -124,6 +140,8 @@
       "course_name_snapshot": "高等微積分(二)",
       "credits_snapshot": 4.0,
       "requirement_group": "unspecified",
+      "requirement_section": "unspecified",
+      "program_course_name_snapshot": null,
       "notes": "",
       "source_page": 1,
       "evidence_match": true,
@@ -132,6 +150,7 @@
     },
     {
       "course_code": null,
+      "catalog_entry_id": "entry_b3de0052f4664166",
       "opening_units": [
         "應數系"
       ],
@@ -139,6 +158,8 @@
       "course_name_snapshot": "離散數學(一)",
       "credits_snapshot": 3.0,
       "requirement_group": "unspecified",
+      "requirement_section": "unspecified",
+      "program_course_name_snapshot": null,
       "notes": "",
       "source_page": 1,
       "evidence_match": true,
@@ -147,6 +168,7 @@
     },
     {
       "course_code": null,
+      "catalog_entry_id": "entry_079d8ddb32421158",
       "opening_units": [
         "應數系"
       ],
@@ -154,6 +176,8 @@
       "course_name_snapshot": "離散數學(二)",
       "credits_snapshot": 3.0,
       "requirement_group": "unspecified",
+      "requirement_section": "unspecified",
+      "program_course_name_snapshot": null,
       "notes": "",
       "source_page": 1,
       "evidence_match": true,
@@ -162,6 +186,7 @@
     },
     {
       "course_code": null,
+      "catalog_entry_id": "entry_df7c57fd773111e0",
       "opening_units": [
         "應數系"
       ],
@@ -169,6 +194,8 @@
       "course_name_snapshot": "機率論(一)",
       "credits_snapshot": 3.0,
       "requirement_group": "unspecified",
+      "requirement_section": "unspecified",
+      "program_course_name_snapshot": null,
       "notes": "",
       "source_page": 1,
       "evidence_match": true,
@@ -177,6 +204,7 @@
     },
     {
       "course_code": null,
+      "catalog_entry_id": "entry_697fa47aae5671d5",
       "opening_units": [
         "應數系"
       ],
@@ -184,6 +212,8 @@
       "course_name_snapshot": "機率論(二)",
       "credits_snapshot": 3.0,
       "requirement_group": "unspecified",
+      "requirement_section": "unspecified",
+      "program_course_name_snapshot": null,
       "notes": "",
       "source_page": 1,
       "evidence_match": true,
@@ -192,6 +222,7 @@
     },
     {
       "course_code": null,
+      "catalog_entry_id": "entry_fecdb769eea16b16",
       "opening_units": [
         "應數系"
       ],
@@ -199,6 +230,8 @@
       "course_name_snapshot": "統計學(一)",
       "credits_snapshot": 3.0,
       "requirement_group": "unspecified",
+      "requirement_section": "unspecified",
+      "program_course_name_snapshot": null,
       "notes": "",
       "source_page": 1,
       "evidence_match": true,
@@ -207,6 +240,7 @@
     },
     {
       "course_code": null,
+      "catalog_entry_id": "entry_d3130db9ee87c90d",
       "opening_units": [
         "應數系"
       ],
@@ -214,6 +248,8 @@
       "course_name_snapshot": "統計學(二)",
       "credits_snapshot": 3.0,
       "requirement_group": "unspecified",
+      "requirement_section": "unspecified",
+      "program_course_name_snapshot": null,
       "notes": "",
       "source_page": 1,
       "evidence_match": true,
@@ -222,6 +258,7 @@
     },
     {
       "course_code": null,
+      "catalog_entry_id": "entry_0a61795ae3a3a928",
       "opening_units": [
         "應數系"
       ],
@@ -229,6 +266,8 @@
       "course_name_snapshot": "微分方程(一)",
       "credits_snapshot": 3.0,
       "requirement_group": "unspecified",
+      "requirement_section": "unspecified",
+      "program_course_name_snapshot": null,
       "notes": "",
       "source_page": 1,
       "evidence_match": true,
@@ -237,6 +276,7 @@
     },
     {
       "course_code": null,
+      "catalog_entry_id": "entry_b6c7514621b0d260",
       "opening_units": [
         "應數系"
       ],
@@ -244,6 +284,8 @@
       "course_name_snapshot": "微分方程(二)",
       "credits_snapshot": 3.0,
       "requirement_group": "unspecified",
+      "requirement_section": "unspecified",
+      "program_course_name_snapshot": null,
       "notes": "",
       "source_page": 1,
       "evidence_match": true,
@@ -252,6 +294,7 @@
     },
     {
       "course_code": null,
+      "catalog_entry_id": "entry_25e12613614eb698",
       "opening_units": [
         "應數系"
       ],
@@ -259,6 +302,8 @@
       "course_name_snapshot": "數值分析(一)",
       "credits_snapshot": 3.0,
       "requirement_group": "unspecified",
+      "requirement_section": "unspecified",
+      "program_course_name_snapshot": null,
       "notes": "",
       "source_page": 1,
       "evidence_match": true,
@@ -267,6 +312,7 @@
     },
     {
       "course_code": null,
+      "catalog_entry_id": "entry_853a835673233fcb",
       "opening_units": [
         "應數系"
       ],
@@ -274,6 +320,8 @@
       "course_name_snapshot": "數值分析(二)",
       "credits_snapshot": 3.0,
       "requirement_group": "unspecified",
+      "requirement_section": "unspecified",
+      "program_course_name_snapshot": null,
       "notes": "",
       "source_page": 1,
       "evidence_match": true,
@@ -282,6 +330,7 @@
     },
     {
       "course_code": null,
+      "catalog_entry_id": "entry_111b1d6c2240bdc5",
       "opening_units": [
         "應數系"
       ],
@@ -289,6 +338,8 @@
       "course_name_snapshot": "代數學(一)",
       "credits_snapshot": 3.0,
       "requirement_group": "unspecified",
+      "requirement_section": "unspecified",
+      "program_course_name_snapshot": null,
       "notes": "",
       "source_page": 1,
       "evidence_match": true,
@@ -297,6 +348,7 @@
     },
     {
       "course_code": null,
+      "catalog_entry_id": "entry_b3078fb2bf718378",
       "opening_units": [
         "應數系"
       ],
@@ -304,6 +356,8 @@
       "course_name_snapshot": "代數學(二)",
       "credits_snapshot": 3.0,
       "requirement_group": "unspecified",
+      "requirement_section": "unspecified",
+      "program_course_name_snapshot": null,
       "notes": "",
       "source_page": 1,
       "evidence_match": true,
@@ -312,6 +366,7 @@
     },
     {
       "course_code": null,
+      "catalog_entry_id": "entry_b27d8c7443036852",
       "opening_units": [
         "應數系"
       ],
@@ -319,6 +374,8 @@
       "course_name_snapshot": "複變函數論(一)",
       "credits_snapshot": 3.0,
       "requirement_group": "unspecified",
+      "requirement_section": "unspecified",
+      "program_course_name_snapshot": null,
       "notes": "",
       "source_page": 1,
       "evidence_match": true,
@@ -327,6 +384,7 @@
     },
     {
       "course_code": null,
+      "catalog_entry_id": "entry_02a88f41fd0d1026",
       "opening_units": [
         "應數系"
       ],
@@ -334,6 +392,8 @@
       "course_name_snapshot": "複變函數論(二)",
       "credits_snapshot": 3.0,
       "requirement_group": "unspecified",
+      "requirement_section": "unspecified",
+      "program_course_name_snapshot": null,
       "notes": "",
       "source_page": 1,
       "evidence_match": true,
@@ -342,6 +402,7 @@
     },
     {
       "course_code": null,
+      "catalog_entry_id": "entry_8b11f749c415fc08",
       "opening_units": [
         "應數系"
       ],
@@ -349,6 +410,8 @@
       "course_name_snapshot": "數學導論(一)",
       "credits_snapshot": 3.0,
       "requirement_group": "unspecified",
+      "requirement_section": "unspecified",
+      "program_course_name_snapshot": null,
       "notes": "",
       "source_page": 1,
       "evidence_match": true,
@@ -357,6 +420,7 @@
     },
     {
       "course_code": null,
+      "catalog_entry_id": "entry_59c11aad068fedf1",
       "opening_units": [
         "應數系"
       ],
@@ -364,6 +428,8 @@
       "course_name_snapshot": "線性代數(一)",
       "credits_snapshot": 3.0,
       "requirement_group": "unspecified",
+      "requirement_section": "unspecified",
+      "program_course_name_snapshot": null,
       "notes": "",
       "source_page": 1,
       "evidence_match": true,
@@ -372,6 +438,7 @@
     },
     {
       "course_code": null,
+      "catalog_entry_id": "entry_1758a74e665cdc10",
       "opening_units": [
         "理學院"
       ],
@@ -379,6 +446,8 @@
       "course_name_snapshot": "科學史",
       "credits_snapshot": 2.0,
       "requirement_group": "unspecified",
+      "requirement_section": "unspecified",
+      "program_course_name_snapshot": null,
       "notes": "",
       "source_page": 1,
       "evidence_match": true,

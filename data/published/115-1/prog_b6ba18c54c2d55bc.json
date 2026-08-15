@@ -23,7 +23,7 @@
       "last_modified": "Tue, 23 Dec 2025 07:00:52 GMT",
       "content_length": 425077
     },
-    "parser_version": "0.2.1",
+    "parser_version": "0.2.2",
     "extractor_versions": {
       "pypdf": "6.10.0",
       "pdfplumber": "0.11.9"
@@ -39,6 +39,7 @@
   "course_catalog": [
     {
       "course_code": null,
+      "catalog_entry_id": "entry_69cf6e02dfeff528",
       "opening_units": [
         "校內各系"
       ],
@@ -46,6 +47,8 @@
       "course_name_snapshot": "線性代數",
       "credits_snapshot": 3.0,
       "requirement_group": "core",
+      "requirement_section": "core",
+      "program_course_name_snapshot": null,
       "notes": "線性代數、線性代數(一)、線性代數(二)等課程至多採認一科。",
       "source_page": 1,
       "evidence_match": true,
@@ -54,6 +57,7 @@
     },
     {
       "course_code": null,
+      "catalog_entry_id": "entry_fbaa60722c192709",
       "opening_units": [
         "校內各系"
       ],
@@ -61,6 +65,8 @@
       "course_name_snapshot": "線性代數(一)",
       "credits_snapshot": 3.0,
       "requirement_group": "core",
+      "requirement_section": "core",
+      "program_course_name_snapshot": null,
       "notes": "線性代數、線性代數(一)、線性代數(二)等課程至多採認一科。",
       "source_page": 1,
       "evidence_match": true,
@@ -69,6 +75,7 @@
     },
     {
       "course_code": null,
+      "catalog_entry_id": "entry_ba0fc8e0f426a059",
       "opening_units": [
         "校內各系"
       ],
@@ -76,6 +83,8 @@
       "course_name_snapshot": "線性代數(二)",
       "credits_snapshot": 3.0,
       "requirement_group": "core",
+      "requirement_section": "core",
+      "program_course_name_snapshot": null,
       "notes": "線性代數、線性代數(一)、線性代數(二)等課程至多採認一科。",
       "source_page": 1,
       "evidence_match": true,
@@ -84,6 +93,7 @@
     },
     {
       "course_code": null,
+      "catalog_entry_id": "entry_0a2015f920bbbe3e",
       "opening_units": [
         "校內各系"
       ],
@@ -91,6 +101,8 @@
       "course_name_snapshot": "機率學",
       "credits_snapshot": 3.0,
       "requirement_group": "core",
+      "requirement_section": "core",
+      "program_course_name_snapshot": null,
       "notes": "機率論(一)、機率論(二)、機率與統計、機率模式與應用、機率學等課程至多採認一科。",
       "source_page": 1,
       "evidence_match": true,
@@ -99,6 +111,7 @@
     },
     {
       "course_code": null,
+      "catalog_entry_id": "entry_42befaa84e2cad6b",
       "opening_units": [
         "校內各系"
       ],
@@ -106,6 +119,8 @@
       "course_name_snapshot": "機率論(一)",
       "credits_snapshot": 3.0,
       "requirement_group": "core",
+      "requirement_section": "core",
+      "program_course_name_snapshot": null,
       "notes": "機率論(一)、機率論(二)、機率與統計、機率模式與應用、機率學等課程至多採認一科。",
       "source_page": 1,
       "evidence_match": true,
@@ -114,6 +129,7 @@
     },
     {
       "course_code": null,
+      "catalog_entry_id": "entry_3ba14fae915994c0",
       "opening_units": [
         "校內各系"
       ],
@@ -121,6 +137,8 @@
       "course_name_snapshot": "機率論(二)",
       "credits_snapshot": 3.0,
       "requirement_group": "core",
+      "requirement_section": "core",
+      "program_course_name_snapshot": null,
       "notes": "機率論(一)、機率論(二)、機率與統計、機率模式與應用、機率學等課程至多採認一科。",
       "source_page": 1,
       "evidence_match": true,
@@ -129,6 +147,7 @@
     },
     {
       "course_code": null,
+      "catalog_entry_id": "entry_29780acbebb1ab31",
       "opening_units": [
         "校內各系"
       ],
@@ -136,6 +155,8 @@
       "course_name_snapshot": "機率與統計",
       "credits_snapshot": 3.0,
       "requirement_group": "core",
+      "requirement_section": "core",
+      "program_course_name_snapshot": null,
       "notes": "機率論(一)、機率論(二)、機率與統計、機率模式與應用、機率學等課程至多採認一科。",
       "source_page": 1,
       "evidence_match": true,
@@ -144,6 +165,7 @@
     },
     {
       "course_code": null,
+      "catalog_entry_id": "entry_edda62e5783f67a0",
       "opening_units": [
         "校內各系"
       ],
@@ -151,6 +173,8 @@
       "course_name_snapshot": "機率模式與應用",
       "credits_snapshot": 3.0,
       "requirement_group": "core",
+      "requirement_section": "core",
+      "program_course_name_snapshot": null,
       "notes": "機率論(一)、機率論(二)、機率與統計、機率模式與應用、機率學等課程至多採認一科。",
       "source_page": 1,
       "evidence_match": true,
@@ -159,6 +183,7 @@
     },
     {
       "course_code": null,
+      "catalog_entry_id": "entry_8e2d3eb2e4a615a1",
       "opening_units": [
         "校內各系"
       ],
@@ -166,6 +191,8 @@
       "course_name_snapshot": "統計學",
       "credits_snapshot": 3.0,
       "requirement_group": "core",
+      "requirement_section": "core",
+      "program_course_name_snapshot": null,
       "notes": "統計學、統計學(一)、統計學(二)、高等統計學等課程至多採認一科。",
       "source_page": 1,
       "evidence_match": true,
@@ -174,6 +201,7 @@
     },
     {
       "course_code": null,
+      "catalog_entry_id": "entry_ccca6e934c77956f",
       "opening_units": [
         "校內各系"
       ],
@@ -181,6 +209,8 @@
       "course_name_snapshot": "統計學(一)",
       "credits_snapshot": 3.0,
       "requirement_group": "core",
+      "requirement_section": "core",
+      "program_course_name_snapshot": null,
       "notes": "統計學、統計學(一)、統計學(二)、高等統計學等課程至多採認一科。",
       "source_page": 1,
       "evidence_match": true,
@@ -189,6 +219,7 @@
     },
     {
       "course_code": null,
+      "catalog_entry_id": "entry_5ac64cbbded5f6b8",
       "opening_units": [
         "校內各系"
       ],
@@ -196,6 +227,8 @@
       "course_name_snapshot": "統計學(二)",
       "credits_snapshot": 3.0,
       "requirement_group": "core",
+      "requirement_section": "core",
+      "program_course_name_snapshot": null,
       "notes": "統計學、統計學(一)、統計學(二)、高等統計學等課程至多採認一科。",
       "source_page": 1,
       "evidence_match": true,
@@ -204,6 +237,7 @@
     },
     {
       "course_code": null,
+      "catalog_entry_id": "entry_bed631c24a07dee7",
       "opening_units": [
         "校內各系"
       ],
@@ -211,6 +245,8 @@
       "course_name_snapshot": "高等統計學",
       "credits_snapshot": 3.0,
       "requirement_group": "core",
+      "requirement_section": "core",
+      "program_course_name_snapshot": null,
       "notes": "統計學、統計學(一)、統計學(二)、高等統計學等課程至多採認一科。",
       "source_page": 1,
       "evidence_match": true,
@@ -219,6 +255,7 @@
     },
     {
       "course_code": null,
+      "catalog_entry_id": "entry_652a0ab0c318853d",
       "opening_units": [
         "校內各系"
       ],
@@ -226,6 +263,8 @@
       "course_name_snapshot": "財務管理",
       "credits_snapshot": 3.0,
       "requirement_group": "core",
+      "requirement_section": "core",
+      "program_course_name_snapshot": null,
       "notes": "財務管理概論、財務管理理論等課程至多採認 財務管理、財務管理(一)、財務管理(二)、財務管理概論、財務管理理論等課程至多採認一科。",
       "source_page": 1,
       "evidence_match": true,
@@ -234,6 +273,7 @@
     },
     {
       "course_code": null,
+      "catalog_entry_id": "entry_d09e0abc1f40fec3",
       "opening_units": [
         "校內各系"
       ],
@@ -241,6 +281,8 @@
       "course_name_snapshot": "財務管理(一)",
       "credits_snapshot": 3.0,
       "requirement_group": "core",
+      "requirement_section": "core",
+      "program_course_name_snapshot": null,
       "notes": "財務管理概論、財務管理理論等課程至多採認 財務管理、財務管理(一)、財務管理(二)、財務管理概論、財務管理理論等課程至多採認一科。",
       "source_page": 1,
       "evidence_match": true,
@@ -249,6 +291,7 @@
     },
     {
       "course_code": null,
+      "catalog_entry_id": "entry_3e3f071eb815c88d",
       "opening_units": [
         "校內各系"
       ],
@@ -256,6 +299,8 @@
       "course_name_snapshot": "財務管理(二)",
       "credits_snapshot": 3.0,
       "requirement_group": "core",
+      "requirement_section": "core",
+      "program_course_name_snapshot": null,
       "notes": "財務管理概論、財務管理理論等課程至多採認 財務管理、財務管理(一)、財務管理(二)、財務管理概論、財務管理理論等課程至多採認一科。",
       "source_page": 2,
       "evidence_match": true,
@@ -264,6 +309,7 @@
     },
     {
       "course_code": null,
+      "catalog_entry_id": "entry_c413f904f28961a6",
       "opening_units": [
         "校內各系"
       ],
@@ -271,6 +317,8 @@
       "course_name_snapshot": "財務管理概論",
       "credits_snapshot": 3.0,
       "requirement_group": "core",
+      "requirement_section": "core",
+      "program_course_name_snapshot": null,
       "notes": "財務管理概論、財務管理理論等課程至多採認 財務管理、財務管理(一)、財務管理(二)、財務管理概論、財務管理理論等課程至多採認一科。",
       "source_page": 2,
       "evidence_match": true,
@@ -279,6 +327,7 @@
     },
     {
       "course_code": null,
+      "catalog_entry_id": "entry_db52b693e0f44ba6",
       "opening_units": [
         "校內各系"
       ],
@@ -286,6 +335,8 @@
       "course_name_snapshot": "財務管理理論",
       "credits_snapshot": 3.0,
       "requirement_group": "core",
+      "requirement_section": "core",
+      "program_course_name_snapshot": null,
       "notes": "財務管理概論、財務管理理論等課程至多採認 財務管理、財務管理(一)、財務管理(二)、財務管理概論、財務管理理論等課程至多採認一科。",
       "source_page": 2,
       "evidence_match": true,
@@ -294,6 +345,7 @@
     },
     {
       "course_code": null,
+      "catalog_entry_id": "entry_ff63772e87991455",
       "opening_units": [
         "校內各系"
       ],
@@ -301,6 +353,8 @@
       "course_name_snapshot": "經濟學概論",
       "credits_snapshot": 3.0,
       "requirement_group": "core",
+      "requirement_section": "core",
+      "program_course_name_snapshot": null,
       "notes": "個體經濟學、個體經濟學(一)、個體經濟學 經濟學概論、經濟學、經濟學(一)、經濟學(二)、經濟學原理(一)、經濟學原理(二)、個體經濟學、個體經濟學(一)、個體經濟學(二)、總體經濟學、總體經濟學(一)、總體經濟學(二)等課程至多採認一科。",
       "source_page": 2,
       "evidence_match": true,
@@ -309,6 +363,7 @@
     },
     {
       "course_code": null,
+      "catalog_entry_id": "entry_379f3997c388a2ee",
       "opening_units": [
         "校內各系"
       ],
@@ -316,6 +371,8 @@
       "course_name_snapshot": "經濟學",
       "credits_snapshot": 3.0,
       "requirement_group": "core",
+      "requirement_section": "core",
+      "program_course_name_snapshot": null,
       "notes": "個體經濟學、個體經濟學(一)、個體經濟學 經濟學概論、經濟學、經濟學(一)、經濟學(二)、經濟學原理(一)、經濟學原理(二)、個體經濟學、個體經濟學(一)、個體經濟學(二)、總體經濟學、總體經濟學(一)、總體經濟學(二)等課程至多採認一科。",
       "source_page": 2,
       "evidence_match": true,
@@ -324,6 +381,7 @@
     },
     {
       "course_code": null,
+      "catalog_entry_id": "entry_0bf9e1c5c9719911",
       "opening_units": [
         "校內各系"
       ],
@@ -331,6 +389,8 @@
       "course_name_snapshot": "經濟學(一)",
       "credits_snapshot": 3.0,
       "requirement_group": "core",
+      "requirement_section": "core",
+      "program_course_name_snapshot": null,
       "notes": "個體經濟學、個體經濟學(一)、個體經濟學 經濟學概論、經濟學、經濟學(一)、經濟學(二)、經濟學原理(一)、經濟學原理(二)、個體經濟學、個體經濟學(一)、個體經濟學(二)、總體經濟學、總體經濟學(一)、總體經濟學(二)等課程至多採認一科。",
       "source_page": 2,
       "evidence_match": true,
@@ -339,6 +399,7 @@
     },
     {
       "course_code": null,
+      "catalog_entry_id": "entry_6561ae8dd4415509",
       "opening_units": [
         "校內各系"
       ],
@@ -346,6 +407,8 @@
       "course_name_snapshot": "經濟學(二)",
       "credits_snapshot": 3.0,
       "requirement_group": "core",
+      "requirement_section": "core",
+      "program_course_name_snapshot": null,
       "notes": "個體經濟學、個體經濟學(一)、個體經濟學 經濟學概論、經濟學、經濟學(一)、經濟學(二)、經濟學原理(一)、經濟學原理(二)、個體經濟學、個體經濟學(一)、個體經濟學(二)、總體經濟學、總體經濟學(一)、總體經濟學(二)等課程至多採認一科。",
       "source_page": 2,
       "evidence_match": true,
@@ -354,6 +417,7 @@
     },
     {
       "course_code": null,
+      "catalog_entry_id": "entry_61d0b19a3ac42cc8",
       "opening_units": [
         "校內各系"
       ],
@@ -361,6 +425,8 @@
       "course_name_snapshot": "經濟學原理(一)",
       "credits_snapshot": 3.0,
       "requirement_group": "core",
+      "requirement_section": "core",
+      "program_course_name_snapshot": null,
       "notes": "個體經濟學、個體經濟學(一)、個體經濟學 經濟學概論、經濟學、經濟學(一)、經濟學(二)、經濟學原理(一)、經濟學原理(二)、個體經濟學、個體經濟學(一)、個體經濟學(二)、總體經濟學、總體經濟學(一)、總體經濟學(二)等課程至多採認一科。",
       "source_page": 2,
       "evidence_match": true,
@@ -369,6 +435,7 @@
     },
     {
       "course_code": null,
+      "catalog_entry_id": "entry_b38ed3bcd45e5c72",
       "opening_units": [
         "校內各系"
       ],
@@ -376,6 +443,8 @@
       "course_name_snapshot": "經濟學原理(二)",
       "credits_snapshot": 3.0,
       "requirement_group": "core",
+      "requirement_section": "core",
+      "program_course_name_snapshot": null,
       "notes": "個體經濟學、個體經濟學(一)、個體經濟學 經濟學概論、經濟學、經濟學(一)、經濟學(二)、經濟學原理(一)、經濟學原理(二)、個體經濟學、個體經濟學(一)、個體經濟學(二)、總體經濟學、總體經濟學(一)、總體經濟學(二)等課程至多採認一科。",
       "source_page": 3,
       "evidence_match": true,
@@ -384,6 +453,7 @@
     },
     {
       "course_code": null,
+      "catalog_entry_id": "entry_4849cc22c2063d83",
       "opening_units": [
         "校內各系"
       ],
@@ -391,6 +461,8 @@
       "course_name_snapshot": "個體經濟學",
       "credits_snapshot": 3.0,
       "requirement_group": "core",
+      "requirement_section": "core",
+      "program_course_name_snapshot": null,
       "notes": "個體經濟學、個體經濟學(一)、個體經濟學 經濟學概論、經濟學、經濟學(一)、經濟學(二)、經濟學原理(一)、經濟學原理(二)、個體經濟學、個體經濟學(一)、個體經濟學(二)、總體經濟學、總體經濟學(一)、總體經濟學(二)等課程至多採認一科。",
       "source_page": 3,
       "evidence_match": true,
@@ -399,6 +471,7 @@
     },
     {
       "course_code": null,
+      "catalog_entry_id": "entry_2dd109b5d23693f4",
       "opening_units": [
         "校內各系"
       ],
@@ -406,6 +479,8 @@
       "course_name_snapshot": "個體經濟學(一)",
       "credits_snapshot": 3.0,
       "requirement_group": "core",
+      "requirement_section": "core",
+      "program_course_name_snapshot": null,
       "notes": "個體經濟學、個體經濟學(一)、個體經濟學 經濟學概論、經濟學、經濟學(一)、經濟學(二)、經濟學原理(一)、經濟學原理(二)、個體經濟學、個體經濟學(一)、個體經濟學(二)、總體經濟學、總體經濟學(一)、總體經濟學(二)等課程至多採認一科。",
       "source_page": 3,
       "evidence_match": true,
@@ -414,6 +489,7 @@
     },
     {
       "course_code": null,
+      "catalog_entry_id": "entry_bc2d08b804107aed",
       "opening_units": [
         "校內各系"
       ],
@@ -421,6 +497,8 @@
       "course_name_snapshot": "個體經濟學(二)",
       "credits_snapshot": 3.0,
       "requirement_group": "core",
+      "requirement_section": "core",
+      "program_course_name_snapshot": null,
       "notes": "個體經濟學、個體經濟學(一)、個體經濟學 經濟學概論、經濟學、經濟學(一)、經濟學(二)、經濟學原理(一)、經濟學原理(二)、個體經濟學、個體經濟學(一)、個體經濟學(二)、總體經濟學、總體經濟學(一)、總體經濟學(二)等課程至多採認一科。",
       "source_page": 3,
       "evidence_match": true,
@@ -429,6 +507,7 @@
     },
     {
       "course_code": null,
+      "catalog_entry_id": "entry_6fa999c0dfaff8b9",
       "opening_units": [
         "校內各系"
       ],
@@ -436,6 +515,8 @@
       "course_name_snapshot": "總體經濟學",
       "credits_snapshot": 3.0,
       "requirement_group": "core",
+      "requirement_section": "core",
+      "program_course_name_snapshot": null,
       "notes": "個體經濟學、個體經濟學(一)、個體經濟學 經濟學概論、經濟學、經濟學(一)、經濟學(二)、經濟學原理(一)、經濟學原理(二)、個體經濟學、個體經濟學(一)、個體經濟學(二)、總體經濟學、總體經濟學(一)、總體經濟學(二)等課程至多採認一科。",
       "source_page": 3,
       "evidence_match": true,
@@ -444,6 +525,7 @@
     },
     {
       "course_code": null,
+      "catalog_entry_id": "entry_3c6f8f4b3baa8130",
       "opening_units": [
         "校內各系"
       ],
@@ -451,6 +533,8 @@
       "course_name_snapshot": "總體經濟學(一)",
       "credits_snapshot": 3.0,
       "requirement_group": "core",
+      "requirement_section": "core",
+      "program_course_name_snapshot": null,
       "notes": "個體經濟學、個體經濟學(一)、個體經濟學 經濟學概論、經濟學、經濟學(一)、經濟學(二)、經濟學原理(一)、經濟學原理(二)、個體經濟學、個體經濟學(一)、個體經濟學(二)、總體經濟學、總體經濟學(一)、總體經濟學(二)等課程至多採認一科。",
       "source_page": 3,
       "evidence_match": true,
@@ -459,6 +543,7 @@
     },
     {
       "course_code": null,
+      "catalog_entry_id": "entry_0402a7394d3ccbe1",
       "opening_units": [
         "校內各系"
       ],
@@ -466,6 +551,8 @@
       "course_name_snapshot": "總體經濟學(二)",
       "credits_snapshot": 3.0,
       "requirement_group": "core",
+      "requirement_section": "core",
+      "program_course_name_snapshot": null,
       "notes": "個體經濟學、個體經濟學(一)、個體經濟學 經濟學概論、經濟學、經濟學(一)、經濟學(二)、經濟學原理(一)、經濟學原理(二)、個體經濟學、個體經濟學(一)、個體經濟學(二)、總體經濟學、總體經濟學(一)、總體經濟學(二)等課程至多採認一科。",
       "source_page": 3,
       "evidence_match": true,
@@ -474,6 +561,7 @@
     },
     {
       "course_code": null,
+      "catalog_entry_id": "entry_e7d4ee5cabbdce9a",
       "opening_units": [
         "應數系"
       ],
@@ -481,6 +569,8 @@
       "course_name_snapshot": "隨機過程",
       "credits_snapshot": 3.0,
       "requirement_group": "core",
+      "requirement_section": "core",
+      "program_course_name_snapshot": null,
       "notes": "",
       "source_page": 4,
       "evidence_match": true,
@@ -489,6 +579,7 @@
     },
     {
       "course_code": null,
+      "catalog_entry_id": "entry_836c913e7de470c7",
       "opening_units": [
         "應數系"
       ],
@@ -496,6 +587,8 @@
       "course_name_snapshot": "應用機率模型",
       "credits_snapshot": 3.0,
       "requirement_group": "core",
+      "requirement_section": "core",
+      "program_course_name_snapshot": null,
       "notes": "",
       "source_page": 4,
       "evidence_match": true,
@@ -504,6 +597,7 @@
     },
     {
       "course_code": null,
+      "catalog_entry_id": "entry_a56f1550c609a48d",
       "opening_units": [
         "應數系"
       ],
@@ -511,6 +605,8 @@
       "course_name_snapshot": "多變量分析",
       "credits_snapshot": 3.0,
       "requirement_group": "core",
+      "requirement_section": "core",
+      "program_course_name_snapshot": null,
       "notes": "",
       "source_page": 4,
       "evidence_match": true,
@@ -519,6 +615,7 @@
     },
     {
       "course_code": null,
+      "catalog_entry_id": "entry_4a662ab30e8857d3",
       "opening_units": [
         "應數系"
       ],
@@ -526,6 +623,8 @@
       "course_name_snapshot": "金融數學",
       "credits_snapshot": 3.0,
       "requirement_group": "core",
+      "requirement_section": "core",
+      "program_course_name_snapshot": null,
       "notes": "",
       "source_page": 4,
       "evidence_match": true,
@@ -534,6 +633,7 @@
     },
     {
       "course_code": null,
+      "catalog_entry_id": "entry_f336ac86bb2cf6f5",
       "opening_units": [
         "應數系"
       ],
@@ -541,6 +641,8 @@
       "course_name_snapshot": "財務時間序列分析",
       "credits_snapshot": 3.0,
       "requirement_group": "core",
+      "requirement_section": "core",
+      "program_course_name_snapshot": null,
       "notes": "",
       "source_page": 4,
       "evidence_match": true,
@@ -549,6 +651,7 @@
     },
     {
       "course_code": null,
+      "catalog_entry_id": "entry_0caa4aa591127257",
       "opening_units": [
         "應數系"
       ],
@@ -556,6 +659,8 @@
       "course_name_snapshot": "迴歸分析",
       "credits_snapshot": 3.0,
       "requirement_group": "core",
+      "requirement_section": "core",
+      "program_course_name_snapshot": null,
       "notes": "",
       "source_page": 4,
       "evidence_match": true,
@@ -564,6 +669,7 @@
     },
     {
       "course_code": null,
+      "catalog_entry_id": "entry_516e31a2bae25c3b",
       "opening_units": [
         "應數系"
       ],
@@ -571,6 +677,8 @@
       "course_name_snapshot": "統計推論",
       "credits_snapshot": 3.0,
       "requirement_group": "core",
+      "requirement_section": "core",
+      "program_course_name_snapshot": null,
       "notes": "",
       "source_page": 4,
       "evidence_match": true,
@@ -579,6 +687,7 @@
     },
     {
       "course_code": null,
+      "catalog_entry_id": "entry_cc0b17e1108e850e",
       "opening_units": [
         "應數系"
       ],
@@ -586,6 +695,8 @@
       "course_name_snapshot": "統計資料分析",
       "credits_snapshot": 3.0,
       "requirement_group": "core",
+      "requirement_section": "core",
+      "program_course_name_snapshot": null,
       "notes": "",
       "source_page": 4,
       "evidence_match": true,
@@ -594,6 +705,7 @@
     },
     {
       "course_code": null,
+      "catalog_entry_id": "entry_40b2e3067e36b80a",
       "opening_units": [
         "應數系"
       ],
@@ -601,6 +713,8 @@
       "course_name_snapshot": "統計模擬",
       "credits_snapshot": 3.0,
       "requirement_group": "core",
+      "requirement_section": "core",
+      "program_course_name_snapshot": null,
       "notes": "",
       "source_page": 4,
       "evidence_match": true,
@@ -609,6 +723,7 @@
     },
     {
       "course_code": null,
+      "catalog_entry_id": "entry_8fac7763fa898001",
       "opening_units": [
         "應數系"
       ],
@@ -616,6 +731,8 @@
       "course_name_snapshot": "數理統計",
       "credits_snapshot": 3.0,
       "requirement_group": "core",
+      "requirement_section": "core",
+      "program_course_name_snapshot": null,
       "notes": "",
       "source_page": 4,
       "evidence_match": true,
@@ -624,6 +741,7 @@
     },
     {
       "course_code": null,
+      "catalog_entry_id": "entry_3191d959ab929e39",
       "opening_units": [
         "應數系"
       ],
@@ -631,6 +749,8 @@
       "course_name_snapshot": "數學統計軟體應用",
       "credits_snapshot": 3.0,
       "requirement_group": "core",
+      "requirement_section": "core",
+      "program_course_name_snapshot": null,
       "notes": "",
       "source_page": 4,
       "evidence_match": true,
@@ -639,6 +759,7 @@
     },
     {
       "course_code": null,
+      "catalog_entry_id": "entry_a5c93ef411d1b5a4",
       "opening_units": [
         "應數系"
       ],
@@ -646,6 +767,8 @@
       "course_name_snapshot": "應用統計方法",
       "credits_snapshot": 3.0,
       "requirement_group": "core",
+      "requirement_section": "core",
+      "program_course_name_snapshot": null,
       "notes": "",
       "source_page": 4,
       "evidence_match": true,
@@ -654,6 +777,7 @@
     },
     {
       "course_code": null,
+      "catalog_entry_id": "entry_3081c1e37331643c",
       "opening_units": [
         "校內各系"
       ],
@@ -661,6 +785,8 @@
       "course_name_snapshot": "生物統計與資訊",
       "credits_snapshot": 2.0,
       "requirement_group": "core",
+      "requirement_section": "core",
+      "program_course_name_snapshot": null,
       "notes": "",
       "source_page": 4,
       "evidence_match": true,
@@ -669,6 +795,7 @@
     },
     {
       "course_code": null,
+      "catalog_entry_id": "entry_9919d73c13fff173",
       "opening_units": [
         "校內各系"
       ],
@@ -676,6 +803,8 @@
       "course_name_snapshot": "生物統計學",
       "credits_snapshot": 3.0,
       "requirement_group": "core",
+      "requirement_section": "core",
+      "program_course_name_snapshot": null,
       "notes": "",
       "source_page": 4,
       "evidence_match": true,
@@ -684,6 +813,7 @@
     },
     {
       "course_code": null,
+      "catalog_entry_id": "entry_62fbcb646dbb1d57",
       "opening_units": [
         "校內各系"
       ],
@@ -691,6 +821,8 @@
       "course_name_snapshot": "社會統計(一)",
       "credits_snapshot": 3.0,
       "requirement_group": "core",
+      "requirement_section": "core",
+      "program_course_name_snapshot": null,
       "notes": "",
       "source_page": 4,
       "evidence_match": true,
@@ -699,6 +831,7 @@
     },
     {
       "course_code": null,
+      "catalog_entry_id": "entry_b126140ed501dcea",
       "opening_units": [
         "校內各系"
       ],
@@ -706,6 +839,8 @@
       "course_name_snapshot": "統計資料分析",
       "credits_snapshot": 3.0,
       "requirement_group": "core",
+      "requirement_section": "core",
+      "program_course_name_snapshot": null,
       "notes": "",
       "source_page": 4,
       "evidence_match": true,
@@ -714,6 +849,7 @@
     },
     {
       "course_code": null,
+      "catalog_entry_id": "entry_15f71ee05476bb07",
       "opening_units": [
         "人科學程"
       ],
@@ -721,6 +857,8 @@
       "course_name_snapshot": "統計學與資料視覺化",
       "credits_snapshot": 3.0,
       "requirement_group": "core",
+      "requirement_section": "core",
+      "program_course_name_snapshot": null,
       "notes": "",
       "source_page": 4,
       "evidence_match": true,
@@ -729,6 +867,7 @@
     },
     {
       "course_code": null,
+      "catalog_entry_id": "entry_eb23ec529b0129ef",
       "opening_units": [
         "校內各系"
       ],
@@ -736,6 +875,8 @@
       "course_name_snapshot": "應用統計學(一)",
       "credits_snapshot": 3.0,
       "requirement_group": "core",
+      "requirement_section": "core",
+      "program_course_name_snapshot": null,
       "notes": "",
       "source_page": 4,
       "evidence_match": true,
@@ -744,6 +885,7 @@
     },
     {
       "course_code": null,
+      "catalog_entry_id": "entry_81759101e630af3b",
       "opening_units": [
         "校內各系"
       ],
@@ -751,6 +893,8 @@
       "course_name_snapshot": "資料分析與應用-R 語言之應用",
       "credits_snapshot": 3.0,
       "requirement_group": "core",
+      "requirement_section": "core",
+      "program_course_name_snapshot": null,
       "notes": "",
       "source_page": 4,
       "evidence_match": false,
@@ -759,6 +903,7 @@
     },
     {
       "course_code": null,
+      "catalog_entry_id": "entry_a5611f738b42b19b",
       "opening_units": [
         "校內各系"
       ],
@@ -766,6 +911,8 @@
       "course_name_snapshot": "R程式語言入門",
       "credits_snapshot": 3.0,
       "requirement_group": "core",
+      "requirement_section": "core",
+      "program_course_name_snapshot": null,
       "notes": "",
       "source_page": 4,
       "evidence_match": true,
@@ -774,6 +921,7 @@
     },
     {
       "course_code": null,
+      "catalog_entry_id": "entry_5ddae6581e3c9146",
       "opening_units": [
         "應數系"
       ],
@@ -781,6 +929,8 @@
       "course_name_snapshot": "Python 與機器學習之理論實現",
       "credits_snapshot": 3.0,
       "requirement_group": "core",
+      "requirement_section": "core",
+      "program_course_name_snapshot": null,
       "notes": "",
       "source_page": 4,
       "evidence_match": false,
@@ -789,6 +939,7 @@
     },
     {
       "course_code": null,
+      "catalog_entry_id": "entry_bb6c62a144017b43",
       "opening_units": [
         "應數系"
       ],
@@ -796,6 +947,8 @@
       "course_name_snapshot": "Python與機器學習(一)",
       "credits_snapshot": 3.0,
       "requirement_group": "core",
+      "requirement_section": "core",
+      "program_course_name_snapshot": null,
       "notes": "",
       "source_page": 4,
       "evidence_match": true,
@@ -804,6 +957,7 @@
     },
     {
       "course_code": null,
+      "catalog_entry_id": "entry_50c4fa4f2a0d7e08",
       "opening_units": [
         "應數系"
       ],
@@ -811,6 +965,8 @@
       "course_name_snapshot": "Python與機器學習(二)",
       "credits_snapshot": 3.0,
       "requirement_group": "core",
+      "requirement_section": "core",
+      "program_course_name_snapshot": null,
       "notes": "",
       "source_page": 4,
       "evidence_match": true,
@@ -819,6 +975,7 @@
     },
     {
       "course_code": null,
+      "catalog_entry_id": "entry_2e4d2ba22d5b444b",
       "opening_units": [
         "校內各系"
       ],
@@ -826,6 +983,8 @@
       "course_name_snapshot": "Python 程式設計",
       "credits_snapshot": 3.0,
       "requirement_group": "core",
+      "requirement_section": "core",
+      "program_course_name_snapshot": null,
       "notes": "",
       "source_page": 4,
       "evidence_match": true,
@@ -834,6 +993,7 @@
     },
     {
       "course_code": null,
+      "catalog_entry_id": "entry_8ad58e0fe9a8e05c",
       "opening_units": [
         "資管系"
       ],
@@ -841,6 +1001,8 @@
       "course_name_snapshot": "資訊經濟學",
       "credits_snapshot": 3.0,
       "requirement_group": "core",
+      "requirement_section": "core",
+      "program_course_name_snapshot": null,
       "notes": "",
       "source_page": 4,
       "evidence_match": true,
@@ -849,6 +1011,7 @@
     },
     {
       "course_code": null,
+      "catalog_entry_id": "entry_d2b977290245aa73",
       "opening_units": [
         "校內各系"
       ],
@@ -856,6 +1019,8 @@
       "course_name_snapshot": "計量經濟學",
       "credits_snapshot": 3.0,
       "requirement_group": "core",
+      "requirement_section": "core",
+      "program_course_name_snapshot": null,
       "notes": "",
       "source_page": 4,
       "evidence_match": true,
@@ -864,6 +1029,7 @@
     },
     {
       "course_code": null,
+      "catalog_entry_id": "entry_a154d6c4cad6e1ad",
       "opening_units": [
         "校內各系"
       ],
@@ -871,6 +1037,8 @@
       "course_name_snapshot": "計量經濟學(一)",
       "credits_snapshot": 3.0,
       "requirement_group": "core",
+      "requirement_section": "core",
+      "program_course_name_snapshot": null,
       "notes": "",
       "source_page": 4,
       "evidence_match": true,
@@ -879,6 +1047,7 @@
     },
     {
       "course_code": null,
+      "catalog_entry_id": "entry_662f8fee9ddea501",
       "opening_units": [
         "校內各系"
       ],
@@ -886,6 +1055,8 @@
       "course_name_snapshot": "計量經濟學(二)",
       "credits_snapshot": 3.0,
       "requirement_group": "core",
+      "requirement_section": "core",
+      "program_course_name_snapshot": null,
       "notes": "",
       "source_page": 4,
       "evidence_match": true,
@@ -894,6 +1065,7 @@
     },
     {
       "course_code": null,
+      "catalog_entry_id": "entry_8931f83896ecd099",
       "opening_units": [
         "政經系"
       ],
@@ -901,6 +1073,8 @@
       "course_name_snapshot": "財務經濟學應用實務",
       "credits_snapshot": 3.0,
       "requirement_group": "core",
+      "requirement_section": "core",
+      "program_course_name_snapshot": null,
       "notes": "",
       "source_page": 4,
       "evidence_match": true,
@@ -909,6 +1083,7 @@
     },
     {
       "course_code": null,
+      "catalog_entry_id": "entry_748264152af36787",
       "opening_units": [
         "政經系"
       ],
@@ -916,6 +1091,8 @@
       "course_name_snapshot": "賽局理論導論",
       "credits_snapshot": 3.0,
       "requirement_group": "core",
+      "requirement_section": "core",
+      "program_course_name_snapshot": null,
       "notes": "",
       "source_page": 4,
       "evidence_match": true,
@@ -924,6 +1101,7 @@
     },
     {
       "course_code": null,
+      "catalog_entry_id": "entry_0c70e25a99472731",
       "opening_units": [
         "校內各系"
       ],
@@ -931,6 +1109,8 @@
       "course_name_snapshot": "個人理財規劃",
       "credits_snapshot": 3.0,
       "requirement_group": "core",
+      "requirement_section": "core",
+      "program_course_name_snapshot": null,
       "notes": "",
       "source_page": 4,
       "evidence_match": true,
@@ -939,6 +1119,7 @@
     },
     {
       "course_code": null,
+      "catalog_entry_id": "entry_97ad865b179b09e4",
       "opening_units": [
         "校內各系"
       ],
@@ -946,6 +1127,8 @@
       "course_name_snapshot": "會計學",
       "credits_snapshot": 3.0,
       "requirement_group": "core",
+      "requirement_section": "core",
+      "program_course_name_snapshot": null,
       "notes": "",
       "source_page": 4,
       "evidence_match": true,
@@ -954,6 +1137,7 @@
     },
     {
       "course_code": null,
+      "catalog_entry_id": "entry_71951f2a04a33379",
       "opening_units": [
         "校內各系"
       ],
@@ -961,6 +1145,8 @@
       "course_name_snapshot": "會計學(一)",
       "credits_snapshot": 3.0,
       "requirement_group": "core",
+      "requirement_section": "core",
+      "program_course_name_snapshot": null,
       "notes": "",
       "source_page": 4,
       "evidence_match": true,
@@ -969,6 +1155,7 @@
     },
     {
       "course_code": null,
+      "catalog_entry_id": "entry_fe47e8baddb10882",
       "opening_units": [
         "校內各系"
       ],
@@ -976,6 +1163,8 @@
       "course_name_snapshot": "會計學(二)",
       "credits_snapshot": 3.0,
       "requirement_group": "core",
+      "requirement_section": "core",
+      "program_course_name_snapshot": null,
       "notes": "",
       "source_page": 5,
       "evidence_match": true,
@@ -984,6 +1173,7 @@
     },
     {
       "course_code": null,
+      "catalog_entry_id": "entry_52a6cd70e178119f",
       "opening_units": [
         "校內各系"
       ],
@@ -991,6 +1181,8 @@
       "course_name_snapshot": "初級會計學",
       "credits_snapshot": 3.0,
       "requirement_group": "core",
+      "requirement_section": "core",
+      "program_course_name_snapshot": null,
       "notes": "",
       "source_page": 5,
       "evidence_match": true,
@@ -999,6 +1191,7 @@
     },
     {
       "course_code": null,
+      "catalog_entry_id": "entry_97fbe165f797038f",
       "opening_units": [
         "校內各系"
       ],
@@ -1006,6 +1199,8 @@
       "course_name_snapshot": "初級會計學(一)",
       "credits_snapshot": 3.0,
       "requirement_group": "core",
+      "requirement_section": "core",
+      "program_course_name_snapshot": null,
       "notes": "",
       "source_page": 5,
       "evidence_match": true,
@@ -1014,6 +1209,7 @@
     },
     {
       "course_code": null,
+      "catalog_entry_id": "entry_e9caac59bf38770d",
       "opening_units": [
         "校內各系"
       ],
@@ -1021,6 +1217,8 @@
       "course_name_snapshot": "初級會計學(二)",
       "credits_snapshot": 3.0,
       "requirement_group": "core",
+      "requirement_section": "core",
+      "program_course_name_snapshot": null,
       "notes": "",
       "source_page": 5,
       "evidence_match": true,
@@ -1029,6 +1227,7 @@
     },
     {
       "course_code": null,
+      "catalog_entry_id": "entry_6cb91c828ea63571",
       "opening_units": [
         "校內各系"
       ],
@@ -1036,6 +1235,8 @@
       "course_name_snapshot": "中級會計學",
       "credits_snapshot": 3.0,
       "requirement_group": "core",
+      "requirement_section": "core",
+      "program_course_name_snapshot": null,
       "notes": "",
       "source_page": 5,
       "evidence_match": true,
@@ -1044,6 +1245,7 @@
     },
     {
       "course_code": null,
+      "catalog_entry_id": "entry_153efde9273e9a56",
       "opening_units": [
         "校內各系"
       ],
@@ -1051,6 +1253,8 @@
       "course_name_snapshot": "中級會計學(一)",
       "credits_snapshot": 3.0,
       "requirement_group": "core",
+      "requirement_section": "core",
+      "program_course_name_snapshot": null,
       "notes": "",
       "source_page": 5,
       "evidence_match": true,
@@ -1059,6 +1263,7 @@
     },
     {
       "course_code": null,
+      "catalog_entry_id": "entry_3e1ecc2bc094ae2e",
       "opening_units": [
         "校內各系"
       ],
@@ -1066,6 +1271,8 @@
       "course_name_snapshot": "中級會計學(二)",
       "credits_snapshot": 3.0,
       "requirement_group": "core",
+      "requirement_section": "core",
+      "program_course_name_snapshot": null,
       "notes": "",
       "source_page": 5,
       "evidence_match": true,
@@ -1074,6 +1281,7 @@
     },
     {
       "course_code": null,
+      "catalog_entry_id": "entry_6ea21e79ca1ccfd3",
       "opening_units": [
         "校內各系"
       ],
@@ -1081,6 +1289,8 @@
       "course_name_snapshot": "高等會計學",
       "credits_snapshot": 3.0,
       "requirement_group": "core",
+      "requirement_section": "core",
+      "program_course_name_snapshot": null,
       "notes": "",
       "source_page": 5,
       "evidence_match": true,
@@ -1089,6 +1299,7 @@
     },
     {
       "course_code": null,
+      "catalog_entry_id": "entry_f509a202cf70db89",
       "opening_units": [
         "校內各系"
       ],
@@ -1096,6 +1307,8 @@
       "course_name_snapshot": "成本會計學",
       "credits_snapshot": 3.0,
       "requirement_group": "core",
+      "requirement_section": "core",
+      "program_course_name_snapshot": null,
       "notes": "",
       "source_page": 5,
       "evidence_match": true,
@@ -1104,6 +1317,7 @@
     },
     {
       "course_code": null,
+      "catalog_entry_id": "entry_29ab8db4a7dbbe6b",
       "opening_units": [
         "財管系"
       ],
@@ -1111,6 +1325,8 @@
       "course_name_snapshot": "投資理論與策略",
       "credits_snapshot": 3.0,
       "requirement_group": "core",
+      "requirement_section": "core",
+      "program_course_name_snapshot": null,
       "notes": "",
       "source_page": 5,
       "evidence_match": true,
@@ -1119,6 +1335,7 @@
     },
     {
       "course_code": null,
+      "catalog_entry_id": "entry_cebbd9121b343c0b",
       "opening_units": [
         "校內各系"
       ],
@@ -1126,6 +1343,8 @@
       "course_name_snapshot": "投資學",
       "credits_snapshot": 3.0,
       "requirement_group": "core",
+      "requirement_section": "core",
+      "program_course_name_snapshot": null,
       "notes": "",
       "source_page": 5,
       "evidence_match": true,
@@ -1134,6 +1353,7 @@
     },
     {
       "course_code": null,
+      "catalog_entry_id": "entry_b0b2cb013b4ed25e",
       "opening_units": [
         "財管系"
       ],
@@ -1141,6 +1361,8 @@
       "course_name_snapshot": "金融市場",
       "credits_snapshot": 3.0,
       "requirement_group": "core",
+      "requirement_section": "core",
+      "program_course_name_snapshot": null,
       "notes": "",
       "source_page": 5,
       "evidence_match": true,
@@ -1149,6 +1371,7 @@
     },
     {
       "course_code": null,
+      "catalog_entry_id": "entry_5c6de269222a0137",
       "opening_units": [
         "財管系"
       ],
@@ -1156,6 +1379,8 @@
       "course_name_snapshot": "金融市場理論與實務",
       "credits_snapshot": 3.0,
       "requirement_group": "core",
+      "requirement_section": "core",
+      "program_course_name_snapshot": null,
       "notes": "",
       "source_page": 5,
       "evidence_match": true,
@@ -1164,6 +1389,7 @@
     },
     {
       "course_code": null,
+      "catalog_entry_id": "entry_d65a35dc16b555d1",
       "opening_units": [
         "財管系"
       ],
@@ -1171,6 +1397,8 @@
       "course_name_snapshot": "金融投資與程式交易",
       "credits_snapshot": 3.0,
       "requirement_group": "core",
+      "requirement_section": "core",
+      "program_course_name_snapshot": null,
       "notes": "",
       "source_page": 5,
       "evidence_match": true,
@@ -1179,6 +1407,7 @@
     },
     {
       "course_code": null,
+      "catalog_entry_id": "entry_57e4cc6cb58a789c",
       "opening_units": [
         "財管系"
       ],
@@ -1186,6 +1415,8 @@
       "course_name_snapshot": "風險管理與保險",
       "credits_snapshot": 3.0,
       "requirement_group": "core",
+      "requirement_section": "core",
+      "program_course_name_snapshot": null,
       "notes": "",
       "source_page": 5,
       "evidence_match": true,
@@ -1194,6 +1425,7 @@
     },
     {
       "course_code": null,
+      "catalog_entry_id": "entry_fc8eafd4bda727ca",
       "opening_units": [
         "財管系"
       ],
@@ -1201,6 +1433,8 @@
       "course_name_snapshot": "財務工程概論",
       "credits_snapshot": 3.0,
       "requirement_group": "core",
+      "requirement_section": "core",
+      "program_course_name_snapshot": null,
       "notes": "",
       "source_page": 5,
       "evidence_match": true,
@@ -1209,6 +1443,7 @@
     },
     {
       "course_code": null,
+      "catalog_entry_id": "entry_9e3d2d7d15a89b33",
       "opening_units": [
         "財管系"
       ],
@@ -1216,6 +1451,8 @@
       "course_name_snapshot": "財務工程與金融創新",
       "credits_snapshot": 3.0,
       "requirement_group": "core",
+      "requirement_section": "core",
+      "program_course_name_snapshot": null,
       "notes": "",
       "source_page": 5,
       "evidence_match": true,
@@ -1224,6 +1461,7 @@
     },
     {
       "course_code": null,
+      "catalog_entry_id": "entry_c5b5d42715653736",
       "opening_units": [
         "財管系"
       ],
@@ -1231,6 +1469,8 @@
       "course_name_snapshot": "財務金融研究方法導論",
       "credits_snapshot": 3.0,
       "requirement_group": "core",
+      "requirement_section": "core",
+      "program_course_name_snapshot": null,
       "notes": "",
       "source_page": 5,
       "evidence_match": true,
@@ -1239,6 +1479,7 @@
     },
     {
       "course_code": null,
+      "catalog_entry_id": "entry_1f912ddb906daea0",
       "opening_units": [
         "財管系"
       ],
@@ -1246,6 +1487,8 @@
       "course_name_snapshot": "財務風險管理",
       "credits_snapshot": 3.0,
       "requirement_group": "core",
+      "requirement_section": "core",
+      "program_course_name_snapshot": null,
       "notes": "",
       "source_page": 5,
       "evidence_match": true,
@@ -1254,6 +1497,7 @@
     },
     {
       "course_code": null,
+      "catalog_entry_id": "entry_aefd04f8c91905c5",
       "opening_units": [
         "財管系"
       ],
@@ -1261,6 +1505,8 @@
       "course_name_snapshot": "國際財務管理",
       "credits_snapshot": 3.0,
       "requirement_group": "core",
+      "requirement_section": "core",
+      "program_course_name_snapshot": null,
       "notes": "",
       "source_page": 5,
       "evidence_match": true,
@@ -1269,6 +1515,7 @@
     },
     {
       "course_code": null,
+      "catalog_entry_id": "entry_76b71ac31cbdc21d",
       "opening_units": [
         "財管系"
       ],
@@ -1276,6 +1523,8 @@
       "course_name_snapshot": "現代投資組合理論與策略",
       "credits_snapshot": 3.0,
       "requirement_group": "core",
+      "requirement_section": "core",
+      "program_course_name_snapshot": null,
       "notes": "",
       "source_page": 5,
       "evidence_match": true,
@@ -1284,6 +1533,7 @@
     },
     {
       "course_code": null,
+      "catalog_entry_id": "entry_3b8d9165f41de009",
       "opening_units": [
         "財管系"
       ],
@@ -1291,6 +1541,8 @@
       "course_name_snapshot": "期貨與選擇權概論",
       "credits_snapshot": 3.0,
       "requirement_group": "core",
+      "requirement_section": "core",
+      "program_course_name_snapshot": null,
       "notes": "",
       "source_page": 5,
       "evidence_match": true,
@@ -1299,6 +1551,7 @@
     },
     {
       "course_code": null,
+      "catalog_entry_id": "entry_487549628a28360a",
       "opening_units": [
         "財管系"
       ],
@@ -1306,6 +1559,8 @@
       "course_name_snapshot": "選擇權市場理論與策略",
       "credits_snapshot": 3.0,
       "requirement_group": "core",
+      "requirement_section": "core",
+      "program_course_name_snapshot": null,
       "notes": "",
       "source_page": 5,
       "evidence_match": true,
@@ -1314,6 +1569,7 @@
     },
     {
       "course_code": null,
+      "catalog_entry_id": "entry_f29fe99c5f69d03c",
       "opening_units": [
         "財管系"
       ],
@@ -1321,6 +1577,8 @@
       "course_name_snapshot": "證券市場微結構實務",
       "credits_snapshot": 3.0,
       "requirement_group": "core",
+      "requirement_section": "core",
+      "program_course_name_snapshot": null,
       "notes": "",
       "source_page": 5,
       "evidence_match": true,
@@ -1329,6 +1587,7 @@
     },
     {
       "course_code": null,
+      "catalog_entry_id": "entry_2f2a194ad33da5a4",
       "opening_units": [
         "校內各系"
       ],
@@ -1336,6 +1595,8 @@
       "course_name_snapshot": "C程式設計(一)",
       "credits_snapshot": 3.0,
       "requirement_group": "core",
+      "requirement_section": "core",
+      "program_course_name_snapshot": null,
       "notes": "",
       "source_page": 5,
       "evidence_match": true,
@@ -1344,6 +1605,7 @@
     },
     {
       "course_code": null,
+      "catalog_entry_id": "entry_e2c863116c4fca51",
       "opening_units": [
         "校內各系"
       ],
@@ -1351,6 +1613,8 @@
       "course_name_snapshot": "工程電腦程式",
       "credits_snapshot": 3.0,
       "requirement_group": "core",
+      "requirement_section": "core",
+      "program_course_name_snapshot": null,
       "notes": "",
       "source_page": 5,
       "evidence_match": true,
@@ -1359,6 +1623,7 @@
     },
     {
       "course_code": null,
+      "catalog_entry_id": "entry_39f64da8846b8a77",
       "opening_units": [
         "校內各系"
       ],
@@ -1366,6 +1631,8 @@
       "course_name_snapshot": "計算機程式",
       "credits_snapshot": 3.0,
       "requirement_group": "core",
+      "requirement_section": "core",
+      "program_course_name_snapshot": null,
       "notes": "",
       "source_page": 5,
       "evidence_match": true,
@@ -1374,6 +1641,7 @@
     },
     {
       "course_code": null,
+      "catalog_entry_id": "entry_57b049159e03f59c",
       "opening_units": [
         "校內各系"
       ],
@@ -1381,6 +1649,8 @@
       "course_name_snapshot": "基礎程式設計應用",
       "credits_snapshot": 3.0,
       "requirement_group": "core",
+      "requirement_section": "core",
+      "program_course_name_snapshot": null,
       "notes": "",
       "source_page": 5,
       "evidence_match": true,
@@ -1389,6 +1659,7 @@
     },
     {
       "course_code": null,
+      "catalog_entry_id": "entry_94cd9b14c630171e",
       "opening_units": [
         "校內各系"
       ],
@@ -1396,6 +1667,8 @@
       "course_name_snapshot": "基礎程式應用",
       "credits_snapshot": 3.0,
       "requirement_group": "core",
+      "requirement_section": "core",
+      "program_course_name_snapshot": null,
       "notes": "",
       "source_page": 5,
       "evidence_match": true,
@@ -1404,6 +1677,7 @@
     },
     {
       "course_code": null,
+      "catalog_entry_id": "entry_aa2db9a956c43266",
       "opening_units": [
         "校內各系"
       ],
@@ -1411,6 +1685,8 @@
       "course_name_snapshot": "程式設計",
       "credits_snapshot": 3.0,
       "requirement_group": "core",
+      "requirement_section": "core",
+      "program_course_name_snapshot": null,
       "notes": "",
       "source_page": 5,
       "evidence_match": true,
@@ -1419,6 +1695,7 @@
     },
     {
       "course_code": null,
+      "catalog_entry_id": "entry_1e55312040246317",
       "opening_units": [
         "校內各系"
       ],
@@ -1426,6 +1703,8 @@
       "course_name_snapshot": "微分方程",
       "credits_snapshot": 3.0,
       "requirement_group": "core",
+      "requirement_section": "core",
+      "program_course_name_snapshot": null,
       "notes": "",
       "source_page": 5,
       "evidence_match": true,
@@ -1434,6 +1713,7 @@
     },
     {
       "course_code": null,
+      "catalog_entry_id": "entry_19034764db33f098",
       "opening_units": [
         "校內各系"
       ],
@@ -1441,6 +1721,8 @@
       "course_name_snapshot": "微分方程(一)",
       "credits_snapshot": 3.0,
       "requirement_group": "core",
+      "requirement_section": "core",
+      "program_course_name_snapshot": null,
       "notes": "",
       "source_page": 5,
       "evidence_match": true,
@@ -1449,6 +1731,7 @@
     },
     {
       "course_code": null,
+      "catalog_entry_id": "entry_31f04876e81c8cb1",
       "opening_units": [
         "校內各系"
       ],
@@ -1456,6 +1739,8 @@
       "course_name_snapshot": "應用數學(一)",
       "credits_snapshot": 3.0,
       "requirement_group": "core",
+      "requirement_section": "core",
+      "program_course_name_snapshot": null,
       "notes": "",
       "source_page": 5,
       "evidence_match": true,
@@ -1464,6 +1749,7 @@
     },
     {
       "course_code": null,
+      "catalog_entry_id": "entry_5c8c40202febb0ec",
       "opening_units": [
         "校內各系"
       ],
@@ -1471,6 +1757,8 @@
       "course_name_snapshot": "化學數學",
       "credits_snapshot": 3.0,
       "requirement_group": "core",
+      "requirement_section": "core",
+      "program_course_name_snapshot": null,
       "notes": "",
       "source_page": 5,
       "evidence_match": true,
@@ -1479,6 +1767,7 @@
     },
     {
       "course_code": null,
+      "catalog_entry_id": "entry_d2d408412c4d8332",
       "opening_units": [
         "校內各系"
       ],
@@ -1486,6 +1775,8 @@
       "course_name_snapshot": "工程數學(一)",
       "credits_snapshot": 3.0,
       "requirement_group": "core",
+      "requirement_section": "core",
+      "program_course_name_snapshot": null,
       "notes": "",
       "source_page": 5,
       "evidence_match": true,
@@ -1494,6 +1785,7 @@
     },
     {
       "course_code": null,
+      "catalog_entry_id": "entry_60442cd36d09033d",
       "opening_units": [
         "校內各系"
       ],
@@ -1501,6 +1793,8 @@
       "course_name_snapshot": "光電數值模擬",
       "credits_snapshot": 3.0,
       "requirement_group": "core",
+      "requirement_section": "core",
+      "program_course_name_snapshot": null,
       "notes": "",
       "source_page": 6,
       "evidence_match": true,
@@ -1509,6 +1803,7 @@
     },
     {
       "course_code": null,
+      "catalog_entry_id": "entry_4d5aba81ddb8233d",
       "opening_units": [
         "校內各系"
       ],
@@ -1516,6 +1811,8 @@
       "course_name_snapshot": "數值分析",
       "credits_snapshot": 3.0,
       "requirement_group": "core",
+      "requirement_section": "core",
+      "program_course_name_snapshot": null,
       "notes": "",
       "source_page": 6,
       "evidence_match": true,
@@ -1524,6 +1821,7 @@
     },
     {
       "course_code": null,
+      "catalog_entry_id": "entry_edded4417268e510",
       "opening_units": [
         "校內各系"
       ],
@@ -1531,6 +1829,8 @@
       "course_name_snapshot": "數值分析(一)",
       "credits_snapshot": 3.0,
       "requirement_group": "core",
+      "requirement_section": "core",
+      "program_course_name_snapshot": null,
       "notes": "",
       "source_page": 6,
       "evidence_match": true,
@@ -1539,6 +1839,7 @@
     },
     {
       "course_code": null,
+      "catalog_entry_id": "entry_829eed66c601e85f",
       "opening_units": [
         "校內各系"
       ],
@@ -1546,6 +1847,8 @@
       "course_name_snapshot": "數值方法導論與應用",
       "credits_snapshot": 3.0,
       "requirement_group": "core",
+      "requirement_section": "core",
+      "program_course_name_snapshot": null,
       "notes": "",
       "source_page": 6,
       "evidence_match": true,

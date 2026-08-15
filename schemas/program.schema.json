@@ -53,6 +53,22 @@
         "course_count_constraints": {
           "type": "array",
           "items": {"$ref": "#/$defs/courseCountConstraint"}
+        },
+        "entry_selection_constraints": {
+          "type": "array",
+          "items": {"$ref": "#/$defs/entrySelectionConstraint"}
+        },
+        "program_course_selection_constraints": {
+          "type": "array",
+          "items": {"$ref": "#/$defs/programCourseSelectionConstraint"}
+        },
+        "no_double_count_constraints": {
+          "type": "array",
+          "items": {"$ref": "#/$defs/noDoubleCountConstraint"}
+        },
+        "named_group_selection_constraints": {
+          "type": "array",
+          "items": {"$ref": "#/$defs/namedGroupSelectionConstraint"}
         }
       }
     }
@@ -60,14 +76,17 @@
   "$defs": {
     "extractedCourse": {
       "type": "object",
-      "required": ["course_code", "opening_units", "course_name_snapshot", "credits_snapshot", "requirement_group", "source_page", "validation_status"],
+      "required": ["course_code", "catalog_entry_id", "opening_units", "course_name_snapshot", "credits_snapshot", "requirement_group", "requirement_section", "program_course_name_snapshot", "source_page", "validation_status"],
       "properties": {
         "course_code": {"type": ["string", "null"]},
+        "catalog_entry_id": {"type": "string", "pattern": "^entry_[a-f0-9]{16}(?:_[1-9][0-9]*)?$"},
         "opening_units": {"type": "array", "items": {"type": "string"}, "minItems": 1},
         "opening_unit_snapshot": {"type": "string"},
         "course_name_snapshot": {"type": "string", "minLength": 1},
         "credits_snapshot": {"type": "number", "minimum": 0},
         "requirement_group": {"enum": ["core", "elective", "unspecified"]},
+        "requirement_section": {"enum": ["core", "core_required", "core_selective", "elective", "unspecified"]},
+        "program_course_name_snapshot": {"type": ["string", "null"]},
         "notes": {"type": "string"},
         "source_page": {"type": "integer", "minimum": 1},
         "evidence_match": {"type": "boolean"},
@@ -80,15 +99,103 @@
       "required": ["constraint_id", "kind", "course_names", "max_courses", "requirement_group", "source_page", "source_text", "validation_status"],
       "properties": {
         "constraint_id": {"type": "string", "pattern": "^constraint_[a-f0-9]{16}$"},
-        "kind": {"const": "max_courses"},
+        "kind": {"enum": ["max_courses", "select_courses", "course_equivalence", "program_course_equivalence"]},
         "course_names": {
           "type": "array",
           "items": {"type": "string", "minLength": 1},
+          "minItems": 1,
+          "uniqueItems": true
+        },
+        "catalog_entry_ids": {
+          "type": "array",
+          "items": {"type": "string", "pattern": "^entry_[a-f0-9]{16}(?:_[1-9][0-9]*)?$"},
           "minItems": 2,
           "uniqueItems": true
         },
+        "min_courses": {"type": "integer", "minimum": 1},
         "max_courses": {"type": "integer", "minimum": 1},
         "requirement_group": {"enum": ["core", "elective", "unspecified"]},
+        "requirement_section": {"enum": ["core", "core_required", "core_selective", "elective", "unspecified"]},
+        "program_course_name_snapshot": {"type": "string", "minLength": 1},
+        "source_page": {"type": "integer", "minimum": 1},
+        "source_text": {"type": "string", "minLength": 1},
+        "validation_status": {"const": "source_text_match"}
+      }
+    },
+    "entrySelectionConstraint": {
+      "type": "object",
+      "required": ["constraint_id", "kind", "catalog_entry_ids", "course_names", "min_entries", "max_entries", "requirement_group", "requirement_section", "source_page", "source_text", "validation_status"],
+      "properties": {
+        "constraint_id": {"type": "string", "pattern": "^constraint_[a-f0-9]{16}$"},
+        "kind": {"const": "select_entries"},
+        "catalog_entry_ids": {"type": "array", "items": {"type": "string", "pattern": "^entry_[a-f0-9]{16}(?:_[1-9][0-9]*)?$"}, "minItems": 1, "uniqueItems": true},
+        "course_names": {"type": "array", "items": {"type": "string", "minLength": 1}, "minItems": 1, "uniqueItems": true},
+        "min_entries": {"type": "integer", "minimum": 1},
+        "max_entries": {"type": "integer", "minimum": 1},
+        "declared_option_count": {"type": ["integer", "null"], "minimum": 1},
+        "option_count_matches": {"type": "boolean"},
+        "requirement_group": {"enum": ["core", "elective", "unspecified"]},
+        "requirement_section": {"enum": ["core", "core_required", "core_selective", "elective", "unspecified"]},
+        "source_page": {"type": "integer", "minimum": 1},
+        "source_text": {"type": "string", "minLength": 1},
+        "validation_status": {"const": "source_text_match"}
+      }
+    },
+    "programCourseSelectionConstraint": {
+      "type": "object",
+      "required": ["constraint_id", "kind", "program_course_names", "min_program_courses", "max_program_courses", "requirement_group", "requirement_section", "source_page", "source_text", "validation_status"],
+      "properties": {
+        "constraint_id": {"type": "string", "pattern": "^constraint_[a-f0-9]{16}$"},
+        "kind": {"const": "select_program_courses"},
+        "program_course_names": {"type": "array", "items": {"type": "string", "minLength": 1}, "minItems": 1, "uniqueItems": true},
+        "min_program_courses": {"type": "integer", "minimum": 1},
+        "max_program_courses": {"type": "integer", "minimum": 1},
+        "declared_option_count": {"type": ["integer", "null"], "minimum": 1},
+        "option_count_matches": {"type": "boolean"},
+        "requirement_group": {"enum": ["core", "elective", "unspecified"]},
+        "requirement_section": {"enum": ["core", "core_required", "core_selective", "elective", "unspecified"]},
+        "source_page": {"type": "integer", "minimum": 1},
+        "source_text": {"type": "string", "minLength": 1},
+        "validation_status": {"const": "source_text_match"}
+      }
+    },
+    "noDoubleCountConstraint": {
+      "type": "object",
+      "required": ["constraint_id", "kind", "requirement_groups", "max_count_per_course", "source_page", "source_text", "validation_status"],
+      "properties": {
+        "constraint_id": {"type": "string", "pattern": "^constraint_[a-f0-9]{16}$"},
+        "kind": {"const": "no_double_count"},
+        "requirement_groups": {"type": "array", "items": {"enum": ["core", "elective", "unspecified"]}, "minItems": 2, "uniqueItems": true},
+        "max_count_per_course": {"const": 1},
+        "source_page": {"type": "integer", "minimum": 1},
+        "source_text": {"type": "string", "minLength": 1},
+        "validation_status": {"const": "source_text_match"}
+      }
+    },
+    "namedGroupSelectionConstraint": {
+      "type": "object",
+      "required": ["constraint_id", "kind", "options", "min_groups", "max_groups", "minimum_credits_per_selected_group", "requirement_group", "requirement_section", "source_page", "source_text", "validation_status"],
+      "properties": {
+        "constraint_id": {"type": "string", "pattern": "^constraint_[a-f0-9]{16}$"},
+        "kind": {"const": "select_named_groups"},
+        "options": {
+          "type": "array",
+          "minItems": 2,
+          "items": {
+            "type": "object",
+            "required": ["name", "catalog_entry_ids", "course_names"],
+            "properties": {
+              "name": {"type": "string", "minLength": 1},
+              "catalog_entry_ids": {"type": "array", "items": {"type": "string", "pattern": "^entry_[a-f0-9]{16}(?:_[1-9][0-9]*)?$"}, "minItems": 1, "uniqueItems": true},
+              "course_names": {"type": "array", "items": {"type": "string", "minLength": 1}, "minItems": 1, "uniqueItems": true}
+            }
+          }
+        },
+        "min_groups": {"type": "integer", "minimum": 1},
+        "max_groups": {"type": "integer", "minimum": 1},
+        "minimum_credits_per_selected_group": {"type": "number", "exclusiveMinimum": 0},
+        "requirement_group": {"enum": ["core", "elective", "unspecified"]},
+        "requirement_section": {"enum": ["core", "core_required", "core_selective", "elective", "unspecified"]},
         "source_page": {"type": "integer", "minimum": 1},
         "source_text": {"type": "string", "minLength": 1},
         "validation_status": {"const": "source_text_match"}

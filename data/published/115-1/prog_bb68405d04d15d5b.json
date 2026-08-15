@@ -23,7 +23,7 @@
       "last_modified": "Tue, 24 Dec 2024 07:14:40 GMT",
       "content_length": 129464
     },
-    "parser_version": "0.2.1",
+    "parser_version": "0.2.2",
     "extractor_versions": {
       "pypdf": "6.10.0",
       "pdfplumber": "0.11.9"
@@ -41,6 +41,7 @@
   "course_catalog": [
     {
       "course_code": null,
+      "catalog_entry_id": "entry_9b0034b1f15781b6",
       "opening_units": [
         "企管系",
         "資管系"
@@ -49,6 +50,8 @@
       "course_name_snapshot": "管理學",
       "credits_snapshot": 3.0,
       "requirement_group": "core",
+      "requirement_section": "core",
+      "program_course_name_snapshot": null,
       "notes": "",
       "source_page": 1,
       "evidence_match": true,
@@ -57,6 +60,7 @@
     },
     {
       "course_code": null,
+      "catalog_entry_id": "entry_68d16959ce74a339",
       "opening_units": [
         "企管系",
         "資管系"
@@ -65,6 +69,8 @@
       "course_name_snapshot": "行銷管理",
       "credits_snapshot": 3.0,
       "requirement_group": "core",
+      "requirement_section": "core",
+      "program_course_name_snapshot": null,
       "notes": "",
       "source_page": 1,
       "evidence_match": true,
@@ -73,6 +79,7 @@
     },
     {
       "course_code": null,
+      "catalog_entry_id": "entry_e055a73f6bbd160b",
       "opening_units": [
         "藝術管理與創業研究所"
       ],
@@ -80,6 +87,8 @@
       "course_name_snapshot": "藝術行政與管理",
       "credits_snapshot": 3.0,
       "requirement_group": "core",
+      "requirement_section": "core",
+      "program_course_name_snapshot": null,
       "notes": "",
       "source_page": 1,
       "evidence_match": true,
@@ -88,6 +97,7 @@
     },
     {
       "course_code": null,
+      "catalog_entry_id": "entry_b2e403a15b3d5c48",
       "opening_units": [
         "藝術管理與創業研究所"
       ],
@@ -95,6 +105,8 @@
       "course_name_snapshot": "文化藝術法規",
       "credits_snapshot": 3.0,
       "requirement_group": "elective",
+      "requirement_section": "elective",
+      "program_course_name_snapshot": null,
       "notes": "限大三以上修習",
       "source_page": 1,
       "evidence_match": true,
@@ -103,6 +115,7 @@
     },
     {
       "course_code": null,
+      "catalog_entry_id": "entry_6d743fb9b93cec58",
       "opening_units": [
         "劇場藝術學系"
       ],
@@ -110,6 +123,8 @@
       "course_name_snapshot": "劇場管理導論",
       "credits_snapshot": 2.0,
       "requirement_group": "elective",
+      "requirement_section": "elective",
+      "program_course_name_snapshot": null,
       "notes": "",
       "source_page": 1,
       "evidence_match": true,
@@ -118,6 +133,7 @@
     },
     {
       "course_code": null,
+      "catalog_entry_id": "entry_89abcb9383d21000",
       "opening_units": [
         "管理學院"
       ],
@@ -125,6 +141,8 @@
       "course_name_snapshot": "創意與創新管理",
       "credits_snapshot": 3.0,
       "requirement_group": "elective",
+      "requirement_section": "elective",
+      "program_course_name_snapshot": null,
       "notes": "",
       "source_page": 1,
       "evidence_match": true,
@@ -133,6 +151,7 @@
     },
     {
       "course_code": null,
+      "catalog_entry_id": "entry_54610526e292c9f7",
       "opening_units": [
         "管理學院"
       ],
@@ -140,6 +159,8 @@
       "course_name_snapshot": "整合行銷溝通",
       "credits_snapshot": 3.0,
       "requirement_group": "elective",
+      "requirement_section": "elective",
+      "program_course_name_snapshot": null,
       "notes": "",
       "source_page": 1,
       "evidence_match": true,
@@ -148,6 +169,7 @@
     },
     {
       "course_code": null,
+      "catalog_entry_id": "entry_fa21f9de2f02ae0e",
       "opening_units": [
         "音樂學系"
       ],
@@ -155,6 +177,8 @@
       "course_name_snapshot": "中國音樂史",
       "credits_snapshot": 2.0,
       "requirement_group": "elective",
+      "requirement_section": "elective",
+      "program_course_name_snapshot": null,
       "notes": "",
       "source_page": 1,
       "evidence_match": true,
@@ -163,6 +187,7 @@
     },
     {
       "course_code": null,
+      "catalog_entry_id": "entry_d454b3d8cacfc461",
       "opening_units": [
         "音樂學系"
       ],
@@ -170,6 +195,8 @@
       "course_name_snapshot": "世界音樂",
       "credits_snapshot": 2.0,
       "requirement_group": "elective",
+      "requirement_section": "elective",
+      "program_course_name_snapshot": null,
       "notes": "",
       "source_page": 1,
       "evidence_match": true,
@@ -178,6 +205,7 @@
     },
     {
       "course_code": null,
+      "catalog_entry_id": "entry_402c6ec8b28dc276",
       "opening_units": [
         "音樂學系"
       ],
@@ -185,6 +213,8 @@
       "course_name_snapshot": "臺灣音樂",
       "credits_snapshot": 2.0,
       "requirement_group": "elective",
+      "requirement_section": "elective",
+      "program_course_name_snapshot": null,
       "notes": "",
       "source_page": 1,
       "evidence_match": true,

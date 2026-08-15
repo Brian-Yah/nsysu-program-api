@@ -29,7 +29,7 @@
         "last_modified": "Wed, 20 Dec 2023 02:36:28 GMT",
         "content_length": 136294
       },
-      "parser_version": "0.2.1",
+      "parser_version": "0.2.2",
       "extractor_versions": {
         "pypdf": "6.10.0",
         "pdfplumber": "0.11.9"
@@ -47,6 +47,7 @@
     "course_catalog": [
       {
         "course_code": null,
+        "catalog_entry_id": "entry_e9cd552f5b75995d",
         "opening_units": [
           "公事所"
         ],
@@ -54,6 +55,8 @@
         "course_name_snapshot": "非營利組織管理研討",
         "credits_snapshot": 2.0,
         "requirement_group": "core",
+        "requirement_section": "core",
+        "program_course_name_snapshot": null,
         "notes": "",
         "source_page": 1,
         "evidence_match": true,
@@ -62,6 +65,7 @@
       },
       {
         "course_code": null,
+        "catalog_entry_id": "entry_a778aab88ef6544b",
         "opening_units": [
           "公事所"
         ],
@@ -69,6 +73,8 @@
         "course_name_snapshot": "社會行銷",
         "credits_snapshot": 2.0,
         "requirement_group": "core",
+        "requirement_section": "core",
+        "program_course_name_snapshot": null,
         "notes": "原為選修課程調整為核心課程",
         "source_page": 1,
         "evidence_match": true,
@@ -77,6 +83,7 @@
       },
       {
         "course_code": null,
+        "catalog_entry_id": "entry_a8804bd1669e6316",
         "opening_units": [
           "公事所"
         ],
@@ -84,6 +91,8 @@
         "course_name_snapshot": "公共事務管理實務體驗學習",
         "credits_snapshot": 2.0,
         "requirement_group": "core",
+        "requirement_section": "core",
+        "program_course_name_snapshot": null,
         "notes": "原為選修課程調整為核心課程",
         "source_page": 1,
         "evidence_match": true,
@@ -92,6 +101,7 @@
       },
       {
         "course_code": null,
+        "catalog_entry_id": "entry_071e87ba22ceb191",
         "opening_units": [
           "數位自學課程"
         ],
@@ -99,6 +109,8 @@
         "course_name_snapshot": "創造思考:成功的技巧和工具",
         "credits_snapshot": 1.0,
         "requirement_group": "core",
+        "requirement_section": "core",
+        "program_course_name_snapshot": null,
         "notes": "Coursera",
         "source_page": 1,
         "evidence_match": true,
@@ -107,6 +119,7 @@
       },
       {
         "course_code": null,
+        "catalog_entry_id": "entry_f935b3517670f40b",
         "opening_units": [
           "數位自學課程"
         ],
@@ -114,6 +127,8 @@
         "course_name_snapshot": "社會創新概論",
         "credits_snapshot": 1.0,
         "requirement_group": "core",
+        "requirement_section": "core",
+        "program_course_name_snapshot": null,
         "notes": "Coursera",
         "source_page": 1,
         "evidence_match": true,
@@ -122,6 +137,7 @@
       },
       {
         "course_code": null,
+        "catalog_entry_id": "entry_02cb4f97838fb34e",
         "opening_units": [
           "公事所"
         ],
@@ -129,6 +145,8 @@
         "course_name_snapshot": "社區營造與地區重建",
         "credits_snapshot": 2.0,
         "requirement_group": "elective",
+        "requirement_section": "elective",
+        "program_course_name_snapshot": null,
         "notes": "",
         "source_page": 1,
         "evidence_match": true,
@@ -137,6 +155,7 @@
       },
       {
         "course_code": null,
+        "catalog_entry_id": "entry_2a9ac0b04250534b",
         "opening_units": [
           "公事所"
         ],
@@ -144,6 +163,8 @@
         "course_name_snapshot": "地區經營管理",
         "credits_snapshot": 2.0,
         "requirement_group": "elective",
+        "requirement_section": "elective",
+        "program_course_name_snapshot": null,
         "notes": "",
         "source_page": 1,
         "evidence_match": true,
@@ -152,6 +173,7 @@
       },
       {
         "course_code": null,
+        "catalog_entry_id": "entry_5acf53a9e5a27800",
         "opening_units": [
           "公事所"
         ],
@@ -159,6 +181,8 @@
         "course_name_snapshot": "第三部門之課責與績效評估",
         "credits_snapshot": 2.0,
         "requirement_group": "elective",
+        "requirement_section": "elective",
+        "program_course_name_snapshot": null,
         "notes": "",
         "source_page": 1,
         "evidence_match": true,
@@ -167,6 +191,7 @@
       },
       {
         "course_code": null,
+        "catalog_entry_id": "entry_2dac1c9876a11ac9",
         "opening_units": [
           "公事所"
         ],
@@ -174,6 +199,8 @@
         "course_name_snapshot": "國際非營利及社區組織交流",
         "credits_snapshot": 2.0,
         "requirement_group": "elective",
+        "requirement_section": "elective",
+        "program_course_name_snapshot": null,
         "notes": "",
         "source_page": 1,
         "evidence_match": true,
@@ -182,6 +209,7 @@
       },
       {
         "course_code": null,
+        "catalog_entry_id": "entry_724ec04bff4368a7",
         "opening_units": [
           "公事所"
         ],
@@ -189,6 +217,8 @@
         "course_name_snapshot": "新興公共議題研討",
         "credits_snapshot": 2.0,
         "requirement_group": "elective",
+        "requirement_section": "elective",
+        "program_course_name_snapshot": null,
         "notes": "",
         "source_page": 1,
         "evidence_match": true,
@@ -197,6 +227,7 @@
       },
       {
         "course_code": null,
+        "catalog_entry_id": "entry_c2191e650d6171e9",
         "opening_units": [
           "資管碩"
         ],
@@ -204,6 +235,8 @@
         "course_name_snapshot": "服務創新個案研討",
         "credits_snapshot": 3.0,
         "requirement_group": "elective",
+        "requirement_section": "elective",
+        "program_course_name_snapshot": null,
         "notes": "",
         "source_page": 1,
         "evidence_match": true,
@@ -212,6 +245,7 @@
       },
       {
         "course_code": null,
+        "catalog_entry_id": "entry_74a214e2fd71b78b",
         "opening_units": [
           "資管碩"
         ],
@@ -219,6 +253,8 @@
         "course_name_snapshot": "專案管理",
         "credits_snapshot": 3.0,
         "requirement_group": "elective",
+        "requirement_section": "elective",
+        "program_course_name_snapshot": null,
         "notes": "",
         "source_page": 1,
         "evidence_match": true,
@@ -227,6 +263,7 @@
       },
       {
         "course_code": null,
+        "catalog_entry_id": "entry_610480577241e0bc",
         "opening_units": [
           "行傳碩"
         ],
@@ -234,6 +271,8 @@
         "course_name_snapshot": "社群媒體行銷",
         "credits_snapshot": 3.0,
         "requirement_group": "elective",
+        "requirement_section": "elective",
+        "program_course_name_snapshot": null,
         "notes": "",
         "source_page": 1,
         "evidence_match": true,
@@ -242,6 +281,7 @@
       },
       {
         "course_code": null,
+        "catalog_entry_id": "entry_5faaea51708c35a7",
         "opening_units": [
           "財管系"
         ],
@@ -249,6 +289,8 @@
         "course_name_snapshot": "社會企業商業模式發展與實作",
         "credits_snapshot": 3.0,
         "requirement_group": "elective",
+        "requirement_section": "elective",
+        "program_course_name_snapshot": null,
         "notes": "",
         "source_page": 1,
         "evidence_match": true,
@@ -257,6 +299,7 @@
       },
       {
         "course_code": null,
+        "catalog_entry_id": "entry_4a179c0b49681cee",
         "opening_units": [
           "劇藝碩"
         ],
@@ -264,6 +307,8 @@
         "course_name_snapshot": "社區興業與創意實踐(一)",
         "credits_snapshot": 3.0,
         "requirement_group": "elective",
+        "requirement_section": "elective",
+        "program_course_name_snapshot": null,
         "notes": "",
         "source_page": 1,
         "evidence_match": true,
@@ -272,6 +317,7 @@
       },
       {
         "course_code": null,
+        "catalog_entry_id": "entry_7a77bec9371f2d11",
         "opening_units": [
           "企企管碩"
         ],
@@ -279,6 +325,8 @@
         "course_name_snapshot": "創意與創新管理",
         "credits_snapshot": 3.0,
         "requirement_group": "elective",
+        "requirement_section": "elective",
+        "program_course_name_snapshot": null,
         "notes": "",
         "source_page": 1,
         "evidence_match": true,
@@ -287,6 +335,7 @@
       },
       {
         "course_code": null,
+        "catalog_entry_id": "entry_8e8f9ff163c3e176",
         "opening_units": [
           "社創所"
         ],
@@ -294,6 +343,8 @@
         "course_name_snapshot": "社會設計與社會創新專題研究",
         "credits_snapshot": 3.0,
         "requirement_group": "elective",
+        "requirement_section": "elective",
+        "program_course_name_snapshot": null,
         "notes": "",
         "source_page": 1,
         "evidence_match": true,
@@ -302,6 +353,7 @@
       },
       {
         "course_code": null,
+        "catalog_entry_id": "entry_97977419f43ff548",
         "opening_units": [
           "社創所"
         ],
@@ -309,6 +361,8 @@
         "course_name_snapshot": "創造力與團隊發展",
         "credits_snapshot": 3.0,
         "requirement_group": "elective",
+        "requirement_section": "elective",
+        "program_course_name_snapshot": null,
         "notes": "",
         "source_page": 1,
         "evidence_match": true,
@@ -317,6 +371,7 @@
       },
       {
         "course_code": null,
+        "catalog_entry_id": "entry_7ccd661c1d6dcd02",
         "opening_units": [
           "數位自學課程"
         ],
@@ -324,6 +379,8 @@
         "course_name_snapshot": "數位行銷策略",
         "credits_snapshot": 1.0,
         "requirement_group": "elective",
+        "requirement_section": "elective",
+        "program_course_name_snapshot": null,
         "notes": "edX",
         "source_page": 1,
         "evidence_match": true,
@@ -332,6 +389,7 @@
       },
       {
         "course_code": null,
+        "catalog_entry_id": "entry_ccc1dcaba9fb70cb",
         "opening_units": [
           "數位自學課程"
         ],
@@ -339,6 +397,8 @@
         "course_name_snapshot": "永續性概論",
         "credits_snapshot": 1.0,
         "requirement_group": "elective",
+        "requirement_section": "elective",
+        "program_course_name_snapshot": null,
         "notes": "Coursera",
         "source_page": 1,
         "evidence_match": true,
@@ -347,6 +407,7 @@
       },
       {
         "course_code": null,
+        "catalog_entry_id": "entry_524c37151231f26a",
         "opening_units": [
           "數位自學課程"
         ],
@@ -354,6 +415,8 @@
         "course_name_snapshot": "新興經濟體的創業家精神",
         "credits_snapshot": 1.0,
         "requirement_group": "elective",
+        "requirement_section": "elective",
+        "program_course_name_snapshot": null,
         "notes": "edX",
         "source_page": 1,
         "evidence_match": true,

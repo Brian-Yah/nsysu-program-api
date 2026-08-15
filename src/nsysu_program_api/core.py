@@ -17,9 +17,11 @@ from pathlib import Path
 from typing import Any
 from urllib.parse import urljoin
 
+from .selection import build_selection_requirements, constraint_id, split_course_names
+
 CATALOG_URL = "https://ctdr.nsysu.edu.tw/class2.php"
 SCHEMA_VERSION = "1.0"
-PARSER_VERSION = "0.2.1"
+PARSER_VERSION = "0.2.2"
 NAMESPACE = uuid.UUID("a441fd7d-a05f-4f28-8bb7-7ccbdd0a6cab")
 TYPE_NAMES = {
     0: "integrated_program",
@@ -460,6 +462,16 @@ def extract_pdf_tables(pdf_path: Path) -> tuple[list[dict], list[str]]:
     version_pages: dict[str, list[tuple[int, str]]] = {}
     current_version = "unknown"
     current_group: str | None = None
+    current_section = "unspecified"
+    current_program_course: str | None = None
+    current_layout: dict[str, int | None] = {
+        "group": 0,
+        "unit": 1,
+        "name": 2,
+        "credit": 3,
+        "note": 4,
+        "program_course": None,
+    }
     try:
         import pdfplumber
 
@@ -467,9 +479,19 @@ def extract_pdf_tables(pdf_path: Path) -> tuple[list[dict], list[str]]:
             for page_number, page in enumerate(document.pages, 1):
                 page_text = page.extract_text() or ""
                 detected = pdf_academic_version(page_text)
-                if detected:
+                if detected and detected != current_version:
                     current_version = detected
                     current_group = None
+                    current_section = "unspecified"
+                    current_program_course = None
+                    current_layout = {
+                        "group": 0,
+                        "unit": 1,
+                        "name": 2,
+                        "credit": 3,
+                        "note": 4,
+                        "program_course": None,
+                    }
                 version = versions.setdefault(
                     current_version,
                     {
@@ -478,6 +500,7 @@ def extract_pdf_tables(pdf_path: Path) -> tuple[list[dict], list[str]]:
                         else current_version,
                         "courses": [],
                         "requirements": {},
+                        "_table_rows": [],
                         "source_pages": [],
                         "audit": {
                             "compound_rows_needing_review": [],
@@ -508,58 +531,172 @@ def extract_pdf_tables(pdf_path: Path) -> tuple[list[dict], list[str]]:
                 if cross:
                     version["requirements"]["minimum_outside_home_department_credits"] = cross[-1]
                 page_evidence = _evidence_key(page_text)
-                for table in page.extract_tables():
-                    unit_index, name_index, credit_index, note_index = 1, 2, 3, 4
-                    group_index: int | None = 0
-                    for header in table:
+                for table_index, table in enumerate(page.extract_tables()):
+                    layout = dict(current_layout)
+                    header_row_index: int | None = None
+                    for candidate_index, header in enumerate(table):
                         header_cells = [_clean_table_value(value) for value in header]
+                        compact_header = [cell.replace(" ", "") for cell in header_cells]
                         if not any(
-                            "開課" in cell.replace(" ", "")
-                            and any(label in cell.replace(" ", "") for label in ("單位", "系所"))
-                            for cell in header_cells
+                            cell in {"學分", "學分數"} for cell in compact_header
+                        ) or not any(
+                            "課程名稱" in cell
+                            or "學程科目名稱" in cell
+                            or cell in {"課程", "學程科目"}
+                            for cell in compact_header
                         ):
                             continue
+                        layout = {
+                            "group": 0,
+                            "unit": 1,
+                            "name": 2,
+                            "credit": 3,
+                            "note": 4,
+                            "program_course": None,
+                        }
                         for index, cell in enumerate(header_cells):
                             compact = cell.replace(" ", "")
                             if "開課" in compact and any(
                                 label in compact for label in ("單位", "系所")
                             ):
-                                unit_index = index
-                            elif "課程名稱" in compact:
-                                name_index = index
+                                layout["unit"] = index
+                            elif "學程科目" in compact:
+                                layout["program_course"] = index
+                            elif "採認課程名稱" in compact or "課程名稱" in compact:
+                                layout["name"] = index
                             elif "學分" in compact:
-                                credit_index = index
+                                layout["credit"] = index
                             elif "備註" in compact:
-                                note_index = index
+                                layout["note"] = index
+                        header_row_index = candidate_index
+                        current_layout = dict(layout)
+                        if layout["program_course"] is None:
+                            current_program_course = None
                         break
-                    for row in table:
+                    column_count = max((len(row) for row in table if row), default=0)
+                    note_index = layout.get("note")
+                    if (
+                        header_row_index is None
+                        and layout.get("program_course") is None
+                        and isinstance(note_index, int)
+                        and note_index >= column_count
+                        and column_count == 5
+                    ):
+                        layout = {
+                            "group": 0,
+                            "unit": 1,
+                            "name": 2,
+                            "credit": 3,
+                            "note": 4,
+                            "program_course": None,
+                        }
+                        current_layout = dict(layout)
+                    for row_index, row in enumerate(table):
                         if not row or len(row) < 4:
+                            continue
+                        if row_index == header_row_index:
                             continue
                         cells = [_clean_table_value(value) for value in row]
                         joined = " ".join(cells)
-                        if "開課單位" in joined and "課" in joined and "學分" in joined:
-                            continue
+                        group_index = layout["group"]
                         marker = (
-                            cells[group_index].replace(" ", "")
-                            if group_index is not None and group_index < len(cells)
+                            re.sub(r"\s+", "", cells[group_index])
+                            if isinstance(group_index, int) and group_index < len(cells)
                             else ""
                         )
-                        if marker in {"核心課程", "核心", "必修"}:
+                        row_rule_key = re.sub(r"\s+", "", joined)
+                        if "核心(必選修)" in row_rule_key:
                             current_group = "core"
-                        elif marker in {"選修", "選修課程"}:
+                            current_section = "core_selective"
+                        elif "核心(必修)" in row_rule_key:
+                            current_group = "core"
+                            current_section = "core_required"
+                        elif marker.startswith("核心") or marker == "必修":
+                            current_group = "core"
+                            if "必選修" in marker:
+                                current_section = "core_selective"
+                            elif "必修" in marker:
+                                current_section = "core_required"
+                            else:
+                                current_section = "core"
+                        elif marker.startswith("選修") or marker == "選修課程":
                             current_group = "elective"
-                        credit_raw = str(row[credit_index] or "") if credit_index < len(row) else ""
+                            current_section = "elective"
+                        program_course_index = layout["program_course"]
+                        if (
+                            isinstance(program_course_index, int)
+                            and program_course_index < len(row)
+                        ):
+                            program_course_raw = str(row[program_course_index] or "")
+                            program_course_value = _join_wrapped_text(program_course_raw)
+                            if program_course_value and "學分數" not in program_course_value:
+                                current_program_course = program_course_value
+                        credit_index = layout["credit"]
+                        unit_index = layout["unit"]
+                        name_index = layout["name"]
+                        note_index = layout["note"]
+                        credit_raw = (
+                            str(row[credit_index] or "")
+                            if isinstance(credit_index, int) and credit_index < len(row)
+                            else ""
+                        )
                         credit_values = re.findall(r"(?<!\d)(\d+(?:\.5)?)(?!\d)", credit_raw)
-                        unit_raw = str(row[unit_index] or "") if unit_index < len(row) else ""
-                        name_raw = str(row[name_index] or "") if name_index < len(row) else ""
+                        unit_raw = (
+                            str(row[unit_index] or "")
+                            if isinstance(unit_index, int) and unit_index < len(row)
+                            else ""
+                        )
+                        name_raw = (
+                            str(row[name_index] or "")
+                            if isinstance(name_index, int) and name_index < len(row)
+                            else ""
+                        )
+                        notes = (
+                            _join_wrapped_text(row[note_index])
+                            if isinstance(note_index, int) and note_index < len(row)
+                            else ""
+                        )
+                        row_metadata = {
+                            "table_id": f"{page_number}:{table_index}",
+                            "row_index": row_index,
+                            "source_page": page_number,
+                            "requirement_group": current_group or "unspecified",
+                            "requirement_section": current_section,
+                            "rule_text": notes or joined,
+                            "notes": notes,
+                            "raw_course_name": _join_wrapped_text(name_raw),
+                            "is_summary": bool(
+                                re.search(r"(?:學分數|總學分|總計)", joined)
+                            ),
+                            "courses": [],
+                        }
+                        version["_table_rows"].append(row_metadata)
                         if not credit_values or not unit_raw.strip() or not name_raw.strip():
                             continue
+                        if (
+                            len(credit_values) > 1
+                            and len(set(credit_values)) == 1
+                            and "/" in credit_raw
+                            and "&" not in name_raw
+                        ):
+                            credit_values = credit_values[:1]
                         if len(credit_values) > 1:
                             name_lines = [
                                 normalize_text(line)
                                 for line in name_raw.splitlines()
                                 if normalize_text(line)
                             ]
+                            if (
+                                len(name_lines) == len(credit_values) + 1
+                                and min(map(len, name_lines)) <= 4
+                            ):
+                                shortest = min(
+                                    range(len(name_lines)), key=lambda index: len(name_lines[index])
+                                )
+                                if shortest > 0:
+                                    name_lines[shortest - 1] += name_lines.pop(shortest)
+                                else:
+                                    name_lines[0] += name_lines.pop(1)
                             if len(name_lines) != len(credit_values):
                                 version["audit"]["compound_rows_needing_review"].append(
                                     {
@@ -572,19 +709,44 @@ def extract_pdf_tables(pdf_path: Path) -> tuple[list[dict], list[str]]:
                                 continue
                             course_names = name_lines
                         else:
-                            course_names = [_join_wrapped_text(name_raw)]
+                            course_names = split_course_names(
+                                name_raw, len(credit_values), notes, unit_raw
+                            )
+                        if not course_names:
+                            continue
+                        expanded_credits = (
+                            credit_values
+                            if len(credit_values) == len(course_names)
+                            else [credit_values[0]] * len(course_names)
+                        )
                         units = _split_units(unit_raw)
-                        notes = _join_wrapped_text(row[note_index]) if note_index < len(row) else ""
+                        base_entry_id = constraint_id(
+                            "entry",
+                            pdf_path.stem,
+                            current_version,
+                            page_number,
+                            table_index,
+                            row_index,
+                        ).replace("constraint_", "entry_")
                         for course_name, credit_value in zip(
-                            course_names, credit_values, strict=True
+                            course_names, expanded_credits, strict=True
                         ):
+                            course_index = len(row_metadata["courses"])
+                            entry_id = (
+                                f"{base_entry_id}_{course_index + 1}"
+                                if len(credit_values) > 1
+                                else base_entry_id
+                            )
                             record = {
                                 "course_code": None,
+                                "catalog_entry_id": entry_id,
                                 "opening_units": units,
                                 "opening_unit_snapshot": " / ".join(units),
                                 "course_name_snapshot": course_name,
                                 "credits_snapshot": float(credit_value),
                                 "requirement_group": current_group or "unspecified",
+                                "requirement_section": current_section,
+                                "program_course_name_snapshot": current_program_course,
                                 "notes": notes,
                                 "source_page": page_number,
                                 "evidence_match": _evidence_key(course_name) in page_evidence,
@@ -594,19 +756,28 @@ def extract_pdf_tables(pdf_path: Path) -> tuple[list[dict], list[str]]:
                                 ),
                             }
                             version["courses"].append(record)
+                            row_metadata["courses"].append(record)
     except Exception as exc:
         return [], [f"pdf_table_extract_error: {type(exc).__name__}: {exc}"]
     result = list(versions.values())
     for version_key, version in versions.items():
+        table_rows = version.pop("_table_rows", [])
         extracted_constraints = []
         for page_number, page_text in version_pages.get(version_key, []):
             extracted_constraints.extend(
                 extract_course_count_constraints(page_text, version["courses"], page_number)
             )
+        selection_requirements = build_selection_requirements(
+            version["courses"], table_rows, version_pages.get(version_key, [])
+        )
+        extracted_constraints.extend(
+            selection_requirements.pop("course_count_constraints", [])
+        )
         if extracted_constraints:
             consolidated = _consolidate_course_count_constraints(extracted_constraints)
             version["requirements"]["course_count_constraints"] = consolidated
             _attach_constraint_notes(version["courses"], consolidated)
+        version["requirements"].update(selection_requirements)
         unique = []
         seen = set()
         for course in version["courses"]:
@@ -615,6 +786,8 @@ def extract_pdf_tables(pdf_path: Path) -> tuple[list[dict], list[str]]:
                 course["course_name_snapshot"],
                 course["credits_snapshot"],
                 course["requirement_group"],
+                course.get("requirement_section"),
+                course.get("program_course_name_snapshot"),
             )
             if key in seen:
                 version["audit"]["duplicates_removed"] += 1
@@ -633,6 +806,17 @@ def extract_pdf_tables(pdf_path: Path) -> tuple[list[dict], list[str]]:
         constraint_count = len(version["requirements"].get("course_count_constraints", []))
         if constraint_count:
             version["audit"]["course_count_constraints_extracted"] = constraint_count
+        selection_count = sum(
+            len(version["requirements"].get(key, []))
+            for key in (
+                "entry_selection_constraints",
+                "program_course_selection_constraints",
+                "no_double_count_constraints",
+                "named_group_selection_constraints",
+            )
+        )
+        if selection_count:
+            version["audit"]["selection_constraints_extracted"] = selection_count
     if not any(version["courses"] for version in result):
         warnings.append("No structured course rows extracted from PDF tables")
     return result, warnings

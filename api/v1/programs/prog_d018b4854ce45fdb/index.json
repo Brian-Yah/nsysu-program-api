@@ -29,7 +29,7 @@
         "last_modified": "Tue, 23 Dec 2025 06:49:53 GMT",
         "content_length": 169719
       },
-      "parser_version": "0.2.1",
+      "parser_version": "0.2.2",
       "extractor_versions": {
         "pypdf": "6.10.0",
         "pdfplumber": "0.11.9"
@@ -47,6 +47,7 @@
     "course_catalog": [
       {
         "course_code": null,
+        "catalog_entry_id": "entry_1127c802a41506b1",
         "opening_units": [
           "管理學院"
         ],
@@ -54,6 +55,8 @@
         "course_name_snapshot": "智慧商業分析實務",
         "credits_snapshot": 3.0,
         "requirement_group": "core",
+        "requirement_section": "core",
+        "program_course_name_snapshot": null,
         "notes": "必修課",
         "source_page": 1,
         "evidence_match": true,
@@ -62,6 +65,7 @@
       },
       {
         "course_code": null,
+        "catalog_entry_id": "entry_b4cc818ee6c5dc62",
         "opening_units": [
           "管理學院"
         ],
@@ -69,6 +73,8 @@
         "course_name_snapshot": "商管軟體設計",
         "credits_snapshot": 3.0,
         "requirement_group": "core",
+        "requirement_section": "core",
+        "program_course_name_snapshot": null,
         "notes": "必修課",
         "source_page": 1,
         "evidence_match": true,
@@ -77,6 +83,7 @@
       },
       {
         "course_code": null,
+        "catalog_entry_id": "entry_61a241412b6dfa60",
         "opening_units": [
           "管理學院"
         ],
@@ -84,6 +91,8 @@
         "course_name_snapshot": "商業大數據分析資料案例",
         "credits_snapshot": 3.0,
         "requirement_group": "core",
+        "requirement_section": "core",
+        "program_course_name_snapshot": null,
         "notes": "每年春季開設/必修課",
         "source_page": 1,
         "evidence_match": true,
@@ -92,6 +101,7 @@
       },
       {
         "course_code": null,
+        "catalog_entry_id": "entry_fd4a80d786c7404a",
         "opening_units": [
           "管理學院"
         ],
@@ -99,6 +109,8 @@
         "course_name_snapshot": "大數據、機器學習與人工智慧",
         "credits_snapshot": 3.0,
         "requirement_group": "core",
+        "requirement_section": "core",
+        "program_course_name_snapshot": null,
         "notes": "每年秋季開設",
         "source_page": 1,
         "evidence_match": true,
@@ -107,6 +119,7 @@
       },
       {
         "course_code": null,
+        "catalog_entry_id": "entry_4cb260251a1efb8f",
         "opening_units": [
           "資管系"
         ],
@@ -114,6 +127,8 @@
         "course_name_snapshot": "巨量分析導論",
         "credits_snapshot": 3.0,
         "requirement_group": "core",
+        "requirement_section": "core",
+        "program_course_name_snapshot": null,
         "notes": "每年秋季開設",
         "source_page": 1,
         "evidence_match": true,
@@ -122,6 +137,7 @@
       },
       {
         "course_code": null,
+        "catalog_entry_id": "entry_ad5a82e71eeb20e4",
         "opening_units": [
           "管理學院"
         ],
@@ -129,6 +145,8 @@
         "course_name_snapshot": "R:程式、機率與統計",
         "credits_snapshot": 3.0,
         "requirement_group": "elective",
+        "requirement_section": "elective",
+        "program_course_name_snapshot": null,
         "notes": "",
         "source_page": 1,
         "evidence_match": true,
@@ -137,6 +155,7 @@
       },
       {
         "course_code": null,
+        "catalog_entry_id": "entry_6355122aa0b57287",
         "opening_units": [
           "資管系"
         ],
@@ -144,6 +163,8 @@
         "course_name_snapshot": "深度學習",
         "credits_snapshot": 3.0,
         "requirement_group": "elective",
+        "requirement_section": "elective",
+        "program_course_name_snapshot": null,
         "notes": "每年春季開設",
         "source_page": 1,
         "evidence_match": true,
@@ -152,6 +173,7 @@
       },
       {
         "course_code": null,
+        "catalog_entry_id": "entry_0785e311c526e19d",
         "opening_units": [
           "資管系"
         ],
@@ -159,6 +181,8 @@
         "course_name_snapshot": "決策支援系統專案",
         "credits_snapshot": 3.0,
         "requirement_group": "elective",
+        "requirement_section": "elective",
+        "program_course_name_snapshot": null,
         "notes": "每年春季開設",
         "source_page": 1,
         "evidence_match": true,

@@ -29,7 +29,7 @@
         "last_modified": "Tue, 23 Dec 2025 06:51:40 GMT",
         "content_length": 118386
       },
-      "parser_version": "0.2.1",
+      "parser_version": "0.2.2",
       "extractor_versions": {
         "pypdf": "6.10.0",
         "pdfplumber": "0.11.9"
@@ -47,6 +47,7 @@
     "course_catalog": [
       {
         "course_code": null,
+        "catalog_entry_id": "entry_8ba3b2bba982eff5",
         "opening_units": [
           "社會科學院政治經濟學系"
         ],
@@ -54,6 +55,8 @@
         "course_name_snapshot": "智慧城市與智慧運輸趨勢、發展及課題研析",
         "credits_snapshot": 3.0,
         "requirement_group": "core",
+        "requirement_section": "core",
+        "program_course_name_snapshot": null,
         "notes": "",
         "source_page": 1,
         "evidence_match": false,
@@ -62,6 +65,7 @@
       },
       {
         "course_code": null,
+        "catalog_entry_id": "entry_c2ccebe8c7a1bd25",
         "opening_units": [
           "社會科學院"
         ],
@@ -69,6 +73,8 @@
         "course_name_snapshot": "文化地景專題: 遺產化的政治經濟學",
         "credits_snapshot": 3.0,
         "requirement_group": "core",
+        "requirement_section": "core",
+        "program_course_name_snapshot": null,
         "notes": "",
         "source_page": 1,
         "evidence_match": false,
@@ -77,6 +83,7 @@
       },
       {
         "course_code": null,
+        "catalog_entry_id": "entry_dc83b4b038d88b96",
         "opening_units": [
           "社會科學院"
         ],
@@ -84,6 +91,8 @@
         "course_name_snapshot": "東亞城市專題: 文化經濟與文化治理",
         "credits_snapshot": 3.0,
         "requirement_group": "core",
+        "requirement_section": "core",
+        "program_course_name_snapshot": null,
         "notes": "",
         "source_page": 1,
         "evidence_match": false,
@@ -92,6 +101,7 @@
       },
       {
         "course_code": null,
+        "catalog_entry_id": "entry_f572be481d8e6f41",
         "opening_units": [
           "社會系"
         ],
@@ -99,6 +109,8 @@
         "course_name_snapshot": "博物館社會學",
         "credits_snapshot": 3.0,
         "requirement_group": "elective",
+        "requirement_section": "elective",
+        "program_course_name_snapshot": null,
         "notes": "",
         "source_page": 1,
         "evidence_match": true,
@@ -107,6 +119,7 @@
       },
       {
         "course_code": null,
+        "catalog_entry_id": "entry_7297309d6e824c8e",
         "opening_units": [
           "社會創新所"
         ],
@@ -114,6 +127,8 @@
         "course_name_snapshot": "創意城市與社區議題探究",
         "credits_snapshot": 3.0,
         "requirement_group": "elective",
+        "requirement_section": "elective",
+        "program_course_name_snapshot": null,
         "notes": "",
         "source_page": 1,
         "evidence_match": true,

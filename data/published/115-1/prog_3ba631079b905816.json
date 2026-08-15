@@ -23,7 +23,7 @@
       "last_modified": "Wed, 20 Dec 2023 02:42:31 GMT",
       "content_length": 138196
     },
-    "parser_version": "0.2.1",
+    "parser_version": "0.2.2",
     "extractor_versions": {
       "pypdf": "6.10.0",
       "pdfplumber": "0.11.9"
@@ -41,6 +41,7 @@
   "course_catalog": [
     {
       "course_code": null,
+      "catalog_entry_id": "entry_744a6200689dfc55",
       "opening_units": [
         "人科學程"
       ],
@@ -48,6 +49,8 @@
       "course_name_snapshot": "綠色港市與智慧港埠",
       "credits_snapshot": 3.0,
       "requirement_group": "core",
+      "requirement_section": "core",
+      "program_course_name_snapshot": null,
       "notes": "",
       "source_page": 1,
       "evidence_match": true,
@@ -56,6 +59,7 @@
     },
     {
       "course_code": null,
+      "catalog_entry_id": "entry_70f6c264f00cc55e",
       "opening_units": [
         "海工系"
       ],
@@ -63,6 +67,8 @@
       "course_name_snapshot": "海洋與海岸管理",
       "credits_snapshot": 3.0,
       "requirement_group": "core",
+      "requirement_section": "core",
+      "program_course_name_snapshot": null,
       "notes": "",
       "source_page": 1,
       "evidence_match": true,
@@ -71,6 +77,7 @@
     },
     {
       "course_code": null,
+      "catalog_entry_id": "entry_8315f3ca7b552976",
       "opening_units": [
         "人科學程"
       ],
@@ -78,6 +85,8 @@
       "course_name_snapshot": "智慧型運輸系統",
       "credits_snapshot": 3.0,
       "requirement_group": "core",
+      "requirement_section": "core",
+      "program_course_name_snapshot": null,
       "notes": "",
       "source_page": 1,
       "evidence_match": true,
@@ -86,6 +95,7 @@
     },
     {
       "course_code": null,
+      "catalog_entry_id": "entry_0a67a37eba7d4e09",
       "opening_units": [
         "海資系"
       ],
@@ -93,6 +103,8 @@
       "course_name_snapshot": "海洋污染概論",
       "credits_snapshot": 2.0,
       "requirement_group": "elective",
+      "requirement_section": "elective",
+      "program_course_name_snapshot": null,
       "notes": "",
       "source_page": 1,
       "evidence_match": true,
@@ -101,6 +113,7 @@
     },
     {
       "course_code": null,
+      "catalog_entry_id": "entry_13ccb9e1ced2cfa2",
       "opening_units": [
         "人科學程"
       ],
@@ -108,6 +121,8 @@
       "course_name_snapshot": "永續工程與智慧城市實踐",
       "credits_snapshot": 1.0,
       "requirement_group": "elective",
+      "requirement_section": "elective",
+      "program_course_name_snapshot": null,
       "notes": "",
       "source_page": 1,
       "evidence_match": true,
@@ -116,6 +131,7 @@
     },
     {
       "course_code": null,
+      "catalog_entry_id": "entry_6be1a19d40677b69",
       "opening_units": [
         "海工系"
       ],
@@ -123,6 +139,8 @@
       "course_name_snapshot": "海上實習",
       "credits_snapshot": 3.0,
       "requirement_group": "elective",
+      "requirement_section": "elective",
+      "program_course_name_snapshot": null,
       "notes": "",
       "source_page": 1,
       "evidence_match": true,
@@ -131,6 +149,7 @@
     },
     {
       "course_code": null,
+      "catalog_entry_id": "entry_512c172761215fb0",
       "opening_units": [
         "博雅向度六"
       ],
@@ -138,6 +157,8 @@
       "course_name_snapshot": "光電生活與能源永續",
       "credits_snapshot": 3.0,
       "requirement_group": "elective",
+      "requirement_section": "elective",
+      "program_course_name_snapshot": null,
       "notes": "",
       "source_page": 1,
       "evidence_match": true,
@@ -146,6 +167,7 @@
     },
     {
       "course_code": null,
+      "catalog_entry_id": "entry_b69b98f8300c3dd2",
       "opening_units": [
         "機電系"
       ],
@@ -153,6 +175,8 @@
       "course_name_snapshot": "智慧製造與監測技術",
       "credits_snapshot": 3.0,
       "requirement_group": "elective",
+      "requirement_section": "elective",
+      "program_course_name_snapshot": null,
       "notes": "",
       "source_page": 1,
       "evidence_match": true,

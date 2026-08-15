@@ -29,7 +29,7 @@
         "last_modified": "Wed, 01 Jul 2026 06:09:26 GMT",
         "content_length": 407365
       },
-      "parser_version": "0.2.1",
+      "parser_version": "0.2.2",
       "extractor_versions": {
         "pypdf": "6.10.0",
         "pdfplumber": "0.11.9"
@@ -47,6 +47,7 @@
     "course_catalog": [
       {
         "course_code": null,
+        "catalog_entry_id": "entry_edd30fb411799b8c",
         "opening_units": [
           "海科系"
         ],
@@ -54,6 +55,8 @@
         "course_name_snapshot": "全球環境變遷概論",
         "credits_snapshot": 2.0,
         "requirement_group": "core",
+        "requirement_section": "core",
+        "program_course_name_snapshot": null,
         "notes": "",
         "source_page": 1,
         "evidence_match": true,
@@ -62,6 +65,7 @@
       },
       {
         "course_code": null,
+        "catalog_entry_id": "entry_42c3f0b6efe874dd",
         "opening_units": [
           "公事碩"
         ],
@@ -69,6 +73,8 @@
         "course_name_snapshot": "社區營造與地區重建",
         "credits_snapshot": 2.0,
         "requirement_group": "core",
+        "requirement_section": "core",
+        "program_course_name_snapshot": null,
         "notes": "",
         "source_page": 1,
         "evidence_match": true,
@@ -77,6 +83,7 @@
       },
       {
         "course_code": null,
+        "catalog_entry_id": "entry_65f5c704e2eca3db",
         "opening_units": [
           "公事碩"
         ],
@@ -84,6 +91,8 @@
         "course_name_snapshot": "永續發展與綠色管理",
         "credits_snapshot": 3.0,
         "requirement_group": "core",
+        "requirement_section": "core",
+        "program_course_name_snapshot": null,
         "notes": "",
         "source_page": 1,
         "evidence_match": true,
@@ -92,6 +101,7 @@
       },
       {
         "course_code": null,
+        "catalog_entry_id": "entry_c1dff1cd570d6246",
         "opening_units": [
           "公事碩"
         ],
@@ -99,6 +109,8 @@
         "course_name_snapshot": "永續管理概論",
         "credits_snapshot": 2.0,
         "requirement_group": "core",
+        "requirement_section": "core",
+        "program_course_name_snapshot": null,
         "notes": "",
         "source_page": 1,
         "evidence_match": true,
@@ -107,6 +119,7 @@
       },
       {
         "course_code": null,
+        "catalog_entry_id": "entry_a79717b3fc7f555b",
         "opening_units": [
           "公事碩"
         ],
@@ -114,6 +127,8 @@
         "course_name_snapshot": "地區經營管理",
         "credits_snapshot": 2.0,
         "requirement_group": "core",
+        "requirement_section": "core",
+        "program_course_name_snapshot": null,
         "notes": "",
         "source_page": 1,
         "evidence_match": true,
@@ -122,6 +137,7 @@
       },
       {
         "course_code": null,
+        "catalog_entry_id": "entry_487215a5be1dc871",
         "opening_units": [
           "公事碩"
         ],
@@ -129,6 +145,8 @@
         "course_name_snapshot": "城鄉發展與環境變遷",
         "credits_snapshot": 2.0,
         "requirement_group": "core",
+        "requirement_section": "core",
+        "program_course_name_snapshot": null,
         "notes": "",
         "source_page": 1,
         "evidence_match": true,
@@ -137,6 +155,7 @@
       },
       {
         "course_code": null,
+        "catalog_entry_id": "entry_30c239be65706a89",
         "opening_units": [
           "公事碩"
         ],
@@ -144,6 +163,8 @@
         "course_name_snapshot": "公共事務專題研究[主題:國際地方創生實務見學]",
         "credits_snapshot": 2.0,
         "requirement_group": "core",
+        "requirement_section": "core",
+        "program_course_name_snapshot": null,
         "notes": "",
         "source_page": 1,
         "evidence_match": false,
@@ -152,6 +173,7 @@
       },
       {
         "course_code": null,
+        "catalog_entry_id": "entry_cd86312399cf59ee",
         "opening_units": [
           "公事碩"
         ],
@@ -159,6 +181,8 @@
         "course_name_snapshot": "新興公共議題研討[主題:地方創生與區域治理]",
         "credits_snapshot": 2.0,
         "requirement_group": "core",
+        "requirement_section": "core",
+        "program_course_name_snapshot": null,
         "notes": "",
         "source_page": 1,
         "evidence_match": false,
@@ -167,6 +191,7 @@
       },
       {
         "course_code": null,
+        "catalog_entry_id": "entry_1b0afc084e915e9a",
         "opening_units": [
           "公事碩"
         ],
@@ -174,6 +199,8 @@
         "course_name_snapshot": "公共事務研討",
         "credits_snapshot": 2.0,
         "requirement_group": "core",
+        "requirement_section": "core",
+        "program_course_name_snapshot": null,
         "notes": "",
         "source_page": 1,
         "evidence_match": true,
@@ -182,6 +209,7 @@
       },
       {
         "course_code": null,
+        "catalog_entry_id": "entry_8a2bc967ea925318",
         "opening_units": [
           "公事碩"
         ],
@@ -189,6 +217,8 @@
         "course_name_snapshot": "新興公共議題研討",
         "credits_snapshot": 2.0,
         "requirement_group": "core",
+        "requirement_section": "core",
+        "program_course_name_snapshot": null,
         "notes": "",
         "source_page": 1,
         "evidence_match": true,
@@ -197,6 +227,7 @@
       },
       {
         "course_code": null,
+        "catalog_entry_id": "entry_56f6cd997b39d296",
         "opening_units": [
           "公事碩"
         ],
@@ -204,6 +235,8 @@
         "course_name_snapshot": "公共事務專題研究(一)",
         "credits_snapshot": 2.0,
         "requirement_group": "core",
+        "requirement_section": "core",
+        "program_course_name_snapshot": null,
         "notes": "",
         "source_page": 1,
         "evidence_match": true,
@@ -212,6 +245,7 @@
       },
       {
         "course_code": null,
+        "catalog_entry_id": "entry_88a98d935bbe2c8d",
         "opening_units": [
           "公事碩"
         ],
@@ -219,6 +253,8 @@
         "course_name_snapshot": "新興公共議題(一)",
         "credits_snapshot": 2.0,
         "requirement_group": "core",
+        "requirement_section": "core",
+        "program_course_name_snapshot": null,
         "notes": "",
         "source_page": 1,
         "evidence_match": true,
@@ -227,6 +263,7 @@
       },
       {
         "course_code": null,
+        "catalog_entry_id": "entry_7e51a78e9597565f",
         "opening_units": [
           "公事碩"
         ],
@@ -234,6 +271,8 @@
         "course_name_snapshot": "永續報告書寫作",
         "credits_snapshot": 2.0,
         "requirement_group": "core",
+        "requirement_section": "core",
+        "program_course_name_snapshot": null,
         "notes": "",
         "source_page": 1,
         "evidence_match": true,
@@ -242,6 +281,7 @@
       },
       {
         "course_code": null,
+        "catalog_entry_id": "entry_61f2f0aef4ff6f96",
         "opening_units": [
           "公事碩"
         ],
@@ -249,6 +289,8 @@
         "course_name_snapshot": "溫室氣體盤查報告實作",
         "credits_snapshot": 2.0,
         "requirement_group": "core",
+        "requirement_section": "core",
+        "program_course_name_snapshot": null,
         "notes": "",
         "source_page": 1,
         "evidence_match": true,
@@ -257,6 +299,7 @@
       },
       {
         "course_code": null,
+        "catalog_entry_id": "entry_7b9382556aaf590d",
         "opening_units": [
           "西灣學院"
         ],
@@ -264,6 +307,8 @@
         "course_name_snapshot": "污染防治與環境管理",
         "credits_snapshot": 2.0,
         "requirement_group": "elective",
+        "requirement_section": "elective",
+        "program_course_name_snapshot": null,
         "notes": "",
         "source_page": 1,
         "evidence_match": true,
@@ -272,6 +317,7 @@
       },
       {
         "course_code": null,
+        "catalog_entry_id": "entry_395554718f615a86",
         "opening_units": [
           "社科院"
         ],
@@ -279,6 +325,8 @@
         "course_name_snapshot": "永續都市環境行為及心理學",
         "credits_snapshot": 3.0,
         "requirement_group": "elective",
+        "requirement_section": "elective",
+        "program_course_name_snapshot": null,
         "notes": "",
         "source_page": 1,
         "evidence_match": true,
@@ -287,6 +335,7 @@
       },
       {
         "course_code": null,
+        "catalog_entry_id": "entry_a8474d679d7c07f5",
         "opening_units": [
           "西灣學院"
         ],
@@ -294,6 +343,8 @@
         "course_name_snapshot": "環境變遷與生態保育",
         "credits_snapshot": 2.0,
         "requirement_group": "elective",
+        "requirement_section": "elective",
+        "program_course_name_snapshot": null,
         "notes": "",
         "source_page": 1,
         "evidence_match": true,
@@ -302,6 +353,7 @@
       },
       {
         "course_code": null,
+        "catalog_entry_id": "entry_80a0019917f84f1e",
         "opening_units": [
           "公事碩"
         ],
@@ -309,6 +361,8 @@
         "course_name_snapshot": "區域發展與政策",
         "credits_snapshot": 3.0,
         "requirement_group": "elective",
+        "requirement_section": "elective",
+        "program_course_name_snapshot": null,
         "notes": "",
         "source_page": 1,
         "evidence_match": true,
@@ -317,6 +371,7 @@
       },
       {
         "course_code": null,
+        "catalog_entry_id": "entry_78b6db0a2dc9460b",
         "opening_units": [
           "公事碩"
         ],
@@ -324,6 +379,8 @@
         "course_name_snapshot": "國際非營利及社區組織交流",
         "credits_snapshot": 2.0,
         "requirement_group": "elective",
+        "requirement_section": "elective",
+        "program_course_name_snapshot": null,
         "notes": "",
         "source_page": 1,
         "evidence_match": true,
@@ -332,6 +389,7 @@
       },
       {
         "course_code": null,
+        "catalog_entry_id": "entry_d5c20ffe5e389340",
         "opening_units": [
           "公事碩"
         ],
@@ -339,6 +397,8 @@
         "course_name_snapshot": "新興公共議題(一)[主題:企業永續趨勢與作法]",
         "credits_snapshot": 2.0,
         "requirement_group": "elective",
+        "requirement_section": "elective",
+        "program_course_name_snapshot": null,
         "notes": "",
         "source_page": 1,
         "evidence_match": false,
@@ -347,6 +407,7 @@
       },
       {
         "course_code": null,
+        "catalog_entry_id": "entry_ee1b0613d7ba21e8",
         "opening_units": [
           "公事碩"
         ],
@@ -354,6 +415,8 @@
         "course_name_snapshot": "媒體與公共事務",
         "credits_snapshot": 2.0,
         "requirement_group": "elective",
+        "requirement_section": "elective",
+        "program_course_name_snapshot": null,
         "notes": "",
         "source_page": 1,
         "evidence_match": true,
@@ -362,6 +425,7 @@
       },
       {
         "course_code": null,
+        "catalog_entry_id": "entry_38c28371e088d716",
         "opening_units": [
           "公事碩"
         ],
@@ -369,6 +433,8 @@
         "course_name_snapshot": "非營利組織管理研討",
         "credits_snapshot": 2.0,
         "requirement_group": "elective",
+        "requirement_section": "elective",
+        "program_course_name_snapshot": null,
         "notes": "",
         "source_page": 1,
         "evidence_match": true,
@@ -377,6 +443,7 @@
       },
       {
         "course_code": null,
+        "catalog_entry_id": "entry_9dd1e3aaa0132f68",
         "opening_units": [
           "財管系"
         ],
@@ -384,6 +451,8 @@
         "course_name_snapshot": "社會企業商業模式發展與實作",
         "credits_snapshot": 3.0,
         "requirement_group": "elective",
+        "requirement_section": "elective",
+        "program_course_name_snapshot": null,
         "notes": "",
         "source_page": 1,
         "evidence_match": true,
@@ -392,6 +461,7 @@
       },
       {
         "course_code": null,
+        "catalog_entry_id": "entry_b1dbfcd78f23ec9b",
         "opening_units": [
           "博雅向度三"
         ],
@@ -399,6 +469,8 @@
         "course_name_snapshot": "日本文化概論",
         "credits_snapshot": 3.0,
         "requirement_group": "elective",
+        "requirement_section": "elective",
+        "program_course_name_snapshot": null,
         "notes": "",
         "source_page": 1,
         "evidence_match": true,
@@ -407,6 +479,7 @@
       },
       {
         "course_code": null,
+        "catalog_entry_id": "entry_1e28061cfa39ccdf",
         "opening_units": [
           "跨院選修(通)"
         ],
@@ -414,6 +487,8 @@
         "course_name_snapshot": "創業講堂",
         "credits_snapshot": 3.0,
         "requirement_group": "elective",
+        "requirement_section": "elective",
+        "program_course_name_snapshot": null,
         "notes": "",
         "source_page": 1,
         "evidence_match": true,
@@ -422,6 +497,7 @@
       },
       {
         "course_code": null,
+        "catalog_entry_id": "entry_623ada80381d6dda",
         "opening_units": [
           "西灣學院"
         ],
@@ -429,6 +505,8 @@
         "course_name_snapshot": "環境科學",
         "credits_snapshot": 2.0,
         "requirement_group": "elective",
+        "requirement_section": "elective",
+        "program_course_name_snapshot": null,
         "notes": "",
         "source_page": 1,
         "evidence_match": true,
@@ -437,6 +515,7 @@
       },
       {
         "course_code": null,
+        "catalog_entry_id": "entry_1e1a0171c724d42c",
         "opening_units": [
           "西灣學院"
         ],
@@ -444,6 +523,8 @@
         "course_name_snapshot": "地方創生議題探討",
         "credits_snapshot": 3.0,
         "requirement_group": "elective",
+        "requirement_section": "elective",
+        "program_course_name_snapshot": null,
         "notes": "",
         "source_page": 1,
         "evidence_match": true,
@@ -452,6 +533,7 @@
       },
       {
         "course_code": null,
+        "catalog_entry_id": "entry_412d45efd61c54ad",
         "opening_units": [
           "西灣學院"
         ],
@@ -459,6 +541,8 @@
         "course_name_snapshot": "都市農業與永續發展",
         "credits_snapshot": 3.0,
         "requirement_group": "elective",
+        "requirement_section": "elective",
+        "program_course_name_snapshot": null,
         "notes": "",
         "source_page": 2,
         "evidence_match": true,
@@ -467,6 +551,7 @@
       },
       {
         "course_code": null,
+        "catalog_entry_id": "entry_f055342de02c3fff",
         "opening_units": [
           "西灣學院"
         ],
@@ -474,6 +559,8 @@
         "course_name_snapshot": "氣候變遷與永續農業發展",
         "credits_snapshot": 3.0,
         "requirement_group": "elective",
+        "requirement_section": "elective",
+        "program_course_name_snapshot": null,
         "notes": "",
         "source_page": 2,
         "evidence_match": true,
@@ -482,6 +569,7 @@
       },
       {
         "course_code": null,
+        "catalog_entry_id": "entry_a84d13bc60e2893c",
         "opening_units": [
           "西灣學院"
         ],
@@ -489,6 +577,8 @@
         "course_name_snapshot": "創意城市與社區議題探究",
         "credits_snapshot": 3.0,
         "requirement_group": "elective",
+        "requirement_section": "elective",
+        "program_course_name_snapshot": null,
         "notes": "",
         "source_page": 2,
         "evidence_match": true,
@@ -497,6 +587,7 @@
       },
       {
         "course_code": null,
+        "catalog_entry_id": "entry_6daae99e00fb42a0",
         "opening_units": [
           "社會創新所"
         ],
@@ -504,6 +595,8 @@
         "course_name_snapshot": "全球與在地永續發展議題探討",
         "credits_snapshot": 3.0,
         "requirement_group": "elective",
+        "requirement_section": "elective",
+        "program_course_name_snapshot": null,
         "notes": "",
         "source_page": 2,
         "evidence_match": true,
@@ -512,6 +605,7 @@
       },
       {
         "course_code": null,
+        "catalog_entry_id": "entry_f8750e2d9b0faeec",
         "opening_units": [
           "社會系"
         ],
@@ -519,6 +613,8 @@
         "course_name_snapshot": "糧食、農業與社會",
         "credits_snapshot": 3.0,
         "requirement_group": "elective",
+        "requirement_section": "elective",
+        "program_course_name_snapshot": null,
         "notes": "",
         "source_page": 2,
         "evidence_match": true,
@@ -527,6 +623,7 @@
       },
       {
         "course_code": null,
+        "catalog_entry_id": "entry_503b14eddac96bb5",
         "opening_units": [
           "社科院"
         ],
@@ -534,6 +631,8 @@
         "course_name_snapshot": "創業與鄉村發展",
         "credits_snapshot": 2.0,
         "requirement_group": "elective",
+        "requirement_section": "elective",
+        "program_course_name_snapshot": null,
         "notes": "",
         "source_page": 2,
         "evidence_match": true,
@@ -542,6 +641,7 @@
       },
       {
         "course_code": null,
+        "catalog_entry_id": "entry_a909ce2895a63997",
         "opening_units": [
           "社科院"
         ],
@@ -549,6 +649,8 @@
         "course_name_snapshot": "創業與區域發展",
         "credits_snapshot": 3.0,
         "requirement_group": "elective",
+        "requirement_section": "elective",
+        "program_course_name_snapshot": null,
         "notes": "",
         "source_page": 2,
         "evidence_match": true,
@@ -557,6 +659,7 @@
       },
       {
         "course_code": null,
+        "catalog_entry_id": "entry_a74738aa1718b0f3",
         "opening_units": [
           "劇藝碩"
         ],
@@ -564,6 +667,8 @@
         "course_name_snapshot": "文本與空間敘事",
         "credits_snapshot": 3.0,
         "requirement_group": "elective",
+        "requirement_section": "elective",
+        "program_course_name_snapshot": null,
         "notes": "",
         "source_page": 2,
         "evidence_match": true,
@@ -572,6 +677,7 @@
       },
       {
         "course_code": null,
+        "catalog_entry_id": "entry_98b9377ade8924a3",
         "opening_units": [
           "藝管所"
         ],
@@ -579,6 +685,8 @@
         "course_name_snapshot": "節慶活動策劃與經營",
         "credits_snapshot": 3.0,
         "requirement_group": "elective",
+        "requirement_section": "elective",
+        "program_course_name_snapshot": null,
         "notes": "",
         "source_page": 2,
         "evidence_match": true,
@@ -587,6 +695,7 @@
       },
       {
         "course_code": null,
+        "catalog_entry_id": "entry_edecfdf1497b6c62",
         "opening_units": [
           "行銷碩"
         ],
@@ -594,6 +703,8 @@
         "course_name_snapshot": "行銷傳播策略",
         "credits_snapshot": 3.0,
         "requirement_group": "elective",
+        "requirement_section": "elective",
+        "program_course_name_snapshot": null,
         "notes": "",
         "source_page": 2,
         "evidence_match": true,
@@ -602,6 +713,7 @@
       },
       {
         "course_code": null,
+        "catalog_entry_id": "entry_87aa524c8892cb71",
         "opening_units": [
           "海工系"
         ],
@@ -609,6 +721,8 @@
         "course_name_snapshot": "基礎環境科學",
         "credits_snapshot": 2.0,
         "requirement_group": "elective",
+        "requirement_section": "elective",
+        "program_course_name_snapshot": null,
         "notes": "",
         "source_page": 2,
         "evidence_match": true,
@@ -617,6 +731,7 @@
       },
       {
         "course_code": null,
+        "catalog_entry_id": "entry_5b323a7985a6b151",
         "opening_units": [
           "公事碩"
         ],
@@ -624,6 +739,8 @@
         "course_name_snapshot": "企業社會責任專題",
         "credits_snapshot": 2.0,
         "requirement_group": "elective",
+        "requirement_section": "elective",
+        "program_course_name_snapshot": null,
         "notes": "",
         "source_page": 2,
         "evidence_match": true,
@@ -632,6 +749,7 @@
       },
       {
         "course_code": null,
+        "catalog_entry_id": "entry_8915ec4c94a25f7e",
         "opening_units": [
           "公事碩"
         ],
@@ -639,6 +757,8 @@
         "course_name_snapshot": "氣候行動書報討論",
         "credits_snapshot": 1.0,
         "requirement_group": "elective",
+        "requirement_section": "elective",
+        "program_course_name_snapshot": null,
         "notes": "",
         "source_page": 2,
         "evidence_match": true,
@@ -647,6 +767,7 @@
       },
       {
         "course_code": null,
+        "catalog_entry_id": "entry_1c3a7e0516f1f3e5",
         "opening_units": [
           "社會創新所"
         ],
@@ -654,6 +775,8 @@
         "course_name_snapshot": "地方創生研究與實踐",
         "credits_snapshot": 3.0,
         "requirement_group": "elective",
+        "requirement_section": "elective",
+        "program_course_name_snapshot": null,
         "notes": "",
         "source_page": 2,
         "evidence_match": true,
@@ -662,6 +785,7 @@
       },
       {
         "course_code": null,
+        "catalog_entry_id": "entry_d0dffae0a5f94a8c",
         "opening_units": [
           "社會創新所"
         ],
@@ -669,6 +793,8 @@
         "course_name_snapshot": "地方創生研究與實踐(二)",
         "credits_snapshot": 3.0,
         "requirement_group": "elective",
+        "requirement_section": "elective",
+        "program_course_name_snapshot": null,
         "notes": "",
         "source_page": 2,
         "evidence_match": true,
@@ -677,6 +803,7 @@
       },
       {
         "course_code": null,
+        "catalog_entry_id": "entry_2b0ca8e90280a067",
         "opening_units": [
           "博雅向度一"
         ],
@@ -684,6 +811,8 @@
         "course_name_snapshot": "台灣社會與文化",
         "credits_snapshot": 3.0,
         "requirement_group": "elective",
+        "requirement_section": "elective",
+        "program_course_name_snapshot": null,
         "notes": "",
         "source_page": 2,
         "evidence_match": true,
@@ -692,6 +821,7 @@
       },
       {
         "course_code": null,
+        "catalog_entry_id": "entry_0d95982eb8746836",
         "opening_units": [
           "博雅向度一"
         ],
@@ -699,6 +829,8 @@
         "course_name_snapshot": "紀錄片企劃與製作",
         "credits_snapshot": 3.0,
         "requirement_group": "elective",
+        "requirement_section": "elective",
+        "program_course_name_snapshot": null,
         "notes": "",
         "source_page": 2,
         "evidence_match": true,
@@ -707,6 +839,7 @@
       },
       {
         "course_code": null,
+        "catalog_entry_id": "entry_29933d3efc294483",
         "opening_units": [
           "博雅向度三"
         ],
@@ -714,6 +847,8 @@
         "course_name_snapshot": "都市營造與空間規劃",
         "credits_snapshot": 2.0,
         "requirement_group": "elective",
+        "requirement_section": "elective",
+        "program_course_name_snapshot": null,
         "notes": "",
         "source_page": 2,
         "evidence_match": true,
@@ -722,6 +857,7 @@
       },
       {
         "course_code": null,
+        "catalog_entry_id": "entry_3d02254d9c8caca9",
         "opening_units": [
           "博雅向度六"
         ],
@@ -729,6 +865,8 @@
         "course_name_snapshot": "在地食物的永續發展與全球脈絡",
         "credits_snapshot": 3.0,
         "requirement_group": "elective",
+        "requirement_section": "elective",
+        "program_course_name_snapshot": null,
         "notes": "",
         "source_page": 2,
         "evidence_match": true,
@@ -737,6 +875,7 @@
       },
       {
         "course_code": null,
+        "catalog_entry_id": "entry_cfb734b8df6fb0a3",
         "opening_units": [
           "博雅向度四"
         ],
@@ -744,6 +883,8 @@
         "course_name_snapshot": "科學、媒體與文化",
         "credits_snapshot": 2.0,
         "requirement_group": "elective",
+        "requirement_section": "elective",
+        "program_course_name_snapshot": null,
         "notes": "",
         "source_page": 2,
         "evidence_match": true,
@@ -752,6 +893,7 @@
       },
       {
         "course_code": null,
+        "catalog_entry_id": "entry_331708d6329190b3",
         "opening_units": [
           "博雅向度四"
         ],
@@ -759,6 +901,8 @@
         "course_name_snapshot": "探尋建築工藝中的高雄故事",
         "credits_snapshot": 3.0,
         "requirement_group": "elective",
+        "requirement_section": "elective",
+        "program_course_name_snapshot": null,
         "notes": "",
         "source_page": 2,
         "evidence_match": true,
@@ -767,6 +911,7 @@
       },
       {
         "course_code": null,
+        "catalog_entry_id": "entry_195f82dca20741cc",
         "opening_units": [
           "博雅向度四"
         ],
@@ -774,6 +919,8 @@
         "course_name_snapshot": "用影像說故事:探索科技、環境與社會",
         "credits_snapshot": 2.0,
         "requirement_group": "elective",
+        "requirement_section": "elective",
+        "program_course_name_snapshot": null,
         "notes": "",
         "source_page": 2,
         "evidence_match": false,
@@ -782,6 +929,7 @@
       },
       {
         "course_code": null,
+        "catalog_entry_id": "entry_7235c008c94cd181",
         "opening_units": [
           "管理學院"
         ],
@@ -789,6 +937,8 @@
         "course_name_snapshot": "綠色採購",
         "credits_snapshot": 1.0,
         "requirement_group": "elective",
+        "requirement_section": "elective",
+        "program_course_name_snapshot": null,
         "notes": "",
         "source_page": 2,
         "evidence_match": true,
@@ -797,6 +947,7 @@
       },
       {
         "course_code": null,
+        "catalog_entry_id": "entry_7a48b3ec1aa7e1bf",
         "opening_units": [
           "管理學院"
         ],
@@ -804,6 +955,8 @@
         "course_name_snapshot": "永續金融",
         "credits_snapshot": 2.0,
         "requirement_group": "elective",
+        "requirement_section": "elective",
+        "program_course_name_snapshot": null,
         "notes": "",
         "source_page": 2,
         "evidence_match": true,
@@ -812,6 +965,7 @@
       },
       {
         "course_code": null,
+        "catalog_entry_id": "entry_1d3431e56a319e19",
         "opening_units": [
           "博雅向度二"
         ],
@@ -819,6 +973,8 @@
         "course_name_snapshot": "現代日本社會與宗教",
         "credits_snapshot": 3.0,
         "requirement_group": "elective",
+        "requirement_section": "elective",
+        "program_course_name_snapshot": null,
         "notes": "",
         "source_page": 2,
         "evidence_match": true,
@@ -827,6 +983,7 @@
       },
       {
         "course_code": null,
+        "catalog_entry_id": "entry_7eb0047f0407213b",
         "opening_units": [
           "跨院選修(通)"
         ],
@@ -834,6 +991,8 @@
         "course_name_snapshot": "台日文化比較研究(一)",
         "credits_snapshot": 3.0,
         "requirement_group": "elective",
+        "requirement_section": "elective",
+        "program_course_name_snapshot": null,
         "notes": "",
         "source_page": 2,
         "evidence_match": true,
@@ -842,6 +1001,7 @@
       },
       {
         "course_code": null,
+        "catalog_entry_id": "entry_035edd73fa406cb1",
         "opening_units": [
           "跨院選修(通)"
         ],
@@ -849,6 +1009,8 @@
         "course_name_snapshot": "台日文化比較研究(2)",
         "credits_snapshot": 3.0,
         "requirement_group": "elective",
+        "requirement_section": "elective",
+        "program_course_name_snapshot": null,
         "notes": "",
         "source_page": 2,
         "evidence_match": true,
@@ -857,6 +1019,7 @@
       },
       {
         "course_code": null,
+        "catalog_entry_id": "entry_d49e986a91c27163",
         "opening_units": [
           "企管所"
         ],
@@ -864,6 +1027,8 @@
         "course_name_snapshot": "永續發展與社會企業",
         "credits_snapshot": 3.0,
         "requirement_group": "elective",
+        "requirement_section": "elective",
+        "program_course_name_snapshot": null,
         "notes": "",
         "source_page": 2,
         "evidence_match": true,
@@ -872,6 +1037,7 @@
       },
       {
         "course_code": null,
+        "catalog_entry_id": "entry_f7db2da8f8181205",
         "opening_units": [
           "企管所"
         ],
@@ -879,6 +1045,8 @@
         "course_name_snapshot": "綠色管理與創新",
         "credits_snapshot": 3.0,
         "requirement_group": "elective",
+        "requirement_section": "elective",
+        "program_course_name_snapshot": null,
         "notes": "",
         "source_page": 2,
         "evidence_match": true,
@@ -887,6 +1055,7 @@
       },
       {
         "course_code": null,
+        "catalog_entry_id": "entry_c423ac2898db531e",
         "opening_units": [
           "海科系"
         ],
@@ -894,6 +1063,8 @@
         "course_name_snapshot": "環境科學概論",
         "credits_snapshot": 2.0,
         "requirement_group": "elective",
+        "requirement_section": "elective",
+        "program_course_name_snapshot": null,
         "notes": "",
         "source_page": 2,
         "evidence_match": true,
@@ -902,6 +1073,7 @@
       },
       {
         "course_code": null,
+        "catalog_entry_id": "entry_99ea5945a0571236",
         "opening_units": [
           "社創所"
         ],
@@ -909,6 +1081,8 @@
         "course_name_snapshot": "地方、草根創新與永續轉型",
         "credits_snapshot": 3.0,
         "requirement_group": "elective",
+        "requirement_section": "elective",
+        "program_course_name_snapshot": null,
         "notes": "",
         "source_page": 2,
         "evidence_match": true,
@@ -917,6 +1091,7 @@
       },
       {
         "course_code": null,
+        "catalog_entry_id": "entry_761ed4bcac0f1bfa",
         "opening_units": [
           "跨院選修(通)"
         ],
@@ -924,6 +1099,8 @@
         "course_name_snapshot": "創意街區發展與設計思考",
         "credits_snapshot": 3.0,
         "requirement_group": "elective",
+        "requirement_section": "elective",
+        "program_course_name_snapshot": null,
         "notes": "",
         "source_page": 2,
         "evidence_match": true,
@@ -932,6 +1109,7 @@
       },
       {
         "course_code": null,
+        "catalog_entry_id": "entry_05f610b7a41814f7",
         "opening_units": [
           "人科學程"
         ],
@@ -939,6 +1117,8 @@
         "course_name_snapshot": "創意街區發展與設計思考",
         "credits_snapshot": 3.0,
         "requirement_group": "elective",
+        "requirement_section": "elective",
+        "program_course_name_snapshot": null,
         "notes": "",
         "source_page": 2,
         "evidence_match": true,
@@ -947,6 +1127,7 @@
       },
       {
         "course_code": null,
+        "catalog_entry_id": "entry_2fb072842826e506",
         "opening_units": [
           "跨院選修(通)"
         ],
@@ -954,6 +1135,8 @@
         "course_name_snapshot": "創意街區發展實務與藝術管理",
         "credits_snapshot": 3.0,
         "requirement_group": "elective",
+        "requirement_section": "elective",
+        "program_course_name_snapshot": null,
         "notes": "",
         "source_page": 2,
         "evidence_match": true,
@@ -962,6 +1145,7 @@
       },
       {
         "course_code": null,
+        "catalog_entry_id": "entry_b60c18645b20c443",
         "opening_units": [
           "人科學程"
         ],
@@ -969,6 +1153,8 @@
         "course_name_snapshot": "創意街區發展實務與藝術管理",
         "credits_snapshot": 3.0,
         "requirement_group": "elective",
+        "requirement_section": "elective",
+        "program_course_name_snapshot": null,
         "notes": "",
         "source_page": 2,
         "evidence_match": true,

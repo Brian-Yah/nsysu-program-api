@@ -23,7 +23,7 @@
       "last_modified": "Fri, 31 May 2024 06:30:03 GMT",
       "content_length": 248541
     },
-    "parser_version": "0.2.1",
+    "parser_version": "0.2.2",
     "extractor_versions": {
       "pypdf": "6.10.0",
       "pdfplumber": "0.11.9"
@@ -41,6 +41,7 @@
   "course_catalog": [
     {
       "course_code": null,
+      "catalog_entry_id": "entry_d379216af30880a2",
       "opening_units": [
         "海科系"
       ],
@@ -48,6 +49,8 @@
       "course_name_snapshot": "海洋基礎科學",
       "credits_snapshot": 2.0,
       "requirement_group": "core",
+      "requirement_section": "core",
+      "program_course_name_snapshot": null,
       "notes": "",
       "source_page": 1,
       "evidence_match": true,
@@ -56,6 +59,7 @@
     },
     {
       "course_code": null,
+      "catalog_entry_id": "entry_9e5c97b97de8da4d",
       "opening_units": [
         "海科系"
       ],
@@ -63,6 +67,8 @@
       "course_name_snapshot": "海洋應用科學",
       "credits_snapshot": 2.0,
       "requirement_group": "core",
+      "requirement_section": "core",
+      "program_course_name_snapshot": null,
       "notes": "",
       "source_page": 1,
       "evidence_match": true,
@@ -71,6 +77,7 @@
     },
     {
       "course_code": null,
+      "catalog_entry_id": "entry_3afced36fa716ec3",
       "opening_units": [
         "海科系"
       ],
@@ -78,6 +85,8 @@
       "course_name_snapshot": "物理海洋資料分析",
       "credits_snapshot": 2.0,
       "requirement_group": "core",
+      "requirement_section": "core",
+      "program_course_name_snapshot": null,
       "notes": "",
       "source_page": 1,
       "evidence_match": true,
@@ -86,6 +95,7 @@
     },
     {
       "course_code": null,
+      "catalog_entry_id": "entry_a5796dcc4f2d9fcc",
       "opening_units": [
         "海科系"
       ],
@@ -93,6 +103,8 @@
       "course_name_snapshot": "海洋化學與地質數據處理",
       "credits_snapshot": 2.0,
       "requirement_group": "core",
+      "requirement_section": "core",
+      "program_course_name_snapshot": null,
       "notes": "",
       "source_page": 1,
       "evidence_match": true,
@@ -101,6 +113,7 @@
     },
     {
       "course_code": null,
+      "catalog_entry_id": "entry_e835fc43ecb65175",
       "opening_units": [
         "海科系"
       ],
@@ -108,6 +121,8 @@
       "course_name_snapshot": "程式設計",
       "credits_snapshot": 3.0,
       "requirement_group": "core",
+      "requirement_section": "core",
+      "program_course_name_snapshot": null,
       "notes": "",
       "source_page": 1,
       "evidence_match": true,
@@ -116,6 +131,7 @@
     },
     {
       "course_code": null,
+      "catalog_entry_id": "entry_ba0c71db7971cf1d",
       "opening_units": [
         "海科系"
       ],
@@ -123,6 +139,8 @@
       "course_name_snapshot": "數值方法與軟體應用",
       "credits_snapshot": 3.0,
       "requirement_group": "core",
+      "requirement_section": "core",
+      "program_course_name_snapshot": null,
       "notes": "",
       "source_page": 1,
       "evidence_match": true,
@@ -131,6 +149,7 @@
     },
     {
       "course_code": null,
+      "catalog_entry_id": "entry_6c11a49cd693f77f",
       "opening_units": [
         "海科系"
       ],
@@ -138,6 +157,8 @@
       "course_name_snapshot": "海洋生態與科技探索教育",
       "credits_snapshot": 2.0,
       "requirement_group": "core",
+      "requirement_section": "core",
+      "program_course_name_snapshot": null,
       "notes": "",
       "source_page": 1,
       "evidence_match": true,
@@ -146,6 +167,7 @@
     },
     {
       "course_code": null,
+      "catalog_entry_id": "entry_2f7f3ea27ff36c45",
       "opening_units": [
         "海科系"
       ],
@@ -153,6 +175,8 @@
       "course_name_snapshot": "海上實習",
       "credits_snapshot": 1.0,
       "requirement_group": "core",
+      "requirement_section": "core",
+      "program_course_name_snapshot": null,
       "notes": "學士班或碩士班",
       "source_page": 1,
       "evidence_match": true,
@@ -161,6 +185,7 @@
     },
     {
       "course_code": null,
+      "catalog_entry_id": "entry_b918f9236ade46fd",
       "opening_units": [
         "海科系"
       ],
@@ -168,6 +193,8 @@
       "course_name_snapshot": "校外實習",
       "credits_snapshot": 3.0,
       "requirement_group": "core",
+      "requirement_section": "core",
+      "program_course_name_snapshot": null,
       "notes": "",
       "source_page": 1,
       "evidence_match": true,
@@ -176,6 +203,7 @@
     },
     {
       "course_code": null,
+      "catalog_entry_id": "entry_7e6621ac878c3fd5",
       "opening_units": [
         "海科院"
       ],
@@ -183,6 +211,8 @@
       "course_name_snapshot": "海洋環境影響評估",
       "credits_snapshot": 2.0,
       "requirement_group": "core",
+      "requirement_section": "core",
+      "program_course_name_snapshot": null,
       "notes": "",
       "source_page": 1,
       "evidence_match": true,
@@ -191,6 +221,7 @@
     },
     {
       "course_code": null,
+      "catalog_entry_id": "entry_72f20fc9f33af41b",
       "opening_units": [
         "海科院"
       ],
@@ -198,6 +229,8 @@
       "course_name_snapshot": "海洋汙染與生物",
       "credits_snapshot": 2.0,
       "requirement_group": "core",
+      "requirement_section": "core",
+      "program_course_name_snapshot": null,
       "notes": "",
       "source_page": 1,
       "evidence_match": true,
@@ -206,6 +239,7 @@
     },
     {
       "course_code": null,
+      "catalog_entry_id": "entry_c723c0ddf5c733ab",
       "opening_units": [
         "海科系"
       ],
@@ -213,6 +247,8 @@
       "course_name_snapshot": "應用統計學(一)",
       "credits_snapshot": 2.0,
       "requirement_group": "elective",
+      "requirement_section": "elective",
+      "program_course_name_snapshot": null,
       "notes": "",
       "source_page": 1,
       "evidence_match": true,
@@ -221,6 +257,7 @@
     },
     {
       "course_code": null,
+      "catalog_entry_id": "entry_d56456a8f4710283",
       "opening_units": [
         "海科系"
       ],
@@ -228,6 +265,8 @@
       "course_name_snapshot": "波浪與潮汐",
       "credits_snapshot": 3.0,
       "requirement_group": "elective",
+      "requirement_section": "elective",
+      "program_course_name_snapshot": null,
       "notes": "",
       "source_page": 1,
       "evidence_match": true,
@@ -236,6 +275,7 @@
     },
     {
       "course_code": null,
+      "catalog_entry_id": "entry_5496b602f4822a88",
       "opening_units": [
         "海科系"
       ],
@@ -243,6 +283,8 @@
       "course_name_snapshot": "水產概論",
       "credits_snapshot": 2.0,
       "requirement_group": "elective",
+      "requirement_section": "elective",
+      "program_course_name_snapshot": null,
       "notes": "",
       "source_page": 1,
       "evidence_match": true,
@@ -251,6 +293,7 @@
     },
     {
       "course_code": null,
+      "catalog_entry_id": "entry_4631917ca401e909",
       "opening_units": [
         "海科系"
       ],
@@ -258,6 +301,8 @@
       "course_name_snapshot": "海水微量分析",
       "credits_snapshot": 3.0,
       "requirement_group": "elective",
+      "requirement_section": "elective",
+      "program_course_name_snapshot": null,
       "notes": "",
       "source_page": 1,
       "evidence_match": true,
@@ -266,6 +311,7 @@
     },
     {
       "course_code": null,
+      "catalog_entry_id": "entry_da4f1a4ac0ed505b",
       "opening_units": [
         "海科系"
       ],
@@ -273,6 +319,8 @@
       "course_name_snapshot": "海洋化學實驗(一)",
       "credits_snapshot": 1.0,
       "requirement_group": "elective",
+      "requirement_section": "elective",
+      "program_course_name_snapshot": null,
       "notes": "",
       "source_page": 1,
       "evidence_match": true,
@@ -281,6 +329,7 @@
     },
     {
       "course_code": null,
+      "catalog_entry_id": "entry_67c2a839e0d31127",
       "opening_units": [
         "海科系"
       ],
@@ -288,6 +337,8 @@
       "course_name_snapshot": "海洋化學實驗(二)",
       "credits_snapshot": 1.0,
       "requirement_group": "elective",
+      "requirement_section": "elective",
+      "program_course_name_snapshot": null,
       "notes": "",
       "source_page": 1,
       "evidence_match": true,
@@ -296,6 +347,7 @@
     },
     {
       "course_code": null,
+      "catalog_entry_id": "entry_a9497fc48c5f0569",
       "opening_units": [
         "海科系"
       ],
@@ -303,6 +355,8 @@
       "course_name_snapshot": "海洋化學",
       "credits_snapshot": 2.0,
       "requirement_group": "elective",
+      "requirement_section": "elective",
+      "program_course_name_snapshot": null,
       "notes": "",
       "source_page": 1,
       "evidence_match": true,
@@ -311,6 +365,7 @@
     },
     {
       "course_code": null,
+      "catalog_entry_id": "entry_23172185fba3f27f",
       "opening_units": [
         "海科系"
       ],
@@ -318,6 +373,8 @@
       "course_name_snapshot": "海洋地球化學",
       "credits_snapshot": 3.0,
       "requirement_group": "elective",
+      "requirement_section": "elective",
+      "program_course_name_snapshot": null,
       "notes": "",
       "source_page": 1,
       "evidence_match": true,
@@ -326,6 +383,7 @@
     },
     {
       "course_code": null,
+      "catalog_entry_id": "entry_a25da9d724f60726",
       "opening_units": [
         "海科系"
       ],
@@ -333,6 +391,8 @@
       "course_name_snapshot": "海洋觀測與調查",
       "credits_snapshot": 3.0,
       "requirement_group": "elective",
+      "requirement_section": "elective",
+      "program_course_name_snapshot": null,
       "notes": "",
       "source_page": 1,
       "evidence_match": true,
@@ -341,6 +401,7 @@
     },
     {
       "course_code": null,
+      "catalog_entry_id": "entry_2e3e5028970768b0",
       "opening_units": [
         "海科系"
       ],
@@ -348,6 +409,8 @@
       "course_name_snapshot": "現代海洋學",
       "credits_snapshot": 3.0,
       "requirement_group": "elective",
+      "requirement_section": "elective",
+      "program_course_name_snapshot": null,
       "notes": "",
       "source_page": 1,
       "evidence_match": true,
@@ -356,6 +419,7 @@
     },
     {
       "course_code": null,
+      "catalog_entry_id": "entry_cdf074d754ecff7b",
       "opening_units": [
         "海科系"
       ],
@@ -363,6 +427,8 @@
       "course_name_snapshot": "海洋遙測",
       "credits_snapshot": 3.0,
       "requirement_group": "elective",
+      "requirement_section": "elective",
+      "program_course_name_snapshot": null,
       "notes": "",
       "source_page": 1,
       "evidence_match": true,
@@ -371,6 +437,7 @@
     },
     {
       "course_code": null,
+      "catalog_entry_id": "entry_8af3fde56859fb49",
       "opening_units": [
         "海科系"
       ],
@@ -378,6 +445,8 @@
       "course_name_snapshot": "海洋脊椎動物學",
       "credits_snapshot": 2.0,
       "requirement_group": "elective",
+      "requirement_section": "elective",
+      "program_course_name_snapshot": null,
       "notes": "",
       "source_page": 1,
       "evidence_match": true,
@@ -386,6 +455,7 @@
     },
     {
       "course_code": null,
+      "catalog_entry_id": "entry_a6ab250aa265a401",
       "opening_units": [
         "海科系"
       ],
@@ -393,6 +463,8 @@
       "course_name_snapshot": "淨零碳排策略",
       "credits_snapshot": 2.0,
       "requirement_group": "elective",
+      "requirement_section": "elective",
+      "program_course_name_snapshot": null,
       "notes": "",
       "source_page": 2,
       "evidence_match": true,
@@ -401,6 +473,7 @@
     },
     {
       "course_code": null,
+      "catalog_entry_id": "entry_96c810e0a7c03dc0",
       "opening_units": [
         "跨院選修(海)"
       ],
@@ -408,6 +481,8 @@
       "course_name_snapshot": "海洋無脊椎動物學(一)",
       "credits_snapshot": 2.0,
       "requirement_group": "elective",
+      "requirement_section": "elective",
+      "program_course_name_snapshot": null,
       "notes": "",
       "source_page": 2,
       "evidence_match": true,
@@ -416,6 +491,7 @@
     },
     {
       "course_code": null,
+      "catalog_entry_id": "entry_5bda46d98cc21dfb",
       "opening_units": [
         "跨院選修(海)"
       ],
@@ -423,6 +499,8 @@
       "course_name_snapshot": "海洋無脊椎動物學(二)",
       "credits_snapshot": 2.0,
       "requirement_group": "elective",
+      "requirement_section": "elective",
+      "program_course_name_snapshot": null,
       "notes": "",
       "source_page": 2,
       "evidence_match": true,
@@ -431,6 +509,7 @@
     },
     {
       "course_code": null,
+      "catalog_entry_id": "entry_4efc185fed2d0eb2",
       "opening_units": [
         "海工系"
       ],
@@ -438,6 +517,8 @@
       "course_name_snapshot": "海岸開發及保育工程",
       "credits_snapshot": 3.0,
       "requirement_group": "elective",
+      "requirement_section": "elective",
+      "program_course_name_snapshot": null,
       "notes": "",
       "source_page": 2,
       "evidence_match": true,
@@ -446,6 +527,7 @@
     },
     {
       "course_code": null,
+      "catalog_entry_id": "entry_3707a3a4c205b48c",
       "opening_units": [
         "海資系"
       ],
@@ -453,6 +535,8 @@
       "course_name_snapshot": "海洋污染概論",
       "credits_snapshot": 2.0,
       "requirement_group": "elective",
+      "requirement_section": "elective",
+      "program_course_name_snapshot": null,
       "notes": "",
       "source_page": 2,
       "evidence_match": true,
@@ -461,6 +545,7 @@
     },
     {
       "course_code": null,
+      "catalog_entry_id": "entry_bebdc3af041af600",
       "opening_units": [
         "海資系"
       ],
@@ -468,6 +553,8 @@
       "course_name_snapshot": "海洋法",
       "credits_snapshot": 3.0,
       "requirement_group": "elective",
+      "requirement_section": "elective",
+      "program_course_name_snapshot": null,
       "notes": "",
       "source_page": 2,
       "evidence_match": true,
@@ -476,6 +563,7 @@
     },
     {
       "course_code": null,
+      "catalog_entry_id": "entry_a4efbcb09a0f595c",
       "opening_units": [
         "博雅向度六"
       ],
@@ -483,6 +571,8 @@
       "course_name_snapshot": "看見國家公園",
       "credits_snapshot": 2.0,
       "requirement_group": "elective",
+      "requirement_section": "elective",
+      "program_course_name_snapshot": null,
       "notes": "",
       "source_page": 2,
       "evidence_match": true,

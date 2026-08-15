@@ -29,7 +29,7 @@
         "last_modified": "Tue, 23 Dec 2025 06:53:36 GMT",
         "content_length": 278632
       },
-      "parser_version": "0.2.1",
+      "parser_version": "0.2.2",
       "extractor_versions": {
         "pypdf": "6.10.0",
         "pdfplumber": "0.11.9"
@@ -47,6 +47,7 @@
     "course_catalog": [
       {
         "course_code": null,
+        "catalog_entry_id": "entry_e877e2a45e6ace53",
         "opening_units": [
           "文學院"
         ],
@@ -54,6 +55,8 @@
         "course_name_snapshot": "臺灣閩南語文的音字書寫與閱讀",
         "credits_snapshot": 3.0,
         "requirement_group": "core",
+        "requirement_section": "core",
+        "program_course_name_snapshot": null,
         "notes": "",
         "source_page": 1,
         "evidence_match": false,
@@ -62,6 +65,7 @@
       },
       {
         "course_code": null,
+        "catalog_entry_id": "entry_ce92e6bc3e1c92cb",
         "opening_units": [
           "中國文學系"
         ],
@@ -69,6 +73,8 @@
         "course_name_snapshot": "閩南語讀書音",
         "credits_snapshot": 3.0,
         "requirement_group": "core",
+        "requirement_section": "core",
+        "program_course_name_snapshot": null,
         "notes": "",
         "source_page": 1,
         "evidence_match": true,
@@ -77,6 +83,7 @@
       },
       {
         "course_code": null,
+        "catalog_entry_id": "entry_437668da38063896",
         "opening_units": [
           "中國文學系"
         ],
@@ -84,6 +91,8 @@
         "course_name_snapshot": "閩南語概論",
         "credits_snapshot": 3.0,
         "requirement_group": "core",
+        "requirement_section": "core",
+        "program_course_name_snapshot": null,
         "notes": "",
         "source_page": 1,
         "evidence_match": true,
@@ -92,6 +101,7 @@
       },
       {
         "course_code": null,
+        "catalog_entry_id": "entry_012416277451f4a9",
         "opening_units": [
           "文學院"
         ],
@@ -99,6 +109,8 @@
         "course_name_snapshot": "跨文化人文思潮與美學導論",
         "credits_snapshot": 3.0,
         "requirement_group": "elective",
+        "requirement_section": "elective",
+        "program_course_name_snapshot": null,
         "notes": "",
         "source_page": 1,
         "evidence_match": true,
@@ -107,6 +119,7 @@
       },
       {
         "course_code": null,
+        "catalog_entry_id": "entry_85342bc6c21ecf48",
         "opening_units": [
           "文學院"
         ],
@@ -114,6 +127,8 @@
         "course_name_snapshot": "臺灣閩南語敘事工坊(一)",
         "credits_snapshot": 3.0,
         "requirement_group": "elective",
+        "requirement_section": "elective",
+        "program_course_name_snapshot": null,
         "notes": "",
         "source_page": 1,
         "evidence_match": true,
@@ -122,6 +137,7 @@
       },
       {
         "course_code": null,
+        "catalog_entry_id": "entry_6edd2a0a1da2fc81",
         "opening_units": [
           "文學院"
         ],
@@ -129,6 +145,8 @@
         "course_name_snapshot": "臺灣閩南語敘事工坊(二)",
         "credits_snapshot": 3.0,
         "requirement_group": "elective",
+        "requirement_section": "elective",
+        "program_course_name_snapshot": null,
         "notes": "",
         "source_page": 1,
         "evidence_match": true,
@@ -137,6 +155,7 @@
       },
       {
         "course_code": null,
+        "catalog_entry_id": "entry_5b77615bc213d3c0",
         "opening_units": [
           "中國文學系"
         ],
@@ -144,6 +163,8 @@
         "course_name_snapshot": "閩南民間文學與文化采風",
         "credits_snapshot": 3.0,
         "requirement_group": "elective",
+        "requirement_section": "elective",
+        "program_course_name_snapshot": null,
         "notes": "",
         "source_page": 1,
         "evidence_match": true,
@@ -152,6 +173,7 @@
       },
       {
         "course_code": null,
+        "catalog_entry_id": "entry_1f19cd145717216b",
         "opening_units": [
           "中國文學系"
         ],
@@ -159,6 +181,8 @@
         "course_name_snapshot": "語言、儀式與戲劇",
         "credits_snapshot": 3.0,
         "requirement_group": "elective",
+        "requirement_section": "elective",
+        "program_course_name_snapshot": null,
         "notes": "",
         "source_page": 1,
         "evidence_match": true,
@@ -167,6 +191,7 @@
       },
       {
         "course_code": null,
+        "catalog_entry_id": "entry_cc49e09564f19577",
         "opening_units": [
           "中國文學系"
         ],
@@ -174,6 +199,8 @@
         "course_name_snapshot": "臺語流行歌曲及其語言風格和文化意涵(一)",
         "credits_snapshot": 3.0,
         "requirement_group": "elective",
+        "requirement_section": "elective",
+        "program_course_name_snapshot": null,
         "notes": "",
         "source_page": 1,
         "evidence_match": false,
@@ -182,6 +209,7 @@
       },
       {
         "course_code": null,
+        "catalog_entry_id": "entry_535bd320aa4ffb7b",
         "opening_units": [
           "中國文學系"
         ],
@@ -189,6 +217,8 @@
         "course_name_snapshot": "臺語流行歌曲及其語言風格和文化意涵(二)",
         "credits_snapshot": 3.0,
         "requirement_group": "elective",
+        "requirement_section": "elective",
+        "program_course_name_snapshot": null,
         "notes": "",
         "source_page": 1,
         "evidence_match": false,
@@ -197,6 +227,7 @@
       },
       {
         "course_code": null,
+        "catalog_entry_id": "entry_2f437d62bea5309d",
         "opening_units": [
           "中國文學系"
         ],
@@ -204,6 +235,8 @@
         "course_name_snapshot": "為你寫一首歌仔—戲曲創作與生命故事(一)",
         "credits_snapshot": 3.0,
         "requirement_group": "elective",
+        "requirement_section": "elective",
+        "program_course_name_snapshot": null,
         "notes": "",
         "source_page": 1,
         "evidence_match": false,
@@ -212,6 +245,7 @@
       },
       {
         "course_code": null,
+        "catalog_entry_id": "entry_e9c33cb5777d7177",
         "opening_units": [
           "中國文學系"
         ],
@@ -219,6 +253,8 @@
         "course_name_snapshot": "為你寫一首歌仔—戲曲創作與生命故事(二)",
         "credits_snapshot": 3.0,
         "requirement_group": "elective",
+        "requirement_section": "elective",
+        "program_course_name_snapshot": null,
         "notes": "",
         "source_page": 1,
         "evidence_match": false,
@@ -227,6 +263,7 @@
       },
       {
         "course_code": null,
+        "catalog_entry_id": "entry_d01e9a41d2a8f36d",
         "opening_units": [
           "中國文學系"
         ],
@@ -234,6 +271,8 @@
         "course_name_snapshot": "臺灣語言踏查之旅",
         "credits_snapshot": 3.0,
         "requirement_group": "elective",
+        "requirement_section": "elective",
+        "program_course_name_snapshot": null,
         "notes": "",
         "source_page": 1,
         "evidence_match": true,
@@ -242,6 +281,7 @@
       },
       {
         "course_code": null,
+        "catalog_entry_id": "entry_c80bceb9e313290c",
         "opening_units": [
           "中國文學系"
         ],
@@ -249,6 +289,8 @@
         "course_name_snapshot": "臺灣戲曲",
         "credits_snapshot": 3.0,
         "requirement_group": "elective",
+        "requirement_section": "elective",
+        "program_course_name_snapshot": null,
         "notes": "",
         "source_page": 1,
         "evidence_match": true,
@@ -257,6 +299,7 @@
       },
       {
         "course_code": null,
+        "catalog_entry_id": "entry_9eb5a2274baaf41f",
         "opening_units": [
           "中國文學系"
         ],
@@ -264,6 +307,8 @@
         "course_name_snapshot": "早期台語電影與文化",
         "credits_snapshot": 3.0,
         "requirement_group": "elective",
+        "requirement_section": "elective",
+        "program_course_name_snapshot": null,
         "notes": "",
         "source_page": 1,
         "evidence_match": true,

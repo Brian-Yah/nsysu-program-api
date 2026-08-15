@@ -29,7 +29,7 @@
         "last_modified": "Wed, 01 Jul 2026 06:05:31 GMT",
         "content_length": 107302
       },
-      "parser_version": "0.2.1",
+      "parser_version": "0.2.2",
       "extractor_versions": {
         "pypdf": "6.10.0",
         "pdfplumber": "0.11.9"
@@ -47,6 +47,7 @@
     "course_catalog": [
       {
         "course_code": null,
+        "catalog_entry_id": "entry_2b12979429b2d257",
         "opening_units": [
           "海資系"
         ],
@@ -54,6 +55,8 @@
         "course_name_snapshot": "生態基因體學",
         "credits_snapshot": 2.0,
         "requirement_group": "core",
+        "requirement_section": "core",
+        "program_course_name_snapshot": null,
         "notes": "",
         "source_page": 1,
         "evidence_match": true,
@@ -62,6 +65,7 @@
       },
       {
         "course_code": null,
+        "catalog_entry_id": "entry_3256ae9023e4ef4b",
         "opening_units": [
           "海資系"
         ],
@@ -69,6 +73,8 @@
         "course_name_snapshot": "海洋總體基因體學",
         "credits_snapshot": 2.0,
         "requirement_group": "core",
+        "requirement_section": "core",
+        "program_course_name_snapshot": null,
         "notes": "",
         "source_page": 1,
         "evidence_match": true,
@@ -77,6 +83,7 @@
       },
       {
         "course_code": null,
+        "catalog_entry_id": "entry_3c75f5e52afca623",
         "opening_units": [
           "海資系"
         ],
@@ -84,6 +91,8 @@
         "course_name_snapshot": "海洋動物演化學",
         "credits_snapshot": 3.0,
         "requirement_group": "core",
+        "requirement_section": "core",
+        "program_course_name_snapshot": null,
         "notes": "",
         "source_page": 1,
         "evidence_match": true,
@@ -92,6 +101,7 @@
       },
       {
         "course_code": null,
+        "catalog_entry_id": "entry_c3230c183e8b78d5",
         "opening_units": [
           "海資系"
         ],
@@ -99,6 +109,8 @@
         "course_name_snapshot": "遺傳學",
         "credits_snapshot": 2.0,
         "requirement_group": "elective",
+        "requirement_section": "elective",
+        "program_course_name_snapshot": null,
         "notes": "",
         "source_page": 1,
         "evidence_match": true,
@@ -107,6 +119,7 @@
       },
       {
         "course_code": null,
+        "catalog_entry_id": "entry_17f9d82095fc5cf4",
         "opening_units": [
           "博雅向度六"
         ],
@@ -114,6 +127,8 @@
         "course_name_snapshot": "環境變遷與生態保育",
         "credits_snapshot": 2.0,
         "requirement_group": "elective",
+        "requirement_section": "elective",
+        "program_course_name_snapshot": null,
         "notes": "",
         "source_page": 1,
         "evidence_match": true,
@@ -122,6 +137,7 @@
       },
       {
         "course_code": null,
+        "catalog_entry_id": "entry_fe1624ff962fef3b",
         "opening_units": [
           "跨院選修(醫)"
         ],
@@ -129,6 +145,8 @@
         "course_name_snapshot": "演化醫學",
         "credits_snapshot": 2.0,
         "requirement_group": "elective",
+        "requirement_section": "elective",
+        "program_course_name_snapshot": null,
         "notes": "",
         "source_page": 1,
         "evidence_match": true,
@@ -137,6 +155,7 @@
       },
       {
         "course_code": null,
+        "catalog_entry_id": "entry_58f902346640218e",
         "opening_units": [
           "生科系"
         ],
@@ -144,6 +163,8 @@
         "course_name_snapshot": "生物多樣性與保育",
         "credits_snapshot": 2.0,
         "requirement_group": "elective",
+        "requirement_section": "elective",
+        "program_course_name_snapshot": null,
         "notes": "",
         "source_page": 1,
         "evidence_match": true,
@@ -152,6 +173,7 @@
       },
       {
         "course_code": null,
+        "catalog_entry_id": "entry_c112efb280b0c3a3",
         "opening_units": [
           "海科院"
         ],
@@ -159,6 +181,8 @@
         "course_name_snapshot": "海洋基礎科學",
         "credits_snapshot": 2.0,
         "requirement_group": "elective",
+        "requirement_section": "elective",
+        "program_course_name_snapshot": null,
         "notes": "",
         "source_page": 1,
         "evidence_match": true,
@@ -167,6 +191,7 @@
       },
       {
         "course_code": null,
+        "catalog_entry_id": "entry_693c6475833ebd70",
         "opening_units": [
           "海科院"
         ],
@@ -174,6 +199,8 @@
         "course_name_snapshot": "海洋應用科學",
         "credits_snapshot": 2.0,
         "requirement_group": "elective",
+        "requirement_section": "elective",
+        "program_course_name_snapshot": null,
         "notes": "",
         "source_page": 1,
         "evidence_match": true,
@@ -182,6 +209,7 @@
       },
       {
         "course_code": null,
+        "catalog_entry_id": "entry_0010e954080e8750",
         "opening_units": [
           "海資系"
         ],
@@ -189,6 +217,8 @@
         "course_name_snapshot": "分子生態學",
         "credits_snapshot": 3.0,
         "requirement_group": "elective",
+        "requirement_section": "elective",
+        "program_course_name_snapshot": null,
         "notes": "",
         "source_page": 1,
         "evidence_match": true,
@@ -197,6 +227,7 @@
       },
       {
         "course_code": null,
+        "catalog_entry_id": "entry_058e1a40b6315303",
         "opening_units": [
           "博雅向度五"
         ],
@@ -204,6 +235,8 @@
         "course_name_snapshot": "生物多樣性的世界",
         "credits_snapshot": 2.0,
         "requirement_group": "elective",
+        "requirement_section": "elective",
+        "program_course_name_snapshot": null,
         "notes": "",
         "source_page": 1,
         "evidence_match": true,

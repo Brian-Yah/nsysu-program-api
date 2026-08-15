@@ -29,7 +29,7 @@
         "last_modified": "Tue, 24 Dec 2024 07:17:17 GMT",
         "content_length": 177380
       },
-      "parser_version": "0.2.1",
+      "parser_version": "0.2.2",
       "extractor_versions": {
         "pypdf": "6.10.0",
         "pdfplumber": "0.11.9"
@@ -45,6 +45,7 @@
     "course_catalog": [
       {
         "course_code": null,
+        "catalog_entry_id": "entry_69507cb26e50ea49",
         "opening_units": [
           "外文系"
         ],
@@ -52,6 +53,8 @@
         "course_name_snapshot": "歐洲文學:1350-1800",
         "credits_snapshot": 3.0,
         "requirement_group": "unspecified",
+        "requirement_section": "unspecified",
+        "program_course_name_snapshot": null,
         "notes": "歐洲文學課程2選1",
         "source_page": 1,
         "evidence_match": true,
@@ -60,6 +63,7 @@
       },
       {
         "course_code": null,
+        "catalog_entry_id": "entry_33d567be0ef5910e",
         "opening_units": [
           "外文系"
         ],
@@ -67,6 +71,8 @@
         "course_name_snapshot": "歐洲文學:1800以後",
         "credits_snapshot": 3.0,
         "requirement_group": "unspecified",
+        "requirement_section": "unspecified",
+        "program_course_name_snapshot": null,
         "notes": "",
         "source_page": 1,
         "evidence_match": true,
@@ -75,6 +81,7 @@
       },
       {
         "course_code": null,
+        "catalog_entry_id": "entry_07ef23c00fdd1cf8",
         "opening_units": [
           "外文系"
         ],
@@ -82,6 +89,8 @@
         "course_name_snapshot": "英國文學:1660以前",
         "credits_snapshot": 3.0,
         "requirement_group": "unspecified",
+        "requirement_section": "unspecified",
+        "program_course_name_snapshot": null,
         "notes": "英國文學課程4選1",
         "source_page": 1,
         "evidence_match": true,
@@ -90,6 +99,7 @@
       },
       {
         "course_code": null,
+        "catalog_entry_id": "entry_f440c6bab4204aef",
         "opening_units": [
           "外文系"
         ],
@@ -97,6 +107,8 @@
         "course_name_snapshot": "英國文學:1660-1800",
         "credits_snapshot": 3.0,
         "requirement_group": "unspecified",
+        "requirement_section": "unspecified",
+        "program_course_name_snapshot": null,
         "notes": "",
         "source_page": 1,
         "evidence_match": true,
@@ -105,6 +117,7 @@
       },
       {
         "course_code": null,
+        "catalog_entry_id": "entry_7b5325f2599acd6a",
         "opening_units": [
           "外文系"
         ],
@@ -112,6 +125,8 @@
         "course_name_snapshot": "英國文學:1800-1900",
         "credits_snapshot": 3.0,
         "requirement_group": "unspecified",
+        "requirement_section": "unspecified",
+        "program_course_name_snapshot": null,
         "notes": "",
         "source_page": 1,
         "evidence_match": true,
@@ -120,6 +135,7 @@
       },
       {
         "course_code": null,
+        "catalog_entry_id": "entry_4636e8c6e3e68c23",
         "opening_units": [
           "外文系"
         ],
@@ -127,6 +143,8 @@
         "course_name_snapshot": "英國文學:1900以後",
         "credits_snapshot": 3.0,
         "requirement_group": "unspecified",
+        "requirement_section": "unspecified",
+        "program_course_name_snapshot": null,
         "notes": "",
         "source_page": 1,
         "evidence_match": true,
@@ -135,6 +153,7 @@
       },
       {
         "course_code": null,
+        "catalog_entry_id": "entry_b221afd428e7aae7",
         "opening_units": [
           "外文系"
         ],
@@ -142,6 +161,8 @@
         "course_name_snapshot": "美國文學:1865以前",
         "credits_snapshot": 3.0,
         "requirement_group": "unspecified",
+        "requirement_section": "unspecified",
+        "program_course_name_snapshot": null,
         "notes": "美國文學課程2選1",
         "source_page": 1,
         "evidence_match": true,
@@ -150,6 +171,7 @@
       },
       {
         "course_code": null,
+        "catalog_entry_id": "entry_0ca3eb6fca7154a4",
         "opening_units": [
           "外文系"
         ],
@@ -157,6 +179,8 @@
         "course_name_snapshot": "美國文學:1865以後",
         "credits_snapshot": 3.0,
         "requirement_group": "unspecified",
+        "requirement_section": "unspecified",
+        "program_course_name_snapshot": null,
         "notes": "",
         "source_page": 1,
         "evidence_match": true,
@@ -165,6 +189,7 @@
       },
       {
         "course_code": null,
+        "catalog_entry_id": "entry_c6a594f5f68ba423",
         "opening_units": [
           "外文系",
           "西灣學院"
@@ -173,6 +198,8 @@
         "course_name_snapshot": "西洋文學概論 (一)",
         "credits_snapshot": 3.0,
         "requirement_group": "unspecified",
+        "requirement_section": "unspecified",
+        "program_course_name_snapshot": null,
         "notes": "跨院選修",
         "source_page": 1,
         "evidence_match": true,
@@ -181,6 +208,7 @@
       },
       {
         "course_code": null,
+        "catalog_entry_id": "entry_b1b7a96d4a8a37e1",
         "opening_units": [
           "外文系",
           "西灣學院"
@@ -189,6 +217,8 @@
         "course_name_snapshot": "西洋文學概論 (二)",
         "credits_snapshot": 3.0,
         "requirement_group": "unspecified",
+        "requirement_section": "unspecified",
+        "program_course_name_snapshot": null,
         "notes": "跨院選修",
         "source_page": 1,
         "evidence_match": true,
@@ -197,6 +227,7 @@
       },
       {
         "course_code": null,
+        "catalog_entry_id": "entry_4304b2f1825dc7ac",
         "opening_units": [
           "西灣學院"
         ],
@@ -204,6 +235,8 @@
         "course_name_snapshot": "歐美經典短篇小說",
         "credits_snapshot": 3.0,
         "requirement_group": "unspecified",
+        "requirement_section": "unspecified",
+        "program_course_name_snapshot": null,
         "notes": "",
         "source_page": 1,
         "evidence_match": true,
@@ -212,6 +245,7 @@
       },
       {
         "course_code": null,
+        "catalog_entry_id": "entry_7d570d53434058a9",
         "opening_units": [
           "外文系"
         ],
@@ -219,6 +253,8 @@
         "course_name_snapshot": "歐洲文藝復興之歷史與文化",
         "credits_snapshot": 3.0,
         "requirement_group": "unspecified",
+        "requirement_section": "unspecified",
+        "program_course_name_snapshot": null,
         "notes": "跨院選修",
         "source_page": 1,
         "evidence_match": true,
@@ -227,6 +263,7 @@
       },
       {
         "course_code": null,
+        "catalog_entry_id": "entry_c6a438532e685c4b",
         "opening_units": [
           "外文系"
         ],
@@ -234,6 +271,8 @@
         "course_name_snapshot": "啟蒙運動:思想與理想",
         "credits_snapshot": 3.0,
         "requirement_group": "unspecified",
+        "requirement_section": "unspecified",
+        "program_course_name_snapshot": null,
         "notes": "",
         "source_page": 1,
         "evidence_match": true,
@@ -242,6 +281,7 @@
       },
       {
         "course_code": null,
+        "catalog_entry_id": "entry_2ed070f0d79e3497",
         "opening_units": [
           "外文系",
           "西灣學院"
@@ -250,6 +290,8 @@
         "course_name_snapshot": "莎劇電影與劇場",
         "credits_snapshot": 3.0,
         "requirement_group": "unspecified",
+        "requirement_section": "unspecified",
+        "program_course_name_snapshot": null,
         "notes": "跨院選修",
         "source_page": 1,
         "evidence_match": true,
@@ -258,6 +300,7 @@
       },
       {
         "course_code": null,
+        "catalog_entry_id": "entry_e413642b7e075ecf",
         "opening_units": [
           "外文系",
           "西灣學院"
@@ -266,6 +309,8 @@
         "course_name_snapshot": "英美戲劇(一)",
         "credits_snapshot": 3.0,
         "requirement_group": "unspecified",
+        "requirement_section": "unspecified",
+        "program_course_name_snapshot": null,
         "notes": "跨院選修",
         "source_page": 1,
         "evidence_match": true,
@@ -274,6 +319,7 @@
       },
       {
         "course_code": null,
+        "catalog_entry_id": "entry_6c6264c067397ee9",
         "opening_units": [
           "外文系",
           "西灣學院"
@@ -282,6 +328,8 @@
         "course_name_snapshot": "英美戲劇(二)",
         "credits_snapshot": 3.0,
         "requirement_group": "unspecified",
+        "requirement_section": "unspecified",
+        "program_course_name_snapshot": null,
         "notes": "跨院選修",
         "source_page": 1,
         "evidence_match": true,
@@ -290,6 +338,7 @@
       },
       {
         "course_code": null,
+        "catalog_entry_id": "entry_ca24f4f49bf721c5",
         "opening_units": [
           "外文系",
           "西灣學院"
@@ -298,6 +347,8 @@
         "course_name_snapshot": "百老匯表演與戲劇藝術(一)",
         "credits_snapshot": 3.0,
         "requirement_group": "unspecified",
+        "requirement_section": "unspecified",
+        "program_course_name_snapshot": null,
         "notes": "跨院選修",
         "source_page": 1,
         "evidence_match": true,
@@ -306,6 +357,7 @@
       },
       {
         "course_code": null,
+        "catalog_entry_id": "entry_1b0cad1b4c72819a",
         "opening_units": [
           "外文系",
           "西灣學院"
@@ -314,6 +366,8 @@
         "course_name_snapshot": "百老匯表演與戲劇藝術(二)",
         "credits_snapshot": 3.0,
         "requirement_group": "unspecified",
+        "requirement_section": "unspecified",
+        "program_course_name_snapshot": null,
         "notes": "跨院選修",
         "source_page": 1,
         "evidence_match": true,
@@ -322,6 +376,7 @@
       },
       {
         "course_code": null,
+        "catalog_entry_id": "entry_68ff9aa2116fc805",
         "opening_units": [
           "外文系",
           "西灣學院"
@@ -330,6 +385,8 @@
         "course_name_snapshot": "莎士比亞戲劇選讀",
         "credits_snapshot": 3.0,
         "requirement_group": "unspecified",
+        "requirement_section": "unspecified",
+        "program_course_name_snapshot": null,
         "notes": "跨院選修",
         "source_page": 1,
         "evidence_match": true,
@@ -338,6 +395,7 @@
       },
       {
         "course_code": null,
+        "catalog_entry_id": "entry_99c4d8568e585e9b",
         "opening_units": [
           "外文系",
           "西灣學院"
@@ -346,6 +404,8 @@
         "course_name_snapshot": "英美小說(一)",
         "credits_snapshot": 3.0,
         "requirement_group": "unspecified",
+        "requirement_section": "unspecified",
+        "program_course_name_snapshot": null,
         "notes": "跨院選修",
         "source_page": 1,
         "evidence_match": true,
@@ -354,6 +414,7 @@
       },
       {
         "course_code": null,
+        "catalog_entry_id": "entry_68101bbf7ab58437",
         "opening_units": [
           "外文系",
           "西灣學院"
@@ -362,6 +423,8 @@
         "course_name_snapshot": "英美小說(二)",
         "credits_snapshot": 3.0,
         "requirement_group": "unspecified",
+        "requirement_section": "unspecified",
+        "program_course_name_snapshot": null,
         "notes": "跨院選修",
         "source_page": 1,
         "evidence_match": true,
@@ -370,6 +433,7 @@
       },
       {
         "course_code": null,
+        "catalog_entry_id": "entry_1ce31e7a164ff2b2",
         "opening_units": [
           "外文系"
         ],
@@ -377,6 +441,8 @@
         "course_name_snapshot": "小說專題:短篇小說",
         "credits_snapshot": 3.0,
         "requirement_group": "unspecified",
+        "requirement_section": "unspecified",
+        "program_course_name_snapshot": null,
         "notes": "",
         "source_page": 1,
         "evidence_match": true,
@@ -385,6 +451,7 @@
       },
       {
         "course_code": null,
+        "catalog_entry_id": "entry_623a8b335e9feecf",
         "opening_units": [
           "外文系"
         ],
@@ -392,6 +459,8 @@
         "course_name_snapshot": "現代英美短篇故事",
         "credits_snapshot": 3.0,
         "requirement_group": "unspecified",
+        "requirement_section": "unspecified",
+        "program_course_name_snapshot": null,
         "notes": "",
         "source_page": 1,
         "evidence_match": true,
@@ -400,6 +469,7 @@
       },
       {
         "course_code": null,
+        "catalog_entry_id": "entry_d0396d57ae6c3786",
         "opening_units": [
           "外文系"
         ],
@@ -407,6 +477,8 @@
         "course_name_snapshot": "新英文文學選讀",
         "credits_snapshot": 3.0,
         "requirement_group": "unspecified",
+        "requirement_section": "unspecified",
+        "program_course_name_snapshot": null,
         "notes": "",
         "source_page": 1,
         "evidence_match": true,
@@ -415,6 +487,7 @@
       },
       {
         "course_code": null,
+        "catalog_entry_id": "entry_fe399c78357bf2b8",
         "opening_units": [
           "外文系",
           "西灣學院"
@@ -423,6 +496,8 @@
         "course_name_snapshot": "英美詩歌(一)",
         "credits_snapshot": 3.0,
         "requirement_group": "unspecified",
+        "requirement_section": "unspecified",
+        "program_course_name_snapshot": null,
         "notes": "跨院選修",
         "source_page": 1,
         "evidence_match": true,
@@ -431,6 +506,7 @@
       },
       {
         "course_code": null,
+        "catalog_entry_id": "entry_ab09481d542e71b6",
         "opening_units": [
           "外文系",
           "西灣學院"
@@ -439,6 +515,8 @@
         "course_name_snapshot": "英美詩歌(二)",
         "credits_snapshot": 3.0,
         "requirement_group": "unspecified",
+        "requirement_section": "unspecified",
+        "program_course_name_snapshot": null,
         "notes": "跨院選修",
         "source_page": 1,
         "evidence_match": true,
@@ -447,6 +525,7 @@
       },
       {
         "course_code": null,
+        "catalog_entry_id": "entry_3570ed9b81acfa8a",
         "opening_units": [
           "外文系"
         ],
@@ -454,6 +533,8 @@
         "course_name_snapshot": "維多利亞時代女性詩人",
         "credits_snapshot": 3.0,
         "requirement_group": "unspecified",
+        "requirement_section": "unspecified",
+        "program_course_name_snapshot": null,
         "notes": "",
         "source_page": 1,
         "evidence_match": true,
@@ -462,6 +543,7 @@
       },
       {
         "course_code": null,
+        "catalog_entry_id": "entry_991e20555c8d203e",
         "opening_units": [
           "外文系",
           "西灣學院"
@@ -470,6 +552,8 @@
         "course_name_snapshot": "精神分析批評",
         "credits_snapshot": 3.0,
         "requirement_group": "unspecified",
+        "requirement_section": "unspecified",
+        "program_course_name_snapshot": null,
         "notes": "跨院選修",
         "source_page": 1,
         "evidence_match": true,
@@ -478,6 +562,7 @@
       },
       {
         "course_code": null,
+        "catalog_entry_id": "entry_ef4935cbdd80543c",
         "opening_units": [
           "外文系"
         ],
@@ -485,6 +570,8 @@
         "course_name_snapshot": "生命故事敘事",
         "credits_snapshot": 3.0,
         "requirement_group": "unspecified",
+        "requirement_section": "unspecified",
+        "program_course_name_snapshot": null,
         "notes": "",
         "source_page": 1,
         "evidence_match": true,
@@ -493,6 +580,7 @@
       },
       {
         "course_code": null,
+        "catalog_entry_id": "entry_3e05ea4368db89bd",
         "opening_units": [
           "外文系"
         ],
@@ -500,6 +588,8 @@
         "course_name_snapshot": "當代文學理論",
         "credits_snapshot": 3.0,
         "requirement_group": "unspecified",
+        "requirement_section": "unspecified",
+        "program_course_name_snapshot": null,
         "notes": "",
         "source_page": 2,
         "evidence_match": true,
@@ -508,6 +598,7 @@
       },
       {
         "course_code": null,
+        "catalog_entry_id": "entry_dad337a2aae36159",
         "opening_units": [
           "外文系",
           "西灣學院"
@@ -516,6 +607,8 @@
         "course_name_snapshot": "西洋書法",
         "credits_snapshot": 3.0,
         "requirement_group": "unspecified",
+        "requirement_section": "unspecified",
+        "program_course_name_snapshot": null,
         "notes": "跨院選修",
         "source_page": 2,
         "evidence_match": true,
@@ -524,6 +617,7 @@
       },
       {
         "course_code": null,
+        "catalog_entry_id": "entry_d6817965a4ab973d",
         "opening_units": [
           "外文系"
         ],
@@ -531,6 +625,8 @@
         "course_name_snapshot": "歐洲電影",
         "credits_snapshot": 3.0,
         "requirement_group": "unspecified",
+        "requirement_section": "unspecified",
+        "program_course_name_snapshot": null,
         "notes": "",
         "source_page": 2,
         "evidence_match": true,
@@ -539,6 +635,7 @@
       },
       {
         "course_code": null,
+        "catalog_entry_id": "entry_a51eafc372091737",
         "opening_units": [
           "外文系",
           "西灣學院"
@@ -547,6 +644,8 @@
         "course_name_snapshot": "當代電影藝術",
         "credits_snapshot": 3.0,
         "requirement_group": "unspecified",
+        "requirement_section": "unspecified",
+        "program_course_name_snapshot": null,
         "notes": "跨院選修",
         "source_page": 2,
         "evidence_match": true,
@@ -555,6 +654,7 @@
       },
       {
         "course_code": null,
+        "catalog_entry_id": "entry_7be2d5e49cf7e48d",
         "opening_units": [
           "外文系",
           "西灣學院"
@@ -563,6 +663,8 @@
         "course_name_snapshot": "歌舞電影與戲劇",
         "credits_snapshot": 3.0,
         "requirement_group": "unspecified",
+        "requirement_section": "unspecified",
+        "program_course_name_snapshot": null,
         "notes": "跨院選修",
         "source_page": 2,
         "evidence_match": true,
@@ -571,6 +673,7 @@
       },
       {
         "course_code": null,
+        "catalog_entry_id": "entry_e3c624c30ac0fc6f",
         "opening_units": [
           "外文系"
         ],
@@ -578,6 +681,8 @@
         "course_name_snapshot": "電影與文學賞析",
         "credits_snapshot": 3.0,
         "requirement_group": "unspecified",
+        "requirement_section": "unspecified",
+        "program_course_name_snapshot": null,
         "notes": "",
         "source_page": 2,
         "evidence_match": true,
@@ -586,6 +691,7 @@
       },
       {
         "course_code": null,
+        "catalog_entry_id": "entry_965dd2d00483a3ce",
         "opening_units": [
           "外文系"
         ],
@@ -593,6 +699,8 @@
         "course_name_snapshot": "英國浪漫主義與現代性:1789-1840",
         "credits_snapshot": 3.0,
         "requirement_group": "unspecified",
+        "requirement_section": "unspecified",
+        "program_course_name_snapshot": null,
         "notes": "跨院選修",
         "source_page": 2,
         "evidence_match": false,
@@ -601,6 +709,7 @@
       },
       {
         "course_code": null,
+        "catalog_entry_id": "entry_4822c1b903c1cde6",
         "opening_units": [
           "外文系"
         ],
@@ -608,6 +717,8 @@
         "course_name_snapshot": "當代愛爾蘭小說",
         "credits_snapshot": 3.0,
         "requirement_group": "unspecified",
+        "requirement_section": "unspecified",
+        "program_course_name_snapshot": null,
         "notes": "",
         "source_page": 2,
         "evidence_match": true,
@@ -616,6 +727,7 @@
       },
       {
         "course_code": null,
+        "catalog_entry_id": "entry_3bd153080eb782d3",
         "opening_units": [
           "外文系"
         ],
@@ -623,6 +735,8 @@
         "course_name_snapshot": "馬基維利的文學與政治觀",
         "credits_snapshot": 3.0,
         "requirement_group": "unspecified",
+        "requirement_section": "unspecified",
+        "program_course_name_snapshot": null,
         "notes": "",
         "source_page": 2,
         "evidence_match": true,
@@ -631,6 +745,7 @@
       },
       {
         "course_code": null,
+        "catalog_entry_id": "entry_b357ebab6d94d730",
         "opening_units": [
           "外文系"
         ],
@@ -638,6 +753,8 @@
         "course_name_snapshot": "圖像敘事",
         "credits_snapshot": 3.0,
         "requirement_group": "unspecified",
+        "requirement_section": "unspecified",
+        "program_course_name_snapshot": null,
         "notes": "",
         "source_page": 2,
         "evidence_match": true,
@@ -646,6 +763,7 @@
       },
       {
         "course_code": null,
+        "catalog_entry_id": "entry_2256817e82f4351b",
         "opening_units": [
           "外文系"
         ],
@@ -653,6 +771,8 @@
         "course_name_snapshot": "小說與藝術",
         "credits_snapshot": 3.0,
         "requirement_group": "unspecified",
+        "requirement_section": "unspecified",
+        "program_course_name_snapshot": null,
         "notes": "",
         "source_page": 2,
         "evidence_match": true,
@@ -661,6 +781,7 @@
       },
       {
         "course_code": null,
+        "catalog_entry_id": "entry_981e5aa7c2aad366",
         "opening_units": [
           "外文系"
         ],
@@ -668,6 +789,8 @@
         "course_name_snapshot": "飲食文學",
         "credits_snapshot": 3.0,
         "requirement_group": "unspecified",
+        "requirement_section": "unspecified",
+        "program_course_name_snapshot": null,
         "notes": "",
         "source_page": 2,
         "evidence_match": true,
@@ -676,6 +799,7 @@
       },
       {
         "course_code": null,
+        "catalog_entry_id": "entry_251d022473f6e69d",
         "opening_units": [
           "西灣學院"
         ],
@@ -683,6 +807,8 @@
         "course_name_snapshot": "西洋文化典故",
         "credits_snapshot": 3.0,
         "requirement_group": "unspecified",
+        "requirement_section": "unspecified",
+        "program_course_name_snapshot": null,
         "notes": "",
         "source_page": 2,
         "evidence_match": true,
@@ -691,6 +817,7 @@
       },
       {
         "course_code": null,
+        "catalog_entry_id": "entry_505af34e8a7047e4",
         "opening_units": [
           "外文系",
           "西灣學院"
@@ -699,6 +826,8 @@
         "course_name_snapshot": "法文(一)",
         "credits_snapshot": 3.0,
         "requirement_group": "unspecified",
+        "requirement_section": "unspecified",
+        "program_course_name_snapshot": null,
         "notes": "跨院選修",
         "source_page": 2,
         "evidence_match": true,
@@ -707,6 +836,7 @@
       },
       {
         "course_code": null,
+        "catalog_entry_id": "entry_02d2b3fd958bcb38",
         "opening_units": [
           "外文系",
           "西灣學院"
@@ -715,6 +845,8 @@
         "course_name_snapshot": "法文(二)",
         "credits_snapshot": 3.0,
         "requirement_group": "unspecified",
+        "requirement_section": "unspecified",
+        "program_course_name_snapshot": null,
         "notes": "跨院選修",
         "source_page": 2,
         "evidence_match": true,
@@ -723,6 +855,7 @@
       },
       {
         "course_code": null,
+        "catalog_entry_id": "entry_94b8a7ca9d54fd87",
         "opening_units": [
           "外文系"
         ],
@@ -730,6 +863,8 @@
         "course_name_snapshot": "法文(三)",
         "credits_snapshot": 3.0,
         "requirement_group": "unspecified",
+        "requirement_section": "unspecified",
+        "program_course_name_snapshot": null,
         "notes": "",
         "source_page": 2,
         "evidence_match": true,
@@ -738,6 +873,7 @@
       },
       {
         "course_code": null,
+        "catalog_entry_id": "entry_4669fb01f339f362",
         "opening_units": [
           "外文系"
         ],
@@ -745,6 +881,8 @@
         "course_name_snapshot": "法文(四)",
         "credits_snapshot": 3.0,
         "requirement_group": "unspecified",
+        "requirement_section": "unspecified",
+        "program_course_name_snapshot": null,
         "notes": "",
         "source_page": 2,
         "evidence_match": true,
@@ -753,6 +891,7 @@
       },
       {
         "course_code": null,
+        "catalog_entry_id": "entry_e29020b7de6484ee",
         "opening_units": [
           "外文系"
         ],
@@ -760,6 +899,8 @@
         "course_name_snapshot": "實用法文",
         "credits_snapshot": 3.0,
         "requirement_group": "unspecified",
+        "requirement_section": "unspecified",
+        "program_course_name_snapshot": null,
         "notes": "",
         "source_page": 2,
         "evidence_match": true,
@@ -768,6 +909,7 @@
       },
       {
         "course_code": null,
+        "catalog_entry_id": "entry_89713764d5bb8a5c",
         "opening_units": [
           "外文系"
         ],
@@ -775,6 +917,8 @@
         "course_name_snapshot": "法文溝通",
         "credits_snapshot": 3.0,
         "requirement_group": "unspecified",
+        "requirement_section": "unspecified",
+        "program_course_name_snapshot": null,
         "notes": "",
         "source_page": 2,
         "evidence_match": true,
@@ -783,6 +927,7 @@
       },
       {
         "course_code": null,
+        "catalog_entry_id": "entry_3aa23b16b3c9b8fb",
         "opening_units": [
           "外文系",
           "西灣學院"
@@ -791,6 +936,8 @@
         "course_name_snapshot": "德文(一)",
         "credits_snapshot": 3.0,
         "requirement_group": "unspecified",
+        "requirement_section": "unspecified",
+        "program_course_name_snapshot": null,
         "notes": "跨院選修",
         "source_page": 2,
         "evidence_match": true,
@@ -799,6 +946,7 @@
       },
       {
         "course_code": null,
+        "catalog_entry_id": "entry_e11c8ef3d429e82f",
         "opening_units": [
           "外文系",
           "西灣學院"
@@ -807,6 +955,8 @@
         "course_name_snapshot": "德文(二)",
         "credits_snapshot": 3.0,
         "requirement_group": "unspecified",
+        "requirement_section": "unspecified",
+        "program_course_name_snapshot": null,
         "notes": "跨院選修",
         "source_page": 2,
         "evidence_match": true,
@@ -815,6 +965,7 @@
       },
       {
         "course_code": null,
+        "catalog_entry_id": "entry_cc244c7db5f16315",
         "opening_units": [
           "外文系"
         ],
@@ -822,6 +973,8 @@
         "course_name_snapshot": "德文(三)",
         "credits_snapshot": 3.0,
         "requirement_group": "unspecified",
+        "requirement_section": "unspecified",
+        "program_course_name_snapshot": null,
         "notes": "",
         "source_page": 2,
         "evidence_match": true,
@@ -830,6 +983,7 @@
       },
       {
         "course_code": null,
+        "catalog_entry_id": "entry_03634e24cbb9edfe",
         "opening_units": [
           "外文系"
         ],
@@ -837,6 +991,8 @@
         "course_name_snapshot": "德文(四)",
         "credits_snapshot": 3.0,
         "requirement_group": "unspecified",
+        "requirement_section": "unspecified",
+        "program_course_name_snapshot": null,
         "notes": "",
         "source_page": 2,
         "evidence_match": true,
@@ -845,6 +1001,7 @@
       },
       {
         "course_code": null,
+        "catalog_entry_id": "entry_733f90484da32d35",
         "opening_units": [
           "外文系"
         ],
@@ -852,6 +1009,8 @@
         "course_name_snapshot": "實用德文",
         "credits_snapshot": 3.0,
         "requirement_group": "unspecified",
+        "requirement_section": "unspecified",
+        "program_course_name_snapshot": null,
         "notes": "",
         "source_page": 2,
         "evidence_match": true,
@@ -860,6 +1019,7 @@
       },
       {
         "course_code": null,
+        "catalog_entry_id": "entry_52068d0c185bf588",
         "opening_units": [
           "外文系"
         ],
@@ -867,6 +1027,8 @@
         "course_name_snapshot": "德文溝通",
         "credits_snapshot": 3.0,
         "requirement_group": "unspecified",
+        "requirement_section": "unspecified",
+        "program_course_name_snapshot": null,
         "notes": "",
         "source_page": 2,
         "evidence_match": true,
@@ -875,6 +1037,7 @@
       },
       {
         "course_code": null,
+        "catalog_entry_id": "entry_49a5097acb483f59",
         "opening_units": [
           "外文系",
           "西灣學院"
@@ -883,6 +1046,8 @@
         "course_name_snapshot": "西班牙文(一)",
         "credits_snapshot": 3.0,
         "requirement_group": "unspecified",
+        "requirement_section": "unspecified",
+        "program_course_name_snapshot": null,
         "notes": "跨院選修",
         "source_page": 2,
         "evidence_match": true,
@@ -891,6 +1056,7 @@
       },
       {
         "course_code": null,
+        "catalog_entry_id": "entry_4159dac7598c1f2a",
         "opening_units": [
           "外文系",
           "西灣學院"
@@ -899,6 +1065,8 @@
         "course_name_snapshot": "西班牙文(二)",
         "credits_snapshot": 3.0,
         "requirement_group": "unspecified",
+        "requirement_section": "unspecified",
+        "program_course_name_snapshot": null,
         "notes": "跨院選修",
         "source_page": 2,
         "evidence_match": true,
@@ -907,6 +1075,7 @@
       },
       {
         "course_code": null,
+        "catalog_entry_id": "entry_66ac3ad74b427a7e",
         "opening_units": [
           "外文系"
         ],
@@ -914,6 +1083,8 @@
         "course_name_snapshot": "西班牙文(三)",
         "credits_snapshot": 3.0,
         "requirement_group": "unspecified",
+        "requirement_section": "unspecified",
+        "program_course_name_snapshot": null,
         "notes": "",
         "source_page": 2,
         "evidence_match": true,
@@ -922,6 +1093,7 @@
       },
       {
         "course_code": null,
+        "catalog_entry_id": "entry_1de781bde0f92b95",
         "opening_units": [
           "外文系"
         ],
@@ -929,6 +1101,8 @@
         "course_name_snapshot": "西班牙文(四)",
         "credits_snapshot": 3.0,
         "requirement_group": "unspecified",
+        "requirement_section": "unspecified",
+        "program_course_name_snapshot": null,
         "notes": "",
         "source_page": 2,
         "evidence_match": true,
@@ -937,6 +1111,7 @@
       },
       {
         "course_code": null,
+        "catalog_entry_id": "entry_797e755f3ad7c819",
         "opening_units": [
           "外文系"
         ],
@@ -944,6 +1119,8 @@
         "course_name_snapshot": "實用西班牙文",
         "credits_snapshot": 3.0,
         "requirement_group": "unspecified",
+        "requirement_section": "unspecified",
+        "program_course_name_snapshot": null,
         "notes": "",
         "source_page": 2,
         "evidence_match": true,
@@ -952,6 +1129,7 @@
       },
       {
         "course_code": null,
+        "catalog_entry_id": "entry_5548813bb380e673",
         "opening_units": [
           "外文系"
         ],
@@ -959,6 +1137,8 @@
         "course_name_snapshot": "西班牙文溝通",
         "credits_snapshot": 3.0,
         "requirement_group": "unspecified",
+        "requirement_section": "unspecified",
+        "program_course_name_snapshot": null,
         "notes": "",
         "source_page": 2,
         "evidence_match": true,
@@ -967,6 +1147,7 @@
       },
       {
         "course_code": null,
+        "catalog_entry_id": "entry_f47367ee10c7be9e",
         "opening_units": [
           "外文系",
           "西灣學院"
@@ -975,6 +1156,8 @@
         "course_name_snapshot": "俄文(一)",
         "credits_snapshot": 3.0,
         "requirement_group": "unspecified",
+        "requirement_section": "unspecified",
+        "program_course_name_snapshot": null,
         "notes": "跨院選修",
         "source_page": 2,
         "evidence_match": true,
@@ -983,6 +1166,7 @@
       },
       {
         "course_code": null,
+        "catalog_entry_id": "entry_2b69977e5503df70",
         "opening_units": [
           "外文系",
           "西灣學院"
@@ -991,6 +1175,8 @@
         "course_name_snapshot": "俄文(二)",
         "credits_snapshot": 3.0,
         "requirement_group": "unspecified",
+        "requirement_section": "unspecified",
+        "program_course_name_snapshot": null,
         "notes": "跨院選修",
         "source_page": 2,
         "evidence_match": true,
@@ -999,6 +1185,7 @@
       },
       {
         "course_code": null,
+        "catalog_entry_id": "entry_99a91df3a5c433c1",
         "opening_units": [
           "外文系"
         ],
@@ -1006,6 +1193,8 @@
         "course_name_snapshot": "俄文(三)",
         "credits_snapshot": 3.0,
         "requirement_group": "unspecified",
+        "requirement_section": "unspecified",
+        "program_course_name_snapshot": null,
         "notes": "",
         "source_page": 2,
         "evidence_match": true,
@@ -1014,6 +1203,7 @@
       },
       {
         "course_code": null,
+        "catalog_entry_id": "entry_6bdbf503a3adf089",
         "opening_units": [
           "外文系"
         ],
@@ -1021,6 +1211,8 @@
         "course_name_snapshot": "俄文(四)",
         "credits_snapshot": 3.0,
         "requirement_group": "unspecified",
+        "requirement_section": "unspecified",
+        "program_course_name_snapshot": null,
         "notes": "",
         "source_page": 2,
         "evidence_match": true,
@@ -1029,6 +1221,7 @@
       },
       {
         "course_code": null,
+        "catalog_entry_id": "entry_16afb154b8ce2279",
         "opening_units": [
           "外文系"
         ],
@@ -1036,6 +1229,8 @@
         "course_name_snapshot": "實用俄文",
         "credits_snapshot": 3.0,
         "requirement_group": "unspecified",
+        "requirement_section": "unspecified",
+        "program_course_name_snapshot": null,
         "notes": "",
         "source_page": 2,
         "evidence_match": true,
@@ -1044,6 +1239,7 @@
       },
       {
         "course_code": null,
+        "catalog_entry_id": "entry_abfb368f7ec3c2b5",
         "opening_units": [
           "外文系"
         ],
@@ -1051,6 +1247,8 @@
         "course_name_snapshot": "俄文溝通",
         "credits_snapshot": 3.0,
         "requirement_group": "unspecified",
+        "requirement_section": "unspecified",
+        "program_course_name_snapshot": null,
         "notes": "",
         "source_page": 2,
         "evidence_match": true,

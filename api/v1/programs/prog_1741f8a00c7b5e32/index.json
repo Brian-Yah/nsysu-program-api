@@ -29,7 +29,7 @@
         "last_modified": "Wed, 01 Jul 2026 06:09:47 GMT",
         "content_length": 114819
       },
-      "parser_version": "0.2.1",
+      "parser_version": "0.2.2",
       "extractor_versions": {
         "pypdf": "6.10.0",
         "pdfplumber": "0.11.9"
@@ -47,6 +47,7 @@
     "course_catalog": [
       {
         "course_code": null,
+        "catalog_entry_id": "entry_809be8b7be2aad6e",
         "opening_units": [
           "藝管所"
         ],
@@ -54,6 +55,8 @@
         "course_name_snapshot": "藝術策展實務",
         "credits_snapshot": 3.0,
         "requirement_group": "core",
+        "requirement_section": "core",
+        "program_course_name_snapshot": null,
         "notes": "",
         "source_page": 1,
         "evidence_match": true,
@@ -62,6 +65,7 @@
       },
       {
         "course_code": null,
+        "catalog_entry_id": "entry_d5c3973087598167",
         "opening_units": [
           "藝管所"
         ],
@@ -69,6 +73,8 @@
         "course_name_snapshot": "策略寫作",
         "credits_snapshot": 3.0,
         "requirement_group": "core",
+        "requirement_section": "core",
+        "program_course_name_snapshot": null,
         "notes": "",
         "source_page": 1,
         "evidence_match": true,
@@ -77,6 +83,7 @@
       },
       {
         "course_code": null,
+        "catalog_entry_id": "entry_aebc6eb932c957f8",
         "opening_units": [
           "藝管所"
         ],
@@ -84,6 +91,8 @@
         "course_name_snapshot": "藝術傳播與媒體應用",
         "credits_snapshot": 3.0,
         "requirement_group": "core",
+        "requirement_section": "core",
+        "program_course_name_snapshot": null,
         "notes": "",
         "source_page": 1,
         "evidence_match": true,
@@ -92,6 +101,7 @@
       },
       {
         "course_code": null,
+        "catalog_entry_id": "entry_081792c3ee795bb3",
         "opening_units": [
           "藝管所"
         ],
@@ -99,6 +109,8 @@
         "course_name_snapshot": "公共藝術",
         "credits_snapshot": 3.0,
         "requirement_group": "core",
+        "requirement_section": "core",
+        "program_course_name_snapshot": null,
         "notes": "",
         "source_page": 1,
         "evidence_match": true,
@@ -107,6 +119,7 @@
       },
       {
         "course_code": null,
+        "catalog_entry_id": "entry_e4ea2bf516b1f9d5",
         "opening_units": [
           "藝管所"
         ],
@@ -114,6 +127,8 @@
         "course_name_snapshot": "美感趨勢分析",
         "credits_snapshot": 3.0,
         "requirement_group": "elective",
+        "requirement_section": "elective",
+        "program_course_name_snapshot": null,
         "notes": "",
         "source_page": 1,
         "evidence_match": true,
@@ -122,6 +137,7 @@
       },
       {
         "course_code": null,
+        "catalog_entry_id": "entry_1db11efd031cf58e",
         "opening_units": [
           "藝管所"
         ],
@@ -129,6 +145,8 @@
         "course_name_snapshot": "博物館管理",
         "credits_snapshot": 3.0,
         "requirement_group": "elective",
+        "requirement_section": "elective",
+        "program_course_name_snapshot": null,
         "notes": "",
         "source_page": 1,
         "evidence_match": true,
@@ -137,6 +155,7 @@
       },
       {
         "course_code": null,
+        "catalog_entry_id": "entry_0ba8da3adab6e202",
         "opening_units": [
           "藝管所"
         ],
@@ -144,6 +163,8 @@
         "course_name_snapshot": "展演藝術募款",
         "credits_snapshot": 3.0,
         "requirement_group": "elective",
+        "requirement_section": "elective",
+        "program_course_name_snapshot": null,
         "notes": "",
         "source_page": 1,
         "evidence_match": true,
@@ -152,6 +173,7 @@
       },
       {
         "course_code": null,
+        "catalog_entry_id": "entry_177192f73ac571b0",
         "opening_units": [
           "藝管所"
         ],
@@ -159,6 +181,8 @@
         "course_name_snapshot": "當代藝術史",
         "credits_snapshot": 3.0,
         "requirement_group": "elective",
+        "requirement_section": "elective",
+        "program_course_name_snapshot": null,
         "notes": "",
         "source_page": 1,
         "evidence_match": true,
@@ -167,6 +191,7 @@
       },
       {
         "course_code": null,
+        "catalog_entry_id": "entry_3dac79c7f10d6006",
         "opening_units": [
           "藝管所"
         ],
@@ -174,6 +199,8 @@
         "course_name_snapshot": "文化政策",
         "credits_snapshot": 3.0,
         "requirement_group": "elective",
+        "requirement_section": "elective",
+        "program_course_name_snapshot": null,
         "notes": "英語授課",
         "source_page": 1,
         "evidence_match": true,
@@ -182,6 +209,7 @@
       },
       {
         "course_code": null,
+        "catalog_entry_id": "entry_351cb44f0204e8b0",
         "opening_units": [
           "藝管所"
         ],
@@ -189,6 +217,8 @@
         "course_name_snapshot": "視覺藝術經紀",
         "credits_snapshot": 3.0,
         "requirement_group": "elective",
+        "requirement_section": "elective",
+        "program_course_name_snapshot": null,
         "notes": "",
         "source_page": 1,
         "evidence_match": true,
@@ -197,6 +227,7 @@
       },
       {
         "course_code": null,
+        "catalog_entry_id": "entry_1aba8dd579ef5bfc",
         "opening_units": [
           "資管碩"
         ],
@@ -204,6 +235,8 @@
         "course_name_snapshot": "電子商務",
         "credits_snapshot": 3.0,
         "requirement_group": "elective",
+        "requirement_section": "elective",
+        "program_course_name_snapshot": null,
         "notes": "",
         "source_page": 1,
         "evidence_match": true,
@@ -212,6 +245,7 @@
       },
       {
         "course_code": null,
+        "catalog_entry_id": "entry_cc564898287d087f",
         "opening_units": [
           "社會系"
         ],
@@ -219,6 +253,8 @@
         "course_name_snapshot": "博物館社會學",
         "credits_snapshot": 3.0,
         "requirement_group": "elective",
+        "requirement_section": "elective",
+        "program_course_name_snapshot": null,
         "notes": "",
         "source_page": 1,
         "evidence_match": true,
@@ -227,6 +263,7 @@
       },
       {
         "course_code": null,
+        "catalog_entry_id": "entry_dcfca06c8fb645c5",
         "opening_units": [
           "人科學程"
         ],
@@ -234,6 +271,8 @@
         "course_name_snapshot": "文化人類學",
         "credits_snapshot": 3.0,
         "requirement_group": "elective",
+        "requirement_section": "elective",
+        "program_course_name_snapshot": null,
         "notes": "",
         "source_page": 1,
         "evidence_match": true,
@@ -242,6 +281,7 @@
       },
       {
         "course_code": null,
+        "catalog_entry_id": "entry_b59f3edfb2f9a8fa",
         "opening_units": [
           "人科學程"
         ],
@@ -249,6 +289,8 @@
         "course_name_snapshot": "創意街區發展與設計思考",
         "credits_snapshot": 3.0,
         "requirement_group": "elective",
+        "requirement_section": "elective",
+        "program_course_name_snapshot": null,
         "notes": "",
         "source_page": 1,
         "evidence_match": true,
@@ -257,6 +299,7 @@
       },
       {
         "course_code": null,
+        "catalog_entry_id": "entry_298cbbc43cc93bc8",
         "opening_units": [
           "人科學程"
         ],
@@ -264,6 +307,8 @@
         "course_name_snapshot": "創意街區發展實務與藝術管理",
         "credits_snapshot": 3.0,
         "requirement_group": "elective",
+        "requirement_section": "elective",
+        "program_course_name_snapshot": null,
         "notes": "",
         "source_page": 1,
         "evidence_match": true,

@@ -23,7 +23,7 @@
       "last_modified": "Wed, 20 Dec 2023 02:19:56 GMT",
       "content_length": 219953
     },
-    "parser_version": "0.2.1",
+    "parser_version": "0.2.2",
     "extractor_versions": {
       "pypdf": "6.10.0",
       "pdfplumber": "0.11.9"
@@ -41,6 +41,7 @@
   "course_catalog": [
     {
       "course_code": null,
+      "catalog_entry_id": "entry_e7263cba1d6f48ba",
       "opening_units": [
         "應數系"
       ],
@@ -48,6 +49,8 @@
       "course_name_snapshot": "線性代數(一)",
       "credits_snapshot": 3.0,
       "requirement_group": "core",
+      "requirement_section": "core",
+      "program_course_name_snapshot": null,
       "notes": "",
       "source_page": 1,
       "evidence_match": true,
@@ -56,6 +59,7 @@
     },
     {
       "course_code": null,
+      "catalog_entry_id": "entry_24226e12998580f4",
       "opening_units": [
         "校內各系"
       ],
@@ -63,6 +67,8 @@
       "course_name_snapshot": "微積分(一)",
       "credits_snapshot": 3.0,
       "requirement_group": "core",
+      "requirement_section": "core",
+      "program_course_name_snapshot": null,
       "notes": "",
       "source_page": 1,
       "evidence_match": true,
@@ -71,6 +77,7 @@
     },
     {
       "course_code": null,
+      "catalog_entry_id": "entry_1636a427b95e4c72",
       "opening_units": [
         "應數系"
       ],
@@ -78,6 +85,8 @@
       "course_name_snapshot": "機率論(一)",
       "credits_snapshot": 3.0,
       "requirement_group": "core",
+      "requirement_section": "core",
+      "program_course_name_snapshot": null,
       "notes": "",
       "source_page": 1,
       "evidence_match": true,
@@ -86,6 +95,7 @@
     },
     {
       "course_code": null,
+      "catalog_entry_id": "entry_b109e5ab6ca169b4",
       "opening_units": [
         "應數系"
       ],
@@ -93,6 +103,8 @@
       "course_name_snapshot": "統計學(一)",
       "credits_snapshot": 3.0,
       "requirement_group": "core",
+      "requirement_section": "core",
+      "program_course_name_snapshot": null,
       "notes": "",
       "source_page": 1,
       "evidence_match": true,
@@ -101,6 +113,7 @@
     },
     {
       "course_code": null,
+      "catalog_entry_id": "entry_bbce2222a0f94db0",
       "opening_units": [
         "應數系"
       ],
@@ -108,6 +121,8 @@
       "course_name_snapshot": "計算機程式",
       "credits_snapshot": 3.0,
       "requirement_group": "core",
+      "requirement_section": "core",
+      "program_course_name_snapshot": null,
       "notes": "",
       "source_page": 1,
       "evidence_match": true,
@@ -116,6 +131,7 @@
     },
     {
       "course_code": null,
+      "catalog_entry_id": "entry_3e652ce032901c45",
       "opening_units": [
         "應數系"
       ],
@@ -123,6 +139,8 @@
       "course_name_snapshot": "人工智慧原理",
       "credits_snapshot": 3.0,
       "requirement_group": "elective",
+      "requirement_section": "elective",
+      "program_course_name_snapshot": null,
       "notes": "",
       "source_page": 1,
       "evidence_match": true,
@@ -131,6 +149,7 @@
     },
     {
       "course_code": null,
+      "catalog_entry_id": "entry_75a2750d3776c244",
       "opening_units": [
         "應數系"
       ],
@@ -138,6 +157,8 @@
       "course_name_snapshot": "Python與機器學習之理論實現",
       "credits_snapshot": 3.0,
       "requirement_group": "elective",
+      "requirement_section": "elective",
+      "program_course_name_snapshot": null,
       "notes": "",
       "source_page": 1,
       "evidence_match": true,
@@ -146,6 +167,7 @@
     },
     {
       "course_code": null,
+      "catalog_entry_id": "entry_aae0dd7a8b057c72",
       "opening_units": [
         "應數系"
       ],
@@ -153,6 +175,8 @@
       "course_name_snapshot": "線性代數(二)",
       "credits_snapshot": 3.0,
       "requirement_group": "elective",
+      "requirement_section": "elective",
+      "program_course_name_snapshot": null,
       "notes": "",
       "source_page": 1,
       "evidence_match": true,
@@ -161,6 +185,7 @@
     },
     {
       "course_code": null,
+      "catalog_entry_id": "entry_195b24e3a3886532",
       "opening_units": [
         "校內各系"
       ],
@@ -168,6 +193,8 @@
       "course_name_snapshot": "微積分(二)",
       "credits_snapshot": 3.0,
       "requirement_group": "elective",
+      "requirement_section": "elective",
+      "program_course_name_snapshot": null,
       "notes": "",
       "source_page": 1,
       "evidence_match": true,
@@ -176,6 +203,7 @@
     },
     {
       "course_code": null,
+      "catalog_entry_id": "entry_210a8b3360a22eff",
       "opening_units": [
         "應數系"
       ],
@@ -183,6 +211,8 @@
       "course_name_snapshot": "離散數學(一)",
       "credits_snapshot": 3.0,
       "requirement_group": "elective",
+      "requirement_section": "elective",
+      "program_course_name_snapshot": null,
       "notes": "",
       "source_page": 1,
       "evidence_match": true,
@@ -191,6 +221,7 @@
     },
     {
       "course_code": null,
+      "catalog_entry_id": "entry_8cfb97701f674716",
       "opening_units": [
         "應數系"
       ],
@@ -198,6 +229,8 @@
       "course_name_snapshot": "離散數學(二)",
       "credits_snapshot": 3.0,
       "requirement_group": "elective",
+      "requirement_section": "elective",
+      "program_course_name_snapshot": null,
       "notes": "",
       "source_page": 1,
       "evidence_match": true,
@@ -206,6 +239,7 @@
     },
     {
       "course_code": null,
+      "catalog_entry_id": "entry_2d5da8f1ff587df0",
       "opening_units": [
         "應數系"
       ],
@@ -213,6 +247,8 @@
       "course_name_snapshot": "機率論(二)",
       "credits_snapshot": 3.0,
       "requirement_group": "elective",
+      "requirement_section": "elective",
+      "program_course_name_snapshot": null,
       "notes": "",
       "source_page": 1,
       "evidence_match": true,
@@ -221,6 +257,7 @@
     },
     {
       "course_code": null,
+      "catalog_entry_id": "entry_0f8bc66595890444",
       "opening_units": [
         "應數系"
       ],
@@ -228,6 +265,8 @@
       "course_name_snapshot": "統計學(二)",
       "credits_snapshot": 3.0,
       "requirement_group": "elective",
+      "requirement_section": "elective",
+      "program_course_name_snapshot": null,
       "notes": "",
       "source_page": 1,
       "evidence_match": true,
@@ -236,6 +275,7 @@
     },
     {
       "course_code": null,
+      "catalog_entry_id": "entry_5ac2ee6c9da76397",
       "opening_units": [
         "應數系"
       ],
@@ -243,6 +283,8 @@
       "course_name_snapshot": "演算法",
       "credits_snapshot": 3.0,
       "requirement_group": "elective",
+      "requirement_section": "elective",
+      "program_course_name_snapshot": null,
       "notes": "",
       "source_page": 1,
       "evidence_match": true,
@@ -251,6 +293,7 @@
     },
     {
       "course_code": null,
+      "catalog_entry_id": "entry_1d85184e0439a208",
       "opening_units": [
         "應數系"
       ],
@@ -258,6 +301,8 @@
       "course_name_snapshot": "資料結構",
       "credits_snapshot": 3.0,
       "requirement_group": "elective",
+      "requirement_section": "elective",
+      "program_course_name_snapshot": null,
       "notes": "",
       "source_page": 1,
       "evidence_match": true,
@@ -266,6 +311,7 @@
     },
     {
       "course_code": null,
+      "catalog_entry_id": "entry_d65d119158f4b666",
       "opening_units": [
         "應數系"
       ],
@@ -273,6 +319,8 @@
       "course_name_snapshot": "統計學習與資料探勘",
       "credits_snapshot": 3.0,
       "requirement_group": "elective",
+      "requirement_section": "elective",
+      "program_course_name_snapshot": null,
       "notes": "",
       "source_page": 1,
       "evidence_match": true,
@@ -281,6 +329,7 @@
     },
     {
       "course_code": null,
+      "catalog_entry_id": "entry_b31a9595d6bd4653",
       "opening_units": [
         "應數系"
       ],
@@ -288,6 +337,8 @@
       "course_name_snapshot": "流形學習基礎",
       "credits_snapshot": 3.0,
       "requirement_group": "elective",
+      "requirement_section": "elective",
+      "program_course_name_snapshot": null,
       "notes": "",
       "source_page": 1,
       "evidence_match": true,
@@ -296,6 +347,7 @@
     },
     {
       "course_code": null,
+      "catalog_entry_id": "entry_340965574cc0c69d",
       "opening_units": [
         "應數系"
       ],
@@ -303,6 +355,8 @@
       "course_name_snapshot": "數值分析(一)",
       "credits_snapshot": 3.0,
       "requirement_group": "elective",
+      "requirement_section": "elective",
+      "program_course_name_snapshot": null,
       "notes": "",
       "source_page": 1,
       "evidence_match": true,
@@ -311,6 +365,7 @@
     },
     {
       "course_code": null,
+      "catalog_entry_id": "entry_00bf26f1b1733892",
       "opening_units": [
         "應數系"
       ],
@@ -318,6 +373,8 @@
       "course_name_snapshot": "數值分析(二)",
       "credits_snapshot": 3.0,
       "requirement_group": "elective",
+      "requirement_section": "elective",
+      "program_course_name_snapshot": null,
       "notes": "",
       "source_page": 1,
       "evidence_match": true,
@@ -326,6 +383,7 @@
     },
     {
       "course_code": null,
+      "catalog_entry_id": "entry_d0752002906a34af",
       "opening_units": [
         "電機系"
       ],
@@ -333,6 +391,8 @@
       "course_name_snapshot": "嵌入式軟體設計",
       "credits_snapshot": 3.0,
       "requirement_group": "elective",
+      "requirement_section": "elective",
+      "program_course_name_snapshot": null,
       "notes": "",
       "source_page": 1,
       "evidence_match": true,
@@ -341,6 +401,7 @@
     },
     {
       "course_code": null,
+      "catalog_entry_id": "entry_cc0b259cf0d88487",
       "opening_units": [
         "電機系"
       ],
@@ -348,6 +409,8 @@
       "course_name_snapshot": "人工智慧語言-Prolog",
       "credits_snapshot": 3.0,
       "requirement_group": "elective",
+      "requirement_section": "elective",
+      "program_course_name_snapshot": null,
       "notes": "",
       "source_page": 1,
       "evidence_match": true,
@@ -356,6 +419,7 @@
     },
     {
       "course_code": null,
+      "catalog_entry_id": "entry_11ac2e8da9629504",
       "opening_units": [
         "電機系"
       ],
@@ -363,6 +427,8 @@
       "course_name_snapshot": "類神經網路導論",
       "credits_snapshot": 3.0,
       "requirement_group": "elective",
+      "requirement_section": "elective",
+      "program_course_name_snapshot": null,
       "notes": "",
       "source_page": 1,
       "evidence_match": true,
@@ -371,6 +437,7 @@
     },
     {
       "course_code": null,
+      "catalog_entry_id": "entry_c5d26d4f501886b7",
       "opening_units": [
         "電機系"
       ],
@@ -378,6 +445,8 @@
       "course_name_snapshot": "語音訊號處理",
       "credits_snapshot": 3.0,
       "requirement_group": "elective",
+      "requirement_section": "elective",
+      "program_course_name_snapshot": null,
       "notes": "",
       "source_page": 1,
       "evidence_match": true,
@@ -386,6 +455,7 @@
     },
     {
       "course_code": null,
+      "catalog_entry_id": "entry_0dda71e38ae8a8b5",
       "opening_units": [
         "資工系"
       ],
@@ -393,6 +463,8 @@
       "course_name_snapshot": "機器學習導論",
       "credits_snapshot": 3.0,
       "requirement_group": "elective",
+      "requirement_section": "elective",
+      "program_course_name_snapshot": null,
       "notes": "",
       "source_page": 1,
       "evidence_match": true,
@@ -401,6 +473,7 @@
     },
     {
       "course_code": null,
+      "catalog_entry_id": "entry_2d2fe4d719519410",
       "opening_units": [
         "資工系"
       ],
@@ -408,6 +481,8 @@
       "course_name_snapshot": "網際網路資料庫",
       "credits_snapshot": 3.0,
       "requirement_group": "elective",
+      "requirement_section": "elective",
+      "program_course_name_snapshot": null,
       "notes": "",
       "source_page": 1,
       "evidence_match": true,
@@ -416,6 +491,7 @@
     },
     {
       "course_code": null,
+      "catalog_entry_id": "entry_4b7324081e32ce8f",
       "opening_units": [
         "資工系"
       ],
@@ -423,6 +499,8 @@
       "course_name_snapshot": "無線網際網路",
       "credits_snapshot": 3.0,
       "requirement_group": "elective",
+      "requirement_section": "elective",
+      "program_course_name_snapshot": null,
       "notes": "",
       "source_page": 1,
       "evidence_match": true,
@@ -431,6 +509,7 @@
     },
     {
       "course_code": null,
+      "catalog_entry_id": "entry_0b9c06860bc51ff8",
       "opening_units": [
         "資工系"
       ],
@@ -438,6 +517,8 @@
       "course_name_snapshot": "影像處理",
       "credits_snapshot": 3.0,
       "requirement_group": "elective",
+      "requirement_section": "elective",
+      "program_course_name_snapshot": null,
       "notes": "",
       "source_page": 1,
       "evidence_match": true,

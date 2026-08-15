@@ -29,7 +29,7 @@
         "last_modified": "Thu, 13 Aug 2026 06:21:13 GMT",
         "content_length": 141543
       },
-      "parser_version": "0.2.1",
+      "parser_version": "0.2.2",
       "extractor_versions": {
         "pypdf": "6.10.0",
         "pdfplumber": "0.11.9"
@@ -47,6 +47,7 @@
     "course_catalog": [
       {
         "course_code": null,
+        "catalog_entry_id": "entry_b12d78ea291dfc57",
         "opening_units": [
           "資訊工程學系碩士班"
         ],
@@ -54,6 +55,8 @@
         "course_name_snapshot": "機器學習",
         "credits_snapshot": 3.0,
         "requirement_group": "unspecified",
+        "requirement_section": "unspecified",
+        "program_course_name_snapshot": null,
         "notes": "機器學習",
         "source_page": 1,
         "evidence_match": true,
@@ -62,6 +65,7 @@
       },
       {
         "course_code": null,
+        "catalog_entry_id": "entry_0d10f3e8aa53c0ac",
         "opening_units": [
           "資訊工程學系"
         ],
@@ -69,6 +73,8 @@
         "course_name_snapshot": "機器學習導論",
         "credits_snapshot": 3.0,
         "requirement_group": "unspecified",
+        "requirement_section": "unspecified",
+        "program_course_name_snapshot": null,
         "notes": "機器學習導論",
         "source_page": 1,
         "evidence_match": true,
@@ -77,6 +83,7 @@
       },
       {
         "course_code": null,
+        "catalog_entry_id": "entry_0fe7447f17805a8d",
         "opening_units": [
           "資訊工程學系碩士班資訊管理學系碩士班"
         ],
@@ -84,6 +91,8 @@
         "course_name_snapshot": "深度學習",
         "credits_snapshot": 3.0,
         "requirement_group": "unspecified",
+        "requirement_section": "unspecified",
+        "program_course_name_snapshot": null,
         "notes": "深度學習",
         "source_page": 1,
         "evidence_match": true,
@@ -92,6 +101,7 @@
       },
       {
         "course_code": null,
+        "catalog_entry_id": "entry_ae34f0249bb2266c",
         "opening_units": [
           "資訊工程學系"
         ],
@@ -99,6 +109,8 @@
         "course_name_snapshot": "數位影像處理",
         "credits_snapshot": 3.0,
         "requirement_group": "unspecified",
+        "requirement_section": "unspecified",
+        "program_course_name_snapshot": null,
         "notes": "數位影像處理",
         "source_page": 1,
         "evidence_match": true,
@@ -107,6 +119,7 @@
       },
       {
         "course_code": null,
+        "catalog_entry_id": "entry_035c9e283c309d3f",
         "opening_units": [
           "跨院選修(工)"
         ],
@@ -114,6 +127,8 @@
         "course_name_snapshot": "數位影像處理",
         "credits_snapshot": 3.0,
         "requirement_group": "unspecified",
+        "requirement_section": "unspecified",
+        "program_course_name_snapshot": null,
         "notes": "數位影像處理",
         "source_page": 1,
         "evidence_match": true,
@@ -122,6 +137,7 @@
       },
       {
         "course_code": null,
+        "catalog_entry_id": "entry_7d2cc1fc13320521",
         "opening_units": [
           "電機工程學系碩士班"
         ],
@@ -129,6 +145,8 @@
         "course_name_snapshot": "電腦視覺",
         "credits_snapshot": 3.0,
         "requirement_group": "unspecified",
+        "requirement_section": "unspecified",
+        "program_course_name_snapshot": null,
         "notes": "電腦視覺",
         "source_page": 1,
         "evidence_match": true,
@@ -137,6 +155,7 @@
       },
       {
         "course_code": null,
+        "catalog_entry_id": "entry_bb03e32cf8294eb7",
         "opening_units": [
           "資訊工程學系"
         ],
@@ -144,6 +163,8 @@
         "course_name_snapshot": "深度視覺",
         "credits_snapshot": 3.0,
         "requirement_group": "unspecified",
+        "requirement_section": "unspecified",
+        "program_course_name_snapshot": null,
         "notes": "深度視覺",
         "source_page": 1,
         "evidence_match": true,

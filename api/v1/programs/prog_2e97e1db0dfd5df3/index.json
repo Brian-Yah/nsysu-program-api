@@ -29,7 +29,7 @@
         "last_modified": "Tue, 27 May 2025 02:17:55 GMT",
         "content_length": 201052
       },
-      "parser_version": "0.2.1",
+      "parser_version": "0.2.2",
       "extractor_versions": {
         "pypdf": "6.10.0",
         "pdfplumber": "0.11.9"
@@ -47,6 +47,7 @@
     "course_catalog": [
       {
         "course_code": null,
+        "catalog_entry_id": "entry_8b36d255eebcefba",
         "opening_units": [
           "西灣學院"
         ],
@@ -54,6 +55,8 @@
         "course_name_snapshot": "在地食物的永續發展與全球脈絡",
         "credits_snapshot": 3.0,
         "requirement_group": "core",
+        "requirement_section": "core_required",
+        "program_course_name_snapshot": null,
         "notes": "博雅向度六",
         "source_page": 1,
         "evidence_match": false,
@@ -62,6 +65,7 @@
       },
       {
         "course_code": null,
+        "catalog_entry_id": "entry_b0c8c6665b9aeb45",
         "opening_units": [
           "西灣學院"
         ],
@@ -69,6 +73,8 @@
         "course_name_snapshot": "都市農業與永續發展",
         "credits_snapshot": 3.0,
         "requirement_group": "core",
+        "requirement_section": "core_required",
+        "program_course_name_snapshot": null,
         "notes": "跨院選修(通)",
         "source_page": 1,
         "evidence_match": true,
@@ -77,6 +83,7 @@
       },
       {
         "course_code": null,
+        "catalog_entry_id": "entry_f8cbdcf3a441c87d",
         "opening_units": [
           "西灣學院"
         ],
@@ -84,6 +91,8 @@
         "course_name_snapshot": "氣候變遷與永續農業發展",
         "credits_snapshot": 3.0,
         "requirement_group": "core",
+        "requirement_section": "core_required",
+        "program_course_name_snapshot": null,
         "notes": "跨院選修(通)",
         "source_page": 1,
         "evidence_match": true,
@@ -92,6 +101,7 @@
       },
       {
         "course_code": null,
+        "catalog_entry_id": "entry_671c733e9b4bed2b",
         "opening_units": [
           "西灣學院"
         ],
@@ -99,6 +109,8 @@
         "course_name_snapshot": "氣候變遷與調適",
         "credits_snapshot": 3.0,
         "requirement_group": "core",
+        "requirement_section": "core_required",
+        "program_course_name_snapshot": null,
         "notes": "博雅向度六",
         "source_page": 1,
         "evidence_match": true,
@@ -107,6 +119,7 @@
       },
       {
         "course_code": null,
+        "catalog_entry_id": "entry_53c66521b414cb83",
         "opening_units": [
           "西灣學院"
         ],
@@ -114,6 +127,8 @@
         "course_name_snapshot": "地方文化採集與應用",
         "credits_snapshot": 3.0,
         "requirement_group": "core",
+        "requirement_section": "core_required",
+        "program_course_name_snapshot": null,
         "notes": "博雅向度三",
         "source_page": 1,
         "evidence_match": true,
@@ -122,6 +137,7 @@
       },
       {
         "course_code": null,
+        "catalog_entry_id": "entry_afdc82d3ccef2d7f",
         "opening_units": [
           "西灣學院"
         ],
@@ -129,6 +145,8 @@
         "course_name_snapshot": "淨零碳規劃管理專題講座",
         "credits_snapshot": 2.0,
         "requirement_group": "core",
+        "requirement_section": "core_required",
+        "program_course_name_snapshot": null,
         "notes": "博雅向度六",
         "source_page": 1,
         "evidence_match": true,
@@ -137,6 +155,7 @@
       },
       {
         "course_code": null,
+        "catalog_entry_id": "entry_c085ff1ac869f8dd",
         "opening_units": [
           "西灣學院"
         ],
@@ -144,6 +163,8 @@
         "course_name_snapshot": "另類永續思考與實踐",
         "credits_snapshot": 3.0,
         "requirement_group": "core",
+        "requirement_section": "core_required",
+        "program_course_name_snapshot": null,
         "notes": "博雅向度六",
         "source_page": 1,
         "evidence_match": true,
@@ -152,6 +173,7 @@
       },
       {
         "course_code": null,
+        "catalog_entry_id": "entry_2deefc4777f86154",
         "opening_units": [
           "西灣學院"
         ],
@@ -159,6 +181,8 @@
         "course_name_snapshot": "烹飪與科學",
         "credits_snapshot": 2.0,
         "requirement_group": "core",
+        "requirement_section": "core_required",
+        "program_course_name_snapshot": null,
         "notes": "博雅向度五",
         "source_page": 1,
         "evidence_match": true,
@@ -167,6 +191,7 @@
       },
       {
         "course_code": null,
+        "catalog_entry_id": "entry_1fec267a68fc91c5",
         "opening_units": [
           "西灣學院"
         ],
@@ -174,6 +199,8 @@
         "course_name_snapshot": "探究食農系統",
         "credits_snapshot": 1.0,
         "requirement_group": "core",
+        "requirement_section": "core_required",
+        "program_course_name_snapshot": null,
         "notes": "博雅向度五",
         "source_page": 1,
         "evidence_match": true,
@@ -182,6 +209,7 @@
       },
       {
         "course_code": null,
+        "catalog_entry_id": "entry_06d3b80296573042",
         "opening_units": [
           "西灣學院"
         ],
@@ -189,6 +217,8 @@
         "course_name_snapshot": "環境倫理與環境政策",
         "credits_snapshot": 2.0,
         "requirement_group": "core",
+        "requirement_section": "core_required",
+        "program_course_name_snapshot": null,
         "notes": "博雅向度六",
         "source_page": 1,
         "evidence_match": true,
@@ -197,6 +227,7 @@
       },
       {
         "course_code": null,
+        "catalog_entry_id": "entry_9c77de8c4fdbc6bc",
         "opening_units": [
           "公共事務管理研究所"
         ],
@@ -204,6 +235,8 @@
         "course_name_snapshot": "氣候行動書報討論",
         "credits_snapshot": 1.0,
         "requirement_group": "core",
+        "requirement_section": "core_required",
+        "program_course_name_snapshot": null,
         "notes": "",
         "source_page": 1,
         "evidence_match": true,
@@ -212,6 +245,7 @@
       },
       {
         "course_code": null,
+        "catalog_entry_id": "entry_2bbe70034c8be814",
         "opening_units": [
           "生物科學系"
         ],
@@ -219,6 +253,8 @@
         "course_name_snapshot": "生物多樣性與保育",
         "credits_snapshot": 2.0,
         "requirement_group": "core",
+        "requirement_section": "core_required",
+        "program_course_name_snapshot": null,
         "notes": "",
         "source_page": 1,
         "evidence_match": true,
@@ -227,6 +263,7 @@
       },
       {
         "course_code": null,
+        "catalog_entry_id": "entry_a153561998093a9e",
         "opening_units": [
           "西灣學院"
         ],
@@ -234,6 +271,8 @@
         "course_name_snapshot": "飲食與文學",
         "credits_snapshot": 3.0,
         "requirement_group": "core",
+        "requirement_section": "core_required",
+        "program_course_name_snapshot": null,
         "notes": "博雅向度一",
         "source_page": 1,
         "evidence_match": true,
@@ -242,6 +281,7 @@
       },
       {
         "course_code": null,
+        "catalog_entry_id": "entry_25228b5d6b848b5f",
         "opening_units": [
           "西灣學院"
         ],
@@ -249,6 +289,8 @@
         "course_name_snapshot": "科技社會之飲食旅遊",
         "credits_snapshot": 3.0,
         "requirement_group": "core",
+        "requirement_section": "core_required",
+        "program_course_name_snapshot": null,
         "notes": "博雅向度四",
         "source_page": 1,
         "evidence_match": true,
@@ -257,6 +299,7 @@
       },
       {
         "course_code": null,
+        "catalog_entry_id": "entry_0b9dec51848a01f2",
         "opening_units": [
           "西灣學院"
         ],
@@ -264,6 +307,8 @@
         "course_name_snapshot": "海洋生態資源:科技研究與社會影響",
         "credits_snapshot": 3.0,
         "requirement_group": "core",
+        "requirement_section": "core_required",
+        "program_course_name_snapshot": null,
         "notes": "博雅向度四",
         "source_page": 1,
         "evidence_match": false,
@@ -272,6 +317,7 @@
       },
       {
         "course_code": null,
+        "catalog_entry_id": "entry_a838dc4f618c3401",
         "opening_units": [
           "西灣學院"
         ],
@@ -279,6 +325,8 @@
         "course_name_snapshot": "光電生活與能源永續",
         "credits_snapshot": 3.0,
         "requirement_group": "core",
+        "requirement_section": "core_required",
+        "program_course_name_snapshot": null,
         "notes": "博雅向度六",
         "source_page": 1,
         "evidence_match": true,
@@ -287,6 +335,7 @@
       },
       {
         "course_code": null,
+        "catalog_entry_id": "entry_5d85e484fc018e98",
         "opening_units": [
           "西灣學院"
         ],
@@ -294,6 +343,8 @@
         "course_name_snapshot": "科學、媒體與文化",
         "credits_snapshot": 3.0,
         "requirement_group": "core",
+        "requirement_section": "core_required",
+        "program_course_name_snapshot": null,
         "notes": "博雅向度四",
         "source_page": 1,
         "evidence_match": true,
@@ -302,6 +353,7 @@
       },
       {
         "course_code": null,
+        "catalog_entry_id": "entry_6c58c01f93e76784",
         "opening_units": [
           "社會系"
         ],
@@ -309,6 +361,8 @@
         "course_name_snapshot": "農業與社會",
         "credits_snapshot": 3.0,
         "requirement_group": "elective",
+        "requirement_section": "elective",
+        "program_course_name_snapshot": null,
         "notes": "",
         "source_page": 1,
         "evidence_match": true,
@@ -317,6 +371,7 @@
       },
       {
         "course_code": null,
+        "catalog_entry_id": "entry_374d9866b41b1b98",
         "opening_units": [
           "社科院"
         ],
@@ -324,6 +379,8 @@
         "course_name_snapshot": "糧食、農業與社會",
         "credits_snapshot": 3.0,
         "requirement_group": "elective",
+        "requirement_section": "elective",
+        "program_course_name_snapshot": null,
         "notes": "跨院選修",
         "source_page": 1,
         "evidence_match": true,
@@ -332,6 +389,7 @@
       },
       {
         "course_code": null,
+        "catalog_entry_id": "entry_d843d6ae861b336d",
         "opening_units": [
           "西灣學院"
         ],
@@ -339,6 +397,8 @@
         "course_name_snapshot": "商業策略及管理",
         "credits_snapshot": 3.0,
         "requirement_group": "elective",
+        "requirement_section": "elective",
+        "program_course_name_snapshot": null,
         "notes": "人科學程",
         "source_page": 1,
         "evidence_match": true,

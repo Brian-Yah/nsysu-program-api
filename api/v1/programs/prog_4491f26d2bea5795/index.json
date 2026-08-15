@@ -29,7 +29,7 @@
         "last_modified": "Tue, 23 Dec 2025 06:53:08 GMT",
         "content_length": 290190
       },
-      "parser_version": "0.2.1",
+      "parser_version": "0.2.2",
       "extractor_versions": {
         "pypdf": "6.10.0",
         "pdfplumber": "0.11.9"
@@ -47,6 +47,7 @@
     "course_catalog": [
       {
         "course_code": null,
+        "catalog_entry_id": "entry_1df138ca6ee9e8d7",
         "opening_units": [
           "醫學院"
         ],
@@ -54,6 +55,8 @@
         "course_name_snapshot": "公共衛生學",
         "credits_snapshot": 2.0,
         "requirement_group": "core",
+        "requirement_section": "core",
+        "program_course_name_snapshot": null,
         "notes": "",
         "source_page": 1,
         "evidence_match": true,
@@ -62,6 +65,7 @@
       },
       {
         "course_code": null,
+        "catalog_entry_id": "entry_bfde2f17f56f02f0",
         "opening_units": [
           "精準醫學究所"
         ],
@@ -69,6 +73,8 @@
         "course_name_snapshot": "臨床醫學導論",
         "credits_snapshot": 2.0,
         "requirement_group": "core",
+        "requirement_section": "core",
+        "program_course_name_snapshot": null,
         "notes": "",
         "source_page": 1,
         "evidence_match": true,
@@ -77,6 +83,7 @@
       },
       {
         "course_code": null,
+        "catalog_entry_id": "entry_3c35d77e145c73d3",
         "opening_units": [
           "醫學院"
         ],
@@ -84,6 +91,8 @@
         "course_name_snapshot": "基礎藥理學",
         "credits_snapshot": 3.0,
         "requirement_group": "core",
+        "requirement_section": "core",
+        "program_course_name_snapshot": null,
         "notes": "",
         "source_page": 1,
         "evidence_match": true,
@@ -92,6 +101,7 @@
       },
       {
         "course_code": null,
+        "catalog_entry_id": "entry_cb4129732755b6be",
         "opening_units": [
           "醫學院"
         ],
@@ -99,6 +109,8 @@
         "course_name_snapshot": "新藥開發",
         "credits_snapshot": 2.0,
         "requirement_group": "core",
+        "requirement_section": "core",
+        "program_course_name_snapshot": null,
         "notes": "",
         "source_page": 1,
         "evidence_match": true,
@@ -107,6 +119,7 @@
       },
       {
         "course_code": null,
+        "catalog_entry_id": "entry_6324a3354839fe26",
         "opening_units": [
           "醫學院"
         ],
@@ -114,6 +127,8 @@
         "course_name_snapshot": "人體結構探索-初階人體解剖學",
         "credits_snapshot": 3.0,
         "requirement_group": "core",
+        "requirement_section": "core",
+        "program_course_name_snapshot": null,
         "notes": "",
         "source_page": 1,
         "evidence_match": true,
@@ -122,6 +137,7 @@
       },
       {
         "course_code": null,
+        "catalog_entry_id": "entry_21f46ac6ebef0176",
         "opening_units": [
           "醫學院"
         ],
@@ -129,6 +145,8 @@
         "course_name_snapshot": "毒理學概論",
         "credits_snapshot": 3.0,
         "requirement_group": "core",
+        "requirement_section": "core",
+        "program_course_name_snapshot": null,
         "notes": "",
         "source_page": 1,
         "evidence_match": true,
@@ -137,6 +155,7 @@
       },
       {
         "course_code": null,
+        "catalog_entry_id": "entry_726dc3548e7930db",
         "opening_units": [
           "醫學院"
         ],
@@ -144,6 +163,8 @@
         "course_name_snapshot": "醫用微生物學概論",
         "credits_snapshot": 3.0,
         "requirement_group": "core",
+        "requirement_section": "core",
+        "program_course_name_snapshot": null,
         "notes": "",
         "source_page": 1,
         "evidence_match": true,
@@ -152,6 +173,7 @@
       },
       {
         "course_code": null,
+        "catalog_entry_id": "entry_b173aab05e0648ea",
         "opening_units": [
           "醫學院"
         ],
@@ -159,6 +181,8 @@
         "course_name_snapshot": "人體生理功能解密:生理學入門",
         "credits_snapshot": 3.0,
         "requirement_group": "core",
+        "requirement_section": "core",
+        "program_course_name_snapshot": null,
         "notes": "",
         "source_page": 1,
         "evidence_match": true,
@@ -167,6 +191,7 @@
       },
       {
         "course_code": null,
+        "catalog_entry_id": "entry_03b9a000c05965ef",
         "opening_units": [
           "醫學院"
         ],
@@ -174,6 +199,8 @@
         "course_name_snapshot": "人類免疫與代謝",
         "credits_snapshot": 2.0,
         "requirement_group": "core",
+        "requirement_section": "core",
+        "program_course_name_snapshot": null,
         "notes": "",
         "source_page": 1,
         "evidence_match": true,
@@ -182,6 +209,7 @@
       },
       {
         "course_code": null,
+        "catalog_entry_id": "entry_9d429b2ab3291df1",
         "opening_units": [
           "醫學院"
         ],
@@ -189,6 +217,8 @@
         "course_name_snapshot": "基礎動物組織學",
         "credits_snapshot": 2.0,
         "requirement_group": "core",
+        "requirement_section": "core",
+        "program_course_name_snapshot": null,
         "notes": "英語授課",
         "source_page": 1,
         "evidence_match": true,
@@ -197,6 +227,7 @@
       },
       {
         "course_code": null,
+        "catalog_entry_id": "entry_3c520e4ff833b7cc",
         "opening_units": [
           "醫學院"
         ],
@@ -204,6 +235,8 @@
         "course_name_snapshot": "生命的奈米世界:初階細胞生物學",
         "credits_snapshot": 2.0,
         "requirement_group": "core",
+        "requirement_section": "core",
+        "program_course_name_snapshot": null,
         "notes": "",
         "source_page": 1,
         "evidence_match": true,
@@ -212,6 +245,7 @@
       },
       {
         "course_code": null,
+        "catalog_entry_id": "entry_16f173caec2b9a3d",
         "opening_units": [
           "醫學院"
         ],
@@ -219,6 +253,8 @@
         "course_name_snapshot": "基礎生物醫學技術與應用",
         "credits_snapshot": 2.0,
         "requirement_group": "core",
+        "requirement_section": "core",
+        "program_course_name_snapshot": null,
         "notes": "",
         "source_page": 1,
         "evidence_match": true,
@@ -227,6 +263,7 @@
       },
       {
         "course_code": null,
+        "catalog_entry_id": "entry_84c4176ad289f144",
         "opening_units": [
           "醫學院"
         ],
@@ -234,6 +271,8 @@
         "course_name_snapshot": "生物統計與資訊",
         "credits_snapshot": 2.0,
         "requirement_group": "elective",
+        "requirement_section": "elective",
+        "program_course_name_snapshot": null,
         "notes": "",
         "source_page": 1,
         "evidence_match": true,
@@ -242,6 +281,7 @@
       },
       {
         "course_code": null,
+        "catalog_entry_id": "entry_c0209f159ca16e49",
         "opening_units": [
           "醫學院"
         ],
@@ -249,6 +289,8 @@
         "course_name_snapshot": "認識病毒",
         "credits_snapshot": 3.0,
         "requirement_group": "elective",
+        "requirement_section": "elective",
+        "program_course_name_snapshot": null,
         "notes": "",
         "source_page": 1,
         "evidence_match": true,
@@ -257,6 +299,7 @@
       },
       {
         "course_code": null,
+        "catalog_entry_id": "entry_384062d7e1f1eaa7",
         "opening_units": [
           "醫學院"
         ],
@@ -264,6 +307,8 @@
         "course_name_snapshot": "瘟疫與人類歷史",
         "credits_snapshot": 2.0,
         "requirement_group": "elective",
+        "requirement_section": "elective",
+        "program_course_name_snapshot": null,
         "notes": "",
         "source_page": 1,
         "evidence_match": true,
@@ -272,6 +317,7 @@
       },
       {
         "course_code": null,
+        "catalog_entry_id": "entry_d007f307cdb7c2e7",
         "opening_units": [
           "醫學院"
         ],
@@ -279,6 +325,8 @@
         "course_name_snapshot": "共病時代-談人類與動物共通傳染病",
         "credits_snapshot": 3.0,
         "requirement_group": "elective",
+        "requirement_section": "elective",
+        "program_course_name_snapshot": null,
         "notes": "",
         "source_page": 1,
         "evidence_match": false,
@@ -287,6 +335,7 @@
       },
       {
         "course_code": null,
+        "catalog_entry_id": "entry_59669db80c2379a3",
         "opening_units": [
           "醫學院"
         ],
@@ -294,6 +343,8 @@
         "course_name_snapshot": "微生物與癌症",
         "credits_snapshot": 3.0,
         "requirement_group": "elective",
+        "requirement_section": "elective",
+        "program_course_name_snapshot": null,
         "notes": "",
         "source_page": 1,
         "evidence_match": true,
@@ -302,6 +353,7 @@
       },
       {
         "course_code": null,
+        "catalog_entry_id": "entry_d8e3b2e31660abf6",
         "opening_units": [
           "醫學院"
         ],
@@ -309,6 +361,8 @@
         "course_name_snapshot": "癌症治療",
         "credits_snapshot": 2.0,
         "requirement_group": "elective",
+        "requirement_section": "elective",
+        "program_course_name_snapshot": null,
         "notes": "英語授課",
         "source_page": 1,
         "evidence_match": true,
@@ -317,6 +371,7 @@
       },
       {
         "course_code": null,
+        "catalog_entry_id": "entry_90cdbab88a4e2731",
         "opening_units": [
           "醫學院"
         ],
@@ -324,6 +379,8 @@
         "course_name_snapshot": "神經心理學:大腦與情緒",
         "credits_snapshot": 3.0,
         "requirement_group": "elective",
+        "requirement_section": "elective",
+        "program_course_name_snapshot": null,
         "notes": "",
         "source_page": 1,
         "evidence_match": true,
@@ -332,6 +389,7 @@
       },
       {
         "course_code": null,
+        "catalog_entry_id": "entry_95be5f61241374b0",
         "opening_units": [
           "醫學院"
         ],
@@ -339,6 +397,8 @@
         "course_name_snapshot": "神經科學應用概論",
         "credits_snapshot": 2.0,
         "requirement_group": "elective",
+        "requirement_section": "elective",
+        "program_course_name_snapshot": null,
         "notes": "",
         "source_page": 1,
         "evidence_match": true,
@@ -347,6 +407,7 @@
       },
       {
         "course_code": null,
+        "catalog_entry_id": "entry_dd42bd6c0ab2743f",
         "opening_units": [
           "醫學院"
         ],
@@ -354,6 +415,8 @@
         "course_name_snapshot": "藥物獵人:天然物與藥物化學",
         "credits_snapshot": 3.0,
         "requirement_group": "elective",
+        "requirement_section": "elective",
+        "program_course_name_snapshot": null,
         "notes": "",
         "source_page": 1,
         "evidence_match": true,
@@ -362,6 +425,7 @@
       },
       {
         "course_code": null,
+        "catalog_entry_id": "entry_fa0c99286b949aa4",
         "opening_units": [
           "醫學院"
         ],
@@ -369,6 +433,8 @@
         "course_name_snapshot": "藥與毒:藥物濫用",
         "credits_snapshot": 3.0,
         "requirement_group": "elective",
+        "requirement_section": "elective",
+        "program_course_name_snapshot": null,
         "notes": "",
         "source_page": 1,
         "evidence_match": true,
@@ -377,6 +443,7 @@
       },
       {
         "course_code": null,
+        "catalog_entry_id": "entry_115c3b49fae72b11",
         "opening_units": [
           "醫學院"
         ],
@@ -384,6 +451,8 @@
         "course_name_snapshot": "醫學史(上)-西洋醫學史",
         "credits_snapshot": 2.0,
         "requirement_group": "elective",
+        "requirement_section": "elective",
+        "program_course_name_snapshot": null,
         "notes": "",
         "source_page": 1,
         "evidence_match": true,
@@ -392,6 +461,7 @@
       },
       {
         "course_code": null,
+        "catalog_entry_id": "entry_32f418b368368a24",
         "opening_units": [
           "醫學院"
         ],
@@ -399,6 +469,8 @@
         "course_name_snapshot": "基礎外傷急救",
         "credits_snapshot": 2.0,
         "requirement_group": "elective",
+        "requirement_section": "elective",
+        "program_course_name_snapshot": null,
         "notes": "",
         "source_page": 1,
         "evidence_match": true,
@@ -407,6 +479,7 @@
       },
       {
         "course_code": null,
+        "catalog_entry_id": "entry_9e64587a0638cac9",
         "opening_units": [
           "醫學院"
         ],
@@ -414,6 +487,8 @@
         "course_name_snapshot": "疾病瘟疫與文明",
         "credits_snapshot": 3.0,
         "requirement_group": "elective",
+        "requirement_section": "elective",
+        "program_course_name_snapshot": null,
         "notes": "",
         "source_page": 1,
         "evidence_match": true,

@@ -29,7 +29,7 @@
         "last_modified": "Wed, 07 Jun 2023 07:51:41 GMT",
         "content_length": 97448
       },
-      "parser_version": "0.2.1",
+      "parser_version": "0.2.2",
       "extractor_versions": {
         "pypdf": "6.10.0",
         "pdfplumber": "0.11.9"
@@ -47,6 +47,7 @@
     "course_catalog": [
       {
         "course_code": null,
+        "catalog_entry_id": "entry_5628d17b3e0f2a58",
         "opening_units": [
           "電機系"
         ],
@@ -54,6 +55,8 @@
         "course_name_snapshot": "電力系統(一)",
         "credits_snapshot": 3.0,
         "requirement_group": "core",
+        "requirement_section": "core",
+        "program_course_name_snapshot": null,
         "notes": "EE3404",
         "source_page": 1,
         "evidence_match": true,
@@ -62,6 +65,7 @@
       },
       {
         "course_code": null,
+        "catalog_entry_id": "entry_17cca4fa02dc88a9",
         "opening_units": [
           "電機系"
         ],
@@ -69,6 +73,8 @@
         "course_name_snapshot": "電力系統(二)",
         "credits_snapshot": 3.0,
         "requirement_group": "core",
+        "requirement_section": "core",
+        "program_course_name_snapshot": null,
         "notes": "EE4405",
         "source_page": 1,
         "evidence_match": true,
@@ -77,6 +83,7 @@
       },
       {
         "course_code": null,
+        "catalog_entry_id": "entry_9ac45473a360e0c4",
         "opening_units": [
           "電機系"
         ],
@@ -84,6 +91,8 @@
         "course_name_snapshot": "電力電子學",
         "credits_snapshot": 3.0,
         "requirement_group": "core",
+        "requirement_section": "core",
+        "program_course_name_snapshot": null,
         "notes": "EE2403",
         "source_page": 1,
         "evidence_match": true,
@@ -92,6 +101,7 @@
       },
       {
         "course_code": null,
+        "catalog_entry_id": "entry_da01dfb3f0b0e2c4",
         "opening_units": [
           "電機系"
         ],
@@ -99,6 +109,8 @@
         "course_name_snapshot": "電機機械",
         "credits_snapshot": 3.0,
         "requirement_group": "core",
+        "requirement_section": "core",
+        "program_course_name_snapshot": null,
         "notes": "EE3402、EE3402A",
         "source_page": 1,
         "evidence_match": true,
@@ -107,6 +119,7 @@
       },
       {
         "course_code": null,
+        "catalog_entry_id": "entry_d17cc2fe8eea1183",
         "opening_units": [
           "電力電機碩"
         ],
@@ -114,6 +127,8 @@
         "course_name_snapshot": "電力與再生能源應用",
         "credits_snapshot": 3.0,
         "requirement_group": "core",
+        "requirement_section": "core",
+        "program_course_name_snapshot": null,
         "notes": "IMPE5012",
         "source_page": 1,
         "evidence_match": true,
@@ -122,6 +137,7 @@
       },
       {
         "course_code": null,
+        "catalog_entry_id": "entry_79f7ca9baf49b929",
         "opening_units": [
           "電機系"
         ],
@@ -129,6 +145,8 @@
         "course_name_snapshot": "電機產業實務(一)",
         "credits_snapshot": 3.0,
         "requirement_group": "elective",
+        "requirement_section": "elective",
+        "program_course_name_snapshot": null,
         "notes": "EE4012",
         "source_page": 1,
         "evidence_match": true,
@@ -137,6 +155,7 @@
       },
       {
         "course_code": null,
+        "catalog_entry_id": "entry_2b31036031698ea2",
         "opening_units": [
           "電機碩"
         ],
@@ -144,6 +163,8 @@
         "course_name_snapshot": "計算機網路",
         "credits_snapshot": 3.0,
         "requirement_group": "elective",
+        "requirement_section": "elective",
+        "program_course_name_snapshot": null,
         "notes": "EE5310",
         "source_page": 1,
         "evidence_match": true,
@@ -152,6 +173,7 @@
       },
       {
         "course_code": null,
+        "catalog_entry_id": "entry_df593bc9b436b31e",
         "opening_units": [
           "電機電力碩"
         ],
@@ -159,6 +181,8 @@
         "course_name_snapshot": "電力系統動態模型建立與模擬",
         "credits_snapshot": 3.0,
         "requirement_group": "elective",
+        "requirement_section": "elective",
+        "program_course_name_snapshot": null,
         "notes": "IMPE5010",
         "source_page": 1,
         "evidence_match": true,
@@ -167,6 +191,7 @@
       },
       {
         "course_code": null,
+        "catalog_entry_id": "entry_7bceebd5f9a07e19",
         "opening_units": [
           "電信碩程"
         ],
@@ -174,6 +199,8 @@
         "course_name_snapshot": "數位通訊",
         "credits_snapshot": 3.0,
         "requirement_group": "elective",
+        "requirement_section": "elective",
+        "program_course_name_snapshot": null,
         "notes": "IMPTE501",
         "source_page": 1,
         "evidence_match": true,
@@ -182,6 +209,7 @@
       },
       {
         "course_code": null,
+        "catalog_entry_id": "entry_0ffddcacdfccd025",
         "opening_units": [
           "機電系"
         ],
@@ -189,6 +217,8 @@
         "course_name_snapshot": "氫能與燃料電池原理與應用",
         "credits_snapshot": 3.0,
         "requirement_group": "elective",
+        "requirement_section": "elective",
+        "program_course_name_snapshot": null,
         "notes": "MEME516",
         "source_page": 1,
         "evidence_match": true,
@@ -197,6 +227,7 @@
       },
       {
         "course_code": null,
+        "catalog_entry_id": "entry_79d0ef1ffd31d503",
         "opening_units": [
           "資工系"
         ],
@@ -204,6 +235,8 @@
         "course_name_snapshot": "機器學習導論",
         "credits_snapshot": 3.0,
         "requirement_group": "elective",
+        "requirement_section": "elective",
+        "program_course_name_snapshot": null,
         "notes": "CSE399",
         "source_page": 1,
         "evidence_match": true,
@@ -212,6 +245,7 @@
       },
       {
         "course_code": null,
+        "catalog_entry_id": "entry_c0d81ac7ba627b15",
         "opening_units": [
           "資工碩"
         ],
@@ -219,6 +253,8 @@
         "course_name_snapshot": "高等電腦網路",
         "credits_snapshot": 3.0,
         "requirement_group": "elective",
+        "requirement_section": "elective",
+        "program_course_name_snapshot": null,
         "notes": "CSE515",
         "source_page": 1,
         "evidence_match": true,
@@ -227,6 +263,7 @@
       },
       {
         "course_code": null,
+        "catalog_entry_id": "entry_54a8c2a676a8c56d",
         "opening_units": [
           "資安碩"
         ],
@@ -234,6 +271,8 @@
         "course_name_snapshot": "網路安全",
         "credits_snapshot": 3.0,
         "requirement_group": "elective",
+        "requirement_section": "elective",
+        "program_course_name_snapshot": null,
         "notes": "CSE517",
         "source_page": 1,
         "evidence_match": true,
@@ -242,6 +281,7 @@
       },
       {
         "course_code": null,
+        "catalog_entry_id": "entry_5b0a46f42c402afe",
         "opening_units": [
           "應數系"
         ],
@@ -249,6 +289,8 @@
         "course_name_snapshot": "應用統計方法",
         "credits_snapshot": 3.0,
         "requirement_group": "elective",
+        "requirement_section": "elective",
+        "program_course_name_snapshot": null,
         "notes": "MATH402",
         "source_page": 1,
         "evidence_match": true,
@@ -257,6 +299,7 @@
       },
       {
         "course_code": null,
+        "catalog_entry_id": "entry_23a3d2c66a988739",
         "opening_units": [
           "應數碩"
         ],
@@ -264,6 +307,8 @@
         "course_name_snapshot": "Python與機器學習之理論實現",
         "credits_snapshot": 3.0,
         "requirement_group": "elective",
+        "requirement_section": "elective",
+        "program_course_name_snapshot": null,
         "notes": "MATH599",
         "source_page": 1,
         "evidence_match": true,
@@ -272,6 +317,7 @@
       },
       {
         "course_code": null,
+        "catalog_entry_id": "entry_4bfc21cb69be1667",
         "opening_units": [
           "資管碩"
         ],
@@ -279,6 +325,8 @@
         "course_name_snapshot": "網路安全",
         "credits_snapshot": 3.0,
         "requirement_group": "elective",
+        "requirement_section": "elective",
+        "program_course_name_snapshot": null,
         "notes": "MIS538",
         "source_page": 1,
         "evidence_match": true,
@@ -287,6 +335,7 @@
       },
       {
         "course_code": null,
+        "catalog_entry_id": "entry_ebb3fad08eaae0cb",
         "opening_units": [
           "光電系"
         ],
@@ -294,6 +343,8 @@
         "course_name_snapshot": "光電材料概論",
         "credits_snapshot": 3.0,
         "requirement_group": "elective",
+        "requirement_section": "elective",
+        "program_course_name_snapshot": null,
         "notes": "EO3034",
         "source_page": 2,
         "evidence_match": true,
@@ -302,6 +353,7 @@
       },
       {
         "course_code": null,
+        "catalog_entry_id": "entry_470069c171db9200",
         "opening_units": [
           "離岸風電碩"
         ],
@@ -309,6 +361,8 @@
         "course_name_snapshot": "離岸風電概論",
         "credits_snapshot": 3.0,
         "requirement_group": "elective",
+        "requirement_section": "elective",
+        "program_course_name_snapshot": null,
         "notes": "OWP501",
         "source_page": 2,
         "evidence_match": true,
@@ -317,6 +371,7 @@
       },
       {
         "course_code": null,
+        "catalog_entry_id": "entry_46f776b7d918931a",
         "opening_units": [
           "海工碩"
         ],
@@ -324,6 +379,8 @@
         "course_name_snapshot": "海事工程風險分析及管理",
         "credits_snapshot": 3.0,
         "requirement_group": "elective",
+        "requirement_section": "elective",
+        "program_course_name_snapshot": null,
         "notes": "MAEV596",
         "source_page": 2,
         "evidence_match": true,
@@ -332,6 +389,7 @@
       },
       {
         "course_code": null,
+        "catalog_entry_id": "entry_bd422b456c1ecaba",
         "opening_units": [
           "人科學程"
         ],
@@ -339,6 +397,8 @@
         "course_name_snapshot": "綠色港市與智慧港埠",
         "credits_snapshot": 3.0,
         "requirement_group": "elective",
+        "requirement_section": "elective",
+        "program_course_name_snapshot": null,
         "notes": "PIS1004",
         "source_page": 2,
         "evidence_match": true,
@@ -347,6 +407,7 @@
       },
       {
         "course_code": null,
+        "catalog_entry_id": "entry_341782b816125195",
         "opening_units": [
           "零組件研究所"
         ],
@@ -354,6 +415,8 @@
         "course_name_snapshot": "能源材料及元件",
         "credits_snapshot": 3.0,
         "requirement_group": "elective",
+        "requirement_section": "elective",
+        "program_course_name_snapshot": null,
         "notes": "PEC650",
         "source_page": 2,
         "evidence_match": true,
@@ -362,6 +425,7 @@
       },
       {
         "course_code": null,
+        "catalog_entry_id": "entry_da274f6db152c9a3",
         "opening_units": [
           "管理學院"
         ],
@@ -369,6 +433,8 @@
         "course_name_snapshot": "大數據分析、機器學習、與人工智慧方法",
         "credits_snapshot": 3.0,
         "requirement_group": "elective",
+        "requirement_section": "elective",
+        "program_course_name_snapshot": null,
         "notes": "CM503",
         "source_page": 2,
         "evidence_match": false,

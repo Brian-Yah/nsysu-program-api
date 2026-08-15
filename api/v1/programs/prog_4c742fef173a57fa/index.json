@@ -29,7 +29,7 @@
         "last_modified": "Tue, 23 Dec 2025 07:00:18 GMT",
         "content_length": 246856
       },
-      "parser_version": "0.2.1",
+      "parser_version": "0.2.2",
       "extractor_versions": {
         "pypdf": "6.10.0",
         "pdfplumber": "0.11.9"
@@ -47,6 +47,7 @@
     "course_catalog": [
       {
         "course_code": null,
+        "catalog_entry_id": "entry_c8092a80d832fc0d",
         "opening_units": [
           "博雅中心"
         ],
@@ -54,6 +55,8 @@
         "course_name_snapshot": "大型語言模型及其社會應用",
         "credits_snapshot": 2.0,
         "requirement_group": "core",
+        "requirement_section": "core",
+        "program_course_name_snapshot": null,
         "notes": "博雅向度四",
         "source_page": 1,
         "evidence_match": true,
@@ -62,6 +65,7 @@
       },
       {
         "course_code": null,
+        "catalog_entry_id": "entry_b844f0e9bfbf1066",
         "opening_units": [
           "博雅中心"
         ],
@@ -69,6 +73,8 @@
         "course_name_snapshot": "雙向交響:當科技遇見人文",
         "credits_snapshot": 3.0,
         "requirement_group": "core",
+        "requirement_section": "core",
+        "program_course_name_snapshot": null,
         "notes": "博雅向度四",
         "source_page": 1,
         "evidence_match": true,
@@ -77,6 +83,7 @@
       },
       {
         "course_code": null,
+        "catalog_entry_id": "entry_9be02dd80e6e59c9",
         "opening_units": [
           "博雅中心"
         ],
@@ -84,6 +91,8 @@
         "course_name_snapshot": "行動科技與社會",
         "credits_snapshot": 3.0,
         "requirement_group": "core",
+        "requirement_section": "core",
+        "program_course_name_snapshot": null,
         "notes": "博雅向度四",
         "source_page": 1,
         "evidence_match": true,
@@ -92,6 +101,7 @@
       },
       {
         "course_code": null,
+        "catalog_entry_id": "entry_b0475e615e0971bd",
         "opening_units": [
           "博雅中心"
         ],
@@ -99,6 +109,8 @@
         "course_name_snapshot": "科學、媒體與文化",
         "credits_snapshot": 3.0,
         "requirement_group": "core",
+        "requirement_section": "core",
+        "program_course_name_snapshot": null,
         "notes": "博雅向度四",
         "source_page": 1,
         "evidence_match": true,
@@ -107,6 +119,7 @@
       },
       {
         "course_code": null,
+        "catalog_entry_id": "entry_d2ab54e3c6a3fc3a",
         "opening_units": [
           "博雅中心"
         ],
@@ -114,6 +127,8 @@
         "course_name_snapshot": "射擊運動與硬體科技",
         "credits_snapshot": 3.0,
         "requirement_group": "core",
+        "requirement_section": "core",
+        "program_course_name_snapshot": null,
         "notes": "博雅向度四",
         "source_page": 1,
         "evidence_match": true,
@@ -122,6 +137,7 @@
       },
       {
         "course_code": null,
+        "catalog_entry_id": "entry_e2d7f0762c44bf56",
         "opening_units": [
           "博雅中心"
         ],
@@ -129,6 +145,8 @@
         "course_name_snapshot": "橘子蘋果統計學",
         "credits_snapshot": 3.0,
         "requirement_group": "core",
+        "requirement_section": "core",
+        "program_course_name_snapshot": null,
         "notes": "博雅向度五",
         "source_page": 1,
         "evidence_match": true,
@@ -137,6 +155,7 @@
       },
       {
         "course_code": null,
+        "catalog_entry_id": "entry_abc3329ac2a84981",
         "opening_units": [
           "博雅中心"
         ],
@@ -144,6 +163,8 @@
         "course_name_snapshot": "永續生活理念UX/UI設計實務",
         "credits_snapshot": 3.0,
         "requirement_group": "core",
+        "requirement_section": "core",
+        "program_course_name_snapshot": null,
         "notes": "博雅向度六",
         "source_page": 1,
         "evidence_match": true,
@@ -152,6 +173,7 @@
       },
       {
         "course_code": null,
+        "catalog_entry_id": "entry_927e6109c7aad4b2",
         "opening_units": [
           "教育部 AI聯盟",
           "博雅中心"
@@ -160,6 +182,8 @@
         "course_name_snapshot": "人工智慧導論",
         "credits_snapshot": 3.0,
         "requirement_group": "core",
+        "requirement_section": "core",
+        "program_course_name_snapshot": null,
         "notes": "臺灣大專院校人工智慧學程聯盟學分學程〈人工智慧探索應用〉博雅向度五",
         "source_page": 1,
         "evidence_match": true,
@@ -168,6 +192,7 @@
       },
       {
         "course_code": null,
+        "catalog_entry_id": "entry_01d35a1c0d41eb9d",
         "opening_units": [
           "教育部 AI聯盟",
           "博雅中心"
@@ -176,6 +201,8 @@
         "course_name_snapshot": "基礎程式設計(C++)",
         "credits_snapshot": 3.0,
         "requirement_group": "core",
+        "requirement_section": "core",
+        "program_course_name_snapshot": null,
         "notes": "〈人工智慧探索應用〉博雅向度五",
         "source_page": 1,
         "evidence_match": true,
@@ -184,6 +211,7 @@
       },
       {
         "course_code": null,
+        "catalog_entry_id": "entry_7492ded0ab22df11",
         "opening_units": [
           "教育部 AI聯盟",
           "博雅中心"
@@ -192,6 +220,8 @@
         "course_name_snapshot": "統計學暨實習",
         "credits_snapshot": 4.0,
         "requirement_group": "core",
+        "requirement_section": "core",
+        "program_course_name_snapshot": null,
         "notes": "〈人工智慧工業應用〉博雅向度五",
         "source_page": 1,
         "evidence_match": true,
@@ -200,6 +230,7 @@
       },
       {
         "course_code": null,
+        "catalog_entry_id": "entry_55d391beb6c8641e",
         "opening_units": [
           "教育部 AI聯盟",
           "博雅中心"
@@ -208,6 +239,8 @@
         "course_name_snapshot": "生成式人工智慧與機器學習導論",
         "credits_snapshot": 3.0,
         "requirement_group": "core",
+        "requirement_section": "core",
+        "program_course_name_snapshot": null,
         "notes": "〈人工智慧工業應用〉〈人工智慧視覺技術〉博雅向度五",
         "source_page": 1,
         "evidence_match": true,
@@ -216,6 +249,7 @@
       },
       {
         "course_code": null,
+        "catalog_entry_id": "entry_3efe43f5e595c95a",
         "opening_units": [
           "教育部AI 聯盟",
           "博雅中心"
@@ -224,6 +258,8 @@
         "course_name_snapshot": "機率與統計",
         "credits_snapshot": 3.0,
         "requirement_group": "core",
+        "requirement_section": "core",
+        "program_course_name_snapshot": null,
         "notes": "〈人工智慧探索應用〉博雅向度五",
         "source_page": 1,
         "evidence_match": true,
@@ -232,6 +268,7 @@
       },
       {
         "course_code": null,
+        "catalog_entry_id": "entry_d6e0a31f0b4c818a",
         "opening_units": [
           "教育部AI 聯盟",
           "博雅中心"
@@ -240,6 +277,8 @@
         "course_name_snapshot": "生成式人工智慧的人文導論",
         "credits_snapshot": 3.0,
         "requirement_group": "core",
+        "requirement_section": "core",
+        "program_course_name_snapshot": null,
         "notes": "〈人工智慧自然語言技術〉博雅向度四",
         "source_page": 1,
         "evidence_match": true,
@@ -248,6 +287,7 @@
       },
       {
         "course_code": null,
+        "catalog_entry_id": "entry_d85c29bd0570d963",
         "opening_units": [
           "教育部AI 聯盟",
           "博雅中心"
@@ -256,6 +296,8 @@
         "course_name_snapshot": "生成式AI:文字與圖像生成的原理與實務",
         "credits_snapshot": 3.0,
         "requirement_group": "core",
+        "requirement_section": "core",
+        "program_course_name_snapshot": null,
         "notes": "〈人工智慧自然語言技術〉博雅向度四",
         "source_page": 1,
         "evidence_match": false,
@@ -264,6 +306,7 @@
       },
       {
         "course_code": null,
+        "catalog_entry_id": "entry_8f7f0dbd4a0af0b8",
         "opening_units": [
           "教育部AI 聯盟",
           "博雅中心"
@@ -272,6 +315,8 @@
         "course_name_snapshot": "人工智慧倫理",
         "credits_snapshot": 3.0,
         "requirement_group": "core",
+        "requirement_section": "core",
+        "program_course_name_snapshot": null,
         "notes": "〈人工智慧探索應用〉〈人工智慧工業應用〉〈人工智慧自然語言技術〉〈人工智慧視覺技術〉博雅向度二",
         "source_page": 1,
         "evidence_match": true,
@@ -280,6 +325,7 @@
       },
       {
         "course_code": null,
+        "catalog_entry_id": "entry_00edcdbca3189ed4",
         "opening_units": [
           "教育部AI 聯盟"
         ],
@@ -287,6 +333,8 @@
         "course_name_snapshot": "深度學習",
         "credits_snapshot": 3.0,
         "requirement_group": "core",
+        "requirement_section": "core",
+        "program_course_name_snapshot": null,
         "notes": "〈人工智慧視覺技術〉",
         "source_page": 1,
         "evidence_match": true,
@@ -295,6 +343,7 @@
       },
       {
         "course_code": null,
+        "catalog_entry_id": "entry_a59d2b434d2b8150",
         "opening_units": [
           "教育部AI 聯盟"
         ],
@@ -302,6 +351,8 @@
         "course_name_snapshot": "機器導航與探索",
         "credits_snapshot": 3.0,
         "requirement_group": "core",
+        "requirement_section": "core",
+        "program_course_name_snapshot": null,
         "notes": "〈人工智慧探索應用〉〈人工智慧工業應用〉〈人工智慧視覺技術〉",
         "source_page": 1,
         "evidence_match": true,
@@ -310,6 +361,7 @@
       },
       {
         "course_code": null,
+        "catalog_entry_id": "entry_5199f928ed5daac8",
         "opening_units": [
           "跨校選課"
         ],
@@ -317,6 +369,8 @@
         "course_name_snapshot": "人類與AI 的未來合作",
         "credits_snapshot": 2.0,
         "requirement_group": "elective",
+        "requirement_section": "elective",
+        "program_course_name_snapshot": null,
         "notes": "高醫開設",
         "source_page": 2,
         "evidence_match": true,
@@ -325,6 +379,7 @@
       },
       {
         "course_code": null,
+        "catalog_entry_id": "entry_c70206d5b7c3274e",
         "opening_units": [
           "跨校選課"
         ],
@@ -332,6 +387,8 @@
         "course_name_snapshot": "人工智慧概論與醫療應用",
         "credits_snapshot": 2.0,
         "requirement_group": "elective",
+        "requirement_section": "elective",
+        "program_course_name_snapshot": null,
         "notes": "高醫開設",
         "source_page": 2,
         "evidence_match": true,
@@ -340,6 +397,7 @@
       },
       {
         "course_code": null,
+        "catalog_entry_id": "entry_ab9524b733416e13",
         "opening_units": [
           "博雅中心"
         ],
@@ -347,6 +405,8 @@
         "course_name_snapshot": "智慧農業",
         "credits_snapshot": 3.0,
         "requirement_group": "elective",
+        "requirement_section": "elective",
+        "program_course_name_snapshot": null,
         "notes": "博雅向度六",
         "source_page": 2,
         "evidence_match": true,
@@ -355,6 +415,7 @@
       },
       {
         "course_code": null,
+        "catalog_entry_id": "entry_ebbcaa7b5804b8fc",
         "opening_units": [
           "博雅中心"
         ],
@@ -362,6 +423,8 @@
         "course_name_snapshot": "科學的本質",
         "credits_snapshot": 2.0,
         "requirement_group": "elective",
+        "requirement_section": "elective",
+        "program_course_name_snapshot": null,
         "notes": "博雅向度五",
         "source_page": 2,
         "evidence_match": true,
@@ -370,6 +433,7 @@
       },
       {
         "course_code": null,
+        "catalog_entry_id": "entry_55c74983977495c3",
         "opening_units": [
           "博雅中心"
         ],
@@ -377,6 +441,8 @@
         "course_name_snapshot": "烹飪與科學",
         "credits_snapshot": 2.0,
         "requirement_group": "elective",
+        "requirement_section": "elective",
+        "program_course_name_snapshot": null,
         "notes": "博雅向度五",
         "source_page": 2,
         "evidence_match": true,
@@ -385,6 +451,7 @@
       },
       {
         "course_code": null,
+        "catalog_entry_id": "entry_66448d3874cb6df5",
         "opening_units": [
           "博雅中心"
         ],
@@ -392,6 +459,8 @@
         "course_name_snapshot": "創新科技應用服務",
         "credits_snapshot": 3.0,
         "requirement_group": "elective",
+        "requirement_section": "elective",
+        "program_course_name_snapshot": null,
         "notes": "博雅向度四",
         "source_page": 2,
         "evidence_match": true,
@@ -400,6 +469,7 @@
       },
       {
         "course_code": null,
+        "catalog_entry_id": "entry_68e1e4c63549633a",
         "opening_units": [
           "博雅中心"
         ],
@@ -407,6 +477,8 @@
         "course_name_snapshot": "故事創意與 AI 繪本創作",
         "credits_snapshot": 3.0,
         "requirement_group": "elective",
+        "requirement_section": "elective",
+        "program_course_name_snapshot": null,
         "notes": "博雅向度四",
         "source_page": 2,
         "evidence_match": true,
@@ -415,6 +487,7 @@
       },
       {
         "course_code": null,
+        "catalog_entry_id": "entry_c7d7d9e4d10ce3a2",
         "opening_units": [
           "博雅中心"
         ],
@@ -422,6 +495,8 @@
         "course_name_snapshot": "社會文化分析",
         "credits_snapshot": 3.0,
         "requirement_group": "elective",
+        "requirement_section": "elective",
+        "program_course_name_snapshot": null,
         "notes": "博雅向度三",
         "source_page": 2,
         "evidence_match": true,
@@ -430,6 +505,7 @@
       },
       {
         "course_code": null,
+        "catalog_entry_id": "entry_f44fb8f1985c5216",
         "opening_units": [
           "博雅中心"
         ],
@@ -437,6 +513,8 @@
         "course_name_snapshot": "視覺文化與哲學反思",
         "credits_snapshot": 3.0,
         "requirement_group": "elective",
+        "requirement_section": "elective",
+        "program_course_name_snapshot": null,
         "notes": "博雅向度二",
         "source_page": 2,
         "evidence_match": true,
@@ -445,6 +523,7 @@
       },
       {
         "course_code": null,
+        "catalog_entry_id": "entry_c79057ab8155e37a",
         "opening_units": [
           "博雅中心"
         ],
@@ -452,6 +531,8 @@
         "course_name_snapshot": "普世人權:觀念與挑戰",
         "credits_snapshot": 3.0,
         "requirement_group": "elective",
+        "requirement_section": "elective",
+        "program_course_name_snapshot": null,
         "notes": "博雅向度二",
         "source_page": 2,
         "evidence_match": true,
@@ -460,6 +541,7 @@
       },
       {
         "course_code": null,
+        "catalog_entry_id": "entry_2d68ee1bcc395caf",
         "opening_units": [
           "博雅中心"
         ],
@@ -467,6 +549,8 @@
         "course_name_snapshot": "邏輯推理與創造性思維",
         "credits_snapshot": 3.0,
         "requirement_group": "elective",
+        "requirement_section": "elective",
+        "program_course_name_snapshot": null,
         "notes": "博雅向度二",
         "source_page": 2,
         "evidence_match": true,
@@ -475,6 +559,7 @@
       },
       {
         "course_code": null,
+        "catalog_entry_id": "entry_16ba04867774bc8d",
         "opening_units": [
           "博雅中心"
         ],
@@ -482,6 +567,8 @@
         "course_name_snapshot": "從國際新聞學人文地理",
         "credits_snapshot": 3.0,
         "requirement_group": "elective",
+        "requirement_section": "elective",
+        "program_course_name_snapshot": null,
         "notes": "博雅向度一",
         "source_page": 2,
         "evidence_match": true,
@@ -490,6 +577,7 @@
       },
       {
         "course_code": null,
+        "catalog_entry_id": "entry_06c6a5ae22ec271a",
         "opening_units": [
           "博雅中心"
         ],
@@ -497,6 +585,8 @@
         "course_name_snapshot": "莎劇與文化詮釋",
         "credits_snapshot": 3.0,
         "requirement_group": "elective",
+        "requirement_section": "elective",
+        "program_course_name_snapshot": null,
         "notes": "博雅向度一",
         "source_page": 2,
         "evidence_match": true,
@@ -505,6 +595,7 @@
       },
       {
         "course_code": null,
+        "catalog_entry_id": "entry_e28f8b02ba40a7a2",
         "opening_units": [
           "基礎中心"
         ],
@@ -512,6 +603,8 @@
         "course_name_snapshot": "玩轉AIoT:智慧生活應用",
         "credits_snapshot": 3.0,
         "requirement_group": "elective",
+        "requirement_section": "elective",
+        "program_course_name_snapshot": null,
         "notes": "跨院(通)",
         "source_page": 2,
         "evidence_match": true,
@@ -520,6 +613,7 @@
       },
       {
         "course_code": null,
+        "catalog_entry_id": "entry_f3a9ba63efaf7d53",
         "opening_units": [
           "基礎中心"
         ],
@@ -527,6 +621,8 @@
         "course_name_snapshot": "R程式語言入門",
         "credits_snapshot": 3.0,
         "requirement_group": "elective",
+        "requirement_section": "elective",
+        "program_course_name_snapshot": null,
         "notes": "跨院(醫)",
         "source_page": 2,
         "evidence_match": true,
@@ -535,6 +631,7 @@
       },
       {
         "course_code": null,
+        "catalog_entry_id": "entry_a6526fdf8f28d733",
         "opening_units": [
           "基礎中心"
         ],
@@ -542,6 +639,8 @@
         "course_name_snapshot": "機率與統計",
         "credits_snapshot": 3.0,
         "requirement_group": "elective",
+        "requirement_section": "elective",
+        "program_course_name_snapshot": null,
         "notes": "跨院(工)",
         "source_page": 2,
         "evidence_match": true,

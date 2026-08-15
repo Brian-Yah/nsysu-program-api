@@ -23,7 +23,7 @@
       "last_modified": "Wed, 20 Dec 2023 02:46:22 GMT",
       "content_length": 138458
     },
-    "parser_version": "0.2.1",
+    "parser_version": "0.2.2",
     "extractor_versions": {
       "pypdf": "6.10.0",
       "pdfplumber": "0.11.9"
@@ -41,6 +41,7 @@
   "course_catalog": [
     {
       "course_code": null,
+      "catalog_entry_id": "entry_8c4f1f6fb4f7fcbc",
       "opening_units": [
         "精準所"
       ],
@@ -48,6 +49,8 @@
       "course_name_snapshot": "創新精準醫學導論",
       "credits_snapshot": 3.0,
       "requirement_group": "core",
+      "requirement_section": "core",
+      "program_course_name_snapshot": null,
       "notes": "",
       "source_page": 1,
       "evidence_match": true,
@@ -56,6 +59,7 @@
     },
     {
       "course_code": null,
+      "catalog_entry_id": "entry_4ef1f89ef6561e77",
       "opening_units": [
         "精準所",
         "生醫所",
@@ -65,6 +69,8 @@
       "course_name_snapshot": "生物資訊學",
       "credits_snapshot": 3.0,
       "requirement_group": "core",
+      "requirement_section": "core",
+      "program_course_name_snapshot": null,
       "notes": "",
       "source_page": 1,
       "evidence_match": true,
@@ -73,6 +79,7 @@
     },
     {
       "course_code": null,
+      "catalog_entry_id": "entry_301ea1e30c1bd73e",
       "opening_units": [
         "精準所"
       ],
@@ -80,6 +87,8 @@
       "course_name_snapshot": "生醫資訊處理實務",
       "credits_snapshot": 3.0,
       "requirement_group": "core",
+      "requirement_section": "core",
+      "program_course_name_snapshot": null,
       "notes": "",
       "source_page": 1,
       "evidence_match": true,
@@ -88,6 +97,7 @@
     },
     {
       "course_code": null,
+      "catalog_entry_id": "entry_8e808b5659dc3f41",
       "opening_units": [
         "精準所"
       ],
@@ -95,6 +105,8 @@
       "course_name_snapshot": "生化與分子生物學",
       "credits_snapshot": 3.0,
       "requirement_group": "core",
+      "requirement_section": "core",
+      "program_course_name_snapshot": null,
       "notes": "",
       "source_page": 1,
       "evidence_match": true,
@@ -103,6 +115,7 @@
     },
     {
       "course_code": null,
+      "catalog_entry_id": "entry_70e3015e4491b305",
       "opening_units": [
         "精準所"
       ],
@@ -110,6 +123,8 @@
       "course_name_snapshot": "進階生物醫學統計學",
       "credits_snapshot": 3.0,
       "requirement_group": "core",
+      "requirement_section": "core",
+      "program_course_name_snapshot": null,
       "notes": "",
       "source_page": 1,
       "evidence_match": true,
@@ -118,6 +133,7 @@
     },
     {
       "course_code": null,
+      "catalog_entry_id": "entry_a655ad68d202f717",
       "opening_units": [
         "精準所"
       ],
@@ -125,6 +141,8 @@
       "course_name_snapshot": "癌症生物學",
       "credits_snapshot": 3.0,
       "requirement_group": "core",
+      "requirement_section": "core",
+      "program_course_name_snapshot": null,
       "notes": "",
       "source_page": 1,
       "evidence_match": true,

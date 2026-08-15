@@ -29,7 +29,7 @@
         "last_modified": "Fri, 31 May 2024 07:07:14 GMT",
         "content_length": 92437
       },
-      "parser_version": "0.2.1",
+      "parser_version": "0.2.2",
       "extractor_versions": {
         "pypdf": "6.10.0",
         "pdfplumber": "0.11.9"
@@ -47,6 +47,7 @@
     "course_catalog": [
       {
         "course_code": null,
+        "catalog_entry_id": "entry_49737d70b5d89415",
         "opening_units": [
           "生科系"
         ],
@@ -54,6 +55,8 @@
         "course_name_snapshot": "生態學",
         "credits_snapshot": 3.0,
         "requirement_group": "core",
+        "requirement_section": "core",
+        "program_course_name_snapshot": null,
         "notes": "生態學(3)或生物多樣性與保育(2) 二擇一",
         "source_page": 1,
         "evidence_match": true,
@@ -62,6 +65,7 @@
       },
       {
         "course_code": null,
+        "catalog_entry_id": "entry_971e25fe7afae3d4",
         "opening_units": [
           "生科系"
         ],
@@ -69,7 +73,9 @@
         "course_name_snapshot": "生物多樣性與保育",
         "credits_snapshot": 2.0,
         "requirement_group": "core",
-        "notes": "",
+        "requirement_section": "core",
+        "program_course_name_snapshot": null,
+        "notes": "生態學(3)或生物多樣性與保育(2) 二擇一",
         "source_page": 1,
         "evidence_match": true,
         "validation_status": "needs_course_code_verification",
@@ -77,6 +83,7 @@
       },
       {
         "course_code": null,
+        "catalog_entry_id": "entry_d2379ef4fbbe4e8b",
         "opening_units": [
           "人科學程"
         ],
@@ -84,6 +91,8 @@
         "course_name_snapshot": "設計思考",
         "credits_snapshot": 3.0,
         "requirement_group": "core",
+        "requirement_section": "core",
+        "program_course_name_snapshot": null,
         "notes": "設計思考(3)、創意思考與問題解決(3)或創造力與社會創新(3)三擇一",
         "source_page": 1,
         "evidence_match": true,
@@ -92,6 +101,7 @@
       },
       {
         "course_code": null,
+        "catalog_entry_id": "entry_78dec35435016cc4",
         "opening_units": [
           "機電系"
         ],
@@ -99,7 +109,9 @@
         "course_name_snapshot": "創意思考與問題解決",
         "credits_snapshot": 3.0,
         "requirement_group": "core",
-        "notes": "",
+        "requirement_section": "core",
+        "program_course_name_snapshot": null,
+        "notes": "設計思考(3)、創意思考與問題解決(3)或創造力與社會創新(3)三擇一",
         "source_page": 1,
         "evidence_match": true,
         "validation_status": "needs_course_code_verification",
@@ -107,6 +119,7 @@
       },
       {
         "course_code": null,
+        "catalog_entry_id": "entry_e863591addd61c40",
         "opening_units": [
           "西灣學院"
         ],
@@ -114,7 +127,9 @@
         "course_name_snapshot": "創造力與社會創新",
         "credits_snapshot": 3.0,
         "requirement_group": "core",
-        "notes": "",
+        "requirement_section": "core",
+        "program_course_name_snapshot": null,
+        "notes": "設計思考(3)、創意思考與問題解決(3)或創造力與社會創新(3)三擇一",
         "source_page": 1,
         "evidence_match": true,
         "validation_status": "needs_course_code_verification",
@@ -122,6 +137,7 @@
       },
       {
         "course_code": null,
+        "catalog_entry_id": "entry_dfc3572eaa929a42",
         "opening_units": [
           "生科系"
         ],
@@ -129,6 +145,8 @@
         "course_name_snapshot": "動物行為學概論",
         "credits_snapshot": 2.0,
         "requirement_group": "elective",
+        "requirement_section": "elective",
+        "program_course_name_snapshot": null,
         "notes": "",
         "source_page": 1,
         "evidence_match": true,
@@ -137,6 +155,7 @@
       },
       {
         "course_code": null,
+        "catalog_entry_id": "entry_15a968dccc427431",
         "opening_units": [
           "生科系"
         ],
@@ -144,6 +163,8 @@
         "course_name_snapshot": "生理生態學概論",
         "credits_snapshot": 3.0,
         "requirement_group": "elective",
+        "requirement_section": "elective",
+        "program_course_name_snapshot": null,
         "notes": "",
         "source_page": 1,
         "evidence_match": true,
@@ -152,6 +173,7 @@
       },
       {
         "course_code": null,
+        "catalog_entry_id": "entry_2c2dfac12bfa5bec",
         "opening_units": [
           "生科系"
         ],
@@ -159,6 +181,8 @@
         "course_name_snapshot": "族群生態學概論",
         "credits_snapshot": 3.0,
         "requirement_group": "elective",
+        "requirement_section": "elective",
+        "program_course_name_snapshot": null,
         "notes": "",
         "source_page": 1,
         "evidence_match": true,
@@ -167,6 +191,7 @@
       },
       {
         "course_code": null,
+        "catalog_entry_id": "entry_0cd6a53d2d850798",
         "opening_units": [
           "生科系"
         ],
@@ -174,6 +199,8 @@
         "course_name_snapshot": "古生物學和古生態學概論",
         "credits_snapshot": 3.0,
         "requirement_group": "elective",
+        "requirement_section": "elective",
+        "program_course_name_snapshot": null,
         "notes": "",
         "source_page": 1,
         "evidence_match": true,
@@ -182,6 +209,7 @@
       },
       {
         "course_code": null,
+        "catalog_entry_id": "entry_1dd313f335da66ef",
         "opening_units": [
           "生科系"
         ],
@@ -189,6 +217,8 @@
         "course_name_snapshot": "昆蟲生態與行為學",
         "credits_snapshot": 3.0,
         "requirement_group": "elective",
+        "requirement_section": "elective",
+        "program_course_name_snapshot": null,
         "notes": "",
         "source_page": 1,
         "evidence_match": true,
@@ -197,6 +227,7 @@
       },
       {
         "course_code": null,
+        "catalog_entry_id": "entry_7e55ff13154015af",
         "opening_units": [
           "生科系"
         ],
@@ -204,6 +235,8 @@
         "course_name_snapshot": "動植物交互作用生態學",
         "credits_snapshot": 3.0,
         "requirement_group": "elective",
+        "requirement_section": "elective",
+        "program_course_name_snapshot": null,
         "notes": "",
         "source_page": 1,
         "evidence_match": true,
@@ -212,6 +245,7 @@
       },
       {
         "course_code": null,
+        "catalog_entry_id": "entry_b463e1694780d3dd",
         "opening_units": [
           "生科系"
         ],
@@ -219,6 +253,8 @@
         "course_name_snapshot": "森林生態學",
         "credits_snapshot": 2.0,
         "requirement_group": "elective",
+        "requirement_section": "elective",
+        "program_course_name_snapshot": null,
         "notes": "",
         "source_page": 1,
         "evidence_match": true,
@@ -227,6 +263,7 @@
       },
       {
         "course_code": null,
+        "catalog_entry_id": "entry_0c36108e6e9ba0b5",
         "opening_units": [
           "社會創新所"
         ],
@@ -234,6 +271,8 @@
         "course_name_snapshot": "全球與在地永續發展議題探討",
         "credits_snapshot": 3.0,
         "requirement_group": "elective",
+        "requirement_section": "elective",
+        "program_course_name_snapshot": null,
         "notes": "",
         "source_page": 1,
         "evidence_match": false,
@@ -244,7 +283,53 @@
     "structured_requirements": {
       "minimum_total_credits": 9,
       "core_credits_text_value": 5,
-      "minimum_outside_home_department_credits": 3
+      "minimum_outside_home_department_credits": 3,
+      "entry_selection_constraints": [
+        {
+          "constraint_id": "constraint_05ba4f2b9523fd7e",
+          "kind": "select_entries",
+          "catalog_entry_ids": [
+            "entry_d2379ef4fbbe4e8b",
+            "entry_78dec35435016cc4",
+            "entry_e863591addd61c40"
+          ],
+          "course_names": [
+            "設計思考",
+            "創意思考與問題解決",
+            "創造力與社會創新"
+          ],
+          "min_entries": 1,
+          "max_entries": 1,
+          "declared_option_count": 3,
+          "option_count_matches": true,
+          "requirement_group": "core",
+          "requirement_section": "core",
+          "source_page": 1,
+          "source_text": "設計思考(3)、創意思考與問題解決(3)或創造力與社會創新(3)三擇一",
+          "validation_status": "source_text_match"
+        },
+        {
+          "constraint_id": "constraint_e24561218931e6a3",
+          "kind": "select_entries",
+          "catalog_entry_ids": [
+            "entry_49737d70b5d89415",
+            "entry_971e25fe7afae3d4"
+          ],
+          "course_names": [
+            "生態學",
+            "生物多樣性與保育"
+          ],
+          "min_entries": 1,
+          "max_entries": 1,
+          "declared_option_count": 2,
+          "option_count_matches": true,
+          "requirement_group": "core",
+          "requirement_section": "core",
+          "source_page": 1,
+          "source_text": "生態學(3)或生物多樣性與保育(2) 二擇一",
+          "validation_status": "source_text_match"
+        }
+      ]
     }
   }
 }

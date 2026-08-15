@@ -29,7 +29,7 @@
         "last_modified": "Tue, 23 Dec 2025 06:57:00 GMT",
         "content_length": 240337
       },
-      "parser_version": "0.2.1",
+      "parser_version": "0.2.2",
       "extractor_versions": {
         "pypdf": "6.10.0",
         "pdfplumber": "0.11.9"
@@ -45,6 +45,7 @@
     "course_catalog": [
       {
         "course_code": null,
+        "catalog_entry_id": "entry_adee49f454196b4c",
         "opening_units": [
           "企管系",
           "人管所"
@@ -53,6 +54,8 @@
         "course_name_snapshot": "組織行為",
         "credits_snapshot": 3.0,
         "requirement_group": "core",
+        "requirement_section": "core",
+        "program_course_name_snapshot": null,
         "notes": "",
         "source_page": 1,
         "evidence_match": true,
@@ -61,6 +64,7 @@
       },
       {
         "course_code": null,
+        "catalog_entry_id": "entry_c46b5b5f6ed70242",
         "opening_units": [
           "企管系"
         ],
@@ -68,6 +72,8 @@
         "course_name_snapshot": "勞工法與勞工問題",
         "credits_snapshot": 3.0,
         "requirement_group": "core",
+        "requirement_section": "core",
+        "program_course_name_snapshot": null,
         "notes": "",
         "source_page": 1,
         "evidence_match": true,
@@ -76,6 +82,7 @@
       },
       {
         "course_code": null,
+        "catalog_entry_id": "entry_e973061106973b4f",
         "opening_units": [
           "企管系"
         ],
@@ -83,6 +90,8 @@
         "course_name_snapshot": "人力資源管理",
         "credits_snapshot": 3.0,
         "requirement_group": "core",
+        "requirement_section": "core",
+        "program_course_name_snapshot": null,
         "notes": "",
         "source_page": 1,
         "evidence_match": true,
@@ -91,6 +100,7 @@
       },
       {
         "course_code": null,
+        "catalog_entry_id": "entry_8beee2c2bf4b9de4",
         "opening_units": [
           "企管碩"
         ],
@@ -98,6 +108,8 @@
         "course_name_snapshot": "組織理論與管理",
         "credits_snapshot": 3.0,
         "requirement_group": "core",
+        "requirement_section": "core",
+        "program_course_name_snapshot": null,
         "notes": "",
         "source_page": 1,
         "evidence_match": true,
@@ -106,6 +118,7 @@
       },
       {
         "course_code": null,
+        "catalog_entry_id": "entry_14274fc367a9ac74",
         "opening_units": [
           "企管系"
         ],
@@ -113,6 +126,8 @@
         "course_name_snapshot": "創意思考",
         "credits_snapshot": 3.0,
         "requirement_group": "elective",
+        "requirement_section": "elective",
+        "program_course_name_snapshot": null,
         "notes": "",
         "source_page": 1,
         "evidence_match": true,
@@ -121,6 +136,7 @@
       },
       {
         "course_code": null,
+        "catalog_entry_id": "entry_b4bcdca4f7b3ea5a",
         "opening_units": [
           "企管系"
         ],
@@ -128,6 +144,8 @@
         "course_name_snapshot": "策略管理",
         "credits_snapshot": 3.0,
         "requirement_group": "elective",
+        "requirement_section": "elective",
+        "program_course_name_snapshot": null,
         "notes": "",
         "source_page": 1,
         "evidence_match": true,
@@ -136,6 +154,7 @@
       },
       {
         "course_code": null,
+        "catalog_entry_id": "entry_adb4bf94aad4c671",
         "opening_units": [
           "企管碩"
         ],
@@ -143,6 +162,8 @@
         "course_name_snapshot": "組織學習",
         "credits_snapshot": 3.0,
         "requirement_group": "elective",
+        "requirement_section": "elective",
+        "program_course_name_snapshot": null,
         "notes": "",
         "source_page": 1,
         "evidence_match": true,
@@ -151,6 +172,7 @@
       },
       {
         "course_code": null,
+        "catalog_entry_id": "entry_2620c5c769bbe028",
         "opening_units": [
           "企管碩"
         ],
@@ -158,6 +180,8 @@
         "course_name_snapshot": "組織理論與管理",
         "credits_snapshot": 3.0,
         "requirement_group": "elective",
+        "requirement_section": "elective",
+        "program_course_name_snapshot": null,
         "notes": "",
         "source_page": 1,
         "evidence_match": true,
@@ -166,6 +190,7 @@
       },
       {
         "course_code": null,
+        "catalog_entry_id": "entry_0d73619e668ae2e3",
         "opening_units": [
           "企管碩"
         ],
@@ -173,6 +198,8 @@
         "course_name_snapshot": "快樂管理學",
         "credits_snapshot": 3.0,
         "requirement_group": "elective",
+        "requirement_section": "elective",
+        "program_course_name_snapshot": null,
         "notes": "",
         "source_page": 1,
         "evidence_match": true,
@@ -181,6 +208,7 @@
       },
       {
         "course_code": null,
+        "catalog_entry_id": "entry_8f9d563e9c475034",
         "opening_units": [
           "人管所"
         ],
@@ -188,6 +216,8 @@
         "course_name_snapshot": "策略性任用管理",
         "credits_snapshot": 3.0,
         "requirement_group": "elective",
+        "requirement_section": "elective",
+        "program_course_name_snapshot": null,
         "notes": "",
         "source_page": 1,
         "evidence_match": true,
@@ -196,6 +226,7 @@
       },
       {
         "course_code": null,
+        "catalog_entry_id": "entry_014ba1ca8c9b39c2",
         "opening_units": [
           "社科院"
         ],
@@ -203,6 +234,8 @@
         "course_name_snapshot": "心理學",
         "credits_snapshot": 3.0,
         "requirement_group": "elective",
+        "requirement_section": "elective",
+        "program_course_name_snapshot": null,
         "notes": "",
         "source_page": 1,
         "evidence_match": true,
@@ -211,6 +244,7 @@
       },
       {
         "course_code": null,
+        "catalog_entry_id": "entry_05707bb8e57bb5a8",
         "opening_units": [
           "企管碩"
         ],
@@ -218,6 +252,8 @@
         "course_name_snapshot": "工作心理學",
         "credits_snapshot": 3.0,
         "requirement_group": "elective",
+        "requirement_section": "elective",
+        "program_course_name_snapshot": null,
         "notes": "",
         "source_page": 1,
         "evidence_match": true,
@@ -226,6 +262,7 @@
       },
       {
         "course_code": null,
+        "catalog_entry_id": "entry_21db90a375d7a48e",
         "opening_units": [
           "企管碩"
         ],
@@ -233,6 +270,8 @@
         "course_name_snapshot": "倫理與領導",
         "credits_snapshot": 3.0,
         "requirement_group": "elective",
+        "requirement_section": "elective",
+        "program_course_name_snapshot": null,
         "notes": "",
         "source_page": 1,
         "evidence_match": true,
@@ -241,6 +280,7 @@
       },
       {
         "course_code": null,
+        "catalog_entry_id": "entry_9e91b9b7d49c7c7b",
         "opening_units": [
           "企管系"
         ],
@@ -248,6 +288,8 @@
         "course_name_snapshot": "人力資源專題研討(一)",
         "credits_snapshot": 2.0,
         "requirement_group": "elective",
+        "requirement_section": "elective",
+        "program_course_name_snapshot": null,
         "notes": "",
         "source_page": 1,
         "evidence_match": true,
@@ -256,6 +298,7 @@
       },
       {
         "course_code": null,
+        "catalog_entry_id": "entry_1987740b20b0bb29",
         "opening_units": [
           "企管系"
         ],
@@ -263,6 +306,8 @@
         "course_name_snapshot": "人力資源專題研討(二)",
         "credits_snapshot": 2.0,
         "requirement_group": "elective",
+        "requirement_section": "elective",
+        "program_course_name_snapshot": null,
         "notes": "",
         "source_page": 1,
         "evidence_match": true,
@@ -271,6 +316,7 @@
       },
       {
         "course_code": null,
+        "catalog_entry_id": "entry_2565613fb41d4f04",
         "opening_units": [
           "企管碩"
         ],
@@ -278,6 +324,8 @@
         "course_name_snapshot": "質性研究方法",
         "credits_snapshot": 3.0,
         "requirement_group": "elective",
+        "requirement_section": "elective",
+        "program_course_name_snapshot": null,
         "notes": "",
         "source_page": 1,
         "evidence_match": true,
@@ -286,6 +334,7 @@
       },
       {
         "course_code": null,
+        "catalog_entry_id": "entry_64304210dc765fff",
         "opening_units": [
           "管理學院"
         ],
@@ -293,6 +342,8 @@
         "course_name_snapshot": "倫理與社會責任",
         "credits_snapshot": 1.0,
         "requirement_group": "elective",
+        "requirement_section": "elective",
+        "program_course_name_snapshot": null,
         "notes": "(網路)",
         "source_page": 1,
         "evidence_match": true,
@@ -301,6 +352,7 @@
       },
       {
         "course_code": null,
+        "catalog_entry_id": "entry_6bc8d174f4c0e78b",
         "opening_units": [
           "人管所"
         ],
@@ -308,6 +360,8 @@
         "course_name_snapshot": "人力發展管理",
         "credits_snapshot": 3.0,
         "requirement_group": "elective",
+        "requirement_section": "elective",
+        "program_course_name_snapshot": null,
         "notes": "限大四以上學生選修",
         "source_page": 1,
         "evidence_match": true,
@@ -316,6 +370,7 @@
       },
       {
         "course_code": null,
+        "catalog_entry_id": "entry_d1ad5d369a9fd71a",
         "opening_units": [
           "人管所"
         ],
@@ -323,6 +378,8 @@
         "course_name_snapshot": "績效管理與人才發展",
         "credits_snapshot": 3.0,
         "requirement_group": "elective",
+        "requirement_section": "elective",
+        "program_course_name_snapshot": null,
         "notes": "限大四以上學生選修",
         "source_page": 1,
         "evidence_match": true,
@@ -331,6 +388,7 @@
       },
       {
         "course_code": null,
+        "catalog_entry_id": "entry_bf10679cc05e0605",
         "opening_units": [
           "企管系"
         ],
@@ -338,6 +396,8 @@
         "course_name_snapshot": "管理學",
         "credits_snapshot": 3.0,
         "requirement_group": "elective",
+        "requirement_section": "elective",
+        "program_course_name_snapshot": null,
         "notes": "",
         "source_page": 1,
         "evidence_match": true,
@@ -346,6 +406,7 @@
       },
       {
         "course_code": null,
+        "catalog_entry_id": "entry_cc1e1c14a6f4360f",
         "opening_units": [
           "社科院"
         ],
@@ -353,6 +414,8 @@
         "course_name_snapshot": "正向心理學",
         "credits_snapshot": 2.0,
         "requirement_group": "elective",
+        "requirement_section": "elective",
+        "program_course_name_snapshot": null,
         "notes": "",
         "source_page": 1,
         "evidence_match": true,
@@ -361,6 +424,7 @@
       },
       {
         "course_code": null,
+        "catalog_entry_id": "entry_3c194fc7a0beef23",
         "opening_units": [
           "管理學院"
         ],
@@ -368,6 +432,8 @@
         "course_name_snapshot": "管理學概論",
         "credits_snapshot": 1.0,
         "requirement_group": "elective",
+        "requirement_section": "elective",
+        "program_course_name_snapshot": null,
         "notes": "(網路)",
         "source_page": 1,
         "evidence_match": true,
@@ -376,6 +442,7 @@
       },
       {
         "course_code": null,
+        "catalog_entry_id": "entry_6d7585202401c99c",
         "opening_units": [
           "管理學院"
         ],
@@ -383,6 +450,8 @@
         "course_name_snapshot": "職涯準備",
         "credits_snapshot": 1.0,
         "requirement_group": "elective",
+        "requirement_section": "elective",
+        "program_course_name_snapshot": null,
         "notes": "",
         "source_page": 1,
         "evidence_match": true,
@@ -391,6 +460,7 @@
       },
       {
         "course_code": null,
+        "catalog_entry_id": "entry_a735edc268763ca6",
         "opening_units": [
           "管理學院"
         ],
@@ -398,6 +468,8 @@
         "course_name_snapshot": "倫理與社會責任的理論與實務",
         "credits_snapshot": 1.0,
         "requirement_group": "elective",
+        "requirement_section": "elective",
+        "program_course_name_snapshot": null,
         "notes": "",
         "source_page": 1,
         "evidence_match": true,
@@ -406,6 +478,7 @@
       },
       {
         "course_code": null,
+        "catalog_entry_id": "entry_ea648181faec1150",
         "opening_units": [
           "西灣學院"
         ],
@@ -413,6 +486,8 @@
         "course_name_snapshot": "職涯探索與實習",
         "credits_snapshot": 3.0,
         "requirement_group": "elective",
+        "requirement_section": "elective",
+        "program_course_name_snapshot": null,
         "notes": "",
         "source_page": 1,
         "evidence_match": true,
@@ -421,6 +496,7 @@
       },
       {
         "course_code": null,
+        "catalog_entry_id": "entry_ee46ad0e348b41d5",
         "opening_units": [
           "人管所"
         ],
@@ -428,6 +504,8 @@
         "course_name_snapshot": "員工意向調查",
         "credits_snapshot": 3.0,
         "requirement_group": "elective",
+        "requirement_section": "elective",
+        "program_course_name_snapshot": null,
         "notes": "",
         "source_page": 1,
         "evidence_match": true,
@@ -436,6 +514,7 @@
       },
       {
         "course_code": null,
+        "catalog_entry_id": "entry_e2a347e1c03b0614",
         "opening_units": [
           "人管所"
         ],
@@ -443,6 +522,8 @@
         "course_name_snapshot": "領導風格與決策",
         "credits_snapshot": 3.0,
         "requirement_group": "elective",
+        "requirement_section": "elective",
+        "program_course_name_snapshot": null,
         "notes": "",
         "source_page": 1,
         "evidence_match": true,
@@ -451,13 +532,16 @@
       },
       {
         "course_code": null,
+        "catalog_entry_id": "entry_a8562ca65da3df72",
         "opening_units": [
           "Coursera"
         ],
         "opening_unit_snapshot": "Coursera",
-        "course_name_snapshot": "Preparing to Manage Human Resources",
+        "course_name_snapshot": "Preparing to Manage HumanResources",
         "credits_snapshot": 1.0,
         "requirement_group": "elective",
+        "requirement_section": "elective",
+        "program_course_name_snapshot": null,
         "notes": "",
         "source_page": 1,
         "evidence_match": false,
@@ -466,13 +550,16 @@
       },
       {
         "course_code": null,
+        "catalog_entry_id": "entry_c0003e69f61b19cf",
         "opening_units": [
           "Coursera"
         ],
         "opening_unit_snapshot": "Coursera",
-        "course_name_snapshot": "Recruiting,Hiring,and Onboarding Employees",
+        "course_name_snapshot": "Recruiting,Hiring,andOnboarding Employees",
         "credits_snapshot": 1.0,
         "requirement_group": "elective",
+        "requirement_section": "elective",
+        "program_course_name_snapshot": null,
         "notes": "",
         "source_page": 1,
         "evidence_match": false,
@@ -481,13 +568,16 @@
       },
       {
         "course_code": null,
+        "catalog_entry_id": "entry_4587b8365308da86",
         "opening_units": [
           "Coursera"
         ],
         "opening_unit_snapshot": "Coursera",
-        "course_name_snapshot": "Managing Employee Performance",
+        "course_name_snapshot": "Managing EmployeePerformance",
         "credits_snapshot": 1.0,
         "requirement_group": "elective",
+        "requirement_section": "elective",
+        "program_course_name_snapshot": null,
         "notes": "",
         "source_page": 1,
         "evidence_match": false,
@@ -496,13 +586,16 @@
       },
       {
         "course_code": null,
+        "catalog_entry_id": "entry_34e5d7f9b6fa5779",
         "opening_units": [
           "Coursera"
         ],
         "opening_unit_snapshot": "Coursera",
-        "course_name_snapshot": "Managing Employee Compensation",
+        "course_name_snapshot": "Managing EmployeeCompensation",
         "credits_snapshot": 1.0,
         "requirement_group": "elective",
+        "requirement_section": "elective",
+        "program_course_name_snapshot": null,
         "notes": "",
         "source_page": 2,
         "evidence_match": false,
@@ -511,13 +604,16 @@
       },
       {
         "course_code": null,
+        "catalog_entry_id": "entry_631f32064fe188ad",
         "opening_units": [
           "Coursera"
         ],
         "opening_unit_snapshot": "Coursera",
-        "course_name_snapshot": "Human Resources Management Capstone: HR for People Managers",
+        "course_name_snapshot": "Human Resources ManagementCapstone: HR for PeopleManagers",
         "credits_snapshot": 1.0,
         "requirement_group": "elective",
+        "requirement_section": "elective",
+        "program_course_name_snapshot": null,
         "notes": "",
         "source_page": 2,
         "evidence_match": false,
@@ -526,6 +622,7 @@
       },
       {
         "course_code": null,
+        "catalog_entry_id": "entry_2f7cf1e3eb749332",
         "opening_units": [
           "企管碩"
         ],
@@ -533,6 +630,8 @@
         "course_name_snapshot": "設計思考",
         "credits_snapshot": 3.0,
         "requirement_group": "elective",
+        "requirement_section": "elective",
+        "program_course_name_snapshot": null,
         "notes": "",
         "source_page": 2,
         "evidence_match": true,

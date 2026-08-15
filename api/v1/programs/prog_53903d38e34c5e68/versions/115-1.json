@@ -23,7 +23,7 @@
       "last_modified": "Fri, 31 May 2024 07:22:27 GMT",
       "content_length": 153509
     },
-    "parser_version": "0.2.1",
+    "parser_version": "0.2.2",
     "extractor_versions": {
       "pypdf": "6.10.0",
       "pdfplumber": "0.11.9"
@@ -41,6 +41,7 @@
   "course_catalog": [
     {
       "course_code": null,
+      "catalog_entry_id": "entry_bfb39f18fb655970",
       "opening_units": [
         "資訊工程學系"
       ],
@@ -48,6 +49,8 @@
       "course_name_snapshot": "安全電子商務",
       "credits_snapshot": 3.0,
       "requirement_group": "core",
+      "requirement_section": "core",
+      "program_course_name_snapshot": null,
       "notes": "",
       "source_page": 1,
       "evidence_match": true,
@@ -56,6 +59,7 @@
     },
     {
       "course_code": null,
+      "catalog_entry_id": "entry_668a182bca3b2f07",
       "opening_units": [
         "資訊工程學系"
       ],
@@ -63,6 +67,8 @@
       "course_name_snapshot": "資訊安全",
       "credits_snapshot": 3.0,
       "requirement_group": "core",
+      "requirement_section": "core",
+      "program_course_name_snapshot": null,
       "notes": "",
       "source_page": 1,
       "evidence_match": true,
@@ -71,6 +77,7 @@
     },
     {
       "course_code": null,
+      "catalog_entry_id": "entry_7d836fdfbc1ef91d",
       "opening_units": [
         "資訊工程學系"
       ],
@@ -78,6 +85,8 @@
       "course_name_snapshot": "駭客攻防與電腦鑑識技術",
       "credits_snapshot": 3.0,
       "requirement_group": "core",
+      "requirement_section": "core",
+      "program_course_name_snapshot": null,
       "notes": "",
       "source_page": 1,
       "evidence_match": true,
@@ -86,6 +95,7 @@
     },
     {
       "course_code": null,
+      "catalog_entry_id": "entry_a5747e2a8e598391",
       "opening_units": [
         "資訊管理學系"
       ],
@@ -93,6 +103,8 @@
       "course_name_snapshot": "網路安全",
       "credits_snapshot": 3.0,
       "requirement_group": "core",
+      "requirement_section": "core",
+      "program_course_name_snapshot": null,
       "notes": "",
       "source_page": 1,
       "evidence_match": true,
@@ -101,6 +113,7 @@
     },
     {
       "course_code": null,
+      "catalog_entry_id": "entry_23d9433408a2bb2e",
       "opening_units": [
         "資訊工程學系"
       ],
@@ -108,6 +121,8 @@
       "course_name_snapshot": "安全車載通訊系統",
       "credits_snapshot": 3.0,
       "requirement_group": "core",
+      "requirement_section": "core",
+      "program_course_name_snapshot": null,
       "notes": "",
       "source_page": 1,
       "evidence_match": true,
@@ -116,6 +131,7 @@
     },
     {
       "course_code": null,
+      "catalog_entry_id": "entry_5d9c1344ab34704a",
       "opening_units": [
         "資訊工程學系"
       ],
@@ -123,6 +139,8 @@
       "course_name_snapshot": "數位簽章機制與應用",
       "credits_snapshot": 3.0,
       "requirement_group": "elective",
+      "requirement_section": "elective",
+      "program_course_name_snapshot": null,
       "notes": "",
       "source_page": 1,
       "evidence_match": true,
@@ -131,6 +149,7 @@
     },
     {
       "course_code": null,
+      "catalog_entry_id": "entry_97ff56b2facefb1d",
       "opening_units": [
         "資訊工程學系"
       ],
@@ -138,6 +157,8 @@
       "course_name_snapshot": "安全密碼協定",
       "credits_snapshot": 3.0,
       "requirement_group": "elective",
+      "requirement_section": "elective",
+      "program_course_name_snapshot": null,
       "notes": "",
       "source_page": 1,
       "evidence_match": true,
@@ -146,6 +167,7 @@
     },
     {
       "course_code": null,
+      "catalog_entry_id": "entry_4f7eb39f97b947ed",
       "opening_units": [
         "資訊工程學系"
       ],
@@ -153,6 +175,8 @@
       "course_name_snapshot": "密碼學",
       "credits_snapshot": 3.0,
       "requirement_group": "elective",
+      "requirement_section": "elective",
+      "program_course_name_snapshot": null,
       "notes": "",
       "source_page": 1,
       "evidence_match": true,
@@ -161,6 +185,7 @@
     },
     {
       "course_code": null,
+      "catalog_entry_id": "entry_b2bdf0dddd255c57",
       "opening_units": [
         "資訊工程學系"
       ],
@@ -168,6 +193,8 @@
       "course_name_snapshot": "安全程式設計",
       "credits_snapshot": 3.0,
       "requirement_group": "elective",
+      "requirement_section": "elective",
+      "program_course_name_snapshot": null,
       "notes": "",
       "source_page": 1,
       "evidence_match": true,
@@ -176,6 +203,7 @@
     },
     {
       "course_code": null,
+      "catalog_entry_id": "entry_e12b0bf3918734fe",
       "opening_units": [
         "資訊工程學系"
       ],
@@ -183,6 +211,8 @@
       "course_name_snapshot": "無線與行動通訊安全理論與實務",
       "credits_snapshot": 3.0,
       "requirement_group": "elective",
+      "requirement_section": "elective",
+      "program_course_name_snapshot": null,
       "notes": "",
       "source_page": 1,
       "evidence_match": true,
@@ -191,6 +221,7 @@
     },
     {
       "course_code": null,
+      "catalog_entry_id": "entry_0fa5ae2736f5f43b",
       "opening_units": [
         "資訊工程學系"
       ],
@@ -198,6 +229,8 @@
       "course_name_snapshot": "資訊安全理論與實務",
       "credits_snapshot": 3.0,
       "requirement_group": "elective",
+      "requirement_section": "elective",
+      "program_course_name_snapshot": null,
       "notes": "",
       "source_page": 1,
       "evidence_match": true,
@@ -206,6 +239,7 @@
     },
     {
       "course_code": null,
+      "catalog_entry_id": "entry_e4c86b6eeeb6da54",
       "opening_units": [
         "資訊工程學系"
       ],
@@ -213,6 +247,8 @@
       "course_name_snapshot": "區塊鏈安全",
       "credits_snapshot": 3.0,
       "requirement_group": "elective",
+      "requirement_section": "elective",
+      "program_course_name_snapshot": null,
       "notes": "",
       "source_page": 1,
       "evidence_match": true,
@@ -221,6 +257,7 @@
     },
     {
       "course_code": null,
+      "catalog_entry_id": "entry_eac319e7496eabaa",
       "opening_units": [
         "資訊工程學系"
       ],
@@ -228,6 +265,8 @@
       "course_name_snapshot": "應用密碼學",
       "credits_snapshot": 3.0,
       "requirement_group": "elective",
+      "requirement_section": "elective",
+      "program_course_name_snapshot": null,
       "notes": "",
       "source_page": 1,
       "evidence_match": true,
@@ -236,6 +275,7 @@
     },
     {
       "course_code": null,
+      "catalog_entry_id": "entry_2845255cce665805",
       "opening_units": [
         "電機工程學系"
       ],
@@ -243,6 +283,8 @@
       "course_name_snapshot": "高可靠度系統之設計、測試與應用",
       "credits_snapshot": 3.0,
       "requirement_group": "elective",
+      "requirement_section": "elective",
+      "program_course_name_snapshot": null,
       "notes": "",
       "source_page": 1,
       "evidence_match": true,
@@ -251,6 +293,7 @@
     },
     {
       "course_code": null,
+      "catalog_entry_id": "entry_61c0b3644c312377",
       "opening_units": [
         "行銷傳播管理研究所"
       ],
@@ -258,6 +301,8 @@
       "course_name_snapshot": "資訊素養與倫理",
       "credits_snapshot": 3.0,
       "requirement_group": "elective",
+      "requirement_section": "elective",
+      "program_course_name_snapshot": null,
       "notes": "",
       "source_page": 1,
       "evidence_match": true,

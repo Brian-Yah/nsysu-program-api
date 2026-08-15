@@ -23,7 +23,7 @@
       "last_modified": "Tue, 09 Jan 2024 03:50:30 GMT",
       "content_length": 307980
     },
-    "parser_version": "0.2.1",
+    "parser_version": "0.2.2",
     "extractor_versions": {
       "pypdf": "6.10.0",
       "pdfplumber": "0.11.9"
@@ -39,6 +39,7 @@
   "course_catalog": [
     {
       "course_code": null,
+      "catalog_entry_id": "entry_0723630cb8de9735",
       "opening_units": [
         "海下所"
       ],
@@ -46,6 +47,8 @@
       "course_name_snapshot": "大型計畫專案管理",
       "credits_snapshot": 3.0,
       "requirement_group": "elective",
+      "requirement_section": "elective",
+      "program_course_name_snapshot": null,
       "notes": "設備系統科技、國防科技、能源科技、船艦工程",
       "source_page": 1,
       "evidence_match": true,
@@ -54,6 +57,7 @@
     },
     {
       "course_code": null,
+      "catalog_entry_id": "entry_55db0ee4de43c57a",
       "opening_units": [
         "海工碩"
       ],
@@ -61,6 +65,8 @@
       "course_name_snapshot": "波浪理論",
       "credits_snapshot": 3.0,
       "requirement_group": "elective",
+      "requirement_section": "elective",
+      "program_course_name_snapshot": null,
       "notes": "國防科技、能源科技、船艦工程",
       "source_page": 1,
       "evidence_match": true,
@@ -69,6 +75,7 @@
     },
     {
       "course_code": null,
+      "catalog_entry_id": "entry_cb05b3bd0c78cd0b",
       "opening_units": [
         "海工系"
       ],
@@ -76,6 +83,8 @@
       "course_name_snapshot": "流體動力學",
       "credits_snapshot": 3.0,
       "requirement_group": "elective",
+      "requirement_section": "elective",
+      "program_course_name_snapshot": null,
       "notes": "能源科技、船艦工程",
       "source_page": 1,
       "evidence_match": true,
@@ -84,6 +93,7 @@
     },
     {
       "course_code": null,
+      "catalog_entry_id": "entry_e4b96335f846f195",
       "opening_units": [
         "海工系"
       ],
@@ -91,6 +101,8 @@
       "course_name_snapshot": "海岸工程學",
       "credits_snapshot": 3.0,
       "requirement_group": "elective",
+      "requirement_section": "elective",
+      "program_course_name_snapshot": null,
       "notes": "設備系統科技、國防科技、能源科技、船艦工程",
       "source_page": 1,
       "evidence_match": true,
@@ -99,6 +111,7 @@
     },
     {
       "course_code": null,
+      "catalog_entry_id": "entry_4709a2b3c3f5f462",
       "opening_units": [
         "海工系"
       ],
@@ -106,6 +119,8 @@
       "course_name_snapshot": "海洋流體力學",
       "credits_snapshot": 3.0,
       "requirement_group": "elective",
+      "requirement_section": "elective",
+      "program_course_name_snapshot": null,
       "notes": "船艦工程",
       "source_page": 1,
       "evidence_match": true,
@@ -114,6 +129,7 @@
     },
     {
       "course_code": null,
+      "catalog_entry_id": "entry_ed80a2bd72a46dd8",
       "opening_units": [
         "機電系"
       ],
@@ -121,6 +137,8 @@
       "course_name_snapshot": "工程統計學",
       "credits_snapshot": 3.0,
       "requirement_group": "elective",
+      "requirement_section": "elective",
+      "program_course_name_snapshot": null,
       "notes": "設備系統科技",
       "source_page": 1,
       "evidence_match": true,
@@ -129,6 +147,7 @@
     },
     {
       "course_code": null,
+      "catalog_entry_id": "entry_8d968030f525ce03",
       "opening_units": [
         "機電系"
       ],
@@ -136,6 +155,8 @@
       "course_name_snapshot": "工程電腦程式",
       "credits_snapshot": 3.0,
       "requirement_group": "elective",
+      "requirement_section": "elective",
+      "program_course_name_snapshot": null,
       "notes": "設備系統科技",
       "source_page": 1,
       "evidence_match": true,
@@ -144,6 +165,7 @@
     },
     {
       "course_code": null,
+      "catalog_entry_id": "entry_3bc1485d09ff6cb2",
       "opening_units": [
         "機電系"
       ],
@@ -151,6 +173,8 @@
       "course_name_snapshot": "工程圖學",
       "credits_snapshot": 2.0,
       "requirement_group": "elective",
+      "requirement_section": "elective",
+      "program_course_name_snapshot": null,
       "notes": "國防科技",
       "source_page": 1,
       "evidence_match": true,
@@ -159,6 +183,7 @@
     },
     {
       "course_code": null,
+      "catalog_entry_id": "entry_bc085b41d757118f",
       "opening_units": [
         "海下所"
       ],
@@ -166,6 +191,8 @@
       "course_name_snapshot": "工程機率與統計",
       "credits_snapshot": 3.0,
       "requirement_group": "elective",
+      "requirement_section": "elective",
+      "program_course_name_snapshot": null,
       "notes": "設備系統科技、船艦工程",
       "source_page": 1,
       "evidence_match": true,
@@ -174,6 +201,7 @@
     },
     {
       "course_code": null,
+      "catalog_entry_id": "entry_e314d093272e9035",
       "opening_units": [
         "海下所"
       ],
@@ -181,6 +209,8 @@
       "course_name_snapshot": "工程聲學",
       "credits_snapshot": 3.0,
       "requirement_group": "elective",
+      "requirement_section": "elective",
+      "program_course_name_snapshot": null,
       "notes": "設備系統科技、船艦工程",
       "source_page": 1,
       "evidence_match": true,
@@ -189,6 +219,7 @@
     },
     {
       "course_code": null,
+      "catalog_entry_id": "entry_79fe4ec83d399686",
       "opening_units": [
         "電機系"
       ],
@@ -196,6 +227,8 @@
       "course_name_snapshot": "工業配電",
       "credits_snapshot": 3.0,
       "requirement_group": "elective",
+      "requirement_section": "elective",
+      "program_course_name_snapshot": null,
       "notes": "能源科技、船艦工程",
       "source_page": 1,
       "evidence_match": true,
@@ -204,6 +237,7 @@
     },
     {
       "course_code": null,
+      "catalog_entry_id": "entry_782075332f62c020",
       "opening_units": [
         "機電系"
       ],
@@ -211,6 +245,8 @@
       "course_name_snapshot": "太陽能工程概論",
       "credits_snapshot": 3.0,
       "requirement_group": "elective",
+      "requirement_section": "elective",
+      "program_course_name_snapshot": null,
       "notes": "能源科技",
       "source_page": 1,
       "evidence_match": true,
@@ -219,6 +255,7 @@
     },
     {
       "course_code": null,
+      "catalog_entry_id": "entry_dc730be41fdc52e5",
       "opening_units": [
         "海下所"
       ],
@@ -226,6 +263,8 @@
       "course_name_snapshot": "水下音傳與訊號處理",
       "credits_snapshot": 3.0,
       "requirement_group": "elective",
+      "requirement_section": "elective",
+      "program_course_name_snapshot": null,
       "notes": "國防科技、船艦工程",
       "source_page": 1,
       "evidence_match": true,
@@ -234,6 +273,7 @@
     },
     {
       "course_code": null,
+      "catalog_entry_id": "entry_f27906e9e627c07d",
       "opening_units": [
         "海下所"
       ],
@@ -241,6 +281,8 @@
       "course_name_snapshot": "主動海洋聲學",
       "credits_snapshot": 3.0,
       "requirement_group": "elective",
+      "requirement_section": "elective",
+      "program_course_name_snapshot": null,
       "notes": "國防科技、能源科技、船艦工程",
       "source_page": 1,
       "evidence_match": true,
@@ -249,6 +291,7 @@
     },
     {
       "course_code": null,
+      "catalog_entry_id": "entry_d610c345cbffca3a",
       "opening_units": [
         "海工系"
       ],
@@ -256,6 +299,8 @@
       "course_name_snapshot": "外海結構工程導論",
       "credits_snapshot": 3.0,
       "requirement_group": "elective",
+      "requirement_section": "elective",
+      "program_course_name_snapshot": null,
       "notes": "能源科技、船艦工程",
       "source_page": 1,
       "evidence_match": true,
@@ -264,6 +309,7 @@
     },
     {
       "course_code": null,
+      "catalog_entry_id": "entry_9c6f23ca62ffbab0",
       "opening_units": [
         "電機系"
       ],
@@ -271,6 +317,8 @@
       "course_name_snapshot": "多媒體通訊概論",
       "credits_snapshot": 3.0,
       "requirement_group": "elective",
+      "requirement_section": "elective",
+      "program_course_name_snapshot": null,
       "notes": "設備系統科技",
       "source_page": 1,
       "evidence_match": true,
@@ -279,6 +327,7 @@
     },
     {
       "course_code": null,
+      "catalog_entry_id": "entry_aa47def339451283",
       "opening_units": [
         "機電系"
       ],
@@ -286,6 +335,8 @@
       "course_name_snapshot": "有限元素法概論",
       "credits_snapshot": 3.0,
       "requirement_group": "elective",
+      "requirement_section": "elective",
+      "program_course_name_snapshot": null,
       "notes": "國防科技",
       "source_page": 1,
       "evidence_match": true,
@@ -294,6 +345,7 @@
     },
     {
       "course_code": null,
+      "catalog_entry_id": "entry_22684abc750d5019",
       "opening_units": [
         "機電系"
       ],
@@ -301,6 +353,8 @@
       "course_name_snapshot": "自動化機構",
       "credits_snapshot": 3.0,
       "requirement_group": "elective",
+      "requirement_section": "elective",
+      "program_course_name_snapshot": null,
       "notes": "設備系統科技",
       "source_page": 1,
       "evidence_match": true,
@@ -309,6 +363,7 @@
     },
     {
       "course_code": null,
+      "catalog_entry_id": "entry_89d462192f957233",
       "opening_units": [
         "機電系"
       ],
@@ -316,6 +371,8 @@
       "course_name_snapshot": "自動控制",
       "credits_snapshot": 3.0,
       "requirement_group": "elective",
+      "requirement_section": "elective",
+      "program_course_name_snapshot": null,
       "notes": "設備系統科技",
       "source_page": 1,
       "evidence_match": true,
@@ -324,6 +381,7 @@
     },
     {
       "course_code": null,
+      "catalog_entry_id": "entry_4a1e9a3319fdca37",
       "opening_units": [
         "海下所"
       ],
@@ -331,6 +389,8 @@
       "course_name_snapshot": "品質工程與實驗設計",
       "credits_snapshot": 3.0,
       "requirement_group": "elective",
+      "requirement_section": "elective",
+      "program_course_name_snapshot": null,
       "notes": "設備系統科技",
       "source_page": 1,
       "evidence_match": true,
@@ -339,6 +399,7 @@
     },
     {
       "course_code": null,
+      "catalog_entry_id": "entry_86d1fe0516d7c527",
       "opening_units": [
         "海工碩"
       ],
@@ -346,6 +407,8 @@
       "course_name_snapshot": "施工技術與管理",
       "credits_snapshot": 3.0,
       "requirement_group": "elective",
+      "requirement_section": "elective",
+      "program_course_name_snapshot": null,
       "notes": "設備系統科技",
       "source_page": 1,
       "evidence_match": true,
@@ -354,6 +417,7 @@
     },
     {
       "course_code": null,
+      "catalog_entry_id": "entry_816354e7f7c3db8d",
       "opening_units": [
         "機電系"
       ],
@@ -361,6 +425,8 @@
       "course_name_snapshot": "流體力學",
       "credits_snapshot": 3.0,
       "requirement_group": "elective",
+      "requirement_section": "elective",
+      "program_course_name_snapshot": null,
       "notes": "能源科技",
       "source_page": 1,
       "evidence_match": true,
@@ -369,6 +435,7 @@
     },
     {
       "course_code": null,
+      "catalog_entry_id": "entry_0effef8e0031d3ae",
       "opening_units": [
         "海工系"
       ],
@@ -376,6 +443,8 @@
       "course_name_snapshot": "流體力學",
       "credits_snapshot": 3.0,
       "requirement_group": "elective",
+      "requirement_section": "elective",
+      "program_course_name_snapshot": null,
       "notes": "設備系統科技、能源科技、船艦工程",
       "source_page": 1,
       "evidence_match": true,
@@ -384,6 +453,7 @@
     },
     {
       "course_code": null,
+      "catalog_entry_id": "entry_9658955d486b8fc7",
       "opening_units": [
         "海工碩"
       ],
@@ -391,6 +461,8 @@
       "course_name_snapshot": "海事工程風險分析及管理",
       "credits_snapshot": 3.0,
       "requirement_group": "elective",
+      "requirement_section": "elective",
+      "program_course_name_snapshot": null,
       "notes": "能源科技",
       "source_page": 1,
       "evidence_match": true,
@@ -399,6 +471,7 @@
     },
     {
       "course_code": null,
+      "catalog_entry_id": "entry_c18e9839a63704ae",
       "opening_units": [
         "海工碩"
       ],
@@ -406,6 +479,8 @@
       "course_name_snapshot": "海底調查工程技術",
       "credits_snapshot": 3.0,
       "requirement_group": "elective",
+      "requirement_section": "elective",
+      "program_course_name_snapshot": null,
       "notes": "國防科技",
       "source_page": 1,
       "evidence_match": true,
@@ -414,6 +489,7 @@
     },
     {
       "course_code": null,
+      "catalog_entry_id": "entry_16b1d1b110ac6072",
       "opening_units": [
         "海工碩"
       ],
@@ -421,6 +497,8 @@
       "course_name_snapshot": "海洋地理資訊系統及實習",
       "credits_snapshot": 4.0,
       "requirement_group": "elective",
+      "requirement_section": "elective",
+      "program_course_name_snapshot": null,
       "notes": "國防科技",
       "source_page": 2,
       "evidence_match": true,
@@ -429,6 +507,7 @@
     },
     {
       "course_code": null,
+      "catalog_entry_id": "entry_a6a19291b8cc1d49",
       "opening_units": [
         "海工系"
       ],
@@ -436,6 +515,8 @@
       "course_name_snapshot": "海洋波浪學",
       "credits_snapshot": 3.0,
       "requirement_group": "elective",
+      "requirement_section": "elective",
+      "program_course_name_snapshot": null,
       "notes": "設備系統科技、國防科技、能源科技、船艦工程",
       "source_page": 2,
       "evidence_match": true,
@@ -444,6 +525,7 @@
     },
     {
       "course_code": null,
+      "catalog_entry_id": "entry_890925286cd46253",
       "opening_units": [
         "海工碩"
       ],
@@ -451,6 +533,8 @@
       "course_name_snapshot": "海域調查與量測",
       "credits_snapshot": 3.0,
       "requirement_group": "elective",
+      "requirement_section": "elective",
+      "program_course_name_snapshot": null,
       "notes": "能源科技",
       "source_page": 2,
       "evidence_match": true,
@@ -459,6 +543,7 @@
     },
     {
       "course_code": null,
+      "catalog_entry_id": "entry_2437d91d8d59966c",
       "opening_units": [
         "機電碩"
       ],
@@ -466,6 +551,8 @@
       "course_name_snapshot": "疲勞力學",
       "credits_snapshot": 3.0,
       "requirement_group": "elective",
+      "requirement_section": "elective",
+      "program_course_name_snapshot": null,
       "notes": "船艦工程",
       "source_page": 2,
       "evidence_match": true,
@@ -474,6 +561,7 @@
     },
     {
       "course_code": null,
+      "catalog_entry_id": "entry_8c58b29665e771ad",
       "opening_units": [
         "機電碩"
       ],
@@ -481,6 +569,8 @@
       "course_name_snapshot": "破壞力學",
       "credits_snapshot": 3.0,
       "requirement_group": "elective",
+      "requirement_section": "elective",
+      "program_course_name_snapshot": null,
       "notes": "船艦工程",
       "source_page": 2,
       "evidence_match": true,
@@ -489,6 +579,7 @@
     },
     {
       "course_code": null,
+      "catalog_entry_id": "entry_49b21144b8497f73",
       "opening_units": [
         "電機系"
       ],
@@ -496,6 +587,8 @@
       "course_name_snapshot": "訊號與系統",
       "credits_snapshot": 3.0,
       "requirement_group": "elective",
+      "requirement_section": "elective",
+      "program_course_name_snapshot": null,
       "notes": "設備系統科技、國防科技",
       "source_page": 2,
       "evidence_match": true,
@@ -504,6 +597,7 @@
     },
     {
       "course_code": null,
+      "catalog_entry_id": "entry_84bad99dd7c82c28",
       "opening_units": [
         "海下所"
       ],
@@ -511,6 +605,8 @@
       "course_name_snapshot": "訊號與系統",
       "credits_snapshot": 3.0,
       "requirement_group": "elective",
+      "requirement_section": "elective",
+      "program_course_name_snapshot": null,
       "notes": "設備系統科技、船艦工程",
       "source_page": 2,
       "evidence_match": true,
@@ -519,6 +615,7 @@
     },
     {
       "course_code": null,
+      "catalog_entry_id": "entry_613d0e06f36d4550",
       "opening_units": [
         "電機系"
       ],
@@ -526,6 +623,8 @@
       "course_name_snapshot": "控制系統",
       "credits_snapshot": 3.0,
       "requirement_group": "elective",
+      "requirement_section": "elective",
+      "program_course_name_snapshot": null,
       "notes": "設備系統科技、船艦工程",
       "source_page": 2,
       "evidence_match": true,
@@ -534,6 +633,7 @@
     },
     {
       "course_code": null,
+      "catalog_entry_id": "entry_ec8af7ec3da4df0c",
       "opening_units": [
         "海工碩"
       ],
@@ -541,6 +641,8 @@
       "course_name_snapshot": "船舶施工規劃",
       "credits_snapshot": 3.0,
       "requirement_group": "elective",
+      "requirement_section": "elective",
+      "program_course_name_snapshot": null,
       "notes": "設備系統科技",
       "source_page": 2,
       "evidence_match": true,
@@ -549,6 +651,7 @@
     },
     {
       "course_code": null,
+      "catalog_entry_id": "entry_41700732be45c4e9",
       "opening_units": [
         "海工系"
       ],
@@ -556,6 +659,8 @@
       "course_name_snapshot": "船艦工程實務專題講座",
       "credits_snapshot": 3.0,
       "requirement_group": "elective",
+      "requirement_section": "elective",
+      "program_course_name_snapshot": null,
       "notes": "設備系統科技、國防科技、能源科技、船艦工程",
       "source_page": 2,
       "evidence_match": true,
@@ -564,6 +669,7 @@
     },
     {
       "course_code": null,
+      "catalog_entry_id": "entry_44387a06df0107c7",
       "opening_units": [
         "海下所"
       ],
@@ -571,6 +677,8 @@
       "course_name_snapshot": "船艦輪電實務專題講座",
       "credits_snapshot": 3.0,
       "requirement_group": "elective",
+      "requirement_section": "elective",
+      "program_course_name_snapshot": null,
       "notes": "設備系統科技、國防科技、能源科技、船艦工程",
       "source_page": 2,
       "evidence_match": true,
@@ -579,6 +687,7 @@
     },
     {
       "course_code": null,
+      "catalog_entry_id": "entry_53cf924819f99720",
       "opening_units": [
         "海下所"
       ],
@@ -586,6 +695,8 @@
       "course_name_snapshot": "被動海洋聲學",
       "credits_snapshot": 3.0,
       "requirement_group": "elective",
+      "requirement_section": "elective",
+      "program_course_name_snapshot": null,
       "notes": "設備系統科技、能源科技",
       "source_page": 2,
       "evidence_match": true,
@@ -594,6 +705,7 @@
     },
     {
       "course_code": null,
+      "catalog_entry_id": "entry_5f24c20f85dd9ebe",
       "opening_units": [
         "電機系"
       ],
@@ -601,6 +713,8 @@
       "course_name_snapshot": "通訊系統",
       "credits_snapshot": 3.0,
       "requirement_group": "elective",
+      "requirement_section": "elective",
+      "program_course_name_snapshot": null,
       "notes": "設備系統科技",
       "source_page": 2,
       "evidence_match": true,
@@ -609,6 +723,7 @@
     },
     {
       "course_code": null,
+      "catalog_entry_id": "entry_2fc25da145bfa84a",
       "opening_units": [
         "電機系"
       ],
@@ -616,6 +731,8 @@
       "course_name_snapshot": "嵌入式系統概論",
       "credits_snapshot": 3.0,
       "requirement_group": "elective",
+      "requirement_section": "elective",
+      "program_course_name_snapshot": null,
       "notes": "國防科技",
       "source_page": 2,
       "evidence_match": true,
@@ -624,6 +741,7 @@
     },
     {
       "course_code": null,
+      "catalog_entry_id": "entry_d5de58d698cf9d02",
       "opening_units": [
         "電機系"
       ],
@@ -631,6 +749,8 @@
       "course_name_snapshot": "嵌入式軟體設計",
       "credits_snapshot": 3.0,
       "requirement_group": "elective",
+      "requirement_section": "elective",
+      "program_course_name_snapshot": null,
       "notes": "國防科技",
       "source_page": 2,
       "evidence_match": true,
@@ -639,6 +759,7 @@
     },
     {
       "course_code": null,
+      "catalog_entry_id": "entry_1d26f3cf7ca3f1cb",
       "opening_units": [
         "電機系"
       ],
@@ -646,6 +767,8 @@
       "course_name_snapshot": "最佳化簡介",
       "credits_snapshot": 3.0,
       "requirement_group": "elective",
+      "requirement_section": "elective",
+      "program_course_name_snapshot": null,
       "notes": "設備系統科技",
       "source_page": 2,
       "evidence_match": true,
@@ -654,6 +777,7 @@
     },
     {
       "course_code": null,
+      "catalog_entry_id": "entry_a5863247c27e6895",
       "opening_units": [
         "電機系"
       ],
@@ -661,6 +785,8 @@
       "course_name_snapshot": "最佳控制簡介",
       "credits_snapshot": 3.0,
       "requirement_group": "elective",
+      "requirement_section": "elective",
+      "program_course_name_snapshot": null,
       "notes": "設備系統科技",
       "source_page": 2,
       "evidence_match": true,
@@ -669,6 +795,7 @@
     },
     {
       "course_code": null,
+      "catalog_entry_id": "entry_8627fef5ecf91728",
       "opening_units": [
         "海工系"
       ],
@@ -676,6 +803,8 @@
       "course_name_snapshot": "測量學",
       "credits_snapshot": 3.0,
       "requirement_group": "elective",
+      "requirement_section": "elective",
+      "program_course_name_snapshot": null,
       "notes": "國防科技",
       "source_page": 2,
       "evidence_match": true,
@@ -684,6 +813,7 @@
     },
     {
       "course_code": null,
+      "catalog_entry_id": "entry_9801bbd4071519a8",
       "opening_units": [
         "電機系"
       ],
@@ -691,6 +821,8 @@
       "course_name_snapshot": "硬體描述語言",
       "credits_snapshot": 3.0,
       "requirement_group": "elective",
+      "requirement_section": "elective",
+      "program_course_name_snapshot": null,
       "notes": "國防科技",
       "source_page": 2,
       "evidence_match": true,
@@ -699,6 +831,7 @@
     },
     {
       "course_code": null,
+      "catalog_entry_id": "entry_e3c8a8c67273f0a4",
       "opening_units": [
         "機電碩"
       ],
@@ -706,6 +839,8 @@
       "course_name_snapshot": "塑性力學",
       "credits_snapshot": 3.0,
       "requirement_group": "elective",
+      "requirement_section": "elective",
+      "program_course_name_snapshot": null,
       "notes": "船艦工程",
       "source_page": 2,
       "evidence_match": true,
@@ -714,6 +849,7 @@
     },
     {
       "course_code": null,
+      "catalog_entry_id": "entry_6b0508171678b862",
       "opening_units": [
         "電機系"
       ],
@@ -721,6 +857,8 @@
       "course_name_snapshot": "電力系統(一)",
       "credits_snapshot": 3.0,
       "requirement_group": "elective",
+      "requirement_section": "elective",
+      "program_course_name_snapshot": null,
       "notes": "能源科技、船艦工程",
       "source_page": 2,
       "evidence_match": true,
@@ -729,6 +867,7 @@
     },
     {
       "course_code": null,
+      "catalog_entry_id": "entry_9d15f3d45dfe2427",
       "opening_units": [
         "電機系"
       ],
@@ -736,6 +875,8 @@
       "course_name_snapshot": "電力系統(二)",
       "credits_snapshot": 3.0,
       "requirement_group": "elective",
+      "requirement_section": "elective",
+      "program_course_name_snapshot": null,
       "notes": "能源科技、船艦工程",
       "source_page": 2,
       "evidence_match": true,
@@ -744,6 +885,7 @@
     },
     {
       "course_code": null,
+      "catalog_entry_id": "entry_bdcd47d4ac4deee6",
       "opening_units": [
         "電機系"
       ],
@@ -751,6 +893,8 @@
       "course_name_snapshot": "電力電子學",
       "credits_snapshot": 3.0,
       "requirement_group": "elective",
+      "requirement_section": "elective",
+      "program_course_name_snapshot": null,
       "notes": "能源科技、船艦工程",
       "source_page": 2,
       "evidence_match": true,
@@ -759,6 +903,7 @@
     },
     {
       "course_code": null,
+      "catalog_entry_id": "entry_18d2763061743578",
       "opening_units": [
         "電機系"
       ],
@@ -766,6 +911,8 @@
       "course_name_snapshot": "電源與電池管理系統導論",
       "credits_snapshot": 3.0,
       "requirement_group": "elective",
+      "requirement_section": "elective",
+      "program_course_name_snapshot": null,
       "notes": "船艦工程",
       "source_page": 2,
       "evidence_match": true,
@@ -774,6 +921,7 @@
     },
     {
       "course_code": null,
+      "catalog_entry_id": "entry_0686cd9e4c6b2c3c",
       "opening_units": [
         "海工系"
       ],
@@ -781,6 +929,8 @@
       "course_name_snapshot": "電腦輔助繪圖",
       "credits_snapshot": 3.0,
       "requirement_group": "elective",
+      "requirement_section": "elective",
+      "program_course_name_snapshot": null,
       "notes": "國防科技",
       "source_page": 2,
       "evidence_match": true,
@@ -789,6 +939,7 @@
     },
     {
       "course_code": null,
+      "catalog_entry_id": "entry_59aa9098f9411c9d",
       "opening_units": [
         "機電系"
       ],
@@ -796,6 +947,8 @@
       "course_name_snapshot": "電路學",
       "credits_snapshot": 3.0,
       "requirement_group": "elective",
+      "requirement_section": "elective",
+      "program_course_name_snapshot": null,
       "notes": "能源科技",
       "source_page": 2,
       "evidence_match": true,
@@ -804,6 +957,7 @@
     },
     {
       "course_code": null,
+      "catalog_entry_id": "entry_87842d517993b89a",
       "opening_units": [
         "電機系"
       ],
@@ -811,6 +965,8 @@
       "course_name_snapshot": "電路學(一)",
       "credits_snapshot": 3.0,
       "requirement_group": "elective",
+      "requirement_section": "elective",
+      "program_course_name_snapshot": null,
       "notes": "能源科技",
       "source_page": 2,
       "evidence_match": true,
@@ -819,6 +975,7 @@
     },
     {
       "course_code": null,
+      "catalog_entry_id": "entry_d8e97226ccd69b9f",
       "opening_units": [
         "電機系"
       ],
@@ -826,6 +983,8 @@
       "course_name_snapshot": "電路學(二)",
       "credits_snapshot": 3.0,
       "requirement_group": "elective",
+      "requirement_section": "elective",
+      "program_course_name_snapshot": null,
       "notes": "能源科技",
       "source_page": 2,
       "evidence_match": true,
@@ -834,6 +993,7 @@
     },
     {
       "course_code": null,
+      "catalog_entry_id": "entry_fc6c7e95fe1e57ed",
       "opening_units": [
         "電機系"
       ],
@@ -841,6 +1001,8 @@
       "course_name_snapshot": "電機動態與控制",
       "credits_snapshot": 3.0,
       "requirement_group": "elective",
+      "requirement_section": "elective",
+      "program_course_name_snapshot": null,
       "notes": "能源科技、船艦工程",
       "source_page": 2,
       "evidence_match": true,
@@ -849,6 +1011,7 @@
     },
     {
       "course_code": null,
+      "catalog_entry_id": "entry_8ec85bf7e18d0f79",
       "opening_units": [
         "電機系"
       ],
@@ -856,6 +1019,8 @@
       "course_name_snapshot": "電機機械",
       "credits_snapshot": 3.0,
       "requirement_group": "elective",
+      "requirement_section": "elective",
+      "program_course_name_snapshot": null,
       "notes": "能源科技",
       "source_page": 2,
       "evidence_match": true,
@@ -864,6 +1029,7 @@
     },
     {
       "course_code": null,
+      "catalog_entry_id": "entry_b29969a015d1ac87",
       "opening_units": [
         "機電系"
       ],
@@ -871,6 +1037,8 @@
       "course_name_snapshot": "綠色能源工程",
       "credits_snapshot": 3.0,
       "requirement_group": "elective",
+      "requirement_section": "elective",
+      "program_course_name_snapshot": null,
       "notes": "能源科技",
       "source_page": 2,
       "evidence_match": true,
@@ -879,6 +1047,7 @@
     },
     {
       "course_code": null,
+      "catalog_entry_id": "entry_9e62d9a16dbaa3d3",
       "opening_units": [
         "機電碩"
       ],
@@ -886,6 +1055,8 @@
       "course_name_snapshot": "彈性力學",
       "credits_snapshot": 3.0,
       "requirement_group": "elective",
+      "requirement_section": "elective",
+      "program_course_name_snapshot": null,
       "notes": "船艦工程",
       "source_page": 2,
       "evidence_match": true,
@@ -894,6 +1065,7 @@
     },
     {
       "course_code": null,
+      "catalog_entry_id": "entry_0d9e5acb4761261b",
       "opening_units": [
         "電機系"
       ],
@@ -901,6 +1073,8 @@
       "course_name_snapshot": "數位系統設計",
       "credits_snapshot": 3.0,
       "requirement_group": "elective",
+      "requirement_section": "elective",
+      "program_course_name_snapshot": null,
       "notes": "國防科技",
       "source_page": 2,
       "evidence_match": true,
@@ -909,6 +1083,7 @@
     },
     {
       "course_code": null,
+      "catalog_entry_id": "entry_2e68a6de8585862a",
       "opening_units": [
         "電機系"
       ],
@@ -916,6 +1091,8 @@
       "course_name_snapshot": "數位訊號處理導論",
       "credits_snapshot": 3.0,
       "requirement_group": "elective",
+      "requirement_section": "elective",
+      "program_course_name_snapshot": null,
       "notes": "國防科技",
       "source_page": 2,
       "evidence_match": true,
@@ -924,6 +1101,7 @@
     },
     {
       "course_code": null,
+      "catalog_entry_id": "entry_8bfe7ebf0b0fbf80",
       "opening_units": [
         "海下所"
       ],
@@ -931,6 +1109,8 @@
       "course_name_snapshot": "數值最佳化方法",
       "credits_snapshot": 3.0,
       "requirement_group": "elective",
+      "requirement_section": "elective",
+      "program_course_name_snapshot": null,
       "notes": "設備系統科技、能源科技",
       "source_page": 2,
       "evidence_match": true,
@@ -939,6 +1119,7 @@
     },
     {
       "course_code": null,
+      "catalog_entry_id": "entry_3d009411b7701744",
       "opening_units": [
         "機電系"
       ],
@@ -946,6 +1127,8 @@
       "course_name_snapshot": "熱傳學",
       "credits_snapshot": 3.0,
       "requirement_group": "elective",
+      "requirement_section": "elective",
+      "program_course_name_snapshot": null,
       "notes": "能源科技",
       "source_page": 2,
       "evidence_match": true,
@@ -954,6 +1137,7 @@
     },
     {
       "course_code": null,
+      "catalog_entry_id": "entry_9d9cbefe7253cdc1",
       "opening_units": [
         "電機系"
       ],
@@ -961,6 +1145,8 @@
       "course_name_snapshot": "線性系統概論",
       "credits_snapshot": 3.0,
       "requirement_group": "elective",
+      "requirement_section": "elective",
+      "program_course_name_snapshot": null,
       "notes": "設備系統科技",
       "source_page": 2,
       "evidence_match": true,
@@ -969,6 +1155,7 @@
     },
     {
       "course_code": null,
+      "catalog_entry_id": "entry_8d9940f3d46b19fd",
       "opening_units": [
         "機電碩"
       ],
@@ -976,6 +1163,8 @@
       "course_name_snapshot": "複合材料力學",
       "credits_snapshot": 3.0,
       "requirement_group": "elective",
+      "requirement_section": "elective",
+      "program_course_name_snapshot": null,
       "notes": "船艦工程",
       "source_page": 3,
       "evidence_match": true,
@@ -984,6 +1173,7 @@
     },
     {
       "course_code": null,
+      "catalog_entry_id": "entry_07c8de20bb33314f",
       "opening_units": [
         "機電系"
       ],
@@ -991,6 +1181,8 @@
       "course_name_snapshot": "機械振動",
       "credits_snapshot": 3.0,
       "requirement_group": "elective",
+      "requirement_section": "elective",
+      "program_course_name_snapshot": null,
       "notes": "設備系統科技、國防科技",
       "source_page": 3,
       "evidence_match": true,
@@ -999,6 +1191,7 @@
     },
     {
       "course_code": null,
+      "catalog_entry_id": "entry_7cd1626b3a76c461",
       "opening_units": [
         "機電系"
       ],
@@ -1006,6 +1199,8 @@
       "course_name_snapshot": "機械設計原理(一)",
       "credits_snapshot": 3.0,
       "requirement_group": "elective",
+      "requirement_section": "elective",
+      "program_course_name_snapshot": null,
       "notes": "設備系統科技",
       "source_page": 3,
       "evidence_match": true,
@@ -1014,6 +1209,7 @@
     },
     {
       "course_code": null,
+      "catalog_entry_id": "entry_94b06c9ad958d548",
       "opening_units": [
         "電機系"
       ],
@@ -1021,6 +1217,8 @@
       "course_name_snapshot": "機率與統計",
       "credits_snapshot": 3.0,
       "requirement_group": "elective",
+      "requirement_section": "elective",
+      "program_course_name_snapshot": null,
       "notes": "設備系統科技",
       "source_page": 3,
       "evidence_match": true,
@@ -1029,6 +1227,7 @@
     },
     {
       "course_code": null,
+      "catalog_entry_id": "entry_73419c8d30cc1fab",
       "opening_units": [
         "機電系"
       ],
@@ -1036,6 +1235,8 @@
       "course_name_snapshot": "機電材料",
       "credits_snapshot": 3.0,
       "requirement_group": "elective",
+      "requirement_section": "elective",
+      "program_course_name_snapshot": null,
       "notes": "設備系統科技",
       "source_page": 3,
       "evidence_match": true,
@@ -1044,6 +1245,7 @@
     },
     {
       "course_code": null,
+      "catalog_entry_id": "entry_39dc597bdc316bc4",
       "opening_units": [
         "機電系"
       ],
@@ -1051,6 +1253,8 @@
       "course_name_snapshot": "機電整合",
       "credits_snapshot": 3.0,
       "requirement_group": "elective",
+      "requirement_section": "elective",
+      "program_course_name_snapshot": null,
       "notes": "設備系統科技、國防科技",
       "source_page": 3,
       "evidence_match": true,
@@ -1059,6 +1263,7 @@
     },
     {
       "course_code": null,
+      "catalog_entry_id": "entry_a06128172081d9d0",
       "opening_units": [
         "海下所"
       ],
@@ -1066,6 +1271,8 @@
       "course_name_snapshot": "隨機振動",
       "credits_snapshot": 3.0,
       "requirement_group": "elective",
+      "requirement_section": "elective",
+      "program_course_name_snapshot": null,
       "notes": "船艦工程",
       "source_page": 3,
       "evidence_match": true,
@@ -1074,6 +1281,7 @@
     },
     {
       "course_code": null,
+      "catalog_entry_id": "entry_d4d366942649791f",
       "opening_units": [
         "機電系"
       ],
@@ -1081,6 +1289,8 @@
       "course_name_snapshot": "應用電子學",
       "credits_snapshot": 3.0,
       "requirement_group": "elective",
+      "requirement_section": "elective",
+      "program_course_name_snapshot": null,
       "notes": "能源科技",
       "source_page": 3,
       "evidence_match": true,
@@ -1089,6 +1299,7 @@
     },
     {
       "course_code": null,
+      "catalog_entry_id": "entry_cad7cd4edc1ce18f",
       "opening_units": [
         "機電系"
       ],
@@ -1096,6 +1307,8 @@
       "course_name_snapshot": "熱力學",
       "credits_snapshot": 3.0,
       "requirement_group": "elective",
+      "requirement_section": "elective",
+      "program_course_name_snapshot": null,
       "notes": "能源科技",
       "source_page": 3,
       "evidence_match": true,

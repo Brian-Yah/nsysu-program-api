@@ -29,7 +29,7 @@
         "last_modified": "Tue, 24 Dec 2024 07:27:10 GMT",
         "content_length": 129021
       },
-      "parser_version": "0.2.1",
+      "parser_version": "0.2.2",
       "extractor_versions": {
         "pypdf": "6.10.0",
         "pdfplumber": "0.11.9"
@@ -47,6 +47,7 @@
     "course_catalog": [
       {
         "course_code": null,
+        "catalog_entry_id": "entry_4cf9b32442032d42",
         "opening_units": [
           "化學系"
         ],
@@ -54,6 +55,8 @@
         "course_name_snapshot": "有機合成",
         "credits_snapshot": 3.0,
         "requirement_group": "core",
+        "requirement_section": "core",
+        "program_course_name_snapshot": null,
         "notes": "",
         "source_page": 1,
         "evidence_match": true,
@@ -62,6 +65,7 @@
       },
       {
         "course_code": null,
+        "catalog_entry_id": "entry_620f6c32a62d765e",
         "opening_units": [
           "化學系"
         ],
@@ -69,6 +73,8 @@
         "course_name_snapshot": "有機光譜概論",
         "credits_snapshot": 3.0,
         "requirement_group": "core",
+        "requirement_section": "core",
+        "program_course_name_snapshot": null,
         "notes": "",
         "source_page": 1,
         "evidence_match": true,
@@ -77,6 +83,7 @@
       },
       {
         "course_code": null,
+        "catalog_entry_id": "entry_be30449c7f7dc67b",
         "opening_units": [
           "材光系"
         ],
@@ -84,6 +91,8 @@
         "course_name_snapshot": "材料科學導論",
         "credits_snapshot": 3.0,
         "requirement_group": "core",
+        "requirement_section": "core",
+        "program_course_name_snapshot": null,
         "notes": "",
         "source_page": 1,
         "evidence_match": true,
@@ -92,6 +101,7 @@
       },
       {
         "course_code": null,
+        "catalog_entry_id": "entry_bfc4961b537144c0",
         "opening_units": [
           "化學系"
         ],
@@ -99,6 +109,8 @@
         "course_name_snapshot": "有機化學(三)",
         "credits_snapshot": 3.0,
         "requirement_group": "core",
+        "requirement_section": "core",
+        "program_course_name_snapshot": null,
         "notes": "",
         "source_page": 1,
         "evidence_match": true,
@@ -107,6 +119,7 @@
       },
       {
         "course_code": null,
+        "catalog_entry_id": "entry_c3abbb34928c6472",
         "opening_units": [
           "化學系"
         ],
@@ -114,6 +127,8 @@
         "course_name_snapshot": "有機金屬化學",
         "credits_snapshot": 3.0,
         "requirement_group": "core",
+        "requirement_section": "core",
+        "program_course_name_snapshot": null,
         "notes": "",
         "source_page": 1,
         "evidence_match": true,
@@ -122,6 +137,7 @@
       },
       {
         "course_code": null,
+        "catalog_entry_id": "entry_00039219889a982b",
         "opening_units": [
           "材光系"
         ],
@@ -129,6 +145,8 @@
         "course_name_snapshot": "高分子物理",
         "credits_snapshot": 3.0,
         "requirement_group": "core",
+        "requirement_section": "core",
+        "program_course_name_snapshot": null,
         "notes": "",
         "source_page": 1,
         "evidence_match": true,
@@ -137,6 +155,7 @@
       },
       {
         "course_code": null,
+        "catalog_entry_id": "entry_603b31b571a8097d",
         "opening_units": [
           "材光系"
         ],
@@ -144,6 +163,8 @@
         "course_name_snapshot": "高分子合成與反應",
         "credits_snapshot": 3.0,
         "requirement_group": "core",
+        "requirement_section": "core",
+        "program_course_name_snapshot": null,
         "notes": "",
         "source_page": 1,
         "evidence_match": true,
@@ -152,6 +173,7 @@
       },
       {
         "course_code": null,
+        "catalog_entry_id": "entry_f4e5753b0eb32f6b",
         "opening_units": [
           "化學系"
         ],
@@ -159,6 +181,8 @@
         "course_name_snapshot": "材料化學導論",
         "credits_snapshot": 3.0,
         "requirement_group": "elective",
+        "requirement_section": "elective",
+        "program_course_name_snapshot": null,
         "notes": "",
         "source_page": 1,
         "evidence_match": true,
@@ -167,6 +191,7 @@
       },
       {
         "course_code": null,
+        "catalog_entry_id": "entry_e212c05192866202",
         "opening_units": [
           "化學系"
         ],
@@ -174,6 +199,8 @@
         "course_name_snapshot": "有機化學反應",
         "credits_snapshot": 3.0,
         "requirement_group": "elective",
+        "requirement_section": "elective",
+        "program_course_name_snapshot": null,
         "notes": "",
         "source_page": 1,
         "evidence_match": true,
@@ -182,6 +209,7 @@
       },
       {
         "course_code": null,
+        "catalog_entry_id": "entry_75f4bae85a0ebd9f",
         "opening_units": [
           "化學系"
         ],
@@ -189,6 +217,8 @@
         "course_name_snapshot": "高分子化學導論",
         "credits_snapshot": 3.0,
         "requirement_group": "elective",
+        "requirement_section": "elective",
+        "program_course_name_snapshot": null,
         "notes": "",
         "source_page": 1,
         "evidence_match": true,
@@ -197,6 +227,7 @@
       },
       {
         "course_code": null,
+        "catalog_entry_id": "entry_daec12ba0b05d261",
         "opening_units": [
           "材光系"
         ],
@@ -204,6 +235,8 @@
         "course_name_snapshot": "高分子材料導論",
         "credits_snapshot": 3.0,
         "requirement_group": "elective",
+        "requirement_section": "elective",
+        "program_course_name_snapshot": null,
         "notes": "",
         "source_page": 1,
         "evidence_match": true,
@@ -212,6 +245,7 @@
       },
       {
         "course_code": null,
+        "catalog_entry_id": "entry_21ea1f50eb067b32",
         "opening_units": [
           "材光系"
         ],
@@ -219,6 +253,8 @@
         "course_name_snapshot": "高分子分析",
         "credits_snapshot": 3.0,
         "requirement_group": "elective",
+        "requirement_section": "elective",
+        "program_course_name_snapshot": null,
         "notes": "",
         "source_page": 1,
         "evidence_match": true,
@@ -227,6 +263,7 @@
       },
       {
         "course_code": null,
+        "catalog_entry_id": "entry_6dcb8f91e44b710c",
         "opening_units": [
           "化學系"
         ],
@@ -234,6 +271,8 @@
         "course_name_snapshot": "材料化學",
         "credits_snapshot": 3.0,
         "requirement_group": "elective",
+        "requirement_section": "elective",
+        "program_course_name_snapshot": null,
         "notes": "",
         "source_page": 1,
         "evidence_match": true,
@@ -242,6 +281,7 @@
       },
       {
         "course_code": null,
+        "catalog_entry_id": "entry_4f74d7052ab072f8",
         "opening_units": [
           "化學系"
         ],
@@ -249,6 +289,8 @@
         "course_name_snapshot": "奈米科技概論",
         "credits_snapshot": 3.0,
         "requirement_group": "elective",
+        "requirement_section": "elective",
+        "program_course_name_snapshot": null,
         "notes": "",
         "source_page": 1,
         "evidence_match": true,
@@ -257,6 +299,7 @@
       },
       {
         "course_code": null,
+        "catalog_entry_id": "entry_9832b5bf421db568",
         "opening_units": [
           "化學系"
         ],
@@ -264,6 +307,8 @@
         "course_name_snapshot": "高分子材料化學",
         "credits_snapshot": 3.0,
         "requirement_group": "elective",
+        "requirement_section": "elective",
+        "program_course_name_snapshot": null,
         "notes": "",
         "source_page": 1,
         "evidence_match": true,
@@ -272,6 +317,7 @@
       },
       {
         "course_code": null,
+        "catalog_entry_id": "entry_c5440f9b84f0487e",
         "opening_units": [
           "材光系"
         ],
@@ -279,6 +325,8 @@
         "course_name_snapshot": "材料機械性質",
         "credits_snapshot": 3.0,
         "requirement_group": "elective",
+        "requirement_section": "elective",
+        "program_course_name_snapshot": null,
         "notes": "",
         "source_page": 1,
         "evidence_match": true,
@@ -287,6 +335,7 @@
       },
       {
         "course_code": null,
+        "catalog_entry_id": "entry_ad2972b1417e4196",
         "opening_units": [
           "材光系"
         ],
@@ -294,6 +343,8 @@
         "course_name_snapshot": "晶體結構與缺陷",
         "credits_snapshot": 3.0,
         "requirement_group": "elective",
+        "requirement_section": "elective",
+        "program_course_name_snapshot": null,
         "notes": "",
         "source_page": 1,
         "evidence_match": true,
@@ -302,6 +353,7 @@
       },
       {
         "course_code": null,
+        "catalog_entry_id": "entry_9f7adbb1e50112bf",
         "opening_units": [
           "材光系"
         ],
@@ -309,6 +361,8 @@
         "course_name_snapshot": "X光與電子繞射",
         "credits_snapshot": 3.0,
         "requirement_group": "elective",
+        "requirement_section": "elective",
+        "program_course_name_snapshot": null,
         "notes": "",
         "source_page": 1,
         "evidence_match": true,
@@ -317,6 +371,7 @@
       },
       {
         "course_code": null,
+        "catalog_entry_id": "entry_28f6903d13c98c2e",
         "opening_units": [
           "材光系"
         ],
@@ -324,6 +379,8 @@
         "course_name_snapshot": "高分子檢測與分析",
         "credits_snapshot": 3.0,
         "requirement_group": "elective",
+        "requirement_section": "elective",
+        "program_course_name_snapshot": null,
         "notes": "",
         "source_page": 1,
         "evidence_match": true,

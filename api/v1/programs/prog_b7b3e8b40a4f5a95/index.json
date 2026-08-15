@@ -29,7 +29,7 @@
         "last_modified": "Fri, 31 May 2024 07:16:36 GMT",
         "content_length": 147262
       },
-      "parser_version": "0.2.1",
+      "parser_version": "0.2.2",
       "extractor_versions": {
         "pypdf": "6.10.0",
         "pdfplumber": "0.11.9"
@@ -47,6 +47,7 @@
     "course_catalog": [
       {
         "course_code": null,
+        "catalog_entry_id": "entry_c7c29b53e8330480",
         "opening_units": [
           "財管系"
         ],
@@ -54,6 +55,8 @@
         "course_name_snapshot": "金融投資與程式交易",
         "credits_snapshot": 3.0,
         "requirement_group": "core",
+        "requirement_section": "core",
+        "program_course_name_snapshot": null,
         "notes": "研究所",
         "source_page": 1,
         "evidence_match": true,
@@ -62,6 +65,7 @@
       },
       {
         "course_code": null,
+        "catalog_entry_id": "entry_53a142bfd6fa8c3b",
         "opening_units": [
           "財管系",
           "資管系"
@@ -70,6 +74,8 @@
         "course_name_snapshot": "巨量資料分析導論",
         "credits_snapshot": 3.0,
         "requirement_group": "core",
+        "requirement_section": "core",
+        "program_course_name_snapshot": null,
         "notes": "研究所",
         "source_page": 1,
         "evidence_match": true,
@@ -78,6 +84,7 @@
       },
       {
         "course_code": null,
+        "catalog_entry_id": "entry_83c7004072302369",
         "opening_units": [
           "財管系"
         ],
@@ -85,6 +92,8 @@
         "course_name_snapshot": "理財機器人實作",
         "credits_snapshot": 3.0,
         "requirement_group": "elective",
+        "requirement_section": "elective",
+        "program_course_name_snapshot": null,
         "notes": "研究所",
         "source_page": 1,
         "evidence_match": true,
@@ -93,6 +102,7 @@
       },
       {
         "course_code": null,
+        "catalog_entry_id": "entry_166324981d7f7857",
         "opening_units": [
           "財管系"
         ],
@@ -100,6 +110,8 @@
         "course_name_snapshot": "現代投資組合理論與策略",
         "credits_snapshot": 3.0,
         "requirement_group": "elective",
+        "requirement_section": "elective",
+        "program_course_name_snapshot": null,
         "notes": "研究所",
         "source_page": 1,
         "evidence_match": true,
@@ -108,6 +120,7 @@
       },
       {
         "course_code": null,
+        "catalog_entry_id": "entry_b56a8996a69c6275",
         "opening_units": [
           "財管系"
         ],
@@ -115,6 +128,8 @@
         "course_name_snapshot": "全方位個人理財規劃",
         "credits_snapshot": 3.0,
         "requirement_group": "elective",
+        "requirement_section": "elective",
+        "program_course_name_snapshot": null,
         "notes": "研究所",
         "source_page": 1,
         "evidence_match": true,
@@ -123,6 +138,7 @@
       },
       {
         "course_code": null,
+        "catalog_entry_id": "entry_c7f6f12fbefd1e98",
         "opening_units": [
           "財管系"
         ],
@@ -130,6 +146,8 @@
         "course_name_snapshot": "財金機器學習",
         "credits_snapshot": 3.0,
         "requirement_group": "elective",
+        "requirement_section": "elective",
+        "program_course_name_snapshot": null,
         "notes": "研究所",
         "source_page": 1,
         "evidence_match": true,
@@ -138,6 +156,7 @@
       },
       {
         "course_code": null,
+        "catalog_entry_id": "entry_4329be531e86a931",
         "opening_units": [
           "資管系"
         ],
@@ -145,6 +164,8 @@
         "course_name_snapshot": "巨量資料分析實務/商業分析實務",
         "credits_snapshot": 3.0,
         "requirement_group": "elective",
+        "requirement_section": "elective",
+        "program_course_name_snapshot": null,
         "notes": "研究所",
         "source_page": 1,
         "evidence_match": true,
@@ -153,6 +174,7 @@
       },
       {
         "course_code": null,
+        "catalog_entry_id": "entry_4c2bf9022304ed3e",
         "opening_units": [
           "資管系"
         ],
@@ -160,6 +182,8 @@
         "course_name_snapshot": "WEB程式設計",
         "credits_snapshot": 3.0,
         "requirement_group": "elective",
+        "requirement_section": "elective",
+        "program_course_name_snapshot": null,
         "notes": "大學部",
         "source_page": 1,
         "evidence_match": true,
@@ -168,6 +192,7 @@
       },
       {
         "course_code": null,
+        "catalog_entry_id": "entry_daec46791535f8a4",
         "opening_units": [
           "財管系"
         ],
@@ -175,6 +200,8 @@
         "course_name_snapshot": "行為財務學",
         "credits_snapshot": 3.0,
         "requirement_group": "elective",
+        "requirement_section": "elective",
+        "program_course_name_snapshot": null,
         "notes": "大學部",
         "source_page": 1,
         "evidence_match": true,

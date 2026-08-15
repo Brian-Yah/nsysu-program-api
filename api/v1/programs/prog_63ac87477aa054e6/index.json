@@ -29,7 +29,7 @@
         "last_modified": "Tue, 24 Dec 2024 07:32:40 GMT",
         "content_length": 127147
       },
-      "parser_version": "0.2.1",
+      "parser_version": "0.2.2",
       "extractor_versions": {
         "pypdf": "6.10.0",
         "pdfplumber": "0.11.9"
@@ -47,6 +47,7 @@
     "course_catalog": [
       {
         "course_code": null,
+        "catalog_entry_id": "entry_f636939b96a6cf6c",
         "opening_units": [
           "醫學科技研究所"
         ],
@@ -54,6 +55,8 @@
         "course_name_snapshot": "智慧長照創新服務開發模式",
         "credits_snapshot": 3.0,
         "requirement_group": "core",
+        "requirement_section": "core",
+        "program_course_name_snapshot": null,
         "notes": "",
         "source_page": 1,
         "evidence_match": true,
@@ -62,6 +65,7 @@
       },
       {
         "course_code": null,
+        "catalog_entry_id": "entry_14c535edcf437eb5",
         "opening_units": [
           "企醫管碩"
         ],
@@ -69,6 +73,8 @@
         "course_name_snapshot": "長期照護",
         "credits_snapshot": 3.0,
         "requirement_group": "core",
+        "requirement_section": "core",
+        "program_course_name_snapshot": null,
         "notes": "",
         "source_page": 1,
         "evidence_match": true,
@@ -77,6 +83,7 @@
       },
       {
         "course_code": null,
+        "catalog_entry_id": "entry_797e6d0e06fe2127",
         "opening_units": [
           "後醫學系"
         ],
@@ -84,6 +91,8 @@
         "course_name_snapshot": "與老共舞",
         "credits_snapshot": 3.0,
         "requirement_group": "core",
+        "requirement_section": "core",
+        "program_course_name_snapshot": null,
         "notes": "",
         "source_page": 1,
         "evidence_match": true,
@@ -92,6 +101,7 @@
       },
       {
         "course_code": null,
+        "catalog_entry_id": "entry_028ea37968d4dc14",
         "opening_units": [
           "音樂學系"
         ],
@@ -99,6 +109,8 @@
         "course_name_snapshot": "表達性藝術治療個案討論",
         "credits_snapshot": 3.0,
         "requirement_group": "elective",
+        "requirement_section": "elective",
+        "program_course_name_snapshot": null,
         "notes": "",
         "source_page": 1,
         "evidence_match": true,
@@ -107,6 +119,7 @@
       },
       {
         "course_code": null,
+        "catalog_entry_id": "entry_3b51dda5c8f9d406",
         "opening_units": [
           "音樂學系"
         ],
@@ -114,6 +127,8 @@
         "course_name_snapshot": "音樂於高齡照護之設計與運用",
         "credits_snapshot": 3.0,
         "requirement_group": "elective",
+        "requirement_section": "elective",
+        "program_course_name_snapshot": null,
         "notes": "",
         "source_page": 1,
         "evidence_match": true,
@@ -122,6 +137,7 @@
       },
       {
         "course_code": null,
+        "catalog_entry_id": "entry_181e18e11b81b7c7",
         "opening_units": [
           "音樂學系"
         ],
@@ -129,6 +145,8 @@
         "course_name_snapshot": "音樂與律動於樂齡之運用",
         "credits_snapshot": 3.0,
         "requirement_group": "elective",
+        "requirement_section": "elective",
+        "program_course_name_snapshot": null,
         "notes": "",
         "source_page": 1,
         "evidence_match": true,
@@ -137,6 +155,7 @@
       },
       {
         "course_code": null,
+        "catalog_entry_id": "entry_39698cf50c81ee73",
         "opening_units": [
           "音樂學系"
         ],
@@ -144,6 +163,8 @@
         "course_name_snapshot": "音樂治療",
         "credits_snapshot": 2.0,
         "requirement_group": "elective",
+        "requirement_section": "elective",
+        "program_course_name_snapshot": null,
         "notes": "",
         "source_page": 1,
         "evidence_match": true,
@@ -152,6 +173,7 @@
       },
       {
         "course_code": null,
+        "catalog_entry_id": "entry_143f51c549b70555",
         "opening_units": [
           "後醫學系"
         ],
@@ -159,6 +181,8 @@
         "course_name_snapshot": "危老年代",
         "credits_snapshot": 2.0,
         "requirement_group": "elective",
+        "requirement_section": "elective",
+        "program_course_name_snapshot": null,
         "notes": "",
         "source_page": 1,
         "evidence_match": true,

@@ -29,7 +29,7 @@
         "last_modified": "Wed, 20 Dec 2023 02:56:29 GMT",
         "content_length": 124690
       },
-      "parser_version": "0.2.1",
+      "parser_version": "0.2.2",
       "extractor_versions": {
         "pypdf": "6.10.0",
         "pdfplumber": "0.11.9"
@@ -47,6 +47,7 @@
     "course_catalog": [
       {
         "course_code": null,
+        "catalog_entry_id": "entry_f77f9604367e188f",
         "opening_units": [
           "光電系"
         ],
@@ -54,6 +55,8 @@
         "course_name_snapshot": "光電子學",
         "credits_snapshot": 3.0,
         "requirement_group": "core",
+        "requirement_section": "core",
+        "program_course_name_snapshot": null,
         "notes": "※英語授課",
         "source_page": 1,
         "evidence_match": true,
@@ -62,6 +65,7 @@
       },
       {
         "course_code": null,
+        "catalog_entry_id": "entry_983c02f50019584b",
         "opening_units": [
           "光電系"
         ],
@@ -69,6 +73,8 @@
         "course_name_snapshot": "積體光電元件原理與設計",
         "credits_snapshot": 3.0,
         "requirement_group": "core",
+        "requirement_section": "core",
+        "program_course_name_snapshot": null,
         "notes": "",
         "source_page": 1,
         "evidence_match": true,
@@ -77,6 +83,7 @@
       },
       {
         "course_code": null,
+        "catalog_entry_id": "entry_5e54b2c05967a863",
         "opening_units": [
           "光電系"
         ],
@@ -84,6 +91,8 @@
         "course_name_snapshot": "半導體光電元件",
         "credits_snapshot": 3.0,
         "requirement_group": "core",
+        "requirement_section": "core",
+        "program_course_name_snapshot": null,
         "notes": "※英語授課",
         "source_page": 1,
         "evidence_match": true,
@@ -92,6 +101,7 @@
       },
       {
         "course_code": null,
+        "catalog_entry_id": "entry_819e87e6ed6bd680",
         "opening_units": [
           "半導體製造碩"
         ],
@@ -99,6 +109,8 @@
         "course_name_snapshot": "光電半導體科技",
         "credits_snapshot": 3.0,
         "requirement_group": "core",
+        "requirement_section": "core",
+        "program_course_name_snapshot": null,
         "notes": "※英語授課",
         "source_page": 1,
         "evidence_match": true,
@@ -107,6 +119,7 @@
       },
       {
         "course_code": null,
+        "catalog_entry_id": "entry_b7ddeae84a17b29c",
         "opening_units": [
           "光電系"
         ],
@@ -114,6 +127,8 @@
         "course_name_snapshot": "半導體物理",
         "credits_snapshot": 3.0,
         "requirement_group": "elective",
+        "requirement_section": "elective",
+        "program_course_name_snapshot": null,
         "notes": "※英語授課",
         "source_page": 1,
         "evidence_match": true,
@@ -122,6 +137,7 @@
       },
       {
         "course_code": null,
+        "catalog_entry_id": "entry_06929d95f0db4655",
         "opening_units": [
           "光電系"
         ],
@@ -129,6 +145,8 @@
         "course_name_snapshot": "半導體奈米元件製造技術",
         "credits_snapshot": 3.0,
         "requirement_group": "elective",
+        "requirement_section": "elective",
+        "program_course_name_snapshot": null,
         "notes": "",
         "source_page": 1,
         "evidence_match": true,
@@ -137,6 +155,7 @@
       },
       {
         "course_code": null,
+        "catalog_entry_id": "entry_64684256629ad6c3",
         "opening_units": [
           "光電系"
         ],
@@ -144,6 +163,8 @@
         "course_name_snapshot": "光電子元件應用",
         "credits_snapshot": 3.0,
         "requirement_group": "elective",
+        "requirement_section": "elective",
+        "program_course_name_snapshot": null,
         "notes": "※英語授課",
         "source_page": 1,
         "evidence_match": true,
@@ -152,6 +173,7 @@
       },
       {
         "course_code": null,
+        "catalog_entry_id": "entry_e3e67121adc5e873",
         "opening_units": [
           "光電系"
         ],
@@ -159,6 +181,8 @@
         "course_name_snapshot": "檢測技術在光電上的應用",
         "credits_snapshot": 3.0,
         "requirement_group": "elective",
+        "requirement_section": "elective",
+        "program_course_name_snapshot": null,
         "notes": "",
         "source_page": 1,
         "evidence_match": true,
@@ -167,6 +191,7 @@
       },
       {
         "course_code": null,
+        "catalog_entry_id": "entry_40845d5276948848",
         "opening_units": [
           "光電系"
         ],
@@ -174,6 +199,8 @@
         "course_name_snapshot": "光電材料",
         "credits_snapshot": 3.0,
         "requirement_group": "elective",
+        "requirement_section": "elective",
+        "program_course_name_snapshot": null,
         "notes": "※英語授課",
         "source_page": 1,
         "evidence_match": true,
@@ -182,6 +209,7 @@
       },
       {
         "course_code": null,
+        "catalog_entry_id": "entry_bb916eee2e7f28d3",
         "opening_units": [
           "光電系"
         ],
@@ -189,6 +217,8 @@
         "course_name_snapshot": "半導體雷射原理與應用",
         "credits_snapshot": 3.0,
         "requirement_group": "elective",
+        "requirement_section": "elective",
+        "program_course_name_snapshot": null,
         "notes": "",
         "source_page": 1,
         "evidence_match": true,
@@ -197,6 +227,7 @@
       },
       {
         "course_code": null,
+        "catalog_entry_id": "entry_ae8a03bb5f57e45c",
         "opening_units": [
           "光電系"
         ],
@@ -204,6 +235,8 @@
         "course_name_snapshot": "進階半導體物理與元件",
         "credits_snapshot": 3.0,
         "requirement_group": "elective",
+        "requirement_section": "elective",
+        "program_course_name_snapshot": null,
         "notes": "※英語授課",
         "source_page": 1,
         "evidence_match": true,
@@ -212,6 +245,7 @@
       },
       {
         "course_code": null,
+        "catalog_entry_id": "entry_d2797f764e810bbd",
         "opening_units": [
           "光電系"
         ],
@@ -219,6 +253,8 @@
         "course_name_snapshot": "光電材料概論",
         "credits_snapshot": 3.0,
         "requirement_group": "elective",
+        "requirement_section": "elective",
+        "program_course_name_snapshot": null,
         "notes": "※英語授課",
         "source_page": 1,
         "evidence_match": true,
@@ -227,6 +263,7 @@
       },
       {
         "course_code": null,
+        "catalog_entry_id": "entry_7157d63b748f6977",
         "opening_units": [
           "電機系"
         ],
@@ -234,6 +271,8 @@
         "course_name_snapshot": "高等矽覆絕緣技術",
         "credits_snapshot": 3.0,
         "requirement_group": "elective",
+        "requirement_section": "elective",
+        "program_course_name_snapshot": null,
         "notes": "",
         "source_page": 1,
         "evidence_match": true,
@@ -242,6 +281,7 @@
       },
       {
         "course_code": null,
+        "catalog_entry_id": "entry_04bb39d125abf49f",
         "opening_units": [
           "電機系"
         ],
@@ -249,6 +289,8 @@
         "course_name_snapshot": "SOI積體電路工程",
         "credits_snapshot": 3.0,
         "requirement_group": "elective",
+        "requirement_section": "elective",
+        "program_course_name_snapshot": null,
         "notes": "",
         "source_page": 1,
         "evidence_match": true,
@@ -257,6 +299,7 @@
       },
       {
         "course_code": null,
+        "catalog_entry_id": "entry_33cff932068e528c",
         "opening_units": [
           "機電系"
         ],
@@ -264,6 +307,8 @@
         "course_name_snapshot": "半導體製程導論",
         "credits_snapshot": 3.0,
         "requirement_group": "elective",
+        "requirement_section": "elective",
+        "program_course_name_snapshot": null,
         "notes": "※英語授課",
         "source_page": 1,
         "evidence_match": true,
@@ -272,6 +317,7 @@
       },
       {
         "course_code": null,
+        "catalog_entry_id": "entry_95382b48a415bf3e",
         "opening_units": [
           "物理碩"
         ],
@@ -279,6 +325,8 @@
         "course_name_snapshot": "半導體奈米元件製造技術",
         "credits_snapshot": 3.0,
         "requirement_group": "elective",
+        "requirement_section": "elective",
+        "program_course_name_snapshot": null,
         "notes": "",
         "source_page": 1,
         "evidence_match": true,
@@ -287,6 +335,7 @@
       },
       {
         "course_code": null,
+        "catalog_entry_id": "entry_64fc2ceecb934612",
         "opening_units": [
           "物理系"
         ],
@@ -294,6 +343,8 @@
         "course_name_snapshot": "半導體奈米元件製造技術",
         "credits_snapshot": 3.0,
         "requirement_group": "elective",
+        "requirement_section": "elective",
+        "program_course_name_snapshot": null,
         "notes": "",
         "source_page": 1,
         "evidence_match": true,

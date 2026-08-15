@@ -29,7 +29,7 @@
         "last_modified": "Fri, 31 May 2024 07:09:10 GMT",
         "content_length": 207261
       },
-      "parser_version": "0.2.1",
+      "parser_version": "0.2.2",
       "extractor_versions": {
         "pypdf": "6.10.0",
         "pdfplumber": "0.11.9"
@@ -47,6 +47,7 @@
     "course_catalog": [
       {
         "course_code": null,
+        "catalog_entry_id": "entry_dbb03892e45a619a",
         "opening_units": [
           "醫學科技研究所"
         ],
@@ -54,6 +55,8 @@
         "course_name_snapshot": "生醫感測",
         "credits_snapshot": 3.0,
         "requirement_group": "core",
+        "requirement_section": "core",
+        "program_course_name_snapshot": null,
         "notes": "",
         "source_page": 1,
         "evidence_match": true,
@@ -62,6 +65,7 @@
       },
       {
         "course_code": null,
+        "catalog_entry_id": "entry_b53aee02ac7b048e",
         "opening_units": [
           "醫科所"
         ],
@@ -69,6 +73,8 @@
         "course_name_snapshot": "醫用電子學",
         "credits_snapshot": 3.0,
         "requirement_group": "core",
+        "requirement_section": "core",
+        "program_course_name_snapshot": null,
         "notes": "",
         "source_page": 1,
         "evidence_match": true,
@@ -77,6 +83,7 @@
       },
       {
         "course_code": null,
+        "catalog_entry_id": "entry_53ab7461019b50c4",
         "opening_units": [
           "醫科所"
         ],
@@ -84,6 +91,8 @@
         "course_name_snapshot": "生物力學",
         "credits_snapshot": 3.0,
         "requirement_group": "core",
+        "requirement_section": "core",
+        "program_course_name_snapshot": null,
         "notes": "",
         "source_page": 1,
         "evidence_match": true,
@@ -92,6 +101,7 @@
       },
       {
         "course_code": null,
+        "catalog_entry_id": "entry_4298bd884f51e19e",
         "opening_units": [
           "醫科所"
         ],
@@ -99,6 +109,8 @@
         "course_name_snapshot": "醫用微機電系統",
         "credits_snapshot": 3.0,
         "requirement_group": "core",
+        "requirement_section": "core",
+        "program_course_name_snapshot": null,
         "notes": "",
         "source_page": 1,
         "evidence_match": true,
@@ -107,6 +119,7 @@
       },
       {
         "course_code": null,
+        "catalog_entry_id": "entry_f7599c3ab20ed31a",
         "opening_units": [
           "醫科所"
         ],
@@ -114,6 +127,8 @@
         "course_name_snapshot": "生醫光學影像技術",
         "credits_snapshot": 3.0,
         "requirement_group": "core",
+        "requirement_section": "core",
+        "program_course_name_snapshot": null,
         "notes": "",
         "source_page": 1,
         "evidence_match": true,
@@ -122,6 +137,7 @@
       },
       {
         "course_code": null,
+        "catalog_entry_id": "entry_8fda120d593e1591",
         "opening_units": [
           "醫科所"
         ],
@@ -129,6 +145,8 @@
         "course_name_snapshot": "腦機介面理論及實務",
         "credits_snapshot": 3.0,
         "requirement_group": "core",
+        "requirement_section": "core",
+        "program_course_name_snapshot": null,
         "notes": "",
         "source_page": 1,
         "evidence_match": true,
@@ -137,6 +155,7 @@
       },
       {
         "course_code": null,
+        "catalog_entry_id": "entry_a9dbad85f4dfdc5d",
         "opening_units": [
           "醫科所"
         ],
@@ -144,6 +163,8 @@
         "course_name_snapshot": "生醫工程導論",
         "credits_snapshot": 3.0,
         "requirement_group": "elective",
+        "requirement_section": "elective",
+        "program_course_name_snapshot": null,
         "notes": "",
         "source_page": 1,
         "evidence_match": true,
@@ -152,6 +173,7 @@
       },
       {
         "course_code": null,
+        "catalog_entry_id": "entry_f5977bca9d5a5d79",
         "opening_units": [
           "醫科所"
         ],
@@ -159,6 +181,8 @@
         "course_name_snapshot": "腦波訊號處理與數據探勘",
         "credits_snapshot": 3.0,
         "requirement_group": "elective",
+        "requirement_section": "elective",
+        "program_course_name_snapshot": null,
         "notes": "",
         "source_page": 1,
         "evidence_match": true,
@@ -167,6 +191,7 @@
       },
       {
         "course_code": null,
+        "catalog_entry_id": "entry_e1530d20d46d4eb0",
         "opening_units": [
           "醫科所"
         ],
@@ -174,6 +199,8 @@
         "course_name_snapshot": "骨材基礎概論與應用實作",
         "credits_snapshot": 3.0,
         "requirement_group": "elective",
+        "requirement_section": "elective",
+        "program_course_name_snapshot": null,
         "notes": "",
         "source_page": 1,
         "evidence_match": true,
@@ -182,6 +209,7 @@
       },
       {
         "course_code": null,
+        "catalog_entry_id": "entry_29330310cdedc134",
         "opening_units": [
           "醫科所"
         ],
@@ -189,6 +217,8 @@
         "course_name_snapshot": "3D列印應用實作",
         "credits_snapshot": 3.0,
         "requirement_group": "elective",
+        "requirement_section": "elective",
+        "program_course_name_snapshot": null,
         "notes": "",
         "source_page": 1,
         "evidence_match": true,
@@ -197,6 +227,7 @@
       },
       {
         "course_code": null,
+        "catalog_entry_id": "entry_c1cc67b58cfb7df7",
         "opening_units": [
           "醫科所"
         ],
@@ -204,6 +235,8 @@
         "course_name_snapshot": "組織工程學",
         "credits_snapshot": 3.0,
         "requirement_group": "elective",
+        "requirement_section": "elective",
+        "program_course_name_snapshot": null,
         "notes": "",
         "source_page": 1,
         "evidence_match": true,
@@ -212,6 +245,7 @@
       },
       {
         "course_code": null,
+        "catalog_entry_id": "entry_7a3d45ed8760af6b",
         "opening_units": [
           "醫科所"
         ],
@@ -219,6 +253,8 @@
         "course_name_snapshot": "生物資訊學",
         "credits_snapshot": 3.0,
         "requirement_group": "elective",
+        "requirement_section": "elective",
+        "program_course_name_snapshot": null,
         "notes": "",
         "source_page": 1,
         "evidence_match": true,
@@ -227,6 +263,7 @@
       },
       {
         "course_code": null,
+        "catalog_entry_id": "entry_51c4f6ac5ae14b5e",
         "opening_units": [
           "醫科所"
         ],
@@ -234,6 +271,8 @@
         "course_name_snapshot": "生物材料學",
         "credits_snapshot": 3.0,
         "requirement_group": "elective",
+        "requirement_section": "elective",
+        "program_course_name_snapshot": null,
         "notes": "",
         "source_page": 1,
         "evidence_match": true,
@@ -242,6 +281,7 @@
       },
       {
         "course_code": null,
+        "catalog_entry_id": "entry_b55c7fdea240e0a7",
         "opening_units": [
           "醫科所"
         ],
@@ -249,6 +289,8 @@
         "course_name_snapshot": "化工材料",
         "credits_snapshot": 3.0,
         "requirement_group": "elective",
+        "requirement_section": "elective",
+        "program_course_name_snapshot": null,
         "notes": "",
         "source_page": 1,
         "evidence_match": true,
@@ -257,6 +299,7 @@
       },
       {
         "course_code": null,
+        "catalog_entry_id": "entry_cc3efa58fde98d88",
         "opening_units": [
           "醫科所"
         ],
@@ -264,6 +307,8 @@
         "course_name_snapshot": "儀器分析於生物化學上之應用",
         "credits_snapshot": 3.0,
         "requirement_group": "elective",
+        "requirement_section": "elective",
+        "program_course_name_snapshot": null,
         "notes": "",
         "source_page": 1,
         "evidence_match": true,

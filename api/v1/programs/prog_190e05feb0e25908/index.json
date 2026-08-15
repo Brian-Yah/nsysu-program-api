@@ -29,7 +29,7 @@
         "last_modified": "Thu, 13 Aug 2026 06:20:23 GMT",
         "content_length": 141119
       },
-      "parser_version": "0.2.1",
+      "parser_version": "0.2.2",
       "extractor_versions": {
         "pypdf": "6.10.0",
         "pdfplumber": "0.11.9"
@@ -47,6 +47,7 @@
     "course_catalog": [
       {
         "course_code": null,
+        "catalog_entry_id": "entry_a7570d6548953bcf",
         "opening_units": [
           "資訊工程學系"
         ],
@@ -54,6 +55,8 @@
         "course_name_snapshot": "Python 程式設計",
         "credits_snapshot": 3.0,
         "requirement_group": "unspecified",
+        "requirement_section": "unspecified",
+        "program_course_name_snapshot": null,
         "notes": "Python 程式設計",
         "source_page": 1,
         "evidence_match": true,
@@ -62,6 +65,7 @@
       },
       {
         "course_code": null,
+        "catalog_entry_id": "entry_a3c33bcda9b7e9dc",
         "opening_units": [
           "資訊管理學系"
         ],
@@ -69,6 +73,8 @@
         "course_name_snapshot": "程式設計",
         "credits_snapshot": 3.0,
         "requirement_group": "unspecified",
+        "requirement_section": "unspecified",
+        "program_course_name_snapshot": null,
         "notes": "程式設計",
         "source_page": 1,
         "evidence_match": true,
@@ -77,6 +83,7 @@
       },
       {
         "course_code": null,
+        "catalog_entry_id": "entry_32d9eb599208cc59",
         "opening_units": [
           "電機工程學系"
         ],
@@ -84,6 +91,8 @@
         "course_name_snapshot": "計算機概論",
         "credits_snapshot": 3.0,
         "requirement_group": "unspecified",
+        "requirement_section": "unspecified",
+        "program_course_name_snapshot": null,
         "notes": "計算機概論",
         "source_page": 1,
         "evidence_match": true,
@@ -92,6 +101,7 @@
       },
       {
         "course_code": null,
+        "catalog_entry_id": "entry_3a666fd0e50a7494",
         "opening_units": [
           "應用數學系"
         ],
@@ -99,6 +109,8 @@
         "course_name_snapshot": "計算機程式",
         "credits_snapshot": 3.0,
         "requirement_group": "unspecified",
+        "requirement_section": "unspecified",
+        "program_course_name_snapshot": null,
         "notes": "計算機程式",
         "source_page": 1,
         "evidence_match": true,
@@ -107,6 +119,7 @@
       },
       {
         "course_code": null,
+        "catalog_entry_id": "entry_be7fd847ea11e4fb",
         "opening_units": [
           "財務管理學系"
         ],
@@ -114,6 +127,8 @@
         "course_name_snapshot": "統計學(一)",
         "credits_snapshot": 3.0,
         "requirement_group": "unspecified",
+        "requirement_section": "unspecified",
+        "program_course_name_snapshot": null,
         "notes": "統計學(一)",
         "source_page": 1,
         "evidence_match": true,
@@ -122,6 +137,7 @@
       },
       {
         "course_code": null,
+        "catalog_entry_id": "entry_99138fa6af2188fa",
         "opening_units": [
           "電機工程學系"
         ],
@@ -129,6 +145,8 @@
         "course_name_snapshot": "機率與統計",
         "credits_snapshot": 3.0,
         "requirement_group": "unspecified",
+        "requirement_section": "unspecified",
+        "program_course_name_snapshot": null,
         "notes": "機率與統計",
         "source_page": 1,
         "evidence_match": true,
@@ -137,6 +155,7 @@
       },
       {
         "course_code": null,
+        "catalog_entry_id": "entry_26a6853f60b514b6",
         "opening_units": [
           "應用數學系碩士班"
         ],
@@ -144,6 +163,8 @@
         "course_name_snapshot": "數據科學實務與創新",
         "credits_snapshot": 3.0,
         "requirement_group": "unspecified",
+        "requirement_section": "unspecified",
+        "program_course_name_snapshot": null,
         "notes": "數據科學實務與創新",
         "source_page": 1,
         "evidence_match": true,
@@ -152,6 +173,7 @@
       },
       {
         "course_code": null,
+        "catalog_entry_id": "entry_e2df07fdb59038e2",
         "opening_units": [
           "應用數學系"
         ],
@@ -159,6 +181,8 @@
         "course_name_snapshot": "機率論(二)",
         "credits_snapshot": 3.0,
         "requirement_group": "unspecified",
+        "requirement_section": "unspecified",
+        "program_course_name_snapshot": null,
         "notes": "機率論(二)",
         "source_page": 1,
         "evidence_match": true,
@@ -167,6 +191,7 @@
       },
       {
         "course_code": null,
+        "catalog_entry_id": "entry_6c81670e7a458b49",
         "opening_units": [
           "資訊管理學系碩士班"
         ],
@@ -174,6 +199,8 @@
         "course_name_snapshot": "人工智慧",
         "credits_snapshot": 3.0,
         "requirement_group": "unspecified",
+        "requirement_section": "unspecified",
+        "program_course_name_snapshot": null,
         "notes": "人工智慧",
         "source_page": 1,
         "evidence_match": true,
@@ -182,6 +209,7 @@
       },
       {
         "course_code": null,
+        "catalog_entry_id": "entry_a205b4ee2fc3fec1",
         "opening_units": [
           "資訊工程學系"
         ],
@@ -189,6 +217,8 @@
         "course_name_snapshot": "人工智慧導論",
         "credits_snapshot": 3.0,
         "requirement_group": "unspecified",
+        "requirement_section": "unspecified",
+        "program_course_name_snapshot": null,
         "notes": "人工智慧導論",
         "source_page": 1,
         "evidence_match": true,
@@ -197,6 +227,7 @@
       },
       {
         "course_code": null,
+        "catalog_entry_id": "entry_80ff0ba53c2c84df",
         "opening_units": [
           "博雅向度四<科技與社會>"
         ],
@@ -204,6 +235,8 @@
         "course_name_snapshot": "人工智慧概論",
         "credits_snapshot": 3.0,
         "requirement_group": "unspecified",
+        "requirement_section": "unspecified",
+        "program_course_name_snapshot": null,
         "notes": "人工智慧概論",
         "source_page": 1,
         "evidence_match": true,
@@ -212,6 +245,7 @@
       },
       {
         "course_code": null,
+        "catalog_entry_id": "entry_0b663aac57bf8d15",
         "opening_units": [
           "人力資源管理研究所碩士在職專班"
         ],
@@ -219,6 +253,8 @@
         "course_name_snapshot": "人工智慧在測驗下的相關應用與發展",
         "credits_snapshot": 3.0,
         "requirement_group": "unspecified",
+        "requirement_section": "unspecified",
+        "program_course_name_snapshot": null,
         "notes": "人工智慧在測驗下的相關應用與發展",
         "source_page": 1,
         "evidence_match": false,
@@ -227,6 +263,7 @@
       },
       {
         "course_code": null,
+        "catalog_entry_id": "entry_05557d88dd442871",
         "opening_units": [
           "企業管理學系企業管理碩士班"
         ],
@@ -234,6 +271,8 @@
         "course_name_snapshot": "人工智慧工具應用",
         "credits_snapshot": 3.0,
         "requirement_group": "unspecified",
+        "requirement_section": "unspecified",
+        "program_course_name_snapshot": null,
         "notes": "人工智慧工具應用",
         "source_page": 1,
         "evidence_match": true,
@@ -242,6 +281,7 @@
       },
       {
         "course_code": null,
+        "catalog_entry_id": "entry_8b7aaf74108d3368",
         "opening_units": [
           "資訊管理學系碩士班"
         ],
@@ -249,6 +289,8 @@
         "course_name_snapshot": "金融科技",
         "credits_snapshot": 3.0,
         "requirement_group": "unspecified",
+        "requirement_section": "unspecified",
+        "program_course_name_snapshot": null,
         "notes": "金融科技",
         "source_page": 1,
         "evidence_match": true,

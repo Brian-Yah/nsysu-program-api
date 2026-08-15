@@ -29,7 +29,7 @@
         "last_modified": "Wed, 01 Jul 2026 06:04:13 GMT",
         "content_length": 218714
       },
-      "parser_version": "0.2.1",
+      "parser_version": "0.2.2",
       "extractor_versions": {
         "pypdf": "6.10.0",
         "pdfplumber": "0.11.9"
@@ -47,6 +47,7 @@
     "course_catalog": [
       {
         "course_code": null,
+        "catalog_entry_id": "entry_d060359b9f3b5464",
         "opening_units": [
           "機電系"
         ],
@@ -54,6 +55,8 @@
         "course_name_snapshot": "機械設計原理(一)",
         "credits_snapshot": 3.0,
         "requirement_group": "core",
+        "requirement_section": "core",
+        "program_course_name_snapshot": null,
         "notes": "",
         "source_page": 1,
         "evidence_match": true,
@@ -62,6 +65,7 @@
       },
       {
         "course_code": null,
+        "catalog_entry_id": "entry_ebd56d5aa6547d1b",
         "opening_units": [
           "機電碩"
         ],
@@ -69,6 +73,8 @@
         "course_name_snapshot": "生命週期評估",
         "credits_snapshot": 3.0,
         "requirement_group": "core",
+        "requirement_section": "core",
+        "program_course_name_snapshot": null,
         "notes": "新增課程",
         "source_page": 1,
         "evidence_match": true,
@@ -77,6 +83,7 @@
       },
       {
         "course_code": null,
+        "catalog_entry_id": "entry_c5c15903685f6ee8",
         "opening_units": [
           "機電系跨院選修"
         ],
@@ -84,6 +91,8 @@
         "course_name_snapshot": "綠色創新設計",
         "credits_snapshot": 3.0,
         "requirement_group": "core",
+        "requirement_section": "core",
+        "program_course_name_snapshot": null,
         "notes": "1.由選修調整為必修2.新增跨院課號",
         "source_page": 1,
         "evidence_match": true,
@@ -92,6 +101,7 @@
       },
       {
         "course_code": null,
+        "catalog_entry_id": "entry_6818840a9a7d9009",
         "opening_units": [
           "人科學程"
         ],
@@ -99,6 +109,8 @@
         "course_name_snapshot": "綠色創新設計",
         "credits_snapshot": 3.0,
         "requirement_group": "core",
+        "requirement_section": "core",
+        "program_course_name_snapshot": null,
         "notes": "新增課程",
         "source_page": 1,
         "evidence_match": true,
@@ -107,6 +119,7 @@
       },
       {
         "course_code": null,
+        "catalog_entry_id": "entry_83fa9e59d7d12a8d",
         "opening_units": [
           "人科學程"
         ],
@@ -114,6 +127,8 @@
         "course_name_snapshot": "都市環境概論",
         "credits_snapshot": 3.0,
         "requirement_group": "core",
+        "requirement_section": "core",
+        "program_course_name_snapshot": null,
         "notes": "",
         "source_page": 1,
         "evidence_match": true,
@@ -122,6 +137,7 @@
       },
       {
         "course_code": null,
+        "catalog_entry_id": "entry_91a5e84263707171",
         "opening_units": [
           "機電系"
         ],
@@ -129,6 +145,8 @@
         "course_name_snapshot": "智慧製造與監測技術",
         "credits_snapshot": 3.0,
         "requirement_group": "elective",
+        "requirement_section": "elective",
+        "program_course_name_snapshot": null,
         "notes": "",
         "source_page": 1,
         "evidence_match": true,
@@ -137,6 +155,7 @@
       },
       {
         "course_code": null,
+        "catalog_entry_id": "entry_0e61c260373e0db0",
         "opening_units": [
           "機電系"
         ],
@@ -144,6 +163,8 @@
         "course_name_snapshot": "圖學",
         "credits_snapshot": 2.0,
         "requirement_group": "elective",
+        "requirement_section": "elective",
+        "program_course_name_snapshot": null,
         "notes": "",
         "source_page": 1,
         "evidence_match": true,
@@ -152,6 +173,7 @@
       },
       {
         "course_code": null,
+        "catalog_entry_id": "entry_3e9b46e9d94ae82e",
         "opening_units": [
           "機電系"
         ],
@@ -159,6 +181,8 @@
         "course_name_snapshot": "永續發展實務",
         "credits_snapshot": 3.0,
         "requirement_group": "elective",
+        "requirement_section": "elective",
+        "program_course_name_snapshot": null,
         "notes": "",
         "source_page": 1,
         "evidence_match": true,
@@ -167,6 +191,7 @@
       },
       {
         "course_code": null,
+        "catalog_entry_id": "entry_352acf7d47c5afab",
         "opening_units": [
           "資管系"
         ],
@@ -174,6 +199,8 @@
         "course_name_snapshot": "商業智慧",
         "credits_snapshot": 3.0,
         "requirement_group": "elective",
+        "requirement_section": "elective",
+        "program_course_name_snapshot": null,
         "notes": "",
         "source_page": 1,
         "evidence_match": true,
@@ -182,6 +209,7 @@
       },
       {
         "course_code": null,
+        "catalog_entry_id": "entry_7b0762d89e6e3afc",
         "opening_units": [
           "跨院選修(社)"
         ],
@@ -189,6 +217,8 @@
         "course_name_snapshot": "永續都市環境行為及心理學",
         "credits_snapshot": 3.0,
         "requirement_group": "elective",
+        "requirement_section": "elective",
+        "program_course_name_snapshot": null,
         "notes": "",
         "source_page": 1,
         "evidence_match": true,
@@ -197,6 +227,7 @@
       },
       {
         "course_code": null,
+        "catalog_entry_id": "entry_7896ac78bcf09cfa",
         "opening_units": [
           "機電系"
         ],
@@ -204,6 +235,8 @@
         "course_name_snapshot": "精密機械製造",
         "credits_snapshot": 3.0,
         "requirement_group": "elective",
+        "requirement_section": "elective",
+        "program_course_name_snapshot": null,
         "notes": "新增課程",
         "source_page": 1,
         "evidence_match": true,
@@ -212,6 +245,7 @@
       },
       {
         "course_code": null,
+        "catalog_entry_id": "entry_e41a8f84b76cf924",
         "opening_units": [
           "人科學程",
           "政經系"
@@ -220,6 +254,8 @@
         "course_name_snapshot": "運輸規劃與管理",
         "credits_snapshot": 3.0,
         "requirement_group": "elective",
+        "requirement_section": "elective",
+        "program_course_name_snapshot": null,
         "notes": "新增課程",
         "source_page": 1,
         "evidence_match": true,

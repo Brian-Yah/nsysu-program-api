@@ -23,7 +23,7 @@
       "last_modified": "Mon, 12 Jun 2023 01:35:47 GMT",
       "content_length": 180680
     },
-    "parser_version": "0.2.1",
+    "parser_version": "0.2.2",
     "extractor_versions": {
       "pypdf": "6.10.0",
       "pdfplumber": "0.11.9"
@@ -41,6 +41,7 @@
   "course_catalog": [
     {
       "course_code": null,
+      "catalog_entry_id": "entry_2fe61ec4b8f0157a",
       "opening_units": [
         "企管系"
       ],
@@ -48,7 +49,9 @@
       "course_name_snapshot": "行銷管理",
       "credits_snapshot": 3.0,
       "requirement_group": "core",
-      "notes": "",
+      "requirement_section": "core",
+      "program_course_name_snapshot": null,
+      "notes": " 核心課程學分數: 6 學分(核心課程任選二門)   ",
       "source_page": 1,
       "evidence_match": true,
       "validation_status": "needs_course_code_verification",
@@ -56,6 +59,7 @@
     },
     {
       "course_code": null,
+      "catalog_entry_id": "entry_aeabfe2b3876fe50",
       "opening_units": [
         "企管系"
       ],
@@ -63,7 +67,9 @@
       "course_name_snapshot": "行銷研究",
       "credits_snapshot": 3.0,
       "requirement_group": "core",
-      "notes": "",
+      "requirement_section": "core",
+      "program_course_name_snapshot": null,
+      "notes": " 核心課程學分數: 6 學分(核心課程任選二門)   ",
       "source_page": 1,
       "evidence_match": true,
       "validation_status": "needs_course_code_verification",
@@ -71,6 +77,7 @@
     },
     {
       "course_code": null,
+      "catalog_entry_id": "entry_c7b081d64d008dbf",
       "opening_units": [
         "企管系"
       ],
@@ -78,7 +85,9 @@
       "course_name_snapshot": "行銷個案",
       "credits_snapshot": 3.0,
       "requirement_group": "core",
-      "notes": "",
+      "requirement_section": "core",
+      "program_course_name_snapshot": null,
+      "notes": " 核心課程學分數: 6 學分(核心課程任選二門)   ",
       "source_page": 1,
       "evidence_match": true,
       "validation_status": "needs_course_code_verification",
@@ -86,6 +95,7 @@
     },
     {
       "course_code": null,
+      "catalog_entry_id": "entry_1005846e38b130ef",
       "opening_units": [
         "企管系"
       ],
@@ -93,6 +103,8 @@
       "course_name_snapshot": "消費者行為",
       "credits_snapshot": 3.0,
       "requirement_group": "elective",
+      "requirement_section": "elective",
+      "program_course_name_snapshot": null,
       "notes": "",
       "source_page": 1,
       "evidence_match": true,
@@ -101,6 +113,7 @@
     },
     {
       "course_code": null,
+      "catalog_entry_id": "entry_5544ffe32831b243",
       "opening_units": [
         "企管系"
       ],
@@ -108,6 +121,8 @@
       "course_name_snapshot": "整合行銷溝通",
       "credits_snapshot": 3.0,
       "requirement_group": "elective",
+      "requirement_section": "elective",
+      "program_course_name_snapshot": null,
       "notes": "",
       "source_page": 1,
       "evidence_match": true,
@@ -116,6 +131,7 @@
     },
     {
       "course_code": null,
+      "catalog_entry_id": "entry_b25964e295c87d0b",
       "opening_units": [
         "企管碩"
       ],
@@ -123,6 +139,8 @@
       "course_name_snapshot": "零售管理",
       "credits_snapshot": 3.0,
       "requirement_group": "elective",
+      "requirement_section": "elective",
+      "program_course_name_snapshot": null,
       "notes": "",
       "source_page": 1,
       "evidence_match": true,
@@ -131,6 +149,7 @@
     },
     {
       "course_code": null,
+      "catalog_entry_id": "entry_ada869c3e7a55b9a",
       "opening_units": [
         "企管碩",
         "傳管所"
@@ -139,6 +158,8 @@
       "course_name_snapshot": "服務業行銷",
       "credits_snapshot": 3.0,
       "requirement_group": "elective",
+      "requirement_section": "elective",
+      "program_course_name_snapshot": null,
       "notes": "1062新傳管所",
       "source_page": 1,
       "evidence_match": true,
@@ -147,6 +168,7 @@
     },
     {
       "course_code": null,
+      "catalog_entry_id": "entry_389b08b4a717f0d2",
       "opening_units": [
         "政經系",
         "傳管所"
@@ -155,6 +177,8 @@
       "course_name_snapshot": "社會行銷",
       "credits_snapshot": 3.0,
       "requirement_group": "elective",
+      "requirement_section": "elective",
+      "program_course_name_snapshot": null,
       "notes": "1051新增",
       "source_page": 1,
       "evidence_match": true,
@@ -163,6 +187,7 @@
     },
     {
       "course_code": null,
+      "catalog_entry_id": "entry_b89d2e72c7df6ca5",
       "opening_units": [
         "資管系",
         "資管碩"
@@ -171,6 +196,8 @@
       "course_name_snapshot": "電子商務",
       "credits_snapshot": 3.0,
       "requirement_group": "elective",
+      "requirement_section": "elective",
+      "program_course_name_snapshot": null,
       "notes": "",
       "source_page": 1,
       "evidence_match": true,
@@ -179,6 +206,7 @@
     },
     {
       "course_code": null,
+      "catalog_entry_id": "entry_c21ace8e5a7b717b",
       "opening_units": [
         "資管碩"
       ],
@@ -186,6 +214,8 @@
       "course_name_snapshot": "網路服務行銷",
       "credits_snapshot": 3.0,
       "requirement_group": "elective",
+      "requirement_section": "elective",
+      "program_course_name_snapshot": null,
       "notes": "",
       "source_page": 1,
       "evidence_match": true,
@@ -194,6 +224,7 @@
     },
     {
       "course_code": null,
+      "catalog_entry_id": "entry_76592a39978e8c5a",
       "opening_units": [
         "傳管碩"
       ],
@@ -201,6 +232,8 @@
       "course_name_snapshot": "廣告效果",
       "credits_snapshot": 3.0,
       "requirement_group": "elective",
+      "requirement_section": "elective",
+      "program_course_name_snapshot": null,
       "notes": "",
       "source_page": 1,
       "evidence_match": true,
@@ -209,6 +242,7 @@
     },
     {
       "course_code": null,
+      "catalog_entry_id": "entry_6986dc030491aa80",
       "opening_units": [
         "傳管碩"
       ],
@@ -216,6 +250,8 @@
       "course_name_snapshot": "數位行銷",
       "credits_snapshot": 3.0,
       "requirement_group": "elective",
+      "requirement_section": "elective",
+      "program_course_name_snapshot": null,
       "notes": "",
       "source_page": 1,
       "evidence_match": true,
@@ -224,6 +260,7 @@
     },
     {
       "course_code": null,
+      "catalog_entry_id": "entry_4893c90ea30bd262",
       "opening_units": [
         "傳管碩"
       ],
@@ -231,6 +268,8 @@
       "course_name_snapshot": "娛樂行銷與媒體",
       "credits_snapshot": 3.0,
       "requirement_group": "elective",
+      "requirement_section": "elective",
+      "program_course_name_snapshot": null,
       "notes": "",
       "source_page": 1,
       "evidence_match": true,
@@ -239,6 +278,7 @@
     },
     {
       "course_code": null,
+      "catalog_entry_id": "entry_97f6a3abbe29edfa",
       "opening_units": [
         "傳管碩"
       ],
@@ -246,6 +286,8 @@
       "course_name_snapshot": "消費者心理與行為學",
       "credits_snapshot": 3.0,
       "requirement_group": "elective",
+      "requirement_section": "elective",
+      "program_course_name_snapshot": null,
       "notes": "",
       "source_page": 1,
       "evidence_match": true,
@@ -254,6 +296,7 @@
     },
     {
       "course_code": null,
+      "catalog_entry_id": "entry_09aadf7be4a8797e",
       "opening_units": [
         "傳管碩"
       ],
@@ -261,6 +304,8 @@
       "course_name_snapshot": "品牌行銷",
       "credits_snapshot": 3.0,
       "requirement_group": "elective",
+      "requirement_section": "elective",
+      "program_course_name_snapshot": null,
       "notes": "",
       "source_page": 1,
       "evidence_match": true,
@@ -269,6 +314,7 @@
     },
     {
       "course_code": null,
+      "catalog_entry_id": "entry_a7bcac7ec9761bea",
       "opening_units": [
         "傳管碩"
       ],
@@ -276,6 +322,8 @@
       "course_name_snapshot": "行銷傳播策略",
       "credits_snapshot": 3.0,
       "requirement_group": "elective",
+      "requirement_section": "elective",
+      "program_course_name_snapshot": null,
       "notes": "104/2新增",
       "source_page": 1,
       "evidence_match": true,
@@ -284,6 +332,7 @@
     },
     {
       "course_code": null,
+      "catalog_entry_id": "entry_c6d4211f2e4c46f5",
       "opening_units": [
         "傳管碩"
       ],
@@ -291,6 +340,8 @@
       "course_name_snapshot": "廣告創意",
       "credits_snapshot": 3.0,
       "requirement_group": "elective",
+      "requirement_section": "elective",
+      "program_course_name_snapshot": null,
       "notes": "104/2新增",
       "source_page": 1,
       "evidence_match": true,
@@ -299,6 +350,7 @@
     },
     {
       "course_code": null,
+      "catalog_entry_id": "entry_673387d581bc5c3d",
       "opening_units": [
         "企管碩"
       ],
@@ -306,6 +358,8 @@
       "course_name_snapshot": "策略性品牌管理",
       "credits_snapshot": 3.0,
       "requirement_group": "elective",
+      "requirement_section": "elective",
+      "program_course_name_snapshot": null,
       "notes": "107/1新增",
       "source_page": 1,
       "evidence_match": true,
@@ -314,6 +368,7 @@
     },
     {
       "course_code": null,
+      "catalog_entry_id": "entry_bbe7db8b5e9744d4",
       "opening_units": [
         "傳管碩"
       ],
@@ -321,6 +376,8 @@
       "course_name_snapshot": "網路多媒體創意設計",
       "credits_snapshot": 3.0,
       "requirement_group": "elective",
+      "requirement_section": "elective",
+      "program_course_name_snapshot": null,
       "notes": "107/2新增",
       "source_page": 1,
       "evidence_match": true,
@@ -329,6 +386,7 @@
     },
     {
       "course_code": null,
+      "catalog_entry_id": "entry_3609aefca8b01f2b",
       "opening_units": [
         "傳管碩"
       ],
@@ -336,6 +394,8 @@
       "course_name_snapshot": "社群媒體行銷",
       "credits_snapshot": 3.0,
       "requirement_group": "elective",
+      "requirement_section": "elective",
+      "program_course_name_snapshot": null,
       "notes": "108/1新增",
       "source_page": 1,
       "evidence_match": true,
@@ -344,6 +404,7 @@
     },
     {
       "course_code": null,
+      "catalog_entry_id": "entry_b4afe82ebd1b2de4",
       "opening_units": [
         "IBMBA"
       ],
@@ -351,6 +412,8 @@
       "course_name_snapshot": "國際行銷",
       "credits_snapshot": 3.0,
       "requirement_group": "elective",
+      "requirement_section": "elective",
+      "program_course_name_snapshot": null,
       "notes": "",
       "source_page": 1,
       "evidence_match": true,
@@ -361,6 +424,31 @@
   "structured_requirements": {
     "minimum_total_credits": 15,
     "core_credits_text_value": 6,
-    "minimum_outside_home_department_credits": 6
+    "minimum_outside_home_department_credits": 6,
+    "entry_selection_constraints": [
+      {
+        "constraint_id": "constraint_e3747f449af208e8",
+        "kind": "select_entries",
+        "catalog_entry_ids": [
+          "entry_2fe61ec4b8f0157a",
+          "entry_aeabfe2b3876fe50",
+          "entry_c7b081d64d008dbf"
+        ],
+        "course_names": [
+          "行銷管理",
+          "行銷研究",
+          "行銷個案"
+        ],
+        "min_entries": 2,
+        "max_entries": 2,
+        "declared_option_count": null,
+        "option_count_matches": true,
+        "requirement_group": "core",
+        "requirement_section": "core",
+        "source_page": 1,
+        "source_text": " 核心課程學分數: 6 學分(核心課程任選二門)   ",
+        "validation_status": "source_text_match"
+      }
+    ]
   }
 }

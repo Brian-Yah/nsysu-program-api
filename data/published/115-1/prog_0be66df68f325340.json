@@ -23,7 +23,7 @@
       "last_modified": "Tue, 27 May 2025 02:20:33 GMT",
       "content_length": 223764
     },
-    "parser_version": "0.2.1",
+    "parser_version": "0.2.2",
     "extractor_versions": {
       "pypdf": "6.10.0",
       "pdfplumber": "0.11.9"
@@ -41,6 +41,7 @@
   "course_catalog": [
     {
       "course_code": null,
+      "catalog_entry_id": "entry_4d362aa97b30da8f",
       "opening_units": [
         "海資"
       ],
@@ -48,6 +49,8 @@
       "course_name_snapshot": "生物技術",
       "credits_snapshot": 3.0,
       "requirement_group": "core",
+      "requirement_section": "core",
+      "program_course_name_snapshot": null,
       "notes": "",
       "source_page": 1,
       "evidence_match": true,
@@ -56,6 +59,7 @@
     },
     {
       "course_code": null,
+      "catalog_entry_id": "entry_f4d0ed10ef9d03bd",
       "opening_units": [
         "生科"
       ],
@@ -63,6 +67,8 @@
       "course_name_snapshot": "生物資訊學",
       "credits_snapshot": 3.0,
       "requirement_group": "core",
+      "requirement_section": "core",
+      "program_course_name_snapshot": null,
       "notes": "",
       "source_page": 1,
       "evidence_match": true,
@@ -71,6 +77,7 @@
     },
     {
       "course_code": null,
+      "catalog_entry_id": "entry_d5d6dc22de9ddb20",
       "opening_units": [
         "海資"
       ],
@@ -78,6 +85,8 @@
       "course_name_snapshot": "細胞生物學",
       "credits_snapshot": 3.0,
       "requirement_group": "core",
+      "requirement_section": "core",
+      "program_course_name_snapshot": null,
       "notes": "",
       "source_page": 1,
       "evidence_match": true,
@@ -86,6 +95,7 @@
     },
     {
       "course_code": null,
+      "catalog_entry_id": "entry_b8b732448cb6562e",
       "opening_units": [
         "生科"
       ],
@@ -93,6 +103,8 @@
       "course_name_snapshot": "生物化學分析方法",
       "credits_snapshot": 3.0,
       "requirement_group": "elective",
+      "requirement_section": "elective",
+      "program_course_name_snapshot": null,
       "notes": "",
       "source_page": 1,
       "evidence_match": true,
@@ -101,6 +113,7 @@
     },
     {
       "course_code": null,
+      "catalog_entry_id": "entry_41e52291a2b64265",
       "opening_units": [
         "生科"
       ],
@@ -108,6 +121,8 @@
       "course_name_snapshot": "分子生物學",
       "credits_snapshot": 3.0,
       "requirement_group": "elective",
+      "requirement_section": "elective",
+      "program_course_name_snapshot": null,
       "notes": "",
       "source_page": 1,
       "evidence_match": true,
@@ -116,6 +131,7 @@
     },
     {
       "course_code": null,
+      "catalog_entry_id": "entry_6544d5af302ba885",
       "opening_units": [
         "生科"
       ],
@@ -123,6 +139,8 @@
       "course_name_snapshot": "基因組學",
       "credits_snapshot": 3.0,
       "requirement_group": "elective",
+      "requirement_section": "elective",
+      "program_course_name_snapshot": null,
       "notes": "",
       "source_page": 1,
       "evidence_match": true,
@@ -131,6 +149,7 @@
     },
     {
       "course_code": null,
+      "catalog_entry_id": "entry_c6237f7312ebbd2a",
       "opening_units": [
         "海資"
       ],
@@ -138,6 +157,8 @@
       "course_name_snapshot": "生物化學實驗",
       "credits_snapshot": 1.0,
       "requirement_group": "elective",
+      "requirement_section": "elective",
+      "program_course_name_snapshot": null,
       "notes": "",
       "source_page": 1,
       "evidence_match": true,
@@ -146,6 +167,7 @@
     },
     {
       "course_code": null,
+      "catalog_entry_id": "entry_cf328bbf1a5ad138",
       "opening_units": [
         "海資"
       ],
@@ -153,6 +175,8 @@
       "course_name_snapshot": "分子生物學實驗",
       "credits_snapshot": 1.0,
       "requirement_group": "elective",
+      "requirement_section": "elective",
+      "program_course_name_snapshot": null,
       "notes": "",
       "source_page": 1,
       "evidence_match": true,
@@ -161,6 +185,7 @@
     },
     {
       "course_code": null,
+      "catalog_entry_id": "entry_99ac8cc14e7d0f1f",
       "opening_units": [
         "海資"
       ],
@@ -168,6 +193,8 @@
       "course_name_snapshot": "微生物學實驗",
       "credits_snapshot": 2.0,
       "requirement_group": "elective",
+      "requirement_section": "elective",
+      "program_course_name_snapshot": null,
       "notes": "",
       "source_page": 1,
       "evidence_match": true,
@@ -176,6 +203,7 @@
     },
     {
       "course_code": null,
+      "catalog_entry_id": "entry_41e5536ba2312917",
       "opening_units": [
         "海資"
       ],
@@ -183,6 +211,8 @@
       "course_name_snapshot": "蛋白質化學",
       "credits_snapshot": 3.0,
       "requirement_group": "elective",
+      "requirement_section": "elective",
+      "program_course_name_snapshot": null,
       "notes": "",
       "source_page": 1,
       "evidence_match": true,
@@ -191,6 +221,7 @@
     },
     {
       "course_code": null,
+      "catalog_entry_id": "entry_3e7a4ec5044be45c",
       "opening_units": [
         "海資 (碩)"
       ],
@@ -198,6 +229,8 @@
       "course_name_snapshot": "生物科技特論",
       "credits_snapshot": 2.0,
       "requirement_group": "elective",
+      "requirement_section": "elective",
+      "program_course_name_snapshot": null,
       "notes": "",
       "source_page": 1,
       "evidence_match": true,
@@ -206,6 +239,7 @@
     },
     {
       "course_code": null,
+      "catalog_entry_id": "entry_9d87b6499cf430ac",
       "opening_units": [
         "海資 (碩)"
       ],
@@ -213,6 +247,8 @@
       "course_name_snapshot": "植物與藻類功能性基因研究導 論",
       "credits_snapshot": 3.0,
       "requirement_group": "elective",
+      "requirement_section": "elective",
+      "program_course_name_snapshot": null,
       "notes": "",
       "source_page": 1,
       "evidence_match": true,

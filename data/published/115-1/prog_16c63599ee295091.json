@@ -23,7 +23,7 @@
       "last_modified": "Tue, 23 Dec 2025 06:59:32 GMT",
       "content_length": 255096
     },
-    "parser_version": "0.2.1",
+    "parser_version": "0.2.2",
     "extractor_versions": {
       "pypdf": "6.10.0",
       "pdfplumber": "0.11.9"
@@ -41,6 +41,7 @@
   "course_catalog": [
     {
       "course_code": null,
+      "catalog_entry_id": "entry_1fa78f02821776ef",
       "opening_units": [
         "醫學院"
       ],
@@ -48,6 +49,8 @@
       "course_name_snapshot": "人體構造代謝與免疫",
       "credits_snapshot": 3.0,
       "requirement_group": "core",
+      "requirement_section": "core",
+      "program_course_name_snapshot": null,
       "notes": "",
       "source_page": 1,
       "evidence_match": true,
@@ -56,6 +59,7 @@
     },
     {
       "course_code": null,
+      "catalog_entry_id": "entry_265d7b5cf44c293f",
       "opening_units": [
         "後醫系"
       ],
@@ -63,6 +67,8 @@
       "course_name_snapshot": "身心健康醫學講座",
       "credits_snapshot": 2.0,
       "requirement_group": "core",
+      "requirement_section": "core",
+      "program_course_name_snapshot": null,
       "notes": "",
       "source_page": 1,
       "evidence_match": true,
@@ -71,6 +77,7 @@
     },
     {
       "course_code": null,
+      "catalog_entry_id": "entry_53f2137630140a31",
       "opening_units": [
         "海資系"
       ],
@@ -78,6 +85,8 @@
       "course_name_snapshot": "營養與藥物安全講座",
       "credits_snapshot": 2.0,
       "requirement_group": "core",
+      "requirement_section": "core",
+      "program_course_name_snapshot": null,
       "notes": "",
       "source_page": 1,
       "evidence_match": true,
@@ -86,6 +95,7 @@
     },
     {
       "course_code": null,
+      "catalog_entry_id": "entry_443e77687b5f6df8",
       "opening_units": [
         "化學系"
       ],
@@ -93,6 +103,8 @@
       "course_name_snapshot": "食品安全分析概論",
       "credits_snapshot": 2.0,
       "requirement_group": "core",
+      "requirement_section": "core",
+      "program_course_name_snapshot": null,
       "notes": "",
       "source_page": 1,
       "evidence_match": true,
@@ -101,6 +113,7 @@
     },
     {
       "course_code": null,
+      "catalog_entry_id": "entry_118444750f9a86df",
       "opening_units": [
         "生物科學系"
       ],
@@ -108,6 +121,8 @@
       "course_name_snapshot": "營養生物化學",
       "credits_snapshot": 2.0,
       "requirement_group": "core",
+      "requirement_section": "core",
+      "program_course_name_snapshot": null,
       "notes": "",
       "source_page": 1,
       "evidence_match": true,
@@ -116,6 +131,7 @@
     },
     {
       "course_code": null,
+      "catalog_entry_id": "entry_9a8969583888559f",
       "opening_units": [
         "生物科學系"
       ],
@@ -123,6 +139,8 @@
       "course_name_snapshot": "食品科學概論",
       "credits_snapshot": 2.0,
       "requirement_group": "core",
+      "requirement_section": "core",
+      "program_course_name_snapshot": null,
       "notes": "",
       "source_page": 1,
       "evidence_match": true,
@@ -131,6 +149,7 @@
     },
     {
       "course_code": null,
+      "catalog_entry_id": "entry_82328ec8032b5790",
       "opening_units": [
         "醫學科技研究所"
       ],
@@ -138,6 +157,8 @@
       "course_name_snapshot": "毒理學",
       "credits_snapshot": 3.0,
       "requirement_group": "elective",
+      "requirement_section": "elective",
+      "program_course_name_snapshot": null,
       "notes": "",
       "source_page": 1,
       "evidence_match": true,
@@ -146,6 +167,7 @@
     },
     {
       "course_code": null,
+      "catalog_entry_id": "entry_20c50cb14420dc56",
       "opening_units": [
         "海資系"
       ],
@@ -153,6 +175,8 @@
       "course_name_snapshot": "食安、微生物、與消化道疾病",
       "credits_snapshot": 3.0,
       "requirement_group": "elective",
+      "requirement_section": "elective",
+      "program_course_name_snapshot": null,
       "notes": "",
       "source_page": 1,
       "evidence_match": true,
@@ -161,6 +185,7 @@
     },
     {
       "course_code": null,
+      "catalog_entry_id": "entry_7b27b9688fbbe858",
       "opening_units": [
         "化學系"
       ],
@@ -168,6 +193,8 @@
       "course_name_snapshot": "PM2.5 氣膠生醫科學",
       "credits_snapshot": 3.0,
       "requirement_group": "elective",
+      "requirement_section": "elective",
+      "program_course_name_snapshot": null,
       "notes": "",
       "source_page": 1,
       "evidence_match": true,
@@ -176,6 +203,7 @@
     },
     {
       "course_code": null,
+      "catalog_entry_id": "entry_8991be8e561caa5b",
       "opening_units": [
         "海資系"
       ],
@@ -183,6 +211,8 @@
       "course_name_snapshot": "生藥學",
       "credits_snapshot": 3.0,
       "requirement_group": "elective",
+      "requirement_section": "elective",
+      "program_course_name_snapshot": null,
       "notes": "",
       "source_page": 1,
       "evidence_match": true,
@@ -191,6 +221,7 @@
     },
     {
       "course_code": null,
+      "catalog_entry_id": "entry_5fe392cfc69aee4c",
       "opening_units": [
         "海資系"
       ],
@@ -198,6 +229,8 @@
       "course_name_snapshot": "海洋中藥概論",
       "credits_snapshot": 2.0,
       "requirement_group": "elective",
+      "requirement_section": "elective",
+      "program_course_name_snapshot": null,
       "notes": "",
       "source_page": 1,
       "evidence_match": true,
@@ -206,6 +239,7 @@
     },
     {
       "course_code": null,
+      "catalog_entry_id": "entry_795d8a9bfbe1dfe1",
       "opening_units": [
         "化學系"
       ],
@@ -213,6 +247,8 @@
       "course_name_snapshot": "生化、物理、與影像醫學檢驗",
       "credits_snapshot": 3.0,
       "requirement_group": "elective",
+      "requirement_section": "elective",
+      "program_course_name_snapshot": null,
       "notes": "",
       "source_page": 1,
       "evidence_match": true,
@@ -221,6 +257,7 @@
     },
     {
       "course_code": null,
+      "catalog_entry_id": "entry_b16c13276a37f5c9",
       "opening_units": [
         "人科學程"
       ],
@@ -228,6 +265,8 @@
       "course_name_snapshot": "新冠肺炎",
       "credits_snapshot": 2.0,
       "requirement_group": "elective",
+      "requirement_section": "elective",
+      "program_course_name_snapshot": null,
       "notes": "",
       "source_page": 1,
       "evidence_match": true,
@@ -236,6 +275,7 @@
     },
     {
       "course_code": null,
+      "catalog_entry_id": "entry_1a10948a0b38ff88",
       "opening_units": [
         "化學系"
       ],
@@ -243,6 +283,8 @@
       "course_name_snapshot": "發育、新陳代謝與心理健康",
       "credits_snapshot": 3.0,
       "requirement_group": "elective",
+      "requirement_section": "elective",
+      "program_course_name_snapshot": null,
       "notes": "",
       "source_page": 1,
       "evidence_match": true,
@@ -251,6 +293,7 @@
     },
     {
       "course_code": null,
+      "catalog_entry_id": "entry_fc1aa07a945ba9b1",
       "opening_units": [
         "人科學程"
       ],
@@ -258,6 +301,8 @@
       "course_name_snapshot": "食品營養安全與健康講座",
       "credits_snapshot": 2.0,
       "requirement_group": "elective",
+      "requirement_section": "elective",
+      "program_course_name_snapshot": null,
       "notes": "",
       "source_page": 1,
       "evidence_match": true,
@@ -266,6 +311,7 @@
     },
     {
       "course_code": null,
+      "catalog_entry_id": "entry_4dad86f89c43ed5b",
       "opening_units": [
         "化學系"
       ],
@@ -273,6 +319,8 @@
       "course_name_snapshot": "質譜分析與食品安全",
       "credits_snapshot": 2.0,
       "requirement_group": "elective",
+      "requirement_section": "elective",
+      "program_course_name_snapshot": null,
       "notes": "",
       "source_page": 1,
       "evidence_match": true,
@@ -281,6 +329,7 @@
     },
     {
       "course_code": null,
+      "catalog_entry_id": "entry_f350be2c05a70e07",
       "opening_units": [
         "海資系"
       ],
@@ -288,6 +337,8 @@
       "course_name_snapshot": "食品微生物學",
       "credits_snapshot": 2.0,
       "requirement_group": "elective",
+      "requirement_section": "elective",
+      "program_course_name_snapshot": null,
       "notes": "",
       "source_page": 1,
       "evidence_match": true,
@@ -296,6 +347,7 @@
     },
     {
       "course_code": null,
+      "catalog_entry_id": "entry_131821ca67a07bac",
       "opening_units": [
         "生物科學系"
       ],
@@ -303,6 +355,8 @@
       "course_name_snapshot": "舌尖上的演化史",
       "credits_snapshot": 2.0,
       "requirement_group": "elective",
+      "requirement_section": "elective",
+      "program_course_name_snapshot": null,
       "notes": "",
       "source_page": 1,
       "evidence_match": true,
@@ -311,6 +365,7 @@
     },
     {
       "course_code": null,
+      "catalog_entry_id": "entry_2cc820498198d5bb",
       "opening_units": [
         "人科學程"
       ],
@@ -318,6 +373,8 @@
       "course_name_snapshot": "烹飪與科學",
       "credits_snapshot": 2.0,
       "requirement_group": "elective",
+      "requirement_section": "elective",
+      "program_course_name_snapshot": null,
       "notes": "",
       "source_page": 1,
       "evidence_match": true,
@@ -326,6 +383,7 @@
     },
     {
       "course_code": null,
+      "catalog_entry_id": "entry_821d5ad7d4f6ed2f",
       "opening_units": [
         "海科系"
       ],
@@ -333,6 +391,8 @@
       "course_name_snapshot": "水產概論",
       "credits_snapshot": 2.0,
       "requirement_group": "elective",
+      "requirement_section": "elective",
+      "program_course_name_snapshot": null,
       "notes": "",
       "source_page": 1,
       "evidence_match": true,
@@ -341,6 +401,7 @@
     },
     {
       "course_code": null,
+      "catalog_entry_id": "entry_c27cc88908020b38",
       "opening_units": [
         "人科學程"
       ],
@@ -348,6 +409,8 @@
       "course_name_snapshot": "食品衛生與安全",
       "credits_snapshot": 2.0,
       "requirement_group": "elective",
+      "requirement_section": "elective",
+      "program_course_name_snapshot": null,
       "notes": "",
       "source_page": 1,
       "evidence_match": true,
@@ -356,6 +419,7 @@
     },
     {
       "course_code": null,
+      "catalog_entry_id": "entry_261edf1540771318",
       "opening_units": [
         "後醫系"
       ],
@@ -363,6 +427,8 @@
       "course_name_snapshot": "健康一體概論",
       "credits_snapshot": 2.0,
       "requirement_group": "elective",
+      "requirement_section": "elective",
+      "program_course_name_snapshot": null,
       "notes": "",
       "source_page": 1,
       "evidence_match": true,
@@ -371,6 +437,7 @@
     },
     {
       "course_code": null,
+      "catalog_entry_id": "entry_2357d9846fe60f58",
       "opening_units": [
         "後醫系"
       ],
@@ -378,6 +445,8 @@
       "course_name_snapshot": "環境與職業衛生",
       "credits_snapshot": 3.0,
       "requirement_group": "elective",
+      "requirement_section": "elective",
+      "program_course_name_snapshot": null,
       "notes": "",
       "source_page": 1,
       "evidence_match": true,
@@ -386,6 +455,7 @@
     },
     {
       "course_code": null,
+      "catalog_entry_id": "entry_3dab6ee3f9c6ff5e",
       "opening_units": [
         "後醫系"
       ],
@@ -393,6 +463,8 @@
       "course_name_snapshot": "疾病、瘟疫與文明",
       "credits_snapshot": 2.0,
       "requirement_group": "elective",
+      "requirement_section": "elective",
+      "program_course_name_snapshot": null,
       "notes": "",
       "source_page": 1,
       "evidence_match": true,
@@ -401,6 +473,7 @@
     },
     {
       "course_code": null,
+      "catalog_entry_id": "entry_398bffdcd2887f0a",
       "opening_units": [
         "後醫系"
       ],
@@ -408,6 +481,8 @@
       "course_name_snapshot": "共病時代-人類動物共通傳染病",
       "credits_snapshot": 2.0,
       "requirement_group": "elective",
+      "requirement_section": "elective",
+      "program_course_name_snapshot": null,
       "notes": "",
       "source_page": 1,
       "evidence_match": true,

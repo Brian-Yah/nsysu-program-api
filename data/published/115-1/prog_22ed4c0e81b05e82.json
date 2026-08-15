@@ -23,7 +23,7 @@
       "last_modified": "Fri, 31 May 2024 06:25:57 GMT",
       "content_length": 188061
     },
-    "parser_version": "0.2.1",
+    "parser_version": "0.2.2",
     "extractor_versions": {
       "pypdf": "6.10.0",
       "pdfplumber": "0.11.9"
@@ -41,6 +41,7 @@
   "course_catalog": [
     {
       "course_code": null,
+      "catalog_entry_id": "entry_f4c9b2489b2e344b",
       "opening_units": [
         "運動與健康教育中心"
       ],
@@ -48,6 +49,8 @@
       "course_name_snapshot": "海洋休閒活動概論",
       "credits_snapshot": 2.0,
       "requirement_group": "core",
+      "requirement_section": "core",
+      "program_course_name_snapshot": null,
       "notes": "",
       "source_page": 1,
       "evidence_match": true,
@@ -56,6 +59,7 @@
     },
     {
       "course_code": null,
+      "catalog_entry_id": "entry_df6790f8bde54205",
       "opening_units": [
         "海洋科學系"
       ],
@@ -63,6 +67,8 @@
       "course_name_snapshot": "海洋與海岸管理",
       "credits_snapshot": 3.0,
       "requirement_group": "core",
+      "requirement_section": "core",
+      "program_course_name_snapshot": null,
       "notes": "誤植學分",
       "source_page": 1,
       "evidence_match": true,
@@ -71,6 +77,7 @@
     },
     {
       "course_code": null,
+      "catalog_entry_id": "entry_b4ca5d5a5a982287",
       "opening_units": [
         "人科學程"
       ],
@@ -78,6 +85,8 @@
       "course_name_snapshot": "精實創業",
       "credits_snapshot": 2.0,
       "requirement_group": "core",
+      "requirement_section": "core",
+      "program_course_name_snapshot": null,
       "notes": "",
       "source_page": 1,
       "evidence_match": true,
@@ -86,6 +95,7 @@
     },
     {
       "course_code": null,
+      "catalog_entry_id": "entry_4e1ae9eba742eb0a",
       "opening_units": [
         "運動與健康教育中心"
       ],
@@ -93,6 +103,8 @@
       "course_name_snapshot": "初級游泳",
       "credits_snapshot": 1.0,
       "requirement_group": "core",
+      "requirement_section": "core",
+      "program_course_name_snapshot": null,
       "notes": "",
       "source_page": 1,
       "evidence_match": true,
@@ -101,6 +113,7 @@
     },
     {
       "course_code": null,
+      "catalog_entry_id": "entry_74278e498c6fa8bc",
       "opening_units": [
         "運動與健康教育中心"
       ],
@@ -108,6 +121,8 @@
       "course_name_snapshot": "初級帆船",
       "credits_snapshot": 1.0,
       "requirement_group": "core",
+      "requirement_section": "core",
+      "program_course_name_snapshot": null,
       "notes": "",
       "source_page": 1,
       "evidence_match": true,
@@ -116,6 +131,7 @@
     },
     {
       "course_code": null,
+      "catalog_entry_id": "entry_3e785ab7dc380773",
       "opening_units": [
         "運動與健康教育中心"
       ],
@@ -123,6 +139,8 @@
       "course_name_snapshot": "初級潛水",
       "credits_snapshot": 1.0,
       "requirement_group": "core",
+      "requirement_section": "core",
+      "program_course_name_snapshot": null,
       "notes": "",
       "source_page": 1,
       "evidence_match": true,
@@ -131,6 +149,7 @@
     },
     {
       "course_code": null,
+      "catalog_entry_id": "entry_6b38d4da6d759c23",
       "opening_units": [
         "運動與健康教育中心"
       ],
@@ -138,6 +157,8 @@
       "course_name_snapshot": "初級水域休閒活動",
       "credits_snapshot": 1.0,
       "requirement_group": "core",
+      "requirement_section": "core",
+      "program_course_name_snapshot": null,
       "notes": "",
       "source_page": 1,
       "evidence_match": true,
@@ -146,6 +167,7 @@
     },
     {
       "course_code": null,
+      "catalog_entry_id": "entry_ff0feeca29a34cbd",
       "opening_units": [
         "運動與健康教育中心"
       ],
@@ -153,6 +175,8 @@
       "course_name_snapshot": "水上救生",
       "credits_snapshot": 2.0,
       "requirement_group": "elective",
+      "requirement_section": "elective",
+      "program_course_name_snapshot": null,
       "notes": "",
       "source_page": 1,
       "evidence_match": true,
@@ -161,6 +185,7 @@
     },
     {
       "course_code": null,
+      "catalog_entry_id": "entry_fe781d67be5bfe15",
       "opening_units": [
         "運動與健康教育中心"
       ],
@@ -168,6 +193,8 @@
       "course_name_snapshot": "進階潛水",
       "credits_snapshot": 1.0,
       "requirement_group": "elective",
+      "requirement_section": "elective",
+      "program_course_name_snapshot": null,
       "notes": "",
       "source_page": 1,
       "evidence_match": true,
@@ -176,6 +203,7 @@
     },
     {
       "course_code": null,
+      "catalog_entry_id": "entry_b742861cd8097af5",
       "opening_units": [
         "運動與健康教育中心"
       ],
@@ -183,6 +211,8 @@
       "course_name_snapshot": "進階帆船",
       "credits_snapshot": 1.0,
       "requirement_group": "elective",
+      "requirement_section": "elective",
+      "program_course_name_snapshot": null,
       "notes": "",
       "source_page": 1,
       "evidence_match": true,
@@ -191,6 +221,7 @@
     },
     {
       "course_code": null,
+      "catalog_entry_id": "entry_8dfb0c7ee11907e6",
       "opening_units": [
         "運動與健康教育中心"
       ],
@@ -198,6 +229,8 @@
       "course_name_snapshot": "初級競技游泳",
       "credits_snapshot": 1.0,
       "requirement_group": "elective",
+      "requirement_section": "elective",
+      "program_course_name_snapshot": null,
       "notes": "",
       "source_page": 1,
       "evidence_match": true,
@@ -206,6 +239,7 @@
     },
     {
       "course_code": null,
+      "catalog_entry_id": "entry_30dbb2a7e4a88e5d",
       "opening_units": [
         "海科系"
       ],
@@ -213,6 +247,8 @@
       "course_name_snapshot": "海洋基礎科學",
       "credits_snapshot": 2.0,
       "requirement_group": "elective",
+      "requirement_section": "elective",
+      "program_course_name_snapshot": null,
       "notes": "",
       "source_page": 1,
       "evidence_match": true,
@@ -221,6 +257,7 @@
     },
     {
       "course_code": null,
+      "catalog_entry_id": "entry_1e46adf55b870c2b",
       "opening_units": [
         "運動與健康教育中心"
       ],
@@ -228,6 +265,8 @@
       "course_name_snapshot": "休閒活動實習",
       "credits_snapshot": 2.0,
       "requirement_group": "elective",
+      "requirement_section": "elective",
+      "program_course_name_snapshot": null,
       "notes": "",
       "source_page": 1,
       "evidence_match": true,
@@ -236,6 +275,7 @@
     },
     {
       "course_code": null,
+      "catalog_entry_id": "entry_5f6b854362b69bbf",
       "opening_units": [
         "運動與健康教育中心"
       ],
@@ -243,6 +283,8 @@
       "course_name_snapshot": "初級衝浪",
       "credits_snapshot": 1.0,
       "requirement_group": "elective",
+      "requirement_section": "elective",
+      "program_course_name_snapshot": null,
       "notes": "由核心課程調移",
       "source_page": 1,
       "evidence_match": true,
@@ -251,6 +293,7 @@
     },
     {
       "course_code": null,
+      "catalog_entry_id": "entry_d8ef862f091066a5",
       "opening_units": [
         "博雅教育中心"
       ],
@@ -258,6 +301,8 @@
       "course_name_snapshot": "海洋文化",
       "credits_snapshot": 3.0,
       "requirement_group": "elective",
+      "requirement_section": "elective",
+      "program_course_name_snapshot": null,
       "notes": "新增",
       "source_page": 1,
       "evidence_match": true,
@@ -266,6 +311,7 @@
     },
     {
       "course_code": null,
+      "catalog_entry_id": "entry_b53ae381b621d9cb",
       "opening_units": [
         "人科學程"
       ],
@@ -273,6 +319,8 @@
       "course_name_snapshot": "商業策略與管理",
       "credits_snapshot": 3.0,
       "requirement_group": "elective",
+      "requirement_section": "elective",
+      "program_course_name_snapshot": null,
       "notes": "新增",
       "source_page": 1,
       "evidence_match": true,

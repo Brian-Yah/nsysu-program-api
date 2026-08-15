@@ -29,7 +29,7 @@
         "last_modified": "Tue, 23 Dec 2025 07:03:18 GMT",
         "content_length": 215612
       },
-      "parser_version": "0.2.1",
+      "parser_version": "0.2.2",
       "extractor_versions": {
         "pypdf": "6.10.0",
         "pdfplumber": "0.11.9"
@@ -47,6 +47,7 @@
     "course_catalog": [
       {
         "course_code": null,
+        "catalog_entry_id": "entry_747710010e51e877",
         "opening_units": [
           "博雅教育中心"
         ],
@@ -54,6 +55,8 @@
         "course_name_snapshot": "飲食與文學",
         "credits_snapshot": 3.0,
         "requirement_group": "core",
+        "requirement_section": "core",
+        "program_course_name_snapshot": null,
         "notes": "",
         "source_page": 1,
         "evidence_match": true,
@@ -62,6 +65,7 @@
       },
       {
         "course_code": null,
+        "catalog_entry_id": "entry_1b3ff06c5e1a45a5",
         "opening_units": [
           "博雅教育中心"
         ],
@@ -69,6 +73,8 @@
         "course_name_snapshot": "烹飪與科學",
         "credits_snapshot": 2.0,
         "requirement_group": "core",
+        "requirement_section": "core",
+        "program_course_name_snapshot": null,
         "notes": "",
         "source_page": 1,
         "evidence_match": true,
@@ -77,6 +83,7 @@
       },
       {
         "course_code": null,
+        "catalog_entry_id": "entry_bf6b94764c8520db",
         "opening_units": [
           "博雅教育中心"
         ],
@@ -84,6 +91,8 @@
         "course_name_snapshot": "台灣文化史",
         "credits_snapshot": 3.0,
         "requirement_group": "core",
+        "requirement_section": "core",
+        "program_course_name_snapshot": null,
         "notes": "",
         "source_page": 1,
         "evidence_match": true,
@@ -92,6 +101,7 @@
       },
       {
         "course_code": null,
+        "catalog_entry_id": "entry_249a3c8af03024eb",
         "opening_units": [
           "服務學習教育中心"
         ],
@@ -99,6 +109,8 @@
         "course_name_snapshot": "服務學習:人人都是科學家!",
         "credits_snapshot": 1.0,
         "requirement_group": "core",
+        "requirement_section": "core",
+        "program_course_name_snapshot": null,
         "notes": "",
         "source_page": 1,
         "evidence_match": true,
@@ -107,6 +119,7 @@
       },
       {
         "course_code": null,
+        "catalog_entry_id": "entry_ff71d8968df51bd0",
         "opening_units": [
           "基礎教育中心"
         ],
@@ -114,6 +127,8 @@
         "course_name_snapshot": "地方創生議題探討",
         "credits_snapshot": 3.0,
         "requirement_group": "elective",
+        "requirement_section": "elective",
+        "program_course_name_snapshot": null,
         "notes": "",
         "source_page": 1,
         "evidence_match": true,
@@ -122,6 +137,7 @@
       },
       {
         "course_code": null,
+        "catalog_entry_id": "entry_f98492673ec0c8f0",
         "opening_units": [
           "基礎教育中心"
         ],
@@ -129,6 +145,8 @@
         "course_name_snapshot": "都市農業與永續發展",
         "credits_snapshot": 3.0,
         "requirement_group": "elective",
+        "requirement_section": "elective",
+        "program_course_name_snapshot": null,
         "notes": "",
         "source_page": 1,
         "evidence_match": true,
@@ -137,6 +155,7 @@
       },
       {
         "course_code": null,
+        "catalog_entry_id": "entry_8ac323c5a6ad15ce",
         "opening_units": [
           "博雅教育中心"
         ],
@@ -144,6 +163,8 @@
         "course_name_snapshot": "故事創意與數位繪本",
         "credits_snapshot": 2.0,
         "requirement_group": "elective",
+        "requirement_section": "elective",
+        "program_course_name_snapshot": null,
         "notes": "",
         "source_page": 1,
         "evidence_match": true,
@@ -152,6 +173,7 @@
       },
       {
         "course_code": null,
+        "catalog_entry_id": "entry_4abc9680bf25014b",
         "opening_units": [
           "博雅教育中心"
         ],
@@ -159,6 +181,8 @@
         "course_name_snapshot": "海洋文化",
         "credits_snapshot": 3.0,
         "requirement_group": "elective",
+        "requirement_section": "elective",
+        "program_course_name_snapshot": null,
         "notes": "",
         "source_page": 1,
         "evidence_match": true,
@@ -167,6 +191,7 @@
       },
       {
         "course_code": null,
+        "catalog_entry_id": "entry_b5cc4542f939d9d2",
         "opening_units": [
           "服務學習教育中心"
         ],
@@ -174,6 +199,8 @@
         "course_name_snapshot": "服務學習:校園農場與永續社區服務學習",
         "credits_snapshot": 1.0,
         "requirement_group": "elective",
+        "requirement_section": "elective",
+        "program_course_name_snapshot": null,
         "notes": "",
         "source_page": 1,
         "evidence_match": false,
@@ -182,6 +209,7 @@
       },
       {
         "course_code": null,
+        "catalog_entry_id": "entry_1c61431e9fd57d76",
         "opening_units": [
           "基礎教育中心"
         ],
@@ -189,6 +217,8 @@
         "course_name_snapshot": "氣候變遷與永續農業發展",
         "credits_snapshot": 3.0,
         "requirement_group": "elective",
+        "requirement_section": "elective",
+        "program_course_name_snapshot": null,
         "notes": "",
         "source_page": 1,
         "evidence_match": true,

@@ -29,7 +29,7 @@
         "last_modified": "Tue, 24 Dec 2024 07:14:58 GMT",
         "content_length": 87588
       },
-      "parser_version": "0.2.1",
+      "parser_version": "0.2.2",
       "extractor_versions": {
         "pypdf": "6.10.0",
         "pdfplumber": "0.11.9"
@@ -47,6 +47,7 @@
     "course_catalog": [
       {
         "course_code": null,
+        "catalog_entry_id": "entry_6eebaa76c0013bf1",
         "opening_units": [
           "企管系",
           "財管系"
@@ -55,6 +56,8 @@
         "course_name_snapshot": "財務管理/財務管理(一)",
         "credits_snapshot": 3.0,
         "requirement_group": "core",
+        "requirement_section": "core",
+        "program_course_name_snapshot": null,
         "notes": "",
         "source_page": 1,
         "evidence_match": true,
@@ -63,6 +66,7 @@
       },
       {
         "course_code": null,
+        "catalog_entry_id": "entry_1f8ccb29c3c009fe",
         "opening_units": [
           "企管系",
           "財管系"
@@ -71,6 +75,8 @@
         "course_name_snapshot": "會計學(一)",
         "credits_snapshot": 3.0,
         "requirement_group": "core",
+        "requirement_section": "core",
+        "program_course_name_snapshot": null,
         "notes": "",
         "source_page": 1,
         "evidence_match": true,
@@ -79,6 +85,7 @@
       },
       {
         "course_code": null,
+        "catalog_entry_id": "entry_5d64b113433aa65e",
         "opening_units": [
           "企管系",
           "財管系"
@@ -87,6 +94,8 @@
         "course_name_snapshot": "會計學(二)",
         "credits_snapshot": 3.0,
         "requirement_group": "core",
+        "requirement_section": "core",
+        "program_course_name_snapshot": null,
         "notes": "",
         "source_page": 1,
         "evidence_match": true,
@@ -95,6 +104,7 @@
       },
       {
         "course_code": null,
+        "catalog_entry_id": "entry_ff671a619d403f68",
         "opening_units": [
           "企管系",
           "財管系"
@@ -103,6 +113,8 @@
         "course_name_snapshot": "中級會計學(一)",
         "credits_snapshot": 3.0,
         "requirement_group": "core",
+        "requirement_section": "core",
+        "program_course_name_snapshot": null,
         "notes": "必修",
         "source_page": 1,
         "evidence_match": true,
@@ -111,6 +123,7 @@
       },
       {
         "course_code": null,
+        "catalog_entry_id": "entry_26c780218238f097",
         "opening_units": [
           "企管系",
           "財管系"
@@ -119,6 +132,8 @@
         "course_name_snapshot": "中級會計學(二)",
         "credits_snapshot": 3.0,
         "requirement_group": "core",
+        "requirement_section": "core",
+        "program_course_name_snapshot": null,
         "notes": "必修",
         "source_page": 1,
         "evidence_match": true,
@@ -127,6 +142,7 @@
       },
       {
         "course_code": null,
+        "catalog_entry_id": "entry_9d5c1d07ace2ea31",
         "opening_units": [
           "企管系",
           "財管系"
@@ -135,6 +151,8 @@
         "course_name_snapshot": "成本會計學",
         "credits_snapshot": 3.0,
         "requirement_group": "elective",
+        "requirement_section": "elective",
+        "program_course_name_snapshot": null,
         "notes": "",
         "source_page": 1,
         "evidence_match": true,
@@ -143,6 +161,7 @@
       },
       {
         "course_code": null,
+        "catalog_entry_id": "entry_0b4d03536bb893c1",
         "opening_units": [
           "企管系",
           "財管系"
@@ -151,6 +170,8 @@
         "course_name_snapshot": "高等會計學(一)",
         "credits_snapshot": 3.0,
         "requirement_group": "elective",
+        "requirement_section": "elective",
+        "program_course_name_snapshot": null,
         "notes": "",
         "source_page": 1,
         "evidence_match": true,
@@ -159,6 +180,7 @@
       },
       {
         "course_code": null,
+        "catalog_entry_id": "entry_f5c2ec188362051a",
         "opening_units": [
           "企管系",
           "財管系"
@@ -167,6 +189,8 @@
         "course_name_snapshot": "高等會計學(二)",
         "credits_snapshot": 3.0,
         "requirement_group": "elective",
+        "requirement_section": "elective",
+        "program_course_name_snapshot": null,
         "notes": "",
         "source_page": 1,
         "evidence_match": true,
@@ -175,6 +199,7 @@
       },
       {
         "course_code": null,
+        "catalog_entry_id": "entry_c3817de572ab08e2",
         "opening_units": [
           "企管系",
           "財管系"
@@ -183,6 +208,8 @@
         "course_name_snapshot": "會計實務",
         "credits_snapshot": 3.0,
         "requirement_group": "elective",
+        "requirement_section": "elective",
+        "program_course_name_snapshot": null,
         "notes": "",
         "source_page": 1,
         "evidence_match": true,
@@ -191,6 +218,7 @@
       },
       {
         "course_code": null,
+        "catalog_entry_id": "entry_1ccf4af2a51a8bcd",
         "opening_units": [
           "企管系",
           "財管系"
@@ -199,6 +227,8 @@
         "course_name_snapshot": "管理會計",
         "credits_snapshot": 3.0,
         "requirement_group": "elective",
+        "requirement_section": "elective",
+        "program_course_name_snapshot": null,
         "notes": "",
         "source_page": 1,
         "evidence_match": true,
@@ -207,6 +237,7 @@
       },
       {
         "course_code": null,
+        "catalog_entry_id": "entry_0668a907a5d8363d",
         "opening_units": [
           "企管系",
           "財管系"
@@ -215,6 +246,8 @@
         "course_name_snapshot": "會計資訊系統",
         "credits_snapshot": 3.0,
         "requirement_group": "elective",
+        "requirement_section": "elective",
+        "program_course_name_snapshot": null,
         "notes": "",
         "source_page": 1,
         "evidence_match": true,
@@ -223,6 +256,7 @@
       },
       {
         "course_code": null,
+        "catalog_entry_id": "entry_cfa04014982c9758",
         "opening_units": [
           "企管系",
           "財管系"
@@ -231,6 +265,8 @@
         "course_name_snapshot": "稅務會計",
         "credits_snapshot": 3.0,
         "requirement_group": "elective",
+        "requirement_section": "elective",
+        "program_course_name_snapshot": null,
         "notes": "",
         "source_page": 1,
         "evidence_match": true,
@@ -239,6 +275,7 @@
       },
       {
         "course_code": null,
+        "catalog_entry_id": "entry_7dd17a86a3e87c12",
         "opening_units": [
           "企管系",
           "財管系"
@@ -247,6 +284,8 @@
         "course_name_snapshot": "審計學",
         "credits_snapshot": 3.0,
         "requirement_group": "elective",
+        "requirement_section": "elective",
+        "program_course_name_snapshot": null,
         "notes": "",
         "source_page": 1,
         "evidence_match": true,
@@ -255,6 +294,7 @@
       },
       {
         "course_code": null,
+        "catalog_entry_id": "entry_329bb450618f5854",
         "opening_units": [
           "企管系",
           "財管系"
@@ -263,6 +303,8 @@
         "course_name_snapshot": "財務報表分析",
         "credits_snapshot": 3.0,
         "requirement_group": "elective",
+        "requirement_section": "elective",
+        "program_course_name_snapshot": null,
         "notes": "",
         "source_page": 1,
         "evidence_match": true,
@@ -271,6 +313,7 @@
       },
       {
         "course_code": null,
+        "catalog_entry_id": "entry_8a7639020b470510",
         "opening_units": [
           "企管系",
           "財管系"
@@ -279,6 +322,8 @@
         "course_name_snapshot": "財務管理/財務管理(一)",
         "credits_snapshot": 3.0,
         "requirement_group": "elective",
+        "requirement_section": "elective",
+        "program_course_name_snapshot": null,
         "notes": "",
         "source_page": 1,
         "evidence_match": true,

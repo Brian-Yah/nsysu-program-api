@@ -23,7 +23,7 @@
       "last_modified": "Tue, 24 Dec 2024 07:40:41 GMT",
       "content_length": 161843
     },
-    "parser_version": "0.2.1",
+    "parser_version": "0.2.2",
     "extractor_versions": {
       "pypdf": "6.10.0",
       "pdfplumber": "0.11.9"
@@ -41,6 +41,7 @@
   "course_catalog": [
     {
       "course_code": null,
+      "catalog_entry_id": "entry_b16c0ced684c9cf0",
       "opening_units": [
         "機電系"
       ],
@@ -48,6 +49,8 @@
       "course_name_snapshot": "太空科技導論(新開)",
       "credits_snapshot": 3.0,
       "requirement_group": "core",
+      "requirement_section": "core",
+      "program_course_name_snapshot": null,
       "notes": "預計112-2開設",
       "source_page": 1,
       "evidence_match": true,
@@ -56,6 +59,7 @@
     },
     {
       "course_code": null,
+      "catalog_entry_id": "entry_b8023c373e935a97",
       "opening_units": [
         "機電系"
       ],
@@ -63,6 +67,8 @@
       "course_name_snapshot": "微機電製程實務",
       "credits_snapshot": 2.0,
       "requirement_group": "core",
+      "requirement_section": "core",
+      "program_course_name_snapshot": null,
       "notes": "※英語授課、中文授課",
       "source_page": 1,
       "evidence_match": true,
@@ -71,6 +77,7 @@
     },
     {
       "course_code": null,
+      "catalog_entry_id": "entry_56a4219ef6a57d46",
       "opening_units": [
         "機電系"
       ],
@@ -78,6 +85,8 @@
       "course_name_snapshot": "機電材料",
       "credits_snapshot": 3.0,
       "requirement_group": "core",
+      "requirement_section": "core",
+      "program_course_name_snapshot": null,
       "notes": "※英語授課、中文授課",
       "source_page": 1,
       "evidence_match": true,
@@ -86,6 +95,7 @@
     },
     {
       "course_code": null,
+      "catalog_entry_id": "entry_e0545dc164e2676a",
       "opening_units": [
         "機電系"
       ],
@@ -93,6 +103,8 @@
       "course_name_snapshot": "機電實務專案",
       "credits_snapshot": 1.0,
       "requirement_group": "core",
+      "requirement_section": "core",
+      "program_course_name_snapshot": null,
       "notes": "",
       "source_page": 1,
       "evidence_match": true,
@@ -101,6 +113,7 @@
     },
     {
       "course_code": null,
+      "catalog_entry_id": "entry_053f562a76b12c2a",
       "opening_units": [
         "機電系"
       ],
@@ -108,6 +121,8 @@
       "course_name_snapshot": "電路學",
       "credits_snapshot": 3.0,
       "requirement_group": "core",
+      "requirement_section": "core",
+      "program_course_name_snapshot": null,
       "notes": "※英語授課、中文授課",
       "source_page": 1,
       "evidence_match": true,
@@ -116,6 +131,7 @@
     },
     {
       "course_code": null,
+      "catalog_entry_id": "entry_3be4e0354cd92756",
       "opening_units": [
         "機電系"
       ],
@@ -123,6 +139,8 @@
       "course_name_snapshot": "電子電路實驗",
       "credits_snapshot": 1.0,
       "requirement_group": "core",
+      "requirement_section": "core",
+      "program_course_name_snapshot": null,
       "notes": "※英語授課、中文授課",
       "source_page": 1,
       "evidence_match": true,
@@ -131,6 +149,7 @@
     },
     {
       "course_code": null,
+      "catalog_entry_id": "entry_92e4e3cde08c211c",
       "opening_units": [
         "電機系"
       ],
@@ -138,6 +157,8 @@
       "course_name_snapshot": "控制系統",
       "credits_snapshot": 3.0,
       "requirement_group": "core",
+      "requirement_section": "core",
+      "program_course_name_snapshot": null,
       "notes": "※英語授課、中文授課",
       "source_page": 1,
       "evidence_match": true,
@@ -146,6 +167,7 @@
     },
     {
       "course_code": null,
+      "catalog_entry_id": "entry_57827c0ba2113d43",
       "opening_units": [
         "電機系"
       ],
@@ -153,6 +175,8 @@
       "course_name_snapshot": "通訊系統",
       "credits_snapshot": 3.0,
       "requirement_group": "core",
+      "requirement_section": "core",
+      "program_course_name_snapshot": null,
       "notes": "※英語授課、中文授課",
       "source_page": 1,
       "evidence_match": true,
@@ -161,6 +185,7 @@
     },
     {
       "course_code": null,
+      "catalog_entry_id": "entry_6136f3ce8ca5f5f8",
       "opening_units": [
         "電機系"
       ],
@@ -168,6 +193,8 @@
       "course_name_snapshot": "電工實驗(三)",
       "credits_snapshot": 1.0,
       "requirement_group": "core",
+      "requirement_section": "core",
+      "program_course_name_snapshot": null,
       "notes": "※英語授課、中文授課",
       "source_page": 1,
       "evidence_match": true,
@@ -176,6 +203,7 @@
     },
     {
       "course_code": null,
+      "catalog_entry_id": "entry_eccea78e1b3331a5",
       "opening_units": [
         "光電系"
       ],
@@ -183,6 +211,8 @@
       "course_name_snapshot": "光纖通信導論",
       "credits_snapshot": 3.0,
       "requirement_group": "core",
+      "requirement_section": "core",
+      "program_course_name_snapshot": null,
       "notes": "",
       "source_page": 1,
       "evidence_match": true,
@@ -191,6 +221,7 @@
     },
     {
       "course_code": null,
+      "catalog_entry_id": "entry_6a007fda737a5a7c",
       "opening_units": [
         "機電系"
       ],
@@ -198,6 +229,8 @@
       "course_name_snapshot": "感測與檢測",
       "credits_snapshot": 3.0,
       "requirement_group": "elective",
+      "requirement_section": "elective",
+      "program_course_name_snapshot": null,
       "notes": "",
       "source_page": 1,
       "evidence_match": true,
@@ -206,6 +239,7 @@
     },
     {
       "course_code": null,
+      "catalog_entry_id": "entry_178bad796269c463",
       "opening_units": [
         "機電系"
       ],
@@ -213,6 +247,8 @@
       "course_name_snapshot": "微機電系統概論",
       "credits_snapshot": 3.0,
       "requirement_group": "elective",
+      "requirement_section": "elective",
+      "program_course_name_snapshot": null,
       "notes": "",
       "source_page": 1,
       "evidence_match": true,
@@ -221,6 +257,7 @@
     },
     {
       "course_code": null,
+      "catalog_entry_id": "entry_ec0e30ef0dd18f0a",
       "opening_units": [
         "機電系"
       ],
@@ -228,6 +265,8 @@
       "course_name_snapshot": "機械製造實驗",
       "credits_snapshot": 3.0,
       "requirement_group": "elective",
+      "requirement_section": "elective",
+      "program_course_name_snapshot": null,
       "notes": "",
       "source_page": 1,
       "evidence_match": true,
@@ -236,6 +275,7 @@
     },
     {
       "course_code": null,
+      "catalog_entry_id": "entry_eb5767d4bca7ce8d",
       "opening_units": [
         "機電系"
       ],
@@ -243,6 +283,8 @@
       "course_name_snapshot": "數位訊號處理",
       "credits_snapshot": 3.0,
       "requirement_group": "elective",
+      "requirement_section": "elective",
+      "program_course_name_snapshot": null,
       "notes": "",
       "source_page": 1,
       "evidence_match": true,
@@ -251,6 +293,7 @@
     },
     {
       "course_code": null,
+      "catalog_entry_id": "entry_54ceb6bf9a7494d6",
       "opening_units": [
         "機電系"
       ],
@@ -258,6 +301,8 @@
       "course_name_snapshot": "機械設計原理(一)",
       "credits_snapshot": 3.0,
       "requirement_group": "elective",
+      "requirement_section": "elective",
+      "program_course_name_snapshot": null,
       "notes": "※英語授課、中文授課",
       "source_page": 1,
       "evidence_match": true,
@@ -266,6 +311,7 @@
     },
     {
       "course_code": null,
+      "catalog_entry_id": "entry_d6d281b8ef46aff6",
       "opening_units": [
         "機電系"
       ],
@@ -273,6 +319,8 @@
       "course_name_snapshot": "機電整合",
       "credits_snapshot": 3.0,
       "requirement_group": "elective",
+      "requirement_section": "elective",
+      "program_course_name_snapshot": null,
       "notes": "",
       "source_page": 1,
       "evidence_match": true,
@@ -281,6 +329,7 @@
     },
     {
       "course_code": null,
+      "catalog_entry_id": "entry_e87bc0d4fae86324",
       "opening_units": [
         "機電系"
       ],
@@ -288,6 +337,8 @@
       "course_name_snapshot": "熱傳學",
       "credits_snapshot": 3.0,
       "requirement_group": "elective",
+      "requirement_section": "elective",
+      "program_course_name_snapshot": null,
       "notes": "※英語授課、中文授課",
       "source_page": 1,
       "evidence_match": true,
@@ -296,6 +347,7 @@
     },
     {
       "course_code": null,
+      "catalog_entry_id": "entry_19f5914152c7d229",
       "opening_units": [
         "機電系"
       ],
@@ -303,6 +355,8 @@
       "course_name_snapshot": "流體力學",
       "credits_snapshot": 3.0,
       "requirement_group": "elective",
+      "requirement_section": "elective",
+      "program_course_name_snapshot": null,
       "notes": "※英語授課、中文授課",
       "source_page": 1,
       "evidence_match": true,
@@ -311,6 +365,7 @@
     },
     {
       "course_code": null,
+      "catalog_entry_id": "entry_fe5dc256a0c31df3",
       "opening_units": [
         "機電系"
       ],
@@ -318,6 +373,8 @@
       "course_name_snapshot": "有限元素法應用",
       "credits_snapshot": 3.0,
       "requirement_group": "elective",
+      "requirement_section": "elective",
+      "program_course_name_snapshot": null,
       "notes": "",
       "source_page": 1,
       "evidence_match": true,
@@ -326,6 +383,7 @@
     },
     {
       "course_code": null,
+      "catalog_entry_id": "entry_95c9c47df00ad326",
       "opening_units": [
         "機電系"
       ],
@@ -333,6 +391,8 @@
       "course_name_snapshot": "電腦輔助熱流分析",
       "credits_snapshot": 3.0,
       "requirement_group": "elective",
+      "requirement_section": "elective",
+      "program_course_name_snapshot": null,
       "notes": "",
       "source_page": 1,
       "evidence_match": true,
@@ -341,6 +401,7 @@
     },
     {
       "course_code": null,
+      "catalog_entry_id": "entry_b2f83249b5a9aa20",
       "opening_units": [
         "機電系"
       ],
@@ -348,6 +409,8 @@
       "course_name_snapshot": "太陽能工程概論",
       "credits_snapshot": 3.0,
       "requirement_group": "elective",
+      "requirement_section": "elective",
+      "program_course_name_snapshot": null,
       "notes": "",
       "source_page": 1,
       "evidence_match": true,
@@ -356,6 +419,7 @@
     },
     {
       "course_code": null,
+      "catalog_entry_id": "entry_8643e44fb67e877c",
       "opening_units": [
         "機電系"
       ],
@@ -363,6 +427,8 @@
       "course_name_snapshot": "熱輻射導論",
       "credits_snapshot": 3.0,
       "requirement_group": "elective",
+      "requirement_section": "elective",
+      "program_course_name_snapshot": null,
       "notes": "",
       "source_page": 1,
       "evidence_match": true,
@@ -371,6 +437,7 @@
     },
     {
       "course_code": null,
+      "catalog_entry_id": "entry_e305472b61df08f1",
       "opening_units": [
         "機電系"
       ],
@@ -378,6 +445,8 @@
       "course_name_snapshot": "遙測影像專題",
       "credits_snapshot": 3.0,
       "requirement_group": "elective",
+      "requirement_section": "elective",
+      "program_course_name_snapshot": null,
       "notes": "",
       "source_page": 1,
       "evidence_match": true,
@@ -386,6 +455,7 @@
     },
     {
       "course_code": null,
+      "catalog_entry_id": "entry_16183cca2556b1d8",
       "opening_units": [
         "電機系"
       ],
@@ -393,6 +463,8 @@
       "course_name_snapshot": "微波工程",
       "credits_snapshot": 3.0,
       "requirement_group": "elective",
+      "requirement_section": "elective",
+      "program_course_name_snapshot": null,
       "notes": "",
       "source_page": 1,
       "evidence_match": true,
@@ -401,6 +473,7 @@
     },
     {
       "course_code": null,
+      "catalog_entry_id": "entry_734db69732155582",
       "opening_units": [
         "電機系"
       ],
@@ -408,6 +481,8 @@
       "course_name_snapshot": "無線功率傳輸系統",
       "credits_snapshot": 3.0,
       "requirement_group": "elective",
+      "requirement_section": "elective",
+      "program_course_name_snapshot": null,
       "notes": "",
       "source_page": 1,
       "evidence_match": true,
@@ -416,6 +491,7 @@
     },
     {
       "course_code": null,
+      "catalog_entry_id": "entry_a381a731efa592e6",
       "opening_units": [
         "電機系"
       ],
@@ -423,6 +499,8 @@
       "course_name_snapshot": "人工智慧(一)",
       "credits_snapshot": 3.0,
       "requirement_group": "elective",
+      "requirement_section": "elective",
+      "program_course_name_snapshot": null,
       "notes": "",
       "source_page": 1,
       "evidence_match": true,

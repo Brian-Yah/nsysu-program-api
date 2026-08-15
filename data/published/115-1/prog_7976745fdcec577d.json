@@ -23,7 +23,7 @@
       "last_modified": "Wed, 20 Dec 2023 02:17:34 GMT",
       "content_length": 236514
     },
-    "parser_version": "0.2.1",
+    "parser_version": "0.2.2",
     "extractor_versions": {
       "pypdf": "6.10.0",
       "pdfplumber": "0.11.9"
@@ -41,6 +41,7 @@
   "course_catalog": [
     {
       "course_code": null,
+      "catalog_entry_id": "entry_d51c9c4e4be5c3d1",
       "opening_units": [
         "海洋科學系"
       ],
@@ -48,6 +49,8 @@
       "course_name_snapshot": "基礎海洋學",
       "credits_snapshot": 3.0,
       "requirement_group": "core",
+      "requirement_section": "core",
+      "program_course_name_snapshot": null,
       "notes": "",
       "source_page": 1,
       "evidence_match": true,
@@ -56,6 +59,7 @@
     },
     {
       "course_code": null,
+      "catalog_entry_id": "entry_7646d0eee8ddf66c",
       "opening_units": [
         "跨院選修(海)"
       ],
@@ -63,6 +67,8 @@
       "course_name_snapshot": "基礎海洋生態學",
       "credits_snapshot": 3.0,
       "requirement_group": "core",
+      "requirement_section": "core",
+      "program_course_name_snapshot": null,
       "notes": "",
       "source_page": 1,
       "evidence_match": true,
@@ -71,13 +77,16 @@
     },
     {
       "course_code": null,
+      "catalog_entry_id": "entry_ee6c08202a80a808",
       "opening_units": [
         "巴塞隆納大學 Universitat de Barcelona"
       ],
       "opening_unit_snapshot": "巴塞隆納大學 Universitat de Barcelona",
-      "course_name_snapshot": "海洋學 (Oceanography: a key to better understand our world)",
+      "course_name_snapshot": "海洋學 (Oceanography: akey to better understandour world)",
       "credits_snapshot": 1.0,
       "requirement_group": "core",
+      "requirement_section": "core",
+      "program_course_name_snapshot": null,
       "notes": "",
       "source_page": 1,
       "evidence_match": false,
@@ -86,13 +95,16 @@
     },
     {
       "course_code": null,
+      "catalog_entry_id": "entry_cbb49c38398e1ab6",
       "opening_units": [
         "南安普頓國家海洋學中心National Oceanography Centre"
       ],
       "opening_unit_snapshot": "南安普頓國家海洋學中心National Oceanography Centre",
-      "course_name_snapshot": "海洋科學行動:解決海洋生態系統和糧食安全問題(Ocean Science in Action:Addressing Marine Ecosystems and Food Security)",
+      "course_name_snapshot": "海洋科學行動:解決海洋生態系統和糧食安全問題(Ocean Science in Action:Addressing MarineEcosystems and FoodSecurity)",
       "credits_snapshot": 1.0,
       "requirement_group": "core",
+      "requirement_section": "core",
+      "program_course_name_snapshot": null,
       "notes": "",
       "source_page": 1,
       "evidence_match": false,
@@ -101,13 +113,16 @@
     },
     {
       "course_code": null,
+      "catalog_entry_id": "entry_da953f9a25c3b3b0",
       "opening_units": [
         "開普敦大學University of Cape Town美國國家海洋和 大 氣 管 理 局 National Oceanic and Atmospheric Administration IW:LEARN全球環境基金 Global Environment Facility聯合國開發計畫署 The United Nations Development Programme聯合國教科文組織國際奧委會International Olympic Committee聯合國環境規劃 署 United Nations Environment Programme"
       ],
       "opening_unit_snapshot": "開普敦大學University of Cape Town美國國家海洋和 大 氣 管 理 局 National Oceanic and Atmospheric Administration IW:LEARN全球環境基金 Global Environment Facility聯合國開發計畫署 The United Nations Development Programme聯合國教科文組織國際奧委會International Olympic Committee聯合國環境規劃 署 United Nations Environment Programme",
-      "course_name_snapshot": "大型海洋生態系統:評估與 管理 (Large Marine Ecosystems: Assessment and Management)",
+      "course_name_snapshot": "大型海洋生態系統:評估與 管理 (Large MarineEcosystems: Assessmentand Management)",
       "credits_snapshot": 2.0,
       "requirement_group": "core",
+      "requirement_section": "core",
+      "program_course_name_snapshot": null,
       "notes": "",
       "source_page": 1,
       "evidence_match": false,
@@ -116,6 +131,7 @@
     },
     {
       "course_code": null,
+      "catalog_entry_id": "entry_96494f062f7d7186",
       "opening_units": [
         "博雅向度六"
       ],
@@ -123,6 +139,8 @@
       "course_name_snapshot": "環境變遷與生態保育",
       "credits_snapshot": 2.0,
       "requirement_group": "elective",
+      "requirement_section": "elective",
+      "program_course_name_snapshot": null,
       "notes": "",
       "source_page": 1,
       "evidence_match": true,
@@ -131,6 +149,7 @@
     },
     {
       "course_code": null,
+      "catalog_entry_id": "entry_846b1d95f7a328c4",
       "opening_units": [
         "博雅向度六"
       ],
@@ -138,6 +157,8 @@
       "course_name_snapshot": "氣候變遷與調適",
       "credits_snapshot": 2.0,
       "requirement_group": "elective",
+      "requirement_section": "elective",
+      "program_course_name_snapshot": null,
       "notes": "",
       "source_page": 1,
       "evidence_match": true,
@@ -146,6 +167,7 @@
     },
     {
       "course_code": null,
+      "catalog_entry_id": "entry_a14b5809f4abfedc",
       "opening_units": [
         "博雅向度五"
       ],
@@ -153,6 +175,8 @@
       "course_name_snapshot": "生物多樣性的世界",
       "credits_snapshot": 2.0,
       "requirement_group": "elective",
+      "requirement_section": "elective",
+      "program_course_name_snapshot": null,
       "notes": "",
       "source_page": 1,
       "evidence_match": true,
@@ -161,6 +185,7 @@
     },
     {
       "course_code": null,
+      "catalog_entry_id": "entry_a7e3c3d0b680498d",
       "opening_units": [
         "博雅向度六"
       ],
@@ -168,6 +193,8 @@
       "course_name_snapshot": "海洋生態與海洋科技教育探索",
       "credits_snapshot": 2.0,
       "requirement_group": "elective",
+      "requirement_section": "elective",
+      "program_course_name_snapshot": null,
       "notes": "",
       "source_page": 1,
       "evidence_match": false,
@@ -176,6 +203,7 @@
     },
     {
       "course_code": null,
+      "catalog_entry_id": "entry_681b3d0e815261c3",
       "opening_units": [
         "博雅向度六"
       ],
@@ -183,6 +211,8 @@
       "course_name_snapshot": "地球科學",
       "credits_snapshot": 2.0,
       "requirement_group": "elective",
+      "requirement_section": "elective",
+      "program_course_name_snapshot": null,
       "notes": "",
       "source_page": 2,
       "evidence_match": true,
@@ -191,6 +221,7 @@
     },
     {
       "course_code": null,
+      "catalog_entry_id": "entry_a433f1b6f383f6d9",
       "opening_units": [
         "跨院選修(海)"
       ],
@@ -198,6 +229,8 @@
       "course_name_snapshot": "魚類學",
       "credits_snapshot": 2.0,
       "requirement_group": "elective",
+      "requirement_section": "elective",
+      "program_course_name_snapshot": null,
       "notes": "",
       "source_page": 2,
       "evidence_match": true,
@@ -206,6 +239,7 @@
     },
     {
       "course_code": null,
+      "catalog_entry_id": "entry_8237c9b73c136806",
       "opening_units": [
         "生物科學系"
       ],
@@ -213,6 +247,8 @@
       "course_name_snapshot": "生態學者的R 入門",
       "credits_snapshot": 3.0,
       "requirement_group": "elective",
+      "requirement_section": "elective",
+      "program_course_name_snapshot": null,
       "notes": "",
       "source_page": 2,
       "evidence_match": true,
@@ -221,6 +257,7 @@
     },
     {
       "course_code": null,
+      "catalog_entry_id": "entry_2124f4a97d8ec89e",
       "opening_units": [
         "跨院選修(海)"
       ],
@@ -228,6 +265,8 @@
       "course_name_snapshot": "海洋無脊椎動物學(ㄧ)",
       "credits_snapshot": 2.0,
       "requirement_group": "elective",
+      "requirement_section": "elective",
+      "program_course_name_snapshot": null,
       "notes": "",
       "source_page": 2,
       "evidence_match": true,
@@ -236,6 +275,7 @@
     },
     {
       "course_code": null,
+      "catalog_entry_id": "entry_5941ac5f837a7fb1",
       "opening_units": [
         "海洋科學系"
       ],
@@ -243,6 +283,8 @@
       "course_name_snapshot": "海洋化學與地質數據處理",
       "credits_snapshot": 2.0,
       "requirement_group": "elective",
+      "requirement_section": "elective",
+      "program_course_name_snapshot": null,
       "notes": "",
       "source_page": 2,
       "evidence_match": true,
@@ -251,6 +293,7 @@
     },
     {
       "course_code": null,
+      "catalog_entry_id": "entry_1deb1ddfa10b75de",
       "opening_units": [
         "跨院選修(海)"
       ],
@@ -258,6 +301,8 @@
       "course_name_snapshot": "海洋無脊椎動物學(二)",
       "credits_snapshot": 2.0,
       "requirement_group": "elective",
+      "requirement_section": "elective",
+      "program_course_name_snapshot": null,
       "notes": "",
       "source_page": 2,
       "evidence_match": true,

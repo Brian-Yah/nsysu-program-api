@@ -29,7 +29,7 @@
         "last_modified": "Wed, 07 Jun 2023 08:12:39 GMT",
         "content_length": 216510
       },
-      "parser_version": "0.2.1",
+      "parser_version": "0.2.2",
       "extractor_versions": {
         "pypdf": "6.10.0",
         "pdfplumber": "0.11.9"
@@ -47,6 +47,7 @@
     "course_catalog": [
       {
         "course_code": null,
+        "catalog_entry_id": "entry_25834bcf98dafabf",
         "opening_units": [
           "公事所"
         ],
@@ -54,6 +55,8 @@
         "course_name_snapshot": "性別、組織與管理",
         "credits_snapshot": 3.0,
         "requirement_group": "core",
+        "requirement_section": "core",
+        "program_course_name_snapshot": null,
         "notes": "二選一",
         "source_page": 1,
         "evidence_match": true,
@@ -62,6 +65,7 @@
       },
       {
         "course_code": null,
+        "catalog_entry_id": "entry_6c7433428fcc7bf2",
         "opening_units": [
           "西灣學院"
         ],
@@ -69,6 +73,8 @@
         "course_name_snapshot": "性別與管理",
         "credits_snapshot": 2.0,
         "requirement_group": "core",
+        "requirement_section": "core",
+        "program_course_name_snapshot": null,
         "notes": "",
         "source_page": 1,
         "evidence_match": true,
@@ -77,6 +83,7 @@
       },
       {
         "course_code": null,
+        "catalog_entry_id": "entry_b151f8639091d9ae",
         "opening_units": [
           "中學學程"
         ],
@@ -84,6 +91,8 @@
         "course_name_snapshot": "性別教育",
         "credits_snapshot": 2.0,
         "requirement_group": "elective",
+        "requirement_section": "elective",
+        "program_course_name_snapshot": null,
         "notes": "",
         "source_page": 1,
         "evidence_match": true,
@@ -92,6 +101,7 @@
       },
       {
         "course_code": null,
+        "catalog_entry_id": "entry_ca318ea6dbf56afb",
         "opening_units": [
           "服務學習"
         ],
@@ -99,6 +109,8 @@
         "course_name_snapshot": "服務學習:促進性別友善校園行動志工",
         "credits_snapshot": 1.0,
         "requirement_group": "elective",
+        "requirement_section": "elective",
+        "program_course_name_snapshot": null,
         "notes": "",
         "source_page": 1,
         "evidence_match": false,
@@ -107,6 +119,7 @@
       },
       {
         "course_code": null,
+        "catalog_entry_id": "entry_1644a52084b39bf3",
         "opening_units": [
           "公事所"
         ],
@@ -114,6 +127,8 @@
         "course_name_snapshot": "性別化創新",
         "credits_snapshot": 1.0,
         "requirement_group": "elective",
+        "requirement_section": "elective",
+        "program_course_name_snapshot": null,
         "notes": "",
         "source_page": 1,
         "evidence_match": true,
@@ -122,6 +137,7 @@
       },
       {
         "course_code": null,
+        "catalog_entry_id": "entry_2ae714654554452f",
         "opening_units": [
           "西灣學院"
         ],
@@ -129,6 +145,8 @@
         "course_name_snapshot": "性別與社會",
         "credits_snapshot": 3.0,
         "requirement_group": "elective",
+        "requirement_section": "elective",
+        "program_course_name_snapshot": null,
         "notes": "",
         "source_page": 1,
         "evidence_match": true,
@@ -137,6 +155,7 @@
       },
       {
         "course_code": null,
+        "catalog_entry_id": "entry_11afeb256f151c2f",
         "opening_units": [
           "西灣學院"
         ],
@@ -144,6 +163,8 @@
         "course_name_snapshot": "女性主義思潮",
         "credits_snapshot": 2.0,
         "requirement_group": "elective",
+        "requirement_section": "elective",
+        "program_course_name_snapshot": null,
         "notes": "",
         "source_page": 1,
         "evidence_match": true,
@@ -152,6 +173,7 @@
       },
       {
         "course_code": null,
+        "catalog_entry_id": "entry_2a7aa4b61faafd06",
         "opening_units": [
           "西灣學院"
         ],
@@ -159,6 +181,8 @@
         "course_name_snapshot": "性與性別的跨文化觀點",
         "credits_snapshot": 3.0,
         "requirement_group": "elective",
+        "requirement_section": "elective",
+        "program_course_name_snapshot": null,
         "notes": "",
         "source_page": 1,
         "evidence_match": true,
@@ -167,6 +191,7 @@
       },
       {
         "course_code": null,
+        "catalog_entry_id": "entry_00037a3299c7e8c1",
         "opening_units": [
           "西灣學院"
         ],
@@ -174,6 +199,8 @@
         "course_name_snapshot": "性別教育",
         "credits_snapshot": 2.0,
         "requirement_group": "elective",
+        "requirement_section": "elective",
+        "program_course_name_snapshot": null,
         "notes": "",
         "source_page": 1,
         "evidence_match": true,
@@ -182,6 +209,7 @@
       },
       {
         "course_code": null,
+        "catalog_entry_id": "entry_afe4025b999d0b3b",
         "opening_units": [
           "社會系"
         ],
@@ -189,6 +217,8 @@
         "course_name_snapshot": "性別社會學",
         "credits_snapshot": 3.0,
         "requirement_group": "elective",
+        "requirement_section": "elective",
+        "program_course_name_snapshot": null,
         "notes": "",
         "source_page": 1,
         "evidence_match": true,
@@ -197,6 +227,7 @@
       },
       {
         "course_code": null,
+        "catalog_entry_id": "entry_aeb8da1598d49514",
         "opening_units": [
           "社會系"
         ],
@@ -204,6 +235,8 @@
         "course_name_snapshot": "性社會學",
         "credits_snapshot": 3.0,
         "requirement_group": "elective",
+        "requirement_section": "elective",
+        "program_course_name_snapshot": null,
         "notes": "",
         "source_page": 1,
         "evidence_match": true,
@@ -212,6 +245,7 @@
       },
       {
         "course_code": null,
+        "catalog_entry_id": "entry_b21371b2ac8b9ffd",
         "opening_units": [
           "社會系"
         ],
@@ -219,6 +253,8 @@
         "course_name_snapshot": "身體與工作",
         "credits_snapshot": 3.0,
         "requirement_group": "elective",
+        "requirement_section": "elective",
+        "program_course_name_snapshot": null,
         "notes": "",
         "source_page": 1,
         "evidence_match": true,
@@ -227,6 +263,7 @@
       },
       {
         "course_code": null,
+        "catalog_entry_id": "entry_3cb838b5b5fc2d02",
         "opening_units": [
           "中文系"
         ],
@@ -234,6 +271,8 @@
         "course_name_snapshot": "性別文化民俗誌",
         "credits_snapshot": 3.0,
         "requirement_group": "elective",
+        "requirement_section": "elective",
+        "program_course_name_snapshot": null,
         "notes": "",
         "source_page": 1,
         "evidence_match": true,

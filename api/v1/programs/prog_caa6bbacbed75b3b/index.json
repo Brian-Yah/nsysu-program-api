@@ -29,7 +29,7 @@
         "last_modified": "Tue, 23 Dec 2025 06:55:44 GMT",
         "content_length": 216386
       },
-      "parser_version": "0.2.1",
+      "parser_version": "0.2.2",
       "extractor_versions": {
         "pypdf": "6.10.0",
         "pdfplumber": "0.11.9"
@@ -47,6 +47,7 @@
     "course_catalog": [
       {
         "course_code": null,
+        "catalog_entry_id": "entry_dd891deb68b28cfb",
         "opening_units": [
           "公事所"
         ],
@@ -54,6 +55,8 @@
         "course_name_snapshot": "永續管理概論",
         "credits_snapshot": 2.0,
         "requirement_group": "core",
+        "requirement_section": "core",
+        "program_course_name_snapshot": null,
         "notes": "",
         "source_page": 1,
         "evidence_match": true,
@@ -62,6 +65,7 @@
       },
       {
         "course_code": null,
+        "catalog_entry_id": "entry_04f15808ca09941c",
         "opening_units": [
           "跨院選修"
         ],
@@ -69,6 +73,8 @@
         "course_name_snapshot": "永續都市環境行為及心理學",
         "credits_snapshot": 3.0,
         "requirement_group": "core",
+        "requirement_section": "core",
+        "program_course_name_snapshot": null,
         "notes": "",
         "source_page": 1,
         "evidence_match": true,
@@ -77,6 +83,7 @@
       },
       {
         "course_code": null,
+        "catalog_entry_id": "entry_22cb0daf32ce9901",
         "opening_units": [
           "公事所"
         ],
@@ -84,6 +91,8 @@
         "course_name_snapshot": "永續發展與綠色管理",
         "credits_snapshot": 3.0,
         "requirement_group": "core",
+        "requirement_section": "core",
+        "program_course_name_snapshot": null,
         "notes": "英語授課",
         "source_page": 1,
         "evidence_match": true,
@@ -92,6 +101,7 @@
       },
       {
         "course_code": null,
+        "catalog_entry_id": "entry_3db16ce4e1089ec2",
         "opening_units": [
           "公事所"
         ],
@@ -99,6 +109,8 @@
         "course_name_snapshot": "城市災害管理",
         "credits_snapshot": 2.0,
         "requirement_group": "core",
+        "requirement_section": "core",
+        "program_course_name_snapshot": null,
         "notes": "",
         "source_page": 1,
         "evidence_match": true,
@@ -107,6 +119,7 @@
       },
       {
         "course_code": null,
+        "catalog_entry_id": "entry_1a9662182daf3bd2",
         "opening_units": [
           "公事所"
         ],
@@ -114,6 +127,8 @@
         "course_name_snapshot": "都市環境管理",
         "credits_snapshot": 2.0,
         "requirement_group": "core",
+        "requirement_section": "core",
+        "program_course_name_snapshot": null,
         "notes": "",
         "source_page": 1,
         "evidence_match": true,
@@ -122,6 +137,7 @@
       },
       {
         "course_code": null,
+        "catalog_entry_id": "entry_d878771d219d3857",
         "opening_units": [
           "公事所"
         ],
@@ -129,6 +145,8 @@
         "course_name_snapshot": "永續報告書寫作",
         "credits_snapshot": 2.0,
         "requirement_group": "core",
+        "requirement_section": "core",
+        "program_course_name_snapshot": null,
         "notes": "",
         "source_page": 1,
         "evidence_match": true,
@@ -137,6 +155,7 @@
       },
       {
         "course_code": null,
+        "catalog_entry_id": "entry_763deb994794a75e",
         "opening_units": [
           "公事所"
         ],
@@ -144,6 +163,8 @@
         "course_name_snapshot": "溫室氣體盤查報告實作",
         "credits_snapshot": 2.0,
         "requirement_group": "core",
+        "requirement_section": "core",
+        "program_course_name_snapshot": null,
         "notes": "",
         "source_page": 1,
         "evidence_match": true,
@@ -152,6 +173,7 @@
       },
       {
         "course_code": null,
+        "catalog_entry_id": "entry_636b4493fd9a0cb1",
         "opening_units": [
           "西灣學院"
         ],
@@ -159,6 +181,8 @@
         "course_name_snapshot": "污染防治與環境管理",
         "credits_snapshot": 2.0,
         "requirement_group": "elective",
+        "requirement_section": "elective",
+        "program_course_name_snapshot": null,
         "notes": "",
         "source_page": 1,
         "evidence_match": true,
@@ -167,6 +191,7 @@
       },
       {
         "course_code": null,
+        "catalog_entry_id": "entry_d4031b892ca727ac",
         "opening_units": [
           "管理學院"
         ],
@@ -174,6 +199,8 @@
         "course_name_snapshot": "綠色採購",
         "credits_snapshot": 1.0,
         "requirement_group": "elective",
+        "requirement_section": "elective",
+        "program_course_name_snapshot": null,
         "notes": "自114-2學期起改為英語授課",
         "source_page": 1,
         "evidence_match": true,
@@ -182,6 +209,7 @@
       },
       {
         "course_code": null,
+        "catalog_entry_id": "entry_d186d02e91bf8eb0",
         "opening_units": [
           "管理學院"
         ],
@@ -189,6 +217,8 @@
         "course_name_snapshot": "永續金融",
         "credits_snapshot": 2.0,
         "requirement_group": "elective",
+        "requirement_section": "elective",
+        "program_course_name_snapshot": null,
         "notes": "",
         "source_page": 1,
         "evidence_match": true,
@@ -197,6 +227,7 @@
       },
       {
         "course_code": null,
+        "catalog_entry_id": "entry_c0029d37d947f3b5",
         "opening_units": [
           "公事所"
         ],
@@ -204,6 +235,8 @@
         "course_name_snapshot": "企業社會責任專題",
         "credits_snapshot": 2.0,
         "requirement_group": "elective",
+        "requirement_section": "elective",
+        "program_course_name_snapshot": null,
         "notes": "",
         "source_page": 1,
         "evidence_match": true,
@@ -212,6 +245,7 @@
       },
       {
         "course_code": null,
+        "catalog_entry_id": "entry_37cfa2c5f3bd5808",
         "opening_units": [
           "公事所"
         ],
@@ -219,6 +253,8 @@
         "course_name_snapshot": "氣候行動書報討論",
         "credits_snapshot": 1.0,
         "requirement_group": "elective",
+        "requirement_section": "elective",
+        "program_course_name_snapshot": null,
         "notes": "",
         "source_page": 1,
         "evidence_match": true,
@@ -227,6 +263,7 @@
       },
       {
         "course_code": null,
+        "catalog_entry_id": "entry_c1dcb55a1b79c617",
         "opening_units": [
           "西灣學院"
         ],
@@ -234,6 +271,8 @@
         "course_name_snapshot": "環境科學",
         "credits_snapshot": 2.0,
         "requirement_group": "elective",
+        "requirement_section": "elective",
+        "program_course_name_snapshot": null,
         "notes": "",
         "source_page": 1,
         "evidence_match": true,
@@ -242,6 +281,7 @@
       },
       {
         "course_code": null,
+        "catalog_entry_id": "entry_283dffcefb52bd55",
         "opening_units": [
           "海工系"
         ],
@@ -249,6 +289,8 @@
         "course_name_snapshot": "基礎環境科學",
         "credits_snapshot": 2.0,
         "requirement_group": "elective",
+        "requirement_section": "elective",
+        "program_course_name_snapshot": null,
         "notes": "",
         "source_page": 1,
         "evidence_match": true,
@@ -257,6 +299,7 @@
       },
       {
         "course_code": null,
+        "catalog_entry_id": "entry_5ce71ee2f4af4b5a",
         "opening_units": [
           "海洋科學系"
         ],
@@ -264,6 +307,8 @@
         "course_name_snapshot": "環境科學概論",
         "credits_snapshot": 2.0,
         "requirement_group": "elective",
+        "requirement_section": "elective",
+        "program_course_name_snapshot": null,
         "notes": "",
         "source_page": 1,
         "evidence_match": true,
@@ -272,6 +317,7 @@
       },
       {
         "course_code": null,
+        "catalog_entry_id": "entry_a03b1bb9d653a496",
         "opening_units": [
           "西灣學院"
         ],
@@ -279,6 +325,8 @@
         "course_name_snapshot": "環境變遷與生態保育",
         "credits_snapshot": 2.0,
         "requirement_group": "elective",
+        "requirement_section": "elective",
+        "program_course_name_snapshot": null,
         "notes": "",
         "source_page": 1,
         "evidence_match": true,

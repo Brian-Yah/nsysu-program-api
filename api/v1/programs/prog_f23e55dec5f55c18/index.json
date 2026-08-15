@@ -29,7 +29,7 @@
         "last_modified": "Tue, 27 May 2025 02:18:55 GMT",
         "content_length": 225417
       },
-      "parser_version": "0.2.1",
+      "parser_version": "0.2.2",
       "extractor_versions": {
         "pypdf": "6.10.0",
         "pdfplumber": "0.11.9"
@@ -49,13 +49,16 @@
     "course_catalog": [
       {
         "course_code": null,
+        "catalog_entry_id": "entry_fdb0d116d1430b0c",
         "opening_units": [
           "電機系"
         ],
         "opening_unit_snapshot": "電機系",
         "course_name_snapshot": "半導體元件(一)",
         "credits_snapshot": 3.0,
-        "requirement_group": "unspecified",
+        "requirement_group": "core",
+        "requirement_section": "core_required",
+        "program_course_name_snapshot": "半導體元件物理",
         "notes": "1.每一學程科目僅採計一門課程學分。2.核心(必修)3學程科目應選3門課程。",
         "source_page": 1,
         "evidence_match": true,
@@ -64,14 +67,17 @@
       },
       {
         "course_code": null,
+        "catalog_entry_id": "entry_bbd4e3860526c6b5",
         "opening_units": [
           "電機系"
         ],
         "opening_unit_snapshot": "電機系",
         "course_name_snapshot": "半導體元件(二)",
         "credits_snapshot": 3.0,
-        "requirement_group": "unspecified",
-        "notes": "",
+        "requirement_group": "core",
+        "requirement_section": "core_required",
+        "program_course_name_snapshot": "半導體元件物理",
+        "notes": "每一學程科目僅採計一門課程學分。",
         "source_page": 1,
         "evidence_match": true,
         "validation_status": "needs_course_code_verification",
@@ -79,14 +85,17 @@
       },
       {
         "course_code": null,
+        "catalog_entry_id": "entry_e931486dfc3b94c0",
         "opening_units": [
           "材光所"
         ],
         "opening_unit_snapshot": "材光所",
         "course_name_snapshot": "半導體元件",
         "credits_snapshot": 3.0,
-        "requirement_group": "unspecified",
-        "notes": "",
+        "requirement_group": "core",
+        "requirement_section": "core_required",
+        "program_course_name_snapshot": "半導體元件物理",
+        "notes": "每一學程科目僅採計一門課程學分。",
         "source_page": 1,
         "evidence_match": true,
         "validation_status": "needs_course_code_verification",
@@ -94,14 +103,17 @@
       },
       {
         "course_code": null,
+        "catalog_entry_id": "entry_a6eb32a03f58e502",
         "opening_units": [
           "電機所"
         ],
         "opening_unit_snapshot": "電機所",
         "course_name_snapshot": "固態電子元件(一)",
         "credits_snapshot": 3.0,
-        "requirement_group": "unspecified",
-        "notes": "",
+        "requirement_group": "core",
+        "requirement_section": "core_required",
+        "program_course_name_snapshot": "半導體元件物理",
+        "notes": "每一學程科目僅採計一門課程學分。",
         "source_page": 1,
         "evidence_match": true,
         "validation_status": "needs_course_code_verification",
@@ -109,14 +121,17 @@
       },
       {
         "course_code": null,
+        "catalog_entry_id": "entry_8fd7cfe2fddc33c0",
         "opening_units": [
           "電機所"
         ],
         "opening_unit_snapshot": "電機所",
         "course_name_snapshot": "固態電子元件(二)",
         "credits_snapshot": 3.0,
-        "requirement_group": "unspecified",
-        "notes": "",
+        "requirement_group": "core",
+        "requirement_section": "core_required",
+        "program_course_name_snapshot": "半導體元件物理",
+        "notes": "每一學程科目僅採計一門課程學分。",
         "source_page": 1,
         "evidence_match": true,
         "validation_status": "needs_course_code_verification",
@@ -124,14 +139,17 @@
       },
       {
         "course_code": null,
+        "catalog_entry_id": "entry_a174671489596951",
         "opening_units": [
           "電機所"
         ],
         "opening_unit_snapshot": "電機所",
         "course_name_snapshot": "固態電子元件(三)",
         "credits_snapshot": 3.0,
-        "requirement_group": "unspecified",
-        "notes": "",
+        "requirement_group": "core",
+        "requirement_section": "core_required",
+        "program_course_name_snapshot": "半導體元件物理",
+        "notes": "每一學程科目僅採計一門課程學分。",
         "source_page": 1,
         "evidence_match": true,
         "validation_status": "needs_course_code_verification",
@@ -139,14 +157,17 @@
       },
       {
         "course_code": null,
+        "catalog_entry_id": "entry_31ca24fd593cfda2",
         "opening_units": [
           "材光所"
         ],
         "opening_unit_snapshot": "材光所",
         "course_name_snapshot": "記憶體元件與製程技術",
         "credits_snapshot": 3.0,
-        "requirement_group": "unspecified",
-        "notes": "",
+        "requirement_group": "core",
+        "requirement_section": "core_required",
+        "program_course_name_snapshot": "半導體元件物理",
+        "notes": "每一學程科目僅採計一門課程學分。",
         "source_page": 1,
         "evidence_match": true,
         "validation_status": "needs_course_code_verification",
@@ -154,14 +175,17 @@
       },
       {
         "course_code": null,
+        "catalog_entry_id": "entry_4aa29daacfe8de77",
         "opening_units": [
           "物理所"
         ],
         "opening_unit_snapshot": "物理所",
         "course_name_snapshot": "半導體奈米元件物理",
         "credits_snapshot": 3.0,
-        "requirement_group": "unspecified",
-        "notes": "",
+        "requirement_group": "core",
+        "requirement_section": "core_required",
+        "program_course_name_snapshot": "半導體元件物理",
+        "notes": "每一學程科目僅採計一門課程學分。",
         "source_page": 1,
         "evidence_match": true,
         "validation_status": "needs_course_code_verification",
@@ -169,14 +193,17 @@
       },
       {
         "course_code": null,
+        "catalog_entry_id": "entry_283a3847a88a088f",
         "opening_units": [
           "製造所"
         ],
         "opening_unit_snapshot": "製造所",
         "course_name_snapshot": "半導體元件與物理",
         "credits_snapshot": 3.0,
-        "requirement_group": "unspecified",
-        "notes": "",
+        "requirement_group": "core",
+        "requirement_section": "core_required",
+        "program_course_name_snapshot": "半導體元件物理",
+        "notes": "每一學程科目僅採計一門課程學分。",
         "source_page": 1,
         "evidence_match": true,
         "validation_status": "needs_course_code_verification",
@@ -184,14 +211,17 @@
       },
       {
         "course_code": null,
+        "catalog_entry_id": "entry_a00aeca4e30e7a61",
         "opening_units": [
           "機電系"
         ],
         "opening_unit_snapshot": "機電系",
         "course_name_snapshot": "半導體製程導論",
         "credits_snapshot": 3.0,
-        "requirement_group": "unspecified",
-        "notes": "",
+        "requirement_group": "core",
+        "requirement_section": "core_required",
+        "program_course_name_snapshot": "半導體製程",
+        "notes": "每一學程科目僅採計一門課程學分。",
         "source_page": 1,
         "evidence_match": true,
         "validation_status": "needs_course_code_verification",
@@ -199,14 +229,17 @@
       },
       {
         "course_code": null,
+        "catalog_entry_id": "entry_9c57dae66a608ab4",
         "opening_units": [
           "材光所"
         ],
         "opening_unit_snapshot": "材光所",
         "course_name_snapshot": "半導體製程原理",
         "credits_snapshot": 3.0,
-        "requirement_group": "unspecified",
-        "notes": "",
+        "requirement_group": "core",
+        "requirement_section": "core_required",
+        "program_course_name_snapshot": "半導體製程",
+        "notes": "每一學程科目僅採計一門課程學分。",
         "source_page": 1,
         "evidence_match": true,
         "validation_status": "needs_course_code_verification",
@@ -214,14 +247,17 @@
       },
       {
         "course_code": null,
+        "catalog_entry_id": "entry_8addad54436338ab",
         "opening_units": [
           "封測所"
         ],
         "opening_unit_snapshot": "封測所",
         "course_name_snapshot": "半導體製程整合技術",
         "credits_snapshot": 3.0,
-        "requirement_group": "unspecified",
-        "notes": "",
+        "requirement_group": "core",
+        "requirement_section": "core_required",
+        "program_course_name_snapshot": "半導體製程",
+        "notes": "每一學程科目僅採計一門課程學分。",
         "source_page": 1,
         "evidence_match": true,
         "validation_status": "needs_course_code_verification",
@@ -229,14 +265,17 @@
       },
       {
         "course_code": null,
+        "catalog_entry_id": "entry_23802e7dcef8b57b",
         "opening_units": [
           "製造所"
         ],
         "opening_unit_snapshot": "製造所",
         "course_name_snapshot": "半導體製程整合技術",
         "credits_snapshot": 3.0,
-        "requirement_group": "unspecified",
-        "notes": "",
+        "requirement_group": "core",
+        "requirement_section": "core_required",
+        "program_course_name_snapshot": "半導體製程",
+        "notes": "每一學程科目僅採計一門課程學分。",
         "source_page": 1,
         "evidence_match": true,
         "validation_status": "needs_course_code_verification",
@@ -244,14 +283,17 @@
       },
       {
         "course_code": null,
+        "catalog_entry_id": "entry_03f48468b234bcd9",
         "opening_units": [
           "電機所"
         ],
         "opening_unit_snapshot": "電機所",
         "course_name_snapshot": "積體電路技術",
         "credits_snapshot": 3.0,
-        "requirement_group": "unspecified",
-        "notes": "",
+        "requirement_group": "core",
+        "requirement_section": "core_required",
+        "program_course_name_snapshot": "半導體製程",
+        "notes": "每一學程科目僅採計一門課程學分。",
         "source_page": 1,
         "evidence_match": true,
         "validation_status": "needs_course_code_verification",
@@ -259,14 +301,17 @@
       },
       {
         "course_code": null,
+        "catalog_entry_id": "entry_f36c94ea3db19d94",
         "opening_units": [
           "物理系"
         ],
         "opening_unit_snapshot": "物理系",
         "course_name_snapshot": "半導體奈米元件製造技術",
         "credits_snapshot": 3.0,
-        "requirement_group": "unspecified",
-        "notes": "",
+        "requirement_group": "core",
+        "requirement_section": "core_required",
+        "program_course_name_snapshot": "半導體製程",
+        "notes": "每一學程科目僅採計一門課程學分。",
         "source_page": 1,
         "evidence_match": true,
         "validation_status": "needs_course_code_verification",
@@ -274,14 +319,17 @@
       },
       {
         "course_code": null,
+        "catalog_entry_id": "entry_7152dd99b5deae16",
         "opening_units": [
           "物理所"
         ],
         "opening_unit_snapshot": "物理所",
         "course_name_snapshot": "半導體奈米元件製造技術",
         "credits_snapshot": 3.0,
-        "requirement_group": "unspecified",
-        "notes": "",
+        "requirement_group": "core",
+        "requirement_section": "core_required",
+        "program_course_name_snapshot": "半導體製程",
+        "notes": "每一學程科目僅採計一門課程學分。",
         "source_page": 1,
         "evidence_match": true,
         "validation_status": "needs_course_code_verification",
@@ -289,14 +337,17 @@
       },
       {
         "course_code": null,
+        "catalog_entry_id": "entry_c2880e10163b5032",
         "opening_units": [
           "電機系"
         ],
         "opening_unit_snapshot": "電機系",
         "course_name_snapshot": "電子學(一)",
         "credits_snapshot": 3.0,
-        "requirement_group": "unspecified",
-        "notes": "",
+        "requirement_group": "core",
+        "requirement_section": "core_required",
+        "program_course_name_snapshot": "電子學(一)",
+        "notes": "每一學程科目僅採計一門課程學分。",
         "source_page": 1,
         "evidence_match": true,
         "validation_status": "needs_course_code_verification",
@@ -304,14 +355,17 @@
       },
       {
         "course_code": null,
+        "catalog_entry_id": "entry_01a4106e844f36d6",
         "opening_units": [
           "材光系"
         ],
         "opening_unit_snapshot": "材光系",
         "course_name_snapshot": "電子學(一)",
         "credits_snapshot": 3.0,
-        "requirement_group": "unspecified",
-        "notes": "",
+        "requirement_group": "core",
+        "requirement_section": "core_required",
+        "program_course_name_snapshot": "電子學(一)",
+        "notes": "每一學程科目僅採計一門課程學分。",
         "source_page": 1,
         "evidence_match": true,
         "validation_status": "needs_course_code_verification",
@@ -319,14 +373,17 @@
       },
       {
         "course_code": null,
+        "catalog_entry_id": "entry_3f9b3fd349b8137f",
         "opening_units": [
           "機電系"
         ],
         "opening_unit_snapshot": "機電系",
         "course_name_snapshot": "應用電子學",
         "credits_snapshot": 3.0,
-        "requirement_group": "unspecified",
-        "notes": "",
+        "requirement_group": "core",
+        "requirement_section": "core_required",
+        "program_course_name_snapshot": "電子學(一)",
+        "notes": "每一學程科目僅採計一門課程學分。",
         "source_page": 1,
         "evidence_match": true,
         "validation_status": "needs_course_code_verification",
@@ -334,14 +391,17 @@
       },
       {
         "course_code": null,
+        "catalog_entry_id": "entry_0fda1fa8f802f1f7",
         "opening_units": [
           "機電系"
         ],
         "opening_unit_snapshot": "機電系",
         "course_name_snapshot": "數位電子學",
         "credits_snapshot": 3.0,
-        "requirement_group": "unspecified",
-        "notes": "",
+        "requirement_group": "core",
+        "requirement_section": "core_required",
+        "program_course_name_snapshot": "電子學(一)",
+        "notes": "每一學程科目僅採計一門課程學分。",
         "source_page": 1,
         "evidence_match": true,
         "validation_status": "needs_course_code_verification",
@@ -349,13 +409,16 @@
       },
       {
         "course_code": null,
+        "catalog_entry_id": "entry_2ca9d94536ab388a",
         "opening_units": [
           "材光系"
         ],
         "opening_unit_snapshot": "材光系",
         "course_name_snapshot": "固態物理",
         "credits_snapshot": 3.0,
-        "requirement_group": "unspecified",
+        "requirement_group": "core",
+        "requirement_section": "core_selective",
+        "program_course_name_snapshot": "固態物理導論",
         "notes": "1.每一學程科目僅採計一門課程學分。2. 核 心 ( 必 選修)11學程科目應選5門課程。",
         "source_page": 1,
         "evidence_match": true,
@@ -364,14 +427,17 @@
       },
       {
         "course_code": null,
+        "catalog_entry_id": "entry_c7ae8cf4e87618d6",
         "opening_units": [
           "電機系"
         ],
         "opening_unit_snapshot": "電機系",
         "course_name_snapshot": "電路學(一)",
         "credits_snapshot": 3.0,
-        "requirement_group": "unspecified",
-        "notes": "",
+        "requirement_group": "core",
+        "requirement_section": "core_selective",
+        "program_course_name_snapshot": "電路學",
+        "notes": "每一學程科目僅採計一門課程學分。",
         "source_page": 1,
         "evidence_match": true,
         "validation_status": "needs_course_code_verification",
@@ -379,14 +445,17 @@
       },
       {
         "course_code": null,
+        "catalog_entry_id": "entry_3d3fcafec2095182",
         "opening_units": [
           "電機系"
         ],
         "opening_unit_snapshot": "電機系",
         "course_name_snapshot": "電路學(二)",
         "credits_snapshot": 3.0,
-        "requirement_group": "unspecified",
-        "notes": "",
+        "requirement_group": "core",
+        "requirement_section": "core_selective",
+        "program_course_name_snapshot": "電路學",
+        "notes": "每一學程科目僅採計一門課程學分。",
         "source_page": 1,
         "evidence_match": true,
         "validation_status": "needs_course_code_verification",
@@ -394,14 +463,17 @@
       },
       {
         "course_code": null,
+        "catalog_entry_id": "entry_3bf74ec71c78dd09",
         "opening_units": [
           "機電系"
         ],
         "opening_unit_snapshot": "機電系",
         "course_name_snapshot": "電路學",
         "credits_snapshot": 3.0,
-        "requirement_group": "unspecified",
-        "notes": "",
+        "requirement_group": "core",
+        "requirement_section": "core_selective",
+        "program_course_name_snapshot": "電路學",
+        "notes": "每一學程科目僅採計一門課程學分。",
         "source_page": 1,
         "evidence_match": true,
         "validation_status": "needs_course_code_verification",
@@ -409,14 +481,17 @@
       },
       {
         "course_code": null,
+        "catalog_entry_id": "entry_d84c0738769689d2",
         "opening_units": [
           "電機系"
         ],
         "opening_unit_snapshot": "電機系",
         "course_name_snapshot": "線性代數",
         "credits_snapshot": 3.0,
-        "requirement_group": "unspecified",
-        "notes": "",
+        "requirement_group": "core",
+        "requirement_section": "core_selective",
+        "program_course_name_snapshot": "工程數學(二)",
+        "notes": "每一學程科目僅採計一門課程學分。",
         "source_page": 1,
         "evidence_match": true,
         "validation_status": "needs_course_code_verification",
@@ -424,14 +499,17 @@
       },
       {
         "course_code": null,
+        "catalog_entry_id": "entry_dd6fd94a8606bcb8",
         "opening_units": [
           "材光系"
         ],
         "opening_unit_snapshot": "材光系",
         "course_name_snapshot": "工程數學(二)",
         "credits_snapshot": 3.0,
-        "requirement_group": "unspecified",
-        "notes": "",
+        "requirement_group": "core",
+        "requirement_section": "core_selective",
+        "program_course_name_snapshot": "工程數學(二)",
+        "notes": "每一學程科目僅採計一門課程學分。",
         "source_page": 1,
         "evidence_match": true,
         "validation_status": "needs_course_code_verification",
@@ -439,14 +517,17 @@
       },
       {
         "course_code": null,
+        "catalog_entry_id": "entry_03c81735c9fdbd5f",
         "opening_units": [
           "機電系"
         ],
         "opening_unit_snapshot": "機電系",
         "course_name_snapshot": "工程數學(二)",
         "credits_snapshot": 3.0,
-        "requirement_group": "unspecified",
-        "notes": "",
+        "requirement_group": "core",
+        "requirement_section": "core_selective",
+        "program_course_name_snapshot": "工程數學(二)",
+        "notes": "每一學程科目僅採計一門課程學分。",
         "source_page": 1,
         "evidence_match": true,
         "validation_status": "needs_course_code_verification",
@@ -454,14 +535,17 @@
       },
       {
         "course_code": null,
+        "catalog_entry_id": "entry_062b99b8aa1b528e",
         "opening_units": [
           "物理系"
         ],
         "opening_unit_snapshot": "物理系",
         "course_name_snapshot": "應用數學(二)",
         "credits_snapshot": 3.0,
-        "requirement_group": "unspecified",
-        "notes": "",
+        "requirement_group": "core",
+        "requirement_section": "core_selective",
+        "program_course_name_snapshot": "工程數學(二)",
+        "notes": "每一學程科目僅採計一門課程學分。",
         "source_page": 1,
         "evidence_match": true,
         "validation_status": "needs_course_code_verification",
@@ -469,14 +553,17 @@
       },
       {
         "course_code": null,
+        "catalog_entry_id": "entry_664d414017d1b4d4",
         "opening_units": [
           "電機系"
         ],
         "opening_unit_snapshot": "電機系",
         "course_name_snapshot": "電磁學(一)",
         "credits_snapshot": 3.0,
-        "requirement_group": "unspecified",
-        "notes": "",
+        "requirement_group": "core",
+        "requirement_section": "core_selective",
+        "program_course_name_snapshot": "電磁學(一)",
+        "notes": "每一學程科目僅採計一門課程學分。",
         "source_page": 1,
         "evidence_match": true,
         "validation_status": "needs_course_code_verification",
@@ -484,15 +571,1152 @@
       },
       {
         "course_code": null,
+        "catalog_entry_id": "entry_548df386f29ea94f",
         "opening_units": [
           "材光系"
         ],
         "opening_unit_snapshot": "材光系",
         "course_name_snapshot": "電磁學(一)",
         "credits_snapshot": 3.0,
-        "requirement_group": "unspecified",
-        "notes": "",
+        "requirement_group": "core",
+        "requirement_section": "core_selective",
+        "program_course_name_snapshot": "電磁學(一)",
+        "notes": "每一學程科目僅採計一門課程學分。",
         "source_page": 1,
+        "evidence_match": true,
+        "validation_status": "needs_course_code_verification",
+        "uncertainty_reason": "Official PDF table does not provide a course code"
+      },
+      {
+        "course_code": null,
+        "catalog_entry_id": "entry_751507e8a0d18e20",
+        "opening_units": [
+          "物理系"
+        ],
+        "opening_unit_snapshot": "物理系",
+        "course_name_snapshot": "電磁學",
+        "credits_snapshot": 3.0,
+        "requirement_group": "core",
+        "requirement_section": "core_selective",
+        "program_course_name_snapshot": "電磁學(一)",
+        "notes": "每一學程科目僅採計一門課程學分。",
+        "source_page": 2,
+        "evidence_match": true,
+        "validation_status": "needs_course_code_verification",
+        "uncertainty_reason": "Official PDF table does not provide a course code"
+      },
+      {
+        "course_code": null,
+        "catalog_entry_id": "entry_1eef50c8433c6fc5",
+        "opening_units": [
+          "電機系"
+        ],
+        "opening_unit_snapshot": "電機系",
+        "course_name_snapshot": "電子學(二)",
+        "credits_snapshot": 3.0,
+        "requirement_group": "core",
+        "requirement_section": "core_selective",
+        "program_course_name_snapshot": "電子學(二)",
+        "notes": "每一學程科目僅採計一門課程學分。",
+        "source_page": 2,
+        "evidence_match": true,
+        "validation_status": "needs_course_code_verification",
+        "uncertainty_reason": "Official PDF table does not provide a course code"
+      },
+      {
+        "course_code": null,
+        "catalog_entry_id": "entry_1e356776b65e151b",
+        "opening_units": [
+          "材光系"
+        ],
+        "opening_unit_snapshot": "材光系",
+        "course_name_snapshot": "電子學(二)",
+        "credits_snapshot": 3.0,
+        "requirement_group": "core",
+        "requirement_section": "core_selective",
+        "program_course_name_snapshot": "電子學(二)",
+        "notes": "每一學程科目僅採計一門課程學分。",
+        "source_page": 2,
+        "evidence_match": true,
+        "validation_status": "needs_course_code_verification",
+        "uncertainty_reason": "Official PDF table does not provide a course code"
+      },
+      {
+        "course_code": null,
+        "catalog_entry_id": "entry_dc75d1efbb767ac1",
+        "opening_units": [
+          "電機所"
+        ],
+        "opening_unit_snapshot": "電機所",
+        "course_name_snapshot": "半導體薄膜技術",
+        "credits_snapshot": 3.0,
+        "requirement_group": "core",
+        "requirement_section": "core_selective",
+        "program_course_name_snapshot": "半導體薄膜技術",
+        "notes": "每一學程科目僅採計一門課程學分。",
+        "source_page": 2,
+        "evidence_match": true,
+        "validation_status": "needs_course_code_verification",
+        "uncertainty_reason": "Official PDF table does not provide a course code"
+      },
+      {
+        "course_code": null,
+        "catalog_entry_id": "entry_8434d88828e216ed",
+        "opening_units": [
+          "零組件所"
+        ],
+        "opening_unit_snapshot": "零組件所",
+        "course_name_snapshot": "薄膜工程與檢測技術",
+        "credits_snapshot": 3.0,
+        "requirement_group": "core",
+        "requirement_section": "core_selective",
+        "program_course_name_snapshot": "半導體薄膜技術",
+        "notes": "每一學程科目僅採計一門課程學分。",
+        "source_page": 2,
+        "evidence_match": true,
+        "validation_status": "needs_course_code_verification",
+        "uncertainty_reason": "Official PDF table does not provide a course code"
+      },
+      {
+        "course_code": null,
+        "catalog_entry_id": "entry_06c0febc3ff3b089",
+        "opening_units": [
+          "電機所"
+        ],
+        "opening_unit_snapshot": "電機所",
+        "course_name_snapshot": "SOI積體電路工程",
+        "credits_snapshot": 3.0,
+        "requirement_group": "core",
+        "requirement_section": "core_selective",
+        "program_course_name_snapshot": "半導體薄膜技術",
+        "notes": "每一學程科目僅採計一門課程學分。",
+        "source_page": 2,
+        "evidence_match": true,
+        "validation_status": "needs_course_code_verification",
+        "uncertainty_reason": "Official PDF table does not provide a course code"
+      },
+      {
+        "course_code": null,
+        "catalog_entry_id": "entry_3f2ae77200b2c49f",
+        "opening_units": [
+          "電機所"
+        ],
+        "opening_unit_snapshot": "電機所",
+        "course_name_snapshot": "高等矽覆絕緣技術",
+        "credits_snapshot": 3.0,
+        "requirement_group": "core",
+        "requirement_section": "core_selective",
+        "program_course_name_snapshot": "半導體薄膜技術",
+        "notes": "每一學程科目僅採計一門課程學分。",
+        "source_page": 2,
+        "evidence_match": true,
+        "validation_status": "needs_course_code_verification",
+        "uncertainty_reason": "Official PDF table does not provide a course code"
+      },
+      {
+        "course_code": null,
+        "catalog_entry_id": "entry_c82a2300bec24c48",
+        "opening_units": [
+          "製造所"
+        ],
+        "opening_unit_snapshot": "製造所",
+        "course_name_snapshot": "半導體薄膜工程",
+        "credits_snapshot": 3.0,
+        "requirement_group": "core",
+        "requirement_section": "core_selective",
+        "program_course_name_snapshot": "半導體薄膜技術",
+        "notes": "每一學程科目僅採計一門課程學分。",
+        "source_page": 2,
+        "evidence_match": true,
+        "validation_status": "needs_course_code_verification",
+        "uncertainty_reason": "Official PDF table does not provide a course code"
+      },
+      {
+        "course_code": null,
+        "catalog_entry_id": "entry_99bf7c458f363afb",
+        "opening_units": [
+          "電機系"
+        ],
+        "opening_unit_snapshot": "電機系",
+        "course_name_snapshot": "微電子技術",
+        "credits_snapshot": 3.0,
+        "requirement_group": "core",
+        "requirement_section": "core_selective",
+        "program_course_name_snapshot": "微電子工程",
+        "notes": "",
+        "source_page": 2,
+        "evidence_match": true,
+        "validation_status": "needs_course_code_verification",
+        "uncertainty_reason": "Official PDF table does not provide a course code"
+      },
+      {
+        "course_code": null,
+        "catalog_entry_id": "entry_0280e4b2d495e620",
+        "opening_units": [
+          "零組件所"
+        ],
+        "opening_unit_snapshot": "零組件所",
+        "course_name_snapshot": "統計與實驗設計實作",
+        "credits_snapshot": 3.0,
+        "requirement_group": "core",
+        "requirement_section": "core_selective",
+        "program_course_name_snapshot": "實驗設計與統計應用",
+        "notes": "每一學程科目僅採計一門課程學分。",
+        "source_page": 2,
+        "evidence_match": true,
+        "validation_status": "needs_course_code_verification",
+        "uncertainty_reason": "Official PDF table does not provide a course code"
+      },
+      {
+        "course_code": null,
+        "catalog_entry_id": "entry_2cfe2ea07a631974",
+        "opening_units": [
+          "封測所"
+        ],
+        "opening_unit_snapshot": "封測所",
+        "course_name_snapshot": "工程統計與品質管理",
+        "credits_snapshot": 3.0,
+        "requirement_group": "core",
+        "requirement_section": "core_selective",
+        "program_course_name_snapshot": "實驗設計與統計應用",
+        "notes": "每一學程科目僅採計一門課程學分。",
+        "source_page": 2,
+        "evidence_match": true,
+        "validation_status": "needs_course_code_verification",
+        "uncertainty_reason": "Official PDF table does not provide a course code"
+      },
+      {
+        "course_code": null,
+        "catalog_entry_id": "entry_f8e1c57a168e7436",
+        "opening_units": [
+          "電機所"
+        ],
+        "opening_unit_snapshot": "電機所",
+        "course_name_snapshot": "數位通訊電路設計",
+        "credits_snapshot": 3.0,
+        "requirement_group": "core",
+        "requirement_section": "core_selective",
+        "program_course_name_snapshot": "積體電路設計",
+        "notes": "每一學程科目僅採計一門課程學分。",
+        "source_page": 2,
+        "evidence_match": true,
+        "validation_status": "needs_course_code_verification",
+        "uncertainty_reason": "Official PDF table does not provide a course code"
+      },
+      {
+        "course_code": null,
+        "catalog_entry_id": "entry_5bf2b7a3ae279de5",
+        "opening_units": [
+          "電機系"
+        ],
+        "opening_unit_snapshot": "電機系",
+        "course_name_snapshot": "VLSI設計導論",
+        "credits_snapshot": 3.0,
+        "requirement_group": "core",
+        "requirement_section": "core_selective",
+        "program_course_name_snapshot": "積體電路設計",
+        "notes": "每一學程科目僅採計一門課程學分。",
+        "source_page": 2,
+        "evidence_match": true,
+        "validation_status": "needs_course_code_verification",
+        "uncertainty_reason": "Official PDF table does not provide a course code"
+      },
+      {
+        "course_code": null,
+        "catalog_entry_id": "entry_9a5024d8b5de1a00",
+        "opening_units": [
+          "電機系"
+        ],
+        "opening_unit_snapshot": "電機系",
+        "course_name_snapshot": "音頻電路設計",
+        "credits_snapshot": 3.0,
+        "requirement_group": "core",
+        "requirement_section": "core_selective",
+        "program_course_name_snapshot": "積體電路設計",
+        "notes": "每一學程科目僅採計一門課程學分。",
+        "source_page": 2,
+        "evidence_match": true,
+        "validation_status": "needs_course_code_verification",
+        "uncertainty_reason": "Official PDF table does not provide a course code"
+      },
+      {
+        "course_code": null,
+        "catalog_entry_id": "entry_135ea526d9961c2a",
+        "opening_units": [
+          "零組件所"
+        ],
+        "opening_unit_snapshot": "零組件所",
+        "course_name_snapshot": "材料分析",
+        "credits_snapshot": 3.0,
+        "requirement_group": "core",
+        "requirement_section": "core_selective",
+        "program_course_name_snapshot": "材料分析與檢測",
+        "notes": "每一學程科目僅採計一門課程學分。",
+        "source_page": 2,
+        "evidence_match": true,
+        "validation_status": "needs_course_code_verification",
+        "uncertainty_reason": "Official PDF table does not provide a course code"
+      },
+      {
+        "course_code": null,
+        "catalog_entry_id": "entry_d9f442f08f083ec4",
+        "opening_units": [
+          "材光所"
+        ],
+        "opening_unit_snapshot": "材光所",
+        "course_name_snapshot": "材料光譜分析",
+        "credits_snapshot": 3.0,
+        "requirement_group": "core",
+        "requirement_section": "core_selective",
+        "program_course_name_snapshot": "材料分析與檢測",
+        "notes": "每一學程科目僅採計一門課程學分。",
+        "source_page": 2,
+        "evidence_match": true,
+        "validation_status": "needs_course_code_verification",
+        "uncertainty_reason": "Official PDF table does not provide a course code"
+      },
+      {
+        "course_code": null,
+        "catalog_entry_id": "entry_4d744eaee8bd2b07",
+        "opening_units": [
+          "材光所"
+        ],
+        "opening_unit_snapshot": "材光所",
+        "course_name_snapshot": "半導體材料測試與分析",
+        "credits_snapshot": 3.0,
+        "requirement_group": "core",
+        "requirement_section": "core_selective",
+        "program_course_name_snapshot": "材料分析與檢測",
+        "notes": "每一學程科目僅採計一門課程學分。",
+        "source_page": 2,
+        "evidence_match": true,
+        "validation_status": "needs_course_code_verification",
+        "uncertainty_reason": "Official PDF table does not provide a course code"
+      },
+      {
+        "course_code": null,
+        "catalog_entry_id": "entry_07e230eaf48a8479",
+        "opening_units": [
+          "材光所"
+        ],
+        "opening_unit_snapshot": "材光所",
+        "course_name_snapshot": "高分子檢測與分析",
+        "credits_snapshot": 3.0,
+        "requirement_group": "core",
+        "requirement_section": "core_selective",
+        "program_course_name_snapshot": "材料分析與檢測",
+        "notes": "每一學程科目僅採計一門課程學分。",
+        "source_page": 2,
+        "evidence_match": true,
+        "validation_status": "needs_course_code_verification",
+        "uncertainty_reason": "Official PDF table does not provide a course code"
+      },
+      {
+        "course_code": null,
+        "catalog_entry_id": "entry_c1087fe23efa6b81",
+        "opening_units": [
+          "材光系"
+        ],
+        "opening_unit_snapshot": "材光系",
+        "course_name_snapshot": "材料顯微分析技術",
+        "credits_snapshot": 3.0,
+        "requirement_group": "core",
+        "requirement_section": "core_selective",
+        "program_course_name_snapshot": "材料分析與檢測",
+        "notes": "每一學程科目僅採計一門課程學分。",
+        "source_page": 2,
+        "evidence_match": true,
+        "validation_status": "needs_course_code_verification",
+        "uncertainty_reason": "Official PDF table does not provide a course code"
+      },
+      {
+        "course_code": null,
+        "catalog_entry_id": "entry_cd3d319ea447c43a",
+        "opening_units": [
+          "光電所"
+        ],
+        "opening_unit_snapshot": "光電所",
+        "course_name_snapshot": "電漿子學之原理及應用",
+        "credits_snapshot": 3.0,
+        "requirement_group": "core",
+        "requirement_section": "core_selective",
+        "program_course_name_snapshot": "電漿工程應用",
+        "notes": "",
+        "source_page": 2,
+        "evidence_match": true,
+        "validation_status": "needs_course_code_verification",
+        "uncertainty_reason": "Official PDF table does not provide a course code"
+      },
+      {
+        "course_code": null,
+        "catalog_entry_id": "entry_21405c24526482d5",
+        "opening_units": [
+          "物理所"
+        ],
+        "opening_unit_snapshot": "物理所",
+        "course_name_snapshot": "量子力學",
+        "credits_snapshot": 3.0,
+        "requirement_group": "elective",
+        "requirement_section": "elective",
+        "program_course_name_snapshot": "量子力學導論",
+        "notes": "1.每一學程科目僅採計一門課程學分。2.選修13學程科目應選3門課程。",
+        "source_page": 2,
+        "evidence_match": true,
+        "validation_status": "needs_course_code_verification",
+        "uncertainty_reason": "Official PDF table does not provide a course code"
+      },
+      {
+        "course_code": null,
+        "catalog_entry_id": "entry_abed0cbd935f1de9",
+        "opening_units": [
+          "材光系"
+        ],
+        "opening_unit_snapshot": "材光系",
+        "course_name_snapshot": "量子物理",
+        "credits_snapshot": 3.0,
+        "requirement_group": "elective",
+        "requirement_section": "elective",
+        "program_course_name_snapshot": "量子力學導論",
+        "notes": "每一學程科目僅採計一門課程學分。",
+        "source_page": 2,
+        "evidence_match": true,
+        "validation_status": "needs_course_code_verification",
+        "uncertainty_reason": "Official PDF table does not provide a course code"
+      },
+      {
+        "course_code": null,
+        "catalog_entry_id": "entry_c723f1f04d9bb856",
+        "opening_units": [
+          "物理系"
+        ],
+        "opening_unit_snapshot": "物理系",
+        "course_name_snapshot": "量子物理(一)",
+        "credits_snapshot": 3.0,
+        "requirement_group": "elective",
+        "requirement_section": "elective",
+        "program_course_name_snapshot": "量子力學導論",
+        "notes": "每一學程科目僅採計一門課程學分。",
+        "source_page": 2,
+        "evidence_match": true,
+        "validation_status": "needs_course_code_verification",
+        "uncertainty_reason": "Official PDF table does not provide a course code"
+      },
+      {
+        "course_code": null,
+        "catalog_entry_id": "entry_b16cd25ac64e91c2",
+        "opening_units": [
+          "物理系"
+        ],
+        "opening_unit_snapshot": "物理系",
+        "course_name_snapshot": "量子物理(二)",
+        "credits_snapshot": 3.0,
+        "requirement_group": "elective",
+        "requirement_section": "elective",
+        "program_course_name_snapshot": "量子力學導論",
+        "notes": "每一學程科目僅採計一門課程學分。",
+        "source_page": 2,
+        "evidence_match": true,
+        "validation_status": "needs_course_code_verification",
+        "uncertainty_reason": "Official PDF table does not provide a course code"
+      },
+      {
+        "course_code": null,
+        "catalog_entry_id": "entry_e2b54cff6c3e0103",
+        "opening_units": [
+          "機電所"
+        ],
+        "opening_unit_snapshot": "機電所",
+        "course_name_snapshot": "奈米元件電腦輔助設計",
+        "credits_snapshot": 3.0,
+        "requirement_group": "elective",
+        "requirement_section": "elective",
+        "program_course_name_snapshot": "電腦輔助設計",
+        "notes": "",
+        "source_page": 2,
+        "evidence_match": true,
+        "validation_status": "needs_course_code_verification",
+        "uncertainty_reason": "Official PDF table does not provide a course code"
+      },
+      {
+        "course_code": null,
+        "catalog_entry_id": "entry_76ff7925aa39d762",
+        "opening_units": [
+          "電機所"
+        ],
+        "opening_unit_snapshot": "電機所",
+        "course_name_snapshot": "感測元件",
+        "credits_snapshot": 3.0,
+        "requirement_group": "elective",
+        "requirement_section": "elective",
+        "program_course_name_snapshot": "半導體元件特殊應用",
+        "notes": "每一學程科目僅採計一門課程學分。",
+        "source_page": 2,
+        "evidence_match": true,
+        "validation_status": "needs_course_code_verification",
+        "uncertainty_reason": "Official PDF table does not provide a course code"
+      },
+      {
+        "course_code": null,
+        "catalog_entry_id": "entry_11c1bb73f3f69465",
+        "opening_units": [
+          "零組件所"
+        ],
+        "opening_unit_snapshot": "零組件所",
+        "course_name_snapshot": "感測元件",
+        "credits_snapshot": 3.0,
+        "requirement_group": "elective",
+        "requirement_section": "elective",
+        "program_course_name_snapshot": "半導體元件特殊應用",
+        "notes": "每一學程科目僅採計一門課程學分。",
+        "source_page": 2,
+        "evidence_match": true,
+        "validation_status": "needs_course_code_verification",
+        "uncertainty_reason": "Official PDF table does not provide a course code"
+      },
+      {
+        "course_code": null,
+        "catalog_entry_id": "entry_44b4d4b715af053d",
+        "opening_units": [
+          "電機所"
+        ],
+        "opening_unit_snapshot": "電機所",
+        "course_name_snapshot": "光電元件",
+        "credits_snapshot": 3.0,
+        "requirement_group": "elective",
+        "requirement_section": "elective",
+        "program_course_name_snapshot": "半導體元件特殊應用",
+        "notes": "每一學程科目僅採計一門課程學分。",
+        "source_page": 2,
+        "evidence_match": true,
+        "validation_status": "needs_course_code_verification",
+        "uncertainty_reason": "Official PDF table does not provide a course code"
+      },
+      {
+        "course_code": null,
+        "catalog_entry_id": "entry_8350fe0802eeebb9",
+        "opening_units": [
+          "電機系"
+        ],
+        "opening_unit_snapshot": "電機系",
+        "course_name_snapshot": "化合物半導體概論",
+        "credits_snapshot": 3.0,
+        "requirement_group": "elective",
+        "requirement_section": "elective",
+        "program_course_name_snapshot": "半導體元件特殊應用",
+        "notes": "每一學程科目僅採計一門課程學分。",
+        "source_page": 2,
+        "evidence_match": true,
+        "validation_status": "needs_course_code_verification",
+        "uncertainty_reason": "Official PDF table does not provide a course code"
+      },
+      {
+        "course_code": null,
+        "catalog_entry_id": "entry_8ab8c56c74c7b4f7",
+        "opening_units": [
+          "電機所"
+        ],
+        "opening_unit_snapshot": "電機所",
+        "course_name_snapshot": "醫用電子",
+        "credits_snapshot": 3.0,
+        "requirement_group": "elective",
+        "requirement_section": "elective",
+        "program_course_name_snapshot": "半導體元件特殊應用",
+        "notes": "每一學程科目僅採計一門課程學分。",
+        "source_page": 2,
+        "evidence_match": true,
+        "validation_status": "needs_course_code_verification",
+        "uncertainty_reason": "Official PDF table does not provide a course code"
+      },
+      {
+        "course_code": null,
+        "catalog_entry_id": "entry_57333c41918df3d4",
+        "opening_units": [
+          "機電系"
+        ],
+        "opening_unit_snapshot": "機電系",
+        "course_name_snapshot": "微機電系統概論",
+        "credits_snapshot": 3.0,
+        "requirement_group": "elective",
+        "requirement_section": "elective",
+        "program_course_name_snapshot": "微機電系統",
+        "notes": "每一學程科目僅採計一門課程學分。",
+        "source_page": 2,
+        "evidence_match": true,
+        "validation_status": "needs_course_code_verification",
+        "uncertainty_reason": "Official PDF table does not provide a course code"
+      },
+      {
+        "course_code": null,
+        "catalog_entry_id": "entry_514146d11b2d6974",
+        "opening_units": [
+          "電機系"
+        ],
+        "opening_unit_snapshot": "電機系",
+        "course_name_snapshot": "奈微系統工程原理",
+        "credits_snapshot": 3.0,
+        "requirement_group": "elective",
+        "requirement_section": "elective",
+        "program_course_name_snapshot": "微機電系統",
+        "notes": "每一學程科目僅採計一門課程學分。",
+        "source_page": 2,
+        "evidence_match": true,
+        "validation_status": "needs_course_code_verification",
+        "uncertainty_reason": "Official PDF table does not provide a course code"
+      },
+      {
+        "course_code": null,
+        "catalog_entry_id": "entry_71e3571b5c4fc064",
+        "opening_units": [
+          "電機所"
+        ],
+        "opening_unit_snapshot": "電機所",
+        "course_name_snapshot": "微機電系統",
+        "credits_snapshot": 3.0,
+        "requirement_group": "elective",
+        "requirement_section": "elective",
+        "program_course_name_snapshot": "微機電系統",
+        "notes": "每一學程科目僅採計一門課程學分。",
+        "source_page": 2,
+        "evidence_match": true,
+        "validation_status": "needs_course_code_verification",
+        "uncertainty_reason": "Official PDF table does not provide a course code"
+      },
+      {
+        "course_code": null,
+        "catalog_entry_id": "entry_83d76bdc7b402c93",
+        "opening_units": [
+          "機電系"
+        ],
+        "opening_unit_snapshot": "機電系",
+        "course_name_snapshot": "微機電製程實務",
+        "credits_snapshot": 2.0,
+        "requirement_group": "elective",
+        "requirement_section": "elective",
+        "program_course_name_snapshot": "微機電系統",
+        "notes": "每一學程科目僅採計一門課程學分。",
+        "source_page": 2,
+        "evidence_match": true,
+        "validation_status": "needs_course_code_verification",
+        "uncertainty_reason": "Official PDF table does not provide a course code"
+      },
+      {
+        "course_code": null,
+        "catalog_entry_id": "entry_60ade95dd82fa1c6",
+        "opening_units": [
+          "機電系"
+        ],
+        "opening_unit_snapshot": "機電系",
+        "course_name_snapshot": "電子封裝簡介",
+        "credits_snapshot": 3.0,
+        "requirement_group": "elective",
+        "requirement_section": "elective",
+        "program_course_name_snapshot": "電子封裝技術",
+        "notes": "每一學程科目僅採計一門課程學分。",
+        "source_page": 2,
+        "evidence_match": true,
+        "validation_status": "needs_course_code_verification",
+        "uncertainty_reason": "Official PDF table does not provide a course code"
+      },
+      {
+        "course_code": null,
+        "catalog_entry_id": "entry_d1cda2ba56fb56ba",
+        "opening_units": [
+          "封測所"
+        ],
+        "opening_unit_snapshot": "封測所",
+        "course_name_snapshot": "電子封裝結構設計與製程技術",
+        "credits_snapshot": 3.0,
+        "requirement_group": "elective",
+        "requirement_section": "elective",
+        "program_course_name_snapshot": "電子封裝技術",
+        "notes": "每一學程科目僅採計一門課程學分。",
+        "source_page": 2,
+        "evidence_match": true,
+        "validation_status": "needs_course_code_verification",
+        "uncertainty_reason": "Official PDF table does not provide a course code"
+      },
+      {
+        "course_code": null,
+        "catalog_entry_id": "entry_e5c71b1057c474f1",
+        "opening_units": [
+          "封測所"
+        ],
+        "opening_unit_snapshot": "封測所",
+        "course_name_snapshot": "雷射微加工於電子封裝之應用",
+        "credits_snapshot": 3.0,
+        "requirement_group": "elective",
+        "requirement_section": "elective",
+        "program_course_name_snapshot": "電子封裝技術",
+        "notes": "每一學程科目僅採計一門課程學分。",
+        "source_page": 3,
+        "evidence_match": true,
+        "validation_status": "needs_course_code_verification",
+        "uncertainty_reason": "Official PDF table does not provide a course code"
+      },
+      {
+        "course_code": null,
+        "catalog_entry_id": "entry_7ccef37925470d67",
+        "opening_units": [
+          "封測所"
+        ],
+        "opening_unit_snapshot": "封測所",
+        "course_name_snapshot": "高階電子封裝結構設計與製程技術",
+        "credits_snapshot": 3.0,
+        "requirement_group": "elective",
+        "requirement_section": "elective",
+        "program_course_name_snapshot": "電子封裝技術",
+        "notes": "每一學程科目僅採計一門課程學分。",
+        "source_page": 3,
+        "evidence_match": true,
+        "validation_status": "needs_course_code_verification",
+        "uncertainty_reason": "Official PDF table does not provide a course code"
+      },
+      {
+        "course_code": null,
+        "catalog_entry_id": "entry_8e354e87e3023928",
+        "opening_units": [
+          "材光所"
+        ],
+        "opening_unit_snapshot": "材光所",
+        "course_name_snapshot": "電子顯微鏡",
+        "credits_snapshot": 3.0,
+        "requirement_group": "elective",
+        "requirement_section": "elective",
+        "program_course_name_snapshot": "電子顯微鏡",
+        "notes": "每一學程科目僅採計一門課程學分。",
+        "source_page": 3,
+        "evidence_match": true,
+        "validation_status": "needs_course_code_verification",
+        "uncertainty_reason": "Official PDF table does not provide a course code"
+      },
+      {
+        "course_code": null,
+        "catalog_entry_id": "entry_d8123ad11c073ed6",
+        "opening_units": [
+          "零組件所"
+        ],
+        "opening_unit_snapshot": "零組件所",
+        "course_name_snapshot": "電子顯微鏡學",
+        "credits_snapshot": 3.0,
+        "requirement_group": "elective",
+        "requirement_section": "elective",
+        "program_course_name_snapshot": "電子顯微鏡",
+        "notes": "每一學程科目僅採計一門課程學分。",
+        "source_page": 3,
+        "evidence_match": true,
+        "validation_status": "needs_course_code_verification",
+        "uncertainty_reason": "Official PDF table does not provide a course code"
+      },
+      {
+        "course_code": null,
+        "catalog_entry_id": "entry_b4cd033773cc2005",
+        "opening_units": [
+          "材光所"
+        ],
+        "opening_unit_snapshot": "材光所",
+        "course_name_snapshot": "電子顯微鏡於軟物質研究之應用",
+        "credits_snapshot": 3.0,
+        "requirement_group": "elective",
+        "requirement_section": "elective",
+        "program_course_name_snapshot": "電子顯微鏡",
+        "notes": "每一學程科目僅採計一門課程學分。",
+        "source_page": 3,
+        "evidence_match": true,
+        "validation_status": "needs_course_code_verification",
+        "uncertainty_reason": "Official PDF table does not provide a course code"
+      },
+      {
+        "course_code": null,
+        "catalog_entry_id": "entry_95518f176ecd02a0",
+        "opening_units": [
+          "材光系"
+        ],
+        "opening_unit_snapshot": "材光系",
+        "course_name_snapshot": "材料科學導論",
+        "credits_snapshot": 3.0,
+        "requirement_group": "elective",
+        "requirement_section": "elective",
+        "program_course_name_snapshot": "基礎材料科學",
+        "notes": "每一學程科目僅採計一門課程學分。",
+        "source_page": 3,
+        "evidence_match": true,
+        "validation_status": "needs_course_code_verification",
+        "uncertainty_reason": "Official PDF table does not provide a course code"
+      },
+      {
+        "course_code": null,
+        "catalog_entry_id": "entry_919f742c69362940",
+        "opening_units": [
+          "封測所"
+        ],
+        "opening_unit_snapshot": "封測所",
+        "course_name_snapshot": "材料科學",
+        "credits_snapshot": 3.0,
+        "requirement_group": "elective",
+        "requirement_section": "elective",
+        "program_course_name_snapshot": "基礎材料科學",
+        "notes": "每一學程科目僅採計一門課程學分。",
+        "source_page": 3,
+        "evidence_match": true,
+        "validation_status": "needs_course_code_verification",
+        "uncertainty_reason": "Official PDF table does not provide a course code"
+      },
+      {
+        "course_code": null,
+        "catalog_entry_id": "entry_72686e0f0a78d545",
+        "opening_units": [
+          "零組件所"
+        ],
+        "opening_unit_snapshot": "零組件所",
+        "course_name_snapshot": "材料科學",
+        "credits_snapshot": 3.0,
+        "requirement_group": "elective",
+        "requirement_section": "elective",
+        "program_course_name_snapshot": "基礎材料科學",
+        "notes": "每一學程科目僅採計一門課程學分。",
+        "source_page": 3,
+        "evidence_match": true,
+        "validation_status": "needs_course_code_verification",
+        "uncertainty_reason": "Official PDF table does not provide a course code"
+      },
+      {
+        "course_code": null,
+        "catalog_entry_id": "entry_27a536c5388b04b9",
+        "opening_units": [
+          "材光系"
+        ],
+        "opening_unit_snapshot": "材光系",
+        "course_name_snapshot": "高分子材料導論",
+        "credits_snapshot": 3.0,
+        "requirement_group": "elective",
+        "requirement_section": "elective",
+        "program_course_name_snapshot": "基礎材料科學",
+        "notes": "每一學程科目僅採計一門課程學分。",
+        "source_page": 3,
+        "evidence_match": true,
+        "validation_status": "needs_course_code_verification",
+        "uncertainty_reason": "Official PDF table does not provide a course code"
+      },
+      {
+        "course_code": null,
+        "catalog_entry_id": "entry_aa83db11ba08d9a5",
+        "opening_units": [
+          "電機所"
+        ],
+        "opening_unit_snapshot": "電機所",
+        "course_name_snapshot": "奈米材料",
+        "credits_snapshot": 3.0,
+        "requirement_group": "elective",
+        "requirement_section": "elective",
+        "program_course_name_snapshot": "半導體/奈米/機電材料",
+        "notes": "每一學程科目僅採計一門課程學分。",
+        "source_page": 3,
+        "evidence_match": true,
+        "validation_status": "needs_course_code_verification",
+        "uncertainty_reason": "Official PDF table does not provide a course code"
+      },
+      {
+        "course_code": null,
+        "catalog_entry_id": "entry_a4b436c3cd6ad910",
+        "opening_units": [
+          "電機所"
+        ],
+        "opening_unit_snapshot": "電機所",
+        "course_name_snapshot": "低維度電子材料",
+        "credits_snapshot": 3.0,
+        "requirement_group": "elective",
+        "requirement_section": "elective",
+        "program_course_name_snapshot": "半導體/奈米/機電材料",
+        "notes": "每一學程科目僅採計一門課程學分。",
+        "source_page": 3,
+        "evidence_match": true,
+        "validation_status": "needs_course_code_verification",
+        "uncertainty_reason": "Official PDF table does not provide a course code"
+      },
+      {
+        "course_code": null,
+        "catalog_entry_id": "entry_85e4ce10aa485a93",
+        "opening_units": [
+          "材光所"
+        ],
+        "opening_unit_snapshot": "材光所",
+        "course_name_snapshot": "低維度半導體科學",
+        "credits_snapshot": 3.0,
+        "requirement_group": "elective",
+        "requirement_section": "elective",
+        "program_course_name_snapshot": "半導體/奈米/機電材料",
+        "notes": "每一學程科目僅採計一門課程學分。",
+        "source_page": 3,
+        "evidence_match": true,
+        "validation_status": "needs_course_code_verification",
+        "uncertainty_reason": "Official PDF table does not provide a course code"
+      },
+      {
+        "course_code": null,
+        "catalog_entry_id": "entry_3b938eb6ce3e940d",
+        "opening_units": [
+          "機電所"
+        ],
+        "opening_unit_snapshot": "機電所",
+        "course_name_snapshot": "微奈米材料",
+        "credits_snapshot": 3.0,
+        "requirement_group": "elective",
+        "requirement_section": "elective",
+        "program_course_name_snapshot": "半導體/奈米/機電材料",
+        "notes": "每一學程科目僅採計一門課程學分。",
+        "source_page": 3,
+        "evidence_match": true,
+        "validation_status": "needs_course_code_verification",
+        "uncertainty_reason": "Official PDF table does not provide a course code"
+      },
+      {
+        "course_code": null,
+        "catalog_entry_id": "entry_f5aade36ff86b6c1",
+        "opening_units": [
+          "電機系"
+        ],
+        "opening_unit_snapshot": "電機系",
+        "course_name_snapshot": "電子材料工程",
+        "credits_snapshot": 3.0,
+        "requirement_group": "elective",
+        "requirement_section": "elective",
+        "program_course_name_snapshot": "半導體/奈米/機電材料",
+        "notes": "每一學程科目僅採計一門課程學分。",
+        "source_page": 3,
+        "evidence_match": true,
+        "validation_status": "needs_course_code_verification",
+        "uncertainty_reason": "Official PDF table does not provide a course code"
+      },
+      {
+        "course_code": null,
+        "catalog_entry_id": "entry_5cd7052fe90afdb9",
+        "opening_units": [
+          "零組件所"
+        ],
+        "opening_unit_snapshot": "零組件所",
+        "course_name_snapshot": "電子材料",
+        "credits_snapshot": 3.0,
+        "requirement_group": "elective",
+        "requirement_section": "elective",
+        "program_course_name_snapshot": "半導體/奈米/機電材料",
+        "notes": "每一學程科目僅採計一門課程學分。",
+        "source_page": 3,
+        "evidence_match": true,
+        "validation_status": "needs_course_code_verification",
+        "uncertainty_reason": "Official PDF table does not provide a course code"
+      },
+      {
+        "course_code": null,
+        "catalog_entry_id": "entry_59d8072a8d72a5a4",
+        "opening_units": [
+          "機電系"
+        ],
+        "opening_unit_snapshot": "機電系",
+        "course_name_snapshot": "機電材料",
+        "credits_snapshot": 3.0,
+        "requirement_group": "elective",
+        "requirement_section": "elective",
+        "program_course_name_snapshot": "半導體/奈米/機電材料",
+        "notes": "每一學程科目僅採計一門課程學分。",
+        "source_page": 3,
+        "evidence_match": true,
+        "validation_status": "needs_course_code_verification",
+        "uncertainty_reason": "Official PDF table does not provide a course code"
+      },
+      {
+        "course_code": null,
+        "catalog_entry_id": "entry_3695a55053a335e8",
+        "opening_units": [
+          "零組件所"
+        ],
+        "opening_unit_snapshot": "零組件所",
+        "course_name_snapshot": "半導體材料",
+        "credits_snapshot": 3.0,
+        "requirement_group": "elective",
+        "requirement_section": "elective",
+        "program_course_name_snapshot": "半導體/奈米/機電材料",
+        "notes": "每一學程科目僅採計一門課程學分。",
+        "source_page": 3,
+        "evidence_match": true,
+        "validation_status": "needs_course_code_verification",
+        "uncertainty_reason": "Official PDF table does not provide a course code"
+      },
+      {
+        "course_code": null,
+        "catalog_entry_id": "entry_08cdc1188fa8ceab",
+        "opening_units": [
+          "材光所"
+        ],
+        "opening_unit_snapshot": "材光所",
+        "course_name_snapshot": "有機半導體材料",
+        "credits_snapshot": 3.0,
+        "requirement_group": "elective",
+        "requirement_section": "elective",
+        "program_course_name_snapshot": "半導體/奈米/機電材料",
+        "notes": "每一學程科目僅採計一門課程學分。",
+        "source_page": 3,
+        "evidence_match": true,
+        "validation_status": "needs_course_code_verification",
+        "uncertainty_reason": "Official PDF table does not provide a course code"
+      },
+      {
+        "course_code": null,
+        "catalog_entry_id": "entry_562aa5d3b2b6a98c",
+        "opening_units": [
+          "封測所"
+        ],
+        "opening_unit_snapshot": "封測所",
+        "course_name_snapshot": "有機半導體材料與元件",
+        "credits_snapshot": 3.0,
+        "requirement_group": "elective",
+        "requirement_section": "elective",
+        "program_course_name_snapshot": "半導體/奈米/機電材料",
+        "notes": "每一學程科目僅採計一門課程學分。",
+        "source_page": 3,
+        "evidence_match": true,
+        "validation_status": "needs_course_code_verification",
+        "uncertainty_reason": "Official PDF table does not provide a course code"
+      },
+      {
+        "course_code": null,
+        "catalog_entry_id": "entry_8698f7d3aad840e8",
+        "opening_units": [
+          "物理系"
+        ],
+        "opening_unit_snapshot": "物理系",
+        "course_name_snapshot": "近代物理",
+        "credits_snapshot": 3.0,
+        "requirement_group": "elective",
+        "requirement_section": "elective",
+        "program_course_name_snapshot": "近代物理",
+        "notes": "每一學程科目僅採計一門課程學分。",
+        "source_page": 3,
+        "evidence_match": true,
+        "validation_status": "needs_course_code_verification",
+        "uncertainty_reason": "Official PDF table does not provide a course code"
+      },
+      {
+        "course_code": null,
+        "catalog_entry_id": "entry_ae18cf6df473272a",
+        "opening_units": [
+          "材光系"
+        ],
+        "opening_unit_snapshot": "材光系",
+        "course_name_snapshot": "近代物理",
+        "credits_snapshot": 3.0,
+        "requirement_group": "elective",
+        "requirement_section": "elective",
+        "program_course_name_snapshot": "近代物理",
+        "notes": "每一學程科目僅採計一門課程學分。",
+        "source_page": 3,
+        "evidence_match": true,
+        "validation_status": "needs_course_code_verification",
+        "uncertainty_reason": "Official PDF table does not provide a course code"
+      },
+      {
+        "course_code": null,
+        "catalog_entry_id": "entry_1d1d06bb54d15ddf",
+        "opening_units": [
+          "封測所"
+        ],
+        "opening_unit_snapshot": "封測所",
+        "course_name_snapshot": "半導體元件特性量測分析",
+        "credits_snapshot": 3.0,
+        "requirement_group": "elective",
+        "requirement_section": "elective",
+        "program_course_name_snapshot": "元件量測",
+        "notes": "每一學程科目僅採計一門課程學分。",
+        "source_page": 3,
+        "evidence_match": true,
+        "validation_status": "needs_course_code_verification",
+        "uncertainty_reason": "Official PDF table does not provide a course code"
+      },
+      {
+        "course_code": null,
+        "catalog_entry_id": "entry_ecafca6c34f6fa58",
+        "opening_units": [
+          "製造所"
+        ],
+        "opening_unit_snapshot": "製造所",
+        "course_name_snapshot": "半導體元件特性量測分析",
+        "credits_snapshot": 3.0,
+        "requirement_group": "elective",
+        "requirement_section": "elective",
+        "program_course_name_snapshot": "元件量測",
+        "notes": "每一學程科目僅採計一門課程學分。",
+        "source_page": 3,
+        "evidence_match": true,
+        "validation_status": "needs_course_code_verification",
+        "uncertainty_reason": "Official PDF table does not provide a course code"
+      },
+      {
+        "course_code": null,
+        "catalog_entry_id": "entry_b24d543a4f6de74b",
+        "opening_units": [
+          "製造所"
+        ],
+        "opening_unit_snapshot": "製造所",
+        "course_name_snapshot": "先進記憶體科技",
+        "credits_snapshot": 3.0,
+        "requirement_group": "elective",
+        "requirement_section": "elective",
+        "program_course_name_snapshot": "新型記憶體",
+        "notes": "",
+        "source_page": 3,
+        "evidence_match": true,
+        "validation_status": "needs_course_code_verification",
+        "uncertainty_reason": "Official PDF table does not provide a course code"
+      },
+      {
+        "course_code": null,
+        "catalog_entry_id": "entry_8e5b97da187a5ffe",
+        "opening_units": [
+          "光電所"
+        ],
+        "opening_unit_snapshot": "光電所",
+        "course_name_snapshot": "光電子學",
+        "credits_snapshot": 3.0,
+        "requirement_group": "elective",
+        "requirement_section": "elective",
+        "program_course_name_snapshot": "應用光電子學",
+        "notes": "",
+        "source_page": 3,
+        "evidence_match": true,
+        "validation_status": "needs_course_code_verification",
+        "uncertainty_reason": "Official PDF table does not provide a course code"
+      },
+      {
+        "course_code": null,
+        "catalog_entry_id": "entry_83cad7b590a77ee0",
+        "opening_units": [
+          "機電所"
+        ],
+        "opening_unit_snapshot": "機電所",
+        "course_name_snapshot": "半導體微影設備系統概論",
+        "credits_snapshot": 3.0,
+        "requirement_group": "elective",
+        "requirement_section": "elective",
+        "program_course_name_snapshot": "光學微影技術",
+        "notes": "每一學程科目僅採計一門課程學分。",
+        "source_page": 3,
+        "evidence_match": true,
+        "validation_status": "needs_course_code_verification",
+        "uncertainty_reason": "Official PDF table does not provide a course code"
+      },
+      {
+        "course_code": null,
+        "catalog_entry_id": "entry_76185f818123d3f7",
+        "opening_units": [
+          "製造所"
+        ],
+        "opening_unit_snapshot": "製造所",
+        "course_name_snapshot": "先進微影科技理論與實務",
+        "credits_snapshot": 3.0,
+        "requirement_group": "elective",
+        "requirement_section": "elective",
+        "program_course_name_snapshot": "光學微影技術",
+        "notes": "每一學程科目僅採計一門課程學分。",
+        "source_page": 3,
         "evidence_match": true,
         "validation_status": "needs_course_code_verification",
         "uncertainty_reason": "Official PDF table does not provide a course code"
@@ -501,7 +1725,597 @@
     "structured_requirements": {
       "core_credits_text_value": 15,
       "minimum_total_credits": 33,
-      "minimum_outside_home_department_credits": 6
+      "minimum_outside_home_department_credits": 6,
+      "course_count_constraints": [
+        {
+          "constraint_id": "constraint_0a68bce560068593",
+          "kind": "program_course_equivalence",
+          "catalog_entry_ids": [
+            "entry_c7ae8cf4e87618d6",
+            "entry_3d3fcafec2095182",
+            "entry_3bf74ec71c78dd09"
+          ],
+          "course_names": [
+            "電路學(一)",
+            "電路學(二)",
+            "電路學"
+          ],
+          "min_courses": 1,
+          "max_courses": 1,
+          "requirement_group": "core",
+          "requirement_section": "core_selective",
+          "program_course_name_snapshot": "電路學",
+          "source_page": 1,
+          "source_text": "每一學程科目僅採計一門課程學分。",
+          "validation_status": "source_text_match"
+        },
+        {
+          "constraint_id": "constraint_31f0db219643b2ed",
+          "kind": "program_course_equivalence",
+          "catalog_entry_ids": [
+            "entry_664d414017d1b4d4",
+            "entry_548df386f29ea94f",
+            "entry_751507e8a0d18e20"
+          ],
+          "course_names": [
+            "電磁學(一)",
+            "電磁學"
+          ],
+          "min_courses": 1,
+          "max_courses": 1,
+          "requirement_group": "core",
+          "requirement_section": "core_selective",
+          "program_course_name_snapshot": "電磁學(一)",
+          "source_page": 1,
+          "source_text": "每一學程科目僅採計一門課程學分。",
+          "validation_status": "source_text_match"
+        },
+        {
+          "constraint_id": "constraint_b203e36057ce3b31",
+          "kind": "program_course_equivalence",
+          "catalog_entry_ids": [
+            "entry_a00aeca4e30e7a61",
+            "entry_9c57dae66a608ab4",
+            "entry_8addad54436338ab",
+            "entry_23802e7dcef8b57b",
+            "entry_03f48468b234bcd9",
+            "entry_f36c94ea3db19d94",
+            "entry_7152dd99b5deae16"
+          ],
+          "course_names": [
+            "半導體製程導論",
+            "半導體製程原理",
+            "半導體製程整合技術",
+            "積體電路技術",
+            "半導體奈米元件製造技術"
+          ],
+          "min_courses": 1,
+          "max_courses": 1,
+          "requirement_group": "core",
+          "requirement_section": "core_required",
+          "program_course_name_snapshot": "半導體製程",
+          "source_page": 1,
+          "source_text": "每一學程科目僅採計一門課程學分。",
+          "validation_status": "source_text_match"
+        },
+        {
+          "constraint_id": "constraint_cbd7ec707aa577d6",
+          "kind": "program_course_equivalence",
+          "catalog_entry_ids": [
+            "entry_d84c0738769689d2",
+            "entry_dd6fd94a8606bcb8",
+            "entry_03c81735c9fdbd5f",
+            "entry_062b99b8aa1b528e"
+          ],
+          "course_names": [
+            "線性代數",
+            "工程數學(二)",
+            "應用數學(二)"
+          ],
+          "min_courses": 1,
+          "max_courses": 1,
+          "requirement_group": "core",
+          "requirement_section": "core_selective",
+          "program_course_name_snapshot": "工程數學(二)",
+          "source_page": 1,
+          "source_text": "每一學程科目僅採計一門課程學分。",
+          "validation_status": "source_text_match"
+        },
+        {
+          "constraint_id": "constraint_dbd3e5432e2aca8f",
+          "kind": "program_course_equivalence",
+          "catalog_entry_ids": [
+            "entry_c2880e10163b5032",
+            "entry_01a4106e844f36d6",
+            "entry_3f9b3fd349b8137f",
+            "entry_0fda1fa8f802f1f7"
+          ],
+          "course_names": [
+            "電子學(一)",
+            "應用電子學",
+            "數位電子學"
+          ],
+          "min_courses": 1,
+          "max_courses": 1,
+          "requirement_group": "core",
+          "requirement_section": "core_required",
+          "program_course_name_snapshot": "電子學(一)",
+          "source_page": 1,
+          "source_text": "每一學程科目僅採計一門課程學分。",
+          "validation_status": "source_text_match"
+        },
+        {
+          "constraint_id": "constraint_e383bea2d82905ff",
+          "kind": "program_course_equivalence",
+          "catalog_entry_ids": [
+            "entry_fdb0d116d1430b0c",
+            "entry_bbd4e3860526c6b5",
+            "entry_e931486dfc3b94c0",
+            "entry_a6eb32a03f58e502",
+            "entry_8fd7cfe2fddc33c0",
+            "entry_a174671489596951",
+            "entry_31ca24fd593cfda2",
+            "entry_4aa29daacfe8de77",
+            "entry_283a3847a88a088f"
+          ],
+          "course_names": [
+            "半導體元件(一)",
+            "半導體元件(二)",
+            "半導體元件",
+            "固態電子元件(一)",
+            "固態電子元件(二)",
+            "固態電子元件(三)",
+            "記憶體元件與製程技術",
+            "半導體奈米元件物理",
+            "半導體元件與物理"
+          ],
+          "min_courses": 1,
+          "max_courses": 1,
+          "requirement_group": "core",
+          "requirement_section": "core_required",
+          "program_course_name_snapshot": "半導體元件物理",
+          "source_page": 1,
+          "source_text": "每一學程科目僅採計一門課程學分。",
+          "validation_status": "source_text_match"
+        },
+        {
+          "constraint_id": "constraint_05635ae64271ca89",
+          "kind": "program_course_equivalence",
+          "catalog_entry_ids": [
+            "entry_dc75d1efbb767ac1",
+            "entry_8434d88828e216ed",
+            "entry_06c0febc3ff3b089",
+            "entry_3f2ae77200b2c49f",
+            "entry_c82a2300bec24c48"
+          ],
+          "course_names": [
+            "半導體薄膜技術",
+            "薄膜工程與檢測技術",
+            "SOI積體電路工程",
+            "高等矽覆絕緣技術",
+            "半導體薄膜工程"
+          ],
+          "min_courses": 1,
+          "max_courses": 1,
+          "requirement_group": "core",
+          "requirement_section": "core_selective",
+          "program_course_name_snapshot": "半導體薄膜技術",
+          "source_page": 2,
+          "source_text": "每一學程科目僅採計一門課程學分。",
+          "validation_status": "source_text_match"
+        },
+        {
+          "constraint_id": "constraint_091e60667e13bf5e",
+          "kind": "program_course_equivalence",
+          "catalog_entry_ids": [
+            "entry_f8e1c57a168e7436",
+            "entry_5bf2b7a3ae279de5",
+            "entry_9a5024d8b5de1a00"
+          ],
+          "course_names": [
+            "數位通訊電路設計",
+            "VLSI設計導論",
+            "音頻電路設計"
+          ],
+          "min_courses": 1,
+          "max_courses": 1,
+          "requirement_group": "core",
+          "requirement_section": "core_selective",
+          "program_course_name_snapshot": "積體電路設計",
+          "source_page": 2,
+          "source_text": "每一學程科目僅採計一門課程學分。",
+          "validation_status": "source_text_match"
+        },
+        {
+          "constraint_id": "constraint_423926fa48201342",
+          "kind": "program_course_equivalence",
+          "catalog_entry_ids": [
+            "entry_57333c41918df3d4",
+            "entry_514146d11b2d6974",
+            "entry_71e3571b5c4fc064",
+            "entry_83d76bdc7b402c93"
+          ],
+          "course_names": [
+            "微機電系統概論",
+            "奈微系統工程原理",
+            "微機電系統",
+            "微機電製程實務"
+          ],
+          "min_courses": 1,
+          "max_courses": 1,
+          "requirement_group": "elective",
+          "requirement_section": "elective",
+          "program_course_name_snapshot": "微機電系統",
+          "source_page": 2,
+          "source_text": "每一學程科目僅採計一門課程學分。",
+          "validation_status": "source_text_match"
+        },
+        {
+          "constraint_id": "constraint_61c27322534a3083",
+          "kind": "program_course_equivalence",
+          "catalog_entry_ids": [
+            "entry_0280e4b2d495e620",
+            "entry_2cfe2ea07a631974"
+          ],
+          "course_names": [
+            "統計與實驗設計實作",
+            "工程統計與品質管理"
+          ],
+          "min_courses": 1,
+          "max_courses": 1,
+          "requirement_group": "core",
+          "requirement_section": "core_selective",
+          "program_course_name_snapshot": "實驗設計與統計應用",
+          "source_page": 2,
+          "source_text": "每一學程科目僅採計一門課程學分。",
+          "validation_status": "source_text_match"
+        },
+        {
+          "constraint_id": "constraint_689a1cc9f1ae1f52",
+          "kind": "program_course_equivalence",
+          "catalog_entry_ids": [
+            "entry_76ff7925aa39d762",
+            "entry_11c1bb73f3f69465",
+            "entry_44b4d4b715af053d",
+            "entry_8350fe0802eeebb9",
+            "entry_8ab8c56c74c7b4f7"
+          ],
+          "course_names": [
+            "感測元件",
+            "光電元件",
+            "化合物半導體概論",
+            "醫用電子"
+          ],
+          "min_courses": 1,
+          "max_courses": 1,
+          "requirement_group": "elective",
+          "requirement_section": "elective",
+          "program_course_name_snapshot": "半導體元件特殊應用",
+          "source_page": 2,
+          "source_text": "每一學程科目僅採計一門課程學分。",
+          "validation_status": "source_text_match"
+        },
+        {
+          "constraint_id": "constraint_7f1ee7123431a818",
+          "kind": "program_course_equivalence",
+          "catalog_entry_ids": [
+            "entry_60ade95dd82fa1c6",
+            "entry_d1cda2ba56fb56ba",
+            "entry_e5c71b1057c474f1",
+            "entry_7ccef37925470d67"
+          ],
+          "course_names": [
+            "電子封裝簡介",
+            "電子封裝結構設計與製程技術",
+            "雷射微加工於電子封裝之應用",
+            "高階電子封裝結構設計與製程技術"
+          ],
+          "min_courses": 1,
+          "max_courses": 1,
+          "requirement_group": "elective",
+          "requirement_section": "elective",
+          "program_course_name_snapshot": "電子封裝技術",
+          "source_page": 2,
+          "source_text": "每一學程科目僅採計一門課程學分。",
+          "validation_status": "source_text_match"
+        },
+        {
+          "constraint_id": "constraint_a4e4fe37b759972d",
+          "kind": "program_course_equivalence",
+          "catalog_entry_ids": [
+            "entry_21405c24526482d5",
+            "entry_abed0cbd935f1de9",
+            "entry_c723f1f04d9bb856",
+            "entry_b16cd25ac64e91c2"
+          ],
+          "course_names": [
+            "量子力學",
+            "量子物理",
+            "量子物理(一)",
+            "量子物理(二)"
+          ],
+          "min_courses": 1,
+          "max_courses": 1,
+          "requirement_group": "elective",
+          "requirement_section": "elective",
+          "program_course_name_snapshot": "量子力學導論",
+          "source_page": 2,
+          "source_text": "每一學程科目僅採計一門課程學分。",
+          "validation_status": "source_text_match"
+        },
+        {
+          "constraint_id": "constraint_a5abdf86bf1910e3",
+          "kind": "program_course_equivalence",
+          "catalog_entry_ids": [
+            "entry_1eef50c8433c6fc5",
+            "entry_1e356776b65e151b"
+          ],
+          "course_names": [
+            "電子學(二)"
+          ],
+          "min_courses": 1,
+          "max_courses": 1,
+          "requirement_group": "core",
+          "requirement_section": "core_selective",
+          "program_course_name_snapshot": "電子學(二)",
+          "source_page": 2,
+          "source_text": "每一學程科目僅採計一門課程學分。",
+          "validation_status": "source_text_match"
+        },
+        {
+          "constraint_id": "constraint_b647239696b275e2",
+          "kind": "program_course_equivalence",
+          "catalog_entry_ids": [
+            "entry_135ea526d9961c2a",
+            "entry_d9f442f08f083ec4",
+            "entry_4d744eaee8bd2b07",
+            "entry_07e230eaf48a8479",
+            "entry_c1087fe23efa6b81"
+          ],
+          "course_names": [
+            "材料分析",
+            "材料光譜分析",
+            "半導體材料測試與分析",
+            "高分子檢測與分析",
+            "材料顯微分析技術"
+          ],
+          "min_courses": 1,
+          "max_courses": 1,
+          "requirement_group": "core",
+          "requirement_section": "core_selective",
+          "program_course_name_snapshot": "材料分析與檢測",
+          "source_page": 2,
+          "source_text": "每一學程科目僅採計一門課程學分。",
+          "validation_status": "source_text_match"
+        },
+        {
+          "constraint_id": "constraint_174640ff873711ef",
+          "kind": "program_course_equivalence",
+          "catalog_entry_ids": [
+            "entry_1d1d06bb54d15ddf",
+            "entry_ecafca6c34f6fa58"
+          ],
+          "course_names": [
+            "半導體元件特性量測分析"
+          ],
+          "min_courses": 1,
+          "max_courses": 1,
+          "requirement_group": "elective",
+          "requirement_section": "elective",
+          "program_course_name_snapshot": "元件量測",
+          "source_page": 3,
+          "source_text": "每一學程科目僅採計一門課程學分。",
+          "validation_status": "source_text_match"
+        },
+        {
+          "constraint_id": "constraint_41fff9d6b0ebd1f4",
+          "kind": "program_course_equivalence",
+          "catalog_entry_ids": [
+            "entry_83cad7b590a77ee0",
+            "entry_76185f818123d3f7"
+          ],
+          "course_names": [
+            "半導體微影設備系統概論",
+            "先進微影科技理論與實務"
+          ],
+          "min_courses": 1,
+          "max_courses": 1,
+          "requirement_group": "elective",
+          "requirement_section": "elective",
+          "program_course_name_snapshot": "光學微影技術",
+          "source_page": 3,
+          "source_text": "每一學程科目僅採計一門課程學分。",
+          "validation_status": "source_text_match"
+        },
+        {
+          "constraint_id": "constraint_513553fef5e6ffec",
+          "kind": "program_course_equivalence",
+          "catalog_entry_ids": [
+            "entry_aa83db11ba08d9a5",
+            "entry_a4b436c3cd6ad910",
+            "entry_85e4ce10aa485a93",
+            "entry_3b938eb6ce3e940d",
+            "entry_f5aade36ff86b6c1",
+            "entry_5cd7052fe90afdb9",
+            "entry_59d8072a8d72a5a4",
+            "entry_3695a55053a335e8",
+            "entry_08cdc1188fa8ceab",
+            "entry_562aa5d3b2b6a98c"
+          ],
+          "course_names": [
+            "奈米材料",
+            "低維度電子材料",
+            "低維度半導體科學",
+            "微奈米材料",
+            "電子材料工程",
+            "電子材料",
+            "機電材料",
+            "半導體材料",
+            "有機半導體材料",
+            "有機半導體材料與元件"
+          ],
+          "min_courses": 1,
+          "max_courses": 1,
+          "requirement_group": "elective",
+          "requirement_section": "elective",
+          "program_course_name_snapshot": "半導體/奈米/機電材料",
+          "source_page": 3,
+          "source_text": "每一學程科目僅採計一門課程學分。",
+          "validation_status": "source_text_match"
+        },
+        {
+          "constraint_id": "constraint_5497bf86dd294c80",
+          "kind": "program_course_equivalence",
+          "catalog_entry_ids": [
+            "entry_95518f176ecd02a0",
+            "entry_919f742c69362940",
+            "entry_72686e0f0a78d545",
+            "entry_27a536c5388b04b9"
+          ],
+          "course_names": [
+            "材料科學導論",
+            "材料科學",
+            "高分子材料導論"
+          ],
+          "min_courses": 1,
+          "max_courses": 1,
+          "requirement_group": "elective",
+          "requirement_section": "elective",
+          "program_course_name_snapshot": "基礎材料科學",
+          "source_page": 3,
+          "source_text": "每一學程科目僅採計一門課程學分。",
+          "validation_status": "source_text_match"
+        },
+        {
+          "constraint_id": "constraint_643962ffbc4b7c8b",
+          "kind": "program_course_equivalence",
+          "catalog_entry_ids": [
+            "entry_8e354e87e3023928",
+            "entry_d8123ad11c073ed6",
+            "entry_b4cd033773cc2005"
+          ],
+          "course_names": [
+            "電子顯微鏡",
+            "電子顯微鏡學",
+            "電子顯微鏡於軟物質研究之應用"
+          ],
+          "min_courses": 1,
+          "max_courses": 1,
+          "requirement_group": "elective",
+          "requirement_section": "elective",
+          "program_course_name_snapshot": "電子顯微鏡",
+          "source_page": 3,
+          "source_text": "每一學程科目僅採計一門課程學分。",
+          "validation_status": "source_text_match"
+        },
+        {
+          "constraint_id": "constraint_f61f0c0027a5aa07",
+          "kind": "program_course_equivalence",
+          "catalog_entry_ids": [
+            "entry_8698f7d3aad840e8",
+            "entry_ae18cf6df473272a"
+          ],
+          "course_names": [
+            "近代物理"
+          ],
+          "min_courses": 1,
+          "max_courses": 1,
+          "requirement_group": "elective",
+          "requirement_section": "elective",
+          "program_course_name_snapshot": "近代物理",
+          "source_page": 3,
+          "source_text": "每一學程科目僅採計一門課程學分。",
+          "validation_status": "source_text_match"
+        }
+      ],
+      "program_course_selection_constraints": [
+        {
+          "constraint_id": "constraint_40045c249e48dae2",
+          "kind": "select_program_courses",
+          "program_course_names": [
+            "固態物理導論",
+            "電路學",
+            "工程數學(二)",
+            "電磁學(一)",
+            "電子學(二)",
+            "半導體薄膜技術",
+            "微電子工程",
+            "實驗設計與統計應用",
+            "積體電路設計",
+            "材料分析與檢測",
+            "電漿工程應用"
+          ],
+          "min_program_courses": 5,
+          "max_program_courses": 5,
+          "declared_option_count": 11,
+          "option_count_matches": true,
+          "requirement_group": "core",
+          "requirement_section": "core_selective",
+          "source_page": 1,
+          "source_text": "1.每一學程科目僅採計一門課程學分。2. 核 心 ( 必 選修)11學程科目應選5門課程。",
+          "validation_status": "source_text_match"
+        },
+        {
+          "constraint_id": "constraint_a2f2c7dd6676c8d3",
+          "kind": "select_program_courses",
+          "program_course_names": [
+            "半導體元件物理",
+            "半導體製程",
+            "電子學(一)"
+          ],
+          "min_program_courses": 3,
+          "max_program_courses": 3,
+          "declared_option_count": 3,
+          "option_count_matches": true,
+          "requirement_group": "core",
+          "requirement_section": "core_required",
+          "source_page": 1,
+          "source_text": "1.每一學程科目僅採計一門課程學分。2.核心(必修)3學程科目應選3門課程。",
+          "validation_status": "source_text_match"
+        },
+        {
+          "constraint_id": "constraint_8bef4ab51220dff5",
+          "kind": "select_program_courses",
+          "program_course_names": [
+            "量子力學導論",
+            "電腦輔助設計",
+            "半導體元件特殊應用",
+            "微機電系統",
+            "電子封裝技術",
+            "電子顯微鏡",
+            "基礎材料科學",
+            "半導體/奈米/機電材料",
+            "近代物理",
+            "元件量測",
+            "新型記憶體",
+            "應用光電子學",
+            "光學微影技術"
+          ],
+          "min_program_courses": 3,
+          "max_program_courses": 3,
+          "declared_option_count": 13,
+          "option_count_matches": true,
+          "requirement_group": "elective",
+          "requirement_section": "elective",
+          "source_page": 2,
+          "source_text": "1.每一學程科目僅採計一門課程學分。2.選修13學程科目應選3門課程。",
+          "validation_status": "source_text_match"
+        }
+      ],
+      "no_double_count_constraints": [
+        {
+          "constraint_id": "constraint_97d67a64b039d9b0",
+          "kind": "no_double_count",
+          "requirement_groups": [
+            "core",
+            "elective"
+          ],
+          "max_count_per_course": 1,
+          "source_page": 3,
+          "source_text": "學生可使用「核心課程（必選修）」之學分抵免專業選修學 分，惟不得重複計入學程核心課程學分。",
+          "validation_status": "source_text_match"
+        }
+      ]
     }
   }
 }

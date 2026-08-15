@@ -23,7 +23,7 @@
       "last_modified": "Wed, 01 Jul 2026 06:10:31 GMT",
       "content_length": 250435
     },
-    "parser_version": "0.2.1",
+    "parser_version": "0.2.2",
     "extractor_versions": {
       "pypdf": "6.10.0",
       "pdfplumber": "0.11.9"
@@ -39,6 +39,7 @@
   "course_catalog": [
     {
       "course_code": null,
+      "catalog_entry_id": "entry_0f2625ca62ec7f0c",
       "opening_units": [
         "博雅教育中心"
       ],
@@ -46,6 +47,8 @@
       "course_name_snapshot": "社會文化分析SOCIO-CULTURAL ANALYSIS",
       "credits_snapshot": 3.0,
       "requirement_group": "core",
+      "requirement_section": "core",
+      "program_course_name_snapshot": null,
       "notes": "",
       "source_page": 1,
       "evidence_match": false,
@@ -54,6 +57,7 @@
     },
     {
       "course_code": null,
+      "catalog_entry_id": "entry_da76f5d4d3eb8e67",
       "opening_units": [
         "基礎教育中心"
       ],
@@ -61,6 +65,8 @@
       "course_name_snapshot": "後疫情時代的國際政治INTERNATIONAL POLITICS IN POST-COVID19 ERA",
       "credits_snapshot": 3.0,
       "requirement_group": "core",
+      "requirement_section": "core",
+      "program_course_name_snapshot": null,
       "notes": "",
       "source_page": 1,
       "evidence_match": false,
@@ -69,13 +75,16 @@
     },
     {
       "course_code": null,
+      "catalog_entry_id": "entry_0285825242673970",
       "opening_units": [
         "博雅教育中心"
       ],
       "opening_unit_snapshot": "博雅教育中心",
-      "course_name_snapshot": "在地食物的永續發展與全球脈絡SUSTAINABLE LOCAL FOOD IN GLOBAL CONTEXT",
+      "course_name_snapshot": "在地食物的永續發展與全球脈絡SUSTAINABLE LOCAL FOOD INGLOBAL CONTEXT",
       "credits_snapshot": 3.0,
       "requirement_group": "core",
+      "requirement_section": "core",
+      "program_course_name_snapshot": null,
       "notes": "適用所有核准修習本學程學生。",
       "source_page": 1,
       "evidence_match": false,
@@ -84,13 +93,16 @@
     },
     {
       "course_code": null,
+      "catalog_entry_id": "entry_d9ed838c87faa204",
       "opening_units": [
         "博雅教育中心"
       ],
       "opening_unit_snapshot": "博雅教育中心",
-      "course_name_snapshot": "人類與環境之交互關係HUMAN-ENVIRONMENT INTERACTIONS",
+      "course_name_snapshot": "人類與環境之交互關係HUMAN-ENVIRONMENTINTERACTIONS",
       "credits_snapshot": 3.0,
       "requirement_group": "core",
+      "requirement_section": "core",
+      "program_course_name_snapshot": null,
       "notes": "適用所有核准修習本學程學生。",
       "source_page": 1,
       "evidence_match": false,
@@ -99,6 +111,7 @@
     },
     {
       "course_code": null,
+      "catalog_entry_id": "entry_d38ac4914857a98c",
       "opening_units": [
         "博雅教育中心"
       ],
@@ -106,6 +119,8 @@
       "course_name_snapshot": "科學的本質NATURE OF SCIENCE",
       "credits_snapshot": 2.0,
       "requirement_group": "core",
+      "requirement_section": "core",
+      "program_course_name_snapshot": null,
       "notes": "適用所有核准修習本學程學生。",
       "source_page": 1,
       "evidence_match": false,
@@ -114,13 +129,16 @@
     },
     {
       "course_code": null,
+      "catalog_entry_id": "entry_68082c936039ef4d",
       "opening_units": [
         "博雅教育中心"
       ],
       "opening_unit_snapshot": "博雅教育中心",
-      "course_name_snapshot": "科學思考與實作SCIENTIFIC THINKING AND PRACTICE",
+      "course_name_snapshot": "科學思考與實作SCIENTIFIC THINKING ANDPRACTICE",
       "credits_snapshot": 2.0,
       "requirement_group": "core",
+      "requirement_section": "core",
+      "program_course_name_snapshot": null,
       "notes": "適用所有核准修習本學程學生。",
       "source_page": 1,
       "evidence_match": false,
@@ -129,13 +147,16 @@
     },
     {
       "course_code": null,
+      "catalog_entry_id": "entry_a24ae38268a21152",
       "opening_units": [
         "博雅教育中心"
       ],
       "opening_unit_snapshot": "博雅教育中心",
-      "course_name_snapshot": "台灣政經發展TAIWAN'S POLITICAL ECONOMY DEVELOPMENT",
+      "course_name_snapshot": "台灣政經發展TAIWAN'S POLITICAL ECONOMYDEVELOPMENT",
       "credits_snapshot": 3.0,
       "requirement_group": "core",
+      "requirement_section": "core",
+      "program_course_name_snapshot": null,
       "notes": "適用所有核准修習本學程學生。",
       "source_page": 1,
       "evidence_match": false,
@@ -144,6 +165,7 @@
     },
     {
       "course_code": null,
+      "catalog_entry_id": "entry_a71d1d3ec3826312",
       "opening_units": [
         "跨院EAP"
       ],
@@ -151,6 +173,8 @@
       "course_name_snapshot": "演說與辯論(高級)PUBLIC SPEECH AND DEBATE(ADVANCED LEVEL)",
       "credits_snapshot": 3.0,
       "requirement_group": "core",
+      "requirement_section": "core",
+      "program_course_name_snapshot": null,
       "notes": "適用所有核准修習本學程學生。",
       "source_page": 1,
       "evidence_match": false,
@@ -159,13 +183,16 @@
     },
     {
       "course_code": null,
+      "catalog_entry_id": "entry_001b66a3d67dd7ec",
       "opening_units": [
         "跨院EAP"
       ],
       "opening_unit_snapshot": "跨院EAP",
-      "course_name_snapshot": "科技英文(高級)ENGLISH FOR SCIENCE AND TECHNOLOGY( ADVANCED LEVEL)",
+      "course_name_snapshot": "科技英文(高級)ENGLISH FOR SCIENCE ANDTECHNOLOGY( ADVANCED LEVEL)",
       "credits_snapshot": 3.0,
       "requirement_group": "core",
+      "requirement_section": "core",
+      "program_course_name_snapshot": null,
       "notes": "適用所有核准修習本學程學生。",
       "source_page": 1,
       "evidence_match": false,
@@ -174,13 +201,16 @@
     },
     {
       "course_code": null,
+      "catalog_entry_id": "entry_6fefcaaae27ef19b",
       "opening_units": [
         "跨院ESP"
       ],
       "opening_unit_snapshot": "跨院ESP",
-      "course_name_snapshot": "科技英文閱讀(中高級)ENGLISH READING FOR SCIENCE AND TECHNOLOGY ( HIGH-INTERMEDIATE LEVEL)",
+      "course_name_snapshot": "科技英文閱讀(中高級)ENGLISH READING FOR SCIENCEAND TECHNOLOGY ( HIGH-INTERMEDIATE LEVEL)",
       "credits_snapshot": 3.0,
       "requirement_group": "core",
+      "requirement_section": "core",
+      "program_course_name_snapshot": null,
       "notes": "適用所有核准修習本學程學生。",
       "source_page": 1,
       "evidence_match": false,
@@ -189,13 +219,16 @@
     },
     {
       "course_code": null,
+      "catalog_entry_id": "entry_0d2f6091cb9c73b1",
       "opening_units": [
         "基礎教育中心"
       ],
       "opening_unit_snapshot": "基礎教育中心",
-      "course_name_snapshot": "通過體驗式學習自信地說英語SPEAKING ENGLISH WITH CONFIDENCE THROUGH EXPERIENTIAL LEARNING",
+      "course_name_snapshot": "通過體驗式學習自信地說英語SPEAKING ENGLISH WITHCONFIDENCE THROUGHEXPERIENTIAL LEARNING",
       "credits_snapshot": 3.0,
       "requirement_group": "core",
+      "requirement_section": "core",
+      "program_course_name_snapshot": null,
       "notes": "為相同課程,不得重複修習,僅能認列其中一門。適用所有核准修習本學程學生。",
       "source_page": 2,
       "evidence_match": false,
@@ -204,13 +237,16 @@
     },
     {
       "course_code": null,
+      "catalog_entry_id": "entry_b34468d960ff446b",
       "opening_units": [
         "跨院EAP"
       ],
       "opening_unit_snapshot": "跨院EAP",
-      "course_name_snapshot": "通過體驗式學習自信地說英語(中級)SPEAKING ENGLISH WITH CONFIDENCE THROUGH EXPERIENTIAL LEARNING(INTERMEDIATE LEVEL)",
+      "course_name_snapshot": "通過體驗式學習自信地說英語(中級)SPEAKING ENGLISH WITHCONFIDENCE THROUGHEXPERIENTIALLEARNING(INTERMEDIATE LEVEL)",
       "credits_snapshot": 3.0,
       "requirement_group": "core",
+      "requirement_section": "core",
+      "program_course_name_snapshot": null,
       "notes": "",
       "source_page": 2,
       "evidence_match": false,
@@ -219,6 +255,7 @@
     },
     {
       "course_code": null,
+      "catalog_entry_id": "entry_39b6f987f52cd84e",
       "opening_units": [
         "跨院 EAP"
       ],
@@ -226,6 +263,8 @@
       "course_name_snapshot": "通過體驗式學習自信地說英語(中高級)",
       "credits_snapshot": 3.0,
       "requirement_group": "core",
+      "requirement_section": "core",
+      "program_course_name_snapshot": null,
       "notes": "",
       "source_page": 2,
       "evidence_match": false,
@@ -234,13 +273,16 @@
     },
     {
       "course_code": null,
+      "catalog_entry_id": "entry_9df9efd1eff27e05",
       "opening_units": [
         "基礎教育中心"
       ],
       "opening_unit_snapshot": "基礎教育中心",
-      "course_name_snapshot": "透過實用性英語增進溝通能力COMMUNICATION SKILLS THROUGH FUNCTIONAL ENGLISH",
+      "course_name_snapshot": "透過實用性英語增進溝通能力COMMUNICATION SKILLSTHROUGH FUNCTIONAL ENGLISH",
       "credits_snapshot": 3.0,
       "requirement_group": "core",
+      "requirement_section": "core",
+      "program_course_name_snapshot": null,
       "notes": "為相同課程,不得重複修習,僅能認列其中一門。",
       "source_page": 2,
       "evidence_match": false,
@@ -249,13 +291,16 @@
     },
     {
       "course_code": null,
+      "catalog_entry_id": "entry_92e1441984d25892",
       "opening_units": [
         "跨院EAP"
       ],
       "opening_unit_snapshot": "跨院EAP",
-      "course_name_snapshot": "透過實用性英語增進溝通能力(中級)IMPROVING COMMUNICATION SKILLS THROUGH FUNCTIONAL ENGLISH(INTERMEDIATE LEVEL)",
+      "course_name_snapshot": "透過實用性英語增進溝通能力(中級)IMPROVING COMMUNICATIONSKILLS THROUGH FUNCTIONALENGLISH(INTERMEDIATE LEVEL)",
       "credits_snapshot": 3.0,
       "requirement_group": "core",
+      "requirement_section": "core",
+      "program_course_name_snapshot": null,
       "notes": "",
       "source_page": 2,
       "evidence_match": false,
@@ -264,13 +309,16 @@
     },
     {
       "course_code": null,
+      "catalog_entry_id": "entry_b7d3468084a741c0",
       "opening_units": [
         "基礎教育中心"
       ],
       "opening_unit_snapshot": "基礎教育中心",
-      "course_name_snapshot": "從英語課程學習多元文化DEVELOPING MULTICULTURAL AWARENESS IN ENGLISH CLASSROOM",
+      "course_name_snapshot": "從英語課程學習多元文化DEVELOPING MULTICULTURALAWARENESS IN ENGLISHCLASSROOM",
       "credits_snapshot": 3.0,
       "requirement_group": "core",
+      "requirement_section": "core",
+      "program_course_name_snapshot": null,
       "notes": "為相同課程,不得重複修習,僅能認列其中一門。",
       "source_page": 2,
       "evidence_match": false,
@@ -279,13 +327,16 @@
     },
     {
       "course_code": null,
+      "catalog_entry_id": "entry_0113774a6707b2ea",
       "opening_units": [
         "跨院ESP"
       ],
       "opening_unit_snapshot": "跨院ESP",
-      "course_name_snapshot": "從英語課程學習多元文化(中高級)DEVELOPING MULTICULTURAL AWARENESS IN ENGLISH CLASSROOM(HIGH-INTERMEDIATE LEVEL) 3",
+      "course_name_snapshot": "從英語課程學習多元文化(中高級)DEVELOPING MULTICULTURALAWARENESS IN ENGLISHCLASSROOM(HIGH-INTERMEDIATELEVEL) 3",
       "credits_snapshot": 3.0,
       "requirement_group": "core",
+      "requirement_section": "core",
+      "program_course_name_snapshot": null,
       "notes": "",
       "source_page": 2,
       "evidence_match": false,
@@ -294,6 +345,7 @@
     },
     {
       "course_code": null,
+      "catalog_entry_id": "entry_a092a978c21921a0",
       "opening_units": [
         "基礎教育中心"
       ],
@@ -301,6 +353,8 @@
       "course_name_snapshot": "成功的英文寫作WRITING FOR SUCCESS IN ENGLISH",
       "credits_snapshot": 3.0,
       "requirement_group": "elective",
+      "requirement_section": "elective",
+      "program_course_name_snapshot": null,
       "notes": "為相同課程,不得重複修習,僅能認列其中一門。適用所有核准修習本學程學生。",
       "source_page": 2,
       "evidence_match": false,
@@ -309,13 +363,16 @@
     },
     {
       "course_code": null,
+      "catalog_entry_id": "entry_89cec2a9141ac613",
       "opening_units": [
         "基礎教育中心"
       ],
       "opening_unit_snapshot": "基礎教育中心",
-      "course_name_snapshot": "成功的英文寫作(中級)WRITING FOR SUCCESS IN ENGLISH(INTERMEDIATE LEVEL)",
+      "course_name_snapshot": "成功的英文寫作(中級)WRITING FOR SUCCESS INENGLISH(INTERMEDIATE LEVEL)",
       "credits_snapshot": 3.0,
       "requirement_group": "elective",
+      "requirement_section": "elective",
+      "program_course_name_snapshot": null,
       "notes": "",
       "source_page": 2,
       "evidence_match": false,
@@ -324,6 +381,7 @@
     },
     {
       "course_code": null,
+      "catalog_entry_id": "entry_66694b5425e08c5f",
       "opening_units": [
         "基礎教育中心"
       ],
@@ -331,6 +389,8 @@
       "course_name_snapshot": "成功的英文寫作(中高級)WRITING FOR SUCCESS IN ENGLISH(HIGH-INTERMEDIATE LEVEL)",
       "credits_snapshot": 3.0,
       "requirement_group": "elective",
+      "requirement_section": "elective",
+      "program_course_name_snapshot": null,
       "notes": "",
       "source_page": 2,
       "evidence_match": false,
@@ -339,6 +399,7 @@
     },
     {
       "course_code": null,
+      "catalog_entry_id": "entry_6aae67c2a3928e7b",
       "opening_units": [
         "基礎教育中心"
       ],
@@ -346,6 +407,8 @@
       "course_name_snapshot": "綠色創新設計ECO-INNOVATIVE DESIGN",
       "credits_snapshot": 3.0,
       "requirement_group": "elective",
+      "requirement_section": "elective",
+      "program_course_name_snapshot": null,
       "notes": "僅限以英語授課者。",
       "source_page": 2,
       "evidence_match": false,
@@ -354,6 +417,7 @@
     },
     {
       "course_code": null,
+      "catalog_entry_id": "entry_bafee61dc1d1f0a7",
       "opening_units": [
         "博雅教育中心"
       ],
@@ -361,6 +425,8 @@
       "course_name_snapshot": "國際事務與公民參與",
       "credits_snapshot": 3.0,
       "requirement_group": "elective",
+      "requirement_section": "elective",
+      "program_course_name_snapshot": null,
       "notes": "",
       "source_page": 2,
       "evidence_match": true,
@@ -369,13 +435,16 @@
     },
     {
       "course_code": null,
+      "catalog_entry_id": "entry_c071175f8864887b",
       "opening_units": [
         "跨院EAP"
       ],
       "opening_unit_snapshot": "跨院EAP",
-      "course_name_snapshot": "增進跨文化溝通技能(中高級)ENHANCING CROSS-CULTURAL COMMUNICATION SKILLS (HIGH-INTERMEDIATE LEVEL)",
+      "course_name_snapshot": "增進跨文化溝通技能(中高級)ENHANCING CROSS-CULTURALCOMMUNICATION SKILLS (HIGH-INTERMEDIATE LEVEL)",
       "credits_snapshot": 3.0,
       "requirement_group": "elective",
+      "requirement_section": "elective",
+      "program_course_name_snapshot": null,
       "notes": "適用所有核准修習本學程學生。",
       "source_page": 3,
       "evidence_match": false,
@@ -384,13 +453,16 @@
     },
     {
       "course_code": null,
+      "catalog_entry_id": "entry_7b6e60e1915e34d1",
       "opening_units": [
         "跨院ESP"
       ],
       "opening_unit_snapshot": "跨院ESP",
-      "course_name_snapshot": "科技英文聽講練習(中高級)ENGLISH LISTENING AND SPEAKING FOR SCIENCE AND TECHNOLOGY (HIGH-INTERMEDIATE LEVEL)",
+      "course_name_snapshot": "科技英文聽講練習(中高級)ENGLISH LISTENING ANDSPEAKING FOR SCIENCE ANDTECHNOLOGY (HIGH-INTERMEDIATE LEVEL)",
       "credits_snapshot": 3.0,
       "requirement_group": "elective",
+      "requirement_section": "elective",
+      "program_course_name_snapshot": null,
       "notes": "適用所有核准修習本學程學生。",
       "source_page": 3,
       "evidence_match": false,
@@ -399,6 +471,7 @@
     },
     {
       "course_code": null,
+      "catalog_entry_id": "entry_58258493c35eca86",
       "opening_units": [
         "基礎教育中心"
       ],
@@ -406,6 +479,8 @@
       "course_name_snapshot": "觀光英語TOURISM ENGLISH",
       "credits_snapshot": 3.0,
       "requirement_group": "elective",
+      "requirement_section": "elective",
+      "program_course_name_snapshot": null,
       "notes": "適用所有核准修習本學程學生。",
       "source_page": 3,
       "evidence_match": false,
@@ -414,13 +489,16 @@
     },
     {
       "course_code": null,
+      "catalog_entry_id": "entry_1bb6d4f02c3573b3",
       "opening_units": [
         "跨院EAP"
       ],
       "opening_unit_snapshot": "跨院EAP",
-      "course_name_snapshot": "英文溝通技巧與批判性思維 (中高級)ENGLISH COMMUNICATION SKILLS AND CRITICAL THINKING (HIGH-INTERMEDIATE LEVEL)",
+      "course_name_snapshot": "英文溝通技巧與批判性思維 (中高級)ENGLISH COMMUNICATION SKILLSAND CRITICAL THINKING (HIGH-INTERMEDIATE LEVEL)",
       "credits_snapshot": 3.0,
       "requirement_group": "elective",
+      "requirement_section": "elective",
+      "program_course_name_snapshot": null,
       "notes": "適用所有核准修習本學程學生。",
       "source_page": 3,
       "evidence_match": false,
@@ -429,13 +507,16 @@
     },
     {
       "course_code": null,
+      "catalog_entry_id": "entry_5b0cdd105c08cc84",
       "opening_units": [
         "跨院ESP"
       ],
       "opening_unit_snapshot": "跨院ESP",
-      "course_name_snapshot": "透過國際禮儀增進專業技能 (中高級)ENHANCING PROFESSIONAL SKILLS THROUGH GLOBAL ETIQUETTE (HIGH-INTERMEDIATE LEVEL)",
+      "course_name_snapshot": "透過國際禮儀增進專業技能 (中高級)ENHANCING PROFESSIONALSKILLS THROUGH GLOBALETIQUETTE (HIGH-INTERMEDIATELEVEL)",
       "credits_snapshot": 3.0,
       "requirement_group": "elective",
+      "requirement_section": "elective",
+      "program_course_name_snapshot": null,
       "notes": "適用所有核准修習本學程學生。",
       "source_page": 3,
       "evidence_match": false,
@@ -444,13 +525,16 @@
     },
     {
       "course_code": null,
+      "catalog_entry_id": "entry_2bda04889c73e1c1",
       "opening_units": [
         "跨院ESP"
       ],
       "opening_unit_snapshot": "跨院ESP",
-      "course_name_snapshot": "國際會展英語(中高級)INTERNATIONAL ENGLISH FOR MICE:MEETING, INCENTIVES,CONVENTIONS,EXHIBITIONS(HIGH-INTERMEDIATE LEVEL",
+      "course_name_snapshot": "國際會展英語(中高級)INTERNATIONAL ENGLISH FORMICE:MEETING, INCENTIVES,CONVENTIONS,EXHIBITIONS(HIGH-INTERMEDIATELEVEL",
       "credits_snapshot": 3.0,
       "requirement_group": "elective",
+      "requirement_section": "elective",
+      "program_course_name_snapshot": null,
       "notes": "適用所有核准修習本學程學生。",
       "source_page": 3,
       "evidence_match": false,
@@ -459,13 +543,16 @@
     },
     {
       "course_code": null,
+      "catalog_entry_id": "entry_6897797fd89aeb04",
       "opening_units": [
         "跨院ESP"
       ],
       "opening_unit_snapshot": "跨院ESP",
-      "course_name_snapshot": "海外工作與學習之英語與文化(高級)ENGLISHES AND CULTURES FOR OVERSEAS STUDIES AND WORK(ADVANCED LEVEL)",
+      "course_name_snapshot": "海外工作與學習之英語與文化(高級)ENGLISHES AND CULTURES FOROVERSEAS STUDIES ANDWORK(ADVANCED LEVEL)",
       "credits_snapshot": 3.0,
       "requirement_group": "elective",
+      "requirement_section": "elective",
+      "program_course_name_snapshot": null,
       "notes": "適用所有核准修習本學程學生。",
       "source_page": 3,
       "evidence_match": false,
@@ -474,13 +561,16 @@
     },
     {
       "course_code": null,
+      "catalog_entry_id": "entry_212e29f46a1321fa",
       "opening_units": [
         "服務學習教育中心"
       ],
       "opening_unit_snapshot": "服務學習教育中心",
-      "course_name_snapshot": "服務學習:英語繪本導讀SERVICE LEARNING: ENGLISH LEARNING THROUGH PICTURE BOOKS",
+      "course_name_snapshot": "服務學習:英語繪本導讀SERVICE LEARNING: ENGLISHLEARNING THROUGH PICTUREBOOKS",
       "credits_snapshot": 1.0,
       "requirement_group": "elective",
+      "requirement_section": "elective",
+      "program_course_name_snapshot": null,
       "notes": "",
       "source_page": 3,
       "evidence_match": false,
@@ -489,6 +579,7 @@
     },
     {
       "course_code": null,
+      "catalog_entry_id": "entry_4f20926dac3c6f92",
       "opening_units": [
         "服務學習教育中心"
       ],
@@ -496,6 +587,8 @@
       "course_name_snapshot": "服務學習:打造英語友善社區",
       "credits_snapshot": 1.0,
       "requirement_group": "elective",
+      "requirement_section": "elective",
+      "program_course_name_snapshot": null,
       "notes": "",
       "source_page": 3,
       "evidence_match": true,
@@ -504,13 +597,16 @@
     },
     {
       "course_code": null,
+      "catalog_entry_id": "entry_2b9fa545f29702ef",
       "opening_units": [
         "服務學習教育中心"
       ],
       "opening_unit_snapshot": "服務學習教育中心",
-      "course_name_snapshot": "服務學習:西灣國際沙龍校園英語志工SERVICE LEARNING: ENGLISH VOLUNTEERING AT SI WAN INTERNATIONAL SALON",
+      "course_name_snapshot": "服務學習:西灣國際沙龍校園英語志工SERVICE LEARNING: ENGLISHVOLUNTEERING AT SI WANINTERNATIONAL SALON",
       "credits_snapshot": 1.0,
       "requirement_group": "elective",
+      "requirement_section": "elective",
+      "program_course_name_snapshot": null,
       "notes": "",
       "source_page": 4,
       "evidence_match": false,
@@ -519,13 +615,16 @@
     },
     {
       "course_code": null,
+      "catalog_entry_id": "entry_eae3adc3a593202f",
       "opening_units": [
         "服務學習教育中心"
       ],
       "opening_unit_snapshot": "服務學習教育中心",
-      "course_name_snapshot": "服務學習:人人都是科學家!SERVICE LEARNING:ANYONE CAN BE A SCIENTIST!",
+      "course_name_snapshot": "服務學習:人人都是科學家!SERVICE LEARNING:ANYONE CANBE A SCIENTIST!",
       "credits_snapshot": 1.0,
       "requirement_group": "elective",
+      "requirement_section": "elective",
+      "program_course_name_snapshot": null,
       "notes": "",
       "source_page": 4,
       "evidence_match": false,
@@ -534,13 +633,16 @@
     },
     {
       "course_code": null,
+      "catalog_entry_id": "entry_727a25b7506e0f85",
       "opening_units": [
         "服務學習教育中心"
       ],
       "opening_unit_snapshot": "服務學習教育中心",
-      "course_name_snapshot": "服務學習:英文識字教學與繪本閱讀SERVICE LEARNING: ENGLISH LITERACY INSTRUCTION AND PICTURE BOOK READING",
+      "course_name_snapshot": "服務學習:英文識字教學與繪本閱讀SERVICE LEARNING: ENGLISHLITERACY INSTRUCTION ANDPICTURE BOOK READING",
       "credits_snapshot": 1.0,
       "requirement_group": "elective",
+      "requirement_section": "elective",
+      "program_course_name_snapshot": null,
       "notes": "適用所有核准修習本學程學生。",
       "source_page": 4,
       "evidence_match": false,

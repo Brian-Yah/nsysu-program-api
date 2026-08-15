@@ -29,7 +29,7 @@
         "last_modified": "Tue, 23 Dec 2025 06:49:29 GMT",
         "content_length": 228147
       },
-      "parser_version": "0.2.1",
+      "parser_version": "0.2.2",
       "extractor_versions": {
         "pypdf": "6.10.0",
         "pdfplumber": "0.11.9"
@@ -47,6 +47,7 @@
     "course_catalog": [
       {
         "course_code": null,
+        "catalog_entry_id": "entry_200367223585c22d",
         "opening_units": [
           "管理學院"
         ],
@@ -54,6 +55,8 @@
         "course_name_snapshot": "金融數據分析",
         "credits_snapshot": 3.0,
         "requirement_group": "core",
+        "requirement_section": "core",
+        "program_course_name_snapshot": null,
         "notes": "必修課",
         "source_page": 1,
         "evidence_match": true,
@@ -62,6 +65,7 @@
       },
       {
         "course_code": null,
+        "catalog_entry_id": "entry_52bf19b0e6bd8fb7",
         "opening_units": [
           "管理學院"
         ],
@@ -69,6 +73,8 @@
         "course_name_snapshot": "金融服務與金融科技資料案例",
         "credits_snapshot": 3.0,
         "requirement_group": "core",
+        "requirement_section": "core",
+        "program_course_name_snapshot": null,
         "notes": "每年春季開設/必修課",
         "source_page": 1,
         "evidence_match": true,
@@ -77,6 +83,7 @@
       },
       {
         "course_code": null,
+        "catalog_entry_id": "entry_f3ff53043f87e961",
         "opening_units": [
           "管理學院"
         ],
@@ -84,6 +91,8 @@
         "course_name_snapshot": "大數據、機器學習與人工智慧",
         "credits_snapshot": 3.0,
         "requirement_group": "core",
+        "requirement_section": "core",
+        "program_course_name_snapshot": null,
         "notes": "每年秋季開設",
         "source_page": 1,
         "evidence_match": true,
@@ -92,6 +101,7 @@
       },
       {
         "course_code": null,
+        "catalog_entry_id": "entry_9332fc8c70a2ae85",
         "opening_units": [
           "資管系"
         ],
@@ -99,6 +109,8 @@
         "course_name_snapshot": "巨量分析導論",
         "credits_snapshot": 3.0,
         "requirement_group": "core",
+        "requirement_section": "core",
+        "program_course_name_snapshot": null,
         "notes": "每年秋季開設",
         "source_page": 1,
         "evidence_match": true,
@@ -107,6 +119,7 @@
       },
       {
         "course_code": null,
+        "catalog_entry_id": "entry_456281df8822ea87",
         "opening_units": [
           "管理學院"
         ],
@@ -114,6 +127,8 @@
         "course_name_snapshot": "R:程式、機率與統計",
         "credits_snapshot": 3.0,
         "requirement_group": "elective",
+        "requirement_section": "elective",
+        "program_course_name_snapshot": null,
         "notes": "",
         "source_page": 1,
         "evidence_match": true,
@@ -122,6 +137,7 @@
       },
       {
         "course_code": null,
+        "catalog_entry_id": "entry_ca55d585be82c569",
         "opening_units": [
           "資管系"
         ],
@@ -129,6 +145,8 @@
         "course_name_snapshot": "金融科技",
         "credits_snapshot": 3.0,
         "requirement_group": "elective",
+        "requirement_section": "elective",
+        "program_course_name_snapshot": null,
         "notes": "每年春季開設",
         "source_page": 1,
         "evidence_match": true,
@@ -137,6 +155,7 @@
       },
       {
         "course_code": null,
+        "catalog_entry_id": "entry_0f3094e5bca8c41e",
         "opening_units": [
           "資管系"
         ],
@@ -144,6 +163,8 @@
         "course_name_snapshot": "資料庫系統",
         "credits_snapshot": 3.0,
         "requirement_group": "elective",
+        "requirement_section": "elective",
+        "program_course_name_snapshot": null,
         "notes": "每年春季開設",
         "source_page": 1,
         "evidence_match": true,

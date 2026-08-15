@@ -29,7 +29,7 @@
         "last_modified": "Tue, 23 Dec 2025 06:46:46 GMT",
         "content_length": 187752
       },
-      "parser_version": "0.2.1",
+      "parser_version": "0.2.2",
       "extractor_versions": {
         "pypdf": "6.10.0",
         "pdfplumber": "0.11.9"
@@ -47,6 +47,7 @@
     "course_catalog": [
       {
         "course_code": null,
+        "catalog_entry_id": "entry_2733ddb8b98310e2",
         "opening_units": [
           "護理學系"
         ],
@@ -54,6 +55,8 @@
         "course_name_snapshot": "醫療與護理資訊",
         "credits_snapshot": 2.0,
         "requirement_group": "core",
+        "requirement_section": "core",
+        "program_course_name_snapshot": null,
         "notes": "擇一修習",
         "source_page": 1,
         "evidence_match": true,
@@ -62,6 +65,7 @@
       },
       {
         "course_code": null,
+        "catalog_entry_id": "entry_c5583ed5fa554061",
         "opening_units": [
           "護理學系"
         ],
@@ -69,6 +73,8 @@
         "course_name_snapshot": "智慧醫療與AI創新管理",
         "credits_snapshot": 3.0,
         "requirement_group": "core",
+        "requirement_section": "core",
+        "program_course_name_snapshot": null,
         "notes": "擇一修習",
         "source_page": 1,
         "evidence_match": true,
@@ -77,6 +83,7 @@
       },
       {
         "course_code": null,
+        "catalog_entry_id": "entry_2f46f23dc496772c",
         "opening_units": [
           "護理學系"
         ],
@@ -84,6 +91,8 @@
         "course_name_snapshot": "關懷與人際互動",
         "credits_snapshot": 2.0,
         "requirement_group": "elective",
+        "requirement_section": "elective",
+        "program_course_name_snapshot": null,
         "notes": "",
         "source_page": 1,
         "evidence_match": true,
@@ -92,6 +101,7 @@
       },
       {
         "course_code": null,
+        "catalog_entry_id": "entry_dac46f7fa4d0023e",
         "opening_units": [
           "護理學系"
         ],
@@ -99,6 +109,8 @@
         "course_name_snapshot": "人工智慧於醫療科技之運用",
         "credits_snapshot": 2.0,
         "requirement_group": "elective",
+        "requirement_section": "elective",
+        "program_course_name_snapshot": null,
         "notes": "",
         "source_page": 1,
         "evidence_match": true,
@@ -107,6 +119,7 @@
       },
       {
         "course_code": null,
+        "catalog_entry_id": "entry_44302f743aa2668b",
         "opening_units": [
           "護理學系",
           "跨院選修(醫)"
@@ -115,6 +128,8 @@
         "course_name_snapshot": "多元健康管理",
         "credits_snapshot": 2.0,
         "requirement_group": "elective",
+        "requirement_section": "elective",
+        "program_course_name_snapshot": null,
         "notes": "",
         "source_page": 1,
         "evidence_match": true,
@@ -123,6 +138,7 @@
       },
       {
         "course_code": null,
+        "catalog_entry_id": "entry_3c705da9be5e1ac3",
         "opening_units": [
           "醫學院",
           "護理學系",
@@ -132,6 +148,8 @@
         "course_name_snapshot": "深睡的力量:揭開睡眠與健康的面紗",
         "credits_snapshot": 3.0,
         "requirement_group": "elective",
+        "requirement_section": "elective",
+        "program_course_name_snapshot": null,
         "notes": "",
         "source_page": 1,
         "evidence_match": true,
@@ -140,6 +158,7 @@
       },
       {
         "course_code": null,
+        "catalog_entry_id": "entry_ca48dfa0f8ae1aeb",
         "opening_units": [
           "護理學系",
           "跨院選修(醫)"
@@ -148,6 +167,8 @@
         "course_name_snapshot": "氣候變遷下的健康生活學",
         "credits_snapshot": 2.0,
         "requirement_group": "elective",
+        "requirement_section": "elective",
+        "program_course_name_snapshot": null,
         "notes": "",
         "source_page": 1,
         "evidence_match": true,
@@ -156,6 +177,7 @@
       },
       {
         "course_code": null,
+        "catalog_entry_id": "entry_44c79cad69458b39",
         "opening_units": [
           "護理學系"
         ],
@@ -163,6 +185,8 @@
         "course_name_snapshot": "計算機概論",
         "credits_snapshot": 2.0,
         "requirement_group": "elective",
+        "requirement_section": "elective",
+        "program_course_name_snapshot": null,
         "notes": "",
         "source_page": 1,
         "evidence_match": true,
@@ -171,6 +195,7 @@
       },
       {
         "course_code": null,
+        "catalog_entry_id": "entry_25db90fd93d1b82e",
         "opening_units": [
           "醫科碩"
         ],
@@ -178,6 +203,8 @@
         "course_name_snapshot": "高齡AI睡眠及聽損",
         "credits_snapshot": 2.0,
         "requirement_group": "elective",
+        "requirement_section": "elective",
+        "program_course_name_snapshot": null,
         "notes": "",
         "source_page": 1,
         "evidence_match": true,
@@ -186,6 +213,7 @@
       },
       {
         "course_code": null,
+        "catalog_entry_id": "entry_32f2af58ae1d2499",
         "opening_units": [
           "醫學院",
           "跨院選修(醫)"
@@ -194,6 +222,8 @@
         "course_name_snapshot": "智慧長照服務創新開發模式",
         "credits_snapshot": 3.0,
         "requirement_group": "elective",
+        "requirement_section": "elective",
+        "program_course_name_snapshot": null,
         "notes": "",
         "source_page": 1,
         "evidence_match": true,
@@ -202,6 +232,7 @@
       },
       {
         "course_code": null,
+        "catalog_entry_id": "entry_ad9db5db700a5c47",
         "opening_units": [
           "醫學院",
           "跨院選修(醫)"
@@ -210,6 +241,8 @@
         "course_name_snapshot": "危老年代",
         "credits_snapshot": 2.0,
         "requirement_group": "elective",
+        "requirement_section": "elective",
+        "program_course_name_snapshot": null,
         "notes": "",
         "source_page": 1,
         "evidence_match": true,
@@ -218,6 +251,7 @@
       },
       {
         "course_code": null,
+        "catalog_entry_id": "entry_53ed80c04d5eb858",
         "opening_units": [
           "音樂系"
         ],
@@ -225,6 +259,8 @@
         "course_name_snapshot": "音樂於高齡照護之設計與運用",
         "credits_snapshot": 3.0,
         "requirement_group": "elective",
+        "requirement_section": "elective",
+        "program_course_name_snapshot": null,
         "notes": "",
         "source_page": 1,
         "evidence_match": true,
@@ -233,6 +269,7 @@
       },
       {
         "course_code": null,
+        "catalog_entry_id": "entry_7026bea998cf7371",
         "opening_units": [
           "資工系",
           "跨院選修(工)"
@@ -241,6 +278,8 @@
         "course_name_snapshot": "人工智慧導論",
         "credits_snapshot": 3.0,
         "requirement_group": "elective",
+        "requirement_section": "elective",
+        "program_course_name_snapshot": null,
         "notes": "",
         "source_page": 1,
         "evidence_match": true,
@@ -249,6 +288,7 @@
       },
       {
         "course_code": null,
+        "catalog_entry_id": "entry_e46d6812bb72ae05",
         "opening_units": [
           "人科學程",
           "跨院選修(通)"
@@ -257,6 +297,8 @@
         "course_name_snapshot": "設計思考",
         "credits_snapshot": 3.0,
         "requirement_group": "elective",
+        "requirement_section": "elective",
+        "program_course_name_snapshot": null,
         "notes": "",
         "source_page": 1,
         "evidence_match": true,
@@ -265,6 +307,7 @@
       },
       {
         "course_code": null,
+        "catalog_entry_id": "entry_b5dd55cc0cc489a3",
         "opening_units": [
           "文學院",
           "跨院選修(文)"
@@ -273,6 +316,8 @@
         "course_name_snapshot": "基礎程式設計應用",
         "credits_snapshot": 3.0,
         "requirement_group": "elective",
+        "requirement_section": "elective",
+        "program_course_name_snapshot": null,
         "notes": "",
         "source_page": 1,
         "evidence_match": true,
@@ -281,6 +326,7 @@
       },
       {
         "course_code": null,
+        "catalog_entry_id": "entry_d1482f06ad16756f",
         "opening_units": [
           "資管碩"
         ],
@@ -288,6 +334,8 @@
         "course_name_snapshot": "人工智慧",
         "credits_snapshot": 3.0,
         "requirement_group": "elective",
+        "requirement_section": "elective",
+        "program_course_name_snapshot": null,
         "notes": "",
         "source_page": 1,
         "evidence_match": true,
@@ -296,6 +344,7 @@
       },
       {
         "course_code": null,
+        "catalog_entry_id": "entry_5709450ae795eeeb",
         "opening_units": [
           "企管系"
         ],
@@ -303,6 +352,8 @@
         "course_name_snapshot": "科技管理導論",
         "credits_snapshot": 3.0,
         "requirement_group": "elective",
+        "requirement_section": "elective",
+        "program_course_name_snapshot": null,
         "notes": "",
         "source_page": 1,
         "evidence_match": true,
@@ -313,7 +364,30 @@
     "structured_requirements": {
       "minimum_total_credits": 9,
       "core_credits_text_value": 2,
-      "minimum_outside_home_department_credits": 3
+      "minimum_outside_home_department_credits": 3,
+      "entry_selection_constraints": [
+        {
+          "constraint_id": "constraint_9c9463cd0dcf84bf",
+          "kind": "select_entries",
+          "catalog_entry_ids": [
+            "entry_2733ddb8b98310e2",
+            "entry_c5583ed5fa554061"
+          ],
+          "course_names": [
+            "醫療與護理資訊",
+            "智慧醫療與AI創新管理"
+          ],
+          "min_entries": 1,
+          "max_entries": 1,
+          "declared_option_count": null,
+          "option_count_matches": true,
+          "requirement_group": "core",
+          "requirement_section": "core",
+          "source_page": 1,
+          "source_text": "擇一修習",
+          "validation_status": "source_text_match"
+        }
+      ]
     }
   }
 }

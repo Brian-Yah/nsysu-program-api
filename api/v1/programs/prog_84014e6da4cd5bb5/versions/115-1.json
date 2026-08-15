@@ -23,7 +23,7 @@
       "last_modified": "Tue, 27 May 2025 02:32:29 GMT",
       "content_length": 220066
     },
-    "parser_version": "0.2.1",
+    "parser_version": "0.2.2",
     "extractor_versions": {
       "pypdf": "6.10.0",
       "pdfplumber": "0.11.9"
@@ -41,6 +41,7 @@
   "course_catalog": [
     {
       "course_code": null,
+      "catalog_entry_id": "entry_7e10947553d2b7e2",
       "opening_units": [
         "海科院"
       ],
@@ -48,6 +49,8 @@
       "course_name_snapshot": "環境教育",
       "credits_snapshot": 2.0,
       "requirement_group": "core",
+      "requirement_section": "core",
+      "program_course_name_snapshot": null,
       "notes": "環保署環境教育人員認證核心科目100100",
       "source_page": 1,
       "evidence_match": true,
@@ -56,6 +59,7 @@
     },
     {
       "course_code": null,
+      "catalog_entry_id": "entry_26e8dcef7217ff81",
       "opening_units": [
         "海科院"
       ],
@@ -63,6 +67,8 @@
       "course_name_snapshot": "環境教育教材教法",
       "credits_snapshot": 2.0,
       "requirement_group": "core",
+      "requirement_section": "core",
+      "program_course_name_snapshot": null,
       "notes": "環保署環境教育人員認證核心科目106700",
       "source_page": 1,
       "evidence_match": true,
@@ -71,6 +77,7 @@
     },
     {
       "course_code": null,
+      "catalog_entry_id": "entry_38854c86129d7162",
       "opening_units": [
         "服務學習"
       ],
@@ -78,6 +85,8 @@
       "course_name_snapshot": "服務學習:環境教育服務與推廣",
       "credits_snapshot": 1.0,
       "requirement_group": "core",
+      "requirement_section": "core",
+      "program_course_name_snapshot": null,
       "notes": "",
       "source_page": 1,
       "evidence_match": false,
@@ -86,6 +95,7 @@
     },
     {
       "course_code": null,
+      "catalog_entry_id": "entry_bd82501e4e200939",
       "opening_units": [
         "服務學習"
       ],
@@ -93,6 +103,8 @@
       "course_name_snapshot": "服務學習:永續發展與服務體驗",
       "credits_snapshot": 1.0,
       "requirement_group": "core",
+      "requirement_section": "core",
+      "program_course_name_snapshot": null,
       "notes": "",
       "source_page": 1,
       "evidence_match": false,
@@ -101,6 +113,7 @@
     },
     {
       "course_code": null,
+      "catalog_entry_id": "entry_6651bbfb7befeb6e",
       "opening_units": [
         "服務學習"
       ],
@@ -108,6 +121,8 @@
       "course_name_snapshot": "服務學習:人人都是科學家",
       "credits_snapshot": 1.0,
       "requirement_group": "core",
+      "requirement_section": "core",
+      "program_course_name_snapshot": null,
       "notes": "",
       "source_page": 1,
       "evidence_match": true,
@@ -116,6 +131,7 @@
     },
     {
       "course_code": null,
+      "catalog_entry_id": "entry_4dd9dabe0661dc1c",
       "opening_units": [
         "海科院"
       ],
@@ -123,6 +139,8 @@
       "course_name_snapshot": "環境教育實踐推廣",
       "credits_snapshot": 2.0,
       "requirement_group": "core",
+      "requirement_section": "core",
+      "program_course_name_snapshot": null,
       "notes": "",
       "source_page": 1,
       "evidence_match": true,
@@ -131,6 +149,7 @@
     },
     {
       "course_code": null,
+      "catalog_entry_id": "entry_c13fcab4c816dd82",
       "opening_units": [
         "海科院"
       ],
@@ -138,6 +157,8 @@
       "course_name_snapshot": "環境教育實踐推廣專題",
       "credits_snapshot": 2.0,
       "requirement_group": "core",
+      "requirement_section": "core",
+      "program_course_name_snapshot": null,
       "notes": "",
       "source_page": 1,
       "evidence_match": true,
@@ -146,6 +167,7 @@
     },
     {
       "course_code": null,
+      "catalog_entry_id": "entry_4860c631b8c6e335",
       "opening_units": [
         "博雅向度六"
       ],
@@ -153,6 +175,8 @@
       "course_name_snapshot": "氣候變遷與調適",
       "credits_snapshot": 3.0,
       "requirement_group": "core",
+      "requirement_section": "core",
+      "program_course_name_snapshot": null,
       "notes": "",
       "source_page": 1,
       "evidence_match": true,
@@ -161,6 +185,7 @@
     },
     {
       "course_code": null,
+      "catalog_entry_id": "entry_2e6081e20d5e9efa",
       "opening_units": [
         "博雅向度四"
       ],
@@ -168,6 +193,8 @@
       "course_name_snapshot": "用影像說故事:探索科技、環境與社會",
       "credits_snapshot": 2.0,
       "requirement_group": "elective",
+      "requirement_section": "elective",
+      "program_course_name_snapshot": null,
       "notes": "",
       "source_page": 1,
       "evidence_match": false,
@@ -176,6 +203,7 @@
     },
     {
       "course_code": null,
+      "catalog_entry_id": "entry_404dfb25a98550f7",
       "opening_units": [
         "博雅向度五"
       ],
@@ -183,6 +211,8 @@
       "course_name_snapshot": "生物多樣性的世界",
       "credits_snapshot": 2.0,
       "requirement_group": "elective",
+      "requirement_section": "elective",
+      "program_course_name_snapshot": null,
       "notes": "符合環保署採計課程421200",
       "source_page": 1,
       "evidence_match": true,
@@ -191,6 +221,7 @@
     },
     {
       "course_code": null,
+      "catalog_entry_id": "entry_8d5db795f4ec5855",
       "opening_units": [
         "博雅向度五"
       ],
@@ -198,6 +229,8 @@
       "course_name_snapshot": "生命科學",
       "credits_snapshot": 2.0,
       "requirement_group": "elective",
+      "requirement_section": "elective",
+      "program_course_name_snapshot": null,
       "notes": "",
       "source_page": 1,
       "evidence_match": true,
@@ -206,6 +239,7 @@
     },
     {
       "course_code": null,
+      "catalog_entry_id": "entry_787bd2b06be547be",
       "opening_units": [
         "博雅向度六"
       ],
@@ -213,6 +247,8 @@
       "course_name_snapshot": "環境變遷與生態保育",
       "credits_snapshot": 2.0,
       "requirement_group": "elective",
+      "requirement_section": "elective",
+      "program_course_name_snapshot": null,
       "notes": "",
       "source_page": 1,
       "evidence_match": true,
@@ -221,6 +257,7 @@
     },
     {
       "course_code": null,
+      "catalog_entry_id": "entry_b28e10ee4aac400e",
       "opening_units": [
         "博雅向度六"
       ],
@@ -228,6 +265,8 @@
       "course_name_snapshot": "海洋生態與海洋科技教育探索",
       "credits_snapshot": 2.0,
       "requirement_group": "elective",
+      "requirement_section": "elective",
+      "program_course_name_snapshot": null,
       "notes": "",
       "source_page": 1,
       "evidence_match": true,
@@ -236,6 +275,7 @@
     },
     {
       "course_code": null,
+      "catalog_entry_id": "entry_c41c721c1198e37a",
       "opening_units": [
         "博雅向度四"
       ],
@@ -243,6 +283,8 @@
       "course_name_snapshot": "海權與海洋事務",
       "credits_snapshot": 2.0,
       "requirement_group": "elective",
+      "requirement_section": "elective",
+      "program_course_name_snapshot": null,
       "notes": "",
       "source_page": 1,
       "evidence_match": true,
@@ -251,6 +293,7 @@
     },
     {
       "course_code": null,
+      "catalog_entry_id": "entry_32a30436fbbef001",
       "opening_units": [
         "依各系所及西灣學院"
       ],
@@ -258,6 +301,8 @@
       "course_name_snapshot": "微學分課程",
       "credits_snapshot": 2.0,
       "requirement_group": "elective",
+      "requirement_section": "elective",
+      "program_course_name_snapshot": null,
       "notes": "",
       "source_page": 1,
       "evidence_match": true,

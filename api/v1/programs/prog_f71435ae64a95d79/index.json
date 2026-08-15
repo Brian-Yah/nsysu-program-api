@@ -29,7 +29,7 @@
         "last_modified": "Wed, 20 Dec 2023 02:40:47 GMT",
         "content_length": 198885
       },
-      "parser_version": "0.2.1",
+      "parser_version": "0.2.2",
       "extractor_versions": {
         "pypdf": "6.10.0",
         "pdfplumber": "0.11.9"
@@ -47,6 +47,7 @@
     "course_catalog": [
       {
         "course_code": null,
+        "catalog_entry_id": "entry_7e76c66c188ccbcb",
         "opening_units": [
           "政治經濟學系"
         ],
@@ -54,6 +55,8 @@
         "course_name_snapshot": "智慧城市與智慧運輸趨勢、發展及課題研析",
         "credits_snapshot": 3.0,
         "requirement_group": "core",
+        "requirement_section": "core",
+        "program_course_name_snapshot": null,
         "notes": "",
         "source_page": 1,
         "evidence_match": false,
@@ -62,6 +65,7 @@
       },
       {
         "course_code": null,
+        "catalog_entry_id": "entry_7e050e9d6d05ddf6",
         "opening_units": [
           "社會科學院"
         ],
@@ -69,6 +73,8 @@
         "course_name_snapshot": "智慧城市與智慧運輸趨勢、發展及課題研析",
         "credits_snapshot": 3.0,
         "requirement_group": "core",
+        "requirement_section": "core",
+        "program_course_name_snapshot": null,
         "notes": "",
         "source_page": 1,
         "evidence_match": false,
@@ -77,6 +83,7 @@
       },
       {
         "course_code": null,
+        "catalog_entry_id": "entry_5c6c15028daacfaf",
         "opening_units": [
           "人文暨科技跨領域學士學位學程"
         ],
@@ -84,6 +91,8 @@
         "course_name_snapshot": "智慧型運輸系統",
         "credits_snapshot": 3.0,
         "requirement_group": "core",
+        "requirement_section": "core",
+        "program_course_name_snapshot": null,
         "notes": "",
         "source_page": 1,
         "evidence_match": true,
@@ -92,6 +101,7 @@
       },
       {
         "course_code": null,
+        "catalog_entry_id": "entry_a137f53f3995f699",
         "opening_units": [
           "政治經濟學系"
         ],
@@ -99,6 +109,8 @@
         "course_name_snapshot": "運輸規劃與管理",
         "credits_snapshot": 3.0,
         "requirement_group": "elective",
+        "requirement_section": "elective",
+        "program_course_name_snapshot": null,
         "notes": "",
         "source_page": 1,
         "evidence_match": true,
@@ -107,6 +119,7 @@
       },
       {
         "course_code": null,
+        "catalog_entry_id": "entry_fb497061f42667e9",
         "opening_units": [
           "社會科學院"
         ],
@@ -114,6 +127,8 @@
         "course_name_snapshot": "地區交通計畫",
         "credits_snapshot": 3.0,
         "requirement_group": "elective",
+        "requirement_section": "elective",
+        "program_course_name_snapshot": null,
         "notes": "",
         "source_page": 1,
         "evidence_match": true,
@@ -122,6 +137,7 @@
       },
       {
         "course_code": null,
+        "catalog_entry_id": "entry_2dc9bdcb83730b65",
         "opening_units": [
           "社會科學院"
         ],
@@ -129,6 +145,8 @@
         "course_name_snapshot": "智慧人本交通",
         "credits_snapshot": 3.0,
         "requirement_group": "elective",
+        "requirement_section": "elective",
+        "program_course_name_snapshot": null,
         "notes": "",
         "source_page": 1,
         "evidence_match": true,
@@ -137,6 +155,7 @@
       },
       {
         "course_code": null,
+        "catalog_entry_id": "entry_57ea353cd65f0bbf",
         "opening_units": [
           "政治經濟學系"
         ],
@@ -144,6 +163,8 @@
         "course_name_snapshot": "都市運輸與空間發展互動治理",
         "credits_snapshot": 3.0,
         "requirement_group": "elective",
+        "requirement_section": "elective",
+        "program_course_name_snapshot": null,
         "notes": "",
         "source_page": 1,
         "evidence_match": false,
@@ -152,6 +173,7 @@
       },
       {
         "course_code": null,
+        "catalog_entry_id": "entry_14545b78a3eb2e9b",
         "opening_units": [
           "人文暨科技跨領域學士學位學程"
         ],
@@ -159,6 +181,8 @@
         "course_name_snapshot": "運輸規劃與管理",
         "credits_snapshot": 3.0,
         "requirement_group": "elective",
+        "requirement_section": "elective",
+        "program_course_name_snapshot": null,
         "notes": "",
         "source_page": 1,
         "evidence_match": true,
@@ -167,6 +191,7 @@
       },
       {
         "course_code": null,
+        "catalog_entry_id": "entry_e7dce6e8ea81666c",
         "opening_units": [
           "公共事務管理研究所碩士班"
         ],
@@ -174,6 +199,8 @@
         "course_name_snapshot": "都市交通",
         "credits_snapshot": 2.0,
         "requirement_group": "elective",
+        "requirement_section": "elective",
+        "program_course_name_snapshot": null,
         "notes": "",
         "source_page": 1,
         "evidence_match": true,
@@ -182,6 +209,7 @@
       },
       {
         "course_code": null,
+        "catalog_entry_id": "entry_d4e3f459fd469d3b",
         "opening_units": [
           "成功大學都市計劃學系"
         ],
@@ -189,6 +217,8 @@
         "course_name_snapshot": "都市交通計劃",
         "credits_snapshot": 3.0,
         "requirement_group": "elective",
+        "requirement_section": "elective",
+        "program_course_name_snapshot": null,
         "notes": "",
         "source_page": 1,
         "evidence_match": true,
