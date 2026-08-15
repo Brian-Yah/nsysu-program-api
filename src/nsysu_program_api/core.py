@@ -2,6 +2,7 @@ from __future__ import annotations
 
 import hashlib
 import json
+import os
 import re
 import time
 import unicodedata
@@ -57,10 +58,20 @@ class Response:
 
 
 class Fetcher:
-    def __init__(self, user_agent: str, timeout: int = 30, delay: float = 0.35):
-        self.user_agent, self.timeout, self.delay = user_agent, timeout, delay
+    def __init__(
+        self,
+        user_agent: str,
+        timeout: int | None = None,
+        delay: float = 0.35,
+        attempts: int | None = None,
+    ):
+        self.user_agent = user_agent
+        self.timeout = timeout or _env_int("NSYSU_API_TIMEOUT", 30, 5, 180)
+        self.delay = delay
+        self.attempts = attempts or _env_int("NSYSU_API_ATTEMPTS", 3, 1, 8)
 
-    def get(self, url: str, attempts: int = 3) -> Response:
+    def get(self, url: str, attempts: int | None = None) -> Response:
+        attempts = attempts or self.attempts
         last: Exception | None = None
         for attempt in range(attempts):
             try:
@@ -75,6 +86,14 @@ class Fetcher:
                 last = exc
                 time.sleep(2**attempt)
         raise RuntimeError(f"fetch failed after {attempts} attempts: {url}: {last}")
+
+
+def _env_int(name: str, default: int, minimum: int, maximum: int) -> int:
+    try:
+        value = int(os.getenv(name, str(default)))
+    except ValueError:
+        return default
+    return max(minimum, min(value, maximum))
 
 
 class CatalogParser(HTMLParser):

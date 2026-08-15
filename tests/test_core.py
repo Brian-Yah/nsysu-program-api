@@ -1,4 +1,5 @@
 from nsysu_program_api.core import (
+    Fetcher,
     _join_wrapped_text,
     _split_units,
     normalize_text,
@@ -45,3 +46,19 @@ def test_wrapped_unit_is_not_split_but_real_units_are():
 
 def test_responsible_unit_and_coordinator_lines():
     assert split_responsible("物理系\n黃信銘副教授") == ("物理系", "黃信銘副教授")
+
+
+def test_fetcher_network_settings_from_environment(monkeypatch):
+    monkeypatch.setenv("NSYSU_API_TIMEOUT", "75")
+    monkeypatch.setenv("NSYSU_API_ATTEMPTS", "5")
+    fetcher = Fetcher("test-agent", delay=0)
+    assert fetcher.timeout == 75
+    assert fetcher.attempts == 5
+
+
+def test_fetcher_network_settings_are_bounded(monkeypatch):
+    monkeypatch.setenv("NSYSU_API_TIMEOUT", "999")
+    monkeypatch.setenv("NSYSU_API_ATTEMPTS", "999")
+    fetcher = Fetcher("test-agent", delay=0)
+    assert fetcher.timeout == 180
+    assert fetcher.attempts == 8

@@ -9,25 +9,37 @@ jobs:
   check:
     runs-on: ubuntu-latest
     steps:
-      - uses: actions/checkout@v4
+      - uses: actions/checkout@v5
       - uses: actions/setup-python@v5
         with: {python-version: "3.12", cache: pip}
       - run: pip install -e .
       - name: Fetch public sources (no AI key required)
         env:
           NSYSU_API_USER_AGENT: nsysu-program-api-source-check/1.0 (+${{ github.server_url }}/${{ github.repository }})
+          NSYSU_API_TIMEOUT: "75"
+          NSYSU_API_ATTEMPTS: "5"
         run: |
           cp data/source/115-1/catalog.json /tmp/old.json
-          python -m nsysu_program_api.cli --root . --academic-version 115-1 full > reports/source-check-current.json
+          set +e
+          python -m nsysu_program_api.cli --root . --academic-version 115-1 full > reports/source-check-current.json 2> reports/source-check-error.log
+          fetch_status=$?
+          set -e
+          if [ "$fetch_status" -ne 0 ]; then
+            python -c 'import json, pathlib; error = pathlib.Path("reports/source-check-error.log").read_text(); pathlib.Path("reports/source-check-failure.json").write_text(json.dumps({"status": "source_unavailable", "error": error}, ensure_ascii=False, indent=2) + "\n")'
+            exit "$fetch_status"
+          fi
           python -m nsysu_program_api.cli --root . diff /tmp/old.json data/source/115-1/catalog.json --output reports/semantic-diff.json
       - uses: actions/upload-artifact@v4
+        if: always()
         with:
           name: nsysu-source-check-${{ github.run_id }}
           path: |
             reports/source-check-current.json
+            reports/source-check-error.log
+            reports/source-check-failure.json
             reports/semantic-diff.json
             data/extracted/115-1/
           retention-days: 30
+          if-no-files-found: warn
       # Deliberately no write permission and no automatic publication.
       # A maintainer reviews the artifact, then opens an issue/branch/PR manually.
-
