@@ -1,0 +1,269 @@
+{
+  "program_id": "prog_84014e6da4cd5bb5",
+  "name_zh": "實踐環境教育微學程 (★自115年8月1日起停開)",
+  "name_en": null,
+  "previous_names": [],
+  "type": "micro_program",
+  "status": "discontinued",
+  "description": "本微學程著重培養大學生在環境教育上的「行動知能」,透過以專題和實務導向的環境教育課程為核心,系統性強化學生在環境教育行動方案的思考、策劃及實踐能力,形塑具有高度環境責任感和行動力的跨領域人才,未來能從各專業領域以及不同社會場域發揮影響力,實質提升環境教育的能量。",
+  "responsible_unit": "西灣學院博雅教育中心",
+  "coordinator": "劉叔秋副教授",
+  "program_website": "https://cm-siwan.nsysu.edu.tw/p/406-1353-319533,r5482.php?Lang=zh-tw",
+  "source_pdf": "http://140.117.153.69/ctdr/files/20250527103229309.pdf",
+  "academic_version": "115-1",
+  "source": {
+    "catalog_url": "https://ctdr.nsysu.edu.tw/class2.php",
+    "pdf_url": "http://140.117.153.69/ctdr/files/20250527103229309.pdf",
+    "retrieved_at": "2026-08-15T10:05:39Z",
+    "pdf_binary_sha256": "a4235f9f35355a51bc68ff5fe048385bcb6105b9d686d6c00414f1e97b8444f8",
+    "normalized_text_sha256": "00f8836bae4f7c11daba471dfa02ad1fa52a474fade3539c3b95b099853fcff1",
+    "http": {
+      "status": 200,
+      "etag": "\"35ba2-63614e038ad22\"",
+      "last_modified": "Tue, 27 May 2025 02:32:29 GMT",
+      "content_length": 220066
+    },
+    "parser_version": "0.1.0"
+  },
+  "review_status": "needs_review",
+  "rules": {
+    "kind": "manual_review",
+    "reason": "Extracted candidate awaits approval"
+  },
+  "warnings": [
+    "No structured course rows extracted from PDF tables"
+  ],
+  "selected_pdf_academic_version": "113-2",
+  "course_catalog": [
+    {
+      "course_code": null,
+      "opening_units": [
+        "海科院"
+      ],
+      "opening_unit_snapshot": "海科院",
+      "course_name_snapshot": "環境教育",
+      "credits_snapshot": 2.0,
+      "requirement_group": "core",
+      "notes": "環保署環境教育人員認證核心科目100100",
+      "source_page": 1,
+      "evidence_match": true,
+      "validation_status": "needs_course_code_verification",
+      "uncertainty_reason": "Official PDF table does not provide a course code"
+    },
+    {
+      "course_code": null,
+      "opening_units": [
+        "海科院"
+      ],
+      "opening_unit_snapshot": "海科院",
+      "course_name_snapshot": "環境教育教材教法",
+      "credits_snapshot": 2.0,
+      "requirement_group": "core",
+      "notes": "環保署環境教育人員認證核心科目106700",
+      "source_page": 1,
+      "evidence_match": true,
+      "validation_status": "needs_course_code_verification",
+      "uncertainty_reason": "Official PDF table does not provide a course code"
+    },
+    {
+      "course_code": null,
+      "opening_units": [
+        "服務學習"
+      ],
+      "opening_unit_snapshot": "服務學習",
+      "course_name_snapshot": "服務學習:環境教育服務與推廣",
+      "credits_snapshot": 1.0,
+      "requirement_group": "core",
+      "notes": "",
+      "source_page": 1,
+      "evidence_match": false,
+      "validation_status": "needs_course_code_verification",
+      "uncertainty_reason": "Official PDF table does not provide a course code"
+    },
+    {
+      "course_code": null,
+      "opening_units": [
+        "服務學習"
+      ],
+      "opening_unit_snapshot": "服務學習",
+      "course_name_snapshot": "服務學習:永續發展與服務體驗",
+      "credits_snapshot": 1.0,
+      "requirement_group": "core",
+      "notes": "",
+      "source_page": 1,
+      "evidence_match": false,
+      "validation_status": "needs_course_code_verification",
+      "uncertainty_reason": "Official PDF table does not provide a course code"
+    },
+    {
+      "course_code": null,
+      "opening_units": [
+        "服務學習"
+      ],
+      "opening_unit_snapshot": "服務學習",
+      "course_name_snapshot": "服務學習:人人都是科學家",
+      "credits_snapshot": 1.0,
+      "requirement_group": "core",
+      "notes": "",
+      "source_page": 1,
+      "evidence_match": true,
+      "validation_status": "needs_course_code_verification",
+      "uncertainty_reason": "Official PDF table does not provide a course code"
+    },
+    {
+      "course_code": null,
+      "opening_units": [
+        "海科院"
+      ],
+      "opening_unit_snapshot": "海科院",
+      "course_name_snapshot": "環境教育實踐推廣",
+      "credits_snapshot": 2.0,
+      "requirement_group": "core",
+      "notes": "",
+      "source_page": 1,
+      "evidence_match": true,
+      "validation_status": "needs_course_code_verification",
+      "uncertainty_reason": "Official PDF table does not provide a course code"
+    },
+    {
+      "course_code": null,
+      "opening_units": [
+        "海科院"
+      ],
+      "opening_unit_snapshot": "海科院",
+      "course_name_snapshot": "環境教育實踐推廣專題",
+      "credits_snapshot": 2.0,
+      "requirement_group": "core",
+      "notes": "",
+      "source_page": 1,
+      "evidence_match": true,
+      "validation_status": "needs_course_code_verification",
+      "uncertainty_reason": "Official PDF table does not provide a course code"
+    },
+    {
+      "course_code": null,
+      "opening_units": [
+        "博雅向度六"
+      ],
+      "opening_unit_snapshot": "博雅向度六",
+      "course_name_snapshot": "氣候變遷與調適",
+      "credits_snapshot": 3.0,
+      "requirement_group": "core",
+      "notes": "",
+      "source_page": 1,
+      "evidence_match": true,
+      "validation_status": "needs_course_code_verification",
+      "uncertainty_reason": "Official PDF table does not provide a course code"
+    },
+    {
+      "course_code": null,
+      "opening_units": [
+        "博雅向度四"
+      ],
+      "opening_unit_snapshot": "博雅向度四",
+      "course_name_snapshot": "用影像說故事:探索科技、環境與社會",
+      "credits_snapshot": 2.0,
+      "requirement_group": "elective",
+      "notes": "",
+      "source_page": 1,
+      "evidence_match": false,
+      "validation_status": "needs_course_code_verification",
+      "uncertainty_reason": "Official PDF table does not provide a course code"
+    },
+    {
+      "course_code": null,
+      "opening_units": [
+        "博雅向度五"
+      ],
+      "opening_unit_snapshot": "博雅向度五",
+      "course_name_snapshot": "生物多樣性的世界",
+      "credits_snapshot": 2.0,
+      "requirement_group": "elective",
+      "notes": "符合環保署採計課程421200",
+      "source_page": 1,
+      "evidence_match": true,
+      "validation_status": "needs_course_code_verification",
+      "uncertainty_reason": "Official PDF table does not provide a course code"
+    },
+    {
+      "course_code": null,
+      "opening_units": [
+        "博雅向度五"
+      ],
+      "opening_unit_snapshot": "博雅向度五",
+      "course_name_snapshot": "生命科學",
+      "credits_snapshot": 2.0,
+      "requirement_group": "elective",
+      "notes": "",
+      "source_page": 1,
+      "evidence_match": true,
+      "validation_status": "needs_course_code_verification",
+      "uncertainty_reason": "Official PDF table does not provide a course code"
+    },
+    {
+      "course_code": null,
+      "opening_units": [
+        "博雅向度六"
+      ],
+      "opening_unit_snapshot": "博雅向度六",
+      "course_name_snapshot": "環境變遷與生態保育",
+      "credits_snapshot": 2.0,
+      "requirement_group": "elective",
+      "notes": "",
+      "source_page": 1,
+      "evidence_match": true,
+      "validation_status": "needs_course_code_verification",
+      "uncertainty_reason": "Official PDF table does not provide a course code"
+    },
+    {
+      "course_code": null,
+      "opening_units": [
+        "博雅向度六"
+      ],
+      "opening_unit_snapshot": "博雅向度六",
+      "course_name_snapshot": "海洋生態與海洋科技教育探索",
+      "credits_snapshot": 2.0,
+      "requirement_group": "elective",
+      "notes": "",
+      "source_page": 1,
+      "evidence_match": true,
+      "validation_status": "needs_course_code_verification",
+      "uncertainty_reason": "Official PDF table does not provide a course code"
+    },
+    {
+      "course_code": null,
+      "opening_units": [
+        "博雅向度四"
+      ],
+      "opening_unit_snapshot": "博雅向度四",
+      "course_name_snapshot": "海權與海洋事務",
+      "credits_snapshot": 2.0,
+      "requirement_group": "elective",
+      "notes": "",
+      "source_page": 1,
+      "evidence_match": true,
+      "validation_status": "needs_course_code_verification",
+      "uncertainty_reason": "Official PDF table does not provide a course code"
+    },
+    {
+      "course_code": null,
+      "opening_units": [
+        "依各系所及西灣學院"
+      ],
+      "opening_unit_snapshot": "依各系所及西灣學院",
+      "course_name_snapshot": "微學分課程",
+      "credits_snapshot": 2.0,
+      "requirement_group": "elective",
+      "notes": "",
+      "source_page": 1,
+      "evidence_match": true,
+      "validation_status": "needs_course_code_verification",
+      "uncertainty_reason": "Official PDF table does not provide a course code"
+    }
+  ],
+  "structured_requirements": {
+    "minimum_total_credits": 9,
+    "core_credits_text_value": 4,
+    "minimum_outside_home_department_credits": 3
+  }
+}

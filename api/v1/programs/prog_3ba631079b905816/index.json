@@ -1,0 +1,171 @@
+{
+  "program_id": "prog_3ba631079b905816",
+  "latest_academic_version": "115-1",
+  "versions": [
+    "115-1"
+  ],
+  "program": {
+    "program_id": "prog_3ba631079b905816",
+    "name_zh": "智慧港埠微學程",
+    "name_en": null,
+    "previous_names": [],
+    "type": "micro_program",
+    "status": "active",
+    "description": "1. 瞭解智慧港埠之機制;2. 瞭解如何以技術建立港市的智慧化;3. 以高雄港為實證基地;4. 由高雄港務分公司專業業師帶領同學解決真實場域的問題。",
+    "responsible_unit": "海工系",
+    "coordinator": "陸曉筠副教授",
+    "program_website": "https://sites.google.com/view/mepmlab/%E9%A6%96%E9%A0%81",
+    "source_pdf": "http://140.117.153.69/ctdr/files/20231220104231460.pdf",
+    "academic_version": "115-1",
+    "source": {
+      "catalog_url": "https://ctdr.nsysu.edu.tw/class2.php",
+      "pdf_url": "http://140.117.153.69/ctdr/files/20231220104231460.pdf",
+      "retrieved_at": "2026-08-15T10:05:39Z",
+      "pdf_binary_sha256": "13f4e43a7b9970b2edba74e1cb317e336fb3474647a8a40918d2402c9884f937",
+      "normalized_text_sha256": "fc2e87b7e13056595c79682babaf6374c762d5445a62182fc69dcaad762554ac",
+      "http": {
+        "status": 200,
+        "etag": "\"21bd4-60ce7ef441b87\"",
+        "last_modified": "Wed, 20 Dec 2023 02:42:31 GMT",
+        "content_length": 138196
+      },
+      "parser_version": "0.1.0"
+    },
+    "review_status": "needs_review",
+    "rules": {
+      "kind": "manual_review",
+      "reason": "Extracted candidate awaits approval"
+    },
+    "warnings": [
+      "No structured course rows extracted from PDF tables"
+    ],
+    "selected_pdf_academic_version": "112-1",
+    "course_catalog": [
+      {
+        "course_code": null,
+        "opening_units": [
+          "人科學程"
+        ],
+        "opening_unit_snapshot": "人科學程",
+        "course_name_snapshot": "綠色港市與智慧港埠",
+        "credits_snapshot": 3.0,
+        "requirement_group": "core",
+        "notes": "",
+        "source_page": 1,
+        "evidence_match": true,
+        "validation_status": "needs_course_code_verification",
+        "uncertainty_reason": "Official PDF table does not provide a course code"
+      },
+      {
+        "course_code": null,
+        "opening_units": [
+          "海工系"
+        ],
+        "opening_unit_snapshot": "海工系",
+        "course_name_snapshot": "海洋與海岸管理",
+        "credits_snapshot": 3.0,
+        "requirement_group": "core",
+        "notes": "",
+        "source_page": 1,
+        "evidence_match": true,
+        "validation_status": "needs_course_code_verification",
+        "uncertainty_reason": "Official PDF table does not provide a course code"
+      },
+      {
+        "course_code": null,
+        "opening_units": [
+          "人科學程"
+        ],
+        "opening_unit_snapshot": "人科學程",
+        "course_name_snapshot": "智慧型運輸系統",
+        "credits_snapshot": 3.0,
+        "requirement_group": "core",
+        "notes": "",
+        "source_page": 1,
+        "evidence_match": true,
+        "validation_status": "needs_course_code_verification",
+        "uncertainty_reason": "Official PDF table does not provide a course code"
+      },
+      {
+        "course_code": null,
+        "opening_units": [
+          "海資系"
+        ],
+        "opening_unit_snapshot": "海資系",
+        "course_name_snapshot": "海洋污染概論",
+        "credits_snapshot": 2.0,
+        "requirement_group": "elective",
+        "notes": "",
+        "source_page": 1,
+        "evidence_match": true,
+        "validation_status": "needs_course_code_verification",
+        "uncertainty_reason": "Official PDF table does not provide a course code"
+      },
+      {
+        "course_code": null,
+        "opening_units": [
+          "人科學程"
+        ],
+        "opening_unit_snapshot": "人科學程",
+        "course_name_snapshot": "永續工程與智慧城市實踐",
+        "credits_snapshot": 1.0,
+        "requirement_group": "elective",
+        "notes": "",
+        "source_page": 1,
+        "evidence_match": true,
+        "validation_status": "needs_course_code_verification",
+        "uncertainty_reason": "Official PDF table does not provide a course code"
+      },
+      {
+        "course_code": null,
+        "opening_units": [
+          "海工系"
+        ],
+        "opening_unit_snapshot": "海工系",
+        "course_name_snapshot": "海上實習",
+        "credits_snapshot": 3.0,
+        "requirement_group": "elective",
+        "notes": "",
+        "source_page": 1,
+        "evidence_match": true,
+        "validation_status": "needs_course_code_verification",
+        "uncertainty_reason": "Official PDF table does not provide a course code"
+      },
+      {
+        "course_code": null,
+        "opening_units": [
+          "博雅向度六"
+        ],
+        "opening_unit_snapshot": "博雅向度六",
+        "course_name_snapshot": "光電生活與能源永續",
+        "credits_snapshot": 3.0,
+        "requirement_group": "elective",
+        "notes": "",
+        "source_page": 1,
+        "evidence_match": true,
+        "validation_status": "needs_course_code_verification",
+        "uncertainty_reason": "Official PDF table does not provide a course code"
+      },
+      {
+        "course_code": null,
+        "opening_units": [
+          "機電系"
+        ],
+        "opening_unit_snapshot": "機電系",
+        "course_name_snapshot": "智慧製造與監測技術",
+        "credits_snapshot": 3.0,
+        "requirement_group": "elective",
+        "notes": "",
+        "source_page": 1,
+        "evidence_match": true,
+        "validation_status": "needs_course_code_verification",
+        "uncertainty_reason": "Official PDF table does not provide a course code"
+      }
+    ],
+    "structured_requirements": {
+      "minimum_total_credits": 9,
+      "core_credits_text_value": 6,
+      "minimum_outside_home_department_credits": 3
+    }
+  }
+}

@@ -1,0 +1,269 @@
+{
+  "program_id": "prog_3621f2793d4255a7",
+  "name_zh": "臺灣閩南語文書寫應用與創作微學程(原:台灣閩南語文書寫應用與創作微學程)",
+  "name_en": null,
+  "previous_names": [],
+  "type": "micro_program",
+  "status": "active",
+  "description": "本系課程地圖中原有閩南語相關課程為「閩南語音韻系統與拼音」、「閩南語讀書音」、「閩南語概論」,這幾門課程較著重於語言學或方言學的學術專業觀念與方法,講授閩南語的音韻系統、文白層次異讀、次方言差異,雖然能讓學生認識閩南語的語言特點,但僅止於語言知識上的理解,較缺乏實際應用與書寫創作來推動閩南語文的實踐與活力。",
+  "responsible_unit": "中文系",
+  "coordinator": "林芷瑩副教授",
+  "program_website": "https://sites.google.com/g-mail.nsysu.edu.tw/banlamgi",
+  "source_pdf": "http://140.117.153.69/ctdr/files/20251223145336462.pdf",
+  "academic_version": "115-1",
+  "source": {
+    "catalog_url": "https://ctdr.nsysu.edu.tw/class2.php",
+    "pdf_url": "http://140.117.153.69/ctdr/files/20251223145336462.pdf",
+    "retrieved_at": "2026-08-15T10:05:39Z",
+    "pdf_binary_sha256": "a8425bbf918009c8b6d28e225aeb75419df38221f5e264c7b0eba751504ea97e",
+    "normalized_text_sha256": "1410b26ef4708cd5bdcb561e386d1bff363c2437757541d4ca8767d6a377c7f1",
+    "http": {
+      "status": 200,
+      "etag": "\"44068-6469900bbee61\"",
+      "last_modified": "Tue, 23 Dec 2025 06:53:36 GMT",
+      "content_length": 278632
+    },
+    "parser_version": "0.1.0"
+  },
+  "review_status": "needs_review",
+  "rules": {
+    "kind": "manual_review",
+    "reason": "Extracted candidate awaits approval"
+  },
+  "warnings": [
+    "No structured course rows extracted from PDF tables"
+  ],
+  "selected_pdf_academic_version": "114-1",
+  "course_catalog": [
+    {
+      "course_code": null,
+      "opening_units": [
+        "文學院"
+      ],
+      "opening_unit_snapshot": "文學院",
+      "course_name_snapshot": "臺灣閩南語文的音字書寫與閱讀",
+      "credits_snapshot": 3.0,
+      "requirement_group": "core",
+      "notes": "",
+      "source_page": 1,
+      "evidence_match": false,
+      "validation_status": "needs_course_code_verification",
+      "uncertainty_reason": "Official PDF table does not provide a course code"
+    },
+    {
+      "course_code": null,
+      "opening_units": [
+        "中國文學系"
+      ],
+      "opening_unit_snapshot": "中國文學系",
+      "course_name_snapshot": "閩南語讀書音",
+      "credits_snapshot": 3.0,
+      "requirement_group": "core",
+      "notes": "",
+      "source_page": 1,
+      "evidence_match": true,
+      "validation_status": "needs_course_code_verification",
+      "uncertainty_reason": "Official PDF table does not provide a course code"
+    },
+    {
+      "course_code": null,
+      "opening_units": [
+        "中國文學系"
+      ],
+      "opening_unit_snapshot": "中國文學系",
+      "course_name_snapshot": "閩南語概論",
+      "credits_snapshot": 3.0,
+      "requirement_group": "core",
+      "notes": "",
+      "source_page": 1,
+      "evidence_match": true,
+      "validation_status": "needs_course_code_verification",
+      "uncertainty_reason": "Official PDF table does not provide a course code"
+    },
+    {
+      "course_code": null,
+      "opening_units": [
+        "文學院"
+      ],
+      "opening_unit_snapshot": "文學院",
+      "course_name_snapshot": "跨文化人文思潮與美學導論",
+      "credits_snapshot": 3.0,
+      "requirement_group": "elective",
+      "notes": "",
+      "source_page": 1,
+      "evidence_match": true,
+      "validation_status": "needs_course_code_verification",
+      "uncertainty_reason": "Official PDF table does not provide a course code"
+    },
+    {
+      "course_code": null,
+      "opening_units": [
+        "文學院"
+      ],
+      "opening_unit_snapshot": "文學院",
+      "course_name_snapshot": "臺灣閩南語敘事工坊(一)",
+      "credits_snapshot": 3.0,
+      "requirement_group": "elective",
+      "notes": "",
+      "source_page": 1,
+      "evidence_match": true,
+      "validation_status": "needs_course_code_verification",
+      "uncertainty_reason": "Official PDF table does not provide a course code"
+    },
+    {
+      "course_code": null,
+      "opening_units": [
+        "文學院"
+      ],
+      "opening_unit_snapshot": "文學院",
+      "course_name_snapshot": "臺灣閩南語敘事工坊(二)",
+      "credits_snapshot": 3.0,
+      "requirement_group": "elective",
+      "notes": "",
+      "source_page": 1,
+      "evidence_match": true,
+      "validation_status": "needs_course_code_verification",
+      "uncertainty_reason": "Official PDF table does not provide a course code"
+    },
+    {
+      "course_code": null,
+      "opening_units": [
+        "中國文學系"
+      ],
+      "opening_unit_snapshot": "中國文學系",
+      "course_name_snapshot": "閩南民間文學與文化采風",
+      "credits_snapshot": 3.0,
+      "requirement_group": "elective",
+      "notes": "",
+      "source_page": 1,
+      "evidence_match": true,
+      "validation_status": "needs_course_code_verification",
+      "uncertainty_reason": "Official PDF table does not provide a course code"
+    },
+    {
+      "course_code": null,
+      "opening_units": [
+        "中國文學系"
+      ],
+      "opening_unit_snapshot": "中國文學系",
+      "course_name_snapshot": "語言、儀式與戲劇",
+      "credits_snapshot": 3.0,
+      "requirement_group": "elective",
+      "notes": "",
+      "source_page": 1,
+      "evidence_match": true,
+      "validation_status": "needs_course_code_verification",
+      "uncertainty_reason": "Official PDF table does not provide a course code"
+    },
+    {
+      "course_code": null,
+      "opening_units": [
+        "中國文學系"
+      ],
+      "opening_unit_snapshot": "中國文學系",
+      "course_name_snapshot": "臺語流行歌曲及其語言風格和文化意涵(一)",
+      "credits_snapshot": 3.0,
+      "requirement_group": "elective",
+      "notes": "",
+      "source_page": 1,
+      "evidence_match": false,
+      "validation_status": "needs_course_code_verification",
+      "uncertainty_reason": "Official PDF table does not provide a course code"
+    },
+    {
+      "course_code": null,
+      "opening_units": [
+        "中國文學系"
+      ],
+      "opening_unit_snapshot": "中國文學系",
+      "course_name_snapshot": "臺語流行歌曲及其語言風格和文化意涵(二)",
+      "credits_snapshot": 3.0,
+      "requirement_group": "elective",
+      "notes": "",
+      "source_page": 1,
+      "evidence_match": false,
+      "validation_status": "needs_course_code_verification",
+      "uncertainty_reason": "Official PDF table does not provide a course code"
+    },
+    {
+      "course_code": null,
+      "opening_units": [
+        "中國文學系"
+      ],
+      "opening_unit_snapshot": "中國文學系",
+      "course_name_snapshot": "為你寫一首歌仔—戲曲創作與生命故事(一)",
+      "credits_snapshot": 3.0,
+      "requirement_group": "elective",
+      "notes": "",
+      "source_page": 1,
+      "evidence_match": false,
+      "validation_status": "needs_course_code_verification",
+      "uncertainty_reason": "Official PDF table does not provide a course code"
+    },
+    {
+      "course_code": null,
+      "opening_units": [
+        "中國文學系"
+      ],
+      "opening_unit_snapshot": "中國文學系",
+      "course_name_snapshot": "為你寫一首歌仔—戲曲創作與生命故事(二)",
+      "credits_snapshot": 3.0,
+      "requirement_group": "elective",
+      "notes": "",
+      "source_page": 1,
+      "evidence_match": false,
+      "validation_status": "needs_course_code_verification",
+      "uncertainty_reason": "Official PDF table does not provide a course code"
+    },
+    {
+      "course_code": null,
+      "opening_units": [
+        "中國文學系"
+      ],
+      "opening_unit_snapshot": "中國文學系",
+      "course_name_snapshot": "臺灣語言踏查之旅",
+      "credits_snapshot": 3.0,
+      "requirement_group": "elective",
+      "notes": "",
+      "source_page": 1,
+      "evidence_match": true,
+      "validation_status": "needs_course_code_verification",
+      "uncertainty_reason": "Official PDF table does not provide a course code"
+    },
+    {
+      "course_code": null,
+      "opening_units": [
+        "中國文學系"
+      ],
+      "opening_unit_snapshot": "中國文學系",
+      "course_name_snapshot": "臺灣戲曲",
+      "credits_snapshot": 3.0,
+      "requirement_group": "elective",
+      "notes": "",
+      "source_page": 1,
+      "evidence_match": true,
+      "validation_status": "needs_course_code_verification",
+      "uncertainty_reason": "Official PDF table does not provide a course code"
+    },
+    {
+      "course_code": null,
+      "opening_units": [
+        "中國文學系"
+      ],
+      "opening_unit_snapshot": "中國文學系",
+      "course_name_snapshot": "早期台語電影與文化",
+      "credits_snapshot": 3.0,
+      "requirement_group": "elective",
+      "notes": "",
+      "source_page": 1,
+      "evidence_match": true,
+      "validation_status": "needs_course_code_verification",
+      "uncertainty_reason": "Official PDF table does not provide a course code"
+    }
+  ],
+  "structured_requirements": {
+    "minimum_total_credits": 9,
+    "core_credits_text_value": 3,
+    "minimum_outside_home_department_credits": 3
+  }
+}

@@ -1,0 +1,494 @@
+{
+  "program_id": "prog_9c8e67bbb0db56d7",
+  "name_zh": "STREAM 永續發展培力微學程",
+  "name_en": null,
+  "previous_names": [],
+  "type": "micro_program",
+  "status": "active",
+  "description": "為因應跨領域、學習與生活結合的「核心素養」人才培育,STREAM 永續發展培力微學程之發展重點與特色包含以下:\n一、將 STREAM 跨領域學習與永續發展議題相結合,促進學生思考具社會關懷與永續發展的跨領域學習知能。\n1.\t學習將 STREAM 跨領域知識透過創意與設計的歷程,具體展現\nSTREAM 的實踐。\n2.\t培養有意從事教育工作的學生,學習 STREAM 跨領域教學相關的技巧與知能。",
+  "responsible_unit": "教育所",
+  "coordinator": "楊淑晴教授",
+  "program_website": "https://sites.google.com/g-mail.nsysu.edu.tw/stream?usp=sharing",
+  "source_pdf": "http://140.117.153.69/ctdr/files/20240531151425929.pdf",
+  "academic_version": "115-1",
+  "source": {
+    "catalog_url": "https://ctdr.nsysu.edu.tw/class2.php",
+    "pdf_url": "http://140.117.153.69/ctdr/files/20240531151425929.pdf",
+    "retrieved_at": "2026-08-15T10:05:39Z",
+    "pdf_binary_sha256": "8938f563ebdc3bcfdb52952bf815a3d0dc22223703aee50858a6613b1079f9e7",
+    "normalized_text_sha256": "8d283bc491e39c2dd11a5d5d4a63a4b9b248d08a237533b68ce1ccf79235f3b6",
+    "http": {
+      "status": 200,
+      "etag": "\"2fd56-619babbd180b1\"",
+      "last_modified": "Fri, 31 May 2024 07:14:25 GMT",
+      "content_length": 195926
+    },
+    "parser_version": "0.1.0"
+  },
+  "review_status": "needs_review",
+  "rules": {
+    "kind": "manual_review",
+    "reason": "Extracted candidate awaits approval"
+  },
+  "warnings": [
+    "No structured course rows extracted from PDF tables"
+  ],
+  "selected_pdf_academic_version": "112-2",
+  "course_catalog": [
+    {
+      "course_code": null,
+      "opening_units": [
+        "教育所"
+      ],
+      "opening_unit_snapshot": "教育所",
+      "course_name_snapshot": "STEM教育研究",
+      "credits_snapshot": 3.0,
+      "requirement_group": "core",
+      "notes": "",
+      "source_page": 1,
+      "evidence_match": true,
+      "validation_status": "needs_course_code_verification",
+      "uncertainty_reason": "Official PDF table does not provide a course code"
+    },
+    {
+      "course_code": null,
+      "opening_units": [
+        "教育所"
+      ],
+      "opening_unit_snapshot": "教育所",
+      "course_name_snapshot": "STREAM探究與實作",
+      "credits_snapshot": 3.0,
+      "requirement_group": "core",
+      "notes": "",
+      "source_page": 1,
+      "evidence_match": true,
+      "validation_status": "needs_course_code_verification",
+      "uncertainty_reason": "Official PDF table does not provide a course code"
+    },
+    {
+      "course_code": null,
+      "opening_units": [
+        "教育所"
+      ],
+      "opening_unit_snapshot": "教育所",
+      "course_name_snapshot": "跨領域STREAM教育專題研究",
+      "credits_snapshot": 3.0,
+      "requirement_group": "core",
+      "notes": "",
+      "source_page": 1,
+      "evidence_match": true,
+      "validation_status": "needs_course_code_verification",
+      "uncertainty_reason": "Official PDF table does not provide a course code"
+    },
+    {
+      "course_code": null,
+      "opening_units": [
+        "中學學程"
+      ],
+      "opening_unit_snapshot": "中學學程",
+      "course_name_snapshot": "服務學習:STEAM跨領域合作及推廣教育",
+      "credits_snapshot": 2.0,
+      "requirement_group": "core",
+      "notes": "中學學程須另繳學分費",
+      "source_page": 1,
+      "evidence_match": false,
+      "validation_status": "needs_course_code_verification",
+      "uncertainty_reason": "Official PDF table does not provide a course code"
+    },
+    {
+      "course_code": null,
+      "opening_units": [
+        "中學學程"
+      ],
+      "opening_unit_snapshot": "中學學程",
+      "course_name_snapshot": "探究與實作",
+      "credits_snapshot": 2.0,
+      "requirement_group": "core",
+      "notes": "中學學程須另繳學分費",
+      "source_page": 1,
+      "evidence_match": true,
+      "validation_status": "needs_course_code_verification",
+      "uncertainty_reason": "Official PDF table does not provide a course code"
+    },
+    {
+      "course_code": null,
+      "opening_units": [
+        "中學學程"
+      ],
+      "opening_unit_snapshot": "中學學程",
+      "course_name_snapshot": "社會領域探究與實作專題",
+      "credits_snapshot": 2.0,
+      "requirement_group": "core",
+      "notes": "中學學程須另繳學分費",
+      "source_page": 1,
+      "evidence_match": true,
+      "validation_status": "needs_course_code_verification",
+      "uncertainty_reason": "Official PDF table does not provide a course code"
+    },
+    {
+      "course_code": null,
+      "opening_units": [
+        "中學學程"
+      ],
+      "opening_unit_snapshot": "中學學程",
+      "course_name_snapshot": "戶外探索教育與應用",
+      "credits_snapshot": 2.0,
+      "requirement_group": "core",
+      "notes": "中學學程須另繳學分費",
+      "source_page": 1,
+      "evidence_match": true,
+      "validation_status": "needs_course_code_verification",
+      "uncertainty_reason": "Official PDF table does not provide a course code"
+    },
+    {
+      "course_code": null,
+      "opening_units": [
+        "教育所"
+      ],
+      "opening_unit_snapshot": "教育所",
+      "course_name_snapshot": "學習科學:理論與實踐",
+      "credits_snapshot": 3.0,
+      "requirement_group": "elective",
+      "notes": "英語授課",
+      "source_page": 1,
+      "evidence_match": true,
+      "validation_status": "needs_course_code_verification",
+      "uncertainty_reason": "Official PDF table does not provide a course code"
+    },
+    {
+      "course_code": null,
+      "opening_units": [
+        "教育所"
+      ],
+      "opening_unit_snapshot": "教育所",
+      "course_name_snapshot": "創意思考與教學研究",
+      "credits_snapshot": 3.0,
+      "requirement_group": "elective",
+      "notes": "",
+      "source_page": 1,
+      "evidence_match": true,
+      "validation_status": "needs_course_code_verification",
+      "uncertainty_reason": "Official PDF table does not provide a course code"
+    },
+    {
+      "course_code": null,
+      "opening_units": [
+        "教育所"
+      ],
+      "opening_unit_snapshot": "教育所",
+      "course_name_snapshot": "非制式科學教育研究",
+      "credits_snapshot": 3.0,
+      "requirement_group": "elective",
+      "notes": "",
+      "source_page": 1,
+      "evidence_match": true,
+      "validation_status": "needs_course_code_verification",
+      "uncertainty_reason": "Official PDF table does not provide a course code"
+    },
+    {
+      "course_code": null,
+      "opening_units": [
+        "教育所"
+      ],
+      "opening_unit_snapshot": "教育所",
+      "course_name_snapshot": "科技素養研究",
+      "credits_snapshot": 3.0,
+      "requirement_group": "elective",
+      "notes": "",
+      "source_page": 1,
+      "evidence_match": true,
+      "validation_status": "needs_course_code_verification",
+      "uncertainty_reason": "Official PDF table does not provide a course code"
+    },
+    {
+      "course_code": null,
+      "opening_units": [
+        "中學學程"
+      ],
+      "opening_unit_snapshot": "中學學程",
+      "course_name_snapshot": "科學素養課程教學與評量",
+      "credits_snapshot": 2.0,
+      "requirement_group": "elective",
+      "notes": "中學學程須另繳學分費",
+      "source_page": 1,
+      "evidence_match": true,
+      "validation_status": "needs_course_code_verification",
+      "uncertainty_reason": "Official PDF table does not provide a course code"
+    },
+    {
+      "course_code": null,
+      "opening_units": [
+        "中學學程"
+      ],
+      "opening_unit_snapshot": "中學學程",
+      "course_name_snapshot": "閱讀素養課程教學與評量",
+      "credits_snapshot": 2.0,
+      "requirement_group": "elective",
+      "notes": "中學學程須另繳學分費",
+      "source_page": 1,
+      "evidence_match": true,
+      "validation_status": "needs_course_code_verification",
+      "uncertainty_reason": "Official PDF table does not provide a course code"
+    },
+    {
+      "course_code": null,
+      "opening_units": [
+        "西灣學院"
+      ],
+      "opening_unit_snapshot": "西灣學院",
+      "course_name_snapshot": "科學探究的應用",
+      "credits_snapshot": 2.0,
+      "requirement_group": "elective",
+      "notes": "",
+      "source_page": 1,
+      "evidence_match": true,
+      "validation_status": "needs_course_code_verification",
+      "uncertainty_reason": "Official PDF table does not provide a course code"
+    },
+    {
+      "course_code": null,
+      "opening_units": [
+        "西灣學院"
+      ],
+      "opening_unit_snapshot": "西灣學院",
+      "course_name_snapshot": "科學與社會:現代公民的科學議題",
+      "credits_snapshot": 3.0,
+      "requirement_group": "elective",
+      "notes": "",
+      "source_page": 1,
+      "evidence_match": true,
+      "validation_status": "needs_course_code_verification",
+      "uncertainty_reason": "Official PDF table does not provide a course code"
+    },
+    {
+      "course_code": null,
+      "opening_units": [
+        "人科學程"
+      ],
+      "opening_unit_snapshot": "人科學程",
+      "course_name_snapshot": "綠色創新設計",
+      "credits_snapshot": 3.0,
+      "requirement_group": "elective",
+      "notes": "",
+      "source_page": 1,
+      "evidence_match": true,
+      "validation_status": "needs_course_code_verification",
+      "uncertainty_reason": "Official PDF table does not provide a course code"
+    },
+    {
+      "course_code": null,
+      "opening_units": [
+        "人科學程"
+      ],
+      "opening_unit_snapshot": "人科學程",
+      "course_name_snapshot": "創意設計方法",
+      "credits_snapshot": 3.0,
+      "requirement_group": "elective",
+      "notes": "",
+      "source_page": 1,
+      "evidence_match": true,
+      "validation_status": "needs_course_code_verification",
+      "uncertainty_reason": "Official PDF table does not provide a course code"
+    },
+    {
+      "course_code": null,
+      "opening_units": [
+        "人科學程"
+      ],
+      "opening_unit_snapshot": "人科學程",
+      "course_name_snapshot": "設計溝通與表達",
+      "credits_snapshot": 3.0,
+      "requirement_group": "elective",
+      "notes": "",
+      "source_page": 1,
+      "evidence_match": true,
+      "validation_status": "needs_course_code_verification",
+      "uncertainty_reason": "Official PDF table does not provide a course code"
+    },
+    {
+      "course_code": null,
+      "opening_units": [
+        "西灣學院"
+      ],
+      "opening_unit_snapshot": "西灣學院",
+      "course_name_snapshot": "邏輯推理與創造性思維",
+      "credits_snapshot": 3.0,
+      "requirement_group": "elective",
+      "notes": "",
+      "source_page": 1,
+      "evidence_match": true,
+      "validation_status": "needs_course_code_verification",
+      "uncertainty_reason": "Official PDF table does not provide a course code"
+    },
+    {
+      "course_code": null,
+      "opening_units": [
+        "西灣學院"
+      ],
+      "opening_unit_snapshot": "西灣學院",
+      "course_name_snapshot": "創意繪畫之美學實踐",
+      "credits_snapshot": 2.0,
+      "requirement_group": "elective",
+      "notes": "",
+      "source_page": 1,
+      "evidence_match": true,
+      "validation_status": "needs_course_code_verification",
+      "uncertainty_reason": "Official PDF table does not provide a course code"
+    },
+    {
+      "course_code": null,
+      "opening_units": [
+        "人科學程"
+      ],
+      "opening_unit_snapshot": "人科學程",
+      "course_name_snapshot": "設計思考",
+      "credits_snapshot": 3.0,
+      "requirement_group": "elective",
+      "notes": "",
+      "source_page": 1,
+      "evidence_match": true,
+      "validation_status": "needs_course_code_verification",
+      "uncertainty_reason": "Official PDF table does not provide a course code"
+    },
+    {
+      "course_code": null,
+      "opening_units": [
+        "西灣學院"
+      ],
+      "opening_unit_snapshot": "西灣學院",
+      "course_name_snapshot": "文化設計與展演",
+      "credits_snapshot": 3.0,
+      "requirement_group": "elective",
+      "notes": "",
+      "source_page": 1,
+      "evidence_match": true,
+      "validation_status": "needs_course_code_verification",
+      "uncertainty_reason": "Official PDF table does not provide a course code"
+    },
+    {
+      "course_code": null,
+      "opening_units": [
+        "西灣學院"
+      ],
+      "opening_unit_snapshot": "西灣學院",
+      "course_name_snapshot": "跨領域創新專題(一)",
+      "credits_snapshot": 3.0,
+      "requirement_group": "elective",
+      "notes": "",
+      "source_page": 1,
+      "evidence_match": true,
+      "validation_status": "needs_course_code_verification",
+      "uncertainty_reason": "Official PDF table does not provide a course code"
+    },
+    {
+      "course_code": null,
+      "opening_units": [
+        "教育所"
+      ],
+      "opening_unit_snapshot": "教育所",
+      "course_name_snapshot": "永續發展教育研究",
+      "credits_snapshot": 3.0,
+      "requirement_group": "elective",
+      "notes": "",
+      "source_page": 1,
+      "evidence_match": true,
+      "validation_status": "needs_course_code_verification",
+      "uncertainty_reason": "Official PDF table does not provide a course code"
+    },
+    {
+      "course_code": null,
+      "opening_units": [
+        "社會創新研究所"
+      ],
+      "opening_unit_snapshot": "社會創新研究所",
+      "course_name_snapshot": "全球與在地永續發展議題探討",
+      "credits_snapshot": 3.0,
+      "requirement_group": "elective",
+      "notes": "",
+      "source_page": 1,
+      "evidence_match": true,
+      "validation_status": "needs_course_code_verification",
+      "uncertainty_reason": "Official PDF table does not provide a course code"
+    },
+    {
+      "course_code": null,
+      "opening_units": [
+        "化學系"
+      ],
+      "opening_unit_snapshot": "化學系",
+      "course_name_snapshot": "氣膠科學導論",
+      "credits_snapshot": 3.0,
+      "requirement_group": "elective",
+      "notes": "",
+      "source_page": 1,
+      "evidence_match": true,
+      "validation_status": "needs_course_code_verification",
+      "uncertainty_reason": "Official PDF table does not provide a course code"
+    },
+    {
+      "course_code": null,
+      "opening_units": [
+        "海科院"
+      ],
+      "opening_unit_snapshot": "海科院",
+      "course_name_snapshot": "環境教育",
+      "credits_snapshot": 2.0,
+      "requirement_group": "elective",
+      "notes": "",
+      "source_page": 1,
+      "evidence_match": true,
+      "validation_status": "needs_course_code_verification",
+      "uncertainty_reason": "Official PDF table does not provide a course code"
+    },
+    {
+      "course_code": null,
+      "opening_units": [
+        "環工所"
+      ],
+      "opening_unit_snapshot": "環工所",
+      "course_name_snapshot": "環境決策與管理",
+      "credits_snapshot": 3.0,
+      "requirement_group": "elective",
+      "notes": "",
+      "source_page": 1,
+      "evidence_match": true,
+      "validation_status": "needs_course_code_verification",
+      "uncertainty_reason": "Official PDF table does not provide a course code"
+    },
+    {
+      "course_code": null,
+      "opening_units": [
+        "西灣學院"
+      ],
+      "opening_unit_snapshot": "西灣學院",
+      "course_name_snapshot": "污染防治與環境管理",
+      "credits_snapshot": 2.0,
+      "requirement_group": "elective",
+      "notes": "",
+      "source_page": 1,
+      "evidence_match": true,
+      "validation_status": "needs_course_code_verification",
+      "uncertainty_reason": "Official PDF table does not provide a course code"
+    },
+    {
+      "course_code": null,
+      "opening_units": [
+        "西灣學院"
+      ],
+      "opening_unit_snapshot": "西灣學院",
+      "course_name_snapshot": "博雅向度六:自然環境、生態及其永續",
+      "credits_snapshot": 3.0,
+      "requirement_group": "elective",
+      "notes": "",
+      "source_page": 1,
+      "evidence_match": false,
+      "validation_status": "needs_course_code_verification",
+      "uncertainty_reason": "Official PDF table does not provide a course code"
+    }
+  ],
+  "structured_requirements": {
+    "minimum_total_credits": 9,
+    "core_credits_text_value": 15,
+    "minimum_outside_home_department_credits": 3
+  }
+}

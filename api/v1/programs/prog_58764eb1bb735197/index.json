@@ -1,0 +1,529 @@
+{
+  "program_id": "prog_58764eb1bb735197",
+  "latest_academic_version": "115-1",
+  "versions": [
+    "115-1"
+  ],
+  "program": {
+    "program_id": "prog_58764eb1bb735197",
+    "name_zh": "實用英語跨域學程 Practical English Cross-Disciplinary Program 【全英語學程】(Program Taught in English)",
+    "name_en": null,
+    "previous_names": [],
+    "type": "integrated_program",
+    "status": "active",
+    "description": "提升學生聽說讀寫英語能力、加強學生學術知能與素養增進學生職場溝通技能、競爭力及國際觀。\nThis diverse and innovative program aims to improve students’ English skills in listening, speaking, reading, and writing, strengthen students’ cross-disciplinary academic knowledge and literacy, and enhance students’ workplace communication skills, competitiveness, and international outlook.",
+    "responsible_unit": "外文系",
+    "coordinator": "黃舒屏副教授",
+    "program_website": "https://cm-siwan.nsysu.edu.tw/p/406-1353-319519,r5482.php",
+    "source_pdf": "http://140.117.153.69/ctdr/files/20260701141046300.pdf",
+    "academic_version": "115-1",
+    "source": {
+      "catalog_url": "https://ctdr.nsysu.edu.tw/class2.php",
+      "pdf_url": "http://140.117.153.69/ctdr/files/20260701141046300.pdf",
+      "retrieved_at": "2026-08-15T10:05:39Z",
+      "pdf_binary_sha256": "feb7440ac9f3dd8a2edc8497720e112dad3aae462af983b7a835922bd09259ef",
+      "normalized_text_sha256": "d4432b7f91e2b03621f8a9c520c6e07290e462df355b34ed236e62e464893f31",
+      "http": {
+        "status": 200,
+        "etag": "\"3d496-655868d626742\"",
+        "last_modified": "Wed, 01 Jul 2026 06:10:46 GMT",
+        "content_length": 251030
+      },
+      "parser_version": "0.1.0"
+    },
+    "review_status": "needs_review",
+    "rules": {
+      "kind": "manual_review",
+      "reason": "Extracted candidate awaits approval"
+    },
+    "warnings": [],
+    "selected_pdf_academic_version": "114-2",
+    "course_catalog": [
+      {
+        "course_code": null,
+        "opening_units": [
+          "基礎教育中心"
+        ],
+        "opening_unit_snapshot": "基礎教育中心",
+        "course_name_snapshot": "英文學術寫作ENGLISH ACADEMIC WRITING",
+        "credits_snapshot": 3.0,
+        "requirement_group": "core",
+        "notes": "",
+        "source_page": 1,
+        "evidence_match": false,
+        "validation_status": "needs_course_code_verification",
+        "uncertainty_reason": "Official PDF table does not provide a course code"
+      },
+      {
+        "course_code": null,
+        "opening_units": [
+          "跨院EAP"
+        ],
+        "opening_unit_snapshot": "跨院EAP",
+        "course_name_snapshot": "演說與辯論(高級)PUBLIC SPEECH AND DEBATE ( ADVANCED LEVEL)",
+        "credits_snapshot": 3.0,
+        "requirement_group": "core",
+        "notes": "",
+        "source_page": 1,
+        "evidence_match": false,
+        "validation_status": "needs_course_code_verification",
+        "uncertainty_reason": "Official PDF table does not provide a course code"
+      },
+      {
+        "course_code": null,
+        "opening_units": [
+          "英語文(選)"
+        ],
+        "opening_unit_snapshot": "英語文(選)",
+        "course_name_snapshot": "科技英文ENGLISH FOR SCIENCE AND TECHNOLOGY",
+        "credits_snapshot": 3.0,
+        "requirement_group": "core",
+        "notes": "適用所有核准修習本學程學生。",
+        "source_page": 1,
+        "evidence_match": false,
+        "validation_status": "needs_course_code_verification",
+        "uncertainty_reason": "Official PDF table does not provide a course code"
+      },
+      {
+        "course_code": null,
+        "opening_units": [
+          "跨院EAP"
+        ],
+        "opening_unit_snapshot": "跨院EAP",
+        "course_name_snapshot": "科技英文(高級)ENGLISH FOR SCIENCE AND TECHNOLOGY( ADVANCED LEVEL)",
+        "credits_snapshot": 3.0,
+        "requirement_group": "core",
+        "notes": "適用所有核准修習本學程學生。",
+        "source_page": 1,
+        "evidence_match": false,
+        "validation_status": "needs_course_code_verification",
+        "uncertainty_reason": "Official PDF table does not provide a course code"
+      },
+      {
+        "course_code": null,
+        "opening_units": [
+          "基礎教育中心"
+        ],
+        "opening_unit_snapshot": "基礎教育中心",
+        "course_name_snapshot": "科技英文閱讀ENGLISH READING FOR SCIENCE AND TECHNOLOGY",
+        "credits_snapshot": 3.0,
+        "requirement_group": "core",
+        "notes": "為相同課程,不得重複修習,僅能認列其中一門。適用所有核准修習本學程學生。",
+        "source_page": 1,
+        "evidence_match": false,
+        "validation_status": "needs_course_code_verification",
+        "uncertainty_reason": "Official PDF table does not provide a course code"
+      },
+      {
+        "course_code": null,
+        "opening_units": [
+          "跨院ESP"
+        ],
+        "opening_unit_snapshot": "跨院ESP",
+        "course_name_snapshot": "國際會展英語(中高級)INTERNATIONAL ENGLISH FOR MICE:MEETING,INCENTIVES,CONVENTIONS,EXHIBITIONS(HIGH-INTERMEDIATE LEVEL",
+        "credits_snapshot": 3.0,
+        "requirement_group": "core",
+        "notes": "適用所有核准修習本學程學生。",
+        "source_page": 1,
+        "evidence_match": false,
+        "validation_status": "needs_course_code_verification",
+        "uncertainty_reason": "Official PDF table does not provide a course code"
+      },
+      {
+        "course_code": null,
+        "opening_units": [
+          "博雅教育中心"
+        ],
+        "opening_unit_snapshot": "博雅教育中心",
+        "course_name_snapshot": "社會文化分析SOCIO-CULTURAL ANALYSIS",
+        "credits_snapshot": 3.0,
+        "requirement_group": "core",
+        "notes": "",
+        "source_page": 1,
+        "evidence_match": false,
+        "validation_status": "needs_course_code_verification",
+        "uncertainty_reason": "Official PDF table does not provide a course code"
+      },
+      {
+        "course_code": null,
+        "opening_units": [
+          "基礎教育中心"
+        ],
+        "opening_unit_snapshot": "基礎教育中心",
+        "course_name_snapshot": "從英語課程學習多元文化DEVELOPING MULTICULTURAL AWARENESS IN ENGLISH CLASSROOM",
+        "credits_snapshot": 3.0,
+        "requirement_group": "core",
+        "notes": "為相同課程,不得重複修習,僅能認列其中一門。",
+        "source_page": 2,
+        "evidence_match": false,
+        "validation_status": "needs_course_code_verification",
+        "uncertainty_reason": "Official PDF table does not provide a course code"
+      },
+      {
+        "course_code": null,
+        "opening_units": [
+          "跨院ESP"
+        ],
+        "opening_unit_snapshot": "跨院ESP",
+        "course_name_snapshot": "從英語課程學習多元文化(中高級)DEVELOPING MULTICULTURAL AWARENESS IN ENGLISH CLASSROOM(HIGH-INTERMEDIATE LEVEL)",
+        "credits_snapshot": 3.0,
+        "requirement_group": "core",
+        "notes": "",
+        "source_page": 2,
+        "evidence_match": false,
+        "validation_status": "needs_course_code_verification",
+        "uncertainty_reason": "Official PDF table does not provide a course code"
+      },
+      {
+        "course_code": null,
+        "opening_units": [
+          "基礎教育中心"
+        ],
+        "opening_unit_snapshot": "基礎教育中心",
+        "course_name_snapshot": "透過實用性英語增進溝通能力IMPROVING COMMUNICATION SKILLS THROUGH FUNCTIONAL ENGLISH",
+        "credits_snapshot": 3.0,
+        "requirement_group": "core",
+        "notes": "為相同課程,不得重複修習,僅能認列其中一門。",
+        "source_page": 2,
+        "evidence_match": false,
+        "validation_status": "needs_course_code_verification",
+        "uncertainty_reason": "Official PDF table does not provide a course code"
+      },
+      {
+        "course_code": null,
+        "opening_units": [
+          "跨院EAP"
+        ],
+        "opening_unit_snapshot": "跨院EAP",
+        "course_name_snapshot": "透過實用性英語增進溝通能力(中級)IMPROVING COMMUNICATION SKILLS THROUGH FUNCTIONAL ENGLISH(INTERMEDIATE LEVEL)",
+        "credits_snapshot": 3.0,
+        "requirement_group": "core",
+        "notes": "",
+        "source_page": 2,
+        "evidence_match": false,
+        "validation_status": "needs_course_code_verification",
+        "uncertainty_reason": "Official PDF table does not provide a course code"
+      },
+      {
+        "course_code": null,
+        "opening_units": [
+          "基礎教育中心"
+        ],
+        "opening_unit_snapshot": "基礎教育中心",
+        "course_name_snapshot": "通過體驗式學習自信地說英語SPEAKING ENGLISH WITH CONFIDENCE THROUGH EXPERIENTIAL LEARNING",
+        "credits_snapshot": 3.0,
+        "requirement_group": "core",
+        "notes": "為相同課程,不得重複修習,僅能認列其中一門。適用所有核准修習本學程學生。",
+        "source_page": 2,
+        "evidence_match": false,
+        "validation_status": "needs_course_code_verification",
+        "uncertainty_reason": "Official PDF table does not provide a course code"
+      },
+      {
+        "course_code": null,
+        "opening_units": [
+          "跨院EAP"
+        ],
+        "opening_unit_snapshot": "跨院EAP",
+        "course_name_snapshot": "通過體驗式學習自信地說英語(中級)SPEAKING ENGLISH WITH CONFIDENCE THROUGH EXPERIENTIAL LEARNING(INTERMEDIATE LEVEL)",
+        "credits_snapshot": 3.0,
+        "requirement_group": "core",
+        "notes": "",
+        "source_page": 2,
+        "evidence_match": false,
+        "validation_status": "needs_course_code_verification",
+        "uncertainty_reason": "Official PDF table does not provide a course code"
+      },
+      {
+        "course_code": null,
+        "opening_units": [
+          "跨院 EAP"
+        ],
+        "opening_unit_snapshot": "跨院 EAP",
+        "course_name_snapshot": "通過體驗式學習自信地說英語(中高級)",
+        "credits_snapshot": 3.0,
+        "requirement_group": "core",
+        "notes": "",
+        "source_page": 2,
+        "evidence_match": false,
+        "validation_status": "needs_course_code_verification",
+        "uncertainty_reason": "Official PDF table does not provide a course code"
+      },
+      {
+        "course_code": null,
+        "opening_units": [
+          "基礎教育中心"
+        ],
+        "opening_unit_snapshot": "基礎教育中心",
+        "course_name_snapshot": "觀光英語TOURISM ENGLISH",
+        "credits_snapshot": 3.0,
+        "requirement_group": "elective",
+        "notes": "",
+        "source_page": 2,
+        "evidence_match": false,
+        "validation_status": "needs_course_code_verification",
+        "uncertainty_reason": "Official PDF table does not provide a course code"
+      },
+      {
+        "course_code": null,
+        "opening_units": [
+          "基礎教育中心"
+        ],
+        "opening_unit_snapshot": "基礎教育中心",
+        "course_name_snapshot": "成功的英文寫作WRITING FOR SUCCESS IN ENGLISH",
+        "credits_snapshot": 3.0,
+        "requirement_group": "elective",
+        "notes": "為相同課程,不得重複修習,僅能認列其中一門。",
+        "source_page": 2,
+        "evidence_match": false,
+        "validation_status": "needs_course_code_verification",
+        "uncertainty_reason": "Official PDF table does not provide a course code"
+      },
+      {
+        "course_code": null,
+        "opening_units": [
+          "基礎教育中心"
+        ],
+        "opening_unit_snapshot": "基礎教育中心",
+        "course_name_snapshot": "英文商業書信ENGLISH BUSINESS CORRESPONDENCE",
+        "credits_snapshot": 3.0,
+        "requirement_group": "elective",
+        "notes": "為相同課程,不得重複修習,僅能認列其中一門。",
+        "source_page": 3,
+        "evidence_match": false,
+        "validation_status": "needs_course_code_verification",
+        "uncertainty_reason": "Official PDF table does not provide a course code"
+      },
+      {
+        "course_code": null,
+        "opening_units": [
+          "跨院ESP"
+        ],
+        "opening_unit_snapshot": "跨院ESP",
+        "course_name_snapshot": "臨床醫護英語(中高級)NURSING ENGLISH FOR CLINICAL PURPOSES (HIGH-INTERMEDIATE LEVEL)",
+        "credits_snapshot": 3.0,
+        "requirement_group": "elective",
+        "notes": "",
+        "source_page": 3,
+        "evidence_match": false,
+        "validation_status": "needs_course_code_verification",
+        "uncertainty_reason": "Official PDF table does not provide a course code"
+      },
+      {
+        "course_code": null,
+        "opening_units": [
+          "跨院ESP"
+        ],
+        "opening_unit_snapshot": "跨院ESP",
+        "course_name_snapshot": "餐飲業實用英語(中級)ENGLISH FOR RESTAURANT BUSINESS (INTERMEDIATE LEVEL)",
+        "credits_snapshot": 3.0,
+        "requirement_group": "elective",
+        "notes": "",
+        "source_page": 3,
+        "evidence_match": false,
+        "validation_status": "needs_course_code_verification",
+        "uncertainty_reason": "Official PDF table does not provide a course code"
+      },
+      {
+        "course_code": null,
+        "opening_units": [
+          "跨院ESP"
+        ],
+        "opening_unit_snapshot": "跨院ESP",
+        "course_name_snapshot": "職場英文(中級)ENGLISH FOR THE WORKPLACE(INTERMEDIAT E LEVEL)",
+        "credits_snapshot": 3.0,
+        "requirement_group": "elective",
+        "notes": "",
+        "source_page": 3,
+        "evidence_match": false,
+        "validation_status": "needs_course_code_verification",
+        "uncertainty_reason": "Official PDF table does not provide a course code"
+      },
+      {
+        "course_code": null,
+        "opening_units": [
+          "跨院ESP"
+        ],
+        "opening_unit_snapshot": "跨院ESP",
+        "course_name_snapshot": "社會科學英文(高級)ENGLISH FOR SOCIAL SCIENCES (ADVANCED LEVEL)",
+        "credits_snapshot": 3.0,
+        "requirement_group": "elective",
+        "notes": "",
+        "source_page": 3,
+        "evidence_match": false,
+        "validation_status": "needs_course_code_verification",
+        "uncertainty_reason": "Official PDF table does not provide a course code"
+      },
+      {
+        "course_code": null,
+        "opening_units": [
+          "跨院EAP"
+        ],
+        "opening_unit_snapshot": "跨院EAP",
+        "course_name_snapshot": "英語簡報與口語表達(中高級)ENGLISH PRESENTATION AND ORAL EXPRESSION(HIGH-INTERMEDIATE LEVEL)",
+        "credits_snapshot": 3.0,
+        "requirement_group": "elective",
+        "notes": "",
+        "source_page": 3,
+        "evidence_match": false,
+        "validation_status": "needs_course_code_verification",
+        "uncertainty_reason": "Official PDF table does not provide a course code"
+      },
+      {
+        "course_code": null,
+        "opening_units": [
+          "跨院EAP"
+        ],
+        "opening_unit_snapshot": "跨院EAP",
+        "course_name_snapshot": "實用英語發音與表達(中級)PRACTICAL ENGLISH PRONUNCIATION &EXPRESSION(INTERMEDIAT E LEVEL)",
+        "credits_snapshot": 3.0,
+        "requirement_group": "elective",
+        "notes": "",
+        "source_page": 3,
+        "evidence_match": false,
+        "validation_status": "needs_course_code_verification",
+        "uncertainty_reason": "Official PDF table does not provide a course code"
+      },
+      {
+        "course_code": null,
+        "opening_units": [
+          "跨院ESP"
+        ],
+        "opening_unit_snapshot": "跨院ESP",
+        "course_name_snapshot": "影視英文 (高級)REFINING ENGLISH THROUGH FILM AND TELEVISION APPRECIATION(ADVANCED LEVEL)",
+        "credits_snapshot": 3.0,
+        "requirement_group": "elective",
+        "notes": "",
+        "source_page": 4,
+        "evidence_match": false,
+        "validation_status": "needs_course_code_verification",
+        "uncertainty_reason": "Official PDF table does not provide a course code"
+      },
+      {
+        "course_code": null,
+        "opening_units": [
+          "跨院ESP"
+        ],
+        "opening_unit_snapshot": "跨院ESP",
+        "course_name_snapshot": "賞析音樂學英語(中級)LEARNING ENGLISH THROUGH MUSIC APPRECIATION(INTERMEDIATE LEVEL)",
+        "credits_snapshot": 3.0,
+        "requirement_group": "elective",
+        "notes": "",
+        "source_page": 4,
+        "evidence_match": false,
+        "validation_status": "needs_course_code_verification",
+        "uncertainty_reason": "Official PDF table does not provide a course code"
+      },
+      {
+        "course_code": null,
+        "opening_units": [
+          "跨院ESP"
+        ],
+        "opening_unit_snapshot": "跨院ESP",
+        "course_name_snapshot": "運輸交通工具英文(中高級)ENGLISH FOR TRANSPORT(HIGH-INTERMEDIATE LEVEL)",
+        "credits_snapshot": 3.0,
+        "requirement_group": "elective",
+        "notes": "",
+        "source_page": 4,
+        "evidence_match": false,
+        "validation_status": "needs_course_code_verification",
+        "uncertainty_reason": "Official PDF table does not provide a course code"
+      },
+      {
+        "course_code": null,
+        "opening_units": [
+          "跨院EAP"
+        ],
+        "opening_unit_snapshot": "跨院EAP",
+        "course_name_snapshot": "英文閱讀與寫作(中高級)ENGLISH READING AND WRITING (HIGH-INTERMEDIATE LEVEL)",
+        "credits_snapshot": 3.0,
+        "requirement_group": "elective",
+        "notes": "",
+        "source_page": 4,
+        "evidence_match": false,
+        "validation_status": "needs_course_code_verification",
+        "uncertainty_reason": "Official PDF table does not provide a course code"
+      },
+      {
+        "course_code": null,
+        "opening_units": [
+          "跨院ESP"
+        ],
+        "opening_unit_snapshot": "跨院ESP",
+        "course_name_snapshot": "透過電影學英文(中高級)LEARNING ENGLISH THROUGH MOVIES (HIGH-INTERMEDIATE LEVEL)",
+        "credits_snapshot": 3.0,
+        "requirement_group": "elective",
+        "notes": "",
+        "source_page": 4,
+        "evidence_match": false,
+        "validation_status": "needs_course_code_verification",
+        "uncertainty_reason": "Official PDF table does not provide a course code"
+      },
+      {
+        "course_code": null,
+        "opening_units": [
+          "跨院EAP"
+        ],
+        "opening_unit_snapshot": "跨院EAP",
+        "course_name_snapshot": "極限閱讀:挑戰想像力與創造力(中高級)EXTREME READING:CHALLENGES OF IMAGINATION AND CREATIVITY(HIGH-INTERMEDIATE LEVEL)",
+        "credits_snapshot": 3.0,
+        "requirement_group": "elective",
+        "notes": "",
+        "source_page": 4,
+        "evidence_match": false,
+        "validation_status": "needs_course_code_verification",
+        "uncertainty_reason": "Official PDF table does not provide a course code"
+      },
+      {
+        "course_code": null,
+        "opening_units": [
+          "跨院ESP"
+        ],
+        "opening_unit_snapshot": "跨院ESP",
+        "course_name_snapshot": "文化藝術賞析與英語溝通(高級)CRITICAL THINKING AND ENGLISH COMMUNICATIONS ON ARTS AND CULTURE(ADVANCED LEVEL)",
+        "credits_snapshot": 3.0,
+        "requirement_group": "elective",
+        "notes": "",
+        "source_page": 4,
+        "evidence_match": false,
+        "validation_status": "needs_course_code_verification",
+        "uncertainty_reason": "Official PDF table does not provide a course code"
+      },
+      {
+        "course_code": null,
+        "opening_units": [
+          "跨院ESP"
+        ],
+        "opening_unit_snapshot": "跨院ESP",
+        "course_name_snapshot": "透過國際禮儀增進專業技能(中高級)ENHANCING PROFESSIONAL SKILLS THROUGH GLOBAL ETIQUETTE (HIGH-INTERMEDIATE LEVEL)",
+        "credits_snapshot": 3.0,
+        "requirement_group": "elective",
+        "notes": "適用所有核准修習本學程學生",
+        "source_page": 5,
+        "evidence_match": false,
+        "validation_status": "needs_course_code_verification",
+        "uncertainty_reason": "Official PDF table does not provide a course code"
+      },
+      {
+        "course_code": null,
+        "opening_units": [
+          "博雅教育中心"
+        ],
+        "opening_unit_snapshot": "博雅教育中心",
+        "course_name_snapshot": "台灣政經發展POLITICAL AND ECONOMIC DEVELOPMENT IN TAIWAN",
+        "credits_snapshot": 3.0,
+        "requirement_group": "elective",
+        "notes": "適用所有核准修習本學程學生。",
+        "source_page": 5,
+        "evidence_match": false,
+        "validation_status": "needs_course_code_verification",
+        "uncertainty_reason": "Official PDF table does not provide a course code"
+      }
+    ],
+    "structured_requirements": {
+      "core_credits_text_value": 6,
+      "minimum_total_credits": 15,
+      "minimum_outside_home_department_credits": 6
+    }
+  }
+}

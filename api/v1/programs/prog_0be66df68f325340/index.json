@@ -1,0 +1,231 @@
+{
+  "program_id": "prog_0be66df68f325340",
+  "latest_academic_version": "115-1",
+  "versions": [
+    "115-1"
+  ],
+  "program": {
+    "program_id": "prog_0be66df68f325340",
+    "name_zh": "生物技術微學程",
+    "name_en": null,
+    "previous_names": [],
+    "type": "micro_program",
+    "status": "active",
+    "description": "讓學生從DNA分子的結構、複製、轉錄、轉譯的機制,瞭解生物技術的特性及原理。並瞭解目前常用生物技術的方法及在微生物、植物、動物、海洋及在醫學上之應用,同時結合海洋動物或病原菌裡所扮演的角色,包含其生理功能、結構型態、化學反應機制及調控、生合成機制以及生理代謝意義,培育具有基礎生物技術開發之人才。",
+    "responsible_unit": "海資系",
+    "coordinator": "廖睿妘助理教授",
+    "program_website": "https://mbr.nsysu.edu.tw/p/405-1260-329335,c25126.php?Lang=zh-tw",
+    "source_pdf": "http://140.117.153.69/ctdr/files/20250527102033883.pdf",
+    "academic_version": "115-1",
+    "source": {
+      "catalog_url": "https://ctdr.nsysu.edu.tw/class2.php",
+      "pdf_url": "http://140.117.153.69/ctdr/files/20250527102033883.pdf",
+      "retrieved_at": "2026-08-15T10:05:39Z",
+      "pdf_binary_sha256": "cb4a5d755eecda13daba9740582439afc79a5b8b7f84af7f2912e746ba04fc23",
+      "normalized_text_sha256": "a41e2c53ba0359cf8973f14895dcf3745e7988e300b2087c771f13e38b496761",
+      "http": {
+        "status": 200,
+        "etag": "\"36a14-63614b5941f27\"",
+        "last_modified": "Tue, 27 May 2025 02:20:33 GMT",
+        "content_length": 223764
+      },
+      "parser_version": "0.1.0"
+    },
+    "review_status": "needs_review",
+    "rules": {
+      "kind": "manual_review",
+      "reason": "Extracted candidate awaits approval"
+    },
+    "warnings": [
+      "No structured course rows extracted from PDF tables"
+    ],
+    "selected_pdf_academic_version": "113-2",
+    "course_catalog": [
+      {
+        "course_code": null,
+        "opening_units": [
+          "海資"
+        ],
+        "opening_unit_snapshot": "海資",
+        "course_name_snapshot": "生物技術",
+        "credits_snapshot": 3.0,
+        "requirement_group": "core",
+        "notes": "",
+        "source_page": 1,
+        "evidence_match": true,
+        "validation_status": "needs_course_code_verification",
+        "uncertainty_reason": "Official PDF table does not provide a course code"
+      },
+      {
+        "course_code": null,
+        "opening_units": [
+          "生科"
+        ],
+        "opening_unit_snapshot": "生科",
+        "course_name_snapshot": "生物資訊學",
+        "credits_snapshot": 3.0,
+        "requirement_group": "core",
+        "notes": "",
+        "source_page": 1,
+        "evidence_match": true,
+        "validation_status": "needs_course_code_verification",
+        "uncertainty_reason": "Official PDF table does not provide a course code"
+      },
+      {
+        "course_code": null,
+        "opening_units": [
+          "海資"
+        ],
+        "opening_unit_snapshot": "海資",
+        "course_name_snapshot": "細胞生物學",
+        "credits_snapshot": 3.0,
+        "requirement_group": "core",
+        "notes": "",
+        "source_page": 1,
+        "evidence_match": true,
+        "validation_status": "needs_course_code_verification",
+        "uncertainty_reason": "Official PDF table does not provide a course code"
+      },
+      {
+        "course_code": null,
+        "opening_units": [
+          "生科"
+        ],
+        "opening_unit_snapshot": "生科",
+        "course_name_snapshot": "生物化學分析方法",
+        "credits_snapshot": 3.0,
+        "requirement_group": "elective",
+        "notes": "",
+        "source_page": 1,
+        "evidence_match": true,
+        "validation_status": "needs_course_code_verification",
+        "uncertainty_reason": "Official PDF table does not provide a course code"
+      },
+      {
+        "course_code": null,
+        "opening_units": [
+          "生科"
+        ],
+        "opening_unit_snapshot": "生科",
+        "course_name_snapshot": "分子生物學",
+        "credits_snapshot": 3.0,
+        "requirement_group": "elective",
+        "notes": "",
+        "source_page": 1,
+        "evidence_match": true,
+        "validation_status": "needs_course_code_verification",
+        "uncertainty_reason": "Official PDF table does not provide a course code"
+      },
+      {
+        "course_code": null,
+        "opening_units": [
+          "生科"
+        ],
+        "opening_unit_snapshot": "生科",
+        "course_name_snapshot": "基因組學",
+        "credits_snapshot": 3.0,
+        "requirement_group": "elective",
+        "notes": "",
+        "source_page": 1,
+        "evidence_match": true,
+        "validation_status": "needs_course_code_verification",
+        "uncertainty_reason": "Official PDF table does not provide a course code"
+      },
+      {
+        "course_code": null,
+        "opening_units": [
+          "海資"
+        ],
+        "opening_unit_snapshot": "海資",
+        "course_name_snapshot": "生物化學實驗",
+        "credits_snapshot": 1.0,
+        "requirement_group": "elective",
+        "notes": "",
+        "source_page": 1,
+        "evidence_match": true,
+        "validation_status": "needs_course_code_verification",
+        "uncertainty_reason": "Official PDF table does not provide a course code"
+      },
+      {
+        "course_code": null,
+        "opening_units": [
+          "海資"
+        ],
+        "opening_unit_snapshot": "海資",
+        "course_name_snapshot": "分子生物學實驗",
+        "credits_snapshot": 1.0,
+        "requirement_group": "elective",
+        "notes": "",
+        "source_page": 1,
+        "evidence_match": true,
+        "validation_status": "needs_course_code_verification",
+        "uncertainty_reason": "Official PDF table does not provide a course code"
+      },
+      {
+        "course_code": null,
+        "opening_units": [
+          "海資"
+        ],
+        "opening_unit_snapshot": "海資",
+        "course_name_snapshot": "微生物學實驗",
+        "credits_snapshot": 2.0,
+        "requirement_group": "elective",
+        "notes": "",
+        "source_page": 1,
+        "evidence_match": true,
+        "validation_status": "needs_course_code_verification",
+        "uncertainty_reason": "Official PDF table does not provide a course code"
+      },
+      {
+        "course_code": null,
+        "opening_units": [
+          "海資"
+        ],
+        "opening_unit_snapshot": "海資",
+        "course_name_snapshot": "蛋白質化學",
+        "credits_snapshot": 3.0,
+        "requirement_group": "elective",
+        "notes": "",
+        "source_page": 1,
+        "evidence_match": true,
+        "validation_status": "needs_course_code_verification",
+        "uncertainty_reason": "Official PDF table does not provide a course code"
+      },
+      {
+        "course_code": null,
+        "opening_units": [
+          "海資 (碩)"
+        ],
+        "opening_unit_snapshot": "海資 (碩)",
+        "course_name_snapshot": "生物科技特論",
+        "credits_snapshot": 2.0,
+        "requirement_group": "elective",
+        "notes": "",
+        "source_page": 1,
+        "evidence_match": true,
+        "validation_status": "needs_course_code_verification",
+        "uncertainty_reason": "Official PDF table does not provide a course code"
+      },
+      {
+        "course_code": null,
+        "opening_units": [
+          "海資 (碩)"
+        ],
+        "opening_unit_snapshot": "海資 (碩)",
+        "course_name_snapshot": "植物與藻類功能性基因研究導 論",
+        "credits_snapshot": 3.0,
+        "requirement_group": "elective",
+        "notes": "",
+        "source_page": 1,
+        "evidence_match": true,
+        "validation_status": "needs_course_code_verification",
+        "uncertainty_reason": "Official PDF table does not provide a course code"
+      }
+    ],
+    "structured_requirements": {
+      "minimum_total_credits": 12,
+      "core_credits_text_value": 6,
+      "minimum_outside_home_department_credits": 3
+    }
+  }
+}

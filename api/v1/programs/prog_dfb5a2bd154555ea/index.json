@@ -1,0 +1,340 @@
+{
+  "program_id": "prog_dfb5a2bd154555ea",
+  "latest_academic_version": "115-1",
+  "versions": [
+    "115-1"
+  ],
+  "program": {
+    "program_id": "prog_dfb5a2bd154555ea",
+    "name_zh": "海洋天然物微學程",
+    "name_en": null,
+    "previous_names": [],
+    "type": "micro_program",
+    "status": "active",
+    "description": "以天然物化學之基礎學門引導出,學生對於海洋天然物之相關生物科技與科學之興趣,瞭解現階段海洋生物醫學之範疇,讓學生涉獵國內外發展概況,並爲投入就業職場預先角色模擬。",
+    "responsible_unit": "海資系",
+    "coordinator": "翁靖如教授",
+    "program_website": "https://mbr.nsysu.edu.tw/p/405-1260-329404,c25126.php?Lang=zh-tw",
+    "source_pdf": "http://140.117.153.69/ctdr/files/20250527102800928.pdf",
+    "academic_version": "115-1",
+    "source": {
+      "catalog_url": "https://ctdr.nsysu.edu.tw/class2.php",
+      "pdf_url": "http://140.117.153.69/ctdr/files/20250527102800928.pdf",
+      "retrieved_at": "2026-08-15T10:05:39Z",
+      "pdf_binary_sha256": "f6f4bb39d6725024679fdddb7d4f7c896fe1bf111733d6ff90e549e3588735da",
+      "normalized_text_sha256": "6d635d6dc6e7f8a744ed13540334391a29621c101f9f6d8246ff48133b28f5f9",
+      "http": {
+        "status": 200,
+        "etag": "\"332f4-63614d03a0539\"",
+        "last_modified": "Tue, 27 May 2025 02:28:00 GMT",
+        "content_length": 209652
+      },
+      "parser_version": "0.1.0"
+    },
+    "review_status": "needs_review",
+    "rules": {
+      "kind": "manual_review",
+      "reason": "Extracted candidate awaits approval"
+    },
+    "warnings": [
+      "No structured course rows extracted from PDF tables"
+    ],
+    "selected_pdf_academic_version": "113-2",
+    "course_catalog": [
+      {
+        "course_code": null,
+        "opening_units": [
+          "海資系"
+        ],
+        "opening_unit_snapshot": "海資系",
+        "course_name_snapshot": "天然物化學概論",
+        "credits_snapshot": 3.0,
+        "requirement_group": "core",
+        "notes": "",
+        "source_page": 1,
+        "evidence_match": true,
+        "validation_status": "needs_course_code_verification",
+        "uncertainty_reason": "Official PDF table does not provide a course code"
+      },
+      {
+        "course_code": null,
+        "opening_units": [
+          "化學系"
+        ],
+        "opening_unit_snapshot": "化學系",
+        "course_name_snapshot": "有機光譜概論",
+        "credits_snapshot": 3.0,
+        "requirement_group": "core",
+        "notes": "海資系海洋化學光譜分析亦可",
+        "source_page": 1,
+        "evidence_match": true,
+        "validation_status": "needs_course_code_verification",
+        "uncertainty_reason": "Official PDF table does not provide a course code"
+      },
+      {
+        "course_code": null,
+        "opening_units": [
+          "海資系"
+        ],
+        "opening_unit_snapshot": "海資系",
+        "course_name_snapshot": "生藥學",
+        "credits_snapshot": 3.0,
+        "requirement_group": "core",
+        "notes": "",
+        "source_page": 1,
+        "evidence_match": true,
+        "validation_status": "needs_course_code_verification",
+        "uncertainty_reason": "Official PDF table does not provide a course code"
+      },
+      {
+        "course_code": null,
+        "opening_units": [
+          "海資系"
+        ],
+        "opening_unit_snapshot": "海資系",
+        "course_name_snapshot": "生物製藥",
+        "credits_snapshot": 3.0,
+        "requirement_group": "core",
+        "notes": "",
+        "source_page": 1,
+        "evidence_match": true,
+        "validation_status": "needs_course_code_verification",
+        "uncertainty_reason": "Official PDF table does not provide a course code"
+      },
+      {
+        "course_code": null,
+        "opening_units": [
+          "海資系",
+          "碩"
+        ],
+        "opening_unit_snapshot": "海資系 / 碩",
+        "course_name_snapshot": "分子標靶與天然物開發",
+        "credits_snapshot": 2.0,
+        "requirement_group": "core",
+        "notes": "",
+        "source_page": 1,
+        "evidence_match": true,
+        "validation_status": "needs_course_code_verification",
+        "uncertainty_reason": "Official PDF table does not provide a course code"
+      },
+      {
+        "course_code": null,
+        "opening_units": [
+          "AI聯盟(學)"
+        ],
+        "opening_unit_snapshot": "AI聯盟(學)",
+        "course_name_snapshot": "人工智慧導論",
+        "credits_snapshot": 3.0,
+        "requirement_group": "core",
+        "notes": "",
+        "source_page": 1,
+        "evidence_match": true,
+        "validation_status": "needs_course_code_verification",
+        "uncertainty_reason": "Official PDF table does not provide a course code"
+      },
+      {
+        "course_code": null,
+        "opening_units": [
+          "海資系"
+        ],
+        "opening_unit_snapshot": "海資系",
+        "course_name_snapshot": "微生物學",
+        "credits_snapshot": 3.0,
+        "requirement_group": "elective",
+        "notes": "",
+        "source_page": 1,
+        "evidence_match": true,
+        "validation_status": "needs_course_code_verification",
+        "uncertainty_reason": "Official PDF table does not provide a course code"
+      },
+      {
+        "course_code": null,
+        "opening_units": [
+          "海資系"
+        ],
+        "opening_unit_snapshot": "海資系",
+        "course_name_snapshot": "訊息傳遞與藥物開發概論",
+        "credits_snapshot": 2.0,
+        "requirement_group": "elective",
+        "notes": "",
+        "source_page": 1,
+        "evidence_match": true,
+        "validation_status": "needs_course_code_verification",
+        "uncertainty_reason": "Official PDF table does not provide a course code"
+      },
+      {
+        "course_code": null,
+        "opening_units": [
+          "海資系",
+          "碩"
+        ],
+        "opening_unit_snapshot": "海資系 / 碩",
+        "course_name_snapshot": "藥物開發特論",
+        "credits_snapshot": 2.0,
+        "requirement_group": "elective",
+        "notes": "",
+        "source_page": 1,
+        "evidence_match": true,
+        "validation_status": "needs_course_code_verification",
+        "uncertainty_reason": "Official PDF table does not provide a course code"
+      },
+      {
+        "course_code": null,
+        "opening_units": [
+          "化學系"
+        ],
+        "opening_unit_snapshot": "化學系",
+        "course_name_snapshot": "食品安全分析概論",
+        "credits_snapshot": 2.0,
+        "requirement_group": "elective",
+        "notes": "",
+        "source_page": 1,
+        "evidence_match": true,
+        "validation_status": "needs_course_code_verification",
+        "uncertainty_reason": "Official PDF table does not provide a course code"
+      },
+      {
+        "course_code": null,
+        "opening_units": [
+          "海資系"
+        ],
+        "opening_unit_snapshot": "海資系",
+        "course_name_snapshot": "海洋中藥概論",
+        "credits_snapshot": 2.0,
+        "requirement_group": "elective",
+        "notes": "",
+        "source_page": 1,
+        "evidence_match": true,
+        "validation_status": "needs_course_code_verification",
+        "uncertainty_reason": "Official PDF table does not provide a course code"
+      },
+      {
+        "course_code": null,
+        "opening_units": [
+          "生科系"
+        ],
+        "opening_unit_snapshot": "生科系",
+        "course_name_snapshot": "免疫學",
+        "credits_snapshot": 3.0,
+        "requirement_group": "elective",
+        "notes": "",
+        "source_page": 1,
+        "evidence_match": true,
+        "validation_status": "needs_course_code_verification",
+        "uncertainty_reason": "Official PDF table does not provide a course code"
+      },
+      {
+        "course_code": null,
+        "opening_units": [
+          "生科系"
+        ],
+        "opening_unit_snapshot": "生科系",
+        "course_name_snapshot": "組織工程概論",
+        "credits_snapshot": 3.0,
+        "requirement_group": "elective",
+        "notes": "",
+        "source_page": 1,
+        "evidence_match": true,
+        "validation_status": "needs_course_code_verification",
+        "uncertainty_reason": "Official PDF table does not provide a course code"
+      },
+      {
+        "course_code": null,
+        "opening_units": [
+          "生科系"
+        ],
+        "opening_unit_snapshot": "生科系",
+        "course_name_snapshot": "高等細胞生物學",
+        "credits_snapshot": 3.0,
+        "requirement_group": "elective",
+        "notes": "",
+        "source_page": 1,
+        "evidence_match": true,
+        "validation_status": "needs_course_code_verification",
+        "uncertainty_reason": "Official PDF table does not provide a course code"
+      },
+      {
+        "course_code": null,
+        "opening_units": [
+          "化學系",
+          "碩"
+        ],
+        "opening_unit_snapshot": "化學系 / 碩",
+        "course_name_snapshot": "氣膠科學導論",
+        "credits_snapshot": 3.0,
+        "requirement_group": "elective",
+        "notes": "",
+        "source_page": 1,
+        "evidence_match": true,
+        "validation_status": "needs_course_code_verification",
+        "uncertainty_reason": "Official PDF table does not provide a course code"
+      },
+      {
+        "course_code": null,
+        "opening_units": [
+          "海資系"
+        ],
+        "opening_unit_snapshot": "海資系",
+        "course_name_snapshot": "疾病與海洋藥物",
+        "credits_snapshot": 2.0,
+        "requirement_group": "elective",
+        "notes": "",
+        "source_page": 1,
+        "evidence_match": true,
+        "validation_status": "needs_course_code_verification",
+        "uncertainty_reason": "Official PDF table does not provide a course code"
+      },
+      {
+        "course_code": null,
+        "opening_units": [
+          "海資系"
+        ],
+        "opening_unit_snapshot": "海資系",
+        "course_name_snapshot": "海洋生物探索與導覽實作",
+        "credits_snapshot": 2.0,
+        "requirement_group": "elective",
+        "notes": "",
+        "source_page": 1,
+        "evidence_match": true,
+        "validation_status": "needs_course_code_verification",
+        "uncertainty_reason": "Official PDF table does not provide a course code"
+      },
+      {
+        "course_code": null,
+        "opening_units": [
+          "化學系",
+          "碩"
+        ],
+        "opening_unit_snapshot": "化學系 / 碩",
+        "course_name_snapshot": "抗癌藥物的合成、設計與活性機轉",
+        "credits_snapshot": 3.0,
+        "requirement_group": "elective",
+        "notes": "",
+        "source_page": 1,
+        "evidence_match": false,
+        "validation_status": "needs_course_code_verification",
+        "uncertainty_reason": "Official PDF table does not provide a course code"
+      },
+      {
+        "course_code": null,
+        "opening_units": [
+          "海資系"
+        ],
+        "opening_unit_snapshot": "海資系",
+        "course_name_snapshot": "分子生物學實驗",
+        "credits_snapshot": 1.0,
+        "requirement_group": "elective",
+        "notes": "",
+        "source_page": 1,
+        "evidence_match": true,
+        "validation_status": "needs_course_code_verification",
+        "uncertainty_reason": "Official PDF table does not provide a course code"
+      }
+    ],
+    "structured_requirements": {
+      "minimum_total_credits": 31,
+      "core_credits_text_value": 9,
+      "minimum_outside_home_department_credits": 3
+    }
+  }
+}

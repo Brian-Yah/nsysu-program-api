@@ -1,0 +1,193 @@
+{
+  "program_id": "prog_e2622058c0055c4b",
+  "name_zh": "性別與社會微學程",
+  "name_en": null,
+  "previous_names": [],
+  "type": "micro_program",
+  "status": "active",
+  "description": "培育學生瞭當代社會中與性/別相關之重要理論關懷與核心議題,除了介紹女性主義社群關於性/別的辯論,也選取與社會生活息息相關、富含社會學意旨的議題,如勞動、身體、跨文化議題等,作為本學程分析與討論對象。",
+  "responsible_unit": "社會系",
+  "coordinator": "陳美華教授",
+  "program_website": "https://sites.google.com/view/nsysugenderstudies",
+  "source_pdf": "http://140.117.153.69/ctdr/files/20240531145442671.pdf",
+  "academic_version": "115-1",
+  "source": {
+    "catalog_url": "https://ctdr.nsysu.edu.tw/class2.php",
+    "pdf_url": "http://140.117.153.69/ctdr/files/20240531145442671.pdf",
+    "retrieved_at": "2026-08-15T10:05:39Z",
+    "pdf_binary_sha256": "3016063dcf9eb6987ae9768db0c012ec4bc47e5dba96e4ec524b96f44bfb8768",
+    "normalized_text_sha256": "39e0168cd5f6e12ee9ede640c52a3939b9152533951489dc663116338ba7188f",
+    "http": {
+      "status": 200,
+      "etag": "\"15f46-619ba754a6b8b\"",
+      "last_modified": "Fri, 31 May 2024 06:54:42 GMT",
+      "content_length": 89926
+    },
+    "parser_version": "0.1.0"
+  },
+  "review_status": "needs_review",
+  "rules": {
+    "kind": "manual_review",
+    "reason": "Extracted candidate awaits approval"
+  },
+  "warnings": [
+    "No structured course rows extracted from PDF tables"
+  ],
+  "selected_pdf_academic_version": "112-2",
+  "course_catalog": [
+    {
+      "course_code": null,
+      "opening_units": [
+        "社會系"
+      ],
+      "opening_unit_snapshot": "社會系",
+      "course_name_snapshot": "性別社會學",
+      "credits_snapshot": 3.0,
+      "requirement_group": "core",
+      "notes": "二選一其餘計入總學分數",
+      "source_page": 1,
+      "evidence_match": true,
+      "validation_status": "needs_course_code_verification",
+      "uncertainty_reason": "Official PDF table does not provide a course code"
+    },
+    {
+      "course_code": null,
+      "opening_units": [
+        "西灣學院"
+      ],
+      "opening_unit_snapshot": "西灣學院",
+      "course_name_snapshot": "性別與社會",
+      "credits_snapshot": 2.0,
+      "requirement_group": "core",
+      "notes": "",
+      "source_page": 1,
+      "evidence_match": true,
+      "validation_status": "needs_course_code_verification",
+      "uncertainty_reason": "Official PDF table does not provide a course code"
+    },
+    {
+      "course_code": null,
+      "opening_units": [
+        "西灣學院"
+      ],
+      "opening_unit_snapshot": "西灣學院",
+      "course_name_snapshot": "來去臺灣:性別與遷移",
+      "credits_snapshot": 3.0,
+      "requirement_group": "elective",
+      "notes": "",
+      "source_page": 1,
+      "evidence_match": true,
+      "validation_status": "needs_course_code_verification",
+      "uncertainty_reason": "Official PDF table does not provide a course code"
+    },
+    {
+      "course_code": null,
+      "opening_units": [
+        "西灣學院"
+      ],
+      "opening_unit_snapshot": "西灣學院",
+      "course_name_snapshot": "服務學習:促進性別友善校園行動志工",
+      "credits_snapshot": 2.0,
+      "requirement_group": "elective",
+      "notes": "",
+      "source_page": 1,
+      "evidence_match": false,
+      "validation_status": "needs_course_code_verification",
+      "uncertainty_reason": "Official PDF table does not provide a course code"
+    },
+    {
+      "course_code": null,
+      "opening_units": [
+        "西灣學院"
+      ],
+      "opening_unit_snapshot": "西灣學院",
+      "course_name_snapshot": "女性主義思潮",
+      "credits_snapshot": 2.0,
+      "requirement_group": "elective",
+      "notes": "",
+      "source_page": 1,
+      "evidence_match": true,
+      "validation_status": "needs_course_code_verification",
+      "uncertainty_reason": "Official PDF table does not provide a course code"
+    },
+    {
+      "course_code": null,
+      "opening_units": [
+        "西灣學院"
+      ],
+      "opening_unit_snapshot": "西灣學院",
+      "course_name_snapshot": "性與性別的跨文化觀點",
+      "credits_snapshot": 3.0,
+      "requirement_group": "elective",
+      "notes": "",
+      "source_page": 1,
+      "evidence_match": true,
+      "validation_status": "needs_course_code_verification",
+      "uncertainty_reason": "Official PDF table does not provide a course code"
+    },
+    {
+      "course_code": null,
+      "opening_units": [
+        "西灣學院"
+      ],
+      "opening_unit_snapshot": "西灣學院",
+      "course_name_snapshot": "跨國遷移",
+      "credits_snapshot": 3.0,
+      "requirement_group": "elective",
+      "notes": "",
+      "source_page": 1,
+      "evidence_match": true,
+      "validation_status": "needs_course_code_verification",
+      "uncertainty_reason": "Official PDF table does not provide a course code"
+    },
+    {
+      "course_code": null,
+      "opening_units": [
+        "中學學程"
+      ],
+      "opening_unit_snapshot": "中學學程",
+      "course_name_snapshot": "性別教育",
+      "credits_snapshot": 2.0,
+      "requirement_group": "elective",
+      "notes": "",
+      "source_page": 1,
+      "evidence_match": true,
+      "validation_status": "needs_course_code_verification",
+      "uncertainty_reason": "Official PDF table does not provide a course code"
+    },
+    {
+      "course_code": null,
+      "opening_units": [
+        "社會系"
+      ],
+      "opening_unit_snapshot": "社會系",
+      "course_name_snapshot": "性社會學",
+      "credits_snapshot": 3.0,
+      "requirement_group": "elective",
+      "notes": "",
+      "source_page": 1,
+      "evidence_match": true,
+      "validation_status": "needs_course_code_verification",
+      "uncertainty_reason": "Official PDF table does not provide a course code"
+    },
+    {
+      "course_code": null,
+      "opening_units": [
+        "社會系"
+      ],
+      "opening_unit_snapshot": "社會系",
+      "course_name_snapshot": "身體與工作",
+      "credits_snapshot": 3.0,
+      "requirement_group": "elective",
+      "notes": "",
+      "source_page": 1,
+      "evidence_match": true,
+      "validation_status": "needs_course_code_verification",
+      "uncertainty_reason": "Official PDF table does not provide a course code"
+    }
+  ],
+  "structured_requirements": {
+    "minimum_total_credits": 9,
+    "minimum_outside_home_department_credits": 3
+  }
+}

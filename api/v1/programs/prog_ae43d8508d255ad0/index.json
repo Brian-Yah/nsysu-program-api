@@ -1,0 +1,1042 @@
+{
+  "program_id": "prog_ae43d8508d255ad0",
+  "latest_academic_version": "115-1",
+  "versions": [
+    "115-1"
+  ],
+  "program": {
+    "program_id": "prog_ae43d8508d255ad0",
+    "name_zh": "海事工程學程",
+    "name_en": null,
+    "previous_names": [],
+    "type": "integrated_program",
+    "status": "active",
+    "description": "培養學生具備海洋相關工程施工管理、規劃之概念,及對於海事工程相關技術及儀器設備具備實際操作及應用之能力。期望透過跨院系整合,連結現行國家推動之離岸風力發電工程及其相關海事工程等,落實學用合一的理念。",
+    "responsible_unit": "海工系",
+    "coordinator": "葉博弘助理教授",
+    "program_website": "https://nsysumaev.github.io/maevmarineengineeringprogram/index.html",
+    "source_pdf": "http://140.117.153.69/ctdr/files/20241224151601846.pdf",
+    "academic_version": "115-1",
+    "source": {
+      "catalog_url": "https://ctdr.nsysu.edu.tw/class2.php",
+      "pdf_url": "http://140.117.153.69/ctdr/files/20241224151601846.pdf",
+      "retrieved_at": "2026-08-15T10:05:39Z",
+      "pdf_binary_sha256": "e9279daf26a1d358c7f87c3259780aefdfa58e3c0c067967cd49b9fa147d1041",
+      "normalized_text_sha256": "a196a248e04d5caea11ba868c1be5eeb8ad959418e16234517b8ae209151d392",
+      "http": {
+        "status": 200,
+        "etag": "\"29a3b-629fee2afa47b\"",
+        "last_modified": "Tue, 24 Dec 2024 07:16:01 GMT",
+        "content_length": 170555
+      },
+      "parser_version": "0.1.0"
+    },
+    "review_status": "needs_review",
+    "rules": {
+      "kind": "manual_review",
+      "reason": "Extracted candidate awaits approval"
+    },
+    "warnings": [],
+    "selected_pdf_academic_version": "113-1",
+    "course_catalog": [
+      {
+        "course_code": null,
+        "opening_units": [
+          "海工碩",
+          "風電碩"
+        ],
+        "opening_unit_snapshot": "海工碩 / 風電碩",
+        "course_name_snapshot": "離岸浮式構造物工程導論",
+        "credits_snapshot": 3.0,
+        "requirement_group": "core",
+        "notes": "MAEV575/OWP513",
+        "source_page": 1,
+        "evidence_match": true,
+        "validation_status": "needs_course_code_verification",
+        "uncertainty_reason": "Official PDF table does not provide a course code"
+      },
+      {
+        "course_code": null,
+        "opening_units": [
+          "海工碩",
+          "風電碩"
+        ],
+        "opening_unit_snapshot": "海工碩 / 風電碩",
+        "course_name_snapshot": "船舶施工規劃",
+        "credits_snapshot": 3.0,
+        "requirement_group": "core",
+        "notes": "MAEV591/OWP510",
+        "source_page": 1,
+        "evidence_match": true,
+        "validation_status": "needs_course_code_verification",
+        "uncertainty_reason": "Official PDF table does not provide a course code"
+      },
+      {
+        "course_code": null,
+        "opening_units": [
+          "海工碩"
+        ],
+        "opening_unit_snapshot": "海工碩",
+        "course_name_snapshot": "海域調查與量測",
+        "credits_snapshot": 3.0,
+        "requirement_group": "core",
+        "notes": "MAEV593",
+        "source_page": 1,
+        "evidence_match": true,
+        "validation_status": "needs_course_code_verification",
+        "uncertainty_reason": "Official PDF table does not provide a course code"
+      },
+      {
+        "course_code": null,
+        "opening_units": [
+          "海工碩",
+          "風電碩"
+        ],
+        "opening_unit_snapshot": "海工碩 / 風電碩",
+        "course_name_snapshot": "海事工程風險分析及管理",
+        "credits_snapshot": 3.0,
+        "requirement_group": "core",
+        "notes": "MAEV596/OWP509",
+        "source_page": 1,
+        "evidence_match": true,
+        "validation_status": "needs_course_code_verification",
+        "uncertainty_reason": "Official PDF table does not provide a course code"
+      },
+      {
+        "course_code": null,
+        "opening_units": [
+          "海工碩"
+        ],
+        "opening_unit_snapshot": "海工碩",
+        "course_name_snapshot": "海洋及森林碳匯與碳權概論",
+        "credits_snapshot": 3.0,
+        "requirement_group": "core",
+        "notes": "MAEV5600",
+        "source_page": 1,
+        "evidence_match": true,
+        "validation_status": "needs_course_code_verification",
+        "uncertainty_reason": "Official PDF table does not provide a course code"
+      },
+      {
+        "course_code": null,
+        "opening_units": [
+          "風電碩"
+        ],
+        "opening_unit_snapshot": "風電碩",
+        "course_name_snapshot": "離岸風電概論",
+        "credits_snapshot": 3.0,
+        "requirement_group": "core",
+        "notes": "OWP501",
+        "source_page": 1,
+        "evidence_match": true,
+        "validation_status": "needs_course_code_verification",
+        "uncertainty_reason": "Official PDF table does not provide a course code"
+      },
+      {
+        "course_code": null,
+        "opening_units": [
+          "風電碩"
+        ],
+        "opening_unit_snapshot": "風電碩",
+        "course_name_snapshot": "離岸風電運維實務",
+        "credits_snapshot": 3.0,
+        "requirement_group": "core",
+        "notes": "OWP516",
+        "source_page": 1,
+        "evidence_match": true,
+        "validation_status": "needs_course_code_verification",
+        "uncertainty_reason": "Official PDF table does not provide a course code"
+      },
+      {
+        "course_code": null,
+        "opening_units": [
+          "電機系"
+        ],
+        "opening_unit_snapshot": "電機系",
+        "course_name_snapshot": "電力電子學",
+        "credits_snapshot": 3.0,
+        "requirement_group": "elective",
+        "notes": "EE2403",
+        "source_page": 1,
+        "evidence_match": true,
+        "validation_status": "needs_course_code_verification",
+        "uncertainty_reason": "Official PDF table does not provide a course code"
+      },
+      {
+        "course_code": null,
+        "opening_units": [
+          "電機系"
+        ],
+        "opening_unit_snapshot": "電機系",
+        "course_name_snapshot": "電力系統(一)",
+        "credits_snapshot": 3.0,
+        "requirement_group": "elective",
+        "notes": "EE3404",
+        "source_page": 1,
+        "evidence_match": true,
+        "validation_status": "needs_course_code_verification",
+        "uncertainty_reason": "Official PDF table does not provide a course code"
+      },
+      {
+        "course_code": null,
+        "opening_units": [
+          "電機系"
+        ],
+        "opening_unit_snapshot": "電機系",
+        "course_name_snapshot": "電機動態與控制",
+        "credits_snapshot": 3.0,
+        "requirement_group": "elective",
+        "notes": "EE3408",
+        "source_page": 1,
+        "evidence_match": true,
+        "validation_status": "needs_course_code_verification",
+        "uncertainty_reason": "Official PDF table does not provide a course code"
+      },
+      {
+        "course_code": null,
+        "opening_units": [
+          "電機系"
+        ],
+        "opening_unit_snapshot": "電機系",
+        "course_name_snapshot": "工業配電",
+        "credits_snapshot": 3.0,
+        "requirement_group": "elective",
+        "notes": "EE3410",
+        "source_page": 1,
+        "evidence_match": true,
+        "validation_status": "needs_course_code_verification",
+        "uncertainty_reason": "Official PDF table does not provide a course code"
+      },
+      {
+        "course_code": null,
+        "opening_units": [
+          "電機系"
+        ],
+        "opening_unit_snapshot": "電機系",
+        "course_name_snapshot": "電力系統(二)",
+        "credits_snapshot": 3.0,
+        "requirement_group": "elective",
+        "notes": "EE4405",
+        "source_page": 1,
+        "evidence_match": true,
+        "validation_status": "needs_course_code_verification",
+        "uncertainty_reason": "Official PDF table does not provide a course code"
+      },
+      {
+        "course_code": null,
+        "opening_units": [
+          "電機系"
+        ],
+        "opening_unit_snapshot": "電機系",
+        "course_name_snapshot": "電源與電池管理系統導論",
+        "credits_snapshot": 3.0,
+        "requirement_group": "elective",
+        "notes": "EE4413",
+        "source_page": 1,
+        "evidence_match": true,
+        "validation_status": "needs_course_code_verification",
+        "uncertainty_reason": "Official PDF table does not provide a course code"
+      },
+      {
+        "course_code": null,
+        "opening_units": [
+          "電機碩"
+        ],
+        "opening_unit_snapshot": "電機碩",
+        "course_name_snapshot": "配電管理系統專題",
+        "credits_snapshot": 3.0,
+        "requirement_group": "elective",
+        "notes": "EE5406",
+        "source_page": 1,
+        "evidence_match": true,
+        "validation_status": "needs_course_code_verification",
+        "uncertainty_reason": "Official PDF table does not provide a course code"
+      },
+      {
+        "course_code": null,
+        "opening_units": [
+          "電機碩"
+        ],
+        "opening_unit_snapshot": "電機碩",
+        "course_name_snapshot": "電力系統專題",
+        "credits_snapshot": 3.0,
+        "requirement_group": "elective",
+        "notes": "EE5410",
+        "source_page": 1,
+        "evidence_match": true,
+        "validation_status": "needs_course_code_verification",
+        "uncertainty_reason": "Official PDF table does not provide a course code"
+      },
+      {
+        "course_code": null,
+        "opening_units": [
+          "電機碩"
+        ],
+        "opening_unit_snapshot": "電機碩",
+        "course_name_snapshot": "電力系統控制與穩定度",
+        "credits_snapshot": 3.0,
+        "requirement_group": "elective",
+        "notes": "EE5411",
+        "source_page": 1,
+        "evidence_match": true,
+        "validation_status": "needs_course_code_verification",
+        "uncertainty_reason": "Official PDF table does not provide a course code"
+      },
+      {
+        "course_code": null,
+        "opening_units": [
+          "電機碩"
+        ],
+        "opening_unit_snapshot": "電機碩",
+        "course_name_snapshot": "電力系統運轉",
+        "credits_snapshot": 3.0,
+        "requirement_group": "elective",
+        "notes": "EE5413",
+        "source_page": 1,
+        "evidence_match": true,
+        "validation_status": "needs_course_code_verification",
+        "uncertainty_reason": "Official PDF table does not provide a course code"
+      },
+      {
+        "course_code": null,
+        "opening_units": [
+          "電機碩"
+        ],
+        "opening_unit_snapshot": "電機碩",
+        "course_name_snapshot": "電力電子轉換器",
+        "credits_snapshot": 3.0,
+        "requirement_group": "elective",
+        "notes": "EE5416",
+        "source_page": 1,
+        "evidence_match": true,
+        "validation_status": "needs_course_code_verification",
+        "uncertainty_reason": "Official PDF table does not provide a course code"
+      },
+      {
+        "course_code": null,
+        "opening_units": [
+          "電機碩"
+        ],
+        "opening_unit_snapshot": "電機碩",
+        "course_name_snapshot": "電力潮流分析",
+        "credits_snapshot": 3.0,
+        "requirement_group": "elective",
+        "notes": "EE5417",
+        "source_page": 1,
+        "evidence_match": true,
+        "validation_status": "needs_course_code_verification",
+        "uncertainty_reason": "Official PDF table does not provide a course code"
+      },
+      {
+        "course_code": null,
+        "opening_units": [
+          "電機碩"
+        ],
+        "opening_unit_snapshot": "電機碩",
+        "course_name_snapshot": "配電系統分析專題",
+        "credits_snapshot": 3.0,
+        "requirement_group": "elective",
+        "notes": "EE5425",
+        "source_page": 1,
+        "evidence_match": true,
+        "validation_status": "needs_course_code_verification",
+        "uncertainty_reason": "Official PDF table does not provide a course code"
+      },
+      {
+        "course_code": null,
+        "opening_units": [
+          "電機碩"
+        ],
+        "opening_unit_snapshot": "電機碩",
+        "course_name_snapshot": "智慧電網專題",
+        "credits_snapshot": 3.0,
+        "requirement_group": "elective",
+        "notes": "EE5426",
+        "source_page": 1,
+        "evidence_match": true,
+        "validation_status": "needs_course_code_verification",
+        "uncertainty_reason": "Official PDF table does not provide a course code"
+      },
+      {
+        "course_code": null,
+        "opening_units": [
+          "電機碩"
+        ],
+        "opening_unit_snapshot": "電機碩",
+        "course_name_snapshot": "電力系統最佳化技術",
+        "credits_snapshot": 3.0,
+        "requirement_group": "elective",
+        "notes": "EE5429",
+        "source_page": 1,
+        "evidence_match": true,
+        "validation_status": "needs_course_code_verification",
+        "uncertainty_reason": "Official PDF table does not provide a course code"
+      },
+      {
+        "course_code": null,
+        "opening_units": [
+          "電機碩"
+        ],
+        "opening_unit_snapshot": "電機碩",
+        "course_name_snapshot": "配電自動化簡介",
+        "credits_snapshot": 3.0,
+        "requirement_group": "elective",
+        "notes": "EE5431",
+        "source_page": 1,
+        "evidence_match": true,
+        "validation_status": "needs_course_code_verification",
+        "uncertainty_reason": "Official PDF table does not provide a course code"
+      },
+      {
+        "course_code": null,
+        "opening_units": [
+          "電機碩"
+        ],
+        "opening_unit_snapshot": "電機碩",
+        "course_name_snapshot": "再生能源和電網電壓調節的電力轉換器專題",
+        "credits_snapshot": 3.0,
+        "requirement_group": "elective",
+        "notes": "EE5433",
+        "source_page": 1,
+        "evidence_match": false,
+        "validation_status": "needs_course_code_verification",
+        "uncertainty_reason": "Official PDF table does not provide a course code"
+      },
+      {
+        "course_code": null,
+        "opening_units": [
+          "電機電力碩"
+        ],
+        "opening_unit_snapshot": "電機電力碩",
+        "course_name_snapshot": "電力品質",
+        "credits_snapshot": 3.0,
+        "requirement_group": "elective",
+        "notes": "IMPE502",
+        "source_page": 1,
+        "evidence_match": true,
+        "validation_status": "needs_course_code_verification",
+        "uncertainty_reason": "Official PDF table does not provide a course code"
+      },
+      {
+        "course_code": null,
+        "opening_units": [
+          "電機電力碩"
+        ],
+        "opening_unit_snapshot": "電機電力碩",
+        "course_name_snapshot": "電力潮流分析",
+        "credits_snapshot": 3.0,
+        "requirement_group": "elective",
+        "notes": "IMPE503",
+        "source_page": 2,
+        "evidence_match": true,
+        "validation_status": "needs_course_code_verification",
+        "uncertainty_reason": "Official PDF table does not provide a course code"
+      },
+      {
+        "course_code": null,
+        "opening_units": [
+          "電機電力碩"
+        ],
+        "opening_unit_snapshot": "電機電力碩",
+        "course_name_snapshot": "電力電子轉換器",
+        "credits_snapshot": 3.0,
+        "requirement_group": "elective",
+        "notes": "IMPE504",
+        "source_page": 2,
+        "evidence_match": true,
+        "validation_status": "needs_course_code_verification",
+        "uncertainty_reason": "Official PDF table does not provide a course code"
+      },
+      {
+        "course_code": null,
+        "opening_units": [
+          "電機電力碩"
+        ],
+        "opening_unit_snapshot": "電機電力碩",
+        "course_name_snapshot": "電力系統運轉",
+        "credits_snapshot": 3.0,
+        "requirement_group": "elective",
+        "notes": "IMPE508",
+        "source_page": 2,
+        "evidence_match": true,
+        "validation_status": "needs_course_code_verification",
+        "uncertainty_reason": "Official PDF table does not provide a course code"
+      },
+      {
+        "course_code": null,
+        "opening_units": [
+          "電機電力碩"
+        ],
+        "opening_unit_snapshot": "電機電力碩",
+        "course_name_snapshot": "電力系統可靠度分析",
+        "credits_snapshot": 3.0,
+        "requirement_group": "elective",
+        "notes": "IMPE5009",
+        "source_page": 2,
+        "evidence_match": true,
+        "validation_status": "needs_course_code_verification",
+        "uncertainty_reason": "Official PDF table does not provide a course code"
+      },
+      {
+        "course_code": null,
+        "opening_units": [
+          "電機電力碩"
+        ],
+        "opening_unit_snapshot": "電機電力碩",
+        "course_name_snapshot": "電力系統動態模型建立與模擬",
+        "credits_snapshot": 3.0,
+        "requirement_group": "elective",
+        "notes": "IMPE5010",
+        "source_page": 2,
+        "evidence_match": true,
+        "validation_status": "needs_course_code_verification",
+        "uncertainty_reason": "Official PDF table does not provide a course code"
+      },
+      {
+        "course_code": null,
+        "opening_units": [
+          "電機電力碩"
+        ],
+        "opening_unit_snapshot": "電機電力碩",
+        "course_name_snapshot": "電力系統規劃",
+        "credits_snapshot": 3.0,
+        "requirement_group": "elective",
+        "notes": "IMPE5011",
+        "source_page": 2,
+        "evidence_match": true,
+        "validation_status": "needs_course_code_verification",
+        "uncertainty_reason": "Official PDF table does not provide a course code"
+      },
+      {
+        "course_code": null,
+        "opening_units": [
+          "電機電力碩"
+        ],
+        "opening_unit_snapshot": "電機電力碩",
+        "course_name_snapshot": "電力與再生能源應用",
+        "credits_snapshot": 3.0,
+        "requirement_group": "elective",
+        "notes": "IMPE5012",
+        "source_page": 2,
+        "evidence_match": true,
+        "validation_status": "needs_course_code_verification",
+        "uncertainty_reason": "Official PDF table does not provide a course code"
+      },
+      {
+        "course_code": null,
+        "opening_units": [
+          "電機電力碩"
+        ],
+        "opening_unit_snapshot": "電機電力碩",
+        "course_name_snapshot": "電力系統暫態及動態分析專題",
+        "credits_snapshot": 3.0,
+        "requirement_group": "elective",
+        "notes": "IMPE5013",
+        "source_page": 2,
+        "evidence_match": true,
+        "validation_status": "needs_course_code_verification",
+        "uncertainty_reason": "Official PDF table does not provide a course code"
+      },
+      {
+        "course_code": null,
+        "opening_units": [
+          "機電系"
+        ],
+        "opening_unit_snapshot": "機電系",
+        "course_name_snapshot": "應用電子學",
+        "credits_snapshot": 3.0,
+        "requirement_group": "elective",
+        "notes": "MEME209",
+        "source_page": 2,
+        "evidence_match": true,
+        "validation_status": "needs_course_code_verification",
+        "uncertainty_reason": "Official PDF table does not provide a course code"
+      },
+      {
+        "course_code": null,
+        "opening_units": [
+          "機電系"
+        ],
+        "opening_unit_snapshot": "機電系",
+        "course_name_snapshot": "機械振動",
+        "credits_snapshot": 3.0,
+        "requirement_group": "elective",
+        "notes": "MEME318",
+        "source_page": 2,
+        "evidence_match": true,
+        "validation_status": "needs_course_code_verification",
+        "uncertainty_reason": "Official PDF table does not provide a course code"
+      },
+      {
+        "course_code": null,
+        "opening_units": [
+          "機電系"
+        ],
+        "opening_unit_snapshot": "機電系",
+        "course_name_snapshot": "機電整合",
+        "credits_snapshot": 3.0,
+        "requirement_group": "elective",
+        "notes": "MEME327",
+        "source_page": 2,
+        "evidence_match": true,
+        "validation_status": "needs_course_code_verification",
+        "uncertainty_reason": "Official PDF table does not provide a course code"
+      },
+      {
+        "course_code": null,
+        "opening_units": [
+          "機電系"
+        ],
+        "opening_unit_snapshot": "機電系",
+        "course_name_snapshot": "太陽能工程概論",
+        "credits_snapshot": 3.0,
+        "requirement_group": "elective",
+        "notes": "MEME407",
+        "source_page": 2,
+        "evidence_match": true,
+        "validation_status": "needs_course_code_verification",
+        "uncertainty_reason": "Official PDF table does not provide a course code"
+      },
+      {
+        "course_code": null,
+        "opening_units": [
+          "機電系"
+        ],
+        "opening_unit_snapshot": "機電系",
+        "course_name_snapshot": "綠色能源工程",
+        "credits_snapshot": 3.0,
+        "requirement_group": "elective",
+        "notes": "MEME424",
+        "source_page": 2,
+        "evidence_match": true,
+        "validation_status": "needs_course_code_verification",
+        "uncertainty_reason": "Official PDF table does not provide a course code"
+      },
+      {
+        "course_code": null,
+        "opening_units": [
+          "機電碩"
+        ],
+        "opening_unit_snapshot": "機電碩",
+        "course_name_snapshot": "計算結構力學",
+        "credits_snapshot": 3.0,
+        "requirement_group": "elective",
+        "notes": "MEME530",
+        "source_page": 2,
+        "evidence_match": true,
+        "validation_status": "needs_course_code_verification",
+        "uncertainty_reason": "Official PDF table does not provide a course code"
+      },
+      {
+        "course_code": null,
+        "opening_units": [
+          "機電碩"
+        ],
+        "opening_unit_snapshot": "機電碩",
+        "course_name_snapshot": "超音波探傷",
+        "credits_snapshot": 3.0,
+        "requirement_group": "elective",
+        "notes": "MEME535",
+        "source_page": 2,
+        "evidence_match": true,
+        "validation_status": "needs_course_code_verification",
+        "uncertainty_reason": "Official PDF table does not provide a course code"
+      },
+      {
+        "course_code": null,
+        "opening_units": [
+          "機電碩"
+        ],
+        "opening_unit_snapshot": "機電碩",
+        "course_name_snapshot": "太陽能工程",
+        "credits_snapshot": 3.0,
+        "requirement_group": "elective",
+        "notes": "MEME509",
+        "source_page": 2,
+        "evidence_match": true,
+        "validation_status": "needs_course_code_verification",
+        "uncertainty_reason": "Official PDF table does not provide a course code"
+      },
+      {
+        "course_code": null,
+        "opening_units": [
+          "機電碩"
+        ],
+        "opening_unit_snapshot": "機電碩",
+        "course_name_snapshot": "機電傳動系統",
+        "credits_snapshot": 3.0,
+        "requirement_group": "elective",
+        "notes": "MEME572",
+        "source_page": 2,
+        "evidence_match": true,
+        "validation_status": "needs_course_code_verification",
+        "uncertainty_reason": "Official PDF table does not provide a course code"
+      },
+      {
+        "course_code": null,
+        "opening_units": [
+          "海工系"
+        ],
+        "opening_unit_snapshot": "海工系",
+        "course_name_snapshot": "外海結構工程導論",
+        "credits_snapshot": 3.0,
+        "requirement_group": "elective",
+        "notes": "MAEV346",
+        "source_page": 2,
+        "evidence_match": true,
+        "validation_status": "needs_course_code_verification",
+        "uncertainty_reason": "Official PDF table does not provide a course code"
+      },
+      {
+        "course_code": null,
+        "opening_units": [
+          "海工系"
+        ],
+        "opening_unit_snapshot": "海工系",
+        "course_name_snapshot": "海洋與海岸管理",
+        "credits_snapshot": 3.0,
+        "requirement_group": "elective",
+        "notes": "MAEV360",
+        "source_page": 2,
+        "evidence_match": true,
+        "validation_status": "needs_course_code_verification",
+        "uncertainty_reason": "Official PDF table does not provide a course code"
+      },
+      {
+        "course_code": null,
+        "opening_units": [
+          "海工系"
+        ],
+        "opening_unit_snapshot": "海工系",
+        "course_name_snapshot": "港灣工程(含設計實例)",
+        "credits_snapshot": 3.0,
+        "requirement_group": "elective",
+        "notes": "MAEV422",
+        "source_page": 2,
+        "evidence_match": true,
+        "validation_status": "needs_course_code_verification",
+        "uncertainty_reason": "Official PDF table does not provide a course code"
+      },
+      {
+        "course_code": null,
+        "opening_units": [
+          "海工碩"
+        ],
+        "opening_unit_snapshot": "海工碩",
+        "course_name_snapshot": "海洋大地工程(一)",
+        "credits_snapshot": 3.0,
+        "requirement_group": "elective",
+        "notes": "MAEV540",
+        "source_page": 2,
+        "evidence_match": true,
+        "validation_status": "needs_course_code_verification",
+        "uncertainty_reason": "Official PDF table does not provide a course code"
+      },
+      {
+        "course_code": null,
+        "opening_units": [
+          "海工碩"
+        ],
+        "opening_unit_snapshot": "海工碩",
+        "course_name_snapshot": "海洋大地工程(二)",
+        "credits_snapshot": 3.0,
+        "requirement_group": "elective",
+        "notes": "MAEV541",
+        "source_page": 2,
+        "evidence_match": true,
+        "validation_status": "needs_course_code_verification",
+        "uncertainty_reason": "Official PDF table does not provide a course code"
+      },
+      {
+        "course_code": null,
+        "opening_units": [
+          "海工碩"
+        ],
+        "opening_unit_snapshot": "海工碩",
+        "course_name_snapshot": "海洋結構動力學",
+        "credits_snapshot": 3.0,
+        "requirement_group": "elective",
+        "notes": "MAEV542",
+        "source_page": 2,
+        "evidence_match": true,
+        "validation_status": "needs_course_code_verification",
+        "uncertainty_reason": "Official PDF table does not provide a course code"
+      },
+      {
+        "course_code": null,
+        "opening_units": [
+          "海工碩"
+        ],
+        "opening_unit_snapshot": "海工碩",
+        "course_name_snapshot": "海底調查工程技術",
+        "credits_snapshot": 3.0,
+        "requirement_group": "elective",
+        "notes": "MAEV543",
+        "source_page": 2,
+        "evidence_match": true,
+        "validation_status": "needs_course_code_verification",
+        "uncertainty_reason": "Official PDF table does not provide a course code"
+      },
+      {
+        "course_code": null,
+        "opening_units": [
+          "海工碩"
+        ],
+        "opening_unit_snapshot": "海工碩",
+        "course_name_snapshot": "外海結構分析與設計",
+        "credits_snapshot": 3.0,
+        "requirement_group": "elective",
+        "notes": "MAEV545",
+        "source_page": 2,
+        "evidence_match": true,
+        "validation_status": "needs_course_code_verification",
+        "uncertainty_reason": "Official PDF table does not provide a course code"
+      },
+      {
+        "course_code": null,
+        "opening_units": [
+          "海工碩"
+        ],
+        "opening_unit_snapshot": "海工碩",
+        "course_name_snapshot": "港灣工程案例探討與改進",
+        "credits_snapshot": 3.0,
+        "requirement_group": "elective",
+        "notes": "MAEV546",
+        "source_page": 2,
+        "evidence_match": true,
+        "validation_status": "needs_course_code_verification",
+        "uncertainty_reason": "Official PDF table does not provide a course code"
+      },
+      {
+        "course_code": null,
+        "opening_units": [
+          "海工碩"
+        ],
+        "opening_unit_snapshot": "海工碩",
+        "course_name_snapshot": "基礎工程實務",
+        "credits_snapshot": 3.0,
+        "requirement_group": "elective",
+        "notes": "MAEV547",
+        "source_page": 2,
+        "evidence_match": true,
+        "validation_status": "needs_course_code_verification",
+        "uncertainty_reason": "Official PDF table does not provide a course code"
+      },
+      {
+        "course_code": null,
+        "opening_units": [
+          "海工碩"
+        ],
+        "opening_unit_snapshot": "海工碩",
+        "course_name_snapshot": "離岸結構矩陣分析",
+        "credits_snapshot": 3.0,
+        "requirement_group": "elective",
+        "notes": "MAEV548",
+        "source_page": 2,
+        "evidence_match": true,
+        "validation_status": "needs_course_code_verification",
+        "uncertainty_reason": "Official PDF table does not provide a course code"
+      },
+      {
+        "course_code": null,
+        "opening_units": [
+          "海工碩"
+        ],
+        "opening_unit_snapshot": "海工碩",
+        "course_name_snapshot": "海洋地理資訊系統及實習",
+        "credits_snapshot": 4.0,
+        "requirement_group": "elective",
+        "notes": "MAEV560",
+        "source_page": 2,
+        "evidence_match": true,
+        "validation_status": "needs_course_code_verification",
+        "uncertainty_reason": "Official PDF table does not provide a course code"
+      },
+      {
+        "course_code": null,
+        "opening_units": [
+          "海下科技所"
+        ],
+        "opening_unit_snapshot": "海下科技所",
+        "course_name_snapshot": "工程聲學",
+        "credits_snapshot": 3.0,
+        "requirement_group": "elective",
+        "notes": "UT508",
+        "source_page": 2,
+        "evidence_match": true,
+        "validation_status": "needs_course_code_verification",
+        "uncertainty_reason": "Official PDF table does not provide a course code"
+      },
+      {
+        "course_code": null,
+        "opening_units": [
+          "海下科技所"
+        ],
+        "opening_unit_snapshot": "海下科技所",
+        "course_name_snapshot": "水下光電",
+        "credits_snapshot": 3.0,
+        "requirement_group": "elective",
+        "notes": "UT542",
+        "source_page": 2,
+        "evidence_match": true,
+        "validation_status": "needs_course_code_verification",
+        "uncertainty_reason": "Official PDF table does not provide a course code"
+      },
+      {
+        "course_code": null,
+        "opening_units": [
+          "海下科技碩"
+        ],
+        "opening_unit_snapshot": "海下科技碩",
+        "course_name_snapshot": "訊號與系統",
+        "credits_snapshot": 3.0,
+        "requirement_group": "elective",
+        "notes": "UT520",
+        "source_page": 2,
+        "evidence_match": true,
+        "validation_status": "needs_course_code_verification",
+        "uncertainty_reason": "Official PDF table does not provide a course code"
+      },
+      {
+        "course_code": null,
+        "opening_units": [
+          "海下科技碩"
+        ],
+        "opening_unit_snapshot": "海下科技碩",
+        "course_name_snapshot": "隨機振動",
+        "credits_snapshot": 3.0,
+        "requirement_group": "elective",
+        "notes": "UT527",
+        "source_page": 2,
+        "evidence_match": true,
+        "validation_status": "needs_course_code_verification",
+        "uncertainty_reason": "Official PDF table does not provide a course code"
+      },
+      {
+        "course_code": null,
+        "opening_units": [
+          "海下科技碩"
+        ],
+        "opening_unit_snapshot": "海下科技碩",
+        "course_name_snapshot": "水下音傳與訊號處理",
+        "credits_snapshot": 3.0,
+        "requirement_group": "elective",
+        "notes": "UT533",
+        "source_page": 3,
+        "evidence_match": true,
+        "validation_status": "needs_course_code_verification",
+        "uncertainty_reason": "Official PDF table does not provide a course code"
+      },
+      {
+        "course_code": null,
+        "opening_units": [
+          "海下科技碩"
+        ],
+        "opening_unit_snapshot": "海下科技碩",
+        "course_name_snapshot": "主動海洋聲學",
+        "credits_snapshot": 3.0,
+        "requirement_group": "elective",
+        "notes": "UT537",
+        "source_page": 3,
+        "evidence_match": true,
+        "validation_status": "needs_course_code_verification",
+        "uncertainty_reason": "Official PDF table does not provide a course code"
+      },
+      {
+        "course_code": null,
+        "opening_units": [
+          "海下科技碩"
+        ],
+        "opening_unit_snapshot": "海下科技碩",
+        "course_name_snapshot": "被動海洋聲學",
+        "credits_snapshot": 3.0,
+        "requirement_group": "elective",
+        "notes": "UT538",
+        "source_page": 3,
+        "evidence_match": true,
+        "validation_status": "needs_course_code_verification",
+        "uncertainty_reason": "Official PDF table does not provide a course code"
+      },
+      {
+        "course_code": null,
+        "opening_units": [
+          "海下科技碩"
+        ],
+        "opening_unit_snapshot": "海下科技碩",
+        "course_name_snapshot": "電子電路與控制",
+        "credits_snapshot": 3.0,
+        "requirement_group": "elective",
+        "notes": "UT541",
+        "source_page": 3,
+        "evidence_match": true,
+        "validation_status": "needs_course_code_verification",
+        "uncertainty_reason": "Official PDF table does not provide a course code"
+      },
+      {
+        "course_code": null,
+        "opening_units": [
+          "海下科技碩"
+        ],
+        "opening_unit_snapshot": "海下科技碩",
+        "course_name_snapshot": "應用電子電路",
+        "credits_snapshot": 3.0,
+        "requirement_group": "elective",
+        "notes": "UT614",
+        "source_page": 3,
+        "evidence_match": true,
+        "validation_status": "needs_course_code_verification",
+        "uncertainty_reason": "Official PDF table does not provide a course code"
+      },
+      {
+        "course_code": null,
+        "opening_units": [
+          "海下科技碩"
+        ],
+        "opening_unit_snapshot": "海下科技碩",
+        "course_name_snapshot": "大型計畫專案管理",
+        "credits_snapshot": 3.0,
+        "requirement_group": "elective",
+        "notes": "UT702",
+        "source_page": 3,
+        "evidence_match": true,
+        "validation_status": "needs_course_code_verification",
+        "uncertainty_reason": "Official PDF table does not provide a course code"
+      },
+      {
+        "course_code": null,
+        "opening_units": [
+          "海科院(學)"
+        ],
+        "opening_unit_snapshot": "海科院(學)",
+        "course_name_snapshot": "潛水理論與實務",
+        "credits_snapshot": 3.0,
+        "requirement_group": "elective",
+        "notes": "MRSC113",
+        "source_page": 3,
+        "evidence_match": true,
+        "validation_status": "needs_course_code_verification",
+        "uncertainty_reason": "Official PDF table does not provide a course code"
+      },
+      {
+        "course_code": null,
+        "opening_units": [
+          "海科院(碩)"
+        ],
+        "opening_unit_snapshot": "海科院(碩)",
+        "course_name_snapshot": "高級潛水調查技術",
+        "credits_snapshot": 3.0,
+        "requirement_group": "elective",
+        "notes": "MRSC502",
+        "source_page": 3,
+        "evidence_match": true,
+        "validation_status": "needs_course_code_verification",
+        "uncertainty_reason": "Official PDF table does not provide a course code"
+      }
+    ],
+    "structured_requirements": {
+      "core_credits_text_value": 6,
+      "minimum_total_credits": 18,
+      "minimum_outside_home_department_credits": 6
+    }
+  }
+}

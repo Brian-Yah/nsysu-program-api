@@ -1,0 +1,366 @@
+{
+  "program_id": "prog_b69b3518e1f050ba",
+  "latest_academic_version": "115-1",
+  "versions": [
+    "115-1"
+  ],
+  "program": {
+    "program_id": "prog_b69b3518e1f050ba",
+    "name_zh": "音場技術與情境感受微學程  (★自113年2月1日起停止受理申請修讀學程)",
+    "name_en": null,
+    "previous_names": [],
+    "type": "micro_program",
+    "status": "discontinued",
+    "description": "「沉浸式體驗」所需具備的技術層面涵蓋光學投影、色彩呈現、影像處理、機電控制與體感回饋,而在內容的呈現與應用場域上則涵蓋極廣,包含音樂、劇場、文化、教育、醫療等。本微學程著重沉浸式體驗中的音場技術與情境感受,以實例教學與專案式訓練,協助來自不同領域的學生具備沉浸式體驗的虛擬實境成像概念。",
+    "responsible_unit": "電機系",
+    "coordinator": "邱日清副教授",
+    "program_website": "https://brogent.nsysu.edu.tw/index.php",
+    "source_pdf": "http://140.117.153.69/ctdr/files/20241224152412430.pdf",
+    "academic_version": "115-1",
+    "source": {
+      "catalog_url": "https://ctdr.nsysu.edu.tw/class2.php",
+      "pdf_url": "http://140.117.153.69/ctdr/files/20241224152412430.pdf",
+      "retrieved_at": "2026-08-15T10:05:39Z",
+      "pdf_binary_sha256": "2bfe50da6732ea474b476d58f2857731a6735b8ec543eea0987ba40375f6625e",
+      "normalized_text_sha256": "140eabe81fdf5855882e4ab44f177b82fdb54be20b593a34f674c65891a13230",
+      "http": {
+        "status": 200,
+        "etag": "\"1a1ef-629feffedbc8b\"",
+        "last_modified": "Tue, 24 Dec 2024 07:24:12 GMT",
+        "content_length": 106991
+      },
+      "parser_version": "0.1.0"
+    },
+    "review_status": "needs_review",
+    "rules": {
+      "kind": "manual_review",
+      "reason": "Extracted candidate awaits approval"
+    },
+    "warnings": [
+      "No structured course rows extracted from PDF tables"
+    ],
+    "selected_pdf_academic_version": "113-1",
+    "course_catalog": [
+      {
+        "course_code": null,
+        "opening_units": [
+          "光電系"
+        ],
+        "opening_unit_snapshot": "光電系",
+        "course_name_snapshot": "創新資訊科技應用",
+        "credits_snapshot": 3.0,
+        "requirement_group": "core",
+        "notes": "",
+        "source_page": 1,
+        "evidence_match": true,
+        "validation_status": "needs_course_code_verification",
+        "uncertainty_reason": "Official PDF table does not provide a course code"
+      },
+      {
+        "course_code": null,
+        "opening_units": [
+          "人文暨科技跨領域學士學位學程"
+        ],
+        "opening_unit_snapshot": "人文暨科技跨領域學士學位學程",
+        "course_name_snapshot": "多維度媒體實務",
+        "credits_snapshot": 3.0,
+        "requirement_group": "core",
+        "notes": "",
+        "source_page": 1,
+        "evidence_match": true,
+        "validation_status": "needs_course_code_verification",
+        "uncertainty_reason": "Official PDF table does not provide a course code"
+      },
+      {
+        "course_code": null,
+        "opening_units": [
+          "音樂系"
+        ],
+        "opening_unit_snapshot": "音樂系",
+        "course_name_snapshot": "音樂科技概論",
+        "credits_snapshot": 2.0,
+        "requirement_group": "core",
+        "notes": "",
+        "source_page": 1,
+        "evidence_match": true,
+        "validation_status": "needs_course_code_verification",
+        "uncertainty_reason": "Official PDF table does not provide a course code"
+      },
+      {
+        "course_code": null,
+        "opening_units": [
+          "人文暨科技跨領域學士學位學程"
+        ],
+        "opening_unit_snapshot": "人文暨科技跨領域學士學位學程",
+        "course_name_snapshot": "虛擬實境導論",
+        "credits_snapshot": 1.0,
+        "requirement_group": "elective",
+        "notes": "",
+        "source_page": 1,
+        "evidence_match": true,
+        "validation_status": "needs_course_code_verification",
+        "uncertainty_reason": "Official PDF table does not provide a course code"
+      },
+      {
+        "course_code": null,
+        "opening_units": [
+          "人文暨科技跨領域學士學位學程"
+        ],
+        "opening_unit_snapshot": "人文暨科技跨領域學士學位學程",
+        "course_name_snapshot": "成像技術導論",
+        "credits_snapshot": 1.0,
+        "requirement_group": "elective",
+        "notes": "",
+        "source_page": 1,
+        "evidence_match": true,
+        "validation_status": "needs_course_code_verification",
+        "uncertainty_reason": "Official PDF table does not provide a course code"
+      },
+      {
+        "course_code": null,
+        "opening_units": [
+          "人文暨科技跨領域學士學位學程"
+        ],
+        "opening_unit_snapshot": "人文暨科技跨領域學士學位學程",
+        "course_name_snapshot": "音場技術導論",
+        "credits_snapshot": 1.0,
+        "requirement_group": "elective",
+        "notes": "",
+        "source_page": 1,
+        "evidence_match": true,
+        "validation_status": "needs_course_code_verification",
+        "uncertainty_reason": "Official PDF table does not provide a course code"
+      },
+      {
+        "course_code": null,
+        "opening_units": [
+          "人文暨科技跨領域學士學位學程"
+        ],
+        "opening_unit_snapshot": "人文暨科技跨領域學士學位學程",
+        "course_name_snapshot": "情境感受導論",
+        "credits_snapshot": 1.0,
+        "requirement_group": "elective",
+        "notes": "",
+        "source_page": 1,
+        "evidence_match": true,
+        "validation_status": "needs_course_code_verification",
+        "uncertainty_reason": "Official PDF table does not provide a course code"
+      },
+      {
+        "course_code": null,
+        "opening_units": [
+          "人文暨科技跨領域學士學位學程"
+        ],
+        "opening_unit_snapshot": "人文暨科技跨領域學士學位學程",
+        "course_name_snapshot": "體感技術導論",
+        "credits_snapshot": 1.0,
+        "requirement_group": "elective",
+        "notes": "",
+        "source_page": 1,
+        "evidence_match": true,
+        "validation_status": "needs_course_code_verification",
+        "uncertainty_reason": "Official PDF table does not provide a course code"
+      },
+      {
+        "course_code": null,
+        "opening_units": [
+          "人文暨科技跨領域學士學位學程"
+        ],
+        "opening_unit_snapshot": "人文暨科技跨領域學士學位學程",
+        "course_name_snapshot": "姿態辨識導論",
+        "credits_snapshot": 1.0,
+        "requirement_group": "elective",
+        "notes": "",
+        "source_page": 1,
+        "evidence_match": true,
+        "validation_status": "needs_course_code_verification",
+        "uncertainty_reason": "Official PDF table does not provide a course code"
+      },
+      {
+        "course_code": null,
+        "opening_units": [
+          "人文暨科技跨領域學士學位學程"
+        ],
+        "opening_unit_snapshot": "人文暨科技跨領域學士學位學程",
+        "course_name_snapshot": "感測器與定位",
+        "credits_snapshot": 1.0,
+        "requirement_group": "elective",
+        "notes": "",
+        "source_page": 1,
+        "evidence_match": true,
+        "validation_status": "needs_course_code_verification",
+        "uncertainty_reason": "Official PDF table does not provide a course code"
+      },
+      {
+        "course_code": null,
+        "opening_units": [
+          "人文暨科技跨領域學士學位學程"
+        ],
+        "opening_unit_snapshot": "人文暨科技跨領域學士學位學程",
+        "course_name_snapshot": "體感運動機構導論",
+        "credits_snapshot": 1.0,
+        "requirement_group": "elective",
+        "notes": "",
+        "source_page": 1,
+        "evidence_match": true,
+        "validation_status": "needs_course_code_verification",
+        "uncertainty_reason": "Official PDF table does not provide a course code"
+      },
+      {
+        "course_code": null,
+        "opening_units": [
+          "人文暨科技跨領域學士學位學程"
+        ],
+        "opening_unit_snapshot": "人文暨科技跨領域學士學位學程",
+        "course_name_snapshot": "虛擬實境程式導論",
+        "credits_snapshot": 1.0,
+        "requirement_group": "elective",
+        "notes": "",
+        "source_page": 1,
+        "evidence_match": true,
+        "validation_status": "needs_course_code_verification",
+        "uncertainty_reason": "Official PDF table does not provide a course code"
+      },
+      {
+        "course_code": null,
+        "opening_units": [
+          "人文暨科技跨領域學士學位學程"
+        ],
+        "opening_unit_snapshot": "人文暨科技跨領域學士學位學程",
+        "course_name_snapshot": "音樂與音效導論",
+        "credits_snapshot": 1.0,
+        "requirement_group": "elective",
+        "notes": "",
+        "source_page": 1,
+        "evidence_match": true,
+        "validation_status": "needs_course_code_verification",
+        "uncertainty_reason": "Official PDF table does not provide a course code"
+      },
+      {
+        "course_code": null,
+        "opening_units": [
+          "人文暨科技跨領域學士學位學程"
+        ],
+        "opening_unit_snapshot": "人文暨科技跨領域學士學位學程",
+        "course_name_snapshot": "故事編程",
+        "credits_snapshot": 1.0,
+        "requirement_group": "elective",
+        "notes": "",
+        "source_page": 1,
+        "evidence_match": true,
+        "validation_status": "needs_course_code_verification",
+        "uncertainty_reason": "Official PDF table does not provide a course code"
+      },
+      {
+        "course_code": null,
+        "opening_units": [
+          "人文暨科技跨領域學士學位學程"
+        ],
+        "opening_unit_snapshot": "人文暨科技跨領域學士學位學程",
+        "course_name_snapshot": "虛擬實境數位內容設計",
+        "credits_snapshot": 3.0,
+        "requirement_group": "elective",
+        "notes": "",
+        "source_page": 1,
+        "evidence_match": true,
+        "validation_status": "needs_course_code_verification",
+        "uncertainty_reason": "Official PDF table does not provide a course code"
+      },
+      {
+        "course_code": null,
+        "opening_units": [
+          "人文暨科技跨領域學士學位學程"
+        ],
+        "opening_unit_snapshot": "人文暨科技跨領域學士學位學程",
+        "course_name_snapshot": "多軸動感平台體感控制",
+        "credits_snapshot": 3.0,
+        "requirement_group": "elective",
+        "notes": "",
+        "source_page": 1,
+        "evidence_match": true,
+        "validation_status": "needs_course_code_verification",
+        "uncertainty_reason": "Official PDF table does not provide a course code"
+      },
+      {
+        "course_code": null,
+        "opening_units": [
+          "人文暨科技跨領域學士學位學程"
+        ],
+        "opening_unit_snapshot": "人文暨科技跨領域學士學位學程",
+        "course_name_snapshot": "劇場藝術導論",
+        "credits_snapshot": 1.0,
+        "requirement_group": "elective",
+        "notes": "",
+        "source_page": 1,
+        "evidence_match": true,
+        "validation_status": "needs_course_code_verification",
+        "uncertainty_reason": "Official PDF table does not provide a course code"
+      },
+      {
+        "course_code": null,
+        "opening_units": [
+          "劇藝系"
+        ],
+        "opening_unit_snapshot": "劇藝系",
+        "course_name_snapshot": "電腦輔助繪圖",
+        "credits_snapshot": 2.0,
+        "requirement_group": "elective",
+        "notes": "",
+        "source_page": 1,
+        "evidence_match": true,
+        "validation_status": "needs_course_code_verification",
+        "uncertainty_reason": "Official PDF table does not provide a course code"
+      },
+      {
+        "course_code": null,
+        "opening_units": [
+          "光電系"
+        ],
+        "opening_unit_snapshot": "光電系",
+        "course_name_snapshot": "沉浸式體驗概論",
+        "credits_snapshot": 3.0,
+        "requirement_group": "elective",
+        "notes": "",
+        "source_page": 1,
+        "evidence_match": true,
+        "validation_status": "needs_course_code_verification",
+        "uncertainty_reason": "Official PDF table does not provide a course code"
+      },
+      {
+        "course_code": null,
+        "opening_units": [
+          "音樂系"
+        ],
+        "opening_unit_snapshot": "音樂系",
+        "course_name_snapshot": "數位化編曲理論與實作(一)",
+        "credits_snapshot": 2.0,
+        "requirement_group": "elective",
+        "notes": "",
+        "source_page": 1,
+        "evidence_match": true,
+        "validation_status": "needs_course_code_verification",
+        "uncertainty_reason": "Official PDF table does not provide a course code"
+      },
+      {
+        "course_code": null,
+        "opening_units": [
+          "音樂系"
+        ],
+        "opening_unit_snapshot": "音樂系",
+        "course_name_snapshot": "數位化編曲理論與實作(二)",
+        "credits_snapshot": 2.0,
+        "requirement_group": "elective",
+        "notes": "",
+        "source_page": 2,
+        "evidence_match": true,
+        "validation_status": "needs_course_code_verification",
+        "uncertainty_reason": "Official PDF table does not provide a course code"
+      }
+    ],
+    "structured_requirements": {
+      "core_credits_text_value": 5,
+      "minimum_total_credits": 9,
+      "minimum_outside_home_department_credits": 3
+    }
+  }
+}

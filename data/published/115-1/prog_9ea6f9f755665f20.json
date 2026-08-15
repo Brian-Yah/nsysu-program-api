@@ -1,0 +1,136 @@
+{
+  "program_id": "prog_9ea6f9f755665f20",
+  "name_zh": "醫師科學家微學程 (★自115年8月1日起停開)",
+  "name_en": null,
+  "previous_names": [],
+  "type": "micro_program",
+  "status": "discontinued",
+  "description": "後基因體時代下,基因體定序與蛋白體解碼的快速進步,生物資訊、人工智慧與臨床醫學的結合,將改變固有的診斷方式。對於疾病風險控管、診斷方式乃至於治療方法的安排皆有深遠的影響。為培養同學具備基因體及生物資訊應用及研發能力,本學程兼顧理論及應用型課程涵蓋: 創新精準醫學導論、生物資訊學與蛋白質及核酸化學。利用生物訊息、大數據科學與基本分子生物試驗進行充分的交叉應用,進而為培育優秀醫師科學家做最好的準備。",
+  "responsible_unit": "生醫所",
+  "coordinator": "薛佑玲教授",
+  "program_website": "https://ipm.nsysu.edu.tw/p/404-1331-317076.php?Lang=zh-tw",
+  "source_pdf": "http://140.117.153.69/ctdr/files/20231220104622316.pdf",
+  "academic_version": "115-1",
+  "source": {
+    "catalog_url": "https://ctdr.nsysu.edu.tw/class2.php",
+    "pdf_url": "http://140.117.153.69/ctdr/files/20231220104622316.pdf",
+    "retrieved_at": "2026-08-15T10:05:39Z",
+    "pdf_binary_sha256": "0194cc9f88836c2167fae9d06fe988bafc8cc2cb56d600e3f127e07e8c2433a4",
+    "normalized_text_sha256": "0418162fcdee6b078b6be90ac0fd3da1520e7e7641beb7306df2b890d8e26bca",
+    "http": {
+      "status": 200,
+      "etag": "\"21cda-60ce7fd06abbe\"",
+      "last_modified": "Wed, 20 Dec 2023 02:46:22 GMT",
+      "content_length": 138458
+    },
+    "parser_version": "0.1.0"
+  },
+  "review_status": "needs_review",
+  "rules": {
+    "kind": "manual_review",
+    "reason": "Extracted candidate awaits approval"
+  },
+  "warnings": [
+    "No structured course rows extracted from PDF tables"
+  ],
+  "selected_pdf_academic_version": "112-1",
+  "course_catalog": [
+    {
+      "course_code": null,
+      "opening_units": [
+        "精準所"
+      ],
+      "opening_unit_snapshot": "精準所",
+      "course_name_snapshot": "創新精準醫學導論",
+      "credits_snapshot": 3.0,
+      "requirement_group": "core",
+      "notes": "",
+      "source_page": 1,
+      "evidence_match": true,
+      "validation_status": "needs_course_code_verification",
+      "uncertainty_reason": "Official PDF table does not provide a course code"
+    },
+    {
+      "course_code": null,
+      "opening_units": [
+        "精準所",
+        "生醫所",
+        "醫科所"
+      ],
+      "opening_unit_snapshot": "精準所 / 生醫所 / 醫科所",
+      "course_name_snapshot": "生物資訊學",
+      "credits_snapshot": 3.0,
+      "requirement_group": "core",
+      "notes": "",
+      "source_page": 1,
+      "evidence_match": true,
+      "validation_status": "needs_course_code_verification",
+      "uncertainty_reason": "Official PDF table does not provide a course code"
+    },
+    {
+      "course_code": null,
+      "opening_units": [
+        "精準所"
+      ],
+      "opening_unit_snapshot": "精準所",
+      "course_name_snapshot": "生醫資訊處理實務",
+      "credits_snapshot": 3.0,
+      "requirement_group": "core",
+      "notes": "",
+      "source_page": 1,
+      "evidence_match": true,
+      "validation_status": "needs_course_code_verification",
+      "uncertainty_reason": "Official PDF table does not provide a course code"
+    },
+    {
+      "course_code": null,
+      "opening_units": [
+        "精準所"
+      ],
+      "opening_unit_snapshot": "精準所",
+      "course_name_snapshot": "生化與分子生物學",
+      "credits_snapshot": 3.0,
+      "requirement_group": "core",
+      "notes": "",
+      "source_page": 1,
+      "evidence_match": true,
+      "validation_status": "needs_course_code_verification",
+      "uncertainty_reason": "Official PDF table does not provide a course code"
+    },
+    {
+      "course_code": null,
+      "opening_units": [
+        "精準所"
+      ],
+      "opening_unit_snapshot": "精準所",
+      "course_name_snapshot": "進階生物醫學統計學",
+      "credits_snapshot": 3.0,
+      "requirement_group": "core",
+      "notes": "",
+      "source_page": 1,
+      "evidence_match": true,
+      "validation_status": "needs_course_code_verification",
+      "uncertainty_reason": "Official PDF table does not provide a course code"
+    },
+    {
+      "course_code": null,
+      "opening_units": [
+        "精準所"
+      ],
+      "opening_unit_snapshot": "精準所",
+      "course_name_snapshot": "癌症生物學",
+      "credits_snapshot": 3.0,
+      "requirement_group": "core",
+      "notes": "",
+      "source_page": 1,
+      "evidence_match": true,
+      "validation_status": "needs_course_code_verification",
+      "uncertainty_reason": "Official PDF table does not provide a course code"
+    }
+  ],
+  "structured_requirements": {
+    "minimum_total_credits": 9,
+    "core_credits_text_value": 9,
+    "minimum_outside_home_department_credits": 3
+  }
+}

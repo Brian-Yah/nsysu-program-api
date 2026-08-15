@@ -1,0 +1,814 @@
+{
+  "program_id": "prog_dfedeea89a855e6c",
+  "latest_academic_version": "115-1",
+  "versions": [
+    "115-1"
+  ],
+  "program": {
+    "program_id": "prog_dfedeea89a855e6c",
+    "name_zh": "中文創意跨域應用整合學程",
+    "name_en": null,
+    "previous_names": [],
+    "type": "integrated_program",
+    "status": "active",
+    "description": "中文系近年教學創新方式著重於帶領學生實作應用,將中文含蘊的文思養分轉化為創意應用,並結合跨領域的知能技巧,累積豐富精采的文創成品。我們擬成立「中文創意跨域應用整合學程」,本學程乃以中文基礎核心課程、古典文化及現代文學課程為重要基礎養分,進而延伸至跨域應用課程及專題製作課程,一方面鼓勵中文系學生藉由修習此整合學程進而將中文涵養應用於多元領域,另一方面也鼓勵非中文系但對中文領域有興趣的學生,藉由修習此整合學程而加深其中文專業知能。",
+    "responsible_unit": "中文系",
+    "coordinator": "鍾志偉副教授",
+    "program_website": "https://sites.google.com/g-mail.nsysu.edu.tw/chcreativeprogram",
+    "source_pdf": "http://140.117.153.69/ctdr/files/20260701140336386.pdf",
+    "academic_version": "115-1",
+    "source": {
+      "catalog_url": "https://ctdr.nsysu.edu.tw/class2.php",
+      "pdf_url": "http://140.117.153.69/ctdr/files/20260701140336386.pdf",
+      "retrieved_at": "2026-08-15T10:05:39Z",
+      "pdf_binary_sha256": "b0c7704d223820fe3210030382ad82bae100504eede978a25fefee6b8d98ad99",
+      "normalized_text_sha256": "2a28f6406db87ec9300610f743250660bdc1280b0c23218fccb42a09a6f6bbed",
+      "http": {
+        "status": 200,
+        "etag": "\"4ee69-6558673c272e5\"",
+        "last_modified": "Wed, 01 Jul 2026 06:03:36 GMT",
+        "content_length": 323177
+      },
+      "parser_version": "0.1.0"
+    },
+    "review_status": "needs_review",
+    "rules": {
+      "kind": "manual_review",
+      "reason": "Extracted candidate awaits approval"
+    },
+    "warnings": [],
+    "selected_pdf_academic_version": "114-2",
+    "course_catalog": [
+      {
+        "course_code": null,
+        "opening_units": [
+          "中文系"
+        ],
+        "opening_unit_snapshot": "中文系",
+        "course_name_snapshot": "中國文學史(一)(二)",
+        "credits_snapshot": 6.0,
+        "requirement_group": "core",
+        "notes": "中文系基礎必修課程文學/思想/語言文字三領域擇一修習至少 6 學分",
+        "source_page": 1,
+        "evidence_match": true,
+        "validation_status": "needs_course_code_verification",
+        "uncertainty_reason": "Official PDF table does not provide a course code"
+      },
+      {
+        "course_code": null,
+        "opening_units": [
+          "中文系"
+        ],
+        "opening_unit_snapshot": "中文系",
+        "course_name_snapshot": "中國思想史(一)(二)",
+        "credits_snapshot": 6.0,
+        "requirement_group": "core",
+        "notes": "",
+        "source_page": 1,
+        "evidence_match": true,
+        "validation_status": "needs_course_code_verification",
+        "uncertainty_reason": "Official PDF table does not provide a course code"
+      },
+      {
+        "course_code": null,
+        "opening_units": [
+          "中文系"
+        ],
+        "opening_unit_snapshot": "中文系",
+        "course_name_snapshot": "語言學概論",
+        "credits_snapshot": 2.0,
+        "requirement_group": "core",
+        "notes": "",
+        "source_page": 1,
+        "evidence_match": true,
+        "validation_status": "needs_course_code_verification",
+        "uncertainty_reason": "Official PDF table does not provide a course code"
+      },
+      {
+        "course_code": null,
+        "opening_units": [
+          "中文系"
+        ],
+        "opening_unit_snapshot": "中文系",
+        "course_name_snapshot": "文字學",
+        "credits_snapshot": 3.0,
+        "requirement_group": "core",
+        "notes": "",
+        "source_page": 1,
+        "evidence_match": true,
+        "validation_status": "needs_course_code_verification",
+        "uncertainty_reason": "Official PDF table does not provide a course code"
+      },
+      {
+        "course_code": null,
+        "opening_units": [
+          "中文系"
+        ],
+        "opening_unit_snapshot": "中文系",
+        "course_name_snapshot": "聲韻學",
+        "credits_snapshot": 3.0,
+        "requirement_group": "core",
+        "notes": "",
+        "source_page": 1,
+        "evidence_match": true,
+        "validation_status": "needs_course_code_verification",
+        "uncertainty_reason": "Official PDF table does not provide a course code"
+      },
+      {
+        "course_code": null,
+        "opening_units": [
+          "中文系"
+        ],
+        "opening_unit_snapshot": "中文系",
+        "course_name_snapshot": "訓詁學",
+        "credits_snapshot": 2.0,
+        "requirement_group": "core",
+        "notes": "",
+        "source_page": 1,
+        "evidence_match": true,
+        "validation_status": "needs_course_code_verification",
+        "uncertainty_reason": "Official PDF table does not provide a course code"
+      },
+      {
+        "course_code": null,
+        "opening_units": [
+          "西灣學院"
+        ],
+        "opening_unit_snapshot": "西灣學院",
+        "course_name_snapshot": "中文思辨與表達(一)(二)",
+        "credits_snapshot": 3.0,
+        "requirement_group": "core",
+        "notes": "基礎語文課程至少3 學分",
+        "source_page": 1,
+        "evidence_match": true,
+        "validation_status": "needs_course_code_verification",
+        "uncertainty_reason": "Official PDF table does not provide a course code"
+      },
+      {
+        "course_code": null,
+        "opening_units": [
+          "中文系"
+        ],
+        "opening_unit_snapshot": "中文系",
+        "course_name_snapshot": "文學閱讀與生命書寫(一)(二)",
+        "credits_snapshot": 6.0,
+        "requirement_group": "core",
+        "notes": "",
+        "source_page": 1,
+        "evidence_match": false,
+        "validation_status": "needs_course_code_verification",
+        "uncertainty_reason": "Official PDF table does not provide a course code"
+      },
+      {
+        "course_code": null,
+        "opening_units": [
+          "中文系"
+        ],
+        "opening_unit_snapshot": "中文系",
+        "course_name_snapshot": "青聽文學",
+        "credits_snapshot": 3.0,
+        "requirement_group": "core",
+        "notes": "",
+        "source_page": 1,
+        "evidence_match": true,
+        "validation_status": "needs_course_code_verification",
+        "uncertainty_reason": "Official PDF table does not provide a course code"
+      },
+      {
+        "course_code": null,
+        "opening_units": [
+          "中文系"
+        ],
+        "opening_unit_snapshot": "中文系",
+        "course_name_snapshot": "非虛構文學選讀",
+        "credits_snapshot": 3.0,
+        "requirement_group": "core",
+        "notes": "",
+        "source_page": 1,
+        "evidence_match": true,
+        "validation_status": "needs_course_code_verification",
+        "uncertainty_reason": "Official PDF table does not provide a course code"
+      },
+      {
+        "course_code": null,
+        "opening_units": [
+          "中文系"
+        ],
+        "opening_unit_snapshot": "中文系",
+        "course_name_snapshot": "詩選及習作(一)(二)",
+        "credits_snapshot": 6.0,
+        "requirement_group": "elective",
+        "notes": "古典文化與創意課程至少 3 學分",
+        "source_page": 1,
+        "evidence_match": true,
+        "validation_status": "needs_course_code_verification",
+        "uncertainty_reason": "Official PDF table does not provide a course code"
+      },
+      {
+        "course_code": null,
+        "opening_units": [
+          "中文系"
+        ],
+        "opening_unit_snapshot": "中文系",
+        "course_name_snapshot": "歷代文選及習作(一)(二)",
+        "credits_snapshot": 6.0,
+        "requirement_group": "elective",
+        "notes": "",
+        "source_page": 1,
+        "evidence_match": true,
+        "validation_status": "needs_course_code_verification",
+        "uncertainty_reason": "Official PDF table does not provide a course code"
+      },
+      {
+        "course_code": null,
+        "opening_units": [
+          "中文系"
+        ],
+        "opening_unit_snapshot": "中文系",
+        "course_name_snapshot": "詞曲選及習作(一)(二)",
+        "credits_snapshot": 6.0,
+        "requirement_group": "elective",
+        "notes": "",
+        "source_page": 1,
+        "evidence_match": true,
+        "validation_status": "needs_course_code_verification",
+        "uncertainty_reason": "Official PDF table does not provide a course code"
+      },
+      {
+        "course_code": null,
+        "opening_units": [
+          "中文系"
+        ],
+        "opening_unit_snapshot": "中文系",
+        "course_name_snapshot": "論語",
+        "credits_snapshot": 3.0,
+        "requirement_group": "elective",
+        "notes": "",
+        "source_page": 1,
+        "evidence_match": true,
+        "validation_status": "needs_course_code_verification",
+        "uncertainty_reason": "Official PDF table does not provide a course code"
+      },
+      {
+        "course_code": null,
+        "opening_units": [
+          "中文系"
+        ],
+        "opening_unit_snapshot": "中文系",
+        "course_name_snapshot": "杜甫詩",
+        "credits_snapshot": 3.0,
+        "requirement_group": "elective",
+        "notes": "",
+        "source_page": 1,
+        "evidence_match": true,
+        "validation_status": "needs_course_code_verification",
+        "uncertainty_reason": "Official PDF table does not provide a course code"
+      },
+      {
+        "course_code": null,
+        "opening_units": [
+          "中文系"
+        ],
+        "opening_unit_snapshot": "中文系",
+        "course_name_snapshot": "李白詩",
+        "credits_snapshot": 3.0,
+        "requirement_group": "elective",
+        "notes": "",
+        "source_page": 1,
+        "evidence_match": true,
+        "validation_status": "needs_course_code_verification",
+        "uncertainty_reason": "Official PDF table does not provide a course code"
+      },
+      {
+        "course_code": null,
+        "opening_units": [
+          "中文系"
+        ],
+        "opening_unit_snapshot": "中文系",
+        "course_name_snapshot": "歐蘇文",
+        "credits_snapshot": 3.0,
+        "requirement_group": "elective",
+        "notes": "",
+        "source_page": 1,
+        "evidence_match": true,
+        "validation_status": "needs_course_code_verification",
+        "uncertainty_reason": "Official PDF table does not provide a course code"
+      },
+      {
+        "course_code": null,
+        "opening_units": [
+          "中文系"
+        ],
+        "opening_unit_snapshot": "中文系",
+        "course_name_snapshot": "紅樓夢",
+        "credits_snapshot": 3.0,
+        "requirement_group": "elective",
+        "notes": "",
+        "source_page": 1,
+        "evidence_match": true,
+        "validation_status": "needs_course_code_verification",
+        "uncertainty_reason": "Official PDF table does not provide a course code"
+      },
+      {
+        "course_code": null,
+        "opening_units": [
+          "中文系"
+        ],
+        "opening_unit_snapshot": "中文系",
+        "course_name_snapshot": "古典小說選(一)(二)",
+        "credits_snapshot": 6.0,
+        "requirement_group": "elective",
+        "notes": "",
+        "source_page": 1,
+        "evidence_match": true,
+        "validation_status": "needs_course_code_verification",
+        "uncertainty_reason": "Official PDF table does not provide a course code"
+      },
+      {
+        "course_code": null,
+        "opening_units": [
+          "中文系"
+        ],
+        "opening_unit_snapshot": "中文系",
+        "course_name_snapshot": "古典戲劇選(一)(二)",
+        "credits_snapshot": 6.0,
+        "requirement_group": "elective",
+        "notes": "",
+        "source_page": 1,
+        "evidence_match": true,
+        "validation_status": "needs_course_code_verification",
+        "uncertainty_reason": "Official PDF table does not provide a course code"
+      },
+      {
+        "course_code": null,
+        "opening_units": [
+          "中文系"
+        ],
+        "opening_unit_snapshot": "中文系",
+        "course_name_snapshot": "臺灣古典文學概論",
+        "credits_snapshot": 3.0,
+        "requirement_group": "elective",
+        "notes": "",
+        "source_page": 1,
+        "evidence_match": true,
+        "validation_status": "needs_course_code_verification",
+        "uncertainty_reason": "Official PDF table does not provide a course code"
+      },
+      {
+        "course_code": null,
+        "opening_units": [
+          "中文系"
+        ],
+        "opening_unit_snapshot": "中文系",
+        "course_name_snapshot": "陶淵明詩文選讀",
+        "credits_snapshot": 3.0,
+        "requirement_group": "elective",
+        "notes": "",
+        "source_page": 1,
+        "evidence_match": true,
+        "validation_status": "needs_course_code_verification",
+        "uncertainty_reason": "Official PDF table does not provide a course code"
+      },
+      {
+        "course_code": null,
+        "opening_units": [
+          "中文系"
+        ],
+        "opening_unit_snapshot": "中文系",
+        "course_name_snapshot": "李商隱詩",
+        "credits_snapshot": 3.0,
+        "requirement_group": "elective",
+        "notes": "",
+        "source_page": 1,
+        "evidence_match": true,
+        "validation_status": "needs_course_code_verification",
+        "uncertainty_reason": "Official PDF table does not provide a course code"
+      },
+      {
+        "course_code": null,
+        "opening_units": [
+          "中文系"
+        ],
+        "opening_unit_snapshot": "中文系",
+        "course_name_snapshot": "當代戲曲(一)(二)",
+        "credits_snapshot": 6.0,
+        "requirement_group": "elective",
+        "notes": "",
+        "source_page": 1,
+        "evidence_match": true,
+        "validation_status": "needs_course_code_verification",
+        "uncertainty_reason": "Official PDF table does not provide a course code"
+      },
+      {
+        "course_code": null,
+        "opening_units": [
+          "中文系"
+        ],
+        "opening_unit_snapshot": "中文系",
+        "course_name_snapshot": "現代詩選與寫作",
+        "credits_snapshot": 3.0,
+        "requirement_group": "elective",
+        "notes": "現代文學與寫作課程至少 3 學分",
+        "source_page": 1,
+        "evidence_match": true,
+        "validation_status": "needs_course_code_verification",
+        "uncertainty_reason": "Official PDF table does not provide a course code"
+      },
+      {
+        "course_code": null,
+        "opening_units": [
+          "中文系"
+        ],
+        "opening_unit_snapshot": "中文系",
+        "course_name_snapshot": "現代散文選與寫作",
+        "credits_snapshot": 3.0,
+        "requirement_group": "elective",
+        "notes": "",
+        "source_page": 1,
+        "evidence_match": true,
+        "validation_status": "needs_course_code_verification",
+        "uncertainty_reason": "Official PDF table does not provide a course code"
+      },
+      {
+        "course_code": null,
+        "opening_units": [
+          "中文系"
+        ],
+        "opening_unit_snapshot": "中文系",
+        "course_name_snapshot": "現代小說選與寫作(一)(二)",
+        "credits_snapshot": 6.0,
+        "requirement_group": "elective",
+        "notes": "",
+        "source_page": 1,
+        "evidence_match": true,
+        "validation_status": "needs_course_code_verification",
+        "uncertainty_reason": "Official PDF table does not provide a course code"
+      },
+      {
+        "course_code": null,
+        "opening_units": [
+          "中文系"
+        ],
+        "opening_unit_snapshot": "中文系",
+        "course_name_snapshot": "晚清到當代華文科幻小說",
+        "credits_snapshot": 3.0,
+        "requirement_group": "elective",
+        "notes": "",
+        "source_page": 1,
+        "evidence_match": true,
+        "validation_status": "needs_course_code_verification",
+        "uncertainty_reason": "Official PDF table does not provide a course code"
+      },
+      {
+        "course_code": null,
+        "opening_units": [
+          "中文系"
+        ],
+        "opening_unit_snapshot": "中文系",
+        "course_name_snapshot": "中外文學經典選讀(一)(二)",
+        "credits_snapshot": 6.0,
+        "requirement_group": "elective",
+        "notes": "",
+        "source_page": 1,
+        "evidence_match": true,
+        "validation_status": "needs_course_code_verification",
+        "uncertainty_reason": "Official PDF table does not provide a course code"
+      },
+      {
+        "course_code": null,
+        "opening_units": [
+          "中文系"
+        ],
+        "opening_unit_snapshot": "中文系",
+        "course_name_snapshot": "華文文學與性別文化(一)(二)",
+        "credits_snapshot": 6.0,
+        "requirement_group": "elective",
+        "notes": "",
+        "source_page": 2,
+        "evidence_match": false,
+        "validation_status": "needs_course_code_verification",
+        "uncertainty_reason": "Official PDF table does not provide a course code"
+      },
+      {
+        "course_code": null,
+        "opening_units": [
+          "中文系"
+        ],
+        "opening_unit_snapshot": "中文系",
+        "course_name_snapshot": "現代文學與影像轉譯",
+        "credits_snapshot": 3.0,
+        "requirement_group": "elective",
+        "notes": "",
+        "source_page": 2,
+        "evidence_match": true,
+        "validation_status": "needs_course_code_verification",
+        "uncertainty_reason": "Official PDF table does not provide a course code"
+      },
+      {
+        "course_code": null,
+        "opening_units": [
+          "社會系"
+        ],
+        "opening_unit_snapshot": "社會系",
+        "course_name_snapshot": "閱讀與寫作",
+        "credits_snapshot": 3.0,
+        "requirement_group": "elective",
+        "notes": "",
+        "source_page": 2,
+        "evidence_match": true,
+        "validation_status": "needs_course_code_verification",
+        "uncertainty_reason": "Official PDF table does not provide a course code"
+      },
+      {
+        "course_code": null,
+        "opening_units": [
+          "劇藝系"
+        ],
+        "opening_unit_snapshot": "劇藝系",
+        "course_name_snapshot": "劇本創作(一)(二)",
+        "credits_snapshot": 6.0,
+        "requirement_group": "elective",
+        "notes": "",
+        "source_page": 2,
+        "evidence_match": true,
+        "validation_status": "needs_course_code_verification",
+        "uncertainty_reason": "Official PDF table does not provide a course code"
+      },
+      {
+        "course_code": null,
+        "opening_units": [
+          "中文系"
+        ],
+        "opening_unit_snapshot": "中文系",
+        "course_name_snapshot": "地方敘事與數位遊戲設計",
+        "credits_snapshot": 3.0,
+        "requirement_group": "elective",
+        "notes": "跨域實作應用課程至少 6 學分",
+        "source_page": 2,
+        "evidence_match": true,
+        "validation_status": "needs_course_code_verification",
+        "uncertainty_reason": "Official PDF table does not provide a course code"
+      },
+      {
+        "course_code": null,
+        "opening_units": [
+          "中文系"
+        ],
+        "opening_unit_snapshot": "中文系",
+        "course_name_snapshot": "地方文化典藏與報導應用",
+        "credits_snapshot": 3.0,
+        "requirement_group": "elective",
+        "notes": "",
+        "source_page": 2,
+        "evidence_match": true,
+        "validation_status": "needs_course_code_verification",
+        "uncertainty_reason": "Official PDF table does not provide a course code"
+      },
+      {
+        "course_code": null,
+        "opening_units": [
+          "中文系"
+        ],
+        "opening_unit_snapshot": "中文系",
+        "course_name_snapshot": "中文之路專題製作",
+        "credits_snapshot": 3.0,
+        "requirement_group": "elective",
+        "notes": "",
+        "source_page": 2,
+        "evidence_match": true,
+        "validation_status": "needs_course_code_verification",
+        "uncertainty_reason": "Official PDF table does not provide a course code"
+      },
+      {
+        "course_code": null,
+        "opening_units": [
+          "中文系"
+        ],
+        "opening_unit_snapshot": "中文系",
+        "course_name_snapshot": "臺灣語言踏查之旅",
+        "credits_snapshot": 3.0,
+        "requirement_group": "elective",
+        "notes": "",
+        "source_page": 2,
+        "evidence_match": true,
+        "validation_status": "needs_course_code_verification",
+        "uncertainty_reason": "Official PDF table does not provide a course code"
+      },
+      {
+        "course_code": null,
+        "opening_units": [
+          "博雅向度一"
+        ],
+        "opening_unit_snapshot": "博雅向度一",
+        "course_name_snapshot": "紀錄片與台灣社會",
+        "credits_snapshot": 3.0,
+        "requirement_group": "elective",
+        "notes": "",
+        "source_page": 2,
+        "evidence_match": true,
+        "validation_status": "needs_course_code_verification",
+        "uncertainty_reason": "Official PDF table does not provide a course code"
+      },
+      {
+        "course_code": null,
+        "opening_units": [
+          "博雅向度一"
+        ],
+        "opening_unit_snapshot": "博雅向度一",
+        "course_name_snapshot": "紀錄片企劃與製作",
+        "credits_snapshot": 3.0,
+        "requirement_group": "elective",
+        "notes": "",
+        "source_page": 2,
+        "evidence_match": true,
+        "validation_status": "needs_course_code_verification",
+        "uncertainty_reason": "Official PDF table does not provide a course code"
+      },
+      {
+        "course_code": null,
+        "opening_units": [
+          "博雅向度三"
+        ],
+        "opening_unit_snapshot": "博雅向度三",
+        "course_name_snapshot": "地方文化採集與應用",
+        "credits_snapshot": 3.0,
+        "requirement_group": "elective",
+        "notes": "",
+        "source_page": 2,
+        "evidence_match": true,
+        "validation_status": "needs_course_code_verification",
+        "uncertainty_reason": "Official PDF table does not provide a course code"
+      },
+      {
+        "course_code": null,
+        "opening_units": [
+          "博雅向度三"
+        ],
+        "opening_unit_snapshot": "博雅向度三",
+        "course_name_snapshot": "創造力與社會創新",
+        "credits_snapshot": 3.0,
+        "requirement_group": "elective",
+        "notes": "",
+        "source_page": 2,
+        "evidence_match": true,
+        "validation_status": "needs_course_code_verification",
+        "uncertainty_reason": "Official PDF table does not provide a course code"
+      },
+      {
+        "course_code": null,
+        "opening_units": [
+          "博雅向度四"
+        ],
+        "opening_unit_snapshot": "博雅向度四",
+        "course_name_snapshot": "故事創意與數位繪本",
+        "credits_snapshot": 2.0,
+        "requirement_group": "elective",
+        "notes": "",
+        "source_page": 2,
+        "evidence_match": true,
+        "validation_status": "needs_course_code_verification",
+        "uncertainty_reason": "Official PDF table does not provide a course code"
+      },
+      {
+        "course_code": null,
+        "opening_units": [
+          "博雅向度四"
+        ],
+        "opening_unit_snapshot": "博雅向度四",
+        "course_name_snapshot": "用影像說故事:探索科技、環境與社會",
+        "credits_snapshot": 2.0,
+        "requirement_group": "elective",
+        "notes": "",
+        "source_page": 2,
+        "evidence_match": false,
+        "validation_status": "needs_course_code_verification",
+        "uncertainty_reason": "Official PDF table does not provide a course code"
+      },
+      {
+        "course_code": null,
+        "opening_units": [
+          "博雅向度四"
+        ],
+        "opening_unit_snapshot": "博雅向度四",
+        "course_name_snapshot": "探尋建築工藝中的高雄故事",
+        "credits_snapshot": 3.0,
+        "requirement_group": "elective",
+        "notes": "",
+        "source_page": 2,
+        "evidence_match": true,
+        "validation_status": "needs_course_code_verification",
+        "uncertainty_reason": "Official PDF table does not provide a course code"
+      },
+      {
+        "course_code": null,
+        "opening_units": [
+          "跨院選修"
+        ],
+        "opening_unit_snapshot": "跨院選修",
+        "course_name_snapshot": "音樂故事劇場",
+        "credits_snapshot": 3.0,
+        "requirement_group": "elective",
+        "notes": "",
+        "source_page": 2,
+        "evidence_match": true,
+        "validation_status": "needs_course_code_verification",
+        "uncertainty_reason": "Official PDF table does not provide a course code"
+      },
+      {
+        "course_code": null,
+        "opening_units": [
+          "跨院選修"
+        ],
+        "opening_unit_snapshot": "跨院選修",
+        "course_name_snapshot": "當代台灣的人文視野與創意下的社會實踐",
+        "credits_snapshot": 3.0,
+        "requirement_group": "elective",
+        "notes": "",
+        "source_page": 2,
+        "evidence_match": false,
+        "validation_status": "needs_course_code_verification",
+        "uncertainty_reason": "Official PDF table does not provide a course code"
+      },
+      {
+        "course_code": null,
+        "opening_units": [
+          "跨院選修"
+        ],
+        "opening_unit_snapshot": "跨院選修",
+        "course_name_snapshot": "文化設計與展演",
+        "credits_snapshot": 3.0,
+        "requirement_group": "elective",
+        "notes": "",
+        "source_page": 2,
+        "evidence_match": true,
+        "validation_status": "needs_course_code_verification",
+        "uncertainty_reason": "Official PDF table does not provide a course code"
+      },
+      {
+        "course_code": null,
+        "opening_units": [
+          "人科學程"
+        ],
+        "opening_unit_snapshot": "人科學程",
+        "course_name_snapshot": "創意設計方法",
+        "credits_snapshot": 3.0,
+        "requirement_group": "elective",
+        "notes": "",
+        "source_page": 2,
+        "evidence_match": true,
+        "validation_status": "needs_course_code_verification",
+        "uncertainty_reason": "Official PDF table does not provide a course code"
+      },
+      {
+        "course_code": null,
+        "opening_units": [
+          "人科學程"
+        ],
+        "opening_unit_snapshot": "人科學程",
+        "course_name_snapshot": "設計溝通與表達",
+        "credits_snapshot": 3.0,
+        "requirement_group": "elective",
+        "notes": "",
+        "source_page": 2,
+        "evidence_match": true,
+        "validation_status": "needs_course_code_verification",
+        "uncertainty_reason": "Official PDF table does not provide a course code"
+      },
+      {
+        "course_code": null,
+        "opening_units": [
+          "社會系"
+        ],
+        "opening_unit_snapshot": "社會系",
+        "course_name_snapshot": "社區文創設計",
+        "credits_snapshot": 3.0,
+        "requirement_group": "elective",
+        "notes": "",
+        "source_page": 2,
+        "evidence_match": true,
+        "validation_status": "needs_course_code_verification",
+        "uncertainty_reason": "Official PDF table does not provide a course code"
+      },
+      {
+        "course_code": null,
+        "opening_units": [
+          "劇藝系"
+        ],
+        "opening_unit_snapshot": "劇藝系",
+        "course_name_snapshot": "音樂劇表演與製作",
+        "credits_snapshot": 3.0,
+        "requirement_group": "elective",
+        "notes": "",
+        "source_page": 2,
+        "evidence_match": true,
+        "validation_status": "needs_course_code_verification",
+        "uncertainty_reason": "Official PDF table does not provide a course code"
+      }
+    ],
+    "structured_requirements": {
+      "core_credits_text_value": 9,
+      "minimum_total_credits": 21,
+      "minimum_outside_home_department_credits": 6
+    }
+  }
+}

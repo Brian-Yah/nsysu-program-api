@@ -1,0 +1,126 @@
+{
+  "program_id": "prog_e063a9b8023b5c00",
+  "latest_academic_version": "115-1",
+  "versions": [
+    "115-1"
+  ],
+  "program": {
+    "program_id": "prog_e063a9b8023b5c00",
+    "name_zh": "工業污染防治及減排微學程",
+    "name_en": null,
+    "previous_names": [],
+    "type": "micro_program",
+    "status": "active",
+    "description": "本微學程將建構以解決工業污染並開創新穎空污減排防治技術及策略之議題為導向之跨域學習環境,規劃之課程中,將厚植學生之基礎能力及環保素養,同時強化與相關產業之互動,使學生了解產業發展現況,並從中激發學生解決問題、開創新技術之能力,以成為企業所需之新生代人才,協助業界突破技術瓶頸。",
+    "responsible_unit": "氣膠科學研究中心",
+    "coordinator": "王家蓁副教授",
+    "program_website": "https://aerosol.nsysu.edu.tw/service_info/134",
+    "source_pdf": "http://140.117.153.69/ctdr/files/20230607160229874.pdf",
+    "academic_version": "115-1",
+    "source": {
+      "catalog_url": "https://ctdr.nsysu.edu.tw/class2.php",
+      "pdf_url": "http://140.117.153.69/ctdr/files/20230607160229874.pdf",
+      "retrieved_at": "2026-08-15T10:05:39Z",
+      "pdf_binary_sha256": "acde01754ab065080c8c08193a1f7d56c01e9ce24428f9e3a6efacee956ec369",
+      "normalized_text_sha256": "f63150096c7fa3007a4d6162bbaf83eb906badcb7b53a30fa8a21f9ceef5f157",
+      "http": {
+        "status": 200,
+        "etag": "\"27d79-5fd858eaed4d1\"",
+        "last_modified": "Wed, 07 Jun 2023 08:02:29 GMT",
+        "content_length": 163193
+      },
+      "parser_version": "0.1.0"
+    },
+    "review_status": "needs_review",
+    "rules": {
+      "kind": "manual_review",
+      "reason": "Extracted candidate awaits approval"
+    },
+    "warnings": [
+      "No structured course rows extracted from PDF tables"
+    ],
+    "selected_pdf_academic_version": "110-2",
+    "course_catalog": [
+      {
+        "course_code": null,
+        "opening_units": [
+          "化學系"
+        ],
+        "opening_unit_snapshot": "化學系",
+        "course_name_snapshot": "氣膠科學導論",
+        "credits_snapshot": 3.0,
+        "requirement_group": "core",
+        "notes": "",
+        "source_page": 1,
+        "evidence_match": true,
+        "validation_status": "needs_course_code_verification",
+        "uncertainty_reason": "Official PDF table does not provide a course code"
+      },
+      {
+        "course_code": null,
+        "opening_units": [
+          "環工所"
+        ],
+        "opening_unit_snapshot": "環工所",
+        "course_name_snapshot": "空氣污染工程學",
+        "credits_snapshot": 3.0,
+        "requirement_group": "core",
+        "notes": "",
+        "source_page": 1,
+        "evidence_match": true,
+        "validation_status": "needs_course_code_verification",
+        "uncertainty_reason": "Official PDF table does not provide a course code"
+      },
+      {
+        "course_code": null,
+        "opening_units": [
+          "環工所"
+        ],
+        "opening_unit_snapshot": "環工所",
+        "course_name_snapshot": "大氣汙染化學",
+        "credits_snapshot": 3.0,
+        "requirement_group": "elective",
+        "notes": "",
+        "source_page": 1,
+        "evidence_match": true,
+        "validation_status": "needs_course_code_verification",
+        "uncertainty_reason": "Official PDF table does not provide a course code"
+      },
+      {
+        "course_code": null,
+        "opening_units": [
+          "環工所"
+        ],
+        "opening_unit_snapshot": "環工所",
+        "course_name_snapshot": "空氣污染物採樣與分析",
+        "credits_snapshot": 3.0,
+        "requirement_group": "elective",
+        "notes": "",
+        "source_page": 1,
+        "evidence_match": true,
+        "validation_status": "needs_course_code_verification",
+        "uncertainty_reason": "Official PDF table does not provide a course code"
+      },
+      {
+        "course_code": null,
+        "opening_units": [
+          "環工所"
+        ],
+        "opening_unit_snapshot": "環工所",
+        "course_name_snapshot": "環境決策與管理",
+        "credits_snapshot": 3.0,
+        "requirement_group": "elective",
+        "notes": "",
+        "source_page": 1,
+        "evidence_match": true,
+        "validation_status": "needs_course_code_verification",
+        "uncertainty_reason": "Official PDF table does not provide a course code"
+      }
+    ],
+    "structured_requirements": {
+      "minimum_total_credits": 9,
+      "core_credits_text_value": 6,
+      "minimum_outside_home_department_credits": 3
+    }
+  }
+}

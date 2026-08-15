@@ -1,0 +1,1114 @@
+{
+  "program_id": "prog_940d059c23cb5f50",
+  "latest_academic_version": "115-1",
+  "versions": [
+    "115-1"
+  ],
+  "program": {
+    "program_id": "prog_940d059c23cb5f50",
+    "name_zh": "南星產業樞紐學程  (★自113年2月1日起停止受理申請修讀學程)",
+    "name_en": null,
+    "previous_names": [],
+    "type": "integrated_program",
+    "status": "discontinued",
+    "description": "本學程結合工學院與海科院堅強師資陣容,並引進台灣國際造船公司與中信造船公司內資深研究技術人才之實務經驗,整合產業發展所需之學術基礎訓練與實務經驗,以強化學生對於學理與實務之鏈結。為邁向「產業客製化」、「國際學習銜接」之趨勢,且落實學用合一的宗旨,本學程共分成四個專業分組:「設備系統科技」、「國防科技」、「能源科技」、以及「船艦工程」。而為增進學生之國際競爭力,在畢業前一年可申請本學程特別募款成立之助學金,有機會獲得赴國外交換學習半年之補助。此外,修習本學程學生在滿足學分與實習規定後,合作業者將根據於企業實習之綜合表現,優先錄用進入所屬研發單位服務。",
+    "responsible_unit": "海工系",
+    "coordinator": "許弘莒教授",
+    "program_website": "http://www2.nsysu.edu.tw/pfkomi/orientedMarineIndustry/index.html",
+    "source_pdf": "http://140.117.153.69/ctdr/files/20240109115030253.pdf",
+    "academic_version": "115-1",
+    "source": {
+      "catalog_url": "https://ctdr.nsysu.edu.tw/class2.php",
+      "pdf_url": "http://140.117.153.69/ctdr/files/20240109115030253.pdf",
+      "retrieved_at": "2026-08-15T10:05:39Z",
+      "pdf_binary_sha256": "d07e42cdf6978ee62aa9f9f11ece99af4312a73b8e732302b9df1925a35750ba",
+      "normalized_text_sha256": "32bb668e0a1e2f70b41cbb64bc6bd5664f9af391d202a5844a3e5164540d7d70",
+      "http": {
+        "status": 200,
+        "etag": "\"4b30c-60e7b373517ee\"",
+        "last_modified": "Tue, 09 Jan 2024 03:50:30 GMT",
+        "content_length": 307980
+      },
+      "parser_version": "0.1.0"
+    },
+    "review_status": "needs_review",
+    "rules": {
+      "kind": "manual_review",
+      "reason": "Extracted candidate awaits approval"
+    },
+    "warnings": [],
+    "selected_pdf_academic_version": "111-1",
+    "course_catalog": [
+      {
+        "course_code": null,
+        "opening_units": [
+          "海下所"
+        ],
+        "opening_unit_snapshot": "海下所",
+        "course_name_snapshot": "大型計畫專案管理",
+        "credits_snapshot": 3.0,
+        "requirement_group": "elective",
+        "notes": "設備系統科技、國防科技、能源科技、船艦工程",
+        "source_page": 1,
+        "evidence_match": true,
+        "validation_status": "needs_course_code_verification",
+        "uncertainty_reason": "Official PDF table does not provide a course code"
+      },
+      {
+        "course_code": null,
+        "opening_units": [
+          "海工碩"
+        ],
+        "opening_unit_snapshot": "海工碩",
+        "course_name_snapshot": "波浪理論",
+        "credits_snapshot": 3.0,
+        "requirement_group": "elective",
+        "notes": "國防科技、能源科技、船艦工程",
+        "source_page": 1,
+        "evidence_match": true,
+        "validation_status": "needs_course_code_verification",
+        "uncertainty_reason": "Official PDF table does not provide a course code"
+      },
+      {
+        "course_code": null,
+        "opening_units": [
+          "海工系"
+        ],
+        "opening_unit_snapshot": "海工系",
+        "course_name_snapshot": "流體動力學",
+        "credits_snapshot": 3.0,
+        "requirement_group": "elective",
+        "notes": "能源科技、船艦工程",
+        "source_page": 1,
+        "evidence_match": true,
+        "validation_status": "needs_course_code_verification",
+        "uncertainty_reason": "Official PDF table does not provide a course code"
+      },
+      {
+        "course_code": null,
+        "opening_units": [
+          "海工系"
+        ],
+        "opening_unit_snapshot": "海工系",
+        "course_name_snapshot": "海岸工程學",
+        "credits_snapshot": 3.0,
+        "requirement_group": "elective",
+        "notes": "設備系統科技、國防科技、能源科技、船艦工程",
+        "source_page": 1,
+        "evidence_match": true,
+        "validation_status": "needs_course_code_verification",
+        "uncertainty_reason": "Official PDF table does not provide a course code"
+      },
+      {
+        "course_code": null,
+        "opening_units": [
+          "海工系"
+        ],
+        "opening_unit_snapshot": "海工系",
+        "course_name_snapshot": "海洋流體力學",
+        "credits_snapshot": 3.0,
+        "requirement_group": "elective",
+        "notes": "船艦工程",
+        "source_page": 1,
+        "evidence_match": true,
+        "validation_status": "needs_course_code_verification",
+        "uncertainty_reason": "Official PDF table does not provide a course code"
+      },
+      {
+        "course_code": null,
+        "opening_units": [
+          "機電系"
+        ],
+        "opening_unit_snapshot": "機電系",
+        "course_name_snapshot": "工程統計學",
+        "credits_snapshot": 3.0,
+        "requirement_group": "elective",
+        "notes": "設備系統科技",
+        "source_page": 1,
+        "evidence_match": true,
+        "validation_status": "needs_course_code_verification",
+        "uncertainty_reason": "Official PDF table does not provide a course code"
+      },
+      {
+        "course_code": null,
+        "opening_units": [
+          "機電系"
+        ],
+        "opening_unit_snapshot": "機電系",
+        "course_name_snapshot": "工程電腦程式",
+        "credits_snapshot": 3.0,
+        "requirement_group": "elective",
+        "notes": "設備系統科技",
+        "source_page": 1,
+        "evidence_match": true,
+        "validation_status": "needs_course_code_verification",
+        "uncertainty_reason": "Official PDF table does not provide a course code"
+      },
+      {
+        "course_code": null,
+        "opening_units": [
+          "機電系"
+        ],
+        "opening_unit_snapshot": "機電系",
+        "course_name_snapshot": "工程圖學",
+        "credits_snapshot": 2.0,
+        "requirement_group": "elective",
+        "notes": "國防科技",
+        "source_page": 1,
+        "evidence_match": true,
+        "validation_status": "needs_course_code_verification",
+        "uncertainty_reason": "Official PDF table does not provide a course code"
+      },
+      {
+        "course_code": null,
+        "opening_units": [
+          "海下所"
+        ],
+        "opening_unit_snapshot": "海下所",
+        "course_name_snapshot": "工程機率與統計",
+        "credits_snapshot": 3.0,
+        "requirement_group": "elective",
+        "notes": "設備系統科技、船艦工程",
+        "source_page": 1,
+        "evidence_match": true,
+        "validation_status": "needs_course_code_verification",
+        "uncertainty_reason": "Official PDF table does not provide a course code"
+      },
+      {
+        "course_code": null,
+        "opening_units": [
+          "海下所"
+        ],
+        "opening_unit_snapshot": "海下所",
+        "course_name_snapshot": "工程聲學",
+        "credits_snapshot": 3.0,
+        "requirement_group": "elective",
+        "notes": "設備系統科技、船艦工程",
+        "source_page": 1,
+        "evidence_match": true,
+        "validation_status": "needs_course_code_verification",
+        "uncertainty_reason": "Official PDF table does not provide a course code"
+      },
+      {
+        "course_code": null,
+        "opening_units": [
+          "電機系"
+        ],
+        "opening_unit_snapshot": "電機系",
+        "course_name_snapshot": "工業配電",
+        "credits_snapshot": 3.0,
+        "requirement_group": "elective",
+        "notes": "能源科技、船艦工程",
+        "source_page": 1,
+        "evidence_match": true,
+        "validation_status": "needs_course_code_verification",
+        "uncertainty_reason": "Official PDF table does not provide a course code"
+      },
+      {
+        "course_code": null,
+        "opening_units": [
+          "機電系"
+        ],
+        "opening_unit_snapshot": "機電系",
+        "course_name_snapshot": "太陽能工程概論",
+        "credits_snapshot": 3.0,
+        "requirement_group": "elective",
+        "notes": "能源科技",
+        "source_page": 1,
+        "evidence_match": true,
+        "validation_status": "needs_course_code_verification",
+        "uncertainty_reason": "Official PDF table does not provide a course code"
+      },
+      {
+        "course_code": null,
+        "opening_units": [
+          "海下所"
+        ],
+        "opening_unit_snapshot": "海下所",
+        "course_name_snapshot": "水下音傳與訊號處理",
+        "credits_snapshot": 3.0,
+        "requirement_group": "elective",
+        "notes": "國防科技、船艦工程",
+        "source_page": 1,
+        "evidence_match": true,
+        "validation_status": "needs_course_code_verification",
+        "uncertainty_reason": "Official PDF table does not provide a course code"
+      },
+      {
+        "course_code": null,
+        "opening_units": [
+          "海下所"
+        ],
+        "opening_unit_snapshot": "海下所",
+        "course_name_snapshot": "主動海洋聲學",
+        "credits_snapshot": 3.0,
+        "requirement_group": "elective",
+        "notes": "國防科技、能源科技、船艦工程",
+        "source_page": 1,
+        "evidence_match": true,
+        "validation_status": "needs_course_code_verification",
+        "uncertainty_reason": "Official PDF table does not provide a course code"
+      },
+      {
+        "course_code": null,
+        "opening_units": [
+          "海工系"
+        ],
+        "opening_unit_snapshot": "海工系",
+        "course_name_snapshot": "外海結構工程導論",
+        "credits_snapshot": 3.0,
+        "requirement_group": "elective",
+        "notes": "能源科技、船艦工程",
+        "source_page": 1,
+        "evidence_match": true,
+        "validation_status": "needs_course_code_verification",
+        "uncertainty_reason": "Official PDF table does not provide a course code"
+      },
+      {
+        "course_code": null,
+        "opening_units": [
+          "電機系"
+        ],
+        "opening_unit_snapshot": "電機系",
+        "course_name_snapshot": "多媒體通訊概論",
+        "credits_snapshot": 3.0,
+        "requirement_group": "elective",
+        "notes": "設備系統科技",
+        "source_page": 1,
+        "evidence_match": true,
+        "validation_status": "needs_course_code_verification",
+        "uncertainty_reason": "Official PDF table does not provide a course code"
+      },
+      {
+        "course_code": null,
+        "opening_units": [
+          "機電系"
+        ],
+        "opening_unit_snapshot": "機電系",
+        "course_name_snapshot": "有限元素法概論",
+        "credits_snapshot": 3.0,
+        "requirement_group": "elective",
+        "notes": "國防科技",
+        "source_page": 1,
+        "evidence_match": true,
+        "validation_status": "needs_course_code_verification",
+        "uncertainty_reason": "Official PDF table does not provide a course code"
+      },
+      {
+        "course_code": null,
+        "opening_units": [
+          "機電系"
+        ],
+        "opening_unit_snapshot": "機電系",
+        "course_name_snapshot": "自動化機構",
+        "credits_snapshot": 3.0,
+        "requirement_group": "elective",
+        "notes": "設備系統科技",
+        "source_page": 1,
+        "evidence_match": true,
+        "validation_status": "needs_course_code_verification",
+        "uncertainty_reason": "Official PDF table does not provide a course code"
+      },
+      {
+        "course_code": null,
+        "opening_units": [
+          "機電系"
+        ],
+        "opening_unit_snapshot": "機電系",
+        "course_name_snapshot": "自動控制",
+        "credits_snapshot": 3.0,
+        "requirement_group": "elective",
+        "notes": "設備系統科技",
+        "source_page": 1,
+        "evidence_match": true,
+        "validation_status": "needs_course_code_verification",
+        "uncertainty_reason": "Official PDF table does not provide a course code"
+      },
+      {
+        "course_code": null,
+        "opening_units": [
+          "海下所"
+        ],
+        "opening_unit_snapshot": "海下所",
+        "course_name_snapshot": "品質工程與實驗設計",
+        "credits_snapshot": 3.0,
+        "requirement_group": "elective",
+        "notes": "設備系統科技",
+        "source_page": 1,
+        "evidence_match": true,
+        "validation_status": "needs_course_code_verification",
+        "uncertainty_reason": "Official PDF table does not provide a course code"
+      },
+      {
+        "course_code": null,
+        "opening_units": [
+          "海工碩"
+        ],
+        "opening_unit_snapshot": "海工碩",
+        "course_name_snapshot": "施工技術與管理",
+        "credits_snapshot": 3.0,
+        "requirement_group": "elective",
+        "notes": "設備系統科技",
+        "source_page": 1,
+        "evidence_match": true,
+        "validation_status": "needs_course_code_verification",
+        "uncertainty_reason": "Official PDF table does not provide a course code"
+      },
+      {
+        "course_code": null,
+        "opening_units": [
+          "機電系"
+        ],
+        "opening_unit_snapshot": "機電系",
+        "course_name_snapshot": "流體力學",
+        "credits_snapshot": 3.0,
+        "requirement_group": "elective",
+        "notes": "能源科技",
+        "source_page": 1,
+        "evidence_match": true,
+        "validation_status": "needs_course_code_verification",
+        "uncertainty_reason": "Official PDF table does not provide a course code"
+      },
+      {
+        "course_code": null,
+        "opening_units": [
+          "海工系"
+        ],
+        "opening_unit_snapshot": "海工系",
+        "course_name_snapshot": "流體力學",
+        "credits_snapshot": 3.0,
+        "requirement_group": "elective",
+        "notes": "設備系統科技、能源科技、船艦工程",
+        "source_page": 1,
+        "evidence_match": true,
+        "validation_status": "needs_course_code_verification",
+        "uncertainty_reason": "Official PDF table does not provide a course code"
+      },
+      {
+        "course_code": null,
+        "opening_units": [
+          "海工碩"
+        ],
+        "opening_unit_snapshot": "海工碩",
+        "course_name_snapshot": "海事工程風險分析及管理",
+        "credits_snapshot": 3.0,
+        "requirement_group": "elective",
+        "notes": "能源科技",
+        "source_page": 1,
+        "evidence_match": true,
+        "validation_status": "needs_course_code_verification",
+        "uncertainty_reason": "Official PDF table does not provide a course code"
+      },
+      {
+        "course_code": null,
+        "opening_units": [
+          "海工碩"
+        ],
+        "opening_unit_snapshot": "海工碩",
+        "course_name_snapshot": "海底調查工程技術",
+        "credits_snapshot": 3.0,
+        "requirement_group": "elective",
+        "notes": "國防科技",
+        "source_page": 1,
+        "evidence_match": true,
+        "validation_status": "needs_course_code_verification",
+        "uncertainty_reason": "Official PDF table does not provide a course code"
+      },
+      {
+        "course_code": null,
+        "opening_units": [
+          "海工碩"
+        ],
+        "opening_unit_snapshot": "海工碩",
+        "course_name_snapshot": "海洋地理資訊系統及實習",
+        "credits_snapshot": 4.0,
+        "requirement_group": "elective",
+        "notes": "國防科技",
+        "source_page": 2,
+        "evidence_match": true,
+        "validation_status": "needs_course_code_verification",
+        "uncertainty_reason": "Official PDF table does not provide a course code"
+      },
+      {
+        "course_code": null,
+        "opening_units": [
+          "海工系"
+        ],
+        "opening_unit_snapshot": "海工系",
+        "course_name_snapshot": "海洋波浪學",
+        "credits_snapshot": 3.0,
+        "requirement_group": "elective",
+        "notes": "設備系統科技、國防科技、能源科技、船艦工程",
+        "source_page": 2,
+        "evidence_match": true,
+        "validation_status": "needs_course_code_verification",
+        "uncertainty_reason": "Official PDF table does not provide a course code"
+      },
+      {
+        "course_code": null,
+        "opening_units": [
+          "海工碩"
+        ],
+        "opening_unit_snapshot": "海工碩",
+        "course_name_snapshot": "海域調查與量測",
+        "credits_snapshot": 3.0,
+        "requirement_group": "elective",
+        "notes": "能源科技",
+        "source_page": 2,
+        "evidence_match": true,
+        "validation_status": "needs_course_code_verification",
+        "uncertainty_reason": "Official PDF table does not provide a course code"
+      },
+      {
+        "course_code": null,
+        "opening_units": [
+          "機電碩"
+        ],
+        "opening_unit_snapshot": "機電碩",
+        "course_name_snapshot": "疲勞力學",
+        "credits_snapshot": 3.0,
+        "requirement_group": "elective",
+        "notes": "船艦工程",
+        "source_page": 2,
+        "evidence_match": true,
+        "validation_status": "needs_course_code_verification",
+        "uncertainty_reason": "Official PDF table does not provide a course code"
+      },
+      {
+        "course_code": null,
+        "opening_units": [
+          "機電碩"
+        ],
+        "opening_unit_snapshot": "機電碩",
+        "course_name_snapshot": "破壞力學",
+        "credits_snapshot": 3.0,
+        "requirement_group": "elective",
+        "notes": "船艦工程",
+        "source_page": 2,
+        "evidence_match": true,
+        "validation_status": "needs_course_code_verification",
+        "uncertainty_reason": "Official PDF table does not provide a course code"
+      },
+      {
+        "course_code": null,
+        "opening_units": [
+          "電機系"
+        ],
+        "opening_unit_snapshot": "電機系",
+        "course_name_snapshot": "訊號與系統",
+        "credits_snapshot": 3.0,
+        "requirement_group": "elective",
+        "notes": "設備系統科技、國防科技",
+        "source_page": 2,
+        "evidence_match": true,
+        "validation_status": "needs_course_code_verification",
+        "uncertainty_reason": "Official PDF table does not provide a course code"
+      },
+      {
+        "course_code": null,
+        "opening_units": [
+          "海下所"
+        ],
+        "opening_unit_snapshot": "海下所",
+        "course_name_snapshot": "訊號與系統",
+        "credits_snapshot": 3.0,
+        "requirement_group": "elective",
+        "notes": "設備系統科技、船艦工程",
+        "source_page": 2,
+        "evidence_match": true,
+        "validation_status": "needs_course_code_verification",
+        "uncertainty_reason": "Official PDF table does not provide a course code"
+      },
+      {
+        "course_code": null,
+        "opening_units": [
+          "電機系"
+        ],
+        "opening_unit_snapshot": "電機系",
+        "course_name_snapshot": "控制系統",
+        "credits_snapshot": 3.0,
+        "requirement_group": "elective",
+        "notes": "設備系統科技、船艦工程",
+        "source_page": 2,
+        "evidence_match": true,
+        "validation_status": "needs_course_code_verification",
+        "uncertainty_reason": "Official PDF table does not provide a course code"
+      },
+      {
+        "course_code": null,
+        "opening_units": [
+          "海工碩"
+        ],
+        "opening_unit_snapshot": "海工碩",
+        "course_name_snapshot": "船舶施工規劃",
+        "credits_snapshot": 3.0,
+        "requirement_group": "elective",
+        "notes": "設備系統科技",
+        "source_page": 2,
+        "evidence_match": true,
+        "validation_status": "needs_course_code_verification",
+        "uncertainty_reason": "Official PDF table does not provide a course code"
+      },
+      {
+        "course_code": null,
+        "opening_units": [
+          "海工系"
+        ],
+        "opening_unit_snapshot": "海工系",
+        "course_name_snapshot": "船艦工程實務專題講座",
+        "credits_snapshot": 3.0,
+        "requirement_group": "elective",
+        "notes": "設備系統科技、國防科技、能源科技、船艦工程",
+        "source_page": 2,
+        "evidence_match": true,
+        "validation_status": "needs_course_code_verification",
+        "uncertainty_reason": "Official PDF table does not provide a course code"
+      },
+      {
+        "course_code": null,
+        "opening_units": [
+          "海下所"
+        ],
+        "opening_unit_snapshot": "海下所",
+        "course_name_snapshot": "船艦輪電實務專題講座",
+        "credits_snapshot": 3.0,
+        "requirement_group": "elective",
+        "notes": "設備系統科技、國防科技、能源科技、船艦工程",
+        "source_page": 2,
+        "evidence_match": true,
+        "validation_status": "needs_course_code_verification",
+        "uncertainty_reason": "Official PDF table does not provide a course code"
+      },
+      {
+        "course_code": null,
+        "opening_units": [
+          "海下所"
+        ],
+        "opening_unit_snapshot": "海下所",
+        "course_name_snapshot": "被動海洋聲學",
+        "credits_snapshot": 3.0,
+        "requirement_group": "elective",
+        "notes": "設備系統科技、能源科技",
+        "source_page": 2,
+        "evidence_match": true,
+        "validation_status": "needs_course_code_verification",
+        "uncertainty_reason": "Official PDF table does not provide a course code"
+      },
+      {
+        "course_code": null,
+        "opening_units": [
+          "電機系"
+        ],
+        "opening_unit_snapshot": "電機系",
+        "course_name_snapshot": "通訊系統",
+        "credits_snapshot": 3.0,
+        "requirement_group": "elective",
+        "notes": "設備系統科技",
+        "source_page": 2,
+        "evidence_match": true,
+        "validation_status": "needs_course_code_verification",
+        "uncertainty_reason": "Official PDF table does not provide a course code"
+      },
+      {
+        "course_code": null,
+        "opening_units": [
+          "電機系"
+        ],
+        "opening_unit_snapshot": "電機系",
+        "course_name_snapshot": "嵌入式系統概論",
+        "credits_snapshot": 3.0,
+        "requirement_group": "elective",
+        "notes": "國防科技",
+        "source_page": 2,
+        "evidence_match": true,
+        "validation_status": "needs_course_code_verification",
+        "uncertainty_reason": "Official PDF table does not provide a course code"
+      },
+      {
+        "course_code": null,
+        "opening_units": [
+          "電機系"
+        ],
+        "opening_unit_snapshot": "電機系",
+        "course_name_snapshot": "嵌入式軟體設計",
+        "credits_snapshot": 3.0,
+        "requirement_group": "elective",
+        "notes": "國防科技",
+        "source_page": 2,
+        "evidence_match": true,
+        "validation_status": "needs_course_code_verification",
+        "uncertainty_reason": "Official PDF table does not provide a course code"
+      },
+      {
+        "course_code": null,
+        "opening_units": [
+          "電機系"
+        ],
+        "opening_unit_snapshot": "電機系",
+        "course_name_snapshot": "最佳化簡介",
+        "credits_snapshot": 3.0,
+        "requirement_group": "elective",
+        "notes": "設備系統科技",
+        "source_page": 2,
+        "evidence_match": true,
+        "validation_status": "needs_course_code_verification",
+        "uncertainty_reason": "Official PDF table does not provide a course code"
+      },
+      {
+        "course_code": null,
+        "opening_units": [
+          "電機系"
+        ],
+        "opening_unit_snapshot": "電機系",
+        "course_name_snapshot": "最佳控制簡介",
+        "credits_snapshot": 3.0,
+        "requirement_group": "elective",
+        "notes": "設備系統科技",
+        "source_page": 2,
+        "evidence_match": true,
+        "validation_status": "needs_course_code_verification",
+        "uncertainty_reason": "Official PDF table does not provide a course code"
+      },
+      {
+        "course_code": null,
+        "opening_units": [
+          "海工系"
+        ],
+        "opening_unit_snapshot": "海工系",
+        "course_name_snapshot": "測量學",
+        "credits_snapshot": 3.0,
+        "requirement_group": "elective",
+        "notes": "國防科技",
+        "source_page": 2,
+        "evidence_match": true,
+        "validation_status": "needs_course_code_verification",
+        "uncertainty_reason": "Official PDF table does not provide a course code"
+      },
+      {
+        "course_code": null,
+        "opening_units": [
+          "電機系"
+        ],
+        "opening_unit_snapshot": "電機系",
+        "course_name_snapshot": "硬體描述語言",
+        "credits_snapshot": 3.0,
+        "requirement_group": "elective",
+        "notes": "國防科技",
+        "source_page": 2,
+        "evidence_match": true,
+        "validation_status": "needs_course_code_verification",
+        "uncertainty_reason": "Official PDF table does not provide a course code"
+      },
+      {
+        "course_code": null,
+        "opening_units": [
+          "機電碩"
+        ],
+        "opening_unit_snapshot": "機電碩",
+        "course_name_snapshot": "塑性力學",
+        "credits_snapshot": 3.0,
+        "requirement_group": "elective",
+        "notes": "船艦工程",
+        "source_page": 2,
+        "evidence_match": true,
+        "validation_status": "needs_course_code_verification",
+        "uncertainty_reason": "Official PDF table does not provide a course code"
+      },
+      {
+        "course_code": null,
+        "opening_units": [
+          "電機系"
+        ],
+        "opening_unit_snapshot": "電機系",
+        "course_name_snapshot": "電力系統(一)",
+        "credits_snapshot": 3.0,
+        "requirement_group": "elective",
+        "notes": "能源科技、船艦工程",
+        "source_page": 2,
+        "evidence_match": true,
+        "validation_status": "needs_course_code_verification",
+        "uncertainty_reason": "Official PDF table does not provide a course code"
+      },
+      {
+        "course_code": null,
+        "opening_units": [
+          "電機系"
+        ],
+        "opening_unit_snapshot": "電機系",
+        "course_name_snapshot": "電力系統(二)",
+        "credits_snapshot": 3.0,
+        "requirement_group": "elective",
+        "notes": "能源科技、船艦工程",
+        "source_page": 2,
+        "evidence_match": true,
+        "validation_status": "needs_course_code_verification",
+        "uncertainty_reason": "Official PDF table does not provide a course code"
+      },
+      {
+        "course_code": null,
+        "opening_units": [
+          "電機系"
+        ],
+        "opening_unit_snapshot": "電機系",
+        "course_name_snapshot": "電力電子學",
+        "credits_snapshot": 3.0,
+        "requirement_group": "elective",
+        "notes": "能源科技、船艦工程",
+        "source_page": 2,
+        "evidence_match": true,
+        "validation_status": "needs_course_code_verification",
+        "uncertainty_reason": "Official PDF table does not provide a course code"
+      },
+      {
+        "course_code": null,
+        "opening_units": [
+          "電機系"
+        ],
+        "opening_unit_snapshot": "電機系",
+        "course_name_snapshot": "電源與電池管理系統導論",
+        "credits_snapshot": 3.0,
+        "requirement_group": "elective",
+        "notes": "船艦工程",
+        "source_page": 2,
+        "evidence_match": true,
+        "validation_status": "needs_course_code_verification",
+        "uncertainty_reason": "Official PDF table does not provide a course code"
+      },
+      {
+        "course_code": null,
+        "opening_units": [
+          "海工系"
+        ],
+        "opening_unit_snapshot": "海工系",
+        "course_name_snapshot": "電腦輔助繪圖",
+        "credits_snapshot": 3.0,
+        "requirement_group": "elective",
+        "notes": "國防科技",
+        "source_page": 2,
+        "evidence_match": true,
+        "validation_status": "needs_course_code_verification",
+        "uncertainty_reason": "Official PDF table does not provide a course code"
+      },
+      {
+        "course_code": null,
+        "opening_units": [
+          "機電系"
+        ],
+        "opening_unit_snapshot": "機電系",
+        "course_name_snapshot": "電路學",
+        "credits_snapshot": 3.0,
+        "requirement_group": "elective",
+        "notes": "能源科技",
+        "source_page": 2,
+        "evidence_match": true,
+        "validation_status": "needs_course_code_verification",
+        "uncertainty_reason": "Official PDF table does not provide a course code"
+      },
+      {
+        "course_code": null,
+        "opening_units": [
+          "電機系"
+        ],
+        "opening_unit_snapshot": "電機系",
+        "course_name_snapshot": "電路學(一)",
+        "credits_snapshot": 3.0,
+        "requirement_group": "elective",
+        "notes": "能源科技",
+        "source_page": 2,
+        "evidence_match": true,
+        "validation_status": "needs_course_code_verification",
+        "uncertainty_reason": "Official PDF table does not provide a course code"
+      },
+      {
+        "course_code": null,
+        "opening_units": [
+          "電機系"
+        ],
+        "opening_unit_snapshot": "電機系",
+        "course_name_snapshot": "電路學(二)",
+        "credits_snapshot": 3.0,
+        "requirement_group": "elective",
+        "notes": "能源科技",
+        "source_page": 2,
+        "evidence_match": true,
+        "validation_status": "needs_course_code_verification",
+        "uncertainty_reason": "Official PDF table does not provide a course code"
+      },
+      {
+        "course_code": null,
+        "opening_units": [
+          "電機系"
+        ],
+        "opening_unit_snapshot": "電機系",
+        "course_name_snapshot": "電機動態與控制",
+        "credits_snapshot": 3.0,
+        "requirement_group": "elective",
+        "notes": "能源科技、船艦工程",
+        "source_page": 2,
+        "evidence_match": true,
+        "validation_status": "needs_course_code_verification",
+        "uncertainty_reason": "Official PDF table does not provide a course code"
+      },
+      {
+        "course_code": null,
+        "opening_units": [
+          "電機系"
+        ],
+        "opening_unit_snapshot": "電機系",
+        "course_name_snapshot": "電機機械",
+        "credits_snapshot": 3.0,
+        "requirement_group": "elective",
+        "notes": "能源科技",
+        "source_page": 2,
+        "evidence_match": true,
+        "validation_status": "needs_course_code_verification",
+        "uncertainty_reason": "Official PDF table does not provide a course code"
+      },
+      {
+        "course_code": null,
+        "opening_units": [
+          "機電系"
+        ],
+        "opening_unit_snapshot": "機電系",
+        "course_name_snapshot": "綠色能源工程",
+        "credits_snapshot": 3.0,
+        "requirement_group": "elective",
+        "notes": "能源科技",
+        "source_page": 2,
+        "evidence_match": true,
+        "validation_status": "needs_course_code_verification",
+        "uncertainty_reason": "Official PDF table does not provide a course code"
+      },
+      {
+        "course_code": null,
+        "opening_units": [
+          "機電碩"
+        ],
+        "opening_unit_snapshot": "機電碩",
+        "course_name_snapshot": "彈性力學",
+        "credits_snapshot": 3.0,
+        "requirement_group": "elective",
+        "notes": "船艦工程",
+        "source_page": 2,
+        "evidence_match": true,
+        "validation_status": "needs_course_code_verification",
+        "uncertainty_reason": "Official PDF table does not provide a course code"
+      },
+      {
+        "course_code": null,
+        "opening_units": [
+          "電機系"
+        ],
+        "opening_unit_snapshot": "電機系",
+        "course_name_snapshot": "數位系統設計",
+        "credits_snapshot": 3.0,
+        "requirement_group": "elective",
+        "notes": "國防科技",
+        "source_page": 2,
+        "evidence_match": true,
+        "validation_status": "needs_course_code_verification",
+        "uncertainty_reason": "Official PDF table does not provide a course code"
+      },
+      {
+        "course_code": null,
+        "opening_units": [
+          "電機系"
+        ],
+        "opening_unit_snapshot": "電機系",
+        "course_name_snapshot": "數位訊號處理導論",
+        "credits_snapshot": 3.0,
+        "requirement_group": "elective",
+        "notes": "國防科技",
+        "source_page": 2,
+        "evidence_match": true,
+        "validation_status": "needs_course_code_verification",
+        "uncertainty_reason": "Official PDF table does not provide a course code"
+      },
+      {
+        "course_code": null,
+        "opening_units": [
+          "海下所"
+        ],
+        "opening_unit_snapshot": "海下所",
+        "course_name_snapshot": "數值最佳化方法",
+        "credits_snapshot": 3.0,
+        "requirement_group": "elective",
+        "notes": "設備系統科技、能源科技",
+        "source_page": 2,
+        "evidence_match": true,
+        "validation_status": "needs_course_code_verification",
+        "uncertainty_reason": "Official PDF table does not provide a course code"
+      },
+      {
+        "course_code": null,
+        "opening_units": [
+          "機電系"
+        ],
+        "opening_unit_snapshot": "機電系",
+        "course_name_snapshot": "熱傳學",
+        "credits_snapshot": 3.0,
+        "requirement_group": "elective",
+        "notes": "能源科技",
+        "source_page": 2,
+        "evidence_match": true,
+        "validation_status": "needs_course_code_verification",
+        "uncertainty_reason": "Official PDF table does not provide a course code"
+      },
+      {
+        "course_code": null,
+        "opening_units": [
+          "電機系"
+        ],
+        "opening_unit_snapshot": "電機系",
+        "course_name_snapshot": "線性系統概論",
+        "credits_snapshot": 3.0,
+        "requirement_group": "elective",
+        "notes": "設備系統科技",
+        "source_page": 2,
+        "evidence_match": true,
+        "validation_status": "needs_course_code_verification",
+        "uncertainty_reason": "Official PDF table does not provide a course code"
+      },
+      {
+        "course_code": null,
+        "opening_units": [
+          "機電碩"
+        ],
+        "opening_unit_snapshot": "機電碩",
+        "course_name_snapshot": "複合材料力學",
+        "credits_snapshot": 3.0,
+        "requirement_group": "elective",
+        "notes": "船艦工程",
+        "source_page": 3,
+        "evidence_match": true,
+        "validation_status": "needs_course_code_verification",
+        "uncertainty_reason": "Official PDF table does not provide a course code"
+      },
+      {
+        "course_code": null,
+        "opening_units": [
+          "機電系"
+        ],
+        "opening_unit_snapshot": "機電系",
+        "course_name_snapshot": "機械振動",
+        "credits_snapshot": 3.0,
+        "requirement_group": "elective",
+        "notes": "設備系統科技、國防科技",
+        "source_page": 3,
+        "evidence_match": true,
+        "validation_status": "needs_course_code_verification",
+        "uncertainty_reason": "Official PDF table does not provide a course code"
+      },
+      {
+        "course_code": null,
+        "opening_units": [
+          "機電系"
+        ],
+        "opening_unit_snapshot": "機電系",
+        "course_name_snapshot": "機械設計原理(一)",
+        "credits_snapshot": 3.0,
+        "requirement_group": "elective",
+        "notes": "設備系統科技",
+        "source_page": 3,
+        "evidence_match": true,
+        "validation_status": "needs_course_code_verification",
+        "uncertainty_reason": "Official PDF table does not provide a course code"
+      },
+      {
+        "course_code": null,
+        "opening_units": [
+          "電機系"
+        ],
+        "opening_unit_snapshot": "電機系",
+        "course_name_snapshot": "機率與統計",
+        "credits_snapshot": 3.0,
+        "requirement_group": "elective",
+        "notes": "設備系統科技",
+        "source_page": 3,
+        "evidence_match": true,
+        "validation_status": "needs_course_code_verification",
+        "uncertainty_reason": "Official PDF table does not provide a course code"
+      },
+      {
+        "course_code": null,
+        "opening_units": [
+          "機電系"
+        ],
+        "opening_unit_snapshot": "機電系",
+        "course_name_snapshot": "機電材料",
+        "credits_snapshot": 3.0,
+        "requirement_group": "elective",
+        "notes": "設備系統科技",
+        "source_page": 3,
+        "evidence_match": true,
+        "validation_status": "needs_course_code_verification",
+        "uncertainty_reason": "Official PDF table does not provide a course code"
+      },
+      {
+        "course_code": null,
+        "opening_units": [
+          "機電系"
+        ],
+        "opening_unit_snapshot": "機電系",
+        "course_name_snapshot": "機電整合",
+        "credits_snapshot": 3.0,
+        "requirement_group": "elective",
+        "notes": "設備系統科技、國防科技",
+        "source_page": 3,
+        "evidence_match": true,
+        "validation_status": "needs_course_code_verification",
+        "uncertainty_reason": "Official PDF table does not provide a course code"
+      },
+      {
+        "course_code": null,
+        "opening_units": [
+          "海下所"
+        ],
+        "opening_unit_snapshot": "海下所",
+        "course_name_snapshot": "隨機振動",
+        "credits_snapshot": 3.0,
+        "requirement_group": "elective",
+        "notes": "船艦工程",
+        "source_page": 3,
+        "evidence_match": true,
+        "validation_status": "needs_course_code_verification",
+        "uncertainty_reason": "Official PDF table does not provide a course code"
+      },
+      {
+        "course_code": null,
+        "opening_units": [
+          "機電系"
+        ],
+        "opening_unit_snapshot": "機電系",
+        "course_name_snapshot": "應用電子學",
+        "credits_snapshot": 3.0,
+        "requirement_group": "elective",
+        "notes": "能源科技",
+        "source_page": 3,
+        "evidence_match": true,
+        "validation_status": "needs_course_code_verification",
+        "uncertainty_reason": "Official PDF table does not provide a course code"
+      },
+      {
+        "course_code": null,
+        "opening_units": [
+          "機電系"
+        ],
+        "opening_unit_snapshot": "機電系",
+        "course_name_snapshot": "熱力學",
+        "credits_snapshot": 3.0,
+        "requirement_group": "elective",
+        "notes": "能源科技",
+        "source_page": 3,
+        "evidence_match": true,
+        "validation_status": "needs_course_code_verification",
+        "uncertainty_reason": "Official PDF table does not provide a course code"
+      }
+    ],
+    "structured_requirements": {
+      "core_credits_text_value": 0,
+      "minimum_total_credits": 15,
+      "minimum_outside_home_department_credits": 6
+    }
+  }
+}

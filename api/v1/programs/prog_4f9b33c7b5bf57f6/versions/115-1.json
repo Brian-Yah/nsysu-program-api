@@ -1,0 +1,289 @@
+{
+  "program_id": "prog_4f9b33c7b5bf57f6",
+  "name_zh": "量子材料微學程",
+  "name_en": null,
+  "previous_names": [],
+  "type": "micro_program",
+  "status": "active",
+  "description": "傳統料料半導體已進入異質接面新現象的世界,新材料的表面拓樸及低維度之特殊量子效應將主宰未來世界。課程除了量子物理的教授,並加入新穎二維與拓撲材料之慨念,加強學生面對新時代的研究與未來科技。",
+  "responsible_unit": "物理系",
+  "coordinator": "洪昇廷助理教授",
+  "program_website": "https://phys.nsysu.edu.tw/p/404-1181-340730.php?Lang=zh-tw",
+  "source_pdf": "http://140.117.153.69/ctdr/files/20240531141847506.pdf",
+  "academic_version": "115-1",
+  "source": {
+    "catalog_url": "https://ctdr.nsysu.edu.tw/class2.php",
+    "pdf_url": "http://140.117.153.69/ctdr/files/20240531141847506.pdf",
+    "retrieved_at": "2026-08-15T10:05:39Z",
+    "pdf_binary_sha256": "ae02caac447ba9483a3a09215d23523aeb3945b432b6f249db8c77b53e8a10d7",
+    "normalized_text_sha256": "d08787774f3dc188431d1761fe839d2897a55dd0a59e10cfa131837c3b16cf81",
+    "http": {
+      "status": 200,
+      "etag": "\"61997-619b9f4d5195d\"",
+      "last_modified": "Fri, 31 May 2024 06:18:47 GMT",
+      "content_length": 399767
+    },
+    "parser_version": "0.1.0"
+  },
+  "review_status": "needs_review",
+  "rules": {
+    "kind": "manual_review",
+    "reason": "Extracted candidate awaits approval"
+  },
+  "warnings": [
+    "No structured course rows extracted from PDF tables"
+  ],
+  "selected_pdf_academic_version": "112-2",
+  "course_catalog": [
+    {
+      "course_code": null,
+      "opening_units": [
+        "物理系"
+      ],
+      "opening_unit_snapshot": "物理系",
+      "course_name_snapshot": "量子物理(一)",
+      "credits_snapshot": 3.0,
+      "requirement_group": "core",
+      "notes": "",
+      "source_page": 1,
+      "evidence_match": true,
+      "validation_status": "needs_course_code_verification",
+      "uncertainty_reason": "Official PDF table does not provide a course code"
+    },
+    {
+      "course_code": null,
+      "opening_units": [
+        "物理系"
+      ],
+      "opening_unit_snapshot": "物理系",
+      "course_name_snapshot": "量子物理(二)",
+      "credits_snapshot": 3.0,
+      "requirement_group": "core",
+      "notes": "",
+      "source_page": 1,
+      "evidence_match": true,
+      "validation_status": "needs_course_code_verification",
+      "uncertainty_reason": "Official PDF table does not provide a course code"
+    },
+    {
+      "course_code": null,
+      "opening_units": [
+        "物理系"
+      ],
+      "opening_unit_snapshot": "物理系",
+      "course_name_snapshot": "基礎量子物理(一)",
+      "credits_snapshot": 3.0,
+      "requirement_group": "core",
+      "notes": "",
+      "source_page": 1,
+      "evidence_match": true,
+      "validation_status": "needs_course_code_verification",
+      "uncertainty_reason": "Official PDF table does not provide a course code"
+    },
+    {
+      "course_code": null,
+      "opening_units": [
+        "物理系"
+      ],
+      "opening_unit_snapshot": "物理系",
+      "course_name_snapshot": "基礎量子物理(二)",
+      "credits_snapshot": 3.0,
+      "requirement_group": "core",
+      "notes": "",
+      "source_page": 1,
+      "evidence_match": true,
+      "validation_status": "needs_course_code_verification",
+      "uncertainty_reason": "Official PDF table does not provide a course code"
+    },
+    {
+      "course_code": null,
+      "opening_units": [
+        "物理系"
+      ],
+      "opening_unit_snapshot": "物理系",
+      "course_name_snapshot": "量子科技導論",
+      "credits_snapshot": 3.0,
+      "requirement_group": "core",
+      "notes": "",
+      "source_page": 1,
+      "evidence_match": true,
+      "validation_status": "needs_course_code_verification",
+      "uncertainty_reason": "Official PDF table does not provide a course code"
+    },
+    {
+      "course_code": null,
+      "opening_units": [
+        "物理系",
+        "光電系"
+      ],
+      "opening_unit_snapshot": "物理系 / 光電系",
+      "course_name_snapshot": "近代物理",
+      "credits_snapshot": 3.0,
+      "requirement_group": "core",
+      "notes": "",
+      "source_page": 1,
+      "evidence_match": true,
+      "validation_status": "needs_course_code_verification",
+      "uncertainty_reason": "Official PDF table does not provide a course code"
+    },
+    {
+      "course_code": null,
+      "opening_units": [
+        "物理碩"
+      ],
+      "opening_unit_snapshot": "物理碩",
+      "course_name_snapshot": "量子力學",
+      "credits_snapshot": 3.0,
+      "requirement_group": "core",
+      "notes": "",
+      "source_page": 1,
+      "evidence_match": true,
+      "validation_status": "needs_course_code_verification",
+      "uncertainty_reason": "Official PDF table does not provide a course code"
+    },
+    {
+      "course_code": null,
+      "opening_units": [
+        "物理系"
+      ],
+      "opening_unit_snapshot": "物理系",
+      "course_name_snapshot": "奈米半導體導論",
+      "credits_snapshot": 3.0,
+      "requirement_group": "elective",
+      "notes": "",
+      "source_page": 1,
+      "evidence_match": true,
+      "validation_status": "needs_course_code_verification",
+      "uncertainty_reason": "Official PDF table does not provide a course code"
+    },
+    {
+      "course_code": null,
+      "opening_units": [
+        "物理系",
+        "機電系"
+      ],
+      "opening_unit_snapshot": "物理系 / 機電系",
+      "course_name_snapshot": "奈米科技概論",
+      "credits_snapshot": 3.0,
+      "requirement_group": "elective",
+      "notes": "",
+      "source_page": 1,
+      "evidence_match": true,
+      "validation_status": "needs_course_code_verification",
+      "uncertainty_reason": "Official PDF table does not provide a course code"
+    },
+    {
+      "course_code": null,
+      "opening_units": [
+        "物理系"
+      ],
+      "opening_unit_snapshot": "物理系",
+      "course_name_snapshot": "量子物理與奈米結構的物理特性",
+      "credits_snapshot": 3.0,
+      "requirement_group": "elective",
+      "notes": "",
+      "source_page": 1,
+      "evidence_match": true,
+      "validation_status": "needs_course_code_verification",
+      "uncertainty_reason": "Official PDF table does not provide a course code"
+    },
+    {
+      "course_code": null,
+      "opening_units": [
+        "材光系"
+      ],
+      "opening_unit_snapshot": "材光系",
+      "course_name_snapshot": "材料科學導論",
+      "credits_snapshot": 3.0,
+      "requirement_group": "elective",
+      "notes": "",
+      "source_page": 1,
+      "evidence_match": true,
+      "validation_status": "needs_course_code_verification",
+      "uncertainty_reason": "Official PDF table does not provide a course code"
+    },
+    {
+      "course_code": null,
+      "opening_units": [
+        "材光系"
+      ],
+      "opening_unit_snapshot": "材光系",
+      "course_name_snapshot": "奈米材料之特性與應用",
+      "credits_snapshot": 3.0,
+      "requirement_group": "elective",
+      "notes": "",
+      "source_page": 1,
+      "evidence_match": true,
+      "validation_status": "needs_course_code_verification",
+      "uncertainty_reason": "Official PDF table does not provide a course code"
+    },
+    {
+      "course_code": null,
+      "opening_units": [
+        "材光系"
+      ],
+      "opening_unit_snapshot": "材光系",
+      "course_name_snapshot": "固態物理",
+      "credits_snapshot": 3.0,
+      "requirement_group": "elective",
+      "notes": "",
+      "source_page": 1,
+      "evidence_match": true,
+      "validation_status": "needs_course_code_verification",
+      "uncertainty_reason": "Official PDF table does not provide a course code"
+    },
+    {
+      "course_code": null,
+      "opening_units": [
+        "物理碩"
+      ],
+      "opening_unit_snapshot": "物理碩",
+      "course_name_snapshot": "凝體物理(一)",
+      "credits_snapshot": 3.0,
+      "requirement_group": "elective",
+      "notes": "",
+      "source_page": 1,
+      "evidence_match": true,
+      "validation_status": "needs_course_code_verification",
+      "uncertainty_reason": "Official PDF table does not provide a course code"
+    },
+    {
+      "course_code": null,
+      "opening_units": [
+        "物理碩"
+      ],
+      "opening_unit_snapshot": "物理碩",
+      "course_name_snapshot": "凝體物理(二)",
+      "credits_snapshot": 3.0,
+      "requirement_group": "elective",
+      "notes": "",
+      "source_page": 1,
+      "evidence_match": true,
+      "validation_status": "needs_course_code_verification",
+      "uncertainty_reason": "Official PDF table does not provide a course code"
+    },
+    {
+      "course_code": null,
+      "opening_units": [
+        "物理系",
+        "物理碩",
+        "光電系",
+        "跨院選修(理)"
+      ],
+      "opening_unit_snapshot": "物理系 / 物理碩 / 光電系 / 跨院選修(理)",
+      "course_name_snapshot": "半導體奈米元件製造技術",
+      "credits_snapshot": 3.0,
+      "requirement_group": "elective",
+      "notes": "",
+      "source_page": 1,
+      "evidence_match": true,
+      "validation_status": "needs_course_code_verification",
+      "uncertainty_reason": "Official PDF table does not provide a course code"
+    }
+  ],
+  "structured_requirements": {
+    "minimum_total_credits": 9,
+    "core_credits_text_value": 6,
+    "minimum_outside_home_department_credits": 3
+  }
+}

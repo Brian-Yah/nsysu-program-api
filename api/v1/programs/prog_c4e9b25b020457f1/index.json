@@ -1,0 +1,456 @@
+{
+  "program_id": "prog_c4e9b25b020457f1",
+  "latest_academic_version": "115-1",
+  "versions": [
+    "115-1"
+  ],
+  "program": {
+    "program_id": "prog_c4e9b25b020457f1",
+    "name_zh": "人工智慧與數學學程",
+    "name_en": null,
+    "previous_names": [],
+    "type": "integrated_program",
+    "status": "active",
+    "description": "因應科技發展對人工智慧的需求,開設使學程協助學生學習相關於人工智慧應用所需的數學課程(原理)及計算機程式運用,以期面對未來人工智慧所遇到的不同問題,以此基礎開發新技術或方法。",
+    "responsible_unit": "應數系",
+    "coordinator": "鍾思齊助理教授",
+    "program_website": "https://sites.google.com/view/ai-math/home",
+    "source_pdf": "http://140.117.153.69/ctdr/files/20231220101956899.pdf",
+    "academic_version": "115-1",
+    "source": {
+      "catalog_url": "https://ctdr.nsysu.edu.tw/class2.php",
+      "pdf_url": "http://140.117.153.69/ctdr/files/20231220101956899.pdf",
+      "retrieved_at": "2026-08-15T10:05:39Z",
+      "pdf_binary_sha256": "c498801cf5db5ff68169e179437cdb02be9bed1f2b6c18b172fd81f43ee2f6c9",
+      "normalized_text_sha256": "9e55fcb793918c13bb9888dda5e40ca85bb321992c7b34a5dbd85191ac675cbb",
+      "http": {
+        "status": 200,
+        "etag": "\"35b31-60ce79e8722bc\"",
+        "last_modified": "Wed, 20 Dec 2023 02:19:56 GMT",
+        "content_length": 219953
+      },
+      "parser_version": "0.1.0"
+    },
+    "review_status": "needs_review",
+    "rules": {
+      "kind": "manual_review",
+      "reason": "Extracted candidate awaits approval"
+    },
+    "warnings": [
+      "No structured course rows extracted from PDF tables"
+    ],
+    "selected_pdf_academic_version": "112-1",
+    "course_catalog": [
+      {
+        "course_code": null,
+        "opening_units": [
+          "應數系"
+        ],
+        "opening_unit_snapshot": "應數系",
+        "course_name_snapshot": "線性代數(一)",
+        "credits_snapshot": 3.0,
+        "requirement_group": "core",
+        "notes": "",
+        "source_page": 1,
+        "evidence_match": true,
+        "validation_status": "needs_course_code_verification",
+        "uncertainty_reason": "Official PDF table does not provide a course code"
+      },
+      {
+        "course_code": null,
+        "opening_units": [
+          "校內各系"
+        ],
+        "opening_unit_snapshot": "校內各系",
+        "course_name_snapshot": "微積分(一)",
+        "credits_snapshot": 3.0,
+        "requirement_group": "core",
+        "notes": "",
+        "source_page": 1,
+        "evidence_match": true,
+        "validation_status": "needs_course_code_verification",
+        "uncertainty_reason": "Official PDF table does not provide a course code"
+      },
+      {
+        "course_code": null,
+        "opening_units": [
+          "應數系"
+        ],
+        "opening_unit_snapshot": "應數系",
+        "course_name_snapshot": "機率論(一)",
+        "credits_snapshot": 3.0,
+        "requirement_group": "core",
+        "notes": "",
+        "source_page": 1,
+        "evidence_match": true,
+        "validation_status": "needs_course_code_verification",
+        "uncertainty_reason": "Official PDF table does not provide a course code"
+      },
+      {
+        "course_code": null,
+        "opening_units": [
+          "應數系"
+        ],
+        "opening_unit_snapshot": "應數系",
+        "course_name_snapshot": "統計學(一)",
+        "credits_snapshot": 3.0,
+        "requirement_group": "core",
+        "notes": "",
+        "source_page": 1,
+        "evidence_match": true,
+        "validation_status": "needs_course_code_verification",
+        "uncertainty_reason": "Official PDF table does not provide a course code"
+      },
+      {
+        "course_code": null,
+        "opening_units": [
+          "應數系"
+        ],
+        "opening_unit_snapshot": "應數系",
+        "course_name_snapshot": "計算機程式",
+        "credits_snapshot": 3.0,
+        "requirement_group": "core",
+        "notes": "",
+        "source_page": 1,
+        "evidence_match": true,
+        "validation_status": "needs_course_code_verification",
+        "uncertainty_reason": "Official PDF table does not provide a course code"
+      },
+      {
+        "course_code": null,
+        "opening_units": [
+          "應數系"
+        ],
+        "opening_unit_snapshot": "應數系",
+        "course_name_snapshot": "人工智慧原理",
+        "credits_snapshot": 3.0,
+        "requirement_group": "elective",
+        "notes": "",
+        "source_page": 1,
+        "evidence_match": true,
+        "validation_status": "needs_course_code_verification",
+        "uncertainty_reason": "Official PDF table does not provide a course code"
+      },
+      {
+        "course_code": null,
+        "opening_units": [
+          "應數系"
+        ],
+        "opening_unit_snapshot": "應數系",
+        "course_name_snapshot": "Python與機器學習之理論實現",
+        "credits_snapshot": 3.0,
+        "requirement_group": "elective",
+        "notes": "",
+        "source_page": 1,
+        "evidence_match": true,
+        "validation_status": "needs_course_code_verification",
+        "uncertainty_reason": "Official PDF table does not provide a course code"
+      },
+      {
+        "course_code": null,
+        "opening_units": [
+          "應數系"
+        ],
+        "opening_unit_snapshot": "應數系",
+        "course_name_snapshot": "線性代數(二)",
+        "credits_snapshot": 3.0,
+        "requirement_group": "elective",
+        "notes": "",
+        "source_page": 1,
+        "evidence_match": true,
+        "validation_status": "needs_course_code_verification",
+        "uncertainty_reason": "Official PDF table does not provide a course code"
+      },
+      {
+        "course_code": null,
+        "opening_units": [
+          "校內各系"
+        ],
+        "opening_unit_snapshot": "校內各系",
+        "course_name_snapshot": "微積分(二)",
+        "credits_snapshot": 3.0,
+        "requirement_group": "elective",
+        "notes": "",
+        "source_page": 1,
+        "evidence_match": true,
+        "validation_status": "needs_course_code_verification",
+        "uncertainty_reason": "Official PDF table does not provide a course code"
+      },
+      {
+        "course_code": null,
+        "opening_units": [
+          "應數系"
+        ],
+        "opening_unit_snapshot": "應數系",
+        "course_name_snapshot": "離散數學(一)",
+        "credits_snapshot": 3.0,
+        "requirement_group": "elective",
+        "notes": "",
+        "source_page": 1,
+        "evidence_match": true,
+        "validation_status": "needs_course_code_verification",
+        "uncertainty_reason": "Official PDF table does not provide a course code"
+      },
+      {
+        "course_code": null,
+        "opening_units": [
+          "應數系"
+        ],
+        "opening_unit_snapshot": "應數系",
+        "course_name_snapshot": "離散數學(二)",
+        "credits_snapshot": 3.0,
+        "requirement_group": "elective",
+        "notes": "",
+        "source_page": 1,
+        "evidence_match": true,
+        "validation_status": "needs_course_code_verification",
+        "uncertainty_reason": "Official PDF table does not provide a course code"
+      },
+      {
+        "course_code": null,
+        "opening_units": [
+          "應數系"
+        ],
+        "opening_unit_snapshot": "應數系",
+        "course_name_snapshot": "機率論(二)",
+        "credits_snapshot": 3.0,
+        "requirement_group": "elective",
+        "notes": "",
+        "source_page": 1,
+        "evidence_match": true,
+        "validation_status": "needs_course_code_verification",
+        "uncertainty_reason": "Official PDF table does not provide a course code"
+      },
+      {
+        "course_code": null,
+        "opening_units": [
+          "應數系"
+        ],
+        "opening_unit_snapshot": "應數系",
+        "course_name_snapshot": "統計學(二)",
+        "credits_snapshot": 3.0,
+        "requirement_group": "elective",
+        "notes": "",
+        "source_page": 1,
+        "evidence_match": true,
+        "validation_status": "needs_course_code_verification",
+        "uncertainty_reason": "Official PDF table does not provide a course code"
+      },
+      {
+        "course_code": null,
+        "opening_units": [
+          "應數系"
+        ],
+        "opening_unit_snapshot": "應數系",
+        "course_name_snapshot": "演算法",
+        "credits_snapshot": 3.0,
+        "requirement_group": "elective",
+        "notes": "",
+        "source_page": 1,
+        "evidence_match": true,
+        "validation_status": "needs_course_code_verification",
+        "uncertainty_reason": "Official PDF table does not provide a course code"
+      },
+      {
+        "course_code": null,
+        "opening_units": [
+          "應數系"
+        ],
+        "opening_unit_snapshot": "應數系",
+        "course_name_snapshot": "資料結構",
+        "credits_snapshot": 3.0,
+        "requirement_group": "elective",
+        "notes": "",
+        "source_page": 1,
+        "evidence_match": true,
+        "validation_status": "needs_course_code_verification",
+        "uncertainty_reason": "Official PDF table does not provide a course code"
+      },
+      {
+        "course_code": null,
+        "opening_units": [
+          "應數系"
+        ],
+        "opening_unit_snapshot": "應數系",
+        "course_name_snapshot": "統計學習與資料探勘",
+        "credits_snapshot": 3.0,
+        "requirement_group": "elective",
+        "notes": "",
+        "source_page": 1,
+        "evidence_match": true,
+        "validation_status": "needs_course_code_verification",
+        "uncertainty_reason": "Official PDF table does not provide a course code"
+      },
+      {
+        "course_code": null,
+        "opening_units": [
+          "應數系"
+        ],
+        "opening_unit_snapshot": "應數系",
+        "course_name_snapshot": "流形學習基礎",
+        "credits_snapshot": 3.0,
+        "requirement_group": "elective",
+        "notes": "",
+        "source_page": 1,
+        "evidence_match": true,
+        "validation_status": "needs_course_code_verification",
+        "uncertainty_reason": "Official PDF table does not provide a course code"
+      },
+      {
+        "course_code": null,
+        "opening_units": [
+          "應數系"
+        ],
+        "opening_unit_snapshot": "應數系",
+        "course_name_snapshot": "數值分析(一)",
+        "credits_snapshot": 3.0,
+        "requirement_group": "elective",
+        "notes": "",
+        "source_page": 1,
+        "evidence_match": true,
+        "validation_status": "needs_course_code_verification",
+        "uncertainty_reason": "Official PDF table does not provide a course code"
+      },
+      {
+        "course_code": null,
+        "opening_units": [
+          "應數系"
+        ],
+        "opening_unit_snapshot": "應數系",
+        "course_name_snapshot": "數值分析(二)",
+        "credits_snapshot": 3.0,
+        "requirement_group": "elective",
+        "notes": "",
+        "source_page": 1,
+        "evidence_match": true,
+        "validation_status": "needs_course_code_verification",
+        "uncertainty_reason": "Official PDF table does not provide a course code"
+      },
+      {
+        "course_code": null,
+        "opening_units": [
+          "電機系"
+        ],
+        "opening_unit_snapshot": "電機系",
+        "course_name_snapshot": "嵌入式軟體設計",
+        "credits_snapshot": 3.0,
+        "requirement_group": "elective",
+        "notes": "",
+        "source_page": 1,
+        "evidence_match": true,
+        "validation_status": "needs_course_code_verification",
+        "uncertainty_reason": "Official PDF table does not provide a course code"
+      },
+      {
+        "course_code": null,
+        "opening_units": [
+          "電機系"
+        ],
+        "opening_unit_snapshot": "電機系",
+        "course_name_snapshot": "人工智慧語言-Prolog",
+        "credits_snapshot": 3.0,
+        "requirement_group": "elective",
+        "notes": "",
+        "source_page": 1,
+        "evidence_match": true,
+        "validation_status": "needs_course_code_verification",
+        "uncertainty_reason": "Official PDF table does not provide a course code"
+      },
+      {
+        "course_code": null,
+        "opening_units": [
+          "電機系"
+        ],
+        "opening_unit_snapshot": "電機系",
+        "course_name_snapshot": "類神經網路導論",
+        "credits_snapshot": 3.0,
+        "requirement_group": "elective",
+        "notes": "",
+        "source_page": 1,
+        "evidence_match": true,
+        "validation_status": "needs_course_code_verification",
+        "uncertainty_reason": "Official PDF table does not provide a course code"
+      },
+      {
+        "course_code": null,
+        "opening_units": [
+          "電機系"
+        ],
+        "opening_unit_snapshot": "電機系",
+        "course_name_snapshot": "語音訊號處理",
+        "credits_snapshot": 3.0,
+        "requirement_group": "elective",
+        "notes": "",
+        "source_page": 1,
+        "evidence_match": true,
+        "validation_status": "needs_course_code_verification",
+        "uncertainty_reason": "Official PDF table does not provide a course code"
+      },
+      {
+        "course_code": null,
+        "opening_units": [
+          "資工系"
+        ],
+        "opening_unit_snapshot": "資工系",
+        "course_name_snapshot": "機器學習導論",
+        "credits_snapshot": 3.0,
+        "requirement_group": "elective",
+        "notes": "",
+        "source_page": 1,
+        "evidence_match": true,
+        "validation_status": "needs_course_code_verification",
+        "uncertainty_reason": "Official PDF table does not provide a course code"
+      },
+      {
+        "course_code": null,
+        "opening_units": [
+          "資工系"
+        ],
+        "opening_unit_snapshot": "資工系",
+        "course_name_snapshot": "網際網路資料庫",
+        "credits_snapshot": 3.0,
+        "requirement_group": "elective",
+        "notes": "",
+        "source_page": 1,
+        "evidence_match": true,
+        "validation_status": "needs_course_code_verification",
+        "uncertainty_reason": "Official PDF table does not provide a course code"
+      },
+      {
+        "course_code": null,
+        "opening_units": [
+          "資工系"
+        ],
+        "opening_unit_snapshot": "資工系",
+        "course_name_snapshot": "無線網際網路",
+        "credits_snapshot": 3.0,
+        "requirement_group": "elective",
+        "notes": "",
+        "source_page": 1,
+        "evidence_match": true,
+        "validation_status": "needs_course_code_verification",
+        "uncertainty_reason": "Official PDF table does not provide a course code"
+      },
+      {
+        "course_code": null,
+        "opening_units": [
+          "資工系"
+        ],
+        "opening_unit_snapshot": "資工系",
+        "course_name_snapshot": "影像處理",
+        "credits_snapshot": 3.0,
+        "requirement_group": "elective",
+        "notes": "",
+        "source_page": 1,
+        "evidence_match": true,
+        "validation_status": "needs_course_code_verification",
+        "uncertainty_reason": "Official PDF table does not provide a course code"
+      }
+    ],
+    "structured_requirements": {
+      "minimum_total_credits": 15,
+      "core_credits_text_value": 9,
+      "minimum_outside_home_department_credits": 6
+    }
+  }
+}

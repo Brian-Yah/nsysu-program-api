@@ -1,0 +1,276 @@
+{
+  "program_id": "prog_ba871a0dbfc45161",
+  "latest_academic_version": "115-1",
+  "versions": [
+    "115-1"
+  ],
+  "program": {
+    "program_id": "prog_ba871a0dbfc45161",
+    "name_zh": "醫師工程師微學程 (★自115年8月1日起停開)",
+    "name_en": null,
+    "previous_names": [],
+    "type": "micro_program",
+    "status": "discontinued",
+    "description": "為培養醫學系學生具備工程師的觀念,本學程以基礎力學、光學、電子學、機電整合及感測技術等相關課程,使修習學生具備醫學工程的基礎理論與應用,以符合未來智慧醫療所需的專業人才。",
+    "responsible_unit": "醫科所",
+    "coordinator": "莊承鑫教授",
+    "program_website": "https://imst.nsysu.edu.tw/p/412-1333-25116.php?Lang=zh-tw",
+    "source_pdf": "http://140.117.153.69/ctdr/files/20240531150910926.pdf",
+    "academic_version": "115-1",
+    "source": {
+      "catalog_url": "https://ctdr.nsysu.edu.tw/class2.php",
+      "pdf_url": "http://140.117.153.69/ctdr/files/20240531150910926.pdf",
+      "retrieved_at": "2026-08-15T10:05:39Z",
+      "pdf_binary_sha256": "93a66714f9bf495e6047ad39c7e63811c19a17b70fee19c90fcc736188cee826",
+      "normalized_text_sha256": "8ea858a2a63435257a364b341c485bbed4f45ccd1f153d2a2864b075babbdef8",
+      "http": {
+        "status": 200,
+        "etag": "\"3299d-619baa90af04f\"",
+        "last_modified": "Fri, 31 May 2024 07:09:10 GMT",
+        "content_length": 207261
+      },
+      "parser_version": "0.1.0"
+    },
+    "review_status": "needs_review",
+    "rules": {
+      "kind": "manual_review",
+      "reason": "Extracted candidate awaits approval"
+    },
+    "warnings": [
+      "No structured course rows extracted from PDF tables"
+    ],
+    "selected_pdf_academic_version": "112-2",
+    "course_catalog": [
+      {
+        "course_code": null,
+        "opening_units": [
+          "醫學科技研究所"
+        ],
+        "opening_unit_snapshot": "醫學科技研究所",
+        "course_name_snapshot": "生醫感測",
+        "credits_snapshot": 3.0,
+        "requirement_group": "core",
+        "notes": "",
+        "source_page": 1,
+        "evidence_match": true,
+        "validation_status": "needs_course_code_verification",
+        "uncertainty_reason": "Official PDF table does not provide a course code"
+      },
+      {
+        "course_code": null,
+        "opening_units": [
+          "醫科所"
+        ],
+        "opening_unit_snapshot": "醫科所",
+        "course_name_snapshot": "醫用電子學",
+        "credits_snapshot": 3.0,
+        "requirement_group": "core",
+        "notes": "",
+        "source_page": 1,
+        "evidence_match": true,
+        "validation_status": "needs_course_code_verification",
+        "uncertainty_reason": "Official PDF table does not provide a course code"
+      },
+      {
+        "course_code": null,
+        "opening_units": [
+          "醫科所"
+        ],
+        "opening_unit_snapshot": "醫科所",
+        "course_name_snapshot": "生物力學",
+        "credits_snapshot": 3.0,
+        "requirement_group": "core",
+        "notes": "",
+        "source_page": 1,
+        "evidence_match": true,
+        "validation_status": "needs_course_code_verification",
+        "uncertainty_reason": "Official PDF table does not provide a course code"
+      },
+      {
+        "course_code": null,
+        "opening_units": [
+          "醫科所"
+        ],
+        "opening_unit_snapshot": "醫科所",
+        "course_name_snapshot": "醫用微機電系統",
+        "credits_snapshot": 3.0,
+        "requirement_group": "core",
+        "notes": "",
+        "source_page": 1,
+        "evidence_match": true,
+        "validation_status": "needs_course_code_verification",
+        "uncertainty_reason": "Official PDF table does not provide a course code"
+      },
+      {
+        "course_code": null,
+        "opening_units": [
+          "醫科所"
+        ],
+        "opening_unit_snapshot": "醫科所",
+        "course_name_snapshot": "生醫光學影像技術",
+        "credits_snapshot": 3.0,
+        "requirement_group": "core",
+        "notes": "",
+        "source_page": 1,
+        "evidence_match": true,
+        "validation_status": "needs_course_code_verification",
+        "uncertainty_reason": "Official PDF table does not provide a course code"
+      },
+      {
+        "course_code": null,
+        "opening_units": [
+          "醫科所"
+        ],
+        "opening_unit_snapshot": "醫科所",
+        "course_name_snapshot": "腦機介面理論及實務",
+        "credits_snapshot": 3.0,
+        "requirement_group": "core",
+        "notes": "",
+        "source_page": 1,
+        "evidence_match": true,
+        "validation_status": "needs_course_code_verification",
+        "uncertainty_reason": "Official PDF table does not provide a course code"
+      },
+      {
+        "course_code": null,
+        "opening_units": [
+          "醫科所"
+        ],
+        "opening_unit_snapshot": "醫科所",
+        "course_name_snapshot": "生醫工程導論",
+        "credits_snapshot": 3.0,
+        "requirement_group": "elective",
+        "notes": "",
+        "source_page": 1,
+        "evidence_match": true,
+        "validation_status": "needs_course_code_verification",
+        "uncertainty_reason": "Official PDF table does not provide a course code"
+      },
+      {
+        "course_code": null,
+        "opening_units": [
+          "醫科所"
+        ],
+        "opening_unit_snapshot": "醫科所",
+        "course_name_snapshot": "腦波訊號處理與數據探勘",
+        "credits_snapshot": 3.0,
+        "requirement_group": "elective",
+        "notes": "",
+        "source_page": 1,
+        "evidence_match": true,
+        "validation_status": "needs_course_code_verification",
+        "uncertainty_reason": "Official PDF table does not provide a course code"
+      },
+      {
+        "course_code": null,
+        "opening_units": [
+          "醫科所"
+        ],
+        "opening_unit_snapshot": "醫科所",
+        "course_name_snapshot": "骨材基礎概論與應用實作",
+        "credits_snapshot": 3.0,
+        "requirement_group": "elective",
+        "notes": "",
+        "source_page": 1,
+        "evidence_match": true,
+        "validation_status": "needs_course_code_verification",
+        "uncertainty_reason": "Official PDF table does not provide a course code"
+      },
+      {
+        "course_code": null,
+        "opening_units": [
+          "醫科所"
+        ],
+        "opening_unit_snapshot": "醫科所",
+        "course_name_snapshot": "3D列印應用實作",
+        "credits_snapshot": 3.0,
+        "requirement_group": "elective",
+        "notes": "",
+        "source_page": 1,
+        "evidence_match": true,
+        "validation_status": "needs_course_code_verification",
+        "uncertainty_reason": "Official PDF table does not provide a course code"
+      },
+      {
+        "course_code": null,
+        "opening_units": [
+          "醫科所"
+        ],
+        "opening_unit_snapshot": "醫科所",
+        "course_name_snapshot": "組織工程學",
+        "credits_snapshot": 3.0,
+        "requirement_group": "elective",
+        "notes": "",
+        "source_page": 1,
+        "evidence_match": true,
+        "validation_status": "needs_course_code_verification",
+        "uncertainty_reason": "Official PDF table does not provide a course code"
+      },
+      {
+        "course_code": null,
+        "opening_units": [
+          "醫科所"
+        ],
+        "opening_unit_snapshot": "醫科所",
+        "course_name_snapshot": "生物資訊學",
+        "credits_snapshot": 3.0,
+        "requirement_group": "elective",
+        "notes": "",
+        "source_page": 1,
+        "evidence_match": true,
+        "validation_status": "needs_course_code_verification",
+        "uncertainty_reason": "Official PDF table does not provide a course code"
+      },
+      {
+        "course_code": null,
+        "opening_units": [
+          "醫科所"
+        ],
+        "opening_unit_snapshot": "醫科所",
+        "course_name_snapshot": "生物材料學",
+        "credits_snapshot": 3.0,
+        "requirement_group": "elective",
+        "notes": "",
+        "source_page": 1,
+        "evidence_match": true,
+        "validation_status": "needs_course_code_verification",
+        "uncertainty_reason": "Official PDF table does not provide a course code"
+      },
+      {
+        "course_code": null,
+        "opening_units": [
+          "醫科所"
+        ],
+        "opening_unit_snapshot": "醫科所",
+        "course_name_snapshot": "化工材料",
+        "credits_snapshot": 3.0,
+        "requirement_group": "elective",
+        "notes": "",
+        "source_page": 1,
+        "evidence_match": true,
+        "validation_status": "needs_course_code_verification",
+        "uncertainty_reason": "Official PDF table does not provide a course code"
+      },
+      {
+        "course_code": null,
+        "opening_units": [
+          "醫科所"
+        ],
+        "opening_unit_snapshot": "醫科所",
+        "course_name_snapshot": "儀器分析於生物化學上之應用",
+        "credits_snapshot": 3.0,
+        "requirement_group": "elective",
+        "notes": "",
+        "source_page": 1,
+        "evidence_match": true,
+        "validation_status": "needs_course_code_verification",
+        "uncertainty_reason": "Official PDF table does not provide a course code"
+      }
+    ],
+    "structured_requirements": {
+      "minimum_total_credits": 9,
+      "core_credits_text_value": 6,
+      "minimum_outside_home_department_credits": 3
+    }
+  }
+}

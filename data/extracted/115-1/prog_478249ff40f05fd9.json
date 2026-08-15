@@ -1,0 +1,735 @@
+{
+  "schema_version": "1.0",
+  "courses": [],
+  "credit_mentions": [
+    15,
+    15
+  ],
+  "ai_interpretation": null,
+  "confidence": "low",
+  "warnings": [
+    "Candidate only; not approved for publishing as executable rules"
+  ],
+  "program_id": "prog_478249ff40f05fd9",
+  "academic_version": "115-1",
+  "text_length": 709,
+  "raw_text": "1\n【105 學年度第 2 學期起適用】\n106.5.8 105 學年度第 2 學期學分學程會議通過\n106.5.31 第 152 次教務會議通過\n應用數學學程課程規劃表\n開課單位 課  程  名  稱 學分數 備註\n專\n業\n模\n組\n課\n程\n應數系 數學導論(二) 3\n應數系 線性代數(二) 3\n應數系 微積分(一) 4\n應數系 微積分(二) 4\n應數系 高等微積分(一) 4\n應數系 高等微積分(二) 4\n應數系 離散數學(一) 3\n應數系 離散數學(二) 3\n應數系 機率論(一) 3\n應數系 機率論(二) 3\n應數系 統計學(一) 3\n應數系 統計學(二) 3\n應數系 微分方程(一) 3\n應數系 微分方程(二) 3\n應數系 數值分析(一) 3\n應數系 數值分析(二) 3\n應數系 代數學(一) 3\n應數系 代數學(二) 3\n應數系 複變函數論(一) 3\n應數系 複變函數論(二) 3  跨\n院選修\n應數系 數學導論(一) 3\n應數系 線性代數(一) 3\n理學院 科學史 2\n總學分數:至少 15 學分\n※【學系(所)專業學程】僅提供本系以外同學修習第 2 專長。\n※【學系(所)專業學程】課程規劃至少 15 學分,應修習學分數規定如下:\n1.跨院修讀之學士班學生:修習專業模組課程至少九學分,其它至多九學分得以通識\n跨院選修學分抵免。\n2.同院跨系(所)修讀之學士班學生:修習專業模組課程至少九學分,其它學分得由學\n程負責人規劃,學生得依其自行選讀。\n3.碩士班學生:含修習專業模組課程至少九學分,其它學分得由學程負責人規劃,學\n生得依其自行選讀。\n※修習學程適用之課程規劃表請依核准修習學年期版本為主。\n2",
+  "rule_versions": [
+    {
+      "pdf_academic_version": "105-2",
+      "courses": [
+        {
+          "course_code": null,
+          "opening_units": [
+            "應數系"
+          ],
+          "opening_unit_snapshot": "應數系",
+          "course_name_snapshot": "數學導論(二)",
+          "credits_snapshot": 3.0,
+          "requirement_group": "unspecified",
+          "notes": "",
+          "source_page": 1,
+          "evidence_match": true,
+          "validation_status": "needs_course_code_verification",
+          "uncertainty_reason": "Official PDF table does not provide a course code"
+        },
+        {
+          "course_code": null,
+          "opening_units": [
+            "應數系"
+          ],
+          "opening_unit_snapshot": "應數系",
+          "course_name_snapshot": "線性代數(二)",
+          "credits_snapshot": 3.0,
+          "requirement_group": "unspecified",
+          "notes": "",
+          "source_page": 1,
+          "evidence_match": true,
+          "validation_status": "needs_course_code_verification",
+          "uncertainty_reason": "Official PDF table does not provide a course code"
+        },
+        {
+          "course_code": null,
+          "opening_units": [
+            "應數系"
+          ],
+          "opening_unit_snapshot": "應數系",
+          "course_name_snapshot": "微積分(一)",
+          "credits_snapshot": 4.0,
+          "requirement_group": "unspecified",
+          "notes": "",
+          "source_page": 1,
+          "evidence_match": true,
+          "validation_status": "needs_course_code_verification",
+          "uncertainty_reason": "Official PDF table does not provide a course code"
+        },
+        {
+          "course_code": null,
+          "opening_units": [
+            "應數系"
+          ],
+          "opening_unit_snapshot": "應數系",
+          "course_name_snapshot": "微積分(二)",
+          "credits_snapshot": 4.0,
+          "requirement_group": "unspecified",
+          "notes": "",
+          "source_page": 1,
+          "evidence_match": true,
+          "validation_status": "needs_course_code_verification",
+          "uncertainty_reason": "Official PDF table does not provide a course code"
+        },
+        {
+          "course_code": null,
+          "opening_units": [
+            "應數系"
+          ],
+          "opening_unit_snapshot": "應數系",
+          "course_name_snapshot": "高等微積分(一)",
+          "credits_snapshot": 4.0,
+          "requirement_group": "unspecified",
+          "notes": "",
+          "source_page": 1,
+          "evidence_match": true,
+          "validation_status": "needs_course_code_verification",
+          "uncertainty_reason": "Official PDF table does not provide a course code"
+        },
+        {
+          "course_code": null,
+          "opening_units": [
+            "應數系"
+          ],
+          "opening_unit_snapshot": "應數系",
+          "course_name_snapshot": "高等微積分(二)",
+          "credits_snapshot": 4.0,
+          "requirement_group": "unspecified",
+          "notes": "",
+          "source_page": 1,
+          "evidence_match": true,
+          "validation_status": "needs_course_code_verification",
+          "uncertainty_reason": "Official PDF table does not provide a course code"
+        },
+        {
+          "course_code": null,
+          "opening_units": [
+            "應數系"
+          ],
+          "opening_unit_snapshot": "應數系",
+          "course_name_snapshot": "離散數學(一)",
+          "credits_snapshot": 3.0,
+          "requirement_group": "unspecified",
+          "notes": "",
+          "source_page": 1,
+          "evidence_match": true,
+          "validation_status": "needs_course_code_verification",
+          "uncertainty_reason": "Official PDF table does not provide a course code"
+        },
+        {
+          "course_code": null,
+          "opening_units": [
+            "應數系"
+          ],
+          "opening_unit_snapshot": "應數系",
+          "course_name_snapshot": "離散數學(二)",
+          "credits_snapshot": 3.0,
+          "requirement_group": "unspecified",
+          "notes": "",
+          "source_page": 1,
+          "evidence_match": true,
+          "validation_status": "needs_course_code_verification",
+          "uncertainty_reason": "Official PDF table does not provide a course code"
+        },
+        {
+          "course_code": null,
+          "opening_units": [
+            "應數系"
+          ],
+          "opening_unit_snapshot": "應數系",
+          "course_name_snapshot": "機率論(一)",
+          "credits_snapshot": 3.0,
+          "requirement_group": "unspecified",
+          "notes": "",
+          "source_page": 1,
+          "evidence_match": true,
+          "validation_status": "needs_course_code_verification",
+          "uncertainty_reason": "Official PDF table does not provide a course code"
+        },
+        {
+          "course_code": null,
+          "opening_units": [
+            "應數系"
+          ],
+          "opening_unit_snapshot": "應數系",
+          "course_name_snapshot": "機率論(二)",
+          "credits_snapshot": 3.0,
+          "requirement_group": "unspecified",
+          "notes": "",
+          "source_page": 1,
+          "evidence_match": true,
+          "validation_status": "needs_course_code_verification",
+          "uncertainty_reason": "Official PDF table does not provide a course code"
+        },
+        {
+          "course_code": null,
+          "opening_units": [
+            "應數系"
+          ],
+          "opening_unit_snapshot": "應數系",
+          "course_name_snapshot": "統計學(一)",
+          "credits_snapshot": 3.0,
+          "requirement_group": "unspecified",
+          "notes": "",
+          "source_page": 1,
+          "evidence_match": true,
+          "validation_status": "needs_course_code_verification",
+          "uncertainty_reason": "Official PDF table does not provide a course code"
+        },
+        {
+          "course_code": null,
+          "opening_units": [
+            "應數系"
+          ],
+          "opening_unit_snapshot": "應數系",
+          "course_name_snapshot": "統計學(二)",
+          "credits_snapshot": 3.0,
+          "requirement_group": "unspecified",
+          "notes": "",
+          "source_page": 1,
+          "evidence_match": true,
+          "validation_status": "needs_course_code_verification",
+          "uncertainty_reason": "Official PDF table does not provide a course code"
+        },
+        {
+          "course_code": null,
+          "opening_units": [
+            "應數系"
+          ],
+          "opening_unit_snapshot": "應數系",
+          "course_name_snapshot": "微分方程(一)",
+          "credits_snapshot": 3.0,
+          "requirement_group": "unspecified",
+          "notes": "",
+          "source_page": 1,
+          "evidence_match": true,
+          "validation_status": "needs_course_code_verification",
+          "uncertainty_reason": "Official PDF table does not provide a course code"
+        },
+        {
+          "course_code": null,
+          "opening_units": [
+            "應數系"
+          ],
+          "opening_unit_snapshot": "應數系",
+          "course_name_snapshot": "微分方程(二)",
+          "credits_snapshot": 3.0,
+          "requirement_group": "unspecified",
+          "notes": "",
+          "source_page": 1,
+          "evidence_match": true,
+          "validation_status": "needs_course_code_verification",
+          "uncertainty_reason": "Official PDF table does not provide a course code"
+        },
+        {
+          "course_code": null,
+          "opening_units": [
+            "應數系"
+          ],
+          "opening_unit_snapshot": "應數系",
+          "course_name_snapshot": "數值分析(一)",
+          "credits_snapshot": 3.0,
+          "requirement_group": "unspecified",
+          "notes": "",
+          "source_page": 1,
+          "evidence_match": true,
+          "validation_status": "needs_course_code_verification",
+          "uncertainty_reason": "Official PDF table does not provide a course code"
+        },
+        {
+          "course_code": null,
+          "opening_units": [
+            "應數系"
+          ],
+          "opening_unit_snapshot": "應數系",
+          "course_name_snapshot": "數值分析(二)",
+          "credits_snapshot": 3.0,
+          "requirement_group": "unspecified",
+          "notes": "",
+          "source_page": 1,
+          "evidence_match": true,
+          "validation_status": "needs_course_code_verification",
+          "uncertainty_reason": "Official PDF table does not provide a course code"
+        },
+        {
+          "course_code": null,
+          "opening_units": [
+            "應數系"
+          ],
+          "opening_unit_snapshot": "應數系",
+          "course_name_snapshot": "代數學(一)",
+          "credits_snapshot": 3.0,
+          "requirement_group": "unspecified",
+          "notes": "",
+          "source_page": 1,
+          "evidence_match": true,
+          "validation_status": "needs_course_code_verification",
+          "uncertainty_reason": "Official PDF table does not provide a course code"
+        },
+        {
+          "course_code": null,
+          "opening_units": [
+            "應數系"
+          ],
+          "opening_unit_snapshot": "應數系",
+          "course_name_snapshot": "代數學(二)",
+          "credits_snapshot": 3.0,
+          "requirement_group": "unspecified",
+          "notes": "",
+          "source_page": 1,
+          "evidence_match": true,
+          "validation_status": "needs_course_code_verification",
+          "uncertainty_reason": "Official PDF table does not provide a course code"
+        },
+        {
+          "course_code": null,
+          "opening_units": [
+            "應數系"
+          ],
+          "opening_unit_snapshot": "應數系",
+          "course_name_snapshot": "複變函數論(一)",
+          "credits_snapshot": 3.0,
+          "requirement_group": "unspecified",
+          "notes": "",
+          "source_page": 1,
+          "evidence_match": true,
+          "validation_status": "needs_course_code_verification",
+          "uncertainty_reason": "Official PDF table does not provide a course code"
+        },
+        {
+          "course_code": null,
+          "opening_units": [
+            "應數系"
+          ],
+          "opening_unit_snapshot": "應數系",
+          "course_name_snapshot": "複變函數論(二)",
+          "credits_snapshot": 3.0,
+          "requirement_group": "unspecified",
+          "notes": "",
+          "source_page": 1,
+          "evidence_match": true,
+          "validation_status": "needs_course_code_verification",
+          "uncertainty_reason": "Official PDF table does not provide a course code"
+        },
+        {
+          "course_code": null,
+          "opening_units": [
+            "應數系"
+          ],
+          "opening_unit_snapshot": "應數系",
+          "course_name_snapshot": "數學導論(一)",
+          "credits_snapshot": 3.0,
+          "requirement_group": "unspecified",
+          "notes": "",
+          "source_page": 1,
+          "evidence_match": true,
+          "validation_status": "needs_course_code_verification",
+          "uncertainty_reason": "Official PDF table does not provide a course code"
+        },
+        {
+          "course_code": null,
+          "opening_units": [
+            "應數系"
+          ],
+          "opening_unit_snapshot": "應數系",
+          "course_name_snapshot": "線性代數(一)",
+          "credits_snapshot": 3.0,
+          "requirement_group": "unspecified",
+          "notes": "",
+          "source_page": 1,
+          "evidence_match": true,
+          "validation_status": "needs_course_code_verification",
+          "uncertainty_reason": "Official PDF table does not provide a course code"
+        },
+        {
+          "course_code": null,
+          "opening_units": [
+            "理學院"
+          ],
+          "opening_unit_snapshot": "理學院",
+          "course_name_snapshot": "科學史",
+          "credits_snapshot": 2.0,
+          "requirement_group": "unspecified",
+          "notes": "",
+          "source_page": 1,
+          "evidence_match": true,
+          "validation_status": "needs_course_code_verification",
+          "uncertainty_reason": "Official PDF table does not provide a course code"
+        }
+      ],
+      "requirements": {
+        "minimum_total_credits": 15
+      },
+      "source_pages": [
+        1,
+        2
+      ],
+      "audit": {
+        "compound_rows_needing_review": [],
+        "duplicates_removed": 0,
+        "course_count": 23,
+        "core_count": 0,
+        "elective_count": 0,
+        "evidence_matched_count": 23
+      }
+    }
+  ],
+  "selected_pdf_academic_version": "105-2",
+  "structured_courses": [
+    {
+      "course_code": null,
+      "opening_units": [
+        "應數系"
+      ],
+      "opening_unit_snapshot": "應數系",
+      "course_name_snapshot": "數學導論(二)",
+      "credits_snapshot": 3.0,
+      "requirement_group": "unspecified",
+      "notes": "",
+      "source_page": 1,
+      "evidence_match": true,
+      "validation_status": "needs_course_code_verification",
+      "uncertainty_reason": "Official PDF table does not provide a course code"
+    },
+    {
+      "course_code": null,
+      "opening_units": [
+        "應數系"
+      ],
+      "opening_unit_snapshot": "應數系",
+      "course_name_snapshot": "線性代數(二)",
+      "credits_snapshot": 3.0,
+      "requirement_group": "unspecified",
+      "notes": "",
+      "source_page": 1,
+      "evidence_match": true,
+      "validation_status": "needs_course_code_verification",
+      "uncertainty_reason": "Official PDF table does not provide a course code"
+    },
+    {
+      "course_code": null,
+      "opening_units": [
+        "應數系"
+      ],
+      "opening_unit_snapshot": "應數系",
+      "course_name_snapshot": "微積分(一)",
+      "credits_snapshot": 4.0,
+      "requirement_group": "unspecified",
+      "notes": "",
+      "source_page": 1,
+      "evidence_match": true,
+      "validation_status": "needs_course_code_verification",
+      "uncertainty_reason": "Official PDF table does not provide a course code"
+    },
+    {
+      "course_code": null,
+      "opening_units": [
+        "應數系"
+      ],
+      "opening_unit_snapshot": "應數系",
+      "course_name_snapshot": "微積分(二)",
+      "credits_snapshot": 4.0,
+      "requirement_group": "unspecified",
+      "notes": "",
+      "source_page": 1,
+      "evidence_match": true,
+      "validation_status": "needs_course_code_verification",
+      "uncertainty_reason": "Official PDF table does not provide a course code"
+    },
+    {
+      "course_code": null,
+      "opening_units": [
+        "應數系"
+      ],
+      "opening_unit_snapshot": "應數系",
+      "course_name_snapshot": "高等微積分(一)",
+      "credits_snapshot": 4.0,
+      "requirement_group": "unspecified",
+      "notes": "",
+      "source_page": 1,
+      "evidence_match": true,
+      "validation_status": "needs_course_code_verification",
+      "uncertainty_reason": "Official PDF table does not provide a course code"
+    },
+    {
+      "course_code": null,
+      "opening_units": [
+        "應數系"
+      ],
+      "opening_unit_snapshot": "應數系",
+      "course_name_snapshot": "高等微積分(二)",
+      "credits_snapshot": 4.0,
+      "requirement_group": "unspecified",
+      "notes": "",
+      "source_page": 1,
+      "evidence_match": true,
+      "validation_status": "needs_course_code_verification",
+      "uncertainty_reason": "Official PDF table does not provide a course code"
+    },
+    {
+      "course_code": null,
+      "opening_units": [
+        "應數系"
+      ],
+      "opening_unit_snapshot": "應數系",
+      "course_name_snapshot": "離散數學(一)",
+      "credits_snapshot": 3.0,
+      "requirement_group": "unspecified",
+      "notes": "",
+      "source_page": 1,
+      "evidence_match": true,
+      "validation_status": "needs_course_code_verification",
+      "uncertainty_reason": "Official PDF table does not provide a course code"
+    },
+    {
+      "course_code": null,
+      "opening_units": [
+        "應數系"
+      ],
+      "opening_unit_snapshot": "應數系",
+      "course_name_snapshot": "離散數學(二)",
+      "credits_snapshot": 3.0,
+      "requirement_group": "unspecified",
+      "notes": "",
+      "source_page": 1,
+      "evidence_match": true,
+      "validation_status": "needs_course_code_verification",
+      "uncertainty_reason": "Official PDF table does not provide a course code"
+    },
+    {
+      "course_code": null,
+      "opening_units": [
+        "應數系"
+      ],
+      "opening_unit_snapshot": "應數系",
+      "course_name_snapshot": "機率論(一)",
+      "credits_snapshot": 3.0,
+      "requirement_group": "unspecified",
+      "notes": "",
+      "source_page": 1,
+      "evidence_match": true,
+      "validation_status": "needs_course_code_verification",
+      "uncertainty_reason": "Official PDF table does not provide a course code"
+    },
+    {
+      "course_code": null,
+      "opening_units": [
+        "應數系"
+      ],
+      "opening_unit_snapshot": "應數系",
+      "course_name_snapshot": "機率論(二)",
+      "credits_snapshot": 3.0,
+      "requirement_group": "unspecified",
+      "notes": "",
+      "source_page": 1,
+      "evidence_match": true,
+      "validation_status": "needs_course_code_verification",
+      "uncertainty_reason": "Official PDF table does not provide a course code"
+    },
+    {
+      "course_code": null,
+      "opening_units": [
+        "應數系"
+      ],
+      "opening_unit_snapshot": "應數系",
+      "course_name_snapshot": "統計學(一)",
+      "credits_snapshot": 3.0,
+      "requirement_group": "unspecified",
+      "notes": "",
+      "source_page": 1,
+      "evidence_match": true,
+      "validation_status": "needs_course_code_verification",
+      "uncertainty_reason": "Official PDF table does not provide a course code"
+    },
+    {
+      "course_code": null,
+      "opening_units": [
+        "應數系"
+      ],
+      "opening_unit_snapshot": "應數系",
+      "course_name_snapshot": "統計學(二)",
+      "credits_snapshot": 3.0,
+      "requirement_group": "unspecified",
+      "notes": "",
+      "source_page": 1,
+      "evidence_match": true,
+      "validation_status": "needs_course_code_verification",
+      "uncertainty_reason": "Official PDF table does not provide a course code"
+    },
+    {
+      "course_code": null,
+      "opening_units": [
+        "應數系"
+      ],
+      "opening_unit_snapshot": "應數系",
+      "course_name_snapshot": "微分方程(一)",
+      "credits_snapshot": 3.0,
+      "requirement_group": "unspecified",
+      "notes": "",
+      "source_page": 1,
+      "evidence_match": true,
+      "validation_status": "needs_course_code_verification",
+      "uncertainty_reason": "Official PDF table does not provide a course code"
+    },
+    {
+      "course_code": null,
+      "opening_units": [
+        "應數系"
+      ],
+      "opening_unit_snapshot": "應數系",
+      "course_name_snapshot": "微分方程(二)",
+      "credits_snapshot": 3.0,
+      "requirement_group": "unspecified",
+      "notes": "",
+      "source_page": 1,
+      "evidence_match": true,
+      "validation_status": "needs_course_code_verification",
+      "uncertainty_reason": "Official PDF table does not provide a course code"
+    },
+    {
+      "course_code": null,
+      "opening_units": [
+        "應數系"
+      ],
+      "opening_unit_snapshot": "應數系",
+      "course_name_snapshot": "數值分析(一)",
+      "credits_snapshot": 3.0,
+      "requirement_group": "unspecified",
+      "notes": "",
+      "source_page": 1,
+      "evidence_match": true,
+      "validation_status": "needs_course_code_verification",
+      "uncertainty_reason": "Official PDF table does not provide a course code"
+    },
+    {
+      "course_code": null,
+      "opening_units": [
+        "應數系"
+      ],
+      "opening_unit_snapshot": "應數系",
+      "course_name_snapshot": "數值分析(二)",
+      "credits_snapshot": 3.0,
+      "requirement_group": "unspecified",
+      "notes": "",
+      "source_page": 1,
+      "evidence_match": true,
+      "validation_status": "needs_course_code_verification",
+      "uncertainty_reason": "Official PDF table does not provide a course code"
+    },
+    {
+      "course_code": null,
+      "opening_units": [
+        "應數系"
+      ],
+      "opening_unit_snapshot": "應數系",
+      "course_name_snapshot": "代數學(一)",
+      "credits_snapshot": 3.0,
+      "requirement_group": "unspecified",
+      "notes": "",
+      "source_page": 1,
+      "evidence_match": true,
+      "validation_status": "needs_course_code_verification",
+      "uncertainty_reason": "Official PDF table does not provide a course code"
+    },
+    {
+      "course_code": null,
+      "opening_units": [
+        "應數系"
+      ],
+      "opening_unit_snapshot": "應數系",
+      "course_name_snapshot": "代數學(二)",
+      "credits_snapshot": 3.0,
+      "requirement_group": "unspecified",
+      "notes": "",
+      "source_page": 1,
+      "evidence_match": true,
+      "validation_status": "needs_course_code_verification",
+      "uncertainty_reason": "Official PDF table does not provide a course code"
+    },
+    {
+      "course_code": null,
+      "opening_units": [
+        "應數系"
+      ],
+      "opening_unit_snapshot": "應數系",
+      "course_name_snapshot": "複變函數論(一)",
+      "credits_snapshot": 3.0,
+      "requirement_group": "unspecified",
+      "notes": "",
+      "source_page": 1,
+      "evidence_match": true,
+      "validation_status": "needs_course_code_verification",
+      "uncertainty_reason": "Official PDF table does not provide a course code"
+    },
+    {
+      "course_code": null,
+      "opening_units": [
+        "應數系"
+      ],
+      "opening_unit_snapshot": "應數系",
+      "course_name_snapshot": "複變函數論(二)",
+      "credits_snapshot": 3.0,
+      "requirement_group": "unspecified",
+      "notes": "",
+      "source_page": 1,
+      "evidence_match": true,
+      "validation_status": "needs_course_code_verification",
+      "uncertainty_reason": "Official PDF table does not provide a course code"
+    },
+    {
+      "course_code": null,
+      "opening_units": [
+        "應數系"
+      ],
+      "opening_unit_snapshot": "應數系",
+      "course_name_snapshot": "數學導論(一)",
+      "credits_snapshot": 3.0,
+      "requirement_group": "unspecified",
+      "notes": "",
+      "source_page": 1,
+      "evidence_match": true,
+      "validation_status": "needs_course_code_verification",
+      "uncertainty_reason": "Official PDF table does not provide a course code"
+    },
+    {
+      "course_code": null,
+      "opening_units": [
+        "應數系"
+      ],
+      "opening_unit_snapshot": "應數系",
+      "course_name_snapshot": "線性代數(一)",
+      "credits_snapshot": 3.0,
+      "requirement_group": "unspecified",
+      "notes": "",
+      "source_page": 1,
+      "evidence_match": true,
+      "validation_status": "needs_course_code_verification",
+      "uncertainty_reason": "Official PDF table does not provide a course code"
+    },
+    {
+      "course_code": null,
+      "opening_units": [
+        "理學院"
+      ],
+      "opening_unit_snapshot": "理學院",
+      "course_name_snapshot": "科學史",
+      "credits_snapshot": 2.0,
+      "requirement_group": "unspecified",
+      "notes": "",
+      "source_page": 1,
+      "evidence_match": true,
+      "validation_status": "needs_course_code_verification",
+      "uncertainty_reason": "Official PDF table does not provide a course code"
+    }
+  ],
+  "structured_requirements": {
+    "minimum_total_credits": 15
+  }
+}

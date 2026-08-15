@@ -1,0 +1,215 @@
+{
+  "program_id": "prog_4116c0d09c975649",
+  "latest_academic_version": "115-1",
+  "versions": [
+    "115-1"
+  ],
+  "program": {
+    "program_id": "prog_4116c0d09c975649",
+    "name_zh": "智慧長照微學程",
+    "name_en": null,
+    "previous_names": [],
+    "type": "micro_program",
+    "status": "active",
+    "description": "台灣2025年65歲以上人口將逾20%,成為超高齡社會。為了解決長照人力資源的缺口外,提升長者健康促進方案更是首要任務。適時透過智慧科技導入長照場域,不僅翻轉人力不足問題,亦可透過資訊平台整合,提升服務品質及管理效率,促進長照創新服務模式發展。有鑑於此,本學程致力培育「智慧長照跨域人才」,結合資訊通信技術(Information and Communication Technology, ICT) 與生醫/長照相關產業,整合醫療物聯網、資訊安全及國際行銷管理等實務訓練,以產產學偕同長照產業數位轉型,使修習學生具備科技及長照理論及場域實作應用,以符合未來智慧長照跨域專業人才所需。",
+    "responsible_unit": "醫科所",
+    "coordinator": "莊承鑫教授",
+    "program_website": "https://imst.nsysu.edu.tw/p/412-1333-25117.php?Lang=zh-tw",
+    "source_pdf": "http://140.117.153.69/ctdr/files/20241224153814770.pdf",
+    "academic_version": "115-1",
+    "source": {
+      "catalog_url": "https://ctdr.nsysu.edu.tw/class2.php",
+      "pdf_url": "http://140.117.153.69/ctdr/files/20241224153814770.pdf",
+      "retrieved_at": "2026-08-15T10:05:39Z",
+      "pdf_binary_sha256": "c48c8f6ac8ad6a17fd2af3ec95396ab53cf40df58eace214a95e4f92b910897b",
+      "normalized_text_sha256": "1762847b70e4eb80922978955c098ba0bf5743c502caeb245b4ae29d754e4ee7",
+      "http": {
+        "status": 200,
+        "etag": "\"35020-629ff32227683\"",
+        "last_modified": "Tue, 24 Dec 2024 07:38:14 GMT",
+        "content_length": 217120
+      },
+      "parser_version": "0.1.0"
+    },
+    "review_status": "needs_review",
+    "rules": {
+      "kind": "manual_review",
+      "reason": "Extracted candidate awaits approval"
+    },
+    "warnings": [
+      "No structured course rows extracted from PDF tables"
+    ],
+    "selected_pdf_academic_version": "113-1",
+    "course_catalog": [
+      {
+        "course_code": null,
+        "opening_units": [
+          "醫學科技研究所"
+        ],
+        "opening_unit_snapshot": "醫學科技研究所",
+        "course_name_snapshot": "智慧長照創新服務開發模式",
+        "credits_snapshot": 3.0,
+        "requirement_group": "elective",
+        "notes": "",
+        "source_page": 1,
+        "evidence_match": true,
+        "validation_status": "needs_course_code_verification",
+        "uncertainty_reason": "Official PDF table does not provide a course code"
+      },
+      {
+        "course_code": null,
+        "opening_units": [
+          "企業管理學系"
+        ],
+        "opening_unit_snapshot": "企業管理學系",
+        "course_name_snapshot": "長期照護",
+        "credits_snapshot": 3.0,
+        "requirement_group": "elective",
+        "notes": "",
+        "source_page": 1,
+        "evidence_match": true,
+        "validation_status": "needs_course_code_verification",
+        "uncertainty_reason": "Official PDF table does not provide a course code"
+      },
+      {
+        "course_code": null,
+        "opening_units": [
+          "醫學科技研究所"
+        ],
+        "opening_unit_snapshot": "醫學科技研究所",
+        "course_name_snapshot": "智慧長照實習",
+        "credits_snapshot": 1.0,
+        "requirement_group": "elective",
+        "notes": "",
+        "source_page": 1,
+        "evidence_match": true,
+        "validation_status": "needs_course_code_verification",
+        "uncertainty_reason": "Official PDF table does not provide a course code"
+      },
+      {
+        "course_code": null,
+        "opening_units": [
+          "資訊工程學系"
+        ],
+        "opening_unit_snapshot": "資訊工程學系",
+        "course_name_snapshot": "資料探勘",
+        "credits_snapshot": 3.0,
+        "requirement_group": "elective",
+        "notes": "",
+        "source_page": 1,
+        "evidence_match": true,
+        "validation_status": "needs_course_code_verification",
+        "uncertainty_reason": "Official PDF table does not provide a course code"
+      },
+      {
+        "course_code": null,
+        "opening_units": [
+          "醫學科技研究所"
+        ],
+        "opening_unit_snapshot": "醫學科技研究所",
+        "course_name_snapshot": "智慧長照實務",
+        "credits_snapshot": 3.0,
+        "requirement_group": "elective",
+        "notes": "",
+        "source_page": 1,
+        "evidence_match": true,
+        "validation_status": "needs_course_code_verification",
+        "uncertainty_reason": "Official PDF table does not provide a course code"
+      },
+      {
+        "course_code": null,
+        "opening_units": [
+          "醫學科技研究所"
+        ],
+        "opening_unit_snapshot": "醫學科技研究所",
+        "course_name_snapshot": "智慧長照專論",
+        "credits_snapshot": 3.0,
+        "requirement_group": "elective",
+        "notes": "",
+        "source_page": 1,
+        "evidence_match": true,
+        "validation_status": "needs_course_code_verification",
+        "uncertainty_reason": "Official PDF table does not provide a course code"
+      },
+      {
+        "course_code": null,
+        "opening_units": [
+          "醫學科技研究所"
+        ],
+        "opening_unit_snapshot": "醫學科技研究所",
+        "course_name_snapshot": "科技輔具與創新應用",
+        "credits_snapshot": 3.0,
+        "requirement_group": "elective",
+        "notes": "",
+        "source_page": 1,
+        "evidence_match": true,
+        "validation_status": "needs_course_code_verification",
+        "uncertainty_reason": "Official PDF table does not provide a course code"
+      },
+      {
+        "course_code": null,
+        "opening_units": [
+          "後醫學系"
+        ],
+        "opening_unit_snapshot": "後醫學系",
+        "course_name_snapshot": "創新科技與健康照護",
+        "credits_snapshot": 2.0,
+        "requirement_group": "elective",
+        "notes": "",
+        "source_page": 1,
+        "evidence_match": true,
+        "validation_status": "needs_course_code_verification",
+        "uncertainty_reason": "Official PDF table does not provide a course code"
+      },
+      {
+        "course_code": null,
+        "opening_units": [
+          "人科學程"
+        ],
+        "opening_unit_snapshot": "人科學程",
+        "course_name_snapshot": "關懷設計",
+        "credits_snapshot": 3.0,
+        "requirement_group": "elective",
+        "notes": "",
+        "source_page": 1,
+        "evidence_match": true,
+        "validation_status": "needs_course_code_verification",
+        "uncertainty_reason": "Official PDF table does not provide a course code"
+      },
+      {
+        "course_code": null,
+        "opening_units": [
+          "高雄醫學大學心理學系"
+        ],
+        "opening_unit_snapshot": "高雄醫學大學心理學系",
+        "course_name_snapshot": "應用心理學實務與實習",
+        "credits_snapshot": 3.0,
+        "requirement_group": "elective",
+        "notes": "",
+        "source_page": 1,
+        "evidence_match": true,
+        "validation_status": "needs_course_code_verification",
+        "uncertainty_reason": "Official PDF table does not provide a course code"
+      },
+      {
+        "course_code": null,
+        "opening_units": [
+          "後醫學系"
+        ],
+        "opening_unit_snapshot": "後醫學系",
+        "course_name_snapshot": "深睡的力量: 揭開睡眠與健康的面紗",
+        "credits_snapshot": 3.0,
+        "requirement_group": "elective",
+        "notes": "",
+        "source_page": 1,
+        "evidence_match": false,
+        "validation_status": "needs_course_code_verification",
+        "uncertainty_reason": "Official PDF table does not provide a course code"
+      }
+    ],
+    "structured_requirements": {
+      "minimum_total_credits": 9,
+      "minimum_outside_home_department_credits": 3
+    }
+  }
+}

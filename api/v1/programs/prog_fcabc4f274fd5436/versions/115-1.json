@@ -1,0 +1,224 @@
+{
+  "program_id": "prog_fcabc4f274fd5436",
+  "name_zh": "表達性藝術治療學程",
+  "name_en": null,
+  "previous_names": [],
+  "type": "integrated_program",
+  "status": "active",
+  "description": "音樂治療在醫學治療上,是以有計畫、有組織的方法將其使用在生理、心理、社會、疾病或功能障礙的病人,藉由治療者的音樂素養及音樂知識,運用治療教育的模式以行為治療、行為科學的觀念,把音樂治療當作一種處方,有技巧的施用在有需要的病人身上,不但應用於自閉症兒童及各種心理治療,同時對安寧病房與精神疾病之治療也有相當的效益。本學程配合社會環境多元化跨界整合學習,提升學生素質,增加招生的競爭力與學生未來繼續深造與就業之機會。",
+  "responsible_unit": "音樂系 顏竹君助理教授 劇藝系",
+  "coordinator": "吳怡瑱主任",
+  "program_website": "https://music.nsysu.edu.tw/front/_student/_Integrated_curriculum/archive.php?ID=bnN5c3VfbXVzaWMmX0ludGVncmF0ZWRfY3VycmljdWx1bQ==",
+  "source_pdf": "http://140.117.153.69/ctdr/files/20241224151419803.pdf",
+  "academic_version": "115-1",
+  "source": {
+    "catalog_url": "https://ctdr.nsysu.edu.tw/class2.php",
+    "pdf_url": "http://140.117.153.69/ctdr/files/20241224151419803.pdf",
+    "retrieved_at": "2026-08-15T10:05:39Z",
+    "pdf_binary_sha256": "5616100b8ab0e2231fd31c8914b6cd9305c4808e65af96a5ba6b3dad47417110",
+    "normalized_text_sha256": "1a80e6428318bd8b45176f5cb0b768a61d11dbfeb129e9cd44c98b171e7d4836",
+    "http": {
+      "status": 200,
+      "etag": "\"1a067-629fedc9ace56\"",
+      "last_modified": "Tue, 24 Dec 2024 07:14:19 GMT",
+      "content_length": 106599
+    },
+    "parser_version": "0.1.0"
+  },
+  "review_status": "needs_review",
+  "rules": {
+    "kind": "manual_review",
+    "reason": "Extracted candidate awaits approval"
+  },
+  "warnings": [
+    "No structured course rows extracted from PDF tables"
+  ],
+  "selected_pdf_academic_version": "113-1",
+  "course_catalog": [
+    {
+      "course_code": null,
+      "opening_units": [
+        "高雄醫學大學心理學系"
+      ],
+      "opening_unit_snapshot": "高雄醫學大學心理學系",
+      "course_name_snapshot": "普通心理學",
+      "credits_snapshot": 3.0,
+      "requirement_group": "core",
+      "notes": "修習一學期即可",
+      "source_page": 1,
+      "evidence_match": true,
+      "validation_status": "needs_course_code_verification",
+      "uncertainty_reason": "Official PDF table does not provide a course code"
+    },
+    {
+      "course_code": null,
+      "opening_units": [
+        "音樂學系"
+      ],
+      "opening_unit_snapshot": "音樂學系",
+      "course_name_snapshot": "音樂治療",
+      "credits_snapshot": 2.0,
+      "requirement_group": "core",
+      "notes": "",
+      "source_page": 1,
+      "evidence_match": true,
+      "validation_status": "needs_course_code_verification",
+      "uncertainty_reason": "Official PDF table does not provide a course code"
+    },
+    {
+      "course_code": null,
+      "opening_units": [
+        "高雄醫學大學心理學系"
+      ],
+      "opening_unit_snapshot": "高雄醫學大學心理學系",
+      "course_name_snapshot": "性格心理學發展心理學認知心理學",
+      "credits_snapshot": 3.0,
+      "requirement_group": "core",
+      "notes": "任選一門課",
+      "source_page": 1,
+      "evidence_match": false,
+      "validation_status": "needs_course_code_verification",
+      "uncertainty_reason": "Official PDF table does not provide a course code"
+    },
+    {
+      "course_code": null,
+      "opening_units": [
+        "音樂學系"
+      ],
+      "opening_unit_snapshot": "音樂學系",
+      "course_name_snapshot": "音樂心理學",
+      "credits_snapshot": 2.0,
+      "requirement_group": "elective",
+      "notes": "",
+      "source_page": 1,
+      "evidence_match": true,
+      "validation_status": "needs_course_code_verification",
+      "uncertainty_reason": "Official PDF table does not provide a course code"
+    },
+    {
+      "course_code": null,
+      "opening_units": [
+        "劇場藝術學系"
+      ],
+      "opening_unit_snapshot": "劇場藝術學系",
+      "course_name_snapshot": "戲劇治療與 PBT 設計",
+      "credits_snapshot": 3.0,
+      "requirement_group": "elective",
+      "notes": "",
+      "source_page": 1,
+      "evidence_match": true,
+      "validation_status": "needs_course_code_verification",
+      "uncertainty_reason": "Official PDF table does not provide a course code"
+    },
+    {
+      "course_code": null,
+      "opening_units": [
+        "劇場藝術學系"
+      ],
+      "opening_unit_snapshot": "劇場藝術學系",
+      "course_name_snapshot": "肢體開發(一)",
+      "credits_snapshot": 2.0,
+      "requirement_group": "elective",
+      "notes": "修習肢體開發(二),亦可認列",
+      "source_page": 1,
+      "evidence_match": true,
+      "validation_status": "needs_course_code_verification",
+      "uncertainty_reason": "Official PDF table does not provide a course code"
+    },
+    {
+      "course_code": null,
+      "opening_units": [
+        "音樂學系"
+      ],
+      "opening_unit_snapshot": "音樂學系",
+      "course_name_snapshot": "音樂與律動於樂齡之運用",
+      "credits_snapshot": 3.0,
+      "requirement_group": "elective",
+      "notes": "",
+      "source_page": 1,
+      "evidence_match": true,
+      "validation_status": "needs_course_code_verification",
+      "uncertainty_reason": "Official PDF table does not provide a course code"
+    },
+    {
+      "course_code": null,
+      "opening_units": [
+        "音樂學系"
+      ],
+      "opening_unit_snapshot": "音樂學系",
+      "course_name_snapshot": "音樂於高齡照護之設計與運用",
+      "credits_snapshot": 3.0,
+      "requirement_group": "elective",
+      "notes": "",
+      "source_page": 1,
+      "evidence_match": false,
+      "validation_status": "needs_course_code_verification",
+      "uncertainty_reason": "Official PDF table does not provide a course code"
+    },
+    {
+      "course_code": null,
+      "opening_units": [
+        "音樂學系"
+      ],
+      "opening_unit_snapshot": "音樂學系",
+      "course_name_snapshot": "表達性藝術治療個案討論",
+      "credits_snapshot": 3.0,
+      "requirement_group": "elective",
+      "notes": "",
+      "source_page": 1,
+      "evidence_match": true,
+      "validation_status": "needs_course_code_verification",
+      "uncertainty_reason": "Official PDF table does not provide a course code"
+    },
+    {
+      "course_code": null,
+      "opening_units": [
+        "後醫學系"
+      ],
+      "opening_unit_snapshot": "後醫學系",
+      "course_name_snapshot": "與老共舞",
+      "credits_snapshot": 3.0,
+      "requirement_group": "elective",
+      "notes": "",
+      "source_page": 1,
+      "evidence_match": true,
+      "validation_status": "needs_course_code_verification",
+      "uncertainty_reason": "Official PDF table does not provide a course code"
+    },
+    {
+      "course_code": null,
+      "opening_units": [
+        "後醫學系"
+      ],
+      "opening_unit_snapshot": "後醫學系",
+      "course_name_snapshot": "危老年代",
+      "credits_snapshot": 2.0,
+      "requirement_group": "elective",
+      "notes": "",
+      "source_page": 1,
+      "evidence_match": true,
+      "validation_status": "needs_course_code_verification",
+      "uncertainty_reason": "Official PDF table does not provide a course code"
+    },
+    {
+      "course_code": null,
+      "opening_units": [
+        "後醫學系"
+      ],
+      "opening_unit_snapshot": "後醫學系",
+      "course_name_snapshot": "神經心理學",
+      "credits_snapshot": 3.0,
+      "requirement_group": "elective",
+      "notes": "",
+      "source_page": 1,
+      "evidence_match": true,
+      "validation_status": "needs_course_code_verification",
+      "uncertainty_reason": "Official PDF table does not provide a course code"
+    }
+  ],
+  "structured_requirements": {
+    "minimum_total_credits": 15,
+    "core_credits_text_value": 5,
+    "minimum_outside_home_department_credits": 6
+  }
+}

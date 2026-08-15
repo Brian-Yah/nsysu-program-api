@@ -1,0 +1,471 @@
+{
+  "program_id": "prog_2b1690003cd55ac2",
+  "latest_academic_version": "115-1",
+  "versions": [
+    "115-1"
+  ],
+  "program": {
+    "program_id": "prog_2b1690003cd55ac2",
+    "name_zh": "機器學習與多媒體技術學程",
+    "name_en": null,
+    "previous_names": [],
+    "type": "integrated_program",
+    "status": "active",
+    "description": "本學程技術上的重點包含三維電腦繪圖技術、視訊及影像技術、體感遊戲技術、與軟硬體協同技術。具體之目標包括擴增實境的數位典藏、具個人特徵之全身模型情境融入互動系統、3D流體模擬等等。此外,亦涵蓋數位媒體傳播、劇藝、動漫、音樂等內容之創作、產生、數位化等等相關課程。從上游到下游的垂直化課程整合,著重在培養修習的學生具備融會貫通能力,能夠處理不同環境下的各種應用需求。",
+    "responsible_unit": "資工系",
+    "coordinator": "陳嘉平教授",
+    "program_website": "https://whale.cse.nsysu.edu.tw/mediacourse/",
+    "source_pdf": "http://140.117.153.69/ctdr/files/20230612093429373.pdf",
+    "academic_version": "115-1",
+    "source": {
+      "catalog_url": "https://ctdr.nsysu.edu.tw/class2.php",
+      "pdf_url": "http://140.117.153.69/ctdr/files/20230612093429373.pdf",
+      "retrieved_at": "2026-08-15T10:05:39Z",
+      "pdf_binary_sha256": "d9741a5d423b032b0a8420b4e5db1b3d6cdf43b2061363091bd3c0eff3bbd906",
+      "normalized_text_sha256": "7c3e7aad0dbba7373f6292aec0d2d7fd139dd13b7c8515ed7e7102de6779d7fb",
+      "http": {
+        "status": 200,
+        "etag": "\"29894-5fde4b84405c4\"",
+        "last_modified": "Mon, 12 Jun 2023 01:34:29 GMT",
+        "content_length": 170132
+      },
+      "parser_version": "0.1.0"
+    },
+    "review_status": "needs_review",
+    "rules": {
+      "kind": "manual_review",
+      "reason": "Extracted candidate awaits approval"
+    },
+    "warnings": [
+      "No structured course rows extracted from PDF tables"
+    ],
+    "selected_pdf_academic_version": "109-1",
+    "course_catalog": [
+      {
+        "course_code": null,
+        "opening_units": [
+          "資工系"
+        ],
+        "opening_unit_snapshot": "資工系",
+        "course_name_snapshot": "C程式設計(一)",
+        "credits_snapshot": 3.0,
+        "requirement_group": "core",
+        "notes": "",
+        "source_page": 1,
+        "evidence_match": true,
+        "validation_status": "needs_course_code_verification",
+        "uncertainty_reason": "Official PDF table does not provide a course code"
+      },
+      {
+        "course_code": null,
+        "opening_units": [
+          "資工系"
+        ],
+        "opening_unit_snapshot": "資工系",
+        "course_name_snapshot": "數位系統",
+        "credits_snapshot": 3.0,
+        "requirement_group": "core",
+        "notes": "",
+        "source_page": 1,
+        "evidence_match": true,
+        "validation_status": "needs_course_code_verification",
+        "uncertainty_reason": "Official PDF table does not provide a course code"
+      },
+      {
+        "course_code": null,
+        "opening_units": [
+          "資工系"
+        ],
+        "opening_unit_snapshot": "資工系",
+        "course_name_snapshot": "電腦圖學概論",
+        "credits_snapshot": 3.0,
+        "requirement_group": "core",
+        "notes": "",
+        "source_page": 1,
+        "evidence_match": true,
+        "validation_status": "needs_course_code_verification",
+        "uncertainty_reason": "Official PDF table does not provide a course code"
+      },
+      {
+        "course_code": null,
+        "opening_units": [
+          "資工系"
+        ],
+        "opening_unit_snapshot": "資工系",
+        "course_name_snapshot": "線性代數",
+        "credits_snapshot": 3.0,
+        "requirement_group": "core",
+        "notes": "",
+        "source_page": 1,
+        "evidence_match": true,
+        "validation_status": "needs_course_code_verification",
+        "uncertainty_reason": "Official PDF table does not provide a course code"
+      },
+      {
+        "course_code": null,
+        "opening_units": [
+          "資工系"
+        ],
+        "opening_unit_snapshot": "資工系",
+        "course_name_snapshot": "機率學",
+        "credits_snapshot": 3.0,
+        "requirement_group": "core",
+        "notes": "",
+        "source_page": 1,
+        "evidence_match": true,
+        "validation_status": "needs_course_code_verification",
+        "uncertainty_reason": "Official PDF table does not provide a course code"
+      },
+      {
+        "course_code": null,
+        "opening_units": [
+          "資工系"
+        ],
+        "opening_unit_snapshot": "資工系",
+        "course_name_snapshot": "C 程式設計(二)",
+        "credits_snapshot": 3.0,
+        "requirement_group": "elective",
+        "notes": "",
+        "source_page": 1,
+        "evidence_match": true,
+        "validation_status": "needs_course_code_verification",
+        "uncertainty_reason": "Official PDF table does not provide a course code"
+      },
+      {
+        "course_code": null,
+        "opening_units": [
+          "資工系"
+        ],
+        "opening_unit_snapshot": "資工系",
+        "course_name_snapshot": "C程式設計實驗(一)",
+        "credits_snapshot": 1.0,
+        "requirement_group": "elective",
+        "notes": "",
+        "source_page": 1,
+        "evidence_match": true,
+        "validation_status": "needs_course_code_verification",
+        "uncertainty_reason": "Official PDF table does not provide a course code"
+      },
+      {
+        "course_code": null,
+        "opening_units": [
+          "資工系"
+        ],
+        "opening_unit_snapshot": "資工系",
+        "course_name_snapshot": "C程式設計實驗(二)",
+        "credits_snapshot": 1.0,
+        "requirement_group": "elective",
+        "notes": "",
+        "source_page": 1,
+        "evidence_match": true,
+        "validation_status": "needs_course_code_verification",
+        "uncertainty_reason": "Official PDF table does not provide a course code"
+      },
+      {
+        "course_code": null,
+        "opening_units": [
+          "資工系"
+        ],
+        "opening_unit_snapshot": "資工系",
+        "course_name_snapshot": "嵌入式系統程式設計",
+        "credits_snapshot": 3.0,
+        "requirement_group": "elective",
+        "notes": "英語授課",
+        "source_page": 1,
+        "evidence_match": true,
+        "validation_status": "needs_course_code_verification",
+        "uncertainty_reason": "Official PDF table does not provide a course code"
+      },
+      {
+        "course_code": null,
+        "opening_units": [
+          "資工系"
+        ],
+        "opening_unit_snapshot": "資工系",
+        "course_name_snapshot": "影像處理",
+        "credits_snapshot": 3.0,
+        "requirement_group": "elective",
+        "notes": "碩士班課程",
+        "source_page": 1,
+        "evidence_match": true,
+        "validation_status": "needs_course_code_verification",
+        "uncertainty_reason": "Official PDF table does not provide a course code"
+      },
+      {
+        "course_code": null,
+        "opening_units": [
+          "資工系"
+        ],
+        "opening_unit_snapshot": "資工系",
+        "course_name_snapshot": "三維計算機圖學",
+        "credits_snapshot": 3.0,
+        "requirement_group": "elective",
+        "notes": "碩士班課程",
+        "source_page": 1,
+        "evidence_match": true,
+        "validation_status": "needs_course_code_verification",
+        "uncertainty_reason": "Official PDF table does not provide a course code"
+      },
+      {
+        "course_code": null,
+        "opening_units": [
+          "資工系"
+        ],
+        "opening_unit_snapshot": "資工系",
+        "course_name_snapshot": "三維計算機圖學及軟硬體實現",
+        "credits_snapshot": 3.0,
+        "requirement_group": "elective",
+        "notes": "碩士班課程",
+        "source_page": 1,
+        "evidence_match": true,
+        "validation_status": "needs_course_code_verification",
+        "uncertainty_reason": "Official PDF table does not provide a course code"
+      },
+      {
+        "course_code": null,
+        "opening_units": [
+          "資工系"
+        ],
+        "opening_unit_snapshot": "資工系",
+        "course_name_snapshot": "數位訊號處理",
+        "credits_snapshot": 3.0,
+        "requirement_group": "elective",
+        "notes": "碩士班課程",
+        "source_page": 1,
+        "evidence_match": true,
+        "validation_status": "needs_course_code_verification",
+        "uncertainty_reason": "Official PDF table does not provide a course code"
+      },
+      {
+        "course_code": null,
+        "opening_units": [
+          "資工系"
+        ],
+        "opening_unit_snapshot": "資工系",
+        "course_name_snapshot": "數位信號處理架構設計",
+        "credits_snapshot": 3.0,
+        "requirement_group": "elective",
+        "notes": "碩士班課程",
+        "source_page": 1,
+        "evidence_match": true,
+        "validation_status": "needs_course_code_verification",
+        "uncertainty_reason": "Official PDF table does not provide a course code"
+      },
+      {
+        "course_code": null,
+        "opening_units": [
+          "資工系"
+        ],
+        "opening_unit_snapshot": "資工系",
+        "course_name_snapshot": "機器學習",
+        "credits_snapshot": 3.0,
+        "requirement_group": "elective",
+        "notes": "碩士班課程",
+        "source_page": 1,
+        "evidence_match": true,
+        "validation_status": "needs_course_code_verification",
+        "uncertainty_reason": "Official PDF table does not provide a course code"
+      },
+      {
+        "course_code": null,
+        "opening_units": [
+          "音樂系"
+        ],
+        "opening_unit_snapshot": "音樂系",
+        "course_name_snapshot": "商業音像內涵與創意元素",
+        "credits_snapshot": 2.0,
+        "requirement_group": "elective",
+        "notes": "",
+        "source_page": 1,
+        "evidence_match": true,
+        "validation_status": "needs_course_code_verification",
+        "uncertainty_reason": "Official PDF table does not provide a course code"
+      },
+      {
+        "course_code": null,
+        "opening_units": [
+          "劇藝系"
+        ],
+        "opening_unit_snapshot": "劇藝系",
+        "course_name_snapshot": "電腦輔助繪圖",
+        "credits_snapshot": 2.0,
+        "requirement_group": "elective",
+        "notes": "",
+        "source_page": 1,
+        "evidence_match": true,
+        "validation_status": "needs_course_code_verification",
+        "uncertainty_reason": "Official PDF table does not provide a course code"
+      },
+      {
+        "course_code": null,
+        "opening_units": [
+          "劇藝系"
+        ],
+        "opening_unit_snapshot": "劇藝系",
+        "course_name_snapshot": "技術繪圖",
+        "credits_snapshot": 2.0,
+        "requirement_group": "elective",
+        "notes": "",
+        "source_page": 1,
+        "evidence_match": true,
+        "validation_status": "needs_course_code_verification",
+        "uncertainty_reason": "Official PDF table does not provide a course code"
+      },
+      {
+        "course_code": null,
+        "opening_units": [
+          "電機系"
+        ],
+        "opening_unit_snapshot": "電機系",
+        "course_name_snapshot": "視訊通訊",
+        "credits_snapshot": 3.0,
+        "requirement_group": "elective",
+        "notes": "碩士班課程",
+        "source_page": 1,
+        "evidence_match": true,
+        "validation_status": "needs_course_code_verification",
+        "uncertainty_reason": "Official PDF table does not provide a course code"
+      },
+      {
+        "course_code": null,
+        "opening_units": [
+          "傳管所"
+        ],
+        "opening_unit_snapshot": "傳管所",
+        "course_name_snapshot": "數位行銷",
+        "credits_snapshot": 3.0,
+        "requirement_group": "elective",
+        "notes": "碩士班課程",
+        "source_page": 1,
+        "evidence_match": true,
+        "validation_status": "needs_course_code_verification",
+        "uncertainty_reason": "Official PDF table does not provide a course code"
+      },
+      {
+        "course_code": null,
+        "opening_units": [
+          "傳管所"
+        ],
+        "opening_unit_snapshot": "傳管所",
+        "course_name_snapshot": "娛樂行銷與媒體",
+        "credits_snapshot": 3.0,
+        "requirement_group": "elective",
+        "notes": "碩士班課程",
+        "source_page": 1,
+        "evidence_match": true,
+        "validation_status": "needs_course_code_verification",
+        "uncertainty_reason": "Official PDF table does not provide a course code"
+      },
+      {
+        "course_code": null,
+        "opening_units": [
+          "通識中心"
+        ],
+        "opening_unit_snapshot": "通識中心",
+        "course_name_snapshot": "多媒體通訊之應用",
+        "credits_snapshot": 2.0,
+        "requirement_group": "elective",
+        "notes": "博雅向度四",
+        "source_page": 1,
+        "evidence_match": true,
+        "validation_status": "needs_course_code_verification",
+        "uncertainty_reason": "Official PDF table does not provide a course code"
+      },
+      {
+        "course_code": null,
+        "opening_units": [
+          "應數碩"
+        ],
+        "opening_unit_snapshot": "應數碩",
+        "course_name_snapshot": "統計學習與資料探勘",
+        "credits_snapshot": 3.0,
+        "requirement_group": "elective",
+        "notes": "",
+        "source_page": 1,
+        "evidence_match": true,
+        "validation_status": "needs_course_code_verification",
+        "uncertainty_reason": "Official PDF table does not provide a course code"
+      },
+      {
+        "course_code": null,
+        "opening_units": [
+          "資工系"
+        ],
+        "opening_unit_snapshot": "資工系",
+        "course_name_snapshot": "數位影像處理",
+        "credits_snapshot": 3.0,
+        "requirement_group": "elective",
+        "notes": "",
+        "source_page": 1,
+        "evidence_match": true,
+        "validation_status": "needs_course_code_verification",
+        "uncertainty_reason": "Official PDF table does not provide a course code"
+      },
+      {
+        "course_code": null,
+        "opening_units": [
+          "資工系"
+        ],
+        "opening_unit_snapshot": "資工系",
+        "course_name_snapshot": "機器學習導論",
+        "credits_snapshot": 3.0,
+        "requirement_group": "elective",
+        "notes": "",
+        "source_page": 1,
+        "evidence_match": true,
+        "validation_status": "needs_course_code_verification",
+        "uncertainty_reason": "Official PDF table does not provide a course code"
+      },
+      {
+        "course_code": null,
+        "opening_units": [
+          "資工系"
+        ],
+        "opening_unit_snapshot": "資工系",
+        "course_name_snapshot": "基礎訊號處理",
+        "credits_snapshot": 3.0,
+        "requirement_group": "elective",
+        "notes": "",
+        "source_page": 1,
+        "evidence_match": true,
+        "validation_status": "needs_course_code_verification",
+        "uncertainty_reason": "Official PDF table does not provide a course code"
+      },
+      {
+        "course_code": null,
+        "opening_units": [
+          "資工系"
+        ],
+        "opening_unit_snapshot": "資工系",
+        "course_name_snapshot": "人工智慧導論",
+        "credits_snapshot": 3.0,
+        "requirement_group": "elective",
+        "notes": "",
+        "source_page": 1,
+        "evidence_match": true,
+        "validation_status": "needs_course_code_verification",
+        "uncertainty_reason": "Official PDF table does not provide a course code"
+      },
+      {
+        "course_code": null,
+        "opening_units": [
+          "管理學院(碩)"
+        ],
+        "opening_unit_snapshot": "管理學院(碩)",
+        "course_name_snapshot": "大數據分析、機器學習、與人工智慧方法",
+        "credits_snapshot": 3.0,
+        "requirement_group": "elective",
+        "notes": "",
+        "source_page": 1,
+        "evidence_match": false,
+        "validation_status": "needs_course_code_verification",
+        "uncertainty_reason": "Official PDF table does not provide a course code"
+      }
+    ],
+    "structured_requirements": {
+      "core_credits_text_value": 6,
+      "minimum_total_credits": 15,
+      "minimum_outside_home_department_credits": 6
+    }
+  }
+}

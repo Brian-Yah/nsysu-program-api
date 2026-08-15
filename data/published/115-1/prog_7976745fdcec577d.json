@@ -1,0 +1,269 @@
+{
+  "program_id": "prog_7976745fdcec577d",
+  "name_zh": "熱帶海洋微學程",
+  "name_en": null,
+  "previous_names": [],
+  "type": "micro_program",
+  "status": "active",
+  "description": "1.學習透過數據解析整合不同面向的海洋環境和生態系統相關資料。2.學程休習完畢後將除了對熱帶海洋環境有充分了解,也將具備多種數據分析軟體基礎能力。3.啟發學生對海洋的公民意識,了解環境變遷對熱帶海洋環境的影響。",
+  "responsible_unit": "海科系",
+  "coordinator": "塗子萱助理教授",
+  "program_website": "https://nrlin6.wixsite.com/tropical-marine",
+  "source_pdf": "http://140.117.153.69/ctdr/files/20231220101734340.pdf",
+  "academic_version": "115-1",
+  "source": {
+    "catalog_url": "https://ctdr.nsysu.edu.tw/class2.php",
+    "pdf_url": "http://140.117.153.69/ctdr/files/20231220101734340.pdf",
+    "retrieved_at": "2026-08-15T10:05:39Z",
+    "pdf_binary_sha256": "c51219265a4291f3edfeaaeb43c879741cb8c22c17d08d6163a9fa0e27bf947b",
+    "normalized_text_sha256": "32fcd88d693f2a12c42c1d8a6e0384fae4ff5cc3f85dddd537fd1d8c711183be",
+    "http": {
+      "status": 200,
+      "etag": "\"39be2-60ce79607d7d4\"",
+      "last_modified": "Wed, 20 Dec 2023 02:17:34 GMT",
+      "content_length": 236514
+    },
+    "parser_version": "0.1.0"
+  },
+  "review_status": "needs_review",
+  "rules": {
+    "kind": "manual_review",
+    "reason": "Extracted candidate awaits approval"
+  },
+  "warnings": [
+    "No structured course rows extracted from PDF tables"
+  ],
+  "selected_pdf_academic_version": "112-1",
+  "course_catalog": [
+    {
+      "course_code": null,
+      "opening_units": [
+        "海洋科學系"
+      ],
+      "opening_unit_snapshot": "海洋科學系",
+      "course_name_snapshot": "基礎海洋學",
+      "credits_snapshot": 3.0,
+      "requirement_group": "core",
+      "notes": "",
+      "source_page": 1,
+      "evidence_match": true,
+      "validation_status": "needs_course_code_verification",
+      "uncertainty_reason": "Official PDF table does not provide a course code"
+    },
+    {
+      "course_code": null,
+      "opening_units": [
+        "跨院選修(海)"
+      ],
+      "opening_unit_snapshot": "跨院選修(海)",
+      "course_name_snapshot": "基礎海洋生態學",
+      "credits_snapshot": 3.0,
+      "requirement_group": "core",
+      "notes": "",
+      "source_page": 1,
+      "evidence_match": true,
+      "validation_status": "needs_course_code_verification",
+      "uncertainty_reason": "Official PDF table does not provide a course code"
+    },
+    {
+      "course_code": null,
+      "opening_units": [
+        "巴塞隆納大學 Universitat de Barcelona"
+      ],
+      "opening_unit_snapshot": "巴塞隆納大學 Universitat de Barcelona",
+      "course_name_snapshot": "海洋學 (Oceanography: a key to better understand our world)",
+      "credits_snapshot": 1.0,
+      "requirement_group": "core",
+      "notes": "",
+      "source_page": 1,
+      "evidence_match": false,
+      "validation_status": "needs_course_code_verification",
+      "uncertainty_reason": "Official PDF table does not provide a course code"
+    },
+    {
+      "course_code": null,
+      "opening_units": [
+        "南安普頓國家海洋學中心National Oceanography Centre"
+      ],
+      "opening_unit_snapshot": "南安普頓國家海洋學中心National Oceanography Centre",
+      "course_name_snapshot": "海洋科學行動:解決海洋生態系統和糧食安全問題(Ocean Science in Action:Addressing Marine Ecosystems and Food Security)",
+      "credits_snapshot": 1.0,
+      "requirement_group": "core",
+      "notes": "",
+      "source_page": 1,
+      "evidence_match": false,
+      "validation_status": "needs_course_code_verification",
+      "uncertainty_reason": "Official PDF table does not provide a course code"
+    },
+    {
+      "course_code": null,
+      "opening_units": [
+        "開普敦大學University of Cape Town美國國家海洋和 大 氣 管 理 局 National Oceanic and Atmospheric Administration IW:LEARN全球環境基金 Global Environment Facility聯合國開發計畫署 The United Nations Development Programme聯合國教科文組織國際奧委會International Olympic Committee聯合國環境規劃 署 United Nations Environment Programme"
+      ],
+      "opening_unit_snapshot": "開普敦大學University of Cape Town美國國家海洋和 大 氣 管 理 局 National Oceanic and Atmospheric Administration IW:LEARN全球環境基金 Global Environment Facility聯合國開發計畫署 The United Nations Development Programme聯合國教科文組織國際奧委會International Olympic Committee聯合國環境規劃 署 United Nations Environment Programme",
+      "course_name_snapshot": "大型海洋生態系統:評估與 管理 (Large Marine Ecosystems: Assessment and Management)",
+      "credits_snapshot": 2.0,
+      "requirement_group": "core",
+      "notes": "",
+      "source_page": 1,
+      "evidence_match": false,
+      "validation_status": "needs_course_code_verification",
+      "uncertainty_reason": "Official PDF table does not provide a course code"
+    },
+    {
+      "course_code": null,
+      "opening_units": [
+        "博雅向度六"
+      ],
+      "opening_unit_snapshot": "博雅向度六",
+      "course_name_snapshot": "環境變遷與生態保育",
+      "credits_snapshot": 2.0,
+      "requirement_group": "elective",
+      "notes": "",
+      "source_page": 1,
+      "evidence_match": true,
+      "validation_status": "needs_course_code_verification",
+      "uncertainty_reason": "Official PDF table does not provide a course code"
+    },
+    {
+      "course_code": null,
+      "opening_units": [
+        "博雅向度六"
+      ],
+      "opening_unit_snapshot": "博雅向度六",
+      "course_name_snapshot": "氣候變遷與調適",
+      "credits_snapshot": 2.0,
+      "requirement_group": "elective",
+      "notes": "",
+      "source_page": 1,
+      "evidence_match": true,
+      "validation_status": "needs_course_code_verification",
+      "uncertainty_reason": "Official PDF table does not provide a course code"
+    },
+    {
+      "course_code": null,
+      "opening_units": [
+        "博雅向度五"
+      ],
+      "opening_unit_snapshot": "博雅向度五",
+      "course_name_snapshot": "生物多樣性的世界",
+      "credits_snapshot": 2.0,
+      "requirement_group": "elective",
+      "notes": "",
+      "source_page": 1,
+      "evidence_match": true,
+      "validation_status": "needs_course_code_verification",
+      "uncertainty_reason": "Official PDF table does not provide a course code"
+    },
+    {
+      "course_code": null,
+      "opening_units": [
+        "博雅向度六"
+      ],
+      "opening_unit_snapshot": "博雅向度六",
+      "course_name_snapshot": "海洋生態與海洋科技教育探索",
+      "credits_snapshot": 2.0,
+      "requirement_group": "elective",
+      "notes": "",
+      "source_page": 1,
+      "evidence_match": false,
+      "validation_status": "needs_course_code_verification",
+      "uncertainty_reason": "Official PDF table does not provide a course code"
+    },
+    {
+      "course_code": null,
+      "opening_units": [
+        "博雅向度六"
+      ],
+      "opening_unit_snapshot": "博雅向度六",
+      "course_name_snapshot": "地球科學",
+      "credits_snapshot": 2.0,
+      "requirement_group": "elective",
+      "notes": "",
+      "source_page": 2,
+      "evidence_match": true,
+      "validation_status": "needs_course_code_verification",
+      "uncertainty_reason": "Official PDF table does not provide a course code"
+    },
+    {
+      "course_code": null,
+      "opening_units": [
+        "跨院選修(海)"
+      ],
+      "opening_unit_snapshot": "跨院選修(海)",
+      "course_name_snapshot": "魚類學",
+      "credits_snapshot": 2.0,
+      "requirement_group": "elective",
+      "notes": "",
+      "source_page": 2,
+      "evidence_match": true,
+      "validation_status": "needs_course_code_verification",
+      "uncertainty_reason": "Official PDF table does not provide a course code"
+    },
+    {
+      "course_code": null,
+      "opening_units": [
+        "生物科學系"
+      ],
+      "opening_unit_snapshot": "生物科學系",
+      "course_name_snapshot": "生態學者的R 入門",
+      "credits_snapshot": 3.0,
+      "requirement_group": "elective",
+      "notes": "",
+      "source_page": 2,
+      "evidence_match": true,
+      "validation_status": "needs_course_code_verification",
+      "uncertainty_reason": "Official PDF table does not provide a course code"
+    },
+    {
+      "course_code": null,
+      "opening_units": [
+        "跨院選修(海)"
+      ],
+      "opening_unit_snapshot": "跨院選修(海)",
+      "course_name_snapshot": "海洋無脊椎動物學(ㄧ)",
+      "credits_snapshot": 2.0,
+      "requirement_group": "elective",
+      "notes": "",
+      "source_page": 2,
+      "evidence_match": true,
+      "validation_status": "needs_course_code_verification",
+      "uncertainty_reason": "Official PDF table does not provide a course code"
+    },
+    {
+      "course_code": null,
+      "opening_units": [
+        "海洋科學系"
+      ],
+      "opening_unit_snapshot": "海洋科學系",
+      "course_name_snapshot": "海洋化學與地質數據處理",
+      "credits_snapshot": 2.0,
+      "requirement_group": "elective",
+      "notes": "",
+      "source_page": 2,
+      "evidence_match": true,
+      "validation_status": "needs_course_code_verification",
+      "uncertainty_reason": "Official PDF table does not provide a course code"
+    },
+    {
+      "course_code": null,
+      "opening_units": [
+        "跨院選修(海)"
+      ],
+      "opening_unit_snapshot": "跨院選修(海)",
+      "course_name_snapshot": "海洋無脊椎動物學(二)",
+      "credits_snapshot": 2.0,
+      "requirement_group": "elective",
+      "notes": "",
+      "source_page": 2,
+      "evidence_match": true,
+      "validation_status": "needs_course_code_verification",
+      "uncertainty_reason": "Official PDF table does not provide a course code"
+    }
+  ],
+  "structured_requirements": {
+    "core_credits_text_value": 5,
+    "minimum_total_credits": 9,
+    "minimum_outside_home_department_credits": 3
+  }
+}

@@ -1,0 +1,369 @@
+{
+  "program_id": "prog_28089356b34059f9",
+  "latest_academic_version": "115-1",
+  "versions": [
+    "115-1"
+  ],
+  "program": {
+    "program_id": "prog_28089356b34059f9",
+    "name_zh": "行銷管理學程",
+    "name_en": null,
+    "previous_names": [],
+    "type": "integrated_program",
+    "status": "active",
+    "description": "本學程主要的重點是提供教育資源給有興趣培養行銷專長(包括行銷管理、行銷企劃、廣告、銷售、消費者事務、零售管理及國際行銷等)的學生,以增進其行銷專業知識及就業技能。",
+    "responsible_unit": "企管系",
+    "coordinator": "張純端教授",
+    "program_website": "https://bm.nsysu.edu.tw/p/412-1231-20136.php?Lang=zh-tw",
+    "source_pdf": "http://140.117.153.69/ctdr/files/20230612093547605.pdf",
+    "academic_version": "115-1",
+    "source": {
+      "catalog_url": "https://ctdr.nsysu.edu.tw/class2.php",
+      "pdf_url": "http://140.117.153.69/ctdr/files/20230612093547605.pdf",
+      "retrieved_at": "2026-08-15T10:05:39Z",
+      "pdf_binary_sha256": "3e8ea950238800e0e6439c2fb63649efd824f827cbbeaf05520e25aa24a37a25",
+      "normalized_text_sha256": "7257f2ded33e378e738c8621fc1fac831bcb6bf345b1c5350df2117bbdbdfd2b",
+      "http": {
+        "status": 200,
+        "etag": "\"2c1c8-5fde4bcedbf53\"",
+        "last_modified": "Mon, 12 Jun 2023 01:35:47 GMT",
+        "content_length": 180680
+      },
+      "parser_version": "0.1.0"
+    },
+    "review_status": "needs_review",
+    "rules": {
+      "kind": "manual_review",
+      "reason": "Extracted candidate awaits approval"
+    },
+    "warnings": [
+      "No structured course rows extracted from PDF tables"
+    ],
+    "selected_pdf_academic_version": "109-1",
+    "course_catalog": [
+      {
+        "course_code": null,
+        "opening_units": [
+          "企管系"
+        ],
+        "opening_unit_snapshot": "企管系",
+        "course_name_snapshot": "行銷管理",
+        "credits_snapshot": 3.0,
+        "requirement_group": "core",
+        "notes": "",
+        "source_page": 1,
+        "evidence_match": true,
+        "validation_status": "needs_course_code_verification",
+        "uncertainty_reason": "Official PDF table does not provide a course code"
+      },
+      {
+        "course_code": null,
+        "opening_units": [
+          "企管系"
+        ],
+        "opening_unit_snapshot": "企管系",
+        "course_name_snapshot": "行銷研究",
+        "credits_snapshot": 3.0,
+        "requirement_group": "core",
+        "notes": "",
+        "source_page": 1,
+        "evidence_match": true,
+        "validation_status": "needs_course_code_verification",
+        "uncertainty_reason": "Official PDF table does not provide a course code"
+      },
+      {
+        "course_code": null,
+        "opening_units": [
+          "企管系"
+        ],
+        "opening_unit_snapshot": "企管系",
+        "course_name_snapshot": "行銷個案",
+        "credits_snapshot": 3.0,
+        "requirement_group": "core",
+        "notes": "",
+        "source_page": 1,
+        "evidence_match": true,
+        "validation_status": "needs_course_code_verification",
+        "uncertainty_reason": "Official PDF table does not provide a course code"
+      },
+      {
+        "course_code": null,
+        "opening_units": [
+          "企管系"
+        ],
+        "opening_unit_snapshot": "企管系",
+        "course_name_snapshot": "消費者行為",
+        "credits_snapshot": 3.0,
+        "requirement_group": "elective",
+        "notes": "",
+        "source_page": 1,
+        "evidence_match": true,
+        "validation_status": "needs_course_code_verification",
+        "uncertainty_reason": "Official PDF table does not provide a course code"
+      },
+      {
+        "course_code": null,
+        "opening_units": [
+          "企管系"
+        ],
+        "opening_unit_snapshot": "企管系",
+        "course_name_snapshot": "整合行銷溝通",
+        "credits_snapshot": 3.0,
+        "requirement_group": "elective",
+        "notes": "",
+        "source_page": 1,
+        "evidence_match": true,
+        "validation_status": "needs_course_code_verification",
+        "uncertainty_reason": "Official PDF table does not provide a course code"
+      },
+      {
+        "course_code": null,
+        "opening_units": [
+          "企管碩"
+        ],
+        "opening_unit_snapshot": "企管碩",
+        "course_name_snapshot": "零售管理",
+        "credits_snapshot": 3.0,
+        "requirement_group": "elective",
+        "notes": "",
+        "source_page": 1,
+        "evidence_match": true,
+        "validation_status": "needs_course_code_verification",
+        "uncertainty_reason": "Official PDF table does not provide a course code"
+      },
+      {
+        "course_code": null,
+        "opening_units": [
+          "企管碩",
+          "傳管所"
+        ],
+        "opening_unit_snapshot": "企管碩 / 傳管所",
+        "course_name_snapshot": "服務業行銷",
+        "credits_snapshot": 3.0,
+        "requirement_group": "elective",
+        "notes": "1062新傳管所",
+        "source_page": 1,
+        "evidence_match": true,
+        "validation_status": "needs_course_code_verification",
+        "uncertainty_reason": "Official PDF table does not provide a course code"
+      },
+      {
+        "course_code": null,
+        "opening_units": [
+          "政經系",
+          "傳管所"
+        ],
+        "opening_unit_snapshot": "政經系 / 傳管所",
+        "course_name_snapshot": "社會行銷",
+        "credits_snapshot": 3.0,
+        "requirement_group": "elective",
+        "notes": "1051新增",
+        "source_page": 1,
+        "evidence_match": true,
+        "validation_status": "needs_course_code_verification",
+        "uncertainty_reason": "Official PDF table does not provide a course code"
+      },
+      {
+        "course_code": null,
+        "opening_units": [
+          "資管系",
+          "資管碩"
+        ],
+        "opening_unit_snapshot": "資管系 / 資管碩",
+        "course_name_snapshot": "電子商務",
+        "credits_snapshot": 3.0,
+        "requirement_group": "elective",
+        "notes": "",
+        "source_page": 1,
+        "evidence_match": true,
+        "validation_status": "needs_course_code_verification",
+        "uncertainty_reason": "Official PDF table does not provide a course code"
+      },
+      {
+        "course_code": null,
+        "opening_units": [
+          "資管碩"
+        ],
+        "opening_unit_snapshot": "資管碩",
+        "course_name_snapshot": "網路服務行銷",
+        "credits_snapshot": 3.0,
+        "requirement_group": "elective",
+        "notes": "",
+        "source_page": 1,
+        "evidence_match": true,
+        "validation_status": "needs_course_code_verification",
+        "uncertainty_reason": "Official PDF table does not provide a course code"
+      },
+      {
+        "course_code": null,
+        "opening_units": [
+          "傳管碩"
+        ],
+        "opening_unit_snapshot": "傳管碩",
+        "course_name_snapshot": "廣告效果",
+        "credits_snapshot": 3.0,
+        "requirement_group": "elective",
+        "notes": "",
+        "source_page": 1,
+        "evidence_match": true,
+        "validation_status": "needs_course_code_verification",
+        "uncertainty_reason": "Official PDF table does not provide a course code"
+      },
+      {
+        "course_code": null,
+        "opening_units": [
+          "傳管碩"
+        ],
+        "opening_unit_snapshot": "傳管碩",
+        "course_name_snapshot": "數位行銷",
+        "credits_snapshot": 3.0,
+        "requirement_group": "elective",
+        "notes": "",
+        "source_page": 1,
+        "evidence_match": true,
+        "validation_status": "needs_course_code_verification",
+        "uncertainty_reason": "Official PDF table does not provide a course code"
+      },
+      {
+        "course_code": null,
+        "opening_units": [
+          "傳管碩"
+        ],
+        "opening_unit_snapshot": "傳管碩",
+        "course_name_snapshot": "娛樂行銷與媒體",
+        "credits_snapshot": 3.0,
+        "requirement_group": "elective",
+        "notes": "",
+        "source_page": 1,
+        "evidence_match": true,
+        "validation_status": "needs_course_code_verification",
+        "uncertainty_reason": "Official PDF table does not provide a course code"
+      },
+      {
+        "course_code": null,
+        "opening_units": [
+          "傳管碩"
+        ],
+        "opening_unit_snapshot": "傳管碩",
+        "course_name_snapshot": "消費者心理與行為學",
+        "credits_snapshot": 3.0,
+        "requirement_group": "elective",
+        "notes": "",
+        "source_page": 1,
+        "evidence_match": true,
+        "validation_status": "needs_course_code_verification",
+        "uncertainty_reason": "Official PDF table does not provide a course code"
+      },
+      {
+        "course_code": null,
+        "opening_units": [
+          "傳管碩"
+        ],
+        "opening_unit_snapshot": "傳管碩",
+        "course_name_snapshot": "品牌行銷",
+        "credits_snapshot": 3.0,
+        "requirement_group": "elective",
+        "notes": "",
+        "source_page": 1,
+        "evidence_match": true,
+        "validation_status": "needs_course_code_verification",
+        "uncertainty_reason": "Official PDF table does not provide a course code"
+      },
+      {
+        "course_code": null,
+        "opening_units": [
+          "傳管碩"
+        ],
+        "opening_unit_snapshot": "傳管碩",
+        "course_name_snapshot": "行銷傳播策略",
+        "credits_snapshot": 3.0,
+        "requirement_group": "elective",
+        "notes": "104/2新增",
+        "source_page": 1,
+        "evidence_match": true,
+        "validation_status": "needs_course_code_verification",
+        "uncertainty_reason": "Official PDF table does not provide a course code"
+      },
+      {
+        "course_code": null,
+        "opening_units": [
+          "傳管碩"
+        ],
+        "opening_unit_snapshot": "傳管碩",
+        "course_name_snapshot": "廣告創意",
+        "credits_snapshot": 3.0,
+        "requirement_group": "elective",
+        "notes": "104/2新增",
+        "source_page": 1,
+        "evidence_match": true,
+        "validation_status": "needs_course_code_verification",
+        "uncertainty_reason": "Official PDF table does not provide a course code"
+      },
+      {
+        "course_code": null,
+        "opening_units": [
+          "企管碩"
+        ],
+        "opening_unit_snapshot": "企管碩",
+        "course_name_snapshot": "策略性品牌管理",
+        "credits_snapshot": 3.0,
+        "requirement_group": "elective",
+        "notes": "107/1新增",
+        "source_page": 1,
+        "evidence_match": true,
+        "validation_status": "needs_course_code_verification",
+        "uncertainty_reason": "Official PDF table does not provide a course code"
+      },
+      {
+        "course_code": null,
+        "opening_units": [
+          "傳管碩"
+        ],
+        "opening_unit_snapshot": "傳管碩",
+        "course_name_snapshot": "網路多媒體創意設計",
+        "credits_snapshot": 3.0,
+        "requirement_group": "elective",
+        "notes": "107/2新增",
+        "source_page": 1,
+        "evidence_match": true,
+        "validation_status": "needs_course_code_verification",
+        "uncertainty_reason": "Official PDF table does not provide a course code"
+      },
+      {
+        "course_code": null,
+        "opening_units": [
+          "傳管碩"
+        ],
+        "opening_unit_snapshot": "傳管碩",
+        "course_name_snapshot": "社群媒體行銷",
+        "credits_snapshot": 3.0,
+        "requirement_group": "elective",
+        "notes": "108/1新增",
+        "source_page": 1,
+        "evidence_match": true,
+        "validation_status": "needs_course_code_verification",
+        "uncertainty_reason": "Official PDF table does not provide a course code"
+      },
+      {
+        "course_code": null,
+        "opening_units": [
+          "IBMBA"
+        ],
+        "opening_unit_snapshot": "IBMBA",
+        "course_name_snapshot": "國際行銷",
+        "credits_snapshot": 3.0,
+        "requirement_group": "elective",
+        "notes": "",
+        "source_page": 1,
+        "evidence_match": true,
+        "validation_status": "needs_course_code_verification",
+        "uncertainty_reason": "Official PDF table does not provide a course code"
+      }
+    ],
+    "structured_requirements": {
+      "minimum_total_credits": 15,
+      "core_credits_text_value": 6,
+      "minimum_outside_home_department_credits": 6
+    }
+  }
+}

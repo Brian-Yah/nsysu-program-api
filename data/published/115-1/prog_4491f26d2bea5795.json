@@ -1,0 +1,419 @@
+{
+  "program_id": "prog_4491f26d2bea5795",
+  "name_zh": "基礎醫學數位微學程",
+  "name_en": null,
+  "previous_names": [],
+  "type": "micro_program",
+  "status": "active",
+  "description": "1.整合基礎醫學重要課程,培育學生基礎醫學相關知能,進而強化學生醫學跨領域應用能力;\n2.採取數位課程方式提供學生修習,以強化學生自主學習及終身學習能力;\n3.納入第一階醫師國考科目,以提升學生第一階醫師國考通過率。",
+  "responsible_unit": "後醫系",
+  "coordinator": "唐逸文主任",
+  "program_website": "https://med.nsysu.edu.tw/p/412-1328-23293.php?Lang=zh-tw",
+  "source_pdf": "http://140.117.153.69/ctdr/files/20251223145308215.pdf",
+  "academic_version": "115-1",
+  "source": {
+    "catalog_url": "https://ctdr.nsysu.edu.tw/class2.php",
+    "pdf_url": "http://140.117.153.69/ctdr/files/20251223145308215.pdf",
+    "retrieved_at": "2026-08-15T10:05:39Z",
+    "pdf_binary_sha256": "6ffee8a02d24186637aec6c65205fecee96eb9f5db8975fc70abdc60be1b1198",
+    "normalized_text_sha256": "0e16c8e699de68e09f733a59cf402274d97ab70a603ca93ea50b39049d67140e",
+    "http": {
+      "status": 200,
+      "etag": "\"46d8e-64698ff0d0f4a\"",
+      "last_modified": "Tue, 23 Dec 2025 06:53:08 GMT",
+      "content_length": 290190
+    },
+    "parser_version": "0.1.0"
+  },
+  "review_status": "needs_review",
+  "rules": {
+    "kind": "manual_review",
+    "reason": "Extracted candidate awaits approval"
+  },
+  "warnings": [
+    "No structured course rows extracted from PDF tables"
+  ],
+  "selected_pdf_academic_version": "114-1",
+  "course_catalog": [
+    {
+      "course_code": null,
+      "opening_units": [
+        "醫學院"
+      ],
+      "opening_unit_snapshot": "醫學院",
+      "course_name_snapshot": "公共衛生學",
+      "credits_snapshot": 2.0,
+      "requirement_group": "core",
+      "notes": "",
+      "source_page": 1,
+      "evidence_match": true,
+      "validation_status": "needs_course_code_verification",
+      "uncertainty_reason": "Official PDF table does not provide a course code"
+    },
+    {
+      "course_code": null,
+      "opening_units": [
+        "精準醫學究所"
+      ],
+      "opening_unit_snapshot": "精準醫學究所",
+      "course_name_snapshot": "臨床醫學導論",
+      "credits_snapshot": 2.0,
+      "requirement_group": "core",
+      "notes": "",
+      "source_page": 1,
+      "evidence_match": true,
+      "validation_status": "needs_course_code_verification",
+      "uncertainty_reason": "Official PDF table does not provide a course code"
+    },
+    {
+      "course_code": null,
+      "opening_units": [
+        "醫學院"
+      ],
+      "opening_unit_snapshot": "醫學院",
+      "course_name_snapshot": "基礎藥理學",
+      "credits_snapshot": 3.0,
+      "requirement_group": "core",
+      "notes": "",
+      "source_page": 1,
+      "evidence_match": true,
+      "validation_status": "needs_course_code_verification",
+      "uncertainty_reason": "Official PDF table does not provide a course code"
+    },
+    {
+      "course_code": null,
+      "opening_units": [
+        "醫學院"
+      ],
+      "opening_unit_snapshot": "醫學院",
+      "course_name_snapshot": "新藥開發",
+      "credits_snapshot": 2.0,
+      "requirement_group": "core",
+      "notes": "",
+      "source_page": 1,
+      "evidence_match": true,
+      "validation_status": "needs_course_code_verification",
+      "uncertainty_reason": "Official PDF table does not provide a course code"
+    },
+    {
+      "course_code": null,
+      "opening_units": [
+        "醫學院"
+      ],
+      "opening_unit_snapshot": "醫學院",
+      "course_name_snapshot": "人體結構探索-初階人體解剖學",
+      "credits_snapshot": 3.0,
+      "requirement_group": "core",
+      "notes": "",
+      "source_page": 1,
+      "evidence_match": true,
+      "validation_status": "needs_course_code_verification",
+      "uncertainty_reason": "Official PDF table does not provide a course code"
+    },
+    {
+      "course_code": null,
+      "opening_units": [
+        "醫學院"
+      ],
+      "opening_unit_snapshot": "醫學院",
+      "course_name_snapshot": "毒理學概論",
+      "credits_snapshot": 3.0,
+      "requirement_group": "core",
+      "notes": "",
+      "source_page": 1,
+      "evidence_match": true,
+      "validation_status": "needs_course_code_verification",
+      "uncertainty_reason": "Official PDF table does not provide a course code"
+    },
+    {
+      "course_code": null,
+      "opening_units": [
+        "醫學院"
+      ],
+      "opening_unit_snapshot": "醫學院",
+      "course_name_snapshot": "醫用微生物學概論",
+      "credits_snapshot": 3.0,
+      "requirement_group": "core",
+      "notes": "",
+      "source_page": 1,
+      "evidence_match": true,
+      "validation_status": "needs_course_code_verification",
+      "uncertainty_reason": "Official PDF table does not provide a course code"
+    },
+    {
+      "course_code": null,
+      "opening_units": [
+        "醫學院"
+      ],
+      "opening_unit_snapshot": "醫學院",
+      "course_name_snapshot": "人體生理功能解密:生理學入門",
+      "credits_snapshot": 3.0,
+      "requirement_group": "core",
+      "notes": "",
+      "source_page": 1,
+      "evidence_match": true,
+      "validation_status": "needs_course_code_verification",
+      "uncertainty_reason": "Official PDF table does not provide a course code"
+    },
+    {
+      "course_code": null,
+      "opening_units": [
+        "醫學院"
+      ],
+      "opening_unit_snapshot": "醫學院",
+      "course_name_snapshot": "人類免疫與代謝",
+      "credits_snapshot": 2.0,
+      "requirement_group": "core",
+      "notes": "",
+      "source_page": 1,
+      "evidence_match": true,
+      "validation_status": "needs_course_code_verification",
+      "uncertainty_reason": "Official PDF table does not provide a course code"
+    },
+    {
+      "course_code": null,
+      "opening_units": [
+        "醫學院"
+      ],
+      "opening_unit_snapshot": "醫學院",
+      "course_name_snapshot": "基礎動物組織學",
+      "credits_snapshot": 2.0,
+      "requirement_group": "core",
+      "notes": "英語授課",
+      "source_page": 1,
+      "evidence_match": true,
+      "validation_status": "needs_course_code_verification",
+      "uncertainty_reason": "Official PDF table does not provide a course code"
+    },
+    {
+      "course_code": null,
+      "opening_units": [
+        "醫學院"
+      ],
+      "opening_unit_snapshot": "醫學院",
+      "course_name_snapshot": "生命的奈米世界:初階細胞生物學",
+      "credits_snapshot": 2.0,
+      "requirement_group": "core",
+      "notes": "",
+      "source_page": 1,
+      "evidence_match": true,
+      "validation_status": "needs_course_code_verification",
+      "uncertainty_reason": "Official PDF table does not provide a course code"
+    },
+    {
+      "course_code": null,
+      "opening_units": [
+        "醫學院"
+      ],
+      "opening_unit_snapshot": "醫學院",
+      "course_name_snapshot": "基礎生物醫學技術與應用",
+      "credits_snapshot": 2.0,
+      "requirement_group": "core",
+      "notes": "",
+      "source_page": 1,
+      "evidence_match": true,
+      "validation_status": "needs_course_code_verification",
+      "uncertainty_reason": "Official PDF table does not provide a course code"
+    },
+    {
+      "course_code": null,
+      "opening_units": [
+        "醫學院"
+      ],
+      "opening_unit_snapshot": "醫學院",
+      "course_name_snapshot": "生物統計與資訊",
+      "credits_snapshot": 2.0,
+      "requirement_group": "elective",
+      "notes": "",
+      "source_page": 1,
+      "evidence_match": true,
+      "validation_status": "needs_course_code_verification",
+      "uncertainty_reason": "Official PDF table does not provide a course code"
+    },
+    {
+      "course_code": null,
+      "opening_units": [
+        "醫學院"
+      ],
+      "opening_unit_snapshot": "醫學院",
+      "course_name_snapshot": "認識病毒",
+      "credits_snapshot": 3.0,
+      "requirement_group": "elective",
+      "notes": "",
+      "source_page": 1,
+      "evidence_match": true,
+      "validation_status": "needs_course_code_verification",
+      "uncertainty_reason": "Official PDF table does not provide a course code"
+    },
+    {
+      "course_code": null,
+      "opening_units": [
+        "醫學院"
+      ],
+      "opening_unit_snapshot": "醫學院",
+      "course_name_snapshot": "瘟疫與人類歷史",
+      "credits_snapshot": 2.0,
+      "requirement_group": "elective",
+      "notes": "",
+      "source_page": 1,
+      "evidence_match": true,
+      "validation_status": "needs_course_code_verification",
+      "uncertainty_reason": "Official PDF table does not provide a course code"
+    },
+    {
+      "course_code": null,
+      "opening_units": [
+        "醫學院"
+      ],
+      "opening_unit_snapshot": "醫學院",
+      "course_name_snapshot": "共病時代-談人類與動物共通傳染病",
+      "credits_snapshot": 3.0,
+      "requirement_group": "elective",
+      "notes": "",
+      "source_page": 1,
+      "evidence_match": false,
+      "validation_status": "needs_course_code_verification",
+      "uncertainty_reason": "Official PDF table does not provide a course code"
+    },
+    {
+      "course_code": null,
+      "opening_units": [
+        "醫學院"
+      ],
+      "opening_unit_snapshot": "醫學院",
+      "course_name_snapshot": "微生物與癌症",
+      "credits_snapshot": 3.0,
+      "requirement_group": "elective",
+      "notes": "",
+      "source_page": 1,
+      "evidence_match": true,
+      "validation_status": "needs_course_code_verification",
+      "uncertainty_reason": "Official PDF table does not provide a course code"
+    },
+    {
+      "course_code": null,
+      "opening_units": [
+        "醫學院"
+      ],
+      "opening_unit_snapshot": "醫學院",
+      "course_name_snapshot": "癌症治療",
+      "credits_snapshot": 2.0,
+      "requirement_group": "elective",
+      "notes": "英語授課",
+      "source_page": 1,
+      "evidence_match": true,
+      "validation_status": "needs_course_code_verification",
+      "uncertainty_reason": "Official PDF table does not provide a course code"
+    },
+    {
+      "course_code": null,
+      "opening_units": [
+        "醫學院"
+      ],
+      "opening_unit_snapshot": "醫學院",
+      "course_name_snapshot": "神經心理學:大腦與情緒",
+      "credits_snapshot": 3.0,
+      "requirement_group": "elective",
+      "notes": "",
+      "source_page": 1,
+      "evidence_match": true,
+      "validation_status": "needs_course_code_verification",
+      "uncertainty_reason": "Official PDF table does not provide a course code"
+    },
+    {
+      "course_code": null,
+      "opening_units": [
+        "醫學院"
+      ],
+      "opening_unit_snapshot": "醫學院",
+      "course_name_snapshot": "神經科學應用概論",
+      "credits_snapshot": 2.0,
+      "requirement_group": "elective",
+      "notes": "",
+      "source_page": 1,
+      "evidence_match": true,
+      "validation_status": "needs_course_code_verification",
+      "uncertainty_reason": "Official PDF table does not provide a course code"
+    },
+    {
+      "course_code": null,
+      "opening_units": [
+        "醫學院"
+      ],
+      "opening_unit_snapshot": "醫學院",
+      "course_name_snapshot": "藥物獵人:天然物與藥物化學",
+      "credits_snapshot": 3.0,
+      "requirement_group": "elective",
+      "notes": "",
+      "source_page": 1,
+      "evidence_match": true,
+      "validation_status": "needs_course_code_verification",
+      "uncertainty_reason": "Official PDF table does not provide a course code"
+    },
+    {
+      "course_code": null,
+      "opening_units": [
+        "醫學院"
+      ],
+      "opening_unit_snapshot": "醫學院",
+      "course_name_snapshot": "藥與毒:藥物濫用",
+      "credits_snapshot": 3.0,
+      "requirement_group": "elective",
+      "notes": "",
+      "source_page": 1,
+      "evidence_match": true,
+      "validation_status": "needs_course_code_verification",
+      "uncertainty_reason": "Official PDF table does not provide a course code"
+    },
+    {
+      "course_code": null,
+      "opening_units": [
+        "醫學院"
+      ],
+      "opening_unit_snapshot": "醫學院",
+      "course_name_snapshot": "醫學史(上)-西洋醫學史",
+      "credits_snapshot": 2.0,
+      "requirement_group": "elective",
+      "notes": "",
+      "source_page": 1,
+      "evidence_match": true,
+      "validation_status": "needs_course_code_verification",
+      "uncertainty_reason": "Official PDF table does not provide a course code"
+    },
+    {
+      "course_code": null,
+      "opening_units": [
+        "醫學院"
+      ],
+      "opening_unit_snapshot": "醫學院",
+      "course_name_snapshot": "基礎外傷急救",
+      "credits_snapshot": 2.0,
+      "requirement_group": "elective",
+      "notes": "",
+      "source_page": 1,
+      "evidence_match": true,
+      "validation_status": "needs_course_code_verification",
+      "uncertainty_reason": "Official PDF table does not provide a course code"
+    },
+    {
+      "course_code": null,
+      "opening_units": [
+        "醫學院"
+      ],
+      "opening_unit_snapshot": "醫學院",
+      "course_name_snapshot": "疾病瘟疫與文明",
+      "credits_snapshot": 3.0,
+      "requirement_group": "elective",
+      "notes": "",
+      "source_page": 1,
+      "evidence_match": true,
+      "validation_status": "needs_course_code_verification",
+      "uncertainty_reason": "Official PDF table does not provide a course code"
+    }
+  ],
+  "structured_requirements": {
+    "minimum_total_credits": 9,
+    "core_credits_text_value": 6,
+    "minimum_outside_home_department_credits": 3
+  }
+}

@@ -1,0 +1,717 @@
+{
+  "program_id": "prog_3b16fbc65930542d",
+  "name_zh": "地方創生與區域治理微學程",
+  "name_en": null,
+  "previous_names": [],
+  "type": "micro_program",
+  "status": "active",
+  "description": "台灣許多偏鄉地區正面臨人口老化、產業沒落或文化流失問題,造成地方沒落,因此,「如何打造地方創生」成為重要的思考方向。在地區營造過程中,更是與地方治理、經營管理及公共事務議題發展息息相關。 本學程以「在地連結」與「青年培育」為主要目的,透過專業課程培養基礎觀念與實務演練,培養地方創生人才,期許能喚醒青年對於區域發展的關注,一方面深化在地認同,另一方面,更鼓勵青年投入地方再造,結合地方特色及創新創意,創造創業或就業機會,尋求地方產業發展新契機,打造地方新生活。",
+  "responsible_unit": "公事所",
+  "coordinator": "郭瑞坤教授",
+  "program_website": "https://pam.nsysu.edu.tw/p/404-1234-194785.php?Lang=zh-tw",
+  "source_pdf": "http://140.117.153.69/ctdr/files/20260701140814585.pdf",
+  "academic_version": "115-1",
+  "source": {
+    "catalog_url": "https://ctdr.nsysu.edu.tw/class2.php",
+    "pdf_url": "http://140.117.153.69/ctdr/files/20260701140814585.pdf",
+    "retrieved_at": "2026-08-15T10:05:39Z",
+    "pdf_binary_sha256": "a26096fd6187c8f580397451f080a60feedc4dd2734e668587ae2a59bbeb656e",
+    "normalized_text_sha256": "c0e769bbef43c819630ffc233338341b293ab5ef4620a7f6d7e94dcd3c52aa89",
+    "http": {
+      "status": 200,
+      "etag": "\"55672-6558684576ac0\"",
+      "last_modified": "Wed, 01 Jul 2026 06:08:14 GMT",
+      "content_length": 349810
+    },
+    "parser_version": "0.1.0"
+  },
+  "review_status": "needs_review",
+  "rules": {
+    "kind": "manual_review",
+    "reason": "Extracted candidate awaits approval"
+  },
+  "warnings": [],
+  "selected_pdf_academic_version": "114-2",
+  "course_catalog": [
+    {
+      "course_code": null,
+      "opening_units": [
+        "公事碩"
+      ],
+      "opening_unit_snapshot": "公事碩",
+      "course_name_snapshot": "社區營造與地區重建",
+      "credits_snapshot": 2.0,
+      "requirement_group": "core",
+      "notes": "",
+      "source_page": 1,
+      "evidence_match": true,
+      "validation_status": "needs_course_code_verification",
+      "uncertainty_reason": "Official PDF table does not provide a course code"
+    },
+    {
+      "course_code": null,
+      "opening_units": [
+        "公事碩"
+      ],
+      "opening_unit_snapshot": "公事碩",
+      "course_name_snapshot": "公共事務研討",
+      "credits_snapshot": 2.0,
+      "requirement_group": "core",
+      "notes": "",
+      "source_page": 1,
+      "evidence_match": true,
+      "validation_status": "needs_course_code_verification",
+      "uncertainty_reason": "Official PDF table does not provide a course code"
+    },
+    {
+      "course_code": null,
+      "opening_units": [
+        "公事碩"
+      ],
+      "opening_unit_snapshot": "公事碩",
+      "course_name_snapshot": "新興公共議題研討",
+      "credits_snapshot": 2.0,
+      "requirement_group": "core",
+      "notes": "",
+      "source_page": 1,
+      "evidence_match": true,
+      "validation_status": "needs_course_code_verification",
+      "uncertainty_reason": "Official PDF table does not provide a course code"
+    },
+    {
+      "course_code": null,
+      "opening_units": [
+        "公事碩"
+      ],
+      "opening_unit_snapshot": "公事碩",
+      "course_name_snapshot": "公共事務專題研究(一)",
+      "credits_snapshot": 2.0,
+      "requirement_group": "core",
+      "notes": "",
+      "source_page": 1,
+      "evidence_match": true,
+      "validation_status": "needs_course_code_verification",
+      "uncertainty_reason": "Official PDF table does not provide a course code"
+    },
+    {
+      "course_code": null,
+      "opening_units": [
+        "公事碩"
+      ],
+      "opening_unit_snapshot": "公事碩",
+      "course_name_snapshot": "新興公共議題(一)",
+      "credits_snapshot": 2.0,
+      "requirement_group": "core",
+      "notes": "",
+      "source_page": 1,
+      "evidence_match": true,
+      "validation_status": "needs_course_code_verification",
+      "uncertainty_reason": "Official PDF table does not provide a course code"
+    },
+    {
+      "course_code": null,
+      "opening_units": [
+        "公事碩"
+      ],
+      "opening_unit_snapshot": "公事碩",
+      "course_name_snapshot": "地區經營管理",
+      "credits_snapshot": 2.0,
+      "requirement_group": "core",
+      "notes": "",
+      "source_page": 1,
+      "evidence_match": true,
+      "validation_status": "needs_course_code_verification",
+      "uncertainty_reason": "Official PDF table does not provide a course code"
+    },
+    {
+      "course_code": null,
+      "opening_units": [
+        "公事碩"
+      ],
+      "opening_unit_snapshot": "公事碩",
+      "course_name_snapshot": "城鄉發展與環境變遷",
+      "credits_snapshot": 2.0,
+      "requirement_group": "core",
+      "notes": "",
+      "source_page": 1,
+      "evidence_match": true,
+      "validation_status": "needs_course_code_verification",
+      "uncertainty_reason": "Official PDF table does not provide a course code"
+    },
+    {
+      "course_code": null,
+      "opening_units": [
+        "公事碩"
+      ],
+      "opening_unit_snapshot": "公事碩",
+      "course_name_snapshot": "公共事務專題研究[主題:國際地方創生實務見學]",
+      "credits_snapshot": 2.0,
+      "requirement_group": "core",
+      "notes": "",
+      "source_page": 1,
+      "evidence_match": false,
+      "validation_status": "needs_course_code_verification",
+      "uncertainty_reason": "Official PDF table does not provide a course code"
+    },
+    {
+      "course_code": null,
+      "opening_units": [
+        "公事碩"
+      ],
+      "opening_unit_snapshot": "公事碩",
+      "course_name_snapshot": "新興公共議題研討[主題:地方創生與區域治理]",
+      "credits_snapshot": 2.0,
+      "requirement_group": "core",
+      "notes": "",
+      "source_page": 1,
+      "evidence_match": false,
+      "validation_status": "needs_course_code_verification",
+      "uncertainty_reason": "Official PDF table does not provide a course code"
+    },
+    {
+      "course_code": null,
+      "opening_units": [
+        "公事碩"
+      ],
+      "opening_unit_snapshot": "公事碩",
+      "course_name_snapshot": "國際非營利及社區組織交流",
+      "credits_snapshot": 2.0,
+      "requirement_group": "elective",
+      "notes": "",
+      "source_page": 1,
+      "evidence_match": true,
+      "validation_status": "needs_course_code_verification",
+      "uncertainty_reason": "Official PDF table does not provide a course code"
+    },
+    {
+      "course_code": null,
+      "opening_units": [
+        "公事碩"
+      ],
+      "opening_unit_snapshot": "公事碩",
+      "course_name_snapshot": "媒體與公共事務",
+      "credits_snapshot": 2.0,
+      "requirement_group": "elective",
+      "notes": "",
+      "source_page": 1,
+      "evidence_match": true,
+      "validation_status": "needs_course_code_verification",
+      "uncertainty_reason": "Official PDF table does not provide a course code"
+    },
+    {
+      "course_code": null,
+      "opening_units": [
+        "公事碩"
+      ],
+      "opening_unit_snapshot": "公事碩",
+      "course_name_snapshot": "非營利組織管理研討",
+      "credits_snapshot": 2.0,
+      "requirement_group": "elective",
+      "notes": "",
+      "source_page": 1,
+      "evidence_match": true,
+      "validation_status": "needs_course_code_verification",
+      "uncertainty_reason": "Official PDF table does not provide a course code"
+    },
+    {
+      "course_code": null,
+      "opening_units": [
+        "公事碩"
+      ],
+      "opening_unit_snapshot": "公事碩",
+      "course_name_snapshot": "區域發展與政策",
+      "credits_snapshot": 3.0,
+      "requirement_group": "elective",
+      "notes": "",
+      "source_page": 1,
+      "evidence_match": true,
+      "validation_status": "needs_course_code_verification",
+      "uncertainty_reason": "Official PDF table does not provide a course code"
+    },
+    {
+      "course_code": null,
+      "opening_units": [
+        "社科院"
+      ],
+      "opening_unit_snapshot": "社科院",
+      "course_name_snapshot": "永續都市環境行為及心理學",
+      "credits_snapshot": 3.0,
+      "requirement_group": "elective",
+      "notes": "",
+      "source_page": 1,
+      "evidence_match": true,
+      "validation_status": "needs_course_code_verification",
+      "uncertainty_reason": "Official PDF table does not provide a course code"
+    },
+    {
+      "course_code": null,
+      "opening_units": [
+        "公事碩"
+      ],
+      "opening_unit_snapshot": "公事碩",
+      "course_name_snapshot": "新興公共議題(一)[主題:企業永續趨勢與作法]",
+      "credits_snapshot": 2.0,
+      "requirement_group": "elective",
+      "notes": "",
+      "source_page": 1,
+      "evidence_match": false,
+      "validation_status": "needs_course_code_verification",
+      "uncertainty_reason": "Official PDF table does not provide a course code"
+    },
+    {
+      "course_code": null,
+      "opening_units": [
+        "劇藝碩"
+      ],
+      "opening_unit_snapshot": "劇藝碩",
+      "course_name_snapshot": "文本與空間敘事",
+      "credits_snapshot": 3.0,
+      "requirement_group": "elective",
+      "notes": "",
+      "source_page": 1,
+      "evidence_match": true,
+      "validation_status": "needs_course_code_verification",
+      "uncertainty_reason": "Official PDF table does not provide a course code"
+    },
+    {
+      "course_code": null,
+      "opening_units": [
+        "藝管所"
+      ],
+      "opening_unit_snapshot": "藝管所",
+      "course_name_snapshot": "節慶活動策劃與經營",
+      "credits_snapshot": 3.0,
+      "requirement_group": "elective",
+      "notes": "",
+      "source_page": 1,
+      "evidence_match": true,
+      "validation_status": "needs_course_code_verification",
+      "uncertainty_reason": "Official PDF table does not provide a course code"
+    },
+    {
+      "course_code": null,
+      "opening_units": [
+        "行傳碩"
+      ],
+      "opening_unit_snapshot": "行傳碩",
+      "course_name_snapshot": "行銷傳播策略",
+      "credits_snapshot": 3.0,
+      "requirement_group": "elective",
+      "notes": "",
+      "source_page": 1,
+      "evidence_match": true,
+      "validation_status": "needs_course_code_verification",
+      "uncertainty_reason": "Official PDF table does not provide a course code"
+    },
+    {
+      "course_code": null,
+      "opening_units": [
+        "財管系"
+      ],
+      "opening_unit_snapshot": "財管系",
+      "course_name_snapshot": "社會企業商業模式發展與實作",
+      "credits_snapshot": 3.0,
+      "requirement_group": "elective",
+      "notes": "",
+      "source_page": 1,
+      "evidence_match": true,
+      "validation_status": "needs_course_code_verification",
+      "uncertainty_reason": "Official PDF table does not provide a course code"
+    },
+    {
+      "course_code": null,
+      "opening_units": [
+        "西灣學院(博雅向度三)"
+      ],
+      "opening_unit_snapshot": "西灣學院(博雅向度三)",
+      "course_name_snapshot": "日本文化概論",
+      "credits_snapshot": 3.0,
+      "requirement_group": "elective",
+      "notes": "",
+      "source_page": 1,
+      "evidence_match": true,
+      "validation_status": "needs_course_code_verification",
+      "uncertainty_reason": "Official PDF table does not provide a course code"
+    },
+    {
+      "course_code": null,
+      "opening_units": [
+        "西灣學院(跨院選修-通識)"
+      ],
+      "opening_unit_snapshot": "西灣學院(跨院選修-通識)",
+      "course_name_snapshot": "創業講堂",
+      "credits_snapshot": 3.0,
+      "requirement_group": "elective",
+      "notes": "",
+      "source_page": 1,
+      "evidence_match": true,
+      "validation_status": "needs_course_code_verification",
+      "uncertainty_reason": "Official PDF table does not provide a course code"
+    },
+    {
+      "course_code": null,
+      "opening_units": [
+        "西灣學院"
+      ],
+      "opening_unit_snapshot": "西灣學院",
+      "course_name_snapshot": "地方創生議題探討",
+      "credits_snapshot": 3.0,
+      "requirement_group": "elective",
+      "notes": "",
+      "source_page": 1,
+      "evidence_match": true,
+      "validation_status": "needs_course_code_verification",
+      "uncertainty_reason": "Official PDF table does not provide a course code"
+    },
+    {
+      "course_code": null,
+      "opening_units": [
+        "西灣學院"
+      ],
+      "opening_unit_snapshot": "西灣學院",
+      "course_name_snapshot": "都市農業與永續發展",
+      "credits_snapshot": 3.0,
+      "requirement_group": "elective",
+      "notes": "",
+      "source_page": 1,
+      "evidence_match": true,
+      "validation_status": "needs_course_code_verification",
+      "uncertainty_reason": "Official PDF table does not provide a course code"
+    },
+    {
+      "course_code": null,
+      "opening_units": [
+        "西灣學院"
+      ],
+      "opening_unit_snapshot": "西灣學院",
+      "course_name_snapshot": "氣候變遷與永續農業發展",
+      "credits_snapshot": 3.0,
+      "requirement_group": "elective",
+      "notes": "",
+      "source_page": 1,
+      "evidence_match": true,
+      "validation_status": "needs_course_code_verification",
+      "uncertainty_reason": "Official PDF table does not provide a course code"
+    },
+    {
+      "course_code": null,
+      "opening_units": [
+        "社會創新所"
+      ],
+      "opening_unit_snapshot": "社會創新所",
+      "course_name_snapshot": "全球與在地永續發展議題探討",
+      "credits_snapshot": 3.0,
+      "requirement_group": "elective",
+      "notes": "",
+      "source_page": 1,
+      "evidence_match": true,
+      "validation_status": "needs_course_code_verification",
+      "uncertainty_reason": "Official PDF table does not provide a course code"
+    },
+    {
+      "course_code": null,
+      "opening_units": [
+        "社會系"
+      ],
+      "opening_unit_snapshot": "社會系",
+      "course_name_snapshot": "糧食、農業與社會",
+      "credits_snapshot": 3.0,
+      "requirement_group": "elective",
+      "notes": "",
+      "source_page": 2,
+      "evidence_match": true,
+      "validation_status": "needs_course_code_verification",
+      "uncertainty_reason": "Official PDF table does not provide a course code"
+    },
+    {
+      "course_code": null,
+      "opening_units": [
+        "社科院"
+      ],
+      "opening_unit_snapshot": "社科院",
+      "course_name_snapshot": "創業與鄉村發展",
+      "credits_snapshot": 2.0,
+      "requirement_group": "elective",
+      "notes": "",
+      "source_page": 2,
+      "evidence_match": true,
+      "validation_status": "needs_course_code_verification",
+      "uncertainty_reason": "Official PDF table does not provide a course code"
+    },
+    {
+      "course_code": null,
+      "opening_units": [
+        "社科院"
+      ],
+      "opening_unit_snapshot": "社科院",
+      "course_name_snapshot": "創業與區域發展",
+      "credits_snapshot": 3.0,
+      "requirement_group": "elective",
+      "notes": "",
+      "source_page": 2,
+      "evidence_match": true,
+      "validation_status": "needs_course_code_verification",
+      "uncertainty_reason": "Official PDF table does not provide a course code"
+    },
+    {
+      "course_code": null,
+      "opening_units": [
+        "社會創新所"
+      ],
+      "opening_unit_snapshot": "社會創新所",
+      "course_name_snapshot": "地方創生研究與實踐",
+      "credits_snapshot": 3.0,
+      "requirement_group": "elective",
+      "notes": "",
+      "source_page": 2,
+      "evidence_match": true,
+      "validation_status": "needs_course_code_verification",
+      "uncertainty_reason": "Official PDF table does not provide a course code"
+    },
+    {
+      "course_code": null,
+      "opening_units": [
+        "社會創新所"
+      ],
+      "opening_unit_snapshot": "社會創新所",
+      "course_name_snapshot": "地方創生研究與實踐(二)",
+      "credits_snapshot": 3.0,
+      "requirement_group": "elective",
+      "notes": "",
+      "source_page": 2,
+      "evidence_match": true,
+      "validation_status": "needs_course_code_verification",
+      "uncertainty_reason": "Official PDF table does not provide a course code"
+    },
+    {
+      "course_code": null,
+      "opening_units": [
+        "博雅向度一"
+      ],
+      "opening_unit_snapshot": "博雅向度一",
+      "course_name_snapshot": "台灣社會與文化",
+      "credits_snapshot": 3.0,
+      "requirement_group": "elective",
+      "notes": "",
+      "source_page": 2,
+      "evidence_match": true,
+      "validation_status": "needs_course_code_verification",
+      "uncertainty_reason": "Official PDF table does not provide a course code"
+    },
+    {
+      "course_code": null,
+      "opening_units": [
+        "博雅向度一"
+      ],
+      "opening_unit_snapshot": "博雅向度一",
+      "course_name_snapshot": "紀錄片企劃與製作",
+      "credits_snapshot": 3.0,
+      "requirement_group": "elective",
+      "notes": "",
+      "source_page": 2,
+      "evidence_match": true,
+      "validation_status": "needs_course_code_verification",
+      "uncertainty_reason": "Official PDF table does not provide a course code"
+    },
+    {
+      "course_code": null,
+      "opening_units": [
+        "博雅向度三"
+      ],
+      "opening_unit_snapshot": "博雅向度三",
+      "course_name_snapshot": "都市營造與空間規劃",
+      "credits_snapshot": 2.0,
+      "requirement_group": "elective",
+      "notes": "",
+      "source_page": 2,
+      "evidence_match": true,
+      "validation_status": "needs_course_code_verification",
+      "uncertainty_reason": "Official PDF table does not provide a course code"
+    },
+    {
+      "course_code": null,
+      "opening_units": [
+        "博雅向度六"
+      ],
+      "opening_unit_snapshot": "博雅向度六",
+      "course_name_snapshot": "在地食物的永續發展與全球脈絡",
+      "credits_snapshot": 3.0,
+      "requirement_group": "elective",
+      "notes": "",
+      "source_page": 2,
+      "evidence_match": true,
+      "validation_status": "needs_course_code_verification",
+      "uncertainty_reason": "Official PDF table does not provide a course code"
+    },
+    {
+      "course_code": null,
+      "opening_units": [
+        "博雅向度四"
+      ],
+      "opening_unit_snapshot": "博雅向度四",
+      "course_name_snapshot": "科學、媒體與文化",
+      "credits_snapshot": 2.0,
+      "requirement_group": "elective",
+      "notes": "",
+      "source_page": 2,
+      "evidence_match": true,
+      "validation_status": "needs_course_code_verification",
+      "uncertainty_reason": "Official PDF table does not provide a course code"
+    },
+    {
+      "course_code": null,
+      "opening_units": [
+        "博雅向度四"
+      ],
+      "opening_unit_snapshot": "博雅向度四",
+      "course_name_snapshot": "探尋建築工藝中的高雄故事",
+      "credits_snapshot": 3.0,
+      "requirement_group": "elective",
+      "notes": "",
+      "source_page": 2,
+      "evidence_match": true,
+      "validation_status": "needs_course_code_verification",
+      "uncertainty_reason": "Official PDF table does not provide a course code"
+    },
+    {
+      "course_code": null,
+      "opening_units": [
+        "博雅向度四"
+      ],
+      "opening_unit_snapshot": "博雅向度四",
+      "course_name_snapshot": "用影像說故事:探索科技、環境與社會",
+      "credits_snapshot": 2.0,
+      "requirement_group": "elective",
+      "notes": "",
+      "source_page": 2,
+      "evidence_match": false,
+      "validation_status": "needs_course_code_verification",
+      "uncertainty_reason": "Official PDF table does not provide a course code"
+    },
+    {
+      "course_code": null,
+      "opening_units": [
+        "博雅向度二"
+      ],
+      "opening_unit_snapshot": "博雅向度二",
+      "course_name_snapshot": "現代日本社會與宗教",
+      "credits_snapshot": 3.0,
+      "requirement_group": "elective",
+      "notes": "",
+      "source_page": 2,
+      "evidence_match": true,
+      "validation_status": "needs_course_code_verification",
+      "uncertainty_reason": "Official PDF table does not provide a course code"
+    },
+    {
+      "course_code": null,
+      "opening_units": [
+        "跨院選修(通)"
+      ],
+      "opening_unit_snapshot": "跨院選修(通)",
+      "course_name_snapshot": "台日文化比較研究(一)",
+      "credits_snapshot": 3.0,
+      "requirement_group": "elective",
+      "notes": "",
+      "source_page": 2,
+      "evidence_match": true,
+      "validation_status": "needs_course_code_verification",
+      "uncertainty_reason": "Official PDF table does not provide a course code"
+    },
+    {
+      "course_code": null,
+      "opening_units": [
+        "跨院選修(通)"
+      ],
+      "opening_unit_snapshot": "跨院選修(通)",
+      "course_name_snapshot": "台日文化比較研究(2)",
+      "credits_snapshot": 3.0,
+      "requirement_group": "elective",
+      "notes": "",
+      "source_page": 2,
+      "evidence_match": true,
+      "validation_status": "needs_course_code_verification",
+      "uncertainty_reason": "Official PDF table does not provide a course code"
+    },
+    {
+      "course_code": null,
+      "opening_units": [
+        "社創所"
+      ],
+      "opening_unit_snapshot": "社創所",
+      "course_name_snapshot": "地方、草根創新與永續轉型",
+      "credits_snapshot": 3.0,
+      "requirement_group": "elective",
+      "notes": "",
+      "source_page": 2,
+      "evidence_match": true,
+      "validation_status": "needs_course_code_verification",
+      "uncertainty_reason": "Official PDF table does not provide a course code"
+    },
+    {
+      "course_code": null,
+      "opening_units": [
+        "跨院選修(通)"
+      ],
+      "opening_unit_snapshot": "跨院選修(通)",
+      "course_name_snapshot": "創意街區發展與設計思考",
+      "credits_snapshot": 3.0,
+      "requirement_group": "elective",
+      "notes": "",
+      "source_page": 2,
+      "evidence_match": true,
+      "validation_status": "needs_course_code_verification",
+      "uncertainty_reason": "Official PDF table does not provide a course code"
+    },
+    {
+      "course_code": null,
+      "opening_units": [
+        "人科學程"
+      ],
+      "opening_unit_snapshot": "人科學程",
+      "course_name_snapshot": "創意街區發展與設計思考",
+      "credits_snapshot": 3.0,
+      "requirement_group": "elective",
+      "notes": "",
+      "source_page": 2,
+      "evidence_match": true,
+      "validation_status": "needs_course_code_verification",
+      "uncertainty_reason": "Official PDF table does not provide a course code"
+    },
+    {
+      "course_code": null,
+      "opening_units": [
+        "跨院選修(通)"
+      ],
+      "opening_unit_snapshot": "跨院選修(通)",
+      "course_name_snapshot": "創意街區發展實務與藝術管理",
+      "credits_snapshot": 3.0,
+      "requirement_group": "elective",
+      "notes": "",
+      "source_page": 2,
+      "evidence_match": true,
+      "validation_status": "needs_course_code_verification",
+      "uncertainty_reason": "Official PDF table does not provide a course code"
+    },
+    {
+      "course_code": null,
+      "opening_units": [
+        "人科學程"
+      ],
+      "opening_unit_snapshot": "人科學程",
+      "course_name_snapshot": "創意街區發展實務與藝術管理",
+      "credits_snapshot": 3.0,
+      "requirement_group": "elective",
+      "notes": "",
+      "source_page": 2,
+      "evidence_match": true,
+      "validation_status": "needs_course_code_verification",
+      "uncertainty_reason": "Official PDF table does not provide a course code"
+    }
+  ],
+  "structured_requirements": {
+    "core_credits_text_value": 6,
+    "minimum_total_credits": 12,
+    "minimum_outside_home_department_credits": 3
+  }
+}

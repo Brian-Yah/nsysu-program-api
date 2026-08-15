@@ -1,0 +1,202 @@
+{
+  "program_id": "prog_0db29c97717250ee",
+  "latest_academic_version": "115-1",
+  "versions": [
+    "115-1"
+  ],
+  "program": {
+    "program_id": "prog_0db29c97717250ee",
+    "name_zh": "海洋微生物及應用推廣微學程",
+    "name_en": null,
+    "previous_names": [],
+    "type": "micro_program",
+    "status": "active",
+    "description": "本學程特色在於能以基礎的方式讓學生了解到1. 海洋微生物知識可以應用於產業 2. 可以透過行銷方式讓大眾能了解此產業 3. 進而鼓勵學生往”產學生產模式”做更深入研究以及推廣甚至創造企業。此微學程對於學生, 學校, 以及國家發展方向皆可以做出不同程度貢獻。",
+    "responsible_unit": "海資系",
+    "coordinator": "王亮鈞助理教授",
+    "program_website": "https://mbr.nsysu.edu.tw/p/405-1260-329393,c25126.php?Lang=zh-tw",
+    "source_pdf": "http://140.117.153.69/ctdr/files/20241224153124290.pdf",
+    "academic_version": "115-1",
+    "source": {
+      "catalog_url": "https://ctdr.nsysu.edu.tw/class2.php",
+      "pdf_url": "http://140.117.153.69/ctdr/files/20241224153124290.pdf",
+      "retrieved_at": "2026-08-15T10:05:39Z",
+      "pdf_binary_sha256": "971fc4b9e2d1a23d79f8dfb5cad541a219a378d6067ef1c04092f3aa25f7a51f",
+      "normalized_text_sha256": "5b97fda43628d28045acb01b3cf115cf4acacfb33b7c5b309ba742190c83da5c",
+      "http": {
+        "status": 200,
+        "etag": "\"1d151-629ff19aaf7f4\"",
+        "last_modified": "Tue, 24 Dec 2024 07:31:24 GMT",
+        "content_length": 119121
+      },
+      "parser_version": "0.1.0"
+    },
+    "review_status": "needs_review",
+    "rules": {
+      "kind": "manual_review",
+      "reason": "Extracted candidate awaits approval"
+    },
+    "warnings": [
+      "No structured course rows extracted from PDF tables"
+    ],
+    "selected_pdf_academic_version": "113-1",
+    "course_catalog": [
+      {
+        "course_code": null,
+        "opening_units": [
+          "海資系"
+        ],
+        "opening_unit_snapshot": "海資系",
+        "course_name_snapshot": "海洋微生物學",
+        "credits_snapshot": 2.0,
+        "requirement_group": "core",
+        "notes": "",
+        "source_page": 1,
+        "evidence_match": true,
+        "validation_status": "needs_course_code_verification",
+        "uncertainty_reason": "Official PDF table does not provide a course code"
+      },
+      {
+        "course_code": null,
+        "opening_units": [
+          "海資系"
+        ],
+        "opening_unit_snapshot": "海資系",
+        "course_name_snapshot": "海洋微生物學實驗",
+        "credits_snapshot": 1.0,
+        "requirement_group": "core",
+        "notes": "",
+        "source_page": 1,
+        "evidence_match": true,
+        "validation_status": "needs_course_code_verification",
+        "uncertainty_reason": "Official PDF table does not provide a course code"
+      },
+      {
+        "course_code": null,
+        "opening_units": [
+          "生科系",
+          "海資系"
+        ],
+        "opening_unit_snapshot": "生科系 / 海資系",
+        "course_name_snapshot": "微生物學",
+        "credits_snapshot": 3.0,
+        "requirement_group": "core",
+        "notes": "",
+        "source_page": 1,
+        "evidence_match": true,
+        "validation_status": "needs_course_code_verification",
+        "uncertainty_reason": "Official PDF table does not provide a course code"
+      },
+      {
+        "course_code": null,
+        "opening_units": [
+          "財管系"
+        ],
+        "opening_unit_snapshot": "財管系",
+        "course_name_snapshot": "企業概論",
+        "credits_snapshot": 3.0,
+        "requirement_group": "core",
+        "notes": "",
+        "source_page": 1,
+        "evidence_match": true,
+        "validation_status": "needs_course_code_verification",
+        "uncertainty_reason": "Official PDF table does not provide a course code"
+      },
+      {
+        "course_code": null,
+        "opening_units": [
+          "海資系"
+        ],
+        "opening_unit_snapshot": "海資系",
+        "course_name_snapshot": "微生物學實驗",
+        "credits_snapshot": 2.0,
+        "requirement_group": "elective",
+        "notes": "",
+        "source_page": 1,
+        "evidence_match": true,
+        "validation_status": "needs_course_code_verification",
+        "uncertainty_reason": "Official PDF table does not provide a course code"
+      },
+      {
+        "course_code": null,
+        "opening_units": [
+          "海資系"
+        ],
+        "opening_unit_snapshot": "海資系",
+        "course_name_snapshot": "藻類學",
+        "credits_snapshot": 3.0,
+        "requirement_group": "elective",
+        "notes": "",
+        "source_page": 1,
+        "evidence_match": true,
+        "validation_status": "needs_course_code_verification",
+        "uncertainty_reason": "Official PDF table does not provide a course code"
+      },
+      {
+        "course_code": null,
+        "opening_units": [
+          "生科系"
+        ],
+        "opening_unit_snapshot": "生科系",
+        "course_name_snapshot": "生物技術概論",
+        "credits_snapshot": 3.0,
+        "requirement_group": "elective",
+        "notes": "",
+        "source_page": 1,
+        "evidence_match": true,
+        "validation_status": "needs_course_code_verification",
+        "uncertainty_reason": "Official PDF table does not provide a course code"
+      },
+      {
+        "course_code": null,
+        "opening_units": [
+          "生科系"
+        ],
+        "opening_unit_snapshot": "生科系",
+        "course_name_snapshot": "生物資訊學概論",
+        "credits_snapshot": 3.0,
+        "requirement_group": "elective",
+        "notes": "",
+        "source_page": 1,
+        "evidence_match": true,
+        "validation_status": "needs_course_code_verification",
+        "uncertainty_reason": "Official PDF table does not provide a course code"
+      },
+      {
+        "course_code": null,
+        "opening_units": [
+          "海資系"
+        ],
+        "opening_unit_snapshot": "海資系",
+        "course_name_snapshot": "水產養殖及傳染病概論",
+        "credits_snapshot": 3.0,
+        "requirement_group": "elective",
+        "notes": "",
+        "source_page": 1,
+        "evidence_match": true,
+        "validation_status": "needs_course_code_verification",
+        "uncertainty_reason": "Official PDF table does not provide a course code"
+      },
+      {
+        "course_code": null,
+        "opening_units": [
+          "海資系"
+        ],
+        "opening_unit_snapshot": "海資系",
+        "course_name_snapshot": "淺海養殖",
+        "credits_snapshot": 3.0,
+        "requirement_group": "elective",
+        "notes": "",
+        "source_page": 1,
+        "evidence_match": true,
+        "validation_status": "needs_course_code_verification",
+        "uncertainty_reason": "Official PDF table does not provide a course code"
+      }
+    ],
+    "structured_requirements": {
+      "minimum_total_credits": 12,
+      "core_credits_text_value": 6,
+      "minimum_outside_home_department_credits": 3
+    }
+  }
+}

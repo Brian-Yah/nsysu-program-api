@@ -1,0 +1,389 @@
+{
+  "program_id": "prog_b0535aebb56b5535",
+  "name_zh": "巨量資料分析學程",
+  "name_en": null,
+  "previous_names": [],
+  "type": "integrated_program",
+  "status": "active",
+  "description": "透過跨院系整合,以統計學、資料庫、以及巨量資料分析為基礎,結合跨領域的專業課程,認識如何有效整合並分析資料,進而從中萃取出有價值的資訊。\n在基礎面培養學生對於資料本身的結構以及儲存等主要觀念的認知,同時學習如何透過統計分析概念、分析工具的使用,最後結合異質資料整合分析的概念,讓學生能充分了解巨量資料在各領域中可能的應用。",
+  "responsible_unit": "資管系",
+  "coordinator": "徐士傑主任",
+  "program_website": "https://web.mis.nsysu.edu.tw/p/412-1232-14576.php?Lang=zh-tw",
+  "source_pdf": "http://140.117.153.69/ctdr/files/20230612093417272.pdf",
+  "academic_version": "115-1",
+  "source": {
+    "catalog_url": "https://ctdr.nsysu.edu.tw/class2.php",
+    "pdf_url": "http://140.117.153.69/ctdr/files/20230612093417272.pdf",
+    "retrieved_at": "2026-08-15T10:05:39Z",
+    "pdf_binary_sha256": "e0c910f2ac4604c061340765a5ad732196e41cf7036ef181f0ca8d489f250c66",
+    "normalized_text_sha256": "b060a20c9c2e02600da0a615af6152dd16715a01d2b6fe55dc30580eaf5f4f1d",
+    "http": {
+      "status": 200,
+      "etag": "\"2985c-5fde4b78b64c6\"",
+      "last_modified": "Mon, 12 Jun 2023 01:34:17 GMT",
+      "content_length": 170076
+    },
+    "parser_version": "0.1.0"
+  },
+  "review_status": "needs_review",
+  "rules": {
+    "kind": "manual_review",
+    "reason": "Extracted candidate awaits approval"
+  },
+  "warnings": [
+    "No structured course rows extracted from PDF tables"
+  ],
+  "selected_pdf_academic_version": "103-2",
+  "course_catalog": [
+    {
+      "course_code": null,
+      "opening_units": [
+        "資管"
+      ],
+      "opening_unit_snapshot": "資管",
+      "course_name_snapshot": "巨量資料導論",
+      "credits_snapshot": 3.0,
+      "requirement_group": "core",
+      "notes": "研究所",
+      "source_page": 1,
+      "evidence_match": true,
+      "validation_status": "needs_course_code_verification",
+      "uncertainty_reason": "Official PDF table does not provide a course code"
+    },
+    {
+      "course_code": null,
+      "opening_units": [
+        "資管應數"
+      ],
+      "opening_unit_snapshot": "資管應數",
+      "course_name_snapshot": "統計學(一)",
+      "credits_snapshot": 3.0,
+      "requirement_group": "core",
+      "notes": "大學部",
+      "source_page": 1,
+      "evidence_match": true,
+      "validation_status": "needs_course_code_verification",
+      "uncertainty_reason": "Official PDF table does not provide a course code"
+    },
+    {
+      "course_code": null,
+      "opening_units": [
+        "資管資工"
+      ],
+      "opening_unit_snapshot": "資管資工",
+      "course_name_snapshot": "資料庫管理/網際網路資料庫/資料庫系統*",
+      "credits_snapshot": 3.0,
+      "requirement_group": "core",
+      "notes": "大學部研究所",
+      "source_page": 1,
+      "evidence_match": false,
+      "validation_status": "needs_course_code_verification",
+      "uncertainty_reason": "Official PDF table does not provide a course code"
+    },
+    {
+      "course_code": null,
+      "opening_units": [
+        "資管資工"
+      ],
+      "opening_unit_snapshot": "資管資工",
+      "course_name_snapshot": "資料結構",
+      "credits_snapshot": 3.0,
+      "requirement_group": "core",
+      "notes": "大學部",
+      "source_page": 1,
+      "evidence_match": true,
+      "validation_status": "needs_course_code_verification",
+      "uncertainty_reason": "Official PDF table does not provide a course code"
+    },
+    {
+      "course_code": null,
+      "opening_units": [
+        "應數"
+      ],
+      "opening_unit_snapshot": "應數",
+      "course_name_snapshot": "時間序列分析/財務時間序列分析",
+      "credits_snapshot": 3.0,
+      "requirement_group": "elective",
+      "notes": "研究所",
+      "source_page": 1,
+      "evidence_match": true,
+      "validation_status": "needs_course_code_verification",
+      "uncertainty_reason": "Official PDF table does not provide a course code"
+    },
+    {
+      "course_code": null,
+      "opening_units": [
+        "應數"
+      ],
+      "opening_unit_snapshot": "應數",
+      "course_name_snapshot": "統計模擬",
+      "credits_snapshot": 3.0,
+      "requirement_group": "elective",
+      "notes": "研究所",
+      "source_page": 1,
+      "evidence_match": true,
+      "validation_status": "needs_course_code_verification",
+      "uncertainty_reason": "Official PDF table does not provide a course code"
+    },
+    {
+      "course_code": null,
+      "opening_units": [
+        "應數"
+      ],
+      "opening_unit_snapshot": "應數",
+      "course_name_snapshot": "迴歸分析",
+      "credits_snapshot": 3.0,
+      "requirement_group": "elective",
+      "notes": "研究所",
+      "source_page": 1,
+      "evidence_match": true,
+      "validation_status": "needs_course_code_verification",
+      "uncertainty_reason": "Official PDF table does not provide a course code"
+    },
+    {
+      "course_code": null,
+      "opening_units": [
+        "應數"
+      ],
+      "opening_unit_snapshot": "應數",
+      "course_name_snapshot": "數值分析(一)/數值分析(二)*",
+      "credits_snapshot": 3.0,
+      "requirement_group": "elective",
+      "notes": "大學部",
+      "source_page": 1,
+      "evidence_match": true,
+      "validation_status": "needs_course_code_verification",
+      "uncertainty_reason": "Official PDF table does not provide a course code"
+    },
+    {
+      "course_code": null,
+      "opening_units": [
+        "資管應數資工"
+      ],
+      "opening_unit_snapshot": "資管應數資工",
+      "course_name_snapshot": "程式設計",
+      "credits_snapshot": 3.0,
+      "requirement_group": "elective",
+      "notes": "大學部",
+      "source_page": 1,
+      "evidence_match": true,
+      "validation_status": "needs_course_code_verification",
+      "uncertainty_reason": "Official PDF table does not provide a course code"
+    },
+    {
+      "course_code": null,
+      "opening_units": [
+        "應數"
+      ],
+      "opening_unit_snapshot": "應數",
+      "course_name_snapshot": "矩陣計算",
+      "credits_snapshot": 3.0,
+      "requirement_group": "elective",
+      "notes": "研究所",
+      "source_page": 1,
+      "evidence_match": true,
+      "validation_status": "needs_course_code_verification",
+      "uncertainty_reason": "Official PDF table does not provide a course code"
+    },
+    {
+      "course_code": null,
+      "opening_units": [
+        "應數"
+      ],
+      "opening_unit_snapshot": "應數",
+      "course_name_snapshot": "稀疏矩陣",
+      "credits_snapshot": 3.0,
+      "requirement_group": "elective",
+      "notes": "研究所",
+      "source_page": 1,
+      "evidence_match": true,
+      "validation_status": "needs_course_code_verification",
+      "uncertainty_reason": "Official PDF table does not provide a course code"
+    },
+    {
+      "course_code": null,
+      "opening_units": [
+        "應數"
+      ],
+      "opening_unit_snapshot": "應數",
+      "course_name_snapshot": "平行計算",
+      "credits_snapshot": 3.0,
+      "requirement_group": "elective",
+      "notes": "研究所",
+      "source_page": 1,
+      "evidence_match": true,
+      "validation_status": "needs_course_code_verification",
+      "uncertainty_reason": "Official PDF table does not provide a course code"
+    },
+    {
+      "course_code": null,
+      "opening_units": [
+        "資工"
+      ],
+      "opening_unit_snapshot": "資工",
+      "course_name_snapshot": "分散式計算系統",
+      "credits_snapshot": 3.0,
+      "requirement_group": "elective",
+      "notes": "研究所",
+      "source_page": 1,
+      "evidence_match": true,
+      "validation_status": "needs_course_code_verification",
+      "uncertainty_reason": "Official PDF table does not provide a course code"
+    },
+    {
+      "course_code": null,
+      "opening_units": [
+        "資工應數"
+      ],
+      "opening_unit_snapshot": "資工應數",
+      "course_name_snapshot": "機率學/機率論(一)/機率論(二)*",
+      "credits_snapshot": 3.0,
+      "requirement_group": "elective",
+      "notes": "大學部",
+      "source_page": 1,
+      "evidence_match": true,
+      "validation_status": "needs_course_code_verification",
+      "uncertainty_reason": "Official PDF table does not provide a course code"
+    },
+    {
+      "course_code": null,
+      "opening_units": [
+        "資工"
+      ],
+      "opening_unit_snapshot": "資工",
+      "course_name_snapshot": "演算法/演算法設計與分析",
+      "credits_snapshot": 3.0,
+      "requirement_group": "elective",
+      "notes": "大學部研究所",
+      "source_page": 1,
+      "evidence_match": true,
+      "validation_status": "needs_course_code_verification",
+      "uncertainty_reason": "Official PDF table does not provide a course code"
+    },
+    {
+      "course_code": null,
+      "opening_units": [
+        "資管應數"
+      ],
+      "opening_unit_snapshot": "資管應數",
+      "course_name_snapshot": "多變量分析",
+      "credits_snapshot": 3.0,
+      "requirement_group": "elective",
+      "notes": "研究所",
+      "source_page": 1,
+      "evidence_match": true,
+      "validation_status": "needs_course_code_verification",
+      "uncertainty_reason": "Official PDF table does not provide a course code"
+    },
+    {
+      "course_code": null,
+      "opening_units": [
+        "資管資工"
+      ],
+      "opening_unit_snapshot": "資管資工",
+      "course_name_snapshot": "雲端運算導(概)論",
+      "credits_snapshot": 3.0,
+      "requirement_group": "elective",
+      "notes": "研究所",
+      "source_page": 1,
+      "evidence_match": true,
+      "validation_status": "needs_course_code_verification",
+      "uncertainty_reason": "Official PDF table does not provide a course code"
+    },
+    {
+      "course_code": null,
+      "opening_units": [
+        "資工資管"
+      ],
+      "opening_unit_snapshot": "資工資管",
+      "course_name_snapshot": "資料挖掘專題資料探勘與知識發現",
+      "credits_snapshot": 3.0,
+      "requirement_group": "elective",
+      "notes": "研究所研究所",
+      "source_page": 1,
+      "evidence_match": false,
+      "validation_status": "needs_course_code_verification",
+      "uncertainty_reason": "Official PDF table does not provide a course code"
+    },
+    {
+      "course_code": null,
+      "opening_units": [
+        "資管資工"
+      ],
+      "opening_unit_snapshot": "資管資工",
+      "course_name_snapshot": "高等作業研究",
+      "credits_snapshot": 3.0,
+      "requirement_group": "elective",
+      "notes": "研究所",
+      "source_page": 1,
+      "evidence_match": true,
+      "validation_status": "needs_course_code_verification",
+      "uncertainty_reason": "Official PDF table does not provide a course code"
+    },
+    {
+      "course_code": null,
+      "opening_units": [
+        "資管"
+      ],
+      "opening_unit_snapshot": "資管",
+      "course_name_snapshot": "商業智慧",
+      "credits_snapshot": 3.0,
+      "requirement_group": "elective",
+      "notes": "研究所",
+      "source_page": 1,
+      "evidence_match": true,
+      "validation_status": "needs_course_code_verification",
+      "uncertainty_reason": "Official PDF table does not provide a course code"
+    },
+    {
+      "course_code": null,
+      "opening_units": [
+        "資管"
+      ],
+      "opening_unit_snapshot": "資管",
+      "course_name_snapshot": "系統模擬分析",
+      "credits_snapshot": 3.0,
+      "requirement_group": "elective",
+      "notes": "研究所",
+      "source_page": 1,
+      "evidence_match": true,
+      "validation_status": "needs_course_code_verification",
+      "uncertainty_reason": "Official PDF table does not provide a course code"
+    },
+    {
+      "course_code": null,
+      "opening_units": [
+        "資管"
+      ],
+      "opening_unit_snapshot": "資管",
+      "course_name_snapshot": "資訊科技研究",
+      "credits_snapshot": 3.0,
+      "requirement_group": "elective",
+      "notes": "研究所",
+      "source_page": 1,
+      "evidence_match": true,
+      "validation_status": "needs_course_code_verification",
+      "uncertainty_reason": "Official PDF table does not provide a course code"
+    },
+    {
+      "course_code": null,
+      "opening_units": [
+        "合開"
+      ],
+      "opening_unit_snapshot": "合開",
+      "course_name_snapshot": "巨量資料實務",
+      "credits_snapshot": 3.0,
+      "requirement_group": "elective",
+      "notes": "研究所",
+      "source_page": 1,
+      "evidence_match": true,
+      "validation_status": "needs_course_code_verification",
+      "uncertainty_reason": "Official PDF table does not provide a course code"
+    }
+  ],
+  "structured_requirements": {
+    "minimum_total_credits": 27,
+    "core_credits_text_value": 12,
+    "minimum_outside_home_department_credits": 6
+  }
+}

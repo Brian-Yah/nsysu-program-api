@@ -1,0 +1,270 @@
+{
+  "program_id": "prog_70e8f4e1559453e5",
+  "name_zh": "智慧製造聯網微學程",
+  "name_en": null,
+  "previous_names": [],
+  "type": "micro_program",
+  "status": "active",
+  "description": "整合跨系所課程與多位老師的研究專長,開授智慧製造聯網專業課程,將各國的技術現況與研究重點帶到課堂,傳授前延技術,並建立智慧製造場域供學生體驗與實作。",
+  "responsible_unit": "機電系",
+  "coordinator": "王郁仁教授",
+  "program_website": "https://sites.google.com/view/nsysu-smart-manufacturing/%E9%A6%96%E9%A0%81?authuser=0",
+  "source_pdf": "http://140.117.153.69/ctdr/files/20241224153220870.pdf",
+  "academic_version": "115-1",
+  "source": {
+    "catalog_url": "https://ctdr.nsysu.edu.tw/class2.php",
+    "pdf_url": "http://140.117.153.69/ctdr/files/20241224153220870.pdf",
+    "retrieved_at": "2026-08-15T10:05:39Z",
+    "pdf_binary_sha256": "23ce26550ab8c49fe18c5cad37d1cd0cce42fbf97b2a121f61c56a9429c049cb",
+    "normalized_text_sha256": "5fbb5b9cfb2b1ede317c11cfb93d3da4c129d0cc285f20b79593410133c7e3a2",
+    "http": {
+      "status": 200,
+      "etag": "\"1fdbd-629ff1d0a4706\"",
+      "last_modified": "Tue, 24 Dec 2024 07:32:20 GMT",
+      "content_length": 130493
+    },
+    "parser_version": "0.1.0"
+  },
+  "review_status": "needs_review",
+  "rules": {
+    "kind": "manual_review",
+    "reason": "Extracted candidate awaits approval"
+  },
+  "warnings": [
+    "No structured course rows extracted from PDF tables"
+  ],
+  "selected_pdf_academic_version": "113-1",
+  "course_catalog": [
+    {
+      "course_code": null,
+      "opening_units": [
+        "機電系"
+      ],
+      "opening_unit_snapshot": "機電系",
+      "course_name_snapshot": "智慧製造與監測技術",
+      "credits_snapshot": 3.0,
+      "requirement_group": "core",
+      "notes": "",
+      "source_page": 1,
+      "evidence_match": true,
+      "validation_status": "needs_course_code_verification",
+      "uncertainty_reason": "Official PDF table does not provide a course code"
+    },
+    {
+      "course_code": null,
+      "opening_units": [
+        "半導體封測所"
+      ],
+      "opening_unit_snapshot": "半導體封測所",
+      "course_name_snapshot": "智慧製造與控制實務",
+      "credits_snapshot": 3.0,
+      "requirement_group": "core",
+      "notes": "",
+      "source_page": 1,
+      "evidence_match": true,
+      "validation_status": "needs_course_code_verification",
+      "uncertainty_reason": "Official PDF table does not provide a course code"
+    },
+    {
+      "course_code": null,
+      "opening_units": [
+        "臺灣大專院校人工智慧學程"
+      ],
+      "opening_unit_snapshot": "臺灣大專院校人工智慧學程",
+      "course_name_snapshot": "人工智慧導論",
+      "credits_snapshot": 3.0,
+      "requirement_group": "core",
+      "notes": "",
+      "source_page": 1,
+      "evidence_match": true,
+      "validation_status": "needs_course_code_verification",
+      "uncertainty_reason": "Official PDF table does not provide a course code"
+    },
+    {
+      "course_code": null,
+      "opening_units": [
+        "臺灣大專院校人工智慧學程"
+      ],
+      "opening_unit_snapshot": "臺灣大專院校人工智慧學程",
+      "course_name_snapshot": "機器學習",
+      "credits_snapshot": 3.0,
+      "requirement_group": "core",
+      "notes": "",
+      "source_page": 1,
+      "evidence_match": true,
+      "validation_status": "needs_course_code_verification",
+      "uncertainty_reason": "Official PDF table does not provide a course code"
+    },
+    {
+      "course_code": null,
+      "opening_units": [
+        "聯盟",
+        "臺灣大專院校人工智慧學程"
+      ],
+      "opening_unit_snapshot": "聯盟 / 臺灣大專院校人工智慧學程",
+      "course_name_snapshot": "資料探勘與應用",
+      "credits_snapshot": 3.0,
+      "requirement_group": "core",
+      "notes": "",
+      "source_page": 1,
+      "evidence_match": true,
+      "validation_status": "needs_course_code_verification",
+      "uncertainty_reason": "Official PDF table does not provide a course code"
+    },
+    {
+      "course_code": null,
+      "opening_units": [
+        "機電系"
+      ],
+      "opening_unit_snapshot": "機電系",
+      "course_name_snapshot": "精密機械製造",
+      "credits_snapshot": 3.0,
+      "requirement_group": "elective",
+      "notes": "",
+      "source_page": 1,
+      "evidence_match": true,
+      "validation_status": "needs_course_code_verification",
+      "uncertainty_reason": "Official PDF table does not provide a course code"
+    },
+    {
+      "course_code": null,
+      "opening_units": [
+        "機電系"
+      ],
+      "opening_unit_snapshot": "機電系",
+      "course_name_snapshot": "微機電系統概論",
+      "credits_snapshot": 3.0,
+      "requirement_group": "elective",
+      "notes": "",
+      "source_page": 1,
+      "evidence_match": true,
+      "validation_status": "needs_course_code_verification",
+      "uncertainty_reason": "Official PDF table does not provide a course code"
+    },
+    {
+      "course_code": null,
+      "opening_units": [
+        "資工系"
+      ],
+      "opening_unit_snapshot": "資工系",
+      "course_name_snapshot": "資料探勘",
+      "credits_snapshot": 3.0,
+      "requirement_group": "elective",
+      "notes": "",
+      "source_page": 1,
+      "evidence_match": true,
+      "validation_status": "needs_course_code_verification",
+      "uncertainty_reason": "Official PDF table does not provide a course code"
+    },
+    {
+      "course_code": null,
+      "opening_units": [
+        "資工系"
+      ],
+      "opening_unit_snapshot": "資工系",
+      "course_name_snapshot": "人工智慧導論",
+      "credits_snapshot": 3.0,
+      "requirement_group": "elective",
+      "notes": "",
+      "source_page": 1,
+      "evidence_match": true,
+      "validation_status": "needs_course_code_verification",
+      "uncertainty_reason": "Official PDF table does not provide a course code"
+    },
+    {
+      "course_code": null,
+      "opening_units": [
+        "資管所"
+      ],
+      "opening_unit_snapshot": "資管所",
+      "course_name_snapshot": "巨量資料分析導論",
+      "credits_snapshot": 3.0,
+      "requirement_group": "elective",
+      "notes": "",
+      "source_page": 1,
+      "evidence_match": true,
+      "validation_status": "needs_course_code_verification",
+      "uncertainty_reason": "Official PDF table does not provide a course code"
+    },
+    {
+      "course_code": null,
+      "opening_units": [
+        "電機系"
+      ],
+      "opening_unit_snapshot": "電機系",
+      "course_name_snapshot": "資料結構",
+      "credits_snapshot": 3.0,
+      "requirement_group": "elective",
+      "notes": "",
+      "source_page": 1,
+      "evidence_match": true,
+      "validation_status": "needs_course_code_verification",
+      "uncertainty_reason": "Official PDF table does not provide a course code"
+    },
+    {
+      "course_code": null,
+      "opening_units": [
+        "資工系"
+      ],
+      "opening_unit_snapshot": "資工系",
+      "course_name_snapshot": "物件導向程式設計",
+      "credits_snapshot": 3.0,
+      "requirement_group": "elective",
+      "notes": "",
+      "source_page": 1,
+      "evidence_match": true,
+      "validation_status": "needs_course_code_verification",
+      "uncertainty_reason": "Official PDF table does not provide a course code"
+    },
+    {
+      "course_code": null,
+      "opening_units": [
+        "應數碩"
+      ],
+      "opening_unit_snapshot": "應數碩",
+      "course_name_snapshot": "大數據平行計算",
+      "credits_snapshot": 3.0,
+      "requirement_group": "elective",
+      "notes": "",
+      "source_page": 1,
+      "evidence_match": true,
+      "validation_status": "needs_course_code_verification",
+      "uncertainty_reason": "Official PDF table does not provide a course code"
+    },
+    {
+      "course_code": null,
+      "opening_units": [
+        "機電碩"
+      ],
+      "opening_unit_snapshot": "機電碩",
+      "course_name_snapshot": "深度學習理論與應用",
+      "credits_snapshot": 3.0,
+      "requirement_group": "elective",
+      "notes": "",
+      "source_page": 1,
+      "evidence_match": true,
+      "validation_status": "needs_course_code_verification",
+      "uncertainty_reason": "Official PDF table does not provide a course code"
+    },
+    {
+      "course_code": null,
+      "opening_units": [
+        "電機系"
+      ],
+      "opening_unit_snapshot": "電機系",
+      "course_name_snapshot": "訊號與系統",
+      "credits_snapshot": 3.0,
+      "requirement_group": "elective",
+      "notes": "",
+      "source_page": 1,
+      "evidence_match": true,
+      "validation_status": "needs_course_code_verification",
+      "uncertainty_reason": "Official PDF table does not provide a course code"
+    }
+  ],
+  "structured_requirements": {
+    "minimum_total_credits": 9,
+    "core_credits_text_value": 3,
+    "minimum_outside_home_department_credits": 3
+  }
+}

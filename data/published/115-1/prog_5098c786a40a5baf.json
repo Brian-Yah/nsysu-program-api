@@ -1,0 +1,329 @@
+{
+  "program_id": "prog_5098c786a40a5baf",
+  "name_zh": "有機和材料合成學程",
+  "name_en": null,
+  "previous_names": [],
+  "type": "integrated_program",
+  "status": "active",
+  "description": "有機合成和材料合成為我國工業的重要基柱。以化學為基礎,由原子和分子的觀點,引導學生進入有機和材料合成領域,培養學生的合成能力。根據應用的功能性,可設計藥物或材料的結構。促使學生的專長能與產業接合。",
+  "responsible_unit": "化學系",
+  "coordinator": "李志聰教授",
+  "program_website": "https://chem.nsysu.edu.tw/course/course-univ-value/",
+  "source_pdf": "http://140.117.153.69/ctdr/files/20241224152710302.pdf",
+  "academic_version": "115-1",
+  "source": {
+    "catalog_url": "https://ctdr.nsysu.edu.tw/class2.php",
+    "pdf_url": "http://140.117.153.69/ctdr/files/20241224152710302.pdf",
+    "retrieved_at": "2026-08-15T10:05:39Z",
+    "pdf_binary_sha256": "4fe169b70149e306bef7be8beabfa255684f44f9ea216cf741ca71033bcc31be",
+    "normalized_text_sha256": "8d3b7516761dd8edf4751e1c2d1e5b81ffe87c4aaae0e434170ecece06610ab0",
+    "http": {
+      "status": 200,
+      "etag": "\"1f7fd-629ff0a87d625\"",
+      "last_modified": "Tue, 24 Dec 2024 07:27:10 GMT",
+      "content_length": 129021
+    },
+    "parser_version": "0.1.0"
+  },
+  "review_status": "needs_review",
+  "rules": {
+    "kind": "manual_review",
+    "reason": "Extracted candidate awaits approval"
+  },
+  "warnings": [
+    "No structured course rows extracted from PDF tables"
+  ],
+  "selected_pdf_academic_version": "113-1",
+  "course_catalog": [
+    {
+      "course_code": null,
+      "opening_units": [
+        "化學系"
+      ],
+      "opening_unit_snapshot": "化學系",
+      "course_name_snapshot": "有機合成",
+      "credits_snapshot": 3.0,
+      "requirement_group": "core",
+      "notes": "",
+      "source_page": 1,
+      "evidence_match": true,
+      "validation_status": "needs_course_code_verification",
+      "uncertainty_reason": "Official PDF table does not provide a course code"
+    },
+    {
+      "course_code": null,
+      "opening_units": [
+        "化學系"
+      ],
+      "opening_unit_snapshot": "化學系",
+      "course_name_snapshot": "有機光譜概論",
+      "credits_snapshot": 3.0,
+      "requirement_group": "core",
+      "notes": "",
+      "source_page": 1,
+      "evidence_match": true,
+      "validation_status": "needs_course_code_verification",
+      "uncertainty_reason": "Official PDF table does not provide a course code"
+    },
+    {
+      "course_code": null,
+      "opening_units": [
+        "材光系"
+      ],
+      "opening_unit_snapshot": "材光系",
+      "course_name_snapshot": "材料科學導論",
+      "credits_snapshot": 3.0,
+      "requirement_group": "core",
+      "notes": "",
+      "source_page": 1,
+      "evidence_match": true,
+      "validation_status": "needs_course_code_verification",
+      "uncertainty_reason": "Official PDF table does not provide a course code"
+    },
+    {
+      "course_code": null,
+      "opening_units": [
+        "化學系"
+      ],
+      "opening_unit_snapshot": "化學系",
+      "course_name_snapshot": "有機化學(三)",
+      "credits_snapshot": 3.0,
+      "requirement_group": "core",
+      "notes": "",
+      "source_page": 1,
+      "evidence_match": true,
+      "validation_status": "needs_course_code_verification",
+      "uncertainty_reason": "Official PDF table does not provide a course code"
+    },
+    {
+      "course_code": null,
+      "opening_units": [
+        "化學系"
+      ],
+      "opening_unit_snapshot": "化學系",
+      "course_name_snapshot": "有機金屬化學",
+      "credits_snapshot": 3.0,
+      "requirement_group": "core",
+      "notes": "",
+      "source_page": 1,
+      "evidence_match": true,
+      "validation_status": "needs_course_code_verification",
+      "uncertainty_reason": "Official PDF table does not provide a course code"
+    },
+    {
+      "course_code": null,
+      "opening_units": [
+        "材光系"
+      ],
+      "opening_unit_snapshot": "材光系",
+      "course_name_snapshot": "高分子物理",
+      "credits_snapshot": 3.0,
+      "requirement_group": "core",
+      "notes": "",
+      "source_page": 1,
+      "evidence_match": true,
+      "validation_status": "needs_course_code_verification",
+      "uncertainty_reason": "Official PDF table does not provide a course code"
+    },
+    {
+      "course_code": null,
+      "opening_units": [
+        "材光系"
+      ],
+      "opening_unit_snapshot": "材光系",
+      "course_name_snapshot": "高分子合成與反應",
+      "credits_snapshot": 3.0,
+      "requirement_group": "core",
+      "notes": "",
+      "source_page": 1,
+      "evidence_match": true,
+      "validation_status": "needs_course_code_verification",
+      "uncertainty_reason": "Official PDF table does not provide a course code"
+    },
+    {
+      "course_code": null,
+      "opening_units": [
+        "化學系"
+      ],
+      "opening_unit_snapshot": "化學系",
+      "course_name_snapshot": "材料化學導論",
+      "credits_snapshot": 3.0,
+      "requirement_group": "elective",
+      "notes": "",
+      "source_page": 1,
+      "evidence_match": true,
+      "validation_status": "needs_course_code_verification",
+      "uncertainty_reason": "Official PDF table does not provide a course code"
+    },
+    {
+      "course_code": null,
+      "opening_units": [
+        "化學系"
+      ],
+      "opening_unit_snapshot": "化學系",
+      "course_name_snapshot": "有機化學反應",
+      "credits_snapshot": 3.0,
+      "requirement_group": "elective",
+      "notes": "",
+      "source_page": 1,
+      "evidence_match": true,
+      "validation_status": "needs_course_code_verification",
+      "uncertainty_reason": "Official PDF table does not provide a course code"
+    },
+    {
+      "course_code": null,
+      "opening_units": [
+        "化學系"
+      ],
+      "opening_unit_snapshot": "化學系",
+      "course_name_snapshot": "高分子化學導論",
+      "credits_snapshot": 3.0,
+      "requirement_group": "elective",
+      "notes": "",
+      "source_page": 1,
+      "evidence_match": true,
+      "validation_status": "needs_course_code_verification",
+      "uncertainty_reason": "Official PDF table does not provide a course code"
+    },
+    {
+      "course_code": null,
+      "opening_units": [
+        "材光系"
+      ],
+      "opening_unit_snapshot": "材光系",
+      "course_name_snapshot": "高分子材料導論",
+      "credits_snapshot": 3.0,
+      "requirement_group": "elective",
+      "notes": "",
+      "source_page": 1,
+      "evidence_match": true,
+      "validation_status": "needs_course_code_verification",
+      "uncertainty_reason": "Official PDF table does not provide a course code"
+    },
+    {
+      "course_code": null,
+      "opening_units": [
+        "材光系"
+      ],
+      "opening_unit_snapshot": "材光系",
+      "course_name_snapshot": "高分子分析",
+      "credits_snapshot": 3.0,
+      "requirement_group": "elective",
+      "notes": "",
+      "source_page": 1,
+      "evidence_match": true,
+      "validation_status": "needs_course_code_verification",
+      "uncertainty_reason": "Official PDF table does not provide a course code"
+    },
+    {
+      "course_code": null,
+      "opening_units": [
+        "化學系"
+      ],
+      "opening_unit_snapshot": "化學系",
+      "course_name_snapshot": "材料化學",
+      "credits_snapshot": 3.0,
+      "requirement_group": "elective",
+      "notes": "",
+      "source_page": 1,
+      "evidence_match": true,
+      "validation_status": "needs_course_code_verification",
+      "uncertainty_reason": "Official PDF table does not provide a course code"
+    },
+    {
+      "course_code": null,
+      "opening_units": [
+        "化學系"
+      ],
+      "opening_unit_snapshot": "化學系",
+      "course_name_snapshot": "奈米科技概論",
+      "credits_snapshot": 3.0,
+      "requirement_group": "elective",
+      "notes": "",
+      "source_page": 1,
+      "evidence_match": true,
+      "validation_status": "needs_course_code_verification",
+      "uncertainty_reason": "Official PDF table does not provide a course code"
+    },
+    {
+      "course_code": null,
+      "opening_units": [
+        "化學系"
+      ],
+      "opening_unit_snapshot": "化學系",
+      "course_name_snapshot": "高分子材料化學",
+      "credits_snapshot": 3.0,
+      "requirement_group": "elective",
+      "notes": "",
+      "source_page": 1,
+      "evidence_match": true,
+      "validation_status": "needs_course_code_verification",
+      "uncertainty_reason": "Official PDF table does not provide a course code"
+    },
+    {
+      "course_code": null,
+      "opening_units": [
+        "材光系"
+      ],
+      "opening_unit_snapshot": "材光系",
+      "course_name_snapshot": "材料機械性質",
+      "credits_snapshot": 3.0,
+      "requirement_group": "elective",
+      "notes": "",
+      "source_page": 1,
+      "evidence_match": true,
+      "validation_status": "needs_course_code_verification",
+      "uncertainty_reason": "Official PDF table does not provide a course code"
+    },
+    {
+      "course_code": null,
+      "opening_units": [
+        "材光系"
+      ],
+      "opening_unit_snapshot": "材光系",
+      "course_name_snapshot": "晶體結構與缺陷",
+      "credits_snapshot": 3.0,
+      "requirement_group": "elective",
+      "notes": "",
+      "source_page": 1,
+      "evidence_match": true,
+      "validation_status": "needs_course_code_verification",
+      "uncertainty_reason": "Official PDF table does not provide a course code"
+    },
+    {
+      "course_code": null,
+      "opening_units": [
+        "材光系"
+      ],
+      "opening_unit_snapshot": "材光系",
+      "course_name_snapshot": "X光與電子繞射",
+      "credits_snapshot": 3.0,
+      "requirement_group": "elective",
+      "notes": "",
+      "source_page": 1,
+      "evidence_match": true,
+      "validation_status": "needs_course_code_verification",
+      "uncertainty_reason": "Official PDF table does not provide a course code"
+    },
+    {
+      "course_code": null,
+      "opening_units": [
+        "材光系"
+      ],
+      "opening_unit_snapshot": "材光系",
+      "course_name_snapshot": "高分子檢測與分析",
+      "credits_snapshot": 3.0,
+      "requirement_group": "elective",
+      "notes": "",
+      "source_page": 1,
+      "evidence_match": true,
+      "validation_status": "needs_course_code_verification",
+      "uncertainty_reason": "Official PDF table does not provide a course code"
+    }
+  ],
+  "structured_requirements": {
+    "minimum_total_credits": 15,
+    "core_credits_text_value": 9,
+    "minimum_outside_home_department_credits": 6
+  }
+}

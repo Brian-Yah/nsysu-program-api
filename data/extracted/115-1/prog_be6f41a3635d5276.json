@@ -1,0 +1,559 @@
+{
+  "schema_version": "1.0",
+  "courses": [],
+  "credit_mentions": [
+    9,
+    9,
+    3
+  ],
+  "ai_interpretation": null,
+  "confidence": "low",
+  "warnings": [
+    "Candidate only; not approved for publishing as executable rules"
+  ],
+  "program_id": "prog_be6f41a3635d5276",
+  "academic_version": "115-1",
+  "text_length": 534,
+  "raw_text": "1\n【112 學年度第 1 學期起適用】\n112.11.7 112 學年度第 1 學期學分學程會議通過\n112.12.12 第 178 次教務會議通過\n矽光子微學程課程規劃表\n開課單位 課  程  名  稱 學分數 備註\n核心課程\n光電系 光電子學 3 ※英語授課\n光電系 積體光電元件原理與設計 3\n光電系 半導體光電元件 3 ※英語授課\n半導體製造碩 光電半導體科技 3 ※英語授課\n核心課程學分數:  6  學分\n選\n修\n光電系 半導體物理 3 ※英語授課\n光電系 半導體奈米元件製造技術 3\n光電系 光電子元件應用 3 ※英語授課\n光電系 檢測技術在光電上的應用 3\n光電系 光電材料 3 ※英語授課\n光電系 半導體雷射原理與應用 3\n光電系 進階半導體物理與元件 3 ※英語授課\n光電系 光電材料概論 3 ※英語授課\n電機系 高等矽覆絕緣技術 3\n電機系 SOI積體電路工程 3\n機電系 半導體製程導論 3 ※英語授課\n物理碩 半導體奈米元件製造技術 3\n物理系 半導體奈米元件製造技術 3\n總學分數:至少 9  學分\n※ 【微學程】課程規劃至少 9 學分。\n※ 【微學程】-學生所修習之學程課程中,至少應有 3 學分不屬於學生本系所、\n雙主修及輔系之課程。",
+  "rule_versions": [
+    {
+      "pdf_academic_version": "112-1",
+      "courses": [
+        {
+          "course_code": null,
+          "opening_units": [
+            "光電系"
+          ],
+          "opening_unit_snapshot": "光電系",
+          "course_name_snapshot": "光電子學",
+          "credits_snapshot": 3.0,
+          "requirement_group": "core",
+          "notes": "※英語授課",
+          "source_page": 1,
+          "evidence_match": true,
+          "validation_status": "needs_course_code_verification",
+          "uncertainty_reason": "Official PDF table does not provide a course code"
+        },
+        {
+          "course_code": null,
+          "opening_units": [
+            "光電系"
+          ],
+          "opening_unit_snapshot": "光電系",
+          "course_name_snapshot": "積體光電元件原理與設計",
+          "credits_snapshot": 3.0,
+          "requirement_group": "core",
+          "notes": "",
+          "source_page": 1,
+          "evidence_match": true,
+          "validation_status": "needs_course_code_verification",
+          "uncertainty_reason": "Official PDF table does not provide a course code"
+        },
+        {
+          "course_code": null,
+          "opening_units": [
+            "光電系"
+          ],
+          "opening_unit_snapshot": "光電系",
+          "course_name_snapshot": "半導體光電元件",
+          "credits_snapshot": 3.0,
+          "requirement_group": "core",
+          "notes": "※英語授課",
+          "source_page": 1,
+          "evidence_match": true,
+          "validation_status": "needs_course_code_verification",
+          "uncertainty_reason": "Official PDF table does not provide a course code"
+        },
+        {
+          "course_code": null,
+          "opening_units": [
+            "半導體製造碩"
+          ],
+          "opening_unit_snapshot": "半導體製造碩",
+          "course_name_snapshot": "光電半導體科技",
+          "credits_snapshot": 3.0,
+          "requirement_group": "core",
+          "notes": "※英語授課",
+          "source_page": 1,
+          "evidence_match": true,
+          "validation_status": "needs_course_code_verification",
+          "uncertainty_reason": "Official PDF table does not provide a course code"
+        },
+        {
+          "course_code": null,
+          "opening_units": [
+            "光電系"
+          ],
+          "opening_unit_snapshot": "光電系",
+          "course_name_snapshot": "半導體物理",
+          "credits_snapshot": 3.0,
+          "requirement_group": "elective",
+          "notes": "※英語授課",
+          "source_page": 1,
+          "evidence_match": true,
+          "validation_status": "needs_course_code_verification",
+          "uncertainty_reason": "Official PDF table does not provide a course code"
+        },
+        {
+          "course_code": null,
+          "opening_units": [
+            "光電系"
+          ],
+          "opening_unit_snapshot": "光電系",
+          "course_name_snapshot": "半導體奈米元件製造技術",
+          "credits_snapshot": 3.0,
+          "requirement_group": "elective",
+          "notes": "",
+          "source_page": 1,
+          "evidence_match": true,
+          "validation_status": "needs_course_code_verification",
+          "uncertainty_reason": "Official PDF table does not provide a course code"
+        },
+        {
+          "course_code": null,
+          "opening_units": [
+            "光電系"
+          ],
+          "opening_unit_snapshot": "光電系",
+          "course_name_snapshot": "光電子元件應用",
+          "credits_snapshot": 3.0,
+          "requirement_group": "elective",
+          "notes": "※英語授課",
+          "source_page": 1,
+          "evidence_match": true,
+          "validation_status": "needs_course_code_verification",
+          "uncertainty_reason": "Official PDF table does not provide a course code"
+        },
+        {
+          "course_code": null,
+          "opening_units": [
+            "光電系"
+          ],
+          "opening_unit_snapshot": "光電系",
+          "course_name_snapshot": "檢測技術在光電上的應用",
+          "credits_snapshot": 3.0,
+          "requirement_group": "elective",
+          "notes": "",
+          "source_page": 1,
+          "evidence_match": true,
+          "validation_status": "needs_course_code_verification",
+          "uncertainty_reason": "Official PDF table does not provide a course code"
+        },
+        {
+          "course_code": null,
+          "opening_units": [
+            "光電系"
+          ],
+          "opening_unit_snapshot": "光電系",
+          "course_name_snapshot": "光電材料",
+          "credits_snapshot": 3.0,
+          "requirement_group": "elective",
+          "notes": "※英語授課",
+          "source_page": 1,
+          "evidence_match": true,
+          "validation_status": "needs_course_code_verification",
+          "uncertainty_reason": "Official PDF table does not provide a course code"
+        },
+        {
+          "course_code": null,
+          "opening_units": [
+            "光電系"
+          ],
+          "opening_unit_snapshot": "光電系",
+          "course_name_snapshot": "半導體雷射原理與應用",
+          "credits_snapshot": 3.0,
+          "requirement_group": "elective",
+          "notes": "",
+          "source_page": 1,
+          "evidence_match": true,
+          "validation_status": "needs_course_code_verification",
+          "uncertainty_reason": "Official PDF table does not provide a course code"
+        },
+        {
+          "course_code": null,
+          "opening_units": [
+            "光電系"
+          ],
+          "opening_unit_snapshot": "光電系",
+          "course_name_snapshot": "進階半導體物理與元件",
+          "credits_snapshot": 3.0,
+          "requirement_group": "elective",
+          "notes": "※英語授課",
+          "source_page": 1,
+          "evidence_match": true,
+          "validation_status": "needs_course_code_verification",
+          "uncertainty_reason": "Official PDF table does not provide a course code"
+        },
+        {
+          "course_code": null,
+          "opening_units": [
+            "光電系"
+          ],
+          "opening_unit_snapshot": "光電系",
+          "course_name_snapshot": "光電材料概論",
+          "credits_snapshot": 3.0,
+          "requirement_group": "elective",
+          "notes": "※英語授課",
+          "source_page": 1,
+          "evidence_match": true,
+          "validation_status": "needs_course_code_verification",
+          "uncertainty_reason": "Official PDF table does not provide a course code"
+        },
+        {
+          "course_code": null,
+          "opening_units": [
+            "電機系"
+          ],
+          "opening_unit_snapshot": "電機系",
+          "course_name_snapshot": "高等矽覆絕緣技術",
+          "credits_snapshot": 3.0,
+          "requirement_group": "elective",
+          "notes": "",
+          "source_page": 1,
+          "evidence_match": true,
+          "validation_status": "needs_course_code_verification",
+          "uncertainty_reason": "Official PDF table does not provide a course code"
+        },
+        {
+          "course_code": null,
+          "opening_units": [
+            "電機系"
+          ],
+          "opening_unit_snapshot": "電機系",
+          "course_name_snapshot": "SOI積體電路工程",
+          "credits_snapshot": 3.0,
+          "requirement_group": "elective",
+          "notes": "",
+          "source_page": 1,
+          "evidence_match": true,
+          "validation_status": "needs_course_code_verification",
+          "uncertainty_reason": "Official PDF table does not provide a course code"
+        },
+        {
+          "course_code": null,
+          "opening_units": [
+            "機電系"
+          ],
+          "opening_unit_snapshot": "機電系",
+          "course_name_snapshot": "半導體製程導論",
+          "credits_snapshot": 3.0,
+          "requirement_group": "elective",
+          "notes": "※英語授課",
+          "source_page": 1,
+          "evidence_match": true,
+          "validation_status": "needs_course_code_verification",
+          "uncertainty_reason": "Official PDF table does not provide a course code"
+        },
+        {
+          "course_code": null,
+          "opening_units": [
+            "物理碩"
+          ],
+          "opening_unit_snapshot": "物理碩",
+          "course_name_snapshot": "半導體奈米元件製造技術",
+          "credits_snapshot": 3.0,
+          "requirement_group": "elective",
+          "notes": "",
+          "source_page": 1,
+          "evidence_match": true,
+          "validation_status": "needs_course_code_verification",
+          "uncertainty_reason": "Official PDF table does not provide a course code"
+        },
+        {
+          "course_code": null,
+          "opening_units": [
+            "物理系"
+          ],
+          "opening_unit_snapshot": "物理系",
+          "course_name_snapshot": "半導體奈米元件製造技術",
+          "credits_snapshot": 3.0,
+          "requirement_group": "elective",
+          "notes": "",
+          "source_page": 1,
+          "evidence_match": true,
+          "validation_status": "needs_course_code_verification",
+          "uncertainty_reason": "Official PDF table does not provide a course code"
+        }
+      ],
+      "requirements": {
+        "minimum_total_credits": 9,
+        "core_credits_text_value": 6,
+        "minimum_outside_home_department_credits": 3
+      },
+      "source_pages": [
+        1
+      ],
+      "audit": {
+        "compound_rows_needing_review": [],
+        "duplicates_removed": 0,
+        "course_count": 17,
+        "core_count": 4,
+        "elective_count": 13,
+        "evidence_matched_count": 17
+      }
+    }
+  ],
+  "selected_pdf_academic_version": "112-1",
+  "structured_courses": [
+    {
+      "course_code": null,
+      "opening_units": [
+        "光電系"
+      ],
+      "opening_unit_snapshot": "光電系",
+      "course_name_snapshot": "光電子學",
+      "credits_snapshot": 3.0,
+      "requirement_group": "core",
+      "notes": "※英語授課",
+      "source_page": 1,
+      "evidence_match": true,
+      "validation_status": "needs_course_code_verification",
+      "uncertainty_reason": "Official PDF table does not provide a course code"
+    },
+    {
+      "course_code": null,
+      "opening_units": [
+        "光電系"
+      ],
+      "opening_unit_snapshot": "光電系",
+      "course_name_snapshot": "積體光電元件原理與設計",
+      "credits_snapshot": 3.0,
+      "requirement_group": "core",
+      "notes": "",
+      "source_page": 1,
+      "evidence_match": true,
+      "validation_status": "needs_course_code_verification",
+      "uncertainty_reason": "Official PDF table does not provide a course code"
+    },
+    {
+      "course_code": null,
+      "opening_units": [
+        "光電系"
+      ],
+      "opening_unit_snapshot": "光電系",
+      "course_name_snapshot": "半導體光電元件",
+      "credits_snapshot": 3.0,
+      "requirement_group": "core",
+      "notes": "※英語授課",
+      "source_page": 1,
+      "evidence_match": true,
+      "validation_status": "needs_course_code_verification",
+      "uncertainty_reason": "Official PDF table does not provide a course code"
+    },
+    {
+      "course_code": null,
+      "opening_units": [
+        "半導體製造碩"
+      ],
+      "opening_unit_snapshot": "半導體製造碩",
+      "course_name_snapshot": "光電半導體科技",
+      "credits_snapshot": 3.0,
+      "requirement_group": "core",
+      "notes": "※英語授課",
+      "source_page": 1,
+      "evidence_match": true,
+      "validation_status": "needs_course_code_verification",
+      "uncertainty_reason": "Official PDF table does not provide a course code"
+    },
+    {
+      "course_code": null,
+      "opening_units": [
+        "光電系"
+      ],
+      "opening_unit_snapshot": "光電系",
+      "course_name_snapshot": "半導體物理",
+      "credits_snapshot": 3.0,
+      "requirement_group": "elective",
+      "notes": "※英語授課",
+      "source_page": 1,
+      "evidence_match": true,
+      "validation_status": "needs_course_code_verification",
+      "uncertainty_reason": "Official PDF table does not provide a course code"
+    },
+    {
+      "course_code": null,
+      "opening_units": [
+        "光電系"
+      ],
+      "opening_unit_snapshot": "光電系",
+      "course_name_snapshot": "半導體奈米元件製造技術",
+      "credits_snapshot": 3.0,
+      "requirement_group": "elective",
+      "notes": "",
+      "source_page": 1,
+      "evidence_match": true,
+      "validation_status": "needs_course_code_verification",
+      "uncertainty_reason": "Official PDF table does not provide a course code"
+    },
+    {
+      "course_code": null,
+      "opening_units": [
+        "光電系"
+      ],
+      "opening_unit_snapshot": "光電系",
+      "course_name_snapshot": "光電子元件應用",
+      "credits_snapshot": 3.0,
+      "requirement_group": "elective",
+      "notes": "※英語授課",
+      "source_page": 1,
+      "evidence_match": true,
+      "validation_status": "needs_course_code_verification",
+      "uncertainty_reason": "Official PDF table does not provide a course code"
+    },
+    {
+      "course_code": null,
+      "opening_units": [
+        "光電系"
+      ],
+      "opening_unit_snapshot": "光電系",
+      "course_name_snapshot": "檢測技術在光電上的應用",
+      "credits_snapshot": 3.0,
+      "requirement_group": "elective",
+      "notes": "",
+      "source_page": 1,
+      "evidence_match": true,
+      "validation_status": "needs_course_code_verification",
+      "uncertainty_reason": "Official PDF table does not provide a course code"
+    },
+    {
+      "course_code": null,
+      "opening_units": [
+        "光電系"
+      ],
+      "opening_unit_snapshot": "光電系",
+      "course_name_snapshot": "光電材料",
+      "credits_snapshot": 3.0,
+      "requirement_group": "elective",
+      "notes": "※英語授課",
+      "source_page": 1,
+      "evidence_match": true,
+      "validation_status": "needs_course_code_verification",
+      "uncertainty_reason": "Official PDF table does not provide a course code"
+    },
+    {
+      "course_code": null,
+      "opening_units": [
+        "光電系"
+      ],
+      "opening_unit_snapshot": "光電系",
+      "course_name_snapshot": "半導體雷射原理與應用",
+      "credits_snapshot": 3.0,
+      "requirement_group": "elective",
+      "notes": "",
+      "source_page": 1,
+      "evidence_match": true,
+      "validation_status": "needs_course_code_verification",
+      "uncertainty_reason": "Official PDF table does not provide a course code"
+    },
+    {
+      "course_code": null,
+      "opening_units": [
+        "光電系"
+      ],
+      "opening_unit_snapshot": "光電系",
+      "course_name_snapshot": "進階半導體物理與元件",
+      "credits_snapshot": 3.0,
+      "requirement_group": "elective",
+      "notes": "※英語授課",
+      "source_page": 1,
+      "evidence_match": true,
+      "validation_status": "needs_course_code_verification",
+      "uncertainty_reason": "Official PDF table does not provide a course code"
+    },
+    {
+      "course_code": null,
+      "opening_units": [
+        "光電系"
+      ],
+      "opening_unit_snapshot": "光電系",
+      "course_name_snapshot": "光電材料概論",
+      "credits_snapshot": 3.0,
+      "requirement_group": "elective",
+      "notes": "※英語授課",
+      "source_page": 1,
+      "evidence_match": true,
+      "validation_status": "needs_course_code_verification",
+      "uncertainty_reason": "Official PDF table does not provide a course code"
+    },
+    {
+      "course_code": null,
+      "opening_units": [
+        "電機系"
+      ],
+      "opening_unit_snapshot": "電機系",
+      "course_name_snapshot": "高等矽覆絕緣技術",
+      "credits_snapshot": 3.0,
+      "requirement_group": "elective",
+      "notes": "",
+      "source_page": 1,
+      "evidence_match": true,
+      "validation_status": "needs_course_code_verification",
+      "uncertainty_reason": "Official PDF table does not provide a course code"
+    },
+    {
+      "course_code": null,
+      "opening_units": [
+        "電機系"
+      ],
+      "opening_unit_snapshot": "電機系",
+      "course_name_snapshot": "SOI積體電路工程",
+      "credits_snapshot": 3.0,
+      "requirement_group": "elective",
+      "notes": "",
+      "source_page": 1,
+      "evidence_match": true,
+      "validation_status": "needs_course_code_verification",
+      "uncertainty_reason": "Official PDF table does not provide a course code"
+    },
+    {
+      "course_code": null,
+      "opening_units": [
+        "機電系"
+      ],
+      "opening_unit_snapshot": "機電系",
+      "course_name_snapshot": "半導體製程導論",
+      "credits_snapshot": 3.0,
+      "requirement_group": "elective",
+      "notes": "※英語授課",
+      "source_page": 1,
+      "evidence_match": true,
+      "validation_status": "needs_course_code_verification",
+      "uncertainty_reason": "Official PDF table does not provide a course code"
+    },
+    {
+      "course_code": null,
+      "opening_units": [
+        "物理碩"
+      ],
+      "opening_unit_snapshot": "物理碩",
+      "course_name_snapshot": "半導體奈米元件製造技術",
+      "credits_snapshot": 3.0,
+      "requirement_group": "elective",
+      "notes": "",
+      "source_page": 1,
+      "evidence_match": true,
+      "validation_status": "needs_course_code_verification",
+      "uncertainty_reason": "Official PDF table does not provide a course code"
+    },
+    {
+      "course_code": null,
+      "opening_units": [
+        "物理系"
+      ],
+      "opening_unit_snapshot": "物理系",
+      "course_name_snapshot": "半導體奈米元件製造技術",
+      "credits_snapshot": 3.0,
+      "requirement_group": "elective",
+      "notes": "",
+      "source_page": 1,
+      "evidence_match": true,
+      "validation_status": "needs_course_code_verification",
+      "uncertainty_reason": "Official PDF table does not provide a course code"
+    }
+  ],
+  "structured_requirements": {
+    "minimum_total_credits": 9,
+    "core_credits_text_value": 6,
+    "minimum_outside_home_department_credits": 3
+  }
+}

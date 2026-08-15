@@ -1,0 +1,420 @@
+{
+  "program_id": "prog_664a370eef2b5ffc",
+  "name_zh": "社會情緒學習與內在永續發展微學程",
+  "name_en": null,
+  "previous_names": [],
+  "type": "micro_program",
+  "status": "active",
+  "description": "在當今快速變遷的社會與教育環境中,學生不僅需要具備專業知識,更需培養有利於永續發展的內在素質與能力,以應對未來環境的挑戰。「永續教育中的社會情緒學習與內在發展微學程」結合聯合國永續發展目標(SDGs)與內在發展目標(Inner Development Goals, IDGs),涵蓋自我覺察、批判思維、同理心與人際溝通等內在素質,同時將永續教育融入學科教學與實踐中。本學程旨在培養具備內在素質與公民意識的學生,特別是有意從事教育工作的學生,促使其在教育領域中推動永\n續發展,並啟發其成為積極的全球公民。",
+  "responsible_unit": "師培中心",
+  "coordinator": "謝百淇教授",
+  "program_website": null,
+  "source_pdf": "http://140.117.153.69/ctdr/files/20250527095504594.pdf",
+  "academic_version": "115-1",
+  "source": {
+    "catalog_url": "https://ctdr.nsysu.edu.tw/class2.php",
+    "pdf_url": "http://140.117.153.69/ctdr/files/20250527095504594.pdf",
+    "retrieved_at": "2026-08-15T10:05:39Z",
+    "pdf_binary_sha256": "563f469aac96c16450eda0c5374c0bdb26b24ad2b22851d23b298279de8a491d",
+    "normalized_text_sha256": "3969fee0eed23e41137567aa01e586af529f47fc1d84e2ed04da9f50abd8e4a4",
+    "http": {
+      "status": 200,
+      "etag": "\"1f57c-636145a6d2bee\"",
+      "last_modified": "Tue, 27 May 2025 01:55:04 GMT",
+      "content_length": 128380
+    },
+    "parser_version": "0.1.0"
+  },
+  "review_status": "needs_review",
+  "rules": {
+    "kind": "manual_review",
+    "reason": "Extracted candidate awaits approval"
+  },
+  "warnings": [
+    "No structured course rows extracted from PDF tables"
+  ],
+  "selected_pdf_academic_version": "113-2",
+  "course_catalog": [
+    {
+      "course_code": null,
+      "opening_units": [
+        "中學學程"
+      ],
+      "opening_unit_snapshot": "中學學程",
+      "course_name_snapshot": "環境教育",
+      "credits_snapshot": 2.0,
+      "requirement_group": "core",
+      "notes": "中學學程須另繳學分費",
+      "source_page": 1,
+      "evidence_match": true,
+      "validation_status": "needs_course_code_verification",
+      "uncertainty_reason": "Official PDF table does not provide a course code"
+    },
+    {
+      "course_code": null,
+      "opening_units": [
+        "中學學程"
+      ],
+      "opening_unit_snapshot": "中學學程",
+      "course_name_snapshot": "戶外探索教育與應用",
+      "credits_snapshot": 2.0,
+      "requirement_group": "core",
+      "notes": "中學學程須另繳學分費",
+      "source_page": 1,
+      "evidence_match": true,
+      "validation_status": "needs_course_code_verification",
+      "uncertainty_reason": "Official PDF table does not provide a course code"
+    },
+    {
+      "course_code": null,
+      "opening_units": [
+        "中學學程"
+      ],
+      "opening_unit_snapshot": "中學學程",
+      "course_name_snapshot": "公民教育",
+      "credits_snapshot": 2.0,
+      "requirement_group": "core",
+      "notes": "中學學程須另繳學分費",
+      "source_page": 1,
+      "evidence_match": true,
+      "validation_status": "needs_course_code_verification",
+      "uncertainty_reason": "Official PDF table does not provide a course code"
+    },
+    {
+      "course_code": null,
+      "opening_units": [
+        "中學學程"
+      ],
+      "opening_unit_snapshot": "中學學程",
+      "course_name_snapshot": "和諧溝通與衝突解決",
+      "credits_snapshot": 2.0,
+      "requirement_group": "core",
+      "notes": "中學學程須另繳學分費",
+      "source_page": 1,
+      "evidence_match": true,
+      "validation_status": "needs_course_code_verification",
+      "uncertainty_reason": "Official PDF table does not provide a course code"
+    },
+    {
+      "course_code": null,
+      "opening_units": [
+        "中學程學"
+      ],
+      "opening_unit_snapshot": "中學程學",
+      "course_name_snapshot": "情感教育",
+      "credits_snapshot": 2.0,
+      "requirement_group": "core",
+      "notes": "中學學程須另繳學分費",
+      "source_page": 1,
+      "evidence_match": true,
+      "validation_status": "needs_course_code_verification",
+      "uncertainty_reason": "Official PDF table does not provide a course code"
+    },
+    {
+      "course_code": null,
+      "opening_units": [
+        "中學學程"
+      ],
+      "opening_unit_snapshot": "中學學程",
+      "course_name_snapshot": "青少年問題與輔導",
+      "credits_snapshot": 2.0,
+      "requirement_group": "core",
+      "notes": "中學學程須另繳學分費",
+      "source_page": 1,
+      "evidence_match": true,
+      "validation_status": "needs_course_code_verification",
+      "uncertainty_reason": "Official PDF table does not provide a course code"
+    },
+    {
+      "course_code": null,
+      "opening_units": [
+        "中學學程"
+      ],
+      "opening_unit_snapshot": "中學學程",
+      "course_name_snapshot": "多元文化",
+      "credits_snapshot": 2.0,
+      "requirement_group": "core",
+      "notes": "中學學程須另繳學分費",
+      "source_page": 1,
+      "evidence_match": true,
+      "validation_status": "needs_course_code_verification",
+      "uncertainty_reason": "Official PDF table does not provide a course code"
+    },
+    {
+      "course_code": null,
+      "opening_units": [
+        "中學學程"
+      ],
+      "opening_unit_snapshot": "中學學程",
+      "course_name_snapshot": "教學媒體與運用",
+      "credits_snapshot": 2.0,
+      "requirement_group": "core",
+      "notes": "中學學程須另繳學分費",
+      "source_page": 1,
+      "evidence_match": true,
+      "validation_status": "needs_course_code_verification",
+      "uncertainty_reason": "Official PDF table does not provide a course code"
+    },
+    {
+      "course_code": null,
+      "opening_units": [
+        "教育所"
+      ],
+      "opening_unit_snapshot": "教育所",
+      "course_name_snapshot": "跨領域對話教育研究",
+      "credits_snapshot": 3.0,
+      "requirement_group": "core",
+      "notes": "",
+      "source_page": 1,
+      "evidence_match": true,
+      "validation_status": "needs_course_code_verification",
+      "uncertainty_reason": "Official PDF table does not provide a course code"
+    },
+    {
+      "course_code": null,
+      "opening_units": [
+        "教育所"
+      ],
+      "opening_unit_snapshot": "教育所",
+      "course_name_snapshot": "青少年心理與輔導研究",
+      "credits_snapshot": 3.0,
+      "requirement_group": "core",
+      "notes": "",
+      "source_page": 1,
+      "evidence_match": true,
+      "validation_status": "needs_course_code_verification",
+      "uncertainty_reason": "Official PDF table does not provide a course code"
+    },
+    {
+      "course_code": null,
+      "opening_units": [
+        "教育所"
+      ],
+      "opening_unit_snapshot": "教育所",
+      "course_name_snapshot": "多元文化教育研究",
+      "credits_snapshot": 3.0,
+      "requirement_group": "core",
+      "notes": "",
+      "source_page": 1,
+      "evidence_match": true,
+      "validation_status": "needs_course_code_verification",
+      "uncertainty_reason": "Official PDF table does not provide a course code"
+    },
+    {
+      "course_code": null,
+      "opening_units": [
+        "教育所"
+      ],
+      "opening_unit_snapshot": "教育所",
+      "course_name_snapshot": "數位媒體素養與教育研究",
+      "credits_snapshot": 3.0,
+      "requirement_group": "core",
+      "notes": "",
+      "source_page": 1,
+      "evidence_match": true,
+      "validation_status": "needs_course_code_verification",
+      "uncertainty_reason": "Official PDF table does not provide a course code"
+    },
+    {
+      "course_code": null,
+      "opening_units": [
+        "中學學程"
+      ],
+      "opening_unit_snapshot": "中學學程",
+      "course_name_snapshot": "探究與實作",
+      "credits_snapshot": 2.0,
+      "requirement_group": "elective",
+      "notes": "中學學程須另繳學分費",
+      "source_page": 1,
+      "evidence_match": true,
+      "validation_status": "needs_course_code_verification",
+      "uncertainty_reason": "Official PDF table does not provide a course code"
+    },
+    {
+      "course_code": null,
+      "opening_units": [
+        "中學學程"
+      ],
+      "opening_unit_snapshot": "中學學程",
+      "course_name_snapshot": "課程發展與設計",
+      "credits_snapshot": 2.0,
+      "requirement_group": "elective",
+      "notes": "中學學程須另繳學分費",
+      "source_page": 1,
+      "evidence_match": true,
+      "validation_status": "needs_course_code_verification",
+      "uncertainty_reason": "Official PDF table does not provide a course code"
+    },
+    {
+      "course_code": null,
+      "opening_units": [
+        "中學學程"
+      ],
+      "opening_unit_snapshot": "中學學程",
+      "course_name_snapshot": "教育哲學",
+      "credits_snapshot": 2.0,
+      "requirement_group": "elective",
+      "notes": "中學學程須另繳學分費",
+      "source_page": 1,
+      "evidence_match": true,
+      "validation_status": "needs_course_code_verification",
+      "uncertainty_reason": "Official PDF table does not provide a course code"
+    },
+    {
+      "course_code": null,
+      "opening_units": [
+        "中學學程"
+      ],
+      "opening_unit_snapshot": "中學學程",
+      "course_name_snapshot": "教學原理",
+      "credits_snapshot": 2.0,
+      "requirement_group": "elective",
+      "notes": "中學學程須另繳學分費",
+      "source_page": 1,
+      "evidence_match": true,
+      "validation_status": "needs_course_code_verification",
+      "uncertainty_reason": "Official PDF table does not provide a course code"
+    },
+    {
+      "course_code": null,
+      "opening_units": [
+        "中學學程"
+      ],
+      "opening_unit_snapshot": "中學學程",
+      "course_name_snapshot": "教育心理學",
+      "credits_snapshot": 2.0,
+      "requirement_group": "elective",
+      "notes": "中學學程須另繳學分費",
+      "source_page": 1,
+      "evidence_match": true,
+      "validation_status": "needs_course_code_verification",
+      "uncertainty_reason": "Official PDF table does not provide a course code"
+    },
+    {
+      "course_code": null,
+      "opening_units": [
+        "中學學程"
+      ],
+      "opening_unit_snapshot": "中學學程",
+      "course_name_snapshot": "學習心理學",
+      "credits_snapshot": 2.0,
+      "requirement_group": "elective",
+      "notes": "中學學程須另繳學分費",
+      "source_page": 1,
+      "evidence_match": true,
+      "validation_status": "needs_course_code_verification",
+      "uncertainty_reason": "Official PDF table does not provide a course code"
+    },
+    {
+      "course_code": null,
+      "opening_units": [
+        "中學學程"
+      ],
+      "opening_unit_snapshot": "中學學程",
+      "course_name_snapshot": "正向心理學",
+      "credits_snapshot": 2.0,
+      "requirement_group": "elective",
+      "notes": "中學學程須另繳學分費",
+      "source_page": 1,
+      "evidence_match": true,
+      "validation_status": "needs_course_code_verification",
+      "uncertainty_reason": "Official PDF table does not provide a course code"
+    },
+    {
+      "course_code": null,
+      "opening_units": [
+        "中學學程"
+      ],
+      "opening_unit_snapshot": "中學學程",
+      "course_name_snapshot": "教育社會學",
+      "credits_snapshot": 2.0,
+      "requirement_group": "elective",
+      "notes": "中學學程須另繳學分費",
+      "source_page": 1,
+      "evidence_match": true,
+      "validation_status": "needs_course_code_verification",
+      "uncertainty_reason": "Official PDF table does not provide a course code"
+    },
+    {
+      "course_code": null,
+      "opening_units": [
+        "中學學程"
+      ],
+      "opening_unit_snapshot": "中學學程",
+      "course_name_snapshot": "性別教育",
+      "credits_snapshot": 2.0,
+      "requirement_group": "elective",
+      "notes": "中學學程須另繳學分費",
+      "source_page": 1,
+      "evidence_match": true,
+      "validation_status": "needs_course_code_verification",
+      "uncertainty_reason": "Official PDF table does not provide a course code"
+    },
+    {
+      "course_code": null,
+      "opening_units": [
+        "教育所"
+      ],
+      "opening_unit_snapshot": "教育所",
+      "course_name_snapshot": "永續發展教育研究",
+      "credits_snapshot": 3.0,
+      "requirement_group": "elective",
+      "notes": "",
+      "source_page": 1,
+      "evidence_match": true,
+      "validation_status": "needs_course_code_verification",
+      "uncertainty_reason": "Official PDF table does not provide a course code"
+    },
+    {
+      "course_code": null,
+      "opening_units": [
+        "教育所",
+        "社會創新研究所"
+      ],
+      "opening_unit_snapshot": "教育所 / 社會創新研究所",
+      "course_name_snapshot": "社會創新與教育創業",
+      "credits_snapshot": 3.0,
+      "requirement_group": "elective",
+      "notes": "",
+      "source_page": 1,
+      "evidence_match": true,
+      "validation_status": "needs_course_code_verification",
+      "uncertainty_reason": "Official PDF table does not provide a course code"
+    },
+    {
+      "course_code": null,
+      "opening_units": [
+        "社會所"
+      ],
+      "opening_unit_snapshot": "社會所",
+      "course_name_snapshot": "環境社會學",
+      "credits_snapshot": 3.0,
+      "requirement_group": "elective",
+      "notes": "",
+      "source_page": 1,
+      "evidence_match": true,
+      "validation_status": "needs_course_code_verification",
+      "uncertainty_reason": "Official PDF table does not provide a course code"
+    },
+    {
+      "course_code": null,
+      "opening_units": [
+        "社會系"
+      ],
+      "opening_unit_snapshot": "社會系",
+      "course_name_snapshot": "永續發展與社會創新",
+      "credits_snapshot": 3.0,
+      "requirement_group": "elective",
+      "notes": "",
+      "source_page": 1,
+      "evidence_match": true,
+      "validation_status": "needs_course_code_verification",
+      "uncertainty_reason": "Official PDF table does not provide a course code"
+    }
+  ],
+  "structured_requirements": {
+    "minimum_total_credits": 9,
+    "core_credits_text_value": 3,
+    "minimum_outside_home_department_credits": 3
+  }
+}

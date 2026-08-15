@@ -1,0 +1,411 @@
+{
+  "program_id": "prog_31771defca8b5076",
+  "latest_academic_version": "115-1",
+  "versions": [
+    "115-1"
+  ],
+  "program": {
+    "program_id": "prog_31771defca8b5076",
+    "name_zh": "跨文化人文思潮與美學微學程",
+    "name_en": null,
+    "previous_names": [],
+    "type": "micro_program",
+    "status": "active",
+    "description": "身處全球化時代,我們的文化美學觀念早已不再侷限於單一文化,跨文化美學可謂成為當今人文精神養成不可或缺的一環。本學程藉由整合文學院中文系、外文系、音樂系、劇場藝術系與哲學研究所各相關課程,達到培育學生跨文化美學涵養的目的。本學程一方面體現跨文化的特色,包融中國與西洋兩方面的各式美學課程;另一特色則在於跨越不同的領域,舉凡文學、思想、造形藝術,音樂,表演藝術等皆包含其中。本學程超越系所專業界線, 跨越中外文化藩籬,培養學生敏銳的賞析能力,回應當代人文精神的根本需求。",
+    "responsible_unit": "哲學所",
+    "coordinator": "游淙祺教授",
+    "program_website": "https://phen.nsysu.edu.tw/p/412-1163-12524.php?Lang=zh-tw",
+    "source_pdf": "http://140.117.153.69/ctdr/files/20260701141158591.pdf",
+    "academic_version": "115-1",
+    "source": {
+      "catalog_url": "https://ctdr.nsysu.edu.tw/class2.php",
+      "pdf_url": "http://140.117.153.69/ctdr/files/20260701141158591.pdf",
+      "retrieved_at": "2026-08-15T10:05:39Z",
+      "pdf_binary_sha256": "95ea763bd45ce97356746d364dc0222b04f2e83f7e906f1dde474c3ee4f0ff2e",
+      "normalized_text_sha256": "5ffd4fa767420968db4840b53b53ac910158fc3a589887416193cf0128a6a2f0",
+      "http": {
+        "status": 200,
+        "etag": "\"66673-6558691b17df7\"",
+        "last_modified": "Wed, 01 Jul 2026 06:11:58 GMT",
+        "content_length": 419443
+      },
+      "parser_version": "0.1.0"
+    },
+    "review_status": "needs_review",
+    "rules": {
+      "kind": "manual_review",
+      "reason": "Extracted candidate awaits approval"
+    },
+    "warnings": [
+      "No structured course rows extracted from PDF tables"
+    ],
+    "selected_pdf_academic_version": "114-2",
+    "course_catalog": [
+      {
+        "course_code": null,
+        "opening_units": [
+          "文學院"
+        ],
+        "opening_unit_snapshot": "文學院",
+        "course_name_snapshot": "跨文化人文思潮與美學導論",
+        "credits_snapshot": 3.0,
+        "requirement_group": "core",
+        "notes": "",
+        "source_page": 1,
+        "evidence_match": true,
+        "validation_status": "needs_course_code_verification",
+        "uncertainty_reason": "Official PDF table does not provide a course code"
+      },
+      {
+        "course_code": null,
+        "opening_units": [
+          "外文系碩士班"
+        ],
+        "opening_unit_snapshot": "外文系碩士班",
+        "course_name_snapshot": "視覺文化與理論",
+        "credits_snapshot": 3.0,
+        "requirement_group": "core",
+        "notes": "",
+        "source_page": 1,
+        "evidence_match": true,
+        "validation_status": "needs_course_code_verification",
+        "uncertainty_reason": "Official PDF table does not provide a course code"
+      },
+      {
+        "course_code": null,
+        "opening_units": [
+          "哲學所碩士班"
+        ],
+        "opening_unit_snapshot": "哲學所碩士班",
+        "course_name_snapshot": "電影哲學",
+        "credits_snapshot": 3.0,
+        "requirement_group": "core",
+        "notes": "",
+        "source_page": 1,
+        "evidence_match": true,
+        "validation_status": "needs_course_code_verification",
+        "uncertainty_reason": "Official PDF table does not provide a course code"
+      },
+      {
+        "course_code": null,
+        "opening_units": [
+          "音樂系"
+        ],
+        "opening_unit_snapshot": "音樂系",
+        "course_name_snapshot": "音樂美學",
+        "credits_snapshot": 2.0,
+        "requirement_group": "core",
+        "notes": "",
+        "source_page": 1,
+        "evidence_match": true,
+        "validation_status": "needs_course_code_verification",
+        "uncertainty_reason": "Official PDF table does not provide a course code"
+      },
+      {
+        "course_code": null,
+        "opening_units": [
+          "劇藝系"
+        ],
+        "opening_unit_snapshot": "劇藝系",
+        "course_name_snapshot": "西洋藝術史",
+        "credits_snapshot": 2.0,
+        "requirement_group": "core",
+        "notes": "",
+        "source_page": 1,
+        "evidence_match": true,
+        "validation_status": "needs_course_code_verification",
+        "uncertainty_reason": "Official PDF table does not provide a course code"
+      },
+      {
+        "course_code": null,
+        "opening_units": [
+          "劇藝系"
+        ],
+        "opening_unit_snapshot": "劇藝系",
+        "course_name_snapshot": "藝術概論",
+        "credits_snapshot": 2.0,
+        "requirement_group": "core",
+        "notes": "",
+        "source_page": 1,
+        "evidence_match": true,
+        "validation_status": "needs_course_code_verification",
+        "uncertainty_reason": "Official PDF table does not provide a course code"
+      },
+      {
+        "course_code": null,
+        "opening_units": [
+          "哲學所碩士班"
+        ],
+        "opening_unit_snapshot": "哲學所碩士班",
+        "course_name_snapshot": "藝術與哲學",
+        "credits_snapshot": 3.0,
+        "requirement_group": "core",
+        "notes": "",
+        "source_page": 1,
+        "evidence_match": true,
+        "validation_status": "needs_course_code_verification",
+        "uncertainty_reason": "Official PDF table does not provide a course code"
+      },
+      {
+        "course_code": null,
+        "opening_units": [
+          "哲學所碩士班"
+        ],
+        "opening_unit_snapshot": "哲學所碩士班",
+        "course_name_snapshot": "文化哲學",
+        "credits_snapshot": 3.0,
+        "requirement_group": "core",
+        "notes": "",
+        "source_page": 1,
+        "evidence_match": true,
+        "validation_status": "needs_course_code_verification",
+        "uncertainty_reason": "Official PDF table does not provide a course code"
+      },
+      {
+        "course_code": null,
+        "opening_units": [
+          "文學院"
+        ],
+        "opening_unit_snapshot": "文學院",
+        "course_name_snapshot": "跨文化人文思潮與美學-課程與教學實作專題",
+        "credits_snapshot": 3.0,
+        "requirement_group": "elective",
+        "notes": "",
+        "source_page": 1,
+        "evidence_match": false,
+        "validation_status": "needs_course_code_verification",
+        "uncertainty_reason": "Official PDF table does not provide a course code"
+      },
+      {
+        "course_code": null,
+        "opening_units": [
+          "外文系"
+        ],
+        "opening_unit_snapshot": "外文系",
+        "course_name_snapshot": "多媒體英文與溝通",
+        "credits_snapshot": 3.0,
+        "requirement_group": "elective",
+        "notes": "",
+        "source_page": 1,
+        "evidence_match": true,
+        "validation_status": "needs_course_code_verification",
+        "uncertainty_reason": "Official PDF table does not provide a course code"
+      },
+      {
+        "course_code": null,
+        "opening_units": [
+          "中文系"
+        ],
+        "opening_unit_snapshot": "中文系",
+        "course_name_snapshot": "古典戲劇選(一)",
+        "credits_snapshot": 3.0,
+        "requirement_group": "elective",
+        "notes": "",
+        "source_page": 1,
+        "evidence_match": true,
+        "validation_status": "needs_course_code_verification",
+        "uncertainty_reason": "Official PDF table does not provide a course code"
+      },
+      {
+        "course_code": null,
+        "opening_units": [
+          "中文系"
+        ],
+        "opening_unit_snapshot": "中文系",
+        "course_name_snapshot": "古典戲劇選(二)",
+        "credits_snapshot": 3.0,
+        "requirement_group": "elective",
+        "notes": "",
+        "source_page": 1,
+        "evidence_match": true,
+        "validation_status": "needs_course_code_verification",
+        "uncertainty_reason": "Official PDF table does not provide a course code"
+      },
+      {
+        "course_code": null,
+        "opening_units": [
+          "中文系"
+        ],
+        "opening_unit_snapshot": "中文系",
+        "course_name_snapshot": "當代戲曲(一)",
+        "credits_snapshot": 3.0,
+        "requirement_group": "elective",
+        "notes": "",
+        "source_page": 1,
+        "evidence_match": true,
+        "validation_status": "needs_course_code_verification",
+        "uncertainty_reason": "Official PDF table does not provide a course code"
+      },
+      {
+        "course_code": null,
+        "opening_units": [
+          "中文系"
+        ],
+        "opening_unit_snapshot": "中文系",
+        "course_name_snapshot": "當代戲曲(二)",
+        "credits_snapshot": 3.0,
+        "requirement_group": "elective",
+        "notes": "",
+        "source_page": 1,
+        "evidence_match": true,
+        "validation_status": "needs_course_code_verification",
+        "uncertainty_reason": "Official PDF table does not provide a course code"
+      },
+      {
+        "course_code": null,
+        "opening_units": [
+          "中文系碩士班"
+        ],
+        "opening_unit_snapshot": "中文系碩士班",
+        "course_name_snapshot": "中國書法美學",
+        "credits_snapshot": 3.0,
+        "requirement_group": "elective",
+        "notes": "",
+        "source_page": 1,
+        "evidence_match": true,
+        "validation_status": "needs_course_code_verification",
+        "uncertainty_reason": "Official PDF table does not provide a course code"
+      },
+      {
+        "course_code": null,
+        "opening_units": [
+          "劇藝系"
+        ],
+        "opening_unit_snapshot": "劇藝系",
+        "course_name_snapshot": "西洋戲劇史(一)",
+        "credits_snapshot": 2.0,
+        "requirement_group": "elective",
+        "notes": "",
+        "source_page": 1,
+        "evidence_match": true,
+        "validation_status": "needs_course_code_verification",
+        "uncertainty_reason": "Official PDF table does not provide a course code"
+      },
+      {
+        "course_code": null,
+        "opening_units": [
+          "劇藝系"
+        ],
+        "opening_unit_snapshot": "劇藝系",
+        "course_name_snapshot": "西洋戲劇史(二)",
+        "credits_snapshot": 2.0,
+        "requirement_group": "elective",
+        "notes": "",
+        "source_page": 1,
+        "evidence_match": true,
+        "validation_status": "needs_course_code_verification",
+        "uncertainty_reason": "Official PDF table does not provide a course code"
+      },
+      {
+        "course_code": null,
+        "opening_units": [
+          "劇藝系"
+        ],
+        "opening_unit_snapshot": "劇藝系",
+        "course_name_snapshot": "中國戲劇史(一)",
+        "credits_snapshot": 2.0,
+        "requirement_group": "elective",
+        "notes": "",
+        "source_page": 1,
+        "evidence_match": true,
+        "validation_status": "needs_course_code_verification",
+        "uncertainty_reason": "Official PDF table does not provide a course code"
+      },
+      {
+        "course_code": null,
+        "opening_units": [
+          "劇藝系"
+        ],
+        "opening_unit_snapshot": "劇藝系",
+        "course_name_snapshot": "中國戲劇史(二)",
+        "credits_snapshot": 2.0,
+        "requirement_group": "elective",
+        "notes": "",
+        "source_page": 1,
+        "evidence_match": true,
+        "validation_status": "needs_course_code_verification",
+        "uncertainty_reason": "Official PDF table does not provide a course code"
+      },
+      {
+        "course_code": null,
+        "opening_units": [
+          "劇藝系"
+        ],
+        "opening_unit_snapshot": "劇藝系",
+        "course_name_snapshot": "設計風格",
+        "credits_snapshot": 2.0,
+        "requirement_group": "elective",
+        "notes": "",
+        "source_page": 1,
+        "evidence_match": true,
+        "validation_status": "needs_course_code_verification",
+        "uncertainty_reason": "Official PDF table does not provide a course code"
+      },
+      {
+        "course_code": null,
+        "opening_units": [
+          "劇藝系"
+        ],
+        "opening_unit_snapshot": "劇藝系",
+        "course_name_snapshot": "西方名劇選讀",
+        "credits_snapshot": 3.0,
+        "requirement_group": "elective",
+        "notes": "",
+        "source_page": 1,
+        "evidence_match": true,
+        "validation_status": "needs_course_code_verification",
+        "uncertainty_reason": "Official PDF table does not provide a course code"
+      },
+      {
+        "course_code": null,
+        "opening_units": [
+          "劇藝系"
+        ],
+        "opening_unit_snapshot": "劇藝系",
+        "course_name_snapshot": "東方名劇選讀",
+        "credits_snapshot": 3.0,
+        "requirement_group": "elective",
+        "notes": "",
+        "source_page": 1,
+        "evidence_match": true,
+        "validation_status": "needs_course_code_verification",
+        "uncertainty_reason": "Official PDF table does not provide a course code"
+      },
+      {
+        "course_code": null,
+        "opening_units": [
+          "博雅向度二"
+        ],
+        "opening_unit_snapshot": "博雅向度二",
+        "course_name_snapshot": "文化差異與倫理規範",
+        "credits_snapshot": 3.0,
+        "requirement_group": "elective",
+        "notes": "",
+        "source_page": 1,
+        "evidence_match": true,
+        "validation_status": "needs_course_code_verification",
+        "uncertainty_reason": "Official PDF table does not provide a course code"
+      },
+      {
+        "course_code": null,
+        "opening_units": [
+          "博雅向度一"
+        ],
+        "opening_unit_snapshot": "博雅向度一",
+        "course_name_snapshot": "歐洲藝術與世界文化交流",
+        "credits_snapshot": 3.0,
+        "requirement_group": "elective",
+        "notes": "",
+        "source_page": 1,
+        "evidence_match": true,
+        "validation_status": "needs_course_code_verification",
+        "uncertainty_reason": "Official PDF table does not provide a course code"
+      }
+    ],
+    "structured_requirements": {
+      "minimum_total_credits": 9,
+      "core_credits_text_value": 3,
+      "minimum_outside_home_department_credits": 3
+    }
+  }
+}

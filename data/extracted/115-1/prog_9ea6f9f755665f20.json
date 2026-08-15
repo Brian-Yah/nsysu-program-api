@@ -1,0 +1,419 @@
+{
+  "schema_version": "1.0",
+  "courses": [],
+  "credit_mentions": [
+    9,
+    9,
+    3,
+    9,
+    9,
+    3,
+    9,
+    9,
+    3
+  ],
+  "ai_interpretation": null,
+  "confidence": "low",
+  "warnings": [
+    "Candidate only; not approved for publishing as executable rules"
+  ],
+  "program_id": "prog_9ea6f9f755665f20",
+  "academic_version": "115-1",
+  "text_length": 986,
+  "raw_text": "1\n【112 學年度第 1 學期起適用】\n112.11.7 112 學年度第 1 學期學分學程會議通過\n112.12.12 第 178 次教務會議通過\n醫師科學家微學程新課程規劃表\n開課單位 課  程  名  稱 學分數 備註\n核\n心\n課\n程\n精準所 創新精準醫學導論 3\n精準所 /生醫所 /\n醫科所 生物資訊學 3\n精準所 生醫資訊處理實務 3\n精準所 生化與分子生物學 3\n精準所 進階生物醫學統計學 3\n精準所 癌症生物學 3\n核心課程學分數:9 學分\n選\n修\n總學分數:至少 9 學分\n※【微學程】課程規劃至少 9 學分。\n※【微學程】學生所修習之學程課程中,至少應有 3 學分不屬於學生本系所、雙主修及輔系之\n課程。\n※修習學程適用之課程規劃表請依核准修習學年期版本為主。\n2\n【110 學年度第 1 學期起適用】\n110.11.2 110 學年度第 1 學期學分學程會議通過\n110.12.28 第 170 次教務會議通過\n醫師科學家微學程新課程規劃表\n開課單位 課  程  名  稱 學分數 備註\n核心課程\n精準所 創新精準醫學導論 3\n精準所/\n生醫所/ 生物資訊學 3\n精準所 生醫資訊處理實務 3\n精準所 生化與分子生物學 3\n精準所 進階生物醫學統計學 3\n核心課程學分數:9 學分\n選\n修\n總學分數:至少 9 學分\n※【微學程】課程規劃至少 9 學分。\n※【微學程】學生所修習之學程課程中,至少應有 3 學分不屬於學生本系所、雙主修及輔系之\n課程。\n※修習學程適用之課程規劃表請依核准修習學年期版本為主。\n3\n【109 學年度第 1 學期起適用】\n109.11.2 109 學年度第 1 學期學分學程會議通過\n109.12.28 第 166 次教務會議通過\n醫師科學家微學程課程規劃表\n開課單位 課  程  名  稱 學分數 備註\n核\n心\n課\n程\n精準所 創新精準醫學導論 3\n生醫所 蛋白質及核酸化學 3\n精準所/\n生醫所/\n醫科所\n生物資訊學 3\n精準所 生醫資訊處理實務 3\n核心課程〈專業模組課程〉學分數:9 學分\n選\n修\n總學分數:至少 9 學分\n※【微學程】課程規劃至少 9 學分。\n※【微學程】學生所修習之學程課程中,至少應有 3 學分不屬於學生本系所、雙主修及\n輔系之課程。\n※修習學程適用之課程規劃表請依核准修習學年期版本為主。",
+  "rule_versions": [
+    {
+      "pdf_academic_version": "112-1",
+      "courses": [
+        {
+          "course_code": null,
+          "opening_units": [
+            "精準所"
+          ],
+          "opening_unit_snapshot": "精準所",
+          "course_name_snapshot": "創新精準醫學導論",
+          "credits_snapshot": 3.0,
+          "requirement_group": "core",
+          "notes": "",
+          "source_page": 1,
+          "evidence_match": true,
+          "validation_status": "needs_course_code_verification",
+          "uncertainty_reason": "Official PDF table does not provide a course code"
+        },
+        {
+          "course_code": null,
+          "opening_units": [
+            "精準所",
+            "生醫所",
+            "醫科所"
+          ],
+          "opening_unit_snapshot": "精準所 / 生醫所 / 醫科所",
+          "course_name_snapshot": "生物資訊學",
+          "credits_snapshot": 3.0,
+          "requirement_group": "core",
+          "notes": "",
+          "source_page": 1,
+          "evidence_match": true,
+          "validation_status": "needs_course_code_verification",
+          "uncertainty_reason": "Official PDF table does not provide a course code"
+        },
+        {
+          "course_code": null,
+          "opening_units": [
+            "精準所"
+          ],
+          "opening_unit_snapshot": "精準所",
+          "course_name_snapshot": "生醫資訊處理實務",
+          "credits_snapshot": 3.0,
+          "requirement_group": "core",
+          "notes": "",
+          "source_page": 1,
+          "evidence_match": true,
+          "validation_status": "needs_course_code_verification",
+          "uncertainty_reason": "Official PDF table does not provide a course code"
+        },
+        {
+          "course_code": null,
+          "opening_units": [
+            "精準所"
+          ],
+          "opening_unit_snapshot": "精準所",
+          "course_name_snapshot": "生化與分子生物學",
+          "credits_snapshot": 3.0,
+          "requirement_group": "core",
+          "notes": "",
+          "source_page": 1,
+          "evidence_match": true,
+          "validation_status": "needs_course_code_verification",
+          "uncertainty_reason": "Official PDF table does not provide a course code"
+        },
+        {
+          "course_code": null,
+          "opening_units": [
+            "精準所"
+          ],
+          "opening_unit_snapshot": "精準所",
+          "course_name_snapshot": "進階生物醫學統計學",
+          "credits_snapshot": 3.0,
+          "requirement_group": "core",
+          "notes": "",
+          "source_page": 1,
+          "evidence_match": true,
+          "validation_status": "needs_course_code_verification",
+          "uncertainty_reason": "Official PDF table does not provide a course code"
+        },
+        {
+          "course_code": null,
+          "opening_units": [
+            "精準所"
+          ],
+          "opening_unit_snapshot": "精準所",
+          "course_name_snapshot": "癌症生物學",
+          "credits_snapshot": 3.0,
+          "requirement_group": "core",
+          "notes": "",
+          "source_page": 1,
+          "evidence_match": true,
+          "validation_status": "needs_course_code_verification",
+          "uncertainty_reason": "Official PDF table does not provide a course code"
+        }
+      ],
+      "requirements": {
+        "minimum_total_credits": 9,
+        "core_credits_text_value": 9,
+        "minimum_outside_home_department_credits": 3
+      },
+      "source_pages": [
+        1
+      ],
+      "audit": {
+        "compound_rows_needing_review": [],
+        "duplicates_removed": 0,
+        "course_count": 6,
+        "core_count": 6,
+        "elective_count": 0,
+        "evidence_matched_count": 6
+      }
+    },
+    {
+      "pdf_academic_version": "110-1",
+      "courses": [
+        {
+          "course_code": null,
+          "opening_units": [
+            "精準所"
+          ],
+          "opening_unit_snapshot": "精準所",
+          "course_name_snapshot": "創新精準醫學導論",
+          "credits_snapshot": 3.0,
+          "requirement_group": "core",
+          "notes": "",
+          "source_page": 2,
+          "evidence_match": true,
+          "validation_status": "needs_course_code_verification",
+          "uncertainty_reason": "Official PDF table does not provide a course code"
+        },
+        {
+          "course_code": null,
+          "opening_units": [
+            "精準所",
+            "生醫所"
+          ],
+          "opening_unit_snapshot": "精準所 / 生醫所",
+          "course_name_snapshot": "生物資訊學",
+          "credits_snapshot": 3.0,
+          "requirement_group": "core",
+          "notes": "",
+          "source_page": 2,
+          "evidence_match": true,
+          "validation_status": "needs_course_code_verification",
+          "uncertainty_reason": "Official PDF table does not provide a course code"
+        },
+        {
+          "course_code": null,
+          "opening_units": [
+            "精準所"
+          ],
+          "opening_unit_snapshot": "精準所",
+          "course_name_snapshot": "生醫資訊處理實務",
+          "credits_snapshot": 3.0,
+          "requirement_group": "core",
+          "notes": "",
+          "source_page": 2,
+          "evidence_match": true,
+          "validation_status": "needs_course_code_verification",
+          "uncertainty_reason": "Official PDF table does not provide a course code"
+        },
+        {
+          "course_code": null,
+          "opening_units": [
+            "精準所"
+          ],
+          "opening_unit_snapshot": "精準所",
+          "course_name_snapshot": "生化與分子生物學",
+          "credits_snapshot": 3.0,
+          "requirement_group": "core",
+          "notes": "",
+          "source_page": 2,
+          "evidence_match": true,
+          "validation_status": "needs_course_code_verification",
+          "uncertainty_reason": "Official PDF table does not provide a course code"
+        },
+        {
+          "course_code": null,
+          "opening_units": [
+            "精準所"
+          ],
+          "opening_unit_snapshot": "精準所",
+          "course_name_snapshot": "進階生物醫學統計學",
+          "credits_snapshot": 3.0,
+          "requirement_group": "core",
+          "notes": "",
+          "source_page": 2,
+          "evidence_match": true,
+          "validation_status": "needs_course_code_verification",
+          "uncertainty_reason": "Official PDF table does not provide a course code"
+        }
+      ],
+      "requirements": {
+        "minimum_total_credits": 9,
+        "core_credits_text_value": 9,
+        "minimum_outside_home_department_credits": 3
+      },
+      "source_pages": [
+        2
+      ],
+      "audit": {
+        "compound_rows_needing_review": [],
+        "duplicates_removed": 0,
+        "course_count": 5,
+        "core_count": 5,
+        "elective_count": 0,
+        "evidence_matched_count": 5
+      }
+    },
+    {
+      "pdf_academic_version": "109-1",
+      "courses": [
+        {
+          "course_code": null,
+          "opening_units": [
+            "精準所"
+          ],
+          "opening_unit_snapshot": "精準所",
+          "course_name_snapshot": "創新精準醫學導論",
+          "credits_snapshot": 3.0,
+          "requirement_group": "core",
+          "notes": "",
+          "source_page": 3,
+          "evidence_match": true,
+          "validation_status": "needs_course_code_verification",
+          "uncertainty_reason": "Official PDF table does not provide a course code"
+        },
+        {
+          "course_code": null,
+          "opening_units": [
+            "生醫所"
+          ],
+          "opening_unit_snapshot": "生醫所",
+          "course_name_snapshot": "蛋白質及核酸化學",
+          "credits_snapshot": 3.0,
+          "requirement_group": "core",
+          "notes": "",
+          "source_page": 3,
+          "evidence_match": true,
+          "validation_status": "needs_course_code_verification",
+          "uncertainty_reason": "Official PDF table does not provide a course code"
+        },
+        {
+          "course_code": null,
+          "opening_units": [
+            "精準所",
+            "生醫所",
+            "醫科所"
+          ],
+          "opening_unit_snapshot": "精準所 / 生醫所 / 醫科所",
+          "course_name_snapshot": "生物資訊學",
+          "credits_snapshot": 3.0,
+          "requirement_group": "core",
+          "notes": "",
+          "source_page": 3,
+          "evidence_match": true,
+          "validation_status": "needs_course_code_verification",
+          "uncertainty_reason": "Official PDF table does not provide a course code"
+        },
+        {
+          "course_code": null,
+          "opening_units": [
+            "精準所"
+          ],
+          "opening_unit_snapshot": "精準所",
+          "course_name_snapshot": "生醫資訊處理實務",
+          "credits_snapshot": 3.0,
+          "requirement_group": "core",
+          "notes": "",
+          "source_page": 3,
+          "evidence_match": true,
+          "validation_status": "needs_course_code_verification",
+          "uncertainty_reason": "Official PDF table does not provide a course code"
+        }
+      ],
+      "requirements": {
+        "minimum_total_credits": 9,
+        "core_credits_text_value": 9,
+        "minimum_outside_home_department_credits": 3
+      },
+      "source_pages": [
+        3
+      ],
+      "audit": {
+        "compound_rows_needing_review": [],
+        "duplicates_removed": 0,
+        "course_count": 4,
+        "core_count": 4,
+        "elective_count": 0,
+        "evidence_matched_count": 4
+      }
+    }
+  ],
+  "selected_pdf_academic_version": "112-1",
+  "structured_courses": [
+    {
+      "course_code": null,
+      "opening_units": [
+        "精準所"
+      ],
+      "opening_unit_snapshot": "精準所",
+      "course_name_snapshot": "創新精準醫學導論",
+      "credits_snapshot": 3.0,
+      "requirement_group": "core",
+      "notes": "",
+      "source_page": 1,
+      "evidence_match": true,
+      "validation_status": "needs_course_code_verification",
+      "uncertainty_reason": "Official PDF table does not provide a course code"
+    },
+    {
+      "course_code": null,
+      "opening_units": [
+        "精準所",
+        "生醫所",
+        "醫科所"
+      ],
+      "opening_unit_snapshot": "精準所 / 生醫所 / 醫科所",
+      "course_name_snapshot": "生物資訊學",
+      "credits_snapshot": 3.0,
+      "requirement_group": "core",
+      "notes": "",
+      "source_page": 1,
+      "evidence_match": true,
+      "validation_status": "needs_course_code_verification",
+      "uncertainty_reason": "Official PDF table does not provide a course code"
+    },
+    {
+      "course_code": null,
+      "opening_units": [
+        "精準所"
+      ],
+      "opening_unit_snapshot": "精準所",
+      "course_name_snapshot": "生醫資訊處理實務",
+      "credits_snapshot": 3.0,
+      "requirement_group": "core",
+      "notes": "",
+      "source_page": 1,
+      "evidence_match": true,
+      "validation_status": "needs_course_code_verification",
+      "uncertainty_reason": "Official PDF table does not provide a course code"
+    },
+    {
+      "course_code": null,
+      "opening_units": [
+        "精準所"
+      ],
+      "opening_unit_snapshot": "精準所",
+      "course_name_snapshot": "生化與分子生物學",
+      "credits_snapshot": 3.0,
+      "requirement_group": "core",
+      "notes": "",
+      "source_page": 1,
+      "evidence_match": true,
+      "validation_status": "needs_course_code_verification",
+      "uncertainty_reason": "Official PDF table does not provide a course code"
+    },
+    {
+      "course_code": null,
+      "opening_units": [
+        "精準所"
+      ],
+      "opening_unit_snapshot": "精準所",
+      "course_name_snapshot": "進階生物醫學統計學",
+      "credits_snapshot": 3.0,
+      "requirement_group": "core",
+      "notes": "",
+      "source_page": 1,
+      "evidence_match": true,
+      "validation_status": "needs_course_code_verification",
+      "uncertainty_reason": "Official PDF table does not provide a course code"
+    },
+    {
+      "course_code": null,
+      "opening_units": [
+        "精準所"
+      ],
+      "opening_unit_snapshot": "精準所",
+      "course_name_snapshot": "癌症生物學",
+      "credits_snapshot": 3.0,
+      "requirement_group": "core",
+      "notes": "",
+      "source_page": 1,
+      "evidence_match": true,
+      "validation_status": "needs_course_code_verification",
+      "uncertainty_reason": "Official PDF table does not provide a course code"
+    }
+  ],
+  "structured_requirements": {
+    "minimum_total_credits": 9,
+    "core_credits_text_value": 9,
+    "minimum_outside_home_department_credits": 3
+  }
+}

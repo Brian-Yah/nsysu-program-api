@@ -1,0 +1,659 @@
+{
+  "program_id": "prog_b026392baea55d9e",
+  "name_zh": "地方敘事與創生學程",
+  "name_en": null,
+  "previous_names": [],
+  "type": "integrated_program",
+  "status": "active",
+  "description": "為了培育新一代富有創業精神學習者,本學程預計設計一系列創業實務相關的實作與理論課程。透過課程的培育,期望可以誘發學習者的創業心態,勇於開創出不同的創業事業與相關實務。",
+  "responsible_unit": "西灣學院",
+  "coordinator": "楊士奇助理教授",
+  "program_website": "https://cm-siwan.nsysu.edu.tw/p/406-1353-319526,r5482.php",
+  "source_pdf": "http://140.117.153.69/ctdr/files/20230612093404948.pdf",
+  "academic_version": "115-1",
+  "source": {
+    "catalog_url": "https://ctdr.nsysu.edu.tw/class2.php",
+    "pdf_url": "http://140.117.153.69/ctdr/files/20230612093404948.pdf",
+    "retrieved_at": "2026-08-15T10:05:39Z",
+    "pdf_binary_sha256": "b499646d5fcfef04839c9b36c330ec04f2fbeddca0059e6d0ffc4de46e8effe2",
+    "normalized_text_sha256": "736600ee635a959225d2b270649130b1cb9cfbbaa0e8b1624bf5e171173db5fc",
+    "http": {
+      "status": 200,
+      "etag": "\"4dfa7-5fde4b6cf5cb4\"",
+      "last_modified": "Mon, 12 Jun 2023 01:34:04 GMT",
+      "content_length": 319399
+    },
+    "parser_version": "0.1.0"
+  },
+  "review_status": "needs_review",
+  "rules": {
+    "kind": "manual_review",
+    "reason": "Extracted candidate awaits approval"
+  },
+  "warnings": [
+    "No structured course rows extracted from PDF tables"
+  ],
+  "selected_pdf_academic_version": "111-2",
+  "course_catalog": [
+    {
+      "course_code": null,
+      "opening_units": [
+        "西灣學院"
+      ],
+      "opening_unit_snapshot": "西灣學院",
+      "course_name_snapshot": "創業講堂",
+      "credits_snapshot": 3.0,
+      "requirement_group": "core",
+      "notes": "",
+      "source_page": 1,
+      "evidence_match": true,
+      "validation_status": "needs_course_code_verification",
+      "uncertainty_reason": "Official PDF table does not provide a course code"
+    },
+    {
+      "course_code": null,
+      "opening_units": [
+        "西灣學院"
+      ],
+      "opening_unit_snapshot": "西灣學院",
+      "course_name_snapshot": "社群意識與倫理",
+      "credits_snapshot": 3.0,
+      "requirement_group": "core",
+      "notes": "",
+      "source_page": 1,
+      "evidence_match": true,
+      "validation_status": "needs_course_code_verification",
+      "uncertainty_reason": "Official PDF table does not provide a course code"
+    },
+    {
+      "course_code": null,
+      "opening_units": [
+        "西灣學院"
+      ],
+      "opening_unit_snapshot": "西灣學院",
+      "course_name_snapshot": "臺灣文化史",
+      "credits_snapshot": 3.0,
+      "requirement_group": "core",
+      "notes": "",
+      "source_page": 1,
+      "evidence_match": true,
+      "validation_status": "needs_course_code_verification",
+      "uncertainty_reason": "Official PDF table does not provide a course code"
+    },
+    {
+      "course_code": null,
+      "opening_units": [
+        "西灣學院"
+      ],
+      "opening_unit_snapshot": "西灣學院",
+      "course_name_snapshot": "服務學習:日本國際志工之服務學習",
+      "credits_snapshot": 1.0,
+      "requirement_group": "core",
+      "notes": "",
+      "source_page": 1,
+      "evidence_match": false,
+      "validation_status": "needs_course_code_verification",
+      "uncertainty_reason": "Official PDF table does not provide a course code"
+    },
+    {
+      "course_code": null,
+      "opening_units": [
+        "西灣學院"
+      ],
+      "opening_unit_snapshot": "西灣學院",
+      "course_name_snapshot": "地方文化採集與應用",
+      "credits_snapshot": 3.0,
+      "requirement_group": "core",
+      "notes": "",
+      "source_page": 1,
+      "evidence_match": true,
+      "validation_status": "needs_course_code_verification",
+      "uncertainty_reason": "Official PDF table does not provide a course code"
+    },
+    {
+      "course_code": null,
+      "opening_units": [
+        "西灣學院"
+      ],
+      "opening_unit_snapshot": "西灣學院",
+      "course_name_snapshot": "創造力與社會創新",
+      "credits_snapshot": 3.0,
+      "requirement_group": "core",
+      "notes": "",
+      "source_page": 1,
+      "evidence_match": true,
+      "validation_status": "needs_course_code_verification",
+      "uncertainty_reason": "Official PDF table does not provide a course code"
+    },
+    {
+      "course_code": null,
+      "opening_units": [
+        "西灣學院"
+      ],
+      "opening_unit_snapshot": "西灣學院",
+      "course_name_snapshot": "跨文化溝通研究",
+      "credits_snapshot": 3.0,
+      "requirement_group": "core",
+      "notes": "",
+      "source_page": 1,
+      "evidence_match": true,
+      "validation_status": "needs_course_code_verification",
+      "uncertainty_reason": "Official PDF table does not provide a course code"
+    },
+    {
+      "course_code": null,
+      "opening_units": [
+        "西灣學院"
+      ],
+      "opening_unit_snapshot": "西灣學院",
+      "course_name_snapshot": "地方敘事與遊戲",
+      "credits_snapshot": 3.0,
+      "requirement_group": "core",
+      "notes": "",
+      "source_page": 1,
+      "evidence_match": true,
+      "validation_status": "needs_course_code_verification",
+      "uncertainty_reason": "Official PDF table does not provide a course code"
+    },
+    {
+      "course_code": null,
+      "opening_units": [
+        "西灣學院"
+      ],
+      "opening_unit_snapshot": "西灣學院",
+      "course_name_snapshot": "文化設計與展演",
+      "credits_snapshot": 3.0,
+      "requirement_group": "core",
+      "notes": "",
+      "source_page": 1,
+      "evidence_match": true,
+      "validation_status": "needs_course_code_verification",
+      "uncertainty_reason": "Official PDF table does not provide a course code"
+    },
+    {
+      "course_code": null,
+      "opening_units": [
+        "西灣學院"
+      ],
+      "opening_unit_snapshot": "西灣學院",
+      "course_name_snapshot": "文化工作的倫理議題",
+      "credits_snapshot": 3.0,
+      "requirement_group": "core",
+      "notes": "",
+      "source_page": 1,
+      "evidence_match": true,
+      "validation_status": "needs_course_code_verification",
+      "uncertainty_reason": "Official PDF table does not provide a course code"
+    },
+    {
+      "course_code": null,
+      "opening_units": [
+        "社會創新研究所"
+      ],
+      "opening_unit_snapshot": "社會創新研究所",
+      "course_name_snapshot": "文化創新研究與實踐",
+      "credits_snapshot": 3.0,
+      "requirement_group": "core",
+      "notes": "",
+      "source_page": 1,
+      "evidence_match": true,
+      "validation_status": "needs_course_code_verification",
+      "uncertainty_reason": "Official PDF table does not provide a course code"
+    },
+    {
+      "course_code": null,
+      "opening_units": [
+        "外文系"
+      ],
+      "opening_unit_snapshot": "外文系",
+      "course_name_snapshot": "觀光英語",
+      "credits_snapshot": 3.0,
+      "requirement_group": "elective",
+      "notes": "※英語授課",
+      "source_page": 1,
+      "evidence_match": true,
+      "validation_status": "needs_course_code_verification",
+      "uncertainty_reason": "Official PDF table does not provide a course code"
+    },
+    {
+      "course_code": null,
+      "opening_units": [
+        "劇藝系"
+      ],
+      "opening_unit_snapshot": "劇藝系",
+      "course_name_snapshot": "展示設計",
+      "credits_snapshot": 3.0,
+      "requirement_group": "elective",
+      "notes": "",
+      "source_page": 1,
+      "evidence_match": true,
+      "validation_status": "needs_course_code_verification",
+      "uncertainty_reason": "Official PDF table does not provide a course code"
+    },
+    {
+      "course_code": null,
+      "opening_units": [
+        "社會系"
+      ],
+      "opening_unit_snapshot": "社會系",
+      "course_name_snapshot": "社會學",
+      "credits_snapshot": 3.0,
+      "requirement_group": "elective",
+      "notes": "",
+      "source_page": 1,
+      "evidence_match": true,
+      "validation_status": "needs_course_code_verification",
+      "uncertainty_reason": "Official PDF table does not provide a course code"
+    },
+    {
+      "course_code": null,
+      "opening_units": [
+        "社會系"
+      ],
+      "opening_unit_snapshot": "社會系",
+      "course_name_snapshot": "物質文化與人類學",
+      "credits_snapshot": 3.0,
+      "requirement_group": "elective",
+      "notes": "",
+      "source_page": 1,
+      "evidence_match": true,
+      "validation_status": "needs_course_code_verification",
+      "uncertainty_reason": "Official PDF table does not provide a course code"
+    },
+    {
+      "course_code": null,
+      "opening_units": [
+        "企管系"
+      ],
+      "opening_unit_snapshot": "企管系",
+      "course_name_snapshot": "行銷管理",
+      "credits_snapshot": 3.0,
+      "requirement_group": "elective",
+      "notes": "",
+      "source_page": 1,
+      "evidence_match": true,
+      "validation_status": "needs_course_code_verification",
+      "uncertainty_reason": "Official PDF table does not provide a course code"
+    },
+    {
+      "course_code": null,
+      "opening_units": [
+        "企管系"
+      ],
+      "opening_unit_snapshot": "企管系",
+      "course_name_snapshot": "創業管理",
+      "credits_snapshot": 3.0,
+      "requirement_group": "elective",
+      "notes": "",
+      "source_page": 1,
+      "evidence_match": true,
+      "validation_status": "needs_course_code_verification",
+      "uncertainty_reason": "Official PDF table does not provide a course code"
+    },
+    {
+      "course_code": null,
+      "opening_units": [
+        "企管系"
+      ],
+      "opening_unit_snapshot": "企管系",
+      "course_name_snapshot": "管理學",
+      "credits_snapshot": 3.0,
+      "requirement_group": "elective",
+      "notes": "",
+      "source_page": 1,
+      "evidence_match": true,
+      "validation_status": "needs_course_code_verification",
+      "uncertainty_reason": "Official PDF table does not provide a course code"
+    },
+    {
+      "course_code": null,
+      "opening_units": [
+        "企管系"
+      ],
+      "opening_unit_snapshot": "企管系",
+      "course_name_snapshot": "創意思考",
+      "credits_snapshot": 3.0,
+      "requirement_group": "elective",
+      "notes": "",
+      "source_page": 1,
+      "evidence_match": true,
+      "validation_status": "needs_course_code_verification",
+      "uncertainty_reason": "Official PDF table does not provide a course code"
+    },
+    {
+      "course_code": null,
+      "opening_units": [
+        "政經系"
+      ],
+      "opening_unit_snapshot": "政經系",
+      "course_name_snapshot": "非營利組織管理導論",
+      "credits_snapshot": 3.0,
+      "requirement_group": "elective",
+      "notes": "",
+      "source_page": 1,
+      "evidence_match": true,
+      "validation_status": "needs_course_code_verification",
+      "uncertainty_reason": "Official PDF table does not provide a course code"
+    },
+    {
+      "course_code": null,
+      "opening_units": [
+        "財管系"
+      ],
+      "opening_unit_snapshot": "財管系",
+      "course_name_snapshot": "社會企業商業模式發展與實作",
+      "credits_snapshot": 3.0,
+      "requirement_group": "elective",
+      "notes": "",
+      "source_page": 1,
+      "evidence_match": true,
+      "validation_status": "needs_course_code_verification",
+      "uncertainty_reason": "Official PDF table does not provide a course code"
+    },
+    {
+      "course_code": null,
+      "opening_units": [
+        "西灣學院"
+      ],
+      "opening_unit_snapshot": "西灣學院",
+      "course_name_snapshot": "邏輯推理與創造性思維",
+      "credits_snapshot": 3.0,
+      "requirement_group": "elective",
+      "notes": "",
+      "source_page": 1,
+      "evidence_match": true,
+      "validation_status": "needs_course_code_verification",
+      "uncertainty_reason": "Official PDF table does not provide a course code"
+    },
+    {
+      "course_code": null,
+      "opening_units": [
+        "西灣學院"
+      ],
+      "opening_unit_snapshot": "西灣學院",
+      "course_name_snapshot": "台灣社會與文化",
+      "credits_snapshot": 3.0,
+      "requirement_group": "elective",
+      "notes": "",
+      "source_page": 1,
+      "evidence_match": true,
+      "validation_status": "needs_course_code_verification",
+      "uncertainty_reason": "Official PDF table does not provide a course code"
+    },
+    {
+      "course_code": null,
+      "opening_units": [
+        "西灣學院"
+      ],
+      "opening_unit_snapshot": "西灣學院",
+      "course_name_snapshot": "海洋文化",
+      "credits_snapshot": 3.0,
+      "requirement_group": "elective",
+      "notes": "",
+      "source_page": 1,
+      "evidence_match": true,
+      "validation_status": "needs_course_code_verification",
+      "uncertainty_reason": "Official PDF table does not provide a course code"
+    },
+    {
+      "course_code": null,
+      "opening_units": [
+        "西灣學院"
+      ],
+      "opening_unit_snapshot": "西灣學院",
+      "course_name_snapshot": "日本文化概論",
+      "credits_snapshot": 3.0,
+      "requirement_group": "elective",
+      "notes": "",
+      "source_page": 1,
+      "evidence_match": true,
+      "validation_status": "needs_course_code_verification",
+      "uncertainty_reason": "Official PDF table does not provide a course code"
+    },
+    {
+      "course_code": null,
+      "opening_units": [
+        "西灣學院"
+      ],
+      "opening_unit_snapshot": "西灣學院",
+      "course_name_snapshot": "人文經典導讀",
+      "credits_snapshot": 3.0,
+      "requirement_group": "elective",
+      "notes": "",
+      "source_page": 1,
+      "evidence_match": true,
+      "validation_status": "needs_course_code_verification",
+      "uncertainty_reason": "Official PDF table does not provide a course code"
+    },
+    {
+      "course_code": null,
+      "opening_units": [
+        "西灣學院"
+      ],
+      "opening_unit_snapshot": "西灣學院",
+      "course_name_snapshot": "飲食與文學",
+      "credits_snapshot": 3.0,
+      "requirement_group": "elective",
+      "notes": "",
+      "source_page": 1,
+      "evidence_match": true,
+      "validation_status": "needs_course_code_verification",
+      "uncertainty_reason": "Official PDF table does not provide a course code"
+    },
+    {
+      "course_code": null,
+      "opening_units": [
+        "西灣學院"
+      ],
+      "opening_unit_snapshot": "西灣學院",
+      "course_name_snapshot": "通識專題講座:美學與文化識讀",
+      "credits_snapshot": 2.0,
+      "requirement_group": "elective",
+      "notes": "",
+      "source_page": 1,
+      "evidence_match": false,
+      "validation_status": "needs_course_code_verification",
+      "uncertainty_reason": "Official PDF table does not provide a course code"
+    },
+    {
+      "course_code": null,
+      "opening_units": [
+        "西灣學院"
+      ],
+      "opening_unit_snapshot": "西灣學院",
+      "course_name_snapshot": "探尋建築工藝中的高雄故事",
+      "credits_snapshot": 3.0,
+      "requirement_group": "elective",
+      "notes": "※英語授課",
+      "source_page": 1,
+      "evidence_match": true,
+      "validation_status": "needs_course_code_verification",
+      "uncertainty_reason": "Official PDF table does not provide a course code"
+    },
+    {
+      "course_code": null,
+      "opening_units": [
+        "西灣學院"
+      ],
+      "opening_unit_snapshot": "西灣學院",
+      "course_name_snapshot": "地方品牌與文化行銷",
+      "credits_snapshot": 3.0,
+      "requirement_group": "elective",
+      "notes": "",
+      "source_page": 1,
+      "evidence_match": true,
+      "validation_status": "needs_course_code_verification",
+      "uncertainty_reason": "Official PDF table does not provide a course code"
+    },
+    {
+      "course_code": null,
+      "opening_units": [
+        "西灣學院"
+      ],
+      "opening_unit_snapshot": "西灣學院",
+      "course_name_snapshot": "創新創業場域實作",
+      "credits_snapshot": 2.0,
+      "requirement_group": "elective",
+      "notes": "",
+      "source_page": 1,
+      "evidence_match": true,
+      "validation_status": "needs_course_code_verification",
+      "uncertainty_reason": "Official PDF table does not provide a course code"
+    },
+    {
+      "course_code": null,
+      "opening_units": [
+        "西灣學院"
+      ],
+      "opening_unit_snapshot": "西灣學院",
+      "course_name_snapshot": "社會文化分析與台灣社會",
+      "credits_snapshot": 3.0,
+      "requirement_group": "elective",
+      "notes": "※英語授課",
+      "source_page": 1,
+      "evidence_match": true,
+      "validation_status": "needs_course_code_verification",
+      "uncertainty_reason": "Official PDF table does not provide a course code"
+    },
+    {
+      "course_code": null,
+      "opening_units": [
+        "西灣學院"
+      ],
+      "opening_unit_snapshot": "西灣學院",
+      "course_name_snapshot": "青少年、流行文化與社會",
+      "credits_snapshot": 3.0,
+      "requirement_group": "elective",
+      "notes": "",
+      "source_page": 2,
+      "evidence_match": true,
+      "validation_status": "needs_course_code_verification",
+      "uncertainty_reason": "Official PDF table does not provide a course code"
+    },
+    {
+      "course_code": null,
+      "opening_units": [
+        "西灣學院"
+      ],
+      "opening_unit_snapshot": "西灣學院",
+      "course_name_snapshot": "故事創意與數位繪本",
+      "credits_snapshot": 2.0,
+      "requirement_group": "elective",
+      "notes": "",
+      "source_page": 2,
+      "evidence_match": true,
+      "validation_status": "needs_course_code_verification",
+      "uncertainty_reason": "Official PDF table does not provide a course code"
+    },
+    {
+      "course_code": null,
+      "opening_units": [
+        "西灣學院"
+      ],
+      "opening_unit_snapshot": "西灣學院",
+      "course_name_snapshot": "服務學習:史蹟導覽",
+      "credits_snapshot": 1.0,
+      "requirement_group": "elective",
+      "notes": "",
+      "source_page": 2,
+      "evidence_match": true,
+      "validation_status": "needs_course_code_verification",
+      "uncertainty_reason": "Official PDF table does not provide a course code"
+    },
+    {
+      "course_code": null,
+      "opening_units": [
+        "西灣學院"
+      ],
+      "opening_unit_snapshot": "西灣學院",
+      "course_name_snapshot": "服務學習:文化設計與社區實作",
+      "credits_snapshot": 1.0,
+      "requirement_group": "elective",
+      "notes": "",
+      "source_page": 2,
+      "evidence_match": false,
+      "validation_status": "needs_course_code_verification",
+      "uncertainty_reason": "Official PDF table does not provide a course code"
+    },
+    {
+      "course_code": null,
+      "opening_units": [
+        "社會創新研究所"
+      ],
+      "opening_unit_snapshot": "社會創新研究所",
+      "course_name_snapshot": "地方創生研究與實踐(一)",
+      "credits_snapshot": 3.0,
+      "requirement_group": "elective",
+      "notes": "",
+      "source_page": 2,
+      "evidence_match": true,
+      "validation_status": "needs_course_code_verification",
+      "uncertainty_reason": "Official PDF table does not provide a course code"
+    },
+    {
+      "course_code": null,
+      "opening_units": [
+        "社會創新研究所"
+      ],
+      "opening_unit_snapshot": "社會創新研究所",
+      "course_name_snapshot": "地方創生研究與實踐(二)",
+      "credits_snapshot": 3.0,
+      "requirement_group": "elective",
+      "notes": "",
+      "source_page": 2,
+      "evidence_match": true,
+      "validation_status": "needs_course_code_verification",
+      "uncertainty_reason": "Official PDF table does not provide a course code"
+    },
+    {
+      "course_code": null,
+      "opening_units": [
+        "社會創新研究所"
+      ],
+      "opening_unit_snapshot": "社會創新研究所",
+      "course_name_snapshot": "文化創新理論",
+      "credits_snapshot": 3.0,
+      "requirement_group": "elective",
+      "notes": "",
+      "source_page": 2,
+      "evidence_match": true,
+      "validation_status": "needs_course_code_verification",
+      "uncertainty_reason": "Official PDF table does not provide a course code"
+    },
+    {
+      "course_code": null,
+      "opening_units": [
+        "西灣學院"
+      ],
+      "opening_unit_snapshot": "西灣學院",
+      "course_name_snapshot": "社會文化分析",
+      "credits_snapshot": 3.0,
+      "requirement_group": "elective",
+      "notes": "",
+      "source_page": 2,
+      "evidence_match": true,
+      "validation_status": "needs_course_code_verification",
+      "uncertainty_reason": "Official PDF table does not provide a course code"
+    },
+    {
+      "course_code": null,
+      "opening_units": [
+        "社會創新研究所"
+      ],
+      "opening_unit_snapshot": "社會創新研究所",
+      "course_name_snapshot": "科技創新研究與實踐",
+      "credits_snapshot": 3.0,
+      "requirement_group": "elective",
+      "notes": "",
+      "source_page": 2,
+      "evidence_match": true,
+      "validation_status": "needs_course_code_verification",
+      "uncertainty_reason": "Official PDF table does not provide a course code"
+    }
+  ],
+  "structured_requirements": {
+    "core_credits_text_value": 9,
+    "minimum_total_credits": 20,
+    "minimum_outside_home_department_credits": 6
+  }
+}

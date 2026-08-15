@@ -1,0 +1,184 @@
+{
+  "program_id": "prog_e7809c397f60506f",
+  "latest_academic_version": "115-1",
+  "versions": [
+    "115-1"
+  ],
+  "program": {
+    "program_id": "prog_e7809c397f60506f",
+    "name_zh": "社區文創微學程",
+    "name_en": null,
+    "previous_names": [],
+    "type": "micro_program",
+    "status": "active",
+    "description": "「社區文創設計」的課程有兩個面向:一方面重新思考社區的文創設計,其實就是重新思考社區中人與人之間的連結,以及社區中的居民如何認知、想像和組織他們自身的文化,進一步思索社區文創設計與文化產業的互動和形塑;另一方面,藉由具體的個案和相關的實作,反思當前社區文化面臨的相關議題,以及思索在地社區未來可能發展的方向。\n在學程的實作發展重點,主要有三大主軸:一、社區故事的調查、採集、拍攝與書寫。二、社區歷史與文化的深化與活化,透過前述在地社會調查的成果,發展社區遊戲APP、社區文化深入導覽等活動,使得在地文化不僅可以文字化、影像化,同時可以藉由遊戲化和觀光化更為普及化。三、社區文化與各種藝術形式的再現",
+    "responsible_unit": "社會系",
+    "coordinator": "王梅香副教授",
+    "program_website": "https://rallynsysu.wixsite.com/4rally-nsysu/single-post/%E7%A4%BE%E5%8D%80%E6%96%87%E5%89%B5%E8%A8%AD%E8%A8%88-1",
+    "source_pdf": "http://140.117.153.69/ctdr/files/20250527102549742.pdf",
+    "academic_version": "115-1",
+    "source": {
+      "catalog_url": "https://ctdr.nsysu.edu.tw/class2.php",
+      "pdf_url": "http://140.117.153.69/ctdr/files/20250527102549742.pdf",
+      "retrieved_at": "2026-08-15T10:05:39Z",
+      "pdf_binary_sha256": "57161df108ffeb1c517f0f31ac61402524f99f5385cf87a5ffd061e013c4d0ea",
+      "normalized_text_sha256": "c719d7bb3bd1015fb8641c3f1beba6b44e9a2b2d8639c1e83f74cbd1c3e80ae6",
+      "http": {
+        "status": 200,
+        "etag": "\"4d120-63614c867c238\"",
+        "last_modified": "Tue, 27 May 2025 02:25:49 GMT",
+        "content_length": 315680
+      },
+      "parser_version": "0.1.0"
+    },
+    "review_status": "needs_review",
+    "rules": {
+      "kind": "manual_review",
+      "reason": "Extracted candidate awaits approval"
+    },
+    "warnings": [],
+    "selected_pdf_academic_version": "113-2",
+    "course_catalog": [
+      {
+        "course_code": null,
+        "opening_units": [
+          "社會系"
+        ],
+        "opening_unit_snapshot": "社會系",
+        "course_name_snapshot": "文化社會學",
+        "credits_snapshot": 3.0,
+        "requirement_group": "core",
+        "notes": "",
+        "source_page": 1,
+        "evidence_match": true,
+        "validation_status": "needs_course_code_verification",
+        "uncertainty_reason": "Official PDF table does not provide a course code"
+      },
+      {
+        "course_code": null,
+        "opening_units": [
+          "社會系"
+        ],
+        "opening_unit_snapshot": "社會系",
+        "course_name_snapshot": "社區文創設計",
+        "credits_snapshot": 3.0,
+        "requirement_group": "elective",
+        "notes": "包括同性質的實習課程、實作課程或服務學習。",
+        "source_page": 1,
+        "evidence_match": true,
+        "validation_status": "needs_course_code_verification",
+        "uncertainty_reason": "Official PDF table does not provide a course code"
+      },
+      {
+        "course_code": null,
+        "opening_units": [
+          "中文系"
+        ],
+        "opening_unit_snapshot": "中文系",
+        "course_name_snapshot": "在地敘事與記憶",
+        "credits_snapshot": 3.0,
+        "requirement_group": "elective",
+        "notes": "",
+        "source_page": 1,
+        "evidence_match": true,
+        "validation_status": "needs_course_code_verification",
+        "uncertainty_reason": "Official PDF table does not provide a course code"
+      },
+      {
+        "course_code": null,
+        "opening_units": [
+          "外文系"
+        ],
+        "opening_unit_snapshot": "外文系",
+        "course_name_snapshot": "觀光英語",
+        "credits_snapshot": 3.0,
+        "requirement_group": "elective",
+        "notes": "",
+        "source_page": 1,
+        "evidence_match": true,
+        "validation_status": "needs_course_code_verification",
+        "uncertainty_reason": "Official PDF table does not provide a course code"
+      },
+      {
+        "course_code": null,
+        "opening_units": [
+          "音樂系"
+        ],
+        "opening_unit_snapshot": "音樂系",
+        "course_name_snapshot": "展演實作專案",
+        "credits_snapshot": 1.0,
+        "requirement_group": "elective",
+        "notes": "包含展演實作專案(一)(二)",
+        "source_page": 1,
+        "evidence_match": true,
+        "validation_status": "needs_course_code_verification",
+        "uncertainty_reason": "Official PDF table does not provide a course code"
+      },
+      {
+        "course_code": null,
+        "opening_units": [
+          "劇藝系"
+        ],
+        "opening_unit_snapshot": "劇藝系",
+        "course_name_snapshot": "歌唱技巧",
+        "credits_snapshot": 2.0,
+        "requirement_group": "elective",
+        "notes": "",
+        "source_page": 1,
+        "evidence_match": true,
+        "validation_status": "needs_course_code_verification",
+        "uncertainty_reason": "Official PDF table does not provide a course code"
+      },
+      {
+        "course_code": null,
+        "opening_units": [
+          "管理學院"
+        ],
+        "opening_unit_snapshot": "管理學院",
+        "course_name_snapshot": "物質文化與人類學",
+        "credits_snapshot": 3.0,
+        "requirement_group": "elective",
+        "notes": "",
+        "source_page": 1,
+        "evidence_match": true,
+        "validation_status": "needs_course_code_verification",
+        "uncertainty_reason": "Official PDF table does not provide a course code"
+      },
+      {
+        "course_code": null,
+        "opening_units": [
+          "人科學程"
+        ],
+        "opening_unit_snapshot": "人科學程",
+        "course_name_snapshot": "設計思考:人文設計與創業",
+        "credits_snapshot": 3.0,
+        "requirement_group": "elective",
+        "notes": "",
+        "source_page": 1,
+        "evidence_match": true,
+        "validation_status": "needs_course_code_verification",
+        "uncertainty_reason": "Official PDF table does not provide a course code"
+      },
+      {
+        "course_code": null,
+        "opening_units": [
+          "西灣學院"
+        ],
+        "opening_unit_snapshot": "西灣學院",
+        "course_name_snapshot": "海洋文化",
+        "credits_snapshot": 3.0,
+        "requirement_group": "elective",
+        "notes": "",
+        "source_page": 2,
+        "evidence_match": true,
+        "validation_status": "needs_course_code_verification",
+        "uncertainty_reason": "Official PDF table does not provide a course code"
+      }
+    ],
+    "structured_requirements": {
+      "core_credits_text_value": 6,
+      "minimum_total_credits": 9,
+      "minimum_outside_home_department_credits": 3
+    }
+  }
+}

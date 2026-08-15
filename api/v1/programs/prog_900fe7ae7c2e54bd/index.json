@@ -1,0 +1,216 @@
+{
+  "program_id": "prog_900fe7ae7c2e54bd",
+  "latest_academic_version": "115-1",
+  "versions": [
+    "115-1"
+  ],
+  "program": {
+    "program_id": "prog_900fe7ae7c2e54bd",
+    "name_zh": "創新創業微學程",
+    "name_en": null,
+    "previous_names": [],
+    "type": "micro_program",
+    "status": "active",
+    "description": "本學程旨在培養學生透過創造力、創新能力與創業精神,回應全球社會發展過程中待解決的社會問題。本學程特色為結合跨域師資與多元學習方式,包括課堂講授、專題演講、參訪體驗,以及場域實作等教學策略,引導學生探索和思考社會問題解方,展開社會創新與社會創業的實踐旅程。",
+    "responsible_unit": "社創所",
+    "coordinator": "游銘仁助理教授",
+    "program_website": "https://cm-siwan.nsysu.edu.tw/p/406-1353-319517,r5482.php",
+    "source_pdf": "http://140.117.153.69/ctdr/files/20250527101343574.pdf",
+    "academic_version": "115-1",
+    "source": {
+      "catalog_url": "https://ctdr.nsysu.edu.tw/class2.php",
+      "pdf_url": "http://140.117.153.69/ctdr/files/20250527101343574.pdf",
+      "retrieved_at": "2026-08-15T10:05:39Z",
+      "pdf_binary_sha256": "e72c36faca6dfd9ff405bb7cc473318c2e57355d96265b1b0017f640c3a8c47c",
+      "normalized_text_sha256": "466db31b1a3a07d41a25dde774d62927b7102e15424ac92b13c05b833031a89e",
+      "http": {
+        "status": 200,
+        "etag": "\"3f409-636149d1f4bd3\"",
+        "last_modified": "Tue, 27 May 2025 02:13:43 GMT",
+        "content_length": 259081
+      },
+      "parser_version": "0.1.0"
+    },
+    "review_status": "needs_review",
+    "rules": {
+      "kind": "manual_review",
+      "reason": "Extracted candidate awaits approval"
+    },
+    "warnings": [
+      "No structured course rows extracted from PDF tables"
+    ],
+    "selected_pdf_academic_version": "113-2",
+    "course_catalog": [
+      {
+        "course_code": null,
+        "opening_units": [
+          "基礎教育中心"
+        ],
+        "opening_unit_snapshot": "基礎教育中心",
+        "course_name_snapshot": "創造力與社會創新",
+        "credits_snapshot": 3.0,
+        "requirement_group": "core",
+        "notes": "",
+        "source_page": 1,
+        "evidence_match": true,
+        "validation_status": "needs_course_code_verification",
+        "uncertainty_reason": "Official PDF table does not provide a course code"
+      },
+      {
+        "course_code": null,
+        "opening_units": [
+          "基礎教育中心"
+        ],
+        "opening_unit_snapshot": "基礎教育中心",
+        "course_name_snapshot": "創業講堂",
+        "credits_snapshot": 3.0,
+        "requirement_group": "core",
+        "notes": "",
+        "source_page": 1,
+        "evidence_match": true,
+        "validation_status": "needs_course_code_verification",
+        "uncertainty_reason": "Official PDF table does not provide a course code"
+      },
+      {
+        "course_code": null,
+        "opening_units": [
+          "人科學程"
+        ],
+        "opening_unit_snapshot": "人科學程",
+        "course_name_snapshot": "精實創業",
+        "credits_snapshot": 3.0,
+        "requirement_group": "elective",
+        "notes": "",
+        "source_page": 1,
+        "evidence_match": true,
+        "validation_status": "needs_course_code_verification",
+        "uncertainty_reason": "Official PDF table does not provide a course code"
+      },
+      {
+        "course_code": null,
+        "opening_units": [
+          "人科學程"
+        ],
+        "opening_unit_snapshot": "人科學程",
+        "course_name_snapshot": "社會創新與創業",
+        "credits_snapshot": 3.0,
+        "requirement_group": "elective",
+        "notes": "",
+        "source_page": 1,
+        "evidence_match": true,
+        "validation_status": "needs_course_code_verification",
+        "uncertainty_reason": "Official PDF table does not provide a course code"
+      },
+      {
+        "course_code": null,
+        "opening_units": [
+          "人科學程"
+        ],
+        "opening_unit_snapshot": "人科學程",
+        "course_name_snapshot": "當代社會問題與創新案例研究",
+        "credits_snapshot": 3.0,
+        "requirement_group": "elective",
+        "notes": "",
+        "source_page": 1,
+        "evidence_match": true,
+        "validation_status": "needs_course_code_verification",
+        "uncertainty_reason": "Official PDF table does not provide a course code"
+      },
+      {
+        "course_code": null,
+        "opening_units": [
+          "光電系"
+        ],
+        "opening_unit_snapshot": "光電系",
+        "course_name_snapshot": "創新資訊科技應用",
+        "credits_snapshot": 3.0,
+        "requirement_group": "elective",
+        "notes": "",
+        "source_page": 1,
+        "evidence_match": true,
+        "validation_status": "needs_course_code_verification",
+        "uncertainty_reason": "Official PDF table does not provide a course code"
+      },
+      {
+        "course_code": null,
+        "opening_units": [
+          "博雅教育中心"
+        ],
+        "opening_unit_snapshot": "博雅教育中心",
+        "course_name_snapshot": "創新科技應用服務",
+        "credits_snapshot": 3.0,
+        "requirement_group": "elective",
+        "notes": "",
+        "source_page": 1,
+        "evidence_match": true,
+        "validation_status": "needs_course_code_verification",
+        "uncertainty_reason": "Official PDF table does not provide a course code"
+      },
+      {
+        "course_code": null,
+        "opening_units": [
+          "跨院選修(通)"
+        ],
+        "opening_unit_snapshot": "跨院選修(通)",
+        "course_name_snapshot": "創意設計方法",
+        "credits_snapshot": 3.0,
+        "requirement_group": "elective",
+        "notes": "",
+        "source_page": 1,
+        "evidence_match": true,
+        "validation_status": "needs_course_code_verification",
+        "uncertainty_reason": "Official PDF table does not provide a course code"
+      },
+      {
+        "course_code": null,
+        "opening_units": [
+          "跨院選修(通)"
+        ],
+        "opening_unit_snapshot": "跨院選修(通)",
+        "course_name_snapshot": "關懷設計",
+        "credits_snapshot": 3.0,
+        "requirement_group": "elective",
+        "notes": "",
+        "source_page": 1,
+        "evidence_match": true,
+        "validation_status": "needs_course_code_verification",
+        "uncertainty_reason": "Official PDF table does not provide a course code"
+      },
+      {
+        "course_code": null,
+        "opening_units": [
+          "人科學程"
+        ],
+        "opening_unit_snapshot": "人科學程",
+        "course_name_snapshot": "設計溝通與表達",
+        "credits_snapshot": 3.0,
+        "requirement_group": "elective",
+        "notes": "",
+        "source_page": 1,
+        "evidence_match": true,
+        "validation_status": "needs_course_code_verification",
+        "uncertainty_reason": "Official PDF table does not provide a course code"
+      },
+      {
+        "course_code": null,
+        "opening_units": [
+          "企企管碩"
+        ],
+        "opening_unit_snapshot": "企企管碩",
+        "course_name_snapshot": "平台商業模式",
+        "credits_snapshot": 3.0,
+        "requirement_group": "elective",
+        "notes": "",
+        "source_page": 1,
+        "evidence_match": true,
+        "validation_status": "needs_course_code_verification",
+        "uncertainty_reason": "Official PDF table does not provide a course code"
+      }
+    ],
+    "structured_requirements": {
+      "minimum_total_credits": 9,
+      "core_credits_text_value": 3,
+      "minimum_outside_home_department_credits": 3
+    }
+  }
+}

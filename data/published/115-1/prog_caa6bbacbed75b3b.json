@@ -1,0 +1,284 @@
+{
+  "program_id": "prog_caa6bbacbed75b3b",
+  "name_zh": "永續管理微學程",
+  "name_en": null,
+  "previous_names": [],
+  "type": "micro_program",
+  "status": "active",
+  "description": "本學程重點在讓學生瞭解「永續」(sustainability,即兼顧經濟、環保及社會的發展) 對現代企業的意義,尤其是永續管理對企業的重要性,並培養學生從事永續管理工作的技能。特色是結合本校管理學院、理工及海洋學院,以及資深業師,為學生提供管理學、基礎環境科學的知識及實務訓練(例如企業社會責任報告的寫作),成為許多企業所渴求的永續管理人才。選修課程多數來自通識課程,並有多個系所開設,方便學生選讀。\n其中一門實務課程「企業社會責任報告寫作」,現由領導力企業管理顧問公司創辦人王聖源顧問師共同授課。該門課期末考試達 70分者可申請加發該顧問公司的「CSR 實作訓練班合格證書」,作為應徵特定職務時的訓練證明,有利學生就業。",
+  "responsible_unit": "公事所",
+  "coordinator": "吳偉寧教授",
+  "program_website": "https://pam.nsysu.edu.tw/p/404-1234-194784.php?Lang=zh-tw",
+  "source_pdf": "http://140.117.153.69/ctdr/files/20251223145544855.pdf",
+  "academic_version": "115-1",
+  "source": {
+    "catalog_url": "https://ctdr.nsysu.edu.tw/class2.php",
+    "pdf_url": "http://140.117.153.69/ctdr/files/20251223145544855.pdf",
+    "retrieved_at": "2026-08-15T10:05:39Z",
+    "pdf_binary_sha256": "a4dd9e92c38bc0d6a0f224b4b51f996b97153d30d02b0b168dac9bffdccd356b",
+    "normalized_text_sha256": "f1b9cce4e5b5123aa5ce3389d3ab2fdee39949f2e7626ea691b617fb00445b1d",
+    "http": {
+      "status": 200,
+      "etag": "\"34d42-6469908627d90\"",
+      "last_modified": "Tue, 23 Dec 2025 06:55:44 GMT",
+      "content_length": 216386
+    },
+    "parser_version": "0.1.0"
+  },
+  "review_status": "needs_review",
+  "rules": {
+    "kind": "manual_review",
+    "reason": "Extracted candidate awaits approval"
+  },
+  "warnings": [
+    "No structured course rows extracted from PDF tables"
+  ],
+  "selected_pdf_academic_version": "114-1",
+  "course_catalog": [
+    {
+      "course_code": null,
+      "opening_units": [
+        "公事所"
+      ],
+      "opening_unit_snapshot": "公事所",
+      "course_name_snapshot": "永續管理概論",
+      "credits_snapshot": 2.0,
+      "requirement_group": "core",
+      "notes": "",
+      "source_page": 1,
+      "evidence_match": true,
+      "validation_status": "needs_course_code_verification",
+      "uncertainty_reason": "Official PDF table does not provide a course code"
+    },
+    {
+      "course_code": null,
+      "opening_units": [
+        "跨院選修"
+      ],
+      "opening_unit_snapshot": "跨院選修",
+      "course_name_snapshot": "永續都市環境行為及心理學",
+      "credits_snapshot": 3.0,
+      "requirement_group": "core",
+      "notes": "",
+      "source_page": 1,
+      "evidence_match": true,
+      "validation_status": "needs_course_code_verification",
+      "uncertainty_reason": "Official PDF table does not provide a course code"
+    },
+    {
+      "course_code": null,
+      "opening_units": [
+        "公事所"
+      ],
+      "opening_unit_snapshot": "公事所",
+      "course_name_snapshot": "永續發展與綠色管理",
+      "credits_snapshot": 3.0,
+      "requirement_group": "core",
+      "notes": "英語授課",
+      "source_page": 1,
+      "evidence_match": true,
+      "validation_status": "needs_course_code_verification",
+      "uncertainty_reason": "Official PDF table does not provide a course code"
+    },
+    {
+      "course_code": null,
+      "opening_units": [
+        "公事所"
+      ],
+      "opening_unit_snapshot": "公事所",
+      "course_name_snapshot": "城市災害管理",
+      "credits_snapshot": 2.0,
+      "requirement_group": "core",
+      "notes": "",
+      "source_page": 1,
+      "evidence_match": true,
+      "validation_status": "needs_course_code_verification",
+      "uncertainty_reason": "Official PDF table does not provide a course code"
+    },
+    {
+      "course_code": null,
+      "opening_units": [
+        "公事所"
+      ],
+      "opening_unit_snapshot": "公事所",
+      "course_name_snapshot": "都市環境管理",
+      "credits_snapshot": 2.0,
+      "requirement_group": "core",
+      "notes": "",
+      "source_page": 1,
+      "evidence_match": true,
+      "validation_status": "needs_course_code_verification",
+      "uncertainty_reason": "Official PDF table does not provide a course code"
+    },
+    {
+      "course_code": null,
+      "opening_units": [
+        "公事所"
+      ],
+      "opening_unit_snapshot": "公事所",
+      "course_name_snapshot": "永續報告書寫作",
+      "credits_snapshot": 2.0,
+      "requirement_group": "core",
+      "notes": "",
+      "source_page": 1,
+      "evidence_match": true,
+      "validation_status": "needs_course_code_verification",
+      "uncertainty_reason": "Official PDF table does not provide a course code"
+    },
+    {
+      "course_code": null,
+      "opening_units": [
+        "公事所"
+      ],
+      "opening_unit_snapshot": "公事所",
+      "course_name_snapshot": "溫室氣體盤查報告實作",
+      "credits_snapshot": 2.0,
+      "requirement_group": "core",
+      "notes": "",
+      "source_page": 1,
+      "evidence_match": true,
+      "validation_status": "needs_course_code_verification",
+      "uncertainty_reason": "Official PDF table does not provide a course code"
+    },
+    {
+      "course_code": null,
+      "opening_units": [
+        "西灣學院"
+      ],
+      "opening_unit_snapshot": "西灣學院",
+      "course_name_snapshot": "污染防治與環境管理",
+      "credits_snapshot": 2.0,
+      "requirement_group": "elective",
+      "notes": "",
+      "source_page": 1,
+      "evidence_match": true,
+      "validation_status": "needs_course_code_verification",
+      "uncertainty_reason": "Official PDF table does not provide a course code"
+    },
+    {
+      "course_code": null,
+      "opening_units": [
+        "管理學院"
+      ],
+      "opening_unit_snapshot": "管理學院",
+      "course_name_snapshot": "綠色採購",
+      "credits_snapshot": 1.0,
+      "requirement_group": "elective",
+      "notes": "自114-2學期起改為英語授課",
+      "source_page": 1,
+      "evidence_match": true,
+      "validation_status": "needs_course_code_verification",
+      "uncertainty_reason": "Official PDF table does not provide a course code"
+    },
+    {
+      "course_code": null,
+      "opening_units": [
+        "管理學院"
+      ],
+      "opening_unit_snapshot": "管理學院",
+      "course_name_snapshot": "永續金融",
+      "credits_snapshot": 2.0,
+      "requirement_group": "elective",
+      "notes": "",
+      "source_page": 1,
+      "evidence_match": true,
+      "validation_status": "needs_course_code_verification",
+      "uncertainty_reason": "Official PDF table does not provide a course code"
+    },
+    {
+      "course_code": null,
+      "opening_units": [
+        "公事所"
+      ],
+      "opening_unit_snapshot": "公事所",
+      "course_name_snapshot": "企業社會責任專題",
+      "credits_snapshot": 2.0,
+      "requirement_group": "elective",
+      "notes": "",
+      "source_page": 1,
+      "evidence_match": true,
+      "validation_status": "needs_course_code_verification",
+      "uncertainty_reason": "Official PDF table does not provide a course code"
+    },
+    {
+      "course_code": null,
+      "opening_units": [
+        "公事所"
+      ],
+      "opening_unit_snapshot": "公事所",
+      "course_name_snapshot": "氣候行動書報討論",
+      "credits_snapshot": 1.0,
+      "requirement_group": "elective",
+      "notes": "",
+      "source_page": 1,
+      "evidence_match": true,
+      "validation_status": "needs_course_code_verification",
+      "uncertainty_reason": "Official PDF table does not provide a course code"
+    },
+    {
+      "course_code": null,
+      "opening_units": [
+        "西灣學院"
+      ],
+      "opening_unit_snapshot": "西灣學院",
+      "course_name_snapshot": "環境科學",
+      "credits_snapshot": 2.0,
+      "requirement_group": "elective",
+      "notes": "",
+      "source_page": 1,
+      "evidence_match": true,
+      "validation_status": "needs_course_code_verification",
+      "uncertainty_reason": "Official PDF table does not provide a course code"
+    },
+    {
+      "course_code": null,
+      "opening_units": [
+        "海工系"
+      ],
+      "opening_unit_snapshot": "海工系",
+      "course_name_snapshot": "基礎環境科學",
+      "credits_snapshot": 2.0,
+      "requirement_group": "elective",
+      "notes": "",
+      "source_page": 1,
+      "evidence_match": true,
+      "validation_status": "needs_course_code_verification",
+      "uncertainty_reason": "Official PDF table does not provide a course code"
+    },
+    {
+      "course_code": null,
+      "opening_units": [
+        "海洋科學系"
+      ],
+      "opening_unit_snapshot": "海洋科學系",
+      "course_name_snapshot": "環境科學概論",
+      "credits_snapshot": 2.0,
+      "requirement_group": "elective",
+      "notes": "",
+      "source_page": 1,
+      "evidence_match": true,
+      "validation_status": "needs_course_code_verification",
+      "uncertainty_reason": "Official PDF table does not provide a course code"
+    },
+    {
+      "course_code": null,
+      "opening_units": [
+        "西灣學院"
+      ],
+      "opening_unit_snapshot": "西灣學院",
+      "course_name_snapshot": "環境變遷與生態保育",
+      "credits_snapshot": 2.0,
+      "requirement_group": "elective",
+      "notes": "",
+      "source_page": 1,
+      "evidence_match": true,
+      "validation_status": "needs_course_code_verification",
+      "uncertainty_reason": "Official PDF table does not provide a course code"
+    }
+  ],
+  "structured_requirements": {
+    "minimum_total_credits": 3,
+    "core_credits_text_value": 4,
+    "minimum_outside_home_department_credits": 3
+  }
+}

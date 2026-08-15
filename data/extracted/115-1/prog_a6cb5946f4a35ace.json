@@ -1,0 +1,2842 @@
+{
+  "schema_version": "1.0",
+  "courses": [
+    {
+      "course_code": "SOI",
+      "name_snapshot": "積體電路工程 電機所",
+      "credits_snapshot": 3.0,
+      "aliases": [],
+      "validation_status": "unverified",
+      "uncertainty_reason": "machine extracted; human review required"
+    },
+    {
+      "course_code": "PYTHON",
+      "name_snapshot": "與機器學習 應數碩",
+      "credits_snapshot": 3.0,
+      "aliases": [],
+      "validation_status": "unverified",
+      "uncertainty_reason": "machine extracted; human review required"
+    },
+    {
+      "course_code": "UNIX",
+      "name_snapshot": "系統程式 資工系",
+      "credits_snapshot": 3.0,
+      "aliases": [],
+      "validation_status": "unverified",
+      "uncertainty_reason": "machine extracted; human review required"
+    }
+  ],
+  "credit_mentions": [
+    33,
+    33,
+    6,
+    33,
+    33,
+    6,
+    48,
+    48,
+    6,
+    36,
+    48,
+    48,
+    6,
+    36,
+    48,
+    48,
+    6
+  ],
+  "ai_interpretation": null,
+  "confidence": "medium",
+  "warnings": [
+    "Candidate only; not approved for publishing as executable rules"
+  ],
+  "program_id": "prog_a6cb5946f4a35ace",
+  "academic_version": "115-1",
+  "text_length": 11496,
+  "raw_text": "【113 學年度第 2 學期起適用】\n114.4.15 113 學年度第 2 學期學分學程會議通過\n114.5.15 第 184 次教務會議通過\n半導體設備工程學程新課程規劃表\n學程科目 採認課程名稱 開課系所 學分數 備註\n核\n心\n課\n程(必修)\n半導體製程設\n備與技術\n半導體製程設備與技術 機電所 3 1.每一學程科目\n僅採計一門課\n程學分。\n2. 核心 ( 必修 )2\n學程科目應選 2\n門課程。\n機器人與自動\n化應用\n機器人學 電機所 3\n行動機器人 電機所 3\n機械設計原理(一) 機電系 3\n機械設計原理(二) 機電系 3\n機動學 機電系 3\n核心課程(必修)學分數:  6  學分\n核\n心\n課\n程(必選修)\n半導體製程\n半導體製程導論 機電系 3\n1.每一學程科目\n僅採計一門課\n程學分。\n2. 核心 ( 必選\n修)13 學程科目\n應選6門課程。\n半導體製程原理 材光所 3\n半導體製程整合技術 封測所 3\n半導體製程整合技術 零組件所 3\n半導體奈米元件製造技術 物理系 3\n半導體奈米元件製造技術 物理所 3\n積體電路技術 電機所 3\n微電子技術 電機系 3\n電機機械與電\n路學\n電路學 機電系 3\n電路學(一) 電機系 3\n電路學(二) 電機系 3\n電機機械 電機系 3\n機械設計原理(一) 機電系 3\n機械設計原理(二) 機電系 3\n機電整合與自\n動化應用\n機電整合 機電系 3\n機電傳動系統 機電所 3\n電機動態與控制 電機系 3\n控制系統 電機系 3\n自動控制 機電系 3\n數位控制 機電系 3\n數位控制 電機所 3\n適應控制 電機所 3\n最佳控制 電機所 3\n最佳控制簡介 電機系 3\n交直流馬達控制 電機所 3\n模糊邏輯與控制 機電所 3\n非線性系統及控制 機電所 3\n感測技術基礎\n科學\n感測器原理與應用 機電所 3\n感測與檢測 機電系 3\n感測元件 電機所 3\n感測元件 零組件所 3\n真空技術 真空技術與應用 機電所 3\n熱力學\n熱力學 機電系 3\n材料熱力學 材光系 3\n中等熱力學 機電系 3\n高等熱力學 機電系 3\n熱傳學 機電系 3\n中等熱傳學 機電系 3\n物理化學 材光系 3\n物理化學(二) 化學系 3\n熱統計物理 物理系 3\n機構設計與加\n工\n創造性機構設計 機電所 3\n自動化機構 機電所 3\n平面機構運動學 機電所 3\n空間機構運動學 機電所 3\n奈米加工學 機電所 3\n塑性加工學 機電所 3\n精密機械製造 機電所 3\n化學/化學工程\n工程化學 機電系 3\n普通化學 化學系 3\n普通化學(一) 物理系 3\n普通化學(一) 材光系 3\n普通化學(二) 物理系 3\n普通化學(二) 材光系 3\n基礎材料科學\n材料科學導論 材光系 3\n材料科學 封測所 3\n材料科學 零組件所 3\n高分子材料導論 材光系 3\n複合材料力學 機電所 3\n電子學\n電子學(一) 電機系 3\n電子學(一) 材光系 3\n電子學(二) 電機系 3\n電子學(二) 材光系 3\n電子學(三) 電機系 3\n數位電子學 機電系 3\n應用電子學 機電系 3\n電力電子學 電機系 3\n微機電系統\n微機電系統概論 機電系 3\n奈微系統工程原理 電機系 3\n微機電系統 電機所 3\n微機電製程實務 機電系 2\n程式語言\n工程電腦程式 機電系 3\n計算機程式與應用 機電所 3\n計算機程式 電機系 3\n實驗設計與統\n計應用\n統計與實驗設計實作 零組件所 3\n工程統計與品質管理 封測所 3\n核心課程(必選修)學分數:  18  學分\n選\n修\n半導體元件物\n理\n半導體元件(一) 電機系 3\n1.每一學程科目\n僅採計一門課\n程學分。\n2.選修 8 學程科\n目應選 3 門課\n程。\n半導體元件(二) 電機系 3\n半導體元件 材光所 3\n固態電子元件(一) 電機所 3\n固態電子元件(二) 電機所 3\n固態電子元件(三) 電機所 3\n半導體奈米元件物理 物理所 3\n記憶體元件與製程技術 材光所 3\n半導體元件與物理 製造所 3\n半導體/ 奈米/機\n電材料\n奈米材料 電機所 3\n微奈米材料 機電所 3\n電子材料工程 電機系 3\n電子材料 零組件所 3\n機電材料 機電系 3\n半導體材料 零組件所 3\n有機半導體材料 材光所 3\n有機半導體材料與元件 封測所 3\n低維度電子材料 電機所 3\n低維度半導體科學 材光所 3\n流體力學\n流體力學 機電系 3\n計算流體力學及熱傳學 機電所 3\n中等流體力學 機電系 3\n智慧製造技術\n智慧製造聯網整合技術 機電系 3\n智慧製造與監測技術 機電所 3\n智慧製造與控制實務 封測所 3\n量測原理\n光電導論 物理系 3\n傅氏光學 材光所 3\n半導體薄膜技\n術\n半導體薄膜技術 電機所 3\n高等矽覆絕緣技術 電機所 3\nSOI 積體電路工程 電機所 3\n薄膜製程技術 機電所 3\n薄膜製程技術 材光所 3\n半導體薄膜工程 製造所 3\n薄膜工程與檢測技術 零組件所 3\n無機化學\n無機化學(一) 化學系 3\n無機化學(二) 化學系 3\n無機化學(三) 化學系 3\n高等無機化學 化學系 3\n機器學習 / 深度\n學習\n機器學習系統設計實務與應用 電機系 3\n深度學習理論與應用 機電所 3\n選修課程學分數:  9  學分\n總學分數:至少  33 學分\n※【整合學程】課程規劃至少 33 學分;學生可使用「核心課程(必選修)」之學分抵免專業選\n修學分,惟不得重複計入學程核心課程學分。\n※【整合學程】學生所修習之學程課程中,至少應有 6 學分不屬於學生本系所、雙主修及輔系\n之課程。\n【113 學年度第 1 學期起適用】\n113.11.12 113 學年度第 1 學期學分學程會議通過\n113.12.12 第 182 次教務會議通過\n半導體設備工程學程新課程規劃表\n學程科目 採認課程名稱 開課系所 學分數 備註\n核\n心\n課\n程(必修)\n半導體製程設\n備與技術\n半導體製程設備與技術 機電所 3 1.每一學程\n科目僅採\n計一門課\n程學分。\n2. 核心 ( 必\n修)2學程科\n目應選 2 門\n課程。\n機器人與自動\n化應用\n機器人學 電機所 3\n行動機器人 電機所 3\n機械設計原理(一) 機電系 3\n機械設計原理(二) 機電系 3\n機動學 機電系 3\n核心課程(必修)學分數:  6  學分\n核\n心\n課\n程(必選修)\n半導體製程\n半導體製程導論 機電系 3\n1.每一學程\n科目僅採\n計一門課\n程學分。\n2. 核心 ( 必\n選修 )13 學\n程科目應\n選 6 門課\n程。\n半導體製程原理 材光所 3\n半導體製程整合技術 封測所 3\n半導體製程整合技術 零組件所 3\n半導體奈米元件製造技術 物理系 3\n半導體奈米元件製造技術 物理所 3\n積體電路技術 電機所 3\n微電子技術 電機系 3\n電機機械與電\n路學\n電路學 機電系 3\n電路學(一) 電機系 3\n電路學(二) 電機系 3\n電機機械 電機系 3\n機械設計原理(一) 機電系 3\n機械設計原理(二) 機電系 3\n機電整合與自\n動化應用\n機電整合 機電系 3\n機電傳動系統 機電所 3\n電機動態與控制 電機系 3\n控制系統 電機系 3\n自動控制 機電系 3\n數位控制 機電系 3\n數位控制 電機所 3\n適應控制 電機所 3\n最佳控制 電機所 3\n最佳控制簡介 電機系 3\n交直流馬達控制 電機所 3\n模糊邏輯與控制 機電所 3\n非線性系統及控制 機電所 3\n感測技術基礎\n科學\n感測器原理與應用 機電所 3\n感測與檢測 機電系 3\n感測元件 電機所 3\n感測元件 零組件所 3\n真空技術 真空技術與應用 機電所 3\n熱力學\n熱力學 機電系 3\n材料熱力學 材光系 3\n中等熱力學 機電系 3\n高等熱力學 機電系 3\n熱傳學 機電系 3\n中等熱傳學 機電系 3\n物理化學 材光系 3\n物理化學(二) 化學系 3\n熱統計物理 物理系 3\n機構設計與加\n工\n創造性機構設計 機電所 3\n自動化機構 機電所 3\n平面機構運動學 機電所 3\n空間機構運動學 機電所 3\n奈米加工學 機電所 3\n塑性加工學 機電所 3\n精密機械製造 機電所 3\n化學/化學工程\n工程化學 機電系 3\n普通化學 化學系 3\n普通化學(一) 物理系 3\n普通化學(一) 材光系 3\n普通化學(二) 物理系 3\n普通化學(二) 材光系 3\n基礎材料科學\n材料科學導論 材光系 3\n材料科學 封測所 3\n材料科學 零組件所 3\n高分子材料導論 材光系 3\n複合材料力學 機電所 3\n電子學\n電子學(一) 電機系 3\n電子學(一) 材光系 3\n電子學(二) 電機系 3\n電子學(二) 材光系 3\n電子學(三) 電機系 3\n數位電子學 機電系 3\n應用電子學 機電系 3\n電力電子學 電機系 3\n微機電系統\n微機電系統概論 機電系 3\n奈微系統工程原理 電機系 3\n微機電系統 電機所 3\n微機電製程實務 機電系 2\n程式語言\n工程電腦程式 機電系 3\n計算機程式與應用 機電所 3\n計算機程式 電機系 3\n實驗設計與統\n計應用\n統計與實驗設計實作 零組件所 3\n工程統計與品質管理 封測所 3\n核心課程(必選修)學分數:  18  學分\n選\n修\n半導體元件物\n理\n半導體元件(一) 電機系 3\n1.每一學程\n科目僅採\n計一門課\n程學分。\n2. 選修 8 學\n程科目應\n選 3 門課\n程。\n半導體元件(二) 電機系 3\n半導體元件 材光所 3\n固態電子元件(一) 電機所 3\n固態電子元件(二) 電機所 3\n固態電子元件(三) 電機所 3\n半導體奈米元件物理 物理所 3\n記憶體元件與製程技術 材光所 3\n半導體元件與物理 製造所 3\n半導體/ 奈米/ 機\n電材料\n奈米材料 電機所 3\n微奈米材料 機電所 3\n電子材料工程 電機系 3\n電子材料 零組件所 3\n機電材料 機電系 3\n半導體材料 零組件所 3\n有機半導體材料 材光所 3\n有機半導體材料與元件 封測所 3\n低維度電子材料 電機所 3\n低維度半導體科學 材光所 3\n流體力學\n流體力學 機電系 3\n計算流體力學及熱傳學 機電所 3\n中等流體力學 機電系 3\n智慧製造技術\n智慧製造聯網整合技術 機電系 3\n智慧製造與監測技術 機電所 3\n智慧製造與控制實務 封測所 3\n量測原理\n光電導論 物理系 3\n傅氏光學 材光所 3\n半導體薄膜技\n術\n半導體薄膜技術 電機所 3\n高等矽覆絕緣技術 電機所 3\nSOI 積體電路工程 電機所 3\n薄膜製程技術 機電所 3\n薄膜製程技術 材光所 3\n半導體薄膜工程 製造所 3\n薄膜工程與檢測技術 零組件所 3\n無機化學\n無機化學(一) 化學系 3\n無機化學(二) 化學系 3\n無機化學(三) 化學系 3\n高等無機化學 化學系 3\n機器學習/ 深度\n學習\n機器學習系統設計實務與應用 電機系 3\n深度學習理論與應用 機電所 3\n選修課程學分數:  9  學分\n總學分數:至少  33 學分\n※【整合學程】課程規劃至少 33 學分。\n※【整合學程】學生所修習之學程課程中,至少應有 6 學分不屬於學生本系所、雙主修及\n輔系之課程。\n【112 學年度第 2 學期起適用】\n113.4.22 112 學年度第 2 學期學分學程會議通過\n113.5.30 第 180 次教務會議通過\n半導體設備工程學程新課程規劃表\n課程\n屬\n性\n學程課程名稱 採認課程名稱 開課系所 學分\n數 備註\n核\n心\n課\n程 (必修)\n半導\n體\n製\n程\n關\n鍵\n學\n能\n半導體製程設備與技術 半導體製程設備與技術 機電所 3\n1. 每一課程科\n目僅採計一\n門課程學分\n半導體製程\n半導體製程導論 機電系 3\n半導體製程原理 材光所 3\n半導體製程整合技術 封測所 3\n半導體製程整合技術 製造所 3\n半導體奈米元件製造技術 物理系 3\n半導體奈米元件製造技術 物理所 3\n半導體奈米元件製造技術 光電系 3\n積體電路技術 電機系 3\n先進\n製\n程\n技\n術\n基\n礎\n學\n能\n電機機械與電路學\n電路學 機電系 3\n電路學(一) 電機系 3\n電路學(二) 電機系 3\n電機機械 電機系 3\n機械設計原理(一) 機電系 3\n機械設計原理(二) 機電系 3\n機電整合與自動化應用\n機電整合 機電系 3\n機電傳動系統 機電所 3\n電機動態與控制 電機系 3\n控制系統  電機系 3\n自動控制 機電系 3\n數位控制 電機所 3\n適應控制 電機所 3\n最佳控制 電機所 3\n最佳控制 電機電力所 3\n最佳控制簡介 電機系 3\n交直流馬達控制 電機所 3\n非線性系統及控制 機電所 3\n感測技術基礎科學\n感測器原理與應用 機電所 3\n感測與檢測 機電系 3\n感測元件 電機所 3\n感測元件 電子零組件所 3\n真空技術 真空技術與應用 機電系 3\n熱力學\n熱力學 機電系 3\n材料熱力學 材光系 3\n中等熱力學 機電系 3\n高等熱力學 機電系 3\n冶金熱力學 材光所 3\n機構設計與加工\n奈米加工學 機電所 3\n塑性加工學 機電所 3\n精密機械製造 機電系 3\n化學工程\n工程化學 機電系 3\n普通化學 光電系 3\n普通化學 生科系 3\n普通化學 化學系 3\n普通化學 海資系 3\n普通化學(一) 物理系 3\n普通化學(一) 材光系 3\n普通化學(一) 海科系 3\n普通化學(二) 物理系 3\n普通化學(二) 材光系 3\n普通化學(二) 海科系 3\n應用化學 光電系 3\n環境化學 環工所 3\n環境化學 海資系 3\n環境工程化學 海工系 3\n先進\n製\n程\n技\n術\n進\n階\n學\n能\n材料科學\n機電材料 機電系 3\n材料科學導論 材光系 3\n材料科學 封測所 3\n材料科學 電子零組件所 3\n高分子材料導論 材光系 3\n材料機械性質 材光系 3\n光電材料 光電所 3\n複合材料力學 機電所 3\n材料物理性質 材光系 3\n材料顯微分析技術 材光系 3\n微奈米材料 機電所 3\n軟質材料 材光所 3\n半導體材料測試與分析  材光所 3\n有機半導體材料 材光所 3\n材料變形與破壞 材光所 3\n電子學\n電子學(一) 電機系 3\n電子學(一) 光電系 3\n電子學(一) 材光系 3\n數位電子學 機電系 3\n數位電子學 資工系 3\n應用電子學 機電系 3\n程式語言\n工程電腦程式 機電系 3\n機器學習於海洋環境管理之\n應用\n海工碩 3\n核心基礎的機器學習 資工碩 3\n進階機器學習 資工碩 3\n機器學習系統設計實務與應\n用\n電機系 3\n機器學習導論 資工系 3\n大數據分析、機器學習、與人\n工智慧方法\n管理學院(碩) 3\nPython 與機器學習 應數碩 3\n深度學習 通訊碩 3\n深度學習 資管碩 3\n深度學習理論與應用 機電所 3\n計算機程式 光電系 3\n計算機程式與應用 機電所 3\nC程式設計(一) 資工系 3\n網路系統程式設計 資工系 3\n物件導向程式設計 資工系 3\n嵌入式系統程式設計 資工系 3\nUNIX 系統程式 資工系 3\nPython 程式設計 資工系 3\n計算機程式  電機系 3\n核心課程〈專業模組課程〉學分數:  36  學分\n選\n修\n半導\n體\n製\n程 半導體元件\n半導體元件(一) 電機系 3\n1. 每一課程科\n目僅採計一\n門課程學分\n半導體元件(二) 電機系 3\n半導體元件 材光所 3\n記憶體元件與製程技術  材光所 3\n固態電子元件(一) 電機所 3\n固態電子元件(二) 電機所 3\n固態電子元件(三) 電機所 3\n微機電系統\n微機電系統概論 機電系 3\n奈微系統工程原理 電機系 3\n微機電系統 電機所 3\n微機電製程實務 機電系 3\n先進\n製\n程\n技\n術\n基\n礎\n流體力學\n流體力學 機電系 3\n流體力學 海工系 3\n流體力學(一) 海科系 3\n流體力學(二) 海科系 3\n計算流體力學 海工所 3\n計算流體力學及熱傳學 機電所 3\n中等流體力學 機電系 3\n學\n能\n高等流體力學 海工所 3\n海洋流體力學 海科所 3\n海洋流體力學 海工所 3\n環境流體力學  環工所 3\n智慧製造技術 智慧製造與監測技術  機電所 3\n智慧製造與控制實務 封測所 3\n機器人與自動化應用 機器人學 電機所 3\n行動機器人 電機所 3\n量測原理\n材料顯微分析技術 材光系 3\n光電科技概論 材光系 3\n光電工程導論 光電系 3\n光電數值方法 光電所 3\n電子顯微鏡 材光所 3\n電子顯微鏡於軟物質研究之\n應用 材光所 3\nX光與電子能譜學 材光所 3\n小角度X光與中子散射在軟物\n質材料之應用 材光所 3\n先進\n製\n程\n技\n術\n進\n階\n學\n能\n統計學\n橘子蘋果統計學 博雅向度五 3\n統計學(一) 財管系 3\n統計學(一) 應數系 3\n統計學(一) 政經系 3\n應用統計方法 應數系 3\n機率與統計 電機系 3\n統計推論 應數系 3\n機率與統計 海工系 3\n薄膜工程\n半導體薄膜技術 電機所 3\n薄膜工程與檢測技術 電子零組件所 3\n半導體薄膜工程 半導體學院 3\n無機化學\n無機化學(一) 化學系 3\n無機化學(二) 化學系 3\n無機化學(三) 化學系 3\n高等無機化學 化學所 3\n選修總計:27學分\n應選修課程學分數:12學分\n總學分數:至少 48  學分\n※【整合學程】課程規劃至少 48 學分。\n※【整合學程】學生所修習之學程課程中,至少應有 6 學分不屬於學生本系所、\n雙主修及輔系之課程。\n【112 學年度第 1 學期起適用】\n112.11.7 112 學年度第 1 學期學分學程會議通過\n112.12.12 第 178 次教務會議通過\n半導體設備工程學程新課程規劃表\n課程屬性\n學程課程名稱 採認課程名稱 開課系所\n學分數\n備註\n核\n心\n課\n程 (\n必 修 )\n半導體製造關鍵學能\n半導體製程設備\n與技術 半導體製程設備與技術 機電碩 3\n1. 每一課程\n科目僅採\n計一門課\n程學分\n半導體製程\n積體電路製程原理 材料碩 3\n半導體製程原理與實作 數理學程 3\n積體電路製程技術 材料碩 4\n半導體製程導論 機電系 3\n先進製程技術基礎學能\n電機機械與電路\n學\n電路學 機電系 3\n電路學(一) 跨院選修(工) 3\n電路學(二) 跨院選修(工) 3\n電機機械 電機系 3\n機械設計原理(一) 機電系 3\n機械設計原理(二) 機電系 3\n機電整合與自動\n化應用\n機電傳動系統 機電碩 3\n機電整合 機電系 3\n電子設計自動化及測試導論 資工系 3\n自動控制 機電系 3\n電機動態與控制 電機系 3\n控制系統 電機系 3\n數位控制 電機碩 3\n非線性系統及控制 機電碩 3\n最佳控制簡介 電機系 3\n交直流馬達控制 電機碩 3\n最佳控制 電機碩 3\n適應控制 電機碩 3\n數位控制 電機碩 3\n模糊邏輯與控制 機電碩 3\n最佳控制 電機電力碩 3\n感測技術基礎科\n學\n無線隨意與感測網路技術 資工碩 3\n光纖感測原理 電機碩 3\n感測器校正 電機碩 3\n感測與檢測 機電系 3\n感測元件 電機碩 3\n真空技術 真空技術與應用 機電系 3\n熱力學 機電系 3\n熱力學\n材料熱力學 材光系 3\n中等熱力學 機電系 3\n冶金熱力學 材光碩 3\n機構設計與加工\n自動化機構 機電系 3\n平面機構運動學 機電碩 3\n空間機構運動學 機電碩 3\n創造性機構設計 機電碩 3\n奈米加工學 機電碩 3\n塑性加工學 機電碩 3\n精密機械製造 機電系 3\n化學工程\n工程化學 機電系 3\n普通化學 光電系 3\n應用化學 光電系 3\n環境化學 環工碩 3\n普通化學(一) 材光系 3\n普通化學(二) 材光系 3 先進製程技術進階學能\n材料科學\n機電材料 機電系 3\n材料機械性質 材光系 3\n光電材料 光電碩 3\n複合材料力學 機電碩 3\n材料物理性質 材光系 3\n材料顯微分析技術 材光系 3\n微奈米材料 機電碩 3\n軟質材料 材光碩 3\n半導體材料測試與分析 材光碩 3\n有機半導體材料 材光碩 3\n材料變形與破壞 材光碩 3\n電子學\n應用電子學 機電系 3\n數位電子學 資工系 3\n電子學(一) 材光系 3\n電子學(一) 光電系 3\n電子學(一) 電機系 3\n程式語言\n工程電腦程式 機電系 3\n計算機程式 光電系 3\n計算機程式與應用 機電碩 3\nC程式設計(一) 資工系 3\n網路系統程式設計 資工系 3\n物件導向程式設計 資工系 3\n嵌入式系統程式設計 資工系 3\nUNIX 系統程式 資工系 3\nPython 程式設計 資工系 3\n計算機程式 電機系 3\n核心課程〈專業模組課程〉應修學分數: 36 學分\n選             修\n半 導\n體\n半導體元件 半導體元件(一) 電機系 3 1. 每一課程\n科目僅採半導體元件導論 光電系 3\n半導體元件 材光碩 3 計一門課\n程學分 記憶體元件與製程技術 材光碩 3\n微機電系統\n微機電系統概論 機電系 3\n微機電系統 電機碩 3\n微機電製程實務 機電系 2 先進製程技術基礎學能\n流體力學 流體力學 機電系 3\n環境流體力學 環工碩 3\n智慧製造技術\n智慧製造聯網整合技術 機電系 3\n智慧製造與監測技術 機電碩 3\n物聯網與大數據於智慧製造\n應用 機電碩 3\n智慧物聯網建置與應用 資工碩 3\n機器人與自動化\n應用\n機器人控制學 機械碩 3\n機器人學 電機碩 3\n行動機器人 電機碩 3\n電子設計自動化及測試導論 資工系 3\n量測原理\n材料顯微分析技術 材光系 3\n光電導論 物理系 3\n光電科技概論 材光系 3\n光電工程導論 光電系 3\n光電數值方法 光電碩 3\n儀器分析 環工碩 3\n電子顯微鏡 材光碩 3\n現代光學顯微術 光電碩 3\n電子顯微鏡於軟物質研究之\n應用 材光碩 3\nX 光與電子能譜學 材光碩 3\n小角度 X 光與中子散射在軟\n物質材料之應用 材光碩 3\n先進製程技術進階學能\n統計學\n橘子蘋果統計學 博雅向度五 3\n統計學(一) 跨院選修(管) 3\n應用統計方法 應數系 3\n機率與統計 電機系 3\n機率與統計 跨院選修(工) 3\n統計推論 應數系 3\n機率與統計 海工系 3\n薄膜工程\n薄膜製程技術 機電碩 3\n薄膜製程技術 材光碩 3\n半導體薄膜技術 電機碩 3\n無機化學\n無機化學(一) 化學系 4\n無機化學(二) 化學系 4\n無機化學(二) 校際選修 4\n高等無機化學 化學碩 3\n選修總計:27學分\n應選修課程學分數:12 學分\n總學分數:至少  48 學分\n※【整合學程】課程規劃至少 48 學分。\n※【整合學程】學生所修習之學程課程中,至少應有 6 學分不屬於學生本系所、雙主修及輔系\n之課程。\n※修習學程適用之課程規劃表請依核准修習學年期版本為主。\n【110 學年度第 1 學期起適用】\n110.11.2 110 學年度第 1 學期學分學程會議通過\n110.12.28 第 170 次教務會議通過\n半導體設備工程學程課程規劃表\n課程屬性\n學程課程名稱 採認課程名稱 開課系所\n學分數\n備註\n核\n心\n課\n程 (\n必 修 )\n半導體製造關鍵學能\n半導體製程設備\n與技術 半導體製程設備與技術 機電碩 3\n1.每一課程科\n目僅採計\n一門課程\n學分\n半導體製程\n積體電路製程原理 材料碩 3\n半導體製程原理與實作 數理學程 3\n積體電路製程技術 材料碩 4\n半導體製程導論 機電系 3\n先進製程技術基礎學能\n電機機械與電路\n學\n電路學 機電系 3\n電路學(一) 跨院選修(工) 3\n電路學(二) 跨院選修(工) 3\n電機機械 電機系 3\n機械設計原理(一) 機電系 3\n機械設計原理(二) 機電系 3\n機電整合與自動\n化應用\n機電傳動系統 機電碩 3\n機電整合 機電系 3\n電子設計自動化及測試導論 資工系 3\n自動控制 機電系 3\n電機動態與控制 電機系 3\n控制系統 電機系 3\n數位控制 電機碩 3\n非線性系統及控制 機電碩 3\n最佳控制簡介 電機系 3\n交直流馬達控制 電機碩 3\n最佳控制 電機碩 3\n適應控制 電機碩 3\n數位控制 電機碩 3\n模糊邏輯與控制 機電碩 3\n最佳控制 電機電力碩 3\n感測技術基礎科\n學\n無線隨意與感測網路技術 資工碩 3\n光纖感測原理 電機碩 3\n感測器校正 電機碩 3\n感測與檢測 機電系 3\n感測元件 電機碩 3\n真空技術\n真空技術 材料碩 3\n真空與薄膜技術 物理碩 3\n真空製程技術專題 電機碩 3\n真空實務自動化專題 電機系 3\n熱力學\n熱力學 機電系 3\n材料熱力學 材光系 3\n中等熱力學 機電系 3\n冶金熱力學 材光碩 3\n機構設計與加工\n自動化機構 機電系 3\n平面機構運動學 機電碩 3\n空間機構運動學 機電碩 3\n創造性機構設計 機電碩 3\n奈米加工學 機電碩 3\n塑性加工學 機電碩 3\n精密機械製造 機電系 3\n化學工程\n工程化學 機電系 3\n普通化學 光電系 3\n應用化學 光電系 3\n環境化學 環工碩 3\n普通化學(一) 材光系 3\n普通化學(二) 材光系 3 先進製程技術進階學能\n材料科學\n機電材料 機電系 3\n材料機械性質 材光系 3\n光電材料 光電碩 3\n複合材料力學 機電碩 3\n材料物理性質 材光系 3\n材料顯微分析技術 材光系 3\n微奈米材料 機電碩 3\n軟質材料 材光碩 3\n半導體材料測試與分析 材光碩 3\n有機半導體材料 材光碩 3\n材料變形與破壞 材光碩 3\n電子學\n應用電子學 機電系 3\n數位電子學 資工系 3\n電子學(一) 材光系 3\n電子學(一) 光電系 3\n電子學(一) 電機系 3\n程式語言\n工程電腦程式 機電系 3\n計算機程式 光電系 3\n計算機程式與應用 機電碩 3\nC程式設計(一) 資工系 3\n網路系統程式設計 資工系 3\n物件導向程式設計 資工系 3\n嵌入式系統程式設計 資工系 3\nUNIX 系統程式 資工系 3\nPython 程式設計 資工系 3\n計算機程式 電機系 3\n核心課程〈專業模組課程〉應修學分數: 36 學分\n選\n修\n半導體製造關鍵學能\n半導體元件\n半導體元件(一) 電機系 3\n1.每一課程科\n目僅採計\n一門課程\n學分\n半導體元件導論 光電系 3\n半導體元件 材光碩 3\n記憶體元件與製程技術 材光碩 3\n微機電系統\n微機電系統概論 機電系 3\n微機電系統 電機碩 3\n微機電製程實務 機電系 2 先進製程技術基礎學能\n流體力學 流體力學 機電系 3\n環境流體力學 環工碩 3\n智慧製造技術\n智慧製造聯網整合技術 機電系 3\n智慧製造與監測技術 機電碩 3\n物聯網與大數據於智慧製造\n應用 機電碩 3\n智慧物聯網建置與應用 資工碩 3\n機器人與自動化\n應用\n機器人控制學 機械碩 3\n機器人學 電機碩 3\n行動機器人 電機碩 3\n電子設計自動化及測試導論 資工系 3\n量測原理\n材料顯微分析技術 材光系 3\n光電導論 物理系 3\n光電科技概論 材光系 3\n光電工程導論 光電系 3\n光電數值方法 光電碩 3\n儀器分析 環工碩 3\n電子顯微鏡 材光碩 3\n現代光學顯微術 光電碩 3\n電子顯微鏡於軟物質研究之\n應用 材光碩 3\nX 光與電子能譜學 材光碩 3\n小角度 X 光與中子散射在軟\n物質材料之應用 材光碩 3\n先進製程技術進階學能\n統計學\n橘子蘋果統計學 博雅向度五 3\n統計學(一) 跨院選修(管) 3\n應用統計方法 應數系 3\n機率與統計 電機系 3\n機率與統計 跨院選修(工) 3\n統計推論 應數系 3\n機率與統計 海工系 3\n薄膜工程\n薄膜製程技術 機電碩 3\n薄膜製程技術 材光碩 3\n半導體薄膜技術 電機碩 3\n無機化學\n無機化學(一) 化學系 4\n無機化學(二) 化學系 4\n無機化學(二) 校際選修 4\n高等無機化學 化學碩 3\n選修總計:27學分\n應選修課程學分數:12 學分\n總學分數:至少  48 學分\n※【整合學程】課程規劃至少 48 學分。\n※【整合學程】學生所修習之學程課程中,至少應有 6 學分不屬於學生本系所、雙主修及輔系\n之課程。",
+  "rule_versions": [
+    {
+      "pdf_academic_version": "113-2",
+      "courses": [
+        {
+          "course_code": null,
+          "opening_units": [
+            "機電所"
+          ],
+          "opening_unit_snapshot": "機電所",
+          "course_name_snapshot": "半導體製程設備與技術",
+          "credits_snapshot": 3.0,
+          "requirement_group": "unspecified",
+          "notes": "1.每一學程科目僅採計一門課程學分。2.核心(必修)2學程科目應選2門課程。",
+          "source_page": 1,
+          "evidence_match": true,
+          "validation_status": "needs_course_code_verification",
+          "uncertainty_reason": "Official PDF table does not provide a course code"
+        },
+        {
+          "course_code": null,
+          "opening_units": [
+            "電機所"
+          ],
+          "opening_unit_snapshot": "電機所",
+          "course_name_snapshot": "機器人學",
+          "credits_snapshot": 3.0,
+          "requirement_group": "unspecified",
+          "notes": "",
+          "source_page": 1,
+          "evidence_match": true,
+          "validation_status": "needs_course_code_verification",
+          "uncertainty_reason": "Official PDF table does not provide a course code"
+        },
+        {
+          "course_code": null,
+          "opening_units": [
+            "電機所"
+          ],
+          "opening_unit_snapshot": "電機所",
+          "course_name_snapshot": "行動機器人",
+          "credits_snapshot": 3.0,
+          "requirement_group": "unspecified",
+          "notes": "",
+          "source_page": 1,
+          "evidence_match": true,
+          "validation_status": "needs_course_code_verification",
+          "uncertainty_reason": "Official PDF table does not provide a course code"
+        },
+        {
+          "course_code": null,
+          "opening_units": [
+            "機電系"
+          ],
+          "opening_unit_snapshot": "機電系",
+          "course_name_snapshot": "機械設計原理(一)",
+          "credits_snapshot": 3.0,
+          "requirement_group": "unspecified",
+          "notes": "",
+          "source_page": 1,
+          "evidence_match": true,
+          "validation_status": "needs_course_code_verification",
+          "uncertainty_reason": "Official PDF table does not provide a course code"
+        },
+        {
+          "course_code": null,
+          "opening_units": [
+            "機電系"
+          ],
+          "opening_unit_snapshot": "機電系",
+          "course_name_snapshot": "機械設計原理(二)",
+          "credits_snapshot": 3.0,
+          "requirement_group": "unspecified",
+          "notes": "",
+          "source_page": 1,
+          "evidence_match": true,
+          "validation_status": "needs_course_code_verification",
+          "uncertainty_reason": "Official PDF table does not provide a course code"
+        },
+        {
+          "course_code": null,
+          "opening_units": [
+            "機電系"
+          ],
+          "opening_unit_snapshot": "機電系",
+          "course_name_snapshot": "機動學",
+          "credits_snapshot": 3.0,
+          "requirement_group": "unspecified",
+          "notes": "",
+          "source_page": 1,
+          "evidence_match": true,
+          "validation_status": "needs_course_code_verification",
+          "uncertainty_reason": "Official PDF table does not provide a course code"
+        },
+        {
+          "course_code": null,
+          "opening_units": [
+            "機電系"
+          ],
+          "opening_unit_snapshot": "機電系",
+          "course_name_snapshot": "半導體製程導論",
+          "credits_snapshot": 3.0,
+          "requirement_group": "unspecified",
+          "notes": "1.每一學程科目僅採計一門課程學分。2. 核 心 ( 必 選修)13學程科目應選6門課程。",
+          "source_page": 1,
+          "evidence_match": true,
+          "validation_status": "needs_course_code_verification",
+          "uncertainty_reason": "Official PDF table does not provide a course code"
+        },
+        {
+          "course_code": null,
+          "opening_units": [
+            "材光所"
+          ],
+          "opening_unit_snapshot": "材光所",
+          "course_name_snapshot": "半導體製程原理",
+          "credits_snapshot": 3.0,
+          "requirement_group": "unspecified",
+          "notes": "",
+          "source_page": 1,
+          "evidence_match": true,
+          "validation_status": "needs_course_code_verification",
+          "uncertainty_reason": "Official PDF table does not provide a course code"
+        },
+        {
+          "course_code": null,
+          "opening_units": [
+            "封測所"
+          ],
+          "opening_unit_snapshot": "封測所",
+          "course_name_snapshot": "半導體製程整合技術",
+          "credits_snapshot": 3.0,
+          "requirement_group": "unspecified",
+          "notes": "",
+          "source_page": 1,
+          "evidence_match": true,
+          "validation_status": "needs_course_code_verification",
+          "uncertainty_reason": "Official PDF table does not provide a course code"
+        },
+        {
+          "course_code": null,
+          "opening_units": [
+            "零組件所"
+          ],
+          "opening_unit_snapshot": "零組件所",
+          "course_name_snapshot": "半導體製程整合技術",
+          "credits_snapshot": 3.0,
+          "requirement_group": "unspecified",
+          "notes": "",
+          "source_page": 1,
+          "evidence_match": true,
+          "validation_status": "needs_course_code_verification",
+          "uncertainty_reason": "Official PDF table does not provide a course code"
+        },
+        {
+          "course_code": null,
+          "opening_units": [
+            "物理系"
+          ],
+          "opening_unit_snapshot": "物理系",
+          "course_name_snapshot": "半導體奈米元件製造技術",
+          "credits_snapshot": 3.0,
+          "requirement_group": "unspecified",
+          "notes": "",
+          "source_page": 1,
+          "evidence_match": true,
+          "validation_status": "needs_course_code_verification",
+          "uncertainty_reason": "Official PDF table does not provide a course code"
+        },
+        {
+          "course_code": null,
+          "opening_units": [
+            "物理所"
+          ],
+          "opening_unit_snapshot": "物理所",
+          "course_name_snapshot": "半導體奈米元件製造技術",
+          "credits_snapshot": 3.0,
+          "requirement_group": "unspecified",
+          "notes": "",
+          "source_page": 1,
+          "evidence_match": true,
+          "validation_status": "needs_course_code_verification",
+          "uncertainty_reason": "Official PDF table does not provide a course code"
+        },
+        {
+          "course_code": null,
+          "opening_units": [
+            "電機所"
+          ],
+          "opening_unit_snapshot": "電機所",
+          "course_name_snapshot": "積體電路技術",
+          "credits_snapshot": 3.0,
+          "requirement_group": "unspecified",
+          "notes": "",
+          "source_page": 1,
+          "evidence_match": true,
+          "validation_status": "needs_course_code_verification",
+          "uncertainty_reason": "Official PDF table does not provide a course code"
+        },
+        {
+          "course_code": null,
+          "opening_units": [
+            "電機系"
+          ],
+          "opening_unit_snapshot": "電機系",
+          "course_name_snapshot": "微電子技術",
+          "credits_snapshot": 3.0,
+          "requirement_group": "unspecified",
+          "notes": "",
+          "source_page": 1,
+          "evidence_match": true,
+          "validation_status": "needs_course_code_verification",
+          "uncertainty_reason": "Official PDF table does not provide a course code"
+        },
+        {
+          "course_code": null,
+          "opening_units": [
+            "機電系"
+          ],
+          "opening_unit_snapshot": "機電系",
+          "course_name_snapshot": "電路學",
+          "credits_snapshot": 3.0,
+          "requirement_group": "unspecified",
+          "notes": "",
+          "source_page": 1,
+          "evidence_match": true,
+          "validation_status": "needs_course_code_verification",
+          "uncertainty_reason": "Official PDF table does not provide a course code"
+        },
+        {
+          "course_code": null,
+          "opening_units": [
+            "電機系"
+          ],
+          "opening_unit_snapshot": "電機系",
+          "course_name_snapshot": "電路學(一)",
+          "credits_snapshot": 3.0,
+          "requirement_group": "unspecified",
+          "notes": "",
+          "source_page": 1,
+          "evidence_match": true,
+          "validation_status": "needs_course_code_verification",
+          "uncertainty_reason": "Official PDF table does not provide a course code"
+        },
+        {
+          "course_code": null,
+          "opening_units": [
+            "電機系"
+          ],
+          "opening_unit_snapshot": "電機系",
+          "course_name_snapshot": "電路學(二)",
+          "credits_snapshot": 3.0,
+          "requirement_group": "unspecified",
+          "notes": "",
+          "source_page": 1,
+          "evidence_match": true,
+          "validation_status": "needs_course_code_verification",
+          "uncertainty_reason": "Official PDF table does not provide a course code"
+        },
+        {
+          "course_code": null,
+          "opening_units": [
+            "電機系"
+          ],
+          "opening_unit_snapshot": "電機系",
+          "course_name_snapshot": "電機機械",
+          "credits_snapshot": 3.0,
+          "requirement_group": "unspecified",
+          "notes": "",
+          "source_page": 1,
+          "evidence_match": true,
+          "validation_status": "needs_course_code_verification",
+          "uncertainty_reason": "Official PDF table does not provide a course code"
+        },
+        {
+          "course_code": null,
+          "opening_units": [
+            "機電系"
+          ],
+          "opening_unit_snapshot": "機電系",
+          "course_name_snapshot": "機電整合",
+          "credits_snapshot": 3.0,
+          "requirement_group": "unspecified",
+          "notes": "",
+          "source_page": 1,
+          "evidence_match": true,
+          "validation_status": "needs_course_code_verification",
+          "uncertainty_reason": "Official PDF table does not provide a course code"
+        },
+        {
+          "course_code": null,
+          "opening_units": [
+            "機電所"
+          ],
+          "opening_unit_snapshot": "機電所",
+          "course_name_snapshot": "機電傳動系統",
+          "credits_snapshot": 3.0,
+          "requirement_group": "unspecified",
+          "notes": "",
+          "source_page": 1,
+          "evidence_match": true,
+          "validation_status": "needs_course_code_verification",
+          "uncertainty_reason": "Official PDF table does not provide a course code"
+        },
+        {
+          "course_code": null,
+          "opening_units": [
+            "電機系"
+          ],
+          "opening_unit_snapshot": "電機系",
+          "course_name_snapshot": "電機動態與控制",
+          "credits_snapshot": 3.0,
+          "requirement_group": "unspecified",
+          "notes": "",
+          "source_page": 1,
+          "evidence_match": true,
+          "validation_status": "needs_course_code_verification",
+          "uncertainty_reason": "Official PDF table does not provide a course code"
+        },
+        {
+          "course_code": null,
+          "opening_units": [
+            "電機系"
+          ],
+          "opening_unit_snapshot": "電機系",
+          "course_name_snapshot": "控制系統",
+          "credits_snapshot": 3.0,
+          "requirement_group": "unspecified",
+          "notes": "",
+          "source_page": 1,
+          "evidence_match": true,
+          "validation_status": "needs_course_code_verification",
+          "uncertainty_reason": "Official PDF table does not provide a course code"
+        },
+        {
+          "course_code": null,
+          "opening_units": [
+            "機電系"
+          ],
+          "opening_unit_snapshot": "機電系",
+          "course_name_snapshot": "自動控制",
+          "credits_snapshot": 3.0,
+          "requirement_group": "unspecified",
+          "notes": "",
+          "source_page": 1,
+          "evidence_match": true,
+          "validation_status": "needs_course_code_verification",
+          "uncertainty_reason": "Official PDF table does not provide a course code"
+        },
+        {
+          "course_code": null,
+          "opening_units": [
+            "機電系"
+          ],
+          "opening_unit_snapshot": "機電系",
+          "course_name_snapshot": "數位控制",
+          "credits_snapshot": 3.0,
+          "requirement_group": "unspecified",
+          "notes": "",
+          "source_page": 1,
+          "evidence_match": true,
+          "validation_status": "needs_course_code_verification",
+          "uncertainty_reason": "Official PDF table does not provide a course code"
+        },
+        {
+          "course_code": null,
+          "opening_units": [
+            "電機所"
+          ],
+          "opening_unit_snapshot": "電機所",
+          "course_name_snapshot": "數位控制",
+          "credits_snapshot": 3.0,
+          "requirement_group": "unspecified",
+          "notes": "",
+          "source_page": 1,
+          "evidence_match": true,
+          "validation_status": "needs_course_code_verification",
+          "uncertainty_reason": "Official PDF table does not provide a course code"
+        },
+        {
+          "course_code": null,
+          "opening_units": [
+            "電機所"
+          ],
+          "opening_unit_snapshot": "電機所",
+          "course_name_snapshot": "適應控制",
+          "credits_snapshot": 3.0,
+          "requirement_group": "unspecified",
+          "notes": "",
+          "source_page": 1,
+          "evidence_match": true,
+          "validation_status": "needs_course_code_verification",
+          "uncertainty_reason": "Official PDF table does not provide a course code"
+        },
+        {
+          "course_code": null,
+          "opening_units": [
+            "電機所"
+          ],
+          "opening_unit_snapshot": "電機所",
+          "course_name_snapshot": "最佳控制",
+          "credits_snapshot": 3.0,
+          "requirement_group": "unspecified",
+          "notes": "",
+          "source_page": 1,
+          "evidence_match": true,
+          "validation_status": "needs_course_code_verification",
+          "uncertainty_reason": "Official PDF table does not provide a course code"
+        }
+      ],
+      "requirements": {
+        "core_credits_text_value": 18,
+        "minimum_total_credits": 33,
+        "minimum_outside_home_department_credits": 6
+      },
+      "source_pages": [
+        1,
+        2,
+        3,
+        4
+      ],
+      "audit": {
+        "compound_rows_needing_review": [],
+        "duplicates_removed": 2,
+        "course_count": 27,
+        "core_count": 0,
+        "elective_count": 0,
+        "evidence_matched_count": 27
+      }
+    },
+    {
+      "pdf_academic_version": "113-1",
+      "courses": [
+        {
+          "course_code": null,
+          "opening_units": [
+            "機電所"
+          ],
+          "opening_unit_snapshot": "機電所",
+          "course_name_snapshot": "半導體製程設備與技術",
+          "credits_snapshot": 3.0,
+          "requirement_group": "unspecified",
+          "notes": "1.每一學程科 目 僅 採計 一 門 課程學分。2.核心(必修)2學程科目應選2門課程。",
+          "source_page": 5,
+          "evidence_match": true,
+          "validation_status": "needs_course_code_verification",
+          "uncertainty_reason": "Official PDF table does not provide a course code"
+        },
+        {
+          "course_code": null,
+          "opening_units": [
+            "電機所"
+          ],
+          "opening_unit_snapshot": "電機所",
+          "course_name_snapshot": "機器人學",
+          "credits_snapshot": 3.0,
+          "requirement_group": "unspecified",
+          "notes": "",
+          "source_page": 5,
+          "evidence_match": true,
+          "validation_status": "needs_course_code_verification",
+          "uncertainty_reason": "Official PDF table does not provide a course code"
+        },
+        {
+          "course_code": null,
+          "opening_units": [
+            "電機所"
+          ],
+          "opening_unit_snapshot": "電機所",
+          "course_name_snapshot": "行動機器人",
+          "credits_snapshot": 3.0,
+          "requirement_group": "unspecified",
+          "notes": "",
+          "source_page": 5,
+          "evidence_match": true,
+          "validation_status": "needs_course_code_verification",
+          "uncertainty_reason": "Official PDF table does not provide a course code"
+        },
+        {
+          "course_code": null,
+          "opening_units": [
+            "機電系"
+          ],
+          "opening_unit_snapshot": "機電系",
+          "course_name_snapshot": "機械設計原理(一)",
+          "credits_snapshot": 3.0,
+          "requirement_group": "unspecified",
+          "notes": "",
+          "source_page": 5,
+          "evidence_match": true,
+          "validation_status": "needs_course_code_verification",
+          "uncertainty_reason": "Official PDF table does not provide a course code"
+        },
+        {
+          "course_code": null,
+          "opening_units": [
+            "機電系"
+          ],
+          "opening_unit_snapshot": "機電系",
+          "course_name_snapshot": "機械設計原理(二)",
+          "credits_snapshot": 3.0,
+          "requirement_group": "unspecified",
+          "notes": "",
+          "source_page": 5,
+          "evidence_match": true,
+          "validation_status": "needs_course_code_verification",
+          "uncertainty_reason": "Official PDF table does not provide a course code"
+        },
+        {
+          "course_code": null,
+          "opening_units": [
+            "機電系"
+          ],
+          "opening_unit_snapshot": "機電系",
+          "course_name_snapshot": "機動學",
+          "credits_snapshot": 3.0,
+          "requirement_group": "unspecified",
+          "notes": "",
+          "source_page": 5,
+          "evidence_match": true,
+          "validation_status": "needs_course_code_verification",
+          "uncertainty_reason": "Official PDF table does not provide a course code"
+        },
+        {
+          "course_code": null,
+          "opening_units": [
+            "機電系"
+          ],
+          "opening_unit_snapshot": "機電系",
+          "course_name_snapshot": "半導體製程導論",
+          "credits_snapshot": 3.0,
+          "requirement_group": "unspecified",
+          "notes": "1.每一學程科 目 僅 採計 一 門 課程學分。2.核心(必選修)13學程 科 目 應選 6 門 課程。",
+          "source_page": 5,
+          "evidence_match": true,
+          "validation_status": "needs_course_code_verification",
+          "uncertainty_reason": "Official PDF table does not provide a course code"
+        },
+        {
+          "course_code": null,
+          "opening_units": [
+            "材光所"
+          ],
+          "opening_unit_snapshot": "材光所",
+          "course_name_snapshot": "半導體製程原理",
+          "credits_snapshot": 3.0,
+          "requirement_group": "unspecified",
+          "notes": "",
+          "source_page": 5,
+          "evidence_match": true,
+          "validation_status": "needs_course_code_verification",
+          "uncertainty_reason": "Official PDF table does not provide a course code"
+        },
+        {
+          "course_code": null,
+          "opening_units": [
+            "封測所"
+          ],
+          "opening_unit_snapshot": "封測所",
+          "course_name_snapshot": "半導體製程整合技術",
+          "credits_snapshot": 3.0,
+          "requirement_group": "unspecified",
+          "notes": "",
+          "source_page": 5,
+          "evidence_match": true,
+          "validation_status": "needs_course_code_verification",
+          "uncertainty_reason": "Official PDF table does not provide a course code"
+        },
+        {
+          "course_code": null,
+          "opening_units": [
+            "零組件所"
+          ],
+          "opening_unit_snapshot": "零組件所",
+          "course_name_snapshot": "半導體製程整合技術",
+          "credits_snapshot": 3.0,
+          "requirement_group": "unspecified",
+          "notes": "",
+          "source_page": 5,
+          "evidence_match": true,
+          "validation_status": "needs_course_code_verification",
+          "uncertainty_reason": "Official PDF table does not provide a course code"
+        },
+        {
+          "course_code": null,
+          "opening_units": [
+            "物理系"
+          ],
+          "opening_unit_snapshot": "物理系",
+          "course_name_snapshot": "半導體奈米元件製造技術",
+          "credits_snapshot": 3.0,
+          "requirement_group": "unspecified",
+          "notes": "",
+          "source_page": 5,
+          "evidence_match": true,
+          "validation_status": "needs_course_code_verification",
+          "uncertainty_reason": "Official PDF table does not provide a course code"
+        },
+        {
+          "course_code": null,
+          "opening_units": [
+            "物理所"
+          ],
+          "opening_unit_snapshot": "物理所",
+          "course_name_snapshot": "半導體奈米元件製造技術",
+          "credits_snapshot": 3.0,
+          "requirement_group": "unspecified",
+          "notes": "",
+          "source_page": 5,
+          "evidence_match": true,
+          "validation_status": "needs_course_code_verification",
+          "uncertainty_reason": "Official PDF table does not provide a course code"
+        },
+        {
+          "course_code": null,
+          "opening_units": [
+            "電機所"
+          ],
+          "opening_unit_snapshot": "電機所",
+          "course_name_snapshot": "積體電路技術",
+          "credits_snapshot": 3.0,
+          "requirement_group": "unspecified",
+          "notes": "",
+          "source_page": 5,
+          "evidence_match": true,
+          "validation_status": "needs_course_code_verification",
+          "uncertainty_reason": "Official PDF table does not provide a course code"
+        },
+        {
+          "course_code": null,
+          "opening_units": [
+            "電機系"
+          ],
+          "opening_unit_snapshot": "電機系",
+          "course_name_snapshot": "微電子技術",
+          "credits_snapshot": 3.0,
+          "requirement_group": "unspecified",
+          "notes": "",
+          "source_page": 5,
+          "evidence_match": true,
+          "validation_status": "needs_course_code_verification",
+          "uncertainty_reason": "Official PDF table does not provide a course code"
+        },
+        {
+          "course_code": null,
+          "opening_units": [
+            "機電系"
+          ],
+          "opening_unit_snapshot": "機電系",
+          "course_name_snapshot": "電路學",
+          "credits_snapshot": 3.0,
+          "requirement_group": "unspecified",
+          "notes": "",
+          "source_page": 5,
+          "evidence_match": true,
+          "validation_status": "needs_course_code_verification",
+          "uncertainty_reason": "Official PDF table does not provide a course code"
+        },
+        {
+          "course_code": null,
+          "opening_units": [
+            "電機系"
+          ],
+          "opening_unit_snapshot": "電機系",
+          "course_name_snapshot": "電路學(一)",
+          "credits_snapshot": 3.0,
+          "requirement_group": "unspecified",
+          "notes": "",
+          "source_page": 5,
+          "evidence_match": true,
+          "validation_status": "needs_course_code_verification",
+          "uncertainty_reason": "Official PDF table does not provide a course code"
+        },
+        {
+          "course_code": null,
+          "opening_units": [
+            "電機系"
+          ],
+          "opening_unit_snapshot": "電機系",
+          "course_name_snapshot": "電路學(二)",
+          "credits_snapshot": 3.0,
+          "requirement_group": "unspecified",
+          "notes": "",
+          "source_page": 5,
+          "evidence_match": true,
+          "validation_status": "needs_course_code_verification",
+          "uncertainty_reason": "Official PDF table does not provide a course code"
+        },
+        {
+          "course_code": null,
+          "opening_units": [
+            "電機系"
+          ],
+          "opening_unit_snapshot": "電機系",
+          "course_name_snapshot": "電機機械",
+          "credits_snapshot": 3.0,
+          "requirement_group": "unspecified",
+          "notes": "",
+          "source_page": 5,
+          "evidence_match": true,
+          "validation_status": "needs_course_code_verification",
+          "uncertainty_reason": "Official PDF table does not provide a course code"
+        },
+        {
+          "course_code": null,
+          "opening_units": [
+            "機電系"
+          ],
+          "opening_unit_snapshot": "機電系",
+          "course_name_snapshot": "機電整合",
+          "credits_snapshot": 3.0,
+          "requirement_group": "unspecified",
+          "notes": "",
+          "source_page": 5,
+          "evidence_match": true,
+          "validation_status": "needs_course_code_verification",
+          "uncertainty_reason": "Official PDF table does not provide a course code"
+        },
+        {
+          "course_code": null,
+          "opening_units": [
+            "機電所"
+          ],
+          "opening_unit_snapshot": "機電所",
+          "course_name_snapshot": "機電傳動系統",
+          "credits_snapshot": 3.0,
+          "requirement_group": "unspecified",
+          "notes": "",
+          "source_page": 5,
+          "evidence_match": true,
+          "validation_status": "needs_course_code_verification",
+          "uncertainty_reason": "Official PDF table does not provide a course code"
+        },
+        {
+          "course_code": null,
+          "opening_units": [
+            "電機系"
+          ],
+          "opening_unit_snapshot": "電機系",
+          "course_name_snapshot": "電機動態與控制",
+          "credits_snapshot": 3.0,
+          "requirement_group": "unspecified",
+          "notes": "",
+          "source_page": 5,
+          "evidence_match": true,
+          "validation_status": "needs_course_code_verification",
+          "uncertainty_reason": "Official PDF table does not provide a course code"
+        },
+        {
+          "course_code": null,
+          "opening_units": [
+            "電機系"
+          ],
+          "opening_unit_snapshot": "電機系",
+          "course_name_snapshot": "控制系統",
+          "credits_snapshot": 3.0,
+          "requirement_group": "unspecified",
+          "notes": "",
+          "source_page": 5,
+          "evidence_match": true,
+          "validation_status": "needs_course_code_verification",
+          "uncertainty_reason": "Official PDF table does not provide a course code"
+        },
+        {
+          "course_code": null,
+          "opening_units": [
+            "機電系"
+          ],
+          "opening_unit_snapshot": "機電系",
+          "course_name_snapshot": "自動控制",
+          "credits_snapshot": 3.0,
+          "requirement_group": "unspecified",
+          "notes": "",
+          "source_page": 5,
+          "evidence_match": true,
+          "validation_status": "needs_course_code_verification",
+          "uncertainty_reason": "Official PDF table does not provide a course code"
+        },
+        {
+          "course_code": null,
+          "opening_units": [
+            "機電系"
+          ],
+          "opening_unit_snapshot": "機電系",
+          "course_name_snapshot": "數位控制",
+          "credits_snapshot": 3.0,
+          "requirement_group": "unspecified",
+          "notes": "",
+          "source_page": 5,
+          "evidence_match": true,
+          "validation_status": "needs_course_code_verification",
+          "uncertainty_reason": "Official PDF table does not provide a course code"
+        },
+        {
+          "course_code": null,
+          "opening_units": [
+            "電機所"
+          ],
+          "opening_unit_snapshot": "電機所",
+          "course_name_snapshot": "數位控制",
+          "credits_snapshot": 3.0,
+          "requirement_group": "unspecified",
+          "notes": "",
+          "source_page": 5,
+          "evidence_match": true,
+          "validation_status": "needs_course_code_verification",
+          "uncertainty_reason": "Official PDF table does not provide a course code"
+        },
+        {
+          "course_code": null,
+          "opening_units": [
+            "電機所"
+          ],
+          "opening_unit_snapshot": "電機所",
+          "course_name_snapshot": "適應控制",
+          "credits_snapshot": 3.0,
+          "requirement_group": "unspecified",
+          "notes": "",
+          "source_page": 5,
+          "evidence_match": true,
+          "validation_status": "needs_course_code_verification",
+          "uncertainty_reason": "Official PDF table does not provide a course code"
+        },
+        {
+          "course_code": null,
+          "opening_units": [
+            "電機所"
+          ],
+          "opening_unit_snapshot": "電機所",
+          "course_name_snapshot": "最佳控制",
+          "credits_snapshot": 3.0,
+          "requirement_group": "unspecified",
+          "notes": "",
+          "source_page": 5,
+          "evidence_match": true,
+          "validation_status": "needs_course_code_verification",
+          "uncertainty_reason": "Official PDF table does not provide a course code"
+        }
+      ],
+      "requirements": {
+        "core_credits_text_value": 18,
+        "minimum_total_credits": 33,
+        "minimum_outside_home_department_credits": 6
+      },
+      "source_pages": [
+        5,
+        6,
+        7,
+        8
+      ],
+      "audit": {
+        "compound_rows_needing_review": [],
+        "duplicates_removed": 2,
+        "course_count": 27,
+        "core_count": 0,
+        "elective_count": 0,
+        "evidence_matched_count": 27
+      }
+    },
+    {
+      "pdf_academic_version": "112-2",
+      "courses": [
+        {
+          "course_code": null,
+          "opening_units": [
+            "機電所"
+          ],
+          "opening_unit_snapshot": "機電所",
+          "course_name_snapshot": "半導體製程設備與技術",
+          "credits_snapshot": 3.0,
+          "requirement_group": "unspecified",
+          "notes": "1. 每一課程科目僅採計一門課程學分",
+          "source_page": 9,
+          "evidence_match": true,
+          "validation_status": "needs_course_code_verification",
+          "uncertainty_reason": "Official PDF table does not provide a course code"
+        },
+        {
+          "course_code": null,
+          "opening_units": [
+            "機電系"
+          ],
+          "opening_unit_snapshot": "機電系",
+          "course_name_snapshot": "半導體製程導論",
+          "credits_snapshot": 3.0,
+          "requirement_group": "unspecified",
+          "notes": "",
+          "source_page": 9,
+          "evidence_match": true,
+          "validation_status": "needs_course_code_verification",
+          "uncertainty_reason": "Official PDF table does not provide a course code"
+        },
+        {
+          "course_code": null,
+          "opening_units": [
+            "材光所"
+          ],
+          "opening_unit_snapshot": "材光所",
+          "course_name_snapshot": "半導體製程原理",
+          "credits_snapshot": 3.0,
+          "requirement_group": "unspecified",
+          "notes": "",
+          "source_page": 9,
+          "evidence_match": true,
+          "validation_status": "needs_course_code_verification",
+          "uncertainty_reason": "Official PDF table does not provide a course code"
+        },
+        {
+          "course_code": null,
+          "opening_units": [
+            "封測所"
+          ],
+          "opening_unit_snapshot": "封測所",
+          "course_name_snapshot": "半導體製程整合技術",
+          "credits_snapshot": 3.0,
+          "requirement_group": "unspecified",
+          "notes": "",
+          "source_page": 9,
+          "evidence_match": true,
+          "validation_status": "needs_course_code_verification",
+          "uncertainty_reason": "Official PDF table does not provide a course code"
+        },
+        {
+          "course_code": null,
+          "opening_units": [
+            "製造所"
+          ],
+          "opening_unit_snapshot": "製造所",
+          "course_name_snapshot": "半導體製程整合技術",
+          "credits_snapshot": 3.0,
+          "requirement_group": "unspecified",
+          "notes": "",
+          "source_page": 9,
+          "evidence_match": true,
+          "validation_status": "needs_course_code_verification",
+          "uncertainty_reason": "Official PDF table does not provide a course code"
+        },
+        {
+          "course_code": null,
+          "opening_units": [
+            "物理系"
+          ],
+          "opening_unit_snapshot": "物理系",
+          "course_name_snapshot": "半導體奈米元件製造技術",
+          "credits_snapshot": 3.0,
+          "requirement_group": "unspecified",
+          "notes": "",
+          "source_page": 9,
+          "evidence_match": true,
+          "validation_status": "needs_course_code_verification",
+          "uncertainty_reason": "Official PDF table does not provide a course code"
+        },
+        {
+          "course_code": null,
+          "opening_units": [
+            "物理所"
+          ],
+          "opening_unit_snapshot": "物理所",
+          "course_name_snapshot": "半導體奈米元件製造技術",
+          "credits_snapshot": 3.0,
+          "requirement_group": "unspecified",
+          "notes": "",
+          "source_page": 9,
+          "evidence_match": true,
+          "validation_status": "needs_course_code_verification",
+          "uncertainty_reason": "Official PDF table does not provide a course code"
+        },
+        {
+          "course_code": null,
+          "opening_units": [
+            "光電系"
+          ],
+          "opening_unit_snapshot": "光電系",
+          "course_name_snapshot": "半導體奈米元件製造技術",
+          "credits_snapshot": 3.0,
+          "requirement_group": "unspecified",
+          "notes": "",
+          "source_page": 9,
+          "evidence_match": true,
+          "validation_status": "needs_course_code_verification",
+          "uncertainty_reason": "Official PDF table does not provide a course code"
+        },
+        {
+          "course_code": null,
+          "opening_units": [
+            "電機系"
+          ],
+          "opening_unit_snapshot": "電機系",
+          "course_name_snapshot": "積體電路技術",
+          "credits_snapshot": 3.0,
+          "requirement_group": "unspecified",
+          "notes": "",
+          "source_page": 9,
+          "evidence_match": true,
+          "validation_status": "needs_course_code_verification",
+          "uncertainty_reason": "Official PDF table does not provide a course code"
+        },
+        {
+          "course_code": null,
+          "opening_units": [
+            "機電系"
+          ],
+          "opening_unit_snapshot": "機電系",
+          "course_name_snapshot": "電路學",
+          "credits_snapshot": 3.0,
+          "requirement_group": "unspecified",
+          "notes": "",
+          "source_page": 9,
+          "evidence_match": true,
+          "validation_status": "needs_course_code_verification",
+          "uncertainty_reason": "Official PDF table does not provide a course code"
+        },
+        {
+          "course_code": null,
+          "opening_units": [
+            "電機系"
+          ],
+          "opening_unit_snapshot": "電機系",
+          "course_name_snapshot": "電路學(一)",
+          "credits_snapshot": 3.0,
+          "requirement_group": "unspecified",
+          "notes": "",
+          "source_page": 9,
+          "evidence_match": true,
+          "validation_status": "needs_course_code_verification",
+          "uncertainty_reason": "Official PDF table does not provide a course code"
+        },
+        {
+          "course_code": null,
+          "opening_units": [
+            "電機系"
+          ],
+          "opening_unit_snapshot": "電機系",
+          "course_name_snapshot": "電路學(二)",
+          "credits_snapshot": 3.0,
+          "requirement_group": "unspecified",
+          "notes": "",
+          "source_page": 9,
+          "evidence_match": true,
+          "validation_status": "needs_course_code_verification",
+          "uncertainty_reason": "Official PDF table does not provide a course code"
+        },
+        {
+          "course_code": null,
+          "opening_units": [
+            "電機系"
+          ],
+          "opening_unit_snapshot": "電機系",
+          "course_name_snapshot": "電機機械",
+          "credits_snapshot": 3.0,
+          "requirement_group": "unspecified",
+          "notes": "",
+          "source_page": 9,
+          "evidence_match": true,
+          "validation_status": "needs_course_code_verification",
+          "uncertainty_reason": "Official PDF table does not provide a course code"
+        },
+        {
+          "course_code": null,
+          "opening_units": [
+            "機電系"
+          ],
+          "opening_unit_snapshot": "機電系",
+          "course_name_snapshot": "機械設計原理(一)",
+          "credits_snapshot": 3.0,
+          "requirement_group": "unspecified",
+          "notes": "",
+          "source_page": 9,
+          "evidence_match": true,
+          "validation_status": "needs_course_code_verification",
+          "uncertainty_reason": "Official PDF table does not provide a course code"
+        },
+        {
+          "course_code": null,
+          "opening_units": [
+            "機電系"
+          ],
+          "opening_unit_snapshot": "機電系",
+          "course_name_snapshot": "機械設計原理(二)",
+          "credits_snapshot": 3.0,
+          "requirement_group": "unspecified",
+          "notes": "",
+          "source_page": 9,
+          "evidence_match": true,
+          "validation_status": "needs_course_code_verification",
+          "uncertainty_reason": "Official PDF table does not provide a course code"
+        },
+        {
+          "course_code": null,
+          "opening_units": [
+            "機電系"
+          ],
+          "opening_unit_snapshot": "機電系",
+          "course_name_snapshot": "機電整合",
+          "credits_snapshot": 3.0,
+          "requirement_group": "unspecified",
+          "notes": "",
+          "source_page": 9,
+          "evidence_match": true,
+          "validation_status": "needs_course_code_verification",
+          "uncertainty_reason": "Official PDF table does not provide a course code"
+        },
+        {
+          "course_code": null,
+          "opening_units": [
+            "機電所"
+          ],
+          "opening_unit_snapshot": "機電所",
+          "course_name_snapshot": "機電傳動系統",
+          "credits_snapshot": 3.0,
+          "requirement_group": "unspecified",
+          "notes": "",
+          "source_page": 9,
+          "evidence_match": true,
+          "validation_status": "needs_course_code_verification",
+          "uncertainty_reason": "Official PDF table does not provide a course code"
+        },
+        {
+          "course_code": null,
+          "opening_units": [
+            "電機系"
+          ],
+          "opening_unit_snapshot": "電機系",
+          "course_name_snapshot": "電機動態與控制",
+          "credits_snapshot": 3.0,
+          "requirement_group": "unspecified",
+          "notes": "",
+          "source_page": 9,
+          "evidence_match": true,
+          "validation_status": "needs_course_code_verification",
+          "uncertainty_reason": "Official PDF table does not provide a course code"
+        },
+        {
+          "course_code": null,
+          "opening_units": [
+            "電機系"
+          ],
+          "opening_unit_snapshot": "電機系",
+          "course_name_snapshot": "控制系統",
+          "credits_snapshot": 3.0,
+          "requirement_group": "unspecified",
+          "notes": "",
+          "source_page": 9,
+          "evidence_match": true,
+          "validation_status": "needs_course_code_verification",
+          "uncertainty_reason": "Official PDF table does not provide a course code"
+        },
+        {
+          "course_code": null,
+          "opening_units": [
+            "機電系"
+          ],
+          "opening_unit_snapshot": "機電系",
+          "course_name_snapshot": "自動控制",
+          "credits_snapshot": 3.0,
+          "requirement_group": "unspecified",
+          "notes": "",
+          "source_page": 9,
+          "evidence_match": true,
+          "validation_status": "needs_course_code_verification",
+          "uncertainty_reason": "Official PDF table does not provide a course code"
+        },
+        {
+          "course_code": null,
+          "opening_units": [
+            "電機所"
+          ],
+          "opening_unit_snapshot": "電機所",
+          "course_name_snapshot": "數位控制",
+          "credits_snapshot": 3.0,
+          "requirement_group": "unspecified",
+          "notes": "",
+          "source_page": 9,
+          "evidence_match": true,
+          "validation_status": "needs_course_code_verification",
+          "uncertainty_reason": "Official PDF table does not provide a course code"
+        },
+        {
+          "course_code": null,
+          "opening_units": [
+            "電機所"
+          ],
+          "opening_unit_snapshot": "電機所",
+          "course_name_snapshot": "適應控制",
+          "credits_snapshot": 3.0,
+          "requirement_group": "unspecified",
+          "notes": "",
+          "source_page": 9,
+          "evidence_match": true,
+          "validation_status": "needs_course_code_verification",
+          "uncertainty_reason": "Official PDF table does not provide a course code"
+        },
+        {
+          "course_code": null,
+          "opening_units": [
+            "電機所"
+          ],
+          "opening_unit_snapshot": "電機所",
+          "course_name_snapshot": "最佳控制",
+          "credits_snapshot": 3.0,
+          "requirement_group": "unspecified",
+          "notes": "",
+          "source_page": 9,
+          "evidence_match": true,
+          "validation_status": "needs_course_code_verification",
+          "uncertainty_reason": "Official PDF table does not provide a course code"
+        },
+        {
+          "course_code": null,
+          "opening_units": [
+            "電機電力所"
+          ],
+          "opening_unit_snapshot": "電機電力所",
+          "course_name_snapshot": "最佳控制",
+          "credits_snapshot": 3.0,
+          "requirement_group": "unspecified",
+          "notes": "",
+          "source_page": 9,
+          "evidence_match": true,
+          "validation_status": "needs_course_code_verification",
+          "uncertainty_reason": "Official PDF table does not provide a course code"
+        },
+        {
+          "course_code": null,
+          "opening_units": [
+            "電機系"
+          ],
+          "opening_unit_snapshot": "電機系",
+          "course_name_snapshot": "最佳控制簡介",
+          "credits_snapshot": 3.0,
+          "requirement_group": "unspecified",
+          "notes": "",
+          "source_page": 9,
+          "evidence_match": true,
+          "validation_status": "needs_course_code_verification",
+          "uncertainty_reason": "Official PDF table does not provide a course code"
+        },
+        {
+          "course_code": null,
+          "opening_units": [
+            "電機所"
+          ],
+          "opening_unit_snapshot": "電機所",
+          "course_name_snapshot": "交直流馬達控制",
+          "credits_snapshot": 3.0,
+          "requirement_group": "unspecified",
+          "notes": "",
+          "source_page": 9,
+          "evidence_match": true,
+          "validation_status": "needs_course_code_verification",
+          "uncertainty_reason": "Official PDF table does not provide a course code"
+        },
+        {
+          "course_code": null,
+          "opening_units": [
+            "機電所"
+          ],
+          "opening_unit_snapshot": "機電所",
+          "course_name_snapshot": "非線性系統及控制",
+          "credits_snapshot": 3.0,
+          "requirement_group": "unspecified",
+          "notes": "",
+          "source_page": 9,
+          "evidence_match": true,
+          "validation_status": "needs_course_code_verification",
+          "uncertainty_reason": "Official PDF table does not provide a course code"
+        },
+        {
+          "course_code": null,
+          "opening_units": [
+            "機電所"
+          ],
+          "opening_unit_snapshot": "機電所",
+          "course_name_snapshot": "感測器原理與應用",
+          "credits_snapshot": 3.0,
+          "requirement_group": "unspecified",
+          "notes": "",
+          "source_page": 9,
+          "evidence_match": true,
+          "validation_status": "needs_course_code_verification",
+          "uncertainty_reason": "Official PDF table does not provide a course code"
+        },
+        {
+          "course_code": null,
+          "opening_units": [
+            "機電系"
+          ],
+          "opening_unit_snapshot": "機電系",
+          "course_name_snapshot": "感測與檢測",
+          "credits_snapshot": 3.0,
+          "requirement_group": "unspecified",
+          "notes": "",
+          "source_page": 9,
+          "evidence_match": true,
+          "validation_status": "needs_course_code_verification",
+          "uncertainty_reason": "Official PDF table does not provide a course code"
+        },
+        {
+          "course_code": null,
+          "opening_units": [
+            "電機所"
+          ],
+          "opening_unit_snapshot": "電機所",
+          "course_name_snapshot": "感測元件",
+          "credits_snapshot": 3.0,
+          "requirement_group": "unspecified",
+          "notes": "",
+          "source_page": 9,
+          "evidence_match": true,
+          "validation_status": "needs_course_code_verification",
+          "uncertainty_reason": "Official PDF table does not provide a course code"
+        },
+        {
+          "course_code": null,
+          "opening_units": [
+            "電子零組件所"
+          ],
+          "opening_unit_snapshot": "電子零組件所",
+          "course_name_snapshot": "感測元件",
+          "credits_snapshot": 3.0,
+          "requirement_group": "unspecified",
+          "notes": "",
+          "source_page": 9,
+          "evidence_match": true,
+          "validation_status": "needs_course_code_verification",
+          "uncertainty_reason": "Official PDF table does not provide a course code"
+        },
+        {
+          "course_code": null,
+          "opening_units": [
+            "機電系"
+          ],
+          "opening_unit_snapshot": "機電系",
+          "course_name_snapshot": "真空技術與應用",
+          "credits_snapshot": 3.0,
+          "requirement_group": "unspecified",
+          "notes": "",
+          "source_page": 9,
+          "evidence_match": true,
+          "validation_status": "needs_course_code_verification",
+          "uncertainty_reason": "Official PDF table does not provide a course code"
+        }
+      ],
+      "requirements": {
+        "core_credits_text_value": 36,
+        "minimum_total_credits": 48,
+        "minimum_outside_home_department_credits": 6
+      },
+      "source_pages": [
+        9,
+        10,
+        11,
+        12
+      ],
+      "audit": {
+        "compound_rows_needing_review": [],
+        "duplicates_removed": 0,
+        "course_count": 32,
+        "core_count": 0,
+        "elective_count": 0,
+        "evidence_matched_count": 32
+      }
+    },
+    {
+      "pdf_academic_version": "112-1",
+      "courses": [
+        {
+          "course_code": null,
+          "opening_units": [
+            "機電碩"
+          ],
+          "opening_unit_snapshot": "機電碩",
+          "course_name_snapshot": "半導體製程設備與技術",
+          "credits_snapshot": 3.0,
+          "requirement_group": "unspecified",
+          "notes": "1.每一課程科目僅採計一門課程學分",
+          "source_page": 13,
+          "evidence_match": true,
+          "validation_status": "needs_course_code_verification",
+          "uncertainty_reason": "Official PDF table does not provide a course code"
+        },
+        {
+          "course_code": null,
+          "opening_units": [
+            "材料碩"
+          ],
+          "opening_unit_snapshot": "材料碩",
+          "course_name_snapshot": "積體電路製程原理",
+          "credits_snapshot": 3.0,
+          "requirement_group": "unspecified",
+          "notes": "",
+          "source_page": 13,
+          "evidence_match": true,
+          "validation_status": "needs_course_code_verification",
+          "uncertainty_reason": "Official PDF table does not provide a course code"
+        },
+        {
+          "course_code": null,
+          "opening_units": [
+            "數理學程"
+          ],
+          "opening_unit_snapshot": "數理學程",
+          "course_name_snapshot": "半導體製程原理與實作",
+          "credits_snapshot": 3.0,
+          "requirement_group": "unspecified",
+          "notes": "",
+          "source_page": 13,
+          "evidence_match": true,
+          "validation_status": "needs_course_code_verification",
+          "uncertainty_reason": "Official PDF table does not provide a course code"
+        },
+        {
+          "course_code": null,
+          "opening_units": [
+            "材料碩"
+          ],
+          "opening_unit_snapshot": "材料碩",
+          "course_name_snapshot": "積體電路製程技術",
+          "credits_snapshot": 4.0,
+          "requirement_group": "unspecified",
+          "notes": "",
+          "source_page": 13,
+          "evidence_match": true,
+          "validation_status": "needs_course_code_verification",
+          "uncertainty_reason": "Official PDF table does not provide a course code"
+        },
+        {
+          "course_code": null,
+          "opening_units": [
+            "機電系"
+          ],
+          "opening_unit_snapshot": "機電系",
+          "course_name_snapshot": "半導體製程導論",
+          "credits_snapshot": 3.0,
+          "requirement_group": "unspecified",
+          "notes": "",
+          "source_page": 13,
+          "evidence_match": true,
+          "validation_status": "needs_course_code_verification",
+          "uncertainty_reason": "Official PDF table does not provide a course code"
+        },
+        {
+          "course_code": null,
+          "opening_units": [
+            "機電系"
+          ],
+          "opening_unit_snapshot": "機電系",
+          "course_name_snapshot": "電路學",
+          "credits_snapshot": 3.0,
+          "requirement_group": "unspecified",
+          "notes": "",
+          "source_page": 13,
+          "evidence_match": true,
+          "validation_status": "needs_course_code_verification",
+          "uncertainty_reason": "Official PDF table does not provide a course code"
+        },
+        {
+          "course_code": null,
+          "opening_units": [
+            "跨院選修(工)"
+          ],
+          "opening_unit_snapshot": "跨院選修(工)",
+          "course_name_snapshot": "電路學(一)",
+          "credits_snapshot": 3.0,
+          "requirement_group": "unspecified",
+          "notes": "",
+          "source_page": 13,
+          "evidence_match": true,
+          "validation_status": "needs_course_code_verification",
+          "uncertainty_reason": "Official PDF table does not provide a course code"
+        },
+        {
+          "course_code": null,
+          "opening_units": [
+            "跨院選修(工)"
+          ],
+          "opening_unit_snapshot": "跨院選修(工)",
+          "course_name_snapshot": "電路學(二)",
+          "credits_snapshot": 3.0,
+          "requirement_group": "unspecified",
+          "notes": "",
+          "source_page": 13,
+          "evidence_match": true,
+          "validation_status": "needs_course_code_verification",
+          "uncertainty_reason": "Official PDF table does not provide a course code"
+        },
+        {
+          "course_code": null,
+          "opening_units": [
+            "電機系"
+          ],
+          "opening_unit_snapshot": "電機系",
+          "course_name_snapshot": "電機機械",
+          "credits_snapshot": 3.0,
+          "requirement_group": "unspecified",
+          "notes": "",
+          "source_page": 13,
+          "evidence_match": true,
+          "validation_status": "needs_course_code_verification",
+          "uncertainty_reason": "Official PDF table does not provide a course code"
+        },
+        {
+          "course_code": null,
+          "opening_units": [
+            "機電系"
+          ],
+          "opening_unit_snapshot": "機電系",
+          "course_name_snapshot": "機械設計原理(一)",
+          "credits_snapshot": 3.0,
+          "requirement_group": "unspecified",
+          "notes": "",
+          "source_page": 13,
+          "evidence_match": true,
+          "validation_status": "needs_course_code_verification",
+          "uncertainty_reason": "Official PDF table does not provide a course code"
+        },
+        {
+          "course_code": null,
+          "opening_units": [
+            "機電系"
+          ],
+          "opening_unit_snapshot": "機電系",
+          "course_name_snapshot": "機械設計原理(二)",
+          "credits_snapshot": 3.0,
+          "requirement_group": "unspecified",
+          "notes": "",
+          "source_page": 13,
+          "evidence_match": true,
+          "validation_status": "needs_course_code_verification",
+          "uncertainty_reason": "Official PDF table does not provide a course code"
+        },
+        {
+          "course_code": null,
+          "opening_units": [
+            "機電碩"
+          ],
+          "opening_unit_snapshot": "機電碩",
+          "course_name_snapshot": "機電傳動系統",
+          "credits_snapshot": 3.0,
+          "requirement_group": "unspecified",
+          "notes": "",
+          "source_page": 13,
+          "evidence_match": true,
+          "validation_status": "needs_course_code_verification",
+          "uncertainty_reason": "Official PDF table does not provide a course code"
+        },
+        {
+          "course_code": null,
+          "opening_units": [
+            "機電系"
+          ],
+          "opening_unit_snapshot": "機電系",
+          "course_name_snapshot": "機電整合",
+          "credits_snapshot": 3.0,
+          "requirement_group": "unspecified",
+          "notes": "",
+          "source_page": 13,
+          "evidence_match": true,
+          "validation_status": "needs_course_code_verification",
+          "uncertainty_reason": "Official PDF table does not provide a course code"
+        },
+        {
+          "course_code": null,
+          "opening_units": [
+            "資工系"
+          ],
+          "opening_unit_snapshot": "資工系",
+          "course_name_snapshot": "電子設計自動化及測試導論",
+          "credits_snapshot": 3.0,
+          "requirement_group": "unspecified",
+          "notes": "",
+          "source_page": 13,
+          "evidence_match": true,
+          "validation_status": "needs_course_code_verification",
+          "uncertainty_reason": "Official PDF table does not provide a course code"
+        },
+        {
+          "course_code": null,
+          "opening_units": [
+            "機電系"
+          ],
+          "opening_unit_snapshot": "機電系",
+          "course_name_snapshot": "自動控制",
+          "credits_snapshot": 3.0,
+          "requirement_group": "unspecified",
+          "notes": "",
+          "source_page": 13,
+          "evidence_match": true,
+          "validation_status": "needs_course_code_verification",
+          "uncertainty_reason": "Official PDF table does not provide a course code"
+        },
+        {
+          "course_code": null,
+          "opening_units": [
+            "電機系"
+          ],
+          "opening_unit_snapshot": "電機系",
+          "course_name_snapshot": "電機動態與控制",
+          "credits_snapshot": 3.0,
+          "requirement_group": "unspecified",
+          "notes": "",
+          "source_page": 13,
+          "evidence_match": true,
+          "validation_status": "needs_course_code_verification",
+          "uncertainty_reason": "Official PDF table does not provide a course code"
+        },
+        {
+          "course_code": null,
+          "opening_units": [
+            "電機系"
+          ],
+          "opening_unit_snapshot": "電機系",
+          "course_name_snapshot": "控制系統",
+          "credits_snapshot": 3.0,
+          "requirement_group": "unspecified",
+          "notes": "",
+          "source_page": 13,
+          "evidence_match": true,
+          "validation_status": "needs_course_code_verification",
+          "uncertainty_reason": "Official PDF table does not provide a course code"
+        },
+        {
+          "course_code": null,
+          "opening_units": [
+            "電機碩"
+          ],
+          "opening_unit_snapshot": "電機碩",
+          "course_name_snapshot": "數位控制",
+          "credits_snapshot": 3.0,
+          "requirement_group": "unspecified",
+          "notes": "",
+          "source_page": 13,
+          "evidence_match": true,
+          "validation_status": "needs_course_code_verification",
+          "uncertainty_reason": "Official PDF table does not provide a course code"
+        },
+        {
+          "course_code": null,
+          "opening_units": [
+            "機電碩"
+          ],
+          "opening_unit_snapshot": "機電碩",
+          "course_name_snapshot": "非線性系統及控制",
+          "credits_snapshot": 3.0,
+          "requirement_group": "unspecified",
+          "notes": "",
+          "source_page": 13,
+          "evidence_match": true,
+          "validation_status": "needs_course_code_verification",
+          "uncertainty_reason": "Official PDF table does not provide a course code"
+        },
+        {
+          "course_code": null,
+          "opening_units": [
+            "電機系"
+          ],
+          "opening_unit_snapshot": "電機系",
+          "course_name_snapshot": "最佳控制簡介",
+          "credits_snapshot": 3.0,
+          "requirement_group": "unspecified",
+          "notes": "",
+          "source_page": 13,
+          "evidence_match": true,
+          "validation_status": "needs_course_code_verification",
+          "uncertainty_reason": "Official PDF table does not provide a course code"
+        },
+        {
+          "course_code": null,
+          "opening_units": [
+            "電機碩"
+          ],
+          "opening_unit_snapshot": "電機碩",
+          "course_name_snapshot": "交直流馬達控制",
+          "credits_snapshot": 3.0,
+          "requirement_group": "unspecified",
+          "notes": "",
+          "source_page": 13,
+          "evidence_match": true,
+          "validation_status": "needs_course_code_verification",
+          "uncertainty_reason": "Official PDF table does not provide a course code"
+        },
+        {
+          "course_code": null,
+          "opening_units": [
+            "電機碩"
+          ],
+          "opening_unit_snapshot": "電機碩",
+          "course_name_snapshot": "最佳控制",
+          "credits_snapshot": 3.0,
+          "requirement_group": "unspecified",
+          "notes": "",
+          "source_page": 13,
+          "evidence_match": true,
+          "validation_status": "needs_course_code_verification",
+          "uncertainty_reason": "Official PDF table does not provide a course code"
+        },
+        {
+          "course_code": null,
+          "opening_units": [
+            "電機碩"
+          ],
+          "opening_unit_snapshot": "電機碩",
+          "course_name_snapshot": "適應控制",
+          "credits_snapshot": 3.0,
+          "requirement_group": "unspecified",
+          "notes": "",
+          "source_page": 13,
+          "evidence_match": true,
+          "validation_status": "needs_course_code_verification",
+          "uncertainty_reason": "Official PDF table does not provide a course code"
+        },
+        {
+          "course_code": null,
+          "opening_units": [
+            "機電碩"
+          ],
+          "opening_unit_snapshot": "機電碩",
+          "course_name_snapshot": "模糊邏輯與控制",
+          "credits_snapshot": 3.0,
+          "requirement_group": "unspecified",
+          "notes": "",
+          "source_page": 13,
+          "evidence_match": true,
+          "validation_status": "needs_course_code_verification",
+          "uncertainty_reason": "Official PDF table does not provide a course code"
+        },
+        {
+          "course_code": null,
+          "opening_units": [
+            "電機電力碩"
+          ],
+          "opening_unit_snapshot": "電機電力碩",
+          "course_name_snapshot": "最佳控制",
+          "credits_snapshot": 3.0,
+          "requirement_group": "unspecified",
+          "notes": "",
+          "source_page": 13,
+          "evidence_match": true,
+          "validation_status": "needs_course_code_verification",
+          "uncertainty_reason": "Official PDF table does not provide a course code"
+        },
+        {
+          "course_code": null,
+          "opening_units": [
+            "資工碩"
+          ],
+          "opening_unit_snapshot": "資工碩",
+          "course_name_snapshot": "無線隨意與感測網路技術",
+          "credits_snapshot": 3.0,
+          "requirement_group": "unspecified",
+          "notes": "",
+          "source_page": 13,
+          "evidence_match": true,
+          "validation_status": "needs_course_code_verification",
+          "uncertainty_reason": "Official PDF table does not provide a course code"
+        },
+        {
+          "course_code": null,
+          "opening_units": [
+            "電機碩"
+          ],
+          "opening_unit_snapshot": "電機碩",
+          "course_name_snapshot": "光纖感測原理",
+          "credits_snapshot": 3.0,
+          "requirement_group": "unspecified",
+          "notes": "",
+          "source_page": 13,
+          "evidence_match": true,
+          "validation_status": "needs_course_code_verification",
+          "uncertainty_reason": "Official PDF table does not provide a course code"
+        },
+        {
+          "course_code": null,
+          "opening_units": [
+            "電機碩"
+          ],
+          "opening_unit_snapshot": "電機碩",
+          "course_name_snapshot": "感測器校正",
+          "credits_snapshot": 3.0,
+          "requirement_group": "unspecified",
+          "notes": "",
+          "source_page": 13,
+          "evidence_match": true,
+          "validation_status": "needs_course_code_verification",
+          "uncertainty_reason": "Official PDF table does not provide a course code"
+        },
+        {
+          "course_code": null,
+          "opening_units": [
+            "機電系"
+          ],
+          "opening_unit_snapshot": "機電系",
+          "course_name_snapshot": "感測與檢測",
+          "credits_snapshot": 3.0,
+          "requirement_group": "unspecified",
+          "notes": "",
+          "source_page": 13,
+          "evidence_match": true,
+          "validation_status": "needs_course_code_verification",
+          "uncertainty_reason": "Official PDF table does not provide a course code"
+        },
+        {
+          "course_code": null,
+          "opening_units": [
+            "電機碩"
+          ],
+          "opening_unit_snapshot": "電機碩",
+          "course_name_snapshot": "感測元件",
+          "credits_snapshot": 3.0,
+          "requirement_group": "unspecified",
+          "notes": "",
+          "source_page": 13,
+          "evidence_match": true,
+          "validation_status": "needs_course_code_verification",
+          "uncertainty_reason": "Official PDF table does not provide a course code"
+        },
+        {
+          "course_code": null,
+          "opening_units": [
+            "機電系"
+          ],
+          "opening_unit_snapshot": "機電系",
+          "course_name_snapshot": "真空技術與應用",
+          "credits_snapshot": 3.0,
+          "requirement_group": "unspecified",
+          "notes": "",
+          "source_page": 13,
+          "evidence_match": true,
+          "validation_status": "needs_course_code_verification",
+          "uncertainty_reason": "Official PDF table does not provide a course code"
+        },
+        {
+          "course_code": null,
+          "opening_units": [
+            "機電系"
+          ],
+          "opening_unit_snapshot": "機電系",
+          "course_name_snapshot": "熱力學",
+          "credits_snapshot": 3.0,
+          "requirement_group": "unspecified",
+          "notes": "",
+          "source_page": 13,
+          "evidence_match": true,
+          "validation_status": "needs_course_code_verification",
+          "uncertainty_reason": "Official PDF table does not provide a course code"
+        }
+      ],
+      "requirements": {
+        "core_credits_text_value": 36,
+        "minimum_total_credits": 48,
+        "minimum_outside_home_department_credits": 6
+      },
+      "source_pages": [
+        13,
+        14,
+        15,
+        16
+      ],
+      "audit": {
+        "compound_rows_needing_review": [],
+        "duplicates_removed": 1,
+        "course_count": 32,
+        "core_count": 0,
+        "elective_count": 0,
+        "evidence_matched_count": 32
+      }
+    },
+    {
+      "pdf_academic_version": "110-1",
+      "courses": [
+        {
+          "course_code": null,
+          "opening_units": [
+            "機電碩"
+          ],
+          "opening_unit_snapshot": "機電碩",
+          "course_name_snapshot": "半導體製程設備與技術",
+          "credits_snapshot": 3.0,
+          "requirement_group": "unspecified",
+          "notes": "1.每一課程科目 僅 採 計一 門 課 程學分",
+          "source_page": 17,
+          "evidence_match": true,
+          "validation_status": "needs_course_code_verification",
+          "uncertainty_reason": "Official PDF table does not provide a course code"
+        },
+        {
+          "course_code": null,
+          "opening_units": [
+            "材料碩"
+          ],
+          "opening_unit_snapshot": "材料碩",
+          "course_name_snapshot": "積體電路製程原理",
+          "credits_snapshot": 3.0,
+          "requirement_group": "unspecified",
+          "notes": "",
+          "source_page": 17,
+          "evidence_match": true,
+          "validation_status": "needs_course_code_verification",
+          "uncertainty_reason": "Official PDF table does not provide a course code"
+        },
+        {
+          "course_code": null,
+          "opening_units": [
+            "數理學程"
+          ],
+          "opening_unit_snapshot": "數理學程",
+          "course_name_snapshot": "半導體製程原理與實作",
+          "credits_snapshot": 3.0,
+          "requirement_group": "unspecified",
+          "notes": "",
+          "source_page": 17,
+          "evidence_match": true,
+          "validation_status": "needs_course_code_verification",
+          "uncertainty_reason": "Official PDF table does not provide a course code"
+        },
+        {
+          "course_code": null,
+          "opening_units": [
+            "材料碩"
+          ],
+          "opening_unit_snapshot": "材料碩",
+          "course_name_snapshot": "積體電路製程技術",
+          "credits_snapshot": 4.0,
+          "requirement_group": "unspecified",
+          "notes": "",
+          "source_page": 17,
+          "evidence_match": true,
+          "validation_status": "needs_course_code_verification",
+          "uncertainty_reason": "Official PDF table does not provide a course code"
+        },
+        {
+          "course_code": null,
+          "opening_units": [
+            "機電系"
+          ],
+          "opening_unit_snapshot": "機電系",
+          "course_name_snapshot": "半導體製程導論",
+          "credits_snapshot": 3.0,
+          "requirement_group": "unspecified",
+          "notes": "",
+          "source_page": 17,
+          "evidence_match": true,
+          "validation_status": "needs_course_code_verification",
+          "uncertainty_reason": "Official PDF table does not provide a course code"
+        },
+        {
+          "course_code": null,
+          "opening_units": [
+            "機電系"
+          ],
+          "opening_unit_snapshot": "機電系",
+          "course_name_snapshot": "電路學",
+          "credits_snapshot": 3.0,
+          "requirement_group": "unspecified",
+          "notes": "",
+          "source_page": 17,
+          "evidence_match": true,
+          "validation_status": "needs_course_code_verification",
+          "uncertainty_reason": "Official PDF table does not provide a course code"
+        },
+        {
+          "course_code": null,
+          "opening_units": [
+            "跨院選修(工)"
+          ],
+          "opening_unit_snapshot": "跨院選修(工)",
+          "course_name_snapshot": "電路學(一)",
+          "credits_snapshot": 3.0,
+          "requirement_group": "unspecified",
+          "notes": "",
+          "source_page": 17,
+          "evidence_match": true,
+          "validation_status": "needs_course_code_verification",
+          "uncertainty_reason": "Official PDF table does not provide a course code"
+        },
+        {
+          "course_code": null,
+          "opening_units": [
+            "跨院選修(工)"
+          ],
+          "opening_unit_snapshot": "跨院選修(工)",
+          "course_name_snapshot": "電路學(二)",
+          "credits_snapshot": 3.0,
+          "requirement_group": "unspecified",
+          "notes": "",
+          "source_page": 17,
+          "evidence_match": true,
+          "validation_status": "needs_course_code_verification",
+          "uncertainty_reason": "Official PDF table does not provide a course code"
+        },
+        {
+          "course_code": null,
+          "opening_units": [
+            "電機系"
+          ],
+          "opening_unit_snapshot": "電機系",
+          "course_name_snapshot": "電機機械",
+          "credits_snapshot": 3.0,
+          "requirement_group": "unspecified",
+          "notes": "",
+          "source_page": 17,
+          "evidence_match": true,
+          "validation_status": "needs_course_code_verification",
+          "uncertainty_reason": "Official PDF table does not provide a course code"
+        },
+        {
+          "course_code": null,
+          "opening_units": [
+            "機電系"
+          ],
+          "opening_unit_snapshot": "機電系",
+          "course_name_snapshot": "機械設計原理(一)",
+          "credits_snapshot": 3.0,
+          "requirement_group": "unspecified",
+          "notes": "",
+          "source_page": 17,
+          "evidence_match": true,
+          "validation_status": "needs_course_code_verification",
+          "uncertainty_reason": "Official PDF table does not provide a course code"
+        },
+        {
+          "course_code": null,
+          "opening_units": [
+            "機電系"
+          ],
+          "opening_unit_snapshot": "機電系",
+          "course_name_snapshot": "機械設計原理(二)",
+          "credits_snapshot": 3.0,
+          "requirement_group": "unspecified",
+          "notes": "",
+          "source_page": 17,
+          "evidence_match": true,
+          "validation_status": "needs_course_code_verification",
+          "uncertainty_reason": "Official PDF table does not provide a course code"
+        },
+        {
+          "course_code": null,
+          "opening_units": [
+            "機電碩"
+          ],
+          "opening_unit_snapshot": "機電碩",
+          "course_name_snapshot": "機電傳動系統",
+          "credits_snapshot": 3.0,
+          "requirement_group": "unspecified",
+          "notes": "",
+          "source_page": 17,
+          "evidence_match": true,
+          "validation_status": "needs_course_code_verification",
+          "uncertainty_reason": "Official PDF table does not provide a course code"
+        },
+        {
+          "course_code": null,
+          "opening_units": [
+            "機電系"
+          ],
+          "opening_unit_snapshot": "機電系",
+          "course_name_snapshot": "機電整合",
+          "credits_snapshot": 3.0,
+          "requirement_group": "unspecified",
+          "notes": "",
+          "source_page": 17,
+          "evidence_match": true,
+          "validation_status": "needs_course_code_verification",
+          "uncertainty_reason": "Official PDF table does not provide a course code"
+        },
+        {
+          "course_code": null,
+          "opening_units": [
+            "資工系"
+          ],
+          "opening_unit_snapshot": "資工系",
+          "course_name_snapshot": "電子設計自動化及測試導論",
+          "credits_snapshot": 3.0,
+          "requirement_group": "unspecified",
+          "notes": "",
+          "source_page": 17,
+          "evidence_match": true,
+          "validation_status": "needs_course_code_verification",
+          "uncertainty_reason": "Official PDF table does not provide a course code"
+        },
+        {
+          "course_code": null,
+          "opening_units": [
+            "機電系"
+          ],
+          "opening_unit_snapshot": "機電系",
+          "course_name_snapshot": "自動控制",
+          "credits_snapshot": 3.0,
+          "requirement_group": "unspecified",
+          "notes": "",
+          "source_page": 17,
+          "evidence_match": true,
+          "validation_status": "needs_course_code_verification",
+          "uncertainty_reason": "Official PDF table does not provide a course code"
+        },
+        {
+          "course_code": null,
+          "opening_units": [
+            "電機系"
+          ],
+          "opening_unit_snapshot": "電機系",
+          "course_name_snapshot": "電機動態與控制",
+          "credits_snapshot": 3.0,
+          "requirement_group": "unspecified",
+          "notes": "",
+          "source_page": 17,
+          "evidence_match": true,
+          "validation_status": "needs_course_code_verification",
+          "uncertainty_reason": "Official PDF table does not provide a course code"
+        },
+        {
+          "course_code": null,
+          "opening_units": [
+            "電機系"
+          ],
+          "opening_unit_snapshot": "電機系",
+          "course_name_snapshot": "控制系統",
+          "credits_snapshot": 3.0,
+          "requirement_group": "unspecified",
+          "notes": "",
+          "source_page": 17,
+          "evidence_match": true,
+          "validation_status": "needs_course_code_verification",
+          "uncertainty_reason": "Official PDF table does not provide a course code"
+        },
+        {
+          "course_code": null,
+          "opening_units": [
+            "電機碩"
+          ],
+          "opening_unit_snapshot": "電機碩",
+          "course_name_snapshot": "數位控制",
+          "credits_snapshot": 3.0,
+          "requirement_group": "unspecified",
+          "notes": "",
+          "source_page": 17,
+          "evidence_match": true,
+          "validation_status": "needs_course_code_verification",
+          "uncertainty_reason": "Official PDF table does not provide a course code"
+        },
+        {
+          "course_code": null,
+          "opening_units": [
+            "機電碩"
+          ],
+          "opening_unit_snapshot": "機電碩",
+          "course_name_snapshot": "非線性系統及控制",
+          "credits_snapshot": 3.0,
+          "requirement_group": "unspecified",
+          "notes": "",
+          "source_page": 17,
+          "evidence_match": true,
+          "validation_status": "needs_course_code_verification",
+          "uncertainty_reason": "Official PDF table does not provide a course code"
+        },
+        {
+          "course_code": null,
+          "opening_units": [
+            "電機系"
+          ],
+          "opening_unit_snapshot": "電機系",
+          "course_name_snapshot": "最佳控制簡介",
+          "credits_snapshot": 3.0,
+          "requirement_group": "unspecified",
+          "notes": "",
+          "source_page": 17,
+          "evidence_match": true,
+          "validation_status": "needs_course_code_verification",
+          "uncertainty_reason": "Official PDF table does not provide a course code"
+        },
+        {
+          "course_code": null,
+          "opening_units": [
+            "電機碩"
+          ],
+          "opening_unit_snapshot": "電機碩",
+          "course_name_snapshot": "交直流馬達控制",
+          "credits_snapshot": 3.0,
+          "requirement_group": "unspecified",
+          "notes": "",
+          "source_page": 17,
+          "evidence_match": true,
+          "validation_status": "needs_course_code_verification",
+          "uncertainty_reason": "Official PDF table does not provide a course code"
+        },
+        {
+          "course_code": null,
+          "opening_units": [
+            "電機碩"
+          ],
+          "opening_unit_snapshot": "電機碩",
+          "course_name_snapshot": "最佳控制",
+          "credits_snapshot": 3.0,
+          "requirement_group": "unspecified",
+          "notes": "",
+          "source_page": 17,
+          "evidence_match": true,
+          "validation_status": "needs_course_code_verification",
+          "uncertainty_reason": "Official PDF table does not provide a course code"
+        },
+        {
+          "course_code": null,
+          "opening_units": [
+            "電機碩"
+          ],
+          "opening_unit_snapshot": "電機碩",
+          "course_name_snapshot": "適應控制",
+          "credits_snapshot": 3.0,
+          "requirement_group": "unspecified",
+          "notes": "",
+          "source_page": 17,
+          "evidence_match": true,
+          "validation_status": "needs_course_code_verification",
+          "uncertainty_reason": "Official PDF table does not provide a course code"
+        },
+        {
+          "course_code": null,
+          "opening_units": [
+            "機電碩"
+          ],
+          "opening_unit_snapshot": "機電碩",
+          "course_name_snapshot": "模糊邏輯與控制",
+          "credits_snapshot": 3.0,
+          "requirement_group": "unspecified",
+          "notes": "",
+          "source_page": 17,
+          "evidence_match": true,
+          "validation_status": "needs_course_code_verification",
+          "uncertainty_reason": "Official PDF table does not provide a course code"
+        },
+        {
+          "course_code": null,
+          "opening_units": [
+            "電機電力碩"
+          ],
+          "opening_unit_snapshot": "電機電力碩",
+          "course_name_snapshot": "最佳控制",
+          "credits_snapshot": 3.0,
+          "requirement_group": "unspecified",
+          "notes": "",
+          "source_page": 17,
+          "evidence_match": true,
+          "validation_status": "needs_course_code_verification",
+          "uncertainty_reason": "Official PDF table does not provide a course code"
+        },
+        {
+          "course_code": null,
+          "opening_units": [
+            "資工碩"
+          ],
+          "opening_unit_snapshot": "資工碩",
+          "course_name_snapshot": "無線隨意與感測網路技術",
+          "credits_snapshot": 3.0,
+          "requirement_group": "unspecified",
+          "notes": "",
+          "source_page": 17,
+          "evidence_match": true,
+          "validation_status": "needs_course_code_verification",
+          "uncertainty_reason": "Official PDF table does not provide a course code"
+        },
+        {
+          "course_code": null,
+          "opening_units": [
+            "電機碩"
+          ],
+          "opening_unit_snapshot": "電機碩",
+          "course_name_snapshot": "光纖感測原理",
+          "credits_snapshot": 3.0,
+          "requirement_group": "unspecified",
+          "notes": "",
+          "source_page": 17,
+          "evidence_match": true,
+          "validation_status": "needs_course_code_verification",
+          "uncertainty_reason": "Official PDF table does not provide a course code"
+        },
+        {
+          "course_code": null,
+          "opening_units": [
+            "電機碩"
+          ],
+          "opening_unit_snapshot": "電機碩",
+          "course_name_snapshot": "感測器校正",
+          "credits_snapshot": 3.0,
+          "requirement_group": "unspecified",
+          "notes": "",
+          "source_page": 17,
+          "evidence_match": true,
+          "validation_status": "needs_course_code_verification",
+          "uncertainty_reason": "Official PDF table does not provide a course code"
+        },
+        {
+          "course_code": null,
+          "opening_units": [
+            "機電系"
+          ],
+          "opening_unit_snapshot": "機電系",
+          "course_name_snapshot": "感測與檢測",
+          "credits_snapshot": 3.0,
+          "requirement_group": "unspecified",
+          "notes": "",
+          "source_page": 17,
+          "evidence_match": true,
+          "validation_status": "needs_course_code_verification",
+          "uncertainty_reason": "Official PDF table does not provide a course code"
+        },
+        {
+          "course_code": null,
+          "opening_units": [
+            "電機碩"
+          ],
+          "opening_unit_snapshot": "電機碩",
+          "course_name_snapshot": "感測元件",
+          "credits_snapshot": 3.0,
+          "requirement_group": "unspecified",
+          "notes": "",
+          "source_page": 17,
+          "evidence_match": true,
+          "validation_status": "needs_course_code_verification",
+          "uncertainty_reason": "Official PDF table does not provide a course code"
+        },
+        {
+          "course_code": null,
+          "opening_units": [
+            "材料碩"
+          ],
+          "opening_unit_snapshot": "材料碩",
+          "course_name_snapshot": "真空技術",
+          "credits_snapshot": 3.0,
+          "requirement_group": "unspecified",
+          "notes": "",
+          "source_page": 17,
+          "evidence_match": true,
+          "validation_status": "needs_course_code_verification",
+          "uncertainty_reason": "Official PDF table does not provide a course code"
+        },
+        {
+          "course_code": null,
+          "opening_units": [
+            "物理碩"
+          ],
+          "opening_unit_snapshot": "物理碩",
+          "course_name_snapshot": "真空與薄膜技術",
+          "credits_snapshot": 3.0,
+          "requirement_group": "unspecified",
+          "notes": "",
+          "source_page": 17,
+          "evidence_match": true,
+          "validation_status": "needs_course_code_verification",
+          "uncertainty_reason": "Official PDF table does not provide a course code"
+        }
+      ],
+      "requirements": {
+        "core_credits_text_value": 36,
+        "minimum_total_credits": 48,
+        "minimum_outside_home_department_credits": 6
+      },
+      "source_pages": [
+        17,
+        18,
+        19,
+        20
+      ],
+      "audit": {
+        "compound_rows_needing_review": [],
+        "duplicates_removed": 1,
+        "course_count": 32,
+        "core_count": 0,
+        "elective_count": 0,
+        "evidence_matched_count": 32
+      }
+    }
+  ],
+  "selected_pdf_academic_version": "113-2",
+  "structured_courses": [
+    {
+      "course_code": null,
+      "opening_units": [
+        "機電所"
+      ],
+      "opening_unit_snapshot": "機電所",
+      "course_name_snapshot": "半導體製程設備與技術",
+      "credits_snapshot": 3.0,
+      "requirement_group": "unspecified",
+      "notes": "1.每一學程科目僅採計一門課程學分。2.核心(必修)2學程科目應選2門課程。",
+      "source_page": 1,
+      "evidence_match": true,
+      "validation_status": "needs_course_code_verification",
+      "uncertainty_reason": "Official PDF table does not provide a course code"
+    },
+    {
+      "course_code": null,
+      "opening_units": [
+        "電機所"
+      ],
+      "opening_unit_snapshot": "電機所",
+      "course_name_snapshot": "機器人學",
+      "credits_snapshot": 3.0,
+      "requirement_group": "unspecified",
+      "notes": "",
+      "source_page": 1,
+      "evidence_match": true,
+      "validation_status": "needs_course_code_verification",
+      "uncertainty_reason": "Official PDF table does not provide a course code"
+    },
+    {
+      "course_code": null,
+      "opening_units": [
+        "電機所"
+      ],
+      "opening_unit_snapshot": "電機所",
+      "course_name_snapshot": "行動機器人",
+      "credits_snapshot": 3.0,
+      "requirement_group": "unspecified",
+      "notes": "",
+      "source_page": 1,
+      "evidence_match": true,
+      "validation_status": "needs_course_code_verification",
+      "uncertainty_reason": "Official PDF table does not provide a course code"
+    },
+    {
+      "course_code": null,
+      "opening_units": [
+        "機電系"
+      ],
+      "opening_unit_snapshot": "機電系",
+      "course_name_snapshot": "機械設計原理(一)",
+      "credits_snapshot": 3.0,
+      "requirement_group": "unspecified",
+      "notes": "",
+      "source_page": 1,
+      "evidence_match": true,
+      "validation_status": "needs_course_code_verification",
+      "uncertainty_reason": "Official PDF table does not provide a course code"
+    },
+    {
+      "course_code": null,
+      "opening_units": [
+        "機電系"
+      ],
+      "opening_unit_snapshot": "機電系",
+      "course_name_snapshot": "機械設計原理(二)",
+      "credits_snapshot": 3.0,
+      "requirement_group": "unspecified",
+      "notes": "",
+      "source_page": 1,
+      "evidence_match": true,
+      "validation_status": "needs_course_code_verification",
+      "uncertainty_reason": "Official PDF table does not provide a course code"
+    },
+    {
+      "course_code": null,
+      "opening_units": [
+        "機電系"
+      ],
+      "opening_unit_snapshot": "機電系",
+      "course_name_snapshot": "機動學",
+      "credits_snapshot": 3.0,
+      "requirement_group": "unspecified",
+      "notes": "",
+      "source_page": 1,
+      "evidence_match": true,
+      "validation_status": "needs_course_code_verification",
+      "uncertainty_reason": "Official PDF table does not provide a course code"
+    },
+    {
+      "course_code": null,
+      "opening_units": [
+        "機電系"
+      ],
+      "opening_unit_snapshot": "機電系",
+      "course_name_snapshot": "半導體製程導論",
+      "credits_snapshot": 3.0,
+      "requirement_group": "unspecified",
+      "notes": "1.每一學程科目僅採計一門課程學分。2. 核 心 ( 必 選修)13學程科目應選6門課程。",
+      "source_page": 1,
+      "evidence_match": true,
+      "validation_status": "needs_course_code_verification",
+      "uncertainty_reason": "Official PDF table does not provide a course code"
+    },
+    {
+      "course_code": null,
+      "opening_units": [
+        "材光所"
+      ],
+      "opening_unit_snapshot": "材光所",
+      "course_name_snapshot": "半導體製程原理",
+      "credits_snapshot": 3.0,
+      "requirement_group": "unspecified",
+      "notes": "",
+      "source_page": 1,
+      "evidence_match": true,
+      "validation_status": "needs_course_code_verification",
+      "uncertainty_reason": "Official PDF table does not provide a course code"
+    },
+    {
+      "course_code": null,
+      "opening_units": [
+        "封測所"
+      ],
+      "opening_unit_snapshot": "封測所",
+      "course_name_snapshot": "半導體製程整合技術",
+      "credits_snapshot": 3.0,
+      "requirement_group": "unspecified",
+      "notes": "",
+      "source_page": 1,
+      "evidence_match": true,
+      "validation_status": "needs_course_code_verification",
+      "uncertainty_reason": "Official PDF table does not provide a course code"
+    },
+    {
+      "course_code": null,
+      "opening_units": [
+        "零組件所"
+      ],
+      "opening_unit_snapshot": "零組件所",
+      "course_name_snapshot": "半導體製程整合技術",
+      "credits_snapshot": 3.0,
+      "requirement_group": "unspecified",
+      "notes": "",
+      "source_page": 1,
+      "evidence_match": true,
+      "validation_status": "needs_course_code_verification",
+      "uncertainty_reason": "Official PDF table does not provide a course code"
+    },
+    {
+      "course_code": null,
+      "opening_units": [
+        "物理系"
+      ],
+      "opening_unit_snapshot": "物理系",
+      "course_name_snapshot": "半導體奈米元件製造技術",
+      "credits_snapshot": 3.0,
+      "requirement_group": "unspecified",
+      "notes": "",
+      "source_page": 1,
+      "evidence_match": true,
+      "validation_status": "needs_course_code_verification",
+      "uncertainty_reason": "Official PDF table does not provide a course code"
+    },
+    {
+      "course_code": null,
+      "opening_units": [
+        "物理所"
+      ],
+      "opening_unit_snapshot": "物理所",
+      "course_name_snapshot": "半導體奈米元件製造技術",
+      "credits_snapshot": 3.0,
+      "requirement_group": "unspecified",
+      "notes": "",
+      "source_page": 1,
+      "evidence_match": true,
+      "validation_status": "needs_course_code_verification",
+      "uncertainty_reason": "Official PDF table does not provide a course code"
+    },
+    {
+      "course_code": null,
+      "opening_units": [
+        "電機所"
+      ],
+      "opening_unit_snapshot": "電機所",
+      "course_name_snapshot": "積體電路技術",
+      "credits_snapshot": 3.0,
+      "requirement_group": "unspecified",
+      "notes": "",
+      "source_page": 1,
+      "evidence_match": true,
+      "validation_status": "needs_course_code_verification",
+      "uncertainty_reason": "Official PDF table does not provide a course code"
+    },
+    {
+      "course_code": null,
+      "opening_units": [
+        "電機系"
+      ],
+      "opening_unit_snapshot": "電機系",
+      "course_name_snapshot": "微電子技術",
+      "credits_snapshot": 3.0,
+      "requirement_group": "unspecified",
+      "notes": "",
+      "source_page": 1,
+      "evidence_match": true,
+      "validation_status": "needs_course_code_verification",
+      "uncertainty_reason": "Official PDF table does not provide a course code"
+    },
+    {
+      "course_code": null,
+      "opening_units": [
+        "機電系"
+      ],
+      "opening_unit_snapshot": "機電系",
+      "course_name_snapshot": "電路學",
+      "credits_snapshot": 3.0,
+      "requirement_group": "unspecified",
+      "notes": "",
+      "source_page": 1,
+      "evidence_match": true,
+      "validation_status": "needs_course_code_verification",
+      "uncertainty_reason": "Official PDF table does not provide a course code"
+    },
+    {
+      "course_code": null,
+      "opening_units": [
+        "電機系"
+      ],
+      "opening_unit_snapshot": "電機系",
+      "course_name_snapshot": "電路學(一)",
+      "credits_snapshot": 3.0,
+      "requirement_group": "unspecified",
+      "notes": "",
+      "source_page": 1,
+      "evidence_match": true,
+      "validation_status": "needs_course_code_verification",
+      "uncertainty_reason": "Official PDF table does not provide a course code"
+    },
+    {
+      "course_code": null,
+      "opening_units": [
+        "電機系"
+      ],
+      "opening_unit_snapshot": "電機系",
+      "course_name_snapshot": "電路學(二)",
+      "credits_snapshot": 3.0,
+      "requirement_group": "unspecified",
+      "notes": "",
+      "source_page": 1,
+      "evidence_match": true,
+      "validation_status": "needs_course_code_verification",
+      "uncertainty_reason": "Official PDF table does not provide a course code"
+    },
+    {
+      "course_code": null,
+      "opening_units": [
+        "電機系"
+      ],
+      "opening_unit_snapshot": "電機系",
+      "course_name_snapshot": "電機機械",
+      "credits_snapshot": 3.0,
+      "requirement_group": "unspecified",
+      "notes": "",
+      "source_page": 1,
+      "evidence_match": true,
+      "validation_status": "needs_course_code_verification",
+      "uncertainty_reason": "Official PDF table does not provide a course code"
+    },
+    {
+      "course_code": null,
+      "opening_units": [
+        "機電系"
+      ],
+      "opening_unit_snapshot": "機電系",
+      "course_name_snapshot": "機電整合",
+      "credits_snapshot": 3.0,
+      "requirement_group": "unspecified",
+      "notes": "",
+      "source_page": 1,
+      "evidence_match": true,
+      "validation_status": "needs_course_code_verification",
+      "uncertainty_reason": "Official PDF table does not provide a course code"
+    },
+    {
+      "course_code": null,
+      "opening_units": [
+        "機電所"
+      ],
+      "opening_unit_snapshot": "機電所",
+      "course_name_snapshot": "機電傳動系統",
+      "credits_snapshot": 3.0,
+      "requirement_group": "unspecified",
+      "notes": "",
+      "source_page": 1,
+      "evidence_match": true,
+      "validation_status": "needs_course_code_verification",
+      "uncertainty_reason": "Official PDF table does not provide a course code"
+    },
+    {
+      "course_code": null,
+      "opening_units": [
+        "電機系"
+      ],
+      "opening_unit_snapshot": "電機系",
+      "course_name_snapshot": "電機動態與控制",
+      "credits_snapshot": 3.0,
+      "requirement_group": "unspecified",
+      "notes": "",
+      "source_page": 1,
+      "evidence_match": true,
+      "validation_status": "needs_course_code_verification",
+      "uncertainty_reason": "Official PDF table does not provide a course code"
+    },
+    {
+      "course_code": null,
+      "opening_units": [
+        "電機系"
+      ],
+      "opening_unit_snapshot": "電機系",
+      "course_name_snapshot": "控制系統",
+      "credits_snapshot": 3.0,
+      "requirement_group": "unspecified",
+      "notes": "",
+      "source_page": 1,
+      "evidence_match": true,
+      "validation_status": "needs_course_code_verification",
+      "uncertainty_reason": "Official PDF table does not provide a course code"
+    },
+    {
+      "course_code": null,
+      "opening_units": [
+        "機電系"
+      ],
+      "opening_unit_snapshot": "機電系",
+      "course_name_snapshot": "自動控制",
+      "credits_snapshot": 3.0,
+      "requirement_group": "unspecified",
+      "notes": "",
+      "source_page": 1,
+      "evidence_match": true,
+      "validation_status": "needs_course_code_verification",
+      "uncertainty_reason": "Official PDF table does not provide a course code"
+    },
+    {
+      "course_code": null,
+      "opening_units": [
+        "機電系"
+      ],
+      "opening_unit_snapshot": "機電系",
+      "course_name_snapshot": "數位控制",
+      "credits_snapshot": 3.0,
+      "requirement_group": "unspecified",
+      "notes": "",
+      "source_page": 1,
+      "evidence_match": true,
+      "validation_status": "needs_course_code_verification",
+      "uncertainty_reason": "Official PDF table does not provide a course code"
+    },
+    {
+      "course_code": null,
+      "opening_units": [
+        "電機所"
+      ],
+      "opening_unit_snapshot": "電機所",
+      "course_name_snapshot": "數位控制",
+      "credits_snapshot": 3.0,
+      "requirement_group": "unspecified",
+      "notes": "",
+      "source_page": 1,
+      "evidence_match": true,
+      "validation_status": "needs_course_code_verification",
+      "uncertainty_reason": "Official PDF table does not provide a course code"
+    },
+    {
+      "course_code": null,
+      "opening_units": [
+        "電機所"
+      ],
+      "opening_unit_snapshot": "電機所",
+      "course_name_snapshot": "適應控制",
+      "credits_snapshot": 3.0,
+      "requirement_group": "unspecified",
+      "notes": "",
+      "source_page": 1,
+      "evidence_match": true,
+      "validation_status": "needs_course_code_verification",
+      "uncertainty_reason": "Official PDF table does not provide a course code"
+    },
+    {
+      "course_code": null,
+      "opening_units": [
+        "電機所"
+      ],
+      "opening_unit_snapshot": "電機所",
+      "course_name_snapshot": "最佳控制",
+      "credits_snapshot": 3.0,
+      "requirement_group": "unspecified",
+      "notes": "",
+      "source_page": 1,
+      "evidence_match": true,
+      "validation_status": "needs_course_code_verification",
+      "uncertainty_reason": "Official PDF table does not provide a course code"
+    }
+  ],
+  "structured_requirements": {
+    "core_credits_text_value": 18,
+    "minimum_total_credits": 33,
+    "minimum_outside_home_department_credits": 6
+  }
+}

@@ -1,0 +1,792 @@
+{
+  "program_id": "prog_6563ee7be1805b86",
+  "name_zh": "金融科技學程",
+  "name_en": null,
+  "previous_names": [],
+  "type": "integrated_program",
+  "status": "active",
+  "description": "近年來許多資訊技術被應用在財務資訊、支付、投資、融資及投資顧問等金融域上,獲得社會與企業熱烈的回響,然而相關人才的養成,往往賴於自身進修或企業再培養,造成相關人才供不應求。若能在校園整合財務與資訊領域所需具備的知識與技術,除了能供社會與企業發展動能外,更能幫助學生擴展眼界:使資訊背景學生了解應用領域的關鍵需求;使財務背景學生認識技術可行性與可能性。對於學生未來在創新商品/服務、跨背景的團隊溝通和串聯概念與執行的能力上,將有莫大助益。",
+  "responsible_unit": "財管系",
+  "coordinator": "邱敬貿教授",
+  "program_website": "https://www.facebook.com/%E5%9C%8B%E7%AB%8B%E4%B8%AD%E5%B1%B1%E5%A4%A7%E5%AD%B8-%E9%87%91%E8%9E%8D%E7%A7%91%E6%8A%80%E5%AD%B8%E7%A8%8B%E8%B2%A1%E5%8B%99%E7%AE%A1%E7%90%86%E5%B0%88%E6%A5%AD%E5%AD%B8%E7%A8%8B-147866922367923",
+  "source_pdf": "http://140.117.153.69/ctdr/files/20250527100955165.pdf",
+  "academic_version": "115-1",
+  "source": {
+    "catalog_url": "https://ctdr.nsysu.edu.tw/class2.php",
+    "pdf_url": "http://140.117.153.69/ctdr/files/20250527100955165.pdf",
+    "retrieved_at": "2026-08-15T10:05:39Z",
+    "pdf_binary_sha256": "1dd96c2f985308de83cc688447d0ee0e53cc467780c4e385b6d3f73658fb0a09",
+    "normalized_text_sha256": "e5ad693f8ee1f1f681d883f039498af7ab614d2bd0b045e377ee251001f96b3a",
+    "http": {
+      "status": 200,
+      "etag": "\"4176d-636148f820994\"",
+      "last_modified": "Tue, 27 May 2025 02:09:55 GMT",
+      "content_length": 268141
+    },
+    "parser_version": "0.1.0"
+  },
+  "review_status": "needs_review",
+  "rules": {
+    "kind": "manual_review",
+    "reason": "Extracted candidate awaits approval"
+  },
+  "warnings": [
+    "No structured course rows extracted from PDF tables"
+  ],
+  "selected_pdf_academic_version": "113-2",
+  "course_catalog": [
+    {
+      "course_code": null,
+      "opening_units": [
+        "財管碩"
+      ],
+      "opening_unit_snapshot": "財管碩",
+      "course_name_snapshot": "證券市場微結構實務",
+      "credits_snapshot": 3.0,
+      "requirement_group": "core",
+      "notes": "",
+      "source_page": 1,
+      "evidence_match": true,
+      "validation_status": "needs_course_code_verification",
+      "uncertainty_reason": "Official PDF table does not provide a course code"
+    },
+    {
+      "course_code": null,
+      "opening_units": [
+        "財管碩"
+      ],
+      "opening_unit_snapshot": "財管碩",
+      "course_name_snapshot": "現代投資組合理論與策略",
+      "credits_snapshot": 3.0,
+      "requirement_group": "core",
+      "notes": "",
+      "source_page": 1,
+      "evidence_match": true,
+      "validation_status": "needs_course_code_verification",
+      "uncertainty_reason": "Official PDF table does not provide a course code"
+    },
+    {
+      "course_code": null,
+      "opening_units": [
+        "資管系(碩)資工系(碩)財管系(碩)"
+      ],
+      "opening_unit_snapshot": "資管系(碩)資工系(碩)財管系(碩)",
+      "course_name_snapshot": "巨量資料分析導論",
+      "credits_snapshot": 3.0,
+      "requirement_group": "core",
+      "notes": "",
+      "source_page": 1,
+      "evidence_match": true,
+      "validation_status": "needs_course_code_verification",
+      "uncertainty_reason": "Official PDF table does not provide a course code"
+    },
+    {
+      "course_code": null,
+      "opening_units": [
+        "資管系(碩)資工系(碩)"
+      ],
+      "opening_unit_snapshot": "資管系(碩)資工系(碩)",
+      "course_name_snapshot": "資料庫管理",
+      "credits_snapshot": 3.0,
+      "requirement_group": "core",
+      "notes": "",
+      "source_page": 1,
+      "evidence_match": true,
+      "validation_status": "needs_course_code_verification",
+      "uncertainty_reason": "Official PDF table does not provide a course code"
+    },
+    {
+      "course_code": null,
+      "opening_units": [
+        "資管系(碩)資工系(碩)"
+      ],
+      "opening_unit_snapshot": "資管系(碩)資工系(碩)",
+      "course_name_snapshot": "網際網路資料庫",
+      "credits_snapshot": 3.0,
+      "requirement_group": "core",
+      "notes": "",
+      "source_page": 1,
+      "evidence_match": true,
+      "validation_status": "needs_course_code_verification",
+      "uncertainty_reason": "Official PDF table does not provide a course code"
+    },
+    {
+      "course_code": null,
+      "opening_units": [
+        "資管系(碩)資工系(碩)"
+      ],
+      "opening_unit_snapshot": "資管系(碩)資工系(碩)",
+      "course_name_snapshot": "資料庫系統",
+      "credits_snapshot": 3.0,
+      "requirement_group": "core",
+      "notes": "",
+      "source_page": 1,
+      "evidence_match": true,
+      "validation_status": "needs_course_code_verification",
+      "uncertainty_reason": "Official PDF table does not provide a course code"
+    },
+    {
+      "course_code": null,
+      "opening_units": [
+        "資管系(碩)資工系(碩)"
+      ],
+      "opening_unit_snapshot": "資管系(碩)資工系(碩)",
+      "course_name_snapshot": "演算法設計與分析",
+      "credits_snapshot": 3.0,
+      "requirement_group": "core",
+      "notes": "",
+      "source_page": 1,
+      "evidence_match": true,
+      "validation_status": "needs_course_code_verification",
+      "uncertainty_reason": "Official PDF table does not provide a course code"
+    },
+    {
+      "course_code": null,
+      "opening_units": [
+        "資管系(碩)資工系(碩)"
+      ],
+      "opening_unit_snapshot": "資管系(碩)資工系(碩)",
+      "course_name_snapshot": "系統分析與設計",
+      "credits_snapshot": 3.0,
+      "requirement_group": "core",
+      "notes": "",
+      "source_page": 1,
+      "evidence_match": true,
+      "validation_status": "needs_course_code_verification",
+      "uncertainty_reason": "Official PDF table does not provide a course code"
+    },
+    {
+      "course_code": null,
+      "opening_units": [
+        "財管系(碩)"
+      ],
+      "opening_unit_snapshot": "財管系(碩)",
+      "course_name_snapshot": "選擇權市場理論與策略",
+      "credits_snapshot": 3.0,
+      "requirement_group": "elective",
+      "notes": "",
+      "source_page": 1,
+      "evidence_match": true,
+      "validation_status": "needs_course_code_verification",
+      "uncertainty_reason": "Official PDF table does not provide a course code"
+    },
+    {
+      "course_code": null,
+      "opening_units": [
+        "財管系(碩)"
+      ],
+      "opening_unit_snapshot": "財管系(碩)",
+      "course_name_snapshot": "期貨與選擇權概論",
+      "credits_snapshot": 3.0,
+      "requirement_group": "elective",
+      "notes": "",
+      "source_page": 1,
+      "evidence_match": true,
+      "validation_status": "needs_course_code_verification",
+      "uncertainty_reason": "Official PDF table does not provide a course code"
+    },
+    {
+      "course_code": null,
+      "opening_units": [
+        "財管系(碩)"
+      ],
+      "opening_unit_snapshot": "財管系(碩)",
+      "course_name_snapshot": "投資理論與策略",
+      "credits_snapshot": 3.0,
+      "requirement_group": "elective",
+      "notes": "",
+      "source_page": 1,
+      "evidence_match": true,
+      "validation_status": "needs_course_code_verification",
+      "uncertainty_reason": "Official PDF table does not provide a course code"
+    },
+    {
+      "course_code": null,
+      "opening_units": [
+        "財管系(碩)"
+      ],
+      "opening_unit_snapshot": "財管系(碩)",
+      "course_name_snapshot": "投資學",
+      "credits_snapshot": 3.0,
+      "requirement_group": "elective",
+      "notes": "",
+      "source_page": 1,
+      "evidence_match": true,
+      "validation_status": "needs_course_code_verification",
+      "uncertainty_reason": "Official PDF table does not provide a course code"
+    },
+    {
+      "course_code": null,
+      "opening_units": [
+        "財管碩"
+      ],
+      "opening_unit_snapshot": "財管碩",
+      "course_name_snapshot": "金融數據分析與交易策略",
+      "credits_snapshot": 3.0,
+      "requirement_group": "elective",
+      "notes": "",
+      "source_page": 1,
+      "evidence_match": true,
+      "validation_status": "needs_course_code_verification",
+      "uncertainty_reason": "Official PDF table does not provide a course code"
+    },
+    {
+      "course_code": null,
+      "opening_units": [
+        "財管碩",
+        "經濟碩"
+      ],
+      "opening_unit_snapshot": "財管碩 / 經濟碩",
+      "course_name_snapshot": "財務研究方法(一)",
+      "credits_snapshot": 3.0,
+      "requirement_group": "elective",
+      "notes": "",
+      "source_page": 1,
+      "evidence_match": true,
+      "validation_status": "needs_course_code_verification",
+      "uncertainty_reason": "Official PDF table does not provide a course code"
+    },
+    {
+      "course_code": null,
+      "opening_units": [
+        "財管碩",
+        "經濟碩"
+      ],
+      "opening_unit_snapshot": "財管碩 / 經濟碩",
+      "course_name_snapshot": "計量經濟學(一)",
+      "credits_snapshot": 3.0,
+      "requirement_group": "elective",
+      "notes": "",
+      "source_page": 1,
+      "evidence_match": true,
+      "validation_status": "needs_course_code_verification",
+      "uncertainty_reason": "Official PDF table does not provide a course code"
+    },
+    {
+      "course_code": null,
+      "opening_units": [
+        "財管碩",
+        "經濟碩"
+      ],
+      "opening_unit_snapshot": "財管碩 / 經濟碩",
+      "course_name_snapshot": "財務研究方法(二)",
+      "credits_snapshot": 3.0,
+      "requirement_group": "elective",
+      "notes": "",
+      "source_page": 1,
+      "evidence_match": true,
+      "validation_status": "needs_course_code_verification",
+      "uncertainty_reason": "Official PDF table does not provide a course code"
+    },
+    {
+      "course_code": null,
+      "opening_units": [
+        "財管碩",
+        "經濟碩"
+      ],
+      "opening_unit_snapshot": "財管碩 / 經濟碩",
+      "course_name_snapshot": "計量經濟學(二)",
+      "credits_snapshot": 3.0,
+      "requirement_group": "elective",
+      "notes": "",
+      "source_page": 1,
+      "evidence_match": true,
+      "validation_status": "needs_course_code_verification",
+      "uncertainty_reason": "Official PDF table does not provide a course code"
+    },
+    {
+      "course_code": null,
+      "opening_units": [
+        "經濟碩"
+      ],
+      "opening_unit_snapshot": "經濟碩",
+      "course_name_snapshot": "時間數列分析",
+      "credits_snapshot": 3.0,
+      "requirement_group": "elective",
+      "notes": "",
+      "source_page": 1,
+      "evidence_match": true,
+      "validation_status": "needs_course_code_verification",
+      "uncertainty_reason": "Official PDF table does not provide a course code"
+    },
+    {
+      "course_code": null,
+      "opening_units": [
+        "財管碩"
+      ],
+      "opening_unit_snapshot": "財管碩",
+      "course_name_snapshot": "金融市場理論與實務",
+      "credits_snapshot": 3.0,
+      "requirement_group": "elective",
+      "notes": "",
+      "source_page": 1,
+      "evidence_match": true,
+      "validation_status": "needs_course_code_verification",
+      "uncertainty_reason": "Official PDF table does not provide a course code"
+    },
+    {
+      "course_code": null,
+      "opening_units": [
+        "財管碩"
+      ],
+      "opening_unit_snapshot": "財管碩",
+      "course_name_snapshot": "金融市場",
+      "credits_snapshot": 3.0,
+      "requirement_group": "elective",
+      "notes": "",
+      "source_page": 1,
+      "evidence_match": true,
+      "validation_status": "needs_course_code_verification",
+      "uncertainty_reason": "Official PDF table does not provide a course code"
+    },
+    {
+      "course_code": null,
+      "opening_units": [
+        "財管系(碩)"
+      ],
+      "opening_unit_snapshot": "財管系(碩)",
+      "course_name_snapshot": "全方位個人理財規劃",
+      "credits_snapshot": 3.0,
+      "requirement_group": "elective",
+      "notes": "",
+      "source_page": 1,
+      "evidence_match": true,
+      "validation_status": "needs_course_code_verification",
+      "uncertainty_reason": "Official PDF table does not provide a course code"
+    },
+    {
+      "course_code": null,
+      "opening_units": [
+        "財管系(碩)"
+      ],
+      "opening_unit_snapshot": "財管系(碩)",
+      "course_name_snapshot": "個人理財規劃",
+      "credits_snapshot": 3.0,
+      "requirement_group": "elective",
+      "notes": "",
+      "source_page": 1,
+      "evidence_match": true,
+      "validation_status": "needs_course_code_verification",
+      "uncertainty_reason": "Official PDF table does not provide a course code"
+    },
+    {
+      "course_code": null,
+      "opening_units": [
+        "財管系"
+      ],
+      "opening_unit_snapshot": "財管系",
+      "course_name_snapshot": "財務工程概論",
+      "credits_snapshot": 3.0,
+      "requirement_group": "elective",
+      "notes": "",
+      "source_page": 1,
+      "evidence_match": true,
+      "validation_status": "needs_course_code_verification",
+      "uncertainty_reason": "Official PDF table does not provide a course code"
+    },
+    {
+      "course_code": null,
+      "opening_units": [
+        "財管碩"
+      ],
+      "opening_unit_snapshot": "財管碩",
+      "course_name_snapshot": "財務管理理論",
+      "credits_snapshot": 3.0,
+      "requirement_group": "elective",
+      "notes": "",
+      "source_page": 1,
+      "evidence_match": true,
+      "validation_status": "needs_course_code_verification",
+      "uncertainty_reason": "Official PDF table does not provide a course code"
+    },
+    {
+      "course_code": null,
+      "opening_units": [
+        "財管碩"
+      ],
+      "opening_unit_snapshot": "財管碩",
+      "course_name_snapshot": "國際投資組合管理",
+      "credits_snapshot": 3.0,
+      "requirement_group": "elective",
+      "notes": "",
+      "source_page": 1,
+      "evidence_match": true,
+      "validation_status": "needs_course_code_verification",
+      "uncertainty_reason": "Official PDF table does not provide a course code"
+    },
+    {
+      "course_code": null,
+      "opening_units": [
+        "財管碩"
+      ],
+      "opening_unit_snapshot": "財管碩",
+      "course_name_snapshot": "財務工程與金融創新",
+      "credits_snapshot": 3.0,
+      "requirement_group": "elective",
+      "notes": "",
+      "source_page": 1,
+      "evidence_match": true,
+      "validation_status": "needs_course_code_verification",
+      "uncertainty_reason": "Official PDF table does not provide a course code"
+    },
+    {
+      "course_code": null,
+      "opening_units": [
+        "財管碩"
+      ],
+      "opening_unit_snapshot": "財管碩",
+      "course_name_snapshot": "金融投資與程式交易",
+      "credits_snapshot": 3.0,
+      "requirement_group": "elective",
+      "notes": "",
+      "source_page": 2,
+      "evidence_match": true,
+      "validation_status": "needs_course_code_verification",
+      "uncertainty_reason": "Official PDF table does not provide a course code"
+    },
+    {
+      "course_code": null,
+      "opening_units": [
+        "財管碩"
+      ],
+      "opening_unit_snapshot": "財管碩",
+      "course_name_snapshot": "金融服務與金融科技資料案例",
+      "credits_snapshot": 3.0,
+      "requirement_group": "elective",
+      "notes": "",
+      "source_page": 2,
+      "evidence_match": false,
+      "validation_status": "needs_course_code_verification",
+      "uncertainty_reason": "Official PDF table does not provide a course code"
+    },
+    {
+      "course_code": null,
+      "opening_units": [
+        "企管碩"
+      ],
+      "opening_unit_snapshot": "企管碩",
+      "course_name_snapshot": "證券市場分析",
+      "credits_snapshot": 3.0,
+      "requirement_group": "elective",
+      "notes": "",
+      "source_page": 2,
+      "evidence_match": true,
+      "validation_status": "needs_course_code_verification",
+      "uncertainty_reason": "Official PDF table does not provide a course code"
+    },
+    {
+      "course_code": null,
+      "opening_units": [
+        "資管系"
+      ],
+      "opening_unit_snapshot": "資管系",
+      "course_name_snapshot": "WEB 程式設計",
+      "credits_snapshot": 3.0,
+      "requirement_group": "elective",
+      "notes": "",
+      "source_page": 2,
+      "evidence_match": true,
+      "validation_status": "needs_course_code_verification",
+      "uncertainty_reason": "Official PDF table does not provide a course code"
+    },
+    {
+      "course_code": null,
+      "opening_units": [
+        "資管系"
+      ],
+      "opening_unit_snapshot": "資管系",
+      "course_name_snapshot": "網路應用程式設計",
+      "credits_snapshot": 3.0,
+      "requirement_group": "elective",
+      "notes": "",
+      "source_page": 2,
+      "evidence_match": true,
+      "validation_status": "needs_course_code_verification",
+      "uncertainty_reason": "Official PDF table does not provide a course code"
+    },
+    {
+      "course_code": null,
+      "opening_units": [
+        "資工系"
+      ],
+      "opening_unit_snapshot": "資工系",
+      "course_name_snapshot": "網路系統程式設計",
+      "credits_snapshot": 3.0,
+      "requirement_group": "elective",
+      "notes": "",
+      "source_page": 2,
+      "evidence_match": true,
+      "validation_status": "needs_course_code_verification",
+      "uncertainty_reason": "Official PDF table does not provide a course code"
+    },
+    {
+      "course_code": null,
+      "opening_units": [
+        "資管系(碩)資工系(碩)"
+      ],
+      "opening_unit_snapshot": "資管系(碩)資工系(碩)",
+      "course_name_snapshot": "物件導向程式設計",
+      "credits_snapshot": 3.0,
+      "requirement_group": "elective",
+      "notes": "",
+      "source_page": 2,
+      "evidence_match": true,
+      "validation_status": "needs_course_code_verification",
+      "uncertainty_reason": "Official PDF table does not provide a course code"
+    },
+    {
+      "course_code": null,
+      "opening_units": [
+        "資管系(碩)資工系(碩)"
+      ],
+      "opening_unit_snapshot": "資管系(碩)資工系(碩)",
+      "course_name_snapshot": "高等物件導向程式設計",
+      "credits_snapshot": 3.0,
+      "requirement_group": "elective",
+      "notes": "",
+      "source_page": 2,
+      "evidence_match": true,
+      "validation_status": "needs_course_code_verification",
+      "uncertainty_reason": "Official PDF table does not provide a course code"
+    },
+    {
+      "course_code": null,
+      "opening_units": [
+        "資工碩"
+      ],
+      "opening_unit_snapshot": "資工碩",
+      "course_name_snapshot": "JAVA 物件導向程式設計",
+      "credits_snapshot": 3.0,
+      "requirement_group": "elective",
+      "notes": "",
+      "source_page": 2,
+      "evidence_match": true,
+      "validation_status": "needs_course_code_verification",
+      "uncertainty_reason": "Official PDF table does not provide a course code"
+    },
+    {
+      "course_code": null,
+      "opening_units": [
+        "資工系",
+        "資管系",
+        "電機系",
+        "應數系"
+      ],
+      "opening_unit_snapshot": "資工系 / 資管系 / 電機系 / 應數系",
+      "course_name_snapshot": "資料結構",
+      "credits_snapshot": 3.0,
+      "requirement_group": "elective",
+      "notes": "",
+      "source_page": 2,
+      "evidence_match": true,
+      "validation_status": "needs_course_code_verification",
+      "uncertainty_reason": "Official PDF table does not provide a course code"
+    },
+    {
+      "course_code": null,
+      "opening_units": [
+        "資管碩"
+      ],
+      "opening_unit_snapshot": "資管碩",
+      "course_name_snapshot": "巨量資料分析實務",
+      "credits_snapshot": 3.0,
+      "requirement_group": "elective",
+      "notes": "",
+      "source_page": 2,
+      "evidence_match": true,
+      "validation_status": "needs_course_code_verification",
+      "uncertainty_reason": "Official PDF table does not provide a course code"
+    },
+    {
+      "course_code": null,
+      "opening_units": [
+        "資管碩",
+        "資工碩"
+      ],
+      "opening_unit_snapshot": "資管碩 / 資工碩",
+      "course_name_snapshot": "雲端運算導論",
+      "credits_snapshot": 3.0,
+      "requirement_group": "elective",
+      "notes": "",
+      "source_page": 2,
+      "evidence_match": true,
+      "validation_status": "needs_course_code_verification",
+      "uncertainty_reason": "Official PDF table does not provide a course code"
+    },
+    {
+      "course_code": null,
+      "opening_units": [
+        "資管碩",
+        "資工碩"
+      ],
+      "opening_unit_snapshot": "資管碩 / 資工碩",
+      "course_name_snapshot": "雲端運算理論與應用",
+      "credits_snapshot": 3.0,
+      "requirement_group": "elective",
+      "notes": "",
+      "source_page": 2,
+      "evidence_match": true,
+      "validation_status": "needs_course_code_verification",
+      "uncertainty_reason": "Official PDF table does not provide a course code"
+    },
+    {
+      "course_code": null,
+      "opening_units": [
+        "資管碩"
+      ],
+      "opening_unit_snapshot": "資管碩",
+      "course_name_snapshot": "行動應用服務體驗設計",
+      "credits_snapshot": 3.0,
+      "requirement_group": "elective",
+      "notes": "",
+      "source_page": 2,
+      "evidence_match": true,
+      "validation_status": "needs_course_code_verification",
+      "uncertainty_reason": "Official PDF table does not provide a course code"
+    },
+    {
+      "course_code": null,
+      "opening_units": [
+        "資管系(碩)"
+      ],
+      "opening_unit_snapshot": "資管系(碩)",
+      "course_name_snapshot": "電子商務",
+      "credits_snapshot": 3.0,
+      "requirement_group": "elective",
+      "notes": "",
+      "source_page": 2,
+      "evidence_match": true,
+      "validation_status": "needs_course_code_verification",
+      "uncertainty_reason": "Official PDF table does not provide a course code"
+    },
+    {
+      "course_code": null,
+      "opening_units": [
+        "資管碩"
+      ],
+      "opening_unit_snapshot": "資管碩",
+      "course_name_snapshot": "商業智慧",
+      "credits_snapshot": 3.0,
+      "requirement_group": "elective",
+      "notes": "",
+      "source_page": 2,
+      "evidence_match": true,
+      "validation_status": "needs_course_code_verification",
+      "uncertainty_reason": "Official PDF table does not provide a course code"
+    },
+    {
+      "course_code": null,
+      "opening_units": [
+        "資管碩"
+      ],
+      "opening_unit_snapshot": "資管碩",
+      "course_name_snapshot": "資料探勘與知識發現",
+      "credits_snapshot": 3.0,
+      "requirement_group": "elective",
+      "notes": "",
+      "source_page": 2,
+      "evidence_match": true,
+      "validation_status": "needs_course_code_verification",
+      "uncertainty_reason": "Official PDF table does not provide a course code"
+    },
+    {
+      "course_code": null,
+      "opening_units": [
+        "資管碩",
+        "電機碩"
+      ],
+      "opening_unit_snapshot": "資管碩 / 電機碩",
+      "course_name_snapshot": "人工智慧",
+      "credits_snapshot": 3.0,
+      "requirement_group": "elective",
+      "notes": "",
+      "source_page": 2,
+      "evidence_match": true,
+      "validation_status": "needs_course_code_verification",
+      "uncertainty_reason": "Official PDF table does not provide a course code"
+    },
+    {
+      "course_code": null,
+      "opening_units": [
+        "資管碩",
+        "電機碩"
+      ],
+      "opening_unit_snapshot": "資管碩 / 電機碩",
+      "course_name_snapshot": "人工智慧(一)",
+      "credits_snapshot": 3.0,
+      "requirement_group": "elective",
+      "notes": "",
+      "source_page": 2,
+      "evidence_match": true,
+      "validation_status": "needs_course_code_verification",
+      "uncertainty_reason": "Official PDF table does not provide a course code"
+    },
+    {
+      "course_code": null,
+      "opening_units": [
+        "資管碩"
+      ],
+      "opening_unit_snapshot": "資管碩",
+      "course_name_snapshot": "網路安全",
+      "credits_snapshot": 3.0,
+      "requirement_group": "elective",
+      "notes": "",
+      "source_page": 2,
+      "evidence_match": true,
+      "validation_status": "needs_course_code_verification",
+      "uncertainty_reason": "Official PDF table does not provide a course code"
+    },
+    {
+      "course_code": null,
+      "opening_units": [
+        "應數系",
+        "財管系"
+      ],
+      "opening_unit_snapshot": "應數系 / 財管系",
+      "course_name_snapshot": "應用統計方法",
+      "credits_snapshot": 3.0,
+      "requirement_group": "elective",
+      "notes": "",
+      "source_page": 2,
+      "evidence_match": true,
+      "validation_status": "needs_course_code_verification",
+      "uncertainty_reason": "Official PDF table does not provide a course code"
+    },
+    {
+      "course_code": null,
+      "opening_units": [
+        "應數系",
+        "財管系"
+      ],
+      "opening_unit_snapshot": "應數系 / 財管系",
+      "course_name_snapshot": "高等統計學",
+      "credits_snapshot": 3.0,
+      "requirement_group": "elective",
+      "notes": "",
+      "source_page": 2,
+      "evidence_match": true,
+      "validation_status": "needs_course_code_verification",
+      "uncertainty_reason": "Official PDF table does not provide a course code"
+    },
+    {
+      "course_code": null,
+      "opening_units": [
+        "財管碩"
+      ],
+      "opening_unit_snapshot": "財管碩",
+      "course_name_snapshot": "財金大數據資料分析與應用",
+      "credits_snapshot": 3.0,
+      "requirement_group": "elective",
+      "notes": "",
+      "source_page": 2,
+      "evidence_match": true,
+      "validation_status": "needs_course_code_verification",
+      "uncertainty_reason": "Official PDF table does not provide a course code"
+    }
+  ],
+  "structured_requirements": {
+    "core_credits_text_value": 3,
+    "minimum_total_credits": 15,
+    "minimum_outside_home_department_credits": 6
+  }
+}

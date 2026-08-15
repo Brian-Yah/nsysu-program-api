@@ -1,0 +1,295 @@
+{
+  "program_id": "prog_30506ee249be58db",
+  "name_zh": "類比射頻IC設計學程",
+  "name_en": null,
+  "previous_names": [],
+  "type": "integrated_program",
+  "status": "active",
+  "description": "在人工智慧、物聯網興起的時代,未來的世界,所有產品都能無線上網,可以感測外界的訊息而自主應變,本身能量來源也能自給自足。為了實現這些功能,需要使用無線通訊、感測器及綠能等應用晶片。類比射頻IC在這些應用電子產品扮演不可或缺的角色,可以提供無線通訊的射頻晶片、各類感測器的讀取電路IC、太陽能、風能、震動能等獵能晶片及電源管理晶片等不同電路,以應付人工智慧、物聯網及綠能等不同應用。",
+  "responsible_unit": "電機系",
+  "coordinator": "李宗哲助理教授",
+  "program_website": "https://sites.google.com/view/msiclab/%E9%A1%9E%E6%AF%94%E5%B0%84%E9%A0%BBic%E5%AD%B8%E7%A8%8B",
+  "source_pdf": "http://140.117.153.69/ctdr/files/2024122415390131.pdf",
+  "academic_version": "115-1",
+  "source": {
+    "catalog_url": "https://ctdr.nsysu.edu.tw/class2.php",
+    "pdf_url": "http://140.117.153.69/ctdr/files/2024122415390131.pdf",
+    "retrieved_at": "2026-08-15T10:05:39Z",
+    "pdf_binary_sha256": "6d9504cce0d3b17985f56fdad949ca682bd4109e0963613a91630157962f41ea",
+    "normalized_text_sha256": "7bb53dbdb6e47cfea3f1ad467e6107978a0dd7def1f4076856f3df6b01af9926",
+    "http": {
+      "status": 200,
+      "etag": "\"45675-629ff34e44620\"",
+      "last_modified": "Tue, 24 Dec 2024 07:39:01 GMT",
+      "content_length": 284277
+    },
+    "parser_version": "0.1.0"
+  },
+  "review_status": "needs_review",
+  "rules": {
+    "kind": "manual_review",
+    "reason": "Extracted candidate awaits approval"
+  },
+  "warnings": [
+    "No structured course rows extracted from PDF tables"
+  ],
+  "selected_pdf_academic_version": "113-1",
+  "course_catalog": [
+    {
+      "course_code": null,
+      "opening_units": [
+        "電機系",
+        "跨院選修(工)",
+        "機電系"
+      ],
+      "opening_unit_snapshot": "電機系 / 跨院選修(工) / 機電系",
+      "course_name_snapshot": "電路學(一)、或電路學",
+      "credits_snapshot": 3.0,
+      "requirement_group": "core",
+      "notes": "任選4門",
+      "source_page": 1,
+      "evidence_match": true,
+      "validation_status": "needs_course_code_verification",
+      "uncertainty_reason": "Official PDF table does not provide a course code"
+    },
+    {
+      "course_code": null,
+      "opening_units": [
+        "電機系",
+        "跨院選修(工)",
+        "材光系",
+        "光電系",
+        "資工系"
+      ],
+      "opening_unit_snapshot": "電機系 / 跨院選修(工) / 材光系 / 光電系 / 資工系",
+      "course_name_snapshot": "電子學(一)、或數位電子學",
+      "credits_snapshot": 3.0,
+      "requirement_group": "core",
+      "notes": "",
+      "source_page": 1,
+      "evidence_match": true,
+      "validation_status": "needs_course_code_verification",
+      "uncertainty_reason": "Official PDF table does not provide a course code"
+    },
+    {
+      "course_code": null,
+      "opening_units": [
+        "電機系",
+        "跨院選修(工)",
+        "材光系",
+        "光電系"
+      ],
+      "opening_unit_snapshot": "電機系 / 跨院選修(工) / 材光系 / 光電系",
+      "course_name_snapshot": "電磁學(二)",
+      "credits_snapshot": 3.0,
+      "requirement_group": "core",
+      "notes": "",
+      "source_page": 1,
+      "evidence_match": true,
+      "validation_status": "needs_course_code_verification",
+      "uncertainty_reason": "Official PDF table does not provide a course code"
+    },
+    {
+      "course_code": null,
+      "opening_units": [
+        "電機系",
+        "跨院選修(工)",
+        "材光系",
+        "光電系",
+        "機電系"
+      ],
+      "opening_unit_snapshot": "電機系 / 跨院選修(工) / 材光系 / 光電系 / 機電系",
+      "course_name_snapshot": "電子學(二)、或應用電子學",
+      "credits_snapshot": 3.0,
+      "requirement_group": "core",
+      "notes": "",
+      "source_page": 1,
+      "evidence_match": true,
+      "validation_status": "needs_course_code_verification",
+      "uncertainty_reason": "Official PDF table does not provide a course code"
+    },
+    {
+      "course_code": null,
+      "opening_units": [
+        "電機系"
+      ],
+      "opening_unit_snapshot": "電機系",
+      "course_name_snapshot": "VLSI 設計導論",
+      "credits_snapshot": 3.0,
+      "requirement_group": "core",
+      "notes": "",
+      "source_page": 1,
+      "evidence_match": true,
+      "validation_status": "needs_course_code_verification",
+      "uncertainty_reason": "Official PDF table does not provide a course code"
+    },
+    {
+      "course_code": null,
+      "opening_units": [
+        "電機系",
+        "跨院選修(工)",
+        "光電系"
+      ],
+      "opening_unit_snapshot": "電機系 / 跨院選修(工) / 光電系",
+      "course_name_snapshot": "訊號與系統、或信號與系統",
+      "credits_snapshot": 3.0,
+      "requirement_group": "core",
+      "notes": "",
+      "source_page": 1,
+      "evidence_match": true,
+      "validation_status": "needs_course_code_verification",
+      "uncertainty_reason": "Official PDF table does not provide a course code"
+    },
+    {
+      "course_code": null,
+      "opening_units": [
+        "電機碩",
+        "資工碩",
+        "IC設計所"
+      ],
+      "opening_unit_snapshot": "電機碩 / 資工碩 / IC設計所",
+      "course_name_snapshot": "高等類比積體電路設計",
+      "credits_snapshot": 3.0,
+      "requirement_group": "core",
+      "notes": "任選2門",
+      "source_page": 1,
+      "evidence_match": true,
+      "validation_status": "needs_course_code_verification",
+      "uncertainty_reason": "Official PDF table does not provide a course code"
+    },
+    {
+      "course_code": null,
+      "opening_units": [
+        "電機碩"
+      ],
+      "opening_unit_snapshot": "電機碩",
+      "course_name_snapshot": "射頻通訊電路設計",
+      "credits_snapshot": 3.0,
+      "requirement_group": "core",
+      "notes": "",
+      "source_page": 1,
+      "evidence_match": true,
+      "validation_status": "needs_course_code_verification",
+      "uncertainty_reason": "Official PDF table does not provide a course code"
+    },
+    {
+      "course_code": null,
+      "opening_units": [
+        "通訊碩"
+      ],
+      "opening_unit_snapshot": "通訊碩",
+      "course_name_snapshot": "數位信號處理",
+      "credits_snapshot": 3.0,
+      "requirement_group": "core",
+      "notes": "",
+      "source_page": 1,
+      "evidence_match": true,
+      "validation_status": "needs_course_code_verification",
+      "uncertainty_reason": "Official PDF table does not provide a course code"
+    },
+    {
+      "course_code": null,
+      "opening_units": [
+        "電機系"
+      ],
+      "opening_unit_snapshot": "電機系",
+      "course_name_snapshot": "通訊系統",
+      "credits_snapshot": 3.0,
+      "requirement_group": "elective",
+      "notes": "任選1門",
+      "source_page": 1,
+      "evidence_match": true,
+      "validation_status": "needs_course_code_verification",
+      "uncertainty_reason": "Official PDF table does not provide a course code"
+    },
+    {
+      "course_code": null,
+      "opening_units": [
+        "電機系",
+        "機電系"
+      ],
+      "opening_unit_snapshot": "電機系 / 機電系",
+      "course_name_snapshot": "控制系統、自動控制",
+      "credits_snapshot": 3.0,
+      "requirement_group": "elective",
+      "notes": "",
+      "source_page": 1,
+      "evidence_match": true,
+      "validation_status": "needs_course_code_verification",
+      "uncertainty_reason": "Official PDF table does not provide a course code"
+    },
+    {
+      "course_code": null,
+      "opening_units": [
+        "電機系",
+        "光電系",
+        "材光碩"
+      ],
+      "opening_unit_snapshot": "電機系 / 光電系 / 材光碩",
+      "course_name_snapshot": "半導體元件(一)、半導體物理、或半導體元件",
+      "credits_snapshot": 3.0,
+      "requirement_group": "elective",
+      "notes": "任選1門",
+      "source_page": 1,
+      "evidence_match": false,
+      "validation_status": "needs_course_code_verification",
+      "uncertainty_reason": "Official PDF table does not provide a course code"
+    },
+    {
+      "course_code": null,
+      "opening_units": [
+        "電機系",
+        "物理系",
+        "跨院選修(理)",
+        "光電系",
+        "機電碩"
+      ],
+      "opening_unit_snapshot": "電機系 / 物理系 / 跨院選修(理) / 光電系 / 機電碩",
+      "course_name_snapshot": "微電子技術、或半導體奈米元件製造技術、或半導體製程設備與技術",
+      "credits_snapshot": 3.0,
+      "requirement_group": "elective",
+      "notes": "",
+      "source_page": 1,
+      "evidence_match": false,
+      "validation_status": "needs_course_code_verification",
+      "uncertainty_reason": "Official PDF table does not provide a course code"
+    },
+    {
+      "course_code": null,
+      "opening_units": [
+        "電機碩",
+        "IC設計所"
+      ],
+      "opening_unit_snapshot": "電機碩 / IC設計所",
+      "course_name_snapshot": "通訊介面 IC設計",
+      "credits_snapshot": 3.0,
+      "requirement_group": "elective",
+      "notes": "任選1門",
+      "source_page": 1,
+      "evidence_match": true,
+      "validation_status": "needs_course_code_verification",
+      "uncertainty_reason": "Official PDF table does not provide a course code"
+    },
+    {
+      "course_code": null,
+      "opening_units": [
+        "電機碩",
+        "IC設計所"
+      ],
+      "opening_unit_snapshot": "電機碩 / IC設計所",
+      "course_name_snapshot": "低功率系統設計",
+      "credits_snapshot": 3.0,
+      "requirement_group": "elective",
+      "notes": "",
+      "source_page": 1,
+      "evidence_match": true,
+      "validation_status": "needs_course_code_verification",
+      "uncertainty_reason": "Official PDF table does not provide a course code"
+    }
+  ],
+  "structured_requirements": {
+    "minimum_total_credits": 27,
+    "core_credits_text_value": 18,
+    "minimum_outside_home_department_credits": 6
+  }
+}

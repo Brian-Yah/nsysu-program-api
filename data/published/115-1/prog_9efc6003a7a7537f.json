@@ -1,0 +1,303 @@
+{
+  "program_id": "prog_9efc6003a7a7537f",
+  "name_zh": "軟體工程學程",
+  "name_en": null,
+  "previous_names": [],
+  "type": "integrated_program",
+  "status": "active",
+  "description": "本學程旨在培育完備的軟體設計知識,使學生具備設計不同資訊軟體的專業能力,增加研究或就業的競爭力。\n本學程整合全校的計算機課程,輔導有興趣進入資訊領域的學生,修習專業的軟體工程知識。所有必修科目都至少有三個系所開設,讓學生比較輕鬆選課,順利完成此一學程。",
+  "responsible_unit": "應數系",
+  "coordinator": "李宗錂教授",
+  "program_website": "http://www.math.nsysu.edu.tw/course/softmath/index.html",
+  "source_pdf": "http://140.117.153.69/ctdr/files/2025122315041488.pdf",
+  "academic_version": "115-1",
+  "source": {
+    "catalog_url": "https://ctdr.nsysu.edu.tw/class2.php",
+    "pdf_url": "http://140.117.153.69/ctdr/files/2025122315041488.pdf",
+    "retrieved_at": "2026-08-15T10:05:39Z",
+    "pdf_binary_sha256": "16b22dcb518458879afd4cc7c92727cb7a115683bb501a031b6279226521f960",
+    "normalized_text_sha256": "665816eec75cd0bfeaa98cb50e5d079e673660a2f2da8dca7c27f1617fbcbb05",
+    "http": {
+      "status": 200,
+      "etag": "\"277e2-6469926bca811\"",
+      "last_modified": "Tue, 23 Dec 2025 07:04:14 GMT",
+      "content_length": 161762
+    },
+    "parser_version": "0.1.0"
+  },
+  "review_status": "needs_review",
+  "rules": {
+    "kind": "manual_review",
+    "reason": "Extracted candidate awaits approval"
+  },
+  "warnings": [
+    "No structured course rows extracted from PDF tables",
+    "No structured course rows extracted from PDF tables"
+  ],
+  "selected_pdf_academic_version": "114-1",
+  "course_catalog": [
+    {
+      "course_code": null,
+      "opening_units": [
+        "各開課系所",
+        "資工系"
+      ],
+      "opening_unit_snapshot": "各開課系所 / 資工系",
+      "course_name_snapshot": "計算機概論或C程式設計(一)",
+      "credits_snapshot": 3.0,
+      "requirement_group": "core",
+      "notes": "",
+      "source_page": 1,
+      "evidence_match": false,
+      "validation_status": "needs_course_code_verification",
+      "uncertainty_reason": "Official PDF table does not provide a course code"
+    },
+    {
+      "course_code": null,
+      "opening_units": [
+        "應數系",
+        "電機系",
+        "資管系",
+        "海科系",
+        "資工系"
+      ],
+      "opening_unit_snapshot": "應數系 / 電機系 / 資管系 / 海科系 / 資工系",
+      "course_name_snapshot": "計算機程式或程式設計或C程式設計(二)",
+      "credits_snapshot": 3.0,
+      "requirement_group": "core",
+      "notes": "",
+      "source_page": 1,
+      "evidence_match": false,
+      "validation_status": "needs_course_code_verification",
+      "uncertainty_reason": "Official PDF table does not provide a course code"
+    },
+    {
+      "course_code": null,
+      "opening_units": [
+        "應數系",
+        "資工系",
+        "電機系",
+        "資管系"
+      ],
+      "opening_unit_snapshot": "應數系 / 資工系 / 電機系 / 資管系",
+      "course_name_snapshot": "資料結構",
+      "credits_snapshot": 3.0,
+      "requirement_group": "core",
+      "notes": "",
+      "source_page": 1,
+      "evidence_match": true,
+      "validation_status": "needs_course_code_verification",
+      "uncertainty_reason": "Official PDF table does not provide a course code"
+    },
+    {
+      "course_code": null,
+      "opening_units": [
+        "資管系"
+      ],
+      "opening_unit_snapshot": "資管系",
+      "course_name_snapshot": "軟體工程",
+      "credits_snapshot": 3.0,
+      "requirement_group": "elective",
+      "notes": "【*詳見備註1】",
+      "source_page": 1,
+      "evidence_match": true,
+      "validation_status": "needs_course_code_verification",
+      "uncertainty_reason": "Official PDF table does not provide a course code"
+    },
+    {
+      "course_code": null,
+      "opening_units": [
+        "資工系",
+        "資管系"
+      ],
+      "opening_unit_snapshot": "資工系 / 資管系",
+      "course_name_snapshot": "物件導向程式設計或JAVA物件導向程式設計",
+      "credits_snapshot": 3.0,
+      "requirement_group": "elective",
+      "notes": "【*詳見備註1】",
+      "source_page": 1,
+      "evidence_match": false,
+      "validation_status": "needs_course_code_verification",
+      "uncertainty_reason": "Official PDF table does not provide a course code"
+    },
+    {
+      "course_code": null,
+      "opening_units": [
+        "資工系",
+        "電機系",
+        "資管系"
+      ],
+      "opening_unit_snapshot": "資工系 / 電機系 / 資管系",
+      "course_name_snapshot": "作業系統",
+      "credits_snapshot": 3.0,
+      "requirement_group": "elective",
+      "notes": "【*詳見備註1】",
+      "source_page": 1,
+      "evidence_match": true,
+      "validation_status": "needs_course_code_verification",
+      "uncertainty_reason": "Official PDF table does not provide a course code"
+    },
+    {
+      "course_code": null,
+      "opening_units": [
+        "資管系"
+      ],
+      "opening_unit_snapshot": "資管系",
+      "course_name_snapshot": "系統分析與設計",
+      "credits_snapshot": 3.0,
+      "requirement_group": "elective",
+      "notes": "【*詳見備註1】",
+      "source_page": 1,
+      "evidence_match": true,
+      "validation_status": "needs_course_code_verification",
+      "uncertainty_reason": "Official PDF table does not provide a course code"
+    },
+    {
+      "course_code": null,
+      "opening_units": [
+        "資管系",
+        "資工系"
+      ],
+      "opening_unit_snapshot": "資管系 / 資工系",
+      "course_name_snapshot": "資料庫管理或網際網路資料庫",
+      "credits_snapshot": 3.0,
+      "requirement_group": "elective",
+      "notes": "【*詳見備註1】",
+      "source_page": 1,
+      "evidence_match": false,
+      "validation_status": "needs_course_code_verification",
+      "uncertainty_reason": "Official PDF table does not provide a course code"
+    },
+    {
+      "course_code": null,
+      "opening_units": [
+        "應數系",
+        "資工系",
+        "電機系"
+      ],
+      "opening_unit_snapshot": "應數系 / 資工系 / 電機系",
+      "course_name_snapshot": "離散數學(一)或離散數學",
+      "credits_snapshot": 3.0,
+      "requirement_group": "elective",
+      "notes": "",
+      "source_page": 1,
+      "evidence_match": false,
+      "validation_status": "needs_course_code_verification",
+      "uncertainty_reason": "Official PDF table does not provide a course code"
+    },
+    {
+      "course_code": null,
+      "opening_units": [
+        "應數系"
+      ],
+      "opening_unit_snapshot": "應數系",
+      "course_name_snapshot": "離散數學(二)",
+      "credits_snapshot": 3.0,
+      "requirement_group": "elective",
+      "notes": "",
+      "source_page": 1,
+      "evidence_match": true,
+      "validation_status": "needs_course_code_verification",
+      "uncertainty_reason": "Official PDF table does not provide a course code"
+    },
+    {
+      "course_code": null,
+      "opening_units": [
+        "應數系",
+        "物理系",
+        "機電碩"
+      ],
+      "opening_unit_snapshot": "應數系 / 物理系 / 機電碩",
+      "course_name_snapshot": "數值分析(一)或數值分析",
+      "credits_snapshot": 3.0,
+      "requirement_group": "elective",
+      "notes": "",
+      "source_page": 1,
+      "evidence_match": false,
+      "validation_status": "needs_course_code_verification",
+      "uncertainty_reason": "Official PDF table does not provide a course code"
+    },
+    {
+      "course_code": null,
+      "opening_units": [
+        "應數系"
+      ],
+      "opening_unit_snapshot": "應數系",
+      "course_name_snapshot": "數值分析(二)",
+      "credits_snapshot": 3.0,
+      "requirement_group": "elective",
+      "notes": "",
+      "source_page": 1,
+      "evidence_match": true,
+      "validation_status": "needs_course_code_verification",
+      "uncertainty_reason": "Official PDF table does not provide a course code"
+    },
+    {
+      "course_code": null,
+      "opening_units": [
+        "應數系"
+      ],
+      "opening_unit_snapshot": "應數系",
+      "course_name_snapshot": "數學統計軟體應用",
+      "credits_snapshot": 3.0,
+      "requirement_group": "elective",
+      "notes": "",
+      "source_page": 1,
+      "evidence_match": true,
+      "validation_status": "needs_course_code_verification",
+      "uncertainty_reason": "Official PDF table does not provide a course code"
+    },
+    {
+      "course_code": null,
+      "opening_units": [
+        "資工系",
+        "資管系",
+        "電機碩",
+        "資管碩"
+      ],
+      "opening_unit_snapshot": "資工系 / 資管系 / 電機碩 / 資管碩",
+      "course_name_snapshot": "電腦網路或企業資料通訊或計算機網路",
+      "credits_snapshot": 3.0,
+      "requirement_group": "elective",
+      "notes": "",
+      "source_page": 1,
+      "evidence_match": false,
+      "validation_status": "needs_course_code_verification",
+      "uncertainty_reason": "Official PDF table does not provide a course code"
+    },
+    {
+      "course_code": null,
+      "opening_units": [
+        "資工系"
+      ],
+      "opening_unit_snapshot": "資工系",
+      "course_name_snapshot": "演算法",
+      "credits_snapshot": 3.0,
+      "requirement_group": "elective",
+      "notes": "",
+      "source_page": 1,
+      "evidence_match": true,
+      "validation_status": "needs_course_code_verification",
+      "uncertainty_reason": "Official PDF table does not provide a course code"
+    },
+    {
+      "course_code": null,
+      "opening_units": [
+        "資工系"
+      ],
+      "opening_unit_snapshot": "資工系",
+      "course_name_snapshot": "高等程式設計與實作",
+      "credits_snapshot": 3.0,
+      "requirement_group": "elective",
+      "notes": "",
+      "source_page": 1,
+      "evidence_match": true,
+      "validation_status": "needs_course_code_verification",
+      "uncertainty_reason": "Official PDF table does not provide a course code"
+    }
+  ],
+  "structured_requirements": {
+    "core_credits_text_value": 9,
+    "minimum_total_credits": 27
+  }
+}

@@ -1,0 +1,636 @@
+{
+  "program_id": "prog_979e5a760ec15ab2",
+  "latest_academic_version": "115-1",
+  "versions": [
+    "115-1"
+  ],
+  "program": {
+    "program_id": "prog_979e5a760ec15ab2",
+    "name_zh": "公共事務與企業社會責任微學程",
+    "name_en": null,
+    "previous_names": [],
+    "type": "micro_program",
+    "status": "active",
+    "description": "企業社會責任(Corporate Social Responsibility, CSR)為企業永續新趨勢,許多議題與公共事務相關。本學程透過核心課程學習公共事務及企業社會責任、環境管理到永續發展之基礎理論,並規劃企業社會責任報告寫作等實務課程提供學生多元選擇。學程融合應用課程、典範企業參訪交流等實務課程,並加強國內外相關議題分析,理論與實務兼備,增加學生未來即戰力。",
+    "responsible_unit": "公事所",
+    "coordinator": "郭瑞坤教授",
+    "program_website": "https://pam.nsysu.edu.tw/p/404-1234-234728.php?Lang=zh-tw",
+    "source_pdf": "http://140.117.153.69/ctdr/files/20260701140627400.pdf",
+    "academic_version": "115-1",
+    "source": {
+      "catalog_url": "https://ctdr.nsysu.edu.tw/class2.php",
+      "pdf_url": "http://140.117.153.69/ctdr/files/20260701140627400.pdf",
+      "retrieved_at": "2026-08-15T10:05:39Z",
+      "pdf_binary_sha256": "8e5c26ac3c274d08ceb4f3de06d5b93a308bccfe6da9bc4096553c06101c7d66",
+      "normalized_text_sha256": "043599f19107a536bcc727ee80820f07e8f4d6058a10e0cf87c2ce61a466ad70",
+      "http": {
+        "status": 200,
+        "etag": "\"4ef8d-655867df3e91b\"",
+        "last_modified": "Wed, 01 Jul 2026 06:06:27 GMT",
+        "content_length": 323469
+      },
+      "parser_version": "0.1.0"
+    },
+    "review_status": "needs_review",
+    "rules": {
+      "kind": "manual_review",
+      "reason": "Extracted candidate awaits approval"
+    },
+    "warnings": [
+      "No structured course rows extracted from PDF tables"
+    ],
+    "selected_pdf_academic_version": "114-2",
+    "course_catalog": [
+      {
+        "course_code": null,
+        "opening_units": [
+          "公事碩"
+        ],
+        "opening_unit_snapshot": "公事碩",
+        "course_name_snapshot": "永續管理概論",
+        "credits_snapshot": 2.0,
+        "requirement_group": "core",
+        "notes": "",
+        "source_page": 1,
+        "evidence_match": true,
+        "validation_status": "needs_course_code_verification",
+        "uncertainty_reason": "Official PDF table does not provide a course code"
+      },
+      {
+        "course_code": null,
+        "opening_units": [
+          "公事碩"
+        ],
+        "opening_unit_snapshot": "公事碩",
+        "course_name_snapshot": "永續發展與綠色管理",
+        "credits_snapshot": 3.0,
+        "requirement_group": "core",
+        "notes": "",
+        "source_page": 1,
+        "evidence_match": true,
+        "validation_status": "needs_course_code_verification",
+        "uncertainty_reason": "Official PDF table does not provide a course code"
+      },
+      {
+        "course_code": null,
+        "opening_units": [
+          "公事碩"
+        ],
+        "opening_unit_snapshot": "公事碩",
+        "course_name_snapshot": "公共事務與企業社會責任",
+        "credits_snapshot": 2.0,
+        "requirement_group": "core",
+        "notes": "",
+        "source_page": 1,
+        "evidence_match": true,
+        "validation_status": "needs_course_code_verification",
+        "uncertainty_reason": "Official PDF table does not provide a course code"
+      },
+      {
+        "course_code": null,
+        "opening_units": [
+          "公事碩"
+        ],
+        "opening_unit_snapshot": "公事碩",
+        "course_name_snapshot": "公共事務與管理",
+        "credits_snapshot": 3.0,
+        "requirement_group": "core",
+        "notes": "",
+        "source_page": 1,
+        "evidence_match": true,
+        "validation_status": "needs_course_code_verification",
+        "uncertainty_reason": "Official PDF table does not provide a course code"
+      },
+      {
+        "course_code": null,
+        "opening_units": [
+          "公事碩"
+        ],
+        "opening_unit_snapshot": "公事碩",
+        "course_name_snapshot": "永續報告書寫作(原:企業社會責任報告寫作)",
+        "credits_snapshot": 2.0,
+        "requirement_group": "core",
+        "notes": "",
+        "source_page": 1,
+        "evidence_match": false,
+        "validation_status": "needs_course_code_verification",
+        "uncertainty_reason": "Official PDF table does not provide a course code"
+      },
+      {
+        "course_code": null,
+        "opening_units": [
+          "公事碩"
+        ],
+        "opening_unit_snapshot": "公事碩",
+        "course_name_snapshot": "社會行銷",
+        "credits_snapshot": 2.0,
+        "requirement_group": "core",
+        "notes": "",
+        "source_page": 1,
+        "evidence_match": true,
+        "validation_status": "needs_course_code_verification",
+        "uncertainty_reason": "Official PDF table does not provide a course code"
+      },
+      {
+        "course_code": null,
+        "opening_units": [
+          "公事碩"
+        ],
+        "opening_unit_snapshot": "公事碩",
+        "course_name_snapshot": "社區營造與地區重建",
+        "credits_snapshot": 2.0,
+        "requirement_group": "core",
+        "notes": "",
+        "source_page": 1,
+        "evidence_match": true,
+        "validation_status": "needs_course_code_verification",
+        "uncertainty_reason": "Official PDF table does not provide a course code"
+      },
+      {
+        "course_code": null,
+        "opening_units": [
+          "公事碩"
+        ],
+        "opening_unit_snapshot": "公事碩",
+        "course_name_snapshot": "媒體與公共事務",
+        "credits_snapshot": 2.0,
+        "requirement_group": "core",
+        "notes": "",
+        "source_page": 1,
+        "evidence_match": true,
+        "validation_status": "needs_course_code_verification",
+        "uncertainty_reason": "Official PDF table does not provide a course code"
+      },
+      {
+        "course_code": null,
+        "opening_units": [
+          "公事碩"
+        ],
+        "opening_unit_snapshot": "公事碩",
+        "course_name_snapshot": "地區經營管理",
+        "credits_snapshot": 2.0,
+        "requirement_group": "core",
+        "notes": "",
+        "source_page": 1,
+        "evidence_match": true,
+        "validation_status": "needs_course_code_verification",
+        "uncertainty_reason": "Official PDF table does not provide a course code"
+      },
+      {
+        "course_code": null,
+        "opening_units": [
+          "博雅向度六"
+        ],
+        "opening_unit_snapshot": "博雅向度六",
+        "course_name_snapshot": "污染防治與環境管理",
+        "credits_snapshot": 2.0,
+        "requirement_group": "core",
+        "notes": "",
+        "source_page": 1,
+        "evidence_match": true,
+        "validation_status": "needs_course_code_verification",
+        "uncertainty_reason": "Official PDF table does not provide a course code"
+      },
+      {
+        "course_code": null,
+        "opening_units": [
+          "公事碩"
+        ],
+        "opening_unit_snapshot": "公事碩",
+        "course_name_snapshot": "企業社會責任專題",
+        "credits_snapshot": 2.0,
+        "requirement_group": "elective",
+        "notes": "",
+        "source_page": 1,
+        "evidence_match": true,
+        "validation_status": "needs_course_code_verification",
+        "uncertainty_reason": "Official PDF table does not provide a course code"
+      },
+      {
+        "course_code": null,
+        "opening_units": [
+          "公事碩"
+        ],
+        "opening_unit_snapshot": "公事碩",
+        "course_name_snapshot": "溫室氣體盤查報告實作(原:生命週期分析與寫作報告)",
+        "credits_snapshot": 2.0,
+        "requirement_group": "elective",
+        "notes": "",
+        "source_page": 1,
+        "evidence_match": false,
+        "validation_status": "needs_course_code_verification",
+        "uncertainty_reason": "Official PDF table does not provide a course code"
+      },
+      {
+        "course_code": null,
+        "opening_units": [
+          "公事碩"
+        ],
+        "opening_unit_snapshot": "公事碩",
+        "course_name_snapshot": "企業與政府",
+        "credits_snapshot": 2.0,
+        "requirement_group": "elective",
+        "notes": "",
+        "source_page": 1,
+        "evidence_match": true,
+        "validation_status": "needs_course_code_verification",
+        "uncertainty_reason": "Official PDF table does not provide a course code"
+      },
+      {
+        "course_code": null,
+        "opening_units": [
+          "公事碩"
+        ],
+        "opening_unit_snapshot": "公事碩",
+        "course_name_snapshot": "國際企業永續發展",
+        "credits_snapshot": 3.0,
+        "requirement_group": "elective",
+        "notes": "",
+        "source_page": 1,
+        "evidence_match": true,
+        "validation_status": "needs_course_code_verification",
+        "uncertainty_reason": "Official PDF table does not provide a course code"
+      },
+      {
+        "course_code": null,
+        "opening_units": [
+          "公事碩"
+        ],
+        "opening_unit_snapshot": "公事碩",
+        "course_name_snapshot": "新興公共議題(一)",
+        "credits_snapshot": 2.0,
+        "requirement_group": "elective",
+        "notes": "",
+        "source_page": 1,
+        "evidence_match": true,
+        "validation_status": "needs_course_code_verification",
+        "uncertainty_reason": "Official PDF table does not provide a course code"
+      },
+      {
+        "course_code": null,
+        "opening_units": [
+          "公事碩"
+        ],
+        "opening_unit_snapshot": "公事碩",
+        "course_name_snapshot": "全球公共事務",
+        "credits_snapshot": 2.0,
+        "requirement_group": "elective",
+        "notes": "",
+        "source_page": 1,
+        "evidence_match": true,
+        "validation_status": "needs_course_code_verification",
+        "uncertainty_reason": "Official PDF table does not provide a course code"
+      },
+      {
+        "course_code": null,
+        "opening_units": [
+          "公事碩"
+        ],
+        "opening_unit_snapshot": "公事碩",
+        "course_name_snapshot": "氣候行動書報討論",
+        "credits_snapshot": 1.0,
+        "requirement_group": "elective",
+        "notes": "",
+        "source_page": 1,
+        "evidence_match": true,
+        "validation_status": "needs_course_code_verification",
+        "uncertainty_reason": "Official PDF table does not provide a course code"
+      },
+      {
+        "course_code": null,
+        "opening_units": [
+          "公事碩"
+        ],
+        "opening_unit_snapshot": "公事碩",
+        "course_name_snapshot": "非營利組織管理研討",
+        "credits_snapshot": 2.0,
+        "requirement_group": "elective",
+        "notes": "",
+        "source_page": 1,
+        "evidence_match": true,
+        "validation_status": "needs_course_code_verification",
+        "uncertainty_reason": "Official PDF table does not provide a course code"
+      },
+      {
+        "course_code": null,
+        "opening_units": [
+          "公事碩"
+        ],
+        "opening_unit_snapshot": "公事碩",
+        "course_name_snapshot": "國際非營利及社區組織交流",
+        "credits_snapshot": 2.0,
+        "requirement_group": "elective",
+        "notes": "",
+        "source_page": 1,
+        "evidence_match": true,
+        "validation_status": "needs_course_code_verification",
+        "uncertainty_reason": "Official PDF table does not provide a course code"
+      },
+      {
+        "course_code": null,
+        "opening_units": [
+          "公事碩"
+        ],
+        "opening_unit_snapshot": "公事碩",
+        "course_name_snapshot": "性別、組織與管理",
+        "credits_snapshot": 3.0,
+        "requirement_group": "elective",
+        "notes": "",
+        "source_page": 1,
+        "evidence_match": true,
+        "validation_status": "needs_course_code_verification",
+        "uncertainty_reason": "Official PDF table does not provide a course code"
+      },
+      {
+        "course_code": null,
+        "opening_units": [
+          "公事碩"
+        ],
+        "opening_unit_snapshot": "公事碩",
+        "course_name_snapshot": "城鄉發展與環境變遷",
+        "credits_snapshot": 2.0,
+        "requirement_group": "elective",
+        "notes": "",
+        "source_page": 1,
+        "evidence_match": true,
+        "validation_status": "needs_course_code_verification",
+        "uncertainty_reason": "Official PDF table does not provide a course code"
+      },
+      {
+        "course_code": null,
+        "opening_units": [
+          "管理學院"
+        ],
+        "opening_unit_snapshot": "管理學院",
+        "course_name_snapshot": "創新與創業管理",
+        "credits_snapshot": 3.0,
+        "requirement_group": "elective",
+        "notes": "",
+        "source_page": 1,
+        "evidence_match": true,
+        "validation_status": "needs_course_code_verification",
+        "uncertainty_reason": "Official PDF table does not provide a course code"
+      },
+      {
+        "course_code": null,
+        "opening_units": [
+          "管理學院"
+        ],
+        "opening_unit_snapshot": "管理學院",
+        "course_name_snapshot": "企業交流與社會責任實踐",
+        "credits_snapshot": 1.0,
+        "requirement_group": "elective",
+        "notes": "",
+        "source_page": 1,
+        "evidence_match": true,
+        "validation_status": "needs_course_code_verification",
+        "uncertainty_reason": "Official PDF table does not provide a course code"
+      },
+      {
+        "course_code": null,
+        "opening_units": [
+          "藝管所"
+        ],
+        "opening_unit_snapshot": "藝管所",
+        "course_name_snapshot": "節慶活動策劃與經營",
+        "credits_snapshot": 3.0,
+        "requirement_group": "elective",
+        "notes": "",
+        "source_page": 1,
+        "evidence_match": true,
+        "validation_status": "needs_course_code_verification",
+        "uncertainty_reason": "Official PDF table does not provide a course code"
+      },
+      {
+        "course_code": null,
+        "opening_units": [
+          "博雅向度六"
+        ],
+        "opening_unit_snapshot": "博雅向度六",
+        "course_name_snapshot": "環境倫理與環境政策",
+        "credits_snapshot": 2.0,
+        "requirement_group": "elective",
+        "notes": "",
+        "source_page": 1,
+        "evidence_match": true,
+        "validation_status": "needs_course_code_verification",
+        "uncertainty_reason": "Official PDF table does not provide a course code"
+      },
+      {
+        "course_code": null,
+        "opening_units": [
+          "博雅向度六"
+        ],
+        "opening_unit_snapshot": "博雅向度六",
+        "course_name_snapshot": "氣候變遷與社會創新",
+        "credits_snapshot": 3.0,
+        "requirement_group": "elective",
+        "notes": "",
+        "source_page": 1,
+        "evidence_match": true,
+        "validation_status": "needs_course_code_verification",
+        "uncertainty_reason": "Official PDF table does not provide a course code"
+      },
+      {
+        "course_code": null,
+        "opening_units": [
+          "社科院"
+        ],
+        "opening_unit_snapshot": "社科院",
+        "course_name_snapshot": "ESG趨勢:在地與全球",
+        "credits_snapshot": 3.0,
+        "requirement_group": "elective",
+        "notes": "",
+        "source_page": 1,
+        "evidence_match": true,
+        "validation_status": "needs_course_code_verification",
+        "uncertainty_reason": "Official PDF table does not provide a course code"
+      },
+      {
+        "course_code": null,
+        "opening_units": [
+          "社科院"
+        ],
+        "opening_unit_snapshot": "社科院",
+        "course_name_snapshot": "解析ESG及其相關應用",
+        "credits_snapshot": 3.0,
+        "requirement_group": "elective",
+        "notes": "",
+        "source_page": 2,
+        "evidence_match": true,
+        "validation_status": "needs_course_code_verification",
+        "uncertainty_reason": "Official PDF table does not provide a course code"
+      },
+      {
+        "course_code": null,
+        "opening_units": [
+          "管理學院"
+        ],
+        "opening_unit_snapshot": "管理學院",
+        "course_name_snapshot": "倫理與社會責任的理論與實務",
+        "credits_snapshot": 1.0,
+        "requirement_group": "elective",
+        "notes": "",
+        "source_page": 2,
+        "evidence_match": true,
+        "validation_status": "needs_course_code_verification",
+        "uncertainty_reason": "Official PDF table does not provide a course code"
+      },
+      {
+        "course_code": null,
+        "opening_units": [
+          "管理學院"
+        ],
+        "opening_unit_snapshot": "管理學院",
+        "course_name_snapshot": "倫理與社會責任",
+        "credits_snapshot": 1.0,
+        "requirement_group": "elective",
+        "notes": "",
+        "source_page": 2,
+        "evidence_match": true,
+        "validation_status": "needs_course_code_verification",
+        "uncertainty_reason": "Official PDF table does not provide a course code"
+      },
+      {
+        "course_code": null,
+        "opening_units": [
+          "國際經營學程"
+        ],
+        "opening_unit_snapshot": "國際經營學程",
+        "course_name_snapshot": "企業倫理與社會責任實踐",
+        "credits_snapshot": 3.0,
+        "requirement_group": "elective",
+        "notes": "",
+        "source_page": 2,
+        "evidence_match": true,
+        "validation_status": "needs_course_code_verification",
+        "uncertainty_reason": "Official PDF table does not provide a course code"
+      },
+      {
+        "course_code": null,
+        "opening_units": [
+          "人管英語碩程"
+        ],
+        "opening_unit_snapshot": "人管英語碩程",
+        "course_name_snapshot": "企業倫理與社會責任實踐",
+        "credits_snapshot": 3.0,
+        "requirement_group": "elective",
+        "notes": "",
+        "source_page": 2,
+        "evidence_match": true,
+        "validation_status": "needs_course_code_verification",
+        "uncertainty_reason": "Official PDF table does not provide a course code"
+      },
+      {
+        "course_code": null,
+        "opening_units": [
+          "博雅向度四"
+        ],
+        "opening_unit_snapshot": "博雅向度四",
+        "course_name_snapshot": "用影像說故事:探索科技、環境與社會",
+        "credits_snapshot": 2.0,
+        "requirement_group": "elective",
+        "notes": "",
+        "source_page": 2,
+        "evidence_match": false,
+        "validation_status": "needs_course_code_verification",
+        "uncertainty_reason": "Official PDF table does not provide a course code"
+      },
+      {
+        "course_code": null,
+        "opening_units": [
+          "人管碩"
+        ],
+        "opening_unit_snapshot": "人管碩",
+        "course_name_snapshot": "企業社會責任",
+        "credits_snapshot": 3.0,
+        "requirement_group": "elective",
+        "notes": "",
+        "source_page": 2,
+        "evidence_match": true,
+        "validation_status": "needs_course_code_verification",
+        "uncertainty_reason": "Official PDF table does not provide a course code"
+      },
+      {
+        "course_code": null,
+        "opening_units": [
+          "海事碩"
+        ],
+        "opening_unit_snapshot": "海事碩",
+        "course_name_snapshot": "永續發展",
+        "credits_snapshot": 3.0,
+        "requirement_group": "elective",
+        "notes": "",
+        "source_page": 2,
+        "evidence_match": true,
+        "validation_status": "needs_course_code_verification",
+        "uncertainty_reason": "Official PDF table does not provide a course code"
+      },
+      {
+        "course_code": null,
+        "opening_units": [
+          "國際經營學程"
+        ],
+        "opening_unit_snapshot": "國際經營學程",
+        "course_name_snapshot": "國際企業永續發展",
+        "credits_snapshot": 3.0,
+        "requirement_group": "elective",
+        "notes": "",
+        "source_page": 2,
+        "evidence_match": true,
+        "validation_status": "needs_course_code_verification",
+        "uncertainty_reason": "Official PDF table does not provide a course code"
+      },
+      {
+        "course_code": null,
+        "opening_units": [
+          "人科學程"
+        ],
+        "opening_unit_snapshot": "人科學程",
+        "course_name_snapshot": "永續工程與管理",
+        "credits_snapshot": 3.0,
+        "requirement_group": "elective",
+        "notes": "",
+        "source_page": 2,
+        "evidence_match": true,
+        "validation_status": "needs_course_code_verification",
+        "uncertainty_reason": "Official PDF table does not provide a course code"
+      },
+      {
+        "course_code": null,
+        "opening_units": [
+          "博雅向度六"
+        ],
+        "opening_unit_snapshot": "博雅向度六",
+        "course_name_snapshot": "氣候變遷與調適",
+        "credits_snapshot": 3.0,
+        "requirement_group": "elective",
+        "notes": "",
+        "source_page": 2,
+        "evidence_match": true,
+        "validation_status": "needs_course_code_verification",
+        "uncertainty_reason": "Official PDF table does not provide a course code"
+      },
+      {
+        "course_code": null,
+        "opening_units": [
+          "跨院選修(通)"
+        ],
+        "opening_unit_snapshot": "跨院選修(通)",
+        "course_name_snapshot": "永續工程與管理",
+        "credits_snapshot": 3.0,
+        "requirement_group": "elective",
+        "notes": "",
+        "source_page": 2,
+        "evidence_match": true,
+        "validation_status": "needs_course_code_verification",
+        "uncertainty_reason": "Official PDF table does not provide a course code"
+      }
+    ],
+    "structured_requirements": {
+      "core_credits_text_value": 4,
+      "minimum_total_credits": 9,
+      "minimum_outside_home_department_credits": 3
+    }
+  }
+}

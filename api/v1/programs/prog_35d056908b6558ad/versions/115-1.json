@@ -1,0 +1,379 @@
+{
+  "program_id": "prog_35d056908b6558ad",
+  "name_zh": "數位IC設計學程",
+  "name_en": null,
+  "previous_names": [],
+  "type": "integrated_program",
+  "status": "active",
+  "description": "本學程既培養學生的數位IC設計基礎與進階專業能力,亦透過選修課程引導學生對於數位IC設計領域之不同面向更加深入的知識追求和興趣,如算術處理器設計、矽智財驗證、數位通訊電路設計、FPGA設計實務、SOPC設計實務、電子系統層級設計與驗證、高可靠度系統設計等方面。",
+  "responsible_unit": "電機系",
+  "coordinator": "謝東佑教授",
+  "program_website": "https://tarspad1.wixsite.com/icdesign",
+  "source_pdf": "http://140.117.153.69/ctdr/files/20240531151401585.pdf",
+  "academic_version": "115-1",
+  "source": {
+    "catalog_url": "https://ctdr.nsysu.edu.tw/class2.php",
+    "pdf_url": "http://140.117.153.69/ctdr/files/20240531151401585.pdf",
+    "retrieved_at": "2026-08-15T10:05:39Z",
+    "pdf_binary_sha256": "0398218e066e01b311891b04efa7b2245e546f4be9db973f3125ec14b5798a02",
+    "normalized_text_sha256": "03015e1519f1decf93ae2addab63188884a51c514e5308884b3123e8957fa348",
+    "http": {
+      "status": 200,
+      "etag": "\"206d3-619baba5e0c28\"",
+      "last_modified": "Fri, 31 May 2024 07:14:01 GMT",
+      "content_length": 132819
+    },
+    "parser_version": "0.1.0"
+  },
+  "review_status": "needs_review",
+  "rules": {
+    "kind": "manual_review",
+    "reason": "Extracted candidate awaits approval"
+  },
+  "warnings": [
+    "No structured course rows extracted from PDF tables",
+    "No structured course rows extracted from PDF tables",
+    "No structured course rows extracted from PDF tables"
+  ],
+  "selected_pdf_academic_version": "112-2",
+  "course_catalog": [
+    {
+      "course_code": null,
+      "opening_units": [
+        "電機系"
+      ],
+      "opening_unit_snapshot": "電機系",
+      "course_name_snapshot": "電路學(一)",
+      "credits_snapshot": 3.0,
+      "requirement_group": "core",
+      "notes": "",
+      "source_page": 1,
+      "evidence_match": true,
+      "validation_status": "needs_course_code_verification",
+      "uncertainty_reason": "Official PDF table does not provide a course code"
+    },
+    {
+      "course_code": null,
+      "opening_units": [
+        "電機系"
+      ],
+      "opening_unit_snapshot": "電機系",
+      "course_name_snapshot": "電子學(一)",
+      "credits_snapshot": 3.0,
+      "requirement_group": "core",
+      "notes": "",
+      "source_page": 1,
+      "evidence_match": true,
+      "validation_status": "needs_course_code_verification",
+      "uncertainty_reason": "Official PDF table does not provide a course code"
+    },
+    {
+      "course_code": null,
+      "opening_units": [
+        "電機系",
+        "資工系"
+      ],
+      "opening_unit_snapshot": "電機系 / 資工系",
+      "course_name_snapshot": "數位系統設計/數位系統",
+      "credits_snapshot": 3.0,
+      "requirement_group": "core",
+      "notes": "",
+      "source_page": 1,
+      "evidence_match": true,
+      "validation_status": "needs_course_code_verification",
+      "uncertainty_reason": "Official PDF table does not provide a course code"
+    },
+    {
+      "course_code": null,
+      "opening_units": [
+        "電機系"
+      ],
+      "opening_unit_snapshot": "電機系",
+      "course_name_snapshot": "VLSI設計導論",
+      "credits_snapshot": 3.0,
+      "requirement_group": "core",
+      "notes": "",
+      "source_page": 1,
+      "evidence_match": true,
+      "validation_status": "needs_course_code_verification",
+      "uncertainty_reason": "Official PDF table does not provide a course code"
+    },
+    {
+      "course_code": null,
+      "opening_units": [
+        "電機系",
+        "資工系"
+      ],
+      "opening_unit_snapshot": "電機系 / 資工系",
+      "course_name_snapshot": "計算機組織",
+      "credits_snapshot": 3.0,
+      "requirement_group": "core",
+      "notes": "",
+      "source_page": 1,
+      "evidence_match": true,
+      "validation_status": "needs_course_code_verification",
+      "uncertainty_reason": "Official PDF table does not provide a course code"
+    },
+    {
+      "course_code": null,
+      "opening_units": [
+        "電機系",
+        "資工系"
+      ],
+      "opening_unit_snapshot": "電機系 / 資工系",
+      "course_name_snapshot": "硬體描述語言",
+      "credits_snapshot": 3.0,
+      "requirement_group": "core",
+      "notes": "",
+      "source_page": 1,
+      "evidence_match": true,
+      "validation_status": "needs_course_code_verification",
+      "uncertainty_reason": "Official PDF table does not provide a course code"
+    },
+    {
+      "course_code": null,
+      "opening_units": [
+        "電機系"
+      ],
+      "opening_unit_snapshot": "電機系",
+      "course_name_snapshot": "實用數位系統設計",
+      "credits_snapshot": 3.0,
+      "requirement_group": "core",
+      "notes": "",
+      "source_page": 1,
+      "evidence_match": true,
+      "validation_status": "needs_course_code_verification",
+      "uncertainty_reason": "Official PDF table does not provide a course code"
+    },
+    {
+      "course_code": null,
+      "opening_units": [
+        "電機碩"
+      ],
+      "opening_unit_snapshot": "電機碩",
+      "course_name_snapshot": "系統晶片設計",
+      "credits_snapshot": 3.0,
+      "requirement_group": "core",
+      "notes": "",
+      "source_page": 1,
+      "evidence_match": true,
+      "validation_status": "needs_course_code_verification",
+      "uncertainty_reason": "Official PDF table does not provide a course code"
+    },
+    {
+      "course_code": null,
+      "opening_units": [
+        "電機碩"
+      ],
+      "opening_unit_snapshot": "電機碩",
+      "course_name_snapshot": "系統晶片測試",
+      "credits_snapshot": 3.0,
+      "requirement_group": "core",
+      "notes": "",
+      "source_page": 1,
+      "evidence_match": true,
+      "validation_status": "needs_course_code_verification",
+      "uncertainty_reason": "Official PDF table does not provide a course code"
+    },
+    {
+      "course_code": null,
+      "opening_units": [
+        "電機碩"
+      ],
+      "opening_unit_snapshot": "電機碩",
+      "course_name_snapshot": "超大型積體電路數位訊號處理",
+      "credits_snapshot": 3.0,
+      "requirement_group": "core",
+      "notes": "",
+      "source_page": 1,
+      "evidence_match": true,
+      "validation_status": "needs_course_code_verification",
+      "uncertainty_reason": "Official PDF table does not provide a course code"
+    },
+    {
+      "course_code": null,
+      "opening_units": [
+        "中山大學數位自學課程平台-Coursera"
+      ],
+      "opening_unit_snapshot": "中山大學數位自學課程平台-Coursera",
+      "course_name_snapshot": "演算法基礎 (Algorithmic Toolbox)",
+      "credits_snapshot": 2.0,
+      "requirement_group": "core",
+      "notes": "英語授課",
+      "source_page": 1,
+      "evidence_match": false,
+      "validation_status": "needs_course_code_verification",
+      "uncertainty_reason": "Official PDF table does not provide a course code"
+    },
+    {
+      "course_code": null,
+      "opening_units": [
+        "中山大學數位自學課程平台-Coursera"
+      ],
+      "opening_unit_snapshot": "中山大學數位自學課程平台-Coursera",
+      "course_name_snapshot": "數位系統: 從邏輯閘到處理器",
+      "credits_snapshot": 2.0,
+      "requirement_group": "core",
+      "notes": "英語授課",
+      "source_page": 1,
+      "evidence_match": true,
+      "validation_status": "needs_course_code_verification",
+      "uncertainty_reason": "Official PDF table does not provide a course code"
+    },
+    {
+      "course_code": null,
+      "opening_units": [
+        "中山大學數位自學課程平台-Coursera"
+      ],
+      "opening_unit_snapshot": "中山大學數位自學課程平台-Coursera",
+      "course_name_snapshot": "演算法進階與複雜度(Advanced Algorithms and Complexity)",
+      "credits_snapshot": 2.0,
+      "requirement_group": "core",
+      "notes": "英語授課",
+      "source_page": 1,
+      "evidence_match": false,
+      "validation_status": "needs_course_code_verification",
+      "uncertainty_reason": "Official PDF table does not provide a course code"
+    },
+    {
+      "course_code": null,
+      "opening_units": [
+        "中山大學數位自學課程平台-Coursera"
+      ],
+      "opening_unit_snapshot": "中山大學數位自學課程平台-Coursera",
+      "course_name_snapshot": "硬體安全",
+      "credits_snapshot": 1.0,
+      "requirement_group": "core",
+      "notes": "英語授課",
+      "source_page": 1,
+      "evidence_match": true,
+      "validation_status": "needs_course_code_verification",
+      "uncertainty_reason": "Official PDF table does not provide a course code"
+    },
+    {
+      "course_code": null,
+      "opening_units": [
+        "中山大學數位自學課程平台-Coursera"
+      ],
+      "opening_unit_snapshot": "中山大學數位自學課程平台-Coursera",
+      "course_name_snapshot": "圖論演算法 (Algorithms on Graphs)",
+      "credits_snapshot": 3.0,
+      "requirement_group": "core",
+      "notes": "英語授課",
+      "source_page": 1,
+      "evidence_match": false,
+      "validation_status": "needs_course_code_verification",
+      "uncertainty_reason": "Official PDF table does not provide a course code"
+    },
+    {
+      "course_code": null,
+      "opening_units": [
+        "電機碩"
+      ],
+      "opening_unit_snapshot": "電機碩",
+      "course_name_snapshot": "高等計算機結構",
+      "credits_snapshot": 3.0,
+      "requirement_group": "elective",
+      "notes": "任選1門",
+      "source_page": 1,
+      "evidence_match": true,
+      "validation_status": "needs_course_code_verification",
+      "uncertainty_reason": "Official PDF table does not provide a course code"
+    },
+    {
+      "course_code": null,
+      "opening_units": [
+        "電機碩"
+      ],
+      "opening_unit_snapshot": "電機碩",
+      "course_name_snapshot": "FPGA系統設計實務",
+      "credits_snapshot": 3.0,
+      "requirement_group": "elective",
+      "notes": "",
+      "source_page": 1,
+      "evidence_match": true,
+      "validation_status": "needs_course_code_verification",
+      "uncertainty_reason": "Official PDF table does not provide a course code"
+    },
+    {
+      "course_code": null,
+      "opening_units": [
+        "資工碩"
+      ],
+      "opening_unit_snapshot": "資工碩",
+      "course_name_snapshot": "SOPC 設計實務及FPGA系統整合設計",
+      "credits_snapshot": 3.0,
+      "requirement_group": "elective",
+      "notes": "",
+      "source_page": 1,
+      "evidence_match": false,
+      "validation_status": "needs_course_code_verification",
+      "uncertainty_reason": "Official PDF table does not provide a course code"
+    },
+    {
+      "course_code": null,
+      "opening_units": [
+        "資工碩"
+      ],
+      "opening_unit_snapshot": "資工碩",
+      "course_name_snapshot": "電子系統層級設計與驗證",
+      "credits_snapshot": 3.0,
+      "requirement_group": "elective",
+      "notes": "",
+      "source_page": 1,
+      "evidence_match": true,
+      "validation_status": "needs_course_code_verification",
+      "uncertainty_reason": "Official PDF table does not provide a course code"
+    },
+    {
+      "course_code": null,
+      "opening_units": [
+        "電機碩"
+      ],
+      "opening_unit_snapshot": "電機碩",
+      "course_name_snapshot": "高可靠度系統之設計、測試與應用",
+      "credits_snapshot": 3.0,
+      "requirement_group": "elective",
+      "notes": "",
+      "source_page": 1,
+      "evidence_match": false,
+      "validation_status": "needs_course_code_verification",
+      "uncertainty_reason": "Official PDF table does not provide a course code"
+    },
+    {
+      "course_code": null,
+      "opening_units": [
+        "電機碩"
+      ],
+      "opening_unit_snapshot": "電機碩",
+      "course_name_snapshot": "數位通訊電路設計",
+      "credits_snapshot": 3.0,
+      "requirement_group": "elective",
+      "notes": "",
+      "source_page": 1,
+      "evidence_match": true,
+      "validation_status": "needs_course_code_verification",
+      "uncertainty_reason": "Official PDF table does not provide a course code"
+    },
+    {
+      "course_code": null,
+      "opening_units": [
+        "資工碩"
+      ],
+      "opening_unit_snapshot": "資工碩",
+      "course_name_snapshot": "算術處理器設計與實作",
+      "credits_snapshot": 3.0,
+      "requirement_group": "elective",
+      "notes": "",
+      "source_page": 1,
+      "evidence_match": true,
+      "validation_status": "needs_course_code_verification",
+      "uncertainty_reason": "Official PDF table does not provide a course code"
+    }
+  ],
+  "structured_requirements": {
+    "minimum_total_credits": 28,
+    "core_credits_text_value": 25,
+    "minimum_outside_home_department_credits": 6
+  }
+}

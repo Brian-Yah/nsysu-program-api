@@ -1,0 +1,314 @@
+{
+  "program_id": "prog_14550fb9cc885968",
+  "name_zh": "人權研究整合學程Human Rights Studies Program【全英語學程】(Program Taught in English)",
+  "name_en": null,
+  "previous_names": [],
+  "type": "integrated_program",
+  "status": "active",
+  "description": "本學程將與Open Society University Network(OSUN)的Human Rights Certificate的連結,學生可以透過修習本學程同時取得「雙證書」(本學程證書以及OSUN Human Rights Certificate),在這過程也有機會透過修習OSUN所提供的人權相關課程,擴展對於人權問題的深度與廣度,成為具有國際視野的跨領域人材,也才能更能成為擔當台灣未來發展的社會中堅。",
+  "responsible_unit": "西灣學院",
+  "coordinator": "許家豪助理教授",
+  "program_website": "https://gamma.app/public/Discover-Your-Passion-for-Human-Rights-gy46eag337c992v",
+  "source_pdf": "http://140.117.153.69/ctdr/files/2024053114553762.pdf",
+  "academic_version": "115-1",
+  "source": {
+    "catalog_url": "https://ctdr.nsysu.edu.tw/class2.php",
+    "pdf_url": "http://140.117.153.69/ctdr/files/2024053114553762.pdf",
+    "retrieved_at": "2026-08-15T10:05:39Z",
+    "pdf_binary_sha256": "1fbc70d356ade77b746c05456a105469234de76ccee2549abc23988ccf17b2c9",
+    "normalized_text_sha256": "fa8002d9e15a6e5253d458532ab07f3065c840078e83acc86b2cb3dc2affbf10",
+    "http": {
+      "status": 200,
+      "etag": "\"2b673-619ba7888617d\"",
+      "last_modified": "Fri, 31 May 2024 06:55:37 GMT",
+      "content_length": 177779
+    },
+    "parser_version": "0.1.0"
+  },
+  "review_status": "needs_review",
+  "rules": {
+    "kind": "manual_review",
+    "reason": "Extracted candidate awaits approval"
+  },
+  "warnings": [
+    "No structured course rows extracted from PDF tables"
+  ],
+  "selected_pdf_academic_version": "112-2",
+  "course_catalog": [
+    {
+      "course_code": null,
+      "opening_units": [
+        "博雅教育中心"
+      ],
+      "opening_unit_snapshot": "博雅教育中心",
+      "course_name_snapshot": "普世人權:觀念與挑戰UNIVERSAL HUMAN RIGHTS:IDEAS AND CHALLENGES",
+      "credits_snapshot": 3.0,
+      "requirement_group": "core",
+      "notes": "",
+      "source_page": 1,
+      "evidence_match": false,
+      "validation_status": "needs_course_code_verification",
+      "uncertainty_reason": "Official PDF table does not provide a course code"
+    },
+    {
+      "course_code": null,
+      "opening_units": [
+        "博雅教育中心"
+      ],
+      "opening_unit_snapshot": "博雅教育中心",
+      "course_name_snapshot": "人權與現代社會:台灣與中國的路徑HUMAN RIGHTS AND MODERN SOCIETY: THE CASE OF CHINA AND TAIWAN",
+      "credits_snapshot": 3.0,
+      "requirement_group": "core",
+      "notes": "異動",
+      "source_page": 1,
+      "evidence_match": false,
+      "validation_status": "needs_course_code_verification",
+      "uncertainty_reason": "Official PDF table does not provide a course code"
+    },
+    {
+      "course_code": null,
+      "opening_units": [
+        "博雅教育中心"
+      ],
+      "opening_unit_snapshot": "博雅教育中心",
+      "course_name_snapshot": "人權倡議",
+      "credits_snapshot": 3.0,
+      "requirement_group": "core",
+      "notes": "新增",
+      "source_page": 1,
+      "evidence_match": true,
+      "validation_status": "needs_course_code_verification",
+      "uncertainty_reason": "Official PDF table does not provide a course code"
+    },
+    {
+      "course_code": null,
+      "opening_units": [
+        "博雅教育中心"
+      ],
+      "opening_unit_snapshot": "博雅教育中心",
+      "course_name_snapshot": "全球化社會的倫理道德ETHICS IN A GLOBAL SOCIETY",
+      "credits_snapshot": 3.0,
+      "requirement_group": "elective",
+      "notes": "",
+      "source_page": 1,
+      "evidence_match": false,
+      "validation_status": "needs_course_code_verification",
+      "uncertainty_reason": "Official PDF table does not provide a course code"
+    },
+    {
+      "course_code": null,
+      "opening_units": [
+        "博雅教育中心"
+      ],
+      "opening_unit_snapshot": "博雅教育中心",
+      "course_name_snapshot": "社會正義與民主實踐SOCIAL JUSTICE AND DEMOCRATIC PRACTICE",
+      "credits_snapshot": 3.0,
+      "requirement_group": "elective",
+      "notes": "",
+      "source_page": 1,
+      "evidence_match": false,
+      "validation_status": "needs_course_code_verification",
+      "uncertainty_reason": "Official PDF table does not provide a course code"
+    },
+    {
+      "course_code": null,
+      "opening_units": [
+        "博雅教育中心"
+      ],
+      "opening_unit_snapshot": "博雅教育中心",
+      "course_name_snapshot": "性別與全球治理GENDER AND GLOBAL GOVERNANCE",
+      "credits_snapshot": 3.0,
+      "requirement_group": "elective",
+      "notes": "",
+      "source_page": 1,
+      "evidence_match": false,
+      "validation_status": "needs_course_code_verification",
+      "uncertainty_reason": "Official PDF table does not provide a course code"
+    },
+    {
+      "course_code": null,
+      "opening_units": [
+        "跨院選修(社)"
+      ],
+      "opening_unit_snapshot": "跨院選修(社)",
+      "course_name_snapshot": "審議民主:理論與實務DELIBERATIVE DEMOCRACY:THEORIES AND PRACTICES",
+      "credits_snapshot": 3.0,
+      "requirement_group": "elective",
+      "notes": "",
+      "source_page": 1,
+      "evidence_match": false,
+      "validation_status": "needs_course_code_verification",
+      "uncertainty_reason": "Official PDF table does not provide a course code"
+    },
+    {
+      "course_code": null,
+      "opening_units": [
+        "EMI中心ESP"
+      ],
+      "opening_unit_snapshot": "EMI中心ESP",
+      "course_name_snapshot": "國際人權實踐書報討論",
+      "credits_snapshot": 3.0,
+      "requirement_group": "elective",
+      "notes": "",
+      "source_page": 1,
+      "evidence_match": true,
+      "validation_status": "needs_course_code_verification",
+      "uncertainty_reason": "Official PDF table does not provide a course code"
+    },
+    {
+      "course_code": null,
+      "opening_units": [
+        "博雅教育中心"
+      ],
+      "opening_unit_snapshot": "博雅教育中心",
+      "course_name_snapshot": "台灣政經發展POLITICAL AND ECONOMIC DEVELOPMENT IN TAIWAN",
+      "credits_snapshot": 3.0,
+      "requirement_group": "elective",
+      "notes": "新增",
+      "source_page": 1,
+      "evidence_match": false,
+      "validation_status": "needs_course_code_verification",
+      "uncertainty_reason": "Official PDF table does not provide a course code"
+    },
+    {
+      "course_code": null,
+      "opening_units": [
+        "博雅教育中心"
+      ],
+      "opening_unit_snapshot": "博雅教育中心",
+      "course_name_snapshot": "後疫情時代的亞太區域政治ASIA PACIFIC INTERNATIONAL POLITICS IN THE POST-PANDEMIC ERA",
+      "credits_snapshot": 3.0,
+      "requirement_group": "elective",
+      "notes": "新增",
+      "source_page": 1,
+      "evidence_match": false,
+      "validation_status": "needs_course_code_verification",
+      "uncertainty_reason": "Official PDF table does not provide a course code"
+    },
+    {
+      "course_code": null,
+      "opening_units": [
+        "博雅教育中心"
+      ],
+      "opening_unit_snapshot": "博雅教育中心",
+      "course_name_snapshot": "中國崛起與亞太區域安全CHINA’S RISE AND SECURITY IN THE ASIA-PACIFIC REGION",
+      "credits_snapshot": 3.0,
+      "requirement_group": "elective",
+      "notes": "新增",
+      "source_page": 1,
+      "evidence_match": false,
+      "validation_status": "needs_course_code_verification",
+      "uncertainty_reason": "Official PDF table does not provide a course code"
+    },
+    {
+      "course_code": null,
+      "opening_units": [
+        "博雅教育中心"
+      ],
+      "opening_unit_snapshot": "博雅教育中心",
+      "course_name_snapshot": "性別與社會GENDER AND SOCIETY",
+      "credits_snapshot": 3.0,
+      "requirement_group": "elective",
+      "notes": "新增",
+      "source_page": 1,
+      "evidence_match": false,
+      "validation_status": "needs_course_code_verification",
+      "uncertainty_reason": "Official PDF table does not provide a course code"
+    },
+    {
+      "course_code": null,
+      "opening_units": [
+        "OSUN Online Courses"
+      ],
+      "opening_unit_snapshot": "OSUN Online Courses",
+      "course_name_snapshot": "Child Rights Protection",
+      "credits_snapshot": 3.0,
+      "requirement_group": "elective",
+      "notes": "新增",
+      "source_page": 1,
+      "evidence_match": true,
+      "validation_status": "needs_course_code_verification",
+      "uncertainty_reason": "Official PDF table does not provide a course code"
+    },
+    {
+      "course_code": null,
+      "opening_units": [
+        "OSUN Online Courses"
+      ],
+      "opening_unit_snapshot": "OSUN Online Courses",
+      "course_name_snapshot": "Human Rights, Disability, and Global Literature",
+      "credits_snapshot": 3.0,
+      "requirement_group": "elective",
+      "notes": "新增",
+      "source_page": 2,
+      "evidence_match": false,
+      "validation_status": "needs_course_code_verification",
+      "uncertainty_reason": "Official PDF table does not provide a course code"
+    },
+    {
+      "course_code": null,
+      "opening_units": [
+        "OSUN Online Courses"
+      ],
+      "opening_unit_snapshot": "OSUN Online Courses",
+      "course_name_snapshot": "International Criminal Law",
+      "credits_snapshot": 3.0,
+      "requirement_group": "elective",
+      "notes": "新增",
+      "source_page": 2,
+      "evidence_match": true,
+      "validation_status": "needs_course_code_verification",
+      "uncertainty_reason": "Official PDF table does not provide a course code"
+    },
+    {
+      "course_code": null,
+      "opening_units": [
+        "OSUN Online Courses"
+      ],
+      "opening_unit_snapshot": "OSUN Online Courses",
+      "course_name_snapshot": "International Environmental Law and Sustainable Development",
+      "credits_snapshot": 3.0,
+      "requirement_group": "elective",
+      "notes": "新增",
+      "source_page": 2,
+      "evidence_match": false,
+      "validation_status": "needs_course_code_verification",
+      "uncertainty_reason": "Official PDF table does not provide a course code"
+    },
+    {
+      "course_code": null,
+      "opening_units": [
+        "OSUN Online Courses"
+      ],
+      "opening_unit_snapshot": "OSUN Online Courses",
+      "course_name_snapshot": "Leadership, Writing & Public Speaking for Social & Environmental Justice",
+      "credits_snapshot": 3.0,
+      "requirement_group": "elective",
+      "notes": "新增",
+      "source_page": 2,
+      "evidence_match": false,
+      "validation_status": "needs_course_code_verification",
+      "uncertainty_reason": "Official PDF table does not provide a course code"
+    },
+    {
+      "course_code": null,
+      "opening_units": [
+        "OSUN Online Courses"
+      ],
+      "opening_unit_snapshot": "OSUN Online Courses",
+      "course_name_snapshot": "Literature and Social Justice",
+      "credits_snapshot": 3.0,
+      "requirement_group": "elective",
+      "notes": "新增",
+      "source_page": 2,
+      "evidence_match": true,
+      "validation_status": "needs_course_code_verification",
+      "uncertainty_reason": "Official PDF table does not provide a course code"
+    }
+  ],
+  "structured_requirements": {
+    "core_credits_text_value": 6,
+    "minimum_total_credits": 15,
+    "minimum_outside_home_department_credits": 6
+  }
+}

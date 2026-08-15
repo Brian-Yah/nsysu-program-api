@@ -1,0 +1,175 @@
+{
+  "program_id": "prog_b27037639ff15338",
+  "name_zh": "【AI聯盟學分學程】人工智慧工業應用學分學程",
+  "name_en": null,
+  "previous_names": [],
+  "type": "integrated_program",
+  "status": "active",
+  "description": "為配合協助政府的工業相關產業創新計畫,驅動產業發展量能,為因應這波人工智慧革命,本學分學程屬於人工智慧應用學分學程,主要給跨領域學生修習,因此課程設計從先修的統計開始,建議學生在修課之前仍需修習程式設計課程,接下來透過循序漸進的修課規劃,才能在工業上創新。",
+  "responsible_unit": "電機系",
+  "coordinator": "莊豐任教授",
+  "program_website": null,
+  "source_pdf": "http://140.117.153.69/ctdr/files/20260813142042992.pdf",
+  "academic_version": "115-1",
+  "source": {
+    "catalog_url": "https://ctdr.nsysu.edu.tw/class2.php",
+    "pdf_url": "http://140.117.153.69/ctdr/files/20260813142042992.pdf",
+    "retrieved_at": "2026-08-15T10:05:39Z",
+    "pdf_binary_sha256": "bc41e028f31d7f248aabfd607c8dc56e2b3b81963418e38b7a716c5d7409ab31",
+    "normalized_text_sha256": "63ae3ce692090c857e18bfeb1976ce5a32835d626daad9993c0a72056a7f5756",
+    "http": {
+      "status": 200,
+      "etag": "\"22056-658e7b420998f\"",
+      "last_modified": "Thu, 13 Aug 2026 06:20:42 GMT",
+      "content_length": 139350
+    },
+    "parser_version": "0.1.0"
+  },
+  "review_status": "needs_review",
+  "rules": {
+    "kind": "manual_review",
+    "reason": "Extracted candidate awaits approval"
+  },
+  "warnings": [
+    "No structured course rows extracted from PDF tables"
+  ],
+  "selected_pdf_academic_version": "113-1",
+  "course_catalog": [
+    {
+      "course_code": null,
+      "opening_units": [
+        "電機工程學系"
+      ],
+      "opening_unit_snapshot": "電機工程學系",
+      "course_name_snapshot": "機率與統計",
+      "credits_snapshot": 3.0,
+      "requirement_group": "unspecified",
+      "notes": "機率與統計",
+      "source_page": 1,
+      "evidence_match": true,
+      "validation_status": "needs_course_code_verification",
+      "uncertainty_reason": "Official PDF table does not provide a course code"
+    },
+    {
+      "course_code": null,
+      "opening_units": [
+        "應用數學系"
+      ],
+      "opening_unit_snapshot": "應用數學系",
+      "course_name_snapshot": "應用統計方法",
+      "credits_snapshot": 3.0,
+      "requirement_group": "unspecified",
+      "notes": "應用統計方法",
+      "source_page": 1,
+      "evidence_match": true,
+      "validation_status": "needs_course_code_verification",
+      "uncertainty_reason": "Official PDF table does not provide a course code"
+    },
+    {
+      "course_code": null,
+      "opening_units": [
+        "資訊工程學系碩士班"
+      ],
+      "opening_unit_snapshot": "資訊工程學系碩士班",
+      "course_name_snapshot": "進階資料探勘",
+      "credits_snapshot": 3.0,
+      "requirement_group": "unspecified",
+      "notes": "進階資料探勘",
+      "source_page": 1,
+      "evidence_match": true,
+      "validation_status": "needs_course_code_verification",
+      "uncertainty_reason": "Official PDF table does not provide a course code"
+    },
+    {
+      "course_code": null,
+      "opening_units": [
+        "資訊工程學系"
+      ],
+      "opening_unit_snapshot": "資訊工程學系",
+      "course_name_snapshot": "資料探勘",
+      "credits_snapshot": 3.0,
+      "requirement_group": "unspecified",
+      "notes": "資料探勘",
+      "source_page": 1,
+      "evidence_match": true,
+      "validation_status": "needs_course_code_verification",
+      "uncertainty_reason": "Official PDF table does not provide a course code"
+    },
+    {
+      "course_code": null,
+      "opening_units": [
+        "資訊工程學系碩士班"
+      ],
+      "opening_unit_snapshot": "資訊工程學系碩士班",
+      "course_name_snapshot": "機器學習",
+      "credits_snapshot": 3.0,
+      "requirement_group": "unspecified",
+      "notes": "機器學習",
+      "source_page": 1,
+      "evidence_match": true,
+      "validation_status": "needs_course_code_verification",
+      "uncertainty_reason": "Official PDF table does not provide a course code"
+    },
+    {
+      "course_code": null,
+      "opening_units": [
+        "資訊工程學系"
+      ],
+      "opening_unit_snapshot": "資訊工程學系",
+      "course_name_snapshot": "機器學習導論",
+      "credits_snapshot": 3.0,
+      "requirement_group": "unspecified",
+      "notes": "機器學習導論",
+      "source_page": 1,
+      "evidence_match": true,
+      "validation_status": "needs_course_code_verification",
+      "uncertainty_reason": "Official PDF table does not provide a course code"
+    },
+    {
+      "course_code": null,
+      "opening_units": [
+        "機械與機電工程學系碩士班"
+      ],
+      "opening_unit_snapshot": "機械與機電工程學系碩士班",
+      "course_name_snapshot": "智慧製造與監測技術",
+      "credits_snapshot": 3.0,
+      "requirement_group": "unspecified",
+      "notes": "智慧製造與監測技術",
+      "source_page": 1,
+      "evidence_match": true,
+      "validation_status": "needs_course_code_verification",
+      "uncertainty_reason": "Official PDF table does not provide a course code"
+    },
+    {
+      "course_code": null,
+      "opening_units": [
+        "機械與機電工程學系碩士班"
+      ],
+      "opening_unit_snapshot": "機械與機電工程學系碩士班",
+      "course_name_snapshot": "智慧製造專題",
+      "credits_snapshot": 3.0,
+      "requirement_group": "unspecified",
+      "notes": "智慧製造專題",
+      "source_page": 1,
+      "evidence_match": true,
+      "validation_status": "needs_course_code_verification",
+      "uncertainty_reason": "Official PDF table does not provide a course code"
+    },
+    {
+      "course_code": null,
+      "opening_units": [
+        "電機工程學系碩士班"
+      ],
+      "opening_unit_snapshot": "電機工程學系碩士班",
+      "course_name_snapshot": "機器人學",
+      "credits_snapshot": 3.0,
+      "requirement_group": "unspecified",
+      "notes": "機器人學",
+      "source_page": 1,
+      "evidence_match": true,
+      "validation_status": "needs_course_code_verification",
+      "uncertainty_reason": "Official PDF table does not provide a course code"
+    }
+  ],
+  "structured_requirements": {}
+}

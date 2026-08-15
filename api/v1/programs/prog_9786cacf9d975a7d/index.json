@@ -1,0 +1,171 @@
+{
+  "program_id": "prog_9786cacf9d975a7d",
+  "latest_academic_version": "115-1",
+  "versions": [
+    "115-1"
+  ],
+  "program": {
+    "program_id": "prog_9786cacf9d975a7d",
+    "name_zh": "材料結構性質微學程",
+    "name_en": null,
+    "previous_names": [],
+    "type": "micro_program",
+    "status": "active",
+    "description": "材料結構與性質研究在現代科學與技術中具有關鍵性的重要性,在半導體材料領域,其晶體結構將影響其電子傳輸性能。隨著元件尺寸不斷縮小至奈米尺度,表面效應和量子效應變得愈加顯著,使得對材料微觀結構的精確控制將影響材料的電導率、熱穩定性和抗損壞性。在能源材料領域中,材料的結構與性質研究同樣重要,無論是對於太陽能電池、燃料電池、鋰離子電池的開發,材料的結構影響能量的儲存與轉換效率。高性能材料領域,如超合金、先進複合材料等,材料的微結構如晶界、缺陷、微觀相等會顯著影響其強度、耐久性及抗腐蝕性。因此了解材料內部結構如何影響其物理、化學和機械性能,將能推動技術的革新與發展。學生修習材料結構與性質微學程後將能對於相關學理應用有更進一步了解,培育未來在推動半導體技術、可再生能源、高性能材料等領域的人才,將具有核心意義。",
+    "responsible_unit": "材光系",
+    "coordinator": "蔣酉旺教授",
+    "program_website": "https://moes.nsysu.edu.tw/p/406-1206-348313,r2353.php?Lang=zh-tw",
+    "source_pdf": "http://140.117.153.69/ctdr/files/20260701140437127.pdf",
+    "academic_version": "115-1",
+    "source": {
+      "catalog_url": "https://ctdr.nsysu.edu.tw/class2.php",
+      "pdf_url": "http://140.117.153.69/ctdr/files/20260701140437127.pdf",
+      "retrieved_at": "2026-08-15T10:05:39Z",
+      "pdf_binary_sha256": "8ec6c7b958eccced876d2e7f88366ea02aa8a9198e81ccd34c4e35708d2a36d5",
+      "normalized_text_sha256": "4f0eb5029547499cd3cb563024ece01ff0d442807582fb779c3ce8b7145a9fcf",
+      "http": {
+        "status": 200,
+        "etag": "\"1944c-655867761414f\"",
+        "last_modified": "Wed, 01 Jul 2026 06:04:37 GMT",
+        "content_length": 103500
+      },
+      "parser_version": "0.1.0"
+    },
+    "review_status": "needs_review",
+    "rules": {
+      "kind": "manual_review",
+      "reason": "Extracted candidate awaits approval"
+    },
+    "warnings": [
+      "No structured course rows extracted from PDF tables"
+    ],
+    "selected_pdf_academic_version": "114-2",
+    "course_catalog": [
+      {
+        "course_code": null,
+        "opening_units": [
+          "材光系"
+        ],
+        "opening_unit_snapshot": "材光系",
+        "course_name_snapshot": "材料科學導論",
+        "credits_snapshot": 3.0,
+        "requirement_group": "core",
+        "notes": "",
+        "source_page": 1,
+        "evidence_match": true,
+        "validation_status": "needs_course_code_verification",
+        "uncertainty_reason": "Official PDF table does not provide a course code"
+      },
+      {
+        "course_code": null,
+        "opening_units": [
+          "材光系"
+        ],
+        "opening_unit_snapshot": "材光系",
+        "course_name_snapshot": "材料熱力學",
+        "credits_snapshot": 3.0,
+        "requirement_group": "core",
+        "notes": "",
+        "source_page": 1,
+        "evidence_match": true,
+        "validation_status": "needs_course_code_verification",
+        "uncertainty_reason": "Official PDF table does not provide a course code"
+      },
+      {
+        "course_code": null,
+        "opening_units": [
+          "材光系"
+        ],
+        "opening_unit_snapshot": "材光系",
+        "course_name_snapshot": "X光與電子繞射",
+        "credits_snapshot": 3.0,
+        "requirement_group": "core",
+        "notes": "",
+        "source_page": 1,
+        "evidence_match": true,
+        "validation_status": "needs_course_code_verification",
+        "uncertainty_reason": "Official PDF table does not provide a course code"
+      },
+      {
+        "course_code": null,
+        "opening_units": [
+          "材光系"
+        ],
+        "opening_unit_snapshot": "材光系",
+        "course_name_snapshot": "奈米材料之特性與應用",
+        "credits_snapshot": 3.0,
+        "requirement_group": "elective",
+        "notes": "",
+        "source_page": 1,
+        "evidence_match": true,
+        "validation_status": "needs_course_code_verification",
+        "uncertainty_reason": "Official PDF table does not provide a course code"
+      },
+      {
+        "course_code": null,
+        "opening_units": [
+          "機電系"
+        ],
+        "opening_unit_snapshot": "機電系",
+        "course_name_snapshot": "奈米科技概論",
+        "credits_snapshot": 3.0,
+        "requirement_group": "elective",
+        "notes": "",
+        "source_page": 1,
+        "evidence_match": true,
+        "validation_status": "needs_course_code_verification",
+        "uncertainty_reason": "Official PDF table does not provide a course code"
+      },
+      {
+        "course_code": null,
+        "opening_units": [
+          "光電碩"
+        ],
+        "opening_unit_snapshot": "光電碩",
+        "course_name_snapshot": "半導體表面分析技術",
+        "credits_snapshot": 3.0,
+        "requirement_group": "elective",
+        "notes": "",
+        "source_page": 1,
+        "evidence_match": true,
+        "validation_status": "needs_course_code_verification",
+        "uncertainty_reason": "Official PDF table does not provide a course code"
+      },
+      {
+        "course_code": null,
+        "opening_units": [
+          "機電碩"
+        ],
+        "opening_unit_snapshot": "機電碩",
+        "course_name_snapshot": "微奈米材料",
+        "credits_snapshot": 3.0,
+        "requirement_group": "elective",
+        "notes": "",
+        "source_page": 1,
+        "evidence_match": true,
+        "validation_status": "needs_course_code_verification",
+        "uncertainty_reason": "Official PDF table does not provide a course code"
+      },
+      {
+        "course_code": null,
+        "opening_units": [
+          "機電碩"
+        ],
+        "opening_unit_snapshot": "機電碩",
+        "course_name_snapshot": "材料選擇與設計",
+        "credits_snapshot": 3.0,
+        "requirement_group": "elective",
+        "notes": "",
+        "source_page": 1,
+        "evidence_match": true,
+        "validation_status": "needs_course_code_verification",
+        "uncertainty_reason": "Official PDF table does not provide a course code"
+      }
+    ],
+    "structured_requirements": {
+      "minimum_total_credits": 9,
+      "core_credits_text_value": 6,
+      "minimum_outside_home_department_credits": 3
+    }
+  }
+}

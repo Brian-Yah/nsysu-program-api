@@ -1,0 +1,224 @@
+{
+  "program_id": "prog_91a947a8466d507f",
+  "name_zh": "台日跨文化微學程",
+  "name_en": null,
+  "previous_names": [],
+  "type": "micro_program",
+  "status": "active",
+  "description": "本學程著眼於地方創生之議題,由跨地域與跨國際的思考角度入手,擬透過相關課程的整合,引介日本已進行多年的地域振興相關議題,帶領學生透過跨國、跨文化的比較認識台灣自己的議題,並由文化端思索問題解決的多樣性可能。",
+  "responsible_unit": "西灣學院博雅教育中心",
+  "coordinator": "吳亦昕助理教授",
+  "program_website": "https://cm-siwan.nsysu.edu.tw/p/406-1353-319515,r5482.php",
+  "source_pdf": "http://140.117.153.69/ctdr/files/20251223150250208.pdf",
+  "academic_version": "115-1",
+  "source": {
+    "catalog_url": "https://ctdr.nsysu.edu.tw/class2.php",
+    "pdf_url": "http://140.117.153.69/ctdr/files/20251223150250208.pdf",
+    "retrieved_at": "2026-08-15T10:05:39Z",
+    "pdf_binary_sha256": "8b76380f2a5902489b8b923834dd41d6ec09666d415a38c5bd36d65c72914547",
+    "normalized_text_sha256": "24074a9bf92d4ce70fd3ff2cc3c1c1f0becea2d1f8935bb31a0cef710f08d515",
+    "http": {
+      "status": 200,
+      "etag": "\"3a46e-6469921bc999f\"",
+      "last_modified": "Tue, 23 Dec 2025 07:02:50 GMT",
+      "content_length": 238702
+    },
+    "parser_version": "0.1.0"
+  },
+  "review_status": "needs_review",
+  "rules": {
+    "kind": "manual_review",
+    "reason": "Extracted candidate awaits approval"
+  },
+  "warnings": [
+    "No structured course rows extracted from PDF tables"
+  ],
+  "selected_pdf_academic_version": "114-1",
+  "course_catalog": [
+    {
+      "course_code": null,
+      "opening_units": [
+        "博雅教育中心"
+      ],
+      "opening_unit_snapshot": "博雅教育中心",
+      "course_name_snapshot": "台灣社會與文化",
+      "credits_snapshot": 3.0,
+      "requirement_group": "core",
+      "notes": "",
+      "source_page": 1,
+      "evidence_match": true,
+      "validation_status": "needs_course_code_verification",
+      "uncertainty_reason": "Official PDF table does not provide a course code"
+    },
+    {
+      "course_code": null,
+      "opening_units": [
+        "博雅教育中心"
+      ],
+      "opening_unit_snapshot": "博雅教育中心",
+      "course_name_snapshot": "日本文化概論",
+      "credits_snapshot": 3.0,
+      "requirement_group": "core",
+      "notes": "",
+      "source_page": 1,
+      "evidence_match": true,
+      "validation_status": "needs_course_code_verification",
+      "uncertainty_reason": "Official PDF table does not provide a course code"
+    },
+    {
+      "course_code": null,
+      "opening_units": [
+        "基礎教育中心"
+      ],
+      "opening_unit_snapshot": "基礎教育中心",
+      "course_name_snapshot": "跨文化溝通研究",
+      "credits_snapshot": 3.0,
+      "requirement_group": "elective",
+      "notes": "",
+      "source_page": 1,
+      "evidence_match": true,
+      "validation_status": "needs_course_code_verification",
+      "uncertainty_reason": "Official PDF table does not provide a course code"
+    },
+    {
+      "course_code": null,
+      "opening_units": [
+        "服務學習教育中心"
+      ],
+      "opening_unit_snapshot": "服務學習教育中心",
+      "course_name_snapshot": "服務學習:日本國際志工服務學習",
+      "credits_snapshot": 1.0,
+      "requirement_group": "elective",
+      "notes": "",
+      "source_page": 1,
+      "evidence_match": true,
+      "validation_status": "needs_course_code_verification",
+      "uncertainty_reason": "Official PDF table does not provide a course code"
+    },
+    {
+      "course_code": null,
+      "opening_units": [
+        "服務學習教育中心"
+      ],
+      "opening_unit_snapshot": "服務學習教育中心",
+      "course_name_snapshot": "服務學習:日本地方創生實務",
+      "credits_snapshot": 1.0,
+      "requirement_group": "elective",
+      "notes": "",
+      "source_page": 1,
+      "evidence_match": true,
+      "validation_status": "needs_course_code_verification",
+      "uncertainty_reason": "Official PDF table does not provide a course code"
+    },
+    {
+      "course_code": null,
+      "opening_units": [
+        "服務學習教育中心"
+      ],
+      "opening_unit_snapshot": "服務學習教育中心",
+      "course_name_snapshot": "服務學習:日本國際志工=愛媛縣",
+      "credits_snapshot": 1.0,
+      "requirement_group": "elective",
+      "notes": "",
+      "source_page": 1,
+      "evidence_match": true,
+      "validation_status": "needs_course_code_verification",
+      "uncertainty_reason": "Official PDF table does not provide a course code"
+    },
+    {
+      "course_code": null,
+      "opening_units": [
+        "博雅教育中心"
+      ],
+      "opening_unit_snapshot": "博雅教育中心",
+      "course_name_snapshot": "現代日本社會與宗教",
+      "credits_snapshot": 3.0,
+      "requirement_group": "elective",
+      "notes": "",
+      "source_page": 1,
+      "evidence_match": true,
+      "validation_status": "needs_course_code_verification",
+      "uncertainty_reason": "Official PDF table does not provide a course code"
+    },
+    {
+      "course_code": null,
+      "opening_units": [
+        "基礎教育中心"
+      ],
+      "opening_unit_snapshot": "基礎教育中心",
+      "course_name_snapshot": "台日文化比較研究(一)",
+      "credits_snapshot": 3.0,
+      "requirement_group": "elective",
+      "notes": "",
+      "source_page": 1,
+      "evidence_match": true,
+      "validation_status": "needs_course_code_verification",
+      "uncertainty_reason": "Official PDF table does not provide a course code"
+    },
+    {
+      "course_code": null,
+      "opening_units": [
+        "基礎教育中心"
+      ],
+      "opening_unit_snapshot": "基礎教育中心",
+      "course_name_snapshot": "台日文化比較研究(2)",
+      "credits_snapshot": 3.0,
+      "requirement_group": "elective",
+      "notes": "",
+      "source_page": 1,
+      "evidence_match": true,
+      "validation_status": "needs_course_code_verification",
+      "uncertainty_reason": "Official PDF table does not provide a course code"
+    },
+    {
+      "course_code": null,
+      "opening_units": [
+        "基礎教育中心"
+      ],
+      "opening_unit_snapshot": "基礎教育中心",
+      "course_name_snapshot": "創業講堂",
+      "credits_snapshot": 3.0,
+      "requirement_group": "elective",
+      "notes": "",
+      "source_page": 1,
+      "evidence_match": true,
+      "validation_status": "needs_course_code_verification",
+      "uncertainty_reason": "Official PDF table does not provide a course code"
+    },
+    {
+      "course_code": null,
+      "opening_units": [
+        "基礎教育中心"
+      ],
+      "opening_unit_snapshot": "基礎教育中心",
+      "course_name_snapshot": "日本宗教文化與心靈",
+      "credits_snapshot": 3.0,
+      "requirement_group": "elective",
+      "notes": "",
+      "source_page": 1,
+      "evidence_match": true,
+      "validation_status": "needs_course_code_verification",
+      "uncertainty_reason": "Official PDF table does not provide a course code"
+    },
+    {
+      "course_code": null,
+      "opening_units": [
+        "博雅教育中心"
+      ],
+      "opening_unit_snapshot": "博雅教育中心",
+      "course_name_snapshot": "地方文化採集與應用",
+      "credits_snapshot": 3.0,
+      "requirement_group": "elective",
+      "notes": "",
+      "source_page": 1,
+      "evidence_match": true,
+      "validation_status": "needs_course_code_verification",
+      "uncertainty_reason": "Official PDF table does not provide a course code"
+    }
+  ],
+  "structured_requirements": {
+    "minimum_total_credits": 9,
+    "core_credits_text_value": 3,
+    "minimum_outside_home_department_credits": 3
+  }
+}

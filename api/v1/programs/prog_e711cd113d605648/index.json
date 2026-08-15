@@ -1,0 +1,322 @@
+{
+  "program_id": "prog_e711cd113d605648",
+  "latest_academic_version": "115-1",
+  "versions": [
+    "115-1"
+  ],
+  "program": {
+    "program_id": "prog_e711cd113d605648",
+    "name_zh": "國際漢學微學程",
+    "name_en": null,
+    "previous_names": [],
+    "type": "micro_program",
+    "status": "active",
+    "description": "了解不同國家與地區(包括中國大陸,台灣, 韓國,日本,越南,北美,與歐洲)的漢學學術傳統,特別是不同國家之間在漢學上的文化交流和學術關係。 此學程把漢學定義為一種包容性,一體多面的學術傳統,可以提供豐富的思想資源,幫現代社會尋求並行不悖,求同尊異的思維方式,走向共生的未來。",
+    "responsible_unit": "中文系",
+    "coordinator": "莫加南助理教授",
+    "program_website": "https://sinology.nsysu.edu.tw/",
+    "source_pdf": "http://140.117.153.69/ctdr/files/20230607160709847.pdf",
+    "academic_version": "115-1",
+    "source": {
+      "catalog_url": "https://ctdr.nsysu.edu.tw/class2.php",
+      "pdf_url": "http://140.117.153.69/ctdr/files/20230607160709847.pdf",
+      "retrieved_at": "2026-08-15T10:05:39Z",
+      "pdf_binary_sha256": "c52f90937d47c86dccbcba1c4f29cd60cc19ec44b53cd489eccc6179f90d9f1b",
+      "normalized_text_sha256": "568ac65db8d8dcd1eadd8e35cbb89de3751ab67fe5c7329fa7b8ac993c84a51b",
+      "http": {
+        "status": 200,
+        "etag": "\"1597f-5fd859f5f14ff\"",
+        "last_modified": "Wed, 07 Jun 2023 08:07:09 GMT",
+        "content_length": 88447
+      },
+      "parser_version": "0.1.0"
+    },
+    "review_status": "needs_review",
+    "rules": {
+      "kind": "manual_review",
+      "reason": "Extracted candidate awaits approval"
+    },
+    "warnings": [
+      "No structured course rows extracted from PDF tables",
+      "No structured course rows extracted from PDF tables"
+    ],
+    "selected_pdf_academic_version": "109-2",
+    "course_catalog": [
+      {
+        "course_code": null,
+        "opening_units": [
+          "中文系"
+        ],
+        "opening_unit_snapshot": "中文系",
+        "course_name_snapshot": "西方漢學",
+        "credits_snapshot": 3.0,
+        "requirement_group": "core",
+        "notes": "",
+        "source_page": 1,
+        "evidence_match": true,
+        "validation_status": "needs_course_code_verification",
+        "uncertainty_reason": "Official PDF table does not provide a course code"
+      },
+      {
+        "course_code": null,
+        "opening_units": [
+          "政治所"
+        ],
+        "opening_unit_snapshot": "政治所",
+        "course_name_snapshot": "比較政治思想",
+        "credits_snapshot": 3.0,
+        "requirement_group": "elective",
+        "notes": "",
+        "source_page": 1,
+        "evidence_match": true,
+        "validation_status": "needs_course_code_verification",
+        "uncertainty_reason": "Official PDF table does not provide a course code"
+      },
+      {
+        "course_code": null,
+        "opening_units": [
+          "中文系"
+        ],
+        "opening_unit_snapshot": "中文系",
+        "course_name_snapshot": "中英翻譯:理論,歷史和實踐",
+        "credits_snapshot": 3.0,
+        "requirement_group": "elective",
+        "notes": "",
+        "source_page": 1,
+        "evidence_match": true,
+        "validation_status": "needs_course_code_verification",
+        "uncertainty_reason": "Official PDF table does not provide a course code"
+      },
+      {
+        "course_code": null,
+        "opening_units": [
+          "博雅向度二"
+        ],
+        "opening_unit_snapshot": "博雅向度二",
+        "course_name_snapshot": "社群意識與倫理",
+        "credits_snapshot": 3.0,
+        "requirement_group": "elective",
+        "notes": "",
+        "source_page": 1,
+        "evidence_match": true,
+        "validation_status": "needs_course_code_verification",
+        "uncertainty_reason": "Official PDF table does not provide a course code"
+      },
+      {
+        "course_code": null,
+        "opening_units": [
+          "中文系"
+        ],
+        "opening_unit_snapshot": "中文系",
+        "course_name_snapshot": "中國五四時期的文本文化",
+        "credits_snapshot": 3.0,
+        "requirement_group": "elective",
+        "notes": "",
+        "source_page": 1,
+        "evidence_match": true,
+        "validation_status": "needs_course_code_verification",
+        "uncertainty_reason": "Official PDF table does not provide a course code"
+      },
+      {
+        "course_code": null,
+        "opening_units": [
+          "中文系"
+        ],
+        "opening_unit_snapshot": "中文系",
+        "course_name_snapshot": "台灣文學與現代世界",
+        "credits_snapshot": 3.0,
+        "requirement_group": "elective",
+        "notes": "",
+        "source_page": 1,
+        "evidence_match": true,
+        "validation_status": "needs_course_code_verification",
+        "uncertainty_reason": "Official PDF table does not provide a course code"
+      },
+      {
+        "course_code": null,
+        "opening_units": [
+          "中文系"
+        ],
+        "opening_unit_snapshot": "中文系",
+        "course_name_snapshot": "莊子",
+        "credits_snapshot": 2.0,
+        "requirement_group": "elective",
+        "notes": "",
+        "source_page": 1,
+        "evidence_match": true,
+        "validation_status": "needs_course_code_verification",
+        "uncertainty_reason": "Official PDF table does not provide a course code"
+      },
+      {
+        "course_code": null,
+        "opening_units": [
+          "中文系"
+        ],
+        "opening_unit_snapshot": "中文系",
+        "course_name_snapshot": "東亞漢學概論",
+        "credits_snapshot": 3.0,
+        "requirement_group": "elective",
+        "notes": "",
+        "source_page": 1,
+        "evidence_match": true,
+        "validation_status": "needs_course_code_verification",
+        "uncertainty_reason": "Official PDF table does not provide a course code"
+      },
+      {
+        "course_code": null,
+        "opening_units": [
+          "中文系"
+        ],
+        "opening_unit_snapshot": "中文系",
+        "course_name_snapshot": "老子",
+        "credits_snapshot": 2.0,
+        "requirement_group": "elective",
+        "notes": "",
+        "source_page": 1,
+        "evidence_match": true,
+        "validation_status": "needs_course_code_verification",
+        "uncertainty_reason": "Official PDF table does not provide a course code"
+      },
+      {
+        "course_code": null,
+        "opening_units": [
+          "博雅向度二"
+        ],
+        "opening_unit_snapshot": "博雅向度二",
+        "course_name_snapshot": "東方哲學思想(一)",
+        "credits_snapshot": 2.0,
+        "requirement_group": "elective",
+        "notes": "",
+        "source_page": 1,
+        "evidence_match": true,
+        "validation_status": "needs_course_code_verification",
+        "uncertainty_reason": "Official PDF table does not provide a course code"
+      },
+      {
+        "course_code": null,
+        "opening_units": [
+          "劇藝系"
+        ],
+        "opening_unit_snapshot": "劇藝系",
+        "course_name_snapshot": "中西戲劇比較",
+        "credits_snapshot": 2.0,
+        "requirement_group": "elective",
+        "notes": "",
+        "source_page": 1,
+        "evidence_match": true,
+        "validation_status": "needs_course_code_verification",
+        "uncertainty_reason": "Official PDF table does not provide a course code"
+      },
+      {
+        "course_code": null,
+        "opening_units": [
+          "中文系"
+        ],
+        "opening_unit_snapshot": "中文系",
+        "course_name_snapshot": "佛學概論",
+        "credits_snapshot": 3.0,
+        "requirement_group": "elective",
+        "notes": "",
+        "source_page": 1,
+        "evidence_match": true,
+        "validation_status": "needs_course_code_verification",
+        "uncertainty_reason": "Official PDF table does not provide a course code"
+      },
+      {
+        "course_code": null,
+        "opening_units": [
+          "中文系"
+        ],
+        "opening_unit_snapshot": "中文系",
+        "course_name_snapshot": "中國文學批評史",
+        "credits_snapshot": 3.0,
+        "requirement_group": "elective",
+        "notes": "",
+        "source_page": 1,
+        "evidence_match": true,
+        "validation_status": "needs_course_code_verification",
+        "uncertainty_reason": "Official PDF table does not provide a course code"
+      },
+      {
+        "course_code": null,
+        "opening_units": [
+          "中文系"
+        ],
+        "opening_unit_snapshot": "中文系",
+        "course_name_snapshot": "佛道傳記選讀",
+        "credits_snapshot": 3.0,
+        "requirement_group": "elective",
+        "notes": "",
+        "source_page": 1,
+        "evidence_match": true,
+        "validation_status": "needs_course_code_verification",
+        "uncertainty_reason": "Official PDF table does not provide a course code"
+      },
+      {
+        "course_code": null,
+        "opening_units": [
+          "中文系"
+        ],
+        "opening_unit_snapshot": "中文系",
+        "course_name_snapshot": "兩周青銅器銘文選讀",
+        "credits_snapshot": 3.0,
+        "requirement_group": "elective",
+        "notes": "",
+        "source_page": 1,
+        "evidence_match": true,
+        "validation_status": "needs_course_code_verification",
+        "uncertainty_reason": "Official PDF table does not provide a course code"
+      },
+      {
+        "course_code": null,
+        "opening_units": [
+          "中文系"
+        ],
+        "opening_unit_snapshot": "中文系",
+        "course_name_snapshot": "中國上古史導讀",
+        "credits_snapshot": 3.0,
+        "requirement_group": "elective",
+        "notes": "",
+        "source_page": 1,
+        "evidence_match": true,
+        "validation_status": "needs_course_code_verification",
+        "uncertainty_reason": "Official PDF table does not provide a course code"
+      },
+      {
+        "course_code": null,
+        "opening_units": [
+          "中文系"
+        ],
+        "opening_unit_snapshot": "中文系",
+        "course_name_snapshot": "21世紀香港文學",
+        "credits_snapshot": 3.0,
+        "requirement_group": "elective",
+        "notes": "",
+        "source_page": 1,
+        "evidence_match": true,
+        "validation_status": "needs_course_code_verification",
+        "uncertainty_reason": "Official PDF table does not provide a course code"
+      },
+      {
+        "course_code": null,
+        "opening_units": [
+          "中文系"
+        ],
+        "opening_unit_snapshot": "中文系",
+        "course_name_snapshot": "從經學到歷史語言學",
+        "credits_snapshot": 3.0,
+        "requirement_group": "elective",
+        "notes": "",
+        "source_page": 1,
+        "evidence_match": true,
+        "validation_status": "needs_course_code_verification",
+        "uncertainty_reason": "Official PDF table does not provide a course code"
+      }
+    ],
+    "structured_requirements": {
+      "minimum_total_credits": 9,
+      "core_credits_text_value": 3,
+      "minimum_outside_home_department_credits": 3
+    }
+  }
+}

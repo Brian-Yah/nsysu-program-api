@@ -1,0 +1,1556 @@
+{
+  "program_id": "prog_b6ba18c54c2d55bc",
+  "name_zh": "金融工程學程",
+  "name_en": null,
+  "previous_names": [],
+  "type": "integrated_program",
+  "status": "active",
+  "description": "1. 加強學生的數理基礎與電腦能力。\n2. 充實學生的財務經濟及管理的知識。\n3. 結合數理與財務兩大領域的課程使理論與實務相輔相成為本學程的特色。",
+  "responsible_unit": "應數系",
+  "coordinator": "陳美如教授",
+  "program_website": "http://www.math.nsysu.edu.tw/course/mathFinance/index.html",
+  "source_pdf": "http://140.117.153.69/ctdr/files/20251223150052722.pdf",
+  "academic_version": "115-1",
+  "source": {
+    "catalog_url": "https://ctdr.nsysu.edu.tw/class2.php",
+    "pdf_url": "http://140.117.153.69/ctdr/files/20251223150052722.pdf",
+    "retrieved_at": "2026-08-15T10:05:39Z",
+    "pdf_binary_sha256": "0d1f3e3d7d308ad94a3bc2abdf2f868786bbbe911fc10d15f856981afe02e92a",
+    "normalized_text_sha256": "fa083b5905f38e474661e1c048c79ba90d204bcab0df66a9cc68b21d7ec7ef8e",
+    "http": {
+      "status": 200,
+      "etag": "\"67c75-646991abc1994\"",
+      "last_modified": "Tue, 23 Dec 2025 07:00:52 GMT",
+      "content_length": 425077
+    },
+    "parser_version": "0.1.0"
+  },
+  "review_status": "needs_review",
+  "rules": {
+    "kind": "manual_review",
+    "reason": "Extracted candidate awaits approval"
+  },
+  "warnings": [],
+  "selected_pdf_academic_version": "114-1",
+  "course_catalog": [
+    {
+      "course_code": null,
+      "opening_units": [
+        "校內各系"
+      ],
+      "opening_unit_snapshot": "校內各系",
+      "course_name_snapshot": "線性代數",
+      "credits_snapshot": 3.0,
+      "requirement_group": "core",
+      "notes": "",
+      "source_page": 1,
+      "evidence_match": true,
+      "validation_status": "needs_course_code_verification",
+      "uncertainty_reason": "Official PDF table does not provide a course code"
+    },
+    {
+      "course_code": null,
+      "opening_units": [
+        "校內各系"
+      ],
+      "opening_unit_snapshot": "校內各系",
+      "course_name_snapshot": "線性代數(一)",
+      "credits_snapshot": 3.0,
+      "requirement_group": "core",
+      "notes": "",
+      "source_page": 1,
+      "evidence_match": true,
+      "validation_status": "needs_course_code_verification",
+      "uncertainty_reason": "Official PDF table does not provide a course code"
+    },
+    {
+      "course_code": null,
+      "opening_units": [
+        "校內各系"
+      ],
+      "opening_unit_snapshot": "校內各系",
+      "course_name_snapshot": "線性代數(二)",
+      "credits_snapshot": 3.0,
+      "requirement_group": "core",
+      "notes": "",
+      "source_page": 1,
+      "evidence_match": true,
+      "validation_status": "needs_course_code_verification",
+      "uncertainty_reason": "Official PDF table does not provide a course code"
+    },
+    {
+      "course_code": null,
+      "opening_units": [
+        "校內各系"
+      ],
+      "opening_unit_snapshot": "校內各系",
+      "course_name_snapshot": "機率學",
+      "credits_snapshot": 3.0,
+      "requirement_group": "core",
+      "notes": "",
+      "source_page": 1,
+      "evidence_match": true,
+      "validation_status": "needs_course_code_verification",
+      "uncertainty_reason": "Official PDF table does not provide a course code"
+    },
+    {
+      "course_code": null,
+      "opening_units": [
+        "校內各系"
+      ],
+      "opening_unit_snapshot": "校內各系",
+      "course_name_snapshot": "機率論(一)",
+      "credits_snapshot": 3.0,
+      "requirement_group": "core",
+      "notes": "",
+      "source_page": 1,
+      "evidence_match": true,
+      "validation_status": "needs_course_code_verification",
+      "uncertainty_reason": "Official PDF table does not provide a course code"
+    },
+    {
+      "course_code": null,
+      "opening_units": [
+        "校內各系"
+      ],
+      "opening_unit_snapshot": "校內各系",
+      "course_name_snapshot": "機率論(二)",
+      "credits_snapshot": 3.0,
+      "requirement_group": "core",
+      "notes": "",
+      "source_page": 1,
+      "evidence_match": true,
+      "validation_status": "needs_course_code_verification",
+      "uncertainty_reason": "Official PDF table does not provide a course code"
+    },
+    {
+      "course_code": null,
+      "opening_units": [
+        "校內各系"
+      ],
+      "opening_unit_snapshot": "校內各系",
+      "course_name_snapshot": "機率與統計",
+      "credits_snapshot": 3.0,
+      "requirement_group": "core",
+      "notes": "",
+      "source_page": 1,
+      "evidence_match": true,
+      "validation_status": "needs_course_code_verification",
+      "uncertainty_reason": "Official PDF table does not provide a course code"
+    },
+    {
+      "course_code": null,
+      "opening_units": [
+        "校內各系"
+      ],
+      "opening_unit_snapshot": "校內各系",
+      "course_name_snapshot": "機率模式與應用",
+      "credits_snapshot": 3.0,
+      "requirement_group": "core",
+      "notes": "",
+      "source_page": 1,
+      "evidence_match": true,
+      "validation_status": "needs_course_code_verification",
+      "uncertainty_reason": "Official PDF table does not provide a course code"
+    },
+    {
+      "course_code": null,
+      "opening_units": [
+        "校內各系"
+      ],
+      "opening_unit_snapshot": "校內各系",
+      "course_name_snapshot": "統計學",
+      "credits_snapshot": 3.0,
+      "requirement_group": "core",
+      "notes": "",
+      "source_page": 1,
+      "evidence_match": true,
+      "validation_status": "needs_course_code_verification",
+      "uncertainty_reason": "Official PDF table does not provide a course code"
+    },
+    {
+      "course_code": null,
+      "opening_units": [
+        "校內各系"
+      ],
+      "opening_unit_snapshot": "校內各系",
+      "course_name_snapshot": "統計學(一)",
+      "credits_snapshot": 3.0,
+      "requirement_group": "core",
+      "notes": "",
+      "source_page": 1,
+      "evidence_match": true,
+      "validation_status": "needs_course_code_verification",
+      "uncertainty_reason": "Official PDF table does not provide a course code"
+    },
+    {
+      "course_code": null,
+      "opening_units": [
+        "校內各系"
+      ],
+      "opening_unit_snapshot": "校內各系",
+      "course_name_snapshot": "統計學(二)",
+      "credits_snapshot": 3.0,
+      "requirement_group": "core",
+      "notes": "",
+      "source_page": 1,
+      "evidence_match": true,
+      "validation_status": "needs_course_code_verification",
+      "uncertainty_reason": "Official PDF table does not provide a course code"
+    },
+    {
+      "course_code": null,
+      "opening_units": [
+        "校內各系"
+      ],
+      "opening_unit_snapshot": "校內各系",
+      "course_name_snapshot": "高等統計學",
+      "credits_snapshot": 3.0,
+      "requirement_group": "core",
+      "notes": "",
+      "source_page": 1,
+      "evidence_match": true,
+      "validation_status": "needs_course_code_verification",
+      "uncertainty_reason": "Official PDF table does not provide a course code"
+    },
+    {
+      "course_code": null,
+      "opening_units": [
+        "校內各系"
+      ],
+      "opening_unit_snapshot": "校內各系",
+      "course_name_snapshot": "財務管理",
+      "credits_snapshot": 3.0,
+      "requirement_group": "core",
+      "notes": "財務管理概論、財務管理理論等課程至多採認",
+      "source_page": 1,
+      "evidence_match": true,
+      "validation_status": "needs_course_code_verification",
+      "uncertainty_reason": "Official PDF table does not provide a course code"
+    },
+    {
+      "course_code": null,
+      "opening_units": [
+        "校內各系"
+      ],
+      "opening_unit_snapshot": "校內各系",
+      "course_name_snapshot": "財務管理(一)",
+      "credits_snapshot": 3.0,
+      "requirement_group": "core",
+      "notes": "財務管理概論、財務管理理論等課程至多採認",
+      "source_page": 1,
+      "evidence_match": true,
+      "validation_status": "needs_course_code_verification",
+      "uncertainty_reason": "Official PDF table does not provide a course code"
+    },
+    {
+      "course_code": null,
+      "opening_units": [
+        "校內各系"
+      ],
+      "opening_unit_snapshot": "校內各系",
+      "course_name_snapshot": "財務管理(二)",
+      "credits_snapshot": 3.0,
+      "requirement_group": "core",
+      "notes": "財務管理概論、財務管理理論等課程至多採認",
+      "source_page": 2,
+      "evidence_match": true,
+      "validation_status": "needs_course_code_verification",
+      "uncertainty_reason": "Official PDF table does not provide a course code"
+    },
+    {
+      "course_code": null,
+      "opening_units": [
+        "校內各系"
+      ],
+      "opening_unit_snapshot": "校內各系",
+      "course_name_snapshot": "財務管理概論",
+      "credits_snapshot": 3.0,
+      "requirement_group": "core",
+      "notes": "財務管理概論、財務管理理論等課程至多採認",
+      "source_page": 2,
+      "evidence_match": true,
+      "validation_status": "needs_course_code_verification",
+      "uncertainty_reason": "Official PDF table does not provide a course code"
+    },
+    {
+      "course_code": null,
+      "opening_units": [
+        "校內各系"
+      ],
+      "opening_unit_snapshot": "校內各系",
+      "course_name_snapshot": "財務管理理論",
+      "credits_snapshot": 3.0,
+      "requirement_group": "core",
+      "notes": "財務管理概論、財務管理理論等課程至多採認",
+      "source_page": 2,
+      "evidence_match": true,
+      "validation_status": "needs_course_code_verification",
+      "uncertainty_reason": "Official PDF table does not provide a course code"
+    },
+    {
+      "course_code": null,
+      "opening_units": [
+        "校內各系"
+      ],
+      "opening_unit_snapshot": "校內各系",
+      "course_name_snapshot": "經濟學概論",
+      "credits_snapshot": 3.0,
+      "requirement_group": "core",
+      "notes": "個體經濟學、個體經濟學(一)、個體經濟學",
+      "source_page": 2,
+      "evidence_match": true,
+      "validation_status": "needs_course_code_verification",
+      "uncertainty_reason": "Official PDF table does not provide a course code"
+    },
+    {
+      "course_code": null,
+      "opening_units": [
+        "校內各系"
+      ],
+      "opening_unit_snapshot": "校內各系",
+      "course_name_snapshot": "經濟學",
+      "credits_snapshot": 3.0,
+      "requirement_group": "core",
+      "notes": "個體經濟學、個體經濟學(一)、個體經濟學",
+      "source_page": 2,
+      "evidence_match": true,
+      "validation_status": "needs_course_code_verification",
+      "uncertainty_reason": "Official PDF table does not provide a course code"
+    },
+    {
+      "course_code": null,
+      "opening_units": [
+        "校內各系"
+      ],
+      "opening_unit_snapshot": "校內各系",
+      "course_name_snapshot": "經濟學(一)",
+      "credits_snapshot": 3.0,
+      "requirement_group": "core",
+      "notes": "個體經濟學、個體經濟學(一)、個體經濟學",
+      "source_page": 2,
+      "evidence_match": true,
+      "validation_status": "needs_course_code_verification",
+      "uncertainty_reason": "Official PDF table does not provide a course code"
+    },
+    {
+      "course_code": null,
+      "opening_units": [
+        "校內各系"
+      ],
+      "opening_unit_snapshot": "校內各系",
+      "course_name_snapshot": "經濟學(二)",
+      "credits_snapshot": 3.0,
+      "requirement_group": "core",
+      "notes": "個體經濟學、個體經濟學(一)、個體經濟學",
+      "source_page": 2,
+      "evidence_match": true,
+      "validation_status": "needs_course_code_verification",
+      "uncertainty_reason": "Official PDF table does not provide a course code"
+    },
+    {
+      "course_code": null,
+      "opening_units": [
+        "校內各系"
+      ],
+      "opening_unit_snapshot": "校內各系",
+      "course_name_snapshot": "經濟學原理(一)",
+      "credits_snapshot": 3.0,
+      "requirement_group": "core",
+      "notes": "個體經濟學、個體經濟學(一)、個體經濟學",
+      "source_page": 2,
+      "evidence_match": true,
+      "validation_status": "needs_course_code_verification",
+      "uncertainty_reason": "Official PDF table does not provide a course code"
+    },
+    {
+      "course_code": null,
+      "opening_units": [
+        "校內各系"
+      ],
+      "opening_unit_snapshot": "校內各系",
+      "course_name_snapshot": "經濟學原理(二)",
+      "credits_snapshot": 3.0,
+      "requirement_group": "core",
+      "notes": "個體經濟學、個體經濟學(一)、個體經濟學",
+      "source_page": 3,
+      "evidence_match": true,
+      "validation_status": "needs_course_code_verification",
+      "uncertainty_reason": "Official PDF table does not provide a course code"
+    },
+    {
+      "course_code": null,
+      "opening_units": [
+        "校內各系"
+      ],
+      "opening_unit_snapshot": "校內各系",
+      "course_name_snapshot": "個體經濟學",
+      "credits_snapshot": 3.0,
+      "requirement_group": "core",
+      "notes": "個體經濟學、個體經濟學(一)、個體經濟學",
+      "source_page": 3,
+      "evidence_match": true,
+      "validation_status": "needs_course_code_verification",
+      "uncertainty_reason": "Official PDF table does not provide a course code"
+    },
+    {
+      "course_code": null,
+      "opening_units": [
+        "校內各系"
+      ],
+      "opening_unit_snapshot": "校內各系",
+      "course_name_snapshot": "個體經濟學(一)",
+      "credits_snapshot": 3.0,
+      "requirement_group": "core",
+      "notes": "個體經濟學、個體經濟學(一)、個體經濟學",
+      "source_page": 3,
+      "evidence_match": true,
+      "validation_status": "needs_course_code_verification",
+      "uncertainty_reason": "Official PDF table does not provide a course code"
+    },
+    {
+      "course_code": null,
+      "opening_units": [
+        "校內各系"
+      ],
+      "opening_unit_snapshot": "校內各系",
+      "course_name_snapshot": "個體經濟學(二)",
+      "credits_snapshot": 3.0,
+      "requirement_group": "core",
+      "notes": "個體經濟學、個體經濟學(一)、個體經濟學",
+      "source_page": 3,
+      "evidence_match": true,
+      "validation_status": "needs_course_code_verification",
+      "uncertainty_reason": "Official PDF table does not provide a course code"
+    },
+    {
+      "course_code": null,
+      "opening_units": [
+        "校內各系"
+      ],
+      "opening_unit_snapshot": "校內各系",
+      "course_name_snapshot": "總體經濟學",
+      "credits_snapshot": 3.0,
+      "requirement_group": "core",
+      "notes": "個體經濟學、個體經濟學(一)、個體經濟學",
+      "source_page": 3,
+      "evidence_match": true,
+      "validation_status": "needs_course_code_verification",
+      "uncertainty_reason": "Official PDF table does not provide a course code"
+    },
+    {
+      "course_code": null,
+      "opening_units": [
+        "校內各系"
+      ],
+      "opening_unit_snapshot": "校內各系",
+      "course_name_snapshot": "總體經濟學(一)",
+      "credits_snapshot": 3.0,
+      "requirement_group": "core",
+      "notes": "個體經濟學、個體經濟學(一)、個體經濟學",
+      "source_page": 3,
+      "evidence_match": true,
+      "validation_status": "needs_course_code_verification",
+      "uncertainty_reason": "Official PDF table does not provide a course code"
+    },
+    {
+      "course_code": null,
+      "opening_units": [
+        "校內各系"
+      ],
+      "opening_unit_snapshot": "校內各系",
+      "course_name_snapshot": "總體經濟學(二)",
+      "credits_snapshot": 3.0,
+      "requirement_group": "core",
+      "notes": "個體經濟學、個體經濟學(一)、個體經濟學",
+      "source_page": 3,
+      "evidence_match": true,
+      "validation_status": "needs_course_code_verification",
+      "uncertainty_reason": "Official PDF table does not provide a course code"
+    },
+    {
+      "course_code": null,
+      "opening_units": [
+        "應數系"
+      ],
+      "opening_unit_snapshot": "應數系",
+      "course_name_snapshot": "隨機過程",
+      "credits_snapshot": 3.0,
+      "requirement_group": "core",
+      "notes": "",
+      "source_page": 4,
+      "evidence_match": true,
+      "validation_status": "needs_course_code_verification",
+      "uncertainty_reason": "Official PDF table does not provide a course code"
+    },
+    {
+      "course_code": null,
+      "opening_units": [
+        "應數系"
+      ],
+      "opening_unit_snapshot": "應數系",
+      "course_name_snapshot": "應用機率模型",
+      "credits_snapshot": 3.0,
+      "requirement_group": "core",
+      "notes": "",
+      "source_page": 4,
+      "evidence_match": true,
+      "validation_status": "needs_course_code_verification",
+      "uncertainty_reason": "Official PDF table does not provide a course code"
+    },
+    {
+      "course_code": null,
+      "opening_units": [
+        "應數系"
+      ],
+      "opening_unit_snapshot": "應數系",
+      "course_name_snapshot": "多變量分析",
+      "credits_snapshot": 3.0,
+      "requirement_group": "core",
+      "notes": "",
+      "source_page": 4,
+      "evidence_match": true,
+      "validation_status": "needs_course_code_verification",
+      "uncertainty_reason": "Official PDF table does not provide a course code"
+    },
+    {
+      "course_code": null,
+      "opening_units": [
+        "應數系"
+      ],
+      "opening_unit_snapshot": "應數系",
+      "course_name_snapshot": "金融數學",
+      "credits_snapshot": 3.0,
+      "requirement_group": "core",
+      "notes": "",
+      "source_page": 4,
+      "evidence_match": true,
+      "validation_status": "needs_course_code_verification",
+      "uncertainty_reason": "Official PDF table does not provide a course code"
+    },
+    {
+      "course_code": null,
+      "opening_units": [
+        "應數系"
+      ],
+      "opening_unit_snapshot": "應數系",
+      "course_name_snapshot": "財務時間序列分析",
+      "credits_snapshot": 3.0,
+      "requirement_group": "core",
+      "notes": "",
+      "source_page": 4,
+      "evidence_match": true,
+      "validation_status": "needs_course_code_verification",
+      "uncertainty_reason": "Official PDF table does not provide a course code"
+    },
+    {
+      "course_code": null,
+      "opening_units": [
+        "應數系"
+      ],
+      "opening_unit_snapshot": "應數系",
+      "course_name_snapshot": "迴歸分析",
+      "credits_snapshot": 3.0,
+      "requirement_group": "core",
+      "notes": "",
+      "source_page": 4,
+      "evidence_match": true,
+      "validation_status": "needs_course_code_verification",
+      "uncertainty_reason": "Official PDF table does not provide a course code"
+    },
+    {
+      "course_code": null,
+      "opening_units": [
+        "應數系"
+      ],
+      "opening_unit_snapshot": "應數系",
+      "course_name_snapshot": "統計推論",
+      "credits_snapshot": 3.0,
+      "requirement_group": "core",
+      "notes": "",
+      "source_page": 4,
+      "evidence_match": true,
+      "validation_status": "needs_course_code_verification",
+      "uncertainty_reason": "Official PDF table does not provide a course code"
+    },
+    {
+      "course_code": null,
+      "opening_units": [
+        "應數系"
+      ],
+      "opening_unit_snapshot": "應數系",
+      "course_name_snapshot": "統計資料分析",
+      "credits_snapshot": 3.0,
+      "requirement_group": "core",
+      "notes": "",
+      "source_page": 4,
+      "evidence_match": true,
+      "validation_status": "needs_course_code_verification",
+      "uncertainty_reason": "Official PDF table does not provide a course code"
+    },
+    {
+      "course_code": null,
+      "opening_units": [
+        "應數系"
+      ],
+      "opening_unit_snapshot": "應數系",
+      "course_name_snapshot": "統計模擬",
+      "credits_snapshot": 3.0,
+      "requirement_group": "core",
+      "notes": "",
+      "source_page": 4,
+      "evidence_match": true,
+      "validation_status": "needs_course_code_verification",
+      "uncertainty_reason": "Official PDF table does not provide a course code"
+    },
+    {
+      "course_code": null,
+      "opening_units": [
+        "應數系"
+      ],
+      "opening_unit_snapshot": "應數系",
+      "course_name_snapshot": "數理統計",
+      "credits_snapshot": 3.0,
+      "requirement_group": "core",
+      "notes": "",
+      "source_page": 4,
+      "evidence_match": true,
+      "validation_status": "needs_course_code_verification",
+      "uncertainty_reason": "Official PDF table does not provide a course code"
+    },
+    {
+      "course_code": null,
+      "opening_units": [
+        "應數系"
+      ],
+      "opening_unit_snapshot": "應數系",
+      "course_name_snapshot": "數學統計軟體應用",
+      "credits_snapshot": 3.0,
+      "requirement_group": "core",
+      "notes": "",
+      "source_page": 4,
+      "evidence_match": true,
+      "validation_status": "needs_course_code_verification",
+      "uncertainty_reason": "Official PDF table does not provide a course code"
+    },
+    {
+      "course_code": null,
+      "opening_units": [
+        "應數系"
+      ],
+      "opening_unit_snapshot": "應數系",
+      "course_name_snapshot": "應用統計方法",
+      "credits_snapshot": 3.0,
+      "requirement_group": "core",
+      "notes": "",
+      "source_page": 4,
+      "evidence_match": true,
+      "validation_status": "needs_course_code_verification",
+      "uncertainty_reason": "Official PDF table does not provide a course code"
+    },
+    {
+      "course_code": null,
+      "opening_units": [
+        "校內各系"
+      ],
+      "opening_unit_snapshot": "校內各系",
+      "course_name_snapshot": "生物統計與資訊",
+      "credits_snapshot": 2.0,
+      "requirement_group": "core",
+      "notes": "",
+      "source_page": 4,
+      "evidence_match": true,
+      "validation_status": "needs_course_code_verification",
+      "uncertainty_reason": "Official PDF table does not provide a course code"
+    },
+    {
+      "course_code": null,
+      "opening_units": [
+        "校內各系"
+      ],
+      "opening_unit_snapshot": "校內各系",
+      "course_name_snapshot": "生物統計學",
+      "credits_snapshot": 3.0,
+      "requirement_group": "core",
+      "notes": "",
+      "source_page": 4,
+      "evidence_match": true,
+      "validation_status": "needs_course_code_verification",
+      "uncertainty_reason": "Official PDF table does not provide a course code"
+    },
+    {
+      "course_code": null,
+      "opening_units": [
+        "校內各系"
+      ],
+      "opening_unit_snapshot": "校內各系",
+      "course_name_snapshot": "社會統計(一)",
+      "credits_snapshot": 3.0,
+      "requirement_group": "core",
+      "notes": "",
+      "source_page": 4,
+      "evidence_match": true,
+      "validation_status": "needs_course_code_verification",
+      "uncertainty_reason": "Official PDF table does not provide a course code"
+    },
+    {
+      "course_code": null,
+      "opening_units": [
+        "校內各系"
+      ],
+      "opening_unit_snapshot": "校內各系",
+      "course_name_snapshot": "統計資料分析",
+      "credits_snapshot": 3.0,
+      "requirement_group": "core",
+      "notes": "",
+      "source_page": 4,
+      "evidence_match": true,
+      "validation_status": "needs_course_code_verification",
+      "uncertainty_reason": "Official PDF table does not provide a course code"
+    },
+    {
+      "course_code": null,
+      "opening_units": [
+        "人科學程"
+      ],
+      "opening_unit_snapshot": "人科學程",
+      "course_name_snapshot": "統計學與資料視覺化",
+      "credits_snapshot": 3.0,
+      "requirement_group": "core",
+      "notes": "",
+      "source_page": 4,
+      "evidence_match": true,
+      "validation_status": "needs_course_code_verification",
+      "uncertainty_reason": "Official PDF table does not provide a course code"
+    },
+    {
+      "course_code": null,
+      "opening_units": [
+        "校內各系"
+      ],
+      "opening_unit_snapshot": "校內各系",
+      "course_name_snapshot": "應用統計學(一)",
+      "credits_snapshot": 3.0,
+      "requirement_group": "core",
+      "notes": "",
+      "source_page": 4,
+      "evidence_match": true,
+      "validation_status": "needs_course_code_verification",
+      "uncertainty_reason": "Official PDF table does not provide a course code"
+    },
+    {
+      "course_code": null,
+      "opening_units": [
+        "校內各系"
+      ],
+      "opening_unit_snapshot": "校內各系",
+      "course_name_snapshot": "資料分析與應用-R 語言之應用",
+      "credits_snapshot": 3.0,
+      "requirement_group": "core",
+      "notes": "",
+      "source_page": 4,
+      "evidence_match": false,
+      "validation_status": "needs_course_code_verification",
+      "uncertainty_reason": "Official PDF table does not provide a course code"
+    },
+    {
+      "course_code": null,
+      "opening_units": [
+        "校內各系"
+      ],
+      "opening_unit_snapshot": "校內各系",
+      "course_name_snapshot": "R程式語言入門",
+      "credits_snapshot": 3.0,
+      "requirement_group": "core",
+      "notes": "",
+      "source_page": 4,
+      "evidence_match": true,
+      "validation_status": "needs_course_code_verification",
+      "uncertainty_reason": "Official PDF table does not provide a course code"
+    },
+    {
+      "course_code": null,
+      "opening_units": [
+        "應數系"
+      ],
+      "opening_unit_snapshot": "應數系",
+      "course_name_snapshot": "Python 與機器學習之理論實現",
+      "credits_snapshot": 3.0,
+      "requirement_group": "core",
+      "notes": "",
+      "source_page": 4,
+      "evidence_match": false,
+      "validation_status": "needs_course_code_verification",
+      "uncertainty_reason": "Official PDF table does not provide a course code"
+    },
+    {
+      "course_code": null,
+      "opening_units": [
+        "應數系"
+      ],
+      "opening_unit_snapshot": "應數系",
+      "course_name_snapshot": "Python與機器學習(一)",
+      "credits_snapshot": 3.0,
+      "requirement_group": "core",
+      "notes": "",
+      "source_page": 4,
+      "evidence_match": true,
+      "validation_status": "needs_course_code_verification",
+      "uncertainty_reason": "Official PDF table does not provide a course code"
+    },
+    {
+      "course_code": null,
+      "opening_units": [
+        "應數系"
+      ],
+      "opening_unit_snapshot": "應數系",
+      "course_name_snapshot": "Python與機器學習(二)",
+      "credits_snapshot": 3.0,
+      "requirement_group": "core",
+      "notes": "",
+      "source_page": 4,
+      "evidence_match": true,
+      "validation_status": "needs_course_code_verification",
+      "uncertainty_reason": "Official PDF table does not provide a course code"
+    },
+    {
+      "course_code": null,
+      "opening_units": [
+        "校內各系"
+      ],
+      "opening_unit_snapshot": "校內各系",
+      "course_name_snapshot": "Python 程式設計",
+      "credits_snapshot": 3.0,
+      "requirement_group": "core",
+      "notes": "",
+      "source_page": 4,
+      "evidence_match": true,
+      "validation_status": "needs_course_code_verification",
+      "uncertainty_reason": "Official PDF table does not provide a course code"
+    },
+    {
+      "course_code": null,
+      "opening_units": [
+        "資管系"
+      ],
+      "opening_unit_snapshot": "資管系",
+      "course_name_snapshot": "資訊經濟學",
+      "credits_snapshot": 3.0,
+      "requirement_group": "core",
+      "notes": "",
+      "source_page": 4,
+      "evidence_match": true,
+      "validation_status": "needs_course_code_verification",
+      "uncertainty_reason": "Official PDF table does not provide a course code"
+    },
+    {
+      "course_code": null,
+      "opening_units": [
+        "校內各系"
+      ],
+      "opening_unit_snapshot": "校內各系",
+      "course_name_snapshot": "計量經濟學",
+      "credits_snapshot": 3.0,
+      "requirement_group": "core",
+      "notes": "",
+      "source_page": 4,
+      "evidence_match": true,
+      "validation_status": "needs_course_code_verification",
+      "uncertainty_reason": "Official PDF table does not provide a course code"
+    },
+    {
+      "course_code": null,
+      "opening_units": [
+        "校內各系"
+      ],
+      "opening_unit_snapshot": "校內各系",
+      "course_name_snapshot": "計量經濟學(一)",
+      "credits_snapshot": 3.0,
+      "requirement_group": "core",
+      "notes": "",
+      "source_page": 4,
+      "evidence_match": true,
+      "validation_status": "needs_course_code_verification",
+      "uncertainty_reason": "Official PDF table does not provide a course code"
+    },
+    {
+      "course_code": null,
+      "opening_units": [
+        "校內各系"
+      ],
+      "opening_unit_snapshot": "校內各系",
+      "course_name_snapshot": "計量經濟學(二)",
+      "credits_snapshot": 3.0,
+      "requirement_group": "core",
+      "notes": "",
+      "source_page": 4,
+      "evidence_match": true,
+      "validation_status": "needs_course_code_verification",
+      "uncertainty_reason": "Official PDF table does not provide a course code"
+    },
+    {
+      "course_code": null,
+      "opening_units": [
+        "政經系"
+      ],
+      "opening_unit_snapshot": "政經系",
+      "course_name_snapshot": "財務經濟學應用實務",
+      "credits_snapshot": 3.0,
+      "requirement_group": "core",
+      "notes": "",
+      "source_page": 4,
+      "evidence_match": true,
+      "validation_status": "needs_course_code_verification",
+      "uncertainty_reason": "Official PDF table does not provide a course code"
+    },
+    {
+      "course_code": null,
+      "opening_units": [
+        "政經系"
+      ],
+      "opening_unit_snapshot": "政經系",
+      "course_name_snapshot": "賽局理論導論",
+      "credits_snapshot": 3.0,
+      "requirement_group": "core",
+      "notes": "",
+      "source_page": 4,
+      "evidence_match": true,
+      "validation_status": "needs_course_code_verification",
+      "uncertainty_reason": "Official PDF table does not provide a course code"
+    },
+    {
+      "course_code": null,
+      "opening_units": [
+        "校內各系"
+      ],
+      "opening_unit_snapshot": "校內各系",
+      "course_name_snapshot": "個人理財規劃",
+      "credits_snapshot": 3.0,
+      "requirement_group": "core",
+      "notes": "",
+      "source_page": 4,
+      "evidence_match": true,
+      "validation_status": "needs_course_code_verification",
+      "uncertainty_reason": "Official PDF table does not provide a course code"
+    },
+    {
+      "course_code": null,
+      "opening_units": [
+        "校內各系"
+      ],
+      "opening_unit_snapshot": "校內各系",
+      "course_name_snapshot": "會計學",
+      "credits_snapshot": 3.0,
+      "requirement_group": "core",
+      "notes": "",
+      "source_page": 4,
+      "evidence_match": true,
+      "validation_status": "needs_course_code_verification",
+      "uncertainty_reason": "Official PDF table does not provide a course code"
+    },
+    {
+      "course_code": null,
+      "opening_units": [
+        "校內各系"
+      ],
+      "opening_unit_snapshot": "校內各系",
+      "course_name_snapshot": "會計學(一)",
+      "credits_snapshot": 3.0,
+      "requirement_group": "core",
+      "notes": "",
+      "source_page": 4,
+      "evidence_match": true,
+      "validation_status": "needs_course_code_verification",
+      "uncertainty_reason": "Official PDF table does not provide a course code"
+    },
+    {
+      "course_code": null,
+      "opening_units": [
+        "校內各系"
+      ],
+      "opening_unit_snapshot": "校內各系",
+      "course_name_snapshot": "會計學(二)",
+      "credits_snapshot": 3.0,
+      "requirement_group": "core",
+      "notes": "",
+      "source_page": 5,
+      "evidence_match": true,
+      "validation_status": "needs_course_code_verification",
+      "uncertainty_reason": "Official PDF table does not provide a course code"
+    },
+    {
+      "course_code": null,
+      "opening_units": [
+        "校內各系"
+      ],
+      "opening_unit_snapshot": "校內各系",
+      "course_name_snapshot": "初級會計學",
+      "credits_snapshot": 3.0,
+      "requirement_group": "core",
+      "notes": "",
+      "source_page": 5,
+      "evidence_match": true,
+      "validation_status": "needs_course_code_verification",
+      "uncertainty_reason": "Official PDF table does not provide a course code"
+    },
+    {
+      "course_code": null,
+      "opening_units": [
+        "校內各系"
+      ],
+      "opening_unit_snapshot": "校內各系",
+      "course_name_snapshot": "初級會計學(一)",
+      "credits_snapshot": 3.0,
+      "requirement_group": "core",
+      "notes": "",
+      "source_page": 5,
+      "evidence_match": true,
+      "validation_status": "needs_course_code_verification",
+      "uncertainty_reason": "Official PDF table does not provide a course code"
+    },
+    {
+      "course_code": null,
+      "opening_units": [
+        "校內各系"
+      ],
+      "opening_unit_snapshot": "校內各系",
+      "course_name_snapshot": "初級會計學(二)",
+      "credits_snapshot": 3.0,
+      "requirement_group": "core",
+      "notes": "",
+      "source_page": 5,
+      "evidence_match": true,
+      "validation_status": "needs_course_code_verification",
+      "uncertainty_reason": "Official PDF table does not provide a course code"
+    },
+    {
+      "course_code": null,
+      "opening_units": [
+        "校內各系"
+      ],
+      "opening_unit_snapshot": "校內各系",
+      "course_name_snapshot": "中級會計學",
+      "credits_snapshot": 3.0,
+      "requirement_group": "core",
+      "notes": "",
+      "source_page": 5,
+      "evidence_match": true,
+      "validation_status": "needs_course_code_verification",
+      "uncertainty_reason": "Official PDF table does not provide a course code"
+    },
+    {
+      "course_code": null,
+      "opening_units": [
+        "校內各系"
+      ],
+      "opening_unit_snapshot": "校內各系",
+      "course_name_snapshot": "中級會計學(一)",
+      "credits_snapshot": 3.0,
+      "requirement_group": "core",
+      "notes": "",
+      "source_page": 5,
+      "evidence_match": true,
+      "validation_status": "needs_course_code_verification",
+      "uncertainty_reason": "Official PDF table does not provide a course code"
+    },
+    {
+      "course_code": null,
+      "opening_units": [
+        "校內各系"
+      ],
+      "opening_unit_snapshot": "校內各系",
+      "course_name_snapshot": "中級會計學(二)",
+      "credits_snapshot": 3.0,
+      "requirement_group": "core",
+      "notes": "",
+      "source_page": 5,
+      "evidence_match": true,
+      "validation_status": "needs_course_code_verification",
+      "uncertainty_reason": "Official PDF table does not provide a course code"
+    },
+    {
+      "course_code": null,
+      "opening_units": [
+        "校內各系"
+      ],
+      "opening_unit_snapshot": "校內各系",
+      "course_name_snapshot": "高等會計學",
+      "credits_snapshot": 3.0,
+      "requirement_group": "core",
+      "notes": "",
+      "source_page": 5,
+      "evidence_match": true,
+      "validation_status": "needs_course_code_verification",
+      "uncertainty_reason": "Official PDF table does not provide a course code"
+    },
+    {
+      "course_code": null,
+      "opening_units": [
+        "校內各系"
+      ],
+      "opening_unit_snapshot": "校內各系",
+      "course_name_snapshot": "成本會計學",
+      "credits_snapshot": 3.0,
+      "requirement_group": "core",
+      "notes": "",
+      "source_page": 5,
+      "evidence_match": true,
+      "validation_status": "needs_course_code_verification",
+      "uncertainty_reason": "Official PDF table does not provide a course code"
+    },
+    {
+      "course_code": null,
+      "opening_units": [
+        "財管系"
+      ],
+      "opening_unit_snapshot": "財管系",
+      "course_name_snapshot": "投資理論與策略",
+      "credits_snapshot": 3.0,
+      "requirement_group": "core",
+      "notes": "",
+      "source_page": 5,
+      "evidence_match": true,
+      "validation_status": "needs_course_code_verification",
+      "uncertainty_reason": "Official PDF table does not provide a course code"
+    },
+    {
+      "course_code": null,
+      "opening_units": [
+        "校內各系"
+      ],
+      "opening_unit_snapshot": "校內各系",
+      "course_name_snapshot": "投資學",
+      "credits_snapshot": 3.0,
+      "requirement_group": "core",
+      "notes": "",
+      "source_page": 5,
+      "evidence_match": true,
+      "validation_status": "needs_course_code_verification",
+      "uncertainty_reason": "Official PDF table does not provide a course code"
+    },
+    {
+      "course_code": null,
+      "opening_units": [
+        "財管系"
+      ],
+      "opening_unit_snapshot": "財管系",
+      "course_name_snapshot": "金融市場",
+      "credits_snapshot": 3.0,
+      "requirement_group": "core",
+      "notes": "",
+      "source_page": 5,
+      "evidence_match": true,
+      "validation_status": "needs_course_code_verification",
+      "uncertainty_reason": "Official PDF table does not provide a course code"
+    },
+    {
+      "course_code": null,
+      "opening_units": [
+        "財管系"
+      ],
+      "opening_unit_snapshot": "財管系",
+      "course_name_snapshot": "金融市場理論與實務",
+      "credits_snapshot": 3.0,
+      "requirement_group": "core",
+      "notes": "",
+      "source_page": 5,
+      "evidence_match": true,
+      "validation_status": "needs_course_code_verification",
+      "uncertainty_reason": "Official PDF table does not provide a course code"
+    },
+    {
+      "course_code": null,
+      "opening_units": [
+        "財管系"
+      ],
+      "opening_unit_snapshot": "財管系",
+      "course_name_snapshot": "金融投資與程式交易",
+      "credits_snapshot": 3.0,
+      "requirement_group": "core",
+      "notes": "",
+      "source_page": 5,
+      "evidence_match": true,
+      "validation_status": "needs_course_code_verification",
+      "uncertainty_reason": "Official PDF table does not provide a course code"
+    },
+    {
+      "course_code": null,
+      "opening_units": [
+        "財管系"
+      ],
+      "opening_unit_snapshot": "財管系",
+      "course_name_snapshot": "風險管理與保險",
+      "credits_snapshot": 3.0,
+      "requirement_group": "core",
+      "notes": "",
+      "source_page": 5,
+      "evidence_match": true,
+      "validation_status": "needs_course_code_verification",
+      "uncertainty_reason": "Official PDF table does not provide a course code"
+    },
+    {
+      "course_code": null,
+      "opening_units": [
+        "財管系"
+      ],
+      "opening_unit_snapshot": "財管系",
+      "course_name_snapshot": "財務工程概論",
+      "credits_snapshot": 3.0,
+      "requirement_group": "core",
+      "notes": "",
+      "source_page": 5,
+      "evidence_match": true,
+      "validation_status": "needs_course_code_verification",
+      "uncertainty_reason": "Official PDF table does not provide a course code"
+    },
+    {
+      "course_code": null,
+      "opening_units": [
+        "財管系"
+      ],
+      "opening_unit_snapshot": "財管系",
+      "course_name_snapshot": "財務工程與金融創新",
+      "credits_snapshot": 3.0,
+      "requirement_group": "core",
+      "notes": "",
+      "source_page": 5,
+      "evidence_match": true,
+      "validation_status": "needs_course_code_verification",
+      "uncertainty_reason": "Official PDF table does not provide a course code"
+    },
+    {
+      "course_code": null,
+      "opening_units": [
+        "財管系"
+      ],
+      "opening_unit_snapshot": "財管系",
+      "course_name_snapshot": "財務金融研究方法導論",
+      "credits_snapshot": 3.0,
+      "requirement_group": "core",
+      "notes": "",
+      "source_page": 5,
+      "evidence_match": true,
+      "validation_status": "needs_course_code_verification",
+      "uncertainty_reason": "Official PDF table does not provide a course code"
+    },
+    {
+      "course_code": null,
+      "opening_units": [
+        "財管系"
+      ],
+      "opening_unit_snapshot": "財管系",
+      "course_name_snapshot": "財務風險管理",
+      "credits_snapshot": 3.0,
+      "requirement_group": "core",
+      "notes": "",
+      "source_page": 5,
+      "evidence_match": true,
+      "validation_status": "needs_course_code_verification",
+      "uncertainty_reason": "Official PDF table does not provide a course code"
+    },
+    {
+      "course_code": null,
+      "opening_units": [
+        "財管系"
+      ],
+      "opening_unit_snapshot": "財管系",
+      "course_name_snapshot": "國際財務管理",
+      "credits_snapshot": 3.0,
+      "requirement_group": "core",
+      "notes": "",
+      "source_page": 5,
+      "evidence_match": true,
+      "validation_status": "needs_course_code_verification",
+      "uncertainty_reason": "Official PDF table does not provide a course code"
+    },
+    {
+      "course_code": null,
+      "opening_units": [
+        "財管系"
+      ],
+      "opening_unit_snapshot": "財管系",
+      "course_name_snapshot": "現代投資組合理論與策略",
+      "credits_snapshot": 3.0,
+      "requirement_group": "core",
+      "notes": "",
+      "source_page": 5,
+      "evidence_match": true,
+      "validation_status": "needs_course_code_verification",
+      "uncertainty_reason": "Official PDF table does not provide a course code"
+    },
+    {
+      "course_code": null,
+      "opening_units": [
+        "財管系"
+      ],
+      "opening_unit_snapshot": "財管系",
+      "course_name_snapshot": "期貨與選擇權概論",
+      "credits_snapshot": 3.0,
+      "requirement_group": "core",
+      "notes": "",
+      "source_page": 5,
+      "evidence_match": true,
+      "validation_status": "needs_course_code_verification",
+      "uncertainty_reason": "Official PDF table does not provide a course code"
+    },
+    {
+      "course_code": null,
+      "opening_units": [
+        "財管系"
+      ],
+      "opening_unit_snapshot": "財管系",
+      "course_name_snapshot": "選擇權市場理論與策略",
+      "credits_snapshot": 3.0,
+      "requirement_group": "core",
+      "notes": "",
+      "source_page": 5,
+      "evidence_match": true,
+      "validation_status": "needs_course_code_verification",
+      "uncertainty_reason": "Official PDF table does not provide a course code"
+    },
+    {
+      "course_code": null,
+      "opening_units": [
+        "財管系"
+      ],
+      "opening_unit_snapshot": "財管系",
+      "course_name_snapshot": "證券市場微結構實務",
+      "credits_snapshot": 3.0,
+      "requirement_group": "core",
+      "notes": "",
+      "source_page": 5,
+      "evidence_match": true,
+      "validation_status": "needs_course_code_verification",
+      "uncertainty_reason": "Official PDF table does not provide a course code"
+    },
+    {
+      "course_code": null,
+      "opening_units": [
+        "校內各系"
+      ],
+      "opening_unit_snapshot": "校內各系",
+      "course_name_snapshot": "C程式設計(一)",
+      "credits_snapshot": 3.0,
+      "requirement_group": "core",
+      "notes": "",
+      "source_page": 5,
+      "evidence_match": true,
+      "validation_status": "needs_course_code_verification",
+      "uncertainty_reason": "Official PDF table does not provide a course code"
+    },
+    {
+      "course_code": null,
+      "opening_units": [
+        "校內各系"
+      ],
+      "opening_unit_snapshot": "校內各系",
+      "course_name_snapshot": "工程電腦程式",
+      "credits_snapshot": 3.0,
+      "requirement_group": "core",
+      "notes": "",
+      "source_page": 5,
+      "evidence_match": true,
+      "validation_status": "needs_course_code_verification",
+      "uncertainty_reason": "Official PDF table does not provide a course code"
+    },
+    {
+      "course_code": null,
+      "opening_units": [
+        "校內各系"
+      ],
+      "opening_unit_snapshot": "校內各系",
+      "course_name_snapshot": "計算機程式",
+      "credits_snapshot": 3.0,
+      "requirement_group": "core",
+      "notes": "",
+      "source_page": 5,
+      "evidence_match": true,
+      "validation_status": "needs_course_code_verification",
+      "uncertainty_reason": "Official PDF table does not provide a course code"
+    },
+    {
+      "course_code": null,
+      "opening_units": [
+        "校內各系"
+      ],
+      "opening_unit_snapshot": "校內各系",
+      "course_name_snapshot": "基礎程式設計應用",
+      "credits_snapshot": 3.0,
+      "requirement_group": "core",
+      "notes": "",
+      "source_page": 5,
+      "evidence_match": true,
+      "validation_status": "needs_course_code_verification",
+      "uncertainty_reason": "Official PDF table does not provide a course code"
+    },
+    {
+      "course_code": null,
+      "opening_units": [
+        "校內各系"
+      ],
+      "opening_unit_snapshot": "校內各系",
+      "course_name_snapshot": "基礎程式應用",
+      "credits_snapshot": 3.0,
+      "requirement_group": "core",
+      "notes": "",
+      "source_page": 5,
+      "evidence_match": true,
+      "validation_status": "needs_course_code_verification",
+      "uncertainty_reason": "Official PDF table does not provide a course code"
+    },
+    {
+      "course_code": null,
+      "opening_units": [
+        "校內各系"
+      ],
+      "opening_unit_snapshot": "校內各系",
+      "course_name_snapshot": "程式設計",
+      "credits_snapshot": 3.0,
+      "requirement_group": "core",
+      "notes": "",
+      "source_page": 5,
+      "evidence_match": true,
+      "validation_status": "needs_course_code_verification",
+      "uncertainty_reason": "Official PDF table does not provide a course code"
+    },
+    {
+      "course_code": null,
+      "opening_units": [
+        "校內各系"
+      ],
+      "opening_unit_snapshot": "校內各系",
+      "course_name_snapshot": "微分方程",
+      "credits_snapshot": 3.0,
+      "requirement_group": "core",
+      "notes": "",
+      "source_page": 5,
+      "evidence_match": true,
+      "validation_status": "needs_course_code_verification",
+      "uncertainty_reason": "Official PDF table does not provide a course code"
+    },
+    {
+      "course_code": null,
+      "opening_units": [
+        "校內各系"
+      ],
+      "opening_unit_snapshot": "校內各系",
+      "course_name_snapshot": "微分方程(一)",
+      "credits_snapshot": 3.0,
+      "requirement_group": "core",
+      "notes": "",
+      "source_page": 5,
+      "evidence_match": true,
+      "validation_status": "needs_course_code_verification",
+      "uncertainty_reason": "Official PDF table does not provide a course code"
+    },
+    {
+      "course_code": null,
+      "opening_units": [
+        "校內各系"
+      ],
+      "opening_unit_snapshot": "校內各系",
+      "course_name_snapshot": "應用數學(一)",
+      "credits_snapshot": 3.0,
+      "requirement_group": "core",
+      "notes": "",
+      "source_page": 5,
+      "evidence_match": true,
+      "validation_status": "needs_course_code_verification",
+      "uncertainty_reason": "Official PDF table does not provide a course code"
+    },
+    {
+      "course_code": null,
+      "opening_units": [
+        "校內各系"
+      ],
+      "opening_unit_snapshot": "校內各系",
+      "course_name_snapshot": "化學數學",
+      "credits_snapshot": 3.0,
+      "requirement_group": "core",
+      "notes": "",
+      "source_page": 5,
+      "evidence_match": true,
+      "validation_status": "needs_course_code_verification",
+      "uncertainty_reason": "Official PDF table does not provide a course code"
+    },
+    {
+      "course_code": null,
+      "opening_units": [
+        "校內各系"
+      ],
+      "opening_unit_snapshot": "校內各系",
+      "course_name_snapshot": "工程數學(一)",
+      "credits_snapshot": 3.0,
+      "requirement_group": "core",
+      "notes": "",
+      "source_page": 5,
+      "evidence_match": true,
+      "validation_status": "needs_course_code_verification",
+      "uncertainty_reason": "Official PDF table does not provide a course code"
+    },
+    {
+      "course_code": null,
+      "opening_units": [
+        "校內各系"
+      ],
+      "opening_unit_snapshot": "校內各系",
+      "course_name_snapshot": "光電數值模擬",
+      "credits_snapshot": 3.0,
+      "requirement_group": "core",
+      "notes": "",
+      "source_page": 6,
+      "evidence_match": true,
+      "validation_status": "needs_course_code_verification",
+      "uncertainty_reason": "Official PDF table does not provide a course code"
+    },
+    {
+      "course_code": null,
+      "opening_units": [
+        "校內各系"
+      ],
+      "opening_unit_snapshot": "校內各系",
+      "course_name_snapshot": "數值分析",
+      "credits_snapshot": 3.0,
+      "requirement_group": "core",
+      "notes": "",
+      "source_page": 6,
+      "evidence_match": true,
+      "validation_status": "needs_course_code_verification",
+      "uncertainty_reason": "Official PDF table does not provide a course code"
+    },
+    {
+      "course_code": null,
+      "opening_units": [
+        "校內各系"
+      ],
+      "opening_unit_snapshot": "校內各系",
+      "course_name_snapshot": "數值分析(一)",
+      "credits_snapshot": 3.0,
+      "requirement_group": "core",
+      "notes": "",
+      "source_page": 6,
+      "evidence_match": true,
+      "validation_status": "needs_course_code_verification",
+      "uncertainty_reason": "Official PDF table does not provide a course code"
+    },
+    {
+      "course_code": null,
+      "opening_units": [
+        "校內各系"
+      ],
+      "opening_unit_snapshot": "校內各系",
+      "course_name_snapshot": "數值方法導論與應用",
+      "credits_snapshot": 3.0,
+      "requirement_group": "core",
+      "notes": "",
+      "source_page": 6,
+      "evidence_match": true,
+      "validation_status": "needs_course_code_verification",
+      "uncertainty_reason": "Official PDF table does not provide a course code"
+    }
+  ],
+  "structured_requirements": {
+    "core_credits_text_value": 12,
+    "minimum_total_credits": 21
+  }
+}

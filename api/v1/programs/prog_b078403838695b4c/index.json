@@ -1,0 +1,186 @@
+{
+  "program_id": "prog_b078403838695b4c",
+  "latest_academic_version": "115-1",
+  "versions": [
+    "115-1"
+  ],
+  "program": {
+    "program_id": "prog_b078403838695b4c",
+    "name_zh": "綠色港市微學程",
+    "name_en": null,
+    "previous_names": [],
+    "type": "micro_program",
+    "status": "active",
+    "description": "1.瞭解城市與港埠的關係;2. 瞭解如何以綠色港市的概念建立港市的永續發展;3. 以高雄港為實證基地;4. 由高雄港務分公司專業業師帶領同學解決真實場域的問題。",
+    "responsible_unit": "海工系",
+    "coordinator": "陸曉筠副教授",
+    "program_website": "https://sites.google.com/view/mepmlab/%E9%A6%96%E9%A0%81",
+    "source_pdf": "http://140.117.153.69/ctdr/files/20231220104258927.pdf",
+    "academic_version": "115-1",
+    "source": {
+      "catalog_url": "https://ctdr.nsysu.edu.tw/class2.php",
+      "pdf_url": "http://140.117.153.69/ctdr/files/20231220104258927.pdf",
+      "retrieved_at": "2026-08-15T10:05:39Z",
+      "pdf_binary_sha256": "01b898d1c1429be4a9d0ca5f420505b415b44afdc4395aa4293db499dfbe66f0",
+      "normalized_text_sha256": "24919897ce8f3123493b8f99000e04d88d5b6bfbdb9eef5f5e1a0e330cf00ca1",
+      "http": {
+        "status": 200,
+        "etag": "\"300f5-60ce7f0e73310\"",
+        "last_modified": "Wed, 20 Dec 2023 02:42:58 GMT",
+        "content_length": 196853
+      },
+      "parser_version": "0.1.0"
+    },
+    "review_status": "needs_review",
+    "rules": {
+      "kind": "manual_review",
+      "reason": "Extracted candidate awaits approval"
+    },
+    "warnings": [
+      "No structured course rows extracted from PDF tables"
+    ],
+    "selected_pdf_academic_version": "112-1",
+    "course_catalog": [
+      {
+        "course_code": null,
+        "opening_units": [
+          "人科學程"
+        ],
+        "opening_unit_snapshot": "人科學程",
+        "course_name_snapshot": "綠色港市與智慧港埠",
+        "credits_snapshot": 3.0,
+        "requirement_group": "core",
+        "notes": "二選一",
+        "source_page": 1,
+        "evidence_match": true,
+        "validation_status": "needs_course_code_verification",
+        "uncertainty_reason": "Official PDF table does not provide a course code"
+      },
+      {
+        "course_code": null,
+        "opening_units": [
+          "海工系"
+        ],
+        "opening_unit_snapshot": "海工系",
+        "course_name_snapshot": "海洋與海岸管理",
+        "credits_snapshot": 3.0,
+        "requirement_group": "core",
+        "notes": "",
+        "source_page": 1,
+        "evidence_match": true,
+        "validation_status": "needs_course_code_verification",
+        "uncertainty_reason": "Official PDF table does not provide a course code"
+      },
+      {
+        "course_code": null,
+        "opening_units": [
+          "人科學程"
+        ],
+        "opening_unit_snapshot": "人科學程",
+        "course_name_snapshot": "都市環境概論",
+        "credits_snapshot": 3.0,
+        "requirement_group": "elective",
+        "notes": "",
+        "source_page": 1,
+        "evidence_match": true,
+        "validation_status": "needs_course_code_verification",
+        "uncertainty_reason": "Official PDF table does not provide a course code"
+      },
+      {
+        "course_code": null,
+        "opening_units": [
+          "博雅向度三"
+        ],
+        "opening_unit_snapshot": "博雅向度三",
+        "course_name_snapshot": "都市營造與空間規劃",
+        "credits_snapshot": 3.0,
+        "requirement_group": "elective",
+        "notes": "",
+        "source_page": 1,
+        "evidence_match": true,
+        "validation_status": "needs_course_code_verification",
+        "uncertainty_reason": "Official PDF table does not provide a course code"
+      },
+      {
+        "course_code": null,
+        "opening_units": [
+          "社科院"
+        ],
+        "opening_unit_snapshot": "社科院",
+        "course_name_snapshot": "永續都市環境行為及心理學",
+        "credits_snapshot": 3.0,
+        "requirement_group": "elective",
+        "notes": "",
+        "source_page": 1,
+        "evidence_match": true,
+        "validation_status": "needs_course_code_verification",
+        "uncertainty_reason": "Official PDF table does not provide a course code"
+      },
+      {
+        "course_code": null,
+        "opening_units": [
+          "海工系"
+        ],
+        "opening_unit_snapshot": "海工系",
+        "course_name_snapshot": "海岸開發及保育工程",
+        "credits_snapshot": 3.0,
+        "requirement_group": "elective",
+        "notes": "",
+        "source_page": 1,
+        "evidence_match": true,
+        "validation_status": "needs_course_code_verification",
+        "uncertainty_reason": "Official PDF table does not provide a course code"
+      },
+      {
+        "course_code": null,
+        "opening_units": [
+          "海工系"
+        ],
+        "opening_unit_snapshot": "海工系",
+        "course_name_snapshot": "船舶施工規劃",
+        "credits_snapshot": 3.0,
+        "requirement_group": "elective",
+        "notes": "",
+        "source_page": 1,
+        "evidence_match": true,
+        "validation_status": "needs_course_code_verification",
+        "uncertainty_reason": "Official PDF table does not provide a course code"
+      },
+      {
+        "course_code": null,
+        "opening_units": [
+          "海工系"
+        ],
+        "opening_unit_snapshot": "海工系",
+        "course_name_snapshot": "港灣工程(含設計實例)",
+        "credits_snapshot": 3.0,
+        "requirement_group": "elective",
+        "notes": "",
+        "source_page": 1,
+        "evidence_match": true,
+        "validation_status": "needs_course_code_verification",
+        "uncertainty_reason": "Official PDF table does not provide a course code"
+      },
+      {
+        "course_code": null,
+        "opening_units": [
+          "公事所"
+        ],
+        "opening_unit_snapshot": "公事所",
+        "course_name_snapshot": "都市空間探討",
+        "credits_snapshot": 3.0,
+        "requirement_group": "elective",
+        "notes": "",
+        "source_page": 1,
+        "evidence_match": true,
+        "validation_status": "needs_course_code_verification",
+        "uncertainty_reason": "Official PDF table does not provide a course code"
+      }
+    ],
+    "structured_requirements": {
+      "minimum_total_credits": 9,
+      "core_credits_text_value": 3,
+      "minimum_outside_home_department_credits": 3
+    }
+  }
+}

@@ -1,0 +1,545 @@
+{
+  "program_id": "prog_761e7482d4845227",
+  "latest_academic_version": "115-1",
+  "versions": [
+    "115-1"
+  ],
+  "program": {
+    "program_id": "prog_761e7482d4845227",
+    "name_zh": "人力資源管理學程",
+    "name_en": null,
+    "previous_names": [],
+    "type": "integrated_program",
+    "status": "active",
+    "description": "本學位學程之發展方向,係以原本企管系既有的人力資源管理相關課程為基礎,並更進一步整合管理學院內其他系所的教學資源,透過課程的規劃,讓學生可以透過學程的修習,取得專業人力資源管理人員所需具備的專業知識。\n人力資源管理屬於企管主要的功能性管理之一,也是企業策略執行時的重要基礎,本學程主要的重點,在於透過課程的安排,一方面使學生瞭解人力資源管理各項相關的子領域(招募、選才、訓才、用才、留才),二方面則協助學生強化全方位的管理能力,以及瞭解各項管理工具設計的原理,使學生能在實際進入職場時,有能力在不同的情境之下,進行各種不同的人力資源管理相關業務。",
+    "responsible_unit": "企管系",
+    "coordinator": "王致遠副教授",
+    "program_website": "https://bm.nsysu.edu.tw/p/412-1231-20136.php?Lang=zh-tw",
+    "source_pdf": "http://140.117.153.69/ctdr/files/20251223145700849.pdf",
+    "academic_version": "115-1",
+    "source": {
+      "catalog_url": "https://ctdr.nsysu.edu.tw/class2.php",
+      "pdf_url": "http://140.117.153.69/ctdr/files/20251223145700849.pdf",
+      "retrieved_at": "2026-08-15T10:05:39Z",
+      "pdf_binary_sha256": "43c97541db13d0bfe4f96edaedcb5644cafb648d3af362181e6ca8c0b799d84c",
+      "normalized_text_sha256": "9c01b9bf790fe8a08635da4b4eed7ca30577c24d662554358d3fe3063641907e",
+      "http": {
+        "status": 200,
+        "etag": "\"3aad1-646990cea08ea\"",
+        "last_modified": "Tue, 23 Dec 2025 06:57:00 GMT",
+        "content_length": 240337
+      },
+      "parser_version": "0.1.0"
+    },
+    "review_status": "needs_review",
+    "rules": {
+      "kind": "manual_review",
+      "reason": "Extracted candidate awaits approval"
+    },
+    "warnings": [],
+    "selected_pdf_academic_version": "114-1",
+    "course_catalog": [
+      {
+        "course_code": null,
+        "opening_units": [
+          "企管系",
+          "人管所"
+        ],
+        "opening_unit_snapshot": "企管系 / 人管所",
+        "course_name_snapshot": "組織行為",
+        "credits_snapshot": 3.0,
+        "requirement_group": "core",
+        "notes": "",
+        "source_page": 1,
+        "evidence_match": true,
+        "validation_status": "needs_course_code_verification",
+        "uncertainty_reason": "Official PDF table does not provide a course code"
+      },
+      {
+        "course_code": null,
+        "opening_units": [
+          "企管系"
+        ],
+        "opening_unit_snapshot": "企管系",
+        "course_name_snapshot": "勞工法與勞工問題",
+        "credits_snapshot": 3.0,
+        "requirement_group": "core",
+        "notes": "",
+        "source_page": 1,
+        "evidence_match": true,
+        "validation_status": "needs_course_code_verification",
+        "uncertainty_reason": "Official PDF table does not provide a course code"
+      },
+      {
+        "course_code": null,
+        "opening_units": [
+          "企管系"
+        ],
+        "opening_unit_snapshot": "企管系",
+        "course_name_snapshot": "人力資源管理",
+        "credits_snapshot": 3.0,
+        "requirement_group": "core",
+        "notes": "",
+        "source_page": 1,
+        "evidence_match": true,
+        "validation_status": "needs_course_code_verification",
+        "uncertainty_reason": "Official PDF table does not provide a course code"
+      },
+      {
+        "course_code": null,
+        "opening_units": [
+          "企管碩"
+        ],
+        "opening_unit_snapshot": "企管碩",
+        "course_name_snapshot": "組織理論與管理",
+        "credits_snapshot": 3.0,
+        "requirement_group": "core",
+        "notes": "",
+        "source_page": 1,
+        "evidence_match": true,
+        "validation_status": "needs_course_code_verification",
+        "uncertainty_reason": "Official PDF table does not provide a course code"
+      },
+      {
+        "course_code": null,
+        "opening_units": [
+          "企管系"
+        ],
+        "opening_unit_snapshot": "企管系",
+        "course_name_snapshot": "創意思考",
+        "credits_snapshot": 3.0,
+        "requirement_group": "elective",
+        "notes": "",
+        "source_page": 1,
+        "evidence_match": true,
+        "validation_status": "needs_course_code_verification",
+        "uncertainty_reason": "Official PDF table does not provide a course code"
+      },
+      {
+        "course_code": null,
+        "opening_units": [
+          "企管系"
+        ],
+        "opening_unit_snapshot": "企管系",
+        "course_name_snapshot": "策略管理",
+        "credits_snapshot": 3.0,
+        "requirement_group": "elective",
+        "notes": "",
+        "source_page": 1,
+        "evidence_match": true,
+        "validation_status": "needs_course_code_verification",
+        "uncertainty_reason": "Official PDF table does not provide a course code"
+      },
+      {
+        "course_code": null,
+        "opening_units": [
+          "企管碩"
+        ],
+        "opening_unit_snapshot": "企管碩",
+        "course_name_snapshot": "組織學習",
+        "credits_snapshot": 3.0,
+        "requirement_group": "elective",
+        "notes": "",
+        "source_page": 1,
+        "evidence_match": true,
+        "validation_status": "needs_course_code_verification",
+        "uncertainty_reason": "Official PDF table does not provide a course code"
+      },
+      {
+        "course_code": null,
+        "opening_units": [
+          "企管碩"
+        ],
+        "opening_unit_snapshot": "企管碩",
+        "course_name_snapshot": "組織理論與管理",
+        "credits_snapshot": 3.0,
+        "requirement_group": "elective",
+        "notes": "",
+        "source_page": 1,
+        "evidence_match": true,
+        "validation_status": "needs_course_code_verification",
+        "uncertainty_reason": "Official PDF table does not provide a course code"
+      },
+      {
+        "course_code": null,
+        "opening_units": [
+          "企管碩"
+        ],
+        "opening_unit_snapshot": "企管碩",
+        "course_name_snapshot": "快樂管理學",
+        "credits_snapshot": 3.0,
+        "requirement_group": "elective",
+        "notes": "",
+        "source_page": 1,
+        "evidence_match": true,
+        "validation_status": "needs_course_code_verification",
+        "uncertainty_reason": "Official PDF table does not provide a course code"
+      },
+      {
+        "course_code": null,
+        "opening_units": [
+          "人管所"
+        ],
+        "opening_unit_snapshot": "人管所",
+        "course_name_snapshot": "策略性任用管理",
+        "credits_snapshot": 3.0,
+        "requirement_group": "elective",
+        "notes": "",
+        "source_page": 1,
+        "evidence_match": true,
+        "validation_status": "needs_course_code_verification",
+        "uncertainty_reason": "Official PDF table does not provide a course code"
+      },
+      {
+        "course_code": null,
+        "opening_units": [
+          "社科院"
+        ],
+        "opening_unit_snapshot": "社科院",
+        "course_name_snapshot": "心理學",
+        "credits_snapshot": 3.0,
+        "requirement_group": "elective",
+        "notes": "",
+        "source_page": 1,
+        "evidence_match": true,
+        "validation_status": "needs_course_code_verification",
+        "uncertainty_reason": "Official PDF table does not provide a course code"
+      },
+      {
+        "course_code": null,
+        "opening_units": [
+          "企管碩"
+        ],
+        "opening_unit_snapshot": "企管碩",
+        "course_name_snapshot": "工作心理學",
+        "credits_snapshot": 3.0,
+        "requirement_group": "elective",
+        "notes": "",
+        "source_page": 1,
+        "evidence_match": true,
+        "validation_status": "needs_course_code_verification",
+        "uncertainty_reason": "Official PDF table does not provide a course code"
+      },
+      {
+        "course_code": null,
+        "opening_units": [
+          "企管碩"
+        ],
+        "opening_unit_snapshot": "企管碩",
+        "course_name_snapshot": "倫理與領導",
+        "credits_snapshot": 3.0,
+        "requirement_group": "elective",
+        "notes": "",
+        "source_page": 1,
+        "evidence_match": true,
+        "validation_status": "needs_course_code_verification",
+        "uncertainty_reason": "Official PDF table does not provide a course code"
+      },
+      {
+        "course_code": null,
+        "opening_units": [
+          "企管系"
+        ],
+        "opening_unit_snapshot": "企管系",
+        "course_name_snapshot": "人力資源專題研討(一)",
+        "credits_snapshot": 2.0,
+        "requirement_group": "elective",
+        "notes": "",
+        "source_page": 1,
+        "evidence_match": true,
+        "validation_status": "needs_course_code_verification",
+        "uncertainty_reason": "Official PDF table does not provide a course code"
+      },
+      {
+        "course_code": null,
+        "opening_units": [
+          "企管系"
+        ],
+        "opening_unit_snapshot": "企管系",
+        "course_name_snapshot": "人力資源專題研討(二)",
+        "credits_snapshot": 2.0,
+        "requirement_group": "elective",
+        "notes": "",
+        "source_page": 1,
+        "evidence_match": true,
+        "validation_status": "needs_course_code_verification",
+        "uncertainty_reason": "Official PDF table does not provide a course code"
+      },
+      {
+        "course_code": null,
+        "opening_units": [
+          "企管碩"
+        ],
+        "opening_unit_snapshot": "企管碩",
+        "course_name_snapshot": "質性研究方法",
+        "credits_snapshot": 3.0,
+        "requirement_group": "elective",
+        "notes": "",
+        "source_page": 1,
+        "evidence_match": true,
+        "validation_status": "needs_course_code_verification",
+        "uncertainty_reason": "Official PDF table does not provide a course code"
+      },
+      {
+        "course_code": null,
+        "opening_units": [
+          "管理學院"
+        ],
+        "opening_unit_snapshot": "管理學院",
+        "course_name_snapshot": "倫理與社會責任",
+        "credits_snapshot": 1.0,
+        "requirement_group": "elective",
+        "notes": "(網路)",
+        "source_page": 1,
+        "evidence_match": true,
+        "validation_status": "needs_course_code_verification",
+        "uncertainty_reason": "Official PDF table does not provide a course code"
+      },
+      {
+        "course_code": null,
+        "opening_units": [
+          "人管所"
+        ],
+        "opening_unit_snapshot": "人管所",
+        "course_name_snapshot": "人力發展管理",
+        "credits_snapshot": 3.0,
+        "requirement_group": "elective",
+        "notes": "限大四以上學生選修",
+        "source_page": 1,
+        "evidence_match": true,
+        "validation_status": "needs_course_code_verification",
+        "uncertainty_reason": "Official PDF table does not provide a course code"
+      },
+      {
+        "course_code": null,
+        "opening_units": [
+          "人管所"
+        ],
+        "opening_unit_snapshot": "人管所",
+        "course_name_snapshot": "績效管理與人才發展",
+        "credits_snapshot": 3.0,
+        "requirement_group": "elective",
+        "notes": "限大四以上學生選修",
+        "source_page": 1,
+        "evidence_match": true,
+        "validation_status": "needs_course_code_verification",
+        "uncertainty_reason": "Official PDF table does not provide a course code"
+      },
+      {
+        "course_code": null,
+        "opening_units": [
+          "企管系"
+        ],
+        "opening_unit_snapshot": "企管系",
+        "course_name_snapshot": "管理學",
+        "credits_snapshot": 3.0,
+        "requirement_group": "elective",
+        "notes": "",
+        "source_page": 1,
+        "evidence_match": true,
+        "validation_status": "needs_course_code_verification",
+        "uncertainty_reason": "Official PDF table does not provide a course code"
+      },
+      {
+        "course_code": null,
+        "opening_units": [
+          "社科院"
+        ],
+        "opening_unit_snapshot": "社科院",
+        "course_name_snapshot": "正向心理學",
+        "credits_snapshot": 2.0,
+        "requirement_group": "elective",
+        "notes": "",
+        "source_page": 1,
+        "evidence_match": true,
+        "validation_status": "needs_course_code_verification",
+        "uncertainty_reason": "Official PDF table does not provide a course code"
+      },
+      {
+        "course_code": null,
+        "opening_units": [
+          "管理學院"
+        ],
+        "opening_unit_snapshot": "管理學院",
+        "course_name_snapshot": "管理學概論",
+        "credits_snapshot": 1.0,
+        "requirement_group": "elective",
+        "notes": "(網路)",
+        "source_page": 1,
+        "evidence_match": true,
+        "validation_status": "needs_course_code_verification",
+        "uncertainty_reason": "Official PDF table does not provide a course code"
+      },
+      {
+        "course_code": null,
+        "opening_units": [
+          "管理學院"
+        ],
+        "opening_unit_snapshot": "管理學院",
+        "course_name_snapshot": "職涯準備",
+        "credits_snapshot": 1.0,
+        "requirement_group": "elective",
+        "notes": "",
+        "source_page": 1,
+        "evidence_match": true,
+        "validation_status": "needs_course_code_verification",
+        "uncertainty_reason": "Official PDF table does not provide a course code"
+      },
+      {
+        "course_code": null,
+        "opening_units": [
+          "管理學院"
+        ],
+        "opening_unit_snapshot": "管理學院",
+        "course_name_snapshot": "倫理與社會責任的理論與實務",
+        "credits_snapshot": 1.0,
+        "requirement_group": "elective",
+        "notes": "",
+        "source_page": 1,
+        "evidence_match": true,
+        "validation_status": "needs_course_code_verification",
+        "uncertainty_reason": "Official PDF table does not provide a course code"
+      },
+      {
+        "course_code": null,
+        "opening_units": [
+          "西灣學院"
+        ],
+        "opening_unit_snapshot": "西灣學院",
+        "course_name_snapshot": "職涯探索與實習",
+        "credits_snapshot": 3.0,
+        "requirement_group": "elective",
+        "notes": "",
+        "source_page": 1,
+        "evidence_match": true,
+        "validation_status": "needs_course_code_verification",
+        "uncertainty_reason": "Official PDF table does not provide a course code"
+      },
+      {
+        "course_code": null,
+        "opening_units": [
+          "人管所"
+        ],
+        "opening_unit_snapshot": "人管所",
+        "course_name_snapshot": "員工意向調查",
+        "credits_snapshot": 3.0,
+        "requirement_group": "elective",
+        "notes": "",
+        "source_page": 1,
+        "evidence_match": true,
+        "validation_status": "needs_course_code_verification",
+        "uncertainty_reason": "Official PDF table does not provide a course code"
+      },
+      {
+        "course_code": null,
+        "opening_units": [
+          "人管所"
+        ],
+        "opening_unit_snapshot": "人管所",
+        "course_name_snapshot": "領導風格與決策",
+        "credits_snapshot": 3.0,
+        "requirement_group": "elective",
+        "notes": "",
+        "source_page": 1,
+        "evidence_match": true,
+        "validation_status": "needs_course_code_verification",
+        "uncertainty_reason": "Official PDF table does not provide a course code"
+      },
+      {
+        "course_code": null,
+        "opening_units": [
+          "Coursera"
+        ],
+        "opening_unit_snapshot": "Coursera",
+        "course_name_snapshot": "Preparing to Manage Human Resources",
+        "credits_snapshot": 1.0,
+        "requirement_group": "elective",
+        "notes": "",
+        "source_page": 1,
+        "evidence_match": false,
+        "validation_status": "needs_course_code_verification",
+        "uncertainty_reason": "Official PDF table does not provide a course code"
+      },
+      {
+        "course_code": null,
+        "opening_units": [
+          "Coursera"
+        ],
+        "opening_unit_snapshot": "Coursera",
+        "course_name_snapshot": "Recruiting,Hiring,and Onboarding Employees",
+        "credits_snapshot": 1.0,
+        "requirement_group": "elective",
+        "notes": "",
+        "source_page": 1,
+        "evidence_match": false,
+        "validation_status": "needs_course_code_verification",
+        "uncertainty_reason": "Official PDF table does not provide a course code"
+      },
+      {
+        "course_code": null,
+        "opening_units": [
+          "Coursera"
+        ],
+        "opening_unit_snapshot": "Coursera",
+        "course_name_snapshot": "Managing Employee Performance",
+        "credits_snapshot": 1.0,
+        "requirement_group": "elective",
+        "notes": "",
+        "source_page": 1,
+        "evidence_match": false,
+        "validation_status": "needs_course_code_verification",
+        "uncertainty_reason": "Official PDF table does not provide a course code"
+      },
+      {
+        "course_code": null,
+        "opening_units": [
+          "Coursera"
+        ],
+        "opening_unit_snapshot": "Coursera",
+        "course_name_snapshot": "Managing Employee Compensation",
+        "credits_snapshot": 1.0,
+        "requirement_group": "elective",
+        "notes": "",
+        "source_page": 2,
+        "evidence_match": false,
+        "validation_status": "needs_course_code_verification",
+        "uncertainty_reason": "Official PDF table does not provide a course code"
+      },
+      {
+        "course_code": null,
+        "opening_units": [
+          "Coursera"
+        ],
+        "opening_unit_snapshot": "Coursera",
+        "course_name_snapshot": "Human Resources Management Capstone: HR for People Managers",
+        "credits_snapshot": 1.0,
+        "requirement_group": "elective",
+        "notes": "",
+        "source_page": 2,
+        "evidence_match": false,
+        "validation_status": "needs_course_code_verification",
+        "uncertainty_reason": "Official PDF table does not provide a course code"
+      },
+      {
+        "course_code": null,
+        "opening_units": [
+          "企管碩"
+        ],
+        "opening_unit_snapshot": "企管碩",
+        "course_name_snapshot": "設計思考",
+        "credits_snapshot": 3.0,
+        "requirement_group": "elective",
+        "notes": "",
+        "source_page": 2,
+        "evidence_match": true,
+        "validation_status": "needs_course_code_verification",
+        "uncertainty_reason": "Official PDF table does not provide a course code"
+      }
+    ],
+    "structured_requirements": {
+      "core_credits_text_value": 6,
+      "minimum_total_credits": 15,
+      "minimum_outside_home_department_credits": 6
+    }
+  }
+}

@@ -1,0 +1,351 @@
+{
+  "program_id": "prog_e902d3dcf603529c",
+  "latest_academic_version": "115-1",
+  "versions": [
+    "115-1"
+  ],
+  "program": {
+    "program_id": "prog_e902d3dcf603529c",
+    "name_zh": "與社會交往的表演藝術微學程  (原:創作性戲劇與社群教育微學程)",
+    "name_en": null,
+    "previous_names": [],
+    "type": "micro_program",
+    "status": "active",
+    "description": "學程以引進在西方實行多年的創作性戲劇(creative drama),並依照本土脈絡及框架,將其進行在地轉化實驗。除了介紹創作性戲劇在英美的起源歷史、理論辯論,以及典範轉移之外,還要引進其實際操作分法及體系,從知識到實踐,讓學生理解創作性戲劇的定義、方法途徑、應用層面跟教育目的。藉此,實驗其運用可能在兒童藝術教育、語文教育、社區教育以及社會企業的諸多領域。",
+    "responsible_unit": "劇藝系",
+    "coordinator": "許仁豪副教授",
+    "program_website": "https://sites.google.com/view/nsysu-ta",
+    "source_pdf": "http://140.117.153.69/ctdr/files/20251223145522216.pdf",
+    "academic_version": "115-1",
+    "source": {
+      "catalog_url": "https://ctdr.nsysu.edu.tw/class2.php",
+      "pdf_url": "http://140.117.153.69/ctdr/files/20251223145522216.pdf",
+      "retrieved_at": "2026-08-15T10:05:39Z",
+      "pdf_binary_sha256": "e837808133900ccaf24f7eae8d0948dafbac0e3a445e38033898e2c81c979d45",
+      "normalized_text_sha256": "9bf806c48146ac2f30aa3f4d653c211a49697dc7b9ee963bffb10273fb4739ca",
+      "http": {
+        "status": 200,
+        "etag": "\"3a895-6469907093067\"",
+        "last_modified": "Tue, 23 Dec 2025 06:55:22 GMT",
+        "content_length": 239765
+      },
+      "parser_version": "0.1.0"
+    },
+    "review_status": "needs_review",
+    "rules": {
+      "kind": "manual_review",
+      "reason": "Extracted candidate awaits approval"
+    },
+    "warnings": [
+      "No structured course rows extracted from PDF tables"
+    ],
+    "selected_pdf_academic_version": "114-1",
+    "course_catalog": [
+      {
+        "course_code": null,
+        "opening_units": [
+          "文學院"
+        ],
+        "opening_unit_snapshot": "文學院",
+        "course_name_snapshot": "表演藝術走入城市生活(一)",
+        "credits_snapshot": 3.0,
+        "requirement_group": "core",
+        "notes": "",
+        "source_page": 1,
+        "evidence_match": true,
+        "validation_status": "needs_course_code_verification",
+        "uncertainty_reason": "Official PDF table does not provide a course code"
+      },
+      {
+        "course_code": null,
+        "opening_units": [
+          "劇藝系"
+        ],
+        "opening_unit_snapshot": "劇藝系",
+        "course_name_snapshot": "創作性戲劇",
+        "credits_snapshot": 2.0,
+        "requirement_group": "core",
+        "notes": "",
+        "source_page": 1,
+        "evidence_match": true,
+        "validation_status": "needs_course_code_verification",
+        "uncertainty_reason": "Official PDF table does not provide a course code"
+      },
+      {
+        "course_code": null,
+        "opening_units": [
+          "博雅向度二"
+        ],
+        "opening_unit_snapshot": "博雅向度二",
+        "course_name_snapshot": "生命教育",
+        "credits_snapshot": 2.0,
+        "requirement_group": "core",
+        "notes": "",
+        "source_page": 1,
+        "evidence_match": true,
+        "validation_status": "needs_course_code_verification",
+        "uncertainty_reason": "Official PDF table does not provide a course code"
+      },
+      {
+        "course_code": null,
+        "opening_units": [
+          "社會系"
+        ],
+        "opening_unit_snapshot": "社會系",
+        "course_name_snapshot": "藝術社會學",
+        "credits_snapshot": 3.0,
+        "requirement_group": "core",
+        "notes": "",
+        "source_page": 1,
+        "evidence_match": true,
+        "validation_status": "needs_course_code_verification",
+        "uncertainty_reason": "Official PDF table does not provide a course code"
+      },
+      {
+        "course_code": null,
+        "opening_units": [
+          "劇藝系(研究所課程)"
+        ],
+        "opening_unit_snapshot": "劇藝系(研究所課程)",
+        "course_name_snapshot": "跨文化表演研究",
+        "credits_snapshot": 3.0,
+        "requirement_group": "core",
+        "notes": "",
+        "source_page": 1,
+        "evidence_match": true,
+        "validation_status": "needs_course_code_verification",
+        "uncertainty_reason": "Official PDF table does not provide a course code"
+      },
+      {
+        "course_code": null,
+        "opening_units": [
+          "劇藝系(研究所課程)"
+        ],
+        "opening_unit_snapshot": "劇藝系(研究所課程)",
+        "course_name_snapshot": "當代劇場研究與實作",
+        "credits_snapshot": 3.0,
+        "requirement_group": "core",
+        "notes": "",
+        "source_page": 1,
+        "evidence_match": true,
+        "validation_status": "needs_course_code_verification",
+        "uncertainty_reason": "Official PDF table does not provide a course code"
+      },
+      {
+        "course_code": null,
+        "opening_units": [
+          "劇藝系"
+        ],
+        "opening_unit_snapshot": "劇藝系",
+        "course_name_snapshot": "戲劇構作導論",
+        "credits_snapshot": 2.0,
+        "requirement_group": "core",
+        "notes": "戲劇構作系列課程擇一,2學分,包括戲劇構作導論、戲劇構作實踐:古典、戲劇構作實踐:中古與近代、戲劇構作實踐:現當代",
+        "source_page": 1,
+        "evidence_match": true,
+        "validation_status": "needs_course_code_verification",
+        "uncertainty_reason": "Official PDF table does not provide a course code"
+      },
+      {
+        "course_code": null,
+        "opening_units": [
+          "劇藝系"
+        ],
+        "opening_unit_snapshot": "劇藝系",
+        "course_name_snapshot": "1. 戲劇構作實踐:古典2. 戲劇構作實踐:中古與近代3. 戲劇構作實踐:現當代",
+        "credits_snapshot": 2.0,
+        "requirement_group": "core",
+        "notes": "戲劇構作系列課程擇一,2學分,包括戲劇構作導論、戲劇構作實踐:古典、戲劇構作實踐:中古與近代、戲劇構作實踐:現當代",
+        "source_page": 1,
+        "evidence_match": false,
+        "validation_status": "needs_course_code_verification",
+        "uncertainty_reason": "Official PDF table does not provide a course code"
+      },
+      {
+        "course_code": null,
+        "opening_units": [
+          "劇藝系"
+        ],
+        "opening_unit_snapshot": "劇藝系",
+        "course_name_snapshot": "戲劇評論",
+        "credits_snapshot": 3.0,
+        "requirement_group": "elective",
+        "notes": "",
+        "source_page": 1,
+        "evidence_match": true,
+        "validation_status": "needs_course_code_verification",
+        "uncertainty_reason": "Official PDF table does not provide a course code"
+      },
+      {
+        "course_code": null,
+        "opening_units": [
+          "劇藝系"
+        ],
+        "opening_unit_snapshot": "劇藝系",
+        "course_name_snapshot": "創意導演(一)/(二)",
+        "credits_snapshot": 2.0,
+        "requirement_group": "elective",
+        "notes": "限修畢導演(一)或導演(二)",
+        "source_page": 1,
+        "evidence_match": true,
+        "validation_status": "needs_course_code_verification",
+        "uncertainty_reason": "Official PDF table does not provide a course code"
+      },
+      {
+        "course_code": null,
+        "opening_units": [
+          "劇藝系"
+        ],
+        "opening_unit_snapshot": "劇藝系",
+        "course_name_snapshot": "當代劇場與展演",
+        "credits_snapshot": 2.0,
+        "requirement_group": "elective",
+        "notes": "",
+        "source_page": 1,
+        "evidence_match": true,
+        "validation_status": "needs_course_code_verification",
+        "uncertainty_reason": "Official PDF table does not provide a course code"
+      },
+      {
+        "course_code": null,
+        "opening_units": [
+          "劇藝系"
+        ],
+        "opening_unit_snapshot": "劇藝系",
+        "course_name_snapshot": "兒童劇場",
+        "credits_snapshot": 2.0,
+        "requirement_group": "elective",
+        "notes": "",
+        "source_page": 1,
+        "evidence_match": true,
+        "validation_status": "needs_course_code_verification",
+        "uncertainty_reason": "Official PDF table does not provide a course code"
+      },
+      {
+        "course_code": null,
+        "opening_units": [
+          "劇藝系"
+        ],
+        "opening_unit_snapshot": "劇藝系",
+        "course_name_snapshot": "創意表演(一)/(二)",
+        "credits_snapshot": 2.0,
+        "requirement_group": "elective",
+        "notes": "限修畢進階表演(一)或進階表演(二)",
+        "source_page": 1,
+        "evidence_match": true,
+        "validation_status": "needs_course_code_verification",
+        "uncertainty_reason": "Official PDF table does not provide a course code"
+      },
+      {
+        "course_code": null,
+        "opening_units": [
+          "文學院"
+        ],
+        "opening_unit_snapshot": "文學院",
+        "course_name_snapshot": "表演藝術走入城市生活(二)",
+        "credits_snapshot": 3.0,
+        "requirement_group": "elective",
+        "notes": "",
+        "source_page": 1,
+        "evidence_match": true,
+        "validation_status": "needs_course_code_verification",
+        "uncertainty_reason": "Official PDF table does not provide a course code"
+      },
+      {
+        "course_code": null,
+        "opening_units": [
+          "文學院"
+        ],
+        "opening_unit_snapshot": "文學院",
+        "course_name_snapshot": "跨文化人文思潮與美學導論",
+        "credits_snapshot": 3.0,
+        "requirement_group": "elective",
+        "notes": "",
+        "source_page": 1,
+        "evidence_match": true,
+        "validation_status": "needs_course_code_verification",
+        "uncertainty_reason": "Official PDF table does not provide a course code"
+      },
+      {
+        "course_code": null,
+        "opening_units": [
+          "劇藝系"
+        ],
+        "opening_unit_snapshot": "劇藝系",
+        "course_name_snapshot": "台灣劇場",
+        "credits_snapshot": 3.0,
+        "requirement_group": "elective",
+        "notes": "",
+        "source_page": 1,
+        "evidence_match": true,
+        "validation_status": "needs_course_code_verification",
+        "uncertainty_reason": "Official PDF table does not provide a course code"
+      },
+      {
+        "course_code": null,
+        "opening_units": [
+          "劇藝系"
+        ],
+        "opening_unit_snapshot": "劇藝系",
+        "course_name_snapshot": "現當代東亞戲劇與劇場",
+        "credits_snapshot": 2.0,
+        "requirement_group": "elective",
+        "notes": "",
+        "source_page": 1,
+        "evidence_match": true,
+        "validation_status": "needs_course_code_verification",
+        "uncertainty_reason": "Official PDF table does not provide a course code"
+      },
+      {
+        "course_code": null,
+        "opening_units": [
+          "劇藝系(研究所課程)"
+        ],
+        "opening_unit_snapshot": "劇藝系(研究所課程)",
+        "course_name_snapshot": "環境劇場",
+        "credits_snapshot": 3.0,
+        "requirement_group": "elective",
+        "notes": "",
+        "source_page": 2,
+        "evidence_match": true,
+        "validation_status": "needs_course_code_verification",
+        "uncertainty_reason": "Official PDF table does not provide a course code"
+      },
+      {
+        "course_code": null,
+        "opening_units": [
+          "劇藝系(研究所課程)"
+        ],
+        "opening_unit_snapshot": "劇藝系(研究所課程)",
+        "course_name_snapshot": "劇場展演與社會參與",
+        "credits_snapshot": 3.0,
+        "requirement_group": "elective",
+        "notes": "",
+        "source_page": 2,
+        "evidence_match": true,
+        "validation_status": "needs_course_code_verification",
+        "uncertainty_reason": "Official PDF table does not provide a course code"
+      },
+      {
+        "course_code": null,
+        "opening_units": [
+          "文學院"
+        ],
+        "opening_unit_snapshot": "文學院",
+        "course_name_snapshot": "跨文化人文思潮與美學-課程與教學實作專題",
+        "credits_snapshot": 3.0,
+        "requirement_group": "elective",
+        "notes": "",
+        "source_page": 2,
+        "evidence_match": false,
+        "validation_status": "needs_course_code_verification",
+        "uncertainty_reason": "Official PDF table does not provide a course code"
+      }
+    ],
+    "structured_requirements": {
+      "core_credits_text_value": 2,
+      "minimum_total_credits": 9,
+      "minimum_outside_home_department_credits": 3
+    }
+  }
+}

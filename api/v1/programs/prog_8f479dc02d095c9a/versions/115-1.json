@@ -1,0 +1,343 @@
+{
+  "program_id": "prog_8f479dc02d095c9a",
+  "name_zh": "日本研究學程",
+  "name_en": null,
+  "previous_names": [],
+  "type": "integrated_program",
+  "status": "active",
+  "description": "滿足學生對專業日文及日本文化的深入瞭解,並培養學生第二專長,增加其就業機會,使日文人才迅速補充。",
+  "responsible_unit": "外文系",
+  "coordinator": "歐淑珍教授",
+  "program_website": "http://rpb9.nsysu.edu.tw/",
+  "source_pdf": "http://140.117.153.69/ctdr/files/20251223145604987.pdf",
+  "academic_version": "115-1",
+  "source": {
+    "catalog_url": "https://ctdr.nsysu.edu.tw/class2.php",
+    "pdf_url": "http://140.117.153.69/ctdr/files/20251223145604987.pdf",
+    "retrieved_at": "2026-08-15T10:05:39Z",
+    "pdf_binary_sha256": "6c3f400d9a38a877933b152bcbab0d74ba767acf242551811459503de05ac9ca",
+    "normalized_text_sha256": "d8ec450898a18dbe6139e06f8998b6b18be2eccf7d6378c5c9a4389520fedebd",
+    "http": {
+      "status": 200,
+      "etag": "\"57fb1-6469909962a0b\"",
+      "last_modified": "Tue, 23 Dec 2025 06:56:05 GMT",
+      "content_length": 360369
+    },
+    "parser_version": "0.1.0"
+  },
+  "review_status": "needs_review",
+  "rules": {
+    "kind": "manual_review",
+    "reason": "Extracted candidate awaits approval"
+  },
+  "warnings": [],
+  "selected_pdf_academic_version": "114-1",
+  "course_catalog": [
+    {
+      "course_code": null,
+      "opening_units": [
+        "外文系",
+        "西灣學院"
+      ],
+      "opening_unit_snapshot": "外文系 / 西灣學院",
+      "course_name_snapshot": "日文(一)",
+      "credits_snapshot": 3.0,
+      "requirement_group": "core",
+      "notes": "相關規定請見本表底下說明。",
+      "source_page": 1,
+      "evidence_match": true,
+      "validation_status": "needs_course_code_verification",
+      "uncertainty_reason": "Official PDF table does not provide a course code"
+    },
+    {
+      "course_code": null,
+      "opening_units": [
+        "機電系"
+      ],
+      "opening_unit_snapshot": "機電系",
+      "course_name_snapshot": "工程日文(一)",
+      "credits_snapshot": 3.0,
+      "requirement_group": "core",
+      "notes": "",
+      "source_page": 1,
+      "evidence_match": true,
+      "validation_status": "needs_course_code_verification",
+      "uncertainty_reason": "Official PDF table does not provide a course code"
+    },
+    {
+      "course_code": null,
+      "opening_units": [
+        "企管系"
+      ],
+      "opening_unit_snapshot": "企管系",
+      "course_name_snapshot": "商用日文(一)",
+      "credits_snapshot": 3.0,
+      "requirement_group": "core",
+      "notes": "",
+      "source_page": 1,
+      "evidence_match": true,
+      "validation_status": "needs_course_code_verification",
+      "uncertainty_reason": "Official PDF table does not provide a course code"
+    },
+    {
+      "course_code": null,
+      "opening_units": [
+        "亞太所"
+      ],
+      "opening_unit_snapshot": "亞太所",
+      "course_name_snapshot": "法學日文(一)",
+      "credits_snapshot": 3.0,
+      "requirement_group": "core",
+      "notes": "",
+      "source_page": 1,
+      "evidence_match": true,
+      "validation_status": "needs_course_code_verification",
+      "uncertainty_reason": "Official PDF table does not provide a course code"
+    },
+    {
+      "course_code": null,
+      "opening_units": [
+        "西灣學院"
+      ],
+      "opening_unit_snapshot": "西灣學院",
+      "course_name_snapshot": "日本文化概論",
+      "credits_snapshot": 3.0,
+      "requirement_group": "core",
+      "notes": "",
+      "source_page": 1,
+      "evidence_match": true,
+      "validation_status": "needs_course_code_verification",
+      "uncertainty_reason": "Official PDF table does not provide a course code"
+    },
+    {
+      "course_code": null,
+      "opening_units": [
+        "中文系"
+      ],
+      "opening_unit_snapshot": "中文系",
+      "course_name_snapshot": "臺語流行歌曲及其語言風格和文化意涵(一)",
+      "credits_snapshot": 3.0,
+      "requirement_group": "elective",
+      "notes": "",
+      "source_page": 1,
+      "evidence_match": true,
+      "validation_status": "needs_course_code_verification",
+      "uncertainty_reason": "Official PDF table does not provide a course code"
+    },
+    {
+      "course_code": null,
+      "opening_units": [
+        "外文系"
+      ],
+      "opening_unit_snapshot": "外文系",
+      "course_name_snapshot": "日文三(一)",
+      "credits_snapshot": 3.0,
+      "requirement_group": "elective",
+      "notes": "",
+      "source_page": 1,
+      "evidence_match": true,
+      "validation_status": "needs_course_code_verification",
+      "uncertainty_reason": "Official PDF table does not provide a course code"
+    },
+    {
+      "course_code": null,
+      "opening_units": [
+        "劇藝系(碩)"
+      ],
+      "opening_unit_snapshot": "劇藝系(碩)",
+      "course_name_snapshot": "文化資產保存與再生",
+      "credits_snapshot": 3.0,
+      "requirement_group": "elective",
+      "notes": "",
+      "source_page": 1,
+      "evidence_match": true,
+      "validation_status": "needs_course_code_verification",
+      "uncertainty_reason": "Official PDF table does not provide a course code"
+    },
+    {
+      "course_code": null,
+      "opening_units": [
+        "哲學所"
+      ],
+      "opening_unit_snapshot": "哲學所",
+      "course_name_snapshot": "文化哲學",
+      "credits_snapshot": 3.0,
+      "requirement_group": "elective",
+      "notes": "",
+      "source_page": 1,
+      "evidence_match": true,
+      "validation_status": "needs_course_code_verification",
+      "uncertainty_reason": "Official PDF table does not provide a course code"
+    },
+    {
+      "course_code": null,
+      "opening_units": [
+        "人科學程"
+      ],
+      "opening_unit_snapshot": "人科學程",
+      "course_name_snapshot": "文化人類學",
+      "credits_snapshot": 3.0,
+      "requirement_group": "elective",
+      "notes": "",
+      "source_page": 1,
+      "evidence_match": true,
+      "validation_status": "needs_course_code_verification",
+      "uncertainty_reason": "Official PDF table does not provide a course code"
+    },
+    {
+      "course_code": null,
+      "opening_units": [
+        "國際學士學程"
+      ],
+      "opening_unit_snapshot": "國際學士學程",
+      "course_name_snapshot": "跨文化溝通",
+      "credits_snapshot": 3.0,
+      "requirement_group": "elective",
+      "notes": "※英語授課",
+      "source_page": 1,
+      "evidence_match": true,
+      "validation_status": "needs_course_code_verification",
+      "uncertainty_reason": "Official PDF table does not provide a course code"
+    },
+    {
+      "course_code": null,
+      "opening_units": [
+        "政經系"
+      ],
+      "opening_unit_snapshot": "政經系",
+      "course_name_snapshot": "國際政治經濟學",
+      "credits_snapshot": 3.0,
+      "requirement_group": "elective",
+      "notes": "",
+      "source_page": 1,
+      "evidence_match": true,
+      "validation_status": "needs_course_code_verification",
+      "uncertainty_reason": "Official PDF table does not provide a course code"
+    },
+    {
+      "course_code": null,
+      "opening_units": [
+        "政治所"
+      ],
+      "opening_unit_snapshot": "政治所",
+      "course_name_snapshot": "韓國與東亞政治經濟",
+      "credits_snapshot": 3.0,
+      "requirement_group": "elective",
+      "notes": "※英語授課",
+      "source_page": 1,
+      "evidence_match": true,
+      "validation_status": "needs_course_code_verification",
+      "uncertainty_reason": "Official PDF table does not provide a course code"
+    },
+    {
+      "course_code": null,
+      "opening_units": [
+        "公事所"
+      ],
+      "opening_unit_snapshot": "公事所",
+      "course_name_snapshot": "地區經營管理",
+      "credits_snapshot": 2.0,
+      "requirement_group": "elective",
+      "notes": "",
+      "source_page": 2,
+      "evidence_match": true,
+      "validation_status": "needs_course_code_verification",
+      "uncertainty_reason": "Official PDF table does not provide a course code"
+    },
+    {
+      "course_code": null,
+      "opening_units": [
+        "亞太所"
+      ],
+      "opening_unit_snapshot": "亞太所",
+      "course_name_snapshot": "美日關係與軍事同盟",
+      "credits_snapshot": 3.0,
+      "requirement_group": "elective",
+      "notes": "",
+      "source_page": 2,
+      "evidence_match": true,
+      "validation_status": "needs_course_code_verification",
+      "uncertainty_reason": "Official PDF table does not provide a course code"
+    },
+    {
+      "course_code": null,
+      "opening_units": [
+        "亞太英語碩程"
+      ],
+      "opening_unit_snapshot": "亞太英語碩程",
+      "course_name_snapshot": "日本政府與政治",
+      "credits_snapshot": 3.0,
+      "requirement_group": "elective",
+      "notes": "※英語授課",
+      "source_page": 2,
+      "evidence_match": true,
+      "validation_status": "needs_course_code_verification",
+      "uncertainty_reason": "Official PDF table does not provide a course code"
+    },
+    {
+      "course_code": null,
+      "opening_units": [
+        "文學院"
+      ],
+      "opening_unit_snapshot": "文學院",
+      "course_name_snapshot": "世界宗教介紹",
+      "credits_snapshot": 3.0,
+      "requirement_group": "elective",
+      "notes": "",
+      "source_page": 2,
+      "evidence_match": true,
+      "validation_status": "needs_course_code_verification",
+      "uncertainty_reason": "Official PDF table does not provide a course code"
+    },
+    {
+      "course_code": null,
+      "opening_units": [
+        "社科院"
+      ],
+      "opening_unit_snapshot": "社科院",
+      "course_name_snapshot": "台灣當代政治發展",
+      "credits_snapshot": 2.0,
+      "requirement_group": "elective",
+      "notes": "",
+      "source_page": 2,
+      "evidence_match": true,
+      "validation_status": "needs_course_code_verification",
+      "uncertainty_reason": "Official PDF table does not provide a course code"
+    },
+    {
+      "course_code": null,
+      "opening_units": [
+        "醫學院"
+      ],
+      "opening_unit_snapshot": "醫學院",
+      "course_name_snapshot": "醫學史(二)-台灣醫學史",
+      "credits_snapshot": 2.0,
+      "requirement_group": "elective",
+      "notes": "限制大學部學生選修",
+      "source_page": 2,
+      "evidence_match": true,
+      "validation_status": "needs_course_code_verification",
+      "uncertainty_reason": "Official PDF table does not provide a course code"
+    },
+    {
+      "course_code": null,
+      "opening_units": [
+        "西灣學院"
+      ],
+      "opening_unit_snapshot": "西灣學院",
+      "course_name_snapshot": "從國際新聞學人文地理",
+      "credits_snapshot": 3.0,
+      "requirement_group": "elective",
+      "notes": "※英語授課",
+      "source_page": 2,
+      "evidence_match": true,
+      "validation_status": "needs_course_code_verification",
+      "uncertainty_reason": "Official PDF table does not provide a course code"
+    }
+  ],
+  "structured_requirements": {
+    "core_credits_text_value": 12,
+    "minimum_total_credits": 18,
+    "minimum_outside_home_department_credits": 6
+  }
+}

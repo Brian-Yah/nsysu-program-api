@@ -1,0 +1,346 @@
+{
+  "program_id": "prog_4795cead391b5d2c",
+  "name_zh": "全民國防微學程",
+  "name_en": null,
+  "previous_names": [],
+  "type": "micro_program",
+  "status": "active",
+  "description": "本微學程的發展重點從國際情勢、國防政策、全民國防、防衛動員、國防科技等五大面向切入,藉由課程的學習,培養學生以下跨領域能力:\n1.\t瞭解國家處境與潛存威脅,培養務實參與及分析國際事務之能力。\n2.\t探究當前國防施政方針及國軍整體戰略,厚植分析國防政策之能力。\n3.\t瞭解「全民國防教育」之影響,培養推動全民參與國防事務之能力。\n4.\t探究當前「民防體系」與「全民防衛機制」,學習如何厚植戰力泉源。\n5.\t瞭解國防武器裝備發展現況及策略,培育協助相關策略發展之能力。\n6.\t學習基礎外傷急救之技能,培養緊急狀況救人及自救能力。",
+  "responsible_unit": "西灣學院服務學習中心",
+  "coordinator": "彭渰雯主任",
+  "program_website": "https://cm-siwan.nsysu.edu.tw/p/406-1353-319490,r5482.php?Lang=zh-tw",
+  "source_pdf": "http://140.117.153.69/ctdr/files/20251223145806212.pdf",
+  "academic_version": "115-1",
+  "source": {
+    "catalog_url": "https://ctdr.nsysu.edu.tw/class2.php",
+    "pdf_url": "http://140.117.153.69/ctdr/files/20251223145806212.pdf",
+    "retrieved_at": "2026-08-15T10:05:39Z",
+    "pdf_binary_sha256": "043c4b406de6b2a298aad7050e6579935c7deb2f818c666691e518f71ad75555",
+    "normalized_text_sha256": "5ffcce1fc888a21393b9f6b63532d67984876126281299b6d25555e7f84dc266",
+    "http": {
+      "status": 200,
+      "etag": "\"28dc6-6469910cfd2b6\"",
+      "last_modified": "Tue, 23 Dec 2025 06:58:06 GMT",
+      "content_length": 167366
+    },
+    "parser_version": "0.1.0"
+  },
+  "review_status": "needs_review",
+  "rules": {
+    "kind": "manual_review",
+    "reason": "Extracted candidate awaits approval"
+  },
+  "warnings": [],
+  "selected_pdf_academic_version": "114-1",
+  "course_catalog": [
+    {
+      "course_code": null,
+      "opening_units": [
+        "應用性課程"
+      ],
+      "opening_unit_snapshot": "應用性課程",
+      "course_name_snapshot": "全民國防教育軍事訓練課程:國防科技(軍訓)",
+      "credits_snapshot": 2.0,
+      "requirement_group": "core",
+      "notes": "",
+      "source_page": 1,
+      "evidence_match": false,
+      "validation_status": "needs_course_code_verification",
+      "uncertainty_reason": "Official PDF table does not provide a course code"
+    },
+    {
+      "course_code": null,
+      "opening_units": [
+        "應用性課程"
+      ],
+      "opening_unit_snapshot": "應用性課程",
+      "course_name_snapshot": "全民國防教育軍事訓練課程:全民國防(軍訓)",
+      "credits_snapshot": 2.0,
+      "requirement_group": "core",
+      "notes": "",
+      "source_page": 1,
+      "evidence_match": false,
+      "validation_status": "needs_course_code_verification",
+      "uncertainty_reason": "Official PDF table does not provide a course code"
+    },
+    {
+      "course_code": null,
+      "opening_units": [
+        "應用性課程"
+      ],
+      "opening_unit_snapshot": "應用性課程",
+      "course_name_snapshot": "全民國防教育軍事訓練課程:防衛動員(軍訓)",
+      "credits_snapshot": 2.0,
+      "requirement_group": "core",
+      "notes": "",
+      "source_page": 1,
+      "evidence_match": false,
+      "validation_status": "needs_course_code_verification",
+      "uncertainty_reason": "Official PDF table does not provide a course code"
+    },
+    {
+      "course_code": null,
+      "opening_units": [
+        "應用性課程"
+      ],
+      "opening_unit_snapshot": "應用性課程",
+      "course_name_snapshot": "全民國防教育軍事訓練課程:國際情勢(軍訓)",
+      "credits_snapshot": 2.0,
+      "requirement_group": "core",
+      "notes": "",
+      "source_page": 1,
+      "evidence_match": false,
+      "validation_status": "needs_course_code_verification",
+      "uncertainty_reason": "Official PDF table does not provide a course code"
+    },
+    {
+      "course_code": null,
+      "opening_units": [
+        "應用性課程"
+      ],
+      "opening_unit_snapshot": "應用性課程",
+      "course_name_snapshot": "全民國防教育軍事訓練課程:國防政策(軍訓)",
+      "credits_snapshot": 2.0,
+      "requirement_group": "core",
+      "notes": "",
+      "source_page": 1,
+      "evidence_match": false,
+      "validation_status": "needs_course_code_verification",
+      "uncertainty_reason": "Official PDF table does not provide a course code"
+    },
+    {
+      "course_code": null,
+      "opening_units": [
+        "應用性課程"
+      ],
+      "opening_unit_snapshot": "應用性課程",
+      "course_name_snapshot": "淺談台海局勢與空軍現況分析",
+      "credits_snapshot": 2.0,
+      "requirement_group": "core",
+      "notes": "",
+      "source_page": 1,
+      "evidence_match": true,
+      "validation_status": "needs_course_code_verification",
+      "uncertainty_reason": "Official PDF table does not provide a course code"
+    },
+    {
+      "course_code": null,
+      "opening_units": [
+        "醫學院",
+        "跨院",
+        "選修(醫)"
+      ],
+      "opening_unit_snapshot": "醫學院 / 跨院 / 選修(醫)",
+      "course_name_snapshot": "基礎外傷急救",
+      "credits_snapshot": 2.0,
+      "requirement_group": "core",
+      "notes": "",
+      "source_page": 1,
+      "evidence_match": true,
+      "validation_status": "needs_course_code_verification",
+      "uncertainty_reason": "Official PDF table does not provide a course code"
+    },
+    {
+      "course_code": null,
+      "opening_units": [
+        "博雅向度三"
+      ],
+      "opening_unit_snapshot": "博雅向度三",
+      "course_name_snapshot": "國際事務與公民參與",
+      "credits_snapshot": 3.0,
+      "requirement_group": "elective",
+      "notes": "",
+      "source_page": 1,
+      "evidence_match": true,
+      "validation_status": "needs_course_code_verification",
+      "uncertainty_reason": "Official PDF table does not provide a course code"
+    },
+    {
+      "course_code": null,
+      "opening_units": [
+        "博雅向度三"
+      ],
+      "opening_unit_snapshot": "博雅向度三",
+      "course_name_snapshot": "台灣政經發展",
+      "credits_snapshot": 3.0,
+      "requirement_group": "elective",
+      "notes": "",
+      "source_page": 1,
+      "evidence_match": true,
+      "validation_status": "needs_course_code_verification",
+      "uncertainty_reason": "Official PDF table does not provide a course code"
+    },
+    {
+      "course_code": null,
+      "opening_units": [
+        "博雅向度四"
+      ],
+      "opening_unit_snapshot": "博雅向度四",
+      "course_name_snapshot": "射擊運動與硬體科技",
+      "credits_snapshot": 2.0,
+      "requirement_group": "elective",
+      "notes": "",
+      "source_page": 1,
+      "evidence_match": true,
+      "validation_status": "needs_course_code_verification",
+      "uncertainty_reason": "Official PDF table does not provide a course code"
+    },
+    {
+      "course_code": null,
+      "opening_units": [
+        "醫學院",
+        "跨院",
+        "選修(醫)"
+      ],
+      "opening_unit_snapshot": "醫學院 / 跨院 / 選修(醫)",
+      "course_name_snapshot": "新生兒急救:從零開始掌握關鍵技能",
+      "credits_snapshot": 2.0,
+      "requirement_group": "elective",
+      "notes": "",
+      "source_page": 1,
+      "evidence_match": true,
+      "validation_status": "needs_course_code_verification",
+      "uncertainty_reason": "Official PDF table does not provide a course code"
+    },
+    {
+      "course_code": null,
+      "opening_units": [
+        "服務學習"
+      ],
+      "opening_unit_snapshot": "服務學習",
+      "course_name_snapshot": "服務學習:推動高中民防實作教育",
+      "credits_snapshot": 1.0,
+      "requirement_group": "elective",
+      "notes": "",
+      "source_page": 1,
+      "evidence_match": true,
+      "validation_status": "needs_course_code_verification",
+      "uncertainty_reason": "Official PDF table does not provide a course code"
+    },
+    {
+      "course_code": null,
+      "opening_units": [
+        "資工系"
+      ],
+      "opening_unit_snapshot": "資工系",
+      "course_name_snapshot": "資訊安全",
+      "credits_snapshot": 3.0,
+      "requirement_group": "elective",
+      "notes": "",
+      "source_page": 1,
+      "evidence_match": true,
+      "validation_status": "needs_course_code_verification",
+      "uncertainty_reason": "Official PDF table does not provide a course code"
+    },
+    {
+      "course_code": null,
+      "opening_units": [
+        "亞太英語碩程"
+      ],
+      "opening_unit_snapshot": "亞太英語碩程",
+      "course_name_snapshot": "兩岸關係與亞太安全",
+      "credits_snapshot": 3.0,
+      "requirement_group": "elective",
+      "notes": "",
+      "source_page": 1,
+      "evidence_match": true,
+      "validation_status": "needs_course_code_verification",
+      "uncertainty_reason": "Official PDF table does not provide a course code"
+    },
+    {
+      "course_code": null,
+      "opening_units": [
+        "亞太碩"
+      ],
+      "opening_unit_snapshot": "亞太碩",
+      "course_name_snapshot": "戰略與國家安全政策",
+      "credits_snapshot": 3.0,
+      "requirement_group": "elective",
+      "notes": "",
+      "source_page": 1,
+      "evidence_match": true,
+      "validation_status": "needs_course_code_verification",
+      "uncertainty_reason": "Official PDF table does not provide a course code"
+    },
+    {
+      "course_code": null,
+      "opening_units": [
+        "亞太碩"
+      ],
+      "opening_unit_snapshot": "亞太碩",
+      "course_name_snapshot": "國家安全與危機處理",
+      "credits_snapshot": 3.0,
+      "requirement_group": "elective",
+      "notes": "",
+      "source_page": 1,
+      "evidence_match": true,
+      "validation_status": "needs_course_code_verification",
+      "uncertainty_reason": "Official PDF table does not provide a course code"
+    },
+    {
+      "course_code": null,
+      "opening_units": [
+        "亞太碩"
+      ],
+      "opening_unit_snapshot": "亞太碩",
+      "course_name_snapshot": "危機處理與美中臺關係",
+      "credits_snapshot": 3.0,
+      "requirement_group": "elective",
+      "notes": "",
+      "source_page": 1,
+      "evidence_match": true,
+      "validation_status": "needs_course_code_verification",
+      "uncertainty_reason": "Official PDF table does not provide a course code"
+    },
+    {
+      "course_code": null,
+      "opening_units": [
+        "亞太碩"
+      ],
+      "opening_unit_snapshot": "亞太碩",
+      "course_name_snapshot": "兩岸關係與國際關係理論",
+      "credits_snapshot": 3.0,
+      "requirement_group": "elective",
+      "notes": "",
+      "source_page": 1,
+      "evidence_match": true,
+      "validation_status": "needs_course_code_verification",
+      "uncertainty_reason": "Official PDF table does not provide a course code"
+    },
+    {
+      "course_code": null,
+      "opening_units": [
+        "亞太碩"
+      ],
+      "opening_unit_snapshot": "亞太碩",
+      "course_name_snapshot": "印太區域安全",
+      "credits_snapshot": 3.0,
+      "requirement_group": "elective",
+      "notes": "",
+      "source_page": 1,
+      "evidence_match": true,
+      "validation_status": "needs_course_code_verification",
+      "uncertainty_reason": "Official PDF table does not provide a course code"
+    },
+    {
+      "course_code": null,
+      "opening_units": [
+        "西灣學院服務學習教育中心"
+      ],
+      "opening_unit_snapshot": "西灣學院服務學習教育中心",
+      "course_name_snapshot": "全民國防相關微學分課程",
+      "credits_snapshot": 2.0,
+      "requirement_group": "elective",
+      "notes": "限服務學習教育中心舉辦且有標註可認列本學程之課程",
+      "source_page": 1,
+      "evidence_match": true,
+      "validation_status": "needs_course_code_verification",
+      "uncertainty_reason": "Official PDF table does not provide a course code"
+    }
+  ],
+  "structured_requirements": {
+    "core_credits_text_value": 4,
+    "minimum_total_credits": 9,
+    "minimum_outside_home_department_credits": 3
+  }
+}

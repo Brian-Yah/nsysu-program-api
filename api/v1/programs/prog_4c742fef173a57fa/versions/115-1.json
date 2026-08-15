@@ -1,0 +1,547 @@
+{
+  "program_id": "prog_4c742fef173a57fa",
+  "name_zh": "生成式AI(人工智慧)素養微學程",
+  "name_en": null,
+  "previous_names": [],
+  "type": "micro_program",
+  "status": "active",
+  "description": "UNESCO在討論AI素養時,聚焦於五個主題素養:人本心態(Human-Centered mindset)、AI倫理(Ethics of AI)、AI的基礎及應用(AI foundations & applications)、AI教學(AI pedagogy)、以及AI專業發展(AI for professional development)。本學程發展重點為AI素養,為運用AI資料所需的基本能力,從文本操作和分析,到圖像生成,再到語音識別等系統,並能有意識判讀AI解答問題、文本、圖像、程式碼生成資料之能力,包括:個人能夠對AI科技進行批判評估,與AI有效溝通合作,以及在網路、家庭和工作場所使用AI作為工具的能力。本學程特色為,在三個層面強化次世代AI素養,包括:1)理解層面:成本效益分析/人類能動性;2)深化應用層面:人類課責/人類發展;3)創造層面:社會責任/AI時代公民意識。",
+  "responsible_unit": "西灣學院",
+  "coordinator": "林季怡教授",
+  "program_website": "https://cm-siwan.nsysu.edu.tw/p/406-1353-351018,r5482.php?Lang=zh-tw",
+  "source_pdf": "http://140.117.153.69/ctdr/files/20251223150018269.pdf",
+  "academic_version": "115-1",
+  "source": {
+    "catalog_url": "https://ctdr.nsysu.edu.tw/class2.php",
+    "pdf_url": "http://140.117.153.69/ctdr/files/20251223150018269.pdf",
+    "retrieved_at": "2026-08-15T10:05:39Z",
+    "pdf_binary_sha256": "7f7f8bef5fc23e23e4fc26db53a98590e476387af8006a6551dd14f840995dfa",
+    "normalized_text_sha256": "595815691d9d632320531286af070aff8b42f01ea40f3006b28fe3828e0446c6",
+    "http": {
+      "status": 200,
+      "etag": "\"3c448-6469918ae4641\"",
+      "last_modified": "Tue, 23 Dec 2025 07:00:18 GMT",
+      "content_length": 246856
+    },
+    "parser_version": "0.1.0"
+  },
+  "review_status": "needs_review",
+  "rules": {
+    "kind": "manual_review",
+    "reason": "Extracted candidate awaits approval"
+  },
+  "warnings": [
+    "No structured course rows extracted from PDF tables"
+  ],
+  "selected_pdf_academic_version": "114-1",
+  "course_catalog": [
+    {
+      "course_code": null,
+      "opening_units": [
+        "博雅中心"
+      ],
+      "opening_unit_snapshot": "博雅中心",
+      "course_name_snapshot": "大型語言模型及其社會應用",
+      "credits_snapshot": 2.0,
+      "requirement_group": "core",
+      "notes": "博雅向度四",
+      "source_page": 1,
+      "evidence_match": true,
+      "validation_status": "needs_course_code_verification",
+      "uncertainty_reason": "Official PDF table does not provide a course code"
+    },
+    {
+      "course_code": null,
+      "opening_units": [
+        "博雅中心"
+      ],
+      "opening_unit_snapshot": "博雅中心",
+      "course_name_snapshot": "雙向交響:當科技遇見人文",
+      "credits_snapshot": 3.0,
+      "requirement_group": "core",
+      "notes": "博雅向度四",
+      "source_page": 1,
+      "evidence_match": true,
+      "validation_status": "needs_course_code_verification",
+      "uncertainty_reason": "Official PDF table does not provide a course code"
+    },
+    {
+      "course_code": null,
+      "opening_units": [
+        "博雅中心"
+      ],
+      "opening_unit_snapshot": "博雅中心",
+      "course_name_snapshot": "行動科技與社會",
+      "credits_snapshot": 3.0,
+      "requirement_group": "core",
+      "notes": "博雅向度四",
+      "source_page": 1,
+      "evidence_match": true,
+      "validation_status": "needs_course_code_verification",
+      "uncertainty_reason": "Official PDF table does not provide a course code"
+    },
+    {
+      "course_code": null,
+      "opening_units": [
+        "博雅中心"
+      ],
+      "opening_unit_snapshot": "博雅中心",
+      "course_name_snapshot": "科學、媒體與文化",
+      "credits_snapshot": 3.0,
+      "requirement_group": "core",
+      "notes": "博雅向度四",
+      "source_page": 1,
+      "evidence_match": true,
+      "validation_status": "needs_course_code_verification",
+      "uncertainty_reason": "Official PDF table does not provide a course code"
+    },
+    {
+      "course_code": null,
+      "opening_units": [
+        "博雅中心"
+      ],
+      "opening_unit_snapshot": "博雅中心",
+      "course_name_snapshot": "射擊運動與硬體科技",
+      "credits_snapshot": 3.0,
+      "requirement_group": "core",
+      "notes": "博雅向度四",
+      "source_page": 1,
+      "evidence_match": true,
+      "validation_status": "needs_course_code_verification",
+      "uncertainty_reason": "Official PDF table does not provide a course code"
+    },
+    {
+      "course_code": null,
+      "opening_units": [
+        "博雅中心"
+      ],
+      "opening_unit_snapshot": "博雅中心",
+      "course_name_snapshot": "橘子蘋果統計學",
+      "credits_snapshot": 3.0,
+      "requirement_group": "core",
+      "notes": "博雅向度五",
+      "source_page": 1,
+      "evidence_match": true,
+      "validation_status": "needs_course_code_verification",
+      "uncertainty_reason": "Official PDF table does not provide a course code"
+    },
+    {
+      "course_code": null,
+      "opening_units": [
+        "博雅中心"
+      ],
+      "opening_unit_snapshot": "博雅中心",
+      "course_name_snapshot": "永續生活理念UX/UI設計實務",
+      "credits_snapshot": 3.0,
+      "requirement_group": "core",
+      "notes": "博雅向度六",
+      "source_page": 1,
+      "evidence_match": true,
+      "validation_status": "needs_course_code_verification",
+      "uncertainty_reason": "Official PDF table does not provide a course code"
+    },
+    {
+      "course_code": null,
+      "opening_units": [
+        "教育部 AI聯盟",
+        "博雅中心"
+      ],
+      "opening_unit_snapshot": "教育部 AI聯盟 / 博雅中心",
+      "course_name_snapshot": "人工智慧導論",
+      "credits_snapshot": 3.0,
+      "requirement_group": "core",
+      "notes": "臺灣大專院校人工智慧學程聯盟學分學程〈人工智慧探索應用〉博雅向度五",
+      "source_page": 1,
+      "evidence_match": true,
+      "validation_status": "needs_course_code_verification",
+      "uncertainty_reason": "Official PDF table does not provide a course code"
+    },
+    {
+      "course_code": null,
+      "opening_units": [
+        "教育部 AI聯盟",
+        "博雅中心"
+      ],
+      "opening_unit_snapshot": "教育部 AI聯盟 / 博雅中心",
+      "course_name_snapshot": "基礎程式設計(C++)",
+      "credits_snapshot": 3.0,
+      "requirement_group": "core",
+      "notes": "〈人工智慧探索應用〉博雅向度五",
+      "source_page": 1,
+      "evidence_match": true,
+      "validation_status": "needs_course_code_verification",
+      "uncertainty_reason": "Official PDF table does not provide a course code"
+    },
+    {
+      "course_code": null,
+      "opening_units": [
+        "教育部 AI聯盟",
+        "博雅中心"
+      ],
+      "opening_unit_snapshot": "教育部 AI聯盟 / 博雅中心",
+      "course_name_snapshot": "統計學暨實習",
+      "credits_snapshot": 4.0,
+      "requirement_group": "core",
+      "notes": "〈人工智慧工業應用〉博雅向度五",
+      "source_page": 1,
+      "evidence_match": true,
+      "validation_status": "needs_course_code_verification",
+      "uncertainty_reason": "Official PDF table does not provide a course code"
+    },
+    {
+      "course_code": null,
+      "opening_units": [
+        "教育部 AI聯盟",
+        "博雅中心"
+      ],
+      "opening_unit_snapshot": "教育部 AI聯盟 / 博雅中心",
+      "course_name_snapshot": "生成式人工智慧與機器學習導論",
+      "credits_snapshot": 3.0,
+      "requirement_group": "core",
+      "notes": "〈人工智慧工業應用〉〈人工智慧視覺技術〉博雅向度五",
+      "source_page": 1,
+      "evidence_match": true,
+      "validation_status": "needs_course_code_verification",
+      "uncertainty_reason": "Official PDF table does not provide a course code"
+    },
+    {
+      "course_code": null,
+      "opening_units": [
+        "教育部AI 聯盟",
+        "博雅中心"
+      ],
+      "opening_unit_snapshot": "教育部AI 聯盟 / 博雅中心",
+      "course_name_snapshot": "機率與統計",
+      "credits_snapshot": 3.0,
+      "requirement_group": "core",
+      "notes": "〈人工智慧探索應用〉博雅向度五",
+      "source_page": 1,
+      "evidence_match": true,
+      "validation_status": "needs_course_code_verification",
+      "uncertainty_reason": "Official PDF table does not provide a course code"
+    },
+    {
+      "course_code": null,
+      "opening_units": [
+        "教育部AI 聯盟",
+        "博雅中心"
+      ],
+      "opening_unit_snapshot": "教育部AI 聯盟 / 博雅中心",
+      "course_name_snapshot": "生成式人工智慧的人文導論",
+      "credits_snapshot": 3.0,
+      "requirement_group": "core",
+      "notes": "〈人工智慧自然語言技術〉博雅向度四",
+      "source_page": 1,
+      "evidence_match": true,
+      "validation_status": "needs_course_code_verification",
+      "uncertainty_reason": "Official PDF table does not provide a course code"
+    },
+    {
+      "course_code": null,
+      "opening_units": [
+        "教育部AI 聯盟",
+        "博雅中心"
+      ],
+      "opening_unit_snapshot": "教育部AI 聯盟 / 博雅中心",
+      "course_name_snapshot": "生成式AI:文字與圖像生成的原理與實務",
+      "credits_snapshot": 3.0,
+      "requirement_group": "core",
+      "notes": "〈人工智慧自然語言技術〉博雅向度四",
+      "source_page": 1,
+      "evidence_match": false,
+      "validation_status": "needs_course_code_verification",
+      "uncertainty_reason": "Official PDF table does not provide a course code"
+    },
+    {
+      "course_code": null,
+      "opening_units": [
+        "教育部AI 聯盟",
+        "博雅中心"
+      ],
+      "opening_unit_snapshot": "教育部AI 聯盟 / 博雅中心",
+      "course_name_snapshot": "人工智慧倫理",
+      "credits_snapshot": 3.0,
+      "requirement_group": "core",
+      "notes": "〈人工智慧探索應用〉〈人工智慧工業應用〉〈人工智慧自然語言技術〉〈人工智慧視覺技術〉博雅向度二",
+      "source_page": 1,
+      "evidence_match": true,
+      "validation_status": "needs_course_code_verification",
+      "uncertainty_reason": "Official PDF table does not provide a course code"
+    },
+    {
+      "course_code": null,
+      "opening_units": [
+        "教育部AI 聯盟"
+      ],
+      "opening_unit_snapshot": "教育部AI 聯盟",
+      "course_name_snapshot": "深度學習",
+      "credits_snapshot": 3.0,
+      "requirement_group": "core",
+      "notes": "〈人工智慧視覺技術〉",
+      "source_page": 1,
+      "evidence_match": true,
+      "validation_status": "needs_course_code_verification",
+      "uncertainty_reason": "Official PDF table does not provide a course code"
+    },
+    {
+      "course_code": null,
+      "opening_units": [
+        "教育部AI 聯盟"
+      ],
+      "opening_unit_snapshot": "教育部AI 聯盟",
+      "course_name_snapshot": "機器導航與探索",
+      "credits_snapshot": 3.0,
+      "requirement_group": "core",
+      "notes": "〈人工智慧探索應用〉〈人工智慧工業應用〉〈人工智慧視覺技術〉",
+      "source_page": 1,
+      "evidence_match": true,
+      "validation_status": "needs_course_code_verification",
+      "uncertainty_reason": "Official PDF table does not provide a course code"
+    },
+    {
+      "course_code": null,
+      "opening_units": [
+        "跨校選課"
+      ],
+      "opening_unit_snapshot": "跨校選課",
+      "course_name_snapshot": "人類與AI 的未來合作",
+      "credits_snapshot": 2.0,
+      "requirement_group": "elective",
+      "notes": "高醫開設",
+      "source_page": 2,
+      "evidence_match": true,
+      "validation_status": "needs_course_code_verification",
+      "uncertainty_reason": "Official PDF table does not provide a course code"
+    },
+    {
+      "course_code": null,
+      "opening_units": [
+        "跨校選課"
+      ],
+      "opening_unit_snapshot": "跨校選課",
+      "course_name_snapshot": "人工智慧概論與醫療應用",
+      "credits_snapshot": 2.0,
+      "requirement_group": "elective",
+      "notes": "高醫開設",
+      "source_page": 2,
+      "evidence_match": true,
+      "validation_status": "needs_course_code_verification",
+      "uncertainty_reason": "Official PDF table does not provide a course code"
+    },
+    {
+      "course_code": null,
+      "opening_units": [
+        "博雅中心"
+      ],
+      "opening_unit_snapshot": "博雅中心",
+      "course_name_snapshot": "智慧農業",
+      "credits_snapshot": 3.0,
+      "requirement_group": "elective",
+      "notes": "博雅向度六",
+      "source_page": 2,
+      "evidence_match": true,
+      "validation_status": "needs_course_code_verification",
+      "uncertainty_reason": "Official PDF table does not provide a course code"
+    },
+    {
+      "course_code": null,
+      "opening_units": [
+        "博雅中心"
+      ],
+      "opening_unit_snapshot": "博雅中心",
+      "course_name_snapshot": "科學的本質",
+      "credits_snapshot": 2.0,
+      "requirement_group": "elective",
+      "notes": "博雅向度五",
+      "source_page": 2,
+      "evidence_match": true,
+      "validation_status": "needs_course_code_verification",
+      "uncertainty_reason": "Official PDF table does not provide a course code"
+    },
+    {
+      "course_code": null,
+      "opening_units": [
+        "博雅中心"
+      ],
+      "opening_unit_snapshot": "博雅中心",
+      "course_name_snapshot": "烹飪與科學",
+      "credits_snapshot": 2.0,
+      "requirement_group": "elective",
+      "notes": "博雅向度五",
+      "source_page": 2,
+      "evidence_match": true,
+      "validation_status": "needs_course_code_verification",
+      "uncertainty_reason": "Official PDF table does not provide a course code"
+    },
+    {
+      "course_code": null,
+      "opening_units": [
+        "博雅中心"
+      ],
+      "opening_unit_snapshot": "博雅中心",
+      "course_name_snapshot": "創新科技應用服務",
+      "credits_snapshot": 3.0,
+      "requirement_group": "elective",
+      "notes": "博雅向度四",
+      "source_page": 2,
+      "evidence_match": true,
+      "validation_status": "needs_course_code_verification",
+      "uncertainty_reason": "Official PDF table does not provide a course code"
+    },
+    {
+      "course_code": null,
+      "opening_units": [
+        "博雅中心"
+      ],
+      "opening_unit_snapshot": "博雅中心",
+      "course_name_snapshot": "故事創意與 AI 繪本創作",
+      "credits_snapshot": 3.0,
+      "requirement_group": "elective",
+      "notes": "博雅向度四",
+      "source_page": 2,
+      "evidence_match": true,
+      "validation_status": "needs_course_code_verification",
+      "uncertainty_reason": "Official PDF table does not provide a course code"
+    },
+    {
+      "course_code": null,
+      "opening_units": [
+        "博雅中心"
+      ],
+      "opening_unit_snapshot": "博雅中心",
+      "course_name_snapshot": "社會文化分析",
+      "credits_snapshot": 3.0,
+      "requirement_group": "elective",
+      "notes": "博雅向度三",
+      "source_page": 2,
+      "evidence_match": true,
+      "validation_status": "needs_course_code_verification",
+      "uncertainty_reason": "Official PDF table does not provide a course code"
+    },
+    {
+      "course_code": null,
+      "opening_units": [
+        "博雅中心"
+      ],
+      "opening_unit_snapshot": "博雅中心",
+      "course_name_snapshot": "視覺文化與哲學反思",
+      "credits_snapshot": 3.0,
+      "requirement_group": "elective",
+      "notes": "博雅向度二",
+      "source_page": 2,
+      "evidence_match": true,
+      "validation_status": "needs_course_code_verification",
+      "uncertainty_reason": "Official PDF table does not provide a course code"
+    },
+    {
+      "course_code": null,
+      "opening_units": [
+        "博雅中心"
+      ],
+      "opening_unit_snapshot": "博雅中心",
+      "course_name_snapshot": "普世人權:觀念與挑戰",
+      "credits_snapshot": 3.0,
+      "requirement_group": "elective",
+      "notes": "博雅向度二",
+      "source_page": 2,
+      "evidence_match": true,
+      "validation_status": "needs_course_code_verification",
+      "uncertainty_reason": "Official PDF table does not provide a course code"
+    },
+    {
+      "course_code": null,
+      "opening_units": [
+        "博雅中心"
+      ],
+      "opening_unit_snapshot": "博雅中心",
+      "course_name_snapshot": "邏輯推理與創造性思維",
+      "credits_snapshot": 3.0,
+      "requirement_group": "elective",
+      "notes": "博雅向度二",
+      "source_page": 2,
+      "evidence_match": true,
+      "validation_status": "needs_course_code_verification",
+      "uncertainty_reason": "Official PDF table does not provide a course code"
+    },
+    {
+      "course_code": null,
+      "opening_units": [
+        "博雅中心"
+      ],
+      "opening_unit_snapshot": "博雅中心",
+      "course_name_snapshot": "從國際新聞學人文地理",
+      "credits_snapshot": 3.0,
+      "requirement_group": "elective",
+      "notes": "博雅向度一",
+      "source_page": 2,
+      "evidence_match": true,
+      "validation_status": "needs_course_code_verification",
+      "uncertainty_reason": "Official PDF table does not provide a course code"
+    },
+    {
+      "course_code": null,
+      "opening_units": [
+        "博雅中心"
+      ],
+      "opening_unit_snapshot": "博雅中心",
+      "course_name_snapshot": "莎劇與文化詮釋",
+      "credits_snapshot": 3.0,
+      "requirement_group": "elective",
+      "notes": "博雅向度一",
+      "source_page": 2,
+      "evidence_match": true,
+      "validation_status": "needs_course_code_verification",
+      "uncertainty_reason": "Official PDF table does not provide a course code"
+    },
+    {
+      "course_code": null,
+      "opening_units": [
+        "基礎中心"
+      ],
+      "opening_unit_snapshot": "基礎中心",
+      "course_name_snapshot": "玩轉AIoT:智慧生活應用",
+      "credits_snapshot": 3.0,
+      "requirement_group": "elective",
+      "notes": "跨院(通)",
+      "source_page": 2,
+      "evidence_match": true,
+      "validation_status": "needs_course_code_verification",
+      "uncertainty_reason": "Official PDF table does not provide a course code"
+    },
+    {
+      "course_code": null,
+      "opening_units": [
+        "基礎中心"
+      ],
+      "opening_unit_snapshot": "基礎中心",
+      "course_name_snapshot": "R程式語言入門",
+      "credits_snapshot": 3.0,
+      "requirement_group": "elective",
+      "notes": "跨院(醫)",
+      "source_page": 2,
+      "evidence_match": true,
+      "validation_status": "needs_course_code_verification",
+      "uncertainty_reason": "Official PDF table does not provide a course code"
+    },
+    {
+      "course_code": null,
+      "opening_units": [
+        "基礎中心"
+      ],
+      "opening_unit_snapshot": "基礎中心",
+      "course_name_snapshot": "機率與統計",
+      "credits_snapshot": 3.0,
+      "requirement_group": "elective",
+      "notes": "跨院(工)",
+      "source_page": 2,
+      "evidence_match": true,
+      "validation_status": "needs_course_code_verification",
+      "uncertainty_reason": "Official PDF table does not provide a course code"
+    }
+  ],
+  "structured_requirements": {
+    "core_credits_text_value": 3,
+    "minimum_total_credits": 9,
+    "minimum_outside_home_department_credits": 3
+  }
+}

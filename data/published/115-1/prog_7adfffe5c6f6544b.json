@@ -1,0 +1,961 @@
+{
+  "program_id": "prog_7adfffe5c6f6544b",
+  "name_zh": "生物多樣性學程",
+  "name_en": null,
+  "previous_names": [],
+  "type": "integrated_program",
+  "status": "active",
+  "description": "本學程的規劃提供給全校不限生物相關科系的學生來修習。核心課程涵蓋了生物多樣性的基礎概念、生態學的基本知識、生態工程、生物保育、經營管理與永續利用。學生由修習核心課程建立基礎觀念後,則可由學生個人的興趣及專長,在本學程規劃的四個分組中,選修一主修組。",
+  "responsible_unit": "海科系",
+  "coordinator": "廖德裕教授",
+  "program_website": "https://a97290927.wixsite.com/biodiversity",
+  "source_pdf": "http://140.117.153.69/ctdr/files/20230612093634154.pdf",
+  "academic_version": "115-1",
+  "source": {
+    "catalog_url": "https://ctdr.nsysu.edu.tw/class2.php",
+    "pdf_url": "http://140.117.153.69/ctdr/files/20230612093634154.pdf",
+    "retrieved_at": "2026-08-15T10:05:39Z",
+    "pdf_binary_sha256": "8398608ba98ddfca2e4c739314daf6672d2e6804be8cd6bf67ba9a9a37701693",
+    "normalized_text_sha256": "e78c452e880385b0093ba81e313715e3bcb115e2b1edcb748740644f603c01a6",
+    "http": {
+      "status": 200,
+      "etag": "\"4268a-5fde4bfb408d3\"",
+      "last_modified": "Mon, 12 Jun 2023 01:36:34 GMT",
+      "content_length": 272010
+    },
+    "parser_version": "0.1.0"
+  },
+  "review_status": "needs_review",
+  "rules": {
+    "kind": "manual_review",
+    "reason": "Extracted candidate awaits approval"
+  },
+  "warnings": [
+    "No structured course rows extracted from PDF tables"
+  ],
+  "selected_pdf_academic_version": "107-1",
+  "course_catalog": [
+    {
+      "course_code": null,
+      "opening_units": [
+        "通識教育中心"
+      ],
+      "opening_unit_snapshot": "通識教育中心",
+      "course_name_snapshot": "生物多樣性的世界(A)(B)",
+      "credits_snapshot": 2.0,
+      "requirement_group": "core",
+      "notes": "",
+      "source_page": 1,
+      "evidence_match": true,
+      "validation_status": "needs_course_code_verification",
+      "uncertainty_reason": "Official PDF table does not provide a course code"
+    },
+    {
+      "course_code": null,
+      "opening_units": [
+        "高醫生物系通識中心"
+      ],
+      "opening_unit_snapshot": "高醫生物系通識中心",
+      "course_name_snapshot": "生物多樣性導論",
+      "credits_snapshot": 2.0,
+      "requirement_group": "core",
+      "notes": "",
+      "source_page": 1,
+      "evidence_match": true,
+      "validation_status": "needs_course_code_verification",
+      "uncertainty_reason": "Official PDF table does not provide a course code"
+    },
+    {
+      "course_code": null,
+      "opening_units": [
+        "生科系"
+      ],
+      "opening_unit_snapshot": "生科系",
+      "course_name_snapshot": "生態學",
+      "credits_snapshot": 3.0,
+      "requirement_group": "core",
+      "notes": "",
+      "source_page": 1,
+      "evidence_match": true,
+      "validation_status": "needs_course_code_verification",
+      "uncertainty_reason": "Official PDF table does not provide a course code"
+    },
+    {
+      "course_code": null,
+      "opening_units": [
+        "海資系"
+      ],
+      "opening_unit_snapshot": "海資系",
+      "course_name_snapshot": "生態學",
+      "credits_snapshot": 2.0,
+      "requirement_group": "core",
+      "notes": "",
+      "source_page": 1,
+      "evidence_match": true,
+      "validation_status": "needs_course_code_verification",
+      "uncertainty_reason": "Official PDF table does not provide a course code"
+    },
+    {
+      "course_code": null,
+      "opening_units": [
+        "高醫生物醫學暨環境生物學系"
+      ],
+      "opening_unit_snapshot": "高醫生物醫學暨環境生物學系",
+      "course_name_snapshot": "生態學",
+      "credits_snapshot": 3.0,
+      "requirement_group": "core",
+      "notes": "",
+      "source_page": 1,
+      "evidence_match": true,
+      "validation_status": "needs_course_code_verification",
+      "uncertainty_reason": "Official PDF table does not provide a course code"
+    },
+    {
+      "course_code": null,
+      "opening_units": [
+        "通識教育中心"
+      ],
+      "opening_unit_snapshot": "通識教育中心",
+      "course_name_snapshot": "演化生態學",
+      "credits_snapshot": 2.0,
+      "requirement_group": "core",
+      "notes": "",
+      "source_page": 1,
+      "evidence_match": true,
+      "validation_status": "needs_course_code_verification",
+      "uncertainty_reason": "Official PDF table does not provide a course code"
+    },
+    {
+      "course_code": null,
+      "opening_units": [
+        "海科碩"
+      ],
+      "opening_unit_snapshot": "海科碩",
+      "course_name_snapshot": "海洋生態學",
+      "credits_snapshot": 3.0,
+      "requirement_group": "core",
+      "notes": "",
+      "source_page": 1,
+      "evidence_match": true,
+      "validation_status": "needs_course_code_verification",
+      "uncertainty_reason": "Official PDF table does not provide a course code"
+    },
+    {
+      "course_code": null,
+      "opening_units": [
+        "海資系"
+      ],
+      "opening_unit_snapshot": "海資系",
+      "course_name_snapshot": "海洋生態學",
+      "credits_snapshot": 2.0,
+      "requirement_group": "core",
+      "notes": "",
+      "source_page": 1,
+      "evidence_match": true,
+      "validation_status": "needs_course_code_verification",
+      "uncertainty_reason": "Official PDF table does not provide a course code"
+    },
+    {
+      "course_code": null,
+      "opening_units": [
+        "海科系"
+      ],
+      "opening_unit_snapshot": "海科系",
+      "course_name_snapshot": "基礎海洋生態學",
+      "credits_snapshot": 2.0,
+      "requirement_group": "core",
+      "notes": "",
+      "source_page": 1,
+      "evidence_match": true,
+      "validation_status": "needs_course_code_verification",
+      "uncertainty_reason": "Official PDF table does not provide a course code"
+    },
+    {
+      "course_code": null,
+      "opening_units": [
+        "海工系"
+      ],
+      "opening_unit_snapshot": "海工系",
+      "course_name_snapshot": "海洋生態學",
+      "credits_snapshot": 1.5,
+      "requirement_group": "core",
+      "notes": "",
+      "source_page": 1,
+      "evidence_match": true,
+      "validation_status": "needs_course_code_verification",
+      "uncertainty_reason": "Official PDF table does not provide a course code"
+    },
+    {
+      "course_code": null,
+      "opening_units": [
+        "通識教育中心"
+      ],
+      "opening_unit_snapshot": "通識教育中心",
+      "course_name_snapshot": "服務學習(三):臺灣獼猴生態宣導",
+      "credits_snapshot": 1.0,
+      "requirement_group": "core",
+      "notes": "",
+      "source_page": 1,
+      "evidence_match": true,
+      "validation_status": "needs_course_code_verification",
+      "uncertainty_reason": "Official PDF table does not provide a course code"
+    },
+    {
+      "course_code": null,
+      "opening_units": [
+        "通識教育中心"
+      ],
+      "opening_unit_snapshot": "通識教育中心",
+      "course_name_snapshot": "服務學習(三):海洋資源實務應用",
+      "credits_snapshot": 1.0,
+      "requirement_group": "core",
+      "notes": "",
+      "source_page": 1,
+      "evidence_match": true,
+      "validation_status": "needs_course_code_verification",
+      "uncertainty_reason": "Official PDF table does not provide a course code"
+    },
+    {
+      "course_code": null,
+      "opening_units": [
+        "通識教育中心"
+      ],
+      "opening_unit_snapshot": "通識教育中心",
+      "course_name_snapshot": "服務學習(三):環境教育服務與推廣",
+      "credits_snapshot": 1.0,
+      "requirement_group": "core",
+      "notes": "",
+      "source_page": 1,
+      "evidence_match": true,
+      "validation_status": "needs_course_code_verification",
+      "uncertainty_reason": "Official PDF table does not provide a course code"
+    },
+    {
+      "course_code": null,
+      "opening_units": [
+        "通識教育中心"
+      ],
+      "opening_unit_snapshot": "通識教育中心",
+      "course_name_snapshot": "服務學習(三):尋找小櫻",
+      "credits_snapshot": 1.0,
+      "requirement_group": "core",
+      "notes": "",
+      "source_page": 1,
+      "evidence_match": true,
+      "validation_status": "needs_course_code_verification",
+      "uncertainty_reason": "Official PDF table does not provide a course code"
+    },
+    {
+      "course_code": null,
+      "opening_units": [
+        "海科系"
+      ],
+      "opening_unit_snapshot": "海科系",
+      "course_name_snapshot": "生物多樣性行動技能建立",
+      "credits_snapshot": 2.0,
+      "requirement_group": "core",
+      "notes": "",
+      "source_page": 1,
+      "evidence_match": true,
+      "validation_status": "needs_course_code_verification",
+      "uncertainty_reason": "Official PDF table does not provide a course code"
+    },
+    {
+      "course_code": null,
+      "opening_units": [
+        "生科系"
+      ],
+      "opening_unit_snapshot": "生科系",
+      "course_name_snapshot": "本地植物學",
+      "credits_snapshot": 3.0,
+      "requirement_group": "elective",
+      "notes": "",
+      "source_page": 1,
+      "evidence_match": true,
+      "validation_status": "needs_course_code_verification",
+      "uncertainty_reason": "Official PDF table does not provide a course code"
+    },
+    {
+      "course_code": null,
+      "opening_units": [
+        "通識教育中心"
+      ],
+      "opening_unit_snapshot": "通識教育中心",
+      "course_name_snapshot": "本地植物學",
+      "credits_snapshot": 2.0,
+      "requirement_group": "elective",
+      "notes": "",
+      "source_page": 1,
+      "evidence_match": true,
+      "validation_status": "needs_course_code_verification",
+      "uncertainty_reason": "Official PDF table does not provide a course code"
+    },
+    {
+      "course_code": null,
+      "opening_units": [
+        "生科系"
+      ],
+      "opening_unit_snapshot": "生科系",
+      "course_name_snapshot": "植物分類學",
+      "credits_snapshot": 3.0,
+      "requirement_group": "elective",
+      "notes": "",
+      "source_page": 1,
+      "evidence_match": true,
+      "validation_status": "needs_course_code_verification",
+      "uncertainty_reason": "Official PDF table does not provide a course code"
+    },
+    {
+      "course_code": null,
+      "opening_units": [
+        "生科系"
+      ],
+      "opening_unit_snapshot": "生科系",
+      "course_name_snapshot": "水生植物學",
+      "credits_snapshot": 2.0,
+      "requirement_group": "elective",
+      "notes": "",
+      "source_page": 1,
+      "evidence_match": true,
+      "validation_status": "needs_course_code_verification",
+      "uncertainty_reason": "Official PDF table does not provide a course code"
+    },
+    {
+      "course_code": null,
+      "opening_units": [
+        "生科系"
+      ],
+      "opening_unit_snapshot": "生科系",
+      "course_name_snapshot": "植物地理學",
+      "credits_snapshot": 2.0,
+      "requirement_group": "elective",
+      "notes": "",
+      "source_page": 1,
+      "evidence_match": true,
+      "validation_status": "needs_course_code_verification",
+      "uncertainty_reason": "Official PDF table does not provide a course code"
+    },
+    {
+      "course_code": null,
+      "opening_units": [
+        "海資系"
+      ],
+      "opening_unit_snapshot": "海資系",
+      "course_name_snapshot": "魚類學",
+      "credits_snapshot": 2.0,
+      "requirement_group": "elective",
+      "notes": "",
+      "source_page": 1,
+      "evidence_match": true,
+      "validation_status": "needs_course_code_verification",
+      "uncertainty_reason": "Official PDF table does not provide a course code"
+    },
+    {
+      "course_code": null,
+      "opening_units": [
+        "海資系"
+      ],
+      "opening_unit_snapshot": "海資系",
+      "course_name_snapshot": "魚類學實驗",
+      "credits_snapshot": 1.0,
+      "requirement_group": "elective",
+      "notes": "",
+      "source_page": 1,
+      "evidence_match": true,
+      "validation_status": "needs_course_code_verification",
+      "uncertainty_reason": "Official PDF table does not provide a course code"
+    },
+    {
+      "course_code": null,
+      "opening_units": [
+        "海資系"
+      ],
+      "opening_unit_snapshot": "海資系",
+      "course_name_snapshot": "海洋無脊椎動物學(一)",
+      "credits_snapshot": 2.0,
+      "requirement_group": "elective",
+      "notes": "",
+      "source_page": 1,
+      "evidence_match": true,
+      "validation_status": "needs_course_code_verification",
+      "uncertainty_reason": "Official PDF table does not provide a course code"
+    },
+    {
+      "course_code": null,
+      "opening_units": [
+        "海資系"
+      ],
+      "opening_unit_snapshot": "海資系",
+      "course_name_snapshot": "海洋無脊椎動物學(二)",
+      "credits_snapshot": 2.0,
+      "requirement_group": "elective",
+      "notes": "",
+      "source_page": 1,
+      "evidence_match": true,
+      "validation_status": "needs_course_code_verification",
+      "uncertainty_reason": "Official PDF table does not provide a course code"
+    },
+    {
+      "course_code": null,
+      "opening_units": [
+        "生科系"
+      ],
+      "opening_unit_snapshot": "生科系",
+      "course_name_snapshot": "無脊椎動物學",
+      "credits_snapshot": 3.0,
+      "requirement_group": "elective",
+      "notes": "",
+      "source_page": 1,
+      "evidence_match": true,
+      "validation_status": "needs_course_code_verification",
+      "uncertainty_reason": "Official PDF table does not provide a course code"
+    },
+    {
+      "course_code": null,
+      "opening_units": [
+        "生科系"
+      ],
+      "opening_unit_snapshot": "生科系",
+      "course_name_snapshot": "無脊椎動物學實驗",
+      "credits_snapshot": 1.0,
+      "requirement_group": "elective",
+      "notes": "",
+      "source_page": 1,
+      "evidence_match": true,
+      "validation_status": "needs_course_code_verification",
+      "uncertainty_reason": "Official PDF table does not provide a course code"
+    },
+    {
+      "course_code": null,
+      "opening_units": [
+        "海資碩"
+      ],
+      "opening_unit_snapshot": "海資碩",
+      "course_name_snapshot": "生物海洋學",
+      "credits_snapshot": 2.0,
+      "requirement_group": "elective",
+      "notes": "",
+      "source_page": 2,
+      "evidence_match": true,
+      "validation_status": "needs_course_code_verification",
+      "uncertainty_reason": "Official PDF table does not provide a course code"
+    },
+    {
+      "course_code": null,
+      "opening_units": [
+        "海資系"
+      ],
+      "opening_unit_snapshot": "海資系",
+      "course_name_snapshot": "動物性浮游生物學",
+      "credits_snapshot": 2.0,
+      "requirement_group": "elective",
+      "notes": "",
+      "source_page": 2,
+      "evidence_match": true,
+      "validation_status": "needs_course_code_verification",
+      "uncertainty_reason": "Official PDF table does not provide a course code"
+    },
+    {
+      "course_code": null,
+      "opening_units": [
+        "海資系"
+      ],
+      "opening_unit_snapshot": "海資系",
+      "course_name_snapshot": "動物性浮游生物學實驗",
+      "credits_snapshot": 1.0,
+      "requirement_group": "elective",
+      "notes": "",
+      "source_page": 2,
+      "evidence_match": true,
+      "validation_status": "needs_course_code_verification",
+      "uncertainty_reason": "Official PDF table does not provide a course code"
+    },
+    {
+      "course_code": null,
+      "opening_units": [
+        "海科系"
+      ],
+      "opening_unit_snapshot": "海科系",
+      "course_name_snapshot": "海洋脊椎動物學",
+      "credits_snapshot": 3.0,
+      "requirement_group": "elective",
+      "notes": "",
+      "source_page": 2,
+      "evidence_match": true,
+      "validation_status": "needs_course_code_verification",
+      "uncertainty_reason": "Official PDF table does not provide a course code"
+    },
+    {
+      "course_code": null,
+      "opening_units": [
+        "海科碩"
+      ],
+      "opening_unit_snapshot": "海科碩",
+      "course_name_snapshot": "魚類學",
+      "credits_snapshot": 2.0,
+      "requirement_group": "elective",
+      "notes": "",
+      "source_page": 2,
+      "evidence_match": true,
+      "validation_status": "needs_course_code_verification",
+      "uncertainty_reason": "Official PDF table does not provide a course code"
+    },
+    {
+      "course_code": null,
+      "opening_units": [
+        "海科碩"
+      ],
+      "opening_unit_snapshot": "海科碩",
+      "course_name_snapshot": "魚類分類學",
+      "credits_snapshot": 2.0,
+      "requirement_group": "elective",
+      "notes": "",
+      "source_page": 2,
+      "evidence_match": true,
+      "validation_status": "needs_course_code_verification",
+      "uncertainty_reason": "Official PDF table does not provide a course code"
+    },
+    {
+      "course_code": null,
+      "opening_units": [
+        "海科碩"
+      ],
+      "opening_unit_snapshot": "海科碩",
+      "course_name_snapshot": "軟體動物學",
+      "credits_snapshot": 3.0,
+      "requirement_group": "elective",
+      "notes": "",
+      "source_page": 2,
+      "evidence_match": true,
+      "validation_status": "needs_course_code_verification",
+      "uncertainty_reason": "Official PDF table does not provide a course code"
+    },
+    {
+      "course_code": null,
+      "opening_units": [
+        "海資碩"
+      ],
+      "opening_unit_snapshot": "海資碩",
+      "course_name_snapshot": "海洋生物生理生態學",
+      "credits_snapshot": 2.0,
+      "requirement_group": "elective",
+      "notes": "",
+      "source_page": 2,
+      "evidence_match": true,
+      "validation_status": "needs_course_code_verification",
+      "uncertainty_reason": "Official PDF table does not provide a course code"
+    },
+    {
+      "course_code": null,
+      "opening_units": [
+        "海資碩"
+      ],
+      "opening_unit_snapshot": "海資碩",
+      "course_name_snapshot": "浮游生物生態學",
+      "credits_snapshot": 2.0,
+      "requirement_group": "elective",
+      "notes": "",
+      "source_page": 2,
+      "evidence_match": true,
+      "validation_status": "needs_course_code_verification",
+      "uncertainty_reason": "Official PDF table does not provide a course code"
+    },
+    {
+      "course_code": null,
+      "opening_units": [
+        "生科系"
+      ],
+      "opening_unit_snapshot": "生科系",
+      "course_name_snapshot": "昆蟲學",
+      "credits_snapshot": 3.0,
+      "requirement_group": "elective",
+      "notes": "",
+      "source_page": 2,
+      "evidence_match": true,
+      "validation_status": "needs_course_code_verification",
+      "uncertainty_reason": "Official PDF table does not provide a course code"
+    },
+    {
+      "course_code": null,
+      "opening_units": [
+        "高醫生物醫學暨環境生物學系"
+      ],
+      "opening_unit_snapshot": "高醫生物醫學暨環境生物學系",
+      "course_name_snapshot": "鳥類學",
+      "credits_snapshot": 2.0,
+      "requirement_group": "elective",
+      "notes": "",
+      "source_page": 2,
+      "evidence_match": true,
+      "validation_status": "needs_course_code_verification",
+      "uncertainty_reason": "Official PDF table does not provide a course code"
+    },
+    {
+      "course_code": null,
+      "opening_units": [
+        "高醫生物醫學暨環境生物學系"
+      ],
+      "opening_unit_snapshot": "高醫生物醫學暨環境生物學系",
+      "course_name_snapshot": "鳥類學實習",
+      "credits_snapshot": 1.0,
+      "requirement_group": "elective",
+      "notes": "",
+      "source_page": 2,
+      "evidence_match": true,
+      "validation_status": "needs_course_code_verification",
+      "uncertainty_reason": "Official PDF table does not provide a course code"
+    },
+    {
+      "course_code": null,
+      "opening_units": [
+        "生科碩"
+      ],
+      "opening_unit_snapshot": "生科碩",
+      "course_name_snapshot": "植群生態學",
+      "credits_snapshot": 3.0,
+      "requirement_group": "elective",
+      "notes": "",
+      "source_page": 2,
+      "evidence_match": true,
+      "validation_status": "needs_course_code_verification",
+      "uncertainty_reason": "Official PDF table does not provide a course code"
+    },
+    {
+      "course_code": null,
+      "opening_units": [
+        "生科碩"
+      ],
+      "opening_unit_snapshot": "生科碩",
+      "course_name_snapshot": "生態研究方法",
+      "credits_snapshot": 3.0,
+      "requirement_group": "elective",
+      "notes": "",
+      "source_page": 2,
+      "evidence_match": true,
+      "validation_status": "needs_course_code_verification",
+      "uncertainty_reason": "Official PDF table does not provide a course code"
+    },
+    {
+      "course_code": null,
+      "opening_units": [
+        "生科碩"
+      ],
+      "opening_unit_snapshot": "生科碩",
+      "course_name_snapshot": "演化生物學",
+      "credits_snapshot": 3.0,
+      "requirement_group": "elective",
+      "notes": "",
+      "source_page": 2,
+      "evidence_match": true,
+      "validation_status": "needs_course_code_verification",
+      "uncertainty_reason": "Official PDF table does not provide a course code"
+    },
+    {
+      "course_code": null,
+      "opening_units": [
+        "生科系"
+      ],
+      "opening_unit_snapshot": "生科系",
+      "course_name_snapshot": "生物多樣性與保育",
+      "credits_snapshot": 2.0,
+      "requirement_group": "elective",
+      "notes": "",
+      "source_page": 2,
+      "evidence_match": true,
+      "validation_status": "needs_course_code_verification",
+      "uncertainty_reason": "Official PDF table does not provide a course code"
+    },
+    {
+      "course_code": null,
+      "opening_units": [
+        "通識教育中心"
+      ],
+      "opening_unit_snapshot": "通識教育中心",
+      "course_name_snapshot": "環境變遷與生態保育",
+      "credits_snapshot": 2.0,
+      "requirement_group": "elective",
+      "notes": "",
+      "source_page": 2,
+      "evidence_match": true,
+      "validation_status": "needs_course_code_verification",
+      "uncertainty_reason": "Official PDF table does not provide a course code"
+    },
+    {
+      "course_code": null,
+      "opening_units": [
+        "通識教育中心"
+      ],
+      "opening_unit_snapshot": "通識教育中心",
+      "course_name_snapshot": "海洋永續:海洋文學與海洋科學的生態對話",
+      "credits_snapshot": 2.0,
+      "requirement_group": "elective",
+      "notes": "",
+      "source_page": 2,
+      "evidence_match": false,
+      "validation_status": "needs_course_code_verification",
+      "uncertainty_reason": "Official PDF table does not provide a course code"
+    },
+    {
+      "course_code": null,
+      "opening_units": [
+        "海資系"
+      ],
+      "opening_unit_snapshot": "海資系",
+      "course_name_snapshot": "海洋生物多樣性導論",
+      "credits_snapshot": 2.0,
+      "requirement_group": "elective",
+      "notes": "",
+      "source_page": 2,
+      "evidence_match": true,
+      "validation_status": "needs_course_code_verification",
+      "uncertainty_reason": "Official PDF table does not provide a course code"
+    },
+    {
+      "course_code": null,
+      "opening_units": [
+        "海資系"
+      ],
+      "opening_unit_snapshot": "海資系",
+      "course_name_snapshot": "海洋生物學概論",
+      "credits_snapshot": 2.0,
+      "requirement_group": "elective",
+      "notes": "",
+      "source_page": 2,
+      "evidence_match": true,
+      "validation_status": "needs_course_code_verification",
+      "uncertainty_reason": "Official PDF table does not provide a course code"
+    },
+    {
+      "course_code": null,
+      "opening_units": [
+        "海工碩"
+      ],
+      "opening_unit_snapshot": "海工碩",
+      "course_name_snapshot": "生態系統及棲地復育生態工程學",
+      "credits_snapshot": 3.0,
+      "requirement_group": "elective",
+      "notes": "",
+      "source_page": 2,
+      "evidence_match": true,
+      "validation_status": "needs_course_code_verification",
+      "uncertainty_reason": "Official PDF table does not provide a course code"
+    },
+    {
+      "course_code": null,
+      "opening_units": [
+        "通識教育中心"
+      ],
+      "opening_unit_snapshot": "通識教育中心",
+      "course_name_snapshot": "海洋生態與海洋科技教育探索",
+      "credits_snapshot": 2.0,
+      "requirement_group": "elective",
+      "notes": "",
+      "source_page": 2,
+      "evidence_match": true,
+      "validation_status": "needs_course_code_verification",
+      "uncertainty_reason": "Official PDF table does not provide a course code"
+    },
+    {
+      "course_code": null,
+      "opening_units": [
+        "海科系",
+        "通識教育中心"
+      ],
+      "opening_unit_snapshot": "海科系 / 通識教育中心",
+      "course_name_snapshot": "海洋科學前沿",
+      "credits_snapshot": 2.0,
+      "requirement_group": "elective",
+      "notes": "",
+      "source_page": 2,
+      "evidence_match": true,
+      "validation_status": "needs_course_code_verification",
+      "uncertainty_reason": "Official PDF table does not provide a course code"
+    },
+    {
+      "course_code": null,
+      "opening_units": [
+        "生科系"
+      ],
+      "opening_unit_snapshot": "生科系",
+      "course_name_snapshot": "植物形態學",
+      "credits_snapshot": 3.0,
+      "requirement_group": "elective",
+      "notes": "",
+      "source_page": 2,
+      "evidence_match": true,
+      "validation_status": "needs_course_code_verification",
+      "uncertainty_reason": "Official PDF table does not provide a course code"
+    },
+    {
+      "course_code": null,
+      "opening_units": [
+        "海科系"
+      ],
+      "opening_unit_snapshot": "海科系",
+      "course_name_snapshot": "海洋生物多樣性與生態",
+      "credits_snapshot": 3.0,
+      "requirement_group": "elective",
+      "notes": "",
+      "source_page": 2,
+      "evidence_match": true,
+      "validation_status": "needs_course_code_verification",
+      "uncertainty_reason": "Official PDF table does not provide a course code"
+    },
+    {
+      "course_code": null,
+      "opening_units": [
+        "海工系"
+      ],
+      "opening_unit_snapshot": "海工系",
+      "course_name_snapshot": "生態工程與實務",
+      "credits_snapshot": 3.0,
+      "requirement_group": "elective",
+      "notes": "",
+      "source_page": 2,
+      "evidence_match": true,
+      "validation_status": "needs_course_code_verification",
+      "uncertainty_reason": "Official PDF table does not provide a course code"
+    },
+    {
+      "course_code": null,
+      "opening_units": [
+        "海資系",
+        "通識教育中心"
+      ],
+      "opening_unit_snapshot": "海資系 / 通識教育中心",
+      "course_name_snapshot": "海洋資源導論",
+      "credits_snapshot": 2.0,
+      "requirement_group": "elective",
+      "notes": "",
+      "source_page": 2,
+      "evidence_match": true,
+      "validation_status": "needs_course_code_verification",
+      "uncertainty_reason": "Official PDF table does not provide a course code"
+    },
+    {
+      "course_code": null,
+      "opening_units": [
+        "海資碩"
+      ],
+      "opening_unit_snapshot": "海資碩",
+      "course_name_snapshot": "海洋生物多樣性與保育(一)",
+      "credits_snapshot": 2.0,
+      "requirement_group": "elective",
+      "notes": "",
+      "source_page": 2,
+      "evidence_match": true,
+      "validation_status": "needs_course_code_verification",
+      "uncertainty_reason": "Official PDF table does not provide a course code"
+    },
+    {
+      "course_code": null,
+      "opening_units": [
+        "海事碩"
+      ],
+      "opening_unit_snapshot": "海事碩",
+      "course_name_snapshot": "漁業生態",
+      "credits_snapshot": 3.0,
+      "requirement_group": "elective",
+      "notes": "",
+      "source_page": 2,
+      "evidence_match": true,
+      "validation_status": "needs_course_code_verification",
+      "uncertainty_reason": "Official PDF table does not provide a course code"
+    },
+    {
+      "course_code": null,
+      "opening_units": [
+        "海科系"
+      ],
+      "opening_unit_snapshot": "海科系",
+      "course_name_snapshot": "海洋生物概論",
+      "credits_snapshot": 2.0,
+      "requirement_group": "elective",
+      "notes": "",
+      "source_page": 2,
+      "evidence_match": true,
+      "validation_status": "needs_course_code_verification",
+      "uncertainty_reason": "Official PDF table does not provide a course code"
+    },
+    {
+      "course_code": null,
+      "opening_units": [
+        "海科系"
+      ],
+      "opening_unit_snapshot": "海科系",
+      "course_name_snapshot": "海洋生物生理學",
+      "credits_snapshot": 3.0,
+      "requirement_group": "elective",
+      "notes": "",
+      "source_page": 2,
+      "evidence_match": true,
+      "validation_status": "needs_course_code_verification",
+      "uncertainty_reason": "Official PDF table does not provide a course code"
+    },
+    {
+      "course_code": null,
+      "opening_units": [
+        "生科系"
+      ],
+      "opening_unit_snapshot": "生科系",
+      "course_name_snapshot": "動植物交互作用生態學",
+      "credits_snapshot": 3.0,
+      "requirement_group": "elective",
+      "notes": "新增(107-1開設)",
+      "source_page": 2,
+      "evidence_match": true,
+      "validation_status": "needs_course_code_verification",
+      "uncertainty_reason": "Official PDF table does not provide a course code"
+    },
+    {
+      "course_code": null,
+      "opening_units": [
+        "生科系"
+      ],
+      "opening_unit_snapshot": "生科系",
+      "course_name_snapshot": "昆蟲生態與行為學",
+      "credits_snapshot": 3.0,
+      "requirement_group": "elective",
+      "notes": "新增(107-1開設)",
+      "source_page": 2,
+      "evidence_match": true,
+      "validation_status": "needs_course_code_verification",
+      "uncertainty_reason": "Official PDF table does not provide a course code"
+    },
+    {
+      "course_code": null,
+      "opening_units": [
+        "生科碩"
+      ],
+      "opening_unit_snapshot": "生科碩",
+      "course_name_snapshot": "群落生態學",
+      "credits_snapshot": 3.0,
+      "requirement_group": "elective",
+      "notes": "新增(107-1開設)",
+      "source_page": 2,
+      "evidence_match": true,
+      "validation_status": "needs_course_code_verification",
+      "uncertainty_reason": "Official PDF table does not provide a course code"
+    },
+    {
+      "course_code": null,
+      "opening_units": [
+        "海資系"
+      ],
+      "opening_unit_snapshot": "海資系",
+      "course_name_snapshot": "應用海洋資源學",
+      "credits_snapshot": 2.0,
+      "requirement_group": "elective",
+      "notes": "新增(107-1開設)",
+      "source_page": 2,
+      "evidence_match": true,
+      "validation_status": "needs_course_code_verification",
+      "uncertainty_reason": "Official PDF table does not provide a course code"
+    }
+  ],
+  "structured_requirements": {
+    "core_credits_text_value": 7,
+    "minimum_total_credits": 15,
+    "minimum_outside_home_department_credits": 6
+  }
+}

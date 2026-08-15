@@ -1,0 +1,195 @@
+{
+  "program_id": "prog_d3197867def757f1",
+  "name_zh": "淨零轉型微學程",
+  "name_en": null,
+  "previous_names": [],
+  "type": "micro_program",
+  "status": "active",
+  "description": "本微學程規劃跨院所科系之課程,內容包含自然碳匯、碳權、溫室氣體盤查、淨零碳規劃等減排相關技術、工具與專業知識,透過課程講授、實作與實務見學等課程設計,從不同面向引導學生瞭解淨零轉型之基礎概念與技術應用。",
+  "responsible_unit": "海工系",
+  "coordinator": "王右仁助理教授",
+  "program_website": "https://pam.nsysu.edu.tw/p/404-1234-348664.php?Lang=zh-tw",
+  "source_pdf": "http://140.117.153.69/ctdr/files/20250527102457902.pdf",
+  "academic_version": "115-1",
+  "source": {
+    "catalog_url": "https://ctdr.nsysu.edu.tw/class2.php",
+    "pdf_url": "http://140.117.153.69/ctdr/files/20250527102457902.pdf",
+    "retrieved_at": "2026-08-15T10:05:39Z",
+    "pdf_binary_sha256": "76cacd0bab0d6af0d6b47163412de91589e5e02e6805969a89e16dac7113eafb",
+    "normalized_text_sha256": "27923a4a94c3c9f43fc2d9736b20e4c9321aa6a948e87e98385758b03c4070f9",
+    "http": {
+      "status": 200,
+      "etag": "\"19a42-63614c550b925\"",
+      "last_modified": "Tue, 27 May 2025 02:24:57 GMT",
+      "content_length": 105026
+    },
+    "parser_version": "0.1.0"
+  },
+  "review_status": "needs_review",
+  "rules": {
+    "kind": "manual_review",
+    "reason": "Extracted candidate awaits approval"
+  },
+  "warnings": [
+    "No structured course rows extracted from PDF tables"
+  ],
+  "selected_pdf_academic_version": "113-2",
+  "course_catalog": [
+    {
+      "course_code": null,
+      "opening_units": [
+        "海工碩"
+      ],
+      "opening_unit_snapshot": "海工碩",
+      "course_name_snapshot": "海洋及森林碳匯與碳權概論",
+      "credits_snapshot": 3.0,
+      "requirement_group": "core",
+      "notes": "",
+      "source_page": 1,
+      "evidence_match": true,
+      "validation_status": "needs_course_code_verification",
+      "uncertainty_reason": "Official PDF table does not provide a course code"
+    },
+    {
+      "course_code": null,
+      "opening_units": [
+        "海事碩"
+      ],
+      "opening_unit_snapshot": "海事碩",
+      "course_name_snapshot": "永續發展",
+      "credits_snapshot": 3.0,
+      "requirement_group": "core",
+      "notes": "",
+      "source_page": 1,
+      "evidence_match": true,
+      "validation_status": "needs_course_code_verification",
+      "uncertainty_reason": "Official PDF table does not provide a course code"
+    },
+    {
+      "course_code": null,
+      "opening_units": [
+        "公事碩"
+      ],
+      "opening_unit_snapshot": "公事碩",
+      "course_name_snapshot": "永續報告書寫作",
+      "credits_snapshot": 2.0,
+      "requirement_group": "core",
+      "notes": "",
+      "source_page": 1,
+      "evidence_match": true,
+      "validation_status": "needs_course_code_verification",
+      "uncertainty_reason": "Official PDF table does not provide a course code"
+    },
+    {
+      "course_code": null,
+      "opening_units": [
+        "公事碩"
+      ],
+      "opening_unit_snapshot": "公事碩",
+      "course_name_snapshot": "溫室氣體盤查報告實作",
+      "credits_snapshot": 2.0,
+      "requirement_group": "core",
+      "notes": "",
+      "source_page": 1,
+      "evidence_match": true,
+      "validation_status": "needs_course_code_verification",
+      "uncertainty_reason": "Official PDF table does not provide a course code"
+    },
+    {
+      "course_code": null,
+      "opening_units": [
+        "公事碩"
+      ],
+      "opening_unit_snapshot": "公事碩",
+      "course_name_snapshot": "新興公共議題研討",
+      "credits_snapshot": 2.0,
+      "requirement_group": "elective",
+      "notes": "",
+      "source_page": 1,
+      "evidence_match": true,
+      "validation_status": "needs_course_code_verification",
+      "uncertainty_reason": "Official PDF table does not provide a course code"
+    },
+    {
+      "course_code": null,
+      "opening_units": [
+        "公事碩"
+      ],
+      "opening_unit_snapshot": "公事碩",
+      "course_name_snapshot": "公共事務專題研究",
+      "credits_snapshot": 2.0,
+      "requirement_group": "elective",
+      "notes": "",
+      "source_page": 1,
+      "evidence_match": true,
+      "validation_status": "needs_course_code_verification",
+      "uncertainty_reason": "Official PDF table does not provide a course code"
+    },
+    {
+      "course_code": null,
+      "opening_units": [
+        "公事碩"
+      ],
+      "opening_unit_snapshot": "公事碩",
+      "course_name_snapshot": "企業社會責任專題",
+      "credits_snapshot": 2.0,
+      "requirement_group": "elective",
+      "notes": "",
+      "source_page": 1,
+      "evidence_match": true,
+      "validation_status": "needs_course_code_verification",
+      "uncertainty_reason": "Official PDF table does not provide a course code"
+    },
+    {
+      "course_code": null,
+      "opening_units": [
+        "企管系",
+        "博雅向度六"
+      ],
+      "opening_unit_snapshot": "企管系 / 博雅向度六",
+      "course_name_snapshot": "淨零碳規劃管理專題講座",
+      "credits_snapshot": 2.0,
+      "requirement_group": "elective",
+      "notes": "新增開課單位",
+      "source_page": 1,
+      "evidence_match": true,
+      "validation_status": "needs_course_code_verification",
+      "uncertainty_reason": "Official PDF table does not provide a course code"
+    },
+    {
+      "course_code": null,
+      "opening_units": [
+        "離岸風電碩"
+      ],
+      "opening_unit_snapshot": "離岸風電碩",
+      "course_name_snapshot": "離岸風電概論",
+      "credits_snapshot": 3.0,
+      "requirement_group": "elective",
+      "notes": "",
+      "source_page": 1,
+      "evidence_match": true,
+      "validation_status": "needs_course_code_verification",
+      "uncertainty_reason": "Official PDF table does not provide a course code"
+    },
+    {
+      "course_code": null,
+      "opening_units": [
+        "離岸風電碩"
+      ],
+      "opening_unit_snapshot": "離岸風電碩",
+      "course_name_snapshot": "離岸風電運維實務",
+      "credits_snapshot": 3.0,
+      "requirement_group": "elective",
+      "notes": "新增課程",
+      "source_page": 1,
+      "evidence_match": true,
+      "validation_status": "needs_course_code_verification",
+      "uncertainty_reason": "Official PDF table does not provide a course code"
+    }
+  ],
+  "structured_requirements": {
+    "minimum_total_credits": 9,
+    "core_credits_text_value": 4,
+    "minimum_outside_home_department_credits": 3
+  }
+}

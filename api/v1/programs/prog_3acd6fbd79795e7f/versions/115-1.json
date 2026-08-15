@@ -1,0 +1,210 @@
+{
+  "program_id": "prog_3acd6fbd79795e7f",
+  "name_zh": "數據科學微學程",
+  "name_en": null,
+  "previous_names": [],
+  "type": "micro_program",
+  "status": "active",
+  "description": "本微學程由「概論」、「方法」、「實務」3 門課程組成。「概論課程」的部份著重理論或相關應用的介紹,以期學生能在該門課中,了解各理論的歷史發展與論辯歷程、對數據科學有基本的認知,並且對數據科學產生興趣。",
+  "responsible_unit": "政經系",
+  "coordinator": "王俊傑副教授",
+  "program_website": "https://kpprdct.nsysu.edu.tw/p/412-1143-25883.php?Lang=zh-tw",
+  "source_pdf": "http://140.117.153.69/ctdr/files/20240531152054658.pdf",
+  "academic_version": "115-1",
+  "source": {
+    "catalog_url": "https://ctdr.nsysu.edu.tw/class2.php",
+    "pdf_url": "http://140.117.153.69/ctdr/files/20240531152054658.pdf",
+    "retrieved_at": "2026-08-15T10:05:39Z",
+    "pdf_binary_sha256": "8619c6dbfb8cc2850fc61ba2954c4ac84bd1d426c58eb3ffa13e2a05854f62ef",
+    "normalized_text_sha256": "93c32d09baf2366d77ed4beafe748896c37e00677e1c6f5d7cb87179c91ffddc",
+    "http": {
+      "status": 200,
+      "etag": "\"1c9af-619bad2fd097c\"",
+      "last_modified": "Fri, 31 May 2024 07:20:54 GMT",
+      "content_length": 117167
+    },
+    "parser_version": "0.1.0"
+  },
+  "review_status": "needs_review",
+  "rules": {
+    "kind": "manual_review",
+    "reason": "Extracted candidate awaits approval"
+  },
+  "warnings": [
+    "No structured course rows extracted from PDF tables"
+  ],
+  "selected_pdf_academic_version": "112-2",
+  "course_catalog": [
+    {
+      "course_code": null,
+      "opening_units": [
+        "社會科學院"
+      ],
+      "opening_unit_snapshot": "社會科學院",
+      "course_name_snapshot": "剖析都市:數據分析方法與應用",
+      "credits_snapshot": 3.0,
+      "requirement_group": "elective",
+      "notes": "",
+      "source_page": 1,
+      "evidence_match": true,
+      "validation_status": "needs_course_code_verification",
+      "uncertainty_reason": "Official PDF table does not provide a course code"
+    },
+    {
+      "course_code": null,
+      "opening_units": [
+        "社會科學院"
+      ],
+      "opening_unit_snapshot": "社會科學院",
+      "course_name_snapshot": "智慧金融",
+      "credits_snapshot": 3.0,
+      "requirement_group": "elective",
+      "notes": "",
+      "source_page": 1,
+      "evidence_match": true,
+      "validation_status": "needs_course_code_verification",
+      "uncertainty_reason": "Official PDF table does not provide a course code"
+    },
+    {
+      "course_code": null,
+      "opening_units": [
+        "社會科學院"
+      ],
+      "opening_unit_snapshot": "社會科學院",
+      "course_name_snapshot": "資料視覺化",
+      "credits_snapshot": 3.0,
+      "requirement_group": "elective",
+      "notes": "",
+      "source_page": 1,
+      "evidence_match": true,
+      "validation_status": "needs_course_code_verification",
+      "uncertainty_reason": "Official PDF table does not provide a course code"
+    },
+    {
+      "course_code": null,
+      "opening_units": [
+        "社會科學院"
+      ],
+      "opening_unit_snapshot": "社會科學院",
+      "course_name_snapshot": "智慧時代下的媒體識讀",
+      "credits_snapshot": 3.0,
+      "requirement_group": "elective",
+      "notes": "",
+      "source_page": 1,
+      "evidence_match": true,
+      "validation_status": "needs_course_code_verification",
+      "uncertainty_reason": "Official PDF table does not provide a course code"
+    },
+    {
+      "course_code": null,
+      "opening_units": [
+        "社會科學院"
+      ],
+      "opening_unit_snapshot": "社會科學院",
+      "course_name_snapshot": "國際金融",
+      "credits_snapshot": 3.0,
+      "requirement_group": "elective",
+      "notes": "",
+      "source_page": 1,
+      "evidence_match": true,
+      "validation_status": "needs_course_code_verification",
+      "uncertainty_reason": "Official PDF table does not provide a course code"
+    },
+    {
+      "course_code": null,
+      "opening_units": [
+        "政治經濟學系"
+      ],
+      "opening_unit_snapshot": "政治經濟學系",
+      "course_name_snapshot": "時間序列分析",
+      "credits_snapshot": 3.0,
+      "requirement_group": "elective",
+      "notes": "",
+      "source_page": 1,
+      "evidence_match": true,
+      "validation_status": "needs_course_code_verification",
+      "uncertainty_reason": "Official PDF table does not provide a course code"
+    },
+    {
+      "course_code": null,
+      "opening_units": [
+        "政治經濟學系"
+      ],
+      "opening_unit_snapshot": "政治經濟學系",
+      "course_name_snapshot": "統計學(一)",
+      "credits_snapshot": 3.0,
+      "requirement_group": "elective",
+      "notes": "",
+      "source_page": 1,
+      "evidence_match": true,
+      "validation_status": "needs_course_code_verification",
+      "uncertainty_reason": "Official PDF table does not provide a course code"
+    },
+    {
+      "course_code": null,
+      "opening_units": [
+        "政治經濟學系"
+      ],
+      "opening_unit_snapshot": "政治經濟學系",
+      "course_name_snapshot": "統計學(二)",
+      "credits_snapshot": 3.0,
+      "requirement_group": "elective",
+      "notes": "",
+      "source_page": 1,
+      "evidence_match": true,
+      "validation_status": "needs_course_code_verification",
+      "uncertainty_reason": "Official PDF table does not provide a course code"
+    },
+    {
+      "course_code": null,
+      "opening_units": [
+        "政治經濟學系"
+      ],
+      "opening_unit_snapshot": "政治經濟學系",
+      "course_name_snapshot": "賽局理論導論",
+      "credits_snapshot": 3.0,
+      "requirement_group": "elective",
+      "notes": "",
+      "source_page": 1,
+      "evidence_match": true,
+      "validation_status": "needs_course_code_verification",
+      "uncertainty_reason": "Official PDF table does not provide a course code"
+    },
+    {
+      "course_code": null,
+      "opening_units": [
+        "政治經濟學系"
+      ],
+      "opening_unit_snapshot": "政治經濟學系",
+      "course_name_snapshot": "資料分析與應用-R 語言之應用",
+      "credits_snapshot": 3.0,
+      "requirement_group": "elective",
+      "notes": "",
+      "source_page": 1,
+      "evidence_match": true,
+      "validation_status": "needs_course_code_verification",
+      "uncertainty_reason": "Official PDF table does not provide a course code"
+    },
+    {
+      "course_code": null,
+      "opening_units": [
+        "政治經濟學系",
+        "社會科學院"
+      ],
+      "opening_unit_snapshot": "政治經濟學系 / 社會科學院",
+      "course_name_snapshot": "智慧城市與智慧運輸趨勢、發展及課題研析",
+      "credits_snapshot": 3.0,
+      "requirement_group": "elective",
+      "notes": "",
+      "source_page": 1,
+      "evidence_match": false,
+      "validation_status": "needs_course_code_verification",
+      "uncertainty_reason": "Official PDF table does not provide a course code"
+    }
+  ],
+  "structured_requirements": {
+    "minimum_total_credits": 9,
+    "core_credits_text_value": 0,
+    "minimum_outside_home_department_credits": 3
+  }
+}

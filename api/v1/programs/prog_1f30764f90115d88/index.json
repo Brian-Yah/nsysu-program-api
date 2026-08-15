@@ -1,0 +1,875 @@
+{
+  "program_id": "prog_1f30764f90115d88",
+  "latest_academic_version": "115-1",
+  "versions": [
+    "115-1"
+  ],
+  "program": {
+    "program_id": "prog_1f30764f90115d88",
+    "name_zh": "智慧城市與智慧運輸學程",
+    "name_en": null,
+    "previous_names": [],
+    "type": "integrated_program",
+    "status": "active",
+    "description": "隨著四年一度市長選舉日期之接近,諸位候選人紛紛提出其競選政見,而「智慧城市」也成為一個一再被提起的重要字眼。的確,在面對高齡少子化、節能減碳、永續發展、產業振興等都市發展相關議題時,智慧城市與智慧運輸頓時變成一個熱門的學問與技術;然而,在回顧本校各系課程之內容,雖有部分課程涉及區域發展、城鄉規劃,但仍存在著課程分散於各系所,未能形成系統之問題;同時,由於校內缺乏運輸規劃相關課程,也無法使學生充分瞭解土地使用與運輸系統之相關性。在此情況下,有必要提出一個整合學程來讓本校學生得以對智慧城市與智慧運輸有一基礎的認識,以深化相關知識並擴充視野廣度。",
+    "responsible_unit": "政經系",
+    "coordinator": "李予綱教授",
+    "program_website": "https://kpprdct.nsysu.edu.tw/p/412-1143-25879.php?Lang=zh-tw",
+    "source_pdf": "http://140.117.153.69/ctdr/files/20241224152323397.pdf",
+    "academic_version": "115-1",
+    "source": {
+      "catalog_url": "https://ctdr.nsysu.edu.tw/class2.php",
+      "pdf_url": "http://140.117.153.69/ctdr/files/20241224152323397.pdf",
+      "retrieved_at": "2026-08-15T10:05:39Z",
+      "pdf_binary_sha256": "6b709549ba33b4a3a369f3a0744b3b21e8dee9d9e6fe81f8d2beda7cf0f68348",
+      "normalized_text_sha256": "c4677ce88fba06b1e723e11cf29f6e17a46873a3d58a8da27566257e0f386ab4",
+      "http": {
+        "status": 200,
+        "etag": "\"2a1e7-629fefd01993a\"",
+        "last_modified": "Tue, 24 Dec 2024 07:23:23 GMT",
+        "content_length": 172519
+      },
+      "parser_version": "0.1.0"
+    },
+    "review_status": "needs_review",
+    "rules": {
+      "kind": "manual_review",
+      "reason": "Extracted candidate awaits approval"
+    },
+    "warnings": [],
+    "selected_pdf_academic_version": "113-1",
+    "course_catalog": [
+      {
+        "course_code": null,
+        "opening_units": [
+          "政治經濟學系",
+          "社會科學院"
+        ],
+        "opening_unit_snapshot": "政治經濟學系 / 社會科學院",
+        "course_name_snapshot": "智慧城市與智慧運輸趨勢、發展及課題研析",
+        "credits_snapshot": 3.0,
+        "requirement_group": "elective",
+        "notes": "",
+        "source_page": 1,
+        "evidence_match": false,
+        "validation_status": "needs_course_code_verification",
+        "uncertainty_reason": "Official PDF table does not provide a course code"
+      },
+      {
+        "course_code": null,
+        "opening_units": [
+          "人科學程"
+        ],
+        "opening_unit_snapshot": "人科學程",
+        "course_name_snapshot": "都市發展與變遷",
+        "credits_snapshot": 3.0,
+        "requirement_group": "elective",
+        "notes": "",
+        "source_page": 1,
+        "evidence_match": true,
+        "validation_status": "needs_course_code_verification",
+        "uncertainty_reason": "Official PDF table does not provide a course code"
+      },
+      {
+        "course_code": null,
+        "opening_units": [
+          "人科學程"
+        ],
+        "opening_unit_snapshot": "人科學程",
+        "course_name_snapshot": "都市環境概論",
+        "credits_snapshot": 3.0,
+        "requirement_group": "elective",
+        "notes": "",
+        "source_page": 1,
+        "evidence_match": true,
+        "validation_status": "needs_course_code_verification",
+        "uncertainty_reason": "Official PDF table does not provide a course code"
+      },
+      {
+        "course_code": null,
+        "opening_units": [
+          "社會科學院"
+        ],
+        "opening_unit_snapshot": "社會科學院",
+        "course_name_snapshot": "都市計劃實務",
+        "credits_snapshot": 3.0,
+        "requirement_group": "elective",
+        "notes": "",
+        "source_page": 1,
+        "evidence_match": true,
+        "validation_status": "needs_course_code_verification",
+        "uncertainty_reason": "Official PDF table does not provide a course code"
+      },
+      {
+        "course_code": null,
+        "opening_units": [
+          "社會科學院"
+        ],
+        "opening_unit_snapshot": "社會科學院",
+        "course_name_snapshot": "都市空間管制法規",
+        "credits_snapshot": 3.0,
+        "requirement_group": "elective",
+        "notes": "",
+        "source_page": 1,
+        "evidence_match": true,
+        "validation_status": "needs_course_code_verification",
+        "uncertainty_reason": "Official PDF table does not provide a course code"
+      },
+      {
+        "course_code": null,
+        "opening_units": [
+          "政治經濟學系"
+        ],
+        "opening_unit_snapshot": "政治經濟學系",
+        "course_name_snapshot": "港灣城市發展與空間治理實務",
+        "credits_snapshot": 3.0,
+        "requirement_group": "elective",
+        "notes": "",
+        "source_page": 1,
+        "evidence_match": true,
+        "validation_status": "needs_course_code_verification",
+        "uncertainty_reason": "Official PDF table does not provide a course code"
+      },
+      {
+        "course_code": null,
+        "opening_units": [
+          "社會科學院"
+        ],
+        "opening_unit_snapshot": "社會科學院",
+        "course_name_snapshot": "永續都市環境行為及心理學",
+        "credits_snapshot": 3.0,
+        "requirement_group": "elective",
+        "notes": "",
+        "source_page": 1,
+        "evidence_match": true,
+        "validation_status": "needs_course_code_verification",
+        "uncertainty_reason": "Official PDF table does not provide a course code"
+      },
+      {
+        "course_code": null,
+        "opening_units": [
+          "人科學程"
+        ],
+        "opening_unit_snapshot": "人科學程",
+        "course_name_snapshot": "空間調查分析與規劃",
+        "credits_snapshot": 3.0,
+        "requirement_group": "elective",
+        "notes": "",
+        "source_page": 1,
+        "evidence_match": true,
+        "validation_status": "needs_course_code_verification",
+        "uncertainty_reason": "Official PDF table does not provide a course code"
+      },
+      {
+        "course_code": null,
+        "opening_units": [
+          "公事碩"
+        ],
+        "opening_unit_snapshot": "公事碩",
+        "course_name_snapshot": "都市環境管理",
+        "credits_snapshot": 3.0,
+        "requirement_group": "elective",
+        "notes": "英語授課",
+        "source_page": 1,
+        "evidence_match": true,
+        "validation_status": "needs_course_code_verification",
+        "uncertainty_reason": "Official PDF table does not provide a course code"
+      },
+      {
+        "course_code": null,
+        "opening_units": [
+          "政治經濟學系"
+        ],
+        "opening_unit_snapshot": "政治經濟學系",
+        "course_name_snapshot": "運輸規劃與觀禮",
+        "credits_snapshot": 3.0,
+        "requirement_group": "elective",
+        "notes": "",
+        "source_page": 1,
+        "evidence_match": true,
+        "validation_status": "needs_course_code_verification",
+        "uncertainty_reason": "Official PDF table does not provide a course code"
+      },
+      {
+        "course_code": null,
+        "opening_units": [
+          "人科學程"
+        ],
+        "opening_unit_snapshot": "人科學程",
+        "course_name_snapshot": "智慧型運輸系統",
+        "credits_snapshot": 3.0,
+        "requirement_group": "elective",
+        "notes": "",
+        "source_page": 1,
+        "evidence_match": true,
+        "validation_status": "needs_course_code_verification",
+        "uncertainty_reason": "Official PDF table does not provide a course code"
+      },
+      {
+        "course_code": null,
+        "opening_units": [
+          "社會科學院"
+        ],
+        "opening_unit_snapshot": "社會科學院",
+        "course_name_snapshot": "地區交通計畫",
+        "credits_snapshot": 3.0,
+        "requirement_group": "elective",
+        "notes": "",
+        "source_page": 1,
+        "evidence_match": true,
+        "validation_status": "needs_course_code_verification",
+        "uncertainty_reason": "Official PDF table does not provide a course code"
+      },
+      {
+        "course_code": null,
+        "opening_units": [
+          "社會科學院"
+        ],
+        "opening_unit_snapshot": "社會科學院",
+        "course_name_snapshot": "智慧人本交通",
+        "credits_snapshot": 3.0,
+        "requirement_group": "elective",
+        "notes": "",
+        "source_page": 1,
+        "evidence_match": true,
+        "validation_status": "needs_course_code_verification",
+        "uncertainty_reason": "Official PDF table does not provide a course code"
+      },
+      {
+        "course_code": null,
+        "opening_units": [
+          "政治經濟學系"
+        ],
+        "opening_unit_snapshot": "政治經濟學系",
+        "course_name_snapshot": "都市運輸與空間發展互動治理",
+        "credits_snapshot": 3.0,
+        "requirement_group": "elective",
+        "notes": "",
+        "source_page": 1,
+        "evidence_match": true,
+        "validation_status": "needs_course_code_verification",
+        "uncertainty_reason": "Official PDF table does not provide a course code"
+      },
+      {
+        "course_code": null,
+        "opening_units": [
+          "人科學程"
+        ],
+        "opening_unit_snapshot": "人科學程",
+        "course_name_snapshot": "運輸規劃與管理",
+        "credits_snapshot": 3.0,
+        "requirement_group": "elective",
+        "notes": "",
+        "source_page": 1,
+        "evidence_match": true,
+        "validation_status": "needs_course_code_verification",
+        "uncertainty_reason": "Official PDF table does not provide a course code"
+      },
+      {
+        "course_code": null,
+        "opening_units": [
+          "公事碩"
+        ],
+        "opening_unit_snapshot": "公事碩",
+        "course_name_snapshot": "都市交通",
+        "credits_snapshot": 2.0,
+        "requirement_group": "elective",
+        "notes": "",
+        "source_page": 1,
+        "evidence_match": true,
+        "validation_status": "needs_course_code_verification",
+        "uncertainty_reason": "Official PDF table does not provide a course code"
+      },
+      {
+        "course_code": null,
+        "opening_units": [
+          "成功大學都市計劃學系"
+        ],
+        "opening_unit_snapshot": "成功大學都市計劃學系",
+        "course_name_snapshot": "都市交通計劃",
+        "credits_snapshot": 3.0,
+        "requirement_group": "elective",
+        "notes": "",
+        "source_page": 1,
+        "evidence_match": true,
+        "validation_status": "needs_course_code_verification",
+        "uncertainty_reason": "Official PDF table does not provide a course code"
+      },
+      {
+        "course_code": null,
+        "opening_units": [
+          "社會科學院"
+        ],
+        "opening_unit_snapshot": "社會科學院",
+        "course_name_snapshot": "城市觀光行銷學",
+        "credits_snapshot": 3.0,
+        "requirement_group": "elective",
+        "notes": "",
+        "source_page": 1,
+        "evidence_match": true,
+        "validation_status": "needs_course_code_verification",
+        "uncertainty_reason": "Official PDF table does not provide a course code"
+      },
+      {
+        "course_code": null,
+        "opening_units": [
+          "社會科學院"
+        ],
+        "opening_unit_snapshot": "社會科學院",
+        "course_name_snapshot": "數位行銷傳播",
+        "credits_snapshot": 3.0,
+        "requirement_group": "elective",
+        "notes": "",
+        "source_page": 1,
+        "evidence_match": true,
+        "validation_status": "needs_course_code_verification",
+        "uncertainty_reason": "Official PDF table does not provide a course code"
+      },
+      {
+        "course_code": null,
+        "opening_units": [
+          "社會科學院"
+        ],
+        "opening_unit_snapshot": "社會科學院",
+        "course_name_snapshot": "旅運整合行銷",
+        "credits_snapshot": 3.0,
+        "requirement_group": "elective",
+        "notes": "",
+        "source_page": 1,
+        "evidence_match": true,
+        "validation_status": "needs_course_code_verification",
+        "uncertainty_reason": "Official PDF table does not provide a course code"
+      },
+      {
+        "course_code": null,
+        "opening_units": [
+          "社會科學院"
+        ],
+        "opening_unit_snapshot": "社會科學院",
+        "course_name_snapshot": "智慧治理:危機與創新",
+        "credits_snapshot": 3.0,
+        "requirement_group": "elective",
+        "notes": "",
+        "source_page": 1,
+        "evidence_match": true,
+        "validation_status": "needs_course_code_verification",
+        "uncertainty_reason": "Official PDF table does not provide a course code"
+      },
+      {
+        "course_code": null,
+        "opening_units": [
+          "社會科學院"
+        ],
+        "opening_unit_snapshot": "社會科學院",
+        "course_name_snapshot": "智慧程式數位轉型",
+        "credits_snapshot": 3.0,
+        "requirement_group": "elective",
+        "notes": "",
+        "source_page": 1,
+        "evidence_match": true,
+        "validation_status": "needs_course_code_verification",
+        "uncertainty_reason": "Official PDF table does not provide a course code"
+      },
+      {
+        "course_code": null,
+        "opening_units": [
+          "社會科學院"
+        ],
+        "opening_unit_snapshot": "社會科學院",
+        "course_name_snapshot": "剖析都市:數據分析方法與應用",
+        "credits_snapshot": 3.0,
+        "requirement_group": "elective",
+        "notes": "",
+        "source_page": 2,
+        "evidence_match": true,
+        "validation_status": "needs_course_code_verification",
+        "uncertainty_reason": "Official PDF table does not provide a course code"
+      },
+      {
+        "course_code": null,
+        "opening_units": [
+          "社會科學院"
+        ],
+        "opening_unit_snapshot": "社會科學院",
+        "course_name_snapshot": "智慧金融",
+        "credits_snapshot": 3.0,
+        "requirement_group": "elective",
+        "notes": "",
+        "source_page": 2,
+        "evidence_match": true,
+        "validation_status": "needs_course_code_verification",
+        "uncertainty_reason": "Official PDF table does not provide a course code"
+      },
+      {
+        "course_code": null,
+        "opening_units": [
+          "社會科學院"
+        ],
+        "opening_unit_snapshot": "社會科學院",
+        "course_name_snapshot": "資料視覺化",
+        "credits_snapshot": 3.0,
+        "requirement_group": "elective",
+        "notes": "",
+        "source_page": 2,
+        "evidence_match": true,
+        "validation_status": "needs_course_code_verification",
+        "uncertainty_reason": "Official PDF table does not provide a course code"
+      },
+      {
+        "course_code": null,
+        "opening_units": [
+          "社會科學院"
+        ],
+        "opening_unit_snapshot": "社會科學院",
+        "course_name_snapshot": "智慧時代下的媒體識讀",
+        "credits_snapshot": 3.0,
+        "requirement_group": "elective",
+        "notes": "",
+        "source_page": 2,
+        "evidence_match": true,
+        "validation_status": "needs_course_code_verification",
+        "uncertainty_reason": "Official PDF table does not provide a course code"
+      },
+      {
+        "course_code": null,
+        "opening_units": [
+          "社會科學院"
+        ],
+        "opening_unit_snapshot": "社會科學院",
+        "course_name_snapshot": "國際金融",
+        "credits_snapshot": 3.0,
+        "requirement_group": "elective",
+        "notes": "",
+        "source_page": 2,
+        "evidence_match": true,
+        "validation_status": "needs_course_code_verification",
+        "uncertainty_reason": "Official PDF table does not provide a course code"
+      },
+      {
+        "course_code": null,
+        "opening_units": [
+          "政治經濟學系"
+        ],
+        "opening_unit_snapshot": "政治經濟學系",
+        "course_name_snapshot": "時間序列分析",
+        "credits_snapshot": 3.0,
+        "requirement_group": "elective",
+        "notes": "",
+        "source_page": 2,
+        "evidence_match": true,
+        "validation_status": "needs_course_code_verification",
+        "uncertainty_reason": "Official PDF table does not provide a course code"
+      },
+      {
+        "course_code": null,
+        "opening_units": [
+          "政治經濟學系"
+        ],
+        "opening_unit_snapshot": "政治經濟學系",
+        "course_name_snapshot": "統計學(一)",
+        "credits_snapshot": 3.0,
+        "requirement_group": "elective",
+        "notes": "",
+        "source_page": 2,
+        "evidence_match": true,
+        "validation_status": "needs_course_code_verification",
+        "uncertainty_reason": "Official PDF table does not provide a course code"
+      },
+      {
+        "course_code": null,
+        "opening_units": [
+          "政治經濟學系"
+        ],
+        "opening_unit_snapshot": "政治經濟學系",
+        "course_name_snapshot": "統計學(二)",
+        "credits_snapshot": 3.0,
+        "requirement_group": "elective",
+        "notes": "",
+        "source_page": 2,
+        "evidence_match": true,
+        "validation_status": "needs_course_code_verification",
+        "uncertainty_reason": "Official PDF table does not provide a course code"
+      },
+      {
+        "course_code": null,
+        "opening_units": [
+          "政治經濟學系"
+        ],
+        "opening_unit_snapshot": "政治經濟學系",
+        "course_name_snapshot": "賽局理論導論",
+        "credits_snapshot": 3.0,
+        "requirement_group": "elective",
+        "notes": "",
+        "source_page": 2,
+        "evidence_match": true,
+        "validation_status": "needs_course_code_verification",
+        "uncertainty_reason": "Official PDF table does not provide a course code"
+      },
+      {
+        "course_code": null,
+        "opening_units": [
+          "政治經濟學系"
+        ],
+        "opening_unit_snapshot": "政治經濟學系",
+        "course_name_snapshot": "資料分析與應用-R語言之應用",
+        "credits_snapshot": 3.0,
+        "requirement_group": "elective",
+        "notes": "",
+        "source_page": 2,
+        "evidence_match": true,
+        "validation_status": "needs_course_code_verification",
+        "uncertainty_reason": "Official PDF table does not provide a course code"
+      },
+      {
+        "course_code": null,
+        "opening_units": [
+          "社會科學院"
+        ],
+        "opening_unit_snapshot": "社會科學院",
+        "course_name_snapshot": "東亞城市專題: 文化經濟與文化治理",
+        "credits_snapshot": 3.0,
+        "requirement_group": "elective",
+        "notes": "",
+        "source_page": 2,
+        "evidence_match": false,
+        "validation_status": "needs_course_code_verification",
+        "uncertainty_reason": "Official PDF table does not provide a course code"
+      },
+      {
+        "course_code": null,
+        "opening_units": [
+          "西灣學院"
+        ],
+        "opening_unit_snapshot": "西灣學院",
+        "course_name_snapshot": "[中山 x 高美館] 世界美術館與城市巡禮",
+        "credits_snapshot": 3.0,
+        "requirement_group": "elective",
+        "notes": "",
+        "source_page": 2,
+        "evidence_match": false,
+        "validation_status": "needs_course_code_verification",
+        "uncertainty_reason": "Official PDF table does not provide a course code"
+      },
+      {
+        "course_code": null,
+        "opening_units": [
+          "西灣學院"
+        ],
+        "opening_unit_snapshot": "西灣學院",
+        "course_name_snapshot": "[中山 x 高美館] 城市圖像記憶—藝術的詮釋與再現",
+        "credits_snapshot": 3.0,
+        "requirement_group": "elective",
+        "notes": "",
+        "source_page": 2,
+        "evidence_match": false,
+        "validation_status": "needs_course_code_verification",
+        "uncertainty_reason": "Official PDF table does not provide a course code"
+      },
+      {
+        "course_code": null,
+        "opening_units": [
+          "社會科學院"
+        ],
+        "opening_unit_snapshot": "社會科學院",
+        "course_name_snapshot": "文化地景專題:遺產化的政治經濟學",
+        "credits_snapshot": 3.0,
+        "requirement_group": "elective",
+        "notes": "",
+        "source_page": 2,
+        "evidence_match": true,
+        "validation_status": "needs_course_code_verification",
+        "uncertainty_reason": "Official PDF table does not provide a course code"
+      },
+      {
+        "course_code": null,
+        "opening_units": [
+          "社會科學院"
+        ],
+        "opening_unit_snapshot": "社會科學院",
+        "course_name_snapshot": "解析ESG 與其相關應用 Analysis of ESG and its applications",
+        "credits_snapshot": 3.0,
+        "requirement_group": "elective",
+        "notes": "",
+        "source_page": 2,
+        "evidence_match": false,
+        "validation_status": "needs_course_code_verification",
+        "uncertainty_reason": "Official PDF table does not provide a course code"
+      },
+      {
+        "course_code": null,
+        "opening_units": [
+          "社會科學院"
+        ],
+        "opening_unit_snapshot": "社會科學院",
+        "course_name_snapshot": "ESG趨勢:在地與全球 ESG Trends: Local and Global",
+        "credits_snapshot": 3.0,
+        "requirement_group": "elective",
+        "notes": "",
+        "source_page": 2,
+        "evidence_match": false,
+        "validation_status": "needs_course_code_verification",
+        "uncertainty_reason": "Official PDF table does not provide a course code"
+      },
+      {
+        "course_code": null,
+        "opening_units": [
+          "社會科學院"
+        ],
+        "opening_unit_snapshot": "社會科學院",
+        "course_name_snapshot": "綠色金融 Green Finance/ Sustainable Finance",
+        "credits_snapshot": 3.0,
+        "requirement_group": "elective",
+        "notes": "",
+        "source_page": 2,
+        "evidence_match": false,
+        "validation_status": "needs_course_code_verification",
+        "uncertainty_reason": "Official PDF table does not provide a course code"
+      },
+      {
+        "course_code": null,
+        "opening_units": [
+          "資工系"
+        ],
+        "opening_unit_snapshot": "資工系",
+        "course_name_snapshot": "C程式設計",
+        "credits_snapshot": 3.0,
+        "requirement_group": "elective",
+        "notes": "",
+        "source_page": 2,
+        "evidence_match": true,
+        "validation_status": "needs_course_code_verification",
+        "uncertainty_reason": "Official PDF table does not provide a course code"
+      },
+      {
+        "course_code": null,
+        "opening_units": [
+          "資工系"
+        ],
+        "opening_unit_snapshot": "資工系",
+        "course_name_snapshot": "資訊安全",
+        "credits_snapshot": 3.0,
+        "requirement_group": "elective",
+        "notes": "",
+        "source_page": 2,
+        "evidence_match": true,
+        "validation_status": "needs_course_code_verification",
+        "uncertainty_reason": "Official PDF table does not provide a course code"
+      },
+      {
+        "course_code": null,
+        "opening_units": [
+          "電機系"
+        ],
+        "opening_unit_snapshot": "電機系",
+        "course_name_snapshot": "機器學習系統設計實務與應用",
+        "credits_snapshot": 3.0,
+        "requirement_group": "elective",
+        "notes": "",
+        "source_page": 2,
+        "evidence_match": true,
+        "validation_status": "needs_course_code_verification",
+        "uncertainty_reason": "Official PDF table does not provide a course code"
+      },
+      {
+        "course_code": null,
+        "opening_units": [
+          "博雅"
+        ],
+        "opening_unit_snapshot": "博雅",
+        "course_name_snapshot": "橘子蘋果統計學",
+        "credits_snapshot": 3.0,
+        "requirement_group": "elective",
+        "notes": "",
+        "source_page": 2,
+        "evidence_match": true,
+        "validation_status": "needs_course_code_verification",
+        "uncertainty_reason": "Official PDF table does not provide a course code"
+      },
+      {
+        "course_code": null,
+        "opening_units": [
+          "人科學程"
+        ],
+        "opening_unit_snapshot": "人科學程",
+        "course_name_snapshot": "公共運輸系統概論",
+        "credits_snapshot": 3.0,
+        "requirement_group": "elective",
+        "notes": "",
+        "source_page": 2,
+        "evidence_match": true,
+        "validation_status": "needs_course_code_verification",
+        "uncertainty_reason": "Official PDF table does not provide a course code"
+      },
+      {
+        "course_code": null,
+        "opening_units": [
+          "中國與亞太區域研究所"
+        ],
+        "opening_unit_snapshot": "中國與亞太區域研究所",
+        "course_name_snapshot": "永續發展法制比較",
+        "credits_snapshot": 3.0,
+        "requirement_group": "elective",
+        "notes": "",
+        "source_page": 2,
+        "evidence_match": true,
+        "validation_status": "needs_course_code_verification",
+        "uncertainty_reason": "Official PDF table does not provide a course code"
+      },
+      {
+        "course_code": null,
+        "opening_units": [
+          "中國與亞太區域研究所"
+        ],
+        "opening_unit_snapshot": "中國與亞太區域研究所",
+        "course_name_snapshot": "碳定價與碳交易法制比較",
+        "credits_snapshot": 3.0,
+        "requirement_group": "elective",
+        "notes": "",
+        "source_page": 2,
+        "evidence_match": true,
+        "validation_status": "needs_course_code_verification",
+        "uncertainty_reason": "Official PDF table does not provide a course code"
+      },
+      {
+        "course_code": null,
+        "opening_units": [
+          "中國與亞太區域研究所"
+        ],
+        "opening_unit_snapshot": "中國與亞太區域研究所",
+        "course_name_snapshot": "環境政策、氣候變遷治理與法律",
+        "credits_snapshot": 3.0,
+        "requirement_group": "elective",
+        "notes": "",
+        "source_page": 2,
+        "evidence_match": true,
+        "validation_status": "needs_course_code_verification",
+        "uncertainty_reason": "Official PDF table does not provide a course code"
+      },
+      {
+        "course_code": null,
+        "opening_units": [
+          "中國與亞太區域研究所"
+        ],
+        "opening_unit_snapshot": "中國與亞太區域研究所",
+        "course_name_snapshot": "科技政策與立法",
+        "credits_snapshot": 3.0,
+        "requirement_group": "elective",
+        "notes": "",
+        "source_page": 2,
+        "evidence_match": true,
+        "validation_status": "needs_course_code_verification",
+        "uncertainty_reason": "Official PDF table does not provide a course code"
+      },
+      {
+        "course_code": null,
+        "opening_units": [
+          "人文暨科技跨領域學士學位學程"
+        ],
+        "opening_unit_snapshot": "人文暨科技跨領域學士學位學程",
+        "course_name_snapshot": "創客基礎",
+        "credits_snapshot": 3.0,
+        "requirement_group": "elective",
+        "notes": "",
+        "source_page": 2,
+        "evidence_match": true,
+        "validation_status": "needs_course_code_verification",
+        "uncertainty_reason": "Official PDF table does not provide a course code"
+      },
+      {
+        "course_code": null,
+        "opening_units": [
+          "人文暨科技跨領域學士學位學程"
+        ],
+        "opening_unit_snapshot": "人文暨科技跨領域學士學位學程",
+        "course_name_snapshot": "永續發展實務",
+        "credits_snapshot": 3.0,
+        "requirement_group": "elective",
+        "notes": "",
+        "source_page": 2,
+        "evidence_match": true,
+        "validation_status": "needs_course_code_verification",
+        "uncertainty_reason": "Official PDF table does not provide a course code"
+      },
+      {
+        "course_code": null,
+        "opening_units": [
+          "人文暨科技跨領域學士學位學程"
+        ],
+        "opening_unit_snapshot": "人文暨科技跨領域學士學位學程",
+        "course_name_snapshot": "綠色創新設計",
+        "credits_snapshot": 3.0,
+        "requirement_group": "elective",
+        "notes": "",
+        "source_page": 3,
+        "evidence_match": true,
+        "validation_status": "needs_course_code_verification",
+        "uncertainty_reason": "Official PDF table does not provide a course code"
+      },
+      {
+        "course_code": null,
+        "opening_units": [
+          "人文暨科技跨領域學士學位學程"
+        ],
+        "opening_unit_snapshot": "人文暨科技跨領域學士學位學程",
+        "course_name_snapshot": "永續工程與管理",
+        "credits_snapshot": 3.0,
+        "requirement_group": "elective",
+        "notes": "",
+        "source_page": 3,
+        "evidence_match": true,
+        "validation_status": "needs_course_code_verification",
+        "uncertainty_reason": "Official PDF table does not provide a course code"
+      },
+      {
+        "course_code": null,
+        "opening_units": [
+          "人文暨科技跨領域學士學位學程"
+        ],
+        "opening_unit_snapshot": "人文暨科技跨領域學士學位學程",
+        "course_name_snapshot": "創客進階",
+        "credits_snapshot": 3.0,
+        "requirement_group": "elective",
+        "notes": "",
+        "source_page": 3,
+        "evidence_match": true,
+        "validation_status": "needs_course_code_verification",
+        "uncertainty_reason": "Official PDF table does not provide a course code"
+      },
+      {
+        "course_code": null,
+        "opening_units": [
+          "企業管理學系"
+        ],
+        "opening_unit_snapshot": "企業管理學系",
+        "course_name_snapshot": "整合行銷溝通",
+        "credits_snapshot": 3.0,
+        "requirement_group": "elective",
+        "notes": "",
+        "source_page": 3,
+        "evidence_match": true,
+        "validation_status": "needs_course_code_verification",
+        "uncertainty_reason": "Official PDF table does not provide a course code"
+      },
+      {
+        "course_code": null,
+        "opening_units": [
+          "企業管理學系"
+        ],
+        "opening_unit_snapshot": "企業管理學系",
+        "course_name_snapshot": "行銷管理與研究",
+        "credits_snapshot": 3.0,
+        "requirement_group": "elective",
+        "notes": "",
+        "source_page": 3,
+        "evidence_match": true,
+        "validation_status": "needs_course_code_verification",
+        "uncertainty_reason": "Official PDF table does not provide a course code"
+      }
+    ],
+    "structured_requirements": {
+      "core_credits_text_value": 0,
+      "minimum_total_credits": 15,
+      "minimum_outside_home_department_credits": 6
+    }
+  }
+}

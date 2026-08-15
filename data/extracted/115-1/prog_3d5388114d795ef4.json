@@ -1,0 +1,161 @@
+{
+  "schema_version": "1.0",
+  "courses": [],
+  "credit_mentions": [
+    9,
+    8
+  ],
+  "ai_interpretation": null,
+  "confidence": "low",
+  "warnings": [
+    "Candidate only; not approved for publishing as executable rules"
+  ],
+  "program_id": "prog_3d5388114d795ef4",
+  "academic_version": "115-1",
+  "text_length": 992,
+  "raw_text": "1\n【113 學年度第 1 學期起適用】\n113.11.12 113 學年度第 1 學期學分學程會議通過\n113.12.12 第 182 次教務會議通過\n人工智慧自然語言技術學分學程課程規劃表\n系列課程\n(修課順序) 可用下列課程替代        學分 本校開設常規課程\n開課單位 課程名稱 學分數\n生成式人\n工智慧導\n論(1)\n3 資訊工程學系 人工智慧導論 3\n人工智慧\n倫理\n(2 or 3)\n人工智慧倫理、法律、\n與社會 3\n人工智慧倫理與人權\n智慧人機\n互動\n(2 or 3)\n使用者中心互動介面設\n計\n3\n互動系統設計與實作\n人機互動創新科技設計\n互動設計與虛擬實境 電機工程學系碩\n士班\n3D 內容生成與體感互\n動 3\n資料探勘\n與應用\n(2 or 3 or 4)\n資料探勘\n3\n資訊工程學系 資料探勘 3\n資料科學\n資料探勘與社群網路分\n析\n自然語言\n處理\n(5)\n大型語言模型\n3\n大型語言與語音模型技\n術\n深度學習與人類語言處\n理\n資訊工程學系碩\n士班、資訊管理\n學系碩士班\n深度學習 3\n1.本學程適合電資領域(含工學院及資管系)或已完成 「人工智慧探索應用學分學程」學生修習 ,\n課程規劃共 5 向度,每一向度至少需修習一門課程。\n2.學生須依課程規劃完成相關學分修讀,並應符合TAICA修課規定(學分學程總學習學分為15\n學分,TAICA內學分學程相互抵免上限為6學分)。\n3.學生欲取得TAICA核發學程學分證明之修課規定:\n(1)本學分學程共計需修習15學分,學生所修課程中,須至少有9 學分不屬於其主修、輔系\n或其他學分學程之必修或必選課程(亦即非屬於任何一門必修或必選修課程), 方得核發本\n學程學分證明。\n(2)學生如欲申請以性質相近之課程認抵本學程課程,以3學分為上限,並須檢附課程大綱、\n2\n成績單等相關資料,經學程負責人及教務處註冊組審查通過後,始得認抵。\n(3)若學生欲申取得TAICA 核發學程學分證明者,須於該學程中修習至少8 學分TAICA聯盟\n認定課程(包括主導課程、鏡像課程及衛星課程)。此外,TAICA學程間之學分相互認抵以\n6學分為上限。例如:「人工智慧倫理」課程可於各學程中認抵3 學分,但學生累計認抵\n之TAICA課程學分不得超過6學分。\n4.同學修習學程前請自行評估能否於在學期間修習相關課程及取得教育部學分學程證明。",
+  "rule_versions": [
+    {
+      "pdf_academic_version": "113-1",
+      "courses": [
+        {
+          "course_code": null,
+          "opening_units": [
+            "資訊工程學系"
+          ],
+          "opening_unit_snapshot": "資訊工程學系",
+          "course_name_snapshot": "人工智慧導論",
+          "credits_snapshot": 3.0,
+          "requirement_group": "unspecified",
+          "notes": "人工智慧導論",
+          "source_page": 1,
+          "evidence_match": true,
+          "validation_status": "needs_course_code_verification",
+          "uncertainty_reason": "Official PDF table does not provide a course code"
+        },
+        {
+          "course_code": null,
+          "opening_units": [
+            "電機工程學系碩士班"
+          ],
+          "opening_unit_snapshot": "電機工程學系碩士班",
+          "course_name_snapshot": "3D內容生成與體感互動",
+          "credits_snapshot": 3.0,
+          "requirement_group": "unspecified",
+          "notes": "3D內容生成與體感互動",
+          "source_page": 1,
+          "evidence_match": false,
+          "validation_status": "needs_course_code_verification",
+          "uncertainty_reason": "Official PDF table does not provide a course code"
+        },
+        {
+          "course_code": null,
+          "opening_units": [
+            "資訊工程學系"
+          ],
+          "opening_unit_snapshot": "資訊工程學系",
+          "course_name_snapshot": "資料探勘",
+          "credits_snapshot": 3.0,
+          "requirement_group": "unspecified",
+          "notes": "資料探勘",
+          "source_page": 1,
+          "evidence_match": true,
+          "validation_status": "needs_course_code_verification",
+          "uncertainty_reason": "Official PDF table does not provide a course code"
+        },
+        {
+          "course_code": null,
+          "opening_units": [
+            "資訊工程學系碩士班資訊管理學系碩士班"
+          ],
+          "opening_unit_snapshot": "資訊工程學系碩士班資訊管理學系碩士班",
+          "course_name_snapshot": "深度學習",
+          "credits_snapshot": 3.0,
+          "requirement_group": "unspecified",
+          "notes": "深度學習",
+          "source_page": 1,
+          "evidence_match": true,
+          "validation_status": "needs_course_code_verification",
+          "uncertainty_reason": "Official PDF table does not provide a course code"
+        }
+      ],
+      "requirements": {},
+      "source_pages": [
+        1,
+        2
+      ],
+      "audit": {
+        "compound_rows_needing_review": [],
+        "duplicates_removed": 0,
+        "course_count": 4,
+        "core_count": 0,
+        "elective_count": 0,
+        "evidence_matched_count": 3
+      }
+    }
+  ],
+  "selected_pdf_academic_version": "113-1",
+  "structured_courses": [
+    {
+      "course_code": null,
+      "opening_units": [
+        "資訊工程學系"
+      ],
+      "opening_unit_snapshot": "資訊工程學系",
+      "course_name_snapshot": "人工智慧導論",
+      "credits_snapshot": 3.0,
+      "requirement_group": "unspecified",
+      "notes": "人工智慧導論",
+      "source_page": 1,
+      "evidence_match": true,
+      "validation_status": "needs_course_code_verification",
+      "uncertainty_reason": "Official PDF table does not provide a course code"
+    },
+    {
+      "course_code": null,
+      "opening_units": [
+        "電機工程學系碩士班"
+      ],
+      "opening_unit_snapshot": "電機工程學系碩士班",
+      "course_name_snapshot": "3D內容生成與體感互動",
+      "credits_snapshot": 3.0,
+      "requirement_group": "unspecified",
+      "notes": "3D內容生成與體感互動",
+      "source_page": 1,
+      "evidence_match": false,
+      "validation_status": "needs_course_code_verification",
+      "uncertainty_reason": "Official PDF table does not provide a course code"
+    },
+    {
+      "course_code": null,
+      "opening_units": [
+        "資訊工程學系"
+      ],
+      "opening_unit_snapshot": "資訊工程學系",
+      "course_name_snapshot": "資料探勘",
+      "credits_snapshot": 3.0,
+      "requirement_group": "unspecified",
+      "notes": "資料探勘",
+      "source_page": 1,
+      "evidence_match": true,
+      "validation_status": "needs_course_code_verification",
+      "uncertainty_reason": "Official PDF table does not provide a course code"
+    },
+    {
+      "course_code": null,
+      "opening_units": [
+        "資訊工程學系碩士班資訊管理學系碩士班"
+      ],
+      "opening_unit_snapshot": "資訊工程學系碩士班資訊管理學系碩士班",
+      "course_name_snapshot": "深度學習",
+      "credits_snapshot": 3.0,
+      "requirement_group": "unspecified",
+      "notes": "深度學習",
+      "source_page": 1,
+      "evidence_match": true,
+      "validation_status": "needs_course_code_verification",
+      "uncertainty_reason": "Official PDF table does not provide a course code"
+    }
+  ],
+  "structured_requirements": {}
+}

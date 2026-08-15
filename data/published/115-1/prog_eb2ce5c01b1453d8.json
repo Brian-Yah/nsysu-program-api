@@ -1,0 +1,180 @@
+{
+  "program_id": "prog_eb2ce5c01b1453d8",
+  "name_zh": "都市永續規劃與管理微學程",
+  "name_en": null,
+  "previous_names": [],
+  "type": "micro_program",
+  "status": "active",
+  "description": "微學程由「理論」、「方法」、「實作」3門課程組成;「理論課程」的部分著重於理論或相關案例的介紹,期能讓修課學生瞭解各種理論間的論爭過程及發展的來龍去脈。「方法課程」的部分則是著重在資訊技術、數位技術的操作與應用,期能讓修課學生習得基礎分析技術。「實作課程」的部分則是著重在讓修課學生針對特定議題進行探討並嘗試提出解決方案,期能增進修課學生分析問題、解決問題的能力。透過此種課程的組構,除了能讓學生增進相關理論知識之外,更能實地以周邊生活環境來作為實作場域,透過實踐的過程來親身驗證課本的知識,最終達到提升修課學生基本素養的九大核心能力之目標。",
+  "responsible_unit": "公事所",
+  "coordinator": "謝旭昇副教授",
+  "program_website": "http://",
+  "source_pdf": "http://140.117.153.69/ctdr/files/20240531151943802.pdf",
+  "academic_version": "115-1",
+  "source": {
+    "catalog_url": "https://ctdr.nsysu.edu.tw/class2.php",
+    "pdf_url": "http://140.117.153.69/ctdr/files/20240531151943802.pdf",
+    "retrieved_at": "2026-08-15T10:05:39Z",
+    "pdf_binary_sha256": "349c463840d73300aa634d1cef8a58bd7fb77af8a842d2548bd802bdec644bdf",
+    "normalized_text_sha256": "a34c221db6e6052c8d3a24cb560e927782a3c6af6d3e9fca7452201ea22bdff1",
+    "http": {
+      "status": 200,
+      "etag": "\"21bf6-619bacec3dfc5\"",
+      "last_modified": "Fri, 31 May 2024 07:19:43 GMT",
+      "content_length": 138230
+    },
+    "parser_version": "0.1.0"
+  },
+  "review_status": "needs_review",
+  "rules": {
+    "kind": "manual_review",
+    "reason": "Extracted candidate awaits approval"
+  },
+  "warnings": [
+    "No structured course rows extracted from PDF tables"
+  ],
+  "selected_pdf_academic_version": "112-2",
+  "course_catalog": [
+    {
+      "course_code": null,
+      "opening_units": [
+        "人科學程"
+      ],
+      "opening_unit_snapshot": "人科學程",
+      "course_name_snapshot": "都市發展與變遷",
+      "credits_snapshot": 3.0,
+      "requirement_group": "elective",
+      "notes": "",
+      "source_page": 1,
+      "evidence_match": true,
+      "validation_status": "needs_course_code_verification",
+      "uncertainty_reason": "Official PDF table does not provide a course code"
+    },
+    {
+      "course_code": null,
+      "opening_units": [
+        "人科學程"
+      ],
+      "opening_unit_snapshot": "人科學程",
+      "course_name_snapshot": "都市環境概論",
+      "credits_snapshot": 3.0,
+      "requirement_group": "elective",
+      "notes": "",
+      "source_page": 1,
+      "evidence_match": true,
+      "validation_status": "needs_course_code_verification",
+      "uncertainty_reason": "Official PDF table does not provide a course code"
+    },
+    {
+      "course_code": null,
+      "opening_units": [
+        "社會科學院"
+      ],
+      "opening_unit_snapshot": "社會科學院",
+      "course_name_snapshot": "都市計劃實務",
+      "credits_snapshot": 3.0,
+      "requirement_group": "elective",
+      "notes": "",
+      "source_page": 1,
+      "evidence_match": true,
+      "validation_status": "needs_course_code_verification",
+      "uncertainty_reason": "Official PDF table does not provide a course code"
+    },
+    {
+      "course_code": null,
+      "opening_units": [
+        "社會科學院"
+      ],
+      "opening_unit_snapshot": "社會科學院",
+      "course_name_snapshot": "都市空間管制法規",
+      "credits_snapshot": 3.0,
+      "requirement_group": "elective",
+      "notes": "",
+      "source_page": 1,
+      "evidence_match": true,
+      "validation_status": "needs_course_code_verification",
+      "uncertainty_reason": "Official PDF table does not provide a course code"
+    },
+    {
+      "course_code": null,
+      "opening_units": [
+        "政治經濟學系"
+      ],
+      "opening_unit_snapshot": "政治經濟學系",
+      "course_name_snapshot": "港灣城市發展與空間治理實務",
+      "credits_snapshot": 3.0,
+      "requirement_group": "elective",
+      "notes": "",
+      "source_page": 1,
+      "evidence_match": true,
+      "validation_status": "needs_course_code_verification",
+      "uncertainty_reason": "Official PDF table does not provide a course code"
+    },
+    {
+      "course_code": null,
+      "opening_units": [
+        "社會科學院"
+      ],
+      "opening_unit_snapshot": "社會科學院",
+      "course_name_snapshot": "永續都市環境行為及心理學",
+      "credits_snapshot": 3.0,
+      "requirement_group": "elective",
+      "notes": "",
+      "source_page": 1,
+      "evidence_match": true,
+      "validation_status": "needs_course_code_verification",
+      "uncertainty_reason": "Official PDF table does not provide a course code"
+    },
+    {
+      "course_code": null,
+      "opening_units": [
+        "人科學程"
+      ],
+      "opening_unit_snapshot": "人科學程",
+      "course_name_snapshot": "空間調查分析與規劃",
+      "credits_snapshot": 3.0,
+      "requirement_group": "elective",
+      "notes": "",
+      "source_page": 1,
+      "evidence_match": true,
+      "validation_status": "needs_course_code_verification",
+      "uncertainty_reason": "Official PDF table does not provide a course code"
+    },
+    {
+      "course_code": null,
+      "opening_units": [
+        "公事碩"
+      ],
+      "opening_unit_snapshot": "公事碩",
+      "course_name_snapshot": "都市環境管理",
+      "credits_snapshot": 3.0,
+      "requirement_group": "elective",
+      "notes": "英語授課",
+      "source_page": 1,
+      "evidence_match": true,
+      "validation_status": "needs_course_code_verification",
+      "uncertainty_reason": "Official PDF table does not provide a course code"
+    },
+    {
+      "course_code": null,
+      "opening_units": [
+        "政治經濟學系",
+        "社會科學院"
+      ],
+      "opening_unit_snapshot": "政治經濟學系 / 社會科學院",
+      "course_name_snapshot": "智慧城市與智慧運輸趨勢、發展及課題研析",
+      "credits_snapshot": 3.0,
+      "requirement_group": "elective",
+      "notes": "",
+      "source_page": 1,
+      "evidence_match": false,
+      "validation_status": "needs_course_code_verification",
+      "uncertainty_reason": "Official PDF table does not provide a course code"
+    }
+  ],
+  "structured_requirements": {
+    "minimum_total_credits": 9,
+    "core_credits_text_value": 0,
+    "minimum_outside_home_department_credits": 3
+  }
+}

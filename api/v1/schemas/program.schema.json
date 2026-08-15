@@ -1,0 +1,79 @@
+{
+  "$schema": "https://json-schema.org/draft/2020-12/schema",
+  "$id": "https://brian-yah.github.io/nsysu-program-api/api/v1/schemas/program.schema.json",
+  "title": "NSYSU Program",
+  "type": "object",
+  "required": ["program_id", "name_zh", "type", "status", "academic_version", "source", "review_status", "rules"],
+  "properties": {
+    "program_id": {"type": "string", "pattern": "^prog_[a-f0-9]{16}$"},
+    "name_zh": {"type": "string", "minLength": 1},
+    "name_en": {"type": ["string", "null"]},
+    "previous_names": {"type": "array", "items": {"type": "string"}, "uniqueItems": true},
+    "type": {"enum": ["integrated_program", "department_professional_program", "micro_program", "discontinued_program"]},
+    "status": {"enum": ["active", "discontinued", "suspended", "unknown"]},
+    "academic_version": {"type": "string", "pattern": "^[0-9]{3}-(?:1|2|S)$"},
+    "review_status": {"enum": ["source_only", "needs_review", "approved", "rejected"]},
+    "source_pdf": {"type": ["string", "null"], "format": "uri"},
+    "source": {
+      "type": "object",
+      "required": ["catalog_url", "retrieved_at", "parser_version"],
+      "properties": {
+        "catalog_url": {"type": "string", "format": "uri"},
+        "pdf_url": {"type": ["string", "null"]},
+        "retrieved_at": {"type": "string", "format": "date-time"},
+        "pdf_binary_sha256": {"type": ["string", "null"], "pattern": "^[a-f0-9]{64}$"},
+        "normalized_text_sha256": {"type": ["string", "null"], "pattern": "^[a-f0-9]{64}$"},
+        "http": {"type": "object"},
+        "parser_version": {"type": "string"}
+      }
+    },
+    "rules": {"$ref": "#/$defs/rule"},
+    "selected_pdf_academic_version": {
+      "type": ["string", "null"],
+      "pattern": "^[0-9]{3}-(?:1|2|S)$"
+    },
+    "course_catalog": {
+      "type": "array",
+      "items": {"$ref": "#/$defs/extractedCourse"}
+    },
+    "structured_requirements": {"type": "object"}
+  },
+  "$defs": {
+    "extractedCourse": {
+      "type": "object",
+      "required": ["course_code", "opening_units", "course_name_snapshot", "credits_snapshot", "requirement_group", "source_page", "validation_status"],
+      "properties": {
+        "course_code": {"type": ["string", "null"]},
+        "opening_units": {"type": "array", "items": {"type": "string"}, "minItems": 1},
+        "opening_unit_snapshot": {"type": "string"},
+        "course_name_snapshot": {"type": "string", "minLength": 1},
+        "credits_snapshot": {"type": "number", "minimum": 0},
+        "requirement_group": {"enum": ["core", "elective", "unspecified"]},
+        "notes": {"type": "string"},
+        "source_page": {"type": "integer", "minimum": 1},
+        "evidence_match": {"type": "boolean"},
+        "validation_status": {"enum": ["verified", "needs_course_code_verification", "manual_review"]},
+        "uncertainty_reason": {"type": ["string", "null"]}
+      }
+    },
+    "courseRef": {
+      "type": "object",
+      "required": ["course_code", "name_snapshot", "credits_snapshot", "aliases", "validation_status"],
+      "properties": {
+        "course_code": {"type": ["string", "null"], "minLength": 1},
+        "name_snapshot": {"type": "string"},
+        "credits_snapshot": {"type": "number", "minimum": 0},
+        "aliases": {"type": "array", "items": {"type": "string"}},
+        "validation_status": {"enum": ["verified", "unverified", "invalid", "manual_review"]},
+        "uncertainty_reason": {"type": ["string", "null"]}
+      }
+    },
+    "rule": {
+      "oneOf": [
+        {"type": "object", "required": ["kind", "reason"], "properties": {"kind": {"const": "manual_review"}, "reason": {"type": "string"}}},
+        {"type": "object", "required": ["kind", "rules"], "properties": {"kind": {"enum": ["all_of", "any_of"]}, "rules": {"type": "array", "items": {"$ref": "#/$defs/rule"}}}},
+        {"type": "object", "required": ["kind", "courses"], "properties": {"kind": {"const": "course_set"}, "courses": {"type": "array", "items": {"$ref": "#/$defs/courseRef"}}, "min_credits": {"type": "number", "minimum": 0}, "max_credits": {"type": "number", "minimum": 0}, "min_courses": {"type": "integer", "minimum": 0}, "all_required": {"type": "boolean"}, "no_double_count": {"type": "boolean"}, "approval_required": {"type": "boolean"}, "student_department_conditions": {"type": "array"}, "cross_department_min_credits": {"type": "number", "minimum": 0}, "cross_college_min_credits": {"type": "number", "minimum": 0}}}
+      ]
+    }
+  }
+}

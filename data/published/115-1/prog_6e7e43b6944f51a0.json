@@ -1,0 +1,164 @@
+{
+  "program_id": "prog_6e7e43b6944f51a0",
+  "name_zh": "半導體物理與先進元件分析微學程",
+  "name_en": null,
+  "previous_names": [],
+  "type": "micro_program",
+  "status": "active",
+  "description": "「半導體物理與先進元件分析微學程」為一跨領域課程,不僅包含了基本半導體元件物理以及材料分析的基本知識,更重要的是,能使修課學生直接參與解決業界問題的過程,使學生藉由本微學程,實際接觸台積電、聯電、友達、群創等國內科技大廠的先進元件;透過訓練使學生動手進行元件電性量測、數據分析與整理、科學思維表達。學生將在此學習過程中實際參與解決各大廠所面臨的問題;最終使修課學生達到無學用落差的目的,使艱澀的半導體元件物理知識,能深植於學生心中,並於畢業後直接在產業界學以致用,達成「畢業即就業」的目標。",
+  "responsible_unit": "物理系",
+  "coordinator": "張鼎張講座教授",
+  "program_website": "https://sites.google.com/view/tcc-lab-program2?fbclid=IwAR3h78t1ggfggGJXJB__D-IavqgpfZ7FA_QIVLJKvFmUXbmY25iIRhXn9Vw",
+  "source_pdf": "http://140.117.153.69/ctdr/files/20240531150417693.pdf",
+  "academic_version": "115-1",
+  "source": {
+    "catalog_url": "https://ctdr.nsysu.edu.tw/class2.php",
+    "pdf_url": "http://140.117.153.69/ctdr/files/20240531150417693.pdf",
+    "retrieved_at": "2026-08-15T10:05:39Z",
+    "pdf_binary_sha256": "7f2ac3c6d4976aafa2b1afccc6964881c141039cfb2718c47d3a12a12b8fbbc1",
+    "normalized_text_sha256": "eb692531dc332cc08169bcec07294007dbc64b904eafb09ce4db47eb0deb268e",
+    "http": {
+      "status": 200,
+      "etag": "\"309bb-619ba979091cf\"",
+      "last_modified": "Fri, 31 May 2024 07:04:17 GMT",
+      "content_length": 199099
+    },
+    "parser_version": "0.1.0"
+  },
+  "review_status": "needs_review",
+  "rules": {
+    "kind": "manual_review",
+    "reason": "Extracted candidate awaits approval"
+  },
+  "warnings": [
+    "No structured course rows extracted from PDF tables"
+  ],
+  "selected_pdf_academic_version": "112-2",
+  "course_catalog": [
+    {
+      "course_code": null,
+      "opening_units": [
+        "物理系"
+      ],
+      "opening_unit_snapshot": "物理系",
+      "course_name_snapshot": "半導體奈米元件製造技術",
+      "credits_snapshot": 3.0,
+      "requirement_group": "core",
+      "notes": "",
+      "source_page": 1,
+      "evidence_match": true,
+      "validation_status": "needs_course_code_verification",
+      "uncertainty_reason": "Official PDF table does not provide a course code"
+    },
+    {
+      "course_code": null,
+      "opening_units": [
+        "物理系"
+      ],
+      "opening_unit_snapshot": "物理系",
+      "course_name_snapshot": "半導體奈米元件物理",
+      "credits_snapshot": 3.0,
+      "requirement_group": "core",
+      "notes": "",
+      "source_page": 1,
+      "evidence_match": true,
+      "validation_status": "needs_course_code_verification",
+      "uncertainty_reason": "Official PDF table does not provide a course code"
+    },
+    {
+      "course_code": null,
+      "opening_units": [
+        "創新半導體製造研究所"
+      ],
+      "opening_unit_snapshot": "創新半導體製造研究所",
+      "course_name_snapshot": "半導體元件特性量測分析",
+      "credits_snapshot": 3.0,
+      "requirement_group": "core",
+      "notes": "",
+      "source_page": 1,
+      "evidence_match": true,
+      "validation_status": "needs_course_code_verification",
+      "uncertainty_reason": "Official PDF table does not provide a course code"
+    },
+    {
+      "course_code": null,
+      "opening_units": [
+        "材光系"
+      ],
+      "opening_unit_snapshot": "材光系",
+      "course_name_snapshot": "半導體元件",
+      "credits_snapshot": 3.0,
+      "requirement_group": "elective",
+      "notes": "",
+      "source_page": 1,
+      "evidence_match": true,
+      "validation_status": "needs_course_code_verification",
+      "uncertainty_reason": "Official PDF table does not provide a course code"
+    },
+    {
+      "course_code": null,
+      "opening_units": [
+        "材光系"
+      ],
+      "opening_unit_snapshot": "材光系",
+      "course_name_snapshot": "記憶體元件與製程技術",
+      "credits_snapshot": 3.0,
+      "requirement_group": "elective",
+      "notes": "",
+      "source_page": 1,
+      "evidence_match": true,
+      "validation_status": "needs_course_code_verification",
+      "uncertainty_reason": "Official PDF table does not provide a course code"
+    },
+    {
+      "course_code": null,
+      "opening_units": [
+        "材光系"
+      ],
+      "opening_unit_snapshot": "材光系",
+      "course_name_snapshot": "固態物理",
+      "credits_snapshot": 3.0,
+      "requirement_group": "elective",
+      "notes": "",
+      "source_page": 1,
+      "evidence_match": true,
+      "validation_status": "needs_course_code_verification",
+      "uncertainty_reason": "Official PDF table does not provide a course code"
+    },
+    {
+      "course_code": null,
+      "opening_units": [
+        "物理系"
+      ],
+      "opening_unit_snapshot": "物理系",
+      "course_name_snapshot": "物理研究專題(一)",
+      "credits_snapshot": 3.0,
+      "requirement_group": "elective",
+      "notes": "專題導向課程",
+      "source_page": 1,
+      "evidence_match": true,
+      "validation_status": "needs_course_code_verification",
+      "uncertainty_reason": "Official PDF table does not provide a course code"
+    },
+    {
+      "course_code": null,
+      "opening_units": [
+        "物理系"
+      ],
+      "opening_unit_snapshot": "物理系",
+      "course_name_snapshot": "近代物理",
+      "credits_snapshot": 3.0,
+      "requirement_group": "elective",
+      "notes": "",
+      "source_page": 1,
+      "evidence_match": true,
+      "validation_status": "needs_course_code_verification",
+      "uncertainty_reason": "Official PDF table does not provide a course code"
+    }
+  ],
+  "structured_requirements": {
+    "minimum_total_credits": 9,
+    "core_credits_text_value": 6,
+    "minimum_outside_home_department_credits": 3
+  }
+}

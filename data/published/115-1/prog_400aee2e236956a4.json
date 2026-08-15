@@ -1,0 +1,194 @@
+{
+  "program_id": "prog_400aee2e236956a4",
+  "name_zh": "海洋生物資源與實務應用微學程",
+  "name_en": null,
+  "previous_names": [],
+  "type": "micro_program",
+  "status": "active",
+  "description": "個體生物學課程著重於對海洋生物的瞭解與認識, 而海洋各生態系中除了個體生物外,生物間的交互作用與演化也在個生態系的運作中扮演重要角色,整合以上課程將使修課學生對海洋生物與生態有較宏觀的概念。搭配海洋資源應用相關課程將使學生能將所學投射至海洋資源的實務應用,加強與海洋相關產業的連結。",
+  "responsible_unit": "海資系",
+  "coordinator": "劉商隱副教授",
+  "program_website": "https://mbr.nsysu.edu.tw/p/405-1260-317090,c25126.php?Lang=zh-tw",
+  "source_pdf": "http://140.117.153.69/ctdr/files/20241224153101404.pdf",
+  "academic_version": "115-1",
+  "source": {
+    "catalog_url": "https://ctdr.nsysu.edu.tw/class2.php",
+    "pdf_url": "http://140.117.153.69/ctdr/files/20241224153101404.pdf",
+    "retrieved_at": "2026-08-15T10:05:39Z",
+    "pdf_binary_sha256": "f91ee79d6ffd77c15fe959f7acb2c6932e1c6d92809985a2c9a2d04713c96bad",
+    "normalized_text_sha256": "5cd437f54d85aedf8af2db86cae864f3b4f75005a15d9501e7e3b186f2dafece",
+    "http": {
+      "status": 200,
+      "etag": "\"1de72-629ff184dc366\"",
+      "last_modified": "Tue, 24 Dec 2024 07:31:01 GMT",
+      "content_length": 122482
+    },
+    "parser_version": "0.1.0"
+  },
+  "review_status": "needs_review",
+  "rules": {
+    "kind": "manual_review",
+    "reason": "Extracted candidate awaits approval"
+  },
+  "warnings": [
+    "No structured course rows extracted from PDF tables"
+  ],
+  "selected_pdf_academic_version": "113-1",
+  "course_catalog": [
+    {
+      "course_code": null,
+      "opening_units": [
+        "海資系"
+      ],
+      "opening_unit_snapshot": "海資系",
+      "course_name_snapshot": "海洋無脊椎動物學(一)",
+      "credits_snapshot": 2.0,
+      "requirement_group": "core",
+      "notes": "",
+      "source_page": 1,
+      "evidence_match": true,
+      "validation_status": "needs_course_code_verification",
+      "uncertainty_reason": "Official PDF table does not provide a course code"
+    },
+    {
+      "course_code": null,
+      "opening_units": [
+        "海資系"
+      ],
+      "opening_unit_snapshot": "海資系",
+      "course_name_snapshot": "魚類學",
+      "credits_snapshot": 2.0,
+      "requirement_group": "core",
+      "notes": "",
+      "source_page": 1,
+      "evidence_match": true,
+      "validation_status": "needs_course_code_verification",
+      "uncertainty_reason": "Official PDF table does not provide a course code"
+    },
+    {
+      "course_code": null,
+      "opening_units": [
+        "生科系"
+      ],
+      "opening_unit_snapshot": "生科系",
+      "course_name_snapshot": "演化生物學",
+      "credits_snapshot": 3.0,
+      "requirement_group": "core",
+      "notes": "",
+      "source_page": 1,
+      "evidence_match": true,
+      "validation_status": "needs_course_code_verification",
+      "uncertainty_reason": "Official PDF table does not provide a course code"
+    },
+    {
+      "course_code": null,
+      "opening_units": [
+        "海資系"
+      ],
+      "opening_unit_snapshot": "海資系",
+      "course_name_snapshot": "生態學",
+      "credits_snapshot": 2.0,
+      "requirement_group": "core",
+      "notes": "",
+      "source_page": 1,
+      "evidence_match": true,
+      "validation_status": "needs_course_code_verification",
+      "uncertainty_reason": "Official PDF table does not provide a course code"
+    },
+    {
+      "course_code": null,
+      "opening_units": [
+        "海資系"
+      ],
+      "opening_unit_snapshot": "海資系",
+      "course_name_snapshot": "海洋無脊椎動物學(二)",
+      "credits_snapshot": 2.0,
+      "requirement_group": "elective",
+      "notes": "",
+      "source_page": 1,
+      "evidence_match": true,
+      "validation_status": "needs_course_code_verification",
+      "uncertainty_reason": "Official PDF table does not provide a course code"
+    },
+    {
+      "course_code": null,
+      "opening_units": [
+        "海資系"
+      ],
+      "opening_unit_snapshot": "海資系",
+      "course_name_snapshot": "淺海養殖",
+      "credits_snapshot": 2.0,
+      "requirement_group": "elective",
+      "notes": "",
+      "source_page": 1,
+      "evidence_match": true,
+      "validation_status": "needs_course_code_verification",
+      "uncertainty_reason": "Official PDF table does not provide a course code"
+    },
+    {
+      "course_code": null,
+      "opening_units": [
+        "海資系"
+      ],
+      "opening_unit_snapshot": "海資系",
+      "course_name_snapshot": "海洋生態學",
+      "credits_snapshot": 2.0,
+      "requirement_group": "elective",
+      "notes": "",
+      "source_page": 1,
+      "evidence_match": true,
+      "validation_status": "needs_course_code_verification",
+      "uncertainty_reason": "Official PDF table does not provide a course code"
+    },
+    {
+      "course_code": null,
+      "opening_units": [
+        "生科系"
+      ],
+      "opening_unit_snapshot": "生科系",
+      "course_name_snapshot": "生態學的R入門",
+      "credits_snapshot": 2.0,
+      "requirement_group": "elective",
+      "notes": "",
+      "source_page": 1,
+      "evidence_match": true,
+      "validation_status": "needs_course_code_verification",
+      "uncertainty_reason": "Official PDF table does not provide a course code"
+    },
+    {
+      "course_code": null,
+      "opening_units": [
+        "海科院"
+      ],
+      "opening_unit_snapshot": "海科院",
+      "course_name_snapshot": "海洋應用科學",
+      "credits_snapshot": 2.0,
+      "requirement_group": "elective",
+      "notes": "",
+      "source_page": 1,
+      "evidence_match": true,
+      "validation_status": "needs_course_code_verification",
+      "uncertainty_reason": "Official PDF table does not provide a course code"
+    },
+    {
+      "course_code": null,
+      "opening_units": [
+        "海資系"
+      ],
+      "opening_unit_snapshot": "海資系",
+      "course_name_snapshot": "海洋生物多樣性導論",
+      "credits_snapshot": 2.0,
+      "requirement_group": "elective",
+      "notes": "",
+      "source_page": 1,
+      "evidence_match": true,
+      "validation_status": "needs_course_code_verification",
+      "uncertainty_reason": "Official PDF table does not provide a course code"
+    }
+  ],
+  "structured_requirements": {
+    "minimum_total_credits": 9,
+    "core_credits_text_value": 5,
+    "minimum_outside_home_department_credits": 3
+  }
+}

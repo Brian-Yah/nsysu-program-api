@@ -1,0 +1,24 @@
+# Development and operations
+
+## Pipeline
+
+`fetch` 動態解析四張學程表；`full` 再下載公開 PDF、計算 binary hash、用 pypdf 原生取字、對低品質文件標記 OCR 待辦、產生 extracted candidates、報告及 static API。OCR optional dependencies 存在，但排程不會因沒有 OCR 或模型 key 失敗。
+
+```bash
+python -m nsysu_program_api.cli --root . --academic-version 115-1 fetch
+python -m nsysu_program_api.cli --root . --academic-version 115-1 full
+python -m nsysu_program_api.cli --root . build
+python -m nsysu_program_api.cli --root . diff old.json new.json --output reports/diff.json
+```
+
+先比較 URL、binary hash、normalized text hash，再審閱 extracted course/rule 差異。semantic diff 區分 catalog metadata 與內容 hash；PDF binary 變但 normalized text 不變時可判為版面／metadata 變動候選，仍保留證據。
+
+## GitHub Actions and Pages
+
+CI 僅需 `contents: read`。排程也只有 read 權限並上傳 artifact，不自動發布、開 Issue 或寫 branch，避免未審核內容進 main。maintainer 下載 artifact、審閱後另開 PR。若希望自動開 Issue，應新增獨立 job，限定 `issues: write` 且只傳 diff 摘要。
+
+Pages workflow 只接受手動觸發，具 `pages: write` 與 `id-token: write`。在 repository Settings → Pages 將 Source 設為 GitHub Actions，再手動執行。
+
+## AI structured output
+
+未審核 AI 不會進 published。新增 provider adapter 時須：以環境變數讀 provider、model、key；把 program schema 的 rule 子結構作 structured-output JSON Schema；本地再次驗證；保存模型名稱、prompt/parser version、信心與 warnings；輸出只進 `data/extracted`。reviewer 需逐條比對 PDF 才能升格。

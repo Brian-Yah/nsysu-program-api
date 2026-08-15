@@ -1,0 +1,389 @@
+{
+  "program_id": "prog_6cd8c9bf1c955907",
+  "name_zh": "印象海味微學程",
+  "name_en": null,
+  "previous_names": [],
+  "type": "micro_program",
+  "status": "active",
+  "description": "食魚是海洋國家重要的飲食文化,而印象中所傳承的豐富海味除了是記憶及文化的延伸外,更是往未來永續發展的重要使命。印象海味學程整合本校既有課程,讓學生從海洋生態的角度切入,導入食品安全及永續經營等重要觀念,分析海味對於生態環境及你我之間的影響,最後再到餐桌上一道道令人食指大動的美味佳餚。課程預計安排漁村體驗課程,透過實際走訪漁村,體驗生物種類的變化和共存,分析生物相的變動和棲息環境及地理區域的關係以及對人類的影響,實踐對海洋資源保育及利用之永續目標。",
+  "responsible_unit": "海保所",
+  "coordinator": "林裕䕒教授",
+  "program_website": "https://b22558585.wixsite.com/mysite",
+  "source_pdf": "http://140.117.153.69/ctdr/files/20241224153738157.pdf",
+  "academic_version": "115-1",
+  "source": {
+    "catalog_url": "https://ctdr.nsysu.edu.tw/class2.php",
+    "pdf_url": "http://140.117.153.69/ctdr/files/20241224153738157.pdf",
+    "retrieved_at": "2026-08-15T10:05:39Z",
+    "pdf_binary_sha256": "920da5627df4dd8260fa108ce02226875e0b0d6399bc75fa5d159747bc8908cf",
+    "normalized_text_sha256": "4a94fa6747a652f4784a235742870fa79e3917728a51cac06c66f0421c049ac7",
+    "http": {
+      "status": 200,
+      "etag": "\"35886-629ff2ff3b68c\"",
+      "last_modified": "Tue, 24 Dec 2024 07:37:38 GMT",
+      "content_length": 219270
+    },
+    "parser_version": "0.1.0"
+  },
+  "review_status": "needs_review",
+  "rules": {
+    "kind": "manual_review",
+    "reason": "Extracted candidate awaits approval"
+  },
+  "warnings": [
+    "No structured course rows extracted from PDF tables"
+  ],
+  "selected_pdf_academic_version": "113-1",
+  "course_catalog": [
+    {
+      "course_code": null,
+      "opening_units": [
+        "海科系"
+      ],
+      "opening_unit_snapshot": "海科系",
+      "course_name_snapshot": "水產概論",
+      "credits_snapshot": 2.0,
+      "requirement_group": "core",
+      "notes": "",
+      "source_page": 1,
+      "evidence_match": true,
+      "validation_status": "needs_course_code_verification",
+      "uncertainty_reason": "Official PDF table does not provide a course code"
+    },
+    {
+      "course_code": null,
+      "opening_units": [
+        "海生保育碩"
+      ],
+      "opening_unit_snapshot": "海生保育碩",
+      "course_name_snapshot": "水產資源",
+      "credits_snapshot": 2.0,
+      "requirement_group": "core",
+      "notes": "",
+      "source_page": 1,
+      "evidence_match": true,
+      "validation_status": "needs_course_code_verification",
+      "uncertainty_reason": "Official PDF table does not provide a course code"
+    },
+    {
+      "course_code": null,
+      "opening_units": [
+        "海生保育碩"
+      ],
+      "opening_unit_snapshot": "海生保育碩",
+      "course_name_snapshot": "水產資源概論",
+      "credits_snapshot": 2.0,
+      "requirement_group": "core",
+      "notes": "",
+      "source_page": 1,
+      "evidence_match": true,
+      "validation_status": "needs_course_code_verification",
+      "uncertainty_reason": "Official PDF table does not provide a course code"
+    },
+    {
+      "course_code": null,
+      "opening_units": [
+        "人科學程"
+      ],
+      "opening_unit_snapshot": "人科學程",
+      "course_name_snapshot": "營養與藥物安全講座",
+      "credits_snapshot": 2.0,
+      "requirement_group": "core",
+      "notes": "",
+      "source_page": 1,
+      "evidence_match": true,
+      "validation_status": "needs_course_code_verification",
+      "uncertainty_reason": "Official PDF table does not provide a course code"
+    },
+    {
+      "course_code": null,
+      "opening_units": [
+        "人科學程"
+      ],
+      "opening_unit_snapshot": "人科學程",
+      "course_name_snapshot": "食品與營養",
+      "credits_snapshot": 2.0,
+      "requirement_group": "core",
+      "notes": "",
+      "source_page": 1,
+      "evidence_match": true,
+      "validation_status": "needs_course_code_verification",
+      "uncertainty_reason": "Official PDF table does not provide a course code"
+    },
+    {
+      "course_code": null,
+      "opening_units": [
+        "化學系"
+      ],
+      "opening_unit_snapshot": "化學系",
+      "course_name_snapshot": "食品安全分析概論",
+      "credits_snapshot": 2.0,
+      "requirement_group": "core",
+      "notes": "",
+      "source_page": 1,
+      "evidence_match": true,
+      "validation_status": "needs_course_code_verification",
+      "uncertainty_reason": "Official PDF table does not provide a course code"
+    },
+    {
+      "course_code": null,
+      "opening_units": [
+        "博雅向度一"
+      ],
+      "opening_unit_snapshot": "博雅向度一",
+      "course_name_snapshot": "飲食與文學",
+      "credits_snapshot": 3.0,
+      "requirement_group": "core",
+      "notes": "",
+      "source_page": 1,
+      "evidence_match": true,
+      "validation_status": "needs_course_code_verification",
+      "uncertainty_reason": "Official PDF table does not provide a course code"
+    },
+    {
+      "course_code": null,
+      "opening_units": [
+        "人科學程"
+      ],
+      "opening_unit_snapshot": "人科學程",
+      "course_name_snapshot": "食品科學概論",
+      "credits_snapshot": 2.0,
+      "requirement_group": "core",
+      "notes": "",
+      "source_page": 1,
+      "evidence_match": true,
+      "validation_status": "needs_course_code_verification",
+      "uncertainty_reason": "Official PDF table does not provide a course code"
+    },
+    {
+      "course_code": null,
+      "opening_units": [
+        "海科系"
+      ],
+      "opening_unit_snapshot": "海科系",
+      "course_name_snapshot": "海洋生物概論",
+      "credits_snapshot": 2.0,
+      "requirement_group": "core",
+      "notes": "",
+      "source_page": 1,
+      "evidence_match": true,
+      "validation_status": "needs_course_code_verification",
+      "uncertainty_reason": "Official PDF table does not provide a course code"
+    },
+    {
+      "course_code": null,
+      "opening_units": [
+        "海科系"
+      ],
+      "opening_unit_snapshot": "海科系",
+      "course_name_snapshot": "海洋脊椎動物學",
+      "credits_snapshot": 2.0,
+      "requirement_group": "core",
+      "notes": "",
+      "source_page": 1,
+      "evidence_match": true,
+      "validation_status": "needs_course_code_verification",
+      "uncertainty_reason": "Official PDF table does not provide a course code"
+    },
+    {
+      "course_code": null,
+      "opening_units": [
+        "海科海資系"
+      ],
+      "opening_unit_snapshot": "海科海資系",
+      "course_name_snapshot": "海洋無脊椎動物學",
+      "credits_snapshot": 2.0,
+      "requirement_group": "core",
+      "notes": "",
+      "source_page": 1,
+      "evidence_match": true,
+      "validation_status": "needs_course_code_verification",
+      "uncertainty_reason": "Official PDF table does not provide a course code"
+    },
+    {
+      "course_code": null,
+      "opening_units": [
+        "海科海資系"
+      ],
+      "opening_unit_snapshot": "海科海資系",
+      "course_name_snapshot": "魚類學",
+      "credits_snapshot": 2.0,
+      "requirement_group": "core",
+      "notes": "",
+      "source_page": 1,
+      "evidence_match": true,
+      "validation_status": "needs_course_code_verification",
+      "uncertainty_reason": "Official PDF table does not provide a course code"
+    },
+    {
+      "course_code": null,
+      "opening_units": [
+        "博雅向度五"
+      ],
+      "opening_unit_snapshot": "博雅向度五",
+      "course_name_snapshot": "生物多樣性的世界",
+      "credits_snapshot": 2.0,
+      "requirement_group": "core",
+      "notes": "",
+      "source_page": 1,
+      "evidence_match": true,
+      "validation_status": "needs_course_code_verification",
+      "uncertainty_reason": "Official PDF table does not provide a course code"
+    },
+    {
+      "course_code": null,
+      "opening_units": [
+        "海資系"
+      ],
+      "opening_unit_snapshot": "海資系",
+      "course_name_snapshot": "食品微生物學",
+      "credits_snapshot": 2.0,
+      "requirement_group": "elective",
+      "notes": "",
+      "source_page": 1,
+      "evidence_match": true,
+      "validation_status": "needs_course_code_verification",
+      "uncertainty_reason": "Official PDF table does not provide a course code"
+    },
+    {
+      "course_code": null,
+      "opening_units": [
+        "海資系"
+      ],
+      "opening_unit_snapshot": "海資系",
+      "course_name_snapshot": "應用海洋資源學",
+      "credits_snapshot": 2.0,
+      "requirement_group": "elective",
+      "notes": "",
+      "source_page": 1,
+      "evidence_match": true,
+      "validation_status": "needs_course_code_verification",
+      "uncertainty_reason": "Official PDF table does not provide a course code"
+    },
+    {
+      "course_code": null,
+      "opening_units": [
+        "海事碩"
+      ],
+      "opening_unit_snapshot": "海事碩",
+      "course_name_snapshot": "海洋生物資源永續管理",
+      "credits_snapshot": 3.0,
+      "requirement_group": "elective",
+      "notes": "",
+      "source_page": 1,
+      "evidence_match": true,
+      "validation_status": "needs_course_code_verification",
+      "uncertainty_reason": "Official PDF table does not provide a course code"
+    },
+    {
+      "course_code": null,
+      "opening_units": [
+        "跨院選修(通)"
+      ],
+      "opening_unit_snapshot": "跨院選修(通)",
+      "course_name_snapshot": "海洋休閒活動概論",
+      "credits_snapshot": 2.0,
+      "requirement_group": "elective",
+      "notes": "",
+      "source_page": 1,
+      "evidence_match": true,
+      "validation_status": "needs_course_code_verification",
+      "uncertainty_reason": "Official PDF table does not provide a course code"
+    },
+    {
+      "course_code": null,
+      "opening_units": [
+        "博雅向度六"
+      ],
+      "opening_unit_snapshot": "博雅向度六",
+      "course_name_snapshot": "海洋生態與海洋科技教育探索",
+      "credits_snapshot": 2.0,
+      "requirement_group": "elective",
+      "notes": "",
+      "source_page": 1,
+      "evidence_match": true,
+      "validation_status": "needs_course_code_verification",
+      "uncertainty_reason": "Official PDF table does not provide a course code"
+    },
+    {
+      "course_code": null,
+      "opening_units": [
+        "博雅向度三"
+      ],
+      "opening_unit_snapshot": "博雅向度三",
+      "course_name_snapshot": "海洋文化",
+      "credits_snapshot": 3.0,
+      "requirement_group": "elective",
+      "notes": "",
+      "source_page": 1,
+      "evidence_match": true,
+      "validation_status": "needs_course_code_verification",
+      "uncertainty_reason": "Official PDF table does not provide a course code"
+    },
+    {
+      "course_code": null,
+      "opening_units": [
+        "博雅向度五"
+      ],
+      "opening_unit_snapshot": "博雅向度五",
+      "course_name_snapshot": "海味台灣:海洋產品及食品的上下游",
+      "credits_snapshot": 2.0,
+      "requirement_group": "elective",
+      "notes": "113-1 新增",
+      "source_page": 1,
+      "evidence_match": false,
+      "validation_status": "needs_course_code_verification",
+      "uncertainty_reason": "Official PDF table does not provide a course code"
+    },
+    {
+      "course_code": null,
+      "opening_units": [
+        "博雅向度六"
+      ],
+      "opening_unit_snapshot": "博雅向度六",
+      "course_name_snapshot": "環境變遷與生態保育",
+      "credits_snapshot": 2.0,
+      "requirement_group": "elective",
+      "notes": "",
+      "source_page": 1,
+      "evidence_match": true,
+      "validation_status": "needs_course_code_verification",
+      "uncertainty_reason": "Official PDF table does not provide a course code"
+    },
+    {
+      "course_code": null,
+      "opening_units": [
+        "博雅向度六"
+      ],
+      "opening_unit_snapshot": "博雅向度六",
+      "course_name_snapshot": "海洋永續:海洋文學與海洋科學的生態對話",
+      "credits_snapshot": 2.0,
+      "requirement_group": "elective",
+      "notes": "",
+      "source_page": 1,
+      "evidence_match": false,
+      "validation_status": "needs_course_code_verification",
+      "uncertainty_reason": "Official PDF table does not provide a course code"
+    },
+    {
+      "course_code": null,
+      "opening_units": [
+        "依各系所及西灣學院"
+      ],
+      "opening_unit_snapshot": "依各系所及西灣學院",
+      "course_name_snapshot": "海洋相關微學分課程",
+      "credits_snapshot": 2.0,
+      "requirement_group": "elective",
+      "notes": "",
+      "source_page": 1,
+      "evidence_match": true,
+      "validation_status": "needs_course_code_verification",
+      "uncertainty_reason": "Official PDF table does not provide a course code"
+    }
+  ],
+  "structured_requirements": {
+    "minimum_total_credits": 9,
+    "core_credits_text_value": 5,
+    "minimum_outside_home_department_credits": 3
+  }
+}

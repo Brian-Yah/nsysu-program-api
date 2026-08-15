@@ -1,0 +1,257 @@
+{
+  "program_id": "prog_190e05feb0e25908",
+  "latest_academic_version": "115-1",
+  "versions": [
+    "115-1"
+  ],
+  "program": {
+    "program_id": "prog_190e05feb0e25908",
+    "name_zh": "【AI聯盟學分學程】人工智慧探索應用學分學程",
+    "name_en": null,
+    "previous_names": [],
+    "type": "integrated_program",
+    "status": "active",
+    "description": "本學分學程屬於人工智慧應用學分學程,屬於學分學程內最容易入門的選項,主要給跨領域學生修習,因此課程設計從先修的程式設計和機率開始,透過循序漸進的修課規劃,讓學生除了有完備的人工智慧技術外,也了解相關倫理議題,最後透過人工智慧專題應用,讓學生們理解人工智慧技術在產業上落地的考量。",
+    "responsible_unit": "物理系",
+    "coordinator": "郭建成副教授",
+    "program_website": null,
+    "source_pdf": "http://140.117.153.69/ctdr/files/20260813142023374.pdf",
+    "academic_version": "115-1",
+    "source": {
+      "catalog_url": "https://ctdr.nsysu.edu.tw/class2.php",
+      "pdf_url": "http://140.117.153.69/ctdr/files/20260813142023374.pdf",
+      "retrieved_at": "2026-08-15T10:05:39Z",
+      "pdf_binary_sha256": "7a06b5044309d0104e8550815d7874df3b83fcbcdf5796c97b72111775b6b855",
+      "normalized_text_sha256": "86f705122b638a30df483fd7da6485fec977ed3a72b23a073b7aef0ecc9546b3",
+      "http": {
+        "status": 200,
+        "etag": "\"2273f-658e7b2f50f11\"",
+        "last_modified": "Thu, 13 Aug 2026 06:20:23 GMT",
+        "content_length": 141119
+      },
+      "parser_version": "0.1.0"
+    },
+    "review_status": "needs_review",
+    "rules": {
+      "kind": "manual_review",
+      "reason": "Extracted candidate awaits approval"
+    },
+    "warnings": [
+      "No structured course rows extracted from PDF tables"
+    ],
+    "selected_pdf_academic_version": "113-1",
+    "course_catalog": [
+      {
+        "course_code": null,
+        "opening_units": [
+          "資訊工程學系"
+        ],
+        "opening_unit_snapshot": "資訊工程學系",
+        "course_name_snapshot": "Python 程式設計",
+        "credits_snapshot": 3.0,
+        "requirement_group": "unspecified",
+        "notes": "Python 程式設計",
+        "source_page": 1,
+        "evidence_match": true,
+        "validation_status": "needs_course_code_verification",
+        "uncertainty_reason": "Official PDF table does not provide a course code"
+      },
+      {
+        "course_code": null,
+        "opening_units": [
+          "資訊管理學系"
+        ],
+        "opening_unit_snapshot": "資訊管理學系",
+        "course_name_snapshot": "程式設計",
+        "credits_snapshot": 3.0,
+        "requirement_group": "unspecified",
+        "notes": "程式設計",
+        "source_page": 1,
+        "evidence_match": true,
+        "validation_status": "needs_course_code_verification",
+        "uncertainty_reason": "Official PDF table does not provide a course code"
+      },
+      {
+        "course_code": null,
+        "opening_units": [
+          "電機工程學系"
+        ],
+        "opening_unit_snapshot": "電機工程學系",
+        "course_name_snapshot": "計算機概論",
+        "credits_snapshot": 3.0,
+        "requirement_group": "unspecified",
+        "notes": "計算機概論",
+        "source_page": 1,
+        "evidence_match": true,
+        "validation_status": "needs_course_code_verification",
+        "uncertainty_reason": "Official PDF table does not provide a course code"
+      },
+      {
+        "course_code": null,
+        "opening_units": [
+          "應用數學系"
+        ],
+        "opening_unit_snapshot": "應用數學系",
+        "course_name_snapshot": "計算機程式",
+        "credits_snapshot": 3.0,
+        "requirement_group": "unspecified",
+        "notes": "計算機程式",
+        "source_page": 1,
+        "evidence_match": true,
+        "validation_status": "needs_course_code_verification",
+        "uncertainty_reason": "Official PDF table does not provide a course code"
+      },
+      {
+        "course_code": null,
+        "opening_units": [
+          "財務管理學系"
+        ],
+        "opening_unit_snapshot": "財務管理學系",
+        "course_name_snapshot": "統計學(一)",
+        "credits_snapshot": 3.0,
+        "requirement_group": "unspecified",
+        "notes": "統計學(一)",
+        "source_page": 1,
+        "evidence_match": true,
+        "validation_status": "needs_course_code_verification",
+        "uncertainty_reason": "Official PDF table does not provide a course code"
+      },
+      {
+        "course_code": null,
+        "opening_units": [
+          "電機工程學系"
+        ],
+        "opening_unit_snapshot": "電機工程學系",
+        "course_name_snapshot": "機率與統計",
+        "credits_snapshot": 3.0,
+        "requirement_group": "unspecified",
+        "notes": "機率與統計",
+        "source_page": 1,
+        "evidence_match": true,
+        "validation_status": "needs_course_code_verification",
+        "uncertainty_reason": "Official PDF table does not provide a course code"
+      },
+      {
+        "course_code": null,
+        "opening_units": [
+          "應用數學系碩士班"
+        ],
+        "opening_unit_snapshot": "應用數學系碩士班",
+        "course_name_snapshot": "數據科學實務與創新",
+        "credits_snapshot": 3.0,
+        "requirement_group": "unspecified",
+        "notes": "數據科學實務與創新",
+        "source_page": 1,
+        "evidence_match": true,
+        "validation_status": "needs_course_code_verification",
+        "uncertainty_reason": "Official PDF table does not provide a course code"
+      },
+      {
+        "course_code": null,
+        "opening_units": [
+          "應用數學系"
+        ],
+        "opening_unit_snapshot": "應用數學系",
+        "course_name_snapshot": "機率論(二)",
+        "credits_snapshot": 3.0,
+        "requirement_group": "unspecified",
+        "notes": "機率論(二)",
+        "source_page": 1,
+        "evidence_match": true,
+        "validation_status": "needs_course_code_verification",
+        "uncertainty_reason": "Official PDF table does not provide a course code"
+      },
+      {
+        "course_code": null,
+        "opening_units": [
+          "資訊管理學系碩士班"
+        ],
+        "opening_unit_snapshot": "資訊管理學系碩士班",
+        "course_name_snapshot": "人工智慧",
+        "credits_snapshot": 3.0,
+        "requirement_group": "unspecified",
+        "notes": "人工智慧",
+        "source_page": 1,
+        "evidence_match": true,
+        "validation_status": "needs_course_code_verification",
+        "uncertainty_reason": "Official PDF table does not provide a course code"
+      },
+      {
+        "course_code": null,
+        "opening_units": [
+          "資訊工程學系"
+        ],
+        "opening_unit_snapshot": "資訊工程學系",
+        "course_name_snapshot": "人工智慧導論",
+        "credits_snapshot": 3.0,
+        "requirement_group": "unspecified",
+        "notes": "人工智慧導論",
+        "source_page": 1,
+        "evidence_match": true,
+        "validation_status": "needs_course_code_verification",
+        "uncertainty_reason": "Official PDF table does not provide a course code"
+      },
+      {
+        "course_code": null,
+        "opening_units": [
+          "博雅向度四<科技與社會>"
+        ],
+        "opening_unit_snapshot": "博雅向度四<科技與社會>",
+        "course_name_snapshot": "人工智慧概論",
+        "credits_snapshot": 3.0,
+        "requirement_group": "unspecified",
+        "notes": "人工智慧概論",
+        "source_page": 1,
+        "evidence_match": true,
+        "validation_status": "needs_course_code_verification",
+        "uncertainty_reason": "Official PDF table does not provide a course code"
+      },
+      {
+        "course_code": null,
+        "opening_units": [
+          "人力資源管理研究所碩士在職專班"
+        ],
+        "opening_unit_snapshot": "人力資源管理研究所碩士在職專班",
+        "course_name_snapshot": "人工智慧在測驗下的相關應用與發展",
+        "credits_snapshot": 3.0,
+        "requirement_group": "unspecified",
+        "notes": "人工智慧在測驗下的相關應用與發展",
+        "source_page": 1,
+        "evidence_match": false,
+        "validation_status": "needs_course_code_verification",
+        "uncertainty_reason": "Official PDF table does not provide a course code"
+      },
+      {
+        "course_code": null,
+        "opening_units": [
+          "企業管理學系企業管理碩士班"
+        ],
+        "opening_unit_snapshot": "企業管理學系企業管理碩士班",
+        "course_name_snapshot": "人工智慧工具應用",
+        "credits_snapshot": 3.0,
+        "requirement_group": "unspecified",
+        "notes": "人工智慧工具應用",
+        "source_page": 1,
+        "evidence_match": true,
+        "validation_status": "needs_course_code_verification",
+        "uncertainty_reason": "Official PDF table does not provide a course code"
+      },
+      {
+        "course_code": null,
+        "opening_units": [
+          "資訊管理學系碩士班"
+        ],
+        "opening_unit_snapshot": "資訊管理學系碩士班",
+        "course_name_snapshot": "金融科技",
+        "credits_snapshot": 3.0,
+        "requirement_group": "unspecified",
+        "notes": "金融科技",
+        "source_page": 1,
+        "evidence_match": true,
+        "validation_status": "needs_course_code_verification",
+        "uncertainty_reason": "Official PDF table does not provide a course code"
+      }
+    ],
+    "structured_requirements": {}
+  }
+}

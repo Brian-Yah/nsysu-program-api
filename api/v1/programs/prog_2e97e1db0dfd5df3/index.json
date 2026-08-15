@@ -1,0 +1,351 @@
+{
+  "program_id": "prog_2e97e1db0dfd5df3",
+  "latest_academic_version": "115-1",
+  "versions": [
+    "115-1"
+  ],
+  "program": {
+    "program_id": "prog_2e97e1db0dfd5df3",
+    "name_zh": "地方發展與永續農業微學程",
+    "name_en": null,
+    "previous_names": [],
+    "type": "micro_program",
+    "status": "active",
+    "description": "聯合國教科文組織(UNESCO)在「全球教育議程2030」(The Global Education 2030 Agenda)中提出,改善人與自然失衡之狀態,推動永續農業、解決飢餓與保障食物安全是當今最重要的教育目標之一。本課程的目的為:\n1.\t幫助學生認識農業生產與消費與地方發展。\n2.\t幫助學生認識食物商品鏈與永續農業。\n3.\t幫助學生關心世界糧食安全問題。\n4.\t幫助學生將永續發展概念與學生專業結合,並產生行動,促進地區發展。",
+    "responsible_unit": "西灣學院",
+    "coordinator": "李育諭助理教授",
+    "program_website": "https://cm-siwan.nsysu.edu.tw/p/406-1353-319508,r5482.php",
+    "source_pdf": "http://140.117.153.69/ctdr/files/20250527101755185.pdf",
+    "academic_version": "115-1",
+    "source": {
+      "catalog_url": "https://ctdr.nsysu.edu.tw/class2.php",
+      "pdf_url": "http://140.117.153.69/ctdr/files/20250527101755185.pdf",
+      "retrieved_at": "2026-08-15T10:05:39Z",
+      "pdf_binary_sha256": "3d1c943beb7dad4ffa2803ccb0fa0e855114c16d0640e2196f5bfa05b1dbea8e",
+      "normalized_text_sha256": "14fb962511ef6ac01767a1d1731d0eee930a8793b186f281b9d47f65dc3c29e0",
+      "http": {
+        "status": 200,
+        "etag": "\"3115c-63614ac1ecc56\"",
+        "last_modified": "Tue, 27 May 2025 02:17:55 GMT",
+        "content_length": 201052
+      },
+      "parser_version": "0.1.0"
+    },
+    "review_status": "needs_review",
+    "rules": {
+      "kind": "manual_review",
+      "reason": "Extracted candidate awaits approval"
+    },
+    "warnings": [
+      "No structured course rows extracted from PDF tables"
+    ],
+    "selected_pdf_academic_version": "113-2",
+    "course_catalog": [
+      {
+        "course_code": null,
+        "opening_units": [
+          "西灣學院"
+        ],
+        "opening_unit_snapshot": "西灣學院",
+        "course_name_snapshot": "在地食物的永續發展與全球脈絡",
+        "credits_snapshot": 3.0,
+        "requirement_group": "core",
+        "notes": "博雅向度六",
+        "source_page": 1,
+        "evidence_match": false,
+        "validation_status": "needs_course_code_verification",
+        "uncertainty_reason": "Official PDF table does not provide a course code"
+      },
+      {
+        "course_code": null,
+        "opening_units": [
+          "西灣學院"
+        ],
+        "opening_unit_snapshot": "西灣學院",
+        "course_name_snapshot": "都市農業與永續發展",
+        "credits_snapshot": 3.0,
+        "requirement_group": "core",
+        "notes": "跨院選修(通)",
+        "source_page": 1,
+        "evidence_match": true,
+        "validation_status": "needs_course_code_verification",
+        "uncertainty_reason": "Official PDF table does not provide a course code"
+      },
+      {
+        "course_code": null,
+        "opening_units": [
+          "西灣學院"
+        ],
+        "opening_unit_snapshot": "西灣學院",
+        "course_name_snapshot": "氣候變遷與永續農業發展",
+        "credits_snapshot": 3.0,
+        "requirement_group": "core",
+        "notes": "跨院選修(通)",
+        "source_page": 1,
+        "evidence_match": true,
+        "validation_status": "needs_course_code_verification",
+        "uncertainty_reason": "Official PDF table does not provide a course code"
+      },
+      {
+        "course_code": null,
+        "opening_units": [
+          "西灣學院"
+        ],
+        "opening_unit_snapshot": "西灣學院",
+        "course_name_snapshot": "氣候變遷與調適",
+        "credits_snapshot": 3.0,
+        "requirement_group": "core",
+        "notes": "博雅向度六",
+        "source_page": 1,
+        "evidence_match": true,
+        "validation_status": "needs_course_code_verification",
+        "uncertainty_reason": "Official PDF table does not provide a course code"
+      },
+      {
+        "course_code": null,
+        "opening_units": [
+          "西灣學院"
+        ],
+        "opening_unit_snapshot": "西灣學院",
+        "course_name_snapshot": "地方文化採集與應用",
+        "credits_snapshot": 3.0,
+        "requirement_group": "core",
+        "notes": "博雅向度三",
+        "source_page": 1,
+        "evidence_match": true,
+        "validation_status": "needs_course_code_verification",
+        "uncertainty_reason": "Official PDF table does not provide a course code"
+      },
+      {
+        "course_code": null,
+        "opening_units": [
+          "西灣學院"
+        ],
+        "opening_unit_snapshot": "西灣學院",
+        "course_name_snapshot": "淨零碳規劃管理專題講座",
+        "credits_snapshot": 2.0,
+        "requirement_group": "core",
+        "notes": "博雅向度六",
+        "source_page": 1,
+        "evidence_match": true,
+        "validation_status": "needs_course_code_verification",
+        "uncertainty_reason": "Official PDF table does not provide a course code"
+      },
+      {
+        "course_code": null,
+        "opening_units": [
+          "西灣學院"
+        ],
+        "opening_unit_snapshot": "西灣學院",
+        "course_name_snapshot": "另類永續思考與實踐",
+        "credits_snapshot": 3.0,
+        "requirement_group": "core",
+        "notes": "博雅向度六",
+        "source_page": 1,
+        "evidence_match": true,
+        "validation_status": "needs_course_code_verification",
+        "uncertainty_reason": "Official PDF table does not provide a course code"
+      },
+      {
+        "course_code": null,
+        "opening_units": [
+          "西灣學院"
+        ],
+        "opening_unit_snapshot": "西灣學院",
+        "course_name_snapshot": "烹飪與科學",
+        "credits_snapshot": 2.0,
+        "requirement_group": "core",
+        "notes": "博雅向度五",
+        "source_page": 1,
+        "evidence_match": true,
+        "validation_status": "needs_course_code_verification",
+        "uncertainty_reason": "Official PDF table does not provide a course code"
+      },
+      {
+        "course_code": null,
+        "opening_units": [
+          "西灣學院"
+        ],
+        "opening_unit_snapshot": "西灣學院",
+        "course_name_snapshot": "探究食農系統",
+        "credits_snapshot": 1.0,
+        "requirement_group": "core",
+        "notes": "博雅向度五",
+        "source_page": 1,
+        "evidence_match": true,
+        "validation_status": "needs_course_code_verification",
+        "uncertainty_reason": "Official PDF table does not provide a course code"
+      },
+      {
+        "course_code": null,
+        "opening_units": [
+          "西灣學院"
+        ],
+        "opening_unit_snapshot": "西灣學院",
+        "course_name_snapshot": "環境倫理與環境政策",
+        "credits_snapshot": 2.0,
+        "requirement_group": "core",
+        "notes": "博雅向度六",
+        "source_page": 1,
+        "evidence_match": true,
+        "validation_status": "needs_course_code_verification",
+        "uncertainty_reason": "Official PDF table does not provide a course code"
+      },
+      {
+        "course_code": null,
+        "opening_units": [
+          "公共事務管理研究所"
+        ],
+        "opening_unit_snapshot": "公共事務管理研究所",
+        "course_name_snapshot": "氣候行動書報討論",
+        "credits_snapshot": 1.0,
+        "requirement_group": "core",
+        "notes": "",
+        "source_page": 1,
+        "evidence_match": true,
+        "validation_status": "needs_course_code_verification",
+        "uncertainty_reason": "Official PDF table does not provide a course code"
+      },
+      {
+        "course_code": null,
+        "opening_units": [
+          "生物科學系"
+        ],
+        "opening_unit_snapshot": "生物科學系",
+        "course_name_snapshot": "生物多樣性與保育",
+        "credits_snapshot": 2.0,
+        "requirement_group": "core",
+        "notes": "",
+        "source_page": 1,
+        "evidence_match": true,
+        "validation_status": "needs_course_code_verification",
+        "uncertainty_reason": "Official PDF table does not provide a course code"
+      },
+      {
+        "course_code": null,
+        "opening_units": [
+          "西灣學院"
+        ],
+        "opening_unit_snapshot": "西灣學院",
+        "course_name_snapshot": "飲食與文學",
+        "credits_snapshot": 3.0,
+        "requirement_group": "core",
+        "notes": "博雅向度一",
+        "source_page": 1,
+        "evidence_match": true,
+        "validation_status": "needs_course_code_verification",
+        "uncertainty_reason": "Official PDF table does not provide a course code"
+      },
+      {
+        "course_code": null,
+        "opening_units": [
+          "西灣學院"
+        ],
+        "opening_unit_snapshot": "西灣學院",
+        "course_name_snapshot": "科技社會之飲食旅遊",
+        "credits_snapshot": 3.0,
+        "requirement_group": "core",
+        "notes": "博雅向度四",
+        "source_page": 1,
+        "evidence_match": true,
+        "validation_status": "needs_course_code_verification",
+        "uncertainty_reason": "Official PDF table does not provide a course code"
+      },
+      {
+        "course_code": null,
+        "opening_units": [
+          "西灣學院"
+        ],
+        "opening_unit_snapshot": "西灣學院",
+        "course_name_snapshot": "海洋生態資源:科技研究與社會影響",
+        "credits_snapshot": 3.0,
+        "requirement_group": "core",
+        "notes": "博雅向度四",
+        "source_page": 1,
+        "evidence_match": false,
+        "validation_status": "needs_course_code_verification",
+        "uncertainty_reason": "Official PDF table does not provide a course code"
+      },
+      {
+        "course_code": null,
+        "opening_units": [
+          "西灣學院"
+        ],
+        "opening_unit_snapshot": "西灣學院",
+        "course_name_snapshot": "光電生活與能源永續",
+        "credits_snapshot": 3.0,
+        "requirement_group": "core",
+        "notes": "博雅向度六",
+        "source_page": 1,
+        "evidence_match": true,
+        "validation_status": "needs_course_code_verification",
+        "uncertainty_reason": "Official PDF table does not provide a course code"
+      },
+      {
+        "course_code": null,
+        "opening_units": [
+          "西灣學院"
+        ],
+        "opening_unit_snapshot": "西灣學院",
+        "course_name_snapshot": "科學、媒體與文化",
+        "credits_snapshot": 3.0,
+        "requirement_group": "core",
+        "notes": "博雅向度四",
+        "source_page": 1,
+        "evidence_match": true,
+        "validation_status": "needs_course_code_verification",
+        "uncertainty_reason": "Official PDF table does not provide a course code"
+      },
+      {
+        "course_code": null,
+        "opening_units": [
+          "社會系"
+        ],
+        "opening_unit_snapshot": "社會系",
+        "course_name_snapshot": "農業與社會",
+        "credits_snapshot": 3.0,
+        "requirement_group": "elective",
+        "notes": "",
+        "source_page": 1,
+        "evidence_match": true,
+        "validation_status": "needs_course_code_verification",
+        "uncertainty_reason": "Official PDF table does not provide a course code"
+      },
+      {
+        "course_code": null,
+        "opening_units": [
+          "社科院"
+        ],
+        "opening_unit_snapshot": "社科院",
+        "course_name_snapshot": "糧食、農業與社會",
+        "credits_snapshot": 3.0,
+        "requirement_group": "elective",
+        "notes": "跨院選修",
+        "source_page": 1,
+        "evidence_match": true,
+        "validation_status": "needs_course_code_verification",
+        "uncertainty_reason": "Official PDF table does not provide a course code"
+      },
+      {
+        "course_code": null,
+        "opening_units": [
+          "西灣學院"
+        ],
+        "opening_unit_snapshot": "西灣學院",
+        "course_name_snapshot": "商業策略及管理",
+        "credits_snapshot": 3.0,
+        "requirement_group": "elective",
+        "notes": "人科學程",
+        "source_page": 1,
+        "evidence_match": true,
+        "validation_status": "needs_course_code_verification",
+        "uncertainty_reason": "Official PDF table does not provide a course code"
+      }
+    ],
+    "structured_requirements": {
+      "core_credits_text_value": 6,
+      "minimum_total_credits": 9,
+      "minimum_outside_home_department_credits": 3
+    }
+  }
+}

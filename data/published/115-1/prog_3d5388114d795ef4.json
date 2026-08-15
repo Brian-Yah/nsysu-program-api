@@ -1,0 +1,100 @@
+{
+  "program_id": "prog_3d5388114d795ef4",
+  "name_zh": "【AI聯盟學分學程】人工智慧自然語言技術學分學程",
+  "name_en": null,
+  "previous_names": [],
+  "type": "integrated_program",
+  "status": "active",
+  "description": "為配合協助政府的各領域的產業創新計畫,驅動產業發展量能,為因應生成式人工智慧、與大型語言模型應用在各領域的潮流,本學分學程屬於人工智慧技術學分學程,透過循序漸進的修課規劃,讓學生在自然語言相關領域有所理解,未來應用技術在各產業的創新上。",
+  "responsible_unit": "外文系",
+  "coordinator": "黃舒屏副教授",
+  "program_website": null,
+  "source_pdf": "http://140.117.153.69/ctdr/files/20260813142058762.pdf",
+  "academic_version": "115-1",
+  "source": {
+    "catalog_url": "https://ctdr.nsysu.edu.tw/class2.php",
+    "pdf_url": "http://140.117.153.69/ctdr/files/20260813142058762.pdf",
+    "retrieved_at": "2026-08-15T10:05:39Z",
+    "pdf_binary_sha256": "ea076801f4579e6be295bbf81c70a15f8d56b1a172c6b1c75eefea20ffd64f22",
+    "normalized_text_sha256": "82ce0739aeed896b86d009ba488be9e67e09af9fd9df8c9620804defcaeeced7",
+    "http": {
+      "status": 200,
+      "etag": "\"21698-658e7b5110775\"",
+      "last_modified": "Thu, 13 Aug 2026 06:20:58 GMT",
+      "content_length": 136856
+    },
+    "parser_version": "0.1.0"
+  },
+  "review_status": "needs_review",
+  "rules": {
+    "kind": "manual_review",
+    "reason": "Extracted candidate awaits approval"
+  },
+  "warnings": [
+    "No structured course rows extracted from PDF tables"
+  ],
+  "selected_pdf_academic_version": "113-1",
+  "course_catalog": [
+    {
+      "course_code": null,
+      "opening_units": [
+        "資訊工程學系"
+      ],
+      "opening_unit_snapshot": "資訊工程學系",
+      "course_name_snapshot": "人工智慧導論",
+      "credits_snapshot": 3.0,
+      "requirement_group": "unspecified",
+      "notes": "人工智慧導論",
+      "source_page": 1,
+      "evidence_match": true,
+      "validation_status": "needs_course_code_verification",
+      "uncertainty_reason": "Official PDF table does not provide a course code"
+    },
+    {
+      "course_code": null,
+      "opening_units": [
+        "電機工程學系碩士班"
+      ],
+      "opening_unit_snapshot": "電機工程學系碩士班",
+      "course_name_snapshot": "3D內容生成與體感互動",
+      "credits_snapshot": 3.0,
+      "requirement_group": "unspecified",
+      "notes": "3D內容生成與體感互動",
+      "source_page": 1,
+      "evidence_match": false,
+      "validation_status": "needs_course_code_verification",
+      "uncertainty_reason": "Official PDF table does not provide a course code"
+    },
+    {
+      "course_code": null,
+      "opening_units": [
+        "資訊工程學系"
+      ],
+      "opening_unit_snapshot": "資訊工程學系",
+      "course_name_snapshot": "資料探勘",
+      "credits_snapshot": 3.0,
+      "requirement_group": "unspecified",
+      "notes": "資料探勘",
+      "source_page": 1,
+      "evidence_match": true,
+      "validation_status": "needs_course_code_verification",
+      "uncertainty_reason": "Official PDF table does not provide a course code"
+    },
+    {
+      "course_code": null,
+      "opening_units": [
+        "資訊工程學系碩士班資訊管理學系碩士班"
+      ],
+      "opening_unit_snapshot": "資訊工程學系碩士班資訊管理學系碩士班",
+      "course_name_snapshot": "深度學習",
+      "credits_snapshot": 3.0,
+      "requirement_group": "unspecified",
+      "notes": "深度學習",
+      "source_page": 1,
+      "evidence_match": true,
+      "validation_status": "needs_course_code_verification",
+      "uncertainty_reason": "Official PDF table does not provide a course code"
+    }
+  ],
+  "structured_requirements": {}
+}

@@ -1,0 +1,145 @@
+{
+  "program_id": "prog_38fa876303d75d77",
+  "name_zh": "【AI聯盟學分學程】人工智慧資訊安全技術學分學程",
+  "name_en": null,
+  "previous_names": [],
+  "type": "integrated_program",
+  "status": "active",
+  "description": "為配合協助政府的各領域的產業創新計畫,驅動產業發展量能,並因應人工智慧及資訊安全迅速發展之趨勢,本學分學程屬於人工智慧技術學分學程,透過循序漸進的修課規劃,讓學生在資安相關領域有所理解,未來應用技術在各產業的創新上。",
+  "responsible_unit": "資工系",
+  "coordinator": "徐瑞壕副教授",
+  "program_website": null,
+  "source_pdf": "http://140.117.153.69/ctdr/files/20260813142124573.pdf",
+  "academic_version": "115-1",
+  "source": {
+    "catalog_url": "https://ctdr.nsysu.edu.tw/class2.php",
+    "pdf_url": "http://140.117.153.69/ctdr/files/20260813142124573.pdf",
+    "retrieved_at": "2026-08-15T10:05:39Z",
+    "pdf_binary_sha256": "4f70d9d6926feaa3d39ac2d96d519ba957eccd8127f0b46aa86ee7a722029b9c",
+    "normalized_text_sha256": "c2ae5be2618e67f7108613bfadb5be14a1fce9bbbd49c369558ef06962b846c6",
+    "http": {
+      "status": 200,
+      "etag": "\"13f1b-658e7b69b66f2\"",
+      "last_modified": "Thu, 13 Aug 2026 06:21:24 GMT",
+      "content_length": 81691
+    },
+    "parser_version": "0.1.0"
+  },
+  "review_status": "needs_review",
+  "rules": {
+    "kind": "manual_review",
+    "reason": "Extracted candidate awaits approval"
+  },
+  "warnings": [
+    "No structured course rows extracted from PDF tables"
+  ],
+  "selected_pdf_academic_version": null,
+  "course_catalog": [
+    {
+      "course_code": null,
+      "opening_units": [
+        "資訊工程學系"
+      ],
+      "opening_unit_snapshot": "資訊工程學系",
+      "course_name_snapshot": "資訊安全",
+      "credits_snapshot": 3.0,
+      "requirement_group": "unspecified",
+      "notes": "資訊安全",
+      "source_page": 1,
+      "evidence_match": true,
+      "validation_status": "needs_course_code_verification",
+      "uncertainty_reason": "Official PDF table does not provide a course code"
+    },
+    {
+      "course_code": null,
+      "opening_units": [
+        "訊工程學系資訊安全碩士"
+      ],
+      "opening_unit_snapshot": "訊工程學系資訊安全碩士",
+      "course_name_snapshot": "資訊安全理論與實務",
+      "credits_snapshot": 3.0,
+      "requirement_group": "unspecified",
+      "notes": "資訊安全理論與實務",
+      "source_page": 1,
+      "evidence_match": true,
+      "validation_status": "needs_course_code_verification",
+      "uncertainty_reason": "Official PDF table does not provide a course code"
+    },
+    {
+      "course_code": null,
+      "opening_units": [
+        "電機工程學系"
+      ],
+      "opening_unit_snapshot": "電機工程學系",
+      "course_name_snapshot": "資訊安全概論",
+      "credits_snapshot": 3.0,
+      "requirement_group": "unspecified",
+      "notes": "資訊安全概論",
+      "source_page": 1,
+      "evidence_match": true,
+      "validation_status": "needs_course_code_verification",
+      "uncertainty_reason": "Official PDF table does not provide a course code"
+    },
+    {
+      "course_code": null,
+      "opening_units": [
+        "士班資訊管理學系碩士"
+      ],
+      "opening_unit_snapshot": "士班資訊管理學系碩士",
+      "course_name_snapshot": "網路安全",
+      "credits_snapshot": 3.0,
+      "requirement_group": "unspecified",
+      "notes": "網路安全",
+      "source_page": 1,
+      "evidence_match": true,
+      "validation_status": "needs_course_code_verification",
+      "uncertainty_reason": "Official PDF table does not provide a course code"
+    },
+    {
+      "course_code": null,
+      "opening_units": [
+        "資訊管理學系碩士班"
+      ],
+      "opening_unit_snapshot": "資訊管理學系碩士班",
+      "course_name_snapshot": "深度學習",
+      "credits_snapshot": 3.0,
+      "requirement_group": "unspecified",
+      "notes": "深度學習",
+      "source_page": 1,
+      "evidence_match": true,
+      "validation_status": "needs_course_code_verification",
+      "uncertainty_reason": "Official PDF table does not provide a course code"
+    },
+    {
+      "course_code": null,
+      "opening_units": [
+        "資訊工程學系碩士班"
+      ],
+      "opening_unit_snapshot": "資訊工程學系碩士班",
+      "course_name_snapshot": "深度學習",
+      "credits_snapshot": 3.0,
+      "requirement_group": "unspecified",
+      "notes": "深度學習",
+      "source_page": 1,
+      "evidence_match": true,
+      "validation_status": "needs_course_code_verification",
+      "uncertainty_reason": "Official PDF table does not provide a course code"
+    },
+    {
+      "course_code": null,
+      "opening_units": [
+        "通訊工程研究所碩士班"
+      ],
+      "opening_unit_snapshot": "通訊工程研究所碩士班",
+      "course_name_snapshot": "深度學習",
+      "credits_snapshot": 3.0,
+      "requirement_group": "unspecified",
+      "notes": "深度學習",
+      "source_page": 1,
+      "evidence_match": true,
+      "validation_status": "needs_course_code_verification",
+      "uncertainty_reason": "Official PDF table does not provide a course code"
+    }
+  ],
+  "structured_requirements": {}
+}

@@ -1,0 +1,251 @@
+{
+  "schema_version": "1.0",
+  "courses": [],
+  "credit_mentions": [
+    9,
+    8
+  ],
+  "ai_interpretation": null,
+  "confidence": "low",
+  "warnings": [
+    "Candidate only; not approved for publishing as executable rules"
+  ],
+  "program_id": "prog_6fe63fd4a2735877",
+  "academic_version": "115-1",
+  "text_length": 1153,
+  "raw_text": "1\n【113 學年度第 1 學期起適用】\n113.11.12 113 學年度第 1 學期學分學程會議通過\n113.12.12 第 182 次教務會議通過\n人工智慧視覺技術學分學程課程規劃表\n系列課程\n(修課順序) 可用下列課程替代        學分 本校開設常規課程\n開課單位 課程名稱 學分數\n機器學習\n(1 or 2)\n機器學習概論\n3\n資訊工程學系碩\n士班 機器學習 3\n機器學習特論 資訊工程學系 機器學習導論 3\n人工智慧倫\n理\n(1 or 2)\n人工智慧倫理、法律與社\n會 3\n人工智慧倫理與人權\n深度學習\n(3 or 4)\n高等深度學習\n3\n資訊工程學系碩\n士班、資訊管理\n學系碩士班\n深度學習 3\n深度學習實驗\n深度學習於醫學影像\n深度學習於電腦視覺\n電腦視覺\n(3 or 4)\n影像處理\n3\n資訊工程學系 數位影像處理 3\n影像處理概論\n影像處理簡介\n數位影像處理 跨院選修(工) 數位影像處理 3\n影像處理、電腦視覺及深\n度學習概論\n影像處理與機器人視覺\n計算機視覺理論\n電腦視覺實務與深度學習\n電腦視覺與深度學習 電機工程學系碩\n士班 電腦視覺 3\n高等電腦視覺 資訊工程學系 深度視覺 3\n基於深度學習的巨量視覺\n資料分析\n人工智慧影\n像應用課程\n(3 or 4 or 5)\n人工智慧與智慧醫療\n3\n智慧醫療\n人工智慧於醫療應用與服\n務\n2\n醫學影像處理 電機工程學系碩\n士班 醫學影像系統 3\n機器導航與探索\n1.本學程適合電資領域(含工學院及資管系)或已完成 「人工智慧探索應用學分學程」學生修習 ,\n課程規劃共 5 向度,每一向度至少需修習一門課程。\n2.學生須依課程規劃完成相關學分修讀,並應符合TAICA修課規定(學分學程總學習學分為15\n學分,TAICA內學分學程相互抵免上限為6學分)。\n3.學生欲取得TAICA核發學程學分證明之修課規定:\n(1)本學分學程共計需修習15學分,學生所修課程中,須至少有9 學分不屬於其主修、輔系\n或其他學分學程之必修或必選課程(亦即非屬於任何一門必修或必選修課程), 方得核發本\n學程學分證明。\n(2)學生如欲申請以性質相近之課程認抵本學程課程,以3學分為上限,並須檢附課程大綱、\n成績單等相關資料,經學程負責人及教務處註冊組審查通過後,始得認抵。\n(3)若學生欲申取得TAICA 核發學程學分證明者,須於該學程中修習至少8 學分TAICA聯盟\n認定課程(包括主導課程、鏡像課程及衛星課程)。此外,TAICA學程間之學分相互認抵以\n6學分為上限。例如:「人工智慧倫理」課程可於各學程中認抵3 學分,但學生累計認抵\n之TAICA課程學分不得超過6學分。\n4.同學修習學程前請自行評估能否於在學期間修習相關課程及取得教育部學分學程證明。",
+  "rule_versions": [
+    {
+      "pdf_academic_version": "113-1",
+      "courses": [
+        {
+          "course_code": null,
+          "opening_units": [
+            "資訊工程學系碩士班"
+          ],
+          "opening_unit_snapshot": "資訊工程學系碩士班",
+          "course_name_snapshot": "機器學習",
+          "credits_snapshot": 3.0,
+          "requirement_group": "unspecified",
+          "notes": "機器學習",
+          "source_page": 1,
+          "evidence_match": true,
+          "validation_status": "needs_course_code_verification",
+          "uncertainty_reason": "Official PDF table does not provide a course code"
+        },
+        {
+          "course_code": null,
+          "opening_units": [
+            "資訊工程學系"
+          ],
+          "opening_unit_snapshot": "資訊工程學系",
+          "course_name_snapshot": "機器學習導論",
+          "credits_snapshot": 3.0,
+          "requirement_group": "unspecified",
+          "notes": "機器學習導論",
+          "source_page": 1,
+          "evidence_match": true,
+          "validation_status": "needs_course_code_verification",
+          "uncertainty_reason": "Official PDF table does not provide a course code"
+        },
+        {
+          "course_code": null,
+          "opening_units": [
+            "資訊工程學系碩士班資訊管理學系碩士班"
+          ],
+          "opening_unit_snapshot": "資訊工程學系碩士班資訊管理學系碩士班",
+          "course_name_snapshot": "深度學習",
+          "credits_snapshot": 3.0,
+          "requirement_group": "unspecified",
+          "notes": "深度學習",
+          "source_page": 1,
+          "evidence_match": true,
+          "validation_status": "needs_course_code_verification",
+          "uncertainty_reason": "Official PDF table does not provide a course code"
+        },
+        {
+          "course_code": null,
+          "opening_units": [
+            "資訊工程學系"
+          ],
+          "opening_unit_snapshot": "資訊工程學系",
+          "course_name_snapshot": "數位影像處理",
+          "credits_snapshot": 3.0,
+          "requirement_group": "unspecified",
+          "notes": "數位影像處理",
+          "source_page": 1,
+          "evidence_match": true,
+          "validation_status": "needs_course_code_verification",
+          "uncertainty_reason": "Official PDF table does not provide a course code"
+        },
+        {
+          "course_code": null,
+          "opening_units": [
+            "跨院選修(工)"
+          ],
+          "opening_unit_snapshot": "跨院選修(工)",
+          "course_name_snapshot": "數位影像處理",
+          "credits_snapshot": 3.0,
+          "requirement_group": "unspecified",
+          "notes": "數位影像處理",
+          "source_page": 1,
+          "evidence_match": true,
+          "validation_status": "needs_course_code_verification",
+          "uncertainty_reason": "Official PDF table does not provide a course code"
+        },
+        {
+          "course_code": null,
+          "opening_units": [
+            "電機工程學系碩士班"
+          ],
+          "opening_unit_snapshot": "電機工程學系碩士班",
+          "course_name_snapshot": "電腦視覺",
+          "credits_snapshot": 3.0,
+          "requirement_group": "unspecified",
+          "notes": "電腦視覺",
+          "source_page": 1,
+          "evidence_match": true,
+          "validation_status": "needs_course_code_verification",
+          "uncertainty_reason": "Official PDF table does not provide a course code"
+        },
+        {
+          "course_code": null,
+          "opening_units": [
+            "資訊工程學系"
+          ],
+          "opening_unit_snapshot": "資訊工程學系",
+          "course_name_snapshot": "深度視覺",
+          "credits_snapshot": 3.0,
+          "requirement_group": "unspecified",
+          "notes": "深度視覺",
+          "source_page": 1,
+          "evidence_match": true,
+          "validation_status": "needs_course_code_verification",
+          "uncertainty_reason": "Official PDF table does not provide a course code"
+        }
+      ],
+      "requirements": {},
+      "source_pages": [
+        1,
+        2
+      ],
+      "audit": {
+        "compound_rows_needing_review": [],
+        "duplicates_removed": 0,
+        "course_count": 7,
+        "core_count": 0,
+        "elective_count": 0,
+        "evidence_matched_count": 7
+      }
+    }
+  ],
+  "selected_pdf_academic_version": "113-1",
+  "structured_courses": [
+    {
+      "course_code": null,
+      "opening_units": [
+        "資訊工程學系碩士班"
+      ],
+      "opening_unit_snapshot": "資訊工程學系碩士班",
+      "course_name_snapshot": "機器學習",
+      "credits_snapshot": 3.0,
+      "requirement_group": "unspecified",
+      "notes": "機器學習",
+      "source_page": 1,
+      "evidence_match": true,
+      "validation_status": "needs_course_code_verification",
+      "uncertainty_reason": "Official PDF table does not provide a course code"
+    },
+    {
+      "course_code": null,
+      "opening_units": [
+        "資訊工程學系"
+      ],
+      "opening_unit_snapshot": "資訊工程學系",
+      "course_name_snapshot": "機器學習導論",
+      "credits_snapshot": 3.0,
+      "requirement_group": "unspecified",
+      "notes": "機器學習導論",
+      "source_page": 1,
+      "evidence_match": true,
+      "validation_status": "needs_course_code_verification",
+      "uncertainty_reason": "Official PDF table does not provide a course code"
+    },
+    {
+      "course_code": null,
+      "opening_units": [
+        "資訊工程學系碩士班資訊管理學系碩士班"
+      ],
+      "opening_unit_snapshot": "資訊工程學系碩士班資訊管理學系碩士班",
+      "course_name_snapshot": "深度學習",
+      "credits_snapshot": 3.0,
+      "requirement_group": "unspecified",
+      "notes": "深度學習",
+      "source_page": 1,
+      "evidence_match": true,
+      "validation_status": "needs_course_code_verification",
+      "uncertainty_reason": "Official PDF table does not provide a course code"
+    },
+    {
+      "course_code": null,
+      "opening_units": [
+        "資訊工程學系"
+      ],
+      "opening_unit_snapshot": "資訊工程學系",
+      "course_name_snapshot": "數位影像處理",
+      "credits_snapshot": 3.0,
+      "requirement_group": "unspecified",
+      "notes": "數位影像處理",
+      "source_page": 1,
+      "evidence_match": true,
+      "validation_status": "needs_course_code_verification",
+      "uncertainty_reason": "Official PDF table does not provide a course code"
+    },
+    {
+      "course_code": null,
+      "opening_units": [
+        "跨院選修(工)"
+      ],
+      "opening_unit_snapshot": "跨院選修(工)",
+      "course_name_snapshot": "數位影像處理",
+      "credits_snapshot": 3.0,
+      "requirement_group": "unspecified",
+      "notes": "數位影像處理",
+      "source_page": 1,
+      "evidence_match": true,
+      "validation_status": "needs_course_code_verification",
+      "uncertainty_reason": "Official PDF table does not provide a course code"
+    },
+    {
+      "course_code": null,
+      "opening_units": [
+        "電機工程學系碩士班"
+      ],
+      "opening_unit_snapshot": "電機工程學系碩士班",
+      "course_name_snapshot": "電腦視覺",
+      "credits_snapshot": 3.0,
+      "requirement_group": "unspecified",
+      "notes": "電腦視覺",
+      "source_page": 1,
+      "evidence_match": true,
+      "validation_status": "needs_course_code_verification",
+      "uncertainty_reason": "Official PDF table does not provide a course code"
+    },
+    {
+      "course_code": null,
+      "opening_units": [
+        "資訊工程學系"
+      ],
+      "opening_unit_snapshot": "資訊工程學系",
+      "course_name_snapshot": "深度視覺",
+      "credits_snapshot": 3.0,
+      "requirement_group": "unspecified",
+      "notes": "深度視覺",
+      "source_page": 1,
+      "evidence_match": true,
+      "validation_status": "needs_course_code_verification",
+      "uncertainty_reason": "Official PDF table does not provide a course code"
+    }
+  ],
+  "structured_requirements": {}
+}

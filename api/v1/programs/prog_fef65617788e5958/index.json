@@ -1,0 +1,201 @@
+{
+  "program_id": "prog_fef65617788e5958",
+  "latest_academic_version": "115-1",
+  "versions": [
+    "115-1"
+  ],
+  "program": {
+    "program_id": "prog_fef65617788e5958",
+    "name_zh": "全球半導體經營管理微學程",
+    "name_en": null,
+    "previous_names": [],
+    "type": "micro_program",
+    "status": "active",
+    "description": "台灣半導體產業的蓬勃發展是舉世皆知、備受矚目的,但對非半導體相關背景或領域的學生而言,對半導體的認識與理解可能僅止於新聞媒體中的『護國神山』的層面。然而,非直接相關領域背景的學生,將來也可能從事半導體產業或是與半導體有關聯的\n工作,例如:人資管理、法規制定、碳管理等,若是能藉由課程的安排讓學生對於半導體產業有更多的認識,對於營造國內的產業支持環境是會有更多幫助的。",
+    "responsible_unit": "光電系",
+    "coordinator": "于欽平副教授",
+    "program_website": null,
+    "source_pdf": "http://140.117.153.69/ctdr/files/20250527095313349.pdf",
+    "academic_version": "115-1",
+    "source": {
+      "catalog_url": "https://ctdr.nsysu.edu.tw/class2.php",
+      "pdf_url": "http://140.117.153.69/ctdr/files/20250527095313349.pdf",
+      "retrieved_at": "2026-08-15T10:05:39Z",
+      "pdf_binary_sha256": "b6c5ef9e2deff4034f7632aca32f3032aef68975dba38b3d77012f48b05165e5",
+      "normalized_text_sha256": "215fc899dd268850e1dc06d03a8f9835c72c97c30c72cbdfcf34e06d75e7eea2",
+      "http": {
+        "status": 200,
+        "etag": "\"26ca5-6361453cbbf00\"",
+        "last_modified": "Tue, 27 May 2025 01:53:13 GMT",
+        "content_length": 158885
+      },
+      "parser_version": "0.1.0"
+    },
+    "review_status": "needs_review",
+    "rules": {
+      "kind": "manual_review",
+      "reason": "Extracted candidate awaits approval"
+    },
+    "warnings": [
+      "No structured course rows extracted from PDF tables"
+    ],
+    "selected_pdf_academic_version": "113-2",
+    "course_catalog": [
+      {
+        "course_code": null,
+        "opening_units": [
+          "博雅教育中心"
+        ],
+        "opening_unit_snapshot": "博雅教育中心",
+        "course_name_snapshot": "半導體科技專題講座",
+        "credits_snapshot": 3.0,
+        "requirement_group": "core",
+        "notes": "將於114-1開設",
+        "source_page": 1,
+        "evidence_match": true,
+        "validation_status": "needs_course_code_verification",
+        "uncertainty_reason": "Official PDF table does not provide a course code"
+      },
+      {
+        "course_code": null,
+        "opening_units": [
+          "基礎教育中心"
+        ],
+        "opening_unit_snapshot": "基礎教育中心",
+        "course_name_snapshot": "奈米科技概論",
+        "credits_snapshot": 3.0,
+        "requirement_group": "core",
+        "notes": "",
+        "source_page": 1,
+        "evidence_match": true,
+        "validation_status": "needs_course_code_verification",
+        "uncertainty_reason": "Official PDF table does not provide a course code"
+      },
+      {
+        "course_code": null,
+        "opening_units": [
+          "基礎教育中心"
+        ],
+        "opening_unit_snapshot": "基礎教育中心",
+        "course_name_snapshot": "國際企業實務",
+        "credits_snapshot": 3.0,
+        "requirement_group": "elective",
+        "notes": "",
+        "source_page": 1,
+        "evidence_match": true,
+        "validation_status": "needs_course_code_verification",
+        "uncertainty_reason": "Official PDF table does not provide a course code"
+      },
+      {
+        "course_code": null,
+        "opening_units": [
+          "基礎教育中心"
+        ],
+        "opening_unit_snapshot": "基礎教育中心",
+        "course_name_snapshot": "新時代的科技法律陷阱",
+        "credits_snapshot": 3.0,
+        "requirement_group": "elective",
+        "notes": "",
+        "source_page": 1,
+        "evidence_match": true,
+        "validation_status": "needs_course_code_verification",
+        "uncertainty_reason": "Official PDF table does not provide a course code"
+      },
+      {
+        "course_code": null,
+        "opening_units": [
+          "基礎教育中心"
+        ],
+        "opening_unit_snapshot": "基礎教育中心",
+        "course_name_snapshot": "全球政治",
+        "credits_snapshot": 3.0,
+        "requirement_group": "elective",
+        "notes": "",
+        "source_page": 1,
+        "evidence_match": true,
+        "validation_status": "needs_course_code_verification",
+        "uncertainty_reason": "Official PDF table does not provide a course code"
+      },
+      {
+        "course_code": null,
+        "opening_units": [
+          "基礎教育中心"
+        ],
+        "opening_unit_snapshot": "基礎教育中心",
+        "course_name_snapshot": "淨零碳排策略",
+        "credits_snapshot": 3.0,
+        "requirement_group": "elective",
+        "notes": "",
+        "source_page": 1,
+        "evidence_match": true,
+        "validation_status": "needs_course_code_verification",
+        "uncertainty_reason": "Official PDF table does not provide a course code"
+      },
+      {
+        "course_code": null,
+        "opening_units": [
+          "基礎教育中心"
+        ],
+        "opening_unit_snapshot": "基礎教育中心",
+        "course_name_snapshot": "跨文化人文思潮與美學",
+        "credits_snapshot": 3.0,
+        "requirement_group": "elective",
+        "notes": "",
+        "source_page": 1,
+        "evidence_match": true,
+        "validation_status": "needs_course_code_verification",
+        "uncertainty_reason": "Official PDF table does not provide a course code"
+      },
+      {
+        "course_code": null,
+        "opening_units": [
+          "博雅教育中心"
+        ],
+        "opening_unit_snapshot": "博雅教育中心",
+        "course_name_snapshot": "淨零碳規劃管理專題講座",
+        "credits_snapshot": 2.0,
+        "requirement_group": "elective",
+        "notes": "",
+        "source_page": 1,
+        "evidence_match": true,
+        "validation_status": "needs_course_code_verification",
+        "uncertainty_reason": "Official PDF table does not provide a course code"
+      },
+      {
+        "course_code": null,
+        "opening_units": [
+          "博雅教育中心"
+        ],
+        "opening_unit_snapshot": "博雅教育中心",
+        "course_name_snapshot": "邏輯推理與創造性思維",
+        "credits_snapshot": 3.0,
+        "requirement_group": "elective",
+        "notes": "",
+        "source_page": 1,
+        "evidence_match": true,
+        "validation_status": "needs_course_code_verification",
+        "uncertainty_reason": "Official PDF table does not provide a course code"
+      },
+      {
+        "course_code": null,
+        "opening_units": [
+          "外文碩"
+        ],
+        "opening_unit_snapshot": "外文碩",
+        "course_name_snapshot": "跨文化溝通",
+        "credits_snapshot": 3.0,
+        "requirement_group": "elective",
+        "notes": "",
+        "source_page": 1,
+        "evidence_match": true,
+        "validation_status": "needs_course_code_verification",
+        "uncertainty_reason": "Official PDF table does not provide a course code"
+      }
+    ],
+    "structured_requirements": {
+      "minimum_total_credits": 9,
+      "core_credits_text_value": 3,
+      "minimum_outside_home_department_credits": 3
+    }
+  }
+}

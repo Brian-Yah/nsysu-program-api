@@ -1,0 +1,627 @@
+{
+  "program_id": "prog_1db9a3a8a7c654a4",
+  "name_zh": "臺灣研究學程",
+  "name_en": null,
+  "previous_names": [],
+  "type": "integrated_program",
+  "status": "active",
+  "description": "以「臺灣」為探討重心的課程,在目前大學的框架中,囿限於學科的分工,常見的現象便是,在某些主題或議題上,只呈現自身專業的一面,而且相關課程零星分布在各系所的選課單上,缺乏有體系的跨學科統整。本學程旨在整合校內相關、可相互參照的講授類及應用性課程,讓學生能從宏觀與微觀、不同向度的視角,學習有關臺灣的知識,深化自我與環境的認同,以期對臺灣有較整體的認識。",
+  "responsible_unit": "西灣學院",
+  "coordinator": "江政寬副教授",
+  "program_website": "https://www.facebook.com/TaiwanStudies",
+  "source_pdf": "http://140.117.153.69/ctdr/files/20231220103351572.pdf",
+  "academic_version": "115-1",
+  "source": {
+    "catalog_url": "https://ctdr.nsysu.edu.tw/class2.php",
+    "pdf_url": "http://140.117.153.69/ctdr/files/20231220103351572.pdf",
+    "retrieved_at": "2026-08-15T10:05:39Z",
+    "pdf_binary_sha256": "ba6dbfa4c15910af1a4f0cf23c6b06d2353784bbb4bffde1b8cbe25e4c626352",
+    "normalized_text_sha256": "1c24c454b9414f5a9264e128d90f31d7118257dbb0dd291f5911359351a98bd1",
+    "http": {
+      "status": 200,
+      "etag": "\"56842-60ce7d0473cb6\"",
+      "last_modified": "Wed, 20 Dec 2023 02:33:51 GMT",
+      "content_length": 354370
+    },
+    "parser_version": "0.1.0"
+  },
+  "review_status": "needs_review",
+  "rules": {
+    "kind": "manual_review",
+    "reason": "Extracted candidate awaits approval"
+  },
+  "warnings": [],
+  "selected_pdf_academic_version": "112-1",
+  "course_catalog": [
+    {
+      "course_code": null,
+      "opening_units": [
+        "西灣學院"
+      ],
+      "opening_unit_snapshot": "西灣學院",
+      "course_name_snapshot": "台灣社會與文化",
+      "credits_snapshot": 3.0,
+      "requirement_group": "core",
+      "notes": "向度一",
+      "source_page": 1,
+      "evidence_match": true,
+      "validation_status": "needs_course_code_verification",
+      "uncertainty_reason": "Official PDF table does not provide a course code"
+    },
+    {
+      "course_code": null,
+      "opening_units": [
+        "西灣學院"
+      ],
+      "opening_unit_snapshot": "西灣學院",
+      "course_name_snapshot": "台灣當代政治發展",
+      "credits_snapshot": 2.0,
+      "requirement_group": "core",
+      "notes": "大學部",
+      "source_page": 1,
+      "evidence_match": true,
+      "validation_status": "needs_course_code_verification",
+      "uncertainty_reason": "Official PDF table does not provide a course code"
+    },
+    {
+      "course_code": null,
+      "opening_units": [
+        "文學院"
+      ],
+      "opening_unit_snapshot": "文學院",
+      "course_name_snapshot": "台灣史",
+      "credits_snapshot": 3.0,
+      "requirement_group": "core",
+      "notes": "大學部",
+      "source_page": 1,
+      "evidence_match": true,
+      "validation_status": "needs_course_code_verification",
+      "uncertainty_reason": "Official PDF table does not provide a course code"
+    },
+    {
+      "course_code": null,
+      "opening_units": [
+        "文學院"
+      ],
+      "opening_unit_snapshot": "文學院",
+      "course_name_snapshot": "史學導論",
+      "credits_snapshot": 3.0,
+      "requirement_group": "core",
+      "notes": "大學部",
+      "source_page": 1,
+      "evidence_match": true,
+      "validation_status": "needs_course_code_verification",
+      "uncertainty_reason": "Official PDF table does not provide a course code"
+    },
+    {
+      "course_code": null,
+      "opening_units": [
+        "西灣學院"
+      ],
+      "opening_unit_snapshot": "西灣學院",
+      "course_name_snapshot": "地方文化採集與應用",
+      "credits_snapshot": 3.0,
+      "requirement_group": "core",
+      "notes": "向度三",
+      "source_page": 1,
+      "evidence_match": true,
+      "validation_status": "needs_course_code_verification",
+      "uncertainty_reason": "Official PDF table does not provide a course code"
+    },
+    {
+      "course_code": null,
+      "opening_units": [
+        "社會系"
+      ],
+      "opening_unit_snapshot": "社會系",
+      "course_name_snapshot": "社會調查與研究方法(一)",
+      "credits_snapshot": 3.0,
+      "requirement_group": "core",
+      "notes": "大學部",
+      "source_page": 1,
+      "evidence_match": true,
+      "validation_status": "needs_course_code_verification",
+      "uncertainty_reason": "Official PDF table does not provide a course code"
+    },
+    {
+      "course_code": null,
+      "opening_units": [
+        "社會系"
+      ],
+      "opening_unit_snapshot": "社會系",
+      "course_name_snapshot": "民族生態學",
+      "credits_snapshot": 3.0,
+      "requirement_group": "core",
+      "notes": "大學部",
+      "source_page": 1,
+      "evidence_match": true,
+      "validation_status": "needs_course_code_verification",
+      "uncertainty_reason": "Official PDF table does not provide a course code"
+    },
+    {
+      "course_code": null,
+      "opening_units": [
+        "西灣學院"
+      ],
+      "opening_unit_snapshot": "西灣學院",
+      "course_name_snapshot": "博物館文化與創意",
+      "credits_snapshot": 2.0,
+      "requirement_group": "core",
+      "notes": "向度一",
+      "source_page": 1,
+      "evidence_match": true,
+      "validation_status": "needs_course_code_verification",
+      "uncertainty_reason": "Official PDF table does not provide a course code"
+    },
+    {
+      "course_code": null,
+      "opening_units": [
+        "西灣學院"
+      ],
+      "opening_unit_snapshot": "西灣學院",
+      "course_name_snapshot": "台灣海岸環境",
+      "credits_snapshot": 2.0,
+      "requirement_group": "core",
+      "notes": "向度六",
+      "source_page": 1,
+      "evidence_match": true,
+      "validation_status": "needs_course_code_verification",
+      "uncertainty_reason": "Official PDF table does not provide a course code"
+    },
+    {
+      "course_code": null,
+      "opening_units": [
+        "西灣學院"
+      ],
+      "opening_unit_snapshot": "西灣學院",
+      "course_name_snapshot": "環境變遷與生態保育",
+      "credits_snapshot": 2.0,
+      "requirement_group": "core",
+      "notes": "向度六",
+      "source_page": 1,
+      "evidence_match": true,
+      "validation_status": "needs_course_code_verification",
+      "uncertainty_reason": "Official PDF table does not provide a course code"
+    },
+    {
+      "course_code": null,
+      "opening_units": [
+        "西灣學院"
+      ],
+      "opening_unit_snapshot": "西灣學院",
+      "course_name_snapshot": "國際現勢與公民視野",
+      "credits_snapshot": 2.0,
+      "requirement_group": "core",
+      "notes": "向度三、英語授課",
+      "source_page": 1,
+      "evidence_match": true,
+      "validation_status": "needs_course_code_verification",
+      "uncertainty_reason": "Official PDF table does not provide a course code"
+    },
+    {
+      "course_code": null,
+      "opening_units": [
+        "西灣學院"
+      ],
+      "opening_unit_snapshot": "西灣學院",
+      "course_name_snapshot": "國際事務與公民參與",
+      "credits_snapshot": 3.0,
+      "requirement_group": "core",
+      "notes": "向度三、英語授課",
+      "source_page": 1,
+      "evidence_match": true,
+      "validation_status": "needs_course_code_verification",
+      "uncertainty_reason": "Official PDF table does not provide a course code"
+    },
+    {
+      "course_code": null,
+      "opening_units": [
+        "西灣學院"
+      ],
+      "opening_unit_snapshot": "西灣學院",
+      "course_name_snapshot": "海洋文化",
+      "credits_snapshot": 3.0,
+      "requirement_group": "core",
+      "notes": "向度三",
+      "source_page": 1,
+      "evidence_match": true,
+      "validation_status": "needs_course_code_verification",
+      "uncertainty_reason": "Official PDF table does not provide a course code"
+    },
+    {
+      "course_code": null,
+      "opening_units": [
+        "社會系"
+      ],
+      "opening_unit_snapshot": "社會系",
+      "course_name_snapshot": "南島社會與文化",
+      "credits_snapshot": 3.0,
+      "requirement_group": "core",
+      "notes": "大學部",
+      "source_page": 1,
+      "evidence_match": true,
+      "validation_status": "needs_course_code_verification",
+      "uncertainty_reason": "Official PDF table does not provide a course code"
+    },
+    {
+      "course_code": null,
+      "opening_units": [
+        "中文系"
+      ],
+      "opening_unit_snapshot": "中文系",
+      "course_name_snapshot": "臺灣古典文學概論",
+      "credits_snapshot": 3.0,
+      "requirement_group": "elective",
+      "notes": "大學部",
+      "source_page": 1,
+      "evidence_match": true,
+      "validation_status": "needs_course_code_verification",
+      "uncertainty_reason": "Official PDF table does not provide a course code"
+    },
+    {
+      "course_code": null,
+      "opening_units": [
+        "中文系"
+      ],
+      "opening_unit_snapshot": "中文系",
+      "course_name_snapshot": "臺灣謠諺",
+      "credits_snapshot": 3.0,
+      "requirement_group": "elective",
+      "notes": "大學部",
+      "source_page": 1,
+      "evidence_match": true,
+      "validation_status": "needs_course_code_verification",
+      "uncertainty_reason": "Official PDF table does not provide a course code"
+    },
+    {
+      "course_code": null,
+      "opening_units": [
+        "中文系"
+      ],
+      "opening_unit_snapshot": "中文系",
+      "course_name_snapshot": "臺灣文化民俗誌",
+      "credits_snapshot": 3.0,
+      "requirement_group": "elective",
+      "notes": "大學部",
+      "source_page": 1,
+      "evidence_match": true,
+      "validation_status": "needs_course_code_verification",
+      "uncertainty_reason": "Official PDF table does not provide a course code"
+    },
+    {
+      "course_code": null,
+      "opening_units": [
+        "中文系"
+      ],
+      "opening_unit_snapshot": "中文系",
+      "course_name_snapshot": "閩南語讀書音",
+      "credits_snapshot": 2.0,
+      "requirement_group": "elective",
+      "notes": "大學部",
+      "source_page": 1,
+      "evidence_match": true,
+      "validation_status": "needs_course_code_verification",
+      "uncertainty_reason": "Official PDF table does not provide a course code"
+    },
+    {
+      "course_code": null,
+      "opening_units": [
+        "中文系"
+      ],
+      "opening_unit_snapshot": "中文系",
+      "course_name_snapshot": "客家話概論",
+      "credits_snapshot": 3.0,
+      "requirement_group": "elective",
+      "notes": "大學部",
+      "source_page": 1,
+      "evidence_match": true,
+      "validation_status": "needs_course_code_verification",
+      "uncertainty_reason": "Official PDF table does not provide a course code"
+    },
+    {
+      "course_code": null,
+      "opening_units": [
+        "社會系"
+      ],
+      "opening_unit_snapshot": "社會系",
+      "course_name_snapshot": "客家文化與地方知識",
+      "credits_snapshot": 3.0,
+      "requirement_group": "elective",
+      "notes": "大學部",
+      "source_page": 1,
+      "evidence_match": true,
+      "validation_status": "needs_course_code_verification",
+      "uncertainty_reason": "Official PDF table does not provide a course code"
+    },
+    {
+      "course_code": null,
+      "opening_units": [
+        "中文系"
+      ],
+      "opening_unit_snapshot": "中文系",
+      "course_name_snapshot": "臺灣閩南語文的音字書寫與閱讀",
+      "credits_snapshot": 3.0,
+      "requirement_group": "elective",
+      "notes": "大學部",
+      "source_page": 1,
+      "evidence_match": false,
+      "validation_status": "needs_course_code_verification",
+      "uncertainty_reason": "Official PDF table does not provide a course code"
+    },
+    {
+      "course_code": null,
+      "opening_units": [
+        "中文系"
+      ],
+      "opening_unit_snapshot": "中文系",
+      "course_name_snapshot": "臺語流行歌曲及其語言風格和文化意涵(一)",
+      "credits_snapshot": 3.0,
+      "requirement_group": "elective",
+      "notes": "大學部",
+      "source_page": 1,
+      "evidence_match": false,
+      "validation_status": "needs_course_code_verification",
+      "uncertainty_reason": "Official PDF table does not provide a course code"
+    },
+    {
+      "course_code": null,
+      "opening_units": [
+        "中文系"
+      ],
+      "opening_unit_snapshot": "中文系",
+      "course_name_snapshot": "臺語流行歌曲及其語言風格和文化意涵(二)",
+      "credits_snapshot": 3.0,
+      "requirement_group": "elective",
+      "notes": "大學部",
+      "source_page": 1,
+      "evidence_match": false,
+      "validation_status": "needs_course_code_verification",
+      "uncertainty_reason": "Official PDF table does not provide a course code"
+    },
+    {
+      "course_code": null,
+      "opening_units": [
+        "中文系"
+      ],
+      "opening_unit_snapshot": "中文系",
+      "course_name_snapshot": "歲時節慶",
+      "credits_snapshot": 3.0,
+      "requirement_group": "elective",
+      "notes": "大學部",
+      "source_page": 1,
+      "evidence_match": true,
+      "validation_status": "needs_course_code_verification",
+      "uncertainty_reason": "Official PDF table does not provide a course code"
+    },
+    {
+      "course_code": null,
+      "opening_units": [
+        "中文系"
+      ],
+      "opening_unit_snapshot": "中文系",
+      "course_name_snapshot": "閩南語音韻系統與拼音",
+      "credits_snapshot": 3.0,
+      "requirement_group": "elective",
+      "notes": "大學部",
+      "source_page": 1,
+      "evidence_match": true,
+      "validation_status": "needs_course_code_verification",
+      "uncertainty_reason": "Official PDF table does not provide a course code"
+    },
+    {
+      "course_code": null,
+      "opening_units": [
+        "音樂系"
+      ],
+      "opening_unit_snapshot": "音樂系",
+      "course_name_snapshot": "台灣音樂",
+      "credits_snapshot": 2.0,
+      "requirement_group": "elective",
+      "notes": "大學部",
+      "source_page": 1,
+      "evidence_match": true,
+      "validation_status": "needs_course_code_verification",
+      "uncertainty_reason": "Official PDF table does not provide a course code"
+    },
+    {
+      "course_code": null,
+      "opening_units": [
+        "劇藝系"
+      ],
+      "opening_unit_snapshot": "劇藝系",
+      "course_name_snapshot": "臺灣劇場",
+      "credits_snapshot": 2.0,
+      "requirement_group": "elective",
+      "notes": "大學部",
+      "source_page": 1,
+      "evidence_match": true,
+      "validation_status": "needs_course_code_verification",
+      "uncertainty_reason": "Official PDF table does not provide a course code"
+    },
+    {
+      "course_code": null,
+      "opening_units": [
+        "西灣學院"
+      ],
+      "opening_unit_snapshot": "西灣學院",
+      "course_name_snapshot": "紀錄片企劃與製作",
+      "credits_snapshot": 3.0,
+      "requirement_group": "elective",
+      "notes": "向度一",
+      "source_page": 1,
+      "evidence_match": true,
+      "validation_status": "needs_course_code_verification",
+      "uncertainty_reason": "Official PDF table does not provide a course code"
+    },
+    {
+      "course_code": null,
+      "opening_units": [
+        "西灣學院"
+      ],
+      "opening_unit_snapshot": "西灣學院",
+      "course_name_snapshot": "創意繪畫之美學實踐",
+      "credits_snapshot": 2.0,
+      "requirement_group": "elective",
+      "notes": "向度一",
+      "source_page": 1,
+      "evidence_match": true,
+      "validation_status": "needs_course_code_verification",
+      "uncertainty_reason": "Official PDF table does not provide a course code"
+    },
+    {
+      "course_code": null,
+      "opening_units": [
+        "西灣學院"
+      ],
+      "opening_unit_snapshot": "西灣學院",
+      "course_name_snapshot": "視覺文化與哲學反思",
+      "credits_snapshot": 3.0,
+      "requirement_group": "elective",
+      "notes": "向度二",
+      "source_page": 1,
+      "evidence_match": true,
+      "validation_status": "needs_course_code_verification",
+      "uncertainty_reason": "Official PDF table does not provide a course code"
+    },
+    {
+      "course_code": null,
+      "opening_units": [
+        "西灣學院"
+      ],
+      "opening_unit_snapshot": "西灣學院",
+      "course_name_snapshot": "探詢建築工藝中的高雄故事",
+      "credits_snapshot": 3.0,
+      "requirement_group": "elective",
+      "notes": "向度四、英語授課",
+      "source_page": 3,
+      "evidence_match": true,
+      "validation_status": "needs_course_code_verification",
+      "uncertainty_reason": "Official PDF table does not provide a course code"
+    },
+    {
+      "course_code": null,
+      "opening_units": [
+        "外文系"
+      ],
+      "opening_unit_snapshot": "外文系",
+      "course_name_snapshot": "觀光英語",
+      "credits_snapshot": 3.0,
+      "requirement_group": "elective",
+      "notes": "大學部、英語授課",
+      "source_page": 3,
+      "evidence_match": true,
+      "validation_status": "needs_course_code_verification",
+      "uncertainty_reason": "Official PDF table does not provide a course code"
+    },
+    {
+      "course_code": null,
+      "opening_units": [
+        "西灣學院"
+      ],
+      "opening_unit_snapshot": "西灣學院",
+      "course_name_snapshot": "台灣政經發展",
+      "credits_snapshot": 3.0,
+      "requirement_group": "elective",
+      "notes": "向度三、英語授課",
+      "source_page": 3,
+      "evidence_match": true,
+      "validation_status": "needs_course_code_verification",
+      "uncertainty_reason": "Official PDF table does not provide a course code"
+    },
+    {
+      "course_code": null,
+      "opening_units": [
+        "政經系"
+      ],
+      "opening_unit_snapshot": "政經系",
+      "course_name_snapshot": "中國政治經濟發展",
+      "credits_snapshot": 3.0,
+      "requirement_group": "elective",
+      "notes": "大學部",
+      "source_page": 3,
+      "evidence_match": true,
+      "validation_status": "needs_course_code_verification",
+      "uncertainty_reason": "Official PDF table does not provide a course code"
+    },
+    {
+      "course_code": null,
+      "opening_units": [
+        "西灣學院"
+      ],
+      "opening_unit_snapshot": "西灣學院",
+      "course_name_snapshot": "人權與現代社會:台灣與中國的路徑",
+      "credits_snapshot": 3.0,
+      "requirement_group": "elective",
+      "notes": "向度三、英語授課",
+      "source_page": 3,
+      "evidence_match": false,
+      "validation_status": "needs_course_code_verification",
+      "uncertainty_reason": "Official PDF table does not provide a course code"
+    },
+    {
+      "course_code": null,
+      "opening_units": [
+        "西灣學院"
+      ],
+      "opening_unit_snapshot": "西灣學院",
+      "course_name_snapshot": "服務學習(三):史蹟導覽",
+      "credits_snapshot": 1.0,
+      "requirement_group": "elective",
+      "notes": "服務學習限大二以上修習",
+      "source_page": 3,
+      "evidence_match": true,
+      "validation_status": "needs_course_code_verification",
+      "uncertainty_reason": "Official PDF table does not provide a course code"
+    },
+    {
+      "course_code": null,
+      "opening_units": [
+        "西灣學院"
+      ],
+      "opening_unit_snapshot": "西灣學院",
+      "course_name_snapshot": "服務學習(三):文化設計與社區實作",
+      "credits_snapshot": 1.0,
+      "requirement_group": "elective",
+      "notes": "服務學習限大二以上修習",
+      "source_page": 3,
+      "evidence_match": false,
+      "validation_status": "needs_course_code_verification",
+      "uncertainty_reason": "Official PDF table does not provide a course code"
+    },
+    {
+      "course_code": null,
+      "opening_units": [
+        "西灣學院"
+      ],
+      "opening_unit_snapshot": "西灣學院",
+      "course_name_snapshot": "後疫情時代的國際政治",
+      "credits_snapshot": 3.0,
+      "requirement_group": "elective",
+      "notes": "大學部、英語授課",
+      "source_page": 3,
+      "evidence_match": true,
+      "validation_status": "needs_course_code_verification",
+      "uncertainty_reason": "Official PDF table does not provide a course code"
+    },
+    {
+      "course_code": null,
+      "opening_units": [
+        "政經系"
+      ],
+      "opening_unit_snapshot": "政經系",
+      "course_name_snapshot": "全球化、自由貿易及跨國移民導論",
+      "credits_snapshot": 3.0,
+      "requirement_group": "elective",
+      "notes": "大學部、英語授課",
+      "source_page": 3,
+      "evidence_match": false,
+      "validation_status": "needs_course_code_verification",
+      "uncertainty_reason": "Official PDF table does not provide a course code"
+    }
+  ],
+  "structured_requirements": {
+    "core_credits_text_value": 6,
+    "minimum_total_credits": 15,
+    "minimum_outside_home_department_credits": 6
+  }
+}

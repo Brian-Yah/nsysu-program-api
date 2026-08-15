@@ -1,0 +1,501 @@
+{
+  "program_id": "prog_a39d576a08db534c",
+  "latest_academic_version": "115-1",
+  "versions": [
+    "115-1"
+  ],
+  "program": {
+    "program_id": "prog_a39d576a08db534c",
+    "name_zh": "海洋永續發展產業科技微學程",
+    "name_en": null,
+    "previous_names": [],
+    "type": "micro_program",
+    "status": "active",
+    "description": "海洋永續發展是國內外關注課題,從政府機關、各級學校、民間企業及人民團體皆逐漸重視,其中人才培育最為關鍵。為強化學生對海洋永續發展知識,鏈結到企業發展所需的專業導向,特以微學程辦理方式,引導學生進入海洋科技發展產業,並藉由\n業界提供專業師資與參訪資源,吸取產業實務知識及了解海洋科技應用實績,增進專業能力與就業技能。",
+    "responsible_unit": "海工系",
+    "coordinator": "葉博弘副教授",
+    "program_website": null,
+    "source_pdf": "http://140.117.153.69/ctdr/files/20250527095013803.pdf",
+    "academic_version": "115-1",
+    "source": {
+      "catalog_url": "https://ctdr.nsysu.edu.tw/class2.php",
+      "pdf_url": "http://140.117.153.69/ctdr/files/20250527095013803.pdf",
+      "retrieved_at": "2026-08-15T10:05:39Z",
+      "pdf_binary_sha256": "14513209b7f49782186c476e935a9126400eda63ccfb10900a2d0f042ca3d748",
+      "normalized_text_sha256": "925353da80a7eccc986a1d7c6d76df0e19b96f67d40ba77746a21356157b9d1a",
+      "http": {
+        "status": 200,
+        "etag": "\"1a804-6361449183877\"",
+        "last_modified": "Tue, 27 May 2025 01:50:13 GMT",
+        "content_length": 108548
+      },
+      "parser_version": "0.1.0"
+    },
+    "review_status": "needs_review",
+    "rules": {
+      "kind": "manual_review",
+      "reason": "Extracted candidate awaits approval"
+    },
+    "warnings": [
+      "No structured course rows extracted from PDF tables"
+    ],
+    "selected_pdf_academic_version": "113-2",
+    "course_catalog": [
+      {
+        "course_code": null,
+        "opening_units": [
+          "海科院(學)"
+        ],
+        "opening_unit_snapshot": "海科院(學)",
+        "course_name_snapshot": "海洋 永續發展科技概論",
+        "credits_snapshot": 2.0,
+        "requirement_group": "core",
+        "notes": "114 學年度第二學",
+        "source_page": 1,
+        "evidence_match": true,
+        "validation_status": "needs_course_code_verification",
+        "uncertainty_reason": "Official PDF table does not provide a course code"
+      },
+      {
+        "course_code": null,
+        "opening_units": [
+          "海科院(學)"
+        ],
+        "opening_unit_snapshot": "海科院(學)",
+        "course_name_snapshot": "海洋基礎科學",
+        "credits_snapshot": 2.0,
+        "requirement_group": "core",
+        "notes": "MRSC114",
+        "source_page": 1,
+        "evidence_match": true,
+        "validation_status": "needs_course_code_verification",
+        "uncertainty_reason": "Official PDF table does not provide a course code"
+      },
+      {
+        "course_code": null,
+        "opening_units": [
+          "海科院(學)"
+        ],
+        "opening_unit_snapshot": "海科院(學)",
+        "course_name_snapshot": "基礎海洋學",
+        "credits_snapshot": 3.0,
+        "requirement_group": "core",
+        "notes": "MRSC102",
+        "source_page": 1,
+        "evidence_match": true,
+        "validation_status": "needs_course_code_verification",
+        "uncertainty_reason": "Official PDF table does not provide a course code"
+      },
+      {
+        "course_code": null,
+        "opening_units": [
+          "海科院(學)"
+        ],
+        "opening_unit_snapshot": "海科院(學)",
+        "course_name_snapshot": "海洋永續發展產業概論",
+        "credits_snapshot": 2.0,
+        "requirement_group": "core",
+        "notes": "114 學年度第二學",
+        "source_page": 1,
+        "evidence_match": true,
+        "validation_status": "needs_course_code_verification",
+        "uncertainty_reason": "Official PDF table does not provide a course code"
+      },
+      {
+        "course_code": null,
+        "opening_units": [
+          "博雅向度六"
+        ],
+        "opening_unit_snapshot": "博雅向度六",
+        "course_name_snapshot": "海洋生態與海洋科技教育探索",
+        "credits_snapshot": 2.0,
+        "requirement_group": "core",
+        "notes": "GEAE260 2",
+        "source_page": 1,
+        "evidence_match": true,
+        "validation_status": "needs_course_code_verification",
+        "uncertainty_reason": "Official PDF table does not provide a course code"
+      },
+      {
+        "course_code": null,
+        "opening_units": [
+          "海工系"
+        ],
+        "opening_unit_snapshot": "海工系",
+        "course_name_snapshot": "海洋與海岸管理",
+        "credits_snapshot": 3.0,
+        "requirement_group": "elective",
+        "notes": "MAEV360",
+        "source_page": 1,
+        "evidence_match": true,
+        "validation_status": "needs_course_code_verification",
+        "uncertainty_reason": "Official PDF table does not provide a course code"
+      },
+      {
+        "course_code": null,
+        "opening_units": [
+          "海工系"
+        ],
+        "opening_unit_snapshot": "海工系",
+        "course_name_snapshot": "海岸開發及保育工程",
+        "credits_snapshot": 3.0,
+        "requirement_group": "elective",
+        "notes": "MAEV453",
+        "source_page": 1,
+        "evidence_match": true,
+        "validation_status": "needs_course_code_verification",
+        "uncertainty_reason": "Official PDF table does not provide a course code"
+      },
+      {
+        "course_code": null,
+        "opening_units": [
+          "海工系"
+        ],
+        "opening_unit_snapshot": "海工系",
+        "course_name_snapshot": "生態工程與實務",
+        "credits_snapshot": 3.0,
+        "requirement_group": "elective",
+        "notes": "MAEV454",
+        "source_page": 1,
+        "evidence_match": true,
+        "validation_status": "needs_course_code_verification",
+        "uncertainty_reason": "Official PDF table does not provide a course code"
+      },
+      {
+        "course_code": null,
+        "opening_units": [
+          "海工碩"
+        ],
+        "opening_unit_snapshot": "海工碩",
+        "course_name_snapshot": "海洋及森林碳匯與碳權概論",
+        "credits_snapshot": 3.0,
+        "requirement_group": "elective",
+        "notes": "MAEV5600",
+        "source_page": 1,
+        "evidence_match": true,
+        "validation_status": "needs_course_code_verification",
+        "uncertainty_reason": "Official PDF table does not provide a course code"
+      },
+      {
+        "course_code": null,
+        "opening_units": [
+          "海工碩"
+        ],
+        "opening_unit_snapshot": "海工碩",
+        "course_name_snapshot": "海域調查與量測",
+        "credits_snapshot": 3.0,
+        "requirement_group": "elective",
+        "notes": "MAEV593",
+        "source_page": 1,
+        "evidence_match": true,
+        "validation_status": "needs_course_code_verification",
+        "uncertainty_reason": "Official PDF table does not provide a course code"
+      },
+      {
+        "course_code": null,
+        "opening_units": [
+          "海工碩"
+        ],
+        "opening_unit_snapshot": "海工碩",
+        "course_name_snapshot": "機器學習於海洋環境管理之應用",
+        "credits_snapshot": 3.0,
+        "requirement_group": "elective",
+        "notes": "MAEV663",
+        "source_page": 1,
+        "evidence_match": true,
+        "validation_status": "needs_course_code_verification",
+        "uncertainty_reason": "Official PDF table does not provide a course code"
+      },
+      {
+        "course_code": null,
+        "opening_units": [
+          "離岸風電碩"
+        ],
+        "opening_unit_snapshot": "離岸風電碩",
+        "course_name_snapshot": "離岸風電概論",
+        "credits_snapshot": 3.0,
+        "requirement_group": "elective",
+        "notes": "OWP501",
+        "source_page": 1,
+        "evidence_match": true,
+        "validation_status": "needs_course_code_verification",
+        "uncertainty_reason": "Official PDF table does not provide a course code"
+      },
+      {
+        "course_code": null,
+        "opening_units": [
+          "海下科技碩"
+        ],
+        "opening_unit_snapshot": "海下科技碩",
+        "course_name_snapshot": "電腦語言與數值模擬",
+        "credits_snapshot": 3.0,
+        "requirement_group": "elective",
+        "notes": "UT513",
+        "source_page": 1,
+        "evidence_match": true,
+        "validation_status": "needs_course_code_verification",
+        "uncertainty_reason": "Official PDF table does not provide a course code"
+      },
+      {
+        "course_code": null,
+        "opening_units": [
+          "海下科技碩"
+        ],
+        "opening_unit_snapshot": "海下科技碩",
+        "course_name_snapshot": "基礎水中聲學",
+        "credits_snapshot": 3.0,
+        "requirement_group": "elective",
+        "notes": "UT539",
+        "source_page": 1,
+        "evidence_match": true,
+        "validation_status": "needs_course_code_verification",
+        "uncertainty_reason": "Official PDF table does not provide a course code"
+      },
+      {
+        "course_code": null,
+        "opening_units": [
+          "海下科技碩"
+        ],
+        "opening_unit_snapshot": "海下科技碩",
+        "course_name_snapshot": "模糊邏輯控制與水下載具應用",
+        "credits_snapshot": 3.0,
+        "requirement_group": "elective",
+        "notes": "UT543",
+        "source_page": 1,
+        "evidence_match": true,
+        "validation_status": "needs_course_code_verification",
+        "uncertainty_reason": "Official PDF table does not provide a course code"
+      },
+      {
+        "course_code": null,
+        "opening_units": [
+          "海科系"
+        ],
+        "opening_unit_snapshot": "海科系",
+        "course_name_snapshot": "海洋生態學概論",
+        "credits_snapshot": 3.0,
+        "requirement_group": "elective",
+        "notes": "DO220",
+        "source_page": 1,
+        "evidence_match": true,
+        "validation_status": "needs_course_code_verification",
+        "uncertainty_reason": "Official PDF table does not provide a course code"
+      },
+      {
+        "course_code": null,
+        "opening_units": [
+          "海科系"
+        ],
+        "opening_unit_snapshot": "海科系",
+        "course_name_snapshot": "環境科學概論",
+        "credits_snapshot": 2.0,
+        "requirement_group": "elective",
+        "notes": "DO223",
+        "source_page": 1,
+        "evidence_match": true,
+        "validation_status": "needs_course_code_verification",
+        "uncertainty_reason": "Official PDF table does not provide a course code"
+      },
+      {
+        "course_code": null,
+        "opening_units": [
+          "海科系"
+        ],
+        "opening_unit_snapshot": "海科系",
+        "course_name_snapshot": "全球環境變遷概論",
+        "credits_snapshot": 2.0,
+        "requirement_group": "elective",
+        "notes": "DO225",
+        "source_page": 1,
+        "evidence_match": true,
+        "validation_status": "needs_course_code_verification",
+        "uncertainty_reason": "Official PDF table does not provide a course code"
+      },
+      {
+        "course_code": null,
+        "opening_units": [
+          "海科系"
+        ],
+        "opening_unit_snapshot": "海科系",
+        "course_name_snapshot": "現代海洋學",
+        "credits_snapshot": 3.0,
+        "requirement_group": "elective",
+        "notes": "DO325",
+        "source_page": 1,
+        "evidence_match": true,
+        "validation_status": "needs_course_code_verification",
+        "uncertainty_reason": "Official PDF table does not provide a course code"
+      },
+      {
+        "course_code": null,
+        "opening_units": [
+          "海科系"
+        ],
+        "opening_unit_snapshot": "海科系",
+        "course_name_snapshot": "海洋遙測及應用",
+        "credits_snapshot": 3.0,
+        "requirement_group": "elective",
+        "notes": "DO450",
+        "source_page": 1,
+        "evidence_match": true,
+        "validation_status": "needs_course_code_verification",
+        "uncertainty_reason": "Official PDF table does not provide a course code"
+      },
+      {
+        "course_code": null,
+        "opening_units": [
+          "海科碩"
+        ],
+        "opening_unit_snapshot": "海科碩",
+        "course_name_snapshot": "海洋生態學",
+        "credits_snapshot": 3.0,
+        "requirement_group": "elective",
+        "notes": "DO517",
+        "source_page": 1,
+        "evidence_match": true,
+        "validation_status": "needs_course_code_verification",
+        "uncertainty_reason": "Official PDF table does not provide a course code"
+      },
+      {
+        "course_code": null,
+        "opening_units": [
+          "海事碩"
+        ],
+        "opening_unit_snapshot": "海事碩",
+        "course_name_snapshot": "海洋事務總論",
+        "credits_snapshot": 3.0,
+        "requirement_group": "elective",
+        "notes": "MA502",
+        "source_page": 1,
+        "evidence_match": true,
+        "validation_status": "needs_course_code_verification",
+        "uncertainty_reason": "Official PDF table does not provide a course code"
+      },
+      {
+        "course_code": null,
+        "opening_units": [
+          "海事碩"
+        ],
+        "opening_unit_snapshot": "海事碩",
+        "course_name_snapshot": "海洋生物資源永續管理",
+        "credits_snapshot": 3.0,
+        "requirement_group": "elective",
+        "notes": "MA617",
+        "source_page": 1,
+        "evidence_match": true,
+        "validation_status": "needs_course_code_verification",
+        "uncertainty_reason": "Official PDF table does not provide a course code"
+      },
+      {
+        "course_code": null,
+        "opening_units": [
+          "海事碩"
+        ],
+        "opening_unit_snapshot": "海事碩",
+        "course_name_snapshot": "海洋空間規劃",
+        "credits_snapshot": 3.0,
+        "requirement_group": "elective",
+        "notes": "MA620",
+        "source_page": 1,
+        "evidence_match": true,
+        "validation_status": "needs_course_code_verification",
+        "uncertainty_reason": "Official PDF table does not provide a course code"
+      },
+      {
+        "course_code": null,
+        "opening_units": [
+          "海事碩"
+        ],
+        "opening_unit_snapshot": "海事碩",
+        "course_name_snapshot": "永續發展",
+        "credits_snapshot": 3.0,
+        "requirement_group": "elective",
+        "notes": "MA635",
+        "source_page": 2,
+        "evidence_match": true,
+        "validation_status": "needs_course_code_verification",
+        "uncertainty_reason": "Official PDF table does not provide a course code"
+      },
+      {
+        "course_code": null,
+        "opening_units": [
+          "海科院(學)"
+        ],
+        "opening_unit_snapshot": "海科院(學)",
+        "course_name_snapshot": "海洋應用科學",
+        "credits_snapshot": 2.0,
+        "requirement_group": "elective",
+        "notes": "MRSC115",
+        "source_page": 2,
+        "evidence_match": true,
+        "validation_status": "needs_course_code_verification",
+        "uncertainty_reason": "Official PDF table does not provide a course code"
+      },
+      {
+        "course_code": null,
+        "opening_units": [
+          "海科院(學)"
+        ],
+        "opening_unit_snapshot": "海科院(學)",
+        "course_name_snapshot": "探索海洋國家公園",
+        "credits_snapshot": 2.0,
+        "requirement_group": "elective",
+        "notes": "MRSC120",
+        "source_page": 2,
+        "evidence_match": true,
+        "validation_status": "needs_course_code_verification",
+        "uncertainty_reason": "Official PDF table does not provide a course code"
+      },
+      {
+        "course_code": null,
+        "opening_units": [
+          "博雅向度六"
+        ],
+        "opening_unit_snapshot": "博雅向度六",
+        "course_name_snapshot": "環境變遷與生態保育",
+        "credits_snapshot": 2.0,
+        "requirement_group": "elective",
+        "notes": "GEAE2604",
+        "source_page": 2,
+        "evidence_match": true,
+        "validation_status": "needs_course_code_verification",
+        "uncertainty_reason": "Official PDF table does not provide a course code"
+      },
+      {
+        "course_code": null,
+        "opening_units": [
+          "博雅向度六"
+        ],
+        "opening_unit_snapshot": "博雅向度六",
+        "course_name_snapshot": "台灣海岸環境",
+        "credits_snapshot": 2.0,
+        "requirement_group": "elective",
+        "notes": "GEAE2607",
+        "source_page": 2,
+        "evidence_match": true,
+        "validation_status": "needs_course_code_verification",
+        "uncertainty_reason": "Official PDF table does not provide a course code"
+      },
+      {
+        "course_code": null,
+        "opening_units": [
+          "博雅向度四"
+        ],
+        "opening_unit_snapshot": "博雅向度四",
+        "course_name_snapshot": "海洋生態資源:科技研究與社會",
+        "credits_snapshot": 2.0,
+        "requirement_group": "elective",
+        "notes": "GEAE2442",
+        "source_page": 2,
+        "evidence_match": true,
+        "validation_status": "needs_course_code_verification",
+        "uncertainty_reason": "Official PDF table does not provide a course code"
+      }
+    ],
+    "structured_requirements": {
+      "core_credits_text_value": 4,
+      "minimum_total_credits": 9,
+      "minimum_outside_home_department_credits": 3
+    }
+  }
+}

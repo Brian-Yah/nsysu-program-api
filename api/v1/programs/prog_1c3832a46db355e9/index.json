@@ -1,0 +1,216 @@
+{
+  "program_id": "prog_1c3832a46db355e9",
+  "latest_academic_version": "115-1",
+  "versions": [
+    "115-1"
+  ],
+  "program": {
+    "program_id": "prog_1c3832a46db355e9",
+    "name_zh": "無人載具學程",
+    "name_en": null,
+    "previous_names": [],
+    "type": "integrated_program",
+    "status": "active",
+    "description": "本學程既培養學生的無人載具專業能力,亦通過選修課引導學生對於人工智慧、無線\n通訊、資訊安全等方面相關的知識的追求和興趣。",
+    "responsible_unit": "電機系",
+    "coordinator": "李宗璘教授",
+    "program_website": null,
+    "source_pdf": "http://140.117.153.69/ctdr/files/2025052709480931.pdf",
+    "academic_version": "115-1",
+    "source": {
+      "catalog_url": "https://ctdr.nsysu.edu.tw/class2.php",
+      "pdf_url": "http://140.117.153.69/ctdr/files/2025052709480931.pdf",
+      "retrieved_at": "2026-08-15T10:05:39Z",
+      "pdf_binary_sha256": "6bc36f1721abad3f5d8ce6957da6a83a2d66df2a0c75553221592df96e60a5ad",
+      "normalized_text_sha256": "66498326f81e553b5be6a1b91a1e422ae7b84deec06d71797b5f9dcc7785b009",
+      "http": {
+        "status": 200,
+        "etag": "\"2905f-6361441a8c9f9\"",
+        "last_modified": "Tue, 27 May 2025 01:48:09 GMT",
+        "content_length": 168031
+      },
+      "parser_version": "0.1.0"
+    },
+    "review_status": "needs_review",
+    "rules": {
+      "kind": "manual_review",
+      "reason": "Extracted candidate awaits approval"
+    },
+    "warnings": [
+      "No structured course rows extracted from PDF tables"
+    ],
+    "selected_pdf_academic_version": "113-2",
+    "course_catalog": [
+      {
+        "course_code": null,
+        "opening_units": [
+          "電機系"
+        ],
+        "opening_unit_snapshot": "電機系",
+        "course_name_snapshot": "無人載具概論",
+        "credits_snapshot": 3.0,
+        "requirement_group": "core",
+        "notes": "EE3404",
+        "source_page": 1,
+        "evidence_match": true,
+        "validation_status": "needs_course_code_verification",
+        "uncertainty_reason": "Official PDF table does not provide a course code"
+      },
+      {
+        "course_code": null,
+        "opening_units": [
+          "電機系"
+        ],
+        "opening_unit_snapshot": "電機系",
+        "course_name_snapshot": "基礎機器人應用",
+        "credits_snapshot": 3.0,
+        "requirement_group": "core",
+        "notes": "EE4405",
+        "source_page": 1,
+        "evidence_match": true,
+        "validation_status": "needs_course_code_verification",
+        "uncertainty_reason": "Official PDF table does not provide a course code"
+      },
+      {
+        "course_code": null,
+        "opening_units": [
+          "電機碩"
+        ],
+        "opening_unit_snapshot": "電機碩",
+        "course_name_snapshot": "行動機器人",
+        "credits_snapshot": 3.0,
+        "requirement_group": "core",
+        "notes": "EE5226",
+        "source_page": 1,
+        "evidence_match": true,
+        "validation_status": "needs_course_code_verification",
+        "uncertainty_reason": "Official PDF table does not provide a course code"
+      },
+      {
+        "course_code": null,
+        "opening_units": [
+          "海下科技碩"
+        ],
+        "opening_unit_snapshot": "海下科技碩",
+        "course_name_snapshot": "模糊邏輯控制與水下載具應用",
+        "credits_snapshot": 3.0,
+        "requirement_group": "core",
+        "notes": "UT543",
+        "source_page": 1,
+        "evidence_match": true,
+        "validation_status": "needs_course_code_verification",
+        "uncertainty_reason": "Official PDF table does not provide a course code"
+      },
+      {
+        "course_code": null,
+        "opening_units": [
+          "電機系"
+        ],
+        "opening_unit_snapshot": "電機系",
+        "course_name_snapshot": "電力電子學",
+        "credits_snapshot": 3.0,
+        "requirement_group": "elective",
+        "notes": "EE2305",
+        "source_page": 1,
+        "evidence_match": true,
+        "validation_status": "needs_course_code_verification",
+        "uncertainty_reason": "Official PDF table does not provide a course code"
+      },
+      {
+        "course_code": null,
+        "opening_units": [
+          "電機碩"
+        ],
+        "opening_unit_snapshot": "電機碩",
+        "course_name_snapshot": "機器學習",
+        "credits_snapshot": 3.0,
+        "requirement_group": "elective",
+        "notes": "EE5310",
+        "source_page": 1,
+        "evidence_match": true,
+        "validation_status": "needs_course_code_verification",
+        "uncertainty_reason": "Official PDF table does not provide a course code"
+      },
+      {
+        "course_code": null,
+        "opening_units": [
+          "機電系"
+        ],
+        "opening_unit_snapshot": "機電系",
+        "course_name_snapshot": "機械設計原理(一)",
+        "credits_snapshot": 3.0,
+        "requirement_group": "elective",
+        "notes": "MEME301",
+        "source_page": 1,
+        "evidence_match": true,
+        "validation_status": "needs_course_code_verification",
+        "uncertainty_reason": "Official PDF table does not provide a course code"
+      },
+      {
+        "course_code": null,
+        "opening_units": [
+          "資工系"
+        ],
+        "opening_unit_snapshot": "資工系",
+        "course_name_snapshot": "機器學習導論",
+        "credits_snapshot": 3.0,
+        "requirement_group": "elective",
+        "notes": "CSE399",
+        "source_page": 1,
+        "evidence_match": true,
+        "validation_status": "needs_course_code_verification",
+        "uncertainty_reason": "Official PDF table does not provide a course code"
+      },
+      {
+        "course_code": null,
+        "opening_units": [
+          "資管碩"
+        ],
+        "opening_unit_snapshot": "資管碩",
+        "course_name_snapshot": "網路安全",
+        "credits_snapshot": 3.0,
+        "requirement_group": "elective",
+        "notes": "MIS538",
+        "source_page": 1,
+        "evidence_match": true,
+        "validation_status": "needs_course_code_verification",
+        "uncertainty_reason": "Official PDF table does not provide a course code"
+      },
+      {
+        "course_code": null,
+        "opening_units": [
+          "應數碩"
+        ],
+        "opening_unit_snapshot": "應數碩",
+        "course_name_snapshot": "Python與機器學習",
+        "credits_snapshot": 3.0,
+        "requirement_group": "elective",
+        "notes": "MATH522",
+        "source_page": 1,
+        "evidence_match": true,
+        "validation_status": "needs_course_code_verification",
+        "uncertainty_reason": "Official PDF table does not provide a course code"
+      },
+      {
+        "course_code": null,
+        "opening_units": [
+          "海下科技碩"
+        ],
+        "opening_unit_snapshot": "海下科技碩",
+        "course_name_snapshot": "基礎水中聲學",
+        "credits_snapshot": 3.0,
+        "requirement_group": "elective",
+        "notes": "UT539",
+        "source_page": 1,
+        "evidence_match": true,
+        "validation_status": "needs_course_code_verification",
+        "uncertainty_reason": "Official PDF table does not provide a course code"
+      }
+    ],
+    "structured_requirements": {
+      "core_credits_text_value": 6,
+      "minimum_total_credits": 18,
+      "minimum_outside_home_department_credits": 6
+    }
+  }
+}

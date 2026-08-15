@@ -1,0 +1,359 @@
+{
+  "program_id": "prog_7619ee9d5c0d5f18",
+  "name_zh": "非營利事業及社會創新微學程",
+  "name_en": null,
+  "previous_names": [],
+  "type": "micro_program",
+  "status": "active",
+  "description": "本學程主要目的在於整合本校管理學院不同領域之師資和專長,以非營利事業相關組織之國內外理論實務為導向,透過學程中各課程之講授、實作、實務界專家到校演講及辦理工作坊、以及至國外非營利組織參訪之活動,使學生能具備非營利事業經營管理之國際視野及行動策略。同時,透過到地方社區及非營利組織參訪見學,與在地居民互動學習,藉此促成在地社區與中山大學共榮創生之可能性。",
+  "responsible_unit": "公事所",
+  "coordinator": "蔡錦昌副教授",
+  "program_website": "https://pam.nsysu.edu.tw/p/404-1234-194775.php?Lang=zh-tw",
+  "source_pdf": "http://140.117.153.69/ctdr/files/20231220103628526.pdf",
+  "academic_version": "115-1",
+  "source": {
+    "catalog_url": "https://ctdr.nsysu.edu.tw/class2.php",
+    "pdf_url": "http://140.117.153.69/ctdr/files/20231220103628526.pdf",
+    "retrieved_at": "2026-08-15T10:05:39Z",
+    "pdf_binary_sha256": "fdc65df53f15491c73d901a9e1dc96477dc5a61419b45ee61a22b15011014aa0",
+    "normalized_text_sha256": "2eba0df915dbe164959515d07dcfbc13a62fbcdc3c99fc84595360f157256c1b",
+    "http": {
+      "status": 200,
+      "etag": "\"21466-60ce7d9a22572\"",
+      "last_modified": "Wed, 20 Dec 2023 02:36:28 GMT",
+      "content_length": 136294
+    },
+    "parser_version": "0.1.0"
+  },
+  "review_status": "needs_review",
+  "rules": {
+    "kind": "manual_review",
+    "reason": "Extracted candidate awaits approval"
+  },
+  "warnings": [
+    "No structured course rows extracted from PDF tables"
+  ],
+  "selected_pdf_academic_version": "112-1",
+  "course_catalog": [
+    {
+      "course_code": null,
+      "opening_units": [
+        "公事所"
+      ],
+      "opening_unit_snapshot": "公事所",
+      "course_name_snapshot": "非營利組織管理研討",
+      "credits_snapshot": 2.0,
+      "requirement_group": "core",
+      "notes": "",
+      "source_page": 1,
+      "evidence_match": true,
+      "validation_status": "needs_course_code_verification",
+      "uncertainty_reason": "Official PDF table does not provide a course code"
+    },
+    {
+      "course_code": null,
+      "opening_units": [
+        "公事所"
+      ],
+      "opening_unit_snapshot": "公事所",
+      "course_name_snapshot": "社會行銷",
+      "credits_snapshot": 2.0,
+      "requirement_group": "core",
+      "notes": "原為選修課程調整為核心課程",
+      "source_page": 1,
+      "evidence_match": true,
+      "validation_status": "needs_course_code_verification",
+      "uncertainty_reason": "Official PDF table does not provide a course code"
+    },
+    {
+      "course_code": null,
+      "opening_units": [
+        "公事所"
+      ],
+      "opening_unit_snapshot": "公事所",
+      "course_name_snapshot": "公共事務管理實務體驗學習",
+      "credits_snapshot": 2.0,
+      "requirement_group": "core",
+      "notes": "原為選修課程調整為核心課程",
+      "source_page": 1,
+      "evidence_match": true,
+      "validation_status": "needs_course_code_verification",
+      "uncertainty_reason": "Official PDF table does not provide a course code"
+    },
+    {
+      "course_code": null,
+      "opening_units": [
+        "數位自學課程"
+      ],
+      "opening_unit_snapshot": "數位自學課程",
+      "course_name_snapshot": "創造思考:成功的技巧和工具",
+      "credits_snapshot": 1.0,
+      "requirement_group": "core",
+      "notes": "Coursera",
+      "source_page": 1,
+      "evidence_match": true,
+      "validation_status": "needs_course_code_verification",
+      "uncertainty_reason": "Official PDF table does not provide a course code"
+    },
+    {
+      "course_code": null,
+      "opening_units": [
+        "數位自學課程"
+      ],
+      "opening_unit_snapshot": "數位自學課程",
+      "course_name_snapshot": "社會創新概論",
+      "credits_snapshot": 1.0,
+      "requirement_group": "core",
+      "notes": "Coursera",
+      "source_page": 1,
+      "evidence_match": true,
+      "validation_status": "needs_course_code_verification",
+      "uncertainty_reason": "Official PDF table does not provide a course code"
+    },
+    {
+      "course_code": null,
+      "opening_units": [
+        "公事所"
+      ],
+      "opening_unit_snapshot": "公事所",
+      "course_name_snapshot": "社區營造與地區重建",
+      "credits_snapshot": 2.0,
+      "requirement_group": "elective",
+      "notes": "",
+      "source_page": 1,
+      "evidence_match": true,
+      "validation_status": "needs_course_code_verification",
+      "uncertainty_reason": "Official PDF table does not provide a course code"
+    },
+    {
+      "course_code": null,
+      "opening_units": [
+        "公事所"
+      ],
+      "opening_unit_snapshot": "公事所",
+      "course_name_snapshot": "地區經營管理",
+      "credits_snapshot": 2.0,
+      "requirement_group": "elective",
+      "notes": "",
+      "source_page": 1,
+      "evidence_match": true,
+      "validation_status": "needs_course_code_verification",
+      "uncertainty_reason": "Official PDF table does not provide a course code"
+    },
+    {
+      "course_code": null,
+      "opening_units": [
+        "公事所"
+      ],
+      "opening_unit_snapshot": "公事所",
+      "course_name_snapshot": "第三部門之課責與績效評估",
+      "credits_snapshot": 2.0,
+      "requirement_group": "elective",
+      "notes": "",
+      "source_page": 1,
+      "evidence_match": true,
+      "validation_status": "needs_course_code_verification",
+      "uncertainty_reason": "Official PDF table does not provide a course code"
+    },
+    {
+      "course_code": null,
+      "opening_units": [
+        "公事所"
+      ],
+      "opening_unit_snapshot": "公事所",
+      "course_name_snapshot": "國際非營利及社區組織交流",
+      "credits_snapshot": 2.0,
+      "requirement_group": "elective",
+      "notes": "",
+      "source_page": 1,
+      "evidence_match": true,
+      "validation_status": "needs_course_code_verification",
+      "uncertainty_reason": "Official PDF table does not provide a course code"
+    },
+    {
+      "course_code": null,
+      "opening_units": [
+        "公事所"
+      ],
+      "opening_unit_snapshot": "公事所",
+      "course_name_snapshot": "新興公共議題研討",
+      "credits_snapshot": 2.0,
+      "requirement_group": "elective",
+      "notes": "",
+      "source_page": 1,
+      "evidence_match": true,
+      "validation_status": "needs_course_code_verification",
+      "uncertainty_reason": "Official PDF table does not provide a course code"
+    },
+    {
+      "course_code": null,
+      "opening_units": [
+        "資管碩"
+      ],
+      "opening_unit_snapshot": "資管碩",
+      "course_name_snapshot": "服務創新個案研討",
+      "credits_snapshot": 3.0,
+      "requirement_group": "elective",
+      "notes": "",
+      "source_page": 1,
+      "evidence_match": true,
+      "validation_status": "needs_course_code_verification",
+      "uncertainty_reason": "Official PDF table does not provide a course code"
+    },
+    {
+      "course_code": null,
+      "opening_units": [
+        "資管碩"
+      ],
+      "opening_unit_snapshot": "資管碩",
+      "course_name_snapshot": "專案管理",
+      "credits_snapshot": 3.0,
+      "requirement_group": "elective",
+      "notes": "",
+      "source_page": 1,
+      "evidence_match": true,
+      "validation_status": "needs_course_code_verification",
+      "uncertainty_reason": "Official PDF table does not provide a course code"
+    },
+    {
+      "course_code": null,
+      "opening_units": [
+        "行傳碩"
+      ],
+      "opening_unit_snapshot": "行傳碩",
+      "course_name_snapshot": "社群媒體行銷",
+      "credits_snapshot": 3.0,
+      "requirement_group": "elective",
+      "notes": "",
+      "source_page": 1,
+      "evidence_match": true,
+      "validation_status": "needs_course_code_verification",
+      "uncertainty_reason": "Official PDF table does not provide a course code"
+    },
+    {
+      "course_code": null,
+      "opening_units": [
+        "財管系"
+      ],
+      "opening_unit_snapshot": "財管系",
+      "course_name_snapshot": "社會企業商業模式發展與實作",
+      "credits_snapshot": 3.0,
+      "requirement_group": "elective",
+      "notes": "",
+      "source_page": 1,
+      "evidence_match": true,
+      "validation_status": "needs_course_code_verification",
+      "uncertainty_reason": "Official PDF table does not provide a course code"
+    },
+    {
+      "course_code": null,
+      "opening_units": [
+        "劇藝碩"
+      ],
+      "opening_unit_snapshot": "劇藝碩",
+      "course_name_snapshot": "社區興業與創意實踐(一)",
+      "credits_snapshot": 3.0,
+      "requirement_group": "elective",
+      "notes": "",
+      "source_page": 1,
+      "evidence_match": true,
+      "validation_status": "needs_course_code_verification",
+      "uncertainty_reason": "Official PDF table does not provide a course code"
+    },
+    {
+      "course_code": null,
+      "opening_units": [
+        "企企管碩"
+      ],
+      "opening_unit_snapshot": "企企管碩",
+      "course_name_snapshot": "創意與創新管理",
+      "credits_snapshot": 3.0,
+      "requirement_group": "elective",
+      "notes": "",
+      "source_page": 1,
+      "evidence_match": true,
+      "validation_status": "needs_course_code_verification",
+      "uncertainty_reason": "Official PDF table does not provide a course code"
+    },
+    {
+      "course_code": null,
+      "opening_units": [
+        "社創所"
+      ],
+      "opening_unit_snapshot": "社創所",
+      "course_name_snapshot": "社會設計與社會創新專題研究",
+      "credits_snapshot": 3.0,
+      "requirement_group": "elective",
+      "notes": "",
+      "source_page": 1,
+      "evidence_match": true,
+      "validation_status": "needs_course_code_verification",
+      "uncertainty_reason": "Official PDF table does not provide a course code"
+    },
+    {
+      "course_code": null,
+      "opening_units": [
+        "社創所"
+      ],
+      "opening_unit_snapshot": "社創所",
+      "course_name_snapshot": "創造力與團隊發展",
+      "credits_snapshot": 3.0,
+      "requirement_group": "elective",
+      "notes": "",
+      "source_page": 1,
+      "evidence_match": true,
+      "validation_status": "needs_course_code_verification",
+      "uncertainty_reason": "Official PDF table does not provide a course code"
+    },
+    {
+      "course_code": null,
+      "opening_units": [
+        "數位自學課程"
+      ],
+      "opening_unit_snapshot": "數位自學課程",
+      "course_name_snapshot": "數位行銷策略",
+      "credits_snapshot": 1.0,
+      "requirement_group": "elective",
+      "notes": "edX",
+      "source_page": 1,
+      "evidence_match": true,
+      "validation_status": "needs_course_code_verification",
+      "uncertainty_reason": "Official PDF table does not provide a course code"
+    },
+    {
+      "course_code": null,
+      "opening_units": [
+        "數位自學課程"
+      ],
+      "opening_unit_snapshot": "數位自學課程",
+      "course_name_snapshot": "永續性概論",
+      "credits_snapshot": 1.0,
+      "requirement_group": "elective",
+      "notes": "Coursera",
+      "source_page": 1,
+      "evidence_match": true,
+      "validation_status": "needs_course_code_verification",
+      "uncertainty_reason": "Official PDF table does not provide a course code"
+    },
+    {
+      "course_code": null,
+      "opening_units": [
+        "數位自學課程"
+      ],
+      "opening_unit_snapshot": "數位自學課程",
+      "course_name_snapshot": "新興經濟體的創業家精神",
+      "credits_snapshot": 1.0,
+      "requirement_group": "elective",
+      "notes": "edX",
+      "source_page": 1,
+      "evidence_match": true,
+      "validation_status": "needs_course_code_verification",
+      "uncertainty_reason": "Official PDF table does not provide a course code"
+    }
+  ],
+  "structured_requirements": {
+    "minimum_total_credits": 9,
+    "core_credits_text_value": 2,
+    "minimum_outside_home_department_credits": 3
+  }
+}

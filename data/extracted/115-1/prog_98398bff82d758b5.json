@@ -1,0 +1,568 @@
+{
+  "schema_version": "1.0",
+  "courses": [],
+  "credit_mentions": [
+    9,
+    9,
+    3,
+    9,
+    9,
+    3
+  ],
+  "ai_interpretation": null,
+  "confidence": "low",
+  "warnings": [
+    "Candidate only; not approved for publishing as executable rules"
+  ],
+  "program_id": "prog_98398bff82d758b5",
+  "academic_version": "115-1",
+  "text_length": 830,
+  "raw_text": "1\n【114 學年度第 2 學期起適用】\n115.4.14 114 學年度第 2 學期學分學程會議通過\n115.5.21 第 188 次教務會議通過\n生物資訊與演化生態微學程新課程規劃表\n開課單位 課  程  名  稱 學分數 備註\n核\n心\n課\n程\n海資系 生態基因體學 2\n海資系 海洋總體基因體學 2\n海資系 海洋動物演化學 3\n核心課程〈專業模組課程〉學分數: 4 學分\n選\n修\n海資系 遺傳學 2\n博雅向度六 環境變遷與生態保育 2\n跨院選修(醫) 演化醫學 2\n生科系 生物多樣性與保育 2\n海科院 海洋基礎科學 2\n海科院 海洋應用科學 2\n海資系 分子生態學 3\n博雅向度五 生物多樣性的世界 2\n總學分數:至少 9  學分\n※【微學程】課程規劃至少 9 學分。\n※【微學程】學生所修習之學程課程中,至少應有 3 學分不屬於學生本系所、雙主修及\n輔系之課程。\n※修習學程適用之課程規劃表請依核准修習學年期版本為主。\n2\n【112 學年度第 2 學期起適用】\n113.4.22 112 學年度第 2 學期學分學程會議通過\n113.5.30 第 180 次教務會議通過\n生物資訊與演化生態微學程課程規劃表\n開課單位 課  程  名  稱 學分數 備註\n核\n心\n課\n程\n海資系 珊瑚基因體學 2\n海資系 海洋總體基因體學 2\n海資系 海洋動物演化學 3\n核心課程〈專業模組課程〉學分數: 4 學分\n選\n修\n海資系 遺傳學 2\n博雅向度六 環境變遷與生態保育 2\n跨院選修\n(醫) 演化醫學 2\n生科系 生物多樣性與保育 2\n海科院 海洋基礎科學 2\n海科院 海洋應用科學 2\n海生技博 海洋生物學 3\n博雅向度五 生物多樣性的世界 2\n總學分數:至少 9  學分\n※【微學程】課程規劃至少 9 學分。\n※【微學程】學生所修習之學程課程中,至少應有 3 學分不屬於學生本系所、雙主修及\n輔系之課程。\n※修習學程適用之課程規劃表請依核准修習學年期版本為主。",
+  "rule_versions": [
+    {
+      "pdf_academic_version": "114-2",
+      "courses": [
+        {
+          "course_code": null,
+          "opening_units": [
+            "海資系"
+          ],
+          "opening_unit_snapshot": "海資系",
+          "course_name_snapshot": "生態基因體學",
+          "credits_snapshot": 2.0,
+          "requirement_group": "core",
+          "notes": "",
+          "source_page": 1,
+          "evidence_match": true,
+          "validation_status": "needs_course_code_verification",
+          "uncertainty_reason": "Official PDF table does not provide a course code"
+        },
+        {
+          "course_code": null,
+          "opening_units": [
+            "海資系"
+          ],
+          "opening_unit_snapshot": "海資系",
+          "course_name_snapshot": "海洋總體基因體學",
+          "credits_snapshot": 2.0,
+          "requirement_group": "core",
+          "notes": "",
+          "source_page": 1,
+          "evidence_match": true,
+          "validation_status": "needs_course_code_verification",
+          "uncertainty_reason": "Official PDF table does not provide a course code"
+        },
+        {
+          "course_code": null,
+          "opening_units": [
+            "海資系"
+          ],
+          "opening_unit_snapshot": "海資系",
+          "course_name_snapshot": "海洋動物演化學",
+          "credits_snapshot": 3.0,
+          "requirement_group": "core",
+          "notes": "",
+          "source_page": 1,
+          "evidence_match": true,
+          "validation_status": "needs_course_code_verification",
+          "uncertainty_reason": "Official PDF table does not provide a course code"
+        },
+        {
+          "course_code": null,
+          "opening_units": [
+            "海資系"
+          ],
+          "opening_unit_snapshot": "海資系",
+          "course_name_snapshot": "遺傳學",
+          "credits_snapshot": 2.0,
+          "requirement_group": "elective",
+          "notes": "",
+          "source_page": 1,
+          "evidence_match": true,
+          "validation_status": "needs_course_code_verification",
+          "uncertainty_reason": "Official PDF table does not provide a course code"
+        },
+        {
+          "course_code": null,
+          "opening_units": [
+            "博雅向度六"
+          ],
+          "opening_unit_snapshot": "博雅向度六",
+          "course_name_snapshot": "環境變遷與生態保育",
+          "credits_snapshot": 2.0,
+          "requirement_group": "elective",
+          "notes": "",
+          "source_page": 1,
+          "evidence_match": true,
+          "validation_status": "needs_course_code_verification",
+          "uncertainty_reason": "Official PDF table does not provide a course code"
+        },
+        {
+          "course_code": null,
+          "opening_units": [
+            "跨院選修(醫)"
+          ],
+          "opening_unit_snapshot": "跨院選修(醫)",
+          "course_name_snapshot": "演化醫學",
+          "credits_snapshot": 2.0,
+          "requirement_group": "elective",
+          "notes": "",
+          "source_page": 1,
+          "evidence_match": true,
+          "validation_status": "needs_course_code_verification",
+          "uncertainty_reason": "Official PDF table does not provide a course code"
+        },
+        {
+          "course_code": null,
+          "opening_units": [
+            "生科系"
+          ],
+          "opening_unit_snapshot": "生科系",
+          "course_name_snapshot": "生物多樣性與保育",
+          "credits_snapshot": 2.0,
+          "requirement_group": "elective",
+          "notes": "",
+          "source_page": 1,
+          "evidence_match": true,
+          "validation_status": "needs_course_code_verification",
+          "uncertainty_reason": "Official PDF table does not provide a course code"
+        },
+        {
+          "course_code": null,
+          "opening_units": [
+            "海科院"
+          ],
+          "opening_unit_snapshot": "海科院",
+          "course_name_snapshot": "海洋基礎科學",
+          "credits_snapshot": 2.0,
+          "requirement_group": "elective",
+          "notes": "",
+          "source_page": 1,
+          "evidence_match": true,
+          "validation_status": "needs_course_code_verification",
+          "uncertainty_reason": "Official PDF table does not provide a course code"
+        },
+        {
+          "course_code": null,
+          "opening_units": [
+            "海科院"
+          ],
+          "opening_unit_snapshot": "海科院",
+          "course_name_snapshot": "海洋應用科學",
+          "credits_snapshot": 2.0,
+          "requirement_group": "elective",
+          "notes": "",
+          "source_page": 1,
+          "evidence_match": true,
+          "validation_status": "needs_course_code_verification",
+          "uncertainty_reason": "Official PDF table does not provide a course code"
+        },
+        {
+          "course_code": null,
+          "opening_units": [
+            "海資系"
+          ],
+          "opening_unit_snapshot": "海資系",
+          "course_name_snapshot": "分子生態學",
+          "credits_snapshot": 3.0,
+          "requirement_group": "elective",
+          "notes": "",
+          "source_page": 1,
+          "evidence_match": true,
+          "validation_status": "needs_course_code_verification",
+          "uncertainty_reason": "Official PDF table does not provide a course code"
+        },
+        {
+          "course_code": null,
+          "opening_units": [
+            "博雅向度五"
+          ],
+          "opening_unit_snapshot": "博雅向度五",
+          "course_name_snapshot": "生物多樣性的世界",
+          "credits_snapshot": 2.0,
+          "requirement_group": "elective",
+          "notes": "",
+          "source_page": 1,
+          "evidence_match": true,
+          "validation_status": "needs_course_code_verification",
+          "uncertainty_reason": "Official PDF table does not provide a course code"
+        }
+      ],
+      "requirements": {
+        "minimum_total_credits": 9,
+        "core_credits_text_value": 4,
+        "minimum_outside_home_department_credits": 3
+      },
+      "source_pages": [
+        1
+      ],
+      "audit": {
+        "compound_rows_needing_review": [],
+        "duplicates_removed": 0,
+        "course_count": 11,
+        "core_count": 3,
+        "elective_count": 8,
+        "evidence_matched_count": 11
+      }
+    },
+    {
+      "pdf_academic_version": "112-2",
+      "courses": [
+        {
+          "course_code": null,
+          "opening_units": [
+            "海資系"
+          ],
+          "opening_unit_snapshot": "海資系",
+          "course_name_snapshot": "珊瑚基因體學",
+          "credits_snapshot": 2.0,
+          "requirement_group": "core",
+          "notes": "",
+          "source_page": 2,
+          "evidence_match": true,
+          "validation_status": "needs_course_code_verification",
+          "uncertainty_reason": "Official PDF table does not provide a course code"
+        },
+        {
+          "course_code": null,
+          "opening_units": [
+            "海資系"
+          ],
+          "opening_unit_snapshot": "海資系",
+          "course_name_snapshot": "海洋總體基因體學",
+          "credits_snapshot": 2.0,
+          "requirement_group": "core",
+          "notes": "",
+          "source_page": 2,
+          "evidence_match": true,
+          "validation_status": "needs_course_code_verification",
+          "uncertainty_reason": "Official PDF table does not provide a course code"
+        },
+        {
+          "course_code": null,
+          "opening_units": [
+            "海資系"
+          ],
+          "opening_unit_snapshot": "海資系",
+          "course_name_snapshot": "海洋動物演化學",
+          "credits_snapshot": 3.0,
+          "requirement_group": "core",
+          "notes": "",
+          "source_page": 2,
+          "evidence_match": true,
+          "validation_status": "needs_course_code_verification",
+          "uncertainty_reason": "Official PDF table does not provide a course code"
+        },
+        {
+          "course_code": null,
+          "opening_units": [
+            "海資系"
+          ],
+          "opening_unit_snapshot": "海資系",
+          "course_name_snapshot": "遺傳學",
+          "credits_snapshot": 2.0,
+          "requirement_group": "elective",
+          "notes": "",
+          "source_page": 2,
+          "evidence_match": true,
+          "validation_status": "needs_course_code_verification",
+          "uncertainty_reason": "Official PDF table does not provide a course code"
+        },
+        {
+          "course_code": null,
+          "opening_units": [
+            "博雅向度六"
+          ],
+          "opening_unit_snapshot": "博雅向度六",
+          "course_name_snapshot": "環境變遷與生態保育",
+          "credits_snapshot": 2.0,
+          "requirement_group": "elective",
+          "notes": "",
+          "source_page": 2,
+          "evidence_match": true,
+          "validation_status": "needs_course_code_verification",
+          "uncertainty_reason": "Official PDF table does not provide a course code"
+        },
+        {
+          "course_code": null,
+          "opening_units": [
+            "跨 院 選 修(醫)"
+          ],
+          "opening_unit_snapshot": "跨 院 選 修(醫)",
+          "course_name_snapshot": "演化醫學",
+          "credits_snapshot": 2.0,
+          "requirement_group": "elective",
+          "notes": "",
+          "source_page": 2,
+          "evidence_match": true,
+          "validation_status": "needs_course_code_verification",
+          "uncertainty_reason": "Official PDF table does not provide a course code"
+        },
+        {
+          "course_code": null,
+          "opening_units": [
+            "生科系"
+          ],
+          "opening_unit_snapshot": "生科系",
+          "course_name_snapshot": "生物多樣性與保育",
+          "credits_snapshot": 2.0,
+          "requirement_group": "elective",
+          "notes": "",
+          "source_page": 2,
+          "evidence_match": true,
+          "validation_status": "needs_course_code_verification",
+          "uncertainty_reason": "Official PDF table does not provide a course code"
+        },
+        {
+          "course_code": null,
+          "opening_units": [
+            "海科院"
+          ],
+          "opening_unit_snapshot": "海科院",
+          "course_name_snapshot": "海洋基礎科學",
+          "credits_snapshot": 2.0,
+          "requirement_group": "elective",
+          "notes": "",
+          "source_page": 2,
+          "evidence_match": true,
+          "validation_status": "needs_course_code_verification",
+          "uncertainty_reason": "Official PDF table does not provide a course code"
+        },
+        {
+          "course_code": null,
+          "opening_units": [
+            "海科院"
+          ],
+          "opening_unit_snapshot": "海科院",
+          "course_name_snapshot": "海洋應用科學",
+          "credits_snapshot": 2.0,
+          "requirement_group": "elective",
+          "notes": "",
+          "source_page": 2,
+          "evidence_match": true,
+          "validation_status": "needs_course_code_verification",
+          "uncertainty_reason": "Official PDF table does not provide a course code"
+        },
+        {
+          "course_code": null,
+          "opening_units": [
+            "海生技博"
+          ],
+          "opening_unit_snapshot": "海生技博",
+          "course_name_snapshot": "海洋生物學",
+          "credits_snapshot": 3.0,
+          "requirement_group": "elective",
+          "notes": "",
+          "source_page": 2,
+          "evidence_match": true,
+          "validation_status": "needs_course_code_verification",
+          "uncertainty_reason": "Official PDF table does not provide a course code"
+        },
+        {
+          "course_code": null,
+          "opening_units": [
+            "博雅向度五"
+          ],
+          "opening_unit_snapshot": "博雅向度五",
+          "course_name_snapshot": "生物多樣性的世界",
+          "credits_snapshot": 2.0,
+          "requirement_group": "elective",
+          "notes": "",
+          "source_page": 2,
+          "evidence_match": true,
+          "validation_status": "needs_course_code_verification",
+          "uncertainty_reason": "Official PDF table does not provide a course code"
+        }
+      ],
+      "requirements": {
+        "minimum_total_credits": 9,
+        "core_credits_text_value": 4,
+        "minimum_outside_home_department_credits": 3
+      },
+      "source_pages": [
+        2
+      ],
+      "audit": {
+        "compound_rows_needing_review": [],
+        "duplicates_removed": 0,
+        "course_count": 11,
+        "core_count": 3,
+        "elective_count": 8,
+        "evidence_matched_count": 11
+      }
+    }
+  ],
+  "selected_pdf_academic_version": "114-2",
+  "structured_courses": [
+    {
+      "course_code": null,
+      "opening_units": [
+        "海資系"
+      ],
+      "opening_unit_snapshot": "海資系",
+      "course_name_snapshot": "生態基因體學",
+      "credits_snapshot": 2.0,
+      "requirement_group": "core",
+      "notes": "",
+      "source_page": 1,
+      "evidence_match": true,
+      "validation_status": "needs_course_code_verification",
+      "uncertainty_reason": "Official PDF table does not provide a course code"
+    },
+    {
+      "course_code": null,
+      "opening_units": [
+        "海資系"
+      ],
+      "opening_unit_snapshot": "海資系",
+      "course_name_snapshot": "海洋總體基因體學",
+      "credits_snapshot": 2.0,
+      "requirement_group": "core",
+      "notes": "",
+      "source_page": 1,
+      "evidence_match": true,
+      "validation_status": "needs_course_code_verification",
+      "uncertainty_reason": "Official PDF table does not provide a course code"
+    },
+    {
+      "course_code": null,
+      "opening_units": [
+        "海資系"
+      ],
+      "opening_unit_snapshot": "海資系",
+      "course_name_snapshot": "海洋動物演化學",
+      "credits_snapshot": 3.0,
+      "requirement_group": "core",
+      "notes": "",
+      "source_page": 1,
+      "evidence_match": true,
+      "validation_status": "needs_course_code_verification",
+      "uncertainty_reason": "Official PDF table does not provide a course code"
+    },
+    {
+      "course_code": null,
+      "opening_units": [
+        "海資系"
+      ],
+      "opening_unit_snapshot": "海資系",
+      "course_name_snapshot": "遺傳學",
+      "credits_snapshot": 2.0,
+      "requirement_group": "elective",
+      "notes": "",
+      "source_page": 1,
+      "evidence_match": true,
+      "validation_status": "needs_course_code_verification",
+      "uncertainty_reason": "Official PDF table does not provide a course code"
+    },
+    {
+      "course_code": null,
+      "opening_units": [
+        "博雅向度六"
+      ],
+      "opening_unit_snapshot": "博雅向度六",
+      "course_name_snapshot": "環境變遷與生態保育",
+      "credits_snapshot": 2.0,
+      "requirement_group": "elective",
+      "notes": "",
+      "source_page": 1,
+      "evidence_match": true,
+      "validation_status": "needs_course_code_verification",
+      "uncertainty_reason": "Official PDF table does not provide a course code"
+    },
+    {
+      "course_code": null,
+      "opening_units": [
+        "跨院選修(醫)"
+      ],
+      "opening_unit_snapshot": "跨院選修(醫)",
+      "course_name_snapshot": "演化醫學",
+      "credits_snapshot": 2.0,
+      "requirement_group": "elective",
+      "notes": "",
+      "source_page": 1,
+      "evidence_match": true,
+      "validation_status": "needs_course_code_verification",
+      "uncertainty_reason": "Official PDF table does not provide a course code"
+    },
+    {
+      "course_code": null,
+      "opening_units": [
+        "生科系"
+      ],
+      "opening_unit_snapshot": "生科系",
+      "course_name_snapshot": "生物多樣性與保育",
+      "credits_snapshot": 2.0,
+      "requirement_group": "elective",
+      "notes": "",
+      "source_page": 1,
+      "evidence_match": true,
+      "validation_status": "needs_course_code_verification",
+      "uncertainty_reason": "Official PDF table does not provide a course code"
+    },
+    {
+      "course_code": null,
+      "opening_units": [
+        "海科院"
+      ],
+      "opening_unit_snapshot": "海科院",
+      "course_name_snapshot": "海洋基礎科學",
+      "credits_snapshot": 2.0,
+      "requirement_group": "elective",
+      "notes": "",
+      "source_page": 1,
+      "evidence_match": true,
+      "validation_status": "needs_course_code_verification",
+      "uncertainty_reason": "Official PDF table does not provide a course code"
+    },
+    {
+      "course_code": null,
+      "opening_units": [
+        "海科院"
+      ],
+      "opening_unit_snapshot": "海科院",
+      "course_name_snapshot": "海洋應用科學",
+      "credits_snapshot": 2.0,
+      "requirement_group": "elective",
+      "notes": "",
+      "source_page": 1,
+      "evidence_match": true,
+      "validation_status": "needs_course_code_verification",
+      "uncertainty_reason": "Official PDF table does not provide a course code"
+    },
+    {
+      "course_code": null,
+      "opening_units": [
+        "海資系"
+      ],
+      "opening_unit_snapshot": "海資系",
+      "course_name_snapshot": "分子生態學",
+      "credits_snapshot": 3.0,
+      "requirement_group": "elective",
+      "notes": "",
+      "source_page": 1,
+      "evidence_match": true,
+      "validation_status": "needs_course_code_verification",
+      "uncertainty_reason": "Official PDF table does not provide a course code"
+    },
+    {
+      "course_code": null,
+      "opening_units": [
+        "博雅向度五"
+      ],
+      "opening_unit_snapshot": "博雅向度五",
+      "course_name_snapshot": "生物多樣性的世界",
+      "credits_snapshot": 2.0,
+      "requirement_group": "elective",
+      "notes": "",
+      "source_page": 1,
+      "evidence_match": true,
+      "validation_status": "needs_course_code_verification",
+      "uncertainty_reason": "Official PDF table does not provide a course code"
+    }
+  ],
+  "structured_requirements": {
+    "minimum_total_credits": 9,
+    "core_credits_text_value": 4,
+    "minimum_outside_home_department_credits": 3
+  }
+}

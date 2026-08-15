@@ -1,0 +1,862 @@
+{
+  "schema_version": "1.0",
+  "courses": [],
+  "credit_mentions": [
+    15,
+    15,
+    6,
+    15,
+    15,
+    6,
+    15,
+    15,
+    6
+  ],
+  "ai_interpretation": null,
+  "confidence": "low",
+  "warnings": [
+    "Candidate only; not approved for publishing as executable rules"
+  ],
+  "program_id": "prog_c533a433a4645433",
+  "academic_version": "115-1",
+  "text_length": 1353,
+  "raw_text": "1\n【113 學年度第 1 學期起適用】\n113.11.12 113 學年度第 1 學期學分學程會議通過\n113.12.12 第 182 次教務會議通過\n半導體化學學程新課程規劃表\n開課單位 課  程  名  稱 學分數 備註\n核\n心\n課\n程\n化學系 A I 產業及半導體化學講座 3  新增\n化學系 半導體微汙染化學分析 3\n物理碩 半導體奈米元件製造技術 3\n化學系 分析化學(三) 3\n核心課程學分數: 8  學分\n選\n修\n物理碩 半導體奈米元件物理 3\n精密電子零組\n件研究所 半導體材料 3\n化學系 材料化學 3\n化學碩 高分子化學 3\n化學系 高分子化學導論 3\n化學碩 電化學 3\n化學碩 材料微結構鑑定 3\n化學碩 高分子材料化學 3\n化學系 化學與半導體產業創新與創業講\n座 3 自核心課程改為選修\n總學分數:至少 15  學分\n※【整合學程】課程規劃至少 15 學分。\n※【整合學程】學生所修習之學程課程中,至少應有 6 學分不屬於學生本系所、雙主修及\n輔系之課程。\n※修習學程適用之課程規劃表請依核准修習學年期版本為主。\n2\n【111 學年度第 2 學期起適用】\n112.4.24 111 學年度第 2 學期學分學程會議通過\n112.5.24 第 176 次教務會議通過\n半導體化學學程新課程規劃表\n開課單位 課  程  名  稱 學分數 備註\n核\n心\n課\n程\n化學系 化學與半導體產業創新與創業講\n座 3\n化學系 半導體微汙染化學分析 3\n物理碩 半導體奈米元件製造技術 3\n化學系 分析化學(三) 3\n核心課程學分數: 9  學分\n選\n修\n物理碩 半導體奈米元件物理 3\n精密電子零組\n件研究所 半導體材料 3\n化學系 材料化學 3\n化學碩 高分子化學 3\n化學系 高分子化學導論 3\n化學碩 電化學 3\n化學碩 材料微結構鑑定 3\n化學碩 高分子材料化學 3\n總學分數:至少 15 學分\nŏ【整合學程】課程規劃至少 15 學分。\nŏ【整合學程】學生所修習之學程課程中,至少應有 6 學分不屬於學生本系所、雙主修及輔\n系之課程。\n※修習學程適用之課程規劃表請依核准修習學年期版本為主。\n3\n【111 學年度第 1 學期起適用】\n111.10.31 111 學年度第 1 學期學分學程會議通過\n111.12.5 第 174 次教務會議通過\n半導體化學學程課程規劃表\n開課單位 課  程  名  稱 學分數 備註\n核\n心\n課\n程\n化學系 半導體化學講座 3\n化學系 半導體微汙染暨材料化學分析 3\n物理碩 半導體奈米元件製造技術 3\n化學系 分析化學三 3\n核心課程〈專業模組課程〉學分數:  9   學分\n選\n修\n物理碩 半導體奈米元件物理 3\n精密電子零組件\n研究所 半導體材料 3\n化學系 材料化學 3\n化學碩 高分子化學 3\n化學系 高分子化學導論 3\n化學碩 電化學 3\n化學碩 材料微結構鑑定 3\n化學碩 材料化學 3\n化學碩 高分子材料化學 3\n總學分數:至少 15  學分\n※【整合學程】課程規劃至少 15 學分。\n※【整合學程】學生所修習之學程課程中,至少應有 6 學分不屬於學生本系所、雙主修及輔\n系之課程。\n※修習學程適用之課程規劃表請依核准修習學年期版本為主。",
+  "rule_versions": [
+    {
+      "pdf_academic_version": "113-1",
+      "courses": [
+        {
+          "course_code": null,
+          "opening_units": [
+            "化學系"
+          ],
+          "opening_unit_snapshot": "化學系",
+          "course_name_snapshot": "AI產業及半導體化學講座",
+          "credits_snapshot": 3.0,
+          "requirement_group": "core",
+          "notes": "新增",
+          "source_page": 1,
+          "evidence_match": true,
+          "validation_status": "needs_course_code_verification",
+          "uncertainty_reason": "Official PDF table does not provide a course code"
+        },
+        {
+          "course_code": null,
+          "opening_units": [
+            "化學系"
+          ],
+          "opening_unit_snapshot": "化學系",
+          "course_name_snapshot": "半導體微汙染化學分析",
+          "credits_snapshot": 3.0,
+          "requirement_group": "core",
+          "notes": "",
+          "source_page": 1,
+          "evidence_match": true,
+          "validation_status": "needs_course_code_verification",
+          "uncertainty_reason": "Official PDF table does not provide a course code"
+        },
+        {
+          "course_code": null,
+          "opening_units": [
+            "物理碩"
+          ],
+          "opening_unit_snapshot": "物理碩",
+          "course_name_snapshot": "半導體奈米元件製造技術",
+          "credits_snapshot": 3.0,
+          "requirement_group": "core",
+          "notes": "",
+          "source_page": 1,
+          "evidence_match": true,
+          "validation_status": "needs_course_code_verification",
+          "uncertainty_reason": "Official PDF table does not provide a course code"
+        },
+        {
+          "course_code": null,
+          "opening_units": [
+            "化學系"
+          ],
+          "opening_unit_snapshot": "化學系",
+          "course_name_snapshot": "分析化學(三)",
+          "credits_snapshot": 3.0,
+          "requirement_group": "core",
+          "notes": "",
+          "source_page": 1,
+          "evidence_match": true,
+          "validation_status": "needs_course_code_verification",
+          "uncertainty_reason": "Official PDF table does not provide a course code"
+        },
+        {
+          "course_code": null,
+          "opening_units": [
+            "物理碩"
+          ],
+          "opening_unit_snapshot": "物理碩",
+          "course_name_snapshot": "半導體奈米元件物理",
+          "credits_snapshot": 3.0,
+          "requirement_group": "elective",
+          "notes": "",
+          "source_page": 1,
+          "evidence_match": true,
+          "validation_status": "needs_course_code_verification",
+          "uncertainty_reason": "Official PDF table does not provide a course code"
+        },
+        {
+          "course_code": null,
+          "opening_units": [
+            "精密電子零組件研究所"
+          ],
+          "opening_unit_snapshot": "精密電子零組件研究所",
+          "course_name_snapshot": "半導體材料",
+          "credits_snapshot": 3.0,
+          "requirement_group": "elective",
+          "notes": "",
+          "source_page": 1,
+          "evidence_match": true,
+          "validation_status": "needs_course_code_verification",
+          "uncertainty_reason": "Official PDF table does not provide a course code"
+        },
+        {
+          "course_code": null,
+          "opening_units": [
+            "化學系"
+          ],
+          "opening_unit_snapshot": "化學系",
+          "course_name_snapshot": "材料化學",
+          "credits_snapshot": 3.0,
+          "requirement_group": "elective",
+          "notes": "",
+          "source_page": 1,
+          "evidence_match": true,
+          "validation_status": "needs_course_code_verification",
+          "uncertainty_reason": "Official PDF table does not provide a course code"
+        },
+        {
+          "course_code": null,
+          "opening_units": [
+            "化學碩"
+          ],
+          "opening_unit_snapshot": "化學碩",
+          "course_name_snapshot": "高分子化學",
+          "credits_snapshot": 3.0,
+          "requirement_group": "elective",
+          "notes": "",
+          "source_page": 1,
+          "evidence_match": true,
+          "validation_status": "needs_course_code_verification",
+          "uncertainty_reason": "Official PDF table does not provide a course code"
+        },
+        {
+          "course_code": null,
+          "opening_units": [
+            "化學系"
+          ],
+          "opening_unit_snapshot": "化學系",
+          "course_name_snapshot": "高分子化學導論",
+          "credits_snapshot": 3.0,
+          "requirement_group": "elective",
+          "notes": "",
+          "source_page": 1,
+          "evidence_match": true,
+          "validation_status": "needs_course_code_verification",
+          "uncertainty_reason": "Official PDF table does not provide a course code"
+        },
+        {
+          "course_code": null,
+          "opening_units": [
+            "化學碩"
+          ],
+          "opening_unit_snapshot": "化學碩",
+          "course_name_snapshot": "電化學",
+          "credits_snapshot": 3.0,
+          "requirement_group": "elective",
+          "notes": "",
+          "source_page": 1,
+          "evidence_match": true,
+          "validation_status": "needs_course_code_verification",
+          "uncertainty_reason": "Official PDF table does not provide a course code"
+        },
+        {
+          "course_code": null,
+          "opening_units": [
+            "化學碩"
+          ],
+          "opening_unit_snapshot": "化學碩",
+          "course_name_snapshot": "材料微結構鑑定",
+          "credits_snapshot": 3.0,
+          "requirement_group": "elective",
+          "notes": "",
+          "source_page": 1,
+          "evidence_match": true,
+          "validation_status": "needs_course_code_verification",
+          "uncertainty_reason": "Official PDF table does not provide a course code"
+        },
+        {
+          "course_code": null,
+          "opening_units": [
+            "化學碩"
+          ],
+          "opening_unit_snapshot": "化學碩",
+          "course_name_snapshot": "高分子材料化學",
+          "credits_snapshot": 3.0,
+          "requirement_group": "elective",
+          "notes": "",
+          "source_page": 1,
+          "evidence_match": true,
+          "validation_status": "needs_course_code_verification",
+          "uncertainty_reason": "Official PDF table does not provide a course code"
+        },
+        {
+          "course_code": null,
+          "opening_units": [
+            "化學系"
+          ],
+          "opening_unit_snapshot": "化學系",
+          "course_name_snapshot": "化學與半導體產業創新與創業講座",
+          "credits_snapshot": 3.0,
+          "requirement_group": "elective",
+          "notes": "自核心課程改為選修",
+          "source_page": 1,
+          "evidence_match": false,
+          "validation_status": "needs_course_code_verification",
+          "uncertainty_reason": "Official PDF table does not provide a course code"
+        }
+      ],
+      "requirements": {
+        "minimum_total_credits": 15,
+        "core_credits_text_value": 8,
+        "minimum_outside_home_department_credits": 6
+      },
+      "source_pages": [
+        1
+      ],
+      "audit": {
+        "compound_rows_needing_review": [],
+        "duplicates_removed": 0,
+        "course_count": 13,
+        "core_count": 4,
+        "elective_count": 9,
+        "evidence_matched_count": 12
+      }
+    },
+    {
+      "pdf_academic_version": "111-2",
+      "courses": [
+        {
+          "course_code": null,
+          "opening_units": [
+            "化學系"
+          ],
+          "opening_unit_snapshot": "化學系",
+          "course_name_snapshot": "化學與半導體產業創新與創業講座",
+          "credits_snapshot": 3.0,
+          "requirement_group": "core",
+          "notes": "",
+          "source_page": 2,
+          "evidence_match": false,
+          "validation_status": "needs_course_code_verification",
+          "uncertainty_reason": "Official PDF table does not provide a course code"
+        },
+        {
+          "course_code": null,
+          "opening_units": [
+            "化學系"
+          ],
+          "opening_unit_snapshot": "化學系",
+          "course_name_snapshot": "半導體微汙染化學分析",
+          "credits_snapshot": 3.0,
+          "requirement_group": "core",
+          "notes": "",
+          "source_page": 2,
+          "evidence_match": true,
+          "validation_status": "needs_course_code_verification",
+          "uncertainty_reason": "Official PDF table does not provide a course code"
+        },
+        {
+          "course_code": null,
+          "opening_units": [
+            "物理碩"
+          ],
+          "opening_unit_snapshot": "物理碩",
+          "course_name_snapshot": "半導體奈米元件製造技術",
+          "credits_snapshot": 3.0,
+          "requirement_group": "core",
+          "notes": "",
+          "source_page": 2,
+          "evidence_match": true,
+          "validation_status": "needs_course_code_verification",
+          "uncertainty_reason": "Official PDF table does not provide a course code"
+        },
+        {
+          "course_code": null,
+          "opening_units": [
+            "化學系"
+          ],
+          "opening_unit_snapshot": "化學系",
+          "course_name_snapshot": "分析化學(三)",
+          "credits_snapshot": 3.0,
+          "requirement_group": "core",
+          "notes": "",
+          "source_page": 2,
+          "evidence_match": true,
+          "validation_status": "needs_course_code_verification",
+          "uncertainty_reason": "Official PDF table does not provide a course code"
+        },
+        {
+          "course_code": null,
+          "opening_units": [
+            "物理碩"
+          ],
+          "opening_unit_snapshot": "物理碩",
+          "course_name_snapshot": "半導體奈米元件物理",
+          "credits_snapshot": 3.0,
+          "requirement_group": "elective",
+          "notes": "",
+          "source_page": 2,
+          "evidence_match": true,
+          "validation_status": "needs_course_code_verification",
+          "uncertainty_reason": "Official PDF table does not provide a course code"
+        },
+        {
+          "course_code": null,
+          "opening_units": [
+            "精密電子零組件研究所"
+          ],
+          "opening_unit_snapshot": "精密電子零組件研究所",
+          "course_name_snapshot": "半導體材料",
+          "credits_snapshot": 3.0,
+          "requirement_group": "elective",
+          "notes": "",
+          "source_page": 2,
+          "evidence_match": true,
+          "validation_status": "needs_course_code_verification",
+          "uncertainty_reason": "Official PDF table does not provide a course code"
+        },
+        {
+          "course_code": null,
+          "opening_units": [
+            "化學系"
+          ],
+          "opening_unit_snapshot": "化學系",
+          "course_name_snapshot": "材料化學",
+          "credits_snapshot": 3.0,
+          "requirement_group": "elective",
+          "notes": "",
+          "source_page": 2,
+          "evidence_match": true,
+          "validation_status": "needs_course_code_verification",
+          "uncertainty_reason": "Official PDF table does not provide a course code"
+        },
+        {
+          "course_code": null,
+          "opening_units": [
+            "化學碩"
+          ],
+          "opening_unit_snapshot": "化學碩",
+          "course_name_snapshot": "高分子化學",
+          "credits_snapshot": 3.0,
+          "requirement_group": "elective",
+          "notes": "",
+          "source_page": 2,
+          "evidence_match": true,
+          "validation_status": "needs_course_code_verification",
+          "uncertainty_reason": "Official PDF table does not provide a course code"
+        },
+        {
+          "course_code": null,
+          "opening_units": [
+            "化學系"
+          ],
+          "opening_unit_snapshot": "化學系",
+          "course_name_snapshot": "高分子化學導論",
+          "credits_snapshot": 3.0,
+          "requirement_group": "elective",
+          "notes": "",
+          "source_page": 2,
+          "evidence_match": true,
+          "validation_status": "needs_course_code_verification",
+          "uncertainty_reason": "Official PDF table does not provide a course code"
+        },
+        {
+          "course_code": null,
+          "opening_units": [
+            "化學碩"
+          ],
+          "opening_unit_snapshot": "化學碩",
+          "course_name_snapshot": "電化學",
+          "credits_snapshot": 3.0,
+          "requirement_group": "elective",
+          "notes": "",
+          "source_page": 2,
+          "evidence_match": true,
+          "validation_status": "needs_course_code_verification",
+          "uncertainty_reason": "Official PDF table does not provide a course code"
+        },
+        {
+          "course_code": null,
+          "opening_units": [
+            "化學碩"
+          ],
+          "opening_unit_snapshot": "化學碩",
+          "course_name_snapshot": "材料微結構鑑定",
+          "credits_snapshot": 3.0,
+          "requirement_group": "elective",
+          "notes": "",
+          "source_page": 2,
+          "evidence_match": true,
+          "validation_status": "needs_course_code_verification",
+          "uncertainty_reason": "Official PDF table does not provide a course code"
+        },
+        {
+          "course_code": null,
+          "opening_units": [
+            "化學碩"
+          ],
+          "opening_unit_snapshot": "化學碩",
+          "course_name_snapshot": "高分子材料化學",
+          "credits_snapshot": 3.0,
+          "requirement_group": "elective",
+          "notes": "",
+          "source_page": 2,
+          "evidence_match": true,
+          "validation_status": "needs_course_code_verification",
+          "uncertainty_reason": "Official PDF table does not provide a course code"
+        }
+      ],
+      "requirements": {
+        "minimum_total_credits": 15,
+        "core_credits_text_value": 9,
+        "minimum_outside_home_department_credits": 6
+      },
+      "source_pages": [
+        2
+      ],
+      "audit": {
+        "compound_rows_needing_review": [],
+        "duplicates_removed": 0,
+        "course_count": 12,
+        "core_count": 4,
+        "elective_count": 8,
+        "evidence_matched_count": 11
+      }
+    },
+    {
+      "pdf_academic_version": "111-1",
+      "courses": [
+        {
+          "course_code": null,
+          "opening_units": [
+            "化學系"
+          ],
+          "opening_unit_snapshot": "化學系",
+          "course_name_snapshot": "半導體化學講座",
+          "credits_snapshot": 3.0,
+          "requirement_group": "core",
+          "notes": "",
+          "source_page": 3,
+          "evidence_match": true,
+          "validation_status": "needs_course_code_verification",
+          "uncertainty_reason": "Official PDF table does not provide a course code"
+        },
+        {
+          "course_code": null,
+          "opening_units": [
+            "化學系"
+          ],
+          "opening_unit_snapshot": "化學系",
+          "course_name_snapshot": "半導體微汙染暨材料化學分析",
+          "credits_snapshot": 3.0,
+          "requirement_group": "core",
+          "notes": "",
+          "source_page": 3,
+          "evidence_match": true,
+          "validation_status": "needs_course_code_verification",
+          "uncertainty_reason": "Official PDF table does not provide a course code"
+        },
+        {
+          "course_code": null,
+          "opening_units": [
+            "物理碩"
+          ],
+          "opening_unit_snapshot": "物理碩",
+          "course_name_snapshot": "半導體奈米元件製造技術",
+          "credits_snapshot": 3.0,
+          "requirement_group": "core",
+          "notes": "",
+          "source_page": 3,
+          "evidence_match": true,
+          "validation_status": "needs_course_code_verification",
+          "uncertainty_reason": "Official PDF table does not provide a course code"
+        },
+        {
+          "course_code": null,
+          "opening_units": [
+            "化學系"
+          ],
+          "opening_unit_snapshot": "化學系",
+          "course_name_snapshot": "分析化學三",
+          "credits_snapshot": 3.0,
+          "requirement_group": "core",
+          "notes": "",
+          "source_page": 3,
+          "evidence_match": true,
+          "validation_status": "needs_course_code_verification",
+          "uncertainty_reason": "Official PDF table does not provide a course code"
+        },
+        {
+          "course_code": null,
+          "opening_units": [
+            "物理碩"
+          ],
+          "opening_unit_snapshot": "物理碩",
+          "course_name_snapshot": "半導體奈米元件物理",
+          "credits_snapshot": 3.0,
+          "requirement_group": "elective",
+          "notes": "",
+          "source_page": 3,
+          "evidence_match": true,
+          "validation_status": "needs_course_code_verification",
+          "uncertainty_reason": "Official PDF table does not provide a course code"
+        },
+        {
+          "course_code": null,
+          "opening_units": [
+            "精密電子零組件研究所"
+          ],
+          "opening_unit_snapshot": "精密電子零組件研究所",
+          "course_name_snapshot": "半導體材料",
+          "credits_snapshot": 3.0,
+          "requirement_group": "elective",
+          "notes": "",
+          "source_page": 3,
+          "evidence_match": true,
+          "validation_status": "needs_course_code_verification",
+          "uncertainty_reason": "Official PDF table does not provide a course code"
+        },
+        {
+          "course_code": null,
+          "opening_units": [
+            "化學系"
+          ],
+          "opening_unit_snapshot": "化學系",
+          "course_name_snapshot": "材料化學",
+          "credits_snapshot": 3.0,
+          "requirement_group": "elective",
+          "notes": "",
+          "source_page": 3,
+          "evidence_match": true,
+          "validation_status": "needs_course_code_verification",
+          "uncertainty_reason": "Official PDF table does not provide a course code"
+        },
+        {
+          "course_code": null,
+          "opening_units": [
+            "化學碩"
+          ],
+          "opening_unit_snapshot": "化學碩",
+          "course_name_snapshot": "高分子化學",
+          "credits_snapshot": 3.0,
+          "requirement_group": "elective",
+          "notes": "",
+          "source_page": 3,
+          "evidence_match": true,
+          "validation_status": "needs_course_code_verification",
+          "uncertainty_reason": "Official PDF table does not provide a course code"
+        },
+        {
+          "course_code": null,
+          "opening_units": [
+            "化學系"
+          ],
+          "opening_unit_snapshot": "化學系",
+          "course_name_snapshot": "高分子化學導論",
+          "credits_snapshot": 3.0,
+          "requirement_group": "elective",
+          "notes": "",
+          "source_page": 3,
+          "evidence_match": true,
+          "validation_status": "needs_course_code_verification",
+          "uncertainty_reason": "Official PDF table does not provide a course code"
+        },
+        {
+          "course_code": null,
+          "opening_units": [
+            "化學碩"
+          ],
+          "opening_unit_snapshot": "化學碩",
+          "course_name_snapshot": "電化學",
+          "credits_snapshot": 3.0,
+          "requirement_group": "elective",
+          "notes": "",
+          "source_page": 3,
+          "evidence_match": true,
+          "validation_status": "needs_course_code_verification",
+          "uncertainty_reason": "Official PDF table does not provide a course code"
+        },
+        {
+          "course_code": null,
+          "opening_units": [
+            "化學碩"
+          ],
+          "opening_unit_snapshot": "化學碩",
+          "course_name_snapshot": "材料微結構鑑定",
+          "credits_snapshot": 3.0,
+          "requirement_group": "elective",
+          "notes": "",
+          "source_page": 3,
+          "evidence_match": true,
+          "validation_status": "needs_course_code_verification",
+          "uncertainty_reason": "Official PDF table does not provide a course code"
+        },
+        {
+          "course_code": null,
+          "opening_units": [
+            "化學碩"
+          ],
+          "opening_unit_snapshot": "化學碩",
+          "course_name_snapshot": "材料化學",
+          "credits_snapshot": 3.0,
+          "requirement_group": "elective",
+          "notes": "",
+          "source_page": 3,
+          "evidence_match": true,
+          "validation_status": "needs_course_code_verification",
+          "uncertainty_reason": "Official PDF table does not provide a course code"
+        },
+        {
+          "course_code": null,
+          "opening_units": [
+            "化學碩"
+          ],
+          "opening_unit_snapshot": "化學碩",
+          "course_name_snapshot": "高分子材料化學",
+          "credits_snapshot": 3.0,
+          "requirement_group": "elective",
+          "notes": "",
+          "source_page": 3,
+          "evidence_match": true,
+          "validation_status": "needs_course_code_verification",
+          "uncertainty_reason": "Official PDF table does not provide a course code"
+        }
+      ],
+      "requirements": {
+        "minimum_total_credits": 15,
+        "core_credits_text_value": 9,
+        "minimum_outside_home_department_credits": 6
+      },
+      "source_pages": [
+        3
+      ],
+      "audit": {
+        "compound_rows_needing_review": [],
+        "duplicates_removed": 0,
+        "course_count": 13,
+        "core_count": 4,
+        "elective_count": 9,
+        "evidence_matched_count": 13
+      }
+    }
+  ],
+  "selected_pdf_academic_version": "113-1",
+  "structured_courses": [
+    {
+      "course_code": null,
+      "opening_units": [
+        "化學系"
+      ],
+      "opening_unit_snapshot": "化學系",
+      "course_name_snapshot": "AI產業及半導體化學講座",
+      "credits_snapshot": 3.0,
+      "requirement_group": "core",
+      "notes": "新增",
+      "source_page": 1,
+      "evidence_match": true,
+      "validation_status": "needs_course_code_verification",
+      "uncertainty_reason": "Official PDF table does not provide a course code"
+    },
+    {
+      "course_code": null,
+      "opening_units": [
+        "化學系"
+      ],
+      "opening_unit_snapshot": "化學系",
+      "course_name_snapshot": "半導體微汙染化學分析",
+      "credits_snapshot": 3.0,
+      "requirement_group": "core",
+      "notes": "",
+      "source_page": 1,
+      "evidence_match": true,
+      "validation_status": "needs_course_code_verification",
+      "uncertainty_reason": "Official PDF table does not provide a course code"
+    },
+    {
+      "course_code": null,
+      "opening_units": [
+        "物理碩"
+      ],
+      "opening_unit_snapshot": "物理碩",
+      "course_name_snapshot": "半導體奈米元件製造技術",
+      "credits_snapshot": 3.0,
+      "requirement_group": "core",
+      "notes": "",
+      "source_page": 1,
+      "evidence_match": true,
+      "validation_status": "needs_course_code_verification",
+      "uncertainty_reason": "Official PDF table does not provide a course code"
+    },
+    {
+      "course_code": null,
+      "opening_units": [
+        "化學系"
+      ],
+      "opening_unit_snapshot": "化學系",
+      "course_name_snapshot": "分析化學(三)",
+      "credits_snapshot": 3.0,
+      "requirement_group": "core",
+      "notes": "",
+      "source_page": 1,
+      "evidence_match": true,
+      "validation_status": "needs_course_code_verification",
+      "uncertainty_reason": "Official PDF table does not provide a course code"
+    },
+    {
+      "course_code": null,
+      "opening_units": [
+        "物理碩"
+      ],
+      "opening_unit_snapshot": "物理碩",
+      "course_name_snapshot": "半導體奈米元件物理",
+      "credits_snapshot": 3.0,
+      "requirement_group": "elective",
+      "notes": "",
+      "source_page": 1,
+      "evidence_match": true,
+      "validation_status": "needs_course_code_verification",
+      "uncertainty_reason": "Official PDF table does not provide a course code"
+    },
+    {
+      "course_code": null,
+      "opening_units": [
+        "精密電子零組件研究所"
+      ],
+      "opening_unit_snapshot": "精密電子零組件研究所",
+      "course_name_snapshot": "半導體材料",
+      "credits_snapshot": 3.0,
+      "requirement_group": "elective",
+      "notes": "",
+      "source_page": 1,
+      "evidence_match": true,
+      "validation_status": "needs_course_code_verification",
+      "uncertainty_reason": "Official PDF table does not provide a course code"
+    },
+    {
+      "course_code": null,
+      "opening_units": [
+        "化學系"
+      ],
+      "opening_unit_snapshot": "化學系",
+      "course_name_snapshot": "材料化學",
+      "credits_snapshot": 3.0,
+      "requirement_group": "elective",
+      "notes": "",
+      "source_page": 1,
+      "evidence_match": true,
+      "validation_status": "needs_course_code_verification",
+      "uncertainty_reason": "Official PDF table does not provide a course code"
+    },
+    {
+      "course_code": null,
+      "opening_units": [
+        "化學碩"
+      ],
+      "opening_unit_snapshot": "化學碩",
+      "course_name_snapshot": "高分子化學",
+      "credits_snapshot": 3.0,
+      "requirement_group": "elective",
+      "notes": "",
+      "source_page": 1,
+      "evidence_match": true,
+      "validation_status": "needs_course_code_verification",
+      "uncertainty_reason": "Official PDF table does not provide a course code"
+    },
+    {
+      "course_code": null,
+      "opening_units": [
+        "化學系"
+      ],
+      "opening_unit_snapshot": "化學系",
+      "course_name_snapshot": "高分子化學導論",
+      "credits_snapshot": 3.0,
+      "requirement_group": "elective",
+      "notes": "",
+      "source_page": 1,
+      "evidence_match": true,
+      "validation_status": "needs_course_code_verification",
+      "uncertainty_reason": "Official PDF table does not provide a course code"
+    },
+    {
+      "course_code": null,
+      "opening_units": [
+        "化學碩"
+      ],
+      "opening_unit_snapshot": "化學碩",
+      "course_name_snapshot": "電化學",
+      "credits_snapshot": 3.0,
+      "requirement_group": "elective",
+      "notes": "",
+      "source_page": 1,
+      "evidence_match": true,
+      "validation_status": "needs_course_code_verification",
+      "uncertainty_reason": "Official PDF table does not provide a course code"
+    },
+    {
+      "course_code": null,
+      "opening_units": [
+        "化學碩"
+      ],
+      "opening_unit_snapshot": "化學碩",
+      "course_name_snapshot": "材料微結構鑑定",
+      "credits_snapshot": 3.0,
+      "requirement_group": "elective",
+      "notes": "",
+      "source_page": 1,
+      "evidence_match": true,
+      "validation_status": "needs_course_code_verification",
+      "uncertainty_reason": "Official PDF table does not provide a course code"
+    },
+    {
+      "course_code": null,
+      "opening_units": [
+        "化學碩"
+      ],
+      "opening_unit_snapshot": "化學碩",
+      "course_name_snapshot": "高分子材料化學",
+      "credits_snapshot": 3.0,
+      "requirement_group": "elective",
+      "notes": "",
+      "source_page": 1,
+      "evidence_match": true,
+      "validation_status": "needs_course_code_verification",
+      "uncertainty_reason": "Official PDF table does not provide a course code"
+    },
+    {
+      "course_code": null,
+      "opening_units": [
+        "化學系"
+      ],
+      "opening_unit_snapshot": "化學系",
+      "course_name_snapshot": "化學與半導體產業創新與創業講座",
+      "credits_snapshot": 3.0,
+      "requirement_group": "elective",
+      "notes": "自核心課程改為選修",
+      "source_page": 1,
+      "evidence_match": false,
+      "validation_status": "needs_course_code_verification",
+      "uncertainty_reason": "Official PDF table does not provide a course code"
+    }
+  ],
+  "structured_requirements": {
+    "minimum_total_credits": 15,
+    "core_credits_text_value": 8,
+    "minimum_outside_home_department_credits": 6
+  }
+}

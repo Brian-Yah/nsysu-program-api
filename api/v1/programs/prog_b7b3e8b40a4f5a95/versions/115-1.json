@@ -1,0 +1,180 @@
+{
+  "program_id": "prog_b7b3e8b40a4f5a95",
+  "name_zh": "人工智能投資微學程",
+  "name_en": null,
+  "previous_names": [],
+  "type": "micro_program",
+  "status": "active",
+  "description": "近年來,金融科技(Fintech)浪潮席捲全球,數位化、網路化與行動化之發展趨勢,為金融機構帶來新機會與新挑戰。2015年世界經濟論壇 (World Economic Forum 2015, WEF)提出「六大功能領域,十一組創新」的明確發展架構,刻畫出 Fintech 可能帶來的明日金融環境樣態。其中架構內提到的投資管理將出現理財機器人,是一種線上的財富管理服務,在以機器人為主體的規劃下,達到以演算法為基礎的投資組合建議,其特色為極其低廉的成本與投資門檻。近年來理財機器人管理規模呈現高成長,顯示其市場接受與認同度快速上升,2017年三月全球最大基金公司貝萊德(BlackRock)宣佈,因投資者對自動化投資服務感到滿意,決定未來將逐漸摒棄主動投資策略,改由倚賴數據和人工智能的量化投資。",
+  "responsible_unit": "財管系",
+  "coordinator": "王昭文教授",
+  "program_website": "https://sites.google.com/view/nsysufinance-aiinvest-program/",
+  "source_pdf": "http://140.117.153.69/ctdr/files/2024053115163641.pdf",
+  "academic_version": "115-1",
+  "source": {
+    "catalog_url": "https://ctdr.nsysu.edu.tw/class2.php",
+    "pdf_url": "http://140.117.153.69/ctdr/files/2024053115163641.pdf",
+    "retrieved_at": "2026-08-15T10:05:39Z",
+    "pdf_binary_sha256": "aa684ae00d78106da89a7a03b7f383f0ad6c03eac548d7ca8a73a06ad38d94f2",
+    "normalized_text_sha256": "c3c3c0eb6ca639126c7d8977847f6e900e2b3338ae8e024cfa69dd006fbd39b3",
+    "http": {
+      "status": 200,
+      "etag": "\"23f3e-619bac392dc03\"",
+      "last_modified": "Fri, 31 May 2024 07:16:36 GMT",
+      "content_length": 147262
+    },
+    "parser_version": "0.1.0"
+  },
+  "review_status": "needs_review",
+  "rules": {
+    "kind": "manual_review",
+    "reason": "Extracted candidate awaits approval"
+  },
+  "warnings": [
+    "No structured course rows extracted from PDF tables"
+  ],
+  "selected_pdf_academic_version": "112-2",
+  "course_catalog": [
+    {
+      "course_code": null,
+      "opening_units": [
+        "財管系"
+      ],
+      "opening_unit_snapshot": "財管系",
+      "course_name_snapshot": "金融投資與程式交易",
+      "credits_snapshot": 3.0,
+      "requirement_group": "core",
+      "notes": "研究所",
+      "source_page": 1,
+      "evidence_match": true,
+      "validation_status": "needs_course_code_verification",
+      "uncertainty_reason": "Official PDF table does not provide a course code"
+    },
+    {
+      "course_code": null,
+      "opening_units": [
+        "財管系",
+        "資管系"
+      ],
+      "opening_unit_snapshot": "財管系 / 資管系",
+      "course_name_snapshot": "巨量資料分析導論",
+      "credits_snapshot": 3.0,
+      "requirement_group": "core",
+      "notes": "研究所",
+      "source_page": 1,
+      "evidence_match": true,
+      "validation_status": "needs_course_code_verification",
+      "uncertainty_reason": "Official PDF table does not provide a course code"
+    },
+    {
+      "course_code": null,
+      "opening_units": [
+        "財管系"
+      ],
+      "opening_unit_snapshot": "財管系",
+      "course_name_snapshot": "理財機器人實作",
+      "credits_snapshot": 3.0,
+      "requirement_group": "elective",
+      "notes": "研究所",
+      "source_page": 1,
+      "evidence_match": true,
+      "validation_status": "needs_course_code_verification",
+      "uncertainty_reason": "Official PDF table does not provide a course code"
+    },
+    {
+      "course_code": null,
+      "opening_units": [
+        "財管系"
+      ],
+      "opening_unit_snapshot": "財管系",
+      "course_name_snapshot": "現代投資組合理論與策略",
+      "credits_snapshot": 3.0,
+      "requirement_group": "elective",
+      "notes": "研究所",
+      "source_page": 1,
+      "evidence_match": true,
+      "validation_status": "needs_course_code_verification",
+      "uncertainty_reason": "Official PDF table does not provide a course code"
+    },
+    {
+      "course_code": null,
+      "opening_units": [
+        "財管系"
+      ],
+      "opening_unit_snapshot": "財管系",
+      "course_name_snapshot": "全方位個人理財規劃",
+      "credits_snapshot": 3.0,
+      "requirement_group": "elective",
+      "notes": "研究所",
+      "source_page": 1,
+      "evidence_match": true,
+      "validation_status": "needs_course_code_verification",
+      "uncertainty_reason": "Official PDF table does not provide a course code"
+    },
+    {
+      "course_code": null,
+      "opening_units": [
+        "財管系"
+      ],
+      "opening_unit_snapshot": "財管系",
+      "course_name_snapshot": "財金機器學習",
+      "credits_snapshot": 3.0,
+      "requirement_group": "elective",
+      "notes": "研究所",
+      "source_page": 1,
+      "evidence_match": true,
+      "validation_status": "needs_course_code_verification",
+      "uncertainty_reason": "Official PDF table does not provide a course code"
+    },
+    {
+      "course_code": null,
+      "opening_units": [
+        "資管系"
+      ],
+      "opening_unit_snapshot": "資管系",
+      "course_name_snapshot": "巨量資料分析實務/商業分析實務",
+      "credits_snapshot": 3.0,
+      "requirement_group": "elective",
+      "notes": "研究所",
+      "source_page": 1,
+      "evidence_match": true,
+      "validation_status": "needs_course_code_verification",
+      "uncertainty_reason": "Official PDF table does not provide a course code"
+    },
+    {
+      "course_code": null,
+      "opening_units": [
+        "資管系"
+      ],
+      "opening_unit_snapshot": "資管系",
+      "course_name_snapshot": "WEB程式設計",
+      "credits_snapshot": 3.0,
+      "requirement_group": "elective",
+      "notes": "大學部",
+      "source_page": 1,
+      "evidence_match": true,
+      "validation_status": "needs_course_code_verification",
+      "uncertainty_reason": "Official PDF table does not provide a course code"
+    },
+    {
+      "course_code": null,
+      "opening_units": [
+        "財管系"
+      ],
+      "opening_unit_snapshot": "財管系",
+      "course_name_snapshot": "行為財務學",
+      "credits_snapshot": 3.0,
+      "requirement_group": "elective",
+      "notes": "大學部",
+      "source_page": 1,
+      "evidence_match": true,
+      "validation_status": "needs_course_code_verification",
+      "uncertainty_reason": "Official PDF table does not provide a course code"
+    }
+  ],
+  "structured_requirements": {
+    "minimum_total_credits": 12,
+    "core_credits_text_value": 3,
+    "minimum_outside_home_department_credits": 3
+  }
+}

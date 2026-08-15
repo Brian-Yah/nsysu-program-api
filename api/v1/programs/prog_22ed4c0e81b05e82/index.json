@@ -1,0 +1,291 @@
+{
+  "program_id": "prog_22ed4c0e81b05e82",
+  "latest_academic_version": "115-1",
+  "versions": [
+    "115-1"
+  ],
+  "program": {
+    "program_id": "prog_22ed4c0e81b05e82",
+    "name_zh": "永續海洋休閒運動產業學程",
+    "name_en": null,
+    "previous_names": [],
+    "type": "integrated_program",
+    "status": "active",
+    "description": "本學程以西子灣海域及新海域中心為主要基地,透過本校特有之地理環境,輔以海洋科學優勢及創新創業取向,推動結合海洋運動、海洋科學及休閒管理之整合學程,並透過新創教育及產業實習,培養實務經驗,提升競爭力。",
+    "responsible_unit": "西灣學院運動與健康教育中心",
+    "coordinator": "羅凱暘副教授",
+    "program_website": "https://sites.google.com/view/sustainableocean/%E9%A6%96%E9%A0%81?authuser=0",
+    "source_pdf": "http://140.117.153.69/ctdr/files/20240531142557685.pdf",
+    "academic_version": "115-1",
+    "source": {
+      "catalog_url": "https://ctdr.nsysu.edu.tw/class2.php",
+      "pdf_url": "http://140.117.153.69/ctdr/files/20240531142557685.pdf",
+      "retrieved_at": "2026-08-15T10:05:39Z",
+      "pdf_binary_sha256": "2f97044dd9be75759fd634ad62c208f062ac7e8a4040132b9cdfc75f4c2d2e00",
+      "normalized_text_sha256": "7c80159d93e7251d8213a7ef68652559692ff3dc3781a4c9cc15adc8caf886b1",
+      "http": {
+        "status": 200,
+        "etag": "\"2de9d-619ba0e792d9b\"",
+        "last_modified": "Fri, 31 May 2024 06:25:57 GMT",
+        "content_length": 188061
+      },
+      "parser_version": "0.1.0"
+    },
+    "review_status": "needs_review",
+    "rules": {
+      "kind": "manual_review",
+      "reason": "Extracted candidate awaits approval"
+    },
+    "warnings": [
+      "No structured course rows extracted from PDF tables"
+    ],
+    "selected_pdf_academic_version": "112-2",
+    "course_catalog": [
+      {
+        "course_code": null,
+        "opening_units": [
+          "運動與健康教育中心"
+        ],
+        "opening_unit_snapshot": "運動與健康教育中心",
+        "course_name_snapshot": "海洋休閒活動概論",
+        "credits_snapshot": 2.0,
+        "requirement_group": "core",
+        "notes": "",
+        "source_page": 1,
+        "evidence_match": true,
+        "validation_status": "needs_course_code_verification",
+        "uncertainty_reason": "Official PDF table does not provide a course code"
+      },
+      {
+        "course_code": null,
+        "opening_units": [
+          "海洋科學系"
+        ],
+        "opening_unit_snapshot": "海洋科學系",
+        "course_name_snapshot": "海洋與海岸管理",
+        "credits_snapshot": 3.0,
+        "requirement_group": "core",
+        "notes": "誤植學分",
+        "source_page": 1,
+        "evidence_match": true,
+        "validation_status": "needs_course_code_verification",
+        "uncertainty_reason": "Official PDF table does not provide a course code"
+      },
+      {
+        "course_code": null,
+        "opening_units": [
+          "人科學程"
+        ],
+        "opening_unit_snapshot": "人科學程",
+        "course_name_snapshot": "精實創業",
+        "credits_snapshot": 2.0,
+        "requirement_group": "core",
+        "notes": "",
+        "source_page": 1,
+        "evidence_match": true,
+        "validation_status": "needs_course_code_verification",
+        "uncertainty_reason": "Official PDF table does not provide a course code"
+      },
+      {
+        "course_code": null,
+        "opening_units": [
+          "運動與健康教育中心"
+        ],
+        "opening_unit_snapshot": "運動與健康教育中心",
+        "course_name_snapshot": "初級游泳",
+        "credits_snapshot": 1.0,
+        "requirement_group": "core",
+        "notes": "",
+        "source_page": 1,
+        "evidence_match": true,
+        "validation_status": "needs_course_code_verification",
+        "uncertainty_reason": "Official PDF table does not provide a course code"
+      },
+      {
+        "course_code": null,
+        "opening_units": [
+          "運動與健康教育中心"
+        ],
+        "opening_unit_snapshot": "運動與健康教育中心",
+        "course_name_snapshot": "初級帆船",
+        "credits_snapshot": 1.0,
+        "requirement_group": "core",
+        "notes": "",
+        "source_page": 1,
+        "evidence_match": true,
+        "validation_status": "needs_course_code_verification",
+        "uncertainty_reason": "Official PDF table does not provide a course code"
+      },
+      {
+        "course_code": null,
+        "opening_units": [
+          "運動與健康教育中心"
+        ],
+        "opening_unit_snapshot": "運動與健康教育中心",
+        "course_name_snapshot": "初級潛水",
+        "credits_snapshot": 1.0,
+        "requirement_group": "core",
+        "notes": "",
+        "source_page": 1,
+        "evidence_match": true,
+        "validation_status": "needs_course_code_verification",
+        "uncertainty_reason": "Official PDF table does not provide a course code"
+      },
+      {
+        "course_code": null,
+        "opening_units": [
+          "運動與健康教育中心"
+        ],
+        "opening_unit_snapshot": "運動與健康教育中心",
+        "course_name_snapshot": "初級水域休閒活動",
+        "credits_snapshot": 1.0,
+        "requirement_group": "core",
+        "notes": "",
+        "source_page": 1,
+        "evidence_match": true,
+        "validation_status": "needs_course_code_verification",
+        "uncertainty_reason": "Official PDF table does not provide a course code"
+      },
+      {
+        "course_code": null,
+        "opening_units": [
+          "運動與健康教育中心"
+        ],
+        "opening_unit_snapshot": "運動與健康教育中心",
+        "course_name_snapshot": "水上救生",
+        "credits_snapshot": 2.0,
+        "requirement_group": "elective",
+        "notes": "",
+        "source_page": 1,
+        "evidence_match": true,
+        "validation_status": "needs_course_code_verification",
+        "uncertainty_reason": "Official PDF table does not provide a course code"
+      },
+      {
+        "course_code": null,
+        "opening_units": [
+          "運動與健康教育中心"
+        ],
+        "opening_unit_snapshot": "運動與健康教育中心",
+        "course_name_snapshot": "進階潛水",
+        "credits_snapshot": 1.0,
+        "requirement_group": "elective",
+        "notes": "",
+        "source_page": 1,
+        "evidence_match": true,
+        "validation_status": "needs_course_code_verification",
+        "uncertainty_reason": "Official PDF table does not provide a course code"
+      },
+      {
+        "course_code": null,
+        "opening_units": [
+          "運動與健康教育中心"
+        ],
+        "opening_unit_snapshot": "運動與健康教育中心",
+        "course_name_snapshot": "進階帆船",
+        "credits_snapshot": 1.0,
+        "requirement_group": "elective",
+        "notes": "",
+        "source_page": 1,
+        "evidence_match": true,
+        "validation_status": "needs_course_code_verification",
+        "uncertainty_reason": "Official PDF table does not provide a course code"
+      },
+      {
+        "course_code": null,
+        "opening_units": [
+          "運動與健康教育中心"
+        ],
+        "opening_unit_snapshot": "運動與健康教育中心",
+        "course_name_snapshot": "初級競技游泳",
+        "credits_snapshot": 1.0,
+        "requirement_group": "elective",
+        "notes": "",
+        "source_page": 1,
+        "evidence_match": true,
+        "validation_status": "needs_course_code_verification",
+        "uncertainty_reason": "Official PDF table does not provide a course code"
+      },
+      {
+        "course_code": null,
+        "opening_units": [
+          "海科系"
+        ],
+        "opening_unit_snapshot": "海科系",
+        "course_name_snapshot": "海洋基礎科學",
+        "credits_snapshot": 2.0,
+        "requirement_group": "elective",
+        "notes": "",
+        "source_page": 1,
+        "evidence_match": true,
+        "validation_status": "needs_course_code_verification",
+        "uncertainty_reason": "Official PDF table does not provide a course code"
+      },
+      {
+        "course_code": null,
+        "opening_units": [
+          "運動與健康教育中心"
+        ],
+        "opening_unit_snapshot": "運動與健康教育中心",
+        "course_name_snapshot": "休閒活動實習",
+        "credits_snapshot": 2.0,
+        "requirement_group": "elective",
+        "notes": "",
+        "source_page": 1,
+        "evidence_match": true,
+        "validation_status": "needs_course_code_verification",
+        "uncertainty_reason": "Official PDF table does not provide a course code"
+      },
+      {
+        "course_code": null,
+        "opening_units": [
+          "運動與健康教育中心"
+        ],
+        "opening_unit_snapshot": "運動與健康教育中心",
+        "course_name_snapshot": "初級衝浪",
+        "credits_snapshot": 1.0,
+        "requirement_group": "elective",
+        "notes": "由核心課程調移",
+        "source_page": 1,
+        "evidence_match": true,
+        "validation_status": "needs_course_code_verification",
+        "uncertainty_reason": "Official PDF table does not provide a course code"
+      },
+      {
+        "course_code": null,
+        "opening_units": [
+          "博雅教育中心"
+        ],
+        "opening_unit_snapshot": "博雅教育中心",
+        "course_name_snapshot": "海洋文化",
+        "credits_snapshot": 3.0,
+        "requirement_group": "elective",
+        "notes": "新增",
+        "source_page": 1,
+        "evidence_match": true,
+        "validation_status": "needs_course_code_verification",
+        "uncertainty_reason": "Official PDF table does not provide a course code"
+      },
+      {
+        "course_code": null,
+        "opening_units": [
+          "人科學程"
+        ],
+        "opening_unit_snapshot": "人科學程",
+        "course_name_snapshot": "商業策略與管理",
+        "credits_snapshot": 3.0,
+        "requirement_group": "elective",
+        "notes": "新增",
+        "source_page": 1,
+        "evidence_match": true,
+        "validation_status": "needs_course_code_verification",
+        "uncertainty_reason": "Official PDF table does not provide a course code"
+      }
+    ],
+    "structured_requirements": {
+      "minimum_total_credits": 15,
+      "core_credits_text_value": 7,
+      "minimum_outside_home_department_credits": 6
+    }
+  }
+}

@@ -1,0 +1,374 @@
+{
+  "program_id": "prog_04591ac0c0245e5f",
+  "latest_academic_version": "115-1",
+  "versions": [
+    "115-1"
+  ],
+  "program": {
+    "program_id": "prog_04591ac0c0245e5f",
+    "name_zh": "計算物理及人工智慧微學程",
+    "name_en": null,
+    "previous_names": [],
+    "type": "micro_program",
+    "status": "active",
+    "description": "微課程除了基本程式語言的教授,並加入高速計算、量子計算科學與工程、人工智慧及機器學習之慨念,加強學生面對新時代的研究與未來科技。",
+    "responsible_unit": "物理系",
+    "coordinator": "黃信銘副教授",
+    "program_website": "https://phys.nsysu.edu.tw/p/404-1181-340731.php?Lang=zh-tw",
+    "source_pdf": "http://140.117.153.69/ctdr/files/20241224154119174.pdf",
+    "academic_version": "115-1",
+    "source": {
+      "catalog_url": "https://ctdr.nsysu.edu.tw/class2.php",
+      "pdf_url": "http://140.117.153.69/ctdr/files/20241224154119174.pdf",
+      "retrieved_at": "2026-08-15T10:05:39Z",
+      "pdf_binary_sha256": "0322dfa1e8033983f1411d7fe76f006ad356abc98fd1805da9b01e192c38d05d",
+      "normalized_text_sha256": "ed0af186175877ef615cadaf81ead9a870bd500bef817e42cf17c1bcb5297930",
+      "http": {
+        "status": 200,
+        "etag": "\"18f3b-629ff3d2023cc\"",
+        "last_modified": "Tue, 24 Dec 2024 07:41:19 GMT",
+        "content_length": 102203
+      },
+      "parser_version": "0.1.0"
+    },
+    "review_status": "needs_review",
+    "rules": {
+      "kind": "manual_review",
+      "reason": "Extracted candidate awaits approval"
+    },
+    "warnings": [
+      "No structured course rows extracted from PDF tables"
+    ],
+    "selected_pdf_academic_version": "113-1",
+    "course_catalog": [
+      {
+        "course_code": null,
+        "opening_units": [
+          "物理系"
+        ],
+        "opening_unit_snapshot": "物理系",
+        "course_name_snapshot": "數值分析",
+        "credits_snapshot": 3.0,
+        "requirement_group": "core",
+        "notes": "",
+        "source_page": 1,
+        "evidence_match": true,
+        "validation_status": "needs_course_code_verification",
+        "uncertainty_reason": "Official PDF table does not provide a course code"
+      },
+      {
+        "course_code": null,
+        "opening_units": [
+          "物理系"
+        ],
+        "opening_unit_snapshot": "物理系",
+        "course_name_snapshot": "程式與物理數據分析",
+        "credits_snapshot": 3.0,
+        "requirement_group": "core",
+        "notes": "",
+        "source_page": 1,
+        "evidence_match": true,
+        "validation_status": "needs_course_code_verification",
+        "uncertainty_reason": "Official PDF table does not provide a course code"
+      },
+      {
+        "course_code": null,
+        "opening_units": [
+          "物理系"
+        ],
+        "opening_unit_snapshot": "物理系",
+        "course_name_snapshot": "物理數學與數值方法(一)",
+        "credits_snapshot": 3.0,
+        "requirement_group": "core",
+        "notes": "",
+        "source_page": 1,
+        "evidence_match": true,
+        "validation_status": "needs_course_code_verification",
+        "uncertainty_reason": "Official PDF table does not provide a course code"
+      },
+      {
+        "course_code": null,
+        "opening_units": [
+          "物理系"
+        ],
+        "opening_unit_snapshot": "物理系",
+        "course_name_snapshot": "物理數學與數值方法(二)",
+        "credits_snapshot": 3.0,
+        "requirement_group": "core",
+        "notes": "",
+        "source_page": 1,
+        "evidence_match": true,
+        "validation_status": "needs_course_code_verification",
+        "uncertainty_reason": "Official PDF table does not provide a course code"
+      },
+      {
+        "course_code": null,
+        "opening_units": [
+          "物理碩"
+        ],
+        "opening_unit_snapshot": "物理碩",
+        "course_name_snapshot": "計算物理(一)",
+        "credits_snapshot": 3.0,
+        "requirement_group": "core",
+        "notes": "",
+        "source_page": 1,
+        "evidence_match": true,
+        "validation_status": "needs_course_code_verification",
+        "uncertainty_reason": "Official PDF table does not provide a course code"
+      },
+      {
+        "course_code": null,
+        "opening_units": [
+          "物理碩"
+        ],
+        "opening_unit_snapshot": "物理碩",
+        "course_name_snapshot": "計算物理(二)",
+        "credits_snapshot": 3.0,
+        "requirement_group": "core",
+        "notes": "",
+        "source_page": 1,
+        "evidence_match": true,
+        "validation_status": "needs_course_code_verification",
+        "uncertainty_reason": "Official PDF table does not provide a course code"
+      },
+      {
+        "course_code": null,
+        "opening_units": [
+          "應數系",
+          "光電系",
+          "電機系",
+          "跨院選修(工)"
+        ],
+        "opening_unit_snapshot": "應數系 / 光電系 / 電機系 / 跨院選修(工)",
+        "course_name_snapshot": "計算機程式",
+        "credits_snapshot": 3.0,
+        "requirement_group": "core",
+        "notes": "",
+        "source_page": 1,
+        "evidence_match": true,
+        "validation_status": "needs_course_code_verification",
+        "uncertainty_reason": "Official PDF table does not provide a course code"
+      },
+      {
+        "course_code": null,
+        "opening_units": [
+          "資工系"
+        ],
+        "opening_unit_snapshot": "資工系",
+        "course_name_snapshot": "機器學習導論",
+        "credits_snapshot": 3.0,
+        "requirement_group": "elective",
+        "notes": "",
+        "source_page": 1,
+        "evidence_match": true,
+        "validation_status": "needs_course_code_verification",
+        "uncertainty_reason": "Official PDF table does not provide a course code"
+      },
+      {
+        "course_code": null,
+        "opening_units": [
+          "資工系",
+          "跨院選修(工)"
+        ],
+        "opening_unit_snapshot": "資工系 / 跨院選修(工)",
+        "course_name_snapshot": "人工智慧導論",
+        "credits_snapshot": 3.0,
+        "requirement_group": "elective",
+        "notes": "",
+        "source_page": 1,
+        "evidence_match": true,
+        "validation_status": "needs_course_code_verification",
+        "uncertainty_reason": "Official PDF table does not provide a course code"
+      },
+      {
+        "course_code": null,
+        "opening_units": [
+          "資工系",
+          "資管系",
+          "電機系",
+          "跨院選修(工)",
+          "應數系"
+        ],
+        "opening_unit_snapshot": "資工系 / 資管系 / 電機系 / 跨院選修(工) / 應數系",
+        "course_name_snapshot": "資料結構",
+        "credits_snapshot": 3.0,
+        "requirement_group": "elective",
+        "notes": "",
+        "source_page": 1,
+        "evidence_match": true,
+        "validation_status": "needs_course_code_verification",
+        "uncertainty_reason": "Official PDF table does not provide a course code"
+      },
+      {
+        "course_code": null,
+        "opening_units": [
+          "電機系"
+        ],
+        "opening_unit_snapshot": "電機系",
+        "course_name_snapshot": "機器學習系統設計實務與應用",
+        "credits_snapshot": 3.0,
+        "requirement_group": "elective",
+        "notes": "",
+        "source_page": 1,
+        "evidence_match": false,
+        "validation_status": "needs_course_code_verification",
+        "uncertainty_reason": "Official PDF table does not provide a course code"
+      },
+      {
+        "course_code": null,
+        "opening_units": [
+          "資工碩"
+        ],
+        "opening_unit_snapshot": "資工碩",
+        "course_name_snapshot": "進階機器學習",
+        "credits_snapshot": 3.0,
+        "requirement_group": "elective",
+        "notes": "",
+        "source_page": 1,
+        "evidence_match": true,
+        "validation_status": "needs_course_code_verification",
+        "uncertainty_reason": "Official PDF table does not provide a course code"
+      },
+      {
+        "course_code": null,
+        "opening_units": [
+          "管理學院(碩)"
+        ],
+        "opening_unit_snapshot": "管理學院(碩)",
+        "course_name_snapshot": "大數據分析、機器學習、與人工智慧方法",
+        "credits_snapshot": 3.0,
+        "requirement_group": "elective",
+        "notes": "",
+        "source_page": 1,
+        "evidence_match": false,
+        "validation_status": "needs_course_code_verification",
+        "uncertainty_reason": "Official PDF table does not provide a course code"
+      },
+      {
+        "course_code": null,
+        "opening_units": [
+          "應數系"
+        ],
+        "opening_unit_snapshot": "應數系",
+        "course_name_snapshot": "Python 與機器學習之理論實現",
+        "credits_snapshot": 3.0,
+        "requirement_group": "elective",
+        "notes": "",
+        "source_page": 1,
+        "evidence_match": false,
+        "validation_status": "needs_course_code_verification",
+        "uncertainty_reason": "Official PDF table does not provide a course code"
+      },
+      {
+        "course_code": null,
+        "opening_units": [
+          "跨院選修(通)"
+        ],
+        "opening_unit_snapshot": "跨院選修(通)",
+        "course_name_snapshot": "程式設計概論",
+        "credits_snapshot": 3.0,
+        "requirement_group": "elective",
+        "notes": "",
+        "source_page": 1,
+        "evidence_match": true,
+        "validation_status": "needs_course_code_verification",
+        "uncertainty_reason": "Official PDF table does not provide a course code"
+      },
+      {
+        "course_code": null,
+        "opening_units": [
+          "博雅向度四"
+        ],
+        "opening_unit_snapshot": "博雅向度四",
+        "course_name_snapshot": "創新科技應用服務",
+        "credits_snapshot": 3.0,
+        "requirement_group": "elective",
+        "notes": "",
+        "source_page": 1,
+        "evidence_match": true,
+        "validation_status": "needs_course_code_verification",
+        "uncertainty_reason": "Official PDF table does not provide a course code"
+      },
+      {
+        "course_code": null,
+        "opening_units": [
+          "臺灣大專院校人工智慧學程聯盟"
+        ],
+        "opening_unit_snapshot": "臺灣大專院校人工智慧學程聯盟",
+        "course_name_snapshot": "人工智慧導論",
+        "credits_snapshot": 3.0,
+        "requirement_group": "elective",
+        "notes": "研究所課程",
+        "source_page": 1,
+        "evidence_match": true,
+        "validation_status": "needs_course_code_verification",
+        "uncertainty_reason": "Official PDF table does not provide a course code"
+      },
+      {
+        "course_code": null,
+        "opening_units": [
+          "臺灣大專院校人工智慧學程聯盟"
+        ],
+        "opening_unit_snapshot": "臺灣大專院校人工智慧學程聯盟",
+        "course_name_snapshot": "機器學習",
+        "credits_snapshot": 3.0,
+        "requirement_group": "elective",
+        "notes": "研究所課程",
+        "source_page": 1,
+        "evidence_match": true,
+        "validation_status": "needs_course_code_verification",
+        "uncertainty_reason": "Official PDF table does not provide a course code"
+      },
+      {
+        "course_code": null,
+        "opening_units": [
+          "臺灣大專院校人工智慧學程聯盟"
+        ],
+        "opening_unit_snapshot": "臺灣大專院校人工智慧學程聯盟",
+        "course_name_snapshot": "金融科技導論",
+        "credits_snapshot": 3.0,
+        "requirement_group": "elective",
+        "notes": "研究所課程",
+        "source_page": 2,
+        "evidence_match": true,
+        "validation_status": "needs_course_code_verification",
+        "uncertainty_reason": "Official PDF table does not provide a course code"
+      },
+      {
+        "course_code": null,
+        "opening_units": [
+          "臺灣大專院校人工智慧學程聯盟"
+        ],
+        "opening_unit_snapshot": "臺灣大專院校人工智慧學程聯盟",
+        "course_name_snapshot": "資料探勘與應用",
+        "credits_snapshot": 3.0,
+        "requirement_group": "elective",
+        "notes": "研究所課程",
+        "source_page": 2,
+        "evidence_match": true,
+        "validation_status": "needs_course_code_verification",
+        "uncertainty_reason": "Official PDF table does not provide a course code"
+      },
+      {
+        "course_code": null,
+        "opening_units": [
+          "臺灣大專院校人工智慧學程聯盟"
+        ],
+        "opening_unit_snapshot": "臺灣大專院校人工智慧學程聯盟",
+        "course_name_snapshot": "自然語言處理",
+        "credits_snapshot": 3.0,
+        "requirement_group": "elective",
+        "notes": "研究所課程",
+        "source_page": 2,
+        "evidence_match": true,
+        "validation_status": "needs_course_code_verification",
+        "uncertainty_reason": "Official PDF table does not provide a course code"
+      }
+    ],
+    "structured_requirements": {
+      "core_credits_text_value": 6,
+      "minimum_total_credits": 9,
+      "minimum_outside_home_department_credits": 3
+    }
+  }
+}

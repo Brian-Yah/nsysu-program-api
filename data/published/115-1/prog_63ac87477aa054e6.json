@@ -1,0 +1,164 @@
+{
+  "program_id": "prog_63ac87477aa054e6",
+  "name_zh": "音樂應用與高齡友善多元性微學程",
+  "name_en": null,
+  "previous_names": [],
+  "type": "micro_program",
+  "status": "active",
+  "description": "以關懷社會議題為出發點,持提升高齡永續照護及活躍老化的願景,並以音樂為核心,發展具設計與實用性之表演性藝術、律動活化等整合型課程,友善高齡照護設計與高齡場域實地參與。",
+  "responsible_unit": "音樂系",
+  "coordinator": "顏竹君助理教授",
+  "program_website": "https://music.nsysu.edu.tw/front/_student/_Integrated_curriculum/archive.php?ID=bnN5c3VfbXVzaWMmX0ludGVncmF0ZWRfY3VycmljdWx1bQ==",
+  "source_pdf": "http://140.117.153.69/ctdr/files/20241224153240194.pdf",
+  "academic_version": "115-1",
+  "source": {
+    "catalog_url": "https://ctdr.nsysu.edu.tw/class2.php",
+    "pdf_url": "http://140.117.153.69/ctdr/files/20241224153240194.pdf",
+    "retrieved_at": "2026-08-15T10:05:39Z",
+    "pdf_binary_sha256": "21ffc7d6d466ec077c1f93d1c10cea9c745a53ab518f5429560185b3cd09dce0",
+    "normalized_text_sha256": "cf9c29f9261c43c3d8d6b9f7f19aa679998692c7843ec7593da024c0530b342d",
+    "http": {
+      "status": 200,
+      "etag": "\"1f0ab-629ff1e3125b7\"",
+      "last_modified": "Tue, 24 Dec 2024 07:32:40 GMT",
+      "content_length": 127147
+    },
+    "parser_version": "0.1.0"
+  },
+  "review_status": "needs_review",
+  "rules": {
+    "kind": "manual_review",
+    "reason": "Extracted candidate awaits approval"
+  },
+  "warnings": [
+    "No structured course rows extracted from PDF tables"
+  ],
+  "selected_pdf_academic_version": "113-1",
+  "course_catalog": [
+    {
+      "course_code": null,
+      "opening_units": [
+        "醫學科技研究所"
+      ],
+      "opening_unit_snapshot": "醫學科技研究所",
+      "course_name_snapshot": "智慧長照創新服務開發模式",
+      "credits_snapshot": 3.0,
+      "requirement_group": "core",
+      "notes": "",
+      "source_page": 1,
+      "evidence_match": true,
+      "validation_status": "needs_course_code_verification",
+      "uncertainty_reason": "Official PDF table does not provide a course code"
+    },
+    {
+      "course_code": null,
+      "opening_units": [
+        "企醫管碩"
+      ],
+      "opening_unit_snapshot": "企醫管碩",
+      "course_name_snapshot": "長期照護",
+      "credits_snapshot": 3.0,
+      "requirement_group": "core",
+      "notes": "",
+      "source_page": 1,
+      "evidence_match": true,
+      "validation_status": "needs_course_code_verification",
+      "uncertainty_reason": "Official PDF table does not provide a course code"
+    },
+    {
+      "course_code": null,
+      "opening_units": [
+        "後醫學系"
+      ],
+      "opening_unit_snapshot": "後醫學系",
+      "course_name_snapshot": "與老共舞",
+      "credits_snapshot": 3.0,
+      "requirement_group": "core",
+      "notes": "",
+      "source_page": 1,
+      "evidence_match": true,
+      "validation_status": "needs_course_code_verification",
+      "uncertainty_reason": "Official PDF table does not provide a course code"
+    },
+    {
+      "course_code": null,
+      "opening_units": [
+        "音樂學系"
+      ],
+      "opening_unit_snapshot": "音樂學系",
+      "course_name_snapshot": "表達性藝術治療個案討論",
+      "credits_snapshot": 3.0,
+      "requirement_group": "elective",
+      "notes": "",
+      "source_page": 1,
+      "evidence_match": true,
+      "validation_status": "needs_course_code_verification",
+      "uncertainty_reason": "Official PDF table does not provide a course code"
+    },
+    {
+      "course_code": null,
+      "opening_units": [
+        "音樂學系"
+      ],
+      "opening_unit_snapshot": "音樂學系",
+      "course_name_snapshot": "音樂於高齡照護之設計與運用",
+      "credits_snapshot": 3.0,
+      "requirement_group": "elective",
+      "notes": "",
+      "source_page": 1,
+      "evidence_match": true,
+      "validation_status": "needs_course_code_verification",
+      "uncertainty_reason": "Official PDF table does not provide a course code"
+    },
+    {
+      "course_code": null,
+      "opening_units": [
+        "音樂學系"
+      ],
+      "opening_unit_snapshot": "音樂學系",
+      "course_name_snapshot": "音樂與律動於樂齡之運用",
+      "credits_snapshot": 3.0,
+      "requirement_group": "elective",
+      "notes": "",
+      "source_page": 1,
+      "evidence_match": true,
+      "validation_status": "needs_course_code_verification",
+      "uncertainty_reason": "Official PDF table does not provide a course code"
+    },
+    {
+      "course_code": null,
+      "opening_units": [
+        "音樂學系"
+      ],
+      "opening_unit_snapshot": "音樂學系",
+      "course_name_snapshot": "音樂治療",
+      "credits_snapshot": 2.0,
+      "requirement_group": "elective",
+      "notes": "",
+      "source_page": 1,
+      "evidence_match": true,
+      "validation_status": "needs_course_code_verification",
+      "uncertainty_reason": "Official PDF table does not provide a course code"
+    },
+    {
+      "course_code": null,
+      "opening_units": [
+        "後醫學系"
+      ],
+      "opening_unit_snapshot": "後醫學系",
+      "course_name_snapshot": "危老年代",
+      "credits_snapshot": 2.0,
+      "requirement_group": "elective",
+      "notes": "",
+      "source_page": 1,
+      "evidence_match": true,
+      "validation_status": "needs_course_code_verification",
+      "uncertainty_reason": "Official PDF table does not provide a course code"
+    }
+  ],
+  "structured_requirements": {
+    "minimum_total_credits": 9,
+    "core_credits_text_value": 3,
+    "minimum_outside_home_department_credits": 3
+  }
+}

@@ -1,0 +1,233 @@
+{
+  "program_id": "prog_8654244c2fbb57eb",
+  "latest_academic_version": "115-1",
+  "versions": [
+    "115-1"
+  ],
+  "program": {
+    "program_id": "prog_8654244c2fbb57eb",
+    "name_zh": "政經大數據分析微學程",
+    "name_en": null,
+    "previous_names": [],
+    "type": "micro_program",
+    "status": "active",
+    "description": "1.以政治與經濟相關的數位內容為主\n2.數位工具學習包括R,Python及相關軟體等\n3.引入業界合作教學\n4.媒介學生到相關業界實習",
+    "responsible_unit": "政治所",
+    "coordinator": "黃韋豪助理教授",
+    "program_website": "https://ips.nsysu.edu.tw/master/others/course_program",
+    "source_pdf": "http://140.117.153.69/ctdr/files/2025122314590281.pdf",
+    "academic_version": "115-1",
+    "source": {
+      "catalog_url": "https://ctdr.nsysu.edu.tw/class2.php",
+      "pdf_url": "http://140.117.153.69/ctdr/files/2025122314590281.pdf",
+      "retrieved_at": "2026-08-15T10:05:39Z",
+      "pdf_binary_sha256": "b92e3ee949e00986b9ea11d89455f6b53ed22a174ccc1702769fb58428b73cce",
+      "normalized_text_sha256": "3ac9a42f63eae61c77320fd9e4c2e07ef3c3061c7960a4dd6f6ce57601341c0c",
+      "http": {
+        "status": 200,
+        "etag": "\"37f8d-646991423e843\"",
+        "last_modified": "Tue, 23 Dec 2025 06:59:02 GMT",
+        "content_length": 229261
+      },
+      "parser_version": "0.1.0"
+    },
+    "review_status": "needs_review",
+    "rules": {
+      "kind": "manual_review",
+      "reason": "Extracted candidate awaits approval"
+    },
+    "warnings": [
+      "No structured course rows extracted from PDF tables"
+    ],
+    "selected_pdf_academic_version": "114-1",
+    "course_catalog": [
+      {
+        "course_code": null,
+        "opening_units": [
+          "政治所"
+        ],
+        "opening_unit_snapshot": "政治所",
+        "course_name_snapshot": "大數據與選舉",
+        "credits_snapshot": 3.0,
+        "requirement_group": "elective",
+        "notes": "",
+        "source_page": 1,
+        "evidence_match": true,
+        "validation_status": "needs_course_code_verification",
+        "uncertainty_reason": "Official PDF table does not provide a course code"
+      },
+      {
+        "course_code": null,
+        "opening_units": [
+          "政治所"
+        ],
+        "opening_unit_snapshot": "政治所",
+        "course_name_snapshot": "民意與政治行為研究",
+        "credits_snapshot": 3.0,
+        "requirement_group": "elective",
+        "notes": "",
+        "source_page": 1,
+        "evidence_match": true,
+        "validation_status": "needs_course_code_verification",
+        "uncertainty_reason": "Official PDF table does not provide a course code"
+      },
+      {
+        "course_code": null,
+        "opening_units": [
+          "政治所"
+        ],
+        "opening_unit_snapshot": "政治所",
+        "course_name_snapshot": "探索式資料分析",
+        "credits_snapshot": 3.0,
+        "requirement_group": "elective",
+        "notes": "",
+        "source_page": 1,
+        "evidence_match": true,
+        "validation_status": "needs_course_code_verification",
+        "uncertainty_reason": "Official PDF table does not provide a course code"
+      },
+      {
+        "course_code": null,
+        "opening_units": [
+          "教育研究所",
+          "教育與人類發展研究全英語學位學程"
+        ],
+        "opening_unit_snapshot": "教育研究所 / 教育與人類發展研究全英語學位學程",
+        "course_name_snapshot": "試題反應理論(中/英語授課)",
+        "credits_snapshot": 3.0,
+        "requirement_group": "elective",
+        "notes": "",
+        "source_page": 1,
+        "evidence_match": true,
+        "validation_status": "needs_course_code_verification",
+        "uncertainty_reason": "Official PDF table does not provide a course code"
+      },
+      {
+        "course_code": null,
+        "opening_units": [
+          "政治所"
+        ],
+        "opening_unit_snapshot": "政治所",
+        "course_name_snapshot": "政治學數量資料分析進階(英語授課)",
+        "credits_snapshot": 3.0,
+        "requirement_group": "elective",
+        "notes": "",
+        "source_page": 1,
+        "evidence_match": false,
+        "validation_status": "needs_course_code_verification",
+        "uncertainty_reason": "Official PDF table does not provide a course code"
+      },
+      {
+        "course_code": null,
+        "opening_units": [
+          "教育研究所",
+          "教育與人類發展研究全英語學位學程"
+        ],
+        "opening_unit_snapshot": "教育研究所 / 教育與人類發展研究全英語學位學程",
+        "course_name_snapshot": "多變量分析(英語授課)",
+        "credits_snapshot": 3.0,
+        "requirement_group": "elective",
+        "notes": "",
+        "source_page": 1,
+        "evidence_match": true,
+        "validation_status": "needs_course_code_verification",
+        "uncertainty_reason": "Official PDF table does not provide a course code"
+      },
+      {
+        "course_code": null,
+        "opening_units": [
+          "政治所"
+        ],
+        "opening_unit_snapshot": "政治所",
+        "course_name_snapshot": "資料分析方法入門",
+        "credits_snapshot": 3.0,
+        "requirement_group": "elective",
+        "notes": "",
+        "source_page": 1,
+        "evidence_match": true,
+        "validation_status": "needs_course_code_verification",
+        "uncertainty_reason": "Official PDF table does not provide a course code"
+      },
+      {
+        "course_code": null,
+        "opening_units": [
+          "政治所"
+        ],
+        "opening_unit_snapshot": "政治所",
+        "course_name_snapshot": "政治學數量資料分析(英語授課)",
+        "credits_snapshot": 3.0,
+        "requirement_group": "elective",
+        "notes": "",
+        "source_page": 1,
+        "evidence_match": false,
+        "validation_status": "needs_course_code_verification",
+        "uncertainty_reason": "Official PDF table does not provide a course code"
+      },
+      {
+        "course_code": null,
+        "opening_units": [
+          "教育研究所",
+          "教育與人類發展研究全英語學位學程"
+        ],
+        "opening_unit_snapshot": "教育研究所 / 教育與人類發展研究全英語學位學程",
+        "course_name_snapshot": "教育統計學研究(中/英語授課)",
+        "credits_snapshot": 3.0,
+        "requirement_group": "elective",
+        "notes": "",
+        "source_page": 1,
+        "evidence_match": false,
+        "validation_status": "needs_course_code_verification",
+        "uncertainty_reason": "Official PDF table does not provide a course code"
+      },
+      {
+        "course_code": null,
+        "opening_units": [
+          "政治所"
+        ],
+        "opening_unit_snapshot": "政治所",
+        "course_name_snapshot": "政治學心理計量方法(英語授課)",
+        "credits_snapshot": 3.0,
+        "requirement_group": "elective",
+        "notes": "",
+        "source_page": 1,
+        "evidence_match": false,
+        "validation_status": "needs_course_code_verification",
+        "uncertainty_reason": "Official PDF table does not provide a course code"
+      },
+      {
+        "course_code": null,
+        "opening_units": [
+          "資管系"
+        ],
+        "opening_unit_snapshot": "資管系",
+        "course_name_snapshot": "社群媒體分析",
+        "credits_snapshot": 3.0,
+        "requirement_group": "elective",
+        "notes": "",
+        "source_page": 1,
+        "evidence_match": true,
+        "validation_status": "needs_course_code_verification",
+        "uncertainty_reason": "Official PDF table does not provide a course code"
+      },
+      {
+        "course_code": null,
+        "opening_units": [
+          "行傳所"
+        ],
+        "opening_unit_snapshot": "行傳所",
+        "course_name_snapshot": "數位內容與社會網絡分析",
+        "credits_snapshot": 3.0,
+        "requirement_group": "elective",
+        "notes": "",
+        "source_page": 1,
+        "evidence_match": true,
+        "validation_status": "needs_course_code_verification",
+        "uncertainty_reason": "Official PDF table does not provide a course code"
+      }
+    ],
+    "structured_requirements": {
+      "minimum_total_credits": 9,
+      "minimum_outside_home_department_credits": 3
+    }
+  }
+}

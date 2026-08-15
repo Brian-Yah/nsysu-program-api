@@ -1,0 +1,171 @@
+{
+  "program_id": "prog_d018b4854ce45fdb",
+  "latest_academic_version": "115-1",
+  "versions": [
+    "115-1"
+  ],
+  "program": {
+    "program_id": "prog_d018b4854ce45fdb",
+    "name_zh": "智慧商業數據分析與創新微學程(原:商業數據分析與創新微學程)",
+    "name_en": null,
+    "previous_names": [],
+    "type": "micro_program",
+    "status": "active",
+    "description": "在中山管院商業大數據分析平台的基礎之上,我們利用線上課程和開放資料、依據商業模式和商業情境設計資料個案,強調使用高階套件和視覺化工具,將現代化的數據分析方法運用在各種商業實務之中,本學程的主要教學目標是讓不同系所的同學能夠互補專長、互助學習。",
+    "responsible_unit": "資管系",
+    "coordinator": "康藝晃副教授",
+    "program_website": "https://bap2.cm.nsysu.edu.tw/?page_id=5146",
+    "source_pdf": "http://140.117.153.69/ctdr/files/20251223144953380.pdf",
+    "academic_version": "115-1",
+    "source": {
+      "catalog_url": "https://ctdr.nsysu.edu.tw/class2.php",
+      "pdf_url": "http://140.117.153.69/ctdr/files/20251223144953380.pdf",
+      "retrieved_at": "2026-08-15T10:05:39Z",
+      "pdf_binary_sha256": "ea5d88bca977e65f2b59b49e2d8dd3caf8121ba8de74d22dfbed5b0584dc8e5d",
+      "normalized_text_sha256": "0572f17b413d2635cbe679fbaff314a5f3942112f6fd3d9ef3e290eb1e62d9ad",
+      "http": {
+        "status": 200,
+        "etag": "\"296f7-64698f36f9788\"",
+        "last_modified": "Tue, 23 Dec 2025 06:49:53 GMT",
+        "content_length": 169719
+      },
+      "parser_version": "0.1.0"
+    },
+    "review_status": "needs_review",
+    "rules": {
+      "kind": "manual_review",
+      "reason": "Extracted candidate awaits approval"
+    },
+    "warnings": [
+      "No structured course rows extracted from PDF tables"
+    ],
+    "selected_pdf_academic_version": "114-1",
+    "course_catalog": [
+      {
+        "course_code": null,
+        "opening_units": [
+          "管理學院"
+        ],
+        "opening_unit_snapshot": "管理學院",
+        "course_name_snapshot": "智慧商業分析實務",
+        "credits_snapshot": 3.0,
+        "requirement_group": "core",
+        "notes": "必修課",
+        "source_page": 1,
+        "evidence_match": true,
+        "validation_status": "needs_course_code_verification",
+        "uncertainty_reason": "Official PDF table does not provide a course code"
+      },
+      {
+        "course_code": null,
+        "opening_units": [
+          "管理學院"
+        ],
+        "opening_unit_snapshot": "管理學院",
+        "course_name_snapshot": "商管軟體設計",
+        "credits_snapshot": 3.0,
+        "requirement_group": "core",
+        "notes": "必修課",
+        "source_page": 1,
+        "evidence_match": true,
+        "validation_status": "needs_course_code_verification",
+        "uncertainty_reason": "Official PDF table does not provide a course code"
+      },
+      {
+        "course_code": null,
+        "opening_units": [
+          "管理學院"
+        ],
+        "opening_unit_snapshot": "管理學院",
+        "course_name_snapshot": "商業大數據分析資料案例",
+        "credits_snapshot": 3.0,
+        "requirement_group": "core",
+        "notes": "每年春季開設/必修課",
+        "source_page": 1,
+        "evidence_match": true,
+        "validation_status": "needs_course_code_verification",
+        "uncertainty_reason": "Official PDF table does not provide a course code"
+      },
+      {
+        "course_code": null,
+        "opening_units": [
+          "管理學院"
+        ],
+        "opening_unit_snapshot": "管理學院",
+        "course_name_snapshot": "大數據、機器學習與人工智慧",
+        "credits_snapshot": 3.0,
+        "requirement_group": "core",
+        "notes": "每年秋季開設",
+        "source_page": 1,
+        "evidence_match": true,
+        "validation_status": "needs_course_code_verification",
+        "uncertainty_reason": "Official PDF table does not provide a course code"
+      },
+      {
+        "course_code": null,
+        "opening_units": [
+          "資管系"
+        ],
+        "opening_unit_snapshot": "資管系",
+        "course_name_snapshot": "巨量分析導論",
+        "credits_snapshot": 3.0,
+        "requirement_group": "core",
+        "notes": "每年秋季開設",
+        "source_page": 1,
+        "evidence_match": true,
+        "validation_status": "needs_course_code_verification",
+        "uncertainty_reason": "Official PDF table does not provide a course code"
+      },
+      {
+        "course_code": null,
+        "opening_units": [
+          "管理學院"
+        ],
+        "opening_unit_snapshot": "管理學院",
+        "course_name_snapshot": "R:程式、機率與統計",
+        "credits_snapshot": 3.0,
+        "requirement_group": "elective",
+        "notes": "",
+        "source_page": 1,
+        "evidence_match": true,
+        "validation_status": "needs_course_code_verification",
+        "uncertainty_reason": "Official PDF table does not provide a course code"
+      },
+      {
+        "course_code": null,
+        "opening_units": [
+          "資管系"
+        ],
+        "opening_unit_snapshot": "資管系",
+        "course_name_snapshot": "深度學習",
+        "credits_snapshot": 3.0,
+        "requirement_group": "elective",
+        "notes": "每年春季開設",
+        "source_page": 1,
+        "evidence_match": true,
+        "validation_status": "needs_course_code_verification",
+        "uncertainty_reason": "Official PDF table does not provide a course code"
+      },
+      {
+        "course_code": null,
+        "opening_units": [
+          "資管系"
+        ],
+        "opening_unit_snapshot": "資管系",
+        "course_name_snapshot": "決策支援系統專案",
+        "credits_snapshot": 3.0,
+        "requirement_group": "elective",
+        "notes": "每年春季開設",
+        "source_page": 1,
+        "evidence_match": true,
+        "validation_status": "needs_course_code_verification",
+        "uncertainty_reason": "Official PDF table does not provide a course code"
+      }
+    ],
+    "structured_requirements": {
+      "minimum_total_credits": 9,
+      "core_credits_text_value": 6,
+      "minimum_outside_home_department_credits": 3
+    }
+  }
+}

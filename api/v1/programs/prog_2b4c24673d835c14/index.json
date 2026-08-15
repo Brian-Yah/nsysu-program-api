@@ -1,0 +1,370 @@
+{
+  "program_id": "prog_2b4c24673d835c14",
+  "latest_academic_version": "115-1",
+  "versions": [
+    "115-1"
+  ],
+  "program": {
+    "program_id": "prog_2b4c24673d835c14",
+    "name_zh": "全球研究學分學程",
+    "name_en": null,
+    "previous_names": [],
+    "type": "integrated_program",
+    "status": "active",
+    "description": "透過「全球研究」的理論視角,加強培養學生國際視野及跨領域多元能力,使學生能夠綜合政治學、經濟學、社會學、教育等學科知識,整體分析全球安全、全球經濟、全球科技、全球環境和全球媒體等跨國宏觀現象。",
+    "responsible_unit": "社科院",
+    "coordinator": "方志恒教授",
+    "program_website": "https://css.nsysu.edu.tw/p/412-1027-25755.php?Lang=zh-tw",
+    "source_pdf": "http://140.117.153.69/ctdr/files/20260701140209736.pdf",
+    "academic_version": "115-1",
+    "source": {
+      "catalog_url": "https://ctdr.nsysu.edu.tw/class2.php",
+      "pdf_url": "http://140.117.153.69/ctdr/files/20260701140209736.pdf",
+      "retrieved_at": "2026-08-15T10:05:39Z",
+      "pdf_binary_sha256": "5352a362dae4f2c5a25a1e337a067205d11a84356e7fc28cca100a6d53c1d1df",
+      "normalized_text_sha256": "1795bb3208e3ccc75df132cb99e947373031ca25e51bff9306cde1a84ad7ee81",
+      "http": {
+        "status": 200,
+        "etag": "\"285ee-655866e988199\"",
+        "last_modified": "Wed, 01 Jul 2026 06:02:09 GMT",
+        "content_length": 165358
+      },
+      "parser_version": "0.1.0"
+    },
+    "review_status": "needs_review",
+    "rules": {
+      "kind": "manual_review",
+      "reason": "Extracted candidate awaits approval"
+    },
+    "warnings": [],
+    "selected_pdf_academic_version": "114-2",
+    "course_catalog": [
+      {
+        "course_code": null,
+        "opening_units": [
+          "社會學系(SOC257)西灣學院",
+          "跨院選修(GEAI1665)"
+        ],
+        "opening_unit_snapshot": "社會學系(SOC257)西灣學院 / 跨院選修(GEAI1665)",
+        "course_name_snapshot": "Global Politics全球政治(授課教師:方志恒)",
+        "credits_snapshot": 3.0,
+        "requirement_group": "core",
+        "notes": "※英語授課",
+        "source_page": 1,
+        "evidence_match": false,
+        "validation_status": "needs_course_code_verification",
+        "uncertainty_reason": "Official PDF table does not provide a course code"
+      },
+      {
+        "course_code": null,
+        "opening_units": [
+          "社科院選修(CSS154)",
+          "西灣學院",
+          "跨院選修(GEAI1666)"
+        ],
+        "opening_unit_snapshot": "社科院選修(CSS154) / 西灣學院 / 跨院選修(GEAI1666)",
+        "course_name_snapshot": "Comparative Politics比較政治(授課教師:方志恒)",
+        "credits_snapshot": 3.0,
+        "requirement_group": "core",
+        "notes": "※英語授課",
+        "source_page": 1,
+        "evidence_match": false,
+        "validation_status": "needs_course_code_verification",
+        "uncertainty_reason": "Official PDF table does not provide a course code"
+      },
+      {
+        "course_code": null,
+        "opening_units": [
+          "政治經濟學系(PE132)"
+        ],
+        "opening_unit_snapshot": "政治經濟學系(PE132)",
+        "course_name_snapshot": "Globalization in a Time of Transition變動時代中的全球化(授課教師:辛翠玲)",
+        "credits_snapshot": 3.0,
+        "requirement_group": "core",
+        "notes": "※英語授課",
+        "source_page": 1,
+        "evidence_match": false,
+        "validation_status": "needs_course_code_verification",
+        "uncertainty_reason": "Official PDF table does not provide a course code"
+      },
+      {
+        "course_code": null,
+        "opening_units": [
+          "西灣學院",
+          "跨院選修(GEAE2336)"
+        ],
+        "opening_unit_snapshot": "西灣學院 / 跨院選修(GEAE2336)",
+        "course_name_snapshot": "International Affairs and Civil Engaging國際事務與公民參與(授課教師:黃韋豪)",
+        "credits_snapshot": 3.0,
+        "requirement_group": "elective",
+        "notes": "※英語授課",
+        "source_page": 1,
+        "evidence_match": false,
+        "validation_status": "needs_course_code_verification",
+        "uncertainty_reason": "Official PDF table does not provide a course code"
+      },
+      {
+        "course_code": null,
+        "opening_units": [
+          "政治學研究所碩士班(IPS534)"
+        ],
+        "opening_unit_snapshot": "政治學研究所碩士班(IPS534)",
+        "course_name_snapshot": "Geopolitics地緣政治理論(授課教師:陳宗巖)",
+        "credits_snapshot": 3.0,
+        "requirement_group": "elective",
+        "notes": "※中文授課",
+        "source_page": 1,
+        "evidence_match": false,
+        "validation_status": "needs_course_code_verification",
+        "uncertainty_reason": "Official PDF table does not provide a course code"
+      },
+      {
+        "course_code": null,
+        "opening_units": [
+          "政治學研究所碩士班(IPS637)"
+        ],
+        "opening_unit_snapshot": "政治學研究所碩士班(IPS637)",
+        "course_name_snapshot": "International Organizations國際組織(授課教師:陳宗巖)",
+        "credits_snapshot": 3.0,
+        "requirement_group": "elective",
+        "notes": "※中文授課",
+        "source_page": 1,
+        "evidence_match": false,
+        "validation_status": "needs_course_code_verification",
+        "uncertainty_reason": "Official PDF table does not provide a course code"
+      },
+      {
+        "course_code": null,
+        "opening_units": [
+          "政治學研究所碩士班(IPS538)"
+        ],
+        "opening_unit_snapshot": "政治學研究所碩士班(IPS538)",
+        "course_name_snapshot": "Global Financial Politics and Policy全球金融政治與政策(授課教師:陳宗巖)",
+        "credits_snapshot": 3.0,
+        "requirement_group": "elective",
+        "notes": "※中文授課",
+        "source_page": 1,
+        "evidence_match": false,
+        "validation_status": "needs_course_code_verification",
+        "uncertainty_reason": "Official PDF table does not provide a course code"
+      },
+      {
+        "course_code": null,
+        "opening_units": [
+          "中國與亞太區域研究所碩士班(CAPS586)"
+        ],
+        "opening_unit_snapshot": "中國與亞太區域研究所碩士班(CAPS586)",
+        "course_name_snapshot": "Globalization and Economic Development全球化與經濟發展(授課教師:蔡書瑋)",
+        "credits_snapshot": 3.0,
+        "requirement_group": "elective",
+        "notes": "※中文授課",
+        "source_page": 1,
+        "evidence_match": false,
+        "validation_status": "needs_course_code_verification",
+        "uncertainty_reason": "Official PDF table does not provide a course code"
+      },
+      {
+        "course_code": null,
+        "opening_units": [
+          "政治經濟學系(PE302)"
+        ],
+        "opening_unit_snapshot": "政治經濟學系(PE302)",
+        "course_name_snapshot": "International Political Economy國際政治經濟學(授課教師:辛翠玲)",
+        "credits_snapshot": 3.0,
+        "requirement_group": "elective",
+        "notes": "※中文授課",
+        "source_page": 1,
+        "evidence_match": false,
+        "validation_status": "needs_course_code_verification",
+        "uncertainty_reason": "Official PDF table does not provide a course code"
+      },
+      {
+        "course_code": null,
+        "opening_units": [
+          "政治經濟學系(PE234)"
+        ],
+        "opening_unit_snapshot": "政治經濟學系(PE234)",
+        "course_name_snapshot": "Study on Economics News and Reports英文經濟書報導讀(授課教師:顏孟芬)",
+        "credits_snapshot": 3.0,
+        "requirement_group": "elective",
+        "notes": "※英語授課",
+        "source_page": 1,
+        "evidence_match": false,
+        "validation_status": "needs_course_code_verification",
+        "uncertainty_reason": "Official PDF table does not provide a course code"
+      },
+      {
+        "course_code": null,
+        "opening_units": [
+          "社科院選修(CSS155)",
+          "西灣學院",
+          "跨院選修(GEAI1670)"
+        ],
+        "opening_unit_snapshot": "社科院選修(CSS155) / 西灣學院 / 跨院選修(GEAI1670)",
+        "course_name_snapshot": "Fintech and Banking Services銀行與金融科技(授課教師:陳珮芬)",
+        "credits_snapshot": 3.0,
+        "requirement_group": "elective",
+        "notes": "※英語授課",
+        "source_page": 2,
+        "evidence_match": false,
+        "validation_status": "needs_course_code_verification",
+        "uncertainty_reason": "Official PDF table does not provide a course code"
+      },
+      {
+        "course_code": null,
+        "opening_units": [
+          "社會學系(SOC228)"
+        ],
+        "opening_unit_snapshot": "社會學系(SOC228)",
+        "course_name_snapshot": "Sociology of Gender性別社會學(授課教師:陳美華)",
+        "credits_snapshot": 3.0,
+        "requirement_group": "elective",
+        "notes": "※中文授課",
+        "source_page": 2,
+        "evidence_match": false,
+        "validation_status": "needs_course_code_verification",
+        "uncertainty_reason": "Official PDF table does not provide a course code"
+      },
+      {
+        "course_code": null,
+        "opening_units": [
+          "社會學系(SOC122)"
+        ],
+        "opening_unit_snapshot": "社會學系(SOC122)",
+        "course_name_snapshot": "Technology and Society科技與社會(授課教師:李宛儒)",
+        "credits_snapshot": 3.0,
+        "requirement_group": "elective",
+        "notes": "※中文授課",
+        "source_page": 2,
+        "evidence_match": false,
+        "validation_status": "needs_course_code_verification",
+        "uncertainty_reason": "Official PDF table does not provide a course code"
+      },
+      {
+        "course_code": null,
+        "opening_units": [
+          "社會學系(SOC132)"
+        ],
+        "opening_unit_snapshot": "社會學系(SOC132)",
+        "course_name_snapshot": "Language and Culture語言與文化(授課教師:趙恩潔)",
+        "credits_snapshot": 3.0,
+        "requirement_group": "elective",
+        "notes": "※中文授課",
+        "source_page": 2,
+        "evidence_match": false,
+        "validation_status": "needs_course_code_verification",
+        "uncertainty_reason": "Official PDF table does not provide a course code"
+      },
+      {
+        "course_code": null,
+        "opening_units": [
+          "社會學系(SOC212)"
+        ],
+        "opening_unit_snapshot": "社會學系(SOC212)",
+        "course_name_snapshot": "Media and Society媒體與社會(授課教師:戴昀)",
+        "credits_snapshot": 3.0,
+        "requirement_group": "elective",
+        "notes": "※英語授課",
+        "source_page": 2,
+        "evidence_match": false,
+        "validation_status": "needs_course_code_verification",
+        "uncertainty_reason": "Official PDF table does not provide a course code"
+      },
+      {
+        "course_code": null,
+        "opening_units": [
+          "社會學系(SOC213)"
+        ],
+        "opening_unit_snapshot": "社會學系(SOC213)",
+        "course_name_snapshot": "Environmental Sociology環境社會學(授課教師:邱花妹)",
+        "credits_snapshot": 3.0,
+        "requirement_group": "elective",
+        "notes": "※中文授課",
+        "source_page": 2,
+        "evidence_match": false,
+        "validation_status": "needs_course_code_verification",
+        "uncertainty_reason": "Official PDF table does not provide a course code"
+      },
+      {
+        "course_code": null,
+        "opening_units": [
+          "教育與人類發展研究全英語碩士學位學程(IGPE553)"
+        ],
+        "opening_unit_snapshot": "教育與人類發展研究全英語碩士學位學程(IGPE553)",
+        "course_name_snapshot": "Leadership in Global Education全球教育領導(授課教師:艾玲)",
+        "credits_snapshot": 3.0,
+        "requirement_group": "elective",
+        "notes": "※英語授課",
+        "source_page": 2,
+        "evidence_match": false,
+        "validation_status": "needs_course_code_verification",
+        "uncertainty_reason": "Official PDF table does not provide a course code"
+      },
+      {
+        "course_code": null,
+        "opening_units": [
+          "教育研究所碩士班(IOE512)教育與人類發展研究全英語碩士學位學程(IGPE505)"
+        ],
+        "opening_unit_snapshot": "教育研究所碩士班(IOE512)教育與人類發展研究全英語碩士學位學程(IGPE505)",
+        "course_name_snapshot": "Studies in Comparative Education比較教育研究(授課教師:紀博善)",
+        "credits_snapshot": 3.0,
+        "requirement_group": "elective",
+        "notes": "※英語授課",
+        "source_page": 2,
+        "evidence_match": false,
+        "validation_status": "needs_course_code_verification",
+        "uncertainty_reason": "Official PDF table does not provide a course code"
+      },
+      {
+        "course_code": null,
+        "opening_units": [
+          "教育研究所碩士班(IOE558)"
+        ],
+        "opening_unit_snapshot": "教育研究所碩士班(IOE558)",
+        "course_name_snapshot": "Studies in Global Education全球教育研究(授課教師:周珮儀)",
+        "credits_snapshot": 3.0,
+        "requirement_group": "elective",
+        "notes": "※中文授課",
+        "source_page": 2,
+        "evidence_match": false,
+        "validation_status": "needs_course_code_verification",
+        "uncertainty_reason": "Official PDF table does not provide a course code"
+      },
+      {
+        "course_code": null,
+        "opening_units": [
+          "教育研究所碩士班(IOE575)"
+        ],
+        "opening_unit_snapshot": "教育研究所碩士班(IOE575)",
+        "course_name_snapshot": "Research on Multicultural Education多元文化教育研究(授課教師:謝百淇)",
+        "credits_snapshot": 3.0,
+        "requirement_group": "elective",
+        "notes": "※英語授課",
+        "source_page": 2,
+        "evidence_match": false,
+        "validation_status": "needs_course_code_verification",
+        "uncertainty_reason": "Official PDF table does not provide a course code"
+      },
+      {
+        "course_code": null,
+        "opening_units": [
+          "教育研究所碩士班(IOE644)教育與人類發展研究全英語碩士學位學程(IGPE554)"
+        ],
+        "opening_unit_snapshot": "教育研究所碩士班(IOE644)教育與人類發展研究全英語碩士學位學程(IGPE554)",
+        "course_name_snapshot": "Studies in Practice of Just Transition Curriculum公正轉型課程實踐研究(授課教師:莊雪華, 紀博善)",
+        "credits_snapshot": 3.0,
+        "requirement_group": "elective",
+        "notes": "※英語授課",
+        "source_page": 2,
+        "evidence_match": false,
+        "validation_status": "needs_course_code_verification",
+        "uncertainty_reason": "Official PDF table does not provide a course code"
+      }
+    ],
+    "structured_requirements": {
+      "core_credits_text_value": 3,
+      "minimum_total_credits": 15,
+      "minimum_outside_home_department_credits": 6
+    }
+  }
+}
