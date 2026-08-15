@@ -1,6 +1,6 @@
 # nsysu-program-api
 
-國立中山大學學程資料的非官方、可版本化靜態 JSON API。專案抓取教發中心公開總表與公開 PDF，保存來源雜湊、保守擷取規則候選，經人工審核後才可將規則標為 `approved`。
+國立中山大學學程與各學系最低畢業學分的非官方、可版本化靜態 JSON API。專案抓取校方公開總表、PDF 與必修科目表，保存來源雜湊；學程規則經人工審核後才可標為 `approved`。
 
 > **重要聲明：本專案不是國立中山大學官方服務。**資料來自校方公開頁面與文件；畢業與學程認定仍以校方審查為準。使用者應逐筆查看官方來源、academic version 與 review status。程式碼採 MIT License，不表示校方原始 PDF 或其內容採相同授權。
 
@@ -30,10 +30,15 @@ python scripts/validate.py
 - `programs/{program_id}/index.json`：單一學程與版本清單。
 - `programs/{program_id}/versions/115-1.json`：指定學程版本。
 - `schemas/program.schema.json`：JSON Schema。
+- `graduation-requirements/index.json`：最低畢業學分資料集索引。
+- `graduation-requirements/latest/bachelor.json`：最新入學年度全部學士班。
+- `graduation-requirements/115/bachelor/{department_code}.json`：指定年度與系所。
+- `schemas/graduation-requirement.schema.json`：單一系所畢業學分 Schema。
 
 ```bash
 curl -fsSL https://brian-yah.github.io/nsysu-program-api/api/v1/manifest.json
 curl -fsSL https://brian-yah.github.io/nsysu-program-api/api/v1/semesters/115-1/programs.json
+curl -fsSL https://brian-yah.github.io/nsysu-program-api/api/v1/graduation-requirements/115/bachelor/B4020.json
 ```
 
 回應 envelope：
@@ -55,6 +60,8 @@ curl -fsSL https://brian-yah.github.io/nsysu-program-api/api/v1/semesters/115-1/
 `schema_version` 管 API 結構，`academic_version` 使用 `115-1`／`115-2`／`115-S`，`data_revision` 表示同學期資料修正。新學期新增目錄，絕不覆寫舊版。`program-id-registry.json` 是更名時維持 ID 的人工 registry；更名前先把新名稱 mapping 到舊 ID。
 
 ClearGrad 或其他 consumer 應固定 academic version 或 release、檢查 manifest/schema version、在自己的 CDN 或本地快取，且先審核差異再更新。`latest` 不是核准訊號。遇到 `needs_review`，UI 應顯示「需人工確認」，不得宣稱學生不符合。
+
+初次設定最低畢業學分時，consumer 應以「入學年度＋學制＋校方系所代碼」查詢。例如 `B4020` 是資訊管理學系；115 學年度端點回傳 `minimum_graduation_credits: 135`。若查無系所或來源暫時不可用，UI 應要求使用者確認或手動輸入，不得靜默回退成 128。
 
 ## 完成度 evaluator
 

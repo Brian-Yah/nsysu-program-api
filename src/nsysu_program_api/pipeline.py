@@ -20,6 +20,7 @@ from .core import (
     split_responsible,
     write_json,
 )
+from .graduation import build_graduation_api
 
 
 def fetch_catalog(root: Path, academic_version: str, user_agent: str) -> dict:
@@ -265,6 +266,13 @@ def build_api(root: Path, version: str) -> dict:
     schema_dest = api / "schemas" / "program.schema.json"
     schema_dest.parent.mkdir(parents=True, exist_ok=True)
     schema_dest.write_text(schema_src.read_text(encoding="utf-8"), encoding="utf-8")
+    entry_year = version.split("-", 1)[0]
+    graduation_source = (
+        root / "data" / "graduation-requirements" / entry_year / "bachelor.json"
+    )
+    graduation_index = (
+        build_graduation_api(root, entry_year) if graduation_source.exists() else None
+    )
     manifest = {
         "schema_version": SCHEMA_VERSION,
         "latest_academic_version": version,
@@ -276,8 +284,15 @@ def build_api(root: Path, version: str) -> dict:
             "latest": "latest/programs.json",
             "schema": "schemas/program.schema.json",
             "semester": f"semesters/{version}/programs.json",
+            "graduation_requirements": (
+                "graduation-requirements/index.json" if graduation_index else None
+            ),
         },
     }
+    if graduation_index:
+        manifest["graduation_requirement_department_count"] = graduation_index[
+            "department_count"
+        ]
     write_json(api / "manifest.json", manifest)
     return manifest
 

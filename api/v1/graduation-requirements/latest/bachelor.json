@@ -1,0 +1,451 @@
+{
+  "schema_version": "1.0",
+  "entry_academic_year": "115",
+  "degree_level": "bachelor",
+  "retrieved_at": "2026-08-15T13:43:45Z",
+  "department_count": 28,
+  "requirements": [
+    {
+      "department_code": "B1010",
+      "department_name": "中國文學系",
+      "degree_level": "bachelor",
+      "entry_academic_year": "115",
+      "minimum_graduation_credits": 128,
+      "required_course_ratio": 60.94,
+      "source": {
+        "url": "https://selcrs.nsysu.edu.tw/stu_query/crs_mst_qry/crs_mst_query.asp?action=3&YY1=115&DPT1=B1010",
+        "retrieved_at": "2026-08-15T13:43:45Z",
+        "binary_sha256": "9b6348e703b600cec0ba0a4a8a774c5854e4b73c44c4c786a22f8d88a16f2165",
+        "http_status": 200,
+        "parser_version": "1.0.0"
+      }
+    },
+    {
+      "department_code": "B1020",
+      "department_name": "外國語文學系",
+      "degree_level": "bachelor",
+      "entry_academic_year": "115",
+      "minimum_graduation_credits": 128,
+      "required_course_ratio": 57.03,
+      "source": {
+        "url": "https://selcrs.nsysu.edu.tw/stu_query/crs_mst_qry/crs_mst_query.asp?action=3&YY1=115&DPT1=B1020",
+        "retrieved_at": "2026-08-15T13:43:45Z",
+        "binary_sha256": "733511e4f61622f4a72337020fc4b666660fd6df2c91f647934a6dcf7417bebe",
+        "http_status": 200,
+        "parser_version": "1.0.0"
+      }
+    },
+    {
+      "department_code": "B1030",
+      "department_name": "音樂學系",
+      "degree_level": "bachelor",
+      "entry_academic_year": "115",
+      "minimum_graduation_credits": 128,
+      "required_course_ratio": 58.59,
+      "source": {
+        "url": "https://selcrs.nsysu.edu.tw/stu_query/crs_mst_qry/crs_mst_query.asp?action=3&YY1=115&DPT1=B1030",
+        "retrieved_at": "2026-08-15T13:43:45Z",
+        "binary_sha256": "765ee824333d551591d9c1f1c094150782256d9c234ec4bb9ece464f5e8f1001",
+        "http_status": 200,
+        "parser_version": "1.0.0"
+      }
+    },
+    {
+      "department_code": "B1060",
+      "department_name": "劇場藝術學系",
+      "degree_level": "bachelor",
+      "entry_academic_year": "115",
+      "minimum_graduation_credits": 128,
+      "required_course_ratio": 56.25,
+      "source": {
+        "url": "https://selcrs.nsysu.edu.tw/stu_query/crs_mst_qry/crs_mst_query.asp?action=3&YY1=115&DPT1=B1060",
+        "retrieved_at": "2026-08-15T13:43:45Z",
+        "binary_sha256": "e35252ee691898feb8c892e56f02b348262e094bbc542eb5d5644a5997606917",
+        "http_status": 200,
+        "parser_version": "1.0.0"
+      }
+    },
+    {
+      "department_code": "B2010",
+      "department_name": "生物科學系",
+      "degree_level": "bachelor",
+      "entry_academic_year": "115",
+      "minimum_graduation_credits": 128,
+      "required_course_ratio": 57.03,
+      "source": {
+        "url": "https://selcrs.nsysu.edu.tw/stu_query/crs_mst_qry/crs_mst_query.asp?action=3&YY1=115&DPT1=B2010",
+        "retrieved_at": "2026-08-15T13:43:45Z",
+        "binary_sha256": "ff3fed16c7de549d95e07541e81374fdd769fb3422d605926b4082bf25ef3a1d",
+        "http_status": 200,
+        "parser_version": "1.0.0"
+      }
+    },
+    {
+      "department_code": "B2020",
+      "department_name": "化學系",
+      "degree_level": "bachelor",
+      "entry_academic_year": "115",
+      "minimum_graduation_credits": 128,
+      "required_course_ratio": 61.72,
+      "source": {
+        "url": "https://selcrs.nsysu.edu.tw/stu_query/crs_mst_qry/crs_mst_query.asp?action=3&YY1=115&DPT1=B2020",
+        "retrieved_at": "2026-08-15T13:43:45Z",
+        "binary_sha256": "e1dd399f300233bf264e8796301de99b3d5b7b6d915af73f3cce673dfb990959",
+        "http_status": 200,
+        "parser_version": "1.0.0"
+      }
+    },
+    {
+      "department_code": "B2030",
+      "department_name": "物理學系",
+      "degree_level": "bachelor",
+      "entry_academic_year": "115",
+      "minimum_graduation_credits": 128,
+      "required_course_ratio": 71.88,
+      "source": {
+        "url": "https://selcrs.nsysu.edu.tw/stu_query/crs_mst_qry/crs_mst_query.asp?action=3&YY1=115&DPT1=B2030",
+        "retrieved_at": "2026-08-15T13:43:45Z",
+        "binary_sha256": "3308d438958ad70d9385b1a43b3c6446f9d713ff2dc951c82526da58f750fbba",
+        "http_status": 200,
+        "parser_version": "1.0.0"
+      }
+    },
+    {
+      "department_code": "B2040",
+      "department_name": "應用數學系",
+      "degree_level": "bachelor",
+      "entry_academic_year": "115",
+      "minimum_graduation_credits": 128,
+      "required_course_ratio": 39.06,
+      "source": {
+        "url": "https://selcrs.nsysu.edu.tw/stu_query/crs_mst_qry/crs_mst_query.asp?action=3&YY1=115&DPT1=B2040",
+        "retrieved_at": "2026-08-15T13:43:45Z",
+        "binary_sha256": "eb9f4eb00e57bea8343af6589c116641d1b650e7724a684b7b884171e9cd79ff",
+        "http_status": 200,
+        "parser_version": "1.0.0"
+      }
+    },
+    {
+      "department_code": "B3010",
+      "department_name": "電機工程學系",
+      "degree_level": "bachelor",
+      "entry_academic_year": "115",
+      "minimum_graduation_credits": 132,
+      "required_course_ratio": 70.45,
+      "source": {
+        "url": "https://selcrs.nsysu.edu.tw/stu_query/crs_mst_qry/crs_mst_query.asp?action=3&YY1=115&DPT1=B3010",
+        "retrieved_at": "2026-08-15T13:43:45Z",
+        "binary_sha256": "bf4d40c9aa906010bb5753873c155b48982fdb61b6a59f5a0e39a0b445c5986d",
+        "http_status": 200,
+        "parser_version": "1.0.0"
+      }
+    },
+    {
+      "department_code": "B3020",
+      "department_name": "機械與機電工程學系",
+      "degree_level": "bachelor",
+      "entry_academic_year": "115",
+      "minimum_graduation_credits": 137,
+      "required_course_ratio": 69.34,
+      "source": {
+        "url": "https://selcrs.nsysu.edu.tw/stu_query/crs_mst_qry/crs_mst_query.asp?action=3&YY1=115&DPT1=B3020",
+        "retrieved_at": "2026-08-15T13:43:45Z",
+        "binary_sha256": "9c50f9f08b0c197698c5bcfa43e289c66b63c91aad10569169adf30568d24b42",
+        "http_status": 200,
+        "parser_version": "1.0.0"
+      }
+    },
+    {
+      "department_code": "B3040",
+      "department_name": "資訊工程學系",
+      "degree_level": "bachelor",
+      "entry_academic_year": "115",
+      "minimum_graduation_credits": 135,
+      "required_course_ratio": 60.74,
+      "source": {
+        "url": "https://selcrs.nsysu.edu.tw/stu_query/crs_mst_qry/crs_mst_query.asp?action=3&YY1=115&DPT1=B3040",
+        "retrieved_at": "2026-08-15T13:43:45Z",
+        "binary_sha256": "833f2b6e397476489d1b887e4e206d93b89c338ea4203a113c73da1e103852fb",
+        "http_status": 200,
+        "parser_version": "1.0.0"
+      }
+    },
+    {
+      "department_code": "B3090",
+      "department_name": "光電工程學系",
+      "degree_level": "bachelor",
+      "entry_academic_year": "115",
+      "minimum_graduation_credits": 134,
+      "required_course_ratio": 66.42,
+      "source": {
+        "url": "https://selcrs.nsysu.edu.tw/stu_query/crs_mst_qry/crs_mst_query.asp?action=3&YY1=115&DPT1=B3090",
+        "retrieved_at": "2026-08-15T13:43:45Z",
+        "binary_sha256": "0849b2175ad0a1b9ffd9d0b1c195e96986a47e4e02bd5a1fa3bfa97f2f98730b",
+        "http_status": 200,
+        "parser_version": "1.0.0"
+      }
+    },
+    {
+      "department_code": "B3100",
+      "department_name": "材料與光電科學學系",
+      "degree_level": "bachelor",
+      "entry_academic_year": "115",
+      "minimum_graduation_credits": 132,
+      "required_course_ratio": 68.18,
+      "source": {
+        "url": "https://selcrs.nsysu.edu.tw/stu_query/crs_mst_qry/crs_mst_query.asp?action=3&YY1=115&DPT1=B3100",
+        "retrieved_at": "2026-08-15T13:43:45Z",
+        "binary_sha256": "67e6962fd5d6ca7e46bca8f1129ea741a6ec413b2239bdf75177da506fb23ded",
+        "http_status": 200,
+        "parser_version": "1.0.0"
+      }
+    },
+    {
+      "department_code": "B3240",
+      "department_name": "資訊工程學系全英語學士班",
+      "degree_level": "bachelor",
+      "entry_academic_year": "115",
+      "minimum_graduation_credits": 135,
+      "required_course_ratio": 57.78,
+      "source": {
+        "url": "https://selcrs.nsysu.edu.tw/stu_query/crs_mst_qry/crs_mst_query.asp?action=3&YY1=115&DPT1=B3240",
+        "retrieved_at": "2026-08-15T13:43:45Z",
+        "binary_sha256": "2371c71b43d59a66991f1c184eae8a532c8aa9c3a33247354ecd20c593d55e6b",
+        "http_status": 200,
+        "parser_version": "1.0.0"
+      }
+    },
+    {
+      "department_code": "B4010",
+      "department_name": "企業管理學系",
+      "degree_level": "bachelor",
+      "entry_academic_year": "115",
+      "minimum_graduation_credits": 128,
+      "required_course_ratio": 61.72,
+      "source": {
+        "url": "https://selcrs.nsysu.edu.tw/stu_query/crs_mst_qry/crs_mst_query.asp?action=3&YY1=115&DPT1=B4010",
+        "retrieved_at": "2026-08-15T13:43:45Z",
+        "binary_sha256": "2e41d60983080112212414a38032412fb0a94d020e2da1ebebd7f37179b8eda5",
+        "http_status": 200,
+        "parser_version": "1.0.0"
+      }
+    },
+    {
+      "department_code": "B4020",
+      "department_name": "資訊管理學系",
+      "degree_level": "bachelor",
+      "entry_academic_year": "115",
+      "minimum_graduation_credits": 135,
+      "required_course_ratio": 67.41,
+      "source": {
+        "url": "https://selcrs.nsysu.edu.tw/stu_query/crs_mst_qry/crs_mst_query.asp?action=3&YY1=115&DPT1=B4020",
+        "retrieved_at": "2026-08-15T13:43:45Z",
+        "binary_sha256": "4c557cacbe44d6ae3d78e68a4d382ba105710c9eceec6cf1d3488fc8db575a4d",
+        "http_status": 200,
+        "parser_version": "1.0.0"
+      }
+    },
+    {
+      "department_code": "B4030",
+      "department_name": "財務管理學系",
+      "degree_level": "bachelor",
+      "entry_academic_year": "115",
+      "minimum_graduation_credits": 140,
+      "required_course_ratio": 65.0,
+      "source": {
+        "url": "https://selcrs.nsysu.edu.tw/stu_query/crs_mst_qry/crs_mst_query.asp?action=3&YY1=115&DPT1=B4030",
+        "retrieved_at": "2026-08-15T13:43:45Z",
+        "binary_sha256": "0235e0a39fe69d33a03a3dc58ae64e8d169db3a321c4e8de935cca87991fd119",
+        "http_status": 200,
+        "parser_version": "1.0.0"
+      }
+    },
+    {
+      "department_code": "B4610",
+      "department_name": "國際經營管理全英語學士學位學程",
+      "degree_level": "bachelor",
+      "entry_academic_year": "115",
+      "minimum_graduation_credits": 128,
+      "required_course_ratio": 51.56,
+      "source": {
+        "url": "https://selcrs.nsysu.edu.tw/stu_query/crs_mst_qry/crs_mst_query.asp?action=3&YY1=115&DPT1=B4610",
+        "retrieved_at": "2026-08-15T13:43:45Z",
+        "binary_sha256": "8a6019a6462c4ea77e892a5dc67cfff395065a945ff86df118721584368df241",
+        "http_status": 200,
+        "parser_version": "1.0.0"
+      }
+    },
+    {
+      "department_code": "B5020",
+      "department_name": "海洋生物科技暨資源學系",
+      "degree_level": "bachelor",
+      "entry_academic_year": "115",
+      "minimum_graduation_credits": 128,
+      "required_course_ratio": 52.34,
+      "source": {
+        "url": "https://selcrs.nsysu.edu.tw/stu_query/crs_mst_qry/crs_mst_query.asp?action=3&YY1=115&DPT1=B5020",
+        "retrieved_at": "2026-08-15T13:43:45Z",
+        "binary_sha256": "a21232d139448ecb93f5525a7d1daf3422339aa0752d92ca9b4743e9d9b33aff",
+        "http_status": 200,
+        "parser_version": "1.0.0"
+      }
+    },
+    {
+      "department_code": "B5040",
+      "department_name": "海洋環境及工程學系",
+      "degree_level": "bachelor",
+      "entry_academic_year": "115",
+      "minimum_graduation_credits": 128,
+      "required_course_ratio": 69.53,
+      "source": {
+        "url": "https://selcrs.nsysu.edu.tw/stu_query/crs_mst_qry/crs_mst_query.asp?action=3&YY1=115&DPT1=B5040",
+        "retrieved_at": "2026-08-15T13:43:45Z",
+        "binary_sha256": "ec90a20cf5145b215556138fefe91f0eaa695ffaeef140ee23363865768c2757",
+        "http_status": 200,
+        "parser_version": "1.0.0"
+      }
+    },
+    {
+      "department_code": "B5090",
+      "department_name": "海洋科學系",
+      "degree_level": "bachelor",
+      "entry_academic_year": "115",
+      "minimum_graduation_credits": 128,
+      "required_course_ratio": 51.56,
+      "source": {
+        "url": "https://selcrs.nsysu.edu.tw/stu_query/crs_mst_qry/crs_mst_query.asp?action=3&YY1=115&DPT1=B5090",
+        "retrieved_at": "2026-08-15T13:43:45Z",
+        "binary_sha256": "dae43df98a8d9291a3f2ffe87b71f554eba73647e4eb4f014799d963190c9a22",
+        "http_status": 200,
+        "parser_version": "1.0.0"
+      }
+    },
+    {
+      "department_code": "B6060",
+      "department_name": "政治經濟學系",
+      "degree_level": "bachelor",
+      "entry_academic_year": "115",
+      "minimum_graduation_credits": 136,
+      "required_course_ratio": 55.88,
+      "source": {
+        "url": "https://selcrs.nsysu.edu.tw/stu_query/crs_mst_qry/crs_mst_query.asp?action=3&YY1=115&DPT1=B6060",
+        "retrieved_at": "2026-08-15T13:43:45Z",
+        "binary_sha256": "54511b8004b50bcc886e41088092062f2578a758b10e87087d21c023a30bcab1",
+        "http_status": 200,
+        "parser_version": "1.0.0"
+      }
+    },
+    {
+      "department_code": "B6090",
+      "department_name": "社會學系",
+      "degree_level": "bachelor",
+      "entry_academic_year": "115",
+      "minimum_graduation_credits": 128,
+      "required_course_ratio": 46.09,
+      "source": {
+        "url": "https://selcrs.nsysu.edu.tw/stu_query/crs_mst_qry/crs_mst_query.asp?action=3&YY1=115&DPT1=B6090",
+        "retrieved_at": "2026-08-15T13:43:45Z",
+        "binary_sha256": "20928088bd373c22153fbd7c25a45b2a0135230f2a131e6a9d2e86fefe6bf6b8",
+        "http_status": 200,
+        "parser_version": "1.0.0"
+      }
+    },
+    {
+      "department_code": "B7020",
+      "department_name": "人文暨科技跨領域學系",
+      "degree_level": "bachelor",
+      "entry_academic_year": "115",
+      "minimum_graduation_credits": 128,
+      "required_course_ratio": 53.12,
+      "source": {
+        "url": "https://selcrs.nsysu.edu.tw/stu_query/crs_mst_qry/crs_mst_query.asp?action=3&YY1=115&DPT1=B7020",
+        "retrieved_at": "2026-08-15T13:43:45Z",
+        "binary_sha256": "94a0fbfcfb5a3dec4303396a8458b39f9203578b8f399e6d132211712b985a5e",
+        "http_status": 200,
+        "parser_version": "1.0.0"
+      }
+    },
+    {
+      "department_code": "B7620",
+      "department_name": "國際跨域學士學位學程原住民族專班",
+      "degree_level": "bachelor",
+      "entry_academic_year": "115",
+      "minimum_graduation_credits": 128,
+      "required_course_ratio": 47.66,
+      "source": {
+        "url": "https://selcrs.nsysu.edu.tw/stu_query/crs_mst_qry/crs_mst_query.asp?action=3&YY1=115&DPT1=B7620",
+        "retrieved_at": "2026-08-15T13:43:45Z",
+        "binary_sha256": "c8fe544f003e7bfe9a2436e92ef2cd4cf7eaa6963dd68ef831a3af820a76449b",
+        "http_status": 200,
+        "parser_version": "1.0.0"
+      }
+    },
+    {
+      "department_code": "B8010",
+      "department_name": "學士後醫學系",
+      "degree_level": "bachelor",
+      "entry_academic_year": "115",
+      "minimum_graduation_credits": 175,
+      "required_course_ratio": 97.71,
+      "source": {
+        "url": "https://selcrs.nsysu.edu.tw/stu_query/crs_mst_qry/crs_mst_query.asp?action=3&YY1=115&DPT1=B8010",
+        "retrieved_at": "2026-08-15T13:43:45Z",
+        "binary_sha256": "9441777ab955b82f7fa2a16005d224cd817cd1856a433925ea4c471abb47f61b",
+        "http_status": 200,
+        "parser_version": "1.0.0"
+      }
+    },
+    {
+      "department_code": "B8060",
+      "department_name": "生物醫學科技學系全英語學士班",
+      "degree_level": "bachelor",
+      "entry_academic_year": "115",
+      "minimum_graduation_credits": 128,
+      "required_course_ratio": 69.53,
+      "source": {
+        "url": "https://selcrs.nsysu.edu.tw/stu_query/crs_mst_qry/crs_mst_query.asp?action=3&YY1=115&DPT1=B8060",
+        "retrieved_at": "2026-08-15T13:43:45Z",
+        "binary_sha256": "abfbfa946fe8a6d883d09cea13b6fdf81f384666258ad2c3e00d905b20ef7a67",
+        "http_status": 200,
+        "parser_version": "1.0.0"
+      }
+    },
+    {
+      "department_code": "B8070",
+      "department_name": "護理學系",
+      "degree_level": "bachelor",
+      "entry_academic_year": "115",
+      "minimum_graduation_credits": 128,
+      "required_course_ratio": 89.84,
+      "source": {
+        "url": "https://selcrs.nsysu.edu.tw/stu_query/crs_mst_qry/crs_mst_query.asp?action=3&YY1=115&DPT1=B8070",
+        "retrieved_at": "2026-08-15T13:43:45Z",
+        "binary_sha256": "dc8705cd8322722d70913b687baae220b3717fee4890dc1e61e5e1c7e3753de6",
+        "http_status": 200,
+        "parser_version": "1.0.0"
+      }
+    }
+  ],
+  "unavailable_departments": [
+    {
+      "department_code": "B3080",
+      "department_name": "材料與光電工程學系",
+      "reason": "no requirement table for entry year"
+    },
+    {
+      "department_code": "B5610",
+      "department_name": "海洋科學學士學位學程",
+      "reason": "no requirement table for entry year"
+    },
+    {
+      "department_code": "B7610",
+      "department_name": "人文暨科技跨領域學士學位學程",
+      "reason": "no requirement table for entry year"
+    }
+  ],
+  "source": {
+    "index_url": "https://selcrs.nsysu.edu.tw/stu_query/crs_mst_qry/crs_mst_query_top.asp",
+    "index_binary_sha256": "c36b0918e29b611a580d0a4cdcd7f2b5ed35ec3eacf002f5280ca5282d7b7bfb",
+    "parser_version": "1.0.0"
+  }
+}

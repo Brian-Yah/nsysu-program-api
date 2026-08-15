@@ -2,12 +2,14 @@
   "schema_version": "1.0",
   "latest_academic_version": "115-1",
   "data_revision": 1,
-  "generated_at": "2026-08-15T13:03:43Z",
+  "generated_at": "2026-08-15T13:47:35Z",
   "program_count": 142,
   "active_program_count": 134,
   "paths": {
     "latest": "latest/programs.json",
     "schema": "schemas/program.schema.json",
-    "semester": "semesters/115-1/programs.json"
-  }
+    "semester": "semesters/115-1/programs.json",
+    "graduation_requirements": "graduation-requirements/index.json"
+  },
+  "graduation_requirement_department_count": 28
 }

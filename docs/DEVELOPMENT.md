@@ -11,9 +11,13 @@ python -m nsysu_program_api.cli --root . --academic-version 115-1 fetch
 python -m nsysu_program_api.cli --root . --academic-version 115-1 full
 python -m nsysu_program_api.cli --root . build
 python -m nsysu_program_api.cli --root . diff old.json new.json --output reports/diff.json
+python -m nsysu_program_api.cli --root . --entry-year 115 graduation-fetch
+python -m nsysu_program_api.cli --root . --entry-year 115 graduation-build
 ```
 
 先比較 URL、binary hash、normalized text hash，再審閱 extracted course/rule 差異。semantic diff 區分 catalog metadata 與內容 hash；PDF binary 變但 normalized text 不變時可判為版面／metadata 變動候選，仍保留證據。
+
+`graduation-fetch` 從公開必修科目表枚舉 `B` 開頭的學士班代碼，逐系讀取最低畢業學分；0 學分及該年度無表的舊制代碼只進 unavailable 清單。`graduation-build` 產生年度、latest、全量及單系端點，並清除單系目錄中已失效的舊 JSON。
 
 ## GitHub Actions and Pages
 

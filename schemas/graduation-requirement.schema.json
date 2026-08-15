@@ -1,0 +1,36 @@
+{
+  "$schema": "https://json-schema.org/draft/2020-12/schema",
+  "$id": "https://brian-yah.github.io/nsysu-program-api/api/v1/schemas/graduation-requirement.schema.json",
+  "title": "NSYSU Department Graduation Requirement",
+  "type": "object",
+  "required": [
+    "department_code",
+    "department_name",
+    "degree_level",
+    "entry_academic_year",
+    "minimum_graduation_credits",
+    "required_course_ratio",
+    "source"
+  ],
+  "properties": {
+    "department_code": {"type": "string", "pattern": "^B[A-Z0-9]{4}$"},
+    "department_name": {"type": "string", "minLength": 1},
+    "degree_level": {"const": "bachelor"},
+    "entry_academic_year": {"type": "string", "pattern": "^[0-9]{3}$"},
+    "minimum_graduation_credits": {"type": "integer", "minimum": 1},
+    "required_course_ratio": {"type": ["number", "null"], "minimum": 0, "maximum": 100},
+    "source": {
+      "type": "object",
+      "required": ["url", "retrieved_at", "binary_sha256", "http_status", "parser_version"],
+      "properties": {
+        "url": {"type": "string", "format": "uri"},
+        "retrieved_at": {"type": "string", "format": "date-time"},
+        "binary_sha256": {"type": "string", "pattern": "^[a-f0-9]{64}$"},
+        "http_status": {"type": "integer", "minimum": 100, "maximum": 599},
+        "parser_version": {"type": "string", "minLength": 1}
+      },
+      "additionalProperties": false
+    }
+  },
+  "additionalProperties": false
+}

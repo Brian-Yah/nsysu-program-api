@@ -1,0 +1,15 @@
+{
+  "schema_version": "1.0",
+  "latest_entry_academic_year": "115",
+  "degree_levels": [
+    "bachelor"
+  ],
+  "department_count": 28,
+  "paths": {
+    "latest_bachelor": "latest/bachelor.json",
+    "year_bachelor": "115/bachelor.json",
+    "department_template": "115/bachelor/{department_code}.json",
+    "requirement_schema": "../schemas/graduation-requirement.schema.json",
+    "collection_schema": "../schemas/graduation-requirements.schema.json"
+  }
+}
