@@ -18,6 +18,24 @@ for path in (root / "data/published").glob("*/*.json"):
         errors.append(f"{path}: duplicate program_id {data['program_id']}")
     ids.add(data.get("program_id"))
     errors.extend(f"{path}: {error.message}" for error in validator.iter_errors(data))
+    course_names = {
+        course.get("course_name_snapshot") for course in data.get("course_catalog", [])
+    }
+    constraint_ids = set()
+    constraints = data.get("structured_requirements", {}).get(
+        "course_count_constraints", []
+    )
+    for constraint in constraints:
+        constraint_id = constraint.get("constraint_id")
+        if constraint_id in constraint_ids:
+            errors.append(f"{path}: duplicate constraint_id {constraint_id}")
+        constraint_ids.add(constraint_id)
+        names = constraint.get("course_names", [])
+        if constraint.get("max_courses", 0) > len(names):
+            errors.append(f"{path}: {constraint_id} max_courses exceeds course_names")
+        missing = sorted(set(names) - course_names)
+        if missing:
+            errors.append(f"{path}: {constraint_id} references missing courses {missing}")
 if errors:
     print("\n".join(errors))
     sys.exit(1)

@@ -19,7 +19,7 @@ from urllib.parse import urljoin
 
 CATALOG_URL = "https://ctdr.nsysu.edu.tw/class2.php"
 SCHEMA_VERSION = "1.0"
-PARSER_VERSION = "0.1.1"
+PARSER_VERSION = "0.2.1"
 NAMESPACE = uuid.UUID("a441fd7d-a05f-4f28-8bb7-7ccbdd0a6cab")
 TYPE_NAMES = {
     0: "integrated_program",
@@ -282,10 +282,182 @@ def _evidence_key(value: str) -> str:
     return re.sub(r"[\s\W_]+", "", unicodedata.normalize("NFKC", value)).casefold()
 
 
+MAX_COURSE_COUNT_PATTERN = re.compile(
+    r"至多\s*採認\s*(?P<count>[一二三四五六七八九十\d]+)\s*科"
+)
+COUNT_TEXT_VALUES = {
+    "一": 1,
+    "二": 2,
+    "三": 3,
+    "四": 4,
+    "五": 5,
+    "六": 6,
+    "七": 7,
+    "八": 8,
+    "九": 9,
+    "十": 10,
+}
+
+
+def _course_count(value: str) -> int | None:
+    if value.isdigit():
+        return int(value)
+    return COUNT_TEXT_VALUES.get(value)
+
+
+def extract_course_count_constraints(
+    page_text: str, courses: list[dict], source_page: int
+) -> list[dict]:
+    """Extract explicit 'at most N courses count' rules from nearby PDF text."""
+    lines = [line.strip() for line in page_text.splitlines() if line.strip()]
+    constraints: list[dict] = []
+    seen: set[tuple[tuple[str, ...], int]] = set()
+    for end_index in range(len(lines)):
+        marker_window = "".join(lines[max(0, end_index - 1) : end_index + 1])
+        if not MAX_COURSE_COUNT_PATTERN.search(marker_window):
+            continue
+        if end_index > 0 and MAX_COURSE_COUNT_PATTERN.search(lines[end_index - 1]):
+            continue
+        marker_start = (
+            end_index
+            if MAX_COURSE_COUNT_PATTERN.search(lines[end_index])
+            else end_index - 1
+        )
+        fragments = lines[marker_start : end_index + 1]
+        for index in range(marker_start - 1, max(-1, marker_start - 13), -1):
+            previous = lines[index]
+            if "開課單位" in previous.replace(" ", "") or re.fullmatch(r"\d+", previous):
+                break
+            previous_marker_window = "".join(lines[index : min(len(lines), index + 2)])
+            if (
+                index + 1 < marker_start
+                and MAX_COURSE_COUNT_PATTERN.search(previous_marker_window)
+            ):
+                break
+            row_match = re.match(
+                r"^.*?\s\d+(?:\.5)?(?:\s+(?P<note>.+))?$", previous
+            )
+            if row_match:
+                trailing_note = row_match.group("note")
+                if trailing_note:
+                    fragments.insert(0, trailing_note)
+                continue
+            fragments.insert(0, previous)
+        note_fragments = []
+        for fragment in fragments:
+            row_match = re.match(
+                r"^.*?\s\d+(?:\.5)?(?:\s+(?P<note>.+))?$", fragment
+            )
+            if not row_match:
+                note_fragments.append(fragment)
+            elif row_match.group("note"):
+                note_fragments.append(row_match.group("note"))
+        source_text = _join_wrapped_text("\n".join(note_fragments))
+        marker = MAX_COURSE_COUNT_PATTERN.search(source_text)
+        if not marker:
+            continue
+        source_text = source_text[: marker.end()].rstrip("。") + "。"
+        max_courses = _course_count(marker.group("count"))
+        if max_courses is None:
+            continue
+
+        source_key = _evidence_key(source_text)
+        course_names = list(
+            dict.fromkeys(
+                course["course_name_snapshot"]
+                for course in courses
+                if _evidence_key(course["course_name_snapshot"]) in source_key
+            )
+        )
+        if len(course_names) < 2:
+            continue
+        dedupe_key = (tuple(course_names), max_courses)
+        if dedupe_key in seen:
+            continue
+        seen.add(dedupe_key)
+        positions = [source_text.find(name) for name in course_names if name in source_text]
+        if positions:
+            source_text = source_text[min(positions) :]
+
+        groups = {
+            course.get("requirement_group", "unspecified")
+            for course in courses
+            if course["course_name_snapshot"] in course_names
+        }
+        requirement_group = groups.pop() if len(groups) == 1 else "unspecified"
+        identity = "|".join([str(source_page), str(max_courses), *course_names])
+        constraints.append(
+            {
+                "constraint_id": f"constraint_{sha256(identity.encode())[:16]}",
+                "kind": "max_courses",
+                "course_names": course_names,
+                "max_courses": max_courses,
+                "requirement_group": requirement_group,
+                "source_page": source_page,
+                "source_text": source_text,
+                "validation_status": "source_text_match",
+            }
+        )
+    return constraints
+
+
+def _consolidate_course_count_constraints(constraints: list[dict]) -> list[dict]:
+    ordered = sorted(
+        constraints,
+        key=lambda item: (
+            -len(item["course_names"]),
+            len(item["source_text"]),
+            item["source_page"],
+        ),
+    )
+    kept: list[dict] = []
+    for constraint in ordered:
+        names = set(constraint["course_names"])
+        if any(
+            names <= set(existing["course_names"])
+            and constraint["max_courses"] == existing["max_courses"]
+            and constraint["requirement_group"] == existing["requirement_group"]
+            for existing in kept
+        ):
+            continue
+        kept.append(constraint)
+    return sorted(kept, key=lambda item: (item["source_page"], item["constraint_id"]))
+
+
+def _attach_constraint_notes(courses: list[dict], constraints: list[dict]) -> None:
+    for constraint in constraints:
+        names = set(constraint["course_names"])
+        note = constraint["source_text"]
+        for course in courses:
+            if (
+                course.get("course_name_snapshot") in names
+                and note not in course.get("notes", "")
+            ):
+                course["notes"] = " ".join(
+                    value for value in (course.get("notes", ""), note) if value
+                )
+
+
+def apply_course_count_constraints(
+    page_text: str, courses: list[dict], requirements: dict, source_page: int
+) -> list[dict]:
+    """Add normalized constraints and preserve their source text on affected courses."""
+    constraints = extract_course_count_constraints(page_text, courses, source_page)
+    if not constraints:
+        return []
+    merged = _consolidate_course_count_constraints(
+        [*requirements.get("course_count_constraints", []), *constraints]
+    )
+    requirements["course_count_constraints"] = merged
+    _attach_constraint_notes(courses, merged)
+    return constraints
+
+
 def extract_pdf_tables(pdf_path: Path) -> tuple[list[dict], list[str]]:
     """Extract versioned course tables from native PDF geometry."""
     warnings: list[str] = []
     versions: dict[str, dict] = {}
+    version_pages: dict[str, list[tuple[int, str]]] = {}
     current_version = "unknown"
     current_group: str | None = None
     try:
@@ -313,6 +485,7 @@ def extract_pdf_tables(pdf_path: Path) -> tuple[list[dict], list[str]]:
                         },
                     },
                 )
+                version_pages.setdefault(current_version, []).append((page_number, page_text))
                 version["source_pages"].append(page_number)
                 totals = [
                     int(value)
@@ -424,7 +597,16 @@ def extract_pdf_tables(pdf_path: Path) -> tuple[list[dict], list[str]]:
     except Exception as exc:
         return [], [f"pdf_table_extract_error: {type(exc).__name__}: {exc}"]
     result = list(versions.values())
-    for version in result:
+    for version_key, version in versions.items():
+        extracted_constraints = []
+        for page_number, page_text in version_pages.get(version_key, []):
+            extracted_constraints.extend(
+                extract_course_count_constraints(page_text, version["courses"], page_number)
+            )
+        if extracted_constraints:
+            consolidated = _consolidate_course_count_constraints(extracted_constraints)
+            version["requirements"]["course_count_constraints"] = consolidated
+            _attach_constraint_notes(version["courses"], consolidated)
         unique = []
         seen = set()
         for course in version["courses"]:
@@ -448,6 +630,9 @@ def extract_pdf_tables(pdf_path: Path) -> tuple[list[dict], list[str]]:
                 "evidence_matched_count": sum(c["evidence_match"] for c in unique),
             }
         )
+        constraint_count = len(version["requirements"].get("course_count_constraints", []))
+        if constraint_count:
+            version["audit"]["course_count_constraints_extracted"] = constraint_count
     if not any(version["courses"] for version in result):
         warnings.append("No structured course rows extracted from PDF tables")
     return result, warnings

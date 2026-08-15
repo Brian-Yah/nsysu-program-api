@@ -61,6 +61,8 @@ curl -fsSL https://brian-yah.github.io/nsysu-program-api/api/v1/graduation-requi
 
 ClearGrad 或其他 consumer 應固定 academic version 或 release、檢查 manifest/schema version、在自己的 CDN 或本地快取，且先審核差異再更新。`latest` 不是核准訊號。遇到 `needs_review`，UI 應顯示「需人工確認」，不得宣稱學生不符合。
 
+若 `structured_requirements.course_count_constraints` 存在，consumer 必須依其中的 `course_names` 建立同一採計群組，且採計門數不得超過 `max_courses`。例如金融工程學程的線性代數、線性代數(一)、線性代數(二)三門皆列在 catalog，但 `max_courses: 1`，因此最多只能貢獻一門課的學分；`notes` 供顯示，結構化 constraint 才是計算依據。
+
 初次設定最低畢業學分時，consumer 應以「入學年度＋學制＋校方系所代碼」查詢。例如 `B4020` 是資訊管理學系；115 學年度端點回傳 `minimum_graduation_credits: 135`。若查無系所或來源暫時不可用，UI 應要求使用者確認或手動輸入，不得靜默回退成 128。
 
 ## 完成度 evaluator

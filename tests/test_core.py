@@ -2,6 +2,8 @@ from nsysu_program_api.core import (
     Fetcher,
     _join_wrapped_text,
     _split_units,
+    apply_course_count_constraints,
+    extract_course_count_constraints,
     extractor_versions,
     normalize_text,
     parse_catalog,
@@ -69,3 +71,71 @@ def test_extractor_versions_are_explicit():
     versions = extractor_versions()
     assert set(versions) == {"pypdf", "pdfplumber"}
     assert versions["pypdf"] is not None
+
+
+def test_extracts_max_one_course_constraint_and_preserves_notes():
+    courses = [
+        {
+            "course_name_snapshot": name,
+            "requirement_group": "core",
+            "source_page": 1,
+            "notes": "",
+        }
+        for name in ("線性代數", "線性代數(一)", "線性代數(二)")
+    ]
+    page_text = """開課單位 課程名稱 學分數 備註
+線性代數、線性代數 (一) 、線性代數 (二) 等
+校內各系 線性代數 3
+課程至多採認一科。
+線性代數、線性代數 (一) 、線性代數 (二) 等
+校內各系 線性代數(一) 3
+課程至多採認一科。"""
+
+    constraints = extract_course_count_constraints(page_text, courses, 1)
+    assert len(constraints) == 1
+    assert constraints[0]["kind"] == "max_courses"
+    assert constraints[0]["course_names"] == [
+        "線性代數",
+        "線性代數(一)",
+        "線性代數(二)",
+    ]
+    assert constraints[0]["max_courses"] == 1
+    assert constraints[0]["validation_status"] == "source_text_match"
+
+    requirements = {}
+    apply_course_count_constraints(page_text, courses, requirements, 1)
+    assert requirements["course_count_constraints"][0]["max_courses"] == 1
+    assert all("至多採認一科" in course["notes"] for course in courses)
+
+
+def test_course_count_constraint_requires_multiple_matching_courses():
+    courses = [
+        {
+            "course_name_snapshot": "線性代數",
+            "requirement_group": "core",
+            "source_page": 1,
+            "notes": "",
+        }
+    ]
+    page_text = "校內各系 線性代數 3\n線性代數課程至多採認一科。"
+    assert extract_course_count_constraints(page_text, courses, 1) == []
+
+
+def test_course_count_constraint_can_reference_courses_across_pdf_pages():
+    names = ("財務管理", "財務管理(一)", "財務管理(二)", "財務管理概論", "財務管理理論")
+    courses = [
+        {
+            "course_name_snapshot": name,
+            "requirement_group": "core",
+            "source_page": 1 if index < 2 else 2,
+            "notes": "",
+        }
+        for index, name in enumerate(names)
+    ]
+    page_text = """財務管理、財務管理(一)、財務管理(二)、
+校內各系 財務管理 3 財務管理概論、財務管理理論等課程至多採認
+一科。"""
+
+    constraints = extract_course_count_constraints(page_text, courses, 1)
+    assert constraints[0]["course_names"] == list(names)
+    assert constraints[0]["max_courses"] == 1

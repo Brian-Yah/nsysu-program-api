@@ -44,7 +44,18 @@
       "type": "array",
       "items": {"$ref": "#/$defs/extractedCourse"}
     },
-    "structured_requirements": {"type": "object"}
+    "structured_requirements": {
+      "type": "object",
+      "properties": {
+        "minimum_total_credits": {"type": "number", "minimum": 0},
+        "core_credits_text_value": {"type": "number", "minimum": 0},
+        "minimum_outside_home_department_credits": {"type": "number", "minimum": 0},
+        "course_count_constraints": {
+          "type": "array",
+          "items": {"$ref": "#/$defs/courseCountConstraint"}
+        }
+      }
+    }
   },
   "$defs": {
     "extractedCourse": {
@@ -62,6 +73,25 @@
         "evidence_match": {"type": "boolean"},
         "validation_status": {"enum": ["verified", "needs_course_code_verification", "manual_review"]},
         "uncertainty_reason": {"type": ["string", "null"]}
+      }
+    },
+    "courseCountConstraint": {
+      "type": "object",
+      "required": ["constraint_id", "kind", "course_names", "max_courses", "requirement_group", "source_page", "source_text", "validation_status"],
+      "properties": {
+        "constraint_id": {"type": "string", "pattern": "^constraint_[a-f0-9]{16}$"},
+        "kind": {"const": "max_courses"},
+        "course_names": {
+          "type": "array",
+          "items": {"type": "string", "minLength": 1},
+          "minItems": 2,
+          "uniqueItems": true
+        },
+        "max_courses": {"type": "integer", "minimum": 1},
+        "requirement_group": {"enum": ["core", "elective", "unspecified"]},
+        "source_page": {"type": "integer", "minimum": 1},
+        "source_text": {"type": "string", "minLength": 1},
+        "validation_status": {"const": "source_text_match"}
       }
     },
     "courseRef": {

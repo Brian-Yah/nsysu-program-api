@@ -6,6 +6,8 @@
 
 PDF 文字與表格擷取套件使用精確版本 pin，且每筆來源保存 `extractor_versions`。更新 pypdf 或 pdfplumber 時必須另開資料維護 PR、全量比較 binary/text hash，避免把工具輸出差異誤報為官方資料異動。
 
+Parser 會把「至多採認 N 科」明文轉為 `course_count_constraints`，並處理備註欄與課程列交錯或跨頁的情況。修改這段邏輯時須以 `extract-cache` 對全部 PDF 重抽，確認 constraint 所列課名都存在於同版 `course_catalog`，且不得僅手改發布 JSON。
+
 ```bash
 python -m nsysu_program_api.cli --root . --academic-version 115-1 fetch
 python -m nsysu_program_api.cli --root . --academic-version 115-1 full
