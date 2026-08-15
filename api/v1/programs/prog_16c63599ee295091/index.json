@@ -29,7 +29,11 @@
         "last_modified": "Tue, 23 Dec 2025 06:59:32 GMT",
         "content_length": 255096
       },
-      "parser_version": "0.1.0"
+      "parser_version": "0.1.0",
+      "extractor_versions": {
+        "pypdf": "6.10.0",
+        "pdfplumber": "0.11.9"
+      }
     },
     "review_status": "needs_review",
     "rules": {

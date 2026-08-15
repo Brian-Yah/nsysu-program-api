@@ -24,7 +24,15 @@
         "pdf_binary_sha256": {"type": ["string", "null"], "pattern": "^[a-f0-9]{64}$"},
         "normalized_text_sha256": {"type": ["string", "null"], "pattern": "^[a-f0-9]{64}$"},
         "http": {"type": "object"},
-        "parser_version": {"type": "string"}
+        "parser_version": {"type": "string"},
+        "extractor_versions": {
+          "type": "object",
+          "required": ["pypdf", "pdfplumber"],
+          "properties": {
+            "pypdf": {"type": ["string", "null"]},
+            "pdfplumber": {"type": ["string", "null"]}
+          }
+        }
       }
     },
     "rules": {"$ref": "#/$defs/rule"},

@@ -12,6 +12,7 @@ from .core import (
     extract_candidate,
     extract_pdf_tables,
     extract_pdf_text,
+    extractor_versions,
     load_json,
     now_iso,
     parse_catalog,
@@ -59,6 +60,7 @@ def process_pdfs(root: Path, catalog: dict, user_agent: str, reuse_cache: bool =
     cache.mkdir(parents=True, exist_ok=True)
     stats = Counter()
     failures = []
+    runtime_extractors = extractor_versions()
     for program in catalog["programs"]:
         if not program.get("coordinator") and "\n" in (program.get("responsible_unit") or ""):
             program["responsible_unit"], program["coordinator"] = split_responsible(
@@ -92,6 +94,7 @@ def process_pdfs(root: Path, catalog: dict, user_agent: str, reuse_cache: bool =
             rule_versions, table_warnings = extract_pdf_tables(pdf_path)
             warnings.extend(table_warnings)
             source = program["source"]
+            source["extractor_versions"] = runtime_extractors
             source["pdf_binary_sha256"] = digest
             source["http"] = {
                 "status": response_status,

@@ -4,6 +4,8 @@
 
 `fetch` 動態解析四張學程表；`full` 再下載公開 PDF、計算 binary hash、用 pypdf 原生取字、對低品質文件標記 OCR 待辦、產生 extracted candidates、報告及 static API。OCR optional dependencies 存在，但排程不會因沒有 OCR 或模型 key 失敗。
 
+PDF 文字與表格擷取套件使用精確版本 pin，且每筆來源保存 `extractor_versions`。更新 pypdf 或 pdfplumber 時必須另開資料維護 PR、全量比較 binary/text hash，避免把工具輸出差異誤報為官方資料異動。
+
 ```bash
 python -m nsysu_program_api.cli --root . --academic-version 115-1 fetch
 python -m nsysu_program_api.cli --root . --academic-version 115-1 full

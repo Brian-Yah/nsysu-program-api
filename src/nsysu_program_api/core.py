@@ -1,6 +1,7 @@
 from __future__ import annotations
 
 import hashlib
+import importlib.metadata
 import json
 import os
 import re
@@ -34,6 +35,17 @@ def now_iso() -> str:
 
 def sha256(data: bytes) -> str:
     return hashlib.sha256(data).hexdigest()
+
+
+def extractor_versions() -> dict[str, str | None]:
+    """Record exact PDF toolchain versions used to produce normalized output."""
+    versions: dict[str, str | None] = {}
+    for package in ("pypdf", "pdfplumber"):
+        try:
+            versions[package] = importlib.metadata.version(package)
+        except importlib.metadata.PackageNotFoundError:
+            versions[package] = None
+    return versions
 
 
 def normalize_text(text: str) -> str:

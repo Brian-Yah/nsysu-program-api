@@ -39,7 +39,11 @@
           "last_modified": "Tue, 23 Dec 2025 07:00:52 GMT",
           "content_length": 425077
         },
-        "parser_version": "0.1.0"
+        "parser_version": "0.1.0",
+        "extractor_versions": {
+          "pypdf": "6.10.0",
+          "pdfplumber": "0.11.9"
+        }
       },
       "review_status": "needs_review",
       "rules": {
@@ -1595,7 +1599,11 @@
           "last_modified": "Tue, 27 May 2025 02:20:01 GMT",
           "content_length": 239907
         },
-        "parser_version": "0.1.0"
+        "parser_version": "0.1.0",
+        "extractor_versions": {
+          "pypdf": "6.10.0",
+          "pdfplumber": "0.11.9"
+        }
       },
       "review_status": "needs_review",
       "rules": {
@@ -2579,7 +2587,11 @@
           "last_modified": "Tue, 23 Dec 2025 07:04:14 GMT",
           "content_length": 161762
         },
-        "parser_version": "0.1.0"
+        "parser_version": "0.1.0",
+        "extractor_versions": {
+          "pypdf": "6.10.0",
+          "pdfplumber": "0.11.9"
+        }
       },
       "review_status": "needs_review",
       "rules": {
@@ -2882,7 +2894,11 @@
           "last_modified": "Fri, 31 May 2024 06:56:01 GMT",
           "content_length": 368262
         },
-        "parser_version": "0.1.0"
+        "parser_version": "0.1.0",
+        "extractor_versions": {
+          "pypdf": "6.10.0",
+          "pdfplumber": "0.11.9"
+        }
       },
       "review_status": "needs_review",
       "rules": {
@@ -3542,7 +3558,11 @@
           "last_modified": "Tue, 23 Dec 2025 06:56:05 GMT",
           "content_length": 360369
         },
-        "parser_version": "0.1.0"
+        "parser_version": "0.1.0",
+        "extractor_versions": {
+          "pypdf": "6.10.0",
+          "pdfplumber": "0.11.9"
+        }
       },
       "review_status": "needs_review",
       "rules": {
@@ -3885,7 +3905,11 @@
           "last_modified": "Wed, 01 Jul 2026 06:12:16 GMT",
           "content_length": 268503
         },
-        "parser_version": "0.1.0"
+        "parser_version": "0.1.0",
+        "extractor_versions": {
+          "pypdf": "6.10.0",
+          "pdfplumber": "0.11.9"
+        }
       },
       "review_status": "needs_review",
       "rules": {
@@ -4842,7 +4866,11 @@
           "last_modified": "Mon, 12 Jun 2023 01:36:34 GMT",
           "content_length": 272010
         },
-        "parser_version": "0.1.0"
+        "parser_version": "0.1.0",
+        "extractor_versions": {
+          "pypdf": "6.10.0",
+          "pdfplumber": "0.11.9"
+        }
       },
       "review_status": "needs_review",
       "rules": {
@@ -5803,7 +5831,11 @@
           "last_modified": "Tue, 24 Dec 2024 07:14:19 GMT",
           "content_length": 106599
         },
-        "parser_version": "0.1.0"
+        "parser_version": "0.1.0",
+        "extractor_versions": {
+          "pypdf": "6.10.0",
+          "pdfplumber": "0.11.9"
+        }
       },
       "review_status": "needs_review",
       "rules": {
@@ -6027,7 +6059,11 @@
           "last_modified": "Tue, 24 Dec 2024 07:14:40 GMT",
           "content_length": 129464
         },
-        "parser_version": "0.1.0"
+        "parser_version": "0.1.0",
+        "extractor_versions": {
+          "pypdf": "6.10.0",
+          "pdfplumber": "0.11.9"
+        }
       },
       "review_status": "needs_review",
       "rules": {
@@ -6223,7 +6259,11 @@
           "last_modified": "Fri, 31 May 2024 07:22:27 GMT",
           "content_length": 153509
         },
-        "parser_version": "0.1.0"
+        "parser_version": "0.1.0",
+        "extractor_versions": {
+          "pypdf": "6.10.0",
+          "pdfplumber": "0.11.9"
+        }
       },
       "review_status": "needs_review",
       "rules": {
@@ -6492,7 +6532,11 @@
           "last_modified": "Mon, 12 Jun 2023 01:35:47 GMT",
           "content_length": 180680
         },
-        "parser_version": "0.1.0"
+        "parser_version": "0.1.0",
+        "extractor_versions": {
+          "pypdf": "6.10.0",
+          "pdfplumber": "0.11.9"
+        }
       },
       "review_status": "needs_review",
       "rules": {
@@ -6854,7 +6898,11 @@
           "last_modified": "Tue, 24 Dec 2024 07:14:58 GMT",
           "content_length": 87588
         },
-        "parser_version": "0.1.0"
+        "parser_version": "0.1.0",
+        "extractor_versions": {
+          "pypdf": "6.10.0",
+          "pdfplumber": "0.11.9"
+        }
       },
       "review_status": "needs_review",
       "rules": {
@@ -7138,7 +7186,11 @@
           "last_modified": "Fri, 31 May 2024 07:15:51 GMT",
           "content_length": 216441
         },
-        "parser_version": "0.1.0"
+        "parser_version": "0.1.0",
+        "extractor_versions": {
+          "pypdf": "6.10.0",
+          "pdfplumber": "0.11.9"
+        }
       },
       "review_status": "needs_review",
       "rules": {
@@ -7652,7 +7704,11 @@
           "last_modified": "Wed, 01 Jul 2026 06:05:03 GMT",
           "content_length": 238137
         },
-        "parser_version": "0.1.0"
+        "parser_version": "0.1.0",
+        "extractor_versions": {
+          "pypdf": "6.10.0",
+          "pdfplumber": "0.11.9"
+        }
       },
       "review_status": "needs_review",
       "rules": {
@@ -8086,7 +8142,11 @@
           "last_modified": "Wed, 01 Jul 2026 06:12:39 GMT",
           "content_length": 517899
         },
-        "parser_version": "0.1.0"
+        "parser_version": "0.1.0",
+        "extractor_versions": {
+          "pypdf": "6.10.0",
+          "pdfplumber": "0.11.9"
+        }
       },
       "review_status": "needs_review",
       "rules": {
@@ -10738,7 +10798,11 @@
           "last_modified": "Tue, 23 Dec 2025 06:57:00 GMT",
           "content_length": 240337
         },
-        "parser_version": "0.1.0"
+        "parser_version": "0.1.0",
+        "extractor_versions": {
+          "pypdf": "6.10.0",
+          "pdfplumber": "0.11.9"
+        }
       },
       "review_status": "needs_review",
       "rules": {
@@ -11276,7 +11340,11 @@
           "last_modified": "Mon, 12 Jun 2023 01:34:29 GMT",
           "content_length": 170132
         },
-        "parser_version": "0.1.0"
+        "parser_version": "0.1.0",
+        "extractor_versions": {
+          "pypdf": "6.10.0",
+          "pdfplumber": "0.11.9"
+        }
       },
       "review_status": "needs_review",
       "rules": {
@@ -11740,7 +11808,11 @@
           "last_modified": "Mon, 12 Jun 2023 01:34:17 GMT",
           "content_length": 170076
         },
-        "parser_version": "0.1.0"
+        "parser_version": "0.1.0",
+        "extractor_versions": {
+          "pypdf": "6.10.0",
+          "pdfplumber": "0.11.9"
+        }
       },
       "review_status": "needs_review",
       "rules": {
@@ -12129,7 +12201,11 @@
           "last_modified": "Mon, 12 Jun 2023 01:34:04 GMT",
           "content_length": 319399
         },
-        "parser_version": "0.1.0"
+        "parser_version": "0.1.0",
+        "extractor_versions": {
+          "pypdf": "6.10.0",
+          "pdfplumber": "0.11.9"
+        }
       },
       "review_status": "needs_review",
       "rules": {
@@ -12788,7 +12864,11 @@
           "last_modified": "Tue, 24 Dec 2024 07:15:43 GMT",
           "content_length": 137495
         },
-        "parser_version": "0.1.0"
+        "parser_version": "0.1.0",
+        "extractor_versions": {
+          "pypdf": "6.10.0",
+          "pdfplumber": "0.11.9"
+        }
       },
       "review_status": "needs_review",
       "rules": {
@@ -13387,7 +13467,11 @@
           "last_modified": "Tue, 27 May 2025 02:09:55 GMT",
           "content_length": 268141
         },
-        "parser_version": "0.1.0"
+        "parser_version": "0.1.0",
+        "extractor_versions": {
+          "pypdf": "6.10.0",
+          "pdfplumber": "0.11.9"
+        }
       },
       "review_status": "needs_review",
       "rules": {
@@ -14179,7 +14263,11 @@
           "last_modified": "Tue, 24 Dec 2024 07:16:01 GMT",
           "content_length": 170555
         },
-        "parser_version": "0.1.0"
+        "parser_version": "0.1.0",
+        "extractor_versions": {
+          "pypdf": "6.10.0",
+          "pdfplumber": "0.11.9"
+        }
       },
       "review_status": "needs_review",
       "rules": {
@@ -15214,7 +15302,11 @@
           "last_modified": "Wed, 20 Dec 2023 02:33:51 GMT",
           "content_length": 354370
         },
-        "parser_version": "0.1.0"
+        "parser_version": "0.1.0",
+        "extractor_versions": {
+          "pypdf": "6.10.0",
+          "pdfplumber": "0.11.9"
+        }
       },
       "review_status": "needs_review",
       "rules": {
@@ -15841,7 +15933,11 @@
           "last_modified": "Tue, 09 Jan 2024 03:50:30 GMT",
           "content_length": 307980
         },
-        "parser_version": "0.1.0"
+        "parser_version": "0.1.0",
+        "extractor_versions": {
+          "pypdf": "6.10.0",
+          "pdfplumber": "0.11.9"
+        }
       },
       "review_status": "needs_review",
       "rules": {
@@ -16948,7 +17044,11 @@
           "last_modified": "Tue, 24 Dec 2024 07:16:28 GMT",
           "content_length": 121725
         },
-        "parser_version": "0.1.0"
+        "parser_version": "0.1.0",
+        "extractor_versions": {
+          "pypdf": "6.10.0",
+          "pdfplumber": "0.11.9"
+        }
       },
       "review_status": "needs_review",
       "rules": {
@@ -17322,7 +17422,11 @@
           "last_modified": "Tue, 24 Dec 2024 07:16:46 GMT",
           "content_length": 134897
         },
-        "parser_version": "0.1.0"
+        "parser_version": "0.1.0",
+        "extractor_versions": {
+          "pypdf": "6.10.0",
+          "pdfplumber": "0.11.9"
+        }
       },
       "review_status": "needs_review",
       "rules": {
@@ -17591,7 +17695,11 @@
           "last_modified": "Wed, 01 Jul 2026 06:07:18 GMT",
           "content_length": 323851
         },
-        "parser_version": "0.1.0"
+        "parser_version": "0.1.0",
+        "extractor_versions": {
+          "pypdf": "6.10.0",
+          "pdfplumber": "0.11.9"
+        }
       },
       "review_status": "needs_review",
       "rules": {
@@ -18340,7 +18448,11 @@
           "last_modified": "Tue, 24 Dec 2024 07:23:03 GMT",
           "content_length": 107184
         },
-        "parser_version": "0.1.0"
+        "parser_version": "0.1.0",
+        "extractor_versions": {
+          "pypdf": "6.10.0",
+          "pdfplumber": "0.11.9"
+        }
       },
       "review_status": "needs_review",
       "rules": {
@@ -18729,7 +18841,11 @@
           "last_modified": "Fri, 31 May 2024 06:30:03 GMT",
           "content_length": 248541
         },
-        "parser_version": "0.1.0"
+        "parser_version": "0.1.0",
+        "extractor_versions": {
+          "pypdf": "6.10.0",
+          "pdfplumber": "0.11.9"
+        }
       },
       "review_status": "needs_review",
       "rules": {
@@ -19223,7 +19339,11 @@
           "last_modified": "Tue, 24 Dec 2024 07:23:23 GMT",
           "content_length": 172519
         },
-        "parser_version": "0.1.0"
+        "parser_version": "0.1.0",
+        "extractor_versions": {
+          "pypdf": "6.10.0",
+          "pdfplumber": "0.11.9"
+        }
       },
       "review_status": "needs_review",
       "rules": {
@@ -20091,7 +20211,11 @@
           "last_modified": "Wed, 20 Dec 2023 02:19:56 GMT",
           "content_length": 219953
         },
-        "parser_version": "0.1.0"
+        "parser_version": "0.1.0",
+        "extractor_versions": {
+          "pypdf": "6.10.0",
+          "pdfplumber": "0.11.9"
+        }
       },
       "review_status": "needs_review",
       "rules": {
@@ -20540,7 +20664,11 @@
           "last_modified": "Tue, 23 Dec 2025 06:59:32 GMT",
           "content_length": 255096
         },
-        "parser_version": "0.1.0"
+        "parser_version": "0.1.0",
+        "extractor_versions": {
+          "pypdf": "6.10.0",
+          "pdfplumber": "0.11.9"
+        }
       },
       "review_status": "needs_review",
       "rules": {
@@ -20959,7 +21087,11 @@
           "last_modified": "Tue, 24 Dec 2024 07:26:46 GMT",
           "content_length": 123519
         },
-        "parser_version": "0.1.0"
+        "parser_version": "0.1.0",
+        "extractor_versions": {
+          "pypdf": "6.10.0",
+          "pdfplumber": "0.11.9"
+        }
       },
       "review_status": "needs_review",
       "rules": {
@@ -21228,7 +21360,11 @@
           "last_modified": "Mon, 12 Jun 2023 01:22:32 GMT",
           "content_length": 185762
         },
-        "parser_version": "0.1.0"
+        "parser_version": "0.1.0",
+        "extractor_versions": {
+          "pypdf": "6.10.0",
+          "pdfplumber": "0.11.9"
+        }
       },
       "review_status": "needs_review",
       "rules": {
@@ -21542,7 +21678,11 @@
           "last_modified": "Fri, 31 May 2024 06:25:57 GMT",
           "content_length": 188061
         },
-        "parser_version": "0.1.0"
+        "parser_version": "0.1.0",
+        "extractor_versions": {
+          "pypdf": "6.10.0",
+          "pdfplumber": "0.11.9"
+        }
       },
       "review_status": "needs_review",
       "rules": {
@@ -21826,7 +21966,11 @@
           "last_modified": "Tue, 23 Dec 2025 06:48:54 GMT",
           "content_length": 261323
         },
-        "parser_version": "0.1.0"
+        "parser_version": "0.1.0",
+        "extractor_versions": {
+          "pypdf": "6.10.0",
+          "pdfplumber": "0.11.9"
+        }
       },
       "review_status": "needs_review",
       "rules": {
@@ -22351,7 +22495,11 @@
           "last_modified": "Tue, 23 Dec 2025 06:52:25 GMT",
           "content_length": 225501
         },
-        "parser_version": "0.1.0"
+        "parser_version": "0.1.0",
+        "extractor_versions": {
+          "pypdf": "6.10.0",
+          "pdfplumber": "0.11.9"
+        }
       },
       "review_status": "needs_review",
       "rules": {
@@ -22800,7 +22948,11 @@
           "last_modified": "Tue, 24 Dec 2024 07:27:10 GMT",
           "content_length": 129021
         },
-        "parser_version": "0.1.0"
+        "parser_version": "0.1.0",
+        "extractor_versions": {
+          "pypdf": "6.10.0",
+          "pdfplumber": "0.11.9"
+        }
       },
       "review_status": "needs_review",
       "rules": {
@@ -23129,7 +23281,11 @@
           "last_modified": "Wed, 01 Jul 2026 06:09:26 GMT",
           "content_length": 407365
         },
-        "parser_version": "0.1.0"
+        "parser_version": "0.1.0",
+        "extractor_versions": {
+          "pypdf": "6.10.0",
+          "pdfplumber": "0.11.9"
+        }
       },
       "review_status": "needs_review",
       "rules": {
@@ -24103,7 +24259,11 @@
           "last_modified": "Tue, 27 May 2025 02:19:43 GMT",
           "content_length": 289988
         },
-        "parser_version": "0.1.0"
+        "parser_version": "0.1.0",
+        "extractor_versions": {
+          "pypdf": "6.10.0",
+          "pdfplumber": "0.11.9"
+        }
       },
       "review_status": "needs_review",
       "rules": {
@@ -24612,7 +24772,11 @@
           "last_modified": "Tue, 27 May 2025 02:19:21 GMT",
           "content_length": 401746
         },
-        "parser_version": "0.1.0"
+        "parser_version": "0.1.0",
+        "extractor_versions": {
+          "pypdf": "6.10.0",
+          "pdfplumber": "0.11.9"
+        }
       },
       "review_status": "needs_review",
       "rules": {
@@ -25062,7 +25226,11 @@
           "last_modified": "Tue, 27 May 2025 02:18:55 GMT",
           "content_length": 225417
         },
-        "parser_version": "0.1.0"
+        "parser_version": "0.1.0",
+        "extractor_versions": {
+          "pypdf": "6.10.0",
+          "pdfplumber": "0.11.9"
+        }
       },
       "review_status": "needs_review",
       "rules": {
@@ -25558,7 +25726,11 @@
           "last_modified": "Wed, 01 Jul 2026 06:10:46 GMT",
           "content_length": 251030
         },
-        "parser_version": "0.1.0"
+        "parser_version": "0.1.0",
+        "extractor_versions": {
+          "pypdf": "6.10.0",
+          "pdfplumber": "0.11.9"
+        }
       },
       "review_status": "needs_review",
       "rules": {
@@ -26080,7 +26252,11 @@
           "last_modified": "Wed, 01 Jul 2026 06:03:36 GMT",
           "content_length": 323177
         },
-        "parser_version": "0.1.0"
+        "parser_version": "0.1.0",
+        "extractor_versions": {
+          "pypdf": "6.10.0",
+          "pdfplumber": "0.11.9"
+        }
       },
       "review_status": "needs_review",
       "rules": {
@@ -26887,7 +27063,11 @@
           "last_modified": "Fri, 31 May 2024 07:14:01 GMT",
           "content_length": 132819
         },
-        "parser_version": "0.1.0"
+        "parser_version": "0.1.0",
+        "extractor_versions": {
+          "pypdf": "6.10.0",
+          "pdfplumber": "0.11.9"
+        }
       },
       "review_status": "needs_review",
       "rules": {
@@ -27266,7 +27446,11 @@
           "last_modified": "Tue, 24 Dec 2024 07:39:01 GMT",
           "content_length": 284277
         },
-        "parser_version": "0.1.0"
+        "parser_version": "0.1.0",
+        "extractor_versions": {
+          "pypdf": "6.10.0",
+          "pdfplumber": "0.11.9"
+        }
       },
       "review_status": "needs_review",
       "rules": {
@@ -27561,7 +27745,11 @@
           "last_modified": "Tue, 24 Dec 2024 07:39:17 GMT",
           "content_length": 124740
         },
-        "parser_version": "0.1.0"
+        "parser_version": "0.1.0",
+        "extractor_versions": {
+          "pypdf": "6.10.0",
+          "pdfplumber": "0.11.9"
+        }
       },
       "review_status": "needs_review",
       "rules": {
@@ -27800,7 +27988,11 @@
           "last_modified": "Wed, 07 Jun 2023 07:51:41 GMT",
           "content_length": 97448
         },
-        "parser_version": "0.1.0"
+        "parser_version": "0.1.0",
+        "extractor_versions": {
+          "pypdf": "6.10.0",
+          "pdfplumber": "0.11.9"
+        }
       },
       "review_status": "needs_review",
       "rules": {
@@ -28174,7 +28366,11 @@
           "last_modified": "Tue, 24 Dec 2024 07:39:36 GMT",
           "content_length": 137432
         },
-        "parser_version": "0.1.0"
+        "parser_version": "0.1.0",
+        "extractor_versions": {
+          "pypdf": "6.10.0",
+          "pdfplumber": "0.11.9"
+        }
       },
       "review_status": "needs_review",
       "rules": {
@@ -28593,7 +28789,11 @@
           "last_modified": "Wed, 20 Dec 2023 02:38:42 GMT",
           "content_length": 137647
         },
-        "parser_version": "0.1.0"
+        "parser_version": "0.1.0",
+        "extractor_versions": {
+          "pypdf": "6.10.0",
+          "pdfplumber": "0.11.9"
+        }
       },
       "review_status": "needs_review",
       "rules": {
@@ -28922,7 +29122,11 @@
           "last_modified": "Fri, 31 May 2024 06:55:37 GMT",
           "content_length": 177779
         },
-        "parser_version": "0.1.0"
+        "parser_version": "0.1.0",
+        "extractor_versions": {
+          "pypdf": "6.10.0",
+          "pdfplumber": "0.11.9"
+        }
       },
       "review_status": "needs_review",
       "rules": {
@@ -29236,7 +29440,11 @@
           "last_modified": "Wed, 01 Jul 2026 06:02:09 GMT",
           "content_length": 165358
         },
-        "parser_version": "0.1.0"
+        "parser_version": "0.1.0",
+        "extractor_versions": {
+          "pypdf": "6.10.0",
+          "pdfplumber": "0.11.9"
+        }
       },
       "review_status": "needs_review",
       "rules": {
@@ -29599,7 +29807,11 @@
           "last_modified": "Tue, 24 Dec 2024 06:39:23 GMT",
           "content_length": 92966
         },
-        "parser_version": "0.1.0"
+        "parser_version": "0.1.0",
+        "extractor_versions": {
+          "pypdf": "6.10.0",
+          "pdfplumber": "0.11.9"
+        }
       },
       "review_status": "needs_review",
       "rules": {
@@ -29928,7 +30140,11 @@
           "last_modified": "Wed, 01 Jul 2026 06:09:47 GMT",
           "content_length": 114819
         },
-        "parser_version": "0.1.0"
+        "parser_version": "0.1.0",
+        "extractor_versions": {
+          "pypdf": "6.10.0",
+          "pdfplumber": "0.11.9"
+        }
       },
       "review_status": "needs_review",
       "rules": {
@@ -30197,7 +30413,11 @@
           "last_modified": "Tue, 23 Dec 2025 07:01:21 GMT",
           "content_length": 229561
         },
-        "parser_version": "0.1.0"
+        "parser_version": "0.1.0",
+        "extractor_versions": {
+          "pypdf": "6.10.0",
+          "pdfplumber": "0.11.9"
+        }
       },
       "review_status": "needs_review",
       "rules": {
@@ -30481,7 +30701,11 @@
           "last_modified": "Tue, 27 May 2025 02:25:13 GMT",
           "content_length": 173461
         },
-        "parser_version": "0.1.0"
+        "parser_version": "0.1.0",
+        "extractor_versions": {
+          "pypdf": "6.10.0",
+          "pdfplumber": "0.11.9"
+        }
       },
       "review_status": "needs_review",
       "rules": {
@@ -30811,7 +31035,11 @@
           "last_modified": "Thu, 13 Aug 2026 06:20:23 GMT",
           "content_length": 141119
         },
-        "parser_version": "0.1.0"
+        "parser_version": "0.1.0",
+        "extractor_versions": {
+          "pypdf": "6.10.0",
+          "pdfplumber": "0.11.9"
+        }
       },
       "review_status": "needs_review",
       "rules": {
@@ -31061,7 +31289,11 @@
           "last_modified": "Thu, 13 Aug 2026 06:20:42 GMT",
           "content_length": 139350
         },
-        "parser_version": "0.1.0"
+        "parser_version": "0.1.0",
+        "extractor_versions": {
+          "pypdf": "6.10.0",
+          "pdfplumber": "0.11.9"
+        }
       },
       "review_status": "needs_review",
       "rules": {
@@ -31236,7 +31468,11 @@
           "last_modified": "Thu, 13 Aug 2026 06:20:58 GMT",
           "content_length": 136856
         },
-        "parser_version": "0.1.0"
+        "parser_version": "0.1.0",
+        "extractor_versions": {
+          "pypdf": "6.10.0",
+          "pdfplumber": "0.11.9"
+        }
       },
       "review_status": "needs_review",
       "rules": {
@@ -31336,7 +31572,11 @@
           "last_modified": "Thu, 13 Aug 2026 06:21:13 GMT",
           "content_length": 141543
         },
-        "parser_version": "0.1.0"
+        "parser_version": "0.1.0",
+        "extractor_versions": {
+          "pypdf": "6.10.0",
+          "pdfplumber": "0.11.9"
+        }
       },
       "review_status": "needs_review",
       "rules": {
@@ -31481,7 +31721,11 @@
           "last_modified": "Tue, 27 May 2025 01:48:09 GMT",
           "content_length": 168031
         },
-        "parser_version": "0.1.0"
+        "parser_version": "0.1.0",
+        "extractor_versions": {
+          "pypdf": "6.10.0",
+          "pdfplumber": "0.11.9"
+        }
       },
       "review_status": "needs_review",
       "rules": {
@@ -31690,7 +31934,11 @@
           "last_modified": "Tue, 23 Dec 2025 06:59:56 GMT",
           "content_length": 136427
         },
-        "parser_version": "0.1.0"
+        "parser_version": "0.1.0",
+        "extractor_versions": {
+          "pypdf": "6.10.0",
+          "pdfplumber": "0.11.9"
+        }
       },
       "review_status": "needs_review",
       "rules": {
@@ -31945,7 +32193,11 @@
           "last_modified": "Thu, 13 Aug 2026 06:21:24 GMT",
           "content_length": 81691
         },
-        "parser_version": "0.1.0"
+        "parser_version": "0.1.0",
+        "extractor_versions": {
+          "pypdf": "6.10.0",
+          "pdfplumber": "0.11.9"
+        }
       },
       "review_status": "needs_review",
       "rules": {
@@ -32090,7 +32342,11 @@
           "last_modified": "Tue, 24 Dec 2024 07:17:17 GMT",
           "content_length": 177380
         },
-        "parser_version": "0.1.0"
+        "parser_version": "0.1.0",
+        "extractor_versions": {
+          "pypdf": "6.10.0",
+          "pdfplumber": "0.11.9"
+        }
       },
       "review_status": "needs_review",
       "rules": {
@@ -33145,7 +33401,11 @@
           "last_modified": "Wed, 20 Dec 2023 02:45:17 GMT",
           "content_length": 285132
         },
-        "parser_version": "0.1.0"
+        "parser_version": "0.1.0",
+        "extractor_versions": {
+          "pypdf": "6.10.0",
+          "pdfplumber": "0.11.9"
+        }
       },
       "review_status": "needs_review",
       "rules": {
@@ -33538,7 +33798,11 @@
           "last_modified": "Mon, 12 Jun 2023 01:31:57 GMT",
           "content_length": 98259
         },
-        "parser_version": "0.1.0"
+        "parser_version": "0.1.0",
+        "extractor_versions": {
+          "pypdf": "6.10.0",
+          "pdfplumber": "0.11.9"
+        }
       },
       "review_status": "needs_review",
       "rules": {
@@ -33926,7 +34190,11 @@
           "last_modified": "Tue, 24 Dec 2024 07:17:44 GMT",
           "content_length": 101041
         },
-        "parser_version": "0.1.0"
+        "parser_version": "0.1.0",
+        "extractor_versions": {
+          "pypdf": "6.10.0",
+          "pdfplumber": "0.11.9"
+        }
       },
       "review_status": "needs_review",
       "rules": {
@@ -34224,7 +34492,11 @@
           "last_modified": "Wed, 01 Jul 2026 06:10:31 GMT",
           "content_length": 250435
         },
-        "parser_version": "0.1.0"
+        "parser_version": "0.1.0",
+        "extractor_versions": {
+          "pypdf": "6.10.0",
+          "pdfplumber": "0.11.9"
+        }
       },
       "review_status": "needs_review",
       "rules": {
@@ -34776,7 +35048,11 @@
           "last_modified": "Tue, 24 Dec 2024 07:20:59 GMT",
           "content_length": 126295
         },
-        "parser_version": "0.1.0"
+        "parser_version": "0.1.0",
+        "extractor_versions": {
+          "pypdf": "6.10.0",
+          "pdfplumber": "0.11.9"
+        }
       },
       "review_status": "needs_review",
       "rules": {
@@ -35105,7 +35381,11 @@
           "last_modified": "Tue, 27 May 2025 02:25:49 GMT",
           "content_length": 315680
         },
-        "parser_version": "0.1.0"
+        "parser_version": "0.1.0",
+        "extractor_versions": {
+          "pypdf": "6.10.0",
+          "pdfplumber": "0.11.9"
+        }
       },
       "review_status": "needs_review",
       "rules": {
@@ -35282,7 +35562,11 @@
           "last_modified": "Tue, 23 Dec 2025 06:53:36 GMT",
           "content_length": 278632
         },
-        "parser_version": "0.1.0"
+        "parser_version": "0.1.0",
+        "extractor_versions": {
+          "pypdf": "6.10.0",
+          "pdfplumber": "0.11.9"
+        }
       },
       "review_status": "needs_review",
       "rules": {
@@ -35551,7 +35835,11 @@
           "last_modified": "Tue, 23 Dec 2025 06:55:22 GMT",
           "content_length": 239765
         },
-        "parser_version": "0.1.0"
+        "parser_version": "0.1.0",
+        "extractor_versions": {
+          "pypdf": "6.10.0",
+          "pdfplumber": "0.11.9"
+        }
       },
       "review_status": "needs_review",
       "rules": {
@@ -35895,7 +36183,11 @@
           "last_modified": "Wed, 20 Dec 2023 02:36:28 GMT",
           "content_length": 136294
         },
-        "parser_version": "0.1.0"
+        "parser_version": "0.1.0",
+        "extractor_versions": {
+          "pypdf": "6.10.0",
+          "pdfplumber": "0.11.9"
+        }
       },
       "review_status": "needs_review",
       "rules": {
@@ -36254,7 +36546,11 @@
           "last_modified": "Fri, 31 May 2024 07:16:36 GMT",
           "content_length": 147262
         },
-        "parser_version": "0.1.0"
+        "parser_version": "0.1.0",
+        "extractor_versions": {
+          "pypdf": "6.10.0",
+          "pdfplumber": "0.11.9"
+        }
       },
       "review_status": "needs_review",
       "rules": {
@@ -36434,7 +36730,11 @@
           "last_modified": "Fri, 31 May 2024 07:17:54 GMT",
           "content_length": 149234
         },
-        "parser_version": "0.1.0"
+        "parser_version": "0.1.0",
+        "extractor_versions": {
+          "pypdf": "6.10.0",
+          "pdfplumber": "0.11.9"
+        }
       },
       "review_status": "needs_review",
       "rules": {
@@ -36644,7 +36944,11 @@
           "last_modified": "Tue, 24 Dec 2024 07:23:46 GMT",
           "content_length": 98861
         },
-        "parser_version": "0.1.0"
+        "parser_version": "0.1.0",
+        "extractor_versions": {
+          "pypdf": "6.10.0",
+          "pdfplumber": "0.11.9"
+        }
       },
       "review_status": "needs_review",
       "rules": {
@@ -36809,7 +37113,11 @@
           "last_modified": "Fri, 31 May 2024 07:19:43 GMT",
           "content_length": 138230
         },
-        "parser_version": "0.1.0"
+        "parser_version": "0.1.0",
+        "extractor_versions": {
+          "pypdf": "6.10.0",
+          "pdfplumber": "0.11.9"
+        }
       },
       "review_status": "needs_review",
       "rules": {
@@ -36989,7 +37297,11 @@
           "last_modified": "Wed, 20 Dec 2023 02:40:47 GMT",
           "content_length": 198885
         },
-        "parser_version": "0.1.0"
+        "parser_version": "0.1.0",
+        "extractor_versions": {
+          "pypdf": "6.10.0",
+          "pdfplumber": "0.11.9"
+        }
       },
       "review_status": "needs_review",
       "rules": {
@@ -37183,7 +37495,11 @@
           "last_modified": "Tue, 24 Dec 2024 07:24:12 GMT",
           "content_length": 106991
         },
-        "parser_version": "0.1.0"
+        "parser_version": "0.1.0",
+        "extractor_versions": {
+          "pypdf": "6.10.0",
+          "pdfplumber": "0.11.9"
+        }
       },
       "review_status": "needs_review",
       "rules": {
@@ -37542,7 +37858,11 @@
           "last_modified": "Tue, 24 Dec 2024 07:24:45 GMT",
           "content_length": 108406
         },
-        "parser_version": "0.1.0"
+        "parser_version": "0.1.0",
+        "extractor_versions": {
+          "pypdf": "6.10.0",
+          "pdfplumber": "0.11.9"
+        }
       },
       "review_status": "needs_review",
       "rules": {
@@ -37931,7 +38251,11 @@
           "last_modified": "Fri, 31 May 2024 07:04:17 GMT",
           "content_length": 199099
         },
-        "parser_version": "0.1.0"
+        "parser_version": "0.1.0",
+        "extractor_versions": {
+          "pypdf": "6.10.0",
+          "pdfplumber": "0.11.9"
+        }
       },
       "review_status": "needs_review",
       "rules": {
@@ -38095,7 +38419,11 @@
           "last_modified": "Wed, 01 Jul 2026 06:08:14 GMT",
           "content_length": 349810
         },
-        "parser_version": "0.1.0"
+        "parser_version": "0.1.0",
+        "extractor_versions": {
+          "pypdf": "6.10.0",
+          "pdfplumber": "0.11.9"
+        }
       },
       "review_status": "needs_review",
       "rules": {
@@ -38812,7 +39140,11 @@
           "last_modified": "Tue, 23 Dec 2025 06:55:44 GMT",
           "content_length": 216386
         },
-        "parser_version": "0.1.0"
+        "parser_version": "0.1.0",
+        "extractor_versions": {
+          "pypdf": "6.10.0",
+          "pdfplumber": "0.11.9"
+        }
       },
       "review_status": "needs_review",
       "rules": {
@@ -39096,7 +39428,11 @@
           "last_modified": "Tue, 23 Dec 2025 06:49:53 GMT",
           "content_length": 169719
         },
-        "parser_version": "0.1.0"
+        "parser_version": "0.1.0",
+        "extractor_versions": {
+          "pypdf": "6.10.0",
+          "pdfplumber": "0.11.9"
+        }
       },
       "review_status": "needs_review",
       "rules": {
@@ -39260,7 +39596,11 @@
           "last_modified": "Tue, 23 Dec 2025 06:49:29 GMT",
           "content_length": 228147
         },
-        "parser_version": "0.1.0"
+        "parser_version": "0.1.0",
+        "extractor_versions": {
+          "pypdf": "6.10.0",
+          "pdfplumber": "0.11.9"
+        }
       },
       "review_status": "needs_review",
       "rules": {
@@ -39409,7 +39749,11 @@
           "last_modified": "Tue, 27 May 2025 02:32:29 GMT",
           "content_length": 220066
         },
-        "parser_version": "0.1.0"
+        "parser_version": "0.1.0",
+        "extractor_versions": {
+          "pypdf": "6.10.0",
+          "pdfplumber": "0.11.9"
+        }
       },
       "review_status": "needs_review",
       "rules": {
@@ -39678,7 +40022,11 @@
           "last_modified": "Wed, 20 Dec 2023 02:17:34 GMT",
           "content_length": 236514
         },
-        "parser_version": "0.1.0"
+        "parser_version": "0.1.0",
+        "extractor_versions": {
+          "pypdf": "6.10.0",
+          "pdfplumber": "0.11.9"
+        }
       },
       "review_status": "needs_review",
       "rules": {
@@ -39947,7 +40295,11 @@
           "last_modified": "Wed, 01 Jul 2026 06:06:27 GMT",
           "content_length": 323469
         },
-        "parser_version": "0.1.0"
+        "parser_version": "0.1.0",
+        "extractor_versions": {
+          "pypdf": "6.10.0",
+          "pdfplumber": "0.11.9"
+        }
       },
       "review_status": "needs_review",
       "rules": {
@@ -40576,7 +40928,11 @@
           "last_modified": "Fri, 31 May 2024 07:10:32 GMT",
           "content_length": 196527
         },
-        "parser_version": "0.1.0"
+        "parser_version": "0.1.0",
+        "extractor_versions": {
+          "pypdf": "6.10.0",
+          "pdfplumber": "0.11.9"
+        }
       },
       "review_status": "needs_review",
       "rules": {
@@ -41042,7 +41398,11 @@
           "last_modified": "Tue, 23 Dec 2025 07:03:18 GMT",
           "content_length": 215612
         },
-        "parser_version": "0.1.0"
+        "parser_version": "0.1.0",
+        "extractor_versions": {
+          "pypdf": "6.10.0",
+          "pdfplumber": "0.11.9"
+        }
       },
       "review_status": "needs_review",
       "rules": {
@@ -41236,7 +41596,11 @@
           "last_modified": "Tue, 27 May 2025 02:20:33 GMT",
           "content_length": 223764
         },
-        "parser_version": "0.1.0"
+        "parser_version": "0.1.0",
+        "extractor_versions": {
+          "pypdf": "6.10.0",
+          "pdfplumber": "0.11.9"
+        }
       },
       "review_status": "needs_review",
       "rules": {
@@ -41460,7 +41824,11 @@
           "last_modified": "Tue, 27 May 2025 02:28:00 GMT",
           "content_length": 209652
         },
-        "parser_version": "0.1.0"
+        "parser_version": "0.1.0",
+        "extractor_versions": {
+          "pypdf": "6.10.0",
+          "pdfplumber": "0.11.9"
+        }
       },
       "review_status": "needs_review",
       "rules": {
@@ -41793,7 +42161,11 @@
           "last_modified": "Tue, 24 Dec 2024 07:31:01 GMT",
           "content_length": 122482
         },
-        "parser_version": "0.1.0"
+        "parser_version": "0.1.0",
+        "extractor_versions": {
+          "pypdf": "6.10.0",
+          "pdfplumber": "0.11.9"
+        }
       },
       "review_status": "needs_review",
       "rules": {
@@ -41987,7 +42359,11 @@
           "last_modified": "Tue, 24 Dec 2024 07:31:24 GMT",
           "content_length": 119121
         },
-        "parser_version": "0.1.0"
+        "parser_version": "0.1.0",
+        "extractor_versions": {
+          "pypdf": "6.10.0",
+          "pdfplumber": "0.11.9"
+        }
       },
       "review_status": "needs_review",
       "rules": {
@@ -42182,7 +42558,11 @@
           "last_modified": "Tue, 23 Dec 2025 07:03:54 GMT",
           "content_length": 261570
         },
-        "parser_version": "0.1.0"
+        "parser_version": "0.1.0",
+        "extractor_versions": {
+          "pypdf": "6.10.0",
+          "pdfplumber": "0.11.9"
+        }
       },
       "review_status": "needs_review",
       "rules": {
@@ -42601,7 +42981,11 @@
           "last_modified": "Wed, 20 Dec 2023 02:42:58 GMT",
           "content_length": 196853
         },
-        "parser_version": "0.1.0"
+        "parser_version": "0.1.0",
+        "extractor_versions": {
+          "pypdf": "6.10.0",
+          "pdfplumber": "0.11.9"
+        }
       },
       "review_status": "needs_review",
       "rules": {
@@ -42780,7 +43164,11 @@
           "last_modified": "Wed, 20 Dec 2023 02:42:31 GMT",
           "content_length": 138196
         },
-        "parser_version": "0.1.0"
+        "parser_version": "0.1.0",
+        "extractor_versions": {
+          "pypdf": "6.10.0",
+          "pdfplumber": "0.11.9"
+        }
       },
       "review_status": "needs_review",
       "rules": {
@@ -42944,7 +43332,11 @@
           "last_modified": "Tue, 23 Dec 2025 07:02:50 GMT",
           "content_length": 238702
         },
-        "parser_version": "0.1.0"
+        "parser_version": "0.1.0",
+        "extractor_versions": {
+          "pypdf": "6.10.0",
+          "pdfplumber": "0.11.9"
+        }
       },
       "review_status": "needs_review",
       "rules": {
@@ -43168,7 +43560,11 @@
           "last_modified": "Mon, 12 Jun 2023 01:15:49 GMT",
           "content_length": 255429
         },
-        "parser_version": "0.1.0"
+        "parser_version": "0.1.0",
+        "extractor_versions": {
+          "pypdf": "6.10.0",
+          "pdfplumber": "0.11.9"
+        }
       },
       "review_status": "needs_review",
       "rules": {
@@ -43527,7 +43923,11 @@
           "last_modified": "Tue, 27 May 2025 02:13:43 GMT",
           "content_length": 259081
         },
-        "parser_version": "0.1.0"
+        "parser_version": "0.1.0",
+        "extractor_versions": {
+          "pypdf": "6.10.0",
+          "pdfplumber": "0.11.9"
+        }
       },
       "review_status": "needs_review",
       "rules": {
@@ -43736,7 +44136,11 @@
           "last_modified": "Tue, 24 Dec 2024 07:32:20 GMT",
           "content_length": 130493
         },
-        "parser_version": "0.1.0"
+        "parser_version": "0.1.0",
+        "extractor_versions": {
+          "pypdf": "6.10.0",
+          "pdfplumber": "0.11.9"
+        }
       },
       "review_status": "needs_review",
       "rules": {
@@ -44006,7 +44410,11 @@
           "last_modified": "Wed, 20 Dec 2023 02:13:51 GMT",
           "content_length": 212829
         },
-        "parser_version": "0.1.0"
+        "parser_version": "0.1.0",
+        "extractor_versions": {
+          "pypdf": "6.10.0",
+          "pdfplumber": "0.11.9"
+        }
       },
       "review_status": "needs_review",
       "rules": {
@@ -44305,7 +44713,11 @@
           "last_modified": "Tue, 24 Dec 2024 07:32:40 GMT",
           "content_length": 127147
         },
-        "parser_version": "0.1.0"
+        "parser_version": "0.1.0",
+        "extractor_versions": {
+          "pypdf": "6.10.0",
+          "pdfplumber": "0.11.9"
+        }
       },
       "review_status": "needs_review",
       "rules": {
@@ -44469,7 +44881,11 @@
           "last_modified": "Wed, 07 Jun 2023 08:12:39 GMT",
           "content_length": 216510
         },
-        "parser_version": "0.1.0"
+        "parser_version": "0.1.0",
+        "extractor_versions": {
+          "pypdf": "6.10.0",
+          "pdfplumber": "0.11.9"
+        }
       },
       "review_status": "needs_review",
       "rules": {
@@ -44707,7 +45123,11 @@
           "last_modified": "Fri, 31 May 2024 06:54:42 GMT",
           "content_length": 89926
         },
-        "parser_version": "0.1.0"
+        "parser_version": "0.1.0",
+        "extractor_versions": {
+          "pypdf": "6.10.0",
+          "pdfplumber": "0.11.9"
+        }
       },
       "review_status": "needs_review",
       "rules": {
@@ -44900,7 +45320,11 @@
           "last_modified": "Wed, 23 Aug 2023 02:56:31 GMT",
           "content_length": 162062
         },
-        "parser_version": "0.1.0"
+        "parser_version": "0.1.0",
+        "extractor_versions": {
+          "pypdf": "6.10.0",
+          "pdfplumber": "0.11.9"
+        }
       },
       "review_status": "needs_review",
       "rules": {
@@ -45094,7 +45518,11 @@
           "last_modified": "Tue, 23 Dec 2025 06:53:08 GMT",
           "content_length": 290190
         },
-        "parser_version": "0.1.0"
+        "parser_version": "0.1.0",
+        "extractor_versions": {
+          "pypdf": "6.10.0",
+          "pdfplumber": "0.11.9"
+        }
       },
       "review_status": "needs_review",
       "rules": {
@@ -45513,7 +45941,11 @@
           "last_modified": "Tue, 27 May 2025 02:08:10 GMT",
           "content_length": 241412
         },
-        "parser_version": "0.1.0"
+        "parser_version": "0.1.0",
+        "extractor_versions": {
+          "pypdf": "6.10.0",
+          "pdfplumber": "0.11.9"
+        }
       },
       "review_status": "needs_review",
       "rules": {
@@ -45692,7 +46124,11 @@
           "last_modified": "Wed, 20 Dec 2023 02:46:22 GMT",
           "content_length": 138458
         },
-        "parser_version": "0.1.0"
+        "parser_version": "0.1.0",
+        "extractor_versions": {
+          "pypdf": "6.10.0",
+          "pdfplumber": "0.11.9"
+        }
       },
       "review_status": "needs_review",
       "rules": {
@@ -45828,7 +46264,11 @@
           "last_modified": "Tue, 23 Dec 2025 06:59:02 GMT",
           "content_length": 229261
         },
-        "parser_version": "0.1.0"
+        "parser_version": "0.1.0",
+        "extractor_versions": {
+          "pypdf": "6.10.0",
+          "pdfplumber": "0.11.9"
+        }
       },
       "review_status": "needs_review",
       "rules": {
@@ -46054,7 +46494,11 @@
           "last_modified": "Fri, 31 May 2024 07:09:10 GMT",
           "content_length": 207261
         },
-        "parser_version": "0.1.0"
+        "parser_version": "0.1.0",
+        "extractor_versions": {
+          "pypdf": "6.10.0",
+          "pdfplumber": "0.11.9"
+        }
       },
       "review_status": "needs_review",
       "rules": {
@@ -46323,7 +46767,11 @@
           "last_modified": "Wed, 01 Jul 2026 06:11:58 GMT",
           "content_length": 419443
         },
-        "parser_version": "0.1.0"
+        "parser_version": "0.1.0",
+        "extractor_versions": {
+          "pypdf": "6.10.0",
+          "pdfplumber": "0.11.9"
+        }
       },
       "review_status": "needs_review",
       "rules": {
@@ -46727,7 +47175,11 @@
           "last_modified": "Fri, 31 May 2024 07:07:14 GMT",
           "content_length": 92437
         },
-        "parser_version": "0.1.0"
+        "parser_version": "0.1.0",
+        "extractor_versions": {
+          "pypdf": "6.10.0",
+          "pdfplumber": "0.11.9"
+        }
       },
       "review_status": "needs_review",
       "rules": {
@@ -46966,7 +47418,11 @@
           "last_modified": "Tue, 23 Dec 2025 06:50:55 GMT",
           "content_length": 182239
         },
-        "parser_version": "0.1.0"
+        "parser_version": "0.1.0",
+        "extractor_versions": {
+          "pypdf": "6.10.0",
+          "pdfplumber": "0.11.9"
+        }
       },
       "review_status": "needs_review",
       "rules": {
@@ -47265,7 +47721,11 @@
           "last_modified": "Fri, 31 May 2024 07:14:25 GMT",
           "content_length": 195926
         },
-        "parser_version": "0.1.0"
+        "parser_version": "0.1.0",
+        "extractor_versions": {
+          "pypdf": "6.10.0",
+          "pdfplumber": "0.11.9"
+        }
       },
       "review_status": "needs_review",
       "rules": {
@@ -47759,7 +48219,11 @@
           "last_modified": "Wed, 07 Jun 2023 08:07:09 GMT",
           "content_length": 88447
         },
-        "parser_version": "0.1.0"
+        "parser_version": "0.1.0",
+        "extractor_versions": {
+          "pypdf": "6.10.0",
+          "pdfplumber": "0.11.9"
+        }
       },
       "review_status": "needs_review",
       "rules": {
@@ -48074,7 +48538,11 @@
           "last_modified": "Fri, 31 May 2024 07:20:54 GMT",
           "content_length": 117167
         },
-        "parser_version": "0.1.0"
+        "parser_version": "0.1.0",
+        "extractor_versions": {
+          "pypdf": "6.10.0",
+          "pdfplumber": "0.11.9"
+        }
       },
       "review_status": "needs_review",
       "rules": {
@@ -48284,7 +48752,11 @@
           "last_modified": "Tue, 24 Dec 2024 07:37:38 GMT",
           "content_length": 219270
         },
-        "parser_version": "0.1.0"
+        "parser_version": "0.1.0",
+        "extractor_versions": {
+          "pypdf": "6.10.0",
+          "pdfplumber": "0.11.9"
+        }
       },
       "review_status": "needs_review",
       "rules": {
@@ -48673,7 +49145,11 @@
           "last_modified": "Wed, 01 Jul 2026 06:03:16 GMT",
           "content_length": 196270
         },
-        "parser_version": "0.1.0"
+        "parser_version": "0.1.0",
+        "extractor_versions": {
+          "pypdf": "6.10.0",
+          "pdfplumber": "0.11.9"
+        }
       },
       "review_status": "needs_review",
       "rules": {
@@ -49075,7 +49551,11 @@
           "last_modified": "Tue, 24 Dec 2024 07:38:14 GMT",
           "content_length": 217120
         },
-        "parser_version": "0.1.0"
+        "parser_version": "0.1.0",
+        "extractor_versions": {
+          "pypdf": "6.10.0",
+          "pdfplumber": "0.11.9"
+        }
       },
       "review_status": "needs_review",
       "rules": {
@@ -49283,7 +49763,11 @@
           "last_modified": "Tue, 23 Dec 2025 06:51:40 GMT",
           "content_length": 118386
         },
-        "parser_version": "0.1.0"
+        "parser_version": "0.1.0",
+        "extractor_versions": {
+          "pypdf": "6.10.0",
+          "pdfplumber": "0.11.9"
+        }
       },
       "review_status": "needs_review",
       "rules": {
@@ -49402,7 +49886,11 @@
           "last_modified": "Tue, 24 Dec 2024 07:38:35 GMT",
           "content_length": 143001
         },
-        "parser_version": "0.1.0"
+        "parser_version": "0.1.0",
+        "extractor_versions": {
+          "pypdf": "6.10.0",
+          "pdfplumber": "0.11.9"
+        }
       },
       "review_status": "needs_review",
       "rules": {
@@ -49642,7 +50130,11 @@
           "last_modified": "Wed, 07 Jun 2023 08:02:29 GMT",
           "content_length": 163193
         },
-        "parser_version": "0.1.0"
+        "parser_version": "0.1.0",
+        "extractor_versions": {
+          "pypdf": "6.10.0",
+          "pdfplumber": "0.11.9"
+        }
       },
       "review_status": "needs_review",
       "rules": {
@@ -49761,7 +50253,11 @@
           "last_modified": "Wed, 20 Dec 2023 02:39:06 GMT",
           "content_length": 194251
         },
-        "parser_version": "0.1.0"
+        "parser_version": "0.1.0",
+        "extractor_versions": {
+          "pypdf": "6.10.0",
+          "pdfplumber": "0.11.9"
+        }
       },
       "review_status": "needs_review",
       "rules": {
@@ -49925,7 +50421,11 @@
           "last_modified": "Wed, 01 Jul 2026 06:04:13 GMT",
           "content_length": 218714
         },
-        "parser_version": "0.1.0"
+        "parser_version": "0.1.0",
+        "extractor_versions": {
+          "pypdf": "6.10.0",
+          "pdfplumber": "0.11.9"
+        }
       },
       "review_status": "needs_review",
       "rules": {
@@ -50150,7 +50650,11 @@
           "last_modified": "Tue, 27 May 2025 02:17:55 GMT",
           "content_length": 201052
         },
-        "parser_version": "0.1.0"
+        "parser_version": "0.1.0",
+        "extractor_versions": {
+          "pypdf": "6.10.0",
+          "pdfplumber": "0.11.9"
+        }
       },
       "review_status": "needs_review",
       "rules": {
@@ -50494,7 +50998,11 @@
           "last_modified": "Tue, 23 Dec 2025 06:58:06 GMT",
           "content_length": 167366
         },
-        "parser_version": "0.1.0"
+        "parser_version": "0.1.0",
+        "extractor_versions": {
+          "pypdf": "6.10.0",
+          "pdfplumber": "0.11.9"
+        }
       },
       "review_status": "needs_review",
       "rules": {
@@ -50840,7 +51348,11 @@
           "last_modified": "Tue, 24 Dec 2024 07:40:41 GMT",
           "content_length": 161843
         },
-        "parser_version": "0.1.0"
+        "parser_version": "0.1.0",
+        "extractor_versions": {
+          "pypdf": "6.10.0",
+          "pdfplumber": "0.11.9"
+        }
       },
       "review_status": "needs_review",
       "rules": {
@@ -51273,7 +51785,11 @@
           "last_modified": "Wed, 20 Dec 2023 02:56:29 GMT",
           "content_length": 124690
         },
-        "parser_version": "0.1.0"
+        "parser_version": "0.1.0",
+        "extractor_versions": {
+          "pypdf": "6.10.0",
+          "pdfplumber": "0.11.9"
+        }
       },
       "review_status": "needs_review",
       "rules": {
@@ -51572,7 +52088,11 @@
           "last_modified": "Wed, 01 Jul 2026 06:05:31 GMT",
           "content_length": 107302
         },
-        "parser_version": "0.1.0"
+        "parser_version": "0.1.0",
+        "extractor_versions": {
+          "pypdf": "6.10.0",
+          "pdfplumber": "0.11.9"
+        }
       },
       "review_status": "needs_review",
       "rules": {
@@ -51781,7 +52301,11 @@
           "last_modified": "Tue, 23 Dec 2025 06:56:34 GMT",
           "content_length": 111360
         },
-        "parser_version": "0.1.0"
+        "parser_version": "0.1.0",
+        "extractor_versions": {
+          "pypdf": "6.10.0",
+          "pdfplumber": "0.11.9"
+        }
       },
       "review_status": "needs_review",
       "rules": {
@@ -52050,7 +52574,11 @@
           "last_modified": "Tue, 23 Dec 2025 07:00:35 GMT",
           "content_length": 177996
         },
-        "parser_version": "0.1.0"
+        "parser_version": "0.1.0",
+        "extractor_versions": {
+          "pypdf": "6.10.0",
+          "pdfplumber": "0.11.9"
+        }
       },
       "review_status": "needs_review",
       "rules": {
@@ -52574,7 +53102,11 @@
           "last_modified": "Tue, 27 May 2025 02:24:57 GMT",
           "content_length": 105026
         },
-        "parser_version": "0.1.0"
+        "parser_version": "0.1.0",
+        "extractor_versions": {
+          "pypdf": "6.10.0",
+          "pdfplumber": "0.11.9"
+        }
       },
       "review_status": "needs_review",
       "rules": {
@@ -52769,7 +53301,11 @@
           "last_modified": "Tue, 24 Dec 2024 07:41:19 GMT",
           "content_length": 102203
         },
-        "parser_version": "0.1.0"
+        "parser_version": "0.1.0",
+        "extractor_versions": {
+          "pypdf": "6.10.0",
+          "pdfplumber": "0.11.9"
+        }
       },
       "review_status": "needs_review",
       "rules": {
@@ -53136,7 +53672,11 @@
           "last_modified": "Fri, 31 May 2024 06:18:47 GMT",
           "content_length": 399767
         },
-        "parser_version": "0.1.0"
+        "parser_version": "0.1.0",
+        "extractor_versions": {
+          "pypdf": "6.10.0",
+          "pdfplumber": "0.11.9"
+        }
       },
       "review_status": "needs_review",
       "rules": {
@@ -53425,7 +53965,11 @@
           "last_modified": "Wed, 01 Jul 2026 06:04:37 GMT",
           "content_length": 103500
         },
-        "parser_version": "0.1.0"
+        "parser_version": "0.1.0",
+        "extractor_versions": {
+          "pypdf": "6.10.0",
+          "pdfplumber": "0.11.9"
+        }
       },
       "review_status": "needs_review",
       "rules": {
@@ -53589,7 +54133,11 @@
           "last_modified": "Tue, 23 Dec 2025 07:00:18 GMT",
           "content_length": 246856
         },
-        "parser_version": "0.1.0"
+        "parser_version": "0.1.0",
+        "extractor_versions": {
+          "pypdf": "6.10.0",
+          "pdfplumber": "0.11.9"
+        }
       },
       "review_status": "needs_review",
       "rules": {
@@ -54136,7 +54684,11 @@
           "last_modified": "Tue, 27 May 2025 01:50:13 GMT",
           "content_length": 108548
         },
-        "parser_version": "0.1.0"
+        "parser_version": "0.1.0",
+        "extractor_versions": {
+          "pypdf": "6.10.0",
+          "pdfplumber": "0.11.9"
+        }
       },
       "review_status": "needs_review",
       "rules": {
@@ -54630,7 +55182,11 @@
           "last_modified": "Tue, 27 May 2025 01:53:13 GMT",
           "content_length": 158885
         },
-        "parser_version": "0.1.0"
+        "parser_version": "0.1.0",
+        "extractor_versions": {
+          "pypdf": "6.10.0",
+          "pdfplumber": "0.11.9"
+        }
       },
       "review_status": "needs_review",
       "rules": {
@@ -54824,7 +55380,11 @@
           "last_modified": "Tue, 27 May 2025 01:55:04 GMT",
           "content_length": 128380
         },
-        "parser_version": "0.1.0"
+        "parser_version": "0.1.0",
+        "extractor_versions": {
+          "pypdf": "6.10.0",
+          "pdfplumber": "0.11.9"
+        }
       },
       "review_status": "needs_review",
       "rules": {
@@ -55244,7 +55804,11 @@
           "last_modified": "Tue, 23 Dec 2025 06:46:46 GMT",
           "content_length": 187752
         },
-        "parser_version": "0.1.0"
+        "parser_version": "0.1.0",
+        "extractor_versions": {
+          "pypdf": "6.10.0",
+          "pdfplumber": "0.11.9"
+        }
       },
       "review_status": "needs_review",
       "rules": {
@@ -55552,7 +56116,11 @@
           "last_modified": "Tue, 21 Apr 2026 02:20:12 GMT",
           "content_length": 153492
         },
-        "parser_version": "0.1.0"
+        "parser_version": "0.1.0",
+        "extractor_versions": {
+          "pypdf": "6.10.0",
+          "pdfplumber": "0.11.9"
+        }
       },
       "review_status": "needs_review",
       "rules": {

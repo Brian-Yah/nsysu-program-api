@@ -2,6 +2,7 @@ from nsysu_program_api.core import (
     Fetcher,
     _join_wrapped_text,
     _split_units,
+    extractor_versions,
     normalize_text,
     parse_catalog,
     pdf_academic_version,
@@ -62,3 +63,9 @@ def test_fetcher_network_settings_are_bounded(monkeypatch):
     fetcher = Fetcher("test-agent", delay=0)
     assert fetcher.timeout == 180
     assert fetcher.attempts == 8
+
+
+def test_extractor_versions_are_explicit():
+    versions = extractor_versions()
+    assert set(versions) == {"pypdf", "pdfplumber"}
+    assert versions["pypdf"] is not None
