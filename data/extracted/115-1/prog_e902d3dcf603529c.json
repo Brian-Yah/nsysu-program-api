@@ -638,7 +638,7 @@
           "requirement_group": "core",
           "requirement_section": "core",
           "program_course_name_snapshot": null,
-          "notes": "1. 戲劇構作系列課程擇一,2學分,包括戲劇構作導論、戲劇構作實踐:古典、戲劇構作實踐:中古與近代、戲劇構作實踐:現當代2. 增加 4. 戲劇構作實踐:古典5. 戲劇構作實踐:中古與近代6. 戲劇構作實踐:現當代 1. 戲劇構作系列課程擇一,2學分,包括戲劇構作導論、戲劇構作實踐:古典、戲劇構作實踐:中古與近代、戲劇構作實踐:現當代2. 由選修調整核心",
+          "notes": "1. 戲劇構作系列課程擇一,2學分,包括戲劇構作導論、戲劇構作實踐:古典、戲劇構作實踐:中古與近代、戲劇構作實踐:現當代2. 增加 4. 戲劇構作實踐:古典5. 戲劇構作實踐:中古與近代6. 戲劇構作實踐:現當代",
           "source_page": 3,
           "evidence_match": true,
           "validation_status": "needs_course_code_verification",
@@ -656,7 +656,7 @@
           "requirement_group": "core",
           "requirement_section": "core",
           "program_course_name_snapshot": null,
-          "notes": "1. 戲劇構作系列課程擇一,2學分,包括戲劇構作導論、戲劇構作實踐:古典、戲劇構作實踐:中古與近代、戲劇構作實踐:現當代2. 增加 4. 戲劇構作實踐:古典5. 戲劇構作實踐:中古與近代6. 戲劇構作實踐:現當代 1. 戲劇構作系列課程擇一,2學分,包括戲劇構作導論、戲劇構作實踐:古典、戲劇構作實踐:中古與近代、戲劇構作實踐:現當代2. 由選修調整核心",
+          "notes": "1. 戲劇構作系列課程擇一,2學分,包括戲劇構作導論、戲劇構作實踐:古典、戲劇構作實踐:中古與近代、戲劇構作實踐:現當代2. 增加 4. 戲劇構作實踐:古典5. 戲劇構作實踐:中古與近代6. 戲劇構作實踐:現當代",
           "source_page": 3,
           "evidence_match": true,
           "validation_status": "needs_course_code_verification",
@@ -674,7 +674,7 @@
           "requirement_group": "core",
           "requirement_section": "core",
           "program_course_name_snapshot": null,
-          "notes": "1. 戲劇構作系列課程擇一,2學分,包括戲劇構作導論、戲劇構作實踐:古典、戲劇構作實踐:中古與近代、戲劇構作實踐:現當代2. 增加 4. 戲劇構作實踐:古典5. 戲劇構作實踐:中古與近代6. 戲劇構作實踐:現當代 1. 戲劇構作系列課程擇一,2學分,包括戲劇構作導論、戲劇構作實踐:古典、戲劇構作實踐:中古與近代、戲劇構作實踐:現當代2. 由選修調整核心",
+          "notes": "1. 戲劇構作系列課程擇一,2學分,包括戲劇構作導論、戲劇構作實踐:古典、戲劇構作實踐:中古與近代、戲劇構作實踐:現當代2. 增加 4. 戲劇構作實踐:古典5. 戲劇構作實踐:中古與近代6. 戲劇構作實踐:現當代",
           "source_page": 3,
           "evidence_match": true,
           "validation_status": "needs_course_code_verification",
@@ -903,6 +903,25 @@
         ],
         "entry_selection_constraints": [
           {
+            "constraint_id": "constraint_0b7ee3a024d7af67",
+            "kind": "select_entries",
+            "catalog_entry_ids": [
+              "entry_df3966f5647e106d"
+            ],
+            "course_names": [
+              "戲劇構作導論"
+            ],
+            "min_entries": 1,
+            "max_entries": 1,
+            "declared_option_count": null,
+            "option_count_matches": true,
+            "requirement_group": "core",
+            "requirement_section": "core",
+            "source_page": 3,
+            "source_text": "1. 戲劇構作系列課程擇一,2學分,包括戲劇構作導論、戲劇構作實踐:古典、戲劇構作實踐:中古與近代、戲劇構作實踐:現當代2. 由選修調整核心",
+            "validation_status": "source_text_match"
+          },
+          {
             "constraint_id": "constraint_10e539aede0e0115",
             "kind": "select_entries",
             "catalog_entry_ids": [
@@ -921,29 +940,6 @@
             "requirement_section": "core",
             "source_page": 3,
             "source_text": "1. 戲劇構作系列課程擇一,2學分,包括戲劇構作導論、戲劇構作實踐:古典、戲劇構作實踐:中古與近代、戲劇構作實踐:現當代2. 增加",
-            "validation_status": "source_text_match"
-          },
-          {
-            "constraint_id": "constraint_7c310fae72adf38e",
-            "kind": "select_entries",
-            "catalog_entry_ids": [
-              "entry_df3966f5647e106d",
-              "entry_c0eba3b25e80037d"
-            ],
-            "course_names": [
-              "戲劇構作導論",
-              "戲劇構作實踐:古典",
-              "戲劇構作實踐:中古與近代",
-              "戲劇構作實踐:現當代"
-            ],
-            "min_entries": 1,
-            "max_entries": 1,
-            "declared_option_count": null,
-            "option_count_matches": true,
-            "requirement_group": "core",
-            "requirement_section": "core",
-            "source_page": 3,
-            "source_text": "1. 戲劇構作系列課程擇一,2學分,包括戲劇構作導論、戲劇構作實踐:古典、戲劇構作實踐:中古與近代、戲劇構作實踐:現當代2. 由選修調整核心",
             "validation_status": "source_text_match"
           }
         ]

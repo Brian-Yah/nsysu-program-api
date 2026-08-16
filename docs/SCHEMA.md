@@ -16,11 +16,13 @@
 結構化採計規則分為：
 
 - `course_count_constraints`：`max_courses`、同一 entry 的 `course_equivalence`、明文 `select_courses`，以及同一半導體學程科目的 `program_course_equivalence`。
-- `entry_selection_constraints`：對一組 `catalog_entry_ids` 套用精確的最少／最多 entry 數。
+- `entry_selection_constraints`：對一組 `catalog_entry_ids` 套用最少／最多 entry 數；只有「至少」而沒有上限依據時，`max_entries` 為 `null`。
 - `program_course_selection_constraints`：對半導體學程的必修、必選修或選修科目群套用門數。
 - `named_group_selection_constraints`：先選命名領域，再滿足該領域最低學分。
 - `no_double_count_constraints`：同一課程不得在核心與選修重複計入。
 
 每筆保留穩定 `constraint_id`、來源頁、原文與驗證狀態。`declared_option_count` 與 `option_count_matches` 同時保存 PDF 宣告數和實際表列數；不一致時不得猜測或刪課。
+
+Consumer 判斷 `entry_selection_constraints` 時，必須逐條檢查 `selected_entries >= min_entries`；只有 `max_entries` 非 `null` 時才檢查上限。核心課程完成條件是核心採計學分達到 `core_credits_text_value`，且所有 `requirement_group: core` 的最低門檻 constraint 都成立。不得只用核心學分總和取代 A、B 等分類門檻。
 
 最低畢業學分是獨立資料集，以 `entry_academic_year`、`degree_level`、`department_code` 組成查詢鍵。`minimum_graduation_credits` 只接受大於 0 的整數；`required_course_ratio` 可為 null。每筆保留官方結果 URL、binary hash、取得時間、HTTP status 及畢業門檻 parser version。系所名稱只供顯示，不應取代穩定的校方系所代碼。

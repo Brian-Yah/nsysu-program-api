@@ -131,7 +131,7 @@
         "catalog_entry_ids": {"type": "array", "items": {"type": "string", "pattern": "^entry_[a-f0-9]{16}(?:_[1-9][0-9]*)?$"}, "minItems": 1, "uniqueItems": true},
         "course_names": {"type": "array", "items": {"type": "string", "minLength": 1}, "minItems": 1, "uniqueItems": true},
         "min_entries": {"type": "integer", "minimum": 1},
-        "max_entries": {"type": "integer", "minimum": 1},
+        "max_entries": {"type": ["integer", "null"], "minimum": 1},
         "declared_option_count": {"type": ["integer", "null"], "minimum": 1},
         "option_count_matches": {"type": "boolean"},
         "requirement_group": {"enum": ["core", "elective", "unspecified"]},

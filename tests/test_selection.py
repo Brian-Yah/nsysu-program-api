@@ -73,6 +73,43 @@ def test_choose_one_repeated_note_drops_trivial_subset() -> None:
     constraints = requirements["entry_selection_constraints"]
     assert len(constraints) == 1
     assert constraints[0]["catalog_entry_ids"] == ["entry_a", "entry_b"]
+    assert constraints[0]["max_entries"] == 1
+
+
+def test_at_least_choose_one_has_no_entry_maximum() -> None:
+    first, second = course("甲", "entry_a"), course("乙", "entry_b")
+    source_text = "A類課程(至少擇一修習)"
+    rows = [row(0, [first], source_text), row(1, [second], source_text)]
+    requirements = build_selection_requirements([first, second], rows, [])
+    constraints = requirements["entry_selection_constraints"]
+    assert len(constraints) == 1
+    assert constraints[0]["catalog_entry_ids"] == ["entry_a", "entry_b"]
+    assert constraints[0]["min_entries"] == 1
+    assert constraints[0]["max_entries"] is None
+
+
+def test_at_least_groups_remain_independent_constraints() -> None:
+    courses = [
+        course("A甲", "entry_a_1"),
+        course("A乙", "entry_a_2"),
+        course("B甲", "entry_b_1"),
+        course("B乙", "entry_b_2"),
+    ]
+    rows = [
+        row(0, [courses[0]], "A類(至少擇一修習)"),
+        row(1, [courses[1]], "A類(至少擇一修習)"),
+        row(2, [courses[2]], "B類(至少擇一修習)"),
+        row(3, [courses[3]], "B類(至少擇一修習)"),
+    ]
+    requirements = build_selection_requirements(courses, rows, [])
+    constraints = requirements["entry_selection_constraints"]
+    assert len(constraints) == 2
+    assert {tuple(item["catalog_entry_ids"]) for item in constraints} == {
+        ("entry_a_1", "entry_a_2"),
+        ("entry_b_1", "entry_b_2"),
+    }
+    assert all(item["min_entries"] == 1 for item in constraints)
+    assert all(item["max_entries"] is None for item in constraints)
 
 
 def test_program_subject_equivalence_and_subject_selection() -> None:

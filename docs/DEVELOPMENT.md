@@ -6,7 +6,7 @@
 
 PDF 文字與表格擷取套件使用精確版本 pin，且每筆來源保存 `extractor_versions`。更新 pypdf 或 pdfplumber 時必須另開資料維護 PR、全量比較 binary/text hash，避免把工具輸出差異誤報為官方資料異動。
 
-Parser 會把「至多採認 N 科」「N 擇一」「任選 N 門」「每一學程科目僅採計一門」「學程科目應選 N 門」及「不得重複計入」轉成對應 constraints，並處理備註欄、合併儲存格、跨頁欄數變化與表格 entry 別名。修改這段邏輯時須以 `extract-cache` 對全部 PDF 重抽，確認 constraint 所列課名、entry ID 與學程科目都存在於同版 `course_catalog`，且不得僅手改發布 JSON。
+Parser 會把「至多採認 N 科」「N 擇一」「至少擇一」「任選 N 門」「每一學程科目僅採計一門」「學程科目應選 N 門」及「不得重複計入」轉成對應 constraints，並處理備註欄、合併儲存格、跨頁欄數變化與表格 entry 別名。「至少擇一」只能產生 `min_entries: 1`，不得自行推導上限；無正式上限時 `max_entries` 必須為 `null`。修改這段邏輯時須以 `extract-cache` 對全部 PDF 重抽，確認 constraint 所列課名、entry ID 與學程科目都存在於同版 `course_catalog`，且不得僅手改發布 JSON。
 
 全量重抽後還須掃描所有 selected PDF version 的規則關鍵字，確認沒有明文規則缺少 constraint；`compound_rows_needing_review` 必須逐列檢視。`option_count_matches: false` 可以保留，但必須是官方宣告數與實際表列數的真實差異。
 

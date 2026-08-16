@@ -25,6 +25,9 @@ CHOOSE_COUNT_PATTERN = re.compile(
     rf"(?:任選|選擇)\s*(?P<select>{COUNT_TOKEN})\s*(?:門|科)"
 )
 CHOOSE_ONE_PATTERN = re.compile(r"擇\s*一\s*(?:修習|門|科)?")
+AT_LEAST_CHOOSE_ONE_PATTERN = re.compile(
+    r"至少\s*擇\s*一\s*(?:修習|門|科)?"
+)
 PROGRAM_COURSE_SELECTION_PATTERN = re.compile(
     rf"(?P<options>{COUNT_TOKEN})\s*學程科目\s*應選\s*(?P<select>{COUNT_TOKEN})\s*門"
 )
@@ -155,6 +158,7 @@ def _forward_course_rows(rows: list[dict], index: int, include_same_choose_one: 
                 and candidate.get("courses")
                 and CHOOSE_ONE_PATTERN.search(origin_text)
                 and CHOOSE_ONE_PATTERN.search(candidate_text)
+                and normalized_key(origin_text) == normalized_key(candidate_text)
             ):
                 break
         if candidate.get("is_summary"):
@@ -184,6 +188,7 @@ def _entry_selection_constraint(
     select_count: int,
     declared_option_count: int | None,
     source_row: dict,
+    max_entries: int | None,
 ) -> dict | None:
     entry_ids = _unique(
         [entry_id for row in selected_rows for entry_id in _row_entry_ids(row)]
@@ -201,7 +206,7 @@ def _entry_selection_constraint(
         "catalog_entry_ids": entry_ids,
         "course_names": course_names,
         "min_entries": select_count,
-        "max_entries": select_count,
+        "max_entries": max_entries,
         "declared_option_count": declared_option_count,
         "option_count_matches": (
             declared_option_count is None or declared_option_count == len(entry_ids)
@@ -410,7 +415,7 @@ def build_selection_requirements(
                     course_constraints.append(constraint)
                 continue
             constraint = _entry_selection_constraint(
-                selected_rows, selected_count, declared, row
+                selected_rows, selected_count, declared, row, selected_count
             )
             if constraint:
                 entry_constraints.append(constraint)
@@ -438,13 +443,16 @@ def build_selection_requirements(
                     course_constraints.append(constraint)
                 continue
             constraint = _entry_selection_constraint(
-                selected_rows, selected_count, None, row
+                selected_rows, selected_count, None, row, selected_count
             )
             if constraint:
                 entry_constraints.append(constraint)
         elif choose_one:
             selected_rows = _forward_course_rows(table_rows, index, True)
-            constraint = _entry_selection_constraint(selected_rows, 1, None, row)
+            max_entries = None if AT_LEAST_CHOOSE_ONE_PATTERN.search(normalized_text) else 1
+            constraint = _entry_selection_constraint(
+                selected_rows, 1, None, row, max_entries
+            )
             if constraint:
                 entry_constraints.append(constraint)
 

@@ -47,7 +47,7 @@ curl -fsSL https://brian-yah.github.io/nsysu-program-api/api/v1/graduation-requi
 {
   "schema_version": "1.0",
   "academic_version": "115-1",
-  "data_revision": 3,
+  "data_revision": 4,
   "retrieved_at": "2026-08-15T00:00:00Z",
   "programs": []
 }
@@ -61,7 +61,7 @@ curl -fsSL https://brian-yah.github.io/nsysu-program-api/api/v1/graduation-requi
 
 ClearGrad 或其他 consumer 應固定 academic version 或 release、檢查 manifest/schema version、在自己的 CDN 或本地快取，且先審核差異再更新。`latest` 不是核准訊號。遇到 `needs_review`，UI 應顯示「需人工確認」，不得宣稱學生不符合。
 
-`structured_requirements` 會把官方 PDF 的採計規則分成課程互斥、表格 entry 任選、學程科目任選、命名領域擇一與不可重複採計。consumer 應以 `catalog_entry_id`、`program_course_name_snapshot` 與 constraint 內的穩定 ID 計算，不能只累加畫面上的全部課程。例：金融工程的三門線性代數 `max_courses: 1`；半導體學程的同一學程科目只採計一門，且各必修／必選修／選修區段另有門數要求；中文創意學程則須擇一命名領域並滿足該領域最低學分。`notes` 與 `source_text` 供顯示及稽核，結構化 constraint 才是計算依據。
+`structured_requirements` 會把官方 PDF 的採計規則分成課程互斥、表格 entry 任選、學程科目任選、命名領域擇一與不可重複採計。consumer 應以 `catalog_entry_id`、`program_course_name_snapshot` 與 constraint 內的穩定 ID 計算，不能只累加畫面上的全部課程。例：金融工程的三門線性代數 `max_courses: 1`；全民國防的 A、B 類各有 `min_entries: 1` 且沒有正式上限時 `max_entries: null`；半導體學程的同一學程科目只採計一門，且各必修／必選修／選修區段另有門數要求；中文創意學程則須擇一命名領域並滿足該領域最低學分。`notes` 與 `source_text` 供顯示及稽核，結構化 constraint 才是計算依據。
 
 若 `option_count_matches` 為 `false`，表示 PDF 宣告的選項數與實際表列數不一致；consumer 應保留全部表列課程並提示人工確認，不得自行刪除選項。
 

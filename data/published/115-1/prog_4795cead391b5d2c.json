@@ -23,7 +23,7 @@
       "last_modified": "Tue, 23 Dec 2025 06:58:06 GMT",
       "content_length": 167366
     },
-    "parser_version": "0.2.2",
+    "parser_version": "0.2.3",
     "extractor_versions": {
       "pypdf": "6.10.0",
       "pdfplumber": "0.11.9"
@@ -427,7 +427,7 @@
           "淺談台海局勢與空軍現況分析"
         ],
         "min_entries": 1,
-        "max_entries": 1,
+        "max_entries": null,
         "declared_option_count": null,
         "option_count_matches": true,
         "requirement_group": "core",
@@ -446,7 +446,7 @@
           "基礎外傷急救"
         ],
         "min_entries": 1,
-        "max_entries": 1,
+        "max_entries": null,
         "declared_option_count": null,
         "option_count_matches": true,
         "requirement_group": "core",

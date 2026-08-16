@@ -630,7 +630,7 @@
           "requirement_group": "core",
           "requirement_section": "core",
           "program_course_name_snapshot": null,
-          "notes": "CM503與MIS572為進階課程,學生擇一修習。 大數據、機器學習與人工智慧CM503 CM502、BM678、IB533、FM617為基礎課程,學生擇一修習。",
+          "notes": "CM503與MIS572為進階課程,學生擇一修習。 大數據、機器學習與人工智慧CM503",
           "source_page": 4,
           "evidence_match": true,
           "validation_status": "needs_course_code_verification",
@@ -648,7 +648,7 @@
           "requirement_group": "core",
           "requirement_section": "core",
           "program_course_name_snapshot": null,
-          "notes": "CM503與MIS572為進階課程,學生擇一修習。 大數據、機器學習與人工智慧CM503 CM502、BM678、IB533、FM617為基礎課程,學生擇一修習。",
+          "notes": "CM503與MIS572為進階課程,學生擇一修習。 大數據、機器學習與人工智慧CM503",
           "source_page": 4,
           "evidence_match": true,
           "validation_status": "needs_course_code_verification",
@@ -666,7 +666,7 @@
           "requirement_group": "core",
           "requirement_section": "core",
           "program_course_name_snapshot": null,
-          "notes": "CM502、BM678、IB533、FM617為基礎課程,學生擇一修習。 CM503與MIS572為進階課程,學生擇一修習。",
+          "notes": "CM503與MIS572為進階課程,學生擇一修習。",
           "source_page": 4,
           "evidence_match": true,
           "validation_status": "needs_course_code_verification",
@@ -684,7 +684,7 @@
           "requirement_group": "core",
           "requirement_section": "core",
           "program_course_name_snapshot": null,
-          "notes": "CM506總結性課程 CM502、BM678、IB533、FM617為基礎課程,學生擇一修習。 CM503與MIS572為進階課程,學生擇一修習。",
+          "notes": "CM506總結性課程 CM503與MIS572為進階課程,學生擇一修習。",
           "source_page": 4,
           "evidence_match": false,
           "validation_status": "needs_course_code_verification",
@@ -729,39 +729,6 @@
         ],
         "entry_selection_constraints": [
           {
-            "constraint_id": "constraint_025bf753d62ca14d",
-            "kind": "select_entries",
-            "catalog_entry_ids": [
-              "entry_37e382a2cf4f799b",
-              "entry_7c011215b268906d",
-              "entry_0984e238faa80177",
-              "entry_e0bb8247b5684a17",
-              "entry_4e7c5ee026b79d60",
-              "entry_147b07736a002dd8",
-              "entry_e8dcc5843f9f23b8"
-            ],
-            "course_names": [
-              "R程式語言、機率統計與商業實",
-              "務CM502",
-              "商務數據分析BM678",
-              "商業數據分析實務IB533",
-              "金融投資與程式交易",
-              "大數據、機器學習與人工智慧",
-              "CM503",
-              "巨量資料分析導論MIS572",
-              "金融服務與金融科技資料案例CM506"
-            ],
-            "min_entries": 1,
-            "max_entries": 1,
-            "declared_option_count": null,
-            "option_count_matches": true,
-            "requirement_group": "core",
-            "requirement_section": "core",
-            "source_page": 4,
-            "source_text": "CM502、BM678、IB533、FM617為基礎課程,學生擇一修習。",
-            "validation_status": "source_text_match"
-          },
-          {
             "constraint_id": "constraint_3a6dfbd391552f77",
             "kind": "select_entries",
             "catalog_entry_ids": [
@@ -783,6 +750,32 @@
             "requirement_section": "core",
             "source_page": 4,
             "source_text": "CM503與MIS572為進階課程,學生擇一修習。",
+            "validation_status": "source_text_match"
+          },
+          {
+            "constraint_id": "constraint_b7f3edd79cca5e79",
+            "kind": "select_entries",
+            "catalog_entry_ids": [
+              "entry_37e382a2cf4f799b",
+              "entry_7c011215b268906d",
+              "entry_0984e238faa80177",
+              "entry_e0bb8247b5684a17"
+            ],
+            "course_names": [
+              "R程式語言、機率統計與商業實",
+              "務CM502",
+              "商務數據分析BM678",
+              "商業數據分析實務IB533",
+              "金融投資與程式交易"
+            ],
+            "min_entries": 1,
+            "max_entries": 1,
+            "declared_option_count": null,
+            "option_count_matches": true,
+            "requirement_group": "core",
+            "requirement_section": "core",
+            "source_page": 4,
+            "source_text": "CM502、BM678、IB533、FM617為基礎課程,學生擇一修習。",
             "validation_status": "source_text_match"
           }
         ]
@@ -834,7 +827,7 @@
           "requirement_group": "core",
           "requirement_section": "core",
           "program_course_name_snapshot": null,
-          "notes": "108年秋/與「R程式語言」為相同課程,學生擇一修習。 108年春/與「商務數據分析」為相同課程,學生擇一修習。",
+          "notes": "108年秋/與「R程式語言」為相同課程,學生擇一修習。",
           "source_page": 5,
           "evidence_match": true,
           "validation_status": "needs_course_code_verification",
@@ -852,7 +845,7 @@
           "requirement_group": "core",
           "requirement_section": "core",
           "program_course_name_snapshot": null,
-          "notes": "108年秋/與「巨量資料分析導論」併班上課,學生擇一修習。 108年秋/與「R程式語言」為相同課程,學生擇一修習。 108年春/與「商務數據分析」為相同課程,學生擇一修習。",
+          "notes": "108年秋/與「巨量資料分析導論」併班上課,學生擇一修習。",
           "source_page": 5,
           "evidence_match": true,
           "validation_status": "needs_course_code_verification",
@@ -870,7 +863,7 @@
           "requirement_group": "core",
           "requirement_section": "core",
           "program_course_name_snapshot": null,
-          "notes": "108年秋/與「大數據、機器學習與人工智慧」併班上課,學生擇一修習。 108年秋/與「R程式語言」為相同課程,學生擇一修習。 108年秋/與「巨量資料分析導論」併班上課,學生擇一修習。 108年春/與「商務數據分析」為相同課程,學生擇一修習。",
+          "notes": "108年秋/與「大數據、機器學習與人工智慧」併班上課,學生擇一修習。",
           "source_page": 5,
           "evidence_match": true,
           "validation_status": "needs_course_code_verification",
@@ -888,7 +881,7 @@
           "requirement_group": "core",
           "requirement_section": "core",
           "program_course_name_snapshot": null,
-          "notes": "109年春 108年秋/與「大數據、機器學習與人工智慧」併班上課,學生擇一修習。 108年秋/與「R程式語言」為相同課程,學生擇一修習。 108年秋/與「巨量資料分析導論」併班上課,學生擇一修習。 108年春/與「商務數據分析」為相同課程,學生擇一修習。",
+          "notes": "109年春 108年秋/與「大數據、機器學習與人工智慧」併班上課,學生擇一修習。",
           "source_page": 5,
           "evidence_match": true,
           "validation_status": "needs_course_code_verification",
@@ -922,19 +915,13 @@
             "validation_status": "source_text_match"
           },
           {
-            "constraint_id": "constraint_52b2fff365e5b709",
+            "constraint_id": "constraint_6651ce0101c23150",
             "kind": "select_entries",
             "catalog_entry_ids": [
-              "entry_5ba47194ebd80fe8",
-              "entry_5b37c165396477b9",
-              "entry_065b3a1e014f8c9f",
-              "entry_956e90084c36dbac"
+              "entry_5ba47194ebd80fe8"
             ],
             "course_names": [
-              "商務數據分析",
-              "大數據、機器學習與人工智慧",
-              "巨量資料分析導論",
-              "金融服務與金融科技資料案例"
+              "商務數據分析"
             ],
             "min_entries": 1,
             "max_entries": 1,
@@ -947,17 +934,13 @@
             "validation_status": "source_text_match"
           },
           {
-            "constraint_id": "constraint_75cbdd1de527f7c2",
+            "constraint_id": "constraint_dd939de089ce14ba",
             "kind": "select_entries",
             "catalog_entry_ids": [
-              "entry_5b37c165396477b9",
-              "entry_065b3a1e014f8c9f",
-              "entry_956e90084c36dbac"
+              "entry_5b37c165396477b9"
             ],
             "course_names": [
-              "大數據、機器學習與人工智慧",
-              "巨量資料分析導論",
-              "金融服務與金融科技資料案例"
+              "大數據、機器學習與人工智慧"
             ],
             "min_entries": 1,
             "max_entries": 1,
@@ -970,21 +953,13 @@
             "validation_status": "source_text_match"
           },
           {
-            "constraint_id": "constraint_818fd26e7c2a8953",
+            "constraint_id": "constraint_f3cf344540f94ab7",
             "kind": "select_entries",
             "catalog_entry_ids": [
-              "entry_500c93911a55bfe3",
-              "entry_5ba47194ebd80fe8",
-              "entry_5b37c165396477b9",
-              "entry_065b3a1e014f8c9f",
-              "entry_956e90084c36dbac"
+              "entry_500c93911a55bfe3"
             ],
             "course_names": [
-              "R程式語言、機率統計與商業實務",
-              "商務數據分析",
-              "大數據、機器學習與人工智慧",
-              "巨量資料分析導論",
-              "金融服務與金融科技資料案例"
+              "R程式語言、機率統計與商業實務"
             ],
             "min_entries": 1,
             "max_entries": 1,

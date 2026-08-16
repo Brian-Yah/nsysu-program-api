@@ -65,9 +65,13 @@ for path in (root / "data/published").glob("*/*.json"):
             errors.append(
                 f"{path}: {constraint_id} references missing entries {missing_entries}"
             )
-        if constraint.get("max_entries", 0) > len(referenced):
+        max_entries = constraint.get("max_entries")
+        if max_entries is not None and max_entries > len(referenced):
             errors.append(f"{path}: {constraint_id} max_entries exceeds entries")
-        if constraint.get("min_entries", 0) > constraint.get("max_entries", 0):
+        if (
+            max_entries is not None
+            and constraint.get("min_entries", 0) > max_entries
+        ):
             errors.append(f"{path}: {constraint_id} min_entries exceeds max_entries")
     for constraint in requirements.get("program_course_selection_constraints", []):
         constraint_id = constraint.get("constraint_id")
