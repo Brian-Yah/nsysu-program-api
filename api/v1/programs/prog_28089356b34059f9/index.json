@@ -29,7 +29,7 @@
         "last_modified": "Mon, 12 Jun 2023 01:35:47 GMT",
         "content_length": 180680
       },
-      "parser_version": "0.2.3",
+      "parser_version": "0.3.0",
       "extractor_versions": {
         "pypdf": "6.10.0",
         "pdfplumber": "0.11.9"
@@ -40,9 +40,7 @@
       "kind": "manual_review",
       "reason": "Extracted candidate awaits approval"
     },
-    "warnings": [
-      "No structured course rows extracted from PDF tables"
-    ],
+    "warnings": [],
     "selected_pdf_academic_version": "109-1",
     "course_catalog": [
       {
@@ -56,6 +54,7 @@
         "credits_snapshot": 3.0,
         "requirement_group": "core",
         "requirement_section": "core",
+        "requirement_label": null,
         "program_course_name_snapshot": null,
         "notes": " 核心課程學分數: 6 學分(核心課程任選二門)   ",
         "source_page": 1,
@@ -74,6 +73,7 @@
         "credits_snapshot": 3.0,
         "requirement_group": "core",
         "requirement_section": "core",
+        "requirement_label": null,
         "program_course_name_snapshot": null,
         "notes": " 核心課程學分數: 6 學分(核心課程任選二門)   ",
         "source_page": 1,
@@ -92,6 +92,7 @@
         "credits_snapshot": 3.0,
         "requirement_group": "core",
         "requirement_section": "core",
+        "requirement_label": null,
         "program_course_name_snapshot": null,
         "notes": " 核心課程學分數: 6 學分(核心課程任選二門)   ",
         "source_page": 1,
@@ -110,6 +111,7 @@
         "credits_snapshot": 3.0,
         "requirement_group": "elective",
         "requirement_section": "elective",
+        "requirement_label": null,
         "program_course_name_snapshot": null,
         "notes": "",
         "source_page": 1,
@@ -128,6 +130,7 @@
         "credits_snapshot": 3.0,
         "requirement_group": "elective",
         "requirement_section": "elective",
+        "requirement_label": null,
         "program_course_name_snapshot": null,
         "notes": "",
         "source_page": 1,
@@ -146,6 +149,7 @@
         "credits_snapshot": 3.0,
         "requirement_group": "elective",
         "requirement_section": "elective",
+        "requirement_label": null,
         "program_course_name_snapshot": null,
         "notes": "",
         "source_page": 1,
@@ -165,6 +169,7 @@
         "credits_snapshot": 3.0,
         "requirement_group": "elective",
         "requirement_section": "elective",
+        "requirement_label": null,
         "program_course_name_snapshot": null,
         "notes": "1062新傳管所",
         "source_page": 1,
@@ -184,6 +189,7 @@
         "credits_snapshot": 3.0,
         "requirement_group": "elective",
         "requirement_section": "elective",
+        "requirement_label": null,
         "program_course_name_snapshot": null,
         "notes": "1051新增",
         "source_page": 1,
@@ -203,6 +209,7 @@
         "credits_snapshot": 3.0,
         "requirement_group": "elective",
         "requirement_section": "elective",
+        "requirement_label": null,
         "program_course_name_snapshot": null,
         "notes": "",
         "source_page": 1,
@@ -221,6 +228,7 @@
         "credits_snapshot": 3.0,
         "requirement_group": "elective",
         "requirement_section": "elective",
+        "requirement_label": null,
         "program_course_name_snapshot": null,
         "notes": "",
         "source_page": 1,
@@ -239,6 +247,7 @@
         "credits_snapshot": 3.0,
         "requirement_group": "elective",
         "requirement_section": "elective",
+        "requirement_label": null,
         "program_course_name_snapshot": null,
         "notes": "",
         "source_page": 1,
@@ -257,6 +266,7 @@
         "credits_snapshot": 3.0,
         "requirement_group": "elective",
         "requirement_section": "elective",
+        "requirement_label": null,
         "program_course_name_snapshot": null,
         "notes": "",
         "source_page": 1,
@@ -275,6 +285,7 @@
         "credits_snapshot": 3.0,
         "requirement_group": "elective",
         "requirement_section": "elective",
+        "requirement_label": null,
         "program_course_name_snapshot": null,
         "notes": "",
         "source_page": 1,
@@ -293,6 +304,7 @@
         "credits_snapshot": 3.0,
         "requirement_group": "elective",
         "requirement_section": "elective",
+        "requirement_label": null,
         "program_course_name_snapshot": null,
         "notes": "",
         "source_page": 1,
@@ -311,6 +323,7 @@
         "credits_snapshot": 3.0,
         "requirement_group": "elective",
         "requirement_section": "elective",
+        "requirement_label": null,
         "program_course_name_snapshot": null,
         "notes": "",
         "source_page": 1,
@@ -329,6 +342,7 @@
         "credits_snapshot": 3.0,
         "requirement_group": "elective",
         "requirement_section": "elective",
+        "requirement_label": null,
         "program_course_name_snapshot": null,
         "notes": "104/2新增",
         "source_page": 1,
@@ -347,6 +361,7 @@
         "credits_snapshot": 3.0,
         "requirement_group": "elective",
         "requirement_section": "elective",
+        "requirement_label": null,
         "program_course_name_snapshot": null,
         "notes": "104/2新增",
         "source_page": 1,
@@ -365,6 +380,7 @@
         "credits_snapshot": 3.0,
         "requirement_group": "elective",
         "requirement_section": "elective",
+        "requirement_label": null,
         "program_course_name_snapshot": null,
         "notes": "107/1新增",
         "source_page": 1,
@@ -383,6 +399,7 @@
         "credits_snapshot": 3.0,
         "requirement_group": "elective",
         "requirement_section": "elective",
+        "requirement_label": null,
         "program_course_name_snapshot": null,
         "notes": "107/2新增",
         "source_page": 1,
@@ -401,6 +418,7 @@
         "credits_snapshot": 3.0,
         "requirement_group": "elective",
         "requirement_section": "elective",
+        "requirement_label": null,
         "program_course_name_snapshot": null,
         "notes": "108/1新增",
         "source_page": 1,
@@ -419,6 +437,7 @@
         "credits_snapshot": 3.0,
         "requirement_group": "elective",
         "requirement_section": "elective",
+        "requirement_label": null,
         "program_course_name_snapshot": null,
         "notes": "",
         "source_page": 1,
@@ -428,9 +447,59 @@
       }
     ],
     "structured_requirements": {
-      "minimum_total_credits": 15,
-      "core_credits_text_value": 6,
-      "minimum_outside_home_department_credits": 6,
+      "minimum_core_credits": 6.0,
+      "core_credits_text_value": 6.0,
+      "minimum_total_credits": 15.0,
+      "minimum_outside_home_department_credits": 6.0,
+      "credit_constraints": [
+        {
+          "constraint_id": "constraint_95cf191546cd29b4",
+          "kind": "minimum_credits",
+          "scope": {
+            "kind": "catalog_filter",
+            "requirement_groups": [
+              "core"
+            ]
+          },
+          "minimum_credits": 6.0,
+          "requirement_context": "program_completion",
+          "source_page": 1,
+          "source_text": "核心課程學分數: 6 學分(核心課程任選二門)",
+          "validation_status": "source_text_match"
+        },
+        {
+          "constraint_id": "constraint_aacd285688c08ff9",
+          "kind": "minimum_credits",
+          "scope": {
+            "kind": "course_eligibility",
+            "excluded_affiliations": [
+              "home_department",
+              "double_major",
+              "minor"
+            ],
+            "excluded_course_roles": [
+              "all"
+            ]
+          },
+          "minimum_credits": 6.0,
+          "requirement_context": "program_completion",
+          "source_page": 1,
+          "source_text": "至少應有6學分不屬於學生本系所",
+          "validation_status": "source_text_match"
+        },
+        {
+          "constraint_id": "constraint_b0d58aa5706815e6",
+          "kind": "minimum_credits",
+          "scope": {
+            "kind": "program"
+          },
+          "minimum_credits": 15.0,
+          "requirement_context": "program_completion",
+          "source_page": 1,
+          "source_text": "總學分數:至少15學分",
+          "validation_status": "source_text_match"
+        }
+      ],
       "entry_selection_constraints": [
         {
           "constraint_id": "constraint_e3747f449af208e8",
@@ -455,7 +524,19 @@
           "source_text": " 核心課程學分數: 6 學分(核心課程任選二門)   ",
           "validation_status": "source_text_match"
         }
-      ]
+      ],
+      "completion_summary": {
+        "model_status": "partial",
+        "minimum_total_credits": 15.0,
+        "minimum_core_credits": 6.0,
+        "maximum_core_credits": null,
+        "minimum_elective_credits": null,
+        "minimum_core_courses": null,
+        "minimum_elective_courses": null,
+        "has_conditional_requirements": false,
+        "has_manual_requirements": false,
+        "has_unresolved_conflicts": false
+      }
     }
   }
 }

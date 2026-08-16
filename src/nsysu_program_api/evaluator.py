@@ -58,7 +58,17 @@ def evaluate(rules: dict, student: dict) -> dict:
             )
             return status, credits
         if kind in {"all_of", "any_of"}:
-            results = [visit(child) for child in rule.get("rules", [])]
+            children = rule.get("rules", [])
+            if not children:
+                details.append(
+                    {
+                        "kind": kind,
+                        "status": "needs_review",
+                        "reason": "empty composite rule is not executable",
+                    }
+                )
+                return "needs_review", 0
+            results = [visit(child) for child in children]
             statuses = [x[0] for x in results]
             if "needs_review" in statuses:
                 status = "needs_review"

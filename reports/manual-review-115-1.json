@@ -1,0 +1,802 @@
+{
+  "generated_at": "2026-08-16T14:22:24Z",
+  "academic_version": "115-1",
+  "ai_approved_count": 79,
+  "manual_review_count": 63,
+  "programs": [
+    {
+      "program_id": "prog_b6ba18c54c2d55bc",
+      "name_zh": "金融工程學程",
+      "type": "integrated_program",
+      "status": "active",
+      "review_status": "needs_review",
+      "model_status": "partial",
+      "reasons": [
+        "course_count_constraints",
+        "human_review_override",
+        "manual_requirements",
+        "special_rule_text_in_course_note"
+      ]
+    },
+    {
+      "program_id": "prog_7189acd83f59530a",
+      "name_zh": "生物技術學程",
+      "type": "integrated_program",
+      "status": "active",
+      "review_status": "needs_review",
+      "model_status": "partial",
+      "reasons": [
+        "entry_selection_constraints",
+        "human_review_override",
+        "manual_requirements",
+        "special_rule_text_in_course_note"
+      ]
+    },
+    {
+      "program_id": "prog_8f479dc02d095c9a",
+      "name_zh": "日本研究學程",
+      "type": "integrated_program",
+      "status": "active",
+      "review_status": "needs_review",
+      "model_status": "partial",
+      "reasons": [
+        "manual_requirements",
+        "no_double_count_constraints",
+        "non_standard_credit_constraint"
+      ]
+    },
+    {
+      "program_id": "prog_fedeccd728765be3",
+      "name_zh": "法國語言、文化與社會學程",
+      "type": "integrated_program",
+      "status": "active",
+      "review_status": "needs_review",
+      "model_status": "partial",
+      "reasons": [
+        "manual_requirements"
+      ]
+    },
+    {
+      "program_id": "prog_7adfffe5c6f6544b",
+      "name_zh": "生物多樣性學程",
+      "type": "integrated_program",
+      "status": "active",
+      "review_status": "needs_review",
+      "model_status": "partial",
+      "reasons": [
+        "entry_selection_constraints",
+        "special_rule_text_in_course_note"
+      ]
+    },
+    {
+      "program_id": "prog_fcabc4f274fd5436",
+      "name_zh": "表達性藝術治療學程",
+      "type": "integrated_program",
+      "status": "active",
+      "review_status": "needs_review",
+      "model_status": "partial",
+      "reasons": [
+        "course_count_constraints",
+        "special_rule_text_in_course_note"
+      ]
+    },
+    {
+      "program_id": "prog_28089356b34059f9",
+      "name_zh": "行銷管理學程",
+      "type": "integrated_program",
+      "status": "active",
+      "review_status": "needs_review",
+      "model_status": "partial",
+      "reasons": [
+        "entry_selection_constraints",
+        "special_rule_text_in_course_note"
+      ]
+    },
+    {
+      "program_id": "prog_58f7156f3746514c",
+      "name_zh": "性別研究學程",
+      "type": "integrated_program",
+      "status": "active",
+      "review_status": "needs_review",
+      "model_status": "partial",
+      "reasons": [
+        "entry_selection_constraints",
+        "special_rule_text_in_course_note"
+      ]
+    },
+    {
+      "program_id": "prog_2f383846b9b3526f",
+      "name_zh": "環境教育學程",
+      "type": "integrated_program",
+      "status": "active",
+      "review_status": "needs_review",
+      "model_status": "partial",
+      "reasons": [
+        "entry_selection_constraints",
+        "manual_requirements",
+        "special_rule_text_in_course_note"
+      ]
+    },
+    {
+      "program_id": "prog_b0535aebb56b5535",
+      "name_zh": "巨量資料分析學程",
+      "type": "integrated_program",
+      "status": "active",
+      "review_status": "needs_review",
+      "model_status": "partial",
+      "reasons": [
+        "non_standard_credit_constraint"
+      ]
+    },
+    {
+      "program_id": "prog_6f5407da4b4f524c",
+      "name_zh": "氣候變遷與調適學程",
+      "type": "integrated_program",
+      "status": "active",
+      "review_status": "needs_review",
+      "model_status": "partial",
+      "reasons": [
+        "entry_selection_constraints",
+        "special_rule_text_in_course_note"
+      ]
+    },
+    {
+      "program_id": "prog_6563ee7be1805b86",
+      "name_zh": "金融科技學程",
+      "type": "integrated_program",
+      "status": "active",
+      "review_status": "needs_review",
+      "model_status": "partial",
+      "reasons": [
+        "manual_requirements",
+        "non_standard_credit_constraint"
+      ]
+    },
+    {
+      "program_id": "prog_ae43d8508d255ad0",
+      "name_zh": "海事工程學程",
+      "type": "integrated_program",
+      "status": "active",
+      "review_status": "needs_review",
+      "model_status": "partial",
+      "reasons": [
+        "entry_selection_constraints"
+      ]
+    },
+    {
+      "program_id": "prog_1db9a3a8a7c654a4",
+      "name_zh": "臺灣研究學程",
+      "type": "integrated_program",
+      "status": "active",
+      "review_status": "needs_review",
+      "model_status": "partial",
+      "reasons": [
+        "manual_requirements"
+      ]
+    },
+    {
+      "program_id": "prog_940d059c23cb5f50",
+      "name_zh": "南星產業樞紐學程  (★自113年2月1日起停止受理申請修讀學程)",
+      "type": "integrated_program",
+      "status": "discontinued",
+      "review_status": "needs_review",
+      "model_status": "partial",
+      "reasons": [
+        "not_active"
+      ]
+    },
+    {
+      "program_id": "prog_3e6400714f4f56bc",
+      "name_zh": "音樂與高齡照護學程",
+      "type": "integrated_program",
+      "status": "active",
+      "review_status": "needs_review",
+      "model_status": "partial",
+      "reasons": [
+        "manual_requirements"
+      ]
+    },
+    {
+      "program_id": "prog_258ec7dded99588b",
+      "name_zh": "沉浸式體驗技術與應用學程  (★自113年2月1日起停止受理申請修讀學程)",
+      "type": "integrated_program",
+      "status": "discontinued",
+      "review_status": "needs_review",
+      "model_status": "partial",
+      "reasons": [
+        "not_active"
+      ]
+    },
+    {
+      "program_id": "prog_4fc4ae1446385354",
+      "name_zh": "擁海學程",
+      "type": "integrated_program",
+      "status": "active",
+      "review_status": "needs_review",
+      "model_status": "partial",
+      "reasons": [
+        "entry_selection_constraints",
+        "maximum_core_credits",
+        "special_rule_text_in_course_note"
+      ]
+    },
+    {
+      "program_id": "prog_b5e32570efc25c18",
+      "name_zh": "自然科學之程式應用學程",
+      "type": "integrated_program",
+      "status": "active",
+      "review_status": "needs_review",
+      "model_status": "partial",
+      "reasons": [
+        "manual_requirements"
+      ]
+    },
+    {
+      "program_id": "prog_8b9e654ae33c5824",
+      "name_zh": "天然藥物合成學程",
+      "type": "integrated_program",
+      "status": "active",
+      "review_status": "needs_review",
+      "model_status": "partial",
+      "reasons": [
+        "no_double_count_constraints",
+        "non_standard_credit_constraint",
+        "special_rule_text_in_course_note"
+      ]
+    },
+    {
+      "program_id": "prog_9da001957107569d",
+      "name_zh": "半導體製程模組學程",
+      "type": "integrated_program",
+      "status": "active",
+      "review_status": "needs_review",
+      "model_status": "partial",
+      "reasons": [
+        "course_count_constraints",
+        "no_double_count_constraints",
+        "non_standard_credit_constraint",
+        "program_course_selection_constraints",
+        "special_rule_text_in_course_note"
+      ]
+    },
+    {
+      "program_id": "prog_a6cb5946f4a35ace",
+      "name_zh": "半導體設備工程學程",
+      "type": "integrated_program",
+      "status": "active",
+      "review_status": "needs_review",
+      "model_status": "partial",
+      "reasons": [
+        "course_count_constraints",
+        "no_double_count_constraints",
+        "non_standard_credit_constraint",
+        "program_course_selection_constraints",
+        "special_rule_text_in_course_note"
+      ]
+    },
+    {
+      "program_id": "prog_f23e55dec5f55c18",
+      "name_zh": "半導體元件學程",
+      "type": "integrated_program",
+      "status": "active",
+      "review_status": "needs_review",
+      "model_status": "partial",
+      "reasons": [
+        "course_count_constraints",
+        "no_double_count_constraints",
+        "non_standard_credit_constraint",
+        "program_course_selection_constraints",
+        "special_rule_text_in_course_note"
+      ]
+    },
+    {
+      "program_id": "prog_58764eb1bb735197",
+      "name_zh": "實用英語跨域學程 Practical English Cross-Disciplinary Program 【全英語學程】(Program Taught in English)",
+      "type": "integrated_program",
+      "status": "active",
+      "review_status": "needs_review",
+      "model_status": "partial",
+      "reasons": [
+        "manual_requirements",
+        "no_double_count_constraints",
+        "non_standard_credit_constraint",
+        "special_rule_text_in_course_note"
+      ]
+    },
+    {
+      "program_id": "prog_dfedeea89a855e6c",
+      "name_zh": "中文創意跨域應用整合學程",
+      "type": "integrated_program",
+      "status": "active",
+      "review_status": "needs_review",
+      "model_status": "partial",
+      "reasons": [
+        "named_group_selection_constraints"
+      ]
+    },
+    {
+      "program_id": "prog_35d056908b6558ad",
+      "name_zh": "數位IC設計學程",
+      "type": "integrated_program",
+      "status": "active",
+      "review_status": "needs_review",
+      "model_status": "partial",
+      "reasons": [
+        "entry_selection_constraints",
+        "special_rule_text_in_course_note"
+      ]
+    },
+    {
+      "program_id": "prog_30506ee249be58db",
+      "name_zh": "類比射頻IC設計學程",
+      "type": "integrated_program",
+      "status": "active",
+      "review_status": "needs_review",
+      "model_status": "partial",
+      "reasons": [
+        "course_count_constraints",
+        "entry_selection_constraints",
+        "special_rule_text_in_course_note"
+      ]
+    },
+    {
+      "program_id": "prog_14550fb9cc885968",
+      "name_zh": "人權研究整合學程Human Rights Studies Program【全英語學程】(Program Taught in English)",
+      "type": "integrated_program",
+      "status": "active",
+      "review_status": "needs_review",
+      "model_status": "partial",
+      "reasons": [
+        "manual_requirements"
+      ]
+    },
+    {
+      "program_id": "prog_fd2710ede2ba5cfa",
+      "name_zh": "矽光子暨半導體學程(原:矽光子學程)",
+      "type": "integrated_program",
+      "status": "active",
+      "review_status": "needs_review",
+      "model_status": "partial",
+      "reasons": [
+        "course_count_constraints",
+        "human_review_override",
+        "non_standard_credit_constraint"
+      ]
+    },
+    {
+      "program_id": "prog_190e05feb0e25908",
+      "name_zh": "【AI聯盟學分學程】人工智慧探索應用學分學程",
+      "type": "integrated_program",
+      "status": "active",
+      "review_status": "needs_review",
+      "model_status": "partial",
+      "reasons": [
+        "course_count_constraints",
+        "entry_selection_constraints",
+        "manual_requirements",
+        "non_standard_credit_constraint",
+        "special_rule_text_in_course_note",
+        "unclassified_course"
+      ]
+    },
+    {
+      "program_id": "prog_b27037639ff15338",
+      "name_zh": "【AI聯盟學分學程】人工智慧工業應用學分學程",
+      "type": "integrated_program",
+      "status": "active",
+      "review_status": "needs_review",
+      "model_status": "partial",
+      "reasons": [
+        "course_count_constraints",
+        "entry_selection_constraints",
+        "manual_requirements",
+        "non_standard_credit_constraint",
+        "special_rule_text_in_course_note",
+        "unclassified_course"
+      ]
+    },
+    {
+      "program_id": "prog_3d5388114d795ef4",
+      "name_zh": "【AI聯盟學分學程】人工智慧自然語言技術學分學程",
+      "type": "integrated_program",
+      "status": "active",
+      "review_status": "needs_review",
+      "model_status": "partial",
+      "reasons": [
+        "course_count_constraints",
+        "entry_selection_constraints",
+        "manual_requirements",
+        "non_standard_credit_constraint",
+        "special_rule_text_in_course_note",
+        "unclassified_course"
+      ]
+    },
+    {
+      "program_id": "prog_6fe63fd4a2735877",
+      "name_zh": "【AI聯盟學分學程】人工智慧視覺技術學分學程",
+      "type": "integrated_program",
+      "status": "active",
+      "review_status": "needs_review",
+      "model_status": "partial",
+      "reasons": [
+        "course_count_constraints",
+        "entry_selection_constraints",
+        "manual_requirements",
+        "non_standard_credit_constraint",
+        "special_rule_text_in_course_note",
+        "unclassified_course"
+      ]
+    },
+    {
+      "program_id": "prog_38fa876303d75d77",
+      "name_zh": "【AI聯盟學分學程】人工智慧資訊安全技術學分學程",
+      "type": "integrated_program",
+      "status": "active",
+      "review_status": "needs_review",
+      "model_status": "partial",
+      "reasons": [
+        "course_count_constraints",
+        "entry_selection_constraints",
+        "manual_requirements",
+        "non_standard_credit_constraint",
+        "parser_warning",
+        "special_rule_text_in_course_note",
+        "unclassified_course"
+      ]
+    },
+    {
+      "program_id": "prog_201d87e139c750d0",
+      "name_zh": "西洋經典文學與文化學程",
+      "type": "department_professional_program",
+      "status": "active",
+      "review_status": "needs_review",
+      "model_status": "partial",
+      "reasons": [
+        "entry_selection_constraints",
+        "manual_requirements",
+        "non_standard_credit_constraint",
+        "special_rule_text_in_course_note"
+      ]
+    },
+    {
+      "program_id": "prog_28d293ce79f652ec",
+      "name_zh": "財務管理專業學程",
+      "type": "department_professional_program",
+      "status": "active",
+      "review_status": "needs_review",
+      "model_status": "partial",
+      "reasons": [
+        "course_count_constraints",
+        "human_review_override",
+        "manual_requirements",
+        "unclassified_course"
+      ]
+    },
+    {
+      "program_id": "prog_478249ff40f05fd9",
+      "name_zh": "應用數學學程",
+      "type": "department_professional_program",
+      "status": "active",
+      "review_status": "needs_review",
+      "model_status": "partial",
+      "reasons": [
+        "manual_requirements",
+        "non_standard_credit_constraint"
+      ]
+    },
+    {
+      "program_id": "prog_e0cebeb568e35264",
+      "name_zh": "海洋生物資源開發學程",
+      "type": "department_professional_program",
+      "status": "active",
+      "review_status": "needs_review",
+      "model_status": "partial",
+      "reasons": [
+        "course_count_constraints",
+        "human_review_override",
+        "manual_requirements",
+        "non_standard_credit_constraint"
+      ]
+    },
+    {
+      "program_id": "prog_51f6d4cadcc65af9",
+      "name_zh": "全英語通識教育菁英學程 EMI General Education Honors Program  【全英語學程】(Program Taught in English)",
+      "type": "department_professional_program",
+      "status": "active",
+      "review_status": "needs_review",
+      "model_status": "partial",
+      "reasons": [
+        "entry_selection_constraints",
+        "manual_requirements",
+        "non_standard_credit_constraint",
+        "special_rule_text_in_course_note"
+      ]
+    },
+    {
+      "program_id": "prog_e902d3dcf603529c",
+      "name_zh": "與社會交往的表演藝術微學程  (原:創作性戲劇與社群教育微學程)",
+      "type": "micro_program",
+      "status": "active",
+      "review_status": "needs_review",
+      "model_status": "partial",
+      "reasons": [
+        "entry_selection_constraints",
+        "human_review_override"
+      ]
+    },
+    {
+      "program_id": "prog_f71435ae64a95d79",
+      "name_zh": "運輸管理微學程",
+      "type": "micro_program",
+      "status": "discontinued",
+      "review_status": "needs_review",
+      "model_status": "partial",
+      "reasons": [
+        "not_active"
+      ]
+    },
+    {
+      "program_id": "prog_b69b3518e1f050ba",
+      "name_zh": "音場技術與情境感受微學程  (★自113年2月1日起停止受理申請修讀學程)",
+      "type": "micro_program",
+      "status": "discontinued",
+      "review_status": "needs_review",
+      "model_status": "partial",
+      "reasons": [
+        "not_active"
+      ]
+    },
+    {
+      "program_id": "prog_b75f6e30c96451e6",
+      "name_zh": "沉浸式體驗內容應用微學程  (★自113年2月1日起停止受理申請修讀學程)",
+      "type": "micro_program",
+      "status": "discontinued",
+      "review_status": "needs_review",
+      "model_status": "partial",
+      "reasons": [
+        "not_active"
+      ]
+    },
+    {
+      "program_id": "prog_caa6bbacbed75b3b",
+      "name_zh": "永續管理微學程",
+      "type": "micro_program",
+      "status": "active",
+      "review_status": "needs_review",
+      "model_status": "partial",
+      "reasons": [
+        "non_standard_credit_constraint"
+      ]
+    },
+    {
+      "program_id": "prog_d712dc5849f457ae",
+      "name_zh": "智慧金融數據分析與創新微學程(原:金融數據分析與創新微學程)",
+      "type": "micro_program",
+      "status": "active",
+      "review_status": "needs_review",
+      "model_status": "partial",
+      "reasons": [
+        "human_review_override",
+        "manual_requirements",
+        "source_conflicts"
+      ]
+    },
+    {
+      "program_id": "prog_84014e6da4cd5bb5",
+      "name_zh": "實踐環境教育微學程 (★自115年8月1日起停開)",
+      "type": "micro_program",
+      "status": "discontinued",
+      "review_status": "needs_review",
+      "model_status": "partial",
+      "reasons": [
+        "non_standard_credit_constraint",
+        "not_active"
+      ]
+    },
+    {
+      "program_id": "prog_b078403838695b4c",
+      "name_zh": "綠色港市微學程",
+      "type": "micro_program",
+      "status": "active",
+      "review_status": "needs_review",
+      "model_status": "partial",
+      "reasons": [
+        "entry_selection_constraints",
+        "human_review_override",
+        "manual_requirements",
+        "special_rule_text_in_course_note"
+      ]
+    },
+    {
+      "program_id": "prog_3ba631079b905816",
+      "name_zh": "智慧港埠微學程",
+      "type": "micro_program",
+      "status": "active",
+      "review_status": "needs_review",
+      "model_status": "partial",
+      "reasons": [
+        "manual_requirements"
+      ]
+    },
+    {
+      "program_id": "prog_436bbbd8c91454a4",
+      "name_zh": "性別與管理微學程",
+      "type": "micro_program",
+      "status": "active",
+      "review_status": "needs_review",
+      "model_status": "partial",
+      "reasons": [
+        "entry_selection_constraints",
+        "minimum_core_courses",
+        "minimum_elective_courses",
+        "special_rule_text_in_course_note"
+      ]
+    },
+    {
+      "program_id": "prog_e2622058c0055c4b",
+      "name_zh": "性別與社會微學程",
+      "type": "micro_program",
+      "status": "active",
+      "review_status": "needs_review",
+      "model_status": "partial",
+      "reasons": [
+        "entry_selection_constraints",
+        "special_rule_text_in_course_note"
+      ]
+    },
+    {
+      "program_id": "prog_9ea6f9f755665f20",
+      "name_zh": "醫師科學家微學程 (★自115年8月1日起停開)",
+      "type": "micro_program",
+      "status": "discontinued",
+      "review_status": "needs_review",
+      "model_status": "partial",
+      "reasons": [
+        "not_active"
+      ]
+    },
+    {
+      "program_id": "prog_ba871a0dbfc45161",
+      "name_zh": "醫師工程師微學程 (★自115年8月1日起停開)",
+      "type": "micro_program",
+      "status": "discontinued",
+      "review_status": "needs_review",
+      "model_status": "partial",
+      "reasons": [
+        "not_active"
+      ]
+    },
+    {
+      "program_id": "prog_e36fac8e4f085354",
+      "name_zh": "生態想想微學程",
+      "type": "micro_program",
+      "status": "active",
+      "review_status": "needs_review",
+      "model_status": "partial",
+      "reasons": [
+        "entry_selection_constraints",
+        "special_rule_text_in_course_note"
+      ]
+    },
+    {
+      "program_id": "prog_9c8e67bbb0db56d7",
+      "name_zh": "STREAM 永續發展培力微學程",
+      "type": "micro_program",
+      "status": "active",
+      "review_status": "needs_review",
+      "model_status": "partial",
+      "reasons": [
+        "non_standard_credit_constraint"
+      ]
+    },
+    {
+      "program_id": "prog_6cd8c9bf1c955907",
+      "name_zh": "印象海味微學程",
+      "type": "micro_program",
+      "status": "active",
+      "review_status": "needs_review",
+      "model_status": "conflicted",
+      "reasons": [
+        "entry_selection_constraints",
+        "maximum_core_credits",
+        "non_standard_credit_constraint",
+        "source_conflicts",
+        "special_rule_text_in_course_note"
+      ]
+    },
+    {
+      "program_id": "prog_08e51873a84951de",
+      "name_zh": "科技與環境英語微學程 English Micro-module: Science, Technology and the Environment 【全英語學程】(Program Taught in English)",
+      "type": "micro_program",
+      "status": "active",
+      "review_status": "needs_review",
+      "model_status": "partial",
+      "reasons": [
+        "non_standard_credit_constraint"
+      ]
+    },
+    {
+      "program_id": "prog_2e97e1db0dfd5df3",
+      "name_zh": "地方發展與永續農業微學程",
+      "type": "micro_program",
+      "status": "active",
+      "review_status": "needs_review",
+      "model_status": "partial",
+      "reasons": [
+        "non_standard_credit_constraint"
+      ]
+    },
+    {
+      "program_id": "prog_4795cead391b5d2c",
+      "name_zh": "全民國防微學程",
+      "type": "micro_program",
+      "status": "active",
+      "review_status": "needs_review",
+      "model_status": "partial",
+      "reasons": [
+        "entry_selection_constraints",
+        "non_standard_credit_constraint"
+      ]
+    },
+    {
+      "program_id": "prog_93ed9ed2a9f95c04",
+      "name_zh": "探索海洋國家公園微學程",
+      "type": "micro_program",
+      "status": "active",
+      "review_status": "needs_review",
+      "model_status": "partial",
+      "reasons": [
+        "entry_selection_constraints",
+        "special_rule_text_in_course_note"
+      ]
+    },
+    {
+      "program_id": "prog_a6566219860859f6",
+      "name_zh": "國際素養微學程",
+      "type": "micro_program",
+      "status": "active",
+      "review_status": "needs_review",
+      "model_status": "partial",
+      "reasons": [
+        "entry_selection_constraints",
+        "maximum_core_credits",
+        "special_rule_text_in_course_note"
+      ]
+    },
+    {
+      "program_id": "prog_a39d576a08db534c",
+      "name_zh": "海洋永續發展產業科技微學程",
+      "type": "micro_program",
+      "status": "active",
+      "review_status": "needs_review",
+      "model_status": "partial",
+      "reasons": [
+        "entry_selection_constraints",
+        "special_rule_text_in_course_note"
+      ]
+    },
+    {
+      "program_id": "prog_5f523e6fcaf05e21",
+      "name_zh": "智慧高齡生活微學程",
+      "type": "micro_program",
+      "status": "active",
+      "review_status": "needs_review",
+      "model_status": "partial",
+      "reasons": [
+        "entry_selection_constraints",
+        "human_review_override"
+      ]
+    },
+    {
+      "program_id": "prog_c06ac9f32d2e5c0b",
+      "name_zh": "全球南方研究微學程",
+      "type": "micro_program",
+      "status": "active",
+      "review_status": "needs_review",
+      "model_status": "partial",
+      "reasons": [
+        "parser_warning"
+      ]
+    }
+  ]
+}

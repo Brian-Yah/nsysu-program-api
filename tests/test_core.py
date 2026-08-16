@@ -1,6 +1,7 @@
 from nsysu_program_api.core import (
     Fetcher,
     _join_wrapped_text,
+    _requirement_label,
     _split_units,
     apply_course_count_constraints,
     extract_course_count_constraints,
@@ -45,6 +46,41 @@ def test_wrapped_unit_is_not_split_but_real_units_are():
         "電機系",
         "跨院選修(工)",
     ]
+
+
+def test_course_names_do_not_become_requirement_labels() -> None:
+    for row_text in (
+        "生科系 植物分類學 3",
+        "選修 醫學科 毒理學 3",
+        "海科碩 魚類分類學 3",
+    ):
+        assert (
+            _requirement_label(
+                "", row_text, series_layout=False, is_heading_row=False
+            )
+            is None
+        )
+
+
+def test_explicit_requirement_labels_are_retained() -> None:
+    assert (
+        _requirement_label(
+            "核心課程II",
+            "核心課程II 生科系 生態學 3",
+            series_layout=False,
+            is_heading_row=False,
+        )
+        == "核心課程II"
+    )
+    assert (
+        _requirement_label(
+            "服務學習課程",
+            "服務學習課程",
+            series_layout=False,
+            is_heading_row=True,
+        )
+        == "服務學習課程"
+    )
 
 
 def test_responsible_unit_and_coordinator_lines():

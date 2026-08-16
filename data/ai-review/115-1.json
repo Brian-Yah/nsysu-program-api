@@ -1,0 +1,42 @@
+{
+  "academic_version": "115-1",
+  "policy_version": "simple-logic-v1",
+  "audit_status": "passed",
+  "reviewed_at": "2026-08-16",
+  "candidate_count": 79,
+  "candidate_set_sha256": "b149878b12c6d500da9a80517894d4c1c8816ec51db307088e70aab1c2b31870",
+  "selection_method": "cryptographically random sample without replacement",
+  "criteria": [
+    "active program with no parser warning",
+    "non-empty catalog with every course classified as core or elective",
+    "known minimum total credits",
+    "only simple minimum-credit constraints for program, core/elective, or standard outside-affiliation credits",
+    "no selection, equivalence, maximum, overflow, manual, conflict, course-count, or special note rule"
+  ],
+  "sample": [
+    {
+      "program_id": "prog_6c87ec7df84c58ca",
+      "name_zh": "公民參與微學程",
+      "pdf_binary_sha256": "710294e80693bea075dc123d8ee133f5f053a4bf53167e0e54a35acddecb7e77",
+      "normalized_text_sha256": "202cb01909dfcddb22c17209e2e159f178e941a3f8bc6165eafd3c41ca1f9da8",
+      "selected_pdf_academic_version": "112-2",
+      "result": "passed"
+    },
+    {
+      "program_id": "prog_400aee2e236956a4",
+      "name_zh": "海洋生物資源與實務應用微學程",
+      "pdf_binary_sha256": "f91ee79d6ffd77c15fe959f7acb2c6932e1c6d92809985a2c9a2d04713c96bad",
+      "normalized_text_sha256": "5cd437f54d85aedf8af2db86cae864f3b4f75005a15d9501e7e3b186f2dafece",
+      "selected_pdf_academic_version": "113-1",
+      "result": "passed"
+    },
+    {
+      "program_id": "prog_4491f26d2bea5795",
+      "name_zh": "基礎醫學數位微學程",
+      "pdf_binary_sha256": "6ffee8a02d24186637aec6c65205fecee96eb9f5db8975fc70abdc60be1b1198",
+      "normalized_text_sha256": "0e16c8e699de68e09f733a59cf402274d97ab70a603ca93ea50b39049d67140e",
+      "selected_pdf_academic_version": "114-1",
+      "result": "passed"
+    }
+  ]
+}

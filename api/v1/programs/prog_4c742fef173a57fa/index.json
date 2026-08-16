@@ -29,20 +29,18 @@
         "last_modified": "Tue, 23 Dec 2025 07:00:18 GMT",
         "content_length": 246856
       },
-      "parser_version": "0.2.3",
+      "parser_version": "0.3.0",
       "extractor_versions": {
         "pypdf": "6.10.0",
         "pdfplumber": "0.11.9"
       }
     },
-    "review_status": "needs_review",
+    "review_status": "ai_approved",
     "rules": {
       "kind": "manual_review",
-      "reason": "Extracted candidate awaits approval"
+      "reason": "Legacy course-code evaluator is unavailable; AI-Approved status applies to structured_requirements"
     },
-    "warnings": [
-      "No structured course rows extracted from PDF tables"
-    ],
+    "warnings": [],
     "selected_pdf_academic_version": "114-1",
     "course_catalog": [
       {
@@ -56,6 +54,7 @@
         "credits_snapshot": 2.0,
         "requirement_group": "core",
         "requirement_section": "core",
+        "requirement_label": null,
         "program_course_name_snapshot": null,
         "notes": "博雅向度四",
         "source_page": 1,
@@ -74,6 +73,7 @@
         "credits_snapshot": 3.0,
         "requirement_group": "core",
         "requirement_section": "core",
+        "requirement_label": null,
         "program_course_name_snapshot": null,
         "notes": "博雅向度四",
         "source_page": 1,
@@ -92,6 +92,7 @@
         "credits_snapshot": 3.0,
         "requirement_group": "core",
         "requirement_section": "core",
+        "requirement_label": null,
         "program_course_name_snapshot": null,
         "notes": "博雅向度四",
         "source_page": 1,
@@ -110,6 +111,7 @@
         "credits_snapshot": 3.0,
         "requirement_group": "core",
         "requirement_section": "core",
+        "requirement_label": null,
         "program_course_name_snapshot": null,
         "notes": "博雅向度四",
         "source_page": 1,
@@ -128,6 +130,7 @@
         "credits_snapshot": 3.0,
         "requirement_group": "core",
         "requirement_section": "core",
+        "requirement_label": null,
         "program_course_name_snapshot": null,
         "notes": "博雅向度四",
         "source_page": 1,
@@ -146,6 +149,7 @@
         "credits_snapshot": 3.0,
         "requirement_group": "core",
         "requirement_section": "core",
+        "requirement_label": null,
         "program_course_name_snapshot": null,
         "notes": "博雅向度五",
         "source_page": 1,
@@ -164,6 +168,7 @@
         "credits_snapshot": 3.0,
         "requirement_group": "core",
         "requirement_section": "core",
+        "requirement_label": null,
         "program_course_name_snapshot": null,
         "notes": "博雅向度六",
         "source_page": 1,
@@ -183,6 +188,7 @@
         "credits_snapshot": 3.0,
         "requirement_group": "core",
         "requirement_section": "core",
+        "requirement_label": null,
         "program_course_name_snapshot": null,
         "notes": "臺灣大專院校人工智慧學程聯盟學分學程〈人工智慧探索應用〉博雅向度五",
         "source_page": 1,
@@ -202,6 +208,7 @@
         "credits_snapshot": 3.0,
         "requirement_group": "core",
         "requirement_section": "core",
+        "requirement_label": null,
         "program_course_name_snapshot": null,
         "notes": "〈人工智慧探索應用〉博雅向度五",
         "source_page": 1,
@@ -221,6 +228,7 @@
         "credits_snapshot": 4.0,
         "requirement_group": "core",
         "requirement_section": "core",
+        "requirement_label": null,
         "program_course_name_snapshot": null,
         "notes": "〈人工智慧工業應用〉博雅向度五",
         "source_page": 1,
@@ -240,6 +248,7 @@
         "credits_snapshot": 3.0,
         "requirement_group": "core",
         "requirement_section": "core",
+        "requirement_label": null,
         "program_course_name_snapshot": null,
         "notes": "〈人工智慧工業應用〉〈人工智慧視覺技術〉博雅向度五",
         "source_page": 1,
@@ -259,6 +268,7 @@
         "credits_snapshot": 3.0,
         "requirement_group": "core",
         "requirement_section": "core",
+        "requirement_label": null,
         "program_course_name_snapshot": null,
         "notes": "〈人工智慧探索應用〉博雅向度五",
         "source_page": 1,
@@ -278,6 +288,7 @@
         "credits_snapshot": 3.0,
         "requirement_group": "core",
         "requirement_section": "core",
+        "requirement_label": null,
         "program_course_name_snapshot": null,
         "notes": "〈人工智慧自然語言技術〉博雅向度四",
         "source_page": 1,
@@ -297,6 +308,7 @@
         "credits_snapshot": 3.0,
         "requirement_group": "core",
         "requirement_section": "core",
+        "requirement_label": null,
         "program_course_name_snapshot": null,
         "notes": "〈人工智慧自然語言技術〉博雅向度四",
         "source_page": 1,
@@ -316,6 +328,7 @@
         "credits_snapshot": 3.0,
         "requirement_group": "core",
         "requirement_section": "core",
+        "requirement_label": null,
         "program_course_name_snapshot": null,
         "notes": "〈人工智慧探索應用〉〈人工智慧工業應用〉〈人工智慧自然語言技術〉〈人工智慧視覺技術〉博雅向度二",
         "source_page": 1,
@@ -334,6 +347,7 @@
         "credits_snapshot": 3.0,
         "requirement_group": "core",
         "requirement_section": "core",
+        "requirement_label": null,
         "program_course_name_snapshot": null,
         "notes": "〈人工智慧視覺技術〉",
         "source_page": 1,
@@ -352,6 +366,7 @@
         "credits_snapshot": 3.0,
         "requirement_group": "core",
         "requirement_section": "core",
+        "requirement_label": null,
         "program_course_name_snapshot": null,
         "notes": "〈人工智慧探索應用〉〈人工智慧工業應用〉〈人工智慧視覺技術〉",
         "source_page": 1,
@@ -370,6 +385,7 @@
         "credits_snapshot": 2.0,
         "requirement_group": "elective",
         "requirement_section": "elective",
+        "requirement_label": null,
         "program_course_name_snapshot": null,
         "notes": "高醫開設",
         "source_page": 2,
@@ -388,6 +404,7 @@
         "credits_snapshot": 2.0,
         "requirement_group": "elective",
         "requirement_section": "elective",
+        "requirement_label": null,
         "program_course_name_snapshot": null,
         "notes": "高醫開設",
         "source_page": 2,
@@ -406,6 +423,7 @@
         "credits_snapshot": 3.0,
         "requirement_group": "elective",
         "requirement_section": "elective",
+        "requirement_label": null,
         "program_course_name_snapshot": null,
         "notes": "博雅向度六",
         "source_page": 2,
@@ -424,6 +442,7 @@
         "credits_snapshot": 2.0,
         "requirement_group": "elective",
         "requirement_section": "elective",
+        "requirement_label": null,
         "program_course_name_snapshot": null,
         "notes": "博雅向度五",
         "source_page": 2,
@@ -442,6 +461,7 @@
         "credits_snapshot": 2.0,
         "requirement_group": "elective",
         "requirement_section": "elective",
+        "requirement_label": null,
         "program_course_name_snapshot": null,
         "notes": "博雅向度五",
         "source_page": 2,
@@ -460,6 +480,7 @@
         "credits_snapshot": 3.0,
         "requirement_group": "elective",
         "requirement_section": "elective",
+        "requirement_label": null,
         "program_course_name_snapshot": null,
         "notes": "博雅向度四",
         "source_page": 2,
@@ -478,6 +499,7 @@
         "credits_snapshot": 3.0,
         "requirement_group": "elective",
         "requirement_section": "elective",
+        "requirement_label": null,
         "program_course_name_snapshot": null,
         "notes": "博雅向度四",
         "source_page": 2,
@@ -496,6 +518,7 @@
         "credits_snapshot": 3.0,
         "requirement_group": "elective",
         "requirement_section": "elective",
+        "requirement_label": null,
         "program_course_name_snapshot": null,
         "notes": "博雅向度三",
         "source_page": 2,
@@ -514,6 +537,7 @@
         "credits_snapshot": 3.0,
         "requirement_group": "elective",
         "requirement_section": "elective",
+        "requirement_label": null,
         "program_course_name_snapshot": null,
         "notes": "博雅向度二",
         "source_page": 2,
@@ -532,6 +556,7 @@
         "credits_snapshot": 3.0,
         "requirement_group": "elective",
         "requirement_section": "elective",
+        "requirement_label": null,
         "program_course_name_snapshot": null,
         "notes": "博雅向度二",
         "source_page": 2,
@@ -550,6 +575,7 @@
         "credits_snapshot": 3.0,
         "requirement_group": "elective",
         "requirement_section": "elective",
+        "requirement_label": null,
         "program_course_name_snapshot": null,
         "notes": "博雅向度二",
         "source_page": 2,
@@ -568,6 +594,7 @@
         "credits_snapshot": 3.0,
         "requirement_group": "elective",
         "requirement_section": "elective",
+        "requirement_label": null,
         "program_course_name_snapshot": null,
         "notes": "博雅向度一",
         "source_page": 2,
@@ -586,6 +613,7 @@
         "credits_snapshot": 3.0,
         "requirement_group": "elective",
         "requirement_section": "elective",
+        "requirement_label": null,
         "program_course_name_snapshot": null,
         "notes": "博雅向度一",
         "source_page": 2,
@@ -604,6 +632,7 @@
         "credits_snapshot": 3.0,
         "requirement_group": "elective",
         "requirement_section": "elective",
+        "requirement_label": null,
         "program_course_name_snapshot": null,
         "notes": "跨院(通)",
         "source_page": 2,
@@ -622,6 +651,7 @@
         "credits_snapshot": 3.0,
         "requirement_group": "elective",
         "requirement_section": "elective",
+        "requirement_label": null,
         "program_course_name_snapshot": null,
         "notes": "跨院(醫)",
         "source_page": 2,
@@ -640,6 +670,7 @@
         "credits_snapshot": 3.0,
         "requirement_group": "elective",
         "requirement_section": "elective",
+        "requirement_label": null,
         "program_course_name_snapshot": null,
         "notes": "跨院(工)",
         "source_page": 2,
@@ -649,9 +680,78 @@
       }
     ],
     "structured_requirements": {
-      "core_credits_text_value": 3,
-      "minimum_total_credits": 9,
-      "minimum_outside_home_department_credits": 3
+      "minimum_core_credits": 3.0,
+      "core_credits_text_value": 3.0,
+      "minimum_total_credits": 9.0,
+      "minimum_outside_home_department_credits": 3.0,
+      "credit_constraints": [
+        {
+          "constraint_id": "constraint_58373206b277d66b",
+          "kind": "minimum_credits",
+          "scope": {
+            "kind": "catalog_filter",
+            "requirement_groups": [
+              "core"
+            ]
+          },
+          "minimum_credits": 3.0,
+          "requirement_context": "program_completion",
+          "source_page": 1,
+          "source_text": "核心課程〈專業模組課程〉學分數:至少3學分",
+          "validation_status": "source_text_match"
+        },
+        {
+          "constraint_id": "constraint_26e3a6ab5aa8a40c",
+          "kind": "minimum_credits",
+          "scope": {
+            "kind": "program"
+          },
+          "minimum_credits": 9.0,
+          "requirement_context": "program_completion",
+          "source_page": 2,
+          "source_text": "總學分數:9學分",
+          "validation_status": "source_text_match"
+        },
+        {
+          "constraint_id": "constraint_312ba592cce58c5d",
+          "kind": "minimum_credits",
+          "scope": {
+            "kind": "course_eligibility",
+            "excluded_affiliations": [
+              "home_department",
+              "double_major",
+              "minor"
+            ],
+            "excluded_course_roles": [
+              "all"
+            ]
+          },
+          "minimum_credits": 3.0,
+          "requirement_context": "program_completion",
+          "source_page": 2,
+          "source_text": "至少應有3學分不屬於學生本系所",
+          "validation_status": "source_text_match"
+        }
+      ],
+      "completion_summary": {
+        "model_status": "complete",
+        "minimum_total_credits": 9.0,
+        "minimum_core_credits": 3.0,
+        "maximum_core_credits": null,
+        "minimum_elective_credits": null,
+        "minimum_core_courses": null,
+        "minimum_elective_courses": null,
+        "has_conditional_requirements": false,
+        "has_manual_requirements": false,
+        "has_unresolved_conflicts": false
+      }
+    },
+    "review": {
+      "method": "random_sampled_simple_logic",
+      "policy_version": "simple-logic-v1",
+      "audit_path": "data/ai-review/115-1.json",
+      "candidate_count": 79,
+      "sample_size": 3
     }
   }
 }

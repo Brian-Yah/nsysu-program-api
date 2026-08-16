@@ -23,7 +23,7 @@
       "last_modified": "Fri, 31 May 2024 06:30:03 GMT",
       "content_length": 248541
     },
-    "parser_version": "0.2.3",
+    "parser_version": "0.3.0",
     "extractor_versions": {
       "pypdf": "6.10.0",
       "pdfplumber": "0.11.9"
@@ -34,9 +34,7 @@
     "kind": "manual_review",
     "reason": "Extracted candidate awaits approval"
   },
-  "warnings": [
-    "No structured course rows extracted from PDF tables"
-  ],
+  "warnings": [],
   "selected_pdf_academic_version": "112-2",
   "course_catalog": [
     {
@@ -50,8 +48,9 @@
       "credits_snapshot": 2.0,
       "requirement_group": "core",
       "requirement_section": "core",
+      "requirement_label": "核心課程I",
       "program_course_name_snapshot": null,
-      "notes": "",
+      "notes": " ㄧ、核心課程 I :海洋基礎課程(必修 1 門,2 學分) 可多修 1 門,納入選修學分   ",
       "source_page": 1,
       "evidence_match": true,
       "validation_status": "needs_course_code_verification",
@@ -68,8 +67,9 @@
       "credits_snapshot": 2.0,
       "requirement_group": "core",
       "requirement_section": "core",
+      "requirement_label": "核心課程I",
       "program_course_name_snapshot": null,
-      "notes": "",
+      "notes": " ㄧ、核心課程 I :海洋基礎課程(必修 1 門,2 學分) 可多修 1 門,納入選修學分   ",
       "source_page": 1,
       "evidence_match": true,
       "validation_status": "needs_course_code_verification",
@@ -86,8 +86,9 @@
       "credits_snapshot": 2.0,
       "requirement_group": "core",
       "requirement_section": "core",
+      "requirement_label": "核心課程II",
       "program_course_name_snapshot": null,
-      "notes": "",
+      "notes": " 二、核心課程 II:海洋數據分析(必修 1 門,2 或 3 學分)可多修 1 門,納入選修學分   ",
       "source_page": 1,
       "evidence_match": true,
       "validation_status": "needs_course_code_verification",
@@ -104,8 +105,9 @@
       "credits_snapshot": 2.0,
       "requirement_group": "core",
       "requirement_section": "core",
+      "requirement_label": "核心課程II",
       "program_course_name_snapshot": null,
-      "notes": "",
+      "notes": " 二、核心課程 II:海洋數據分析(必修 1 門,2 或 3 學分)可多修 1 門,納入選修學分   ",
       "source_page": 1,
       "evidence_match": true,
       "validation_status": "needs_course_code_verification",
@@ -122,8 +124,9 @@
       "credits_snapshot": 3.0,
       "requirement_group": "core",
       "requirement_section": "core",
+      "requirement_label": "核心課程II",
       "program_course_name_snapshot": null,
-      "notes": "",
+      "notes": " 二、核心課程 II:海洋數據分析(必修 1 門,2 或 3 學分)可多修 1 門,納入選修學分   ",
       "source_page": 1,
       "evidence_match": true,
       "validation_status": "needs_course_code_verification",
@@ -140,8 +143,9 @@
       "credits_snapshot": 3.0,
       "requirement_group": "core",
       "requirement_section": "core",
+      "requirement_label": "核心課程II",
       "program_course_name_snapshot": null,
-      "notes": "",
+      "notes": " 二、核心課程 II:海洋數據分析(必修 1 門,2 或 3 學分)可多修 1 門,納入選修學分   ",
       "source_page": 1,
       "evidence_match": true,
       "validation_status": "needs_course_code_verification",
@@ -158,8 +162,9 @@
       "credits_snapshot": 2.0,
       "requirement_group": "core",
       "requirement_section": "core",
+      "requirement_label": "核心課程III",
       "program_course_name_snapshot": null,
-      "notes": "",
+      "notes": " 三、核心課程 III:進階課程(必修 1 門,1 或 2 或 3 學分)   ",
       "source_page": 1,
       "evidence_match": true,
       "validation_status": "needs_course_code_verification",
@@ -176,8 +181,9 @@
       "credits_snapshot": 1.0,
       "requirement_group": "core",
       "requirement_section": "core",
+      "requirement_label": "核心課程III",
       "program_course_name_snapshot": null,
-      "notes": "學士班或碩士班",
+      "notes": "學士班或碩士班  三、核心課程 III:進階課程(必修 1 門,1 或 2 或 3 學分)   ",
       "source_page": 1,
       "evidence_match": true,
       "validation_status": "needs_course_code_verification",
@@ -194,8 +200,9 @@
       "credits_snapshot": 3.0,
       "requirement_group": "core",
       "requirement_section": "core",
+      "requirement_label": "核心課程III",
       "program_course_name_snapshot": null,
-      "notes": "",
+      "notes": " 三、核心課程 III:進階課程(必修 1 門,1 或 2 或 3 學分)   ",
       "source_page": 1,
       "evidence_match": true,
       "validation_status": "needs_course_code_verification",
@@ -212,8 +219,9 @@
       "credits_snapshot": 2.0,
       "requirement_group": "core",
       "requirement_section": "core",
+      "requirement_label": "總結性課程",
       "program_course_name_snapshot": null,
-      "notes": "",
+      "notes": " 四、總結性課程(2 學分)   ",
       "source_page": 1,
       "evidence_match": true,
       "validation_status": "needs_course_code_verification",
@@ -230,8 +238,9 @@
       "credits_snapshot": 2.0,
       "requirement_group": "core",
       "requirement_section": "core",
+      "requirement_label": "總結性課程",
       "program_course_name_snapshot": null,
-      "notes": "",
+      "notes": " 四、總結性課程(2 學分)   ",
       "source_page": 1,
       "evidence_match": true,
       "validation_status": "needs_course_code_verification",
@@ -248,6 +257,7 @@
       "credits_snapshot": 2.0,
       "requirement_group": "elective",
       "requirement_section": "elective",
+      "requirement_label": null,
       "program_course_name_snapshot": null,
       "notes": "",
       "source_page": 1,
@@ -266,6 +276,7 @@
       "credits_snapshot": 3.0,
       "requirement_group": "elective",
       "requirement_section": "elective",
+      "requirement_label": null,
       "program_course_name_snapshot": null,
       "notes": "",
       "source_page": 1,
@@ -284,6 +295,7 @@
       "credits_snapshot": 2.0,
       "requirement_group": "elective",
       "requirement_section": "elective",
+      "requirement_label": null,
       "program_course_name_snapshot": null,
       "notes": "",
       "source_page": 1,
@@ -302,6 +314,7 @@
       "credits_snapshot": 3.0,
       "requirement_group": "elective",
       "requirement_section": "elective",
+      "requirement_label": null,
       "program_course_name_snapshot": null,
       "notes": "",
       "source_page": 1,
@@ -320,6 +333,7 @@
       "credits_snapshot": 1.0,
       "requirement_group": "elective",
       "requirement_section": "elective",
+      "requirement_label": null,
       "program_course_name_snapshot": null,
       "notes": "",
       "source_page": 1,
@@ -338,6 +352,7 @@
       "credits_snapshot": 1.0,
       "requirement_group": "elective",
       "requirement_section": "elective",
+      "requirement_label": null,
       "program_course_name_snapshot": null,
       "notes": "",
       "source_page": 1,
@@ -356,6 +371,7 @@
       "credits_snapshot": 2.0,
       "requirement_group": "elective",
       "requirement_section": "elective",
+      "requirement_label": null,
       "program_course_name_snapshot": null,
       "notes": "",
       "source_page": 1,
@@ -374,6 +390,7 @@
       "credits_snapshot": 3.0,
       "requirement_group": "elective",
       "requirement_section": "elective",
+      "requirement_label": null,
       "program_course_name_snapshot": null,
       "notes": "",
       "source_page": 1,
@@ -392,6 +409,7 @@
       "credits_snapshot": 3.0,
       "requirement_group": "elective",
       "requirement_section": "elective",
+      "requirement_label": null,
       "program_course_name_snapshot": null,
       "notes": "",
       "source_page": 1,
@@ -410,6 +428,7 @@
       "credits_snapshot": 3.0,
       "requirement_group": "elective",
       "requirement_section": "elective",
+      "requirement_label": null,
       "program_course_name_snapshot": null,
       "notes": "",
       "source_page": 1,
@@ -428,6 +447,7 @@
       "credits_snapshot": 3.0,
       "requirement_group": "elective",
       "requirement_section": "elective",
+      "requirement_label": null,
       "program_course_name_snapshot": null,
       "notes": "",
       "source_page": 1,
@@ -446,6 +466,7 @@
       "credits_snapshot": 2.0,
       "requirement_group": "elective",
       "requirement_section": "elective",
+      "requirement_label": null,
       "program_course_name_snapshot": null,
       "notes": "",
       "source_page": 1,
@@ -464,6 +485,7 @@
       "credits_snapshot": 2.0,
       "requirement_group": "elective",
       "requirement_section": "elective",
+      "requirement_label": null,
       "program_course_name_snapshot": null,
       "notes": "",
       "source_page": 2,
@@ -482,6 +504,7 @@
       "credits_snapshot": 2.0,
       "requirement_group": "elective",
       "requirement_section": "elective",
+      "requirement_label": null,
       "program_course_name_snapshot": null,
       "notes": "",
       "source_page": 2,
@@ -500,6 +523,7 @@
       "credits_snapshot": 2.0,
       "requirement_group": "elective",
       "requirement_section": "elective",
+      "requirement_label": null,
       "program_course_name_snapshot": null,
       "notes": "",
       "source_page": 2,
@@ -518,6 +542,7 @@
       "credits_snapshot": 3.0,
       "requirement_group": "elective",
       "requirement_section": "elective",
+      "requirement_label": null,
       "program_course_name_snapshot": null,
       "notes": "",
       "source_page": 2,
@@ -536,6 +561,7 @@
       "credits_snapshot": 2.0,
       "requirement_group": "elective",
       "requirement_section": "elective",
+      "requirement_label": null,
       "program_course_name_snapshot": null,
       "notes": "",
       "source_page": 2,
@@ -554,6 +580,7 @@
       "credits_snapshot": 3.0,
       "requirement_group": "elective",
       "requirement_section": "elective",
+      "requirement_label": null,
       "program_course_name_snapshot": null,
       "notes": "",
       "source_page": 2,
@@ -572,6 +599,7 @@
       "credits_snapshot": 2.0,
       "requirement_group": "elective",
       "requirement_section": "elective",
+      "requirement_label": null,
       "program_course_name_snapshot": null,
       "notes": "",
       "source_page": 2,
@@ -581,8 +609,197 @@
     }
   ],
   "structured_requirements": {
-    "core_credits_text_value": 10,
-    "minimum_total_credits": 15,
-    "minimum_outside_home_department_credits": 6
+    "minimum_core_credits": 7.0,
+    "maximum_core_credits": 10.0,
+    "core_credits_text_value": 7.0,
+    "minimum_total_credits": 15.0,
+    "minimum_outside_home_department_credits": 6.0,
+    "course_pools": [
+      {
+        "pool_id": "pool_core",
+        "scope": {
+          "kind": "catalog_filter",
+          "requirement_groups": [
+            "core"
+          ]
+        },
+        "source_evidence": [
+          {
+            "source_page": 1,
+            "source_text": "核心課程學分數: 學分:7 或 8 或 9 或 10 學分",
+            "validation_status": "source_text_match"
+          }
+        ],
+        "interpretation_status": "machine_extracted",
+        "minimum_declared_credits": 7.0,
+        "maximum_declared_credits": 10.0
+      }
+    ],
+    "credit_constraints": [
+      {
+        "constraint_id": "constraint_e6df77dafc9ee4cf",
+        "kind": "minimum_credits",
+        "scope": {
+          "kind": "catalog_filter",
+          "requirement_groups": [
+            "core"
+          ]
+        },
+        "minimum_credits": 7.0,
+        "requirement_context": "program_completion",
+        "source_page": 1,
+        "source_text": "核心課程學分數: 學分:7 或 8 或 9 或 10 學分",
+        "validation_status": "source_text_match",
+        "maximum_counted_credits": 10.0
+      },
+      {
+        "constraint_id": "constraint_aacd285688c08ff9",
+        "kind": "minimum_credits",
+        "scope": {
+          "kind": "course_eligibility",
+          "excluded_affiliations": [
+            "home_department",
+            "double_major",
+            "minor"
+          ],
+          "excluded_course_roles": [
+            "all"
+          ]
+        },
+        "minimum_credits": 6.0,
+        "requirement_context": "program_completion",
+        "source_page": 2,
+        "source_text": "至少應有6學分不屬於學生本系所",
+        "validation_status": "source_text_match"
+      },
+      {
+        "constraint_id": "constraint_e7816b364d225856",
+        "kind": "minimum_credits",
+        "scope": {
+          "kind": "program"
+        },
+        "minimum_credits": 15.0,
+        "requirement_context": "program_completion",
+        "source_page": 2,
+        "source_text": "總學分數:至少 15 學分",
+        "validation_status": "source_text_match"
+      }
+    ],
+    "entry_selection_constraints": [
+      {
+        "constraint_id": "constraint_2ead3d70a7e42228",
+        "kind": "select_entries",
+        "catalog_entry_ids": [
+          "entry_d379216af30880a2",
+          "entry_9e5c97b97de8da4d"
+        ],
+        "course_names": [
+          "海洋基礎科學",
+          "海洋應用科學"
+        ],
+        "min_entries": 1,
+        "max_entries": 2,
+        "declared_option_count": null,
+        "option_count_matches": true,
+        "requirement_group": "core",
+        "requirement_section": "core",
+        "source_page": 1,
+        "source_text": " ㄧ、核心課程 I :海洋基礎課程(必修 1 門,2 學分) 可多修 1 門,納入選修學分   ",
+        "validation_status": "source_text_match",
+        "requirement_label": "核心課程I",
+        "max_entries_counted_for_requirement": 1,
+        "excess_credit_destination": "elective",
+        "minimum_credits_for_requirement": 2.0
+      },
+      {
+        "constraint_id": "constraint_6ea80906357c2581",
+        "kind": "select_entries",
+        "catalog_entry_ids": [
+          "entry_6c11a49cd693f77f",
+          "entry_2f7f3ea27ff36c45",
+          "entry_b918f9236ade46fd"
+        ],
+        "course_names": [
+          "海洋生態與科技探索教育",
+          "海上實習",
+          "校外實習"
+        ],
+        "min_entries": 1,
+        "max_entries": null,
+        "declared_option_count": null,
+        "option_count_matches": true,
+        "requirement_group": "core",
+        "requirement_section": "core",
+        "source_page": 1,
+        "source_text": " 三、核心課程 III:進階課程(必修 1 門,1 或 2 或 3 學分)   ",
+        "validation_status": "source_text_match",
+        "requirement_label": "核心課程III",
+        "minimum_credits_for_requirement": 1.0
+      },
+      {
+        "constraint_id": "constraint_6fba548f43e0360c",
+        "kind": "select_entries",
+        "catalog_entry_ids": [
+          "entry_7e6621ac878c3fd5",
+          "entry_72f20fc9f33af41b"
+        ],
+        "course_names": [
+          "海洋環境影響評估",
+          "海洋汙染與生物"
+        ],
+        "min_entries": 1,
+        "max_entries": null,
+        "declared_option_count": null,
+        "option_count_matches": true,
+        "requirement_group": "core",
+        "requirement_section": "core",
+        "source_page": 1,
+        "source_text": " 四、總結性課程(2 學分)   ",
+        "validation_status": "source_text_match",
+        "requirement_label": "總結性課程",
+        "minimum_credits_for_requirement": 2.0
+      },
+      {
+        "constraint_id": "constraint_a7fc42cce1b62f2f",
+        "kind": "select_entries",
+        "catalog_entry_ids": [
+          "entry_3afced36fa716ec3",
+          "entry_a5796dcc4f2d9fcc",
+          "entry_e835fc43ecb65175",
+          "entry_ba0c71db7971cf1d"
+        ],
+        "course_names": [
+          "物理海洋資料分析",
+          "海洋化學與地質數據處理",
+          "程式設計",
+          "數值方法與軟體應用"
+        ],
+        "min_entries": 1,
+        "max_entries": 2,
+        "declared_option_count": null,
+        "option_count_matches": true,
+        "requirement_group": "core",
+        "requirement_section": "core",
+        "source_page": 1,
+        "source_text": " 二、核心課程 II:海洋數據分析(必修 1 門,2 或 3 學分)可多修 1 門,納入選修學分   ",
+        "validation_status": "source_text_match",
+        "requirement_label": "核心課程II",
+        "max_entries_counted_for_requirement": 1,
+        "excess_credit_destination": "elective",
+        "minimum_credits_for_requirement": 2.0
+      }
+    ],
+    "completion_summary": {
+      "model_status": "partial",
+      "minimum_total_credits": 15.0,
+      "minimum_core_credits": 7.0,
+      "maximum_core_credits": 10.0,
+      "minimum_elective_credits": null,
+      "minimum_core_courses": null,
+      "minimum_elective_courses": null,
+      "has_conditional_requirements": false,
+      "has_manual_requirements": false,
+      "has_unresolved_conflicts": false
+    }
   }
 }

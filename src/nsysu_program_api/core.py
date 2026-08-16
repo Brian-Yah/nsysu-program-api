@@ -17,11 +17,13 @@ from pathlib import Path
 from typing import Any
 from urllib.parse import urljoin
 
+from .requirements import extract_completion_requirements, finalize_completion_summary
 from .selection import build_selection_requirements, constraint_id, split_course_names
 
 CATALOG_URL = "https://ctdr.nsysu.edu.tw/class2.php"
-SCHEMA_VERSION = "1.0"
-PARSER_VERSION = "0.2.3"
+SCHEMA_VERSION = "1.2"
+PARSER_VERSION = "0.3.0"
+DATA_REVISION = 6
 NAMESPACE = uuid.UUID("a441fd7d-a05f-4f28-8bb7-7ccbdd0a6cab")
 TYPE_NAMES = {
     0: "integrated_program",
@@ -228,7 +230,9 @@ PDF_VERSION_PATTERN = re.compile(r"【\s*(\d{3})\s*學年度第\s*([12])\s*學�
 
 
 def pdf_academic_version(text: str) -> str | None:
-    match = PDF_VERSION_PATTERN.search(text)
+    # Academic-version headings are page headers. Restricting the search avoids
+    # treating historical-version prose in notes as a new rule block.
+    match = PDF_VERSION_PATTERN.search(text[:1200])
     return f"{match.group(1)}-{match.group(2)}" if match else None
 
 
@@ -284,9 +288,7 @@ def _evidence_key(value: str) -> str:
     return re.sub(r"[\s\W_]+", "", unicodedata.normalize("NFKC", value)).casefold()
 
 
-MAX_COURSE_COUNT_PATTERN = re.compile(
-    r"至多\s*採認\s*(?P<count>[一二三四五六七八九十\d]+)\s*科"
-)
+MAX_COURSE_COUNT_PATTERN = re.compile(r"至多\s*採認\s*(?P<count>[一二三四五六七八九十\d]+)\s*科")
 COUNT_TEXT_VALUES = {
     "一": 1,
     "二": 2,
@@ -321,9 +323,7 @@ def extract_course_count_constraints(
         if end_index > 0 and MAX_COURSE_COUNT_PATTERN.search(lines[end_index - 1]):
             continue
         marker_start = (
-            end_index
-            if MAX_COURSE_COUNT_PATTERN.search(lines[end_index])
-            else end_index - 1
+            end_index if MAX_COURSE_COUNT_PATTERN.search(lines[end_index]) else end_index - 1
         )
         fragments = lines[marker_start : end_index + 1]
         for index in range(marker_start - 1, max(-1, marker_start - 13), -1):
@@ -331,14 +331,9 @@ def extract_course_count_constraints(
             if "開課單位" in previous.replace(" ", "") or re.fullmatch(r"\d+", previous):
                 break
             previous_marker_window = "".join(lines[index : min(len(lines), index + 2)])
-            if (
-                index + 1 < marker_start
-                and MAX_COURSE_COUNT_PATTERN.search(previous_marker_window)
-            ):
+            if index + 1 < marker_start and MAX_COURSE_COUNT_PATTERN.search(previous_marker_window):
                 break
-            row_match = re.match(
-                r"^.*?\s\d+(?:\.5)?(?:\s+(?P<note>.+))?$", previous
-            )
+            row_match = re.match(r"^.*?\s\d+(?:\.5)?(?:\s+(?P<note>.+))?$", previous)
             if row_match:
                 trailing_note = row_match.group("note")
                 if trailing_note:
@@ -347,9 +342,7 @@ def extract_course_count_constraints(
             fragments.insert(0, previous)
         note_fragments = []
         for fragment in fragments:
-            row_match = re.match(
-                r"^.*?\s\d+(?:\.5)?(?:\s+(?P<note>.+))?$", fragment
-            )
+            row_match = re.match(r"^.*?\s\d+(?:\.5)?(?:\s+(?P<note>.+))?$", fragment)
             if not row_match:
                 note_fragments.append(fragment)
             elif row_match.group("note"):
@@ -431,10 +424,7 @@ def _attach_constraint_notes(courses: list[dict], constraints: list[dict]) -> No
         names = set(constraint["course_names"])
         note = constraint["source_text"]
         for course in courses:
-            if (
-                course.get("course_name_snapshot") in names
-                and note not in course.get("notes", "")
-            ):
+            if course.get("course_name_snapshot") in names and note not in course.get("notes", ""):
                 course["notes"] = " ".join(
                     value for value in (course.get("notes", ""), note) if value
                 )
@@ -455,6 +445,46 @@ def apply_course_count_constraints(
     return constraints
 
 
+def _requirement_label(
+    marker: str,
+    row_text: str,
+    *,
+    series_layout: bool,
+    is_heading_row: bool = False,
+) -> str | None:
+    """Return an explicit subgroup/dimension label without inventing one."""
+    if series_layout and marker:
+        candidate = _join_wrapped_text(marker).strip(" :：")
+        if len(candidate) <= 60 and not re.search(
+            r"(?:本學程|學生|學分證明|課程規劃共)", candidate
+        ):
+            return candidate
+        return None
+    row_compact = re.sub(r"\s+", "", unicodedata.normalize("NFKC", row_text))
+    if "學分數" in row_compact or "總學分" in row_compact:
+        return None
+    marker_compact = re.sub(r"\s+", "", unicodedata.normalize("NFKC", marker))
+    candidates = [marker_compact]
+    if is_heading_row:
+        candidates.append(row_compact)
+    patterns = (
+        r"(核心課程[一二三四IVⅠⅡⅢⅣΙΠ]+)",
+        r"(核心[一二三四IVⅠⅡⅢⅣΙΠ]+)",
+        r"([A-D])類(?:課程)?",
+        r"([\u4e00-\u9fff]{2,18}(?:分類|學科))",
+        r"(服務學習課程)",
+        r"(總結性課程)",
+    )
+    for candidate in candidates:
+        for pattern in patterns:
+            match = re.search(pattern, candidate)
+            if match:
+                label = match.group(1)
+                label = label.replace("Ι", "一").replace("Π", "二")
+                return f"{label}類" if re.fullmatch(r"[A-D]", label) else label
+    return None
+
+
 def extract_pdf_tables(pdf_path: Path) -> tuple[list[dict], list[str]]:
     """Extract versioned course tables from native PDF geometry."""
     warnings: list[str] = []
@@ -464,13 +494,19 @@ def extract_pdf_tables(pdf_path: Path) -> tuple[list[dict], list[str]]:
     current_group: str | None = None
     current_section = "unspecified"
     current_program_course: str | None = None
-    current_layout: dict[str, int | None] = {
+    current_program_course_entry_id: str | None = None
+    current_requirement_label: str | None = None
+    current_opening_unit_raw = ""
+    current_equivalence_credit_raw = ""
+    current_layout: dict[str, int | bool | None] = {
         "group": 0,
         "unit": 1,
         "name": 2,
         "credit": 3,
         "note": 4,
         "program_course": None,
+        "program_course_credit": None,
+        "series_layout": False,
     }
     try:
         import pdfplumber
@@ -484,6 +520,10 @@ def extract_pdf_tables(pdf_path: Path) -> tuple[list[dict], list[str]]:
                     current_group = None
                     current_section = "unspecified"
                     current_program_course = None
+                    current_program_course_entry_id = None
+                    current_requirement_label = None
+                    current_opening_unit_raw = ""
+                    current_equivalence_credit_raw = ""
                     current_layout = {
                         "group": 0,
                         "unit": 1,
@@ -491,6 +531,8 @@ def extract_pdf_tables(pdf_path: Path) -> tuple[list[dict], list[str]]:
                         "credit": 3,
                         "note": 4,
                         "program_course": None,
+                        "program_course_credit": None,
+                        "series_layout": False,
                     }
                 version = versions.setdefault(
                     current_version,
@@ -510,30 +552,18 @@ def extract_pdf_tables(pdf_path: Path) -> tuple[list[dict], list[str]]:
                 )
                 version_pages.setdefault(current_version, []).append((page_number, page_text))
                 version["source_pages"].append(page_number)
-                totals = [
-                    int(value)
-                    for value in re.findall(r"總學分數[^\n]{0,30}?(\d{1,2})\s*學分", page_text)
-                ]
-                core = [
-                    int(value)
-                    for value in re.findall(r"核心課程[^\n]{0,20}?(\d{1,2})\s*學分", page_text)
-                ]
-                cross = [
-                    int(value)
-                    for value in re.findall(
-                        r"至少應有\s*(\d{1,2})\s*學分不屬於學生本系所", page_text
-                    )
-                ]
-                if totals:
-                    version["requirements"]["minimum_total_credits"] = totals[-1]
-                if core:
-                    version["requirements"]["core_credits_text_value"] = core[-1]
-                if cross:
-                    version["requirements"]["minimum_outside_home_department_credits"] = cross[-1]
                 page_evidence = _evidence_key(page_text)
                 for table_index, table in enumerate(page.extract_tables()):
                     layout = dict(current_layout)
                     header_row_index: int | None = None
+                    header_context = " ".join(
+                        _clean_table_value(cell)
+                        for candidate in table[:4]
+                        for cell in (candidate or [])
+                    ).replace(" ", "")
+                    series_table = (
+                        "系列課程" in header_context and "本校開設常規課程" in header_context
+                    )
                     for candidate_index, header in enumerate(table):
                         header_cells = [_clean_table_value(value) for value in header]
                         compact_header = [cell.replace(" ", "") for cell in header_cells]
@@ -553,14 +583,36 @@ def extract_pdf_tables(pdf_path: Path) -> tuple[list[dict], list[str]]:
                             "credit": 3,
                             "note": 4,
                             "program_course": None,
+                            "program_course_credit": None,
+                            "series_layout": False,
                         }
+                        series_layout = series_table
+                        if series_layout and len(header_cells) >= 6:
+                            layout = {
+                                "group": 0,
+                                "program_course": 1,
+                                "program_course_credit": 2,
+                                "unit": 3,
+                                "name": 4,
+                                "credit": 5,
+                                "note": None,
+                                "series_layout": True,
+                            }
+                            header_row_index = candidate_index
+                            current_layout = dict(layout)
+                            current_program_course = None
+                            current_program_course_entry_id = None
+                            current_requirement_label = None
+                            current_opening_unit_raw = ""
+                            current_equivalence_credit_raw = ""
+                            break
                         for index, cell in enumerate(header_cells):
                             compact = cell.replace(" ", "")
                             if "開課" in compact and any(
                                 label in compact for label in ("單位", "系所")
                             ):
                                 layout["unit"] = index
-                            elif "學程科目" in compact:
+                            elif "學程科目" in compact or "課程屬性" in compact:
                                 layout["program_course"] = index
                             elif "採認課程名稱" in compact or "課程名稱" in compact:
                                 layout["name"] = index
@@ -570,8 +622,11 @@ def extract_pdf_tables(pdf_path: Path) -> tuple[list[dict], list[str]]:
                                 layout["note"] = index
                         header_row_index = candidate_index
                         current_layout = dict(layout)
+                        current_opening_unit_raw = ""
+                        current_equivalence_credit_raw = ""
                         if layout["program_course"] is None:
                             current_program_course = None
+                            current_program_course_entry_id = None
                         break
                     column_count = max((len(row) for row in table if row), default=0)
                     note_index = layout.get("note")
@@ -589,12 +644,14 @@ def extract_pdf_tables(pdf_path: Path) -> tuple[list[dict], list[str]]:
                             "credit": 3,
                             "note": 4,
                             "program_course": None,
+                            "program_course_credit": None,
+                            "series_layout": False,
                         }
                         current_layout = dict(layout)
                     for row_index, row in enumerate(table):
                         if not row or len(row) < 4:
                             continue
-                        if row_index == header_row_index:
+                        if header_row_index is not None and row_index <= header_row_index:
                             continue
                         cells = [_clean_table_value(value) for value in row]
                         joined = " ".join(cells)
@@ -605,32 +662,121 @@ def extract_pdf_tables(pdf_path: Path) -> tuple[list[dict], list[str]]:
                             else ""
                         )
                         row_rule_key = re.sub(r"\s+", "", joined)
+                        previous_group = current_group
                         if "核心(必選修)" in row_rule_key:
                             current_group = "core"
                             current_section = "core_selective"
+                            current_requirement_label = None
                         elif "核心(必修)" in row_rule_key:
                             current_group = "core"
                             current_section = "core_required"
+                            current_requirement_label = None
+                        elif (
+                            re.search(
+                                r"核心課程[IVⅠⅡⅢⅣΙΠ一二三四]+",
+                                row_rule_key,
+                            )
+                            and "學分數" not in row_rule_key
+                        ):
+                            current_group = "core"
+                            current_section = "core"
                         elif marker.startswith("核心") or marker == "必修":
                             current_group = "core"
-                            if "必選修" in marker:
-                                current_section = "core_selective"
-                            elif "必修" in marker:
-                                current_section = "core_required"
-                            else:
-                                current_section = "core"
+                            if "學分數" not in marker:
+                                if "必選修" in marker:
+                                    current_section = "core_selective"
+                                elif "必修" in marker:
+                                    current_section = "core_required"
+                                else:
+                                    current_section = "core"
+                            if (
+                                marker in {"核心", "必修", "核心課程"}
+                                and previous_group != "core"
+                            ):
+                                current_requirement_label = None
+                        elif marker.startswith("專業模組課程"):
+                            current_group = "core"
+                            current_section = "core"
+                            current_requirement_label = None
                         elif marker.startswith("選修") or marker == "選修課程":
                             current_group = "elective"
                             current_section = "elective"
+                            current_requirement_label = None
+                            # Some mixed tables use column 2 as a core course
+                            # attribute, then reuse it as the opening unit in
+                            # the elective section without a second header.
+                            if layout.get("program_course") == 1 and layout.get("unit") == 2:
+                                layout["program_course"] = None
+                                layout["unit"] = 1
+                                current_layout = dict(layout)
+                                current_program_course = None
+                                current_program_course_entry_id = None
+                        elif marker.startswith("一般選修課程"):
+                            current_group = "elective"
+                            current_section = "elective"
+                            current_requirement_label = None
+                        if current_group != previous_group:
+                            current_opening_unit_raw = ""
+                            current_equivalence_credit_raw = ""
+                        preview_credit_index = layout["credit"]
+                        preview_unit_index = layout["unit"]
+                        preview_name_index = layout["name"]
+                        preview_credit_raw = (
+                            str(row[preview_credit_index] or "")
+                            if isinstance(preview_credit_index, int)
+                            and preview_credit_index < len(row)
+                            else ""
+                        )
+                        preview_unit_raw = (
+                            str(row[preview_unit_index] or "")
+                            if isinstance(preview_unit_index, int)
+                            and preview_unit_index < len(row)
+                            else ""
+                        )
+                        preview_name_raw = (
+                            str(row[preview_name_index] or "")
+                            if isinstance(preview_name_index, int)
+                            and preview_name_index < len(row)
+                            else ""
+                        )
+                        is_heading_row = bool(
+                            not re.findall(
+                                r"(?<!\d)(\d+(?:\.5)?)(?!\d)", preview_credit_raw
+                            )
+                            and (
+                                (
+                                    not preview_unit_raw.strip()
+                                    and (preview_name_raw.strip() or marker)
+                                )
+                                or (
+                                    not preview_name_raw.strip()
+                                    and re.search(
+                                        r"(?:核心課程[IVⅠⅡⅢⅣΙΠ一二三四]+|"
+                                        r"總結性課程)",
+                                        row_rule_key,
+                                    )
+                                )
+                            )
+                        )
+                        detected_label = _requirement_label(
+                            marker,
+                            joined,
+                            series_layout=bool(layout.get("series_layout")),
+                            is_heading_row=is_heading_row,
+                        )
+                        if detected_label:
+                            current_requirement_label = detected_label
                         program_course_index = layout["program_course"]
-                        if (
-                            isinstance(program_course_index, int)
-                            and program_course_index < len(row)
+                        program_course_started = False
+                        if isinstance(program_course_index, int) and program_course_index < len(
+                            row
                         ):
                             program_course_raw = str(row[program_course_index] or "")
                             program_course_value = _join_wrapped_text(program_course_raw)
                             if program_course_value and "學分數" not in program_course_value:
                                 current_program_course = program_course_value
+                                current_program_course_entry_id = None
+                                program_course_started = True
                         credit_index = layout["credit"]
                         unit_index = layout["unit"]
                         name_index = layout["name"]
@@ -656,21 +802,111 @@ def extract_pdf_tables(pdf_path: Path) -> tuple[list[dict], list[str]]:
                             if isinstance(note_index, int) and note_index < len(row)
                             else ""
                         )
+                        inherited_equivalence_credit = False
+                        if (
+                            not credit_values
+                            and name_raw.strip()
+                            and unit_raw.strip()
+                            and current_equivalence_credit_raw
+                        ):
+                            credit_raw = current_equivalence_credit_raw
+                            credit_values = re.findall(
+                                r"(?<!\d)(\d+(?:\.5)?)(?!\d)", credit_raw
+                            )
+                            inherited_equivalence_credit = True
+                        if credit_values:
+                            if "為相同課程" in notes and "其中一門" in notes:
+                                current_equivalence_credit_raw = credit_raw
+                            elif not inherited_equivalence_credit:
+                                current_equivalence_credit_raw = ""
+                        if credit_values and name_raw.strip():
+                            if unit_raw.strip():
+                                current_opening_unit_raw = unit_raw
+                            elif current_opening_unit_raw:
+                                unit_raw = current_opening_unit_raw
                         row_metadata = {
                             "table_id": f"{page_number}:{table_index}",
                             "row_index": row_index,
                             "source_page": page_number,
                             "requirement_group": current_group or "unspecified",
                             "requirement_section": current_section,
-                            "rule_text": notes or joined,
+                            "requirement_label": current_requirement_label,
+                            "rule_text": joined,
+                            "raw_text": joined,
                             "notes": notes,
                             "raw_course_name": _join_wrapped_text(name_raw),
                             "is_summary": bool(
-                                re.search(r"(?:學分數|總學分|總計)", joined)
+                                not credit_values and re.search(r"(?:學分數|總學分|總計)", joined)
                             ),
                             "courses": [],
                         }
                         version["_table_rows"].append(row_metadata)
+                        default_entry_id = constraint_id(
+                            "entry",
+                            pdf_path.stem,
+                            current_version,
+                            page_number,
+                            table_index,
+                            row_index,
+                        ).replace("constraint_", "entry_")
+                        series_layout = bool(layout.get("series_layout"))
+                        if series_layout and current_program_course_entry_id is None:
+                            current_program_course_entry_id = default_entry_id
+                        program_course_credit_index = layout.get("program_course_credit")
+                        program_course_credit_raw = (
+                            str(row[program_course_credit_index] or "")
+                            if isinstance(program_course_credit_index, int)
+                            and program_course_credit_index < len(row)
+                            else ""
+                        )
+                        program_course_credits = re.findall(
+                            r"(?<!\d)(\d+(?:\.5)?)(?!\d)", program_course_credit_raw
+                        )
+                        if (
+                            series_layout
+                            and detected_label
+                            and program_course_credits
+                            and not program_course_started
+                        ):
+                            current_program_course = re.sub(
+                                r"\([^)]*(?:or|或)[^)]*\)|\(\d+\)$",
+                                "",
+                                detected_label,
+                                flags=re.I,
+                            )
+                            current_program_course_entry_id = default_entry_id
+                            program_course_started = True
+                        canonical_credit_values = program_course_credits or credit_values
+                        if (
+                            series_layout
+                            and program_course_started
+                            and current_program_course
+                            and canonical_credit_values
+                            and current_program_course_entry_id
+                        ):
+                            canonical_record = {
+                                "course_code": None,
+                                "catalog_entry_id": current_program_course_entry_id,
+                                "opening_units": ["臺灣大專院校人工智慧學程聯盟"],
+                                "opening_unit_snapshot": "臺灣大專院校人工智慧學程聯盟",
+                                "course_name_snapshot": current_program_course,
+                                "credits_snapshot": float(canonical_credit_values[0]),
+                                "requirement_group": current_group or "unspecified",
+                                "requirement_section": current_section,
+                                "requirement_label": current_requirement_label,
+                                "program_course_name_snapshot": current_program_course,
+                                "notes": "TAICA 系列課程",
+                                "source_page": page_number,
+                                "evidence_match": (
+                                    _evidence_key(current_program_course) in page_evidence
+                                ),
+                                "validation_status": "needs_course_code_verification",
+                                "uncertainty_reason": (
+                                    "Official PDF table does not provide a course code"
+                                ),
+                            }
+                            version["courses"].append(canonical_record)
+                            row_metadata["courses"].append(canonical_record)
                         if not credit_values or not unit_raw.strip() or not name_raw.strip():
                             continue
                         if (
@@ -720,21 +956,18 @@ def extract_pdf_tables(pdf_path: Path) -> tuple[list[dict], list[str]]:
                             else [credit_values[0]] * len(course_names)
                         )
                         units = _split_units(unit_raw)
-                        base_entry_id = constraint_id(
-                            "entry",
-                            pdf_path.stem,
-                            current_version,
-                            page_number,
-                            table_index,
-                            row_index,
-                        ).replace("constraint_", "entry_")
+                        base_entry_id = (
+                            current_program_course_entry_id
+                            if series_layout and current_program_course_entry_id
+                            else default_entry_id
+                        )
                         for course_name, credit_value in zip(
                             course_names, expanded_credits, strict=True
                         ):
                             course_index = len(row_metadata["courses"])
                             entry_id = (
                                 f"{base_entry_id}_{course_index + 1}"
-                                if len(credit_values) > 1
+                                if len(credit_values) > 1 and not series_layout
                                 else base_entry_id
                             )
                             record = {
@@ -746,6 +979,7 @@ def extract_pdf_tables(pdf_path: Path) -> tuple[list[dict], list[str]]:
                                 "credits_snapshot": float(credit_value),
                                 "requirement_group": current_group or "unspecified",
                                 "requirement_section": current_section,
+                                "requirement_label": current_requirement_label,
                                 "program_course_name_snapshot": current_program_course,
                                 "notes": notes,
                                 "source_page": page_number,
@@ -762,6 +996,9 @@ def extract_pdf_tables(pdf_path: Path) -> tuple[list[dict], list[str]]:
     result = list(versions.values())
     for version_key, version in versions.items():
         table_rows = version.pop("_table_rows", [])
+        version["requirements"].update(
+            extract_completion_requirements(table_rows, version_pages.get(version_key, []))
+        )
         extracted_constraints = []
         for page_number, page_text in version_pages.get(version_key, []):
             extracted_constraints.extend(
@@ -770,9 +1007,12 @@ def extract_pdf_tables(pdf_path: Path) -> tuple[list[dict], list[str]]:
         selection_requirements = build_selection_requirements(
             version["courses"], table_rows, version_pages.get(version_key, [])
         )
-        extracted_constraints.extend(
-            selection_requirements.pop("course_count_constraints", [])
-        )
+        extracted_constraints.extend(selection_requirements.pop("course_count_constraints", []))
+        selection_conflicts = selection_requirements.pop("source_conflicts", [])
+        if selection_conflicts:
+            version["requirements"].setdefault("source_conflicts", []).extend(
+                selection_conflicts
+            )
         if extracted_constraints:
             consolidated = _consolidate_course_count_constraints(extracted_constraints)
             version["requirements"]["course_count_constraints"] = consolidated
@@ -787,6 +1027,7 @@ def extract_pdf_tables(pdf_path: Path) -> tuple[list[dict], list[str]]:
                 course["credits_snapshot"],
                 course["requirement_group"],
                 course.get("requirement_section"),
+                course.get("requirement_label"),
                 course.get("program_course_name_snapshot"),
             )
             if key in seen:
@@ -817,6 +1058,7 @@ def extract_pdf_tables(pdf_path: Path) -> tuple[list[dict], list[str]]:
         )
         if selection_count:
             version["audit"]["selection_constraints_extracted"] = selection_count
+        finalize_completion_summary(version["requirements"])
     if not any(version["courses"] for version in result):
         warnings.append("No structured course rows extracted from PDF tables")
     return result, warnings

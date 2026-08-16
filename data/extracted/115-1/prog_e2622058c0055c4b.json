@@ -1,5 +1,5 @@
 {
-  "schema_version": "1.0",
+  "schema_version": "1.2",
   "courses": [],
   "credit_mentions": [
     9,
@@ -33,6 +33,7 @@
           "credits_snapshot": 3.0,
           "requirement_group": "core",
           "requirement_section": "core",
+          "requirement_label": null,
           "program_course_name_snapshot": null,
           "notes": "二選一其餘計入總學分數",
           "source_page": 1,
@@ -51,8 +52,9 @@
           "credits_snapshot": 2.0,
           "requirement_group": "core",
           "requirement_section": "core",
+          "requirement_label": null,
           "program_course_name_snapshot": null,
-          "notes": "",
+          "notes": "二選一其餘計入總學分",
           "source_page": 1,
           "evidence_match": true,
           "validation_status": "needs_course_code_verification",
@@ -69,6 +71,7 @@
           "credits_snapshot": 3.0,
           "requirement_group": "elective",
           "requirement_section": "elective",
+          "requirement_label": null,
           "program_course_name_snapshot": null,
           "notes": "",
           "source_page": 1,
@@ -87,6 +90,7 @@
           "credits_snapshot": 2.0,
           "requirement_group": "elective",
           "requirement_section": "elective",
+          "requirement_label": null,
           "program_course_name_snapshot": null,
           "notes": "",
           "source_page": 1,
@@ -105,6 +109,7 @@
           "credits_snapshot": 2.0,
           "requirement_group": "elective",
           "requirement_section": "elective",
+          "requirement_label": null,
           "program_course_name_snapshot": null,
           "notes": "",
           "source_page": 1,
@@ -123,6 +128,7 @@
           "credits_snapshot": 3.0,
           "requirement_group": "elective",
           "requirement_section": "elective",
+          "requirement_label": null,
           "program_course_name_snapshot": null,
           "notes": "",
           "source_page": 1,
@@ -141,6 +147,7 @@
           "credits_snapshot": 3.0,
           "requirement_group": "elective",
           "requirement_section": "elective",
+          "requirement_label": null,
           "program_course_name_snapshot": null,
           "notes": "",
           "source_page": 1,
@@ -159,6 +166,7 @@
           "credits_snapshot": 2.0,
           "requirement_group": "elective",
           "requirement_section": "elective",
+          "requirement_label": null,
           "program_course_name_snapshot": null,
           "notes": "",
           "source_page": 1,
@@ -177,6 +185,7 @@
           "credits_snapshot": 3.0,
           "requirement_group": "elective",
           "requirement_section": "elective",
+          "requirement_label": null,
           "program_course_name_snapshot": null,
           "notes": "",
           "source_page": 1,
@@ -195,6 +204,7 @@
           "credits_snapshot": 3.0,
           "requirement_group": "elective",
           "requirement_section": "elective",
+          "requirement_label": null,
           "program_course_name_snapshot": null,
           "notes": "",
           "source_page": 1,
@@ -204,8 +214,79 @@
         }
       ],
       "requirements": {
-        "minimum_total_credits": 9,
-        "minimum_outside_home_department_credits": 3
+        "minimum_total_credits": 9.0,
+        "minimum_outside_home_department_credits": 3.0,
+        "credit_constraints": [
+          {
+            "constraint_id": "constraint_312ba592cce58c5d",
+            "kind": "minimum_credits",
+            "scope": {
+              "kind": "course_eligibility",
+              "excluded_affiliations": [
+                "home_department",
+                "double_major",
+                "minor"
+              ],
+              "excluded_course_roles": [
+                "all"
+              ]
+            },
+            "minimum_credits": 3.0,
+            "requirement_context": "program_completion",
+            "source_page": 1,
+            "source_text": "至少應有3學分不屬於學生本系所",
+            "validation_status": "source_text_match"
+          },
+          {
+            "constraint_id": "constraint_e4e3ec6325db6e04",
+            "kind": "minimum_credits",
+            "scope": {
+              "kind": "program"
+            },
+            "minimum_credits": 9.0,
+            "requirement_context": "program_completion",
+            "source_page": 1,
+            "source_text": "總學分數:至少 9 學分",
+            "validation_status": "source_text_match"
+          }
+        ],
+        "entry_selection_constraints": [
+          {
+            "constraint_id": "constraint_b7946e9e9c807e37",
+            "kind": "select_entries",
+            "catalog_entry_ids": [
+              "entry_2b1c9dc343d7ec52",
+              "entry_17a3a52d434018e7"
+            ],
+            "course_names": [
+              "性別社會學",
+              "性別與社會"
+            ],
+            "min_entries": 1,
+            "max_entries": null,
+            "declared_option_count": 2,
+            "option_count_matches": true,
+            "requirement_group": "core",
+            "requirement_section": "core",
+            "source_page": 1,
+            "source_text": "二選一其餘計入總學分",
+            "validation_status": "source_text_match",
+            "max_entries_counted_for_requirement": 1,
+            "excess_credit_destination": "program_total"
+          }
+        ],
+        "completion_summary": {
+          "model_status": "partial",
+          "minimum_total_credits": 9.0,
+          "minimum_core_credits": null,
+          "maximum_core_credits": null,
+          "minimum_elective_credits": null,
+          "minimum_core_courses": null,
+          "minimum_elective_courses": null,
+          "has_conditional_requirements": false,
+          "has_manual_requirements": false,
+          "has_unresolved_conflicts": false
+        }
       },
       "source_pages": [
         1
@@ -216,7 +297,8 @@
         "course_count": 10,
         "core_count": 2,
         "elective_count": 8,
-        "evidence_matched_count": 9
+        "evidence_matched_count": 9,
+        "selection_constraints_extracted": 1
       }
     },
     {
@@ -233,6 +315,7 @@
           "credits_snapshot": 3.0,
           "requirement_group": "core",
           "requirement_section": "core",
+          "requirement_label": null,
           "program_course_name_snapshot": null,
           "notes": "二選一其餘計入總學分數",
           "source_page": 2,
@@ -251,8 +334,9 @@
           "credits_snapshot": 2.0,
           "requirement_group": "core",
           "requirement_section": "core",
+          "requirement_label": null,
           "program_course_name_snapshot": null,
-          "notes": "",
+          "notes": "二選一其餘計入總學分",
           "source_page": 2,
           "evidence_match": true,
           "validation_status": "needs_course_code_verification",
@@ -269,6 +353,7 @@
           "credits_snapshot": 3.0,
           "requirement_group": "elective",
           "requirement_section": "elective",
+          "requirement_label": null,
           "program_course_name_snapshot": null,
           "notes": "",
           "source_page": 2,
@@ -287,6 +372,7 @@
           "credits_snapshot": 2.0,
           "requirement_group": "elective",
           "requirement_section": "elective",
+          "requirement_label": null,
           "program_course_name_snapshot": null,
           "notes": "",
           "source_page": 2,
@@ -305,6 +391,7 @@
           "credits_snapshot": 2.0,
           "requirement_group": "elective",
           "requirement_section": "elective",
+          "requirement_label": null,
           "program_course_name_snapshot": null,
           "notes": "",
           "source_page": 2,
@@ -323,6 +410,7 @@
           "credits_snapshot": 2.0,
           "requirement_group": "elective",
           "requirement_section": "elective",
+          "requirement_label": null,
           "program_course_name_snapshot": null,
           "notes": "",
           "source_page": 2,
@@ -341,6 +429,7 @@
           "credits_snapshot": 2.0,
           "requirement_group": "elective",
           "requirement_section": "elective",
+          "requirement_label": null,
           "program_course_name_snapshot": null,
           "notes": "",
           "source_page": 2,
@@ -359,6 +448,7 @@
           "credits_snapshot": 3.0,
           "requirement_group": "elective",
           "requirement_section": "elective",
+          "requirement_label": null,
           "program_course_name_snapshot": null,
           "notes": "",
           "source_page": 2,
@@ -377,6 +467,7 @@
           "credits_snapshot": 3.0,
           "requirement_group": "elective",
           "requirement_section": "elective",
+          "requirement_label": null,
           "program_course_name_snapshot": null,
           "notes": "",
           "source_page": 2,
@@ -386,8 +477,79 @@
         }
       ],
       "requirements": {
-        "minimum_total_credits": 9,
-        "minimum_outside_home_department_credits": 3
+        "minimum_total_credits": 9.0,
+        "minimum_outside_home_department_credits": 3.0,
+        "credit_constraints": [
+          {
+            "constraint_id": "constraint_312ba592cce58c5d",
+            "kind": "minimum_credits",
+            "scope": {
+              "kind": "course_eligibility",
+              "excluded_affiliations": [
+                "home_department",
+                "double_major",
+                "minor"
+              ],
+              "excluded_course_roles": [
+                "all"
+              ]
+            },
+            "minimum_credits": 3.0,
+            "requirement_context": "program_completion",
+            "source_page": 2,
+            "source_text": "至少應有3學分不屬於學生本系所",
+            "validation_status": "source_text_match"
+          },
+          {
+            "constraint_id": "constraint_e4e3ec6325db6e04",
+            "kind": "minimum_credits",
+            "scope": {
+              "kind": "program"
+            },
+            "minimum_credits": 9.0,
+            "requirement_context": "program_completion",
+            "source_page": 2,
+            "source_text": "總學分數:至少 9 學分",
+            "validation_status": "source_text_match"
+          }
+        ],
+        "entry_selection_constraints": [
+          {
+            "constraint_id": "constraint_5e21440eaa9b4b1d",
+            "kind": "select_entries",
+            "catalog_entry_ids": [
+              "entry_8ee12bf560e75464",
+              "entry_ac14a0095b6b73ef"
+            ],
+            "course_names": [
+              "性別社會學",
+              "性別與社會"
+            ],
+            "min_entries": 1,
+            "max_entries": null,
+            "declared_option_count": 2,
+            "option_count_matches": true,
+            "requirement_group": "core",
+            "requirement_section": "core",
+            "source_page": 2,
+            "source_text": "二選一其餘計入總學分",
+            "validation_status": "source_text_match",
+            "max_entries_counted_for_requirement": 1,
+            "excess_credit_destination": "program_total"
+          }
+        ],
+        "completion_summary": {
+          "model_status": "partial",
+          "minimum_total_credits": 9.0,
+          "minimum_core_credits": null,
+          "maximum_core_credits": null,
+          "minimum_elective_credits": null,
+          "minimum_core_courses": null,
+          "minimum_elective_courses": null,
+          "has_conditional_requirements": false,
+          "has_manual_requirements": false,
+          "has_unresolved_conflicts": false
+        }
       },
       "source_pages": [
         2
@@ -398,7 +560,8 @@
         "course_count": 9,
         "core_count": 2,
         "elective_count": 7,
-        "evidence_matched_count": 8
+        "evidence_matched_count": 8,
+        "selection_constraints_extracted": 1
       }
     }
   ],
@@ -415,6 +578,7 @@
       "credits_snapshot": 3.0,
       "requirement_group": "core",
       "requirement_section": "core",
+      "requirement_label": null,
       "program_course_name_snapshot": null,
       "notes": "二選一其餘計入總學分數",
       "source_page": 1,
@@ -433,8 +597,9 @@
       "credits_snapshot": 2.0,
       "requirement_group": "core",
       "requirement_section": "core",
+      "requirement_label": null,
       "program_course_name_snapshot": null,
-      "notes": "",
+      "notes": "二選一其餘計入總學分",
       "source_page": 1,
       "evidence_match": true,
       "validation_status": "needs_course_code_verification",
@@ -451,6 +616,7 @@
       "credits_snapshot": 3.0,
       "requirement_group": "elective",
       "requirement_section": "elective",
+      "requirement_label": null,
       "program_course_name_snapshot": null,
       "notes": "",
       "source_page": 1,
@@ -469,6 +635,7 @@
       "credits_snapshot": 2.0,
       "requirement_group": "elective",
       "requirement_section": "elective",
+      "requirement_label": null,
       "program_course_name_snapshot": null,
       "notes": "",
       "source_page": 1,
@@ -487,6 +654,7 @@
       "credits_snapshot": 2.0,
       "requirement_group": "elective",
       "requirement_section": "elective",
+      "requirement_label": null,
       "program_course_name_snapshot": null,
       "notes": "",
       "source_page": 1,
@@ -505,6 +673,7 @@
       "credits_snapshot": 3.0,
       "requirement_group": "elective",
       "requirement_section": "elective",
+      "requirement_label": null,
       "program_course_name_snapshot": null,
       "notes": "",
       "source_page": 1,
@@ -523,6 +692,7 @@
       "credits_snapshot": 3.0,
       "requirement_group": "elective",
       "requirement_section": "elective",
+      "requirement_label": null,
       "program_course_name_snapshot": null,
       "notes": "",
       "source_page": 1,
@@ -541,6 +711,7 @@
       "credits_snapshot": 2.0,
       "requirement_group": "elective",
       "requirement_section": "elective",
+      "requirement_label": null,
       "program_course_name_snapshot": null,
       "notes": "",
       "source_page": 1,
@@ -559,6 +730,7 @@
       "credits_snapshot": 3.0,
       "requirement_group": "elective",
       "requirement_section": "elective",
+      "requirement_label": null,
       "program_course_name_snapshot": null,
       "notes": "",
       "source_page": 1,
@@ -577,6 +749,7 @@
       "credits_snapshot": 3.0,
       "requirement_group": "elective",
       "requirement_section": "elective",
+      "requirement_label": null,
       "program_course_name_snapshot": null,
       "notes": "",
       "source_page": 1,
@@ -586,7 +759,78 @@
     }
   ],
   "structured_requirements": {
-    "minimum_total_credits": 9,
-    "minimum_outside_home_department_credits": 3
+    "minimum_total_credits": 9.0,
+    "minimum_outside_home_department_credits": 3.0,
+    "credit_constraints": [
+      {
+        "constraint_id": "constraint_312ba592cce58c5d",
+        "kind": "minimum_credits",
+        "scope": {
+          "kind": "course_eligibility",
+          "excluded_affiliations": [
+            "home_department",
+            "double_major",
+            "minor"
+          ],
+          "excluded_course_roles": [
+            "all"
+          ]
+        },
+        "minimum_credits": 3.0,
+        "requirement_context": "program_completion",
+        "source_page": 1,
+        "source_text": "至少應有3學分不屬於學生本系所",
+        "validation_status": "source_text_match"
+      },
+      {
+        "constraint_id": "constraint_e4e3ec6325db6e04",
+        "kind": "minimum_credits",
+        "scope": {
+          "kind": "program"
+        },
+        "minimum_credits": 9.0,
+        "requirement_context": "program_completion",
+        "source_page": 1,
+        "source_text": "總學分數:至少 9 學分",
+        "validation_status": "source_text_match"
+      }
+    ],
+    "entry_selection_constraints": [
+      {
+        "constraint_id": "constraint_b7946e9e9c807e37",
+        "kind": "select_entries",
+        "catalog_entry_ids": [
+          "entry_2b1c9dc343d7ec52",
+          "entry_17a3a52d434018e7"
+        ],
+        "course_names": [
+          "性別社會學",
+          "性別與社會"
+        ],
+        "min_entries": 1,
+        "max_entries": null,
+        "declared_option_count": 2,
+        "option_count_matches": true,
+        "requirement_group": "core",
+        "requirement_section": "core",
+        "source_page": 1,
+        "source_text": "二選一其餘計入總學分",
+        "validation_status": "source_text_match",
+        "max_entries_counted_for_requirement": 1,
+        "excess_credit_destination": "program_total"
+      }
+    ],
+    "completion_summary": {
+      "model_status": "partial",
+      "minimum_total_credits": 9.0,
+      "minimum_core_credits": null,
+      "maximum_core_credits": null,
+      "minimum_elective_credits": null,
+      "minimum_core_courses": null,
+      "minimum_elective_courses": null,
+      "has_conditional_requirements": false,
+      "has_manual_requirements": false,
+      "has_unresolved_conflicts": false
+    }
   }
 }

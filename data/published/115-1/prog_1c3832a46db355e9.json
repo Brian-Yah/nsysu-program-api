@@ -23,20 +23,18 @@
       "last_modified": "Tue, 27 May 2025 01:48:09 GMT",
       "content_length": 168031
     },
-    "parser_version": "0.2.3",
+    "parser_version": "0.3.0",
     "extractor_versions": {
       "pypdf": "6.10.0",
       "pdfplumber": "0.11.9"
     }
   },
-  "review_status": "needs_review",
+  "review_status": "ai_approved",
   "rules": {
     "kind": "manual_review",
-    "reason": "Extracted candidate awaits approval"
+    "reason": "Legacy course-code evaluator is unavailable; AI-Approved status applies to structured_requirements"
   },
-  "warnings": [
-    "No structured course rows extracted from PDF tables"
-  ],
+  "warnings": [],
   "selected_pdf_academic_version": "113-2",
   "course_catalog": [
     {
@@ -50,6 +48,7 @@
       "credits_snapshot": 3.0,
       "requirement_group": "core",
       "requirement_section": "core",
+      "requirement_label": null,
       "program_course_name_snapshot": null,
       "notes": "EE3404",
       "source_page": 1,
@@ -68,6 +67,7 @@
       "credits_snapshot": 3.0,
       "requirement_group": "core",
       "requirement_section": "core",
+      "requirement_label": null,
       "program_course_name_snapshot": null,
       "notes": "EE4405",
       "source_page": 1,
@@ -86,6 +86,7 @@
       "credits_snapshot": 3.0,
       "requirement_group": "core",
       "requirement_section": "core",
+      "requirement_label": null,
       "program_course_name_snapshot": null,
       "notes": "EE5226",
       "source_page": 1,
@@ -104,6 +105,7 @@
       "credits_snapshot": 3.0,
       "requirement_group": "core",
       "requirement_section": "core",
+      "requirement_label": null,
       "program_course_name_snapshot": null,
       "notes": "UT543",
       "source_page": 1,
@@ -122,8 +124,85 @@
       "credits_snapshot": 3.0,
       "requirement_group": "elective",
       "requirement_section": "elective",
+      "requirement_label": null,
       "program_course_name_snapshot": null,
       "notes": "EE2305",
+      "source_page": 1,
+      "evidence_match": true,
+      "validation_status": "needs_course_code_verification",
+      "uncertainty_reason": "Official PDF table does not provide a course code"
+    },
+    {
+      "course_code": null,
+      "catalog_entry_id": "entry_fb88c44b333ed6c5",
+      "opening_units": [
+        "電機系"
+      ],
+      "opening_unit_snapshot": "電機系",
+      "course_name_snapshot": "通訊系統模擬",
+      "credits_snapshot": 3.0,
+      "requirement_group": "elective",
+      "requirement_section": "elective",
+      "requirement_label": null,
+      "program_course_name_snapshot": null,
+      "notes": "EE3617",
+      "source_page": 1,
+      "evidence_match": true,
+      "validation_status": "needs_course_code_verification",
+      "uncertainty_reason": "Official PDF table does not provide a course code"
+    },
+    {
+      "course_code": null,
+      "catalog_entry_id": "entry_92fdfaefd60bac0c",
+      "opening_units": [
+        "電機系"
+      ],
+      "opening_unit_snapshot": "電機系",
+      "course_name_snapshot": "無線通訊系統導論",
+      "credits_snapshot": 3.0,
+      "requirement_group": "elective",
+      "requirement_section": "elective",
+      "requirement_label": null,
+      "program_course_name_snapshot": null,
+      "notes": "EE3314",
+      "source_page": 1,
+      "evidence_match": true,
+      "validation_status": "needs_course_code_verification",
+      "uncertainty_reason": "Official PDF table does not provide a course code"
+    },
+    {
+      "course_code": null,
+      "catalog_entry_id": "entry_06aeaf08416ac551",
+      "opening_units": [
+        "電機系"
+      ],
+      "opening_unit_snapshot": "電機系",
+      "course_name_snapshot": "數值運算實務",
+      "credits_snapshot": 3.0,
+      "requirement_group": "elective",
+      "requirement_section": "elective",
+      "requirement_label": null,
+      "program_course_name_snapshot": null,
+      "notes": "EE3901",
+      "source_page": 1,
+      "evidence_match": true,
+      "validation_status": "needs_course_code_verification",
+      "uncertainty_reason": "Official PDF table does not provide a course code"
+    },
+    {
+      "course_code": null,
+      "catalog_entry_id": "entry_98def777f6e4b377",
+      "opening_units": [
+        "電機系"
+      ],
+      "opening_unit_snapshot": "電機系",
+      "course_name_snapshot": "天線工程概論",
+      "credits_snapshot": 3.0,
+      "requirement_group": "elective",
+      "requirement_section": "elective",
+      "requirement_label": null,
+      "program_course_name_snapshot": null,
+      "notes": "EE4505",
       "source_page": 1,
       "evidence_match": true,
       "validation_status": "needs_course_code_verification",
@@ -140,8 +219,85 @@
       "credits_snapshot": 3.0,
       "requirement_group": "elective",
       "requirement_section": "elective",
+      "requirement_label": null,
       "program_course_name_snapshot": null,
       "notes": "EE5310",
+      "source_page": 1,
+      "evidence_match": true,
+      "validation_status": "needs_course_code_verification",
+      "uncertainty_reason": "Official PDF table does not provide a course code"
+    },
+    {
+      "course_code": null,
+      "catalog_entry_id": "entry_871d561add33af6d",
+      "opening_units": [
+        "電機碩"
+      ],
+      "opening_unit_snapshot": "電機碩",
+      "course_name_snapshot": "人工智慧(一)",
+      "credits_snapshot": 3.0,
+      "requirement_group": "elective",
+      "requirement_section": "elective",
+      "requirement_label": null,
+      "program_course_name_snapshot": null,
+      "notes": "EE5213",
+      "source_page": 1,
+      "evidence_match": true,
+      "validation_status": "needs_course_code_verification",
+      "uncertainty_reason": "Official PDF table does not provide a course code"
+    },
+    {
+      "course_code": null,
+      "catalog_entry_id": "entry_f3ada0b843e0a2c9",
+      "opening_units": [
+        "電機碩"
+      ],
+      "opening_unit_snapshot": "電機碩",
+      "course_name_snapshot": "電腦視覺",
+      "credits_snapshot": 3.0,
+      "requirement_group": "elective",
+      "requirement_section": "elective",
+      "requirement_label": null,
+      "program_course_name_snapshot": null,
+      "notes": "EE5737",
+      "source_page": 1,
+      "evidence_match": true,
+      "validation_status": "needs_course_code_verification",
+      "uncertainty_reason": "Official PDF table does not provide a course code"
+    },
+    {
+      "course_code": null,
+      "catalog_entry_id": "entry_b674ca87fddd647d",
+      "opening_units": [
+        "電機碩"
+      ],
+      "opening_unit_snapshot": "電機碩",
+      "course_name_snapshot": "雷達系統導論",
+      "credits_snapshot": 3.0,
+      "requirement_group": "elective",
+      "requirement_section": "elective",
+      "requirement_label": null,
+      "program_course_name_snapshot": null,
+      "notes": "EE5542",
+      "source_page": 1,
+      "evidence_match": true,
+      "validation_status": "needs_course_code_verification",
+      "uncertainty_reason": "Official PDF table does not provide a course code"
+    },
+    {
+      "course_code": null,
+      "catalog_entry_id": "entry_a670bfedb1f9698d",
+      "opening_units": [
+        "電機碩"
+      ],
+      "opening_unit_snapshot": "電機碩",
+      "course_name_snapshot": "賽局理論與應用",
+      "credits_snapshot": 3.0,
+      "requirement_group": "elective",
+      "requirement_section": "elective",
+      "requirement_label": null,
+      "program_course_name_snapshot": null,
+      "notes": "EE5336",
       "source_page": 1,
       "evidence_match": true,
       "validation_status": "needs_course_code_verification",
@@ -158,8 +314,28 @@
       "credits_snapshot": 3.0,
       "requirement_group": "elective",
       "requirement_section": "elective",
+      "requirement_label": null,
       "program_course_name_snapshot": null,
       "notes": "MEME301",
+      "source_page": 1,
+      "evidence_match": true,
+      "validation_status": "needs_course_code_verification",
+      "uncertainty_reason": "Official PDF table does not provide a course code"
+    },
+    {
+      "course_code": null,
+      "catalog_entry_id": "entry_85c4410425679d5a",
+      "opening_units": [
+        "機電系"
+      ],
+      "opening_unit_snapshot": "機電系",
+      "course_name_snapshot": "機械設計原理(二)",
+      "credits_snapshot": 3.0,
+      "requirement_group": "elective",
+      "requirement_section": "elective",
+      "requirement_label": null,
+      "program_course_name_snapshot": null,
+      "notes": "MEME328",
       "source_page": 1,
       "evidence_match": true,
       "validation_status": "needs_course_code_verification",
@@ -176,8 +352,123 @@
       "credits_snapshot": 3.0,
       "requirement_group": "elective",
       "requirement_section": "elective",
+      "requirement_label": null,
       "program_course_name_snapshot": null,
       "notes": "CSE399",
+      "source_page": 1,
+      "evidence_match": true,
+      "validation_status": "needs_course_code_verification",
+      "uncertainty_reason": "Official PDF table does not provide a course code"
+    },
+    {
+      "course_code": null,
+      "catalog_entry_id": "entry_da80d23bd7bf895a",
+      "opening_units": [
+        "資工系"
+      ],
+      "opening_unit_snapshot": "資工系",
+      "course_name_snapshot": "人工智慧導論",
+      "credits_snapshot": 3.0,
+      "requirement_group": "elective",
+      "requirement_section": "elective",
+      "requirement_label": null,
+      "program_course_name_snapshot": null,
+      "notes": "CSE480",
+      "source_page": 1,
+      "evidence_match": true,
+      "validation_status": "needs_course_code_verification",
+      "uncertainty_reason": "Official PDF table does not provide a course code"
+    },
+    {
+      "course_code": null,
+      "catalog_entry_id": "entry_fc90c7331e8c8c37",
+      "opening_units": [
+        "資工系"
+      ],
+      "opening_unit_snapshot": "資工系",
+      "course_name_snapshot": "資料探勘",
+      "credits_snapshot": 3.0,
+      "requirement_group": "elective",
+      "requirement_section": "elective",
+      "requirement_label": null,
+      "program_course_name_snapshot": null,
+      "notes": "CSE223",
+      "source_page": 1,
+      "evidence_match": true,
+      "validation_status": "needs_course_code_verification",
+      "uncertainty_reason": "Official PDF table does not provide a course code"
+    },
+    {
+      "course_code": null,
+      "catalog_entry_id": "entry_d5660f4263341e9e",
+      "opening_units": [
+        "資工系"
+      ],
+      "opening_unit_snapshot": "資工系",
+      "course_name_snapshot": "數位影像處理",
+      "credits_snapshot": 3.0,
+      "requirement_group": "elective",
+      "requirement_section": "elective",
+      "requirement_label": null,
+      "program_course_name_snapshot": null,
+      "notes": "CSE375",
+      "source_page": 1,
+      "evidence_match": true,
+      "validation_status": "needs_course_code_verification",
+      "uncertainty_reason": "Official PDF table does not provide a course code"
+    },
+    {
+      "course_code": null,
+      "catalog_entry_id": "entry_69005749bc4e96cd",
+      "opening_units": [
+        "資工系"
+      ],
+      "opening_unit_snapshot": "資工系",
+      "course_name_snapshot": "資訊安全",
+      "credits_snapshot": 3.0,
+      "requirement_group": "elective",
+      "requirement_section": "elective",
+      "requirement_label": null,
+      "program_course_name_snapshot": null,
+      "notes": "CSE326",
+      "source_page": 1,
+      "evidence_match": true,
+      "validation_status": "needs_course_code_verification",
+      "uncertainty_reason": "Official PDF table does not provide a course code"
+    },
+    {
+      "course_code": null,
+      "catalog_entry_id": "entry_94018a2bcc129fcb",
+      "opening_units": [
+        "資工系"
+      ],
+      "opening_unit_snapshot": "資工系",
+      "course_name_snapshot": "AI輔助程式設計",
+      "credits_snapshot": 3.0,
+      "requirement_group": "elective",
+      "requirement_section": "elective",
+      "requirement_label": null,
+      "program_course_name_snapshot": null,
+      "notes": "CSE201",
+      "source_page": 1,
+      "evidence_match": true,
+      "validation_status": "needs_course_code_verification",
+      "uncertainty_reason": "Official PDF table does not provide a course code"
+    },
+    {
+      "course_code": null,
+      "catalog_entry_id": "entry_13b2cae897775e54",
+      "opening_units": [
+        "資工系"
+      ],
+      "opening_unit_snapshot": "資工系",
+      "course_name_snapshot": "無線網際網路",
+      "credits_snapshot": 3.0,
+      "requirement_group": "elective",
+      "requirement_section": "elective",
+      "requirement_label": null,
+      "program_course_name_snapshot": null,
+      "notes": "CSE445",
       "source_page": 1,
       "evidence_match": true,
       "validation_status": "needs_course_code_verification",
@@ -194,8 +485,66 @@
       "credits_snapshot": 3.0,
       "requirement_group": "elective",
       "requirement_section": "elective",
+      "requirement_label": null,
       "program_course_name_snapshot": null,
       "notes": "MIS538",
+      "source_page": 1,
+      "evidence_match": true,
+      "validation_status": "needs_course_code_verification",
+      "uncertainty_reason": "Official PDF table does not provide a course code"
+    },
+    {
+      "course_code": null,
+      "catalog_entry_id": "entry_781be64886d64bec",
+      "opening_units": [
+        "資管碩"
+      ],
+      "opening_unit_snapshot": "資管碩",
+      "course_name_snapshot": "人工智慧",
+      "credits_snapshot": 3.0,
+      "requirement_group": "elective",
+      "requirement_section": "elective",
+      "requirement_label": null,
+      "program_course_name_snapshot": null,
+      "notes": "MIS525",
+      "source_page": 1,
+      "evidence_match": true,
+      "validation_status": "needs_course_code_verification",
+      "uncertainty_reason": "Official PDF table does not provide a course code"
+    },
+    {
+      "course_code": null,
+      "catalog_entry_id": "entry_5fb406e0242f7021",
+      "opening_units": [
+        "資管碩"
+      ],
+      "opening_unit_snapshot": "資管碩",
+      "course_name_snapshot": "巨量資料分析導論",
+      "credits_snapshot": 3.0,
+      "requirement_group": "elective",
+      "requirement_section": "elective",
+      "requirement_label": null,
+      "program_course_name_snapshot": null,
+      "notes": "MIS572",
+      "source_page": 1,
+      "evidence_match": true,
+      "validation_status": "needs_course_code_verification",
+      "uncertainty_reason": "Official PDF table does not provide a course code"
+    },
+    {
+      "course_code": null,
+      "catalog_entry_id": "entry_7966f75cbea00de0",
+      "opening_units": [
+        "資管碩"
+      ],
+      "opening_unit_snapshot": "資管碩",
+      "course_name_snapshot": "軟體工程",
+      "credits_snapshot": 3.0,
+      "requirement_group": "elective",
+      "requirement_section": "elective",
+      "requirement_label": null,
+      "program_course_name_snapshot": null,
+      "notes": "MIS528",
       "source_page": 1,
       "evidence_match": true,
       "validation_status": "needs_course_code_verification",
@@ -212,8 +561,47 @@
       "credits_snapshot": 3.0,
       "requirement_group": "elective",
       "requirement_section": "elective",
+      "requirement_label": null,
       "program_course_name_snapshot": null,
       "notes": "MATH522",
+      "source_page": 1,
+      "evidence_match": true,
+      "validation_status": "needs_course_code_verification",
+      "uncertainty_reason": "Official PDF table does not provide a course code"
+    },
+    {
+      "course_code": null,
+      "catalog_entry_id": "entry_e9ef87cab65580a1",
+      "opening_units": [
+        "應數碩"
+      ],
+      "opening_unit_snapshot": "應數碩",
+      "course_name_snapshot": "Python與機器學習(二)",
+      "credits_snapshot": 3.0,
+      "requirement_group": "elective",
+      "requirement_section": "elective",
+      "requirement_label": null,
+      "program_course_name_snapshot": null,
+      "notes": "MATH521",
+      "source_page": 1,
+      "evidence_match": true,
+      "validation_status": "needs_course_code_verification",
+      "uncertainty_reason": "Official PDF table does not provide a course code"
+    },
+    {
+      "course_code": null,
+      "catalog_entry_id": "entry_61a5d01f9bb01774",
+      "opening_units": [
+        "應數碩"
+      ],
+      "opening_unit_snapshot": "應數碩",
+      "course_name_snapshot": "Python與機器學習之理論實現",
+      "credits_snapshot": 3.0,
+      "requirement_group": "elective",
+      "requirement_section": "elective",
+      "requirement_label": null,
+      "program_course_name_snapshot": null,
+      "notes": "MATH599",
       "source_page": 1,
       "evidence_match": true,
       "validation_status": "needs_course_code_verification",
@@ -230,8 +618,28 @@
       "credits_snapshot": 3.0,
       "requirement_group": "elective",
       "requirement_section": "elective",
+      "requirement_label": null,
       "program_course_name_snapshot": null,
       "notes": "UT539",
+      "source_page": 1,
+      "evidence_match": true,
+      "validation_status": "needs_course_code_verification",
+      "uncertainty_reason": "Official PDF table does not provide a course code"
+    },
+    {
+      "course_code": null,
+      "catalog_entry_id": "entry_baf8e69aa8ec3c98",
+      "opening_units": [
+        "海下科技碩"
+      ],
+      "opening_unit_snapshot": "海下科技碩",
+      "course_name_snapshot": "水下光電",
+      "credits_snapshot": 3.0,
+      "requirement_group": "elective",
+      "requirement_section": "elective",
+      "requirement_label": null,
+      "program_course_name_snapshot": null,
+      "notes": "UT542",
       "source_page": 1,
       "evidence_match": true,
       "validation_status": "needs_course_code_verification",
@@ -239,8 +647,77 @@
     }
   ],
   "structured_requirements": {
-    "core_credits_text_value": 6,
-    "minimum_total_credits": 18,
-    "minimum_outside_home_department_credits": 6
+    "minimum_core_credits": 6.0,
+    "core_credits_text_value": 6.0,
+    "minimum_total_credits": 18.0,
+    "minimum_outside_home_department_credits": 6.0,
+    "credit_constraints": [
+      {
+        "constraint_id": "constraint_45feffd869a133ab",
+        "kind": "minimum_credits",
+        "scope": {
+          "kind": "catalog_filter",
+          "requirement_groups": [
+            "core"
+          ]
+        },
+        "minimum_credits": 6.0,
+        "requirement_context": "program_completion",
+        "source_page": 1,
+        "source_text": "核心課程〈專業模組課程〉學分數:至少 6 學分",
+        "validation_status": "source_text_match"
+      },
+      {
+        "constraint_id": "constraint_8bd69077929a7f43",
+        "kind": "minimum_credits",
+        "scope": {
+          "kind": "program"
+        },
+        "minimum_credits": 18.0,
+        "requirement_context": "program_completion",
+        "source_page": 2,
+        "source_text": "總學分數:至少18學分",
+        "validation_status": "source_text_match"
+      },
+      {
+        "constraint_id": "constraint_aacd285688c08ff9",
+        "kind": "minimum_credits",
+        "scope": {
+          "kind": "course_eligibility",
+          "excluded_affiliations": [
+            "home_department",
+            "double_major",
+            "minor"
+          ],
+          "excluded_course_roles": [
+            "all"
+          ]
+        },
+        "minimum_credits": 6.0,
+        "requirement_context": "program_completion",
+        "source_page": 2,
+        "source_text": "至少應有6學分不屬於學生本系所",
+        "validation_status": "source_text_match"
+      }
+    ],
+    "completion_summary": {
+      "model_status": "complete",
+      "minimum_total_credits": 18.0,
+      "minimum_core_credits": 6.0,
+      "maximum_core_credits": null,
+      "minimum_elective_credits": null,
+      "minimum_core_courses": null,
+      "minimum_elective_courses": null,
+      "has_conditional_requirements": false,
+      "has_manual_requirements": false,
+      "has_unresolved_conflicts": false
+    }
+  },
+  "review": {
+    "method": "random_sampled_simple_logic",
+    "policy_version": "simple-logic-v1",
+    "audit_path": "data/ai-review/115-1.json",
+    "candidate_count": 79,
+    "sample_size": 3
   }
 }

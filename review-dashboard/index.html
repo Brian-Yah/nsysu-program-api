@@ -1,0 +1,90 @@
+<!doctype html>
+<html lang="zh-Hant">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>NSYSU Program 規則審核台</title>
+  <link rel="stylesheet" href="/style.css">
+</head>
+<body>
+  <header class="topbar">
+    <div>
+      <p class="eyebrow">NSYSU PROGRAM API · 115-1</p>
+      <h1>規則審核台</h1>
+    </div>
+    <div class="top-actions">
+      <label>審核人 <input id="reviewer" autocomplete="name" placeholder="請輸入姓名"></label>
+      <span id="saveState" class="save-state">尚未儲存</span>
+    </div>
+  </header>
+
+  <main class="workspace">
+    <aside class="queue-panel">
+      <div class="progress-wrap">
+        <div class="progress-copy"><span id="progressText">載入中…</span><span id="progressPercent"></span></div>
+        <div class="progress-track"><div id="progressBar"></div></div>
+      </div>
+      <div class="filters">
+        <input id="search" type="search" placeholder="搜尋學程或 ID">
+        <select id="statusFilter" aria-label="狀態篩選">
+          <option value="pending">待審（含過期）</option>
+          <option value="all">全部</option>
+          <option value="conflicted">只看 conflicted</option>
+          <option value="cautious_use">小心使用</option>
+          <option value="approved">基本正確</option>
+          <option value="needs_fix">需要修正</option>
+          <option value="skipped">略過</option>
+        </select>
+      </div>
+      <div id="queue" class="queue" aria-live="polite"></div>
+    </aside>
+
+    <section class="pdf-panel">
+      <div class="panel-head">
+        <div>
+          <span class="panel-kicker">官方原始資料</span>
+          <strong id="pdfLabel">選擇一個學程</strong>
+        </div>
+        <a id="pdfLink" class="link-button" target="_blank" rel="noreferrer">另開 PDF ↗</a>
+      </div>
+      <iframe id="pdfFrame" title="官方學程 PDF"></iframe>
+      <div id="pdfEmpty" class="empty">尚未載入 PDF</div>
+    </section>
+
+    <section class="review-panel">
+      <div class="program-head">
+        <div>
+          <p id="programMeta" class="eyebrow"></p>
+          <h2 id="programName">選擇左側學程開始審核</h2>
+        </div>
+        <span id="modelBadge" class="badge"></span>
+      </div>
+      <div id="staleNotice" class="notice danger hidden">來源或 parser 已變更，舊審核結果已過期，請重新確認。</div>
+      <div id="conflictNotice" class="notice caution hidden">此學程有官方來源衝突。「小心使用」只代表現有規則大致可用，不會消除 conflict。</div>
+
+      <div class="decision-box">
+        <div class="decision-note-row">
+          <label for="notes">審核備註</label>
+          <textarea id="notes" rows="2" placeholder="小心使用／需要修正時必填；請註明數量、規則或頁碼。"></textarea>
+        </div>
+        <div class="decision-actions">
+          <button class="decision approved" data-decision="approved"><kbd>A</kbd> 基本正確</button>
+          <button class="decision cautious" data-decision="cautious_use"><kbd>C</kbd> 基本正確但小心使用</button>
+          <button class="decision fix" data-decision="needs_fix"><kbd>F</kbd> 需要修正</button>
+          <button class="decision skip" data-decision="skipped"><kbd>S</kbd> 略過</button>
+        </div>
+        <p class="fine-print">第一階段判斷，不會直接產生雙人覆核的正式 approved override。</p>
+      </div>
+
+      <nav class="tabs" aria-label="資料頁籤">
+        <button class="tab active" data-tab="rules">規則</button>
+        <button class="tab" data-tab="courses">課程</button>
+        <button class="tab" data-tab="raw">JSON</button>
+      </nav>
+      <div id="content" class="content"><div class="empty">從左側選擇待審項目</div></div>
+    </section>
+  </main>
+  <div id="toast" role="status"></div>
+  <script src="/app.js" defer></script>
+</body>
+</html>

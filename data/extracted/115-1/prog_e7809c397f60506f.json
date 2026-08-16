@@ -1,5 +1,5 @@
 {
-  "schema_version": "1.0",
+  "schema_version": "1.2",
   "courses": [],
   "credit_mentions": [
     9,
@@ -45,6 +45,45 @@
           "credits_snapshot": 3.0,
           "requirement_group": "core",
           "requirement_section": "core",
+          "requirement_label": null,
+          "program_course_name_snapshot": null,
+          "notes": "",
+          "source_page": 1,
+          "evidence_match": true,
+          "validation_status": "needs_course_code_verification",
+          "uncertainty_reason": "Official PDF table does not provide a course code"
+        },
+        {
+          "course_code": null,
+          "catalog_entry_id": "entry_4351af63b0bbfe4d",
+          "opening_units": [
+            "社會系"
+          ],
+          "opening_unit_snapshot": "社會系",
+          "course_name_snapshot": "藝術社會學",
+          "credits_snapshot": 3.0,
+          "requirement_group": "core",
+          "requirement_section": "core",
+          "requirement_label": null,
+          "program_course_name_snapshot": null,
+          "notes": "",
+          "source_page": 1,
+          "evidence_match": true,
+          "validation_status": "needs_course_code_verification",
+          "uncertainty_reason": "Official PDF table does not provide a course code"
+        },
+        {
+          "course_code": null,
+          "catalog_entry_id": "entry_06dc7e39dcccc2b5",
+          "opening_units": [
+            "社會系"
+          ],
+          "opening_unit_snapshot": "社會系",
+          "course_name_snapshot": "文化研究",
+          "credits_snapshot": 3.0,
+          "requirement_group": "core",
+          "requirement_section": "core",
+          "requirement_label": null,
           "program_course_name_snapshot": null,
           "notes": "",
           "source_page": 1,
@@ -63,10 +102,125 @@
           "credits_snapshot": 3.0,
           "requirement_group": "elective",
           "requirement_section": "elective",
+          "requirement_label": null,
           "program_course_name_snapshot": null,
           "notes": "包括同性質的實習課程、實作課程或服務學習。",
           "source_page": 1,
           "evidence_match": true,
+          "validation_status": "needs_course_code_verification",
+          "uncertainty_reason": "Official PDF table does not provide a course code"
+        },
+        {
+          "course_code": null,
+          "catalog_entry_id": "entry_bbbc2bdddbb6c716",
+          "opening_units": [
+            "社會系"
+          ],
+          "opening_unit_snapshot": "社會系",
+          "course_name_snapshot": "走讀旗津",
+          "credits_snapshot": 3.0,
+          "requirement_group": "elective",
+          "requirement_section": "elective",
+          "requirement_label": null,
+          "program_course_name_snapshot": null,
+          "notes": "",
+          "source_page": 1,
+          "evidence_match": true,
+          "validation_status": "needs_course_code_verification",
+          "uncertainty_reason": "Official PDF table does not provide a course code"
+        },
+        {
+          "course_code": null,
+          "catalog_entry_id": "entry_40e26ff7d1f4f821",
+          "opening_units": [
+            "社會系"
+          ],
+          "opening_unit_snapshot": "社會系",
+          "course_name_snapshot": "文學社會學",
+          "credits_snapshot": 3.0,
+          "requirement_group": "elective",
+          "requirement_section": "elective",
+          "requirement_label": null,
+          "program_course_name_snapshot": null,
+          "notes": "",
+          "source_page": 1,
+          "evidence_match": true,
+          "validation_status": "needs_course_code_verification",
+          "uncertainty_reason": "Official PDF table does not provide a course code"
+        },
+        {
+          "course_code": null,
+          "catalog_entry_id": "entry_579d801657dd20db",
+          "opening_units": [
+            "社會系"
+          ],
+          "opening_unit_snapshot": "社會系",
+          "course_name_snapshot": "報導文學與社區發展",
+          "credits_snapshot": 3.0,
+          "requirement_group": "elective",
+          "requirement_section": "elective",
+          "requirement_label": null,
+          "program_course_name_snapshot": null,
+          "notes": "",
+          "source_page": 1,
+          "evidence_match": true,
+          "validation_status": "needs_course_code_verification",
+          "uncertainty_reason": "Official PDF table does not provide a course code"
+        },
+        {
+          "course_code": null,
+          "catalog_entry_id": "entry_3530032468cda8eb",
+          "opening_units": [
+            "社會系"
+          ],
+          "opening_unit_snapshot": "社會系",
+          "course_name_snapshot": "社會調查與研究方法(一)社會調查與研究方法(二)",
+          "credits_snapshot": 3.0,
+          "requirement_group": "elective",
+          "requirement_section": "elective",
+          "requirement_label": null,
+          "program_course_name_snapshot": null,
+          "notes": "上下學期共6學分",
+          "source_page": 1,
+          "evidence_match": false,
+          "validation_status": "needs_course_code_verification",
+          "uncertainty_reason": "Official PDF table does not provide a course code"
+        },
+        {
+          "course_code": null,
+          "catalog_entry_id": "entry_08d06a3b919c303e",
+          "opening_units": [
+            "社會系"
+          ],
+          "opening_unit_snapshot": "社會系",
+          "course_name_snapshot": "文化資產保存與創新",
+          "credits_snapshot": 3.0,
+          "requirement_group": "elective",
+          "requirement_section": "elective",
+          "requirement_label": null,
+          "program_course_name_snapshot": null,
+          "notes": "",
+          "source_page": 1,
+          "evidence_match": true,
+          "validation_status": "needs_course_code_verification",
+          "uncertainty_reason": "Official PDF table does not provide a course code"
+        },
+        {
+          "course_code": null,
+          "catalog_entry_id": "entry_117d184f6898696e",
+          "opening_units": [
+            "社會系"
+          ],
+          "opening_unit_snapshot": "社會系",
+          "course_name_snapshot": "社會調查與文史轉譯: 校園博物館實作(一)",
+          "credits_snapshot": 3.0,
+          "requirement_group": "elective",
+          "requirement_section": "elective",
+          "requirement_label": null,
+          "program_course_name_snapshot": null,
+          "notes": "新增",
+          "source_page": 1,
+          "evidence_match": false,
           "validation_status": "needs_course_code_verification",
           "uncertainty_reason": "Official PDF table does not provide a course code"
         },
@@ -81,6 +235,26 @@
           "credits_snapshot": 3.0,
           "requirement_group": "elective",
           "requirement_section": "elective",
+          "requirement_label": null,
+          "program_course_name_snapshot": null,
+          "notes": "",
+          "source_page": 1,
+          "evidence_match": true,
+          "validation_status": "needs_course_code_verification",
+          "uncertainty_reason": "Official PDF table does not provide a course code"
+        },
+        {
+          "course_code": null,
+          "catalog_entry_id": "entry_4c0b8900220d39bb",
+          "opening_units": [
+            "中文系"
+          ],
+          "opening_unit_snapshot": "中文系",
+          "course_name_snapshot": "在地敘事採編與新創",
+          "credits_snapshot": 3.0,
+          "requirement_group": "elective",
+          "requirement_section": "elective",
+          "requirement_label": null,
           "program_course_name_snapshot": null,
           "notes": "",
           "source_page": 1,
@@ -99,6 +273,7 @@
           "credits_snapshot": 3.0,
           "requirement_group": "elective",
           "requirement_section": "elective",
+          "requirement_label": null,
           "program_course_name_snapshot": null,
           "notes": "",
           "source_page": 1,
@@ -117,8 +292,66 @@
           "credits_snapshot": 1.0,
           "requirement_group": "elective",
           "requirement_section": "elective",
+          "requirement_label": null,
           "program_course_name_snapshot": null,
           "notes": "包含展演實作專案(一)(二)",
+          "source_page": 1,
+          "evidence_match": true,
+          "validation_status": "needs_course_code_verification",
+          "uncertainty_reason": "Official PDF table does not provide a course code"
+        },
+        {
+          "course_code": null,
+          "catalog_entry_id": "entry_1587ed6ed543cc08",
+          "opening_units": [
+            "音樂系"
+          ],
+          "opening_unit_snapshot": "音樂系",
+          "course_name_snapshot": "歌唱與戲劇表演",
+          "credits_snapshot": 2.0,
+          "requirement_group": "elective",
+          "requirement_section": "elective",
+          "requirement_label": null,
+          "program_course_name_snapshot": null,
+          "notes": "",
+          "source_page": 1,
+          "evidence_match": true,
+          "validation_status": "needs_course_code_verification",
+          "uncertainty_reason": "Official PDF table does not provide a course code"
+        },
+        {
+          "course_code": null,
+          "catalog_entry_id": "entry_aee76629a8e266ef",
+          "opening_units": [
+            "音樂系"
+          ],
+          "opening_unit_snapshot": "音樂系",
+          "course_name_snapshot": "特定主題音樂創作",
+          "credits_snapshot": 2.0,
+          "requirement_group": "elective",
+          "requirement_section": "elective",
+          "requirement_label": null,
+          "program_course_name_snapshot": null,
+          "notes": "包含特定主題音樂創作(一)(二)(三)(四)實習課程",
+          "source_page": 1,
+          "evidence_match": true,
+          "validation_status": "needs_course_code_verification",
+          "uncertainty_reason": "Official PDF table does not provide a course code"
+        },
+        {
+          "course_code": null,
+          "catalog_entry_id": "entry_f163476c6691724a",
+          "opening_units": [
+            "音樂系"
+          ],
+          "opening_unit_snapshot": "音樂系",
+          "course_name_snapshot": "跨領域音樂設計與實作",
+          "credits_snapshot": 2.0,
+          "requirement_group": "elective",
+          "requirement_section": "elective",
+          "requirement_label": null,
+          "program_course_name_snapshot": null,
+          "notes": "包含跨領域音樂設計與實作(一)(二)",
           "source_page": 1,
           "evidence_match": true,
           "validation_status": "needs_course_code_verification",
@@ -135,6 +368,26 @@
           "credits_snapshot": 2.0,
           "requirement_group": "elective",
           "requirement_section": "elective",
+          "requirement_label": null,
+          "program_course_name_snapshot": null,
+          "notes": "",
+          "source_page": 1,
+          "evidence_match": true,
+          "validation_status": "needs_course_code_verification",
+          "uncertainty_reason": "Official PDF table does not provide a course code"
+        },
+        {
+          "course_code": null,
+          "catalog_entry_id": "entry_052216fbcddfedd8",
+          "opening_units": [
+            "劇藝系"
+          ],
+          "opening_unit_snapshot": "劇藝系",
+          "course_name_snapshot": "劇本創作",
+          "credits_snapshot": 2.0,
+          "requirement_group": "elective",
+          "requirement_section": "elective",
+          "requirement_label": null,
           "program_course_name_snapshot": null,
           "notes": "",
           "source_page": 1,
@@ -153,6 +406,26 @@
           "credits_snapshot": 3.0,
           "requirement_group": "elective",
           "requirement_section": "elective",
+          "requirement_label": null,
+          "program_course_name_snapshot": null,
+          "notes": "",
+          "source_page": 1,
+          "evidence_match": true,
+          "validation_status": "needs_course_code_verification",
+          "uncertainty_reason": "Official PDF table does not provide a course code"
+        },
+        {
+          "course_code": null,
+          "catalog_entry_id": "entry_c2cdd86287f39b1a",
+          "opening_units": [
+            "管理學院"
+          ],
+          "opening_unit_snapshot": "管理學院",
+          "course_name_snapshot": "設計人類學:理論與實踐",
+          "credits_snapshot": 3.0,
+          "requirement_group": "elective",
+          "requirement_section": "elective",
+          "requirement_label": null,
           "program_course_name_snapshot": null,
           "notes": "",
           "source_page": 1,
@@ -171,9 +444,86 @@
           "credits_snapshot": 3.0,
           "requirement_group": "elective",
           "requirement_section": "elective",
+          "requirement_label": null,
           "program_course_name_snapshot": null,
           "notes": "",
           "source_page": 1,
+          "evidence_match": true,
+          "validation_status": "needs_course_code_verification",
+          "uncertainty_reason": "Official PDF table does not provide a course code"
+        },
+        {
+          "course_code": null,
+          "catalog_entry_id": "entry_9e85cfe2a52a20ac",
+          "opening_units": [
+            "人科學程"
+          ],
+          "opening_unit_snapshot": "人科學程",
+          "course_name_snapshot": "設計思考:跨界、創新與創業",
+          "credits_snapshot": 3.0,
+          "requirement_group": "elective",
+          "requirement_section": "elective",
+          "requirement_label": null,
+          "program_course_name_snapshot": null,
+          "notes": "",
+          "source_page": 1,
+          "evidence_match": true,
+          "validation_status": "needs_course_code_verification",
+          "uncertainty_reason": "Official PDF table does not provide a course code"
+        },
+        {
+          "course_code": null,
+          "catalog_entry_id": "entry_3cfc4a91515590ed",
+          "opening_units": [
+            "人科學程"
+          ],
+          "opening_unit_snapshot": "人科學程",
+          "course_name_snapshot": "創意街區發展與設計思考",
+          "credits_snapshot": 3.0,
+          "requirement_group": "elective",
+          "requirement_section": "elective",
+          "requirement_label": null,
+          "program_course_name_snapshot": null,
+          "notes": "",
+          "source_page": 2,
+          "evidence_match": true,
+          "validation_status": "needs_course_code_verification",
+          "uncertainty_reason": "Official PDF table does not provide a course code"
+        },
+        {
+          "course_code": null,
+          "catalog_entry_id": "entry_cefef574f16beea6",
+          "opening_units": [
+            "人科學程"
+          ],
+          "opening_unit_snapshot": "人科學程",
+          "course_name_snapshot": "創意街區發展實務與藝術",
+          "credits_snapshot": 3.0,
+          "requirement_group": "elective",
+          "requirement_section": "elective",
+          "requirement_label": null,
+          "program_course_name_snapshot": null,
+          "notes": "",
+          "source_page": 2,
+          "evidence_match": true,
+          "validation_status": "needs_course_code_verification",
+          "uncertainty_reason": "Official PDF table does not provide a course code"
+        },
+        {
+          "course_code": null,
+          "catalog_entry_id": "entry_07e0f3b1e0449d0b",
+          "opening_units": [
+            "人科學程"
+          ],
+          "opening_unit_snapshot": "人科學程",
+          "course_name_snapshot": "跨領域創新專題(一)",
+          "credits_snapshot": 3.0,
+          "requirement_group": "elective",
+          "requirement_section": "elective",
+          "requirement_label": null,
+          "program_course_name_snapshot": null,
+          "notes": "",
+          "source_page": 2,
           "evidence_match": true,
           "validation_status": "needs_course_code_verification",
           "uncertainty_reason": "Official PDF table does not provide a course code"
@@ -189,6 +539,83 @@
           "credits_snapshot": 3.0,
           "requirement_group": "elective",
           "requirement_section": "elective",
+          "requirement_label": null,
+          "program_course_name_snapshot": null,
+          "notes": "",
+          "source_page": 2,
+          "evidence_match": true,
+          "validation_status": "needs_course_code_verification",
+          "uncertainty_reason": "Official PDF table does not provide a course code"
+        },
+        {
+          "course_code": null,
+          "catalog_entry_id": "entry_75418bb740e9413b",
+          "opening_units": [
+            "西灣學院"
+          ],
+          "opening_unit_snapshot": "西灣學院",
+          "course_name_snapshot": "史蹟導覽",
+          "credits_snapshot": 1.0,
+          "requirement_group": "elective",
+          "requirement_section": "elective",
+          "requirement_label": null,
+          "program_course_name_snapshot": null,
+          "notes": "服務學習:史蹟導覽",
+          "source_page": 2,
+          "evidence_match": true,
+          "validation_status": "needs_course_code_verification",
+          "uncertainty_reason": "Official PDF table does not provide a course code"
+        },
+        {
+          "course_code": null,
+          "catalog_entry_id": "entry_63924b422482ce0f",
+          "opening_units": [
+            "西灣學院"
+          ],
+          "opening_unit_snapshot": "西灣學院",
+          "course_name_snapshot": "台灣文化史",
+          "credits_snapshot": 3.0,
+          "requirement_group": "elective",
+          "requirement_section": "elective",
+          "requirement_label": null,
+          "program_course_name_snapshot": null,
+          "notes": "",
+          "source_page": 2,
+          "evidence_match": true,
+          "validation_status": "needs_course_code_verification",
+          "uncertainty_reason": "Official PDF table does not provide a course code"
+        },
+        {
+          "course_code": null,
+          "catalog_entry_id": "entry_df90cea0e641fece",
+          "opening_units": [
+            "西灣學院"
+          ],
+          "opening_unit_snapshot": "西灣學院",
+          "course_name_snapshot": "台灣社會與文化",
+          "credits_snapshot": 3.0,
+          "requirement_group": "elective",
+          "requirement_section": "elective",
+          "requirement_label": null,
+          "program_course_name_snapshot": null,
+          "notes": "",
+          "source_page": 2,
+          "evidence_match": true,
+          "validation_status": "needs_course_code_verification",
+          "uncertainty_reason": "Official PDF table does not provide a course code"
+        },
+        {
+          "course_code": null,
+          "catalog_entry_id": "entry_256b34a5ed512993",
+          "opening_units": [
+            "西灣學院"
+          ],
+          "opening_unit_snapshot": "西灣學院",
+          "course_name_snapshot": "地方創生議題探討",
+          "credits_snapshot": 3.0,
+          "requirement_group": "elective",
+          "requirement_section": "elective",
+          "requirement_label": null,
           "program_course_name_snapshot": null,
           "notes": "",
           "source_page": 2,
@@ -198,9 +625,71 @@
         }
       ],
       "requirements": {
-        "core_credits_text_value": 6,
-        "minimum_total_credits": 9,
-        "minimum_outside_home_department_credits": 3
+        "minimum_core_credits": 6.0,
+        "core_credits_text_value": 6.0,
+        "minimum_total_credits": 9.0,
+        "minimum_outside_home_department_credits": 3.0,
+        "credit_constraints": [
+          {
+            "constraint_id": "constraint_d78c276678615846",
+            "kind": "minimum_credits",
+            "scope": {
+              "kind": "catalog_filter",
+              "requirement_groups": [
+                "core"
+              ]
+            },
+            "minimum_credits": 6.0,
+            "requirement_context": "program_completion",
+            "source_page": 1,
+            "source_text": "核心課程〈專業模組課程〉學分數: 6 學分",
+            "validation_status": "source_text_match"
+          },
+          {
+            "constraint_id": "constraint_312ba592cce58c5d",
+            "kind": "minimum_credits",
+            "scope": {
+              "kind": "course_eligibility",
+              "excluded_affiliations": [
+                "home_department",
+                "double_major",
+                "minor"
+              ],
+              "excluded_course_roles": [
+                "all"
+              ]
+            },
+            "minimum_credits": 3.0,
+            "requirement_context": "program_completion",
+            "source_page": 2,
+            "source_text": "至少應有3學分不屬於學生本系所",
+            "validation_status": "source_text_match"
+          },
+          {
+            "constraint_id": "constraint_e4e3ec6325db6e04",
+            "kind": "minimum_credits",
+            "scope": {
+              "kind": "program"
+            },
+            "minimum_credits": 9.0,
+            "requirement_context": "program_completion",
+            "source_page": 2,
+            "source_text": "總學分數:至少 9 學分",
+            "validation_status": "source_text_match"
+          }
+        ],
+        "completion_summary": {
+          "model_status": "partial",
+          "minimum_total_credits": 9.0,
+          "minimum_core_credits": 6.0,
+          "maximum_core_credits": null,
+          "minimum_elective_credits": null,
+          "minimum_core_courses": null,
+          "minimum_elective_courses": null,
+          "has_conditional_requirements": false,
+          "has_manual_requirements": false,
+          "has_unresolved_conflicts": false
+        }
       },
       "source_pages": [
         1,
@@ -209,10 +698,10 @@
       "audit": {
         "compound_rows_needing_review": [],
         "duplicates_removed": 0,
-        "course_count": 9,
-        "core_count": 1,
-        "elective_count": 8,
-        "evidence_matched_count": 9
+        "course_count": 31,
+        "core_count": 3,
+        "elective_count": 28,
+        "evidence_matched_count": 29
       }
     },
     {
@@ -229,6 +718,45 @@
           "credits_snapshot": 3.0,
           "requirement_group": "core",
           "requirement_section": "core",
+          "requirement_label": null,
+          "program_course_name_snapshot": null,
+          "notes": "",
+          "source_page": 3,
+          "evidence_match": true,
+          "validation_status": "needs_course_code_verification",
+          "uncertainty_reason": "Official PDF table does not provide a course code"
+        },
+        {
+          "course_code": null,
+          "catalog_entry_id": "entry_e586356e4a0a2aac",
+          "opening_units": [
+            "社會系"
+          ],
+          "opening_unit_snapshot": "社會系",
+          "course_name_snapshot": "藝術社會學",
+          "credits_snapshot": 3.0,
+          "requirement_group": "core",
+          "requirement_section": "core",
+          "requirement_label": null,
+          "program_course_name_snapshot": null,
+          "notes": "",
+          "source_page": 3,
+          "evidence_match": true,
+          "validation_status": "needs_course_code_verification",
+          "uncertainty_reason": "Official PDF table does not provide a course code"
+        },
+        {
+          "course_code": null,
+          "catalog_entry_id": "entry_0fc159add24f4251",
+          "opening_units": [
+            "社會系"
+          ],
+          "opening_unit_snapshot": "社會系",
+          "course_name_snapshot": "文化研究",
+          "credits_snapshot": 3.0,
+          "requirement_group": "core",
+          "requirement_section": "core",
+          "requirement_label": null,
           "program_course_name_snapshot": null,
           "notes": "",
           "source_page": 3,
@@ -247,8 +775,104 @@
           "credits_snapshot": 3.0,
           "requirement_group": "elective",
           "requirement_section": "elective",
+          "requirement_label": null,
           "program_course_name_snapshot": null,
           "notes": "包括同性質的實習課程、實作課程或服務學習。",
+          "source_page": 3,
+          "evidence_match": true,
+          "validation_status": "needs_course_code_verification",
+          "uncertainty_reason": "Official PDF table does not provide a course code"
+        },
+        {
+          "course_code": null,
+          "catalog_entry_id": "entry_fa0ad8ed157596a1",
+          "opening_units": [
+            "社會系"
+          ],
+          "opening_unit_snapshot": "社會系",
+          "course_name_snapshot": "走讀旗津",
+          "credits_snapshot": 3.0,
+          "requirement_group": "elective",
+          "requirement_section": "elective",
+          "requirement_label": null,
+          "program_course_name_snapshot": null,
+          "notes": "",
+          "source_page": 3,
+          "evidence_match": true,
+          "validation_status": "needs_course_code_verification",
+          "uncertainty_reason": "Official PDF table does not provide a course code"
+        },
+        {
+          "course_code": null,
+          "catalog_entry_id": "entry_aa60ceacff2fbf8d",
+          "opening_units": [
+            "社會系"
+          ],
+          "opening_unit_snapshot": "社會系",
+          "course_name_snapshot": "文學社會學",
+          "credits_snapshot": 3.0,
+          "requirement_group": "elective",
+          "requirement_section": "elective",
+          "requirement_label": null,
+          "program_course_name_snapshot": null,
+          "notes": "",
+          "source_page": 3,
+          "evidence_match": true,
+          "validation_status": "needs_course_code_verification",
+          "uncertainty_reason": "Official PDF table does not provide a course code"
+        },
+        {
+          "course_code": null,
+          "catalog_entry_id": "entry_d52bdad1481d5da2",
+          "opening_units": [
+            "社會系"
+          ],
+          "opening_unit_snapshot": "社會系",
+          "course_name_snapshot": "報導文學與社區發展",
+          "credits_snapshot": 3.0,
+          "requirement_group": "elective",
+          "requirement_section": "elective",
+          "requirement_label": null,
+          "program_course_name_snapshot": null,
+          "notes": "",
+          "source_page": 3,
+          "evidence_match": true,
+          "validation_status": "needs_course_code_verification",
+          "uncertainty_reason": "Official PDF table does not provide a course code"
+        },
+        {
+          "course_code": null,
+          "catalog_entry_id": "entry_ce57186b9245674c",
+          "opening_units": [
+            "社會系"
+          ],
+          "opening_unit_snapshot": "社會系",
+          "course_name_snapshot": "社會調查與研究方法(一)社會調查與研究方法(二)",
+          "credits_snapshot": 3.0,
+          "requirement_group": "elective",
+          "requirement_section": "elective",
+          "requirement_label": null,
+          "program_course_name_snapshot": null,
+          "notes": "上下學期共6學分",
+          "source_page": 3,
+          "evidence_match": false,
+          "validation_status": "needs_course_code_verification",
+          "uncertainty_reason": "Official PDF table does not provide a course code"
+        },
+        {
+          "course_code": null,
+          "catalog_entry_id": "entry_753bf49a41a593ba",
+          "opening_units": [
+            "社會系"
+          ],
+          "opening_unit_snapshot": "社會系",
+          "course_name_snapshot": "文化資產保存與創新",
+          "credits_snapshot": 3.0,
+          "requirement_group": "elective",
+          "requirement_section": "elective",
+          "requirement_label": null,
+          "program_course_name_snapshot": null,
+          "notes": "新增",
           "source_page": 3,
           "evidence_match": true,
           "validation_status": "needs_course_code_verification",
@@ -265,6 +889,26 @@
           "credits_snapshot": 3.0,
           "requirement_group": "elective",
           "requirement_section": "elective",
+          "requirement_label": null,
+          "program_course_name_snapshot": null,
+          "notes": "",
+          "source_page": 3,
+          "evidence_match": true,
+          "validation_status": "needs_course_code_verification",
+          "uncertainty_reason": "Official PDF table does not provide a course code"
+        },
+        {
+          "course_code": null,
+          "catalog_entry_id": "entry_27a746fa57cd52e5",
+          "opening_units": [
+            "中文系"
+          ],
+          "opening_unit_snapshot": "中文系",
+          "course_name_snapshot": "在地敘事採編與新創",
+          "credits_snapshot": 3.0,
+          "requirement_group": "elective",
+          "requirement_section": "elective",
+          "requirement_label": null,
           "program_course_name_snapshot": null,
           "notes": "",
           "source_page": 3,
@@ -283,6 +927,7 @@
           "credits_snapshot": 3.0,
           "requirement_group": "elective",
           "requirement_section": "elective",
+          "requirement_label": null,
           "program_course_name_snapshot": null,
           "notes": "",
           "source_page": 3,
@@ -301,8 +946,66 @@
           "credits_snapshot": 1.0,
           "requirement_group": "elective",
           "requirement_section": "elective",
+          "requirement_label": null,
           "program_course_name_snapshot": null,
           "notes": "包含展演實作專案(一)(二)",
+          "source_page": 3,
+          "evidence_match": true,
+          "validation_status": "needs_course_code_verification",
+          "uncertainty_reason": "Official PDF table does not provide a course code"
+        },
+        {
+          "course_code": null,
+          "catalog_entry_id": "entry_948f19b3e02ef2a9",
+          "opening_units": [
+            "音樂系"
+          ],
+          "opening_unit_snapshot": "音樂系",
+          "course_name_snapshot": "歌唱與戲劇表演",
+          "credits_snapshot": 2.0,
+          "requirement_group": "elective",
+          "requirement_section": "elective",
+          "requirement_label": null,
+          "program_course_name_snapshot": null,
+          "notes": "",
+          "source_page": 3,
+          "evidence_match": true,
+          "validation_status": "needs_course_code_verification",
+          "uncertainty_reason": "Official PDF table does not provide a course code"
+        },
+        {
+          "course_code": null,
+          "catalog_entry_id": "entry_6c4cee7ca3b77496",
+          "opening_units": [
+            "音樂系"
+          ],
+          "opening_unit_snapshot": "音樂系",
+          "course_name_snapshot": "特定主題音樂創作",
+          "credits_snapshot": 2.0,
+          "requirement_group": "elective",
+          "requirement_section": "elective",
+          "requirement_label": null,
+          "program_course_name_snapshot": null,
+          "notes": "包含特定主題音樂創作(一)(二)(三)(四)實習課程",
+          "source_page": 3,
+          "evidence_match": true,
+          "validation_status": "needs_course_code_verification",
+          "uncertainty_reason": "Official PDF table does not provide a course code"
+        },
+        {
+          "course_code": null,
+          "catalog_entry_id": "entry_4b97ab8619a7c4e4",
+          "opening_units": [
+            "音樂系"
+          ],
+          "opening_unit_snapshot": "音樂系",
+          "course_name_snapshot": "跨領域音樂設計與實作",
+          "credits_snapshot": 2.0,
+          "requirement_group": "elective",
+          "requirement_section": "elective",
+          "requirement_label": null,
+          "program_course_name_snapshot": null,
+          "notes": "包含跨領域音樂設計與實作(一)(二)",
           "source_page": 3,
           "evidence_match": true,
           "validation_status": "needs_course_code_verification",
@@ -319,6 +1022,26 @@
           "credits_snapshot": 2.0,
           "requirement_group": "elective",
           "requirement_section": "elective",
+          "requirement_label": null,
+          "program_course_name_snapshot": null,
+          "notes": "",
+          "source_page": 3,
+          "evidence_match": true,
+          "validation_status": "needs_course_code_verification",
+          "uncertainty_reason": "Official PDF table does not provide a course code"
+        },
+        {
+          "course_code": null,
+          "catalog_entry_id": "entry_b6dff6ba2c207b7f",
+          "opening_units": [
+            "劇藝系"
+          ],
+          "opening_unit_snapshot": "劇藝系",
+          "course_name_snapshot": "劇本創作",
+          "credits_snapshot": 2.0,
+          "requirement_group": "elective",
+          "requirement_section": "elective",
+          "requirement_label": null,
           "program_course_name_snapshot": null,
           "notes": "",
           "source_page": 3,
@@ -337,6 +1060,26 @@
           "credits_snapshot": 3.0,
           "requirement_group": "elective",
           "requirement_section": "elective",
+          "requirement_label": null,
+          "program_course_name_snapshot": null,
+          "notes": "",
+          "source_page": 3,
+          "evidence_match": true,
+          "validation_status": "needs_course_code_verification",
+          "uncertainty_reason": "Official PDF table does not provide a course code"
+        },
+        {
+          "course_code": null,
+          "catalog_entry_id": "entry_9ace3bf606fbd226",
+          "opening_units": [
+            "管理學院"
+          ],
+          "opening_unit_snapshot": "管理學院",
+          "course_name_snapshot": "設計人類學:理論與實踐",
+          "credits_snapshot": 3.0,
+          "requirement_group": "elective",
+          "requirement_section": "elective",
+          "requirement_label": null,
           "program_course_name_snapshot": null,
           "notes": "",
           "source_page": 3,
@@ -355,9 +1098,86 @@
           "credits_snapshot": 3.0,
           "requirement_group": "elective",
           "requirement_section": "elective",
+          "requirement_label": null,
           "program_course_name_snapshot": null,
           "notes": "",
           "source_page": 3,
+          "evidence_match": true,
+          "validation_status": "needs_course_code_verification",
+          "uncertainty_reason": "Official PDF table does not provide a course code"
+        },
+        {
+          "course_code": null,
+          "catalog_entry_id": "entry_08bd18285d4b5128",
+          "opening_units": [
+            "人科學程"
+          ],
+          "opening_unit_snapshot": "人科學程",
+          "course_name_snapshot": "設計思考:跨界、創新與創業",
+          "credits_snapshot": 3.0,
+          "requirement_group": "elective",
+          "requirement_section": "elective",
+          "requirement_label": null,
+          "program_course_name_snapshot": null,
+          "notes": "",
+          "source_page": 4,
+          "evidence_match": true,
+          "validation_status": "needs_course_code_verification",
+          "uncertainty_reason": "Official PDF table does not provide a course code"
+        },
+        {
+          "course_code": null,
+          "catalog_entry_id": "entry_547b126efae47bac",
+          "opening_units": [
+            "人科學程"
+          ],
+          "opening_unit_snapshot": "人科學程",
+          "course_name_snapshot": "創意街區發展與設計思考",
+          "credits_snapshot": 3.0,
+          "requirement_group": "elective",
+          "requirement_section": "elective",
+          "requirement_label": null,
+          "program_course_name_snapshot": null,
+          "notes": "",
+          "source_page": 4,
+          "evidence_match": true,
+          "validation_status": "needs_course_code_verification",
+          "uncertainty_reason": "Official PDF table does not provide a course code"
+        },
+        {
+          "course_code": null,
+          "catalog_entry_id": "entry_a6d90ac4a76dd979",
+          "opening_units": [
+            "人科學程"
+          ],
+          "opening_unit_snapshot": "人科學程",
+          "course_name_snapshot": "創意街區發展實務與藝術",
+          "credits_snapshot": 3.0,
+          "requirement_group": "elective",
+          "requirement_section": "elective",
+          "requirement_label": null,
+          "program_course_name_snapshot": null,
+          "notes": "",
+          "source_page": 4,
+          "evidence_match": true,
+          "validation_status": "needs_course_code_verification",
+          "uncertainty_reason": "Official PDF table does not provide a course code"
+        },
+        {
+          "course_code": null,
+          "catalog_entry_id": "entry_9a93f55379aa1d94",
+          "opening_units": [
+            "人科學程"
+          ],
+          "opening_unit_snapshot": "人科學程",
+          "course_name_snapshot": "跨領域創新專題(一)",
+          "credits_snapshot": 3.0,
+          "requirement_group": "elective",
+          "requirement_section": "elective",
+          "requirement_label": null,
+          "program_course_name_snapshot": null,
+          "notes": "",
+          "source_page": 4,
           "evidence_match": true,
           "validation_status": "needs_course_code_verification",
           "uncertainty_reason": "Official PDF table does not provide a course code"
@@ -373,6 +1193,83 @@
           "credits_snapshot": 3.0,
           "requirement_group": "elective",
           "requirement_section": "elective",
+          "requirement_label": null,
+          "program_course_name_snapshot": null,
+          "notes": "",
+          "source_page": 4,
+          "evidence_match": true,
+          "validation_status": "needs_course_code_verification",
+          "uncertainty_reason": "Official PDF table does not provide a course code"
+        },
+        {
+          "course_code": null,
+          "catalog_entry_id": "entry_047d352c89c684eb",
+          "opening_units": [
+            "西灣學院"
+          ],
+          "opening_unit_snapshot": "西灣學院",
+          "course_name_snapshot": "史蹟導覽",
+          "credits_snapshot": 1.0,
+          "requirement_group": "elective",
+          "requirement_section": "elective",
+          "requirement_label": null,
+          "program_course_name_snapshot": null,
+          "notes": "服務學習:史蹟導覽",
+          "source_page": 4,
+          "evidence_match": true,
+          "validation_status": "needs_course_code_verification",
+          "uncertainty_reason": "Official PDF table does not provide a course code"
+        },
+        {
+          "course_code": null,
+          "catalog_entry_id": "entry_1b42022e5633caff",
+          "opening_units": [
+            "西灣學院"
+          ],
+          "opening_unit_snapshot": "西灣學院",
+          "course_name_snapshot": "台灣文化史",
+          "credits_snapshot": 3.0,
+          "requirement_group": "elective",
+          "requirement_section": "elective",
+          "requirement_label": null,
+          "program_course_name_snapshot": null,
+          "notes": "",
+          "source_page": 4,
+          "evidence_match": true,
+          "validation_status": "needs_course_code_verification",
+          "uncertainty_reason": "Official PDF table does not provide a course code"
+        },
+        {
+          "course_code": null,
+          "catalog_entry_id": "entry_ffbf90eeba2b64f4",
+          "opening_units": [
+            "西灣學院"
+          ],
+          "opening_unit_snapshot": "西灣學院",
+          "course_name_snapshot": "台灣社會與文化",
+          "credits_snapshot": 3.0,
+          "requirement_group": "elective",
+          "requirement_section": "elective",
+          "requirement_label": null,
+          "program_course_name_snapshot": null,
+          "notes": "",
+          "source_page": 4,
+          "evidence_match": true,
+          "validation_status": "needs_course_code_verification",
+          "uncertainty_reason": "Official PDF table does not provide a course code"
+        },
+        {
+          "course_code": null,
+          "catalog_entry_id": "entry_4bac61894b30aac0",
+          "opening_units": [
+            "西灣學院"
+          ],
+          "opening_unit_snapshot": "西灣學院",
+          "course_name_snapshot": "地方創生議題探討",
+          "credits_snapshot": 3.0,
+          "requirement_group": "elective",
+          "requirement_section": "elective",
+          "requirement_label": null,
           "program_course_name_snapshot": null,
           "notes": "",
           "source_page": 4,
@@ -382,9 +1279,71 @@
         }
       ],
       "requirements": {
-        "core_credits_text_value": 6,
-        "minimum_total_credits": 9,
-        "minimum_outside_home_department_credits": 3
+        "minimum_core_credits": 6.0,
+        "core_credits_text_value": 6.0,
+        "minimum_total_credits": 9.0,
+        "minimum_outside_home_department_credits": 3.0,
+        "credit_constraints": [
+          {
+            "constraint_id": "constraint_d78c276678615846",
+            "kind": "minimum_credits",
+            "scope": {
+              "kind": "catalog_filter",
+              "requirement_groups": [
+                "core"
+              ]
+            },
+            "minimum_credits": 6.0,
+            "requirement_context": "program_completion",
+            "source_page": 3,
+            "source_text": "核心課程〈專業模組課程〉學分數: 6 學分",
+            "validation_status": "source_text_match"
+          },
+          {
+            "constraint_id": "constraint_312ba592cce58c5d",
+            "kind": "minimum_credits",
+            "scope": {
+              "kind": "course_eligibility",
+              "excluded_affiliations": [
+                "home_department",
+                "double_major",
+                "minor"
+              ],
+              "excluded_course_roles": [
+                "all"
+              ]
+            },
+            "minimum_credits": 3.0,
+            "requirement_context": "program_completion",
+            "source_page": 4,
+            "source_text": "至少應有3學分不屬於學生本系所",
+            "validation_status": "source_text_match"
+          },
+          {
+            "constraint_id": "constraint_e4e3ec6325db6e04",
+            "kind": "minimum_credits",
+            "scope": {
+              "kind": "program"
+            },
+            "minimum_credits": 9.0,
+            "requirement_context": "program_completion",
+            "source_page": 4,
+            "source_text": "總學分數:至少 9 學分",
+            "validation_status": "source_text_match"
+          }
+        ],
+        "completion_summary": {
+          "model_status": "partial",
+          "minimum_total_credits": 9.0,
+          "minimum_core_credits": 6.0,
+          "maximum_core_credits": null,
+          "minimum_elective_credits": null,
+          "minimum_core_courses": null,
+          "minimum_elective_courses": null,
+          "has_conditional_requirements": false,
+          "has_manual_requirements": false,
+          "has_unresolved_conflicts": false
+        }
       },
       "source_pages": [
         3,
@@ -393,10 +1352,10 @@
       "audit": {
         "compound_rows_needing_review": [],
         "duplicates_removed": 0,
-        "course_count": 9,
-        "core_count": 1,
-        "elective_count": 8,
-        "evidence_matched_count": 9
+        "course_count": 30,
+        "core_count": 3,
+        "elective_count": 27,
+        "evidence_matched_count": 29
       }
     },
     {
@@ -413,6 +1372,45 @@
           "credits_snapshot": 3.0,
           "requirement_group": "core",
           "requirement_section": "core",
+          "requirement_label": null,
+          "program_course_name_snapshot": null,
+          "notes": "",
+          "source_page": 5,
+          "evidence_match": true,
+          "validation_status": "needs_course_code_verification",
+          "uncertainty_reason": "Official PDF table does not provide a course code"
+        },
+        {
+          "course_code": null,
+          "catalog_entry_id": "entry_b605e6db9011bdf1",
+          "opening_units": [
+            "社會系"
+          ],
+          "opening_unit_snapshot": "社會系",
+          "course_name_snapshot": "藝術社會學",
+          "credits_snapshot": 3.0,
+          "requirement_group": "core",
+          "requirement_section": "core",
+          "requirement_label": null,
+          "program_course_name_snapshot": null,
+          "notes": "",
+          "source_page": 5,
+          "evidence_match": true,
+          "validation_status": "needs_course_code_verification",
+          "uncertainty_reason": "Official PDF table does not provide a course code"
+        },
+        {
+          "course_code": null,
+          "catalog_entry_id": "entry_ec47cd46815a3da5",
+          "opening_units": [
+            "社會系"
+          ],
+          "opening_unit_snapshot": "社會系",
+          "course_name_snapshot": "文化研究",
+          "credits_snapshot": 3.0,
+          "requirement_group": "core",
+          "requirement_section": "core",
+          "requirement_label": null,
           "program_course_name_snapshot": null,
           "notes": "",
           "source_page": 5,
@@ -431,8 +1429,104 @@
           "credits_snapshot": 3.0,
           "requirement_group": "elective",
           "requirement_section": "elective",
+          "requirement_label": null,
           "program_course_name_snapshot": null,
           "notes": "",
+          "source_page": 5,
+          "evidence_match": true,
+          "validation_status": "needs_course_code_verification",
+          "uncertainty_reason": "Official PDF table does not provide a course code"
+        },
+        {
+          "course_code": null,
+          "catalog_entry_id": "entry_7c3edd8f005889db",
+          "opening_units": [
+            "社會系"
+          ],
+          "opening_unit_snapshot": "社會系",
+          "course_name_snapshot": "文學社會學",
+          "credits_snapshot": 3.0,
+          "requirement_group": "elective",
+          "requirement_section": "elective",
+          "requirement_label": null,
+          "program_course_name_snapshot": null,
+          "notes": "",
+          "source_page": 5,
+          "evidence_match": true,
+          "validation_status": "needs_course_code_verification",
+          "uncertainty_reason": "Official PDF table does not provide a course code"
+        },
+        {
+          "course_code": null,
+          "catalog_entry_id": "entry_f5c0368fca820690",
+          "opening_units": [
+            "社會系"
+          ],
+          "opening_unit_snapshot": "社會系",
+          "course_name_snapshot": "社區文創設計",
+          "credits_snapshot": 3.0,
+          "requirement_group": "elective",
+          "requirement_section": "elective",
+          "requirement_label": null,
+          "program_course_name_snapshot": null,
+          "notes": "",
+          "source_page": 5,
+          "evidence_match": true,
+          "validation_status": "needs_course_code_verification",
+          "uncertainty_reason": "Official PDF table does not provide a course code"
+        },
+        {
+          "course_code": null,
+          "catalog_entry_id": "entry_3031938c2429c2a3",
+          "opening_units": [
+            "社會系"
+          ],
+          "opening_unit_snapshot": "社會系",
+          "course_name_snapshot": "報導文學與社區發展",
+          "credits_snapshot": 3.0,
+          "requirement_group": "elective",
+          "requirement_section": "elective",
+          "requirement_label": null,
+          "program_course_name_snapshot": null,
+          "notes": "",
+          "source_page": 5,
+          "evidence_match": true,
+          "validation_status": "needs_course_code_verification",
+          "uncertainty_reason": "Official PDF table does not provide a course code"
+        },
+        {
+          "course_code": null,
+          "catalog_entry_id": "entry_fb237a34ad55a0f2",
+          "opening_units": [
+            "社會系"
+          ],
+          "opening_unit_snapshot": "社會系",
+          "course_name_snapshot": "社會調查與研究方法(一)",
+          "credits_snapshot": 3.0,
+          "requirement_group": "elective",
+          "requirement_section": "elective",
+          "requirement_label": null,
+          "program_course_name_snapshot": null,
+          "notes": "限社會系大三一年必修(文化組)",
+          "source_page": 5,
+          "evidence_match": true,
+          "validation_status": "needs_course_code_verification",
+          "uncertainty_reason": "Official PDF table does not provide a course code"
+        },
+        {
+          "course_code": null,
+          "catalog_entry_id": "entry_24c67cca74e4bc1c",
+          "opening_units": [
+            "社會系"
+          ],
+          "opening_unit_snapshot": "社會系",
+          "course_name_snapshot": "社會調查與研究方法(二)",
+          "credits_snapshot": 3.0,
+          "requirement_group": "elective",
+          "requirement_section": "elective",
+          "requirement_label": null,
+          "program_course_name_snapshot": null,
+          "notes": "限社會系大三一年必修(文化組)",
           "source_page": 5,
           "evidence_match": true,
           "validation_status": "needs_course_code_verification",
@@ -449,6 +1543,26 @@
           "credits_snapshot": 3.0,
           "requirement_group": "elective",
           "requirement_section": "elective",
+          "requirement_label": null,
+          "program_course_name_snapshot": null,
+          "notes": "",
+          "source_page": 5,
+          "evidence_match": true,
+          "validation_status": "needs_course_code_verification",
+          "uncertainty_reason": "Official PDF table does not provide a course code"
+        },
+        {
+          "course_code": null,
+          "catalog_entry_id": "entry_768d8bc0e572a04b",
+          "opening_units": [
+            "中文系"
+          ],
+          "opening_unit_snapshot": "中文系",
+          "course_name_snapshot": "在地敘事採編與新創",
+          "credits_snapshot": 3.0,
+          "requirement_group": "elective",
+          "requirement_section": "elective",
+          "requirement_label": null,
           "program_course_name_snapshot": null,
           "notes": "",
           "source_page": 5,
@@ -467,6 +1581,7 @@
           "credits_snapshot": 3.0,
           "requirement_group": "elective",
           "requirement_section": "elective",
+          "requirement_label": null,
           "program_course_name_snapshot": null,
           "notes": "",
           "source_page": 5,
@@ -485,8 +1600,66 @@
           "credits_snapshot": 1.0,
           "requirement_group": "elective",
           "requirement_section": "elective",
+          "requirement_label": null,
           "program_course_name_snapshot": null,
           "notes": "包含展演實作專案(一)(二)",
+          "source_page": 5,
+          "evidence_match": true,
+          "validation_status": "needs_course_code_verification",
+          "uncertainty_reason": "Official PDF table does not provide a course code"
+        },
+        {
+          "course_code": null,
+          "catalog_entry_id": "entry_797e57edc38d7391",
+          "opening_units": [
+            "音樂系"
+          ],
+          "opening_unit_snapshot": "音樂系",
+          "course_name_snapshot": "歌唱與戲劇表演",
+          "credits_snapshot": 2.0,
+          "requirement_group": "elective",
+          "requirement_section": "elective",
+          "requirement_label": null,
+          "program_course_name_snapshot": null,
+          "notes": "",
+          "source_page": 5,
+          "evidence_match": true,
+          "validation_status": "needs_course_code_verification",
+          "uncertainty_reason": "Official PDF table does not provide a course code"
+        },
+        {
+          "course_code": null,
+          "catalog_entry_id": "entry_c2793f7a6747341d",
+          "opening_units": [
+            "音樂系"
+          ],
+          "opening_unit_snapshot": "音樂系",
+          "course_name_snapshot": "特定主題音樂創作",
+          "credits_snapshot": 2.0,
+          "requirement_group": "elective",
+          "requirement_section": "elective",
+          "requirement_label": null,
+          "program_course_name_snapshot": null,
+          "notes": "包含特定主題音樂創作(一)(二)(三)(四)實習課程",
+          "source_page": 5,
+          "evidence_match": true,
+          "validation_status": "needs_course_code_verification",
+          "uncertainty_reason": "Official PDF table does not provide a course code"
+        },
+        {
+          "course_code": null,
+          "catalog_entry_id": "entry_ee2578903f9a0d5b",
+          "opening_units": [
+            "音樂系"
+          ],
+          "opening_unit_snapshot": "音樂系",
+          "course_name_snapshot": "跨領域音樂設計與實作",
+          "credits_snapshot": 2.0,
+          "requirement_group": "elective",
+          "requirement_section": "elective",
+          "requirement_label": null,
+          "program_course_name_snapshot": null,
+          "notes": "包含跨領域音樂設計與實作(一)(二)",
           "source_page": 5,
           "evidence_match": true,
           "validation_status": "needs_course_code_verification",
@@ -503,6 +1676,26 @@
           "credits_snapshot": 2.0,
           "requirement_group": "elective",
           "requirement_section": "elective",
+          "requirement_label": null,
+          "program_course_name_snapshot": null,
+          "notes": "",
+          "source_page": 5,
+          "evidence_match": true,
+          "validation_status": "needs_course_code_verification",
+          "uncertainty_reason": "Official PDF table does not provide a course code"
+        },
+        {
+          "course_code": null,
+          "catalog_entry_id": "entry_0fb2f6578dcdbea5",
+          "opening_units": [
+            "劇藝系"
+          ],
+          "opening_unit_snapshot": "劇藝系",
+          "course_name_snapshot": "劇本創作",
+          "credits_snapshot": 2.0,
+          "requirement_group": "elective",
+          "requirement_section": "elective",
+          "requirement_label": null,
           "program_course_name_snapshot": null,
           "notes": "",
           "source_page": 5,
@@ -521,6 +1714,26 @@
           "credits_snapshot": 3.0,
           "requirement_group": "elective",
           "requirement_section": "elective",
+          "requirement_label": null,
+          "program_course_name_snapshot": null,
+          "notes": "",
+          "source_page": 5,
+          "evidence_match": true,
+          "validation_status": "needs_course_code_verification",
+          "uncertainty_reason": "Official PDF table does not provide a course code"
+        },
+        {
+          "course_code": null,
+          "catalog_entry_id": "entry_94ad80a886a4949e",
+          "opening_units": [
+            "管理學院"
+          ],
+          "opening_unit_snapshot": "管理學院",
+          "course_name_snapshot": "設計人類學:理論與實踐",
+          "credits_snapshot": 3.0,
+          "requirement_group": "elective",
+          "requirement_section": "elective",
+          "requirement_label": null,
           "program_course_name_snapshot": null,
           "notes": "",
           "source_page": 5,
@@ -539,6 +1752,64 @@
           "credits_snapshot": 3.0,
           "requirement_group": "elective",
           "requirement_section": "elective",
+          "requirement_label": null,
+          "program_course_name_snapshot": null,
+          "notes": "新增課程",
+          "source_page": 6,
+          "evidence_match": true,
+          "validation_status": "needs_course_code_verification",
+          "uncertainty_reason": "Official PDF table does not provide a course code"
+        },
+        {
+          "course_code": null,
+          "catalog_entry_id": "entry_930cc19f4e2c6aae",
+          "opening_units": [
+            "人科學程"
+          ],
+          "opening_unit_snapshot": "人科學程",
+          "course_name_snapshot": "創意街區發展實務與藝術管理",
+          "credits_snapshot": 3.0,
+          "requirement_group": "elective",
+          "requirement_section": "elective",
+          "requirement_label": null,
+          "program_course_name_snapshot": null,
+          "notes": "新增課程",
+          "source_page": 6,
+          "evidence_match": false,
+          "validation_status": "needs_course_code_verification",
+          "uncertainty_reason": "Official PDF table does not provide a course code"
+        },
+        {
+          "course_code": null,
+          "catalog_entry_id": "entry_74f0c13ae7cdc26c",
+          "opening_units": [
+            "人科學程"
+          ],
+          "opening_unit_snapshot": "人科學程",
+          "course_name_snapshot": "設計思考",
+          "credits_snapshot": 3.0,
+          "requirement_group": "elective",
+          "requirement_section": "elective",
+          "requirement_label": null,
+          "program_course_name_snapshot": null,
+          "notes": "新增課程",
+          "source_page": 6,
+          "evidence_match": true,
+          "validation_status": "needs_course_code_verification",
+          "uncertainty_reason": "Official PDF table does not provide a course code"
+        },
+        {
+          "course_code": null,
+          "catalog_entry_id": "entry_e298647c7e030e4d",
+          "opening_units": [
+            "人科學程"
+          ],
+          "opening_unit_snapshot": "人科學程",
+          "course_name_snapshot": "跨領域創新專題(一)",
+          "credits_snapshot": 3.0,
+          "requirement_group": "elective",
+          "requirement_section": "elective",
+          "requirement_label": null,
           "program_course_name_snapshot": null,
           "notes": "新增課程",
           "source_page": 6,
@@ -557,8 +1828,85 @@
           "credits_snapshot": 3.0,
           "requirement_group": "elective",
           "requirement_section": "elective",
+          "requirement_label": null,
           "program_course_name_snapshot": null,
           "notes": "",
+          "source_page": 6,
+          "evidence_match": true,
+          "validation_status": "needs_course_code_verification",
+          "uncertainty_reason": "Official PDF table does not provide a course code"
+        },
+        {
+          "course_code": null,
+          "catalog_entry_id": "entry_c9e97dde0aab2c65",
+          "opening_units": [
+            "西灣學院"
+          ],
+          "opening_unit_snapshot": "西灣學院",
+          "course_name_snapshot": "史蹟導覽",
+          "credits_snapshot": 1.0,
+          "requirement_group": "elective",
+          "requirement_section": "elective",
+          "requirement_label": null,
+          "program_course_name_snapshot": null,
+          "notes": "服務學習:史蹟導覽",
+          "source_page": 6,
+          "evidence_match": true,
+          "validation_status": "needs_course_code_verification",
+          "uncertainty_reason": "Official PDF table does not provide a course code"
+        },
+        {
+          "course_code": null,
+          "catalog_entry_id": "entry_a9f83b48daca94ab",
+          "opening_units": [
+            "西灣學院"
+          ],
+          "opening_unit_snapshot": "西灣學院",
+          "course_name_snapshot": "台灣文化史",
+          "credits_snapshot": 3.0,
+          "requirement_group": "elective",
+          "requirement_section": "elective",
+          "requirement_label": null,
+          "program_course_name_snapshot": null,
+          "notes": "",
+          "source_page": 6,
+          "evidence_match": true,
+          "validation_status": "needs_course_code_verification",
+          "uncertainty_reason": "Official PDF table does not provide a course code"
+        },
+        {
+          "course_code": null,
+          "catalog_entry_id": "entry_2bcdd9db54764ac5",
+          "opening_units": [
+            "西灣學院"
+          ],
+          "opening_unit_snapshot": "西灣學院",
+          "course_name_snapshot": "台灣社會與文化",
+          "credits_snapshot": 3.0,
+          "requirement_group": "elective",
+          "requirement_section": "elective",
+          "requirement_label": null,
+          "program_course_name_snapshot": null,
+          "notes": "",
+          "source_page": 6,
+          "evidence_match": true,
+          "validation_status": "needs_course_code_verification",
+          "uncertainty_reason": "Official PDF table does not provide a course code"
+        },
+        {
+          "course_code": null,
+          "catalog_entry_id": "entry_e6c62412c01875ba",
+          "opening_units": [
+            "西灣學院"
+          ],
+          "opening_unit_snapshot": "西灣學院",
+          "course_name_snapshot": "地方創生議題探討",
+          "credits_snapshot": 3.0,
+          "requirement_group": "elective",
+          "requirement_section": "elective",
+          "requirement_label": null,
+          "program_course_name_snapshot": null,
+          "notes": "新增課程",
           "source_page": 6,
           "evidence_match": true,
           "validation_status": "needs_course_code_verification",
@@ -566,9 +1914,71 @@
         }
       ],
       "requirements": {
-        "core_credits_text_value": 3,
-        "minimum_total_credits": 9,
-        "minimum_outside_home_department_credits": 3
+        "minimum_core_credits": 3.0,
+        "core_credits_text_value": 3.0,
+        "minimum_total_credits": 9.0,
+        "minimum_outside_home_department_credits": 3.0,
+        "credit_constraints": [
+          {
+            "constraint_id": "constraint_9fd0da1107291b94",
+            "kind": "minimum_credits",
+            "scope": {
+              "kind": "catalog_filter",
+              "requirement_groups": [
+                "core"
+              ]
+            },
+            "minimum_credits": 3.0,
+            "requirement_context": "program_completion",
+            "source_page": 5,
+            "source_text": "核心課程〈專業模組課程〉學分數: 3 學分",
+            "validation_status": "source_text_match"
+          },
+          {
+            "constraint_id": "constraint_312ba592cce58c5d",
+            "kind": "minimum_credits",
+            "scope": {
+              "kind": "course_eligibility",
+              "excluded_affiliations": [
+                "home_department",
+                "double_major",
+                "minor"
+              ],
+              "excluded_course_roles": [
+                "all"
+              ]
+            },
+            "minimum_credits": 3.0,
+            "requirement_context": "program_completion",
+            "source_page": 6,
+            "source_text": "至少應有3學分不屬於學生本系所",
+            "validation_status": "source_text_match"
+          },
+          {
+            "constraint_id": "constraint_e4e3ec6325db6e04",
+            "kind": "minimum_credits",
+            "scope": {
+              "kind": "program"
+            },
+            "minimum_credits": 9.0,
+            "requirement_context": "program_completion",
+            "source_page": 6,
+            "source_text": "總學分數:至少 9 學分",
+            "validation_status": "source_text_match"
+          }
+        ],
+        "completion_summary": {
+          "model_status": "partial",
+          "minimum_total_credits": 9.0,
+          "minimum_core_credits": 3.0,
+          "maximum_core_credits": null,
+          "minimum_elective_credits": null,
+          "minimum_core_courses": null,
+          "minimum_elective_courses": null,
+          "has_conditional_requirements": false,
+          "has_manual_requirements": false,
+          "has_unresolved_conflicts": false
+        }
       },
       "source_pages": [
         5,
@@ -577,10 +1987,10 @@
       "audit": {
         "compound_rows_needing_review": [],
         "duplicates_removed": 0,
-        "course_count": 9,
-        "core_count": 1,
-        "elective_count": 8,
-        "evidence_matched_count": 9
+        "course_count": 29,
+        "core_count": 3,
+        "elective_count": 26,
+        "evidence_matched_count": 28
       }
     },
     {
@@ -597,6 +2007,7 @@
           "credits_snapshot": 3.0,
           "requirement_group": "core",
           "requirement_section": "core",
+          "requirement_label": null,
           "program_course_name_snapshot": null,
           "notes": "",
           "source_page": 7,
@@ -615,6 +2026,7 @@
           "credits_snapshot": 3.0,
           "requirement_group": "core",
           "requirement_section": "core",
+          "requirement_label": null,
           "program_course_name_snapshot": null,
           "notes": "",
           "source_page": 7,
@@ -633,6 +2045,7 @@
           "credits_snapshot": 3.0,
           "requirement_group": "core",
           "requirement_section": "core",
+          "requirement_label": null,
           "program_course_name_snapshot": null,
           "notes": "",
           "source_page": 7,
@@ -651,6 +2064,7 @@
           "credits_snapshot": 3.0,
           "requirement_group": "core",
           "requirement_section": "core",
+          "requirement_label": null,
           "program_course_name_snapshot": null,
           "notes": "",
           "source_page": 7,
@@ -669,6 +2083,7 @@
           "credits_snapshot": 3.0,
           "requirement_group": "core",
           "requirement_section": "core",
+          "requirement_label": null,
           "program_course_name_snapshot": null,
           "notes": "",
           "source_page": 7,
@@ -687,6 +2102,7 @@
           "credits_snapshot": 3.0,
           "requirement_group": "core",
           "requirement_section": "core",
+          "requirement_label": null,
           "program_course_name_snapshot": null,
           "notes": "",
           "source_page": 7,
@@ -705,6 +2121,7 @@
           "credits_snapshot": 3.0,
           "requirement_group": "core",
           "requirement_section": "core",
+          "requirement_label": null,
           "program_course_name_snapshot": null,
           "notes": "",
           "source_page": 7,
@@ -723,6 +2140,7 @@
           "credits_snapshot": 3.0,
           "requirement_group": "core",
           "requirement_section": "core",
+          "requirement_label": null,
           "program_course_name_snapshot": null,
           "notes": "",
           "source_page": 7,
@@ -741,6 +2159,7 @@
           "credits_snapshot": 3.0,
           "requirement_group": "core",
           "requirement_section": "core",
+          "requirement_label": null,
           "program_course_name_snapshot": null,
           "notes": "",
           "source_page": 7,
@@ -759,6 +2178,7 @@
           "credits_snapshot": 3.0,
           "requirement_group": "core",
           "requirement_section": "core",
+          "requirement_label": null,
           "program_course_name_snapshot": null,
           "notes": "限社會系大三一年必修(文化組)",
           "source_page": 7,
@@ -777,6 +2197,7 @@
           "credits_snapshot": 3.0,
           "requirement_group": "core",
           "requirement_section": "core",
+          "requirement_label": null,
           "program_course_name_snapshot": null,
           "notes": "限社會系大三一年必修(文化組)",
           "source_page": 7,
@@ -795,6 +2216,7 @@
           "credits_snapshot": 3.0,
           "requirement_group": "core",
           "requirement_section": "core",
+          "requirement_label": null,
           "program_course_name_snapshot": null,
           "notes": "",
           "source_page": 7,
@@ -813,6 +2235,7 @@
           "credits_snapshot": 3.0,
           "requirement_group": "core",
           "requirement_section": "core",
+          "requirement_label": null,
           "program_course_name_snapshot": null,
           "notes": "",
           "source_page": 7,
@@ -831,6 +2254,7 @@
           "credits_snapshot": 3.0,
           "requirement_group": "core",
           "requirement_section": "core",
+          "requirement_label": null,
           "program_course_name_snapshot": null,
           "notes": "",
           "source_page": 7,
@@ -849,6 +2273,7 @@
           "credits_snapshot": 1.0,
           "requirement_group": "core",
           "requirement_section": "core",
+          "requirement_label": null,
           "program_course_name_snapshot": null,
           "notes": "包含展演實作專案(一)(二)",
           "source_page": 7,
@@ -867,6 +2292,7 @@
           "credits_snapshot": 2.0,
           "requirement_group": "core",
           "requirement_section": "core",
+          "requirement_label": null,
           "program_course_name_snapshot": null,
           "notes": "",
           "source_page": 7,
@@ -885,6 +2311,7 @@
           "credits_snapshot": 2.0,
           "requirement_group": "core",
           "requirement_section": "core",
+          "requirement_label": null,
           "program_course_name_snapshot": null,
           "notes": "包含特定主題音樂創作(一)(二)(三)(四)實習課程",
           "source_page": 7,
@@ -903,6 +2330,7 @@
           "credits_snapshot": 2.0,
           "requirement_group": "core",
           "requirement_section": "core",
+          "requirement_label": null,
           "program_course_name_snapshot": null,
           "notes": "包含跨領域音樂設計與實作(一)(二)",
           "source_page": 7,
@@ -921,6 +2349,7 @@
           "credits_snapshot": 2.0,
           "requirement_group": "core",
           "requirement_section": "core",
+          "requirement_label": null,
           "program_course_name_snapshot": null,
           "notes": "",
           "source_page": 7,
@@ -939,6 +2368,7 @@
           "credits_snapshot": 2.0,
           "requirement_group": "core",
           "requirement_section": "core",
+          "requirement_label": null,
           "program_course_name_snapshot": null,
           "notes": "",
           "source_page": 7,
@@ -957,6 +2387,7 @@
           "credits_snapshot": 3.0,
           "requirement_group": "core",
           "requirement_section": "core",
+          "requirement_label": null,
           "program_course_name_snapshot": null,
           "notes": "",
           "source_page": 7,
@@ -975,6 +2406,7 @@
           "credits_snapshot": 3.0,
           "requirement_group": "core",
           "requirement_section": "core",
+          "requirement_label": null,
           "program_course_name_snapshot": null,
           "notes": "",
           "source_page": 7,
@@ -993,6 +2425,7 @@
           "credits_snapshot": 3.0,
           "requirement_group": "core",
           "requirement_section": "core",
+          "requirement_label": null,
           "program_course_name_snapshot": null,
           "notes": "",
           "source_page": 8,
@@ -1011,6 +2444,7 @@
           "credits_snapshot": 3.0,
           "requirement_group": "core",
           "requirement_section": "core",
+          "requirement_label": null,
           "program_course_name_snapshot": null,
           "notes": "",
           "source_page": 8,
@@ -1029,6 +2463,7 @@
           "credits_snapshot": 3.0,
           "requirement_group": "core",
           "requirement_section": "core",
+          "requirement_label": null,
           "program_course_name_snapshot": null,
           "notes": "",
           "source_page": 8,
@@ -1047,6 +2482,7 @@
           "credits_snapshot": 1.0,
           "requirement_group": "core",
           "requirement_section": "core",
+          "requirement_label": null,
           "program_course_name_snapshot": null,
           "notes": "服務學習:史蹟導覽",
           "source_page": 8,
@@ -1065,6 +2501,7 @@
           "credits_snapshot": 3.0,
           "requirement_group": "core",
           "requirement_section": "core",
+          "requirement_label": null,
           "program_course_name_snapshot": null,
           "notes": "",
           "source_page": 8,
@@ -1083,6 +2520,7 @@
           "credits_snapshot": 3.0,
           "requirement_group": "core",
           "requirement_section": "core",
+          "requirement_label": null,
           "program_course_name_snapshot": null,
           "notes": "",
           "source_page": 8,
@@ -1101,6 +2539,7 @@
           "credits_snapshot": 3.0,
           "requirement_group": "core",
           "requirement_section": "core",
+          "requirement_label": null,
           "program_course_name_snapshot": null,
           "notes": "",
           "source_page": 8,
@@ -1110,9 +2549,71 @@
         }
       ],
       "requirements": {
-        "core_credits_text_value": 3,
-        "minimum_total_credits": 9,
-        "minimum_outside_home_department_credits": 3
+        "minimum_core_credits": 3.0,
+        "core_credits_text_value": 3.0,
+        "minimum_total_credits": 9.0,
+        "minimum_outside_home_department_credits": 3.0,
+        "credit_constraints": [
+          {
+            "constraint_id": "constraint_9fd0da1107291b94",
+            "kind": "minimum_credits",
+            "scope": {
+              "kind": "catalog_filter",
+              "requirement_groups": [
+                "core"
+              ]
+            },
+            "minimum_credits": 3.0,
+            "requirement_context": "program_completion",
+            "source_page": 7,
+            "source_text": "核心課程〈專業模組課程〉學分數: 3 學分",
+            "validation_status": "source_text_match"
+          },
+          {
+            "constraint_id": "constraint_312ba592cce58c5d",
+            "kind": "minimum_credits",
+            "scope": {
+              "kind": "course_eligibility",
+              "excluded_affiliations": [
+                "home_department",
+                "double_major",
+                "minor"
+              ],
+              "excluded_course_roles": [
+                "all"
+              ]
+            },
+            "minimum_credits": 3.0,
+            "requirement_context": "program_completion",
+            "source_page": 8,
+            "source_text": "至少應有3學分不屬於學生本系所",
+            "validation_status": "source_text_match"
+          },
+          {
+            "constraint_id": "constraint_e4e3ec6325db6e04",
+            "kind": "minimum_credits",
+            "scope": {
+              "kind": "program"
+            },
+            "minimum_credits": 9.0,
+            "requirement_context": "program_completion",
+            "source_page": 8,
+            "source_text": "總學分數:至少 9 學分",
+            "validation_status": "source_text_match"
+          }
+        ],
+        "completion_summary": {
+          "model_status": "partial",
+          "minimum_total_credits": 9.0,
+          "minimum_core_credits": 3.0,
+          "maximum_core_credits": null,
+          "minimum_elective_credits": null,
+          "minimum_core_courses": null,
+          "minimum_elective_courses": null,
+          "has_conditional_requirements": false,
+          "has_manual_requirements": false,
+          "has_unresolved_conflicts": false
+        }
       },
       "source_pages": [
         7,
@@ -1141,6 +2642,7 @@
           "credits_snapshot": 3.0,
           "requirement_group": "core",
           "requirement_section": "core",
+          "requirement_label": null,
           "program_course_name_snapshot": null,
           "notes": "",
           "source_page": 9,
@@ -1159,6 +2661,7 @@
           "credits_snapshot": 3.0,
           "requirement_group": "core",
           "requirement_section": "core",
+          "requirement_label": null,
           "program_course_name_snapshot": null,
           "notes": "",
           "source_page": 9,
@@ -1177,6 +2680,7 @@
           "credits_snapshot": 3.0,
           "requirement_group": "core",
           "requirement_section": "core",
+          "requirement_label": null,
           "program_course_name_snapshot": null,
           "notes": "",
           "source_page": 9,
@@ -1195,6 +2699,7 @@
           "credits_snapshot": 3.0,
           "requirement_group": "core",
           "requirement_section": "core",
+          "requirement_label": null,
           "program_course_name_snapshot": null,
           "notes": "",
           "source_page": 9,
@@ -1213,6 +2718,7 @@
           "credits_snapshot": 3.0,
           "requirement_group": "core",
           "requirement_section": "core",
+          "requirement_label": null,
           "program_course_name_snapshot": null,
           "notes": "",
           "source_page": 9,
@@ -1231,6 +2737,7 @@
           "credits_snapshot": 3.0,
           "requirement_group": "core",
           "requirement_section": "core",
+          "requirement_label": null,
           "program_course_name_snapshot": null,
           "notes": "",
           "source_page": 9,
@@ -1249,6 +2756,7 @@
           "credits_snapshot": 3.0,
           "requirement_group": "core",
           "requirement_section": "core",
+          "requirement_label": null,
           "program_course_name_snapshot": null,
           "notes": "",
           "source_page": 9,
@@ -1267,6 +2775,7 @@
           "credits_snapshot": 3.0,
           "requirement_group": "core",
           "requirement_section": "core",
+          "requirement_label": null,
           "program_course_name_snapshot": null,
           "notes": "限社會系大三一年必修(文化組)",
           "source_page": 9,
@@ -1285,6 +2794,7 @@
           "credits_snapshot": 3.0,
           "requirement_group": "core",
           "requirement_section": "core",
+          "requirement_label": null,
           "program_course_name_snapshot": null,
           "notes": "限社會系大三一年必修(文化組)",
           "source_page": 9,
@@ -1303,6 +2813,7 @@
           "credits_snapshot": 3.0,
           "requirement_group": "core",
           "requirement_section": "core",
+          "requirement_label": null,
           "program_course_name_snapshot": null,
           "notes": "",
           "source_page": 9,
@@ -1321,6 +2832,7 @@
           "credits_snapshot": 3.0,
           "requirement_group": "core",
           "requirement_section": "core",
+          "requirement_label": null,
           "program_course_name_snapshot": null,
           "notes": "",
           "source_page": 9,
@@ -1339,6 +2851,7 @@
           "credits_snapshot": 3.0,
           "requirement_group": "core",
           "requirement_section": "core",
+          "requirement_label": null,
           "program_course_name_snapshot": null,
           "notes": "",
           "source_page": 9,
@@ -1357,6 +2870,7 @@
           "credits_snapshot": 1.0,
           "requirement_group": "core",
           "requirement_section": "core",
+          "requirement_label": null,
           "program_course_name_snapshot": null,
           "notes": "包含展演實作專案(一)(二)",
           "source_page": 9,
@@ -1375,6 +2889,7 @@
           "credits_snapshot": 2.0,
           "requirement_group": "core",
           "requirement_section": "core",
+          "requirement_label": null,
           "program_course_name_snapshot": null,
           "notes": "",
           "source_page": 9,
@@ -1393,6 +2908,7 @@
           "credits_snapshot": 2.0,
           "requirement_group": "core",
           "requirement_section": "core",
+          "requirement_label": null,
           "program_course_name_snapshot": null,
           "notes": "包含特定主題音樂創作(一)(二)(三)(四)實習課程",
           "source_page": 9,
@@ -1411,6 +2927,7 @@
           "credits_snapshot": 2.0,
           "requirement_group": "core",
           "requirement_section": "core",
+          "requirement_label": null,
           "program_course_name_snapshot": null,
           "notes": "包含跨領域音樂設計與實作(一)(二)",
           "source_page": 9,
@@ -1429,6 +2946,7 @@
           "credits_snapshot": 2.0,
           "requirement_group": "core",
           "requirement_section": "core",
+          "requirement_label": null,
           "program_course_name_snapshot": null,
           "notes": "",
           "source_page": 9,
@@ -1447,6 +2965,7 @@
           "credits_snapshot": 2.0,
           "requirement_group": "core",
           "requirement_section": "core",
+          "requirement_label": null,
           "program_course_name_snapshot": null,
           "notes": "",
           "source_page": 9,
@@ -1465,6 +2984,7 @@
           "credits_snapshot": 3.0,
           "requirement_group": "core",
           "requirement_section": "core",
+          "requirement_label": null,
           "program_course_name_snapshot": null,
           "notes": "",
           "source_page": 9,
@@ -1483,6 +3003,7 @@
           "credits_snapshot": 3.0,
           "requirement_group": "core",
           "requirement_section": "core",
+          "requirement_label": null,
           "program_course_name_snapshot": null,
           "notes": "",
           "source_page": 9,
@@ -1501,6 +3022,7 @@
           "credits_snapshot": 3.0,
           "requirement_group": "core",
           "requirement_section": "core",
+          "requirement_label": null,
           "program_course_name_snapshot": null,
           "notes": "",
           "source_page": 9,
@@ -1519,6 +3041,7 @@
           "credits_snapshot": 3.0,
           "requirement_group": "core",
           "requirement_section": "core",
+          "requirement_label": null,
           "program_course_name_snapshot": null,
           "notes": "",
           "source_page": 9,
@@ -1537,6 +3060,7 @@
           "credits_snapshot": 3.0,
           "requirement_group": "core",
           "requirement_section": "core",
+          "requirement_label": null,
           "program_course_name_snapshot": null,
           "notes": "",
           "source_page": 10,
@@ -1555,6 +3079,7 @@
           "credits_snapshot": 1.0,
           "requirement_group": "core",
           "requirement_section": "core",
+          "requirement_label": null,
           "program_course_name_snapshot": null,
           "notes": "服務學習:史蹟導覽",
           "source_page": 10,
@@ -1573,6 +3098,7 @@
           "credits_snapshot": 3.0,
           "requirement_group": "core",
           "requirement_section": "core",
+          "requirement_label": null,
           "program_course_name_snapshot": null,
           "notes": "",
           "source_page": 10,
@@ -1591,6 +3117,7 @@
           "credits_snapshot": 3.0,
           "requirement_group": "core",
           "requirement_section": "core",
+          "requirement_label": null,
           "program_course_name_snapshot": null,
           "notes": "",
           "source_page": 10,
@@ -1600,9 +3127,71 @@
         }
       ],
       "requirements": {
-        "core_credits_text_value": 3,
-        "minimum_total_credits": 9,
-        "minimum_outside_home_department_credits": 3
+        "minimum_core_credits": 3.0,
+        "core_credits_text_value": 3.0,
+        "minimum_total_credits": 9.0,
+        "minimum_outside_home_department_credits": 3.0,
+        "credit_constraints": [
+          {
+            "constraint_id": "constraint_9fd0da1107291b94",
+            "kind": "minimum_credits",
+            "scope": {
+              "kind": "catalog_filter",
+              "requirement_groups": [
+                "core"
+              ]
+            },
+            "minimum_credits": 3.0,
+            "requirement_context": "program_completion",
+            "source_page": 9,
+            "source_text": "核心課程〈專業模組課程〉學分數: 3 學分",
+            "validation_status": "source_text_match"
+          },
+          {
+            "constraint_id": "constraint_312ba592cce58c5d",
+            "kind": "minimum_credits",
+            "scope": {
+              "kind": "course_eligibility",
+              "excluded_affiliations": [
+                "home_department",
+                "double_major",
+                "minor"
+              ],
+              "excluded_course_roles": [
+                "all"
+              ]
+            },
+            "minimum_credits": 3.0,
+            "requirement_context": "program_completion",
+            "source_page": 10,
+            "source_text": "至少應有3學分不屬於學生本系所",
+            "validation_status": "source_text_match"
+          },
+          {
+            "constraint_id": "constraint_e4e3ec6325db6e04",
+            "kind": "minimum_credits",
+            "scope": {
+              "kind": "program"
+            },
+            "minimum_credits": 9.0,
+            "requirement_context": "program_completion",
+            "source_page": 10,
+            "source_text": "總學分數:至少 9 學分",
+            "validation_status": "source_text_match"
+          }
+        ],
+        "completion_summary": {
+          "model_status": "partial",
+          "minimum_total_credits": 9.0,
+          "minimum_core_credits": 3.0,
+          "maximum_core_credits": null,
+          "minimum_elective_credits": null,
+          "minimum_core_courses": null,
+          "minimum_elective_courses": null,
+          "has_conditional_requirements": false,
+          "has_manual_requirements": false,
+          "has_unresolved_conflicts": false
+        }
       },
       "source_pages": [
         9,
@@ -1631,6 +3220,7 @@
           "credits_snapshot": 6.0,
           "requirement_group": "core",
           "requirement_section": "core",
+          "requirement_label": null,
           "program_course_name_snapshot": null,
           "notes": "包含下列同性質的實習課程、實作課程或服務學習,加總後共6學分。",
           "source_page": 11,
@@ -1649,6 +3239,26 @@
           "credits_snapshot": 3.0,
           "requirement_group": "core",
           "requirement_section": "core",
+          "requirement_label": null,
+          "program_course_name_snapshot": null,
+          "notes": "",
+          "source_page": 11,
+          "evidence_match": true,
+          "validation_status": "needs_course_code_verification",
+          "uncertainty_reason": "Official PDF table does not provide a course code"
+        },
+        {
+          "course_code": null,
+          "catalog_entry_id": "entry_be5b7c4ccd2233d9",
+          "opening_units": [
+            "社會系"
+          ],
+          "opening_unit_snapshot": "社會系",
+          "course_name_snapshot": "報導文學與社區發展",
+          "credits_snapshot": 3.0,
+          "requirement_group": "core",
+          "requirement_section": "core",
+          "requirement_label": null,
           "program_course_name_snapshot": null,
           "notes": "",
           "source_page": 11,
@@ -1667,8 +3277,66 @@
           "credits_snapshot": 1.0,
           "requirement_group": "core",
           "requirement_section": "core",
+          "requirement_label": null,
           "program_course_name_snapshot": null,
           "notes": "包含展演實作專案(一)(二)",
+          "source_page": 11,
+          "evidence_match": true,
+          "validation_status": "needs_course_code_verification",
+          "uncertainty_reason": "Official PDF table does not provide a course code"
+        },
+        {
+          "course_code": null,
+          "catalog_entry_id": "entry_06974572858f0b42",
+          "opening_units": [
+            "音樂系"
+          ],
+          "opening_unit_snapshot": "音樂系",
+          "course_name_snapshot": "音樂製作專案",
+          "credits_snapshot": 1.0,
+          "requirement_group": "core",
+          "requirement_section": "core",
+          "requirement_label": null,
+          "program_course_name_snapshot": null,
+          "notes": "包含音樂製作專案(一)(二)",
+          "source_page": 11,
+          "evidence_match": true,
+          "validation_status": "needs_course_code_verification",
+          "uncertainty_reason": "Official PDF table does not provide a course code"
+        },
+        {
+          "course_code": null,
+          "catalog_entry_id": "entry_17eb4c7aeebe8038",
+          "opening_units": [
+            "音樂系"
+          ],
+          "opening_unit_snapshot": "音樂系",
+          "course_name_snapshot": "特定主題音樂創作",
+          "credits_snapshot": 2.0,
+          "requirement_group": "core",
+          "requirement_section": "core",
+          "requirement_label": null,
+          "program_course_name_snapshot": null,
+          "notes": "包含特定主題音樂創作(一)(二)(三)(四)實習課程",
+          "source_page": 11,
+          "evidence_match": true,
+          "validation_status": "needs_course_code_verification",
+          "uncertainty_reason": "Official PDF table does not provide a course code"
+        },
+        {
+          "course_code": null,
+          "catalog_entry_id": "entry_ae75d0055d48fea7",
+          "opening_units": [
+            "音樂系"
+          ],
+          "opening_unit_snapshot": "音樂系",
+          "course_name_snapshot": "跨領域音樂設計與實作",
+          "credits_snapshot": 2.0,
+          "requirement_group": "core",
+          "requirement_section": "core",
+          "requirement_label": null,
+          "program_course_name_snapshot": null,
+          "notes": "包含跨領域音樂設計與實作(一)(二)",
           "source_page": 11,
           "evidence_match": true,
           "validation_status": "needs_course_code_verification",
@@ -1685,6 +3353,45 @@
           "credits_snapshot": 2.0,
           "requirement_group": "core",
           "requirement_section": "core",
+          "requirement_label": null,
+          "program_course_name_snapshot": null,
+          "notes": "",
+          "source_page": 11,
+          "evidence_match": true,
+          "validation_status": "needs_course_code_verification",
+          "uncertainty_reason": "Official PDF table does not provide a course code"
+        },
+        {
+          "course_code": null,
+          "catalog_entry_id": "entry_c67e5bd5b4388bd9",
+          "opening_units": [
+            "劇藝系"
+          ],
+          "opening_unit_snapshot": "劇藝系",
+          "course_name_snapshot": "音樂劇表演",
+          "credits_snapshot": 2.0,
+          "requirement_group": "core",
+          "requirement_section": "core",
+          "requirement_label": null,
+          "program_course_name_snapshot": null,
+          "notes": "",
+          "source_page": 11,
+          "evidence_match": true,
+          "validation_status": "needs_course_code_verification",
+          "uncertainty_reason": "Official PDF table does not provide a course code"
+        },
+        {
+          "course_code": null,
+          "catalog_entry_id": "entry_0486168bb52f4f47",
+          "opening_units": [
+            "劇藝系"
+          ],
+          "opening_unit_snapshot": "劇藝系",
+          "course_name_snapshot": "歌唱與戲劇表演",
+          "credits_snapshot": 2.0,
+          "requirement_group": "core",
+          "requirement_section": "core",
+          "requirement_label": null,
           "program_course_name_snapshot": null,
           "notes": "",
           "source_page": 11,
@@ -1703,10 +3410,87 @@
           "credits_snapshot": 3.0,
           "requirement_group": "elective",
           "requirement_section": "elective",
+          "requirement_label": null,
           "program_course_name_snapshot": null,
           "notes": "",
           "source_page": 11,
           "evidence_match": true,
+          "validation_status": "needs_course_code_verification",
+          "uncertainty_reason": "Official PDF table does not provide a course code"
+        },
+        {
+          "course_code": null,
+          "catalog_entry_id": "entry_b4e90d215fea3877",
+          "opening_units": [
+            "社會系"
+          ],
+          "opening_unit_snapshot": "社會系",
+          "course_name_snapshot": "文化社會學",
+          "credits_snapshot": 3.0,
+          "requirement_group": "elective",
+          "requirement_section": "elective",
+          "requirement_label": null,
+          "program_course_name_snapshot": null,
+          "notes": "",
+          "source_page": 11,
+          "evidence_match": true,
+          "validation_status": "needs_course_code_verification",
+          "uncertainty_reason": "Official PDF table does not provide a course code"
+        },
+        {
+          "course_code": null,
+          "catalog_entry_id": "entry_9ee6ec3f272a2111",
+          "opening_units": [
+            "社會系"
+          ],
+          "opening_unit_snapshot": "社會系",
+          "course_name_snapshot": "文學社會學",
+          "credits_snapshot": 3.0,
+          "requirement_group": "elective",
+          "requirement_section": "elective",
+          "requirement_label": null,
+          "program_course_name_snapshot": null,
+          "notes": "",
+          "source_page": 11,
+          "evidence_match": true,
+          "validation_status": "needs_course_code_verification",
+          "uncertainty_reason": "Official PDF table does not provide a course code"
+        },
+        {
+          "course_code": null,
+          "catalog_entry_id": "entry_87ace6148b1942cf",
+          "opening_units": [
+            "社會系"
+          ],
+          "opening_unit_snapshot": "社會系",
+          "course_name_snapshot": "藝術社會學",
+          "credits_snapshot": 3.0,
+          "requirement_group": "elective",
+          "requirement_section": "elective",
+          "requirement_label": null,
+          "program_course_name_snapshot": null,
+          "notes": "",
+          "source_page": 11,
+          "evidence_match": true,
+          "validation_status": "needs_course_code_verification",
+          "uncertainty_reason": "Official PDF table does not provide a course code"
+        },
+        {
+          "course_code": null,
+          "catalog_entry_id": "entry_46a415d2687d16e0",
+          "opening_units": [
+            "社會系"
+          ],
+          "opening_unit_snapshot": "社會系",
+          "course_name_snapshot": "社會調查與研究方法(文化組)(限社會系大三一年必修)",
+          "credits_snapshot": 3.0,
+          "requirement_group": "elective",
+          "requirement_section": "elective",
+          "requirement_label": null,
+          "program_course_name_snapshot": null,
+          "notes": "上下學期共6學分",
+          "source_page": 11,
+          "evidence_match": false,
           "validation_status": "needs_course_code_verification",
           "uncertainty_reason": "Official PDF table does not provide a course code"
         },
@@ -1721,6 +3505,26 @@
           "credits_snapshot": 3.0,
           "requirement_group": "elective",
           "requirement_section": "elective",
+          "requirement_label": null,
+          "program_course_name_snapshot": null,
+          "notes": "",
+          "source_page": 11,
+          "evidence_match": true,
+          "validation_status": "needs_course_code_verification",
+          "uncertainty_reason": "Official PDF table does not provide a course code"
+        },
+        {
+          "course_code": null,
+          "catalog_entry_id": "entry_a081d3c31437599d",
+          "opening_units": [
+            "中文系"
+          ],
+          "opening_unit_snapshot": "中文系",
+          "course_name_snapshot": "台灣民間文學",
+          "credits_snapshot": 3.0,
+          "requirement_group": "elective",
+          "requirement_section": "elective",
+          "requirement_label": null,
           "program_course_name_snapshot": null,
           "notes": "",
           "source_page": 11,
@@ -1739,6 +3543,7 @@
           "credits_snapshot": 3.0,
           "requirement_group": "elective",
           "requirement_section": "elective",
+          "requirement_label": null,
           "program_course_name_snapshot": null,
           "notes": "",
           "source_page": 11,
@@ -1757,6 +3562,26 @@
           "credits_snapshot": 2.0,
           "requirement_group": "elective",
           "requirement_section": "elective",
+          "requirement_label": null,
+          "program_course_name_snapshot": null,
+          "notes": "",
+          "source_page": 11,
+          "evidence_match": true,
+          "validation_status": "needs_course_code_verification",
+          "uncertainty_reason": "Official PDF table does not provide a course code"
+        },
+        {
+          "course_code": null,
+          "catalog_entry_id": "entry_e2fea22fbb0ba12c",
+          "opening_units": [
+            "音樂系"
+          ],
+          "opening_unit_snapshot": "音樂系",
+          "course_name_snapshot": "特定音樂主題探討",
+          "credits_snapshot": 2.0,
+          "requirement_group": "elective",
+          "requirement_section": "elective",
+          "requirement_label": null,
           "program_course_name_snapshot": null,
           "notes": "",
           "source_page": 11,
@@ -1775,6 +3600,45 @@
           "credits_snapshot": 2.0,
           "requirement_group": "elective",
           "requirement_section": "elective",
+          "requirement_label": null,
+          "program_course_name_snapshot": null,
+          "notes": "",
+          "source_page": 11,
+          "evidence_match": true,
+          "validation_status": "needs_course_code_verification",
+          "uncertainty_reason": "Official PDF table does not provide a course code"
+        },
+        {
+          "course_code": null,
+          "catalog_entry_id": "entry_3f459c1f4d61445f",
+          "opening_units": [
+            "劇藝系"
+          ],
+          "opening_unit_snapshot": "劇藝系",
+          "course_name_snapshot": "劇場製作基礎",
+          "credits_snapshot": 2.0,
+          "requirement_group": "elective",
+          "requirement_section": "elective",
+          "requirement_label": null,
+          "program_course_name_snapshot": null,
+          "notes": "",
+          "source_page": 11,
+          "evidence_match": true,
+          "validation_status": "needs_course_code_verification",
+          "uncertainty_reason": "Official PDF table does not provide a course code"
+        },
+        {
+          "course_code": null,
+          "catalog_entry_id": "entry_1c09d6d2ee7d5f44",
+          "opening_units": [
+            "劇藝系"
+          ],
+          "opening_unit_snapshot": "劇藝系",
+          "course_name_snapshot": "當代劇場藝術的價值與思維",
+          "credits_snapshot": 2.0,
+          "requirement_group": "elective",
+          "requirement_section": "elective",
+          "requirement_label": null,
           "program_course_name_snapshot": null,
           "notes": "",
           "source_page": 11,
@@ -1793,18 +3657,138 @@
           "credits_snapshot": 3.0,
           "requirement_group": "elective",
           "requirement_section": "elective",
+          "requirement_label": null,
           "program_course_name_snapshot": null,
           "notes": "",
           "source_page": 11,
           "evidence_match": true,
           "validation_status": "needs_course_code_verification",
           "uncertainty_reason": "Official PDF table does not provide a course code"
+        },
+        {
+          "course_code": null,
+          "catalog_entry_id": "entry_d935c3d4944bb194",
+          "opening_units": [
+            "管理學院"
+          ],
+          "opening_unit_snapshot": "管理學院",
+          "course_name_snapshot": "設計人類學:理論與實踐",
+          "credits_snapshot": 3.0,
+          "requirement_group": "elective",
+          "requirement_section": "elective",
+          "requirement_label": null,
+          "program_course_name_snapshot": null,
+          "notes": "",
+          "source_page": 12,
+          "evidence_match": true,
+          "validation_status": "needs_course_code_verification",
+          "uncertainty_reason": "Official PDF table does not provide a course code"
+        },
+        {
+          "course_code": null,
+          "catalog_entry_id": "entry_f21d5f10f09592b8",
+          "opening_units": [
+            "管理學院"
+          ],
+          "opening_unit_snapshot": "管理學院",
+          "course_name_snapshot": "設計思考:人文設計與創業",
+          "credits_snapshot": 3.0,
+          "requirement_group": "elective",
+          "requirement_section": "elective",
+          "requirement_label": null,
+          "program_course_name_snapshot": null,
+          "notes": "",
+          "source_page": 12,
+          "evidence_match": true,
+          "validation_status": "needs_course_code_verification",
+          "uncertainty_reason": "Official PDF table does not provide a course code"
+        },
+        {
+          "course_code": null,
+          "catalog_entry_id": "entry_b7dcc71500b68545",
+          "opening_units": [
+            "管理學院"
+          ],
+          "opening_unit_snapshot": "管理學院",
+          "course_name_snapshot": "設計思考:跨界、創新與創業",
+          "credits_snapshot": 3.0,
+          "requirement_group": "elective",
+          "requirement_section": "elective",
+          "requirement_label": null,
+          "program_course_name_snapshot": null,
+          "notes": "",
+          "source_page": 12,
+          "evidence_match": true,
+          "validation_status": "needs_course_code_verification",
+          "uncertainty_reason": "Official PDF table does not provide a course code"
         }
       ],
       "requirements": {
-        "core_credits_text_value": 6,
-        "minimum_total_credits": 9,
-        "minimum_outside_home_department_credits": 3
+        "minimum_core_credits": 6.0,
+        "core_credits_text_value": 6.0,
+        "minimum_total_credits": 9.0,
+        "minimum_outside_home_department_credits": 3.0,
+        "credit_constraints": [
+          {
+            "constraint_id": "constraint_d78c276678615846",
+            "kind": "minimum_credits",
+            "scope": {
+              "kind": "catalog_filter",
+              "requirement_groups": [
+                "core"
+              ]
+            },
+            "minimum_credits": 6.0,
+            "requirement_context": "program_completion",
+            "source_page": 11,
+            "source_text": "核心課程〈專業模組課程〉學分數: 6 學分",
+            "validation_status": "source_text_match"
+          },
+          {
+            "constraint_id": "constraint_312ba592cce58c5d",
+            "kind": "minimum_credits",
+            "scope": {
+              "kind": "course_eligibility",
+              "excluded_affiliations": [
+                "home_department",
+                "double_major",
+                "minor"
+              ],
+              "excluded_course_roles": [
+                "all"
+              ]
+            },
+            "minimum_credits": 3.0,
+            "requirement_context": "program_completion",
+            "source_page": 12,
+            "source_text": "至少應有3學分不屬於學生本系所",
+            "validation_status": "source_text_match"
+          },
+          {
+            "constraint_id": "constraint_e4e3ec6325db6e04",
+            "kind": "minimum_credits",
+            "scope": {
+              "kind": "program"
+            },
+            "minimum_credits": 9.0,
+            "requirement_context": "program_completion",
+            "source_page": 12,
+            "source_text": "總學分數:至少 9 學分",
+            "validation_status": "source_text_match"
+          }
+        ],
+        "completion_summary": {
+          "model_status": "partial",
+          "minimum_total_credits": 9.0,
+          "minimum_core_credits": 6.0,
+          "maximum_core_credits": null,
+          "minimum_elective_credits": null,
+          "minimum_core_courses": null,
+          "minimum_elective_courses": null,
+          "has_conditional_requirements": false,
+          "has_manual_requirements": false,
+          "has_unresolved_conflicts": false
+        }
       },
       "source_pages": [
         11,
@@ -1813,10 +3797,10 @@
       "audit": {
         "compound_rows_needing_review": [],
         "duplicates_removed": 0,
-        "course_count": 10,
-        "core_count": 4,
-        "elective_count": 6,
-        "evidence_matched_count": 10
+        "course_count": 27,
+        "core_count": 10,
+        "elective_count": 17,
+        "evidence_matched_count": 26
       }
     }
   ],
@@ -1833,6 +3817,45 @@
       "credits_snapshot": 3.0,
       "requirement_group": "core",
       "requirement_section": "core",
+      "requirement_label": null,
+      "program_course_name_snapshot": null,
+      "notes": "",
+      "source_page": 1,
+      "evidence_match": true,
+      "validation_status": "needs_course_code_verification",
+      "uncertainty_reason": "Official PDF table does not provide a course code"
+    },
+    {
+      "course_code": null,
+      "catalog_entry_id": "entry_4351af63b0bbfe4d",
+      "opening_units": [
+        "社會系"
+      ],
+      "opening_unit_snapshot": "社會系",
+      "course_name_snapshot": "藝術社會學",
+      "credits_snapshot": 3.0,
+      "requirement_group": "core",
+      "requirement_section": "core",
+      "requirement_label": null,
+      "program_course_name_snapshot": null,
+      "notes": "",
+      "source_page": 1,
+      "evidence_match": true,
+      "validation_status": "needs_course_code_verification",
+      "uncertainty_reason": "Official PDF table does not provide a course code"
+    },
+    {
+      "course_code": null,
+      "catalog_entry_id": "entry_06dc7e39dcccc2b5",
+      "opening_units": [
+        "社會系"
+      ],
+      "opening_unit_snapshot": "社會系",
+      "course_name_snapshot": "文化研究",
+      "credits_snapshot": 3.0,
+      "requirement_group": "core",
+      "requirement_section": "core",
+      "requirement_label": null,
       "program_course_name_snapshot": null,
       "notes": "",
       "source_page": 1,
@@ -1851,10 +3874,125 @@
       "credits_snapshot": 3.0,
       "requirement_group": "elective",
       "requirement_section": "elective",
+      "requirement_label": null,
       "program_course_name_snapshot": null,
       "notes": "包括同性質的實習課程、實作課程或服務學習。",
       "source_page": 1,
       "evidence_match": true,
+      "validation_status": "needs_course_code_verification",
+      "uncertainty_reason": "Official PDF table does not provide a course code"
+    },
+    {
+      "course_code": null,
+      "catalog_entry_id": "entry_bbbc2bdddbb6c716",
+      "opening_units": [
+        "社會系"
+      ],
+      "opening_unit_snapshot": "社會系",
+      "course_name_snapshot": "走讀旗津",
+      "credits_snapshot": 3.0,
+      "requirement_group": "elective",
+      "requirement_section": "elective",
+      "requirement_label": null,
+      "program_course_name_snapshot": null,
+      "notes": "",
+      "source_page": 1,
+      "evidence_match": true,
+      "validation_status": "needs_course_code_verification",
+      "uncertainty_reason": "Official PDF table does not provide a course code"
+    },
+    {
+      "course_code": null,
+      "catalog_entry_id": "entry_40e26ff7d1f4f821",
+      "opening_units": [
+        "社會系"
+      ],
+      "opening_unit_snapshot": "社會系",
+      "course_name_snapshot": "文學社會學",
+      "credits_snapshot": 3.0,
+      "requirement_group": "elective",
+      "requirement_section": "elective",
+      "requirement_label": null,
+      "program_course_name_snapshot": null,
+      "notes": "",
+      "source_page": 1,
+      "evidence_match": true,
+      "validation_status": "needs_course_code_verification",
+      "uncertainty_reason": "Official PDF table does not provide a course code"
+    },
+    {
+      "course_code": null,
+      "catalog_entry_id": "entry_579d801657dd20db",
+      "opening_units": [
+        "社會系"
+      ],
+      "opening_unit_snapshot": "社會系",
+      "course_name_snapshot": "報導文學與社區發展",
+      "credits_snapshot": 3.0,
+      "requirement_group": "elective",
+      "requirement_section": "elective",
+      "requirement_label": null,
+      "program_course_name_snapshot": null,
+      "notes": "",
+      "source_page": 1,
+      "evidence_match": true,
+      "validation_status": "needs_course_code_verification",
+      "uncertainty_reason": "Official PDF table does not provide a course code"
+    },
+    {
+      "course_code": null,
+      "catalog_entry_id": "entry_3530032468cda8eb",
+      "opening_units": [
+        "社會系"
+      ],
+      "opening_unit_snapshot": "社會系",
+      "course_name_snapshot": "社會調查與研究方法(一)社會調查與研究方法(二)",
+      "credits_snapshot": 3.0,
+      "requirement_group": "elective",
+      "requirement_section": "elective",
+      "requirement_label": null,
+      "program_course_name_snapshot": null,
+      "notes": "上下學期共6學分",
+      "source_page": 1,
+      "evidence_match": false,
+      "validation_status": "needs_course_code_verification",
+      "uncertainty_reason": "Official PDF table does not provide a course code"
+    },
+    {
+      "course_code": null,
+      "catalog_entry_id": "entry_08d06a3b919c303e",
+      "opening_units": [
+        "社會系"
+      ],
+      "opening_unit_snapshot": "社會系",
+      "course_name_snapshot": "文化資產保存與創新",
+      "credits_snapshot": 3.0,
+      "requirement_group": "elective",
+      "requirement_section": "elective",
+      "requirement_label": null,
+      "program_course_name_snapshot": null,
+      "notes": "",
+      "source_page": 1,
+      "evidence_match": true,
+      "validation_status": "needs_course_code_verification",
+      "uncertainty_reason": "Official PDF table does not provide a course code"
+    },
+    {
+      "course_code": null,
+      "catalog_entry_id": "entry_117d184f6898696e",
+      "opening_units": [
+        "社會系"
+      ],
+      "opening_unit_snapshot": "社會系",
+      "course_name_snapshot": "社會調查與文史轉譯: 校園博物館實作(一)",
+      "credits_snapshot": 3.0,
+      "requirement_group": "elective",
+      "requirement_section": "elective",
+      "requirement_label": null,
+      "program_course_name_snapshot": null,
+      "notes": "新增",
+      "source_page": 1,
+      "evidence_match": false,
       "validation_status": "needs_course_code_verification",
       "uncertainty_reason": "Official PDF table does not provide a course code"
     },
@@ -1869,6 +4007,26 @@
       "credits_snapshot": 3.0,
       "requirement_group": "elective",
       "requirement_section": "elective",
+      "requirement_label": null,
+      "program_course_name_snapshot": null,
+      "notes": "",
+      "source_page": 1,
+      "evidence_match": true,
+      "validation_status": "needs_course_code_verification",
+      "uncertainty_reason": "Official PDF table does not provide a course code"
+    },
+    {
+      "course_code": null,
+      "catalog_entry_id": "entry_4c0b8900220d39bb",
+      "opening_units": [
+        "中文系"
+      ],
+      "opening_unit_snapshot": "中文系",
+      "course_name_snapshot": "在地敘事採編與新創",
+      "credits_snapshot": 3.0,
+      "requirement_group": "elective",
+      "requirement_section": "elective",
+      "requirement_label": null,
       "program_course_name_snapshot": null,
       "notes": "",
       "source_page": 1,
@@ -1887,6 +4045,7 @@
       "credits_snapshot": 3.0,
       "requirement_group": "elective",
       "requirement_section": "elective",
+      "requirement_label": null,
       "program_course_name_snapshot": null,
       "notes": "",
       "source_page": 1,
@@ -1905,8 +4064,66 @@
       "credits_snapshot": 1.0,
       "requirement_group": "elective",
       "requirement_section": "elective",
+      "requirement_label": null,
       "program_course_name_snapshot": null,
       "notes": "包含展演實作專案(一)(二)",
+      "source_page": 1,
+      "evidence_match": true,
+      "validation_status": "needs_course_code_verification",
+      "uncertainty_reason": "Official PDF table does not provide a course code"
+    },
+    {
+      "course_code": null,
+      "catalog_entry_id": "entry_1587ed6ed543cc08",
+      "opening_units": [
+        "音樂系"
+      ],
+      "opening_unit_snapshot": "音樂系",
+      "course_name_snapshot": "歌唱與戲劇表演",
+      "credits_snapshot": 2.0,
+      "requirement_group": "elective",
+      "requirement_section": "elective",
+      "requirement_label": null,
+      "program_course_name_snapshot": null,
+      "notes": "",
+      "source_page": 1,
+      "evidence_match": true,
+      "validation_status": "needs_course_code_verification",
+      "uncertainty_reason": "Official PDF table does not provide a course code"
+    },
+    {
+      "course_code": null,
+      "catalog_entry_id": "entry_aee76629a8e266ef",
+      "opening_units": [
+        "音樂系"
+      ],
+      "opening_unit_snapshot": "音樂系",
+      "course_name_snapshot": "特定主題音樂創作",
+      "credits_snapshot": 2.0,
+      "requirement_group": "elective",
+      "requirement_section": "elective",
+      "requirement_label": null,
+      "program_course_name_snapshot": null,
+      "notes": "包含特定主題音樂創作(一)(二)(三)(四)實習課程",
+      "source_page": 1,
+      "evidence_match": true,
+      "validation_status": "needs_course_code_verification",
+      "uncertainty_reason": "Official PDF table does not provide a course code"
+    },
+    {
+      "course_code": null,
+      "catalog_entry_id": "entry_f163476c6691724a",
+      "opening_units": [
+        "音樂系"
+      ],
+      "opening_unit_snapshot": "音樂系",
+      "course_name_snapshot": "跨領域音樂設計與實作",
+      "credits_snapshot": 2.0,
+      "requirement_group": "elective",
+      "requirement_section": "elective",
+      "requirement_label": null,
+      "program_course_name_snapshot": null,
+      "notes": "包含跨領域音樂設計與實作(一)(二)",
       "source_page": 1,
       "evidence_match": true,
       "validation_status": "needs_course_code_verification",
@@ -1923,6 +4140,26 @@
       "credits_snapshot": 2.0,
       "requirement_group": "elective",
       "requirement_section": "elective",
+      "requirement_label": null,
+      "program_course_name_snapshot": null,
+      "notes": "",
+      "source_page": 1,
+      "evidence_match": true,
+      "validation_status": "needs_course_code_verification",
+      "uncertainty_reason": "Official PDF table does not provide a course code"
+    },
+    {
+      "course_code": null,
+      "catalog_entry_id": "entry_052216fbcddfedd8",
+      "opening_units": [
+        "劇藝系"
+      ],
+      "opening_unit_snapshot": "劇藝系",
+      "course_name_snapshot": "劇本創作",
+      "credits_snapshot": 2.0,
+      "requirement_group": "elective",
+      "requirement_section": "elective",
+      "requirement_label": null,
       "program_course_name_snapshot": null,
       "notes": "",
       "source_page": 1,
@@ -1941,6 +4178,26 @@
       "credits_snapshot": 3.0,
       "requirement_group": "elective",
       "requirement_section": "elective",
+      "requirement_label": null,
+      "program_course_name_snapshot": null,
+      "notes": "",
+      "source_page": 1,
+      "evidence_match": true,
+      "validation_status": "needs_course_code_verification",
+      "uncertainty_reason": "Official PDF table does not provide a course code"
+    },
+    {
+      "course_code": null,
+      "catalog_entry_id": "entry_c2cdd86287f39b1a",
+      "opening_units": [
+        "管理學院"
+      ],
+      "opening_unit_snapshot": "管理學院",
+      "course_name_snapshot": "設計人類學:理論與實踐",
+      "credits_snapshot": 3.0,
+      "requirement_group": "elective",
+      "requirement_section": "elective",
+      "requirement_label": null,
       "program_course_name_snapshot": null,
       "notes": "",
       "source_page": 1,
@@ -1959,9 +4216,86 @@
       "credits_snapshot": 3.0,
       "requirement_group": "elective",
       "requirement_section": "elective",
+      "requirement_label": null,
       "program_course_name_snapshot": null,
       "notes": "",
       "source_page": 1,
+      "evidence_match": true,
+      "validation_status": "needs_course_code_verification",
+      "uncertainty_reason": "Official PDF table does not provide a course code"
+    },
+    {
+      "course_code": null,
+      "catalog_entry_id": "entry_9e85cfe2a52a20ac",
+      "opening_units": [
+        "人科學程"
+      ],
+      "opening_unit_snapshot": "人科學程",
+      "course_name_snapshot": "設計思考:跨界、創新與創業",
+      "credits_snapshot": 3.0,
+      "requirement_group": "elective",
+      "requirement_section": "elective",
+      "requirement_label": null,
+      "program_course_name_snapshot": null,
+      "notes": "",
+      "source_page": 1,
+      "evidence_match": true,
+      "validation_status": "needs_course_code_verification",
+      "uncertainty_reason": "Official PDF table does not provide a course code"
+    },
+    {
+      "course_code": null,
+      "catalog_entry_id": "entry_3cfc4a91515590ed",
+      "opening_units": [
+        "人科學程"
+      ],
+      "opening_unit_snapshot": "人科學程",
+      "course_name_snapshot": "創意街區發展與設計思考",
+      "credits_snapshot": 3.0,
+      "requirement_group": "elective",
+      "requirement_section": "elective",
+      "requirement_label": null,
+      "program_course_name_snapshot": null,
+      "notes": "",
+      "source_page": 2,
+      "evidence_match": true,
+      "validation_status": "needs_course_code_verification",
+      "uncertainty_reason": "Official PDF table does not provide a course code"
+    },
+    {
+      "course_code": null,
+      "catalog_entry_id": "entry_cefef574f16beea6",
+      "opening_units": [
+        "人科學程"
+      ],
+      "opening_unit_snapshot": "人科學程",
+      "course_name_snapshot": "創意街區發展實務與藝術",
+      "credits_snapshot": 3.0,
+      "requirement_group": "elective",
+      "requirement_section": "elective",
+      "requirement_label": null,
+      "program_course_name_snapshot": null,
+      "notes": "",
+      "source_page": 2,
+      "evidence_match": true,
+      "validation_status": "needs_course_code_verification",
+      "uncertainty_reason": "Official PDF table does not provide a course code"
+    },
+    {
+      "course_code": null,
+      "catalog_entry_id": "entry_07e0f3b1e0449d0b",
+      "opening_units": [
+        "人科學程"
+      ],
+      "opening_unit_snapshot": "人科學程",
+      "course_name_snapshot": "跨領域創新專題(一)",
+      "credits_snapshot": 3.0,
+      "requirement_group": "elective",
+      "requirement_section": "elective",
+      "requirement_label": null,
+      "program_course_name_snapshot": null,
+      "notes": "",
+      "source_page": 2,
       "evidence_match": true,
       "validation_status": "needs_course_code_verification",
       "uncertainty_reason": "Official PDF table does not provide a course code"
@@ -1977,6 +4311,83 @@
       "credits_snapshot": 3.0,
       "requirement_group": "elective",
       "requirement_section": "elective",
+      "requirement_label": null,
+      "program_course_name_snapshot": null,
+      "notes": "",
+      "source_page": 2,
+      "evidence_match": true,
+      "validation_status": "needs_course_code_verification",
+      "uncertainty_reason": "Official PDF table does not provide a course code"
+    },
+    {
+      "course_code": null,
+      "catalog_entry_id": "entry_75418bb740e9413b",
+      "opening_units": [
+        "西灣學院"
+      ],
+      "opening_unit_snapshot": "西灣學院",
+      "course_name_snapshot": "史蹟導覽",
+      "credits_snapshot": 1.0,
+      "requirement_group": "elective",
+      "requirement_section": "elective",
+      "requirement_label": null,
+      "program_course_name_snapshot": null,
+      "notes": "服務學習:史蹟導覽",
+      "source_page": 2,
+      "evidence_match": true,
+      "validation_status": "needs_course_code_verification",
+      "uncertainty_reason": "Official PDF table does not provide a course code"
+    },
+    {
+      "course_code": null,
+      "catalog_entry_id": "entry_63924b422482ce0f",
+      "opening_units": [
+        "西灣學院"
+      ],
+      "opening_unit_snapshot": "西灣學院",
+      "course_name_snapshot": "台灣文化史",
+      "credits_snapshot": 3.0,
+      "requirement_group": "elective",
+      "requirement_section": "elective",
+      "requirement_label": null,
+      "program_course_name_snapshot": null,
+      "notes": "",
+      "source_page": 2,
+      "evidence_match": true,
+      "validation_status": "needs_course_code_verification",
+      "uncertainty_reason": "Official PDF table does not provide a course code"
+    },
+    {
+      "course_code": null,
+      "catalog_entry_id": "entry_df90cea0e641fece",
+      "opening_units": [
+        "西灣學院"
+      ],
+      "opening_unit_snapshot": "西灣學院",
+      "course_name_snapshot": "台灣社會與文化",
+      "credits_snapshot": 3.0,
+      "requirement_group": "elective",
+      "requirement_section": "elective",
+      "requirement_label": null,
+      "program_course_name_snapshot": null,
+      "notes": "",
+      "source_page": 2,
+      "evidence_match": true,
+      "validation_status": "needs_course_code_verification",
+      "uncertainty_reason": "Official PDF table does not provide a course code"
+    },
+    {
+      "course_code": null,
+      "catalog_entry_id": "entry_256b34a5ed512993",
+      "opening_units": [
+        "西灣學院"
+      ],
+      "opening_unit_snapshot": "西灣學院",
+      "course_name_snapshot": "地方創生議題探討",
+      "credits_snapshot": 3.0,
+      "requirement_group": "elective",
+      "requirement_section": "elective",
+      "requirement_label": null,
       "program_course_name_snapshot": null,
       "notes": "",
       "source_page": 2,
@@ -1986,8 +4397,70 @@
     }
   ],
   "structured_requirements": {
-    "core_credits_text_value": 6,
-    "minimum_total_credits": 9,
-    "minimum_outside_home_department_credits": 3
+    "minimum_core_credits": 6.0,
+    "core_credits_text_value": 6.0,
+    "minimum_total_credits": 9.0,
+    "minimum_outside_home_department_credits": 3.0,
+    "credit_constraints": [
+      {
+        "constraint_id": "constraint_d78c276678615846",
+        "kind": "minimum_credits",
+        "scope": {
+          "kind": "catalog_filter",
+          "requirement_groups": [
+            "core"
+          ]
+        },
+        "minimum_credits": 6.0,
+        "requirement_context": "program_completion",
+        "source_page": 1,
+        "source_text": "核心課程〈專業模組課程〉學分數: 6 學分",
+        "validation_status": "source_text_match"
+      },
+      {
+        "constraint_id": "constraint_312ba592cce58c5d",
+        "kind": "minimum_credits",
+        "scope": {
+          "kind": "course_eligibility",
+          "excluded_affiliations": [
+            "home_department",
+            "double_major",
+            "minor"
+          ],
+          "excluded_course_roles": [
+            "all"
+          ]
+        },
+        "minimum_credits": 3.0,
+        "requirement_context": "program_completion",
+        "source_page": 2,
+        "source_text": "至少應有3學分不屬於學生本系所",
+        "validation_status": "source_text_match"
+      },
+      {
+        "constraint_id": "constraint_e4e3ec6325db6e04",
+        "kind": "minimum_credits",
+        "scope": {
+          "kind": "program"
+        },
+        "minimum_credits": 9.0,
+        "requirement_context": "program_completion",
+        "source_page": 2,
+        "source_text": "總學分數:至少 9 學分",
+        "validation_status": "source_text_match"
+      }
+    ],
+    "completion_summary": {
+      "model_status": "partial",
+      "minimum_total_credits": 9.0,
+      "minimum_core_credits": 6.0,
+      "maximum_core_credits": null,
+      "minimum_elective_credits": null,
+      "minimum_core_courses": null,
+      "minimum_elective_courses": null,
+      "has_conditional_requirements": false,
+      "has_manual_requirements": false,
+      "has_unresolved_conflicts": false
+    }
   }
 }

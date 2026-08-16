@@ -29,7 +29,7 @@
         "last_modified": "Tue, 23 Dec 2025 07:01:21 GMT",
         "content_length": 229561
       },
-      "parser_version": "0.2.3",
+      "parser_version": "0.3.0",
       "extractor_versions": {
         "pypdf": "6.10.0",
         "pdfplumber": "0.11.9"
@@ -40,9 +40,7 @@
       "kind": "manual_review",
       "reason": "Extracted candidate awaits approval"
     },
-    "warnings": [
-      "No structured course rows extracted from PDF tables"
-    ],
+    "warnings": [],
     "selected_pdf_academic_version": "114-1",
     "course_catalog": [
       {
@@ -56,7 +54,8 @@
         "credits_snapshot": 3.0,
         "requirement_group": "core",
         "requirement_section": "core",
-        "program_course_name_snapshot": null,
+        "requirement_label": null,
+        "program_course_name_snapshot": "矽光子原理",
         "notes": "各課程屬性僅採計3學分",
         "source_page": 1,
         "evidence_match": true,
@@ -74,7 +73,8 @@
         "credits_snapshot": 3.0,
         "requirement_group": "core",
         "requirement_section": "core",
-        "program_course_name_snapshot": null,
+        "requirement_label": null,
+        "program_course_name_snapshot": "矽光子原理",
         "notes": "",
         "source_page": 1,
         "evidence_match": true,
@@ -92,7 +92,8 @@
         "credits_snapshot": 3.0,
         "requirement_group": "core",
         "requirement_section": "core",
-        "program_course_name_snapshot": null,
+        "requirement_label": null,
+        "program_course_name_snapshot": "矽光子元件",
         "notes": "",
         "source_page": 1,
         "evidence_match": true,
@@ -110,7 +111,8 @@
         "credits_snapshot": 3.0,
         "requirement_group": "core",
         "requirement_section": "core",
-        "program_course_name_snapshot": null,
+        "requirement_label": null,
+        "program_course_name_snapshot": "矽光子元件",
         "notes": "",
         "source_page": 1,
         "evidence_match": true,
@@ -128,7 +130,8 @@
         "credits_snapshot": 3.0,
         "requirement_group": "core",
         "requirement_section": "core",
-        "program_course_name_snapshot": null,
+        "requirement_label": null,
+        "program_course_name_snapshot": "矽光子元件",
         "notes": "",
         "source_page": 1,
         "evidence_match": true,
@@ -146,7 +149,8 @@
         "credits_snapshot": 3.0,
         "requirement_group": "core",
         "requirement_section": "core",
-        "program_course_name_snapshot": null,
+        "requirement_label": null,
+        "program_course_name_snapshot": "矽光子元件",
         "notes": "",
         "source_page": 1,
         "evidence_match": true,
@@ -164,7 +168,8 @@
         "credits_snapshot": 3.0,
         "requirement_group": "core",
         "requirement_section": "core",
-        "program_course_name_snapshot": null,
+        "requirement_label": null,
+        "program_course_name_snapshot": "矽光子元件",
         "notes": "",
         "source_page": 1,
         "evidence_match": true,
@@ -182,7 +187,8 @@
         "credits_snapshot": 3.0,
         "requirement_group": "core",
         "requirement_section": "core",
-        "program_course_name_snapshot": null,
+        "requirement_label": null,
+        "program_course_name_snapshot": "矽光子元件",
         "notes": "",
         "source_page": 1,
         "evidence_match": true,
@@ -200,7 +206,8 @@
         "credits_snapshot": 3.0,
         "requirement_group": "core",
         "requirement_section": "core",
-        "program_course_name_snapshot": null,
+        "requirement_label": null,
+        "program_course_name_snapshot": "矽光子元件",
         "notes": "",
         "source_page": 1,
         "evidence_match": true,
@@ -218,7 +225,8 @@
         "credits_snapshot": 3.0,
         "requirement_group": "core",
         "requirement_section": "core",
-        "program_course_name_snapshot": null,
+        "requirement_label": null,
+        "program_course_name_snapshot": "矽光子元件",
         "notes": "",
         "source_page": 1,
         "evidence_match": true,
@@ -236,7 +244,8 @@
         "credits_snapshot": 3.0,
         "requirement_group": "core",
         "requirement_section": "core",
-        "program_course_name_snapshot": null,
+        "requirement_label": null,
+        "program_course_name_snapshot": "矽光子元件",
         "notes": "",
         "source_page": 1,
         "evidence_match": true,
@@ -254,7 +263,8 @@
         "credits_snapshot": 1.0,
         "requirement_group": "core",
         "requirement_section": "core",
-        "program_course_name_snapshot": null,
+        "requirement_label": null,
+        "program_course_name_snapshot": "矽光子量測",
         "notes": "",
         "source_page": 1,
         "evidence_match": true,
@@ -272,7 +282,8 @@
         "credits_snapshot": 1.0,
         "requirement_group": "core",
         "requirement_section": "core",
-        "program_course_name_snapshot": null,
+        "requirement_label": null,
+        "program_course_name_snapshot": "矽光子量測",
         "notes": "",
         "source_page": 1,
         "evidence_match": true,
@@ -290,7 +301,8 @@
         "credits_snapshot": 1.0,
         "requirement_group": "core",
         "requirement_section": "core",
-        "program_course_name_snapshot": null,
+        "requirement_label": null,
+        "program_course_name_snapshot": "矽光子量測",
         "notes": "",
         "source_page": 1,
         "evidence_match": true,
@@ -308,7 +320,8 @@
         "credits_snapshot": 3.0,
         "requirement_group": "core",
         "requirement_section": "core",
-        "program_course_name_snapshot": null,
+        "requirement_label": null,
+        "program_course_name_snapshot": "矽光子量測",
         "notes": "",
         "source_page": 1,
         "evidence_match": true,
@@ -326,6 +339,216 @@
         "credits_snapshot": 3.0,
         "requirement_group": "core",
         "requirement_section": "core",
+        "requirement_label": null,
+        "program_course_name_snapshot": "矽光子量測",
+        "notes": "",
+        "source_page": 1,
+        "evidence_match": true,
+        "validation_status": "needs_course_code_verification",
+        "uncertainty_reason": "Official PDF table does not provide a course code"
+      },
+      {
+        "course_code": null,
+        "catalog_entry_id": "entry_249b542f0ae245b1",
+        "opening_units": [
+          "光電系"
+        ],
+        "opening_unit_snapshot": "光電系",
+        "course_name_snapshot": "固態物理導論",
+        "credits_snapshot": 3.0,
+        "requirement_group": "elective",
+        "requirement_section": "elective",
+        "requirement_label": null,
+        "program_course_name_snapshot": null,
+        "notes": "",
+        "source_page": 1,
+        "evidence_match": true,
+        "validation_status": "needs_course_code_verification",
+        "uncertainty_reason": "Official PDF table does not provide a course code"
+      },
+      {
+        "course_code": null,
+        "catalog_entry_id": "entry_86697f63ee789145",
+        "opening_units": [
+          "光電系"
+        ],
+        "opening_unit_snapshot": "光電系",
+        "course_name_snapshot": "雷射導論(英)",
+        "credits_snapshot": 3.0,
+        "requirement_group": "elective",
+        "requirement_section": "elective",
+        "requirement_label": null,
+        "program_course_name_snapshot": null,
+        "notes": "",
+        "source_page": 1,
+        "evidence_match": true,
+        "validation_status": "needs_course_code_verification",
+        "uncertainty_reason": "Official PDF table does not provide a course code"
+      },
+      {
+        "course_code": null,
+        "catalog_entry_id": "entry_5222d5c283562771",
+        "opening_units": [
+          "光電系"
+        ],
+        "opening_unit_snapshot": "光電系",
+        "course_name_snapshot": "光電材料概論(英)",
+        "credits_snapshot": 3.0,
+        "requirement_group": "elective",
+        "requirement_section": "elective",
+        "requirement_label": null,
+        "program_course_name_snapshot": null,
+        "notes": "",
+        "source_page": 1,
+        "evidence_match": true,
+        "validation_status": "needs_course_code_verification",
+        "uncertainty_reason": "Official PDF table does not provide a course code"
+      },
+      {
+        "course_code": null,
+        "catalog_entry_id": "entry_7725e3724f62da53",
+        "opening_units": [
+          "光電系"
+        ],
+        "opening_unit_snapshot": "光電系",
+        "course_name_snapshot": "量子力學導論",
+        "credits_snapshot": 3.0,
+        "requirement_group": "elective",
+        "requirement_section": "elective",
+        "requirement_label": null,
+        "program_course_name_snapshot": null,
+        "notes": "",
+        "source_page": 1,
+        "evidence_match": true,
+        "validation_status": "needs_course_code_verification",
+        "uncertainty_reason": "Official PDF table does not provide a course code"
+      },
+      {
+        "course_code": null,
+        "catalog_entry_id": "entry_df814eee50f75270",
+        "opening_units": [
+          "光電系"
+        ],
+        "opening_unit_snapshot": "光電系",
+        "course_name_snapshot": "近代物理",
+        "credits_snapshot": 3.0,
+        "requirement_group": "elective",
+        "requirement_section": "elective",
+        "requirement_label": null,
+        "program_course_name_snapshot": null,
+        "notes": "",
+        "source_page": 1,
+        "evidence_match": true,
+        "validation_status": "needs_course_code_verification",
+        "uncertainty_reason": "Official PDF table does not provide a course code"
+      },
+      {
+        "course_code": null,
+        "catalog_entry_id": "entry_166d4b738af3387c",
+        "opening_units": [
+          "光電碩"
+        ],
+        "opening_unit_snapshot": "光電碩",
+        "course_name_snapshot": "半導體表面分析技術",
+        "credits_snapshot": 3.0,
+        "requirement_group": "elective",
+        "requirement_section": "elective",
+        "requirement_label": null,
+        "program_course_name_snapshot": null,
+        "notes": "",
+        "source_page": 1,
+        "evidence_match": true,
+        "validation_status": "needs_course_code_verification",
+        "uncertainty_reason": "Official PDF table does not provide a course code"
+      },
+      {
+        "course_code": null,
+        "catalog_entry_id": "entry_005f41dfa8c2bb1a",
+        "opening_units": [
+          "光電碩"
+        ],
+        "opening_unit_snapshot": "光電碩",
+        "course_name_snapshot": "波導光學(英)",
+        "credits_snapshot": 3.0,
+        "requirement_group": "elective",
+        "requirement_section": "elective",
+        "requirement_label": null,
+        "program_course_name_snapshot": null,
+        "notes": "",
+        "source_page": 1,
+        "evidence_match": true,
+        "validation_status": "needs_course_code_verification",
+        "uncertainty_reason": "Official PDF table does not provide a course code"
+      },
+      {
+        "course_code": null,
+        "catalog_entry_id": "entry_363fb01048ad8ac5",
+        "opening_units": [
+          "光電碩"
+        ],
+        "opening_unit_snapshot": "光電碩",
+        "course_name_snapshot": "半導體光電元件",
+        "credits_snapshot": 3.0,
+        "requirement_group": "elective",
+        "requirement_section": "elective",
+        "requirement_label": null,
+        "program_course_name_snapshot": null,
+        "notes": "",
+        "source_page": 1,
+        "evidence_match": true,
+        "validation_status": "needs_course_code_verification",
+        "uncertainty_reason": "Official PDF table does not provide a course code"
+      },
+      {
+        "course_code": null,
+        "catalog_entry_id": "entry_4c13ecbd99e43edb",
+        "opening_units": [
+          "光電碩"
+        ],
+        "opening_unit_snapshot": "光電碩",
+        "course_name_snapshot": "光電子元件應用(英)",
+        "credits_snapshot": 3.0,
+        "requirement_group": "elective",
+        "requirement_section": "elective",
+        "requirement_label": null,
+        "program_course_name_snapshot": null,
+        "notes": "",
+        "source_page": 1,
+        "evidence_match": true,
+        "validation_status": "needs_course_code_verification",
+        "uncertainty_reason": "Official PDF table does not provide a course code"
+      },
+      {
+        "course_code": null,
+        "catalog_entry_id": "entry_4e5131e2270a2233",
+        "opening_units": [
+          "光電碩"
+        ],
+        "opening_unit_snapshot": "光電碩",
+        "course_name_snapshot": "進階半導體物理與元件(英)",
+        "credits_snapshot": 3.0,
+        "requirement_group": "elective",
+        "requirement_section": "elective",
+        "requirement_label": null,
+        "program_course_name_snapshot": null,
+        "notes": "",
+        "source_page": 1,
+        "evidence_match": true,
+        "validation_status": "needs_course_code_verification",
+        "uncertainty_reason": "Official PDF table does not provide a course code"
+      },
+      {
+        "course_code": null,
+        "catalog_entry_id": "entry_d2f392c607656044",
+        "opening_units": [
+          "光電碩"
+        ],
+        "opening_unit_snapshot": "光電碩",
+        "course_name_snapshot": "光電材料(英)",
+        "credits_snapshot": 3.0,
+        "requirement_group": "elective",
+        "requirement_section": "elective",
+        "requirement_label": null,
         "program_course_name_snapshot": null,
         "notes": "",
         "source_page": 1,
@@ -335,9 +558,202 @@
       }
     ],
     "structured_requirements": {
-      "core_credits_text_value": 9,
-      "minimum_total_credits": 18,
-      "minimum_outside_home_department_credits": 6
+      "minimum_core_credits": 9.0,
+      "core_credits_text_value": 9.0,
+      "minimum_total_credits": 18.0,
+      "minimum_outside_home_department_credits": 6.0,
+      "credit_constraints": [
+        {
+          "constraint_id": "constraint_20e0d8f901c88438",
+          "kind": "minimum_credits",
+          "scope": {
+            "kind": "catalog_filter",
+            "requirement_groups": [
+              "core"
+            ]
+          },
+          "minimum_credits": 9.0,
+          "requirement_context": "program_completion",
+          "source_page": 1,
+          "source_text": "核心課程學分數: 9 學分",
+          "validation_status": "source_text_match"
+        },
+        {
+          "constraint_id": "constraint_545ec4a3bb9f011f",
+          "kind": "maximum_counted_credits",
+          "scope": {
+            "kind": "program_course_names",
+            "program_course_names": [
+              "矽光子原理"
+            ]
+          },
+          "maximum_counted_credits": 3.0,
+          "requirement_context": "program_completion",
+          "source_page": 1,
+          "source_text": "核 心 課 程 矽光子 原理 光電碩 光電子學(英) 3 各課程屬 性僅採計3 學分",
+          "validation_status": "source_text_match"
+        },
+        {
+          "constraint_id": "constraint_b5ca16a8ee82bcf1",
+          "kind": "maximum_counted_credits",
+          "scope": {
+            "kind": "program_course_names",
+            "program_course_names": [
+              "矽光子量測"
+            ]
+          },
+          "maximum_counted_credits": 3.0,
+          "requirement_context": "program_completion",
+          "source_page": 1,
+          "source_text": "核 心 課 程 矽光子 原理 光電碩 光電子學(英) 3 各課程屬 性僅採計3 學分",
+          "validation_status": "source_text_match"
+        },
+        {
+          "constraint_id": "constraint_bdc2e476fdd71df4",
+          "kind": "maximum_counted_credits",
+          "scope": {
+            "kind": "program_course_names",
+            "program_course_names": [
+              "矽光子元件"
+            ]
+          },
+          "maximum_counted_credits": 3.0,
+          "requirement_context": "program_completion",
+          "source_page": 1,
+          "source_text": "核 心 課 程 矽光子 原理 光電碩 光電子學(英) 3 各課程屬 性僅採計3 學分",
+          "validation_status": "source_text_match"
+        },
+        {
+          "constraint_id": "constraint_75c43a9d2f54e5ad",
+          "kind": "minimum_credits",
+          "scope": {
+            "kind": "program"
+          },
+          "minimum_credits": 18.0,
+          "requirement_context": "program_completion",
+          "source_page": 2,
+          "source_text": "總學分數:至少 18 學分",
+          "validation_status": "source_text_match"
+        },
+        {
+          "constraint_id": "constraint_aacd285688c08ff9",
+          "kind": "minimum_credits",
+          "scope": {
+            "kind": "course_eligibility",
+            "excluded_affiliations": [
+              "home_department",
+              "double_major",
+              "minor"
+            ],
+            "excluded_course_roles": [
+              "all"
+            ]
+          },
+          "minimum_credits": 6.0,
+          "requirement_context": "program_completion",
+          "source_page": 2,
+          "source_text": "至少應有6學分不屬於學生本系所",
+          "validation_status": "source_text_match"
+        }
+      ],
+      "course_count_constraints": [
+        {
+          "constraint_id": "constraint_0033213be8caae74",
+          "kind": "program_course_equivalence",
+          "catalog_entry_ids": [
+            "entry_278d0c2e53fe6bcd",
+            "entry_24d579b453e51428"
+          ],
+          "course_names": [
+            "光電子學(英)",
+            "積體光電元件原理與設計(英)"
+          ],
+          "min_courses": 1,
+          "max_courses": 1,
+          "requirement_group": "core",
+          "requirement_section": "core",
+          "program_course_name_snapshot": "矽光子原理",
+          "source_page": 1,
+          "source_text": "各課程屬性僅採計3學分",
+          "validation_status": "source_text_match"
+        },
+        {
+          "constraint_id": "constraint_4c271ccb01b3cc2f",
+          "kind": "program_course_equivalence",
+          "catalog_entry_ids": [
+            "entry_50253ee00d2b6754",
+            "entry_89c431fd908ed42d",
+            "entry_cf0e26e91b80a9cd",
+            "entry_e17e2d539ad9053f",
+            "entry_d37e5b619e39d888",
+            "entry_6ff942b7b6e2ad86",
+            "entry_11d066619387cd5a",
+            "entry_a5641800eb10d0ef",
+            "entry_f0b8775ab5c2e06d"
+          ],
+          "course_names": [
+            "半導體元件(一)(英)",
+            "半導體元件(一)",
+            "光電半導體科技(英)",
+            "半導體物理(英)",
+            "半導體奈米元件製造技術",
+            "半導體物理"
+          ],
+          "min_courses": 1,
+          "max_courses": 1,
+          "requirement_group": "core",
+          "requirement_section": "core",
+          "program_course_name_snapshot": "矽光子元件",
+          "source_page": 1,
+          "source_text": "各課程屬性僅採計3學分",
+          "validation_status": "source_text_match"
+        },
+        {
+          "constraint_id": "constraint_0be881e8f879d082",
+          "kind": "program_course_equivalence",
+          "catalog_entry_ids": [
+            "entry_5b1fecaf1aaaaa70",
+            "entry_cf90cff6a72db55a",
+            "entry_1de61ff0b782b030",
+            "entry_480d45ca6e95a66b",
+            "entry_53757b91c5edd95d"
+          ],
+          "course_names": [
+            "幾何光學實驗(英)",
+            "物理光學實驗(英)",
+            "光子學實驗(英)",
+            "檢測技術在光電上的應用(英)",
+            "半導體元件特性量測分析"
+          ],
+          "min_courses": 1,
+          "max_courses": 1,
+          "requirement_group": "core",
+          "requirement_section": "core",
+          "program_course_name_snapshot": "矽光子量測",
+          "source_page": 1,
+          "source_text": "各課程屬性僅採計3學分",
+          "validation_status": "source_text_match"
+        }
+      ],
+      "completion_summary": {
+        "model_status": "partial",
+        "minimum_total_credits": 18.0,
+        "minimum_core_credits": 9.0,
+        "maximum_core_credits": null,
+        "minimum_elective_credits": null,
+        "minimum_core_courses": null,
+        "minimum_elective_courses": null,
+        "has_conditional_requirements": false,
+        "has_manual_requirements": false,
+        "has_unresolved_conflicts": false
+      }
+    },
+    "review": {
+      "reviewer": "Brian",
+      "reviewed_at": "2026-08-16T14:13:10Z",
+      "review_note": "矽光子\n原理 矽光子\n元件 矽光子\n量測 各課程屬\n性僅採計3\n學分 代表內涵的課程 最多都擇一",
+      "correction_status": "rechecked",
+      "override_path": "data/reviewed/115-1/prog_fd2710ede2ba5cfa.json"
     }
   }
 }

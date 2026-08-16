@@ -23,7 +23,7 @@
       "last_modified": "Wed, 01 Jul 2026 06:10:31 GMT",
       "content_length": 250435
     },
-    "parser_version": "0.2.3",
+    "parser_version": "0.3.0",
     "extractor_versions": {
       "pypdf": "6.10.0",
       "pdfplumber": "0.11.9"
@@ -48,6 +48,7 @@
       "credits_snapshot": 3.0,
       "requirement_group": "core",
       "requirement_section": "core",
+      "requirement_label": null,
       "program_course_name_snapshot": null,
       "notes": "",
       "source_page": 1,
@@ -66,6 +67,7 @@
       "credits_snapshot": 3.0,
       "requirement_group": "core",
       "requirement_section": "core",
+      "requirement_label": null,
       "program_course_name_snapshot": null,
       "notes": "",
       "source_page": 1,
@@ -84,6 +86,7 @@
       "credits_snapshot": 3.0,
       "requirement_group": "core",
       "requirement_section": "core",
+      "requirement_label": null,
       "program_course_name_snapshot": null,
       "notes": "適用所有核准修習本學程學生。",
       "source_page": 1,
@@ -102,6 +105,7 @@
       "credits_snapshot": 3.0,
       "requirement_group": "core",
       "requirement_section": "core",
+      "requirement_label": null,
       "program_course_name_snapshot": null,
       "notes": "適用所有核准修習本學程學生。",
       "source_page": 1,
@@ -120,6 +124,7 @@
       "credits_snapshot": 2.0,
       "requirement_group": "core",
       "requirement_section": "core",
+      "requirement_label": null,
       "program_course_name_snapshot": null,
       "notes": "適用所有核准修習本學程學生。",
       "source_page": 1,
@@ -138,6 +143,7 @@
       "credits_snapshot": 2.0,
       "requirement_group": "core",
       "requirement_section": "core",
+      "requirement_label": null,
       "program_course_name_snapshot": null,
       "notes": "適用所有核准修習本學程學生。",
       "source_page": 1,
@@ -156,6 +162,7 @@
       "credits_snapshot": 3.0,
       "requirement_group": "core",
       "requirement_section": "core",
+      "requirement_label": null,
       "program_course_name_snapshot": null,
       "notes": "適用所有核准修習本學程學生。",
       "source_page": 1,
@@ -174,6 +181,7 @@
       "credits_snapshot": 3.0,
       "requirement_group": "core",
       "requirement_section": "core",
+      "requirement_label": null,
       "program_course_name_snapshot": null,
       "notes": "適用所有核准修習本學程學生。",
       "source_page": 1,
@@ -192,6 +200,7 @@
       "credits_snapshot": 3.0,
       "requirement_group": "core",
       "requirement_section": "core",
+      "requirement_label": null,
       "program_course_name_snapshot": null,
       "notes": "適用所有核准修習本學程學生。",
       "source_page": 1,
@@ -210,6 +219,7 @@
       "credits_snapshot": 3.0,
       "requirement_group": "core",
       "requirement_section": "core",
+      "requirement_label": null,
       "program_course_name_snapshot": null,
       "notes": "適用所有核准修習本學程學生。",
       "source_page": 1,
@@ -228,6 +238,7 @@
       "credits_snapshot": 3.0,
       "requirement_group": "core",
       "requirement_section": "core",
+      "requirement_label": null,
       "program_course_name_snapshot": null,
       "notes": "為相同課程,不得重複修習,僅能認列其中一門。適用所有核准修習本學程學生。",
       "source_page": 2,
@@ -246,6 +257,7 @@
       "credits_snapshot": 3.0,
       "requirement_group": "core",
       "requirement_section": "core",
+      "requirement_label": null,
       "program_course_name_snapshot": null,
       "notes": "",
       "source_page": 2,
@@ -264,6 +276,7 @@
       "credits_snapshot": 3.0,
       "requirement_group": "core",
       "requirement_section": "core",
+      "requirement_label": null,
       "program_course_name_snapshot": null,
       "notes": "",
       "source_page": 2,
@@ -282,6 +295,7 @@
       "credits_snapshot": 3.0,
       "requirement_group": "core",
       "requirement_section": "core",
+      "requirement_label": null,
       "program_course_name_snapshot": null,
       "notes": "為相同課程,不得重複修習,僅能認列其中一門。",
       "source_page": 2,
@@ -300,6 +314,7 @@
       "credits_snapshot": 3.0,
       "requirement_group": "core",
       "requirement_section": "core",
+      "requirement_label": null,
       "program_course_name_snapshot": null,
       "notes": "",
       "source_page": 2,
@@ -318,6 +333,7 @@
       "credits_snapshot": 3.0,
       "requirement_group": "core",
       "requirement_section": "core",
+      "requirement_label": null,
       "program_course_name_snapshot": null,
       "notes": "為相同課程,不得重複修習,僅能認列其中一門。",
       "source_page": 2,
@@ -336,6 +352,7 @@
       "credits_snapshot": 3.0,
       "requirement_group": "core",
       "requirement_section": "core",
+      "requirement_label": null,
       "program_course_name_snapshot": null,
       "notes": "",
       "source_page": 2,
@@ -354,6 +371,7 @@
       "credits_snapshot": 3.0,
       "requirement_group": "elective",
       "requirement_section": "elective",
+      "requirement_label": null,
       "program_course_name_snapshot": null,
       "notes": "為相同課程,不得重複修習,僅能認列其中一門。適用所有核准修習本學程學生。",
       "source_page": 2,
@@ -372,6 +390,7 @@
       "credits_snapshot": 3.0,
       "requirement_group": "elective",
       "requirement_section": "elective",
+      "requirement_label": null,
       "program_course_name_snapshot": null,
       "notes": "",
       "source_page": 2,
@@ -390,6 +409,7 @@
       "credits_snapshot": 3.0,
       "requirement_group": "elective",
       "requirement_section": "elective",
+      "requirement_label": null,
       "program_course_name_snapshot": null,
       "notes": "",
       "source_page": 2,
@@ -408,6 +428,7 @@
       "credits_snapshot": 3.0,
       "requirement_group": "elective",
       "requirement_section": "elective",
+      "requirement_label": null,
       "program_course_name_snapshot": null,
       "notes": "僅限以英語授課者。",
       "source_page": 2,
@@ -426,6 +447,7 @@
       "credits_snapshot": 3.0,
       "requirement_group": "elective",
       "requirement_section": "elective",
+      "requirement_label": null,
       "program_course_name_snapshot": null,
       "notes": "",
       "source_page": 2,
@@ -444,6 +466,7 @@
       "credits_snapshot": 3.0,
       "requirement_group": "elective",
       "requirement_section": "elective",
+      "requirement_label": null,
       "program_course_name_snapshot": null,
       "notes": "適用所有核准修習本學程學生。",
       "source_page": 3,
@@ -462,6 +485,7 @@
       "credits_snapshot": 3.0,
       "requirement_group": "elective",
       "requirement_section": "elective",
+      "requirement_label": null,
       "program_course_name_snapshot": null,
       "notes": "適用所有核准修習本學程學生。",
       "source_page": 3,
@@ -480,6 +504,7 @@
       "credits_snapshot": 3.0,
       "requirement_group": "elective",
       "requirement_section": "elective",
+      "requirement_label": null,
       "program_course_name_snapshot": null,
       "notes": "適用所有核准修習本學程學生。",
       "source_page": 3,
@@ -498,6 +523,7 @@
       "credits_snapshot": 3.0,
       "requirement_group": "elective",
       "requirement_section": "elective",
+      "requirement_label": null,
       "program_course_name_snapshot": null,
       "notes": "適用所有核准修習本學程學生。",
       "source_page": 3,
@@ -516,6 +542,7 @@
       "credits_snapshot": 3.0,
       "requirement_group": "elective",
       "requirement_section": "elective",
+      "requirement_label": null,
       "program_course_name_snapshot": null,
       "notes": "適用所有核准修習本學程學生。",
       "source_page": 3,
@@ -534,6 +561,7 @@
       "credits_snapshot": 3.0,
       "requirement_group": "elective",
       "requirement_section": "elective",
+      "requirement_label": null,
       "program_course_name_snapshot": null,
       "notes": "適用所有核准修習本學程學生。",
       "source_page": 3,
@@ -552,6 +580,7 @@
       "credits_snapshot": 3.0,
       "requirement_group": "elective",
       "requirement_section": "elective",
+      "requirement_label": null,
       "program_course_name_snapshot": null,
       "notes": "適用所有核准修習本學程學生。",
       "source_page": 3,
@@ -570,8 +599,9 @@
       "credits_snapshot": 1.0,
       "requirement_group": "elective",
       "requirement_section": "elective",
+      "requirement_label": "服務學習課程",
       "program_course_name_snapshot": null,
-      "notes": "",
+      "notes": "總學分數:至少16學分。必修一門全英語服務學習課程。    ",
       "source_page": 3,
       "evidence_match": false,
       "validation_status": "needs_course_code_verification",
@@ -588,8 +618,9 @@
       "credits_snapshot": 1.0,
       "requirement_group": "elective",
       "requirement_section": "elective",
+      "requirement_label": "服務學習課程",
       "program_course_name_snapshot": null,
-      "notes": "",
+      "notes": "總學分數:至少16學分。必修一門全英語服務學習課程。    ",
       "source_page": 3,
       "evidence_match": true,
       "validation_status": "needs_course_code_verification",
@@ -606,8 +637,9 @@
       "credits_snapshot": 1.0,
       "requirement_group": "elective",
       "requirement_section": "elective",
+      "requirement_label": "服務學習課程",
       "program_course_name_snapshot": null,
-      "notes": "",
+      "notes": "總學分數:至少16學分。必修一門全英語服務學習課程。    ",
       "source_page": 4,
       "evidence_match": false,
       "validation_status": "needs_course_code_verification",
@@ -624,8 +656,9 @@
       "credits_snapshot": 1.0,
       "requirement_group": "elective",
       "requirement_section": "elective",
+      "requirement_label": "服務學習課程",
       "program_course_name_snapshot": null,
-      "notes": "",
+      "notes": "總學分數:至少16學分。必修一門全英語服務學習課程。    ",
       "source_page": 4,
       "evidence_match": false,
       "validation_status": "needs_course_code_verification",
@@ -642,8 +675,9 @@
       "credits_snapshot": 1.0,
       "requirement_group": "elective",
       "requirement_section": "elective",
+      "requirement_label": "服務學習課程",
       "program_course_name_snapshot": null,
-      "notes": "適用所有核准修習本學程學生。",
+      "notes": "適用所有核准修習本學程學生。 總學分數:至少16學分。必修一門全英語服務學習課程。    ",
       "source_page": 4,
       "evidence_match": false,
       "validation_status": "needs_course_code_verification",
@@ -651,8 +685,206 @@
     }
   ],
   "structured_requirements": {
-    "core_credits_text_value": 9,
-    "minimum_total_credits": 16,
-    "minimum_outside_home_department_credits": 6
+    "minimum_core_credits": 9.0,
+    "core_credits_text_value": 9.0,
+    "minimum_total_credits": 16.0,
+    "minimum_outside_home_department_credits": 6.0,
+    "credit_constraints": [
+      {
+        "constraint_id": "constraint_2212d1f1b0d059ce",
+        "kind": "maximum_counted_credits",
+        "scope": {
+          "kind": "catalog_entries",
+          "catalog_entry_ids": [
+            "entry_b7d3468084a741c0",
+            "entry_0113774a6707b2ea"
+          ]
+        },
+        "maximum_counted_credits": 3.0,
+        "requirement_context": "program_completion",
+        "source_page": 2,
+        "source_text": "基礎教育中心 從英語課程學習多元文化 DEVELOPING MULTICULTURAL AWARENESS IN ENGLISH CLASSROOM 3 為相同課程,不得重 複修習,僅能認列其 中一門。",
+        "validation_status": "source_text_match"
+      },
+      {
+        "constraint_id": "constraint_4db6020b4a1ea5f4",
+        "kind": "maximum_counted_credits",
+        "scope": {
+          "kind": "catalog_entries",
+          "catalog_entry_ids": [
+            "entry_9df9efd1eff27e05",
+            "entry_92e1441984d25892"
+          ]
+        },
+        "maximum_counted_credits": 3.0,
+        "requirement_context": "program_completion",
+        "source_page": 2,
+        "source_text": "基礎教育中心 透過實用性英語增進溝通能力 COMMUNICATION SKILLS THROUGH FUNCTIONAL ENGLISH 3 為相同課程,不得重 複修習,僅能認列其 中一門。",
+        "validation_status": "source_text_match"
+      },
+      {
+        "constraint_id": "constraint_5a06098a7379f31d",
+        "kind": "minimum_credits",
+        "scope": {
+          "kind": "catalog_filter",
+          "requirement_groups": [
+            "core"
+          ]
+        },
+        "minimum_credits": 9.0,
+        "requirement_context": "program_completion",
+        "source_page": 2,
+        "source_text": "核心課程〈專業模組課程〉學分數:9學分",
+        "validation_status": "source_text_match"
+      },
+      {
+        "constraint_id": "constraint_8f9cd62d42dddb37",
+        "kind": "maximum_counted_credits",
+        "scope": {
+          "kind": "catalog_entries",
+          "catalog_entry_ids": [
+            "entry_0d2f6091cb9c73b1",
+            "entry_b34468d960ff446b",
+            "entry_39b6f987f52cd84e"
+          ]
+        },
+        "maximum_counted_credits": 3.0,
+        "requirement_context": "program_completion",
+        "source_page": 2,
+        "source_text": "基礎教育中心 通過體驗式學習自信地說英語 SPEAKING ENGLISH WITH CONFIDENCE THROUGH EXPERIENTIAL LEARNING 3 為相同課程,不得重 複修習,僅能認列其 中一門。 適用所有核准修習本 學程學生。",
+        "validation_status": "source_text_match"
+      },
+      {
+        "constraint_id": "constraint_d2b587de3ea313a9",
+        "kind": "maximum_counted_credits",
+        "scope": {
+          "kind": "catalog_entries",
+          "catalog_entry_ids": [
+            "entry_a092a978c21921a0",
+            "entry_89cec2a9141ac613",
+            "entry_66694b5425e08c5f"
+          ]
+        },
+        "maximum_counted_credits": 3.0,
+        "requirement_context": "program_completion",
+        "source_page": 2,
+        "source_text": "選 修 基礎教育中心 成功的英文寫作 WRITING FOR SUCCESS IN ENGLISH 3 為相同課程,不得重 複修習,僅能認列其 中一門。適用所有核 准修習本學程學生。",
+        "validation_status": "source_text_match"
+      },
+      {
+        "constraint_id": "constraint_267fbde554b44e44",
+        "kind": "minimum_credits",
+        "scope": {
+          "kind": "program"
+        },
+        "minimum_credits": 16.0,
+        "requirement_context": "program_completion",
+        "source_page": 4,
+        "source_text": "總學分數:至少16學分。必修一門全英語服務學習課程。",
+        "validation_status": "source_text_match"
+      },
+      {
+        "constraint_id": "constraint_5ad725da91f45fe8",
+        "kind": "minimum_credits",
+        "scope": {
+          "kind": "requirement_labels",
+          "requirement_labels": [
+            "服務學習課程"
+          ],
+          "aggregation": "union"
+        },
+        "minimum_credits": 16.0,
+        "requirement_context": "program_completion",
+        "source_page": 4,
+        "source_text": "總學分數:至少16學分。必修一門全英語服務學習課程。",
+        "validation_status": "source_text_match"
+      },
+      {
+        "constraint_id": "constraint_aacd285688c08ff9",
+        "kind": "minimum_credits",
+        "scope": {
+          "kind": "course_eligibility",
+          "excluded_affiliations": [
+            "home_department",
+            "double_major",
+            "minor"
+          ],
+          "excluded_course_roles": [
+            "all"
+          ]
+        },
+        "minimum_credits": 6.0,
+        "requirement_context": "program_completion",
+        "source_page": 4,
+        "source_text": "至少應有6學分不屬於學生本系所",
+        "validation_status": "source_text_match"
+      }
+    ],
+    "manual_requirements": [
+      {
+        "requirement_id": "requirement_75079d10d34bfbfb",
+        "kind": "manual_verification",
+        "requirement_type": "course_eligibility",
+        "description": "相同課名以中文授課者,不採計",
+        "verification_mode": "manual_review",
+        "requirement_context": "program_completion",
+        "source_page": 4,
+        "source_text": "相同課名以中文授課者,不採計",
+        "validation_status": "source_text_match"
+      },
+      {
+        "requirement_id": "requirement_cb82cae63b015617",
+        "kind": "manual_verification",
+        "requirement_type": "course_eligibility",
+        "description": "英語授課者,方得",
+        "verification_mode": "manual_review",
+        "requirement_context": "program_completion",
+        "source_page": 4,
+        "source_text": "英語授課者,方得",
+        "validation_status": "source_text_match"
+      }
+    ],
+    "entry_selection_constraints": [
+      {
+        "constraint_id": "constraint_ee700d36f65a5935",
+        "kind": "select_entries",
+        "catalog_entry_ids": [
+          "entry_212e29f46a1321fa",
+          "entry_4f20926dac3c6f92",
+          "entry_2b9fa545f29702ef",
+          "entry_eae3adc3a593202f",
+          "entry_727a25b7506e0f85"
+        ],
+        "course_names": [
+          "服務學習:英語繪本導讀SERVICE LEARNING: ENGLISHLEARNING THROUGH PICTUREBOOKS",
+          "服務學習:打造英語友善社區",
+          "服務學習:西灣國際沙龍校園英語志工SERVICE LEARNING: ENGLISHVOLUNTEERING AT SI WANINTERNATIONAL SALON",
+          "服務學習:人人都是科學家!SERVICE LEARNING:ANYONE CANBE A SCIENTIST!",
+          "服務學習:英文識字教學與繪本閱讀SERVICE LEARNING: ENGLISHLITERACY INSTRUCTION ANDPICTURE BOOK READING"
+        ],
+        "min_entries": 1,
+        "max_entries": null,
+        "declared_option_count": null,
+        "option_count_matches": true,
+        "requirement_group": "elective",
+        "requirement_section": "elective",
+        "source_page": 4,
+        "source_text": "總學分數:至少16學分。必修一門全英語服務學習課程。    ",
+        "validation_status": "source_text_match",
+        "requirement_label": "服務學習課程"
+      }
+    ],
+    "completion_summary": {
+      "model_status": "partial",
+      "minimum_total_credits": 16.0,
+      "minimum_core_credits": 9.0,
+      "maximum_core_credits": null,
+      "minimum_elective_credits": null,
+      "minimum_core_courses": null,
+      "minimum_elective_courses": null,
+      "has_conditional_requirements": false,
+      "has_manual_requirements": true,
+      "has_unresolved_conflicts": false
+    }
   }
 }

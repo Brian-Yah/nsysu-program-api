@@ -32,3 +32,8 @@ def test_completed_in_progress_missing_alias_and_no_double_count():
 def test_manual_review_propagates():
     result = evaluate({"kind": "manual_review", "reason": "approval required"}, {})
     assert result["status"] == "needs_review"
+
+
+def test_empty_composite_rule_never_passes_vacuously():
+    result = evaluate({"kind": "all_of", "rules": []}, {})
+    assert result["status"] == "needs_review"

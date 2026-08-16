@@ -29,7 +29,7 @@
         "last_modified": "Wed, 07 Jun 2023 08:12:39 GMT",
         "content_length": 216510
       },
-      "parser_version": "0.2.3",
+      "parser_version": "0.3.0",
       "extractor_versions": {
         "pypdf": "6.10.0",
         "pdfplumber": "0.11.9"
@@ -40,9 +40,7 @@
       "kind": "manual_review",
       "reason": "Extracted candidate awaits approval"
     },
-    "warnings": [
-      "No structured course rows extracted from PDF tables"
-    ],
+    "warnings": [],
     "selected_pdf_academic_version": "110-1",
     "course_catalog": [
       {
@@ -56,8 +54,9 @@
         "credits_snapshot": 3.0,
         "requirement_group": "core",
         "requirement_section": "core",
+        "requirement_label": null,
         "program_course_name_snapshot": null,
-        "notes": "二選一",
+        "notes": "二選一 核心課程至少一門",
         "source_page": 1,
         "evidence_match": true,
         "validation_status": "needs_course_code_verification",
@@ -74,8 +73,9 @@
         "credits_snapshot": 2.0,
         "requirement_group": "core",
         "requirement_section": "core",
+        "requirement_label": null,
         "program_course_name_snapshot": null,
-        "notes": "",
+        "notes": "核心課程至少一門",
         "source_page": 1,
         "evidence_match": true,
         "validation_status": "needs_course_code_verification",
@@ -92,8 +92,9 @@
         "credits_snapshot": 2.0,
         "requirement_group": "elective",
         "requirement_section": "elective",
+        "requirement_label": null,
         "program_course_name_snapshot": null,
-        "notes": "",
+        "notes": "選修課程至少兩門",
         "source_page": 1,
         "evidence_match": true,
         "validation_status": "needs_course_code_verification",
@@ -110,8 +111,9 @@
         "credits_snapshot": 1.0,
         "requirement_group": "elective",
         "requirement_section": "elective",
+        "requirement_label": null,
         "program_course_name_snapshot": null,
-        "notes": "",
+        "notes": "選修課程至少兩門",
         "source_page": 1,
         "evidence_match": false,
         "validation_status": "needs_course_code_verification",
@@ -128,8 +130,9 @@
         "credits_snapshot": 1.0,
         "requirement_group": "elective",
         "requirement_section": "elective",
+        "requirement_label": null,
         "program_course_name_snapshot": null,
-        "notes": "",
+        "notes": "選修課程至少兩門",
         "source_page": 1,
         "evidence_match": true,
         "validation_status": "needs_course_code_verification",
@@ -146,8 +149,9 @@
         "credits_snapshot": 3.0,
         "requirement_group": "elective",
         "requirement_section": "elective",
+        "requirement_label": null,
         "program_course_name_snapshot": null,
-        "notes": "",
+        "notes": "選修課程至少兩門",
         "source_page": 1,
         "evidence_match": true,
         "validation_status": "needs_course_code_verification",
@@ -164,8 +168,9 @@
         "credits_snapshot": 2.0,
         "requirement_group": "elective",
         "requirement_section": "elective",
+        "requirement_label": null,
         "program_course_name_snapshot": null,
-        "notes": "",
+        "notes": "選修課程至少兩門",
         "source_page": 1,
         "evidence_match": true,
         "validation_status": "needs_course_code_verification",
@@ -182,8 +187,9 @@
         "credits_snapshot": 3.0,
         "requirement_group": "elective",
         "requirement_section": "elective",
+        "requirement_label": null,
         "program_course_name_snapshot": null,
-        "notes": "",
+        "notes": "選修課程至少兩門",
         "source_page": 1,
         "evidence_match": true,
         "validation_status": "needs_course_code_verification",
@@ -200,8 +206,9 @@
         "credits_snapshot": 2.0,
         "requirement_group": "elective",
         "requirement_section": "elective",
+        "requirement_label": null,
         "program_course_name_snapshot": null,
-        "notes": "",
+        "notes": "選修課程至少兩門",
         "source_page": 1,
         "evidence_match": true,
         "validation_status": "needs_course_code_verification",
@@ -218,8 +225,9 @@
         "credits_snapshot": 3.0,
         "requirement_group": "elective",
         "requirement_section": "elective",
+        "requirement_label": null,
         "program_course_name_snapshot": null,
-        "notes": "",
+        "notes": "選修課程至少兩門",
         "source_page": 1,
         "evidence_match": true,
         "validation_status": "needs_course_code_verification",
@@ -236,8 +244,9 @@
         "credits_snapshot": 3.0,
         "requirement_group": "elective",
         "requirement_section": "elective",
+        "requirement_label": null,
         "program_course_name_snapshot": null,
-        "notes": "",
+        "notes": "選修課程至少兩門",
         "source_page": 1,
         "evidence_match": true,
         "validation_status": "needs_course_code_verification",
@@ -254,8 +263,9 @@
         "credits_snapshot": 3.0,
         "requirement_group": "elective",
         "requirement_section": "elective",
+        "requirement_label": null,
         "program_course_name_snapshot": null,
-        "notes": "",
+        "notes": "選修課程至少兩門",
         "source_page": 1,
         "evidence_match": true,
         "validation_status": "needs_course_code_verification",
@@ -272,8 +282,9 @@
         "credits_snapshot": 3.0,
         "requirement_group": "elective",
         "requirement_section": "elective",
+        "requirement_label": null,
         "program_course_name_snapshot": null,
-        "notes": "",
+        "notes": "選修課程至少兩門",
         "source_page": 1,
         "evidence_match": true,
         "validation_status": "needs_course_code_verification",
@@ -281,8 +292,119 @@
       }
     ],
     "structured_requirements": {
-      "minimum_total_credits": 9,
-      "core_credits_text_value": 9
+      "minimum_core_courses": 1,
+      "minimum_total_credits": 9.0,
+      "minimum_outside_home_department_credits": 3.0,
+      "credit_constraints": [
+        {
+          "constraint_id": "constraint_03283f396924d97c",
+          "kind": "minimum_credits",
+          "scope": {
+            "kind": "course_eligibility",
+            "excluded_affiliations": [
+              "home_department",
+              "double_major",
+              "minor"
+            ],
+            "excluded_course_roles": [
+              "all"
+            ]
+          },
+          "minimum_credits": 3.0,
+          "requirement_context": "program_completion",
+          "source_page": 1,
+          "source_text": "至少應有一門(3學分)不屬於學生本系所",
+          "validation_status": "source_text_match",
+          "minimum_qualifying_courses": 1,
+          "minimum_credits_per_qualifying_course": 3.0
+        },
+        {
+          "constraint_id": "constraint_70b16753a9adda44",
+          "kind": "minimum_credits",
+          "scope": {
+            "kind": "program"
+          },
+          "minimum_credits": 9.0,
+          "requirement_context": "program_completion",
+          "source_page": 1,
+          "source_text": "總學分數:至少9學分",
+          "validation_status": "source_text_match"
+        }
+      ],
+      "entry_selection_constraints": [
+        {
+          "constraint_id": "constraint_22c7b5738cdb0136",
+          "kind": "select_entries",
+          "catalog_entry_ids": [
+            "entry_b151f8639091d9ae",
+            "entry_ca318ea6dbf56afb",
+            "entry_1644a52084b39bf3",
+            "entry_2ae714654554452f",
+            "entry_11afeb256f151c2f",
+            "entry_2a7aa4b61faafd06",
+            "entry_00037a3299c7e8c1",
+            "entry_afe4025b999d0b3b",
+            "entry_aeb8da1598d49514",
+            "entry_b21371b2ac8b9ffd",
+            "entry_3cb838b5b5fc2d02"
+          ],
+          "course_names": [
+            "性別教育",
+            "服務學習:促進性別友善校園行動志工",
+            "性別化創新",
+            "性別與社會",
+            "女性主義思潮",
+            "性與性別的跨文化觀點",
+            "性別社會學",
+            "性社會學",
+            "身體與工作",
+            "性別文化民俗誌"
+          ],
+          "min_entries": 2,
+          "max_entries": null,
+          "declared_option_count": null,
+          "option_count_matches": true,
+          "requirement_group": "elective",
+          "requirement_section": "elective",
+          "source_page": 1,
+          "source_text": "選修課程至少兩門",
+          "validation_status": "source_text_match"
+        },
+        {
+          "constraint_id": "constraint_82a4936962b486f5",
+          "kind": "select_entries",
+          "catalog_entry_ids": [
+            "entry_25834bcf98dafabf",
+            "entry_6c7433428fcc7bf2"
+          ],
+          "course_names": [
+            "性別、組織與管理",
+            "性別與管理"
+          ],
+          "min_entries": 1,
+          "max_entries": null,
+          "declared_option_count": null,
+          "option_count_matches": true,
+          "requirement_group": "core",
+          "requirement_section": "core",
+          "source_page": 1,
+          "source_text": "核心課程至少一門",
+          "validation_status": "source_text_match"
+        }
+      ],
+      "minimum_elective_courses": 2,
+      "completion_summary": {
+        "model_status": "partial",
+        "minimum_total_credits": 9.0,
+        "minimum_core_credits": null,
+        "maximum_core_credits": null,
+        "minimum_elective_credits": null,
+        "minimum_core_courses": 1,
+        "minimum_elective_courses": 2,
+        "has_conditional_requirements": false,
+        "has_manual_requirements": false,
+        "has_unresolved_conflicts": false
+      }
     }
   }
 }

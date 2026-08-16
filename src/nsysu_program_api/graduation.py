@@ -8,12 +8,8 @@ from urllib.parse import urlencode
 
 from .core import SCHEMA_VERSION, Fetcher, load_json, now_iso, sha256, write_json
 
-DEPARTMENT_INDEX_URL = (
-    "https://selcrs.nsysu.edu.tw/stu_query/crs_mst_qry/crs_mst_query_top.asp"
-)
-REQUIREMENTS_URL = (
-    "https://selcrs.nsysu.edu.tw/stu_query/crs_mst_qry/crs_mst_query.asp"
-)
+DEPARTMENT_INDEX_URL = "https://selcrs.nsysu.edu.tw/stu_query/crs_mst_qry/crs_mst_query_top.asp"
+REQUIREMENTS_URL = "https://selcrs.nsysu.edu.tw/stu_query/crs_mst_qry/crs_mst_query.asp"
 GRADUATION_PARSER_VERSION = "1.0.0"
 
 
@@ -200,9 +196,7 @@ def fetch_graduation_requirements(
         "retrieved_at": retrieved_at,
         "department_count": len(requirements),
         "requirements": sorted(requirements, key=lambda item: item["department_code"]),
-        "unavailable_departments": sorted(
-            unavailable, key=lambda item: item["department_code"]
-        ),
+        "unavailable_departments": sorted(unavailable, key=lambda item: item["department_code"]),
         "source": {
             "index_url": DEPARTMENT_INDEX_URL,
             "index_binary_sha256": sha256(index_response.body),

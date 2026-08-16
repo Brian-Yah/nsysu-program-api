@@ -1,5 +1,5 @@
 {
-  "schema_version": "1.0",
+  "schema_version": "1.2",
   "courses": [],
   "credit_mentions": [
     18,
@@ -30,6 +30,7 @@
           "credits_snapshot": 2.0,
           "requirement_group": "core",
           "requirement_section": "core",
+          "requirement_label": null,
           "program_course_name_snapshot": null,
           "notes": "",
           "source_page": 1,
@@ -48,6 +49,7 @@
           "credits_snapshot": 3.0,
           "requirement_group": "core",
           "requirement_section": "core",
+          "requirement_label": null,
           "program_course_name_snapshot": null,
           "notes": "",
           "source_page": 1,
@@ -66,6 +68,7 @@
           "credits_snapshot": 3.0,
           "requirement_group": "core",
           "requirement_section": "core",
+          "requirement_label": null,
           "program_course_name_snapshot": null,
           "notes": "",
           "source_page": 1,
@@ -84,6 +87,7 @@
           "credits_snapshot": 3.0,
           "requirement_group": "core",
           "requirement_section": "core",
+          "requirement_label": null,
           "program_course_name_snapshot": null,
           "notes": "生科系分子生物學亦可",
           "source_page": 1,
@@ -102,6 +106,7 @@
           "credits_snapshot": 3.0,
           "requirement_group": "elective",
           "requirement_section": "elective",
+          "requirement_label": null,
           "program_course_name_snapshot": null,
           "notes": "生科系生物技術概論亦可",
           "source_page": 1,
@@ -120,6 +125,7 @@
           "credits_snapshot": 3.0,
           "requirement_group": "elective",
           "requirement_section": "elective",
+          "requirement_label": null,
           "program_course_name_snapshot": null,
           "notes": "生科系細胞訊息傳遞學概論亦可",
           "source_page": 1,
@@ -138,6 +144,7 @@
           "credits_snapshot": 3.0,
           "requirement_group": "elective",
           "requirement_section": "elective",
+          "requirement_label": null,
           "program_course_name_snapshot": null,
           "notes": "",
           "source_page": 1,
@@ -156,6 +163,7 @@
           "credits_snapshot": 2.0,
           "requirement_group": "elective",
           "requirement_section": "elective",
+          "requirement_label": null,
           "program_course_name_snapshot": null,
           "notes": "",
           "source_page": 1,
@@ -174,6 +182,7 @@
           "credits_snapshot": 2.0,
           "requirement_group": "elective",
           "requirement_section": "elective",
+          "requirement_label": null,
           "program_course_name_snapshot": null,
           "notes": "",
           "source_page": 1,
@@ -192,6 +201,7 @@
           "credits_snapshot": 3.0,
           "requirement_group": "elective",
           "requirement_section": "elective",
+          "requirement_label": null,
           "program_course_name_snapshot": null,
           "notes": "",
           "source_page": 1,
@@ -210,6 +220,7 @@
           "credits_snapshot": 3.0,
           "requirement_group": "elective",
           "requirement_section": "elective",
+          "requirement_label": null,
           "program_course_name_snapshot": null,
           "notes": "生科系動物生理學亦可",
           "source_page": 1,
@@ -228,6 +239,7 @@
           "credits_snapshot": 2.0,
           "requirement_group": "elective",
           "requirement_section": "elective",
+          "requirement_label": null,
           "program_course_name_snapshot": null,
           "notes": "",
           "source_page": 1,
@@ -246,6 +258,7 @@
           "credits_snapshot": 2.0,
           "requirement_group": "elective",
           "requirement_section": "elective",
+          "requirement_label": null,
           "program_course_name_snapshot": null,
           "notes": "",
           "source_page": 1,
@@ -264,6 +277,7 @@
           "credits_snapshot": 3.0,
           "requirement_group": "elective",
           "requirement_section": "elective",
+          "requirement_label": null,
           "program_course_name_snapshot": null,
           "notes": "",
           "source_page": 1,
@@ -282,6 +296,7 @@
           "credits_snapshot": 3.0,
           "requirement_group": "elective",
           "requirement_section": "elective",
+          "requirement_label": null,
           "program_course_name_snapshot": null,
           "notes": "",
           "source_page": 1,
@@ -300,6 +315,7 @@
           "credits_snapshot": 3.0,
           "requirement_group": "elective",
           "requirement_section": "elective",
+          "requirement_label": null,
           "program_course_name_snapshot": null,
           "notes": "",
           "source_page": 1,
@@ -318,6 +334,7 @@
           "credits_snapshot": 1.0,
           "requirement_group": "elective",
           "requirement_section": "elective",
+          "requirement_label": null,
           "program_course_name_snapshot": null,
           "notes": "",
           "source_page": 1,
@@ -327,8 +344,140 @@
         }
       ],
       "requirements": {
-        "minimum_total_credits": 32,
-        "core_credits_text_value": 11
+        "core_course_pool_credits": 11.0,
+        "minimum_core_credits": 5.0,
+        "core_credits_text_value": 5.0,
+        "total_course_pool_credits": 32.0,
+        "minimum_total_credits": 18.0,
+        "course_pools": [
+          {
+            "pool_id": "pool_core",
+            "scope": {
+              "kind": "catalog_filter",
+              "requirement_groups": [
+                "core"
+              ]
+            },
+            "source_evidence": [
+              {
+                "source_page": 1,
+                "source_text": "核心課程學分數:核心課程 11學分,完成專業學程條件至少必修習核心課程 達 5 學分",
+                "validation_status": "source_text_match"
+              }
+            ],
+            "interpretation_status": "machine_extracted",
+            "declared_credits": 11.0
+          },
+          {
+            "pool_id": "pool_program",
+            "scope": {
+              "kind": "program"
+            },
+            "source_evidence": [
+              {
+                "source_page": 1,
+                "source_text": "總學分數:選修課程32學分,完成專業學程條件至少必修加選修課程需達 18 學分",
+                "validation_status": "source_text_match"
+              }
+            ],
+            "interpretation_status": "machine_extracted",
+            "declared_credits": 32.0
+          }
+        ],
+        "credit_constraints": [
+          {
+            "constraint_id": "constraint_5f4a362c71d9b8e3",
+            "kind": "minimum_credits",
+            "scope": {
+              "kind": "catalog_filter",
+              "requirement_groups": [
+                "core"
+              ]
+            },
+            "minimum_credits": 5.0,
+            "requirement_context": "program_completion",
+            "source_page": 1,
+            "source_text": "核心課程學分數:核心課程 11學分,完成專業學程條件至少必修習核心課程 達 5 學分",
+            "validation_status": "source_text_match"
+          },
+          {
+            "constraint_id": "constraint_be1b094274d8ac05",
+            "kind": "maximum_counted_credits",
+            "scope": {
+              "kind": "course_attributes",
+              "course_attributes": [
+                "cross_college_general_education"
+              ],
+              "student_categories": [
+                "cross_college_bachelor"
+              ]
+            },
+            "maximum_counted_credits": 9.0,
+            "requirement_context": "program_completion",
+            "source_page": 1,
+            "source_text": "其它至多九學分得以通識跨院選修學分抵免",
+            "validation_status": "source_text_match"
+          },
+          {
+            "constraint_id": "constraint_d4f7e5ea94b6431c",
+            "kind": "minimum_credits",
+            "scope": {
+              "kind": "program"
+            },
+            "minimum_credits": 18.0,
+            "requirement_context": "program_completion",
+            "source_page": 1,
+            "source_text": "總學分數:選修課程32學分,完成專業學程條件至少必修加選修課程需達 18 學分",
+            "validation_status": "source_text_match"
+          }
+        ],
+        "manual_requirements": [
+          {
+            "requirement_id": "requirement_1a0cfb28821b45c8",
+            "kind": "manual_verification",
+            "requirement_type": "student_condition",
+            "description": "碩士班學生:含修習專業模組課程至少",
+            "verification_mode": "manual_review",
+            "requirement_context": "program_completion",
+            "source_page": 1,
+            "source_text": "碩士班學生:含修習專業模組課程至少",
+            "validation_status": "source_text_match"
+          },
+          {
+            "requirement_id": "requirement_1e52c23a2d06fdcc",
+            "kind": "manual_verification",
+            "requirement_type": "student_condition",
+            "description": "跨院修讀之學士班學生:修習專業模組課程至少",
+            "verification_mode": "manual_review",
+            "requirement_context": "program_completion",
+            "source_page": 1,
+            "source_text": "跨院修讀之學士班學生:修習專業模組課程至少",
+            "validation_status": "source_text_match"
+          },
+          {
+            "requirement_id": "requirement_804936c704930777",
+            "kind": "manual_verification",
+            "requirement_type": "student_condition",
+            "description": "同院跨系(所)修讀之學士班學生:修習專業模組課程至少",
+            "verification_mode": "manual_review",
+            "requirement_context": "program_completion",
+            "source_page": 1,
+            "source_text": "同院跨系(所)修讀之學士班學生:修習專業模組課程至少",
+            "validation_status": "source_text_match"
+          }
+        ],
+        "completion_summary": {
+          "model_status": "partial",
+          "minimum_total_credits": 18.0,
+          "minimum_core_credits": 5.0,
+          "maximum_core_credits": null,
+          "minimum_elective_credits": null,
+          "minimum_core_courses": null,
+          "minimum_elective_courses": null,
+          "has_conditional_requirements": true,
+          "has_manual_requirements": true,
+          "has_unresolved_conflicts": false
+        }
       },
       "source_pages": [
         1
@@ -357,6 +506,7 @@
           "credits_snapshot": 3.0,
           "requirement_group": "core",
           "requirement_section": "core",
+          "requirement_label": null,
           "program_course_name_snapshot": null,
           "notes": "",
           "source_page": 2,
@@ -375,6 +525,7 @@
           "credits_snapshot": 1.0,
           "requirement_group": "core",
           "requirement_section": "core",
+          "requirement_label": null,
           "program_course_name_snapshot": null,
           "notes": "新增",
           "source_page": 2,
@@ -393,6 +544,7 @@
           "credits_snapshot": 3.0,
           "requirement_group": "core",
           "requirement_section": "core",
+          "requirement_label": null,
           "program_course_name_snapshot": null,
           "notes": "",
           "source_page": 2,
@@ -412,6 +564,7 @@
           "credits_snapshot": 3.0,
           "requirement_group": "core",
           "requirement_section": "core",
+          "requirement_label": null,
           "program_course_name_snapshot": null,
           "notes": "新增",
           "source_page": 2,
@@ -430,6 +583,7 @@
           "credits_snapshot": 3.0,
           "requirement_group": "elective",
           "requirement_section": "elective",
+          "requirement_label": null,
           "program_course_name_snapshot": null,
           "notes": "",
           "source_page": 2,
@@ -448,8 +602,9 @@
           "credits_snapshot": 1.0,
           "requirement_group": "elective",
           "requirement_section": "elective",
+          "requirement_label": null,
           "program_course_name_snapshot": null,
-          "notes": "可與分子生物學實驗二擇一",
+          "notes": "可與分子生物學實驗二擇一  生科系 生物技術實驗 1 可與分子生物 學實驗二擇 一",
           "source_page": 2,
           "evidence_match": true,
           "validation_status": "needs_course_code_verification",
@@ -466,8 +621,9 @@
           "credits_snapshot": 2.0,
           "requirement_group": "elective",
           "requirement_section": "elective",
+          "requirement_label": null,
           "program_course_name_snapshot": null,
-          "notes": "可與分子生物學實驗二擇一",
+          "notes": " 生科系 生物技術實驗 1 可與分子生物 學實驗二擇 一",
           "source_page": 2,
           "evidence_match": true,
           "validation_status": "needs_course_code_verification",
@@ -485,6 +641,7 @@
           "credits_snapshot": 2.0,
           "requirement_group": "elective",
           "requirement_section": "elective",
+          "requirement_label": null,
           "program_course_name_snapshot": null,
           "notes": "",
           "source_page": 2,
@@ -504,6 +661,7 @@
           "credits_snapshot": 2.0,
           "requirement_group": "elective",
           "requirement_section": "elective",
+          "requirement_label": null,
           "program_course_name_snapshot": null,
           "notes": "",
           "source_page": 2,
@@ -522,6 +680,7 @@
           "credits_snapshot": 2.0,
           "requirement_group": "elective",
           "requirement_section": "elective",
+          "requirement_label": null,
           "program_course_name_snapshot": null,
           "notes": "新增",
           "source_page": 2,
@@ -540,6 +699,7 @@
           "credits_snapshot": 3.0,
           "requirement_group": "elective",
           "requirement_section": "elective",
+          "requirement_label": null,
           "program_course_name_snapshot": null,
           "notes": "",
           "source_page": 2,
@@ -558,6 +718,7 @@
           "credits_snapshot": 2.0,
           "requirement_group": "elective",
           "requirement_section": "elective",
+          "requirement_label": null,
           "program_course_name_snapshot": null,
           "notes": "",
           "source_page": 2,
@@ -576,6 +737,7 @@
           "credits_snapshot": 3.0,
           "requirement_group": "elective",
           "requirement_section": "elective",
+          "requirement_label": null,
           "program_course_name_snapshot": null,
           "notes": "",
           "source_page": 2,
@@ -594,6 +756,7 @@
           "credits_snapshot": 2.0,
           "requirement_group": "elective",
           "requirement_section": "elective",
+          "requirement_label": null,
           "program_course_name_snapshot": null,
           "notes": "",
           "source_page": 2,
@@ -612,6 +775,7 @@
           "credits_snapshot": 3.0,
           "requirement_group": "elective",
           "requirement_section": "elective",
+          "requirement_label": null,
           "program_course_name_snapshot": null,
           "notes": "",
           "source_page": 2,
@@ -630,6 +794,7 @@
           "credits_snapshot": 2.0,
           "requirement_group": "elective",
           "requirement_section": "elective",
+          "requirement_label": null,
           "program_course_name_snapshot": null,
           "notes": "新增",
           "source_page": 2,
@@ -648,6 +813,7 @@
           "credits_snapshot": 2.0,
           "requirement_group": "elective",
           "requirement_section": "elective",
+          "requirement_label": null,
           "program_course_name_snapshot": null,
           "notes": "",
           "source_page": 2,
@@ -666,6 +832,7 @@
           "credits_snapshot": 2.0,
           "requirement_group": "elective",
           "requirement_section": "elective",
+          "requirement_label": null,
           "program_course_name_snapshot": null,
           "notes": "復課",
           "source_page": 2,
@@ -675,8 +842,91 @@
         }
       ],
       "requirements": {
-        "minimum_total_credits": 22,
-        "core_credits_text_value": 10,
+        "minimum_core_credits": 10.0,
+        "core_credits_text_value": 10.0,
+        "minimum_total_credits": 22.0,
+        "credit_constraints": [
+          {
+            "constraint_id": "constraint_8c667ff434471a03",
+            "kind": "minimum_credits",
+            "scope": {
+              "kind": "program"
+            },
+            "minimum_credits": 22.0,
+            "requirement_context": "program_completion",
+            "source_page": 2,
+            "source_text": "總學分數: 22學分",
+            "validation_status": "source_text_match"
+          },
+          {
+            "constraint_id": "constraint_be1b094274d8ac05",
+            "kind": "maximum_counted_credits",
+            "scope": {
+              "kind": "course_attributes",
+              "course_attributes": [
+                "cross_college_general_education"
+              ],
+              "student_categories": [
+                "cross_college_bachelor"
+              ]
+            },
+            "maximum_counted_credits": 9.0,
+            "requirement_context": "program_completion",
+            "source_page": 2,
+            "source_text": "其它至多九學分得以通識跨院選修學分抵免",
+            "validation_status": "source_text_match"
+          },
+          {
+            "constraint_id": "constraint_d9c83d89e2ca1718",
+            "kind": "minimum_credits",
+            "scope": {
+              "kind": "catalog_filter",
+              "requirement_groups": [
+                "core"
+              ]
+            },
+            "minimum_credits": 10.0,
+            "requirement_context": "program_completion",
+            "source_page": 2,
+            "source_text": "核心課程〈專業模組課程〉學分數: 10學分",
+            "validation_status": "source_text_match"
+          }
+        ],
+        "manual_requirements": [
+          {
+            "requirement_id": "requirement_1a0cfb28821b45c8",
+            "kind": "manual_verification",
+            "requirement_type": "student_condition",
+            "description": "碩士班學生:含修習專業模組課程至少",
+            "verification_mode": "manual_review",
+            "requirement_context": "program_completion",
+            "source_page": 2,
+            "source_text": "碩士班學生:含修習專業模組課程至少",
+            "validation_status": "source_text_match"
+          },
+          {
+            "requirement_id": "requirement_1e52c23a2d06fdcc",
+            "kind": "manual_verification",
+            "requirement_type": "student_condition",
+            "description": "跨院修讀之學士班學生:修習專業模組課程至少",
+            "verification_mode": "manual_review",
+            "requirement_context": "program_completion",
+            "source_page": 2,
+            "source_text": "跨院修讀之學士班學生:修習專業模組課程至少",
+            "validation_status": "source_text_match"
+          },
+          {
+            "requirement_id": "requirement_804936c704930777",
+            "kind": "manual_verification",
+            "requirement_type": "student_condition",
+            "description": "同院跨系(所)修讀之學士班學生:修習專業模組課程至少",
+            "verification_mode": "manual_review",
+            "requirement_context": "program_completion",
+            "source_page": 2,
+            "source_text": "同院跨系(所)修讀之學士班學生:修習專業模組課程至少",
+            "validation_status": "source_text_match"
+          }
+        ],
         "entry_selection_constraints": [
           {
             "constraint_id": "constraint_2c8e6a06dd13eaa1",
@@ -696,10 +946,22 @@
             "requirement_group": "elective",
             "requirement_section": "elective",
             "source_page": 2,
-            "source_text": "可與分子生物學實驗二擇一",
+            "source_text": " 生科系 生物技術實驗 1 可與分子生物 學實驗二擇 一",
             "validation_status": "source_text_match"
           }
-        ]
+        ],
+        "completion_summary": {
+          "model_status": "partial",
+          "minimum_total_credits": 22.0,
+          "minimum_core_credits": 10.0,
+          "maximum_core_credits": null,
+          "minimum_elective_credits": null,
+          "minimum_core_courses": null,
+          "minimum_elective_courses": null,
+          "has_conditional_requirements": true,
+          "has_manual_requirements": true,
+          "has_unresolved_conflicts": false
+        }
       },
       "source_pages": [
         2
@@ -728,6 +990,7 @@
       "credits_snapshot": 2.0,
       "requirement_group": "core",
       "requirement_section": "core",
+      "requirement_label": null,
       "program_course_name_snapshot": null,
       "notes": "",
       "source_page": 1,
@@ -746,6 +1009,7 @@
       "credits_snapshot": 3.0,
       "requirement_group": "core",
       "requirement_section": "core",
+      "requirement_label": null,
       "program_course_name_snapshot": null,
       "notes": "",
       "source_page": 1,
@@ -764,6 +1028,7 @@
       "credits_snapshot": 3.0,
       "requirement_group": "core",
       "requirement_section": "core",
+      "requirement_label": null,
       "program_course_name_snapshot": null,
       "notes": "",
       "source_page": 1,
@@ -782,6 +1047,7 @@
       "credits_snapshot": 3.0,
       "requirement_group": "core",
       "requirement_section": "core",
+      "requirement_label": null,
       "program_course_name_snapshot": null,
       "notes": "生科系分子生物學亦可",
       "source_page": 1,
@@ -800,6 +1066,7 @@
       "credits_snapshot": 3.0,
       "requirement_group": "elective",
       "requirement_section": "elective",
+      "requirement_label": null,
       "program_course_name_snapshot": null,
       "notes": "生科系生物技術概論亦可",
       "source_page": 1,
@@ -818,6 +1085,7 @@
       "credits_snapshot": 3.0,
       "requirement_group": "elective",
       "requirement_section": "elective",
+      "requirement_label": null,
       "program_course_name_snapshot": null,
       "notes": "生科系細胞訊息傳遞學概論亦可",
       "source_page": 1,
@@ -836,6 +1104,7 @@
       "credits_snapshot": 3.0,
       "requirement_group": "elective",
       "requirement_section": "elective",
+      "requirement_label": null,
       "program_course_name_snapshot": null,
       "notes": "",
       "source_page": 1,
@@ -854,6 +1123,7 @@
       "credits_snapshot": 2.0,
       "requirement_group": "elective",
       "requirement_section": "elective",
+      "requirement_label": null,
       "program_course_name_snapshot": null,
       "notes": "",
       "source_page": 1,
@@ -872,6 +1142,7 @@
       "credits_snapshot": 2.0,
       "requirement_group": "elective",
       "requirement_section": "elective",
+      "requirement_label": null,
       "program_course_name_snapshot": null,
       "notes": "",
       "source_page": 1,
@@ -890,6 +1161,7 @@
       "credits_snapshot": 3.0,
       "requirement_group": "elective",
       "requirement_section": "elective",
+      "requirement_label": null,
       "program_course_name_snapshot": null,
       "notes": "",
       "source_page": 1,
@@ -908,6 +1180,7 @@
       "credits_snapshot": 3.0,
       "requirement_group": "elective",
       "requirement_section": "elective",
+      "requirement_label": null,
       "program_course_name_snapshot": null,
       "notes": "生科系動物生理學亦可",
       "source_page": 1,
@@ -926,6 +1199,7 @@
       "credits_snapshot": 2.0,
       "requirement_group": "elective",
       "requirement_section": "elective",
+      "requirement_label": null,
       "program_course_name_snapshot": null,
       "notes": "",
       "source_page": 1,
@@ -944,6 +1218,7 @@
       "credits_snapshot": 2.0,
       "requirement_group": "elective",
       "requirement_section": "elective",
+      "requirement_label": null,
       "program_course_name_snapshot": null,
       "notes": "",
       "source_page": 1,
@@ -962,6 +1237,7 @@
       "credits_snapshot": 3.0,
       "requirement_group": "elective",
       "requirement_section": "elective",
+      "requirement_label": null,
       "program_course_name_snapshot": null,
       "notes": "",
       "source_page": 1,
@@ -980,6 +1256,7 @@
       "credits_snapshot": 3.0,
       "requirement_group": "elective",
       "requirement_section": "elective",
+      "requirement_label": null,
       "program_course_name_snapshot": null,
       "notes": "",
       "source_page": 1,
@@ -998,6 +1275,7 @@
       "credits_snapshot": 3.0,
       "requirement_group": "elective",
       "requirement_section": "elective",
+      "requirement_label": null,
       "program_course_name_snapshot": null,
       "notes": "",
       "source_page": 1,
@@ -1016,6 +1294,7 @@
       "credits_snapshot": 1.0,
       "requirement_group": "elective",
       "requirement_section": "elective",
+      "requirement_label": null,
       "program_course_name_snapshot": null,
       "notes": "",
       "source_page": 1,
@@ -1025,7 +1304,139 @@
     }
   ],
   "structured_requirements": {
-    "minimum_total_credits": 32,
-    "core_credits_text_value": 11
+    "core_course_pool_credits": 11.0,
+    "minimum_core_credits": 5.0,
+    "core_credits_text_value": 5.0,
+    "total_course_pool_credits": 32.0,
+    "minimum_total_credits": 18.0,
+    "course_pools": [
+      {
+        "pool_id": "pool_core",
+        "scope": {
+          "kind": "catalog_filter",
+          "requirement_groups": [
+            "core"
+          ]
+        },
+        "source_evidence": [
+          {
+            "source_page": 1,
+            "source_text": "核心課程學分數:核心課程 11學分,完成專業學程條件至少必修習核心課程 達 5 學分",
+            "validation_status": "source_text_match"
+          }
+        ],
+        "interpretation_status": "machine_extracted",
+        "declared_credits": 11.0
+      },
+      {
+        "pool_id": "pool_program",
+        "scope": {
+          "kind": "program"
+        },
+        "source_evidence": [
+          {
+            "source_page": 1,
+            "source_text": "總學分數:選修課程32學分,完成專業學程條件至少必修加選修課程需達 18 學分",
+            "validation_status": "source_text_match"
+          }
+        ],
+        "interpretation_status": "machine_extracted",
+        "declared_credits": 32.0
+      }
+    ],
+    "credit_constraints": [
+      {
+        "constraint_id": "constraint_5f4a362c71d9b8e3",
+        "kind": "minimum_credits",
+        "scope": {
+          "kind": "catalog_filter",
+          "requirement_groups": [
+            "core"
+          ]
+        },
+        "minimum_credits": 5.0,
+        "requirement_context": "program_completion",
+        "source_page": 1,
+        "source_text": "核心課程學分數:核心課程 11學分,完成專業學程條件至少必修習核心課程 達 5 學分",
+        "validation_status": "source_text_match"
+      },
+      {
+        "constraint_id": "constraint_be1b094274d8ac05",
+        "kind": "maximum_counted_credits",
+        "scope": {
+          "kind": "course_attributes",
+          "course_attributes": [
+            "cross_college_general_education"
+          ],
+          "student_categories": [
+            "cross_college_bachelor"
+          ]
+        },
+        "maximum_counted_credits": 9.0,
+        "requirement_context": "program_completion",
+        "source_page": 1,
+        "source_text": "其它至多九學分得以通識跨院選修學分抵免",
+        "validation_status": "source_text_match"
+      },
+      {
+        "constraint_id": "constraint_d4f7e5ea94b6431c",
+        "kind": "minimum_credits",
+        "scope": {
+          "kind": "program"
+        },
+        "minimum_credits": 18.0,
+        "requirement_context": "program_completion",
+        "source_page": 1,
+        "source_text": "總學分數:選修課程32學分,完成專業學程條件至少必修加選修課程需達 18 學分",
+        "validation_status": "source_text_match"
+      }
+    ],
+    "manual_requirements": [
+      {
+        "requirement_id": "requirement_1a0cfb28821b45c8",
+        "kind": "manual_verification",
+        "requirement_type": "student_condition",
+        "description": "碩士班學生:含修習專業模組課程至少",
+        "verification_mode": "manual_review",
+        "requirement_context": "program_completion",
+        "source_page": 1,
+        "source_text": "碩士班學生:含修習專業模組課程至少",
+        "validation_status": "source_text_match"
+      },
+      {
+        "requirement_id": "requirement_1e52c23a2d06fdcc",
+        "kind": "manual_verification",
+        "requirement_type": "student_condition",
+        "description": "跨院修讀之學士班學生:修習專業模組課程至少",
+        "verification_mode": "manual_review",
+        "requirement_context": "program_completion",
+        "source_page": 1,
+        "source_text": "跨院修讀之學士班學生:修習專業模組課程至少",
+        "validation_status": "source_text_match"
+      },
+      {
+        "requirement_id": "requirement_804936c704930777",
+        "kind": "manual_verification",
+        "requirement_type": "student_condition",
+        "description": "同院跨系(所)修讀之學士班學生:修習專業模組課程至少",
+        "verification_mode": "manual_review",
+        "requirement_context": "program_completion",
+        "source_page": 1,
+        "source_text": "同院跨系(所)修讀之學士班學生:修習專業模組課程至少",
+        "validation_status": "source_text_match"
+      }
+    ],
+    "completion_summary": {
+      "model_status": "partial",
+      "minimum_total_credits": 18.0,
+      "minimum_core_credits": 5.0,
+      "maximum_core_credits": null,
+      "minimum_elective_credits": null,
+      "minimum_core_courses": null,
+      "minimum_elective_courses": null,
+      "has_conditional_requirements": true,
+      "has_manual_requirements": true,
+      "has_unresolved_conflicts": false
+    }
   }
 }

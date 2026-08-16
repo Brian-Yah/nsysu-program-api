@@ -45,23 +45,31 @@ curl -fsSL https://brian-yah.github.io/nsysu-program-api/api/v1/graduation-requi
 
 ```json
 {
-  "schema_version": "1.0",
+  "schema_version": "1.2",
   "academic_version": "115-1",
-  "data_revision": 4,
+  "data_revision": 6,
   "retrieved_at": "2026-08-15T00:00:00Z",
   "programs": []
 }
 ```
 
-`source`、`extracted`、`published` 分層保存。機器或 AI 擷取結果只進入 `extracted`；沒有審核紀錄不得改成 `approved`。未設定模型 API key 時，抓取、PDF 擷取、hash、diff、validation 與待辦清單仍可完整執行。AI provider/model 預留由環境變數或後續 adapter 設定，secret 不進 Git。
+`source`、`extracted`、`reviewed`、`published` 分層保存。機器或 AI 擷取結果只進入 `extracted`；人工修正寫入 `data/reviewed/{academic_version}/{program_id}.json`，並鎖定 PDF binary hash、文字 hash、所選 PDF 版本、parser version 與 course catalog hash。任一值不符時 build 會中止，避免新版文件或解析器誤套舊規則；`published` 是建置產物，不可直接編輯。只有完整、第一與第二位不同 reviewer 都覆核的紀錄可改成 `approved`。
 
 ## 版本與 consumer 整合
 
 `schema_version` 管 API 結構，`academic_version` 使用 `115-1`／`115-2`／`115-S`，`data_revision` 表示同學期資料修正。新學期新增目錄，絕不覆寫舊版。`program-id-registry.json` 是更名時維持 ID 的人工 registry；更名前先把新名稱 mapping 到舊 ID。
 
-ClearGrad 或其他 consumer 應固定 academic version 或 release、檢查 manifest/schema version、在自己的 CDN 或本地快取，且先審核差異再更新。`latest` 不是核准訊號。遇到 `needs_review`，UI 應顯示「需人工確認」，不得宣稱學生不符合。
+ClearGrad 或其他 consumer 應固定 academic version 或 release、檢查 manifest/schema version、在自己的 CDN 或本地快取，且先審核差異再更新。`latest` 不是核准訊號。`review_status` 的 `ai_approved`（UI 可顯示 `AI-Approved`）只用於沒有任選、互斥、上限、溢出、人工條件或衝突的普通學程，且候選集合與 3 份隨機 PDF 抽查均以 hash 鎖定；它不等同雙人覆核的 `approved`。遇到 `needs_review`，UI 應顯示「需人工確認」，不得宣稱學生不符合。
 
-`structured_requirements` 會把官方 PDF 的採計規則分成課程互斥、表格 entry 任選、學程科目任選、命名領域擇一與不可重複採計。consumer 應以 `catalog_entry_id`、`program_course_name_snapshot` 與 constraint 內的穩定 ID 計算，不能只累加畫面上的全部課程。例：金融工程的三門線性代數 `max_courses: 1`；全民國防的 A、B 類各有 `min_entries: 1` 且沒有正式上限時 `max_entries: null`；半導體學程的同一學程科目只採計一門，且各必修／必選修／選修區段另有門數要求；中文創意學程則須擇一命名領域並滿足該領域最低學分。`notes` 與 `source_text` 供顯示及稽核，結構化 constraint 才是計算依據。
+`structured_requirements` 會分開保存最低完成門檻、官方宣告的課程池、分類學分、entry 任選、課程互斥、命名領域、不可重複採計、人工驗證條件及官方來源衝突。consumer 應優先讀 `completion_summary`、`credit_constraints` 與各 selection constraints；`core_credits_text_value` 僅為相容舊版的最低核心學分 mirror，已標示 deprecated。STREAM 的核心課程池 15 學分與最低核心 3 學分不再混用；海洋天然物的課程池 31 學分與完成門檻 12 學分亦分欄保存。
+
+`completion_summary.model_status` 只有在 `complete` 時才能單獨用於自動判定。`ai_approved` 的普通規則模型可為 `complete`，但 consumer 仍可依產品風險政策要求人工 `approved`。`partial` 表示仍有 `manual_requirements` 或尚待目標式審核；`conflicted` 表示官方文件本身有未解衝突，此時相應 minimum 為 `null`，UI 必須顯示「需人工確認」。AI 聯盟五學程另保存五向度各至少一門、總學分 15、TAICA 證明的系外 9／聯盟課程 8 學分門檻，以及認抵上限。
+
+抽樣稽核保存在 `data/ai-review/115-1.json`；其候選數、候選 ID 集合 hash、三份樣本 PDF/text hash 或所選版本只要改變，build 就會 fail closed。其餘待審項目會輸出到 `reports/manual-review-115-1.json`。
+
+`manual_requirements.requirement_context` 區分一般 `program_completion` 與額外 `certificate` 條件。證書活動、時數或報告不得反向阻擋一般學程完成；consumer 若要判斷證書資格，才需另行評估 certificate context。
+
+consumer 應以 `catalog_entry_id`、`requirement_label`、`program_course_name_snapshot` 與 constraint 內的穩定 ID 計算，不能只累加畫面上的全部課程。`max_entries: null` 只代表沒有修課上限；若同時有 `max_entries_counted_for_requirement` 與 `excess_credit_destination`，額外課仍可修，但只能流向指定的核心／選修／學程總學分桶。
 
 若 `option_count_matches` 為 `false`，表示 PDF 宣告的選項數與實際表列數不一致；consumer 應保留全部表列課程並提示人工確認，不得自行刪除選項。
 

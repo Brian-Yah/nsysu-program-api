@@ -1,5 +1,5 @@
 {
-  "schema_version": "1.0",
+  "schema_version": "1.2",
   "courses": [],
   "credit_mentions": [
     6,
@@ -45,6 +45,7 @@
           "credits_snapshot": 3.0,
           "requirement_group": "core",
           "requirement_section": "core_required",
+          "requirement_label": "核心一",
           "program_course_name_snapshot": null,
           "notes": "博雅向度六",
           "source_page": 1,
@@ -63,6 +64,7 @@
           "credits_snapshot": 3.0,
           "requirement_group": "core",
           "requirement_section": "core_required",
+          "requirement_label": "核心一",
           "program_course_name_snapshot": null,
           "notes": "跨院選修(通)",
           "source_page": 1,
@@ -81,6 +83,7 @@
           "credits_snapshot": 3.0,
           "requirement_group": "core",
           "requirement_section": "core_required",
+          "requirement_label": "核心一",
           "program_course_name_snapshot": null,
           "notes": "跨院選修(通)",
           "source_page": 1,
@@ -99,6 +102,7 @@
           "credits_snapshot": 3.0,
           "requirement_group": "core",
           "requirement_section": "core_required",
+          "requirement_label": "核心一",
           "program_course_name_snapshot": null,
           "notes": "博雅向度六",
           "source_page": 1,
@@ -117,6 +121,7 @@
           "credits_snapshot": 3.0,
           "requirement_group": "core",
           "requirement_section": "core_required",
+          "requirement_label": "核心一",
           "program_course_name_snapshot": null,
           "notes": "博雅向度三",
           "source_page": 1,
@@ -135,6 +140,7 @@
           "credits_snapshot": 2.0,
           "requirement_group": "core",
           "requirement_section": "core_required",
+          "requirement_label": "核心一",
           "program_course_name_snapshot": null,
           "notes": "博雅向度六",
           "source_page": 1,
@@ -153,6 +159,7 @@
           "credits_snapshot": 3.0,
           "requirement_group": "core",
           "requirement_section": "core_required",
+          "requirement_label": "核心一",
           "program_course_name_snapshot": null,
           "notes": "博雅向度六",
           "source_page": 1,
@@ -171,6 +178,7 @@
           "credits_snapshot": 2.0,
           "requirement_group": "core",
           "requirement_section": "core_required",
+          "requirement_label": "核心二",
           "program_course_name_snapshot": null,
           "notes": "博雅向度五",
           "source_page": 1,
@@ -189,6 +197,7 @@
           "credits_snapshot": 1.0,
           "requirement_group": "core",
           "requirement_section": "core_required",
+          "requirement_label": "核心二",
           "program_course_name_snapshot": null,
           "notes": "博雅向度五",
           "source_page": 1,
@@ -207,6 +216,7 @@
           "credits_snapshot": 2.0,
           "requirement_group": "core",
           "requirement_section": "core_required",
+          "requirement_label": "核心二",
           "program_course_name_snapshot": null,
           "notes": "博雅向度六",
           "source_page": 1,
@@ -225,6 +235,7 @@
           "credits_snapshot": 1.0,
           "requirement_group": "core",
           "requirement_section": "core_required",
+          "requirement_label": "核心二",
           "program_course_name_snapshot": null,
           "notes": "",
           "source_page": 1,
@@ -243,6 +254,7 @@
           "credits_snapshot": 2.0,
           "requirement_group": "core",
           "requirement_section": "core_required",
+          "requirement_label": "核心二",
           "program_course_name_snapshot": null,
           "notes": "",
           "source_page": 1,
@@ -261,6 +273,7 @@
           "credits_snapshot": 3.0,
           "requirement_group": "core",
           "requirement_section": "core_required",
+          "requirement_label": "核心二",
           "program_course_name_snapshot": null,
           "notes": "博雅向度一",
           "source_page": 1,
@@ -279,6 +292,7 @@
           "credits_snapshot": 3.0,
           "requirement_group": "core",
           "requirement_section": "core_required",
+          "requirement_label": "核心二",
           "program_course_name_snapshot": null,
           "notes": "博雅向度四",
           "source_page": 1,
@@ -297,6 +311,7 @@
           "credits_snapshot": 3.0,
           "requirement_group": "core",
           "requirement_section": "core_required",
+          "requirement_label": "核心二",
           "program_course_name_snapshot": null,
           "notes": "博雅向度四",
           "source_page": 1,
@@ -315,6 +330,7 @@
           "credits_snapshot": 3.0,
           "requirement_group": "core",
           "requirement_section": "core_required",
+          "requirement_label": "核心二",
           "program_course_name_snapshot": null,
           "notes": "博雅向度六",
           "source_page": 1,
@@ -333,6 +349,7 @@
           "credits_snapshot": 3.0,
           "requirement_group": "core",
           "requirement_section": "core_required",
+          "requirement_label": "核心二",
           "program_course_name_snapshot": null,
           "notes": "博雅向度四",
           "source_page": 1,
@@ -351,6 +368,7 @@
           "credits_snapshot": 3.0,
           "requirement_group": "elective",
           "requirement_section": "elective",
+          "requirement_label": null,
           "program_course_name_snapshot": null,
           "notes": "",
           "source_page": 1,
@@ -369,6 +387,7 @@
           "credits_snapshot": 3.0,
           "requirement_group": "elective",
           "requirement_section": "elective",
+          "requirement_label": null,
           "program_course_name_snapshot": null,
           "notes": "跨院選修",
           "source_page": 1,
@@ -387,6 +406,7 @@
           "credits_snapshot": 3.0,
           "requirement_group": "elective",
           "requirement_section": "elective",
+          "requirement_label": null,
           "program_course_name_snapshot": null,
           "notes": "人科學程",
           "source_page": 1,
@@ -396,9 +416,103 @@
         }
       ],
       "requirements": {
-        "core_credits_text_value": 6,
-        "minimum_total_credits": 9,
-        "minimum_outside_home_department_credits": 3
+        "minimum_total_credits": 9.0,
+        "minimum_core_credits": 6.0,
+        "core_credits_text_value": 6.0,
+        "minimum_outside_home_department_credits": 3.0,
+        "credit_constraints": [
+          {
+            "constraint_id": "constraint_87e0b98fd98f37f3",
+            "kind": "minimum_credits",
+            "scope": {
+              "kind": "catalog_filter",
+              "requirement_groups": [
+                "core"
+              ]
+            },
+            "minimum_credits": 6.0,
+            "requirement_context": "program_completion",
+            "source_page": 1,
+            "source_text": "核心課程〈專業模組課程〉學分數:至少6 學分 (核心一至少3學分,核心二至少3學分)",
+            "validation_status": "source_text_match"
+          },
+          {
+            "constraint_id": "constraint_d69b4fa95095ee06",
+            "kind": "minimum_credits",
+            "scope": {
+              "kind": "requirement_labels",
+              "requirement_labels": [
+                "核心一"
+              ],
+              "aggregation": "union"
+            },
+            "minimum_credits": 3.0,
+            "requirement_context": "program_completion",
+            "source_page": 1,
+            "source_text": "核心課程〈專業模組課程〉學分數:至少6 學分 (核心一至少3學分,核心二至少3學分)",
+            "validation_status": "source_text_match"
+          },
+          {
+            "constraint_id": "constraint_da779df7974dfae4",
+            "kind": "minimum_credits",
+            "scope": {
+              "kind": "requirement_labels",
+              "requirement_labels": [
+                "核心二"
+              ],
+              "aggregation": "union"
+            },
+            "minimum_credits": 3.0,
+            "requirement_context": "program_completion",
+            "source_page": 1,
+            "source_text": "核心課程〈專業模組課程〉學分數:至少6 學分 (核心一至少3學分,核心二至少3學分)",
+            "validation_status": "source_text_match"
+          },
+          {
+            "constraint_id": "constraint_312ba592cce58c5d",
+            "kind": "minimum_credits",
+            "scope": {
+              "kind": "course_eligibility",
+              "excluded_affiliations": [
+                "home_department",
+                "double_major",
+                "minor"
+              ],
+              "excluded_course_roles": [
+                "all"
+              ]
+            },
+            "minimum_credits": 3.0,
+            "requirement_context": "program_completion",
+            "source_page": 2,
+            "source_text": "至少應有3學分不屬於學生本系所",
+            "validation_status": "source_text_match"
+          },
+          {
+            "constraint_id": "constraint_e4e3ec6325db6e04",
+            "kind": "minimum_credits",
+            "scope": {
+              "kind": "program"
+            },
+            "minimum_credits": 9.0,
+            "requirement_context": "program_completion",
+            "source_page": 2,
+            "source_text": "總學分數:至少 9 學分",
+            "validation_status": "source_text_match"
+          }
+        ],
+        "completion_summary": {
+          "model_status": "partial",
+          "minimum_total_credits": 9.0,
+          "minimum_core_credits": 6.0,
+          "maximum_core_credits": null,
+          "minimum_elective_credits": null,
+          "minimum_core_courses": null,
+          "minimum_elective_courses": null,
+          "has_conditional_requirements": false,
+          "has_manual_requirements": false,
+          "has_unresolved_conflicts": false
+        }
       },
       "source_pages": [
         1,
@@ -427,6 +541,7 @@
           "credits_snapshot": 3.0,
           "requirement_group": "core",
           "requirement_section": "core_required",
+          "requirement_label": "核心一",
           "program_course_name_snapshot": null,
           "notes": "博雅向度六<自然環境、生態及其永續>",
           "source_page": 3,
@@ -445,6 +560,7 @@
           "credits_snapshot": 3.0,
           "requirement_group": "core",
           "requirement_section": "core_required",
+          "requirement_label": "核心一",
           "program_course_name_snapshot": null,
           "notes": "跨院選修(通)",
           "source_page": 3,
@@ -463,6 +579,7 @@
           "credits_snapshot": 3.0,
           "requirement_group": "core",
           "requirement_section": "core_required",
+          "requirement_label": "核心一",
           "program_course_name_snapshot": null,
           "notes": "跨院選修(通)",
           "source_page": 3,
@@ -481,6 +598,7 @@
           "credits_snapshot": 2.0,
           "requirement_group": "core",
           "requirement_section": "core_required",
+          "requirement_label": "核心二",
           "program_course_name_snapshot": null,
           "notes": "博雅向度五<物質與生命世界本質>",
           "source_page": 3,
@@ -499,6 +617,7 @@
           "credits_snapshot": 1.0,
           "requirement_group": "core",
           "requirement_section": "core_required",
+          "requirement_label": "核心二",
           "program_course_name_snapshot": null,
           "notes": "待開課博雅向度五",
           "source_page": 3,
@@ -517,6 +636,7 @@
           "credits_snapshot": 2.0,
           "requirement_group": "core",
           "requirement_section": "core_required",
+          "requirement_label": "核心二",
           "program_course_name_snapshot": null,
           "notes": "博雅向度六<自然環境、生態及其永續>",
           "source_page": 3,
@@ -535,6 +655,7 @@
           "credits_snapshot": 1.0,
           "requirement_group": "core",
           "requirement_section": "core_required",
+          "requirement_label": "核心二",
           "program_course_name_snapshot": null,
           "notes": "公共事務管理研究所碩士班",
           "source_page": 3,
@@ -553,6 +674,7 @@
           "credits_snapshot": 2.0,
           "requirement_group": "core",
           "requirement_section": "core_required",
+          "requirement_label": "核心二",
           "program_course_name_snapshot": null,
           "notes": "",
           "source_page": 3,
@@ -571,6 +693,7 @@
           "credits_snapshot": 3.0,
           "requirement_group": "core",
           "requirement_section": "core_required",
+          "requirement_label": "核心二",
           "program_course_name_snapshot": null,
           "notes": "博雅向度六<自然環境、生態及其永續>",
           "source_page": 3,
@@ -589,6 +712,7 @@
           "credits_snapshot": 3.0,
           "requirement_group": "core",
           "requirement_section": "core_required",
+          "requirement_label": "核心二",
           "program_course_name_snapshot": null,
           "notes": "博雅向度四",
           "source_page": 3,
@@ -607,6 +731,7 @@
           "credits_snapshot": 3.0,
           "requirement_group": "elective",
           "requirement_section": "elective",
+          "requirement_label": null,
           "program_course_name_snapshot": null,
           "notes": "",
           "source_page": 3,
@@ -625,6 +750,7 @@
           "credits_snapshot": 3.0,
           "requirement_group": "elective",
           "requirement_section": "elective",
+          "requirement_label": null,
           "program_course_name_snapshot": null,
           "notes": "跨院選修",
           "source_page": 3,
@@ -643,6 +769,7 @@
           "credits_snapshot": 3.0,
           "requirement_group": "elective",
           "requirement_section": "elective",
+          "requirement_label": null,
           "program_course_name_snapshot": null,
           "notes": "人科學程",
           "source_page": 3,
@@ -661,6 +788,7 @@
           "credits_snapshot": 3.0,
           "requirement_group": "elective",
           "requirement_section": "elective",
+          "requirement_label": null,
           "program_course_name_snapshot": null,
           "notes": "跨院選修",
           "source_page": 3,
@@ -680,6 +808,7 @@
           "credits_snapshot": 3.0,
           "requirement_group": "elective",
           "requirement_section": "elective",
+          "requirement_label": null,
           "program_course_name_snapshot": null,
           "notes": "跨院選修",
           "source_page": 3,
@@ -689,9 +818,103 @@
         }
       ],
       "requirements": {
-        "minimum_total_credits": 9,
-        "core_credits_text_value": 6,
-        "minimum_outside_home_department_credits": 3
+        "minimum_total_credits": 9.0,
+        "minimum_core_credits": 6.0,
+        "core_credits_text_value": 6.0,
+        "minimum_outside_home_department_credits": 3.0,
+        "credit_constraints": [
+          {
+            "constraint_id": "constraint_87e0b98fd98f37f3",
+            "kind": "minimum_credits",
+            "scope": {
+              "kind": "catalog_filter",
+              "requirement_groups": [
+                "core"
+              ]
+            },
+            "minimum_credits": 6.0,
+            "requirement_context": "program_completion",
+            "source_page": 3,
+            "source_text": "核心課程〈專業模組課程〉學分數:至少6 學分 (核心一至少3學分,核心二至少3學分)",
+            "validation_status": "source_text_match"
+          },
+          {
+            "constraint_id": "constraint_d69b4fa95095ee06",
+            "kind": "minimum_credits",
+            "scope": {
+              "kind": "requirement_labels",
+              "requirement_labels": [
+                "核心一"
+              ],
+              "aggregation": "union"
+            },
+            "minimum_credits": 3.0,
+            "requirement_context": "program_completion",
+            "source_page": 3,
+            "source_text": "核心課程〈專業模組課程〉學分數:至少6 學分 (核心一至少3學分,核心二至少3學分)",
+            "validation_status": "source_text_match"
+          },
+          {
+            "constraint_id": "constraint_da779df7974dfae4",
+            "kind": "minimum_credits",
+            "scope": {
+              "kind": "requirement_labels",
+              "requirement_labels": [
+                "核心二"
+              ],
+              "aggregation": "union"
+            },
+            "minimum_credits": 3.0,
+            "requirement_context": "program_completion",
+            "source_page": 3,
+            "source_text": "核心課程〈專業模組課程〉學分數:至少6 學分 (核心一至少3學分,核心二至少3學分)",
+            "validation_status": "source_text_match"
+          },
+          {
+            "constraint_id": "constraint_e4e3ec6325db6e04",
+            "kind": "minimum_credits",
+            "scope": {
+              "kind": "program"
+            },
+            "minimum_credits": 9.0,
+            "requirement_context": "program_completion",
+            "source_page": 3,
+            "source_text": "總學分數:至少 9 學分",
+            "validation_status": "source_text_match"
+          },
+          {
+            "constraint_id": "constraint_312ba592cce58c5d",
+            "kind": "minimum_credits",
+            "scope": {
+              "kind": "course_eligibility",
+              "excluded_affiliations": [
+                "home_department",
+                "double_major",
+                "minor"
+              ],
+              "excluded_course_roles": [
+                "all"
+              ]
+            },
+            "minimum_credits": 3.0,
+            "requirement_context": "program_completion",
+            "source_page": 4,
+            "source_text": "至少應有3學分不屬於學生本系所",
+            "validation_status": "source_text_match"
+          }
+        ],
+        "completion_summary": {
+          "model_status": "partial",
+          "minimum_total_credits": 9.0,
+          "minimum_core_credits": 6.0,
+          "maximum_core_credits": null,
+          "minimum_elective_credits": null,
+          "minimum_core_courses": null,
+          "minimum_elective_courses": null,
+          "has_conditional_requirements": false,
+          "has_manual_requirements": false,
+          "has_unresolved_conflicts": false
+        }
       },
       "source_pages": [
         3,
@@ -720,8 +943,9 @@
           "credits_snapshot": 3.0,
           "requirement_group": "core",
           "requirement_section": "core_required",
+          "requirement_label": "核心一",
           "program_course_name_snapshot": null,
-          "notes": "111-1開始博雅向度六<自然環境、生態及其永續>",
+          "notes": "111-1開始博雅向度六<自然環境、生態及其永續> 必 修  核心一 (2選1)  ",
           "source_page": 5,
           "evidence_match": false,
           "validation_status": "needs_course_code_verification",
@@ -738,8 +962,9 @@
           "credits_snapshot": 3.0,
           "requirement_group": "core",
           "requirement_section": "core_required",
+          "requirement_label": "核心一",
           "program_course_name_snapshot": null,
-          "notes": "107-1開始跨院選修(通)",
+          "notes": "107-1開始跨院選修(通) 必 修  核心一 (2選1)  ",
           "source_page": 5,
           "evidence_match": true,
           "validation_status": "needs_course_code_verification",
@@ -756,8 +981,9 @@
           "credits_snapshot": 2.0,
           "requirement_group": "core",
           "requirement_section": "core_required",
+          "requirement_label": "核心二",
           "program_course_name_snapshot": null,
-          "notes": "107-1開始博雅向度五<物質與生命世界本質>",
+          "notes": "107-1開始博雅向度五<物質與生命世界本質>   核心二 (5選2)  ",
           "source_page": 5,
           "evidence_match": true,
           "validation_status": "needs_course_code_verification",
@@ -774,8 +1000,9 @@
           "credits_snapshot": 1.0,
           "requirement_group": "core",
           "requirement_section": "core_required",
+          "requirement_label": "核心二",
           "program_course_name_snapshot": null,
-          "notes": "待開課",
+          "notes": "待開課   核心二 (5選2)  ",
           "source_page": 5,
           "evidence_match": true,
           "validation_status": "needs_course_code_verification",
@@ -792,8 +1019,9 @@
           "credits_snapshot": 2.0,
           "requirement_group": "core",
           "requirement_section": "core_required",
+          "requirement_label": "核心二",
           "program_course_name_snapshot": null,
-          "notes": "107-1開始博雅向度六<自然環境、生態及其永續>",
+          "notes": "107-1開始博雅向度六<自然環境、生態及其永續>   核心二 (5選2)  ",
           "source_page": 5,
           "evidence_match": true,
           "validation_status": "needs_course_code_verification",
@@ -810,8 +1038,9 @@
           "credits_snapshot": 1.0,
           "requirement_group": "core",
           "requirement_section": "core_required",
+          "requirement_label": "核心二",
           "program_course_name_snapshot": null,
-          "notes": "092-2開始公共事務管理研究所碩士班",
+          "notes": "092-2開始公共事務管理研究所碩士班   核心二 (5選2)  ",
           "source_page": 5,
           "evidence_match": true,
           "validation_status": "needs_course_code_verification",
@@ -828,8 +1057,9 @@
           "credits_snapshot": 2.0,
           "requirement_group": "core",
           "requirement_section": "core_required",
+          "requirement_label": "核心二",
           "program_course_name_snapshot": null,
-          "notes": "99-1開始",
+          "notes": "99-1開始   核心二 (5選2)  ",
           "source_page": 5,
           "evidence_match": true,
           "validation_status": "needs_course_code_verification",
@@ -846,6 +1076,7 @@
           "credits_snapshot": 3.0,
           "requirement_group": "elective",
           "requirement_section": "elective",
+          "requirement_label": null,
           "program_course_name_snapshot": null,
           "notes": "103-2開始博雅向度六<自然環境、生態及其永續>",
           "source_page": 5,
@@ -864,6 +1095,7 @@
           "credits_snapshot": 3.0,
           "requirement_group": "elective",
           "requirement_section": "elective",
+          "requirement_label": null,
           "program_course_name_snapshot": null,
           "notes": "107-2開始跨院選修(通)",
           "source_page": 5,
@@ -882,6 +1114,7 @@
           "credits_snapshot": 3.0,
           "requirement_group": "elective",
           "requirement_section": "elective",
+          "requirement_label": null,
           "program_course_name_snapshot": null,
           "notes": "108-2開始",
           "source_page": 5,
@@ -891,9 +1124,155 @@
         }
       ],
       "requirements": {
-        "minimum_total_credits": 9,
-        "core_credits_text_value": 6,
-        "minimum_outside_home_department_credits": 3
+        "minimum_total_credits": 9.0,
+        "minimum_core_credits": 6.0,
+        "core_credits_text_value": 6.0,
+        "minimum_outside_home_department_credits": 3.0,
+        "credit_constraints": [
+          {
+            "constraint_id": "constraint_312ba592cce58c5d",
+            "kind": "minimum_credits",
+            "scope": {
+              "kind": "course_eligibility",
+              "excluded_affiliations": [
+                "home_department",
+                "double_major",
+                "minor"
+              ],
+              "excluded_course_roles": [
+                "all"
+              ]
+            },
+            "minimum_credits": 3.0,
+            "requirement_context": "program_completion",
+            "source_page": 5,
+            "source_text": "至少應有3學分不屬於學生本系所",
+            "validation_status": "source_text_match"
+          },
+          {
+            "constraint_id": "constraint_87e0b98fd98f37f3",
+            "kind": "minimum_credits",
+            "scope": {
+              "kind": "catalog_filter",
+              "requirement_groups": [
+                "core"
+              ]
+            },
+            "minimum_credits": 6.0,
+            "requirement_context": "program_completion",
+            "source_page": 5,
+            "source_text": "核心課程〈專業模組課程〉學分數:至少6 學分 (核心一至少3學分,核心二至少3學分)",
+            "validation_status": "source_text_match"
+          },
+          {
+            "constraint_id": "constraint_d69b4fa95095ee06",
+            "kind": "minimum_credits",
+            "scope": {
+              "kind": "requirement_labels",
+              "requirement_labels": [
+                "核心一"
+              ],
+              "aggregation": "union"
+            },
+            "minimum_credits": 3.0,
+            "requirement_context": "program_completion",
+            "source_page": 5,
+            "source_text": "核心課程〈專業模組課程〉學分數:至少6 學分 (核心一至少3學分,核心二至少3學分)",
+            "validation_status": "source_text_match"
+          },
+          {
+            "constraint_id": "constraint_da779df7974dfae4",
+            "kind": "minimum_credits",
+            "scope": {
+              "kind": "requirement_labels",
+              "requirement_labels": [
+                "核心二"
+              ],
+              "aggregation": "union"
+            },
+            "minimum_credits": 3.0,
+            "requirement_context": "program_completion",
+            "source_page": 5,
+            "source_text": "核心課程〈專業模組課程〉學分數:至少6 學分 (核心一至少3學分,核心二至少3學分)",
+            "validation_status": "source_text_match"
+          },
+          {
+            "constraint_id": "constraint_e4e3ec6325db6e04",
+            "kind": "minimum_credits",
+            "scope": {
+              "kind": "program"
+            },
+            "minimum_credits": 9.0,
+            "requirement_context": "program_completion",
+            "source_page": 5,
+            "source_text": "總學分數:至少 9 學分",
+            "validation_status": "source_text_match"
+          }
+        ],
+        "entry_selection_constraints": [
+          {
+            "constraint_id": "constraint_2e085ae891db1df1",
+            "kind": "select_entries",
+            "catalog_entry_ids": [
+              "entry_eb9aef2815b33f3f",
+              "entry_8e3993570821bea3",
+              "entry_85a75de60be023a6",
+              "entry_74821cc30695639c",
+              "entry_d99484bd7491f7dc"
+            ],
+            "course_names": [
+              "烹飪與科學",
+              "農業概論",
+              "環境倫理與環境政策",
+              "氣候行動書報討論",
+              "生物多樣性與保育"
+            ],
+            "min_entries": 2,
+            "max_entries": 2,
+            "declared_option_count": 5,
+            "option_count_matches": true,
+            "requirement_group": "core",
+            "requirement_section": "core_required",
+            "source_page": 5,
+            "source_text": "  核心二 (5選2)  ",
+            "validation_status": "source_text_match",
+            "requirement_label": "核心二"
+          },
+          {
+            "constraint_id": "constraint_ff821297087a2e92",
+            "kind": "select_entries",
+            "catalog_entry_ids": [
+              "entry_d7cc117743caaabf",
+              "entry_b9729524fc481847"
+            ],
+            "course_names": [
+              "在地食物的永續發展與全球脈絡",
+              "都市農業與永續發展"
+            ],
+            "min_entries": 1,
+            "max_entries": 1,
+            "declared_option_count": 2,
+            "option_count_matches": true,
+            "requirement_group": "core",
+            "requirement_section": "core_required",
+            "source_page": 5,
+            "source_text": "必 修  核心一 (2選1)  ",
+            "validation_status": "source_text_match",
+            "requirement_label": "核心一"
+          }
+        ],
+        "completion_summary": {
+          "model_status": "partial",
+          "minimum_total_credits": 9.0,
+          "minimum_core_credits": 6.0,
+          "maximum_core_credits": null,
+          "minimum_elective_credits": null,
+          "minimum_core_courses": null,
+          "minimum_elective_courses": null,
+          "has_conditional_requirements": false,
+          "has_manual_requirements": false,
+          "has_unresolved_conflicts": false
+        }
       },
       "source_pages": [
         5
@@ -904,7 +1283,8 @@
         "course_count": 10,
         "core_count": 7,
         "elective_count": 3,
-        "evidence_matched_count": 9
+        "evidence_matched_count": 9,
+        "selection_constraints_extracted": 2
       }
     }
   ],
@@ -921,6 +1301,7 @@
       "credits_snapshot": 3.0,
       "requirement_group": "core",
       "requirement_section": "core_required",
+      "requirement_label": "核心一",
       "program_course_name_snapshot": null,
       "notes": "博雅向度六",
       "source_page": 1,
@@ -939,6 +1320,7 @@
       "credits_snapshot": 3.0,
       "requirement_group": "core",
       "requirement_section": "core_required",
+      "requirement_label": "核心一",
       "program_course_name_snapshot": null,
       "notes": "跨院選修(通)",
       "source_page": 1,
@@ -957,6 +1339,7 @@
       "credits_snapshot": 3.0,
       "requirement_group": "core",
       "requirement_section": "core_required",
+      "requirement_label": "核心一",
       "program_course_name_snapshot": null,
       "notes": "跨院選修(通)",
       "source_page": 1,
@@ -975,6 +1358,7 @@
       "credits_snapshot": 3.0,
       "requirement_group": "core",
       "requirement_section": "core_required",
+      "requirement_label": "核心一",
       "program_course_name_snapshot": null,
       "notes": "博雅向度六",
       "source_page": 1,
@@ -993,6 +1377,7 @@
       "credits_snapshot": 3.0,
       "requirement_group": "core",
       "requirement_section": "core_required",
+      "requirement_label": "核心一",
       "program_course_name_snapshot": null,
       "notes": "博雅向度三",
       "source_page": 1,
@@ -1011,6 +1396,7 @@
       "credits_snapshot": 2.0,
       "requirement_group": "core",
       "requirement_section": "core_required",
+      "requirement_label": "核心一",
       "program_course_name_snapshot": null,
       "notes": "博雅向度六",
       "source_page": 1,
@@ -1029,6 +1415,7 @@
       "credits_snapshot": 3.0,
       "requirement_group": "core",
       "requirement_section": "core_required",
+      "requirement_label": "核心一",
       "program_course_name_snapshot": null,
       "notes": "博雅向度六",
       "source_page": 1,
@@ -1047,6 +1434,7 @@
       "credits_snapshot": 2.0,
       "requirement_group": "core",
       "requirement_section": "core_required",
+      "requirement_label": "核心二",
       "program_course_name_snapshot": null,
       "notes": "博雅向度五",
       "source_page": 1,
@@ -1065,6 +1453,7 @@
       "credits_snapshot": 1.0,
       "requirement_group": "core",
       "requirement_section": "core_required",
+      "requirement_label": "核心二",
       "program_course_name_snapshot": null,
       "notes": "博雅向度五",
       "source_page": 1,
@@ -1083,6 +1472,7 @@
       "credits_snapshot": 2.0,
       "requirement_group": "core",
       "requirement_section": "core_required",
+      "requirement_label": "核心二",
       "program_course_name_snapshot": null,
       "notes": "博雅向度六",
       "source_page": 1,
@@ -1101,6 +1491,7 @@
       "credits_snapshot": 1.0,
       "requirement_group": "core",
       "requirement_section": "core_required",
+      "requirement_label": "核心二",
       "program_course_name_snapshot": null,
       "notes": "",
       "source_page": 1,
@@ -1119,6 +1510,7 @@
       "credits_snapshot": 2.0,
       "requirement_group": "core",
       "requirement_section": "core_required",
+      "requirement_label": "核心二",
       "program_course_name_snapshot": null,
       "notes": "",
       "source_page": 1,
@@ -1137,6 +1529,7 @@
       "credits_snapshot": 3.0,
       "requirement_group": "core",
       "requirement_section": "core_required",
+      "requirement_label": "核心二",
       "program_course_name_snapshot": null,
       "notes": "博雅向度一",
       "source_page": 1,
@@ -1155,6 +1548,7 @@
       "credits_snapshot": 3.0,
       "requirement_group": "core",
       "requirement_section": "core_required",
+      "requirement_label": "核心二",
       "program_course_name_snapshot": null,
       "notes": "博雅向度四",
       "source_page": 1,
@@ -1173,6 +1567,7 @@
       "credits_snapshot": 3.0,
       "requirement_group": "core",
       "requirement_section": "core_required",
+      "requirement_label": "核心二",
       "program_course_name_snapshot": null,
       "notes": "博雅向度四",
       "source_page": 1,
@@ -1191,6 +1586,7 @@
       "credits_snapshot": 3.0,
       "requirement_group": "core",
       "requirement_section": "core_required",
+      "requirement_label": "核心二",
       "program_course_name_snapshot": null,
       "notes": "博雅向度六",
       "source_page": 1,
@@ -1209,6 +1605,7 @@
       "credits_snapshot": 3.0,
       "requirement_group": "core",
       "requirement_section": "core_required",
+      "requirement_label": "核心二",
       "program_course_name_snapshot": null,
       "notes": "博雅向度四",
       "source_page": 1,
@@ -1227,6 +1624,7 @@
       "credits_snapshot": 3.0,
       "requirement_group": "elective",
       "requirement_section": "elective",
+      "requirement_label": null,
       "program_course_name_snapshot": null,
       "notes": "",
       "source_page": 1,
@@ -1245,6 +1643,7 @@
       "credits_snapshot": 3.0,
       "requirement_group": "elective",
       "requirement_section": "elective",
+      "requirement_label": null,
       "program_course_name_snapshot": null,
       "notes": "跨院選修",
       "source_page": 1,
@@ -1263,6 +1662,7 @@
       "credits_snapshot": 3.0,
       "requirement_group": "elective",
       "requirement_section": "elective",
+      "requirement_label": null,
       "program_course_name_snapshot": null,
       "notes": "人科學程",
       "source_page": 1,
@@ -1272,8 +1672,102 @@
     }
   ],
   "structured_requirements": {
-    "core_credits_text_value": 6,
-    "minimum_total_credits": 9,
-    "minimum_outside_home_department_credits": 3
+    "minimum_total_credits": 9.0,
+    "minimum_core_credits": 6.0,
+    "core_credits_text_value": 6.0,
+    "minimum_outside_home_department_credits": 3.0,
+    "credit_constraints": [
+      {
+        "constraint_id": "constraint_87e0b98fd98f37f3",
+        "kind": "minimum_credits",
+        "scope": {
+          "kind": "catalog_filter",
+          "requirement_groups": [
+            "core"
+          ]
+        },
+        "minimum_credits": 6.0,
+        "requirement_context": "program_completion",
+        "source_page": 1,
+        "source_text": "核心課程〈專業模組課程〉學分數:至少6 學分 (核心一至少3學分,核心二至少3學分)",
+        "validation_status": "source_text_match"
+      },
+      {
+        "constraint_id": "constraint_d69b4fa95095ee06",
+        "kind": "minimum_credits",
+        "scope": {
+          "kind": "requirement_labels",
+          "requirement_labels": [
+            "核心一"
+          ],
+          "aggregation": "union"
+        },
+        "minimum_credits": 3.0,
+        "requirement_context": "program_completion",
+        "source_page": 1,
+        "source_text": "核心課程〈專業模組課程〉學分數:至少6 學分 (核心一至少3學分,核心二至少3學分)",
+        "validation_status": "source_text_match"
+      },
+      {
+        "constraint_id": "constraint_da779df7974dfae4",
+        "kind": "minimum_credits",
+        "scope": {
+          "kind": "requirement_labels",
+          "requirement_labels": [
+            "核心二"
+          ],
+          "aggregation": "union"
+        },
+        "minimum_credits": 3.0,
+        "requirement_context": "program_completion",
+        "source_page": 1,
+        "source_text": "核心課程〈專業模組課程〉學分數:至少6 學分 (核心一至少3學分,核心二至少3學分)",
+        "validation_status": "source_text_match"
+      },
+      {
+        "constraint_id": "constraint_312ba592cce58c5d",
+        "kind": "minimum_credits",
+        "scope": {
+          "kind": "course_eligibility",
+          "excluded_affiliations": [
+            "home_department",
+            "double_major",
+            "minor"
+          ],
+          "excluded_course_roles": [
+            "all"
+          ]
+        },
+        "minimum_credits": 3.0,
+        "requirement_context": "program_completion",
+        "source_page": 2,
+        "source_text": "至少應有3學分不屬於學生本系所",
+        "validation_status": "source_text_match"
+      },
+      {
+        "constraint_id": "constraint_e4e3ec6325db6e04",
+        "kind": "minimum_credits",
+        "scope": {
+          "kind": "program"
+        },
+        "minimum_credits": 9.0,
+        "requirement_context": "program_completion",
+        "source_page": 2,
+        "source_text": "總學分數:至少 9 學分",
+        "validation_status": "source_text_match"
+      }
+    ],
+    "completion_summary": {
+      "model_status": "partial",
+      "minimum_total_credits": 9.0,
+      "minimum_core_credits": 6.0,
+      "maximum_core_credits": null,
+      "minimum_elective_credits": null,
+      "minimum_core_courses": null,
+      "minimum_elective_courses": null,
+      "has_conditional_requirements": false,
+      "has_manual_requirements": false,
+      "has_unresolved_conflicts": false
+    }
   }
 }

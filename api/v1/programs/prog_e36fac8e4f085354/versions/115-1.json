@@ -23,7 +23,7 @@
       "last_modified": "Fri, 31 May 2024 07:07:14 GMT",
       "content_length": 92437
     },
-    "parser_version": "0.2.3",
+    "parser_version": "0.3.0",
     "extractor_versions": {
       "pypdf": "6.10.0",
       "pdfplumber": "0.11.9"
@@ -34,9 +34,7 @@
     "kind": "manual_review",
     "reason": "Extracted candidate awaits approval"
   },
-  "warnings": [
-    "No structured course rows extracted from PDF tables"
-  ],
+  "warnings": [],
   "selected_pdf_academic_version": "112-2",
   "course_catalog": [
     {
@@ -50,8 +48,9 @@
       "credits_snapshot": 3.0,
       "requirement_group": "core",
       "requirement_section": "core",
+      "requirement_label": null,
       "program_course_name_snapshot": null,
-      "notes": "生態學(3)或生物多樣性與保育(2) 二擇一",
+      "notes": "生態學(3)或生物多樣性與保育(2) 二擇一 核 心 課 程 生科系 生態學 3 生態學(3)或生物多樣性與保育 (2) 二擇一",
       "source_page": 1,
       "evidence_match": true,
       "validation_status": "needs_course_code_verification",
@@ -68,8 +67,9 @@
       "credits_snapshot": 2.0,
       "requirement_group": "core",
       "requirement_section": "core",
+      "requirement_label": null,
       "program_course_name_snapshot": null,
-      "notes": "生態學(3)或生物多樣性與保育(2) 二擇一",
+      "notes": "核 心 課 程 生科系 生態學 3 生態學(3)或生物多樣性與保育 (2) 二擇一",
       "source_page": 1,
       "evidence_match": true,
       "validation_status": "needs_course_code_verification",
@@ -86,8 +86,9 @@
       "credits_snapshot": 3.0,
       "requirement_group": "core",
       "requirement_section": "core",
+      "requirement_label": null,
       "program_course_name_snapshot": null,
-      "notes": "設計思考(3)、創意思考與問題解決(3)或創造力與社會創新(3)三擇一",
+      "notes": "設計思考(3)、創意思考與問題解決(3)或創造力與社會創新(3)三擇一  人科學程 設計思考 3 設計思考(3)、創意思考與問題 解決(3)或創造力與社會創新(3) 三擇一",
       "source_page": 1,
       "evidence_match": true,
       "validation_status": "needs_course_code_verification",
@@ -104,8 +105,9 @@
       "credits_snapshot": 3.0,
       "requirement_group": "core",
       "requirement_section": "core",
+      "requirement_label": null,
       "program_course_name_snapshot": null,
-      "notes": "設計思考(3)、創意思考與問題解決(3)或創造力與社會創新(3)三擇一",
+      "notes": " 人科學程 設計思考 3 設計思考(3)、創意思考與問題 解決(3)或創造力與社會創新(3) 三擇一",
       "source_page": 1,
       "evidence_match": true,
       "validation_status": "needs_course_code_verification",
@@ -122,8 +124,9 @@
       "credits_snapshot": 3.0,
       "requirement_group": "core",
       "requirement_section": "core",
+      "requirement_label": null,
       "program_course_name_snapshot": null,
-      "notes": "設計思考(3)、創意思考與問題解決(3)或創造力與社會創新(3)三擇一",
+      "notes": " 人科學程 設計思考 3 設計思考(3)、創意思考與問題 解決(3)或創造力與社會創新(3) 三擇一",
       "source_page": 1,
       "evidence_match": true,
       "validation_status": "needs_course_code_verification",
@@ -140,6 +143,7 @@
       "credits_snapshot": 2.0,
       "requirement_group": "elective",
       "requirement_section": "elective",
+      "requirement_label": null,
       "program_course_name_snapshot": null,
       "notes": "",
       "source_page": 1,
@@ -158,6 +162,7 @@
       "credits_snapshot": 3.0,
       "requirement_group": "elective",
       "requirement_section": "elective",
+      "requirement_label": null,
       "program_course_name_snapshot": null,
       "notes": "",
       "source_page": 1,
@@ -176,6 +181,7 @@
       "credits_snapshot": 3.0,
       "requirement_group": "elective",
       "requirement_section": "elective",
+      "requirement_label": null,
       "program_course_name_snapshot": null,
       "notes": "",
       "source_page": 1,
@@ -194,6 +200,7 @@
       "credits_snapshot": 3.0,
       "requirement_group": "elective",
       "requirement_section": "elective",
+      "requirement_label": null,
       "program_course_name_snapshot": null,
       "notes": "",
       "source_page": 1,
@@ -212,6 +219,7 @@
       "credits_snapshot": 3.0,
       "requirement_group": "elective",
       "requirement_section": "elective",
+      "requirement_label": null,
       "program_course_name_snapshot": null,
       "notes": "",
       "source_page": 1,
@@ -230,6 +238,7 @@
       "credits_snapshot": 3.0,
       "requirement_group": "elective",
       "requirement_section": "elective",
+      "requirement_label": null,
       "program_course_name_snapshot": null,
       "notes": "",
       "source_page": 1,
@@ -248,6 +257,7 @@
       "credits_snapshot": 2.0,
       "requirement_group": "elective",
       "requirement_section": "elective",
+      "requirement_label": null,
       "program_course_name_snapshot": null,
       "notes": "",
       "source_page": 1,
@@ -266,6 +276,7 @@
       "credits_snapshot": 3.0,
       "requirement_group": "elective",
       "requirement_section": "elective",
+      "requirement_label": null,
       "program_course_name_snapshot": null,
       "notes": "",
       "source_page": 1,
@@ -275,9 +286,59 @@
     }
   ],
   "structured_requirements": {
-    "minimum_total_credits": 9,
-    "core_credits_text_value": 5,
-    "minimum_outside_home_department_credits": 3,
+    "minimum_core_credits": 5.0,
+    "core_credits_text_value": 5.0,
+    "minimum_total_credits": 9.0,
+    "minimum_outside_home_department_credits": 3.0,
+    "credit_constraints": [
+      {
+        "constraint_id": "constraint_04d24947f3b37b2a",
+        "kind": "minimum_credits",
+        "scope": {
+          "kind": "catalog_filter",
+          "requirement_groups": [
+            "core"
+          ]
+        },
+        "minimum_credits": 5.0,
+        "requirement_context": "program_completion",
+        "source_page": 1,
+        "source_text": "核心課程學分數: 5 學分",
+        "validation_status": "source_text_match"
+      },
+      {
+        "constraint_id": "constraint_312ba592cce58c5d",
+        "kind": "minimum_credits",
+        "scope": {
+          "kind": "course_eligibility",
+          "excluded_affiliations": [
+            "home_department",
+            "double_major",
+            "minor"
+          ],
+          "excluded_course_roles": [
+            "all"
+          ]
+        },
+        "minimum_credits": 3.0,
+        "requirement_context": "program_completion",
+        "source_page": 1,
+        "source_text": "至少應有3學分不屬於學生本系所",
+        "validation_status": "source_text_match"
+      },
+      {
+        "constraint_id": "constraint_e4e3ec6325db6e04",
+        "kind": "minimum_credits",
+        "scope": {
+          "kind": "program"
+        },
+        "minimum_credits": 9.0,
+        "requirement_context": "program_completion",
+        "source_page": 1,
+        "source_text": "總學分數:至少 9 學分",
+        "validation_status": "source_text_match"
+      }
+    ],
     "entry_selection_constraints": [
       {
         "constraint_id": "constraint_05ba4f2b9523fd7e",
@@ -299,7 +360,7 @@
         "requirement_group": "core",
         "requirement_section": "core",
         "source_page": 1,
-        "source_text": "設計思考(3)、創意思考與問題解決(3)或創造力與社會創新(3)三擇一",
+        "source_text": " 人科學程 設計思考 3 設計思考(3)、創意思考與問題 解決(3)或創造力與社會創新(3) 三擇一",
         "validation_status": "source_text_match"
       },
       {
@@ -320,9 +381,21 @@
         "requirement_group": "core",
         "requirement_section": "core",
         "source_page": 1,
-        "source_text": "生態學(3)或生物多樣性與保育(2) 二擇一",
+        "source_text": "核 心 課 程 生科系 生態學 3 生態學(3)或生物多樣性與保育 (2) 二擇一",
         "validation_status": "source_text_match"
       }
-    ]
+    ],
+    "completion_summary": {
+      "model_status": "partial",
+      "minimum_total_credits": 9.0,
+      "minimum_core_credits": 5.0,
+      "maximum_core_credits": null,
+      "minimum_elective_credits": null,
+      "minimum_core_courses": null,
+      "minimum_elective_courses": null,
+      "has_conditional_requirements": false,
+      "has_manual_requirements": false,
+      "has_unresolved_conflicts": false
+    }
   }
 }

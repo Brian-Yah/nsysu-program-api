@@ -1,0 +1,274 @@
+{
+  "schema_version": 1,
+  "academic_version": "115-1",
+  "program_id": "prog_d712dc5849f457ae",
+  "based_on": {
+    "pdf_binary_sha256": "fde2b4c90d16b7ab7eaf82f19f3eedca10cd44698fabfea8255428813d722f63",
+    "normalized_text_sha256": "37561d45da3dd8a21008aed9421cb9ca43c4f9b79bfd292188e28e2d9bbc4d0c",
+    "selected_pdf_academic_version": "114-1",
+    "parser_version": "0.3.0",
+    "course_catalog_sha256": "50227ad14c1077d38734380a22830393d2ac6528d8a465b3dc1771d85e99a5bf"
+  },
+  "course_catalog": [
+    {
+      "course_code": null,
+      "catalog_entry_id": "entry_200367223585c22d",
+      "opening_units": [
+        "管理學院"
+      ],
+      "opening_unit_snapshot": "管理學院",
+      "course_name_snapshot": "金融數據分析",
+      "credits_snapshot": 3.0,
+      "requirement_group": "core",
+      "requirement_section": "core",
+      "requirement_label": null,
+      "program_course_name_snapshot": null,
+      "notes": "必修課",
+      "source_page": 1,
+      "evidence_match": true,
+      "validation_status": "needs_course_code_verification",
+      "uncertainty_reason": "Official PDF table does not provide a course code"
+    },
+    {
+      "course_code": null,
+      "catalog_entry_id": "entry_f2ff61f883f45dd2",
+      "opening_units": [
+        "管理學院"
+      ],
+      "opening_unit_snapshot": "管理學院",
+      "course_name_snapshot": "商管軟體設計",
+      "credits_snapshot": 3.0,
+      "requirement_group": "core",
+      "requirement_section": "core",
+      "requirement_label": null,
+      "program_course_name_snapshot": null,
+      "notes": "必修課",
+      "source_page": 1,
+      "evidence_match": true,
+      "validation_status": "needs_course_code_verification",
+      "uncertainty_reason": "Official PDF table does not provide a course code"
+    },
+    {
+      "course_code": null,
+      "catalog_entry_id": "entry_52bf19b0e6bd8fb7",
+      "opening_units": [
+        "管理學院"
+      ],
+      "opening_unit_snapshot": "管理學院",
+      "course_name_snapshot": "金融服務與金融科技資料案例",
+      "credits_snapshot": 3.0,
+      "requirement_group": "core",
+      "requirement_section": "core",
+      "requirement_label": null,
+      "program_course_name_snapshot": null,
+      "notes": "每年春季開設/必修課",
+      "source_page": 1,
+      "evidence_match": true,
+      "validation_status": "needs_course_code_verification",
+      "uncertainty_reason": "Official PDF table does not provide a course code"
+    },
+    {
+      "course_code": null,
+      "catalog_entry_id": "entry_f3ff53043f87e961",
+      "opening_units": [
+        "管理學院"
+      ],
+      "opening_unit_snapshot": "管理學院",
+      "course_name_snapshot": "大數據、機器學習與人工智慧",
+      "credits_snapshot": 3.0,
+      "requirement_group": "core",
+      "requirement_section": "core",
+      "requirement_label": null,
+      "program_course_name_snapshot": null,
+      "notes": "每年秋季開設",
+      "source_page": 1,
+      "evidence_match": true,
+      "validation_status": "needs_course_code_verification",
+      "uncertainty_reason": "Official PDF table does not provide a course code"
+    },
+    {
+      "course_code": null,
+      "catalog_entry_id": "entry_9332fc8c70a2ae85",
+      "opening_units": [
+        "資管系"
+      ],
+      "opening_unit_snapshot": "資管系",
+      "course_name_snapshot": "巨量分析導論",
+      "credits_snapshot": 3.0,
+      "requirement_group": "core",
+      "requirement_section": "core",
+      "requirement_label": null,
+      "program_course_name_snapshot": null,
+      "notes": "每年秋季開設",
+      "source_page": 1,
+      "evidence_match": true,
+      "validation_status": "needs_course_code_verification",
+      "uncertainty_reason": "Official PDF table does not provide a course code"
+    },
+    {
+      "course_code": null,
+      "catalog_entry_id": "entry_456281df8822ea87",
+      "opening_units": [
+        "管理學院"
+      ],
+      "opening_unit_snapshot": "管理學院",
+      "course_name_snapshot": "R:程式、機率與統計",
+      "credits_snapshot": 3.0,
+      "requirement_group": "elective",
+      "requirement_section": "elective",
+      "requirement_label": null,
+      "program_course_name_snapshot": null,
+      "notes": "",
+      "source_page": 1,
+      "evidence_match": true,
+      "validation_status": "needs_course_code_verification",
+      "uncertainty_reason": "Official PDF table does not provide a course code"
+    },
+    {
+      "course_code": null,
+      "catalog_entry_id": "entry_ca55d585be82c569",
+      "opening_units": [
+        "資管系"
+      ],
+      "opening_unit_snapshot": "資管系",
+      "course_name_snapshot": "金融科技",
+      "credits_snapshot": 3.0,
+      "requirement_group": "elective",
+      "requirement_section": "elective",
+      "requirement_label": null,
+      "program_course_name_snapshot": null,
+      "notes": "每年春季開設",
+      "source_page": 1,
+      "evidence_match": true,
+      "validation_status": "needs_course_code_verification",
+      "uncertainty_reason": "Official PDF table does not provide a course code"
+    },
+    {
+      "course_code": null,
+      "catalog_entry_id": "entry_0f3094e5bca8c41e",
+      "opening_units": [
+        "資管系"
+      ],
+      "opening_unit_snapshot": "資管系",
+      "course_name_snapshot": "資料庫系統",
+      "credits_snapshot": 3.0,
+      "requirement_group": "elective",
+      "requirement_section": "elective",
+      "requirement_label": null,
+      "program_course_name_snapshot": null,
+      "notes": "每年春季開設",
+      "source_page": 1,
+      "evidence_match": true,
+      "validation_status": "needs_course_code_verification",
+      "uncertainty_reason": "Official PDF table does not provide a course code"
+    }
+  ],
+  "structured_requirements": {
+    "minimum_core_credits": 6.0,
+    "core_credits_text_value": 6.0,
+    "minimum_outside_home_department_credits": 3.0,
+    "credit_constraints": [
+      {
+        "constraint_id": "constraint_312ba592cce58c5d",
+        "kind": "minimum_credits",
+        "scope": {
+          "kind": "course_eligibility",
+          "excluded_affiliations": [
+            "home_department",
+            "double_major",
+            "minor"
+          ],
+          "excluded_course_roles": [
+            "all"
+          ]
+        },
+        "minimum_credits": 3.0,
+        "requirement_context": "program_completion",
+        "source_page": 1,
+        "source_text": "至少應有3學分不屬於學生本系所",
+        "validation_status": "source_text_match"
+      },
+      {
+        "constraint_id": "constraint_bf7aacced70d28a0",
+        "kind": "minimum_credits",
+        "scope": {
+          "kind": "catalog_filter",
+          "requirement_groups": [
+            "core"
+          ]
+        },
+        "minimum_credits": 6.0,
+        "requirement_context": "program_completion",
+        "source_page": 1,
+        "source_text": "核心課程學分數:6學分",
+        "validation_status": "source_text_match"
+      },
+      {
+        "constraint_id": "constraint_c4ef590c44f5b35c",
+        "kind": "minimum_credits",
+        "scope": {
+          "kind": "program"
+        },
+        "minimum_credits": 11.0,
+        "requirement_context": "program_completion",
+        "source_page": 1,
+        "source_text": "※【微學程】課程規劃至少 11 學分。",
+        "validation_status": "human_verified"
+      }
+    ],
+    "source_conflicts": [
+      {
+        "conflict_id": "conflict_441aed2b2a458dd2",
+        "semantic_key": "program.minimum_total_credits",
+        "candidates": [
+          {
+            "candidate_id": "candidate_c07115c50a5696a4",
+            "value": 9.0,
+            "source_evidence": [
+              {
+                "source_page": 1,
+                "source_text": "總學分數:至少9學分",
+                "validation_status": "source_text_match"
+              }
+            ]
+          },
+          {
+            "candidate_id": "candidate_ef9332f3c1212557",
+            "value": 11.0,
+            "source_evidence": [
+              {
+                "source_page": 1,
+                "source_text": "總學分數:至少9學分※【微學程】課程規劃至少11學分",
+                "validation_status": "source_text_match"
+              }
+            ]
+          }
+        ],
+        "resolution_status": "resolved",
+        "selected_candidate_id": "candidate_ef9332f3c1212557",
+        "resolution_note": "Human review selected 11 credits: the same page explicitly states that a micro-program curriculum requires at least 11 credits."
+      }
+    ],
+    "manual_requirements": [
+      {
+        "requirement_id": "requirement_0ab275e67c0cefc4",
+        "kind": "manual_verification",
+        "requirement_type": "certificate",
+        "description": "獲得至少11學分後才有領取微學程證書",
+        "verification_mode": "manual_review",
+        "requirement_context": "certificate",
+        "source_page": 1,
+        "source_text": "獲得至少11學分後才有領取微學程證書",
+        "validation_status": "source_text_match"
+      }
+    ],
+    "minimum_total_credits": 11.0
+  },
+  "review_status": "needs_review",
+  "review": {
+    "reviewer": "Brian",
+    "reviewed_at": "2026-08-16T14:14:08Z",
+    "review_note": "管理學院 商管軟體設計 3  是否需要列入",
+    "correction_status": "rechecked"
+  }
+}

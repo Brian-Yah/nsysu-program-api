@@ -29,16 +29,16 @@
         "last_modified": "Tue, 23 Dec 2025 06:57:00 GMT",
         "content_length": 240337
       },
-      "parser_version": "0.2.3",
+      "parser_version": "0.3.0",
       "extractor_versions": {
         "pypdf": "6.10.0",
         "pdfplumber": "0.11.9"
       }
     },
-    "review_status": "needs_review",
+    "review_status": "ai_approved",
     "rules": {
       "kind": "manual_review",
-      "reason": "Extracted candidate awaits approval"
+      "reason": "Legacy course-code evaluator is unavailable; AI-Approved status applies to structured_requirements"
     },
     "warnings": [],
     "selected_pdf_academic_version": "114-1",
@@ -55,6 +55,7 @@
         "credits_snapshot": 3.0,
         "requirement_group": "core",
         "requirement_section": "core",
+        "requirement_label": null,
         "program_course_name_snapshot": null,
         "notes": "",
         "source_page": 1,
@@ -73,6 +74,7 @@
         "credits_snapshot": 3.0,
         "requirement_group": "core",
         "requirement_section": "core",
+        "requirement_label": null,
         "program_course_name_snapshot": null,
         "notes": "",
         "source_page": 1,
@@ -91,6 +93,7 @@
         "credits_snapshot": 3.0,
         "requirement_group": "core",
         "requirement_section": "core",
+        "requirement_label": null,
         "program_course_name_snapshot": null,
         "notes": "",
         "source_page": 1,
@@ -109,6 +112,7 @@
         "credits_snapshot": 3.0,
         "requirement_group": "core",
         "requirement_section": "core",
+        "requirement_label": null,
         "program_course_name_snapshot": null,
         "notes": "",
         "source_page": 1,
@@ -127,6 +131,7 @@
         "credits_snapshot": 3.0,
         "requirement_group": "elective",
         "requirement_section": "elective",
+        "requirement_label": null,
         "program_course_name_snapshot": null,
         "notes": "",
         "source_page": 1,
@@ -145,6 +150,7 @@
         "credits_snapshot": 3.0,
         "requirement_group": "elective",
         "requirement_section": "elective",
+        "requirement_label": null,
         "program_course_name_snapshot": null,
         "notes": "",
         "source_page": 1,
@@ -163,6 +169,7 @@
         "credits_snapshot": 3.0,
         "requirement_group": "elective",
         "requirement_section": "elective",
+        "requirement_label": null,
         "program_course_name_snapshot": null,
         "notes": "",
         "source_page": 1,
@@ -181,6 +188,7 @@
         "credits_snapshot": 3.0,
         "requirement_group": "elective",
         "requirement_section": "elective",
+        "requirement_label": null,
         "program_course_name_snapshot": null,
         "notes": "",
         "source_page": 1,
@@ -199,6 +207,7 @@
         "credits_snapshot": 3.0,
         "requirement_group": "elective",
         "requirement_section": "elective",
+        "requirement_label": null,
         "program_course_name_snapshot": null,
         "notes": "",
         "source_page": 1,
@@ -217,6 +226,7 @@
         "credits_snapshot": 3.0,
         "requirement_group": "elective",
         "requirement_section": "elective",
+        "requirement_label": null,
         "program_course_name_snapshot": null,
         "notes": "",
         "source_page": 1,
@@ -235,6 +245,7 @@
         "credits_snapshot": 3.0,
         "requirement_group": "elective",
         "requirement_section": "elective",
+        "requirement_label": null,
         "program_course_name_snapshot": null,
         "notes": "",
         "source_page": 1,
@@ -253,6 +264,7 @@
         "credits_snapshot": 3.0,
         "requirement_group": "elective",
         "requirement_section": "elective",
+        "requirement_label": null,
         "program_course_name_snapshot": null,
         "notes": "",
         "source_page": 1,
@@ -271,6 +283,7 @@
         "credits_snapshot": 3.0,
         "requirement_group": "elective",
         "requirement_section": "elective",
+        "requirement_label": null,
         "program_course_name_snapshot": null,
         "notes": "",
         "source_page": 1,
@@ -289,6 +302,7 @@
         "credits_snapshot": 2.0,
         "requirement_group": "elective",
         "requirement_section": "elective",
+        "requirement_label": null,
         "program_course_name_snapshot": null,
         "notes": "",
         "source_page": 1,
@@ -307,6 +321,7 @@
         "credits_snapshot": 2.0,
         "requirement_group": "elective",
         "requirement_section": "elective",
+        "requirement_label": null,
         "program_course_name_snapshot": null,
         "notes": "",
         "source_page": 1,
@@ -325,6 +340,7 @@
         "credits_snapshot": 3.0,
         "requirement_group": "elective",
         "requirement_section": "elective",
+        "requirement_label": null,
         "program_course_name_snapshot": null,
         "notes": "",
         "source_page": 1,
@@ -343,6 +359,7 @@
         "credits_snapshot": 1.0,
         "requirement_group": "elective",
         "requirement_section": "elective",
+        "requirement_label": null,
         "program_course_name_snapshot": null,
         "notes": "(網路)",
         "source_page": 1,
@@ -361,6 +378,7 @@
         "credits_snapshot": 3.0,
         "requirement_group": "elective",
         "requirement_section": "elective",
+        "requirement_label": null,
         "program_course_name_snapshot": null,
         "notes": "限大四以上學生選修",
         "source_page": 1,
@@ -379,6 +397,7 @@
         "credits_snapshot": 3.0,
         "requirement_group": "elective",
         "requirement_section": "elective",
+        "requirement_label": null,
         "program_course_name_snapshot": null,
         "notes": "限大四以上學生選修",
         "source_page": 1,
@@ -397,6 +416,7 @@
         "credits_snapshot": 3.0,
         "requirement_group": "elective",
         "requirement_section": "elective",
+        "requirement_label": null,
         "program_course_name_snapshot": null,
         "notes": "",
         "source_page": 1,
@@ -415,6 +435,7 @@
         "credits_snapshot": 2.0,
         "requirement_group": "elective",
         "requirement_section": "elective",
+        "requirement_label": null,
         "program_course_name_snapshot": null,
         "notes": "",
         "source_page": 1,
@@ -433,6 +454,7 @@
         "credits_snapshot": 1.0,
         "requirement_group": "elective",
         "requirement_section": "elective",
+        "requirement_label": null,
         "program_course_name_snapshot": null,
         "notes": "(網路)",
         "source_page": 1,
@@ -451,6 +473,7 @@
         "credits_snapshot": 1.0,
         "requirement_group": "elective",
         "requirement_section": "elective",
+        "requirement_label": null,
         "program_course_name_snapshot": null,
         "notes": "",
         "source_page": 1,
@@ -469,6 +492,7 @@
         "credits_snapshot": 1.0,
         "requirement_group": "elective",
         "requirement_section": "elective",
+        "requirement_label": null,
         "program_course_name_snapshot": null,
         "notes": "",
         "source_page": 1,
@@ -487,6 +511,7 @@
         "credits_snapshot": 3.0,
         "requirement_group": "elective",
         "requirement_section": "elective",
+        "requirement_label": null,
         "program_course_name_snapshot": null,
         "notes": "",
         "source_page": 1,
@@ -505,6 +530,7 @@
         "credits_snapshot": 3.0,
         "requirement_group": "elective",
         "requirement_section": "elective",
+        "requirement_label": null,
         "program_course_name_snapshot": null,
         "notes": "",
         "source_page": 1,
@@ -523,6 +549,7 @@
         "credits_snapshot": 3.0,
         "requirement_group": "elective",
         "requirement_section": "elective",
+        "requirement_label": null,
         "program_course_name_snapshot": null,
         "notes": "",
         "source_page": 1,
@@ -541,6 +568,7 @@
         "credits_snapshot": 1.0,
         "requirement_group": "elective",
         "requirement_section": "elective",
+        "requirement_label": null,
         "program_course_name_snapshot": null,
         "notes": "",
         "source_page": 1,
@@ -559,6 +587,7 @@
         "credits_snapshot": 1.0,
         "requirement_group": "elective",
         "requirement_section": "elective",
+        "requirement_label": null,
         "program_course_name_snapshot": null,
         "notes": "",
         "source_page": 1,
@@ -577,6 +606,7 @@
         "credits_snapshot": 1.0,
         "requirement_group": "elective",
         "requirement_section": "elective",
+        "requirement_label": null,
         "program_course_name_snapshot": null,
         "notes": "",
         "source_page": 1,
@@ -595,6 +625,7 @@
         "credits_snapshot": 1.0,
         "requirement_group": "elective",
         "requirement_section": "elective",
+        "requirement_label": null,
         "program_course_name_snapshot": null,
         "notes": "",
         "source_page": 2,
@@ -613,6 +644,7 @@
         "credits_snapshot": 1.0,
         "requirement_group": "elective",
         "requirement_section": "elective",
+        "requirement_label": null,
         "program_course_name_snapshot": null,
         "notes": "",
         "source_page": 2,
@@ -631,6 +663,7 @@
         "credits_snapshot": 3.0,
         "requirement_group": "elective",
         "requirement_section": "elective",
+        "requirement_label": null,
         "program_course_name_snapshot": null,
         "notes": "",
         "source_page": 2,
@@ -640,9 +673,78 @@
       }
     ],
     "structured_requirements": {
-      "core_credits_text_value": 6,
-      "minimum_total_credits": 15,
-      "minimum_outside_home_department_credits": 6
+      "minimum_core_credits": 6.0,
+      "core_credits_text_value": 6.0,
+      "minimum_total_credits": 15.0,
+      "minimum_outside_home_department_credits": 6.0,
+      "credit_constraints": [
+        {
+          "constraint_id": "constraint_726e07ebc9046640",
+          "kind": "minimum_credits",
+          "scope": {
+            "kind": "catalog_filter",
+            "requirement_groups": [
+              "core"
+            ]
+          },
+          "minimum_credits": 6.0,
+          "requirement_context": "program_completion",
+          "source_page": 1,
+          "source_text": "核心課程學分數: 6 學分",
+          "validation_status": "source_text_match"
+        },
+        {
+          "constraint_id": "constraint_aacd285688c08ff9",
+          "kind": "minimum_credits",
+          "scope": {
+            "kind": "course_eligibility",
+            "excluded_affiliations": [
+              "home_department",
+              "double_major",
+              "minor"
+            ],
+            "excluded_course_roles": [
+              "all"
+            ]
+          },
+          "minimum_credits": 6.0,
+          "requirement_context": "program_completion",
+          "source_page": 2,
+          "source_text": "至少應有6學分不屬於學生本系所",
+          "validation_status": "source_text_match"
+        },
+        {
+          "constraint_id": "constraint_e7816b364d225856",
+          "kind": "minimum_credits",
+          "scope": {
+            "kind": "program"
+          },
+          "minimum_credits": 15.0,
+          "requirement_context": "program_completion",
+          "source_page": 2,
+          "source_text": "總學分數:至少 15 學分",
+          "validation_status": "source_text_match"
+        }
+      ],
+      "completion_summary": {
+        "model_status": "complete",
+        "minimum_total_credits": 15.0,
+        "minimum_core_credits": 6.0,
+        "maximum_core_credits": null,
+        "minimum_elective_credits": null,
+        "minimum_core_courses": null,
+        "minimum_elective_courses": null,
+        "has_conditional_requirements": false,
+        "has_manual_requirements": false,
+        "has_unresolved_conflicts": false
+      }
+    },
+    "review": {
+      "method": "random_sampled_simple_logic",
+      "policy_version": "simple-logic-v1",
+      "audit_path": "data/ai-review/115-1.json",
+      "candidate_count": 79,
+      "sample_size": 3
     }
   }
 }

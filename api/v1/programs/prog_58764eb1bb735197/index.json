@@ -29,7 +29,7 @@
         "last_modified": "Wed, 01 Jul 2026 06:10:46 GMT",
         "content_length": 251030
       },
-      "parser_version": "0.2.3",
+      "parser_version": "0.3.0",
       "extractor_versions": {
         "pypdf": "6.10.0",
         "pdfplumber": "0.11.9"
@@ -54,6 +54,7 @@
         "credits_snapshot": 3.0,
         "requirement_group": "core",
         "requirement_section": "core",
+        "requirement_label": null,
         "program_course_name_snapshot": null,
         "notes": "",
         "source_page": 1,
@@ -72,6 +73,7 @@
         "credits_snapshot": 3.0,
         "requirement_group": "core",
         "requirement_section": "core",
+        "requirement_label": null,
         "program_course_name_snapshot": null,
         "notes": "",
         "source_page": 1,
@@ -90,6 +92,7 @@
         "credits_snapshot": 3.0,
         "requirement_group": "core",
         "requirement_section": "core",
+        "requirement_label": null,
         "program_course_name_snapshot": null,
         "notes": "適用所有核准修習本學程學生。",
         "source_page": 1,
@@ -108,6 +111,7 @@
         "credits_snapshot": 3.0,
         "requirement_group": "core",
         "requirement_section": "core",
+        "requirement_label": null,
         "program_course_name_snapshot": null,
         "notes": "適用所有核准修習本學程學生。",
         "source_page": 1,
@@ -126,8 +130,28 @@
         "credits_snapshot": 3.0,
         "requirement_group": "core",
         "requirement_section": "core",
+        "requirement_label": null,
         "program_course_name_snapshot": null,
         "notes": "為相同課程,不得重複修習,僅能認列其中一門。適用所有核准修習本學程學生。",
+        "source_page": 1,
+        "evidence_match": false,
+        "validation_status": "needs_course_code_verification",
+        "uncertainty_reason": "Official PDF table does not provide a course code"
+      },
+      {
+        "course_code": null,
+        "catalog_entry_id": "entry_e6bebdc114589511",
+        "opening_units": [
+          "跨院ESP"
+        ],
+        "opening_unit_snapshot": "跨院ESP",
+        "course_name_snapshot": "科技英文閱讀(中高級)ENGLISH READING FORSCIENCE AND TECHNOLOGY( HIGH-INTERMEDIATELEVEL)",
+        "credits_snapshot": 3.0,
+        "requirement_group": "core",
+        "requirement_section": "core",
+        "requirement_label": null,
+        "program_course_name_snapshot": null,
+        "notes": "",
         "source_page": 1,
         "evidence_match": false,
         "validation_status": "needs_course_code_verification",
@@ -144,6 +168,7 @@
         "credits_snapshot": 3.0,
         "requirement_group": "core",
         "requirement_section": "core",
+        "requirement_label": null,
         "program_course_name_snapshot": null,
         "notes": "適用所有核准修習本學程學生。",
         "source_page": 1,
@@ -162,6 +187,7 @@
         "credits_snapshot": 3.0,
         "requirement_group": "core",
         "requirement_section": "core",
+        "requirement_label": null,
         "program_course_name_snapshot": null,
         "notes": "",
         "source_page": 1,
@@ -180,6 +206,7 @@
         "credits_snapshot": 3.0,
         "requirement_group": "core",
         "requirement_section": "core",
+        "requirement_label": null,
         "program_course_name_snapshot": null,
         "notes": "為相同課程,不得重複修習,僅能認列其中一門。",
         "source_page": 2,
@@ -198,6 +225,7 @@
         "credits_snapshot": 3.0,
         "requirement_group": "core",
         "requirement_section": "core",
+        "requirement_label": null,
         "program_course_name_snapshot": null,
         "notes": "",
         "source_page": 2,
@@ -216,6 +244,7 @@
         "credits_snapshot": 3.0,
         "requirement_group": "core",
         "requirement_section": "core",
+        "requirement_label": null,
         "program_course_name_snapshot": null,
         "notes": "為相同課程,不得重複修習,僅能認列其中一門。",
         "source_page": 2,
@@ -234,6 +263,7 @@
         "credits_snapshot": 3.0,
         "requirement_group": "core",
         "requirement_section": "core",
+        "requirement_label": null,
         "program_course_name_snapshot": null,
         "notes": "",
         "source_page": 2,
@@ -252,6 +282,7 @@
         "credits_snapshot": 3.0,
         "requirement_group": "core",
         "requirement_section": "core",
+        "requirement_label": null,
         "program_course_name_snapshot": null,
         "notes": "為相同課程,不得重複修習,僅能認列其中一門。適用所有核准修習本學程學生。",
         "source_page": 2,
@@ -270,6 +301,7 @@
         "credits_snapshot": 3.0,
         "requirement_group": "core",
         "requirement_section": "core",
+        "requirement_label": null,
         "program_course_name_snapshot": null,
         "notes": "",
         "source_page": 2,
@@ -288,6 +320,7 @@
         "credits_snapshot": 3.0,
         "requirement_group": "core",
         "requirement_section": "core",
+        "requirement_label": null,
         "program_course_name_snapshot": null,
         "notes": "",
         "source_page": 2,
@@ -306,6 +339,7 @@
         "credits_snapshot": 3.0,
         "requirement_group": "elective",
         "requirement_section": "elective",
+        "requirement_label": null,
         "program_course_name_snapshot": null,
         "notes": "",
         "source_page": 2,
@@ -324,9 +358,48 @@
         "credits_snapshot": 3.0,
         "requirement_group": "elective",
         "requirement_section": "elective",
+        "requirement_label": null,
         "program_course_name_snapshot": null,
         "notes": "為相同課程,不得重複修習,僅能認列其中一門。",
         "source_page": 2,
+        "evidence_match": false,
+        "validation_status": "needs_course_code_verification",
+        "uncertainty_reason": "Official PDF table does not provide a course code"
+      },
+      {
+        "course_code": null,
+        "catalog_entry_id": "entry_35a0953fb64f5914",
+        "opening_units": [
+          "跨院EAP"
+        ],
+        "opening_unit_snapshot": "跨院EAP",
+        "course_name_snapshot": "成功的英文寫作(中級)WRITING FOR SUCCESS INENGLISH(INTERMEDIATELEVEL)",
+        "credits_snapshot": 3.0,
+        "requirement_group": "elective",
+        "requirement_section": "elective",
+        "requirement_label": null,
+        "program_course_name_snapshot": null,
+        "notes": "",
+        "source_page": 3,
+        "evidence_match": false,
+        "validation_status": "needs_course_code_verification",
+        "uncertainty_reason": "Official PDF table does not provide a course code"
+      },
+      {
+        "course_code": null,
+        "catalog_entry_id": "entry_ffe9e3e8d4ade25e",
+        "opening_units": [
+          "跨院EAP"
+        ],
+        "opening_unit_snapshot": "跨院EAP",
+        "course_name_snapshot": "成功的英文寫作(中高級)WRITING FOR SUCCESS INENGLISH (HIGH-INTERMEDIATE LEVEL)",
+        "credits_snapshot": 3.0,
+        "requirement_group": "elective",
+        "requirement_section": "elective",
+        "requirement_label": null,
+        "program_course_name_snapshot": null,
+        "notes": "",
+        "source_page": 3,
         "evidence_match": false,
         "validation_status": "needs_course_code_verification",
         "uncertainty_reason": "Official PDF table does not provide a course code"
@@ -342,10 +415,49 @@
         "credits_snapshot": 3.0,
         "requirement_group": "elective",
         "requirement_section": "elective",
+        "requirement_label": null,
         "program_course_name_snapshot": null,
         "notes": "為相同課程,不得重複修習,僅能認列其中一門。",
         "source_page": 3,
         "evidence_match": false,
+        "validation_status": "needs_course_code_verification",
+        "uncertainty_reason": "Official PDF table does not provide a course code"
+      },
+      {
+        "course_code": null,
+        "catalog_entry_id": "entry_db1316f56a52c2b0",
+        "opening_units": [
+          "跨院ESP"
+        ],
+        "opening_unit_snapshot": "跨院ESP",
+        "course_name_snapshot": "英文商業書信(中級)ENGLISH BUSINESSCORRESPONDENCE(INTERMEDIATE LEVEL)",
+        "credits_snapshot": 3.0,
+        "requirement_group": "elective",
+        "requirement_section": "elective",
+        "requirement_label": null,
+        "program_course_name_snapshot": null,
+        "notes": "",
+        "source_page": 3,
+        "evidence_match": false,
+        "validation_status": "needs_course_code_verification",
+        "uncertainty_reason": "Official PDF table does not provide a course code"
+      },
+      {
+        "course_code": null,
+        "catalog_entry_id": "entry_c650a42a1f158fb7",
+        "opening_units": [
+          "跨院ESP"
+        ],
+        "opening_unit_snapshot": "跨院ESP",
+        "course_name_snapshot": "英文商業書信(中高級)",
+        "credits_snapshot": 3.0,
+        "requirement_group": "elective",
+        "requirement_section": "elective",
+        "requirement_label": null,
+        "program_course_name_snapshot": null,
+        "notes": "",
+        "source_page": 3,
+        "evidence_match": true,
         "validation_status": "needs_course_code_verification",
         "uncertainty_reason": "Official PDF table does not provide a course code"
       },
@@ -360,6 +472,7 @@
         "credits_snapshot": 3.0,
         "requirement_group": "elective",
         "requirement_section": "elective",
+        "requirement_label": null,
         "program_course_name_snapshot": null,
         "notes": "",
         "source_page": 3,
@@ -378,6 +491,7 @@
         "credits_snapshot": 3.0,
         "requirement_group": "elective",
         "requirement_section": "elective",
+        "requirement_label": null,
         "program_course_name_snapshot": null,
         "notes": "",
         "source_page": 3,
@@ -396,6 +510,7 @@
         "credits_snapshot": 3.0,
         "requirement_group": "elective",
         "requirement_section": "elective",
+        "requirement_label": null,
         "program_course_name_snapshot": null,
         "notes": "",
         "source_page": 3,
@@ -414,6 +529,7 @@
         "credits_snapshot": 3.0,
         "requirement_group": "elective",
         "requirement_section": "elective",
+        "requirement_label": null,
         "program_course_name_snapshot": null,
         "notes": "",
         "source_page": 3,
@@ -432,6 +548,7 @@
         "credits_snapshot": 3.0,
         "requirement_group": "elective",
         "requirement_section": "elective",
+        "requirement_label": null,
         "program_course_name_snapshot": null,
         "notes": "",
         "source_page": 3,
@@ -450,6 +567,7 @@
         "credits_snapshot": 3.0,
         "requirement_group": "elective",
         "requirement_section": "elective",
+        "requirement_label": null,
         "program_course_name_snapshot": null,
         "notes": "",
         "source_page": 3,
@@ -468,6 +586,7 @@
         "credits_snapshot": 3.0,
         "requirement_group": "elective",
         "requirement_section": "elective",
+        "requirement_label": null,
         "program_course_name_snapshot": null,
         "notes": "",
         "source_page": 4,
@@ -486,6 +605,7 @@
         "credits_snapshot": 3.0,
         "requirement_group": "elective",
         "requirement_section": "elective",
+        "requirement_label": null,
         "program_course_name_snapshot": null,
         "notes": "",
         "source_page": 4,
@@ -504,6 +624,7 @@
         "credits_snapshot": 3.0,
         "requirement_group": "elective",
         "requirement_section": "elective",
+        "requirement_label": null,
         "program_course_name_snapshot": null,
         "notes": "",
         "source_page": 4,
@@ -522,6 +643,7 @@
         "credits_snapshot": 3.0,
         "requirement_group": "elective",
         "requirement_section": "elective",
+        "requirement_label": null,
         "program_course_name_snapshot": null,
         "notes": "",
         "source_page": 4,
@@ -540,6 +662,7 @@
         "credits_snapshot": 3.0,
         "requirement_group": "elective",
         "requirement_section": "elective",
+        "requirement_label": null,
         "program_course_name_snapshot": null,
         "notes": "",
         "source_page": 4,
@@ -558,6 +681,7 @@
         "credits_snapshot": 3.0,
         "requirement_group": "elective",
         "requirement_section": "elective",
+        "requirement_label": null,
         "program_course_name_snapshot": null,
         "notes": "",
         "source_page": 4,
@@ -576,6 +700,7 @@
         "credits_snapshot": 3.0,
         "requirement_group": "elective",
         "requirement_section": "elective",
+        "requirement_label": null,
         "program_course_name_snapshot": null,
         "notes": "",
         "source_page": 4,
@@ -594,6 +719,7 @@
         "credits_snapshot": 3.0,
         "requirement_group": "elective",
         "requirement_section": "elective",
+        "requirement_label": null,
         "program_course_name_snapshot": null,
         "notes": "適用所有核准修習本學程學生",
         "source_page": 5,
@@ -612,6 +738,7 @@
         "credits_snapshot": 3.0,
         "requirement_group": "elective",
         "requirement_section": "elective",
+        "requirement_label": null,
         "program_course_name_snapshot": null,
         "notes": "適用所有核准修習本學程學生。",
         "source_page": 5,
@@ -621,9 +748,219 @@
       }
     ],
     "structured_requirements": {
-      "core_credits_text_value": 6,
-      "minimum_total_credits": 15,
-      "minimum_outside_home_department_credits": 6
+      "minimum_core_credits": 6.0,
+      "core_credits_text_value": 6.0,
+      "minimum_total_credits": 15.0,
+      "minimum_outside_home_department_credits": 6.0,
+      "credit_constraints": [
+        {
+          "constraint_id": "constraint_698281b16ebb7f2a",
+          "kind": "maximum_counted_credits",
+          "scope": {
+            "kind": "catalog_entries",
+            "catalog_entry_ids": [
+              "entry_6729e03a14b95080",
+              "entry_e6bebdc114589511"
+            ]
+          },
+          "maximum_counted_credits": 3.0,
+          "requirement_context": "program_completion",
+          "source_page": 1,
+          "source_text": "基礎教育中心 科技英文閱讀 ENGLISH READING FOR SCIENCE AND TECHNOLOGY 3 為相同課程,不得重複修習, 僅能認列其中一門。適用所有 核准修習本學程學生。",
+          "validation_status": "source_text_match"
+        },
+        {
+          "constraint_id": "constraint_4def9a250cc9b27e",
+          "kind": "maximum_counted_credits",
+          "scope": {
+            "kind": "catalog_entries",
+            "catalog_entry_ids": [
+              "entry_005c53e37729b476",
+              "entry_6844f2313b88319e"
+            ]
+          },
+          "maximum_counted_credits": 3.0,
+          "requirement_context": "program_completion",
+          "source_page": 2,
+          "source_text": "基礎教育中心 從英語課程學習多元文化 DEVELOPING MULTICULTURAL AWARENESS IN ENGLISH CLASSROOM 3 為相同課程,不得重複修習, 僅能認列其中一門。",
+          "validation_status": "source_text_match"
+        },
+        {
+          "constraint_id": "constraint_ae066876f0ad67a1",
+          "kind": "maximum_counted_credits",
+          "scope": {
+            "kind": "catalog_entries",
+            "catalog_entry_ids": [
+              "entry_6e66243bebd35bda",
+              "entry_78cd6edc5a76d7a6"
+            ]
+          },
+          "maximum_counted_credits": 3.0,
+          "requirement_context": "program_completion",
+          "source_page": 2,
+          "source_text": "基礎教育中心 透過實用性英語增進溝通能力 IMPROVING COMMUNICATION SKILLS THROUGH FUNCTIONAL ENGLISH 3 為相同課程,不得重複修習, 僅能認列其中一門。",
+          "validation_status": "source_text_match"
+        },
+        {
+          "constraint_id": "constraint_b28ce88a85c38274",
+          "kind": "maximum_counted_credits",
+          "scope": {
+            "kind": "catalog_entries",
+            "catalog_entry_ids": [
+              "entry_511728d6ec56a003",
+              "entry_35a0953fb64f5914",
+              "entry_ffe9e3e8d4ade25e"
+            ]
+          },
+          "maximum_counted_credits": 3.0,
+          "requirement_context": "program_completion",
+          "source_page": 2,
+          "source_text": "基礎教育中心 成功的英文寫作 WRITING FOR SUCCESS IN ENGLISH 3 為相同課程,不得重複修習, 僅能認列其中一門。",
+          "validation_status": "source_text_match"
+        },
+        {
+          "constraint_id": "constraint_e1662f1f15075b56",
+          "kind": "minimum_credits",
+          "scope": {
+            "kind": "catalog_filter",
+            "requirement_groups": [
+              "core"
+            ]
+          },
+          "minimum_credits": 6.0,
+          "requirement_context": "program_completion",
+          "source_page": 2,
+          "source_text": "核心課程〈專業模組課程〉學分數:6學分",
+          "validation_status": "source_text_match"
+        },
+        {
+          "constraint_id": "constraint_fdf76830581afc18",
+          "kind": "maximum_counted_credits",
+          "scope": {
+            "kind": "catalog_entries",
+            "catalog_entry_ids": [
+              "entry_84a6c6d4a10ae17a",
+              "entry_ef03c84c19c40089",
+              "entry_91239b817c37051f"
+            ]
+          },
+          "maximum_counted_credits": 3.0,
+          "requirement_context": "program_completion",
+          "source_page": 2,
+          "source_text": "基礎教育中心 通過體驗式學習自信地說英語 SPEAKING ENGLISH WITH CONFIDENCE THROUGH EXPERIENTIAL LEARNING 3 為相同課程,不得重複修習, 僅能認列其中一門。 適用所有核准修習本學程學 生。",
+          "validation_status": "source_text_match"
+        },
+        {
+          "constraint_id": "constraint_c9d8390f6b4bf81b",
+          "kind": "maximum_counted_credits",
+          "scope": {
+            "kind": "catalog_entries",
+            "catalog_entry_ids": [
+              "entry_e8cf42cb03b05dbe",
+              "entry_db1316f56a52c2b0",
+              "entry_c650a42a1f158fb7"
+            ]
+          },
+          "maximum_counted_credits": 3.0,
+          "requirement_context": "program_completion",
+          "source_page": 3,
+          "source_text": "基礎教育中心 英文商業書信 ENGLISH BUSINESS CORRESPONDENCE 3 為相同課程,不得重複修習, 僅能認列其中一門。",
+          "validation_status": "source_text_match"
+        },
+        {
+          "constraint_id": "constraint_aacd285688c08ff9",
+          "kind": "minimum_credits",
+          "scope": {
+            "kind": "course_eligibility",
+            "excluded_affiliations": [
+              "home_department",
+              "double_major",
+              "minor"
+            ],
+            "excluded_course_roles": [
+              "all"
+            ]
+          },
+          "minimum_credits": 6.0,
+          "requirement_context": "program_completion",
+          "source_page": 5,
+          "source_text": "至少應有6學分不屬於學生本系所",
+          "validation_status": "source_text_match"
+        },
+        {
+          "constraint_id": "constraint_e7816b364d225856",
+          "kind": "minimum_credits",
+          "scope": {
+            "kind": "program"
+          },
+          "minimum_credits": 15.0,
+          "requirement_context": "program_completion",
+          "source_page": 5,
+          "source_text": "總學分數:至少 15 學分",
+          "validation_status": "source_text_match"
+        }
+      ],
+      "manual_requirements": [
+        {
+          "requirement_id": "requirement_c5615d1752df9120",
+          "kind": "manual_verification",
+          "requirement_type": "course_eligibility",
+          "description": "為相同課程,不得重複修習",
+          "verification_mode": "manual_review",
+          "requirement_context": "program_completion",
+          "source_page": 1,
+          "source_text": "為相同課程,不得重複修習",
+          "validation_status": "source_text_match"
+        },
+        {
+          "requirement_id": "requirement_75079d10d34bfbfb",
+          "kind": "manual_verification",
+          "requirement_type": "course_eligibility",
+          "description": "相同課名以中文授課者,不採計",
+          "verification_mode": "manual_review",
+          "requirement_context": "program_completion",
+          "source_page": 5,
+          "source_text": "相同課名以中文授課者,不採計",
+          "validation_status": "source_text_match"
+        },
+        {
+          "requirement_id": "requirement_cb82cae63b015617",
+          "kind": "manual_verification",
+          "requirement_type": "course_eligibility",
+          "description": "英語授課者,方得",
+          "verification_mode": "manual_review",
+          "requirement_context": "program_completion",
+          "source_page": 5,
+          "source_text": "英語授課者,方得",
+          "validation_status": "source_text_match"
+        }
+      ],
+      "no_double_count_constraints": [
+        {
+          "constraint_id": "constraint_7586b13ff58c7a5a",
+          "kind": "no_double_count",
+          "requirement_groups": [
+            "core",
+            "elective"
+          ],
+          "max_count_per_course": 1,
+          "source_page": 2,
+          "source_text": "從英語課程學習多元文化 DEVELOPING 基礎教育中心 MULTICULTURAL 3 AWARENESS IN ENGLISH CLASSROOM 從英語課程學習多元文化（中高 為相同課程，不得重複修習， 級） 僅能認列其中一門。",
+          "validation_status": "source_text_match"
+        }
+      ],
+      "completion_summary": {
+        "model_status": "partial",
+        "minimum_total_credits": 15.0,
+        "minimum_core_credits": 6.0,
+        "maximum_core_credits": null,
+        "minimum_elective_credits": null,
+        "minimum_core_courses": null,
+        "minimum_elective_courses": null,
+        "has_conditional_requirements": false,
+        "has_manual_requirements": true,
+        "has_unresolved_conflicts": false
+      }
     }
   }
 }

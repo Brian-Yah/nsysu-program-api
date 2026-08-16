@@ -23,7 +23,7 @@
       "last_modified": "Thu, 13 Aug 2026 06:20:23 GMT",
       "content_length": 141119
     },
-    "parser_version": "0.2.3",
+    "parser_version": "0.3.0",
     "extractor_versions": {
       "pypdf": "6.10.0",
       "pdfplumber": "0.11.9"
@@ -34,11 +34,28 @@
     "kind": "manual_review",
     "reason": "Extracted candidate awaits approval"
   },
-  "warnings": [
-    "No structured course rows extracted from PDF tables"
-  ],
+  "warnings": [],
   "selected_pdf_academic_version": "113-1",
   "course_catalog": [
+    {
+      "course_code": null,
+      "catalog_entry_id": "entry_a7570d6548953bcf",
+      "opening_units": [
+        "臺灣大專院校人工智慧學程聯盟"
+      ],
+      "opening_unit_snapshot": "臺灣大專院校人工智慧學程聯盟",
+      "course_name_snapshot": "Python程式設計入門",
+      "credits_snapshot": 3.0,
+      "requirement_group": "unspecified",
+      "requirement_section": "unspecified",
+      "requirement_label": "程式設計(1or2)",
+      "program_course_name_snapshot": "Python程式設計入門",
+      "notes": "TAICA 系列課程 Python 程式設計 每一向度至少需修習一門課程。",
+      "source_page": 1,
+      "evidence_match": true,
+      "validation_status": "needs_course_code_verification",
+      "uncertainty_reason": "Official PDF table does not provide a course code"
+    },
     {
       "course_code": null,
       "catalog_entry_id": "entry_a7570d6548953bcf",
@@ -50,8 +67,28 @@
       "credits_snapshot": 3.0,
       "requirement_group": "unspecified",
       "requirement_section": "unspecified",
-      "program_course_name_snapshot": null,
-      "notes": "Python 程式設計",
+      "requirement_label": "程式設計(1or2)",
+      "program_course_name_snapshot": "Python程式設計入門",
+      "notes": "Python 程式設計 每一向度至少需修習一門課程。",
+      "source_page": 1,
+      "evidence_match": true,
+      "validation_status": "needs_course_code_verification",
+      "uncertainty_reason": "Official PDF table does not provide a course code"
+    },
+    {
+      "course_code": null,
+      "catalog_entry_id": "entry_a3c33bcda9b7e9dc",
+      "opening_units": [
+        "臺灣大專院校人工智慧學程聯盟"
+      ],
+      "opening_unit_snapshot": "臺灣大專院校人工智慧學程聯盟",
+      "course_name_snapshot": "程式設計(一)",
+      "credits_snapshot": 3.0,
+      "requirement_group": "unspecified",
+      "requirement_section": "unspecified",
+      "requirement_label": "程式設計(1or2)",
+      "program_course_name_snapshot": "程式設計(一)",
+      "notes": "TAICA 系列課程 程式設計 每一向度至少需修習一門課程。",
       "source_page": 1,
       "evidence_match": true,
       "validation_status": "needs_course_code_verification",
@@ -68,8 +105,28 @@
       "credits_snapshot": 3.0,
       "requirement_group": "unspecified",
       "requirement_section": "unspecified",
-      "program_course_name_snapshot": null,
-      "notes": "程式設計",
+      "requirement_label": "程式設計(1or2)",
+      "program_course_name_snapshot": "程式設計(一)",
+      "notes": "程式設計 每一向度至少需修習一門課程。",
+      "source_page": 1,
+      "evidence_match": true,
+      "validation_status": "needs_course_code_verification",
+      "uncertainty_reason": "Official PDF table does not provide a course code"
+    },
+    {
+      "course_code": null,
+      "catalog_entry_id": "entry_32d9eb599208cc59",
+      "opening_units": [
+        "臺灣大專院校人工智慧學程聯盟"
+      ],
+      "opening_unit_snapshot": "臺灣大專院校人工智慧學程聯盟",
+      "course_name_snapshot": "計算機概論與程式設計",
+      "credits_snapshot": 3.0,
+      "requirement_group": "unspecified",
+      "requirement_section": "unspecified",
+      "requirement_label": "程式設計(1or2)",
+      "program_course_name_snapshot": "計算機概論與程式設計",
+      "notes": "TAICA 系列課程 計算機概論 每一向度至少需修習一門課程。",
       "source_page": 1,
       "evidence_match": true,
       "validation_status": "needs_course_code_verification",
@@ -86,8 +143,28 @@
       "credits_snapshot": 3.0,
       "requirement_group": "unspecified",
       "requirement_section": "unspecified",
-      "program_course_name_snapshot": null,
-      "notes": "計算機概論",
+      "requirement_label": "程式設計(1or2)",
+      "program_course_name_snapshot": "計算機概論與程式設計",
+      "notes": "計算機概論 每一向度至少需修習一門課程。",
+      "source_page": 1,
+      "evidence_match": true,
+      "validation_status": "needs_course_code_verification",
+      "uncertainty_reason": "Official PDF table does not provide a course code"
+    },
+    {
+      "course_code": null,
+      "catalog_entry_id": "entry_3a666fd0e50a7494",
+      "opening_units": [
+        "臺灣大專院校人工智慧學程聯盟"
+      ],
+      "opening_unit_snapshot": "臺灣大專院校人工智慧學程聯盟",
+      "course_name_snapshot": "計算機程式設計",
+      "credits_snapshot": 3.0,
+      "requirement_group": "unspecified",
+      "requirement_section": "unspecified",
+      "requirement_label": "程式設計(1or2)",
+      "program_course_name_snapshot": "計算機程式設計",
+      "notes": "TAICA 系列課程 計算機程式 每一向度至少需修習一門課程。",
       "source_page": 1,
       "evidence_match": true,
       "validation_status": "needs_course_code_verification",
@@ -104,8 +181,28 @@
       "credits_snapshot": 3.0,
       "requirement_group": "unspecified",
       "requirement_section": "unspecified",
-      "program_course_name_snapshot": null,
-      "notes": "計算機程式",
+      "requirement_label": "程式設計(1or2)",
+      "program_course_name_snapshot": "計算機程式設計",
+      "notes": "計算機程式 每一向度至少需修習一門課程。",
+      "source_page": 1,
+      "evidence_match": true,
+      "validation_status": "needs_course_code_verification",
+      "uncertainty_reason": "Official PDF table does not provide a course code"
+    },
+    {
+      "course_code": null,
+      "catalog_entry_id": "entry_be7fd847ea11e4fb",
+      "opening_units": [
+        "臺灣大專院校人工智慧學程聯盟"
+      ],
+      "opening_unit_snapshot": "臺灣大專院校人工智慧學程聯盟",
+      "course_name_snapshot": "統計",
+      "credits_snapshot": 3.0,
+      "requirement_group": "unspecified",
+      "requirement_section": "unspecified",
+      "requirement_label": "機率(1or2)",
+      "program_course_name_snapshot": "統計",
+      "notes": "TAICA 系列課程 統計學(一) 每一向度至少需修習一門課程。",
       "source_page": 1,
       "evidence_match": true,
       "validation_status": "needs_course_code_verification",
@@ -122,8 +219,28 @@
       "credits_snapshot": 3.0,
       "requirement_group": "unspecified",
       "requirement_section": "unspecified",
-      "program_course_name_snapshot": null,
-      "notes": "統計學(一)",
+      "requirement_label": "機率(1or2)",
+      "program_course_name_snapshot": "統計",
+      "notes": "統計學(一) 每一向度至少需修習一門課程。",
+      "source_page": 1,
+      "evidence_match": true,
+      "validation_status": "needs_course_code_verification",
+      "uncertainty_reason": "Official PDF table does not provide a course code"
+    },
+    {
+      "course_code": null,
+      "catalog_entry_id": "entry_99138fa6af2188fa",
+      "opening_units": [
+        "臺灣大專院校人工智慧學程聯盟"
+      ],
+      "opening_unit_snapshot": "臺灣大專院校人工智慧學程聯盟",
+      "course_name_snapshot": "機率與統計",
+      "credits_snapshot": 3.0,
+      "requirement_group": "unspecified",
+      "requirement_section": "unspecified",
+      "requirement_label": "機率(1or2)",
+      "program_course_name_snapshot": "機率與統計",
+      "notes": "TAICA 系列課程 每一向度至少需修習一門課程。",
       "source_page": 1,
       "evidence_match": true,
       "validation_status": "needs_course_code_verification",
@@ -140,8 +257,28 @@
       "credits_snapshot": 3.0,
       "requirement_group": "unspecified",
       "requirement_section": "unspecified",
-      "program_course_name_snapshot": null,
-      "notes": "機率與統計",
+      "requirement_label": "機率(1or2)",
+      "program_course_name_snapshot": "機率與統計",
+      "notes": "每一向度至少需修習一門課程。",
+      "source_page": 1,
+      "evidence_match": true,
+      "validation_status": "needs_course_code_verification",
+      "uncertainty_reason": "Official PDF table does not provide a course code"
+    },
+    {
+      "course_code": null,
+      "catalog_entry_id": "entry_26a6853f60b514b6",
+      "opening_units": [
+        "臺灣大專院校人工智慧學程聯盟"
+      ],
+      "opening_unit_snapshot": "臺灣大專院校人工智慧學程聯盟",
+      "course_name_snapshot": "機率模型與數據科學",
+      "credits_snapshot": 3.0,
+      "requirement_group": "unspecified",
+      "requirement_section": "unspecified",
+      "requirement_label": "機率(1or2)",
+      "program_course_name_snapshot": "機率模型與數據科學",
+      "notes": "TAICA 系列課程 數據科學實務與創新 每一向度至少需修習一門課程。",
       "source_page": 1,
       "evidence_match": true,
       "validation_status": "needs_course_code_verification",
@@ -158,8 +295,28 @@
       "credits_snapshot": 3.0,
       "requirement_group": "unspecified",
       "requirement_section": "unspecified",
-      "program_course_name_snapshot": null,
-      "notes": "數據科學實務與創新",
+      "requirement_label": "機率(1or2)",
+      "program_course_name_snapshot": "機率模型與數據科學",
+      "notes": "數據科學實務與創新 每一向度至少需修習一門課程。",
+      "source_page": 1,
+      "evidence_match": true,
+      "validation_status": "needs_course_code_verification",
+      "uncertainty_reason": "Official PDF table does not provide a course code"
+    },
+    {
+      "course_code": null,
+      "catalog_entry_id": "entry_e2df07fdb59038e2",
+      "opening_units": [
+        "臺灣大專院校人工智慧學程聯盟"
+      ],
+      "opening_unit_snapshot": "臺灣大專院校人工智慧學程聯盟",
+      "course_name_snapshot": "機率與資料導論",
+      "credits_snapshot": 3.0,
+      "requirement_group": "unspecified",
+      "requirement_section": "unspecified",
+      "requirement_label": "機率(1or2)",
+      "program_course_name_snapshot": "機率與資料導論",
+      "notes": "TAICA 系列課程 機率論(二) 每一向度至少需修習一門課程。",
       "source_page": 1,
       "evidence_match": true,
       "validation_status": "needs_course_code_verification",
@@ -176,8 +333,28 @@
       "credits_snapshot": 3.0,
       "requirement_group": "unspecified",
       "requirement_section": "unspecified",
-      "program_course_name_snapshot": null,
-      "notes": "機率論(二)",
+      "requirement_label": "機率(1or2)",
+      "program_course_name_snapshot": "機率與資料導論",
+      "notes": "機率論(二) 每一向度至少需修習一門課程。",
+      "source_page": 1,
+      "evidence_match": true,
+      "validation_status": "needs_course_code_verification",
+      "uncertainty_reason": "Official PDF table does not provide a course code"
+    },
+    {
+      "course_code": null,
+      "catalog_entry_id": "entry_6c81670e7a458b49",
+      "opening_units": [
+        "臺灣大專院校人工智慧學程聯盟"
+      ],
+      "opening_unit_snapshot": "臺灣大專院校人工智慧學程聯盟",
+      "course_name_snapshot": "人工智慧",
+      "credits_snapshot": 3.0,
+      "requirement_group": "unspecified",
+      "requirement_section": "unspecified",
+      "requirement_label": "人工智慧導論(3or4)",
+      "program_course_name_snapshot": "人工智慧",
+      "notes": "TAICA 系列課程 每一向度至少需修習一門課程。",
       "source_page": 1,
       "evidence_match": true,
       "validation_status": "needs_course_code_verification",
@@ -194,8 +371,28 @@
       "credits_snapshot": 3.0,
       "requirement_group": "unspecified",
       "requirement_section": "unspecified",
-      "program_course_name_snapshot": null,
-      "notes": "人工智慧",
+      "requirement_label": "人工智慧導論(3or4)",
+      "program_course_name_snapshot": "人工智慧",
+      "notes": "每一向度至少需修習一門課程。",
+      "source_page": 1,
+      "evidence_match": true,
+      "validation_status": "needs_course_code_verification",
+      "uncertainty_reason": "Official PDF table does not provide a course code"
+    },
+    {
+      "course_code": null,
+      "catalog_entry_id": "entry_a205b4ee2fc3fec1",
+      "opening_units": [
+        "臺灣大專院校人工智慧學程聯盟"
+      ],
+      "opening_unit_snapshot": "臺灣大專院校人工智慧學程聯盟",
+      "course_name_snapshot": "人工智慧導論與實作",
+      "credits_snapshot": 3.0,
+      "requirement_group": "unspecified",
+      "requirement_section": "unspecified",
+      "requirement_label": "人工智慧導論(3or4)",
+      "program_course_name_snapshot": "人工智慧導論與實作",
+      "notes": "TAICA 系列課程 人工智慧導論 每一向度至少需修習一門課程。",
       "source_page": 1,
       "evidence_match": true,
       "validation_status": "needs_course_code_verification",
@@ -212,8 +409,28 @@
       "credits_snapshot": 3.0,
       "requirement_group": "unspecified",
       "requirement_section": "unspecified",
-      "program_course_name_snapshot": null,
-      "notes": "人工智慧導論",
+      "requirement_label": "人工智慧導論(3or4)",
+      "program_course_name_snapshot": "人工智慧導論與實作",
+      "notes": "人工智慧導論 每一向度至少需修習一門課程。",
+      "source_page": 1,
+      "evidence_match": true,
+      "validation_status": "needs_course_code_verification",
+      "uncertainty_reason": "Official PDF table does not provide a course code"
+    },
+    {
+      "course_code": null,
+      "catalog_entry_id": "entry_80ff0ba53c2c84df",
+      "opening_units": [
+        "臺灣大專院校人工智慧學程聯盟"
+      ],
+      "opening_unit_snapshot": "臺灣大專院校人工智慧學程聯盟",
+      "course_name_snapshot": "人工智慧概論",
+      "credits_snapshot": 3.0,
+      "requirement_group": "unspecified",
+      "requirement_section": "unspecified",
+      "requirement_label": "人工智慧導論(3or4)",
+      "program_course_name_snapshot": "人工智慧概論",
+      "notes": "TAICA 系列課程 每一向度至少需修習一門課程。",
       "source_page": 1,
       "evidence_match": true,
       "validation_status": "needs_course_code_verification",
@@ -230,10 +447,30 @@
       "credits_snapshot": 3.0,
       "requirement_group": "unspecified",
       "requirement_section": "unspecified",
-      "program_course_name_snapshot": null,
-      "notes": "人工智慧概論",
+      "requirement_label": "人工智慧導論(3or4)",
+      "program_course_name_snapshot": "人工智慧概論",
+      "notes": "每一向度至少需修習一門課程。",
       "source_page": 1,
       "evidence_match": true,
+      "validation_status": "needs_course_code_verification",
+      "uncertainty_reason": "Official PDF table does not provide a course code"
+    },
+    {
+      "course_code": null,
+      "catalog_entry_id": "entry_0b663aac57bf8d15",
+      "opening_units": [
+        "臺灣大專院校人工智慧學程聯盟"
+      ],
+      "opening_unit_snapshot": "臺灣大專院校人工智慧學程聯盟",
+      "course_name_snapshot": "人工智慧模型設計與應用",
+      "credits_snapshot": 3.0,
+      "requirement_group": "unspecified",
+      "requirement_section": "unspecified",
+      "requirement_label": "人工智慧導論(3or4)",
+      "program_course_name_snapshot": "人工智慧模型設計與應用",
+      "notes": "TAICA 系列課程 人工智慧在測驗下的相關應用與發展 每一向度至少需修習一門課程。",
+      "source_page": 1,
+      "evidence_match": false,
       "validation_status": "needs_course_code_verification",
       "uncertainty_reason": "Official PDF table does not provide a course code"
     },
@@ -248,10 +485,30 @@
       "credits_snapshot": 3.0,
       "requirement_group": "unspecified",
       "requirement_section": "unspecified",
-      "program_course_name_snapshot": null,
-      "notes": "人工智慧在測驗下的相關應用與發展",
+      "requirement_label": "人工智慧導論(3or4)",
+      "program_course_name_snapshot": "人工智慧模型設計與應用",
+      "notes": "人工智慧在測驗下的相關應用與發展 每一向度至少需修習一門課程。",
       "source_page": 1,
       "evidence_match": false,
+      "validation_status": "needs_course_code_verification",
+      "uncertainty_reason": "Official PDF table does not provide a course code"
+    },
+    {
+      "course_code": null,
+      "catalog_entry_id": "entry_05557d88dd442871",
+      "opening_units": [
+        "臺灣大專院校人工智慧學程聯盟"
+      ],
+      "opening_unit_snapshot": "臺灣大專院校人工智慧學程聯盟",
+      "course_name_snapshot": "人工智慧運算與應用",
+      "credits_snapshot": 3.0,
+      "requirement_group": "unspecified",
+      "requirement_section": "unspecified",
+      "requirement_label": "人工智慧導論(3or4)",
+      "program_course_name_snapshot": "人工智慧運算與應用",
+      "notes": "TAICA 系列課程 人工智慧工具應用 每一向度至少需修習一門課程。",
+      "source_page": 1,
+      "evidence_match": true,
       "validation_status": "needs_course_code_verification",
       "uncertainty_reason": "Official PDF table does not provide a course code"
     },
@@ -266,8 +523,47 @@
       "credits_snapshot": 3.0,
       "requirement_group": "unspecified",
       "requirement_section": "unspecified",
-      "program_course_name_snapshot": null,
-      "notes": "人工智慧工具應用",
+      "requirement_label": "人工智慧導論(3or4)",
+      "program_course_name_snapshot": "人工智慧運算與應用",
+      "notes": "人工智慧工具應用 每一向度至少需修習一門課程。",
+      "source_page": 1,
+      "evidence_match": true,
+      "validation_status": "needs_course_code_verification",
+      "uncertainty_reason": "Official PDF table does not provide a course code"
+    },
+    {
+      "course_code": null,
+      "catalog_entry_id": "entry_cb79480969e92c4a",
+      "opening_units": [
+        "臺灣大專院校人工智慧學程聯盟"
+      ],
+      "opening_unit_snapshot": "臺灣大專院校人工智慧學程聯盟",
+      "course_name_snapshot": "人工智慧倫理、法律、與社會",
+      "credits_snapshot": 3.0,
+      "requirement_group": "unspecified",
+      "requirement_section": "unspecified",
+      "requirement_label": "人工智慧倫理(3or4or5)",
+      "program_course_name_snapshot": "人工智慧倫理、法律、與社會",
+      "notes": "TAICA 系列課程 每一向度至少需修習一門課程。",
+      "source_page": 1,
+      "evidence_match": false,
+      "validation_status": "needs_course_code_verification",
+      "uncertainty_reason": "Official PDF table does not provide a course code"
+    },
+    {
+      "course_code": null,
+      "catalog_entry_id": "entry_8b7aaf74108d3368",
+      "opening_units": [
+        "臺灣大專院校人工智慧學程聯盟"
+      ],
+      "opening_unit_snapshot": "臺灣大專院校人工智慧學程聯盟",
+      "course_name_snapshot": "金融科技導論",
+      "credits_snapshot": 3.0,
+      "requirement_group": "unspecified",
+      "requirement_section": "unspecified",
+      "requirement_label": "人工智慧應用課程(4or5)",
+      "program_course_name_snapshot": "金融科技導論",
+      "notes": "TAICA 系列課程 金融科技 每一向度至少需修習一門課程。",
       "source_page": 1,
       "evidence_match": true,
       "validation_status": "needs_course_code_verification",
@@ -284,13 +580,413 @@
       "credits_snapshot": 3.0,
       "requirement_group": "unspecified",
       "requirement_section": "unspecified",
-      "program_course_name_snapshot": null,
-      "notes": "金融科技",
+      "requirement_label": "人工智慧應用課程(4or5)",
+      "program_course_name_snapshot": "金融科技導論",
+      "notes": "金融科技 每一向度至少需修習一門課程。",
       "source_page": 1,
       "evidence_match": true,
       "validation_status": "needs_course_code_verification",
       "uncertainty_reason": "Official PDF table does not provide a course code"
     }
   ],
-  "structured_requirements": {}
+  "structured_requirements": {
+    "minimum_total_credits": 15.0,
+    "minimum_eligible_curriculum_credits": 9.0,
+    "credit_constraints": [
+      {
+        "constraint_id": "constraint_6a9d549d079f1834",
+        "kind": "minimum_credits",
+        "scope": {
+          "kind": "program"
+        },
+        "minimum_credits": 15.0,
+        "requirement_context": "program_completion",
+        "source_page": 2,
+        "source_text": "總學習學分為15學分",
+        "validation_status": "source_text_match"
+      },
+      {
+        "constraint_id": "constraint_6ae3d8246cc8b200",
+        "kind": "minimum_credits",
+        "scope": {
+          "kind": "course_eligibility",
+          "excluded_affiliations": [
+            "major",
+            "minor",
+            "other_program"
+          ],
+          "excluded_course_roles": [
+            "required",
+            "required_elective"
+          ]
+        },
+        "minimum_credits": 9.0,
+        "requirement_context": "certificate",
+        "source_page": 2,
+        "source_text": "須至少有9學分不屬於其主修",
+        "validation_status": "source_text_match"
+      },
+      {
+        "constraint_id": "constraint_9b66216be277c238",
+        "kind": "minimum_credits",
+        "scope": {
+          "kind": "taica_courses"
+        },
+        "minimum_credits": 8.0,
+        "requirement_context": "certificate",
+        "source_page": 2,
+        "source_text": "至少8學分TAICA聯盟認定課程",
+        "validation_status": "source_text_match"
+      },
+      {
+        "constraint_id": "constraint_bb2eb8679a226e49",
+        "kind": "maximum_counted_credits",
+        "scope": {
+          "kind": "cross_program_recognition"
+        },
+        "maximum_counted_credits": 6.0,
+        "requirement_context": "certificate",
+        "source_page": 2,
+        "source_text": "TAICA學程間之學分相互認抵以6學分為上限",
+        "validation_status": "source_text_match"
+      },
+      {
+        "constraint_id": "constraint_be1b9f73774cd59e",
+        "kind": "maximum_counted_credits",
+        "scope": {
+          "kind": "recognized_similar_courses"
+        },
+        "maximum_counted_credits": 3.0,
+        "requirement_context": "certificate",
+        "source_page": 2,
+        "source_text": "性質相近之課程認抵本學程課程,以3學分為上限",
+        "validation_status": "source_text_match"
+      }
+    ],
+    "manual_requirements": [
+      {
+        "requirement_id": "requirement_d9fa625cda55484a",
+        "kind": "manual_verification",
+        "requirement_type": "certificate",
+        "description": "取得TAICA核發學程學分證明",
+        "verification_mode": "manual_review",
+        "requirement_context": "certificate",
+        "source_page": 2,
+        "source_text": "取得TAICA核發學程學分證明",
+        "validation_status": "source_text_match"
+      }
+    ],
+    "course_count_constraints": [
+      {
+        "constraint_id": "constraint_09b624c4c3466138",
+        "kind": "course_equivalence",
+        "course_names": [
+          "機率模型與數據科學",
+          "數據科學實務與創新"
+        ],
+        "min_courses": 1,
+        "max_courses": 1,
+        "requirement_group": "unspecified",
+        "requirement_section": "unspecified",
+        "source_page": 1,
+        "source_text": "數據科學實務與創新",
+        "validation_status": "source_text_match"
+      },
+      {
+        "constraint_id": "constraint_28b8ab5349e9d9cc",
+        "kind": "course_equivalence",
+        "course_names": [
+          "程式設計(一)",
+          "程式設計"
+        ],
+        "min_courses": 1,
+        "max_courses": 1,
+        "requirement_group": "unspecified",
+        "requirement_section": "unspecified",
+        "source_page": 1,
+        "source_text": "程式設計",
+        "validation_status": "source_text_match"
+      },
+      {
+        "constraint_id": "constraint_487b93234e98c162",
+        "kind": "course_equivalence",
+        "course_names": [
+          "人工智慧導論與實作",
+          "人工智慧導論"
+        ],
+        "min_courses": 1,
+        "max_courses": 1,
+        "requirement_group": "unspecified",
+        "requirement_section": "unspecified",
+        "source_page": 1,
+        "source_text": "人工智慧導論",
+        "validation_status": "source_text_match"
+      },
+      {
+        "constraint_id": "constraint_5c487de69cb8d535",
+        "kind": "course_equivalence",
+        "course_names": [
+          "機率與資料導論",
+          "機率論(二)"
+        ],
+        "min_courses": 1,
+        "max_courses": 1,
+        "requirement_group": "unspecified",
+        "requirement_section": "unspecified",
+        "source_page": 1,
+        "source_text": "機率論(二)",
+        "validation_status": "source_text_match"
+      },
+      {
+        "constraint_id": "constraint_c8991daa5d7bd708",
+        "kind": "course_equivalence",
+        "course_names": [
+          "計算機概論與程式設計",
+          "計算機概論"
+        ],
+        "min_courses": 1,
+        "max_courses": 1,
+        "requirement_group": "unspecified",
+        "requirement_section": "unspecified",
+        "source_page": 1,
+        "source_text": "計算機概論",
+        "validation_status": "source_text_match"
+      },
+      {
+        "constraint_id": "constraint_cf2dcfc816c31e4d",
+        "kind": "course_equivalence",
+        "course_names": [
+          "Python程式設計入門",
+          "Python 程式設計"
+        ],
+        "min_courses": 1,
+        "max_courses": 1,
+        "requirement_group": "unspecified",
+        "requirement_section": "unspecified",
+        "source_page": 1,
+        "source_text": "Python 程式設計",
+        "validation_status": "source_text_match"
+      },
+      {
+        "constraint_id": "constraint_dbafa1178f3c9ffe",
+        "kind": "course_equivalence",
+        "course_names": [
+          "金融科技導論",
+          "金融科技"
+        ],
+        "min_courses": 1,
+        "max_courses": 1,
+        "requirement_group": "unspecified",
+        "requirement_section": "unspecified",
+        "source_page": 1,
+        "source_text": "金融科技",
+        "validation_status": "source_text_match"
+      },
+      {
+        "constraint_id": "constraint_e3f75c2f2c51c40f",
+        "kind": "course_equivalence",
+        "course_names": [
+          "統計",
+          "統計學(一)"
+        ],
+        "min_courses": 1,
+        "max_courses": 1,
+        "requirement_group": "unspecified",
+        "requirement_section": "unspecified",
+        "source_page": 1,
+        "source_text": "統計學(一)",
+        "validation_status": "source_text_match"
+      },
+      {
+        "constraint_id": "constraint_eb6e0905d609aefa",
+        "kind": "course_equivalence",
+        "course_names": [
+          "人工智慧模型設計與應用",
+          "人工智慧在測驗下的相關應用與發展"
+        ],
+        "min_courses": 1,
+        "max_courses": 1,
+        "requirement_group": "unspecified",
+        "requirement_section": "unspecified",
+        "source_page": 1,
+        "source_text": "人工智慧在測驗下的相關應用與發展",
+        "validation_status": "source_text_match"
+      },
+      {
+        "constraint_id": "constraint_f91978d1a87a67a8",
+        "kind": "course_equivalence",
+        "course_names": [
+          "人工智慧運算與應用",
+          "人工智慧工具應用"
+        ],
+        "min_courses": 1,
+        "max_courses": 1,
+        "requirement_group": "unspecified",
+        "requirement_section": "unspecified",
+        "source_page": 1,
+        "source_text": "人工智慧工具應用",
+        "validation_status": "source_text_match"
+      },
+      {
+        "constraint_id": "constraint_fd54a88d846f7c8b",
+        "kind": "course_equivalence",
+        "course_names": [
+          "計算機程式設計",
+          "計算機程式"
+        ],
+        "min_courses": 1,
+        "max_courses": 1,
+        "requirement_group": "unspecified",
+        "requirement_section": "unspecified",
+        "source_page": 1,
+        "source_text": "計算機程式",
+        "validation_status": "source_text_match"
+      }
+    ],
+    "entry_selection_constraints": [
+      {
+        "constraint_id": "constraint_02e93f480f5b2c0f",
+        "kind": "select_entries",
+        "catalog_entry_ids": [
+          "entry_a7570d6548953bcf",
+          "entry_a3c33bcda9b7e9dc",
+          "entry_32d9eb599208cc59",
+          "entry_3a666fd0e50a7494"
+        ],
+        "course_names": [
+          "Python程式設計入門",
+          "Python 程式設計",
+          "程式設計(一)",
+          "程式設計",
+          "計算機概論與程式設計",
+          "計算機概論",
+          "計算機程式設計",
+          "計算機程式"
+        ],
+        "min_entries": 1,
+        "max_entries": null,
+        "declared_option_count": null,
+        "option_count_matches": true,
+        "requirement_group": "unspecified",
+        "requirement_section": "unspecified",
+        "source_page": 2,
+        "source_text": "每一向度至少需修習一門課程。",
+        "validation_status": "source_text_match",
+        "requirement_label": "程式設計(1or2)"
+      },
+      {
+        "constraint_id": "constraint_38acd8ab285e7bcc",
+        "kind": "select_entries",
+        "catalog_entry_ids": [
+          "entry_8b7aaf74108d3368"
+        ],
+        "course_names": [
+          "金融科技導論",
+          "金融科技"
+        ],
+        "min_entries": 1,
+        "max_entries": null,
+        "declared_option_count": null,
+        "option_count_matches": true,
+        "requirement_group": "unspecified",
+        "requirement_section": "unspecified",
+        "source_page": 2,
+        "source_text": "每一向度至少需修習一門課程。",
+        "validation_status": "source_text_match",
+        "requirement_label": "人工智慧應用課程(4or5)"
+      },
+      {
+        "constraint_id": "constraint_3d0368cf5f27ca93",
+        "kind": "select_entries",
+        "catalog_entry_ids": [
+          "entry_6c81670e7a458b49",
+          "entry_a205b4ee2fc3fec1",
+          "entry_80ff0ba53c2c84df",
+          "entry_0b663aac57bf8d15",
+          "entry_05557d88dd442871"
+        ],
+        "course_names": [
+          "人工智慧",
+          "人工智慧導論與實作",
+          "人工智慧導論",
+          "人工智慧概論",
+          "人工智慧模型設計與應用",
+          "人工智慧在測驗下的相關應用與發展",
+          "人工智慧運算與應用",
+          "人工智慧工具應用"
+        ],
+        "min_entries": 1,
+        "max_entries": null,
+        "declared_option_count": null,
+        "option_count_matches": true,
+        "requirement_group": "unspecified",
+        "requirement_section": "unspecified",
+        "source_page": 2,
+        "source_text": "每一向度至少需修習一門課程。",
+        "validation_status": "source_text_match",
+        "requirement_label": "人工智慧導論(3or4)"
+      },
+      {
+        "constraint_id": "constraint_8b0a77c597bd0256",
+        "kind": "select_entries",
+        "catalog_entry_ids": [
+          "entry_be7fd847ea11e4fb",
+          "entry_99138fa6af2188fa",
+          "entry_26a6853f60b514b6",
+          "entry_e2df07fdb59038e2"
+        ],
+        "course_names": [
+          "統計",
+          "統計學(一)",
+          "機率與統計",
+          "機率模型與數據科學",
+          "數據科學實務與創新",
+          "機率與資料導論",
+          "機率論(二)"
+        ],
+        "min_entries": 1,
+        "max_entries": null,
+        "declared_option_count": null,
+        "option_count_matches": true,
+        "requirement_group": "unspecified",
+        "requirement_section": "unspecified",
+        "source_page": 2,
+        "source_text": "每一向度至少需修習一門課程。",
+        "validation_status": "source_text_match",
+        "requirement_label": "機率(1or2)"
+      },
+      {
+        "constraint_id": "constraint_cc017d064a4bde18",
+        "kind": "select_entries",
+        "catalog_entry_ids": [
+          "entry_cb79480969e92c4a"
+        ],
+        "course_names": [
+          "人工智慧倫理、法律、與社會"
+        ],
+        "min_entries": 1,
+        "max_entries": null,
+        "declared_option_count": null,
+        "option_count_matches": true,
+        "requirement_group": "unspecified",
+        "requirement_section": "unspecified",
+        "source_page": 2,
+        "source_text": "每一向度至少需修習一門課程。",
+        "validation_status": "source_text_match",
+        "requirement_label": "人工智慧倫理(3or4or5)"
+      }
+    ],
+    "completion_summary": {
+      "model_status": "partial",
+      "minimum_total_credits": 15.0,
+      "minimum_core_credits": null,
+      "maximum_core_credits": null,
+      "minimum_elective_credits": null,
+      "minimum_core_courses": null,
+      "minimum_elective_courses": null,
+      "has_conditional_requirements": false,
+      "has_manual_requirements": true,
+      "has_unresolved_conflicts": false
+    }
+  }
 }

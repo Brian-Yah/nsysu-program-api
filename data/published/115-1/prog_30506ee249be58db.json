@@ -23,7 +23,7 @@
       "last_modified": "Tue, 24 Dec 2024 07:39:01 GMT",
       "content_length": 284277
     },
-    "parser_version": "0.2.3",
+    "parser_version": "0.3.0",
     "extractor_versions": {
       "pypdf": "6.10.0",
       "pdfplumber": "0.11.9"
@@ -34,9 +34,7 @@
     "kind": "manual_review",
     "reason": "Extracted candidate awaits approval"
   },
-  "warnings": [
-    "No structured course rows extracted from PDF tables"
-  ],
+  "warnings": [],
   "selected_pdf_academic_version": "113-1",
   "course_catalog": [
     {
@@ -52,8 +50,9 @@
       "credits_snapshot": 3.0,
       "requirement_group": "core",
       "requirement_section": "core",
+      "requirement_label": null,
       "program_course_name_snapshot": null,
-      "notes": "任選4門 電路學(一)、或電路學",
+      "notes": "任選4門 電路學(一)、或電路學 核 心 課 程 電機系/跨院選修(工)、機電系 電路學(一)、或電路學 3 任選4門",
       "source_page": 1,
       "evidence_match": true,
       "validation_status": "needs_course_code_verification",
@@ -72,8 +71,9 @@
       "credits_snapshot": 3.0,
       "requirement_group": "core",
       "requirement_section": "core",
+      "requirement_label": null,
       "program_course_name_snapshot": null,
-      "notes": "任選4門 電路學(一)、或電路學",
+      "notes": "任選4門 電路學(一)、或電路學 核 心 課 程 電機系/跨院選修(工)、機電系 電路學(一)、或電路學 3 任選4門",
       "source_page": 1,
       "evidence_match": true,
       "validation_status": "needs_course_code_verification",
@@ -94,8 +94,9 @@
       "credits_snapshot": 3.0,
       "requirement_group": "core",
       "requirement_section": "core",
+      "requirement_label": null,
       "program_course_name_snapshot": null,
-      "notes": "電子學(一)、或數位電子學 任選4門",
+      "notes": "電子學(一)、或數位電子學 核 心 課 程 電機系/跨院選修(工)、機電系 電路學(一)、或電路學 3 任選4門",
       "source_page": 1,
       "evidence_match": true,
       "validation_status": "needs_course_code_verification",
@@ -116,8 +117,9 @@
       "credits_snapshot": 3.0,
       "requirement_group": "core",
       "requirement_section": "core",
+      "requirement_label": null,
       "program_course_name_snapshot": null,
-      "notes": "電子學(一)、或數位電子學 任選4門",
+      "notes": "電子學(一)、或數位電子學 核 心 課 程 電機系/跨院選修(工)、機電系 電路學(一)、或電路學 3 任選4門",
       "source_page": 1,
       "evidence_match": true,
       "validation_status": "needs_course_code_verification",
@@ -137,8 +139,9 @@
       "credits_snapshot": 3.0,
       "requirement_group": "core",
       "requirement_section": "core",
+      "requirement_label": null,
       "program_course_name_snapshot": null,
-      "notes": "任選4門",
+      "notes": "核 心 課 程 電機系/跨院選修(工)、機電系 電路學(一)、或電路學 3 任選4門",
       "source_page": 1,
       "evidence_match": true,
       "validation_status": "needs_course_code_verification",
@@ -159,8 +162,9 @@
       "credits_snapshot": 3.0,
       "requirement_group": "core",
       "requirement_section": "core",
+      "requirement_label": null,
       "program_course_name_snapshot": null,
-      "notes": "電子學(二)、或應用電子學 任選4門",
+      "notes": "電子學(二)、或應用電子學 核 心 課 程 電機系/跨院選修(工)、機電系 電路學(一)、或電路學 3 任選4門",
       "source_page": 1,
       "evidence_match": true,
       "validation_status": "needs_course_code_verification",
@@ -181,8 +185,9 @@
       "credits_snapshot": 3.0,
       "requirement_group": "core",
       "requirement_section": "core",
+      "requirement_label": null,
       "program_course_name_snapshot": null,
-      "notes": "電子學(二)、或應用電子學 任選4門",
+      "notes": "電子學(二)、或應用電子學 核 心 課 程 電機系/跨院選修(工)、機電系 電路學(一)、或電路學 3 任選4門",
       "source_page": 1,
       "evidence_match": true,
       "validation_status": "needs_course_code_verification",
@@ -199,8 +204,9 @@
       "credits_snapshot": 3.0,
       "requirement_group": "core",
       "requirement_section": "core",
+      "requirement_label": null,
       "program_course_name_snapshot": null,
-      "notes": "任選4門",
+      "notes": "核 心 課 程 電機系/跨院選修(工)、機電系 電路學(一)、或電路學 3 任選4門",
       "source_page": 1,
       "evidence_match": true,
       "validation_status": "needs_course_code_verification",
@@ -219,8 +225,9 @@
       "credits_snapshot": 3.0,
       "requirement_group": "core",
       "requirement_section": "core",
+      "requirement_label": null,
       "program_course_name_snapshot": null,
-      "notes": "訊號與系統、或信號與系統 任選4門",
+      "notes": "訊號與系統、或信號與系統 核 心 課 程 電機系/跨院選修(工)、機電系 電路學(一)、或電路學 3 任選4門",
       "source_page": 1,
       "evidence_match": true,
       "validation_status": "needs_course_code_verification",
@@ -239,8 +246,9 @@
       "credits_snapshot": 3.0,
       "requirement_group": "core",
       "requirement_section": "core",
+      "requirement_label": null,
       "program_course_name_snapshot": null,
-      "notes": "訊號與系統、或信號與系統 任選4門",
+      "notes": "訊號與系統、或信號與系統 核 心 課 程 電機系/跨院選修(工)、機電系 電路學(一)、或電路學 3 任選4門",
       "source_page": 1,
       "evidence_match": true,
       "validation_status": "needs_course_code_verification",
@@ -259,8 +267,9 @@
       "credits_snapshot": 3.0,
       "requirement_group": "core",
       "requirement_section": "core",
+      "requirement_label": null,
       "program_course_name_snapshot": null,
-      "notes": "任選2門",
+      "notes": "任選2門  電機碩/資工碩、IC設計所 高等類比積體電路設計 3 任選2門",
       "source_page": 1,
       "evidence_match": true,
       "validation_status": "needs_course_code_verification",
@@ -277,8 +286,9 @@
       "credits_snapshot": 3.0,
       "requirement_group": "core",
       "requirement_section": "core",
+      "requirement_label": null,
       "program_course_name_snapshot": null,
-      "notes": "任選2門",
+      "notes": " 電機碩/資工碩、IC設計所 高等類比積體電路設計 3 任選2門",
       "source_page": 1,
       "evidence_match": true,
       "validation_status": "needs_course_code_verification",
@@ -295,8 +305,9 @@
       "credits_snapshot": 3.0,
       "requirement_group": "core",
       "requirement_section": "core",
+      "requirement_label": null,
       "program_course_name_snapshot": null,
-      "notes": "任選2門",
+      "notes": " 電機碩/資工碩、IC設計所 高等類比積體電路設計 3 任選2門",
       "source_page": 1,
       "evidence_match": true,
       "validation_status": "needs_course_code_verification",
@@ -313,8 +324,9 @@
       "credits_snapshot": 3.0,
       "requirement_group": "elective",
       "requirement_section": "elective",
+      "requirement_label": null,
       "program_course_name_snapshot": null,
-      "notes": "任選1門",
+      "notes": "任選1門 選 修 電機系 通訊系統 3 任選1門",
       "source_page": 1,
       "evidence_match": true,
       "validation_status": "needs_course_code_verification",
@@ -332,8 +344,9 @@
       "credits_snapshot": 3.0,
       "requirement_group": "elective",
       "requirement_section": "elective",
+      "requirement_label": null,
       "program_course_name_snapshot": null,
-      "notes": "任選1門",
+      "notes": "選 修 電機系 通訊系統 3 任選1門",
       "source_page": 1,
       "evidence_match": true,
       "validation_status": "needs_course_code_verification",
@@ -352,8 +365,9 @@
       "credits_snapshot": 3.0,
       "requirement_group": "elective",
       "requirement_section": "elective",
+      "requirement_label": null,
       "program_course_name_snapshot": null,
-      "notes": "任選1門 半導體元件(一)、半導體物理、或半導體元件",
+      "notes": "任選1門 半導體元件(一)、半導體物理、或半導體元件  電機系、光電系、材光碩 半導體元件(一)、半導體物 理、或半導體元件 3 任選1門",
       "source_page": 1,
       "evidence_match": true,
       "validation_status": "needs_course_code_verification",
@@ -372,8 +386,9 @@
       "credits_snapshot": 3.0,
       "requirement_group": "elective",
       "requirement_section": "elective",
+      "requirement_label": null,
       "program_course_name_snapshot": null,
-      "notes": "任選1門 半導體元件(一)、半導體物理、或半導體元件",
+      "notes": "任選1門 半導體元件(一)、半導體物理、或半導體元件  電機系、光電系、材光碩 半導體元件(一)、半導體物 理、或半導體元件 3 任選1門",
       "source_page": 1,
       "evidence_match": true,
       "validation_status": "needs_course_code_verification",
@@ -394,8 +409,9 @@
       "credits_snapshot": 3.0,
       "requirement_group": "elective",
       "requirement_section": "elective",
+      "requirement_label": null,
       "program_course_name_snapshot": null,
-      "notes": "微電子技術、或半導體奈米元件製造技術、或半導體製程設備與技術 任選1門",
+      "notes": "微電子技術、或半導體奈米元件製造技術、或半導體製程設備與技術  電機系、光電系、材光碩 半導體元件(一)、半導體物 理、或半導體元件 3 任選1門",
       "source_page": 1,
       "evidence_match": true,
       "validation_status": "needs_course_code_verification",
@@ -416,8 +432,9 @@
       "credits_snapshot": 3.0,
       "requirement_group": "elective",
       "requirement_section": "elective",
+      "requirement_label": null,
       "program_course_name_snapshot": null,
-      "notes": "微電子技術、或半導體奈米元件製造技術、或半導體製程設備與技術 任選1門",
+      "notes": "微電子技術、或半導體奈米元件製造技術、或半導體製程設備與技術  電機系、光電系、材光碩 半導體元件(一)、半導體物 理、或半導體元件 3 任選1門",
       "source_page": 1,
       "evidence_match": false,
       "validation_status": "needs_course_code_verification",
@@ -438,8 +455,9 @@
       "credits_snapshot": 3.0,
       "requirement_group": "elective",
       "requirement_section": "elective",
+      "requirement_label": null,
       "program_course_name_snapshot": null,
-      "notes": "微電子技術、或半導體奈米元件製造技術、或半導體製程設備與技術 任選1門",
+      "notes": "微電子技術、或半導體奈米元件製造技術、或半導體製程設備與技術  電機系、光電系、材光碩 半導體元件(一)、半導體物 理、或半導體元件 3 任選1門",
       "source_page": 1,
       "evidence_match": false,
       "validation_status": "needs_course_code_verification",
@@ -457,8 +475,9 @@
       "credits_snapshot": 3.0,
       "requirement_group": "elective",
       "requirement_section": "elective",
+      "requirement_label": null,
       "program_course_name_snapshot": null,
-      "notes": "任選1門",
+      "notes": "任選1門  電機碩、IC設計所 通訊介面 IC設計 3 任選1門",
       "source_page": 1,
       "evidence_match": true,
       "validation_status": "needs_course_code_verification",
@@ -476,8 +495,9 @@
       "credits_snapshot": 3.0,
       "requirement_group": "elective",
       "requirement_section": "elective",
+      "requirement_label": null,
       "program_course_name_snapshot": null,
-      "notes": "任選1門",
+      "notes": " 電機碩、IC設計所 通訊介面 IC設計 3 任選1門",
       "source_page": 1,
       "evidence_match": true,
       "validation_status": "needs_course_code_verification",
@@ -485,9 +505,59 @@
     }
   ],
   "structured_requirements": {
-    "minimum_total_credits": 27,
-    "core_credits_text_value": 18,
-    "minimum_outside_home_department_credits": 6,
+    "minimum_core_credits": 18.0,
+    "core_credits_text_value": 18.0,
+    "minimum_total_credits": 27.0,
+    "minimum_outside_home_department_credits": 6.0,
+    "credit_constraints": [
+      {
+        "constraint_id": "constraint_0c31e8ba3652d8f7",
+        "kind": "minimum_credits",
+        "scope": {
+          "kind": "program"
+        },
+        "minimum_credits": 27.0,
+        "requirement_context": "program_completion",
+        "source_page": 1,
+        "source_text": "總學分數:至少 27 學分",
+        "validation_status": "source_text_match"
+      },
+      {
+        "constraint_id": "constraint_aacd285688c08ff9",
+        "kind": "minimum_credits",
+        "scope": {
+          "kind": "course_eligibility",
+          "excluded_affiliations": [
+            "home_department",
+            "double_major",
+            "minor"
+          ],
+          "excluded_course_roles": [
+            "all"
+          ]
+        },
+        "minimum_credits": 6.0,
+        "requirement_context": "program_completion",
+        "source_page": 1,
+        "source_text": "至少應有6學分不屬於學生本系所",
+        "validation_status": "source_text_match"
+      },
+      {
+        "constraint_id": "constraint_b733da9d0953f724",
+        "kind": "minimum_credits",
+        "scope": {
+          "kind": "catalog_filter",
+          "requirement_groups": [
+            "core"
+          ]
+        },
+        "minimum_credits": 18.0,
+        "requirement_context": "program_completion",
+        "source_page": 1,
+        "source_text": "核心課程學分數:18 學分",
+        "validation_status": "source_text_match"
+      }
+    ],
     "course_count_constraints": [
       {
         "constraint_id": "constraint_032f8551a7345efc",
@@ -612,7 +682,7 @@
         "requirement_group": "core",
         "requirement_section": "core",
         "source_page": 1,
-        "source_text": "任選4門",
+        "source_text": "核 心 課 程 電機系/跨院選修(工)、機電系 電路學(一)、或電路學 3 任選4門",
         "validation_status": "source_text_match"
       },
       {
@@ -633,7 +703,7 @@
         "requirement_group": "elective",
         "requirement_section": "elective",
         "source_page": 1,
-        "source_text": "任選1門",
+        "source_text": " 電機碩、IC設計所 通訊介面 IC設計 3 任選1門",
         "validation_status": "source_text_match"
       },
       {
@@ -654,7 +724,7 @@
         "requirement_group": "elective",
         "requirement_section": "elective",
         "source_page": 1,
-        "source_text": "任選1門",
+        "source_text": "選 修 電機系 通訊系統 3 任選1門",
         "validation_status": "source_text_match"
       },
       {
@@ -677,7 +747,7 @@
         "requirement_group": "core",
         "requirement_section": "core",
         "source_page": 1,
-        "source_text": "任選2門",
+        "source_text": " 電機碩/資工碩、IC設計所 高等類比積體電路設計 3 任選2門",
         "validation_status": "source_text_match"
       },
       {
@@ -701,9 +771,21 @@
         "requirement_group": "elective",
         "requirement_section": "elective",
         "source_page": 1,
-        "source_text": "任選1門",
+        "source_text": " 電機系、光電系、材光碩 半導體元件(一)、半導體物 理、或半導體元件 3 任選1門",
         "validation_status": "source_text_match"
       }
-    ]
+    ],
+    "completion_summary": {
+      "model_status": "partial",
+      "minimum_total_credits": 27.0,
+      "minimum_core_credits": 18.0,
+      "maximum_core_credits": null,
+      "minimum_elective_credits": null,
+      "minimum_core_courses": null,
+      "minimum_elective_courses": null,
+      "has_conditional_requirements": false,
+      "has_manual_requirements": false,
+      "has_unresolved_conflicts": false
+    }
   }
 }

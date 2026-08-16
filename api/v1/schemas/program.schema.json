@@ -12,7 +12,8 @@
     "type": {"enum": ["integrated_program", "department_professional_program", "micro_program", "discontinued_program"]},
     "status": {"enum": ["active", "discontinued", "suspended", "unknown"]},
     "academic_version": {"type": "string", "pattern": "^[0-9]{3}-(?:1|2|S)$"},
-    "review_status": {"enum": ["source_only", "needs_review", "approved", "rejected"]},
+    "review_status": {"enum": ["source_only", "needs_review", "ai_approved", "approved", "rejected"]},
+    "review": {"type": "object"},
     "source_pdf": {"type": ["string", "null"], "format": "uri"},
     "source": {
       "type": "object",
@@ -48,8 +49,39 @@
       "type": "object",
       "properties": {
         "minimum_total_credits": {"type": "number", "minimum": 0},
-        "core_credits_text_value": {"type": "number", "minimum": 0},
+        "core_credits_text_value": {
+          "type": "number",
+          "minimum": 0,
+          "deprecated": true,
+          "description": "Legacy mirror of the unambiguous minimum core-completion credits. Consumers should use completion_summary.minimum_core_credits."
+        },
+        "minimum_core_credits": {"type": "number", "minimum": 0},
+        "maximum_core_credits": {"type": "number", "minimum": 0},
+        "core_course_pool_credits": {"type": "number", "minimum": 0},
+        "total_course_pool_credits": {"type": "number", "minimum": 0},
+        "minimum_elective_credits": {"type": "number", "minimum": 0},
+        "minimum_core_courses": {"type": "integer", "minimum": 1},
+        "minimum_elective_courses": {"type": "integer", "minimum": 1},
         "minimum_outside_home_department_credits": {"type": "number", "minimum": 0},
+        "minimum_outside_home_department_core_credits": {"type": "number", "minimum": 0},
+        "minimum_eligible_curriculum_credits": {"type": "number", "minimum": 0},
+        "completion_summary": {"$ref": "#/$defs/completionSummary"},
+        "course_pools": {
+          "type": "array",
+          "items": {"$ref": "#/$defs/coursePool"}
+        },
+        "credit_constraints": {
+          "type": "array",
+          "items": {"$ref": "#/$defs/creditConstraint"}
+        },
+        "manual_requirements": {
+          "type": "array",
+          "items": {"$ref": "#/$defs/manualRequirement"}
+        },
+        "source_conflicts": {
+          "type": "array",
+          "items": {"$ref": "#/$defs/sourceConflict"}
+        },
         "course_count_constraints": {
           "type": "array",
           "items": {"$ref": "#/$defs/courseCountConstraint"}
@@ -86,6 +118,7 @@
         "credits_snapshot": {"type": "number", "minimum": 0},
         "requirement_group": {"enum": ["core", "elective", "unspecified"]},
         "requirement_section": {"enum": ["core", "core_required", "core_selective", "elective", "unspecified"]},
+        "requirement_label": {"type": ["string", "null"]},
         "program_course_name_snapshot": {"type": ["string", "null"]},
         "notes": {"type": "string"},
         "source_page": {"type": "integer", "minimum": 1},
@@ -125,6 +158,10 @@
     "entrySelectionConstraint": {
       "type": "object",
       "required": ["constraint_id", "kind", "catalog_entry_ids", "course_names", "min_entries", "max_entries", "requirement_group", "requirement_section", "source_page", "source_text", "validation_status"],
+      "dependentRequired": {
+        "max_entries_counted_for_requirement": ["excess_credit_destination"],
+        "excess_credit_destination": ["max_entries_counted_for_requirement"]
+      },
       "properties": {
         "constraint_id": {"type": "string", "pattern": "^constraint_[a-f0-9]{16}$"},
         "kind": {"const": "select_entries"},
@@ -132,6 +169,10 @@
         "course_names": {"type": "array", "items": {"type": "string", "minLength": 1}, "minItems": 1, "uniqueItems": true},
         "min_entries": {"type": "integer", "minimum": 1},
         "max_entries": {"type": ["integer", "null"], "minimum": 1},
+        "max_entries_counted_for_requirement": {"type": "integer", "minimum": 1},
+        "minimum_credits_for_requirement": {"type": "number", "exclusiveMinimum": 0},
+        "excess_credit_destination": {"enum": ["program_total", "elective"]},
+        "requirement_label": {"type": "string", "minLength": 1},
         "declared_option_count": {"type": ["integer", "null"], "minimum": 1},
         "option_count_matches": {"type": "boolean"},
         "requirement_group": {"enum": ["core", "elective", "unspecified"]},
@@ -201,6 +242,242 @@
         "validation_status": {"const": "source_text_match"}
       }
     },
+    "sourceEvidence": {
+      "type": "object",
+      "additionalProperties": false,
+      "required": ["source_page", "source_text", "validation_status"],
+      "properties": {
+        "source_page": {"type": "integer", "minimum": 1},
+        "source_text": {"type": "string", "minLength": 1},
+        "validation_status": {"enum": ["source_text_match", "human_verified"]}
+      }
+    },
+    "requirementScope": {
+      "type": "object",
+      "additionalProperties": false,
+      "required": ["kind"],
+      "allOf": [
+        {"if": {"properties": {"kind": {"const": "requirement_labels"}}}, "then": {"required": ["requirement_labels"]}},
+        {"if": {"properties": {"kind": {"const": "catalog_filter"}}}, "then": {"anyOf": [{"required": ["requirement_groups"]}, {"required": ["requirement_sections"]}]}},
+        {"if": {"properties": {"kind": {"const": "course_eligibility"}}}, "then": {"anyOf": [{"required": ["excluded_affiliations"]}, {"required": ["included_affiliations"]}]}},
+        {"if": {"properties": {"kind": {"const": "course_attributes"}}}, "then": {"required": ["course_attributes"]}},
+        {"if": {"properties": {"kind": {"const": "opening_units"}}}, "then": {"required": ["opening_units"]}},
+        {"if": {"properties": {"kind": {"const": "program_course_names"}}}, "then": {"required": ["program_course_names"]}},
+        {"if": {"properties": {"kind": {"const": "catalog_entries"}}}, "then": {"required": ["catalog_entry_ids"]}}
+      ],
+      "properties": {
+        "kind": {"enum": ["program", "catalog_filter", "requirement_labels", "outside_home_department", "course_eligibility", "taica_courses", "recognized_similar_courses", "cross_program_recognition", "course_attributes", "opening_units", "program_course_names", "catalog_entries"]},
+        "requirement_groups": {
+          "type": "array",
+          "items": {"enum": ["core", "elective", "unspecified"]},
+          "minItems": 1,
+          "uniqueItems": true
+        },
+        "requirement_sections": {
+          "type": "array",
+          "items": {"type": "string", "minLength": 1},
+          "minItems": 1,
+          "uniqueItems": true
+        },
+        "excluded_affiliations": {
+          "type": "array",
+          "items": {"enum": ["home_department", "major", "double_major", "minor", "other_program"]},
+          "minItems": 1,
+          "uniqueItems": true
+        },
+        "excluded_course_roles": {
+          "type": "array",
+          "items": {"enum": ["all", "required", "required_elective"]},
+          "minItems": 1,
+          "uniqueItems": true
+        },
+        "included_affiliations": {
+          "type": "array",
+          "items": {"enum": ["home_department", "major", "double_major", "minor", "other_program"]},
+          "minItems": 1,
+          "uniqueItems": true
+        },
+        "course_attributes": {
+          "type": "array",
+          "items": {"enum": ["microcredit", "online", "orca_microcredit_workshop", "cross_college_general_education"]},
+          "minItems": 1,
+          "uniqueItems": true
+        },
+        "subject_areas": {
+          "type": "array",
+          "items": {"enum": ["national_defense", "marine", "science_technology_environment"]},
+          "minItems": 1,
+          "uniqueItems": true
+        },
+        "recognition_required": {"type": "boolean"},
+        "student_categories": {
+          "type": "array",
+          "items": {"enum": ["cross_college_bachelor"]},
+          "minItems": 1,
+          "uniqueItems": true
+        },
+        "opening_units": {
+          "type": "array",
+          "items": {"type": "string", "minLength": 1},
+          "minItems": 1,
+          "uniqueItems": true
+        },
+        "program_course_names": {
+          "type": "array",
+          "items": {"type": "string", "minLength": 1},
+          "minItems": 1,
+          "uniqueItems": true
+        },
+        "catalog_entry_ids": {
+          "type": "array",
+          "items": {"type": "string", "pattern": "^entry_[a-f0-9]{16}(?:_[1-9][0-9]*)?$"},
+          "minItems": 1,
+          "uniqueItems": true
+        },
+        "requirement_labels": {
+          "type": "array",
+          "items": {"type": "string", "minLength": 1},
+          "minItems": 1,
+          "uniqueItems": true
+        },
+        "aggregation": {"enum": ["union", "each"]}
+      }
+    },
+    "completionSummary": {
+      "type": "object",
+      "additionalProperties": false,
+      "required": ["model_status", "minimum_total_credits", "minimum_core_credits", "maximum_core_credits", "minimum_elective_credits", "minimum_core_courses", "minimum_elective_courses", "has_conditional_requirements", "has_manual_requirements", "has_unresolved_conflicts"],
+      "properties": {
+        "model_status": {"enum": ["complete", "partial", "conflicted"]},
+        "minimum_total_credits": {"type": ["number", "null"], "minimum": 0},
+        "minimum_core_credits": {"type": ["number", "null"], "minimum": 0},
+        "maximum_core_credits": {"type": ["number", "null"], "minimum": 0},
+        "minimum_elective_credits": {"type": ["number", "null"], "minimum": 0},
+        "minimum_core_courses": {"type": ["integer", "null"], "minimum": 1},
+        "minimum_elective_courses": {"type": ["integer", "null"], "minimum": 1},
+        "has_conditional_requirements": {"type": "boolean"},
+        "has_manual_requirements": {"type": "boolean"},
+        "has_unresolved_conflicts": {"type": "boolean"}
+      }
+    },
+    "coursePool": {
+      "type": "object",
+      "additionalProperties": false,
+      "required": ["pool_id", "scope", "source_evidence", "interpretation_status"],
+      "properties": {
+        "pool_id": {"type": "string", "pattern": "^pool_[a-z0-9_]+$"},
+        "scope": {"$ref": "#/$defs/requirementScope"},
+        "declared_credits": {"type": "number", "minimum": 0},
+        "minimum_declared_credits": {"type": "number", "minimum": 0},
+        "maximum_declared_credits": {"type": "number", "minimum": 0},
+        "source_evidence": {
+          "type": "array",
+          "items": {"$ref": "#/$defs/sourceEvidence"},
+          "minItems": 1
+        },
+        "interpretation_status": {"enum": ["machine_extracted", "human_verified"]}
+      }
+    },
+    "creditConstraint": {
+      "type": "object",
+      "additionalProperties": false,
+      "required": ["constraint_id", "kind", "scope", "requirement_context", "source_page", "source_text", "validation_status"],
+      "allOf": [
+        {
+          "if": {"properties": {"kind": {"const": "minimum_credits"}}},
+          "then": {"required": ["minimum_credits"]}
+        },
+        {
+          "if": {"properties": {"kind": {"const": "maximum_counted_credits"}}},
+          "then": {"required": ["maximum_counted_credits"]}
+        },
+        {
+          "if": {"required": ["excess_credit_destination"]},
+          "then": {"required": ["maximum_counted_credits"]}
+        }
+      ],
+      "properties": {
+        "constraint_id": {"type": "string", "pattern": "^constraint_[a-f0-9]{16}$"},
+        "kind": {"enum": ["minimum_credits", "maximum_counted_credits"]},
+        "scope": {"$ref": "#/$defs/requirementScope"},
+        "minimum_credits": {"type": "number", "minimum": 0},
+        "maximum_counted_credits": {"type": "number", "minimum": 0},
+        "excess_credit_destination": {"enum": ["program_total", "elective"]},
+        "minimum_qualifying_courses": {"type": "integer", "minimum": 1},
+        "minimum_credits_per_qualifying_course": {"type": "number", "minimum": 0},
+        "requirement_context": {"enum": ["program_completion", "certificate"]},
+        "source_page": {"type": "integer", "minimum": 1},
+        "source_text": {"type": "string", "minLength": 1},
+        "validation_status": {"enum": ["source_text_match", "human_verified"]}
+      }
+    },
+    "manualRequirement": {
+      "type": "object",
+      "additionalProperties": false,
+      "required": ["requirement_id", "kind", "requirement_type", "description", "verification_mode", "requirement_context", "source_page", "source_text", "validation_status"],
+      "dependentRequired": {
+        "satisfaction": ["options"],
+        "options": ["satisfaction"]
+      },
+      "allOf": [
+        {"if": {"properties": {"requirement_type": {"const": "activity_hours"}}}, "then": {"required": ["minimum_hours"], "not": {"required": ["minimum_count"]}}},
+        {"if": {"properties": {"requirement_type": {"const": "activity_count"}}}, "then": {"required": ["minimum_count"], "not": {"required": ["minimum_hours"]}}}
+      ],
+      "properties": {
+        "requirement_id": {"type": "string", "pattern": "^requirement_[a-f0-9]{16}$"},
+        "kind": {"const": "manual_verification"},
+        "requirement_type": {"enum": ["activity_hours", "activity_count", "workshop_attendance", "service_learning", "report", "certificate", "prerequisite", "approval", "recognition", "student_condition", "course_eligibility", "credit_cap", "curriculum_exception", "other"]},
+        "description": {"type": "string", "minLength": 1},
+        "verification_mode": {"const": "manual_review"},
+        "requirement_context": {"enum": ["program_completion", "certificate"]},
+        "minimum_count": {"type": "integer", "minimum": 1},
+        "minimum_hours": {"type": "number", "exclusiveMinimum": 0},
+        "satisfaction": {"enum": ["all_of", "any_of"]},
+        "options": {
+          "type": "array",
+          "minItems": 2,
+          "items": {
+            "type": "object",
+            "additionalProperties": false,
+            "required": ["description"],
+            "properties": {"description": {"type": "string", "minLength": 1}}
+          }
+        },
+        "source_page": {"type": "integer", "minimum": 1},
+        "source_text": {"type": "string", "minLength": 1},
+        "validation_status": {"enum": ["source_text_match", "human_verified"]}
+      }
+    },
+    "sourceConflict": {
+      "type": "object",
+      "additionalProperties": false,
+      "required": ["conflict_id", "semantic_key", "candidates", "resolution_status", "selected_candidate_id", "resolution_note"],
+      "allOf": [
+        {"if": {"properties": {"resolution_status": {"const": "unresolved"}}}, "then": {"properties": {"selected_candidate_id": {"type": "null"}, "resolution_note": {"type": "null"}}}},
+        {"if": {"properties": {"resolution_status": {"const": "resolved"}}}, "then": {"properties": {"selected_candidate_id": {"type": "string", "minLength": 1}, "resolution_note": {"type": "string", "minLength": 1}}}}
+      ],
+      "properties": {
+        "conflict_id": {"type": "string", "pattern": "^conflict_[a-f0-9]{16}$"},
+        "semantic_key": {"type": "string", "minLength": 1},
+        "candidates": {
+          "type": "array",
+          "minItems": 2,
+          "items": {
+            "type": "object",
+            "additionalProperties": false,
+            "required": ["candidate_id", "value", "source_evidence"],
+            "properties": {
+              "candidate_id": {"type": "string", "pattern": "^candidate_[a-f0-9]{16}$"},
+              "value": {"type": "number", "minimum": 0},
+              "source_evidence": {"type": "array", "items": {"$ref": "#/$defs/sourceEvidence"}}
+            }
+          }
+        },
+        "resolution_status": {"enum": ["unresolved", "resolved"]},
+        "selected_candidate_id": {"type": ["string", "null"]},
+        "resolution_note": {"type": ["string", "null"]}
+      }
+    },
     "courseRef": {
       "type": "object",
       "required": ["course_code", "name_snapshot", "credits_snapshot", "aliases", "validation_status"],
@@ -216,8 +493,8 @@
     "rule": {
       "oneOf": [
         {"type": "object", "required": ["kind", "reason"], "properties": {"kind": {"const": "manual_review"}, "reason": {"type": "string"}}},
-        {"type": "object", "required": ["kind", "rules"], "properties": {"kind": {"enum": ["all_of", "any_of"]}, "rules": {"type": "array", "items": {"$ref": "#/$defs/rule"}}}},
-        {"type": "object", "required": ["kind", "courses"], "properties": {"kind": {"const": "course_set"}, "courses": {"type": "array", "items": {"$ref": "#/$defs/courseRef"}}, "min_credits": {"type": "number", "minimum": 0}, "max_credits": {"type": "number", "minimum": 0}, "min_courses": {"type": "integer", "minimum": 0}, "all_required": {"type": "boolean"}, "no_double_count": {"type": "boolean"}, "approval_required": {"type": "boolean"}, "student_department_conditions": {"type": "array"}, "cross_department_min_credits": {"type": "number", "minimum": 0}, "cross_college_min_credits": {"type": "number", "minimum": 0}}}
+        {"type": "object", "required": ["kind", "rules"], "properties": {"kind": {"enum": ["all_of", "any_of"]}, "rules": {"type": "array", "minItems": 1, "items": {"$ref": "#/$defs/rule"}}}},
+        {"type": "object", "required": ["kind", "courses"], "properties": {"kind": {"const": "course_set"}, "courses": {"type": "array", "minItems": 1, "items": {"$ref": "#/$defs/courseRef"}}, "min_credits": {"type": "number", "minimum": 0}, "max_credits": {"type": "number", "minimum": 0}, "min_courses": {"type": "integer", "minimum": 0}, "all_required": {"type": "boolean"}, "no_double_count": {"type": "boolean"}, "approval_required": {"type": "boolean"}, "student_department_conditions": {"type": "array"}, "cross_department_min_credits": {"type": "number", "minimum": 0}, "cross_college_min_credits": {"type": "number", "minimum": 0}}}
       ]
     }
   }

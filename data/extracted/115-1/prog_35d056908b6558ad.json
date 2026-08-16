@@ -1,5 +1,5 @@
 {
-  "schema_version": "1.0",
+  "schema_version": "1.2",
   "courses": [
     {
       "course_code": "VLSI",
@@ -56,6 +56,7 @@
           "credits_snapshot": 3.0,
           "requirement_group": "core",
           "requirement_section": "core",
+          "requirement_label": null,
           "program_course_name_snapshot": null,
           "notes": "",
           "source_page": 1,
@@ -74,6 +75,7 @@
           "credits_snapshot": 3.0,
           "requirement_group": "core",
           "requirement_section": "core",
+          "requirement_label": null,
           "program_course_name_snapshot": null,
           "notes": "",
           "source_page": 1,
@@ -93,6 +95,7 @@
           "credits_snapshot": 3.0,
           "requirement_group": "core",
           "requirement_section": "core",
+          "requirement_label": null,
           "program_course_name_snapshot": null,
           "notes": "",
           "source_page": 1,
@@ -111,6 +114,7 @@
           "credits_snapshot": 3.0,
           "requirement_group": "core",
           "requirement_section": "core",
+          "requirement_label": null,
           "program_course_name_snapshot": null,
           "notes": "",
           "source_page": 1,
@@ -130,6 +134,7 @@
           "credits_snapshot": 3.0,
           "requirement_group": "core",
           "requirement_section": "core",
+          "requirement_label": null,
           "program_course_name_snapshot": null,
           "notes": "",
           "source_page": 1,
@@ -149,6 +154,7 @@
           "credits_snapshot": 3.0,
           "requirement_group": "core",
           "requirement_section": "core",
+          "requirement_label": null,
           "program_course_name_snapshot": null,
           "notes": "",
           "source_page": 1,
@@ -167,6 +173,7 @@
           "credits_snapshot": 3.0,
           "requirement_group": "core",
           "requirement_section": "core",
+          "requirement_label": null,
           "program_course_name_snapshot": null,
           "notes": "",
           "source_page": 1,
@@ -185,6 +192,7 @@
           "credits_snapshot": 3.0,
           "requirement_group": "core",
           "requirement_section": "core",
+          "requirement_label": null,
           "program_course_name_snapshot": null,
           "notes": "",
           "source_page": 1,
@@ -203,6 +211,7 @@
           "credits_snapshot": 3.0,
           "requirement_group": "core",
           "requirement_section": "core",
+          "requirement_label": null,
           "program_course_name_snapshot": null,
           "notes": "",
           "source_page": 1,
@@ -221,6 +230,7 @@
           "credits_snapshot": 3.0,
           "requirement_group": "core",
           "requirement_section": "core",
+          "requirement_label": null,
           "program_course_name_snapshot": null,
           "notes": "",
           "source_page": 1,
@@ -239,6 +249,7 @@
           "credits_snapshot": 2.0,
           "requirement_group": "core",
           "requirement_section": "core",
+          "requirement_label": null,
           "program_course_name_snapshot": null,
           "notes": "英語授課",
           "source_page": 1,
@@ -257,6 +268,7 @@
           "credits_snapshot": 2.0,
           "requirement_group": "core",
           "requirement_section": "core",
+          "requirement_label": null,
           "program_course_name_snapshot": null,
           "notes": "英語授課",
           "source_page": 1,
@@ -275,6 +287,7 @@
           "credits_snapshot": 2.0,
           "requirement_group": "core",
           "requirement_section": "core",
+          "requirement_label": null,
           "program_course_name_snapshot": null,
           "notes": "英語授課",
           "source_page": 1,
@@ -293,6 +306,7 @@
           "credits_snapshot": 1.0,
           "requirement_group": "core",
           "requirement_section": "core",
+          "requirement_label": null,
           "program_course_name_snapshot": null,
           "notes": "英語授課",
           "source_page": 1,
@@ -311,6 +325,7 @@
           "credits_snapshot": 3.0,
           "requirement_group": "core",
           "requirement_section": "core",
+          "requirement_label": null,
           "program_course_name_snapshot": null,
           "notes": "英語授課",
           "source_page": 1,
@@ -329,8 +344,9 @@
           "credits_snapshot": 3.0,
           "requirement_group": "elective",
           "requirement_section": "elective",
+          "requirement_label": null,
           "program_course_name_snapshot": null,
-          "notes": "任選1門",
+          "notes": "任選1門 選修 課程 研究所 專業 輔助 高等計算機結構 電機碩 3 任選 1門",
           "source_page": 1,
           "evidence_match": true,
           "validation_status": "needs_course_code_verification",
@@ -347,8 +363,9 @@
           "credits_snapshot": 3.0,
           "requirement_group": "elective",
           "requirement_section": "elective",
+          "requirement_label": null,
           "program_course_name_snapshot": null,
-          "notes": "任選1門",
+          "notes": "選修 課程 研究所 專業 輔助 高等計算機結構 電機碩 3 任選 1門",
           "source_page": 1,
           "evidence_match": true,
           "validation_status": "needs_course_code_verification",
@@ -365,8 +382,9 @@
           "credits_snapshot": 3.0,
           "requirement_group": "elective",
           "requirement_section": "elective",
+          "requirement_label": null,
           "program_course_name_snapshot": null,
-          "notes": "任選1門",
+          "notes": "選修 課程 研究所 專業 輔助 高等計算機結構 電機碩 3 任選 1門",
           "source_page": 1,
           "evidence_match": false,
           "validation_status": "needs_course_code_verification",
@@ -383,8 +401,9 @@
           "credits_snapshot": 3.0,
           "requirement_group": "elective",
           "requirement_section": "elective",
+          "requirement_label": null,
           "program_course_name_snapshot": null,
-          "notes": "任選1門",
+          "notes": "選修 課程 研究所 專業 輔助 高等計算機結構 電機碩 3 任選 1門",
           "source_page": 1,
           "evidence_match": true,
           "validation_status": "needs_course_code_verification",
@@ -401,8 +420,9 @@
           "credits_snapshot": 3.0,
           "requirement_group": "elective",
           "requirement_section": "elective",
+          "requirement_label": null,
           "program_course_name_snapshot": null,
-          "notes": "任選1門",
+          "notes": "選修 課程 研究所 專業 輔助 高等計算機結構 電機碩 3 任選 1門",
           "source_page": 1,
           "evidence_match": false,
           "validation_status": "needs_course_code_verification",
@@ -419,8 +439,9 @@
           "credits_snapshot": 3.0,
           "requirement_group": "elective",
           "requirement_section": "elective",
+          "requirement_label": null,
           "program_course_name_snapshot": null,
-          "notes": "任選1門",
+          "notes": "選修 課程 研究所 專業 輔助 高等計算機結構 電機碩 3 任選 1門",
           "source_page": 1,
           "evidence_match": true,
           "validation_status": "needs_course_code_verification",
@@ -437,8 +458,9 @@
           "credits_snapshot": 3.0,
           "requirement_group": "elective",
           "requirement_section": "elective",
+          "requirement_label": null,
           "program_course_name_snapshot": null,
-          "notes": "任選1門",
+          "notes": "選修 課程 研究所 專業 輔助 高等計算機結構 電機碩 3 任選 1門",
           "source_page": 1,
           "evidence_match": true,
           "validation_status": "needs_course_code_verification",
@@ -446,9 +468,59 @@
         }
       ],
       "requirements": {
-        "minimum_total_credits": 28,
-        "core_credits_text_value": 25,
-        "minimum_outside_home_department_credits": 6,
+        "minimum_core_credits": 25.0,
+        "core_credits_text_value": 25.0,
+        "minimum_total_credits": 28.0,
+        "minimum_outside_home_department_credits": 6.0,
+        "credit_constraints": [
+          {
+            "constraint_id": "constraint_3bb3075df44a0186",
+            "kind": "minimum_credits",
+            "scope": {
+              "kind": "program"
+            },
+            "minimum_credits": 28.0,
+            "requirement_context": "program_completion",
+            "source_page": 1,
+            "source_text": "總學分數:至少28學分",
+            "validation_status": "source_text_match"
+          },
+          {
+            "constraint_id": "constraint_71b94abb0efd9831",
+            "kind": "minimum_credits",
+            "scope": {
+              "kind": "catalog_filter",
+              "requirement_groups": [
+                "core"
+              ]
+            },
+            "minimum_credits": 25.0,
+            "requirement_context": "program_completion",
+            "source_page": 1,
+            "source_text": "核心課程〈專業模組課程〉學分數: 25 學分",
+            "validation_status": "source_text_match"
+          },
+          {
+            "constraint_id": "constraint_aacd285688c08ff9",
+            "kind": "minimum_credits",
+            "scope": {
+              "kind": "course_eligibility",
+              "excluded_affiliations": [
+                "home_department",
+                "double_major",
+                "minor"
+              ],
+              "excluded_course_roles": [
+                "all"
+              ]
+            },
+            "minimum_credits": 6.0,
+            "requirement_context": "program_completion",
+            "source_page": 2,
+            "source_text": "至少應有6學分不屬於學生本系所",
+            "validation_status": "source_text_match"
+          }
+        ],
         "entry_selection_constraints": [
           {
             "constraint_id": "constraint_a8ff023a8a40d507",
@@ -478,10 +550,22 @@
             "requirement_group": "elective",
             "requirement_section": "elective",
             "source_page": 1,
-            "source_text": "任選1門",
+            "source_text": "選修 課程 研究所 專業 輔助 高等計算機結構 電機碩 3 任選 1門",
             "validation_status": "source_text_match"
           }
-        ]
+        ],
+        "completion_summary": {
+          "model_status": "partial",
+          "minimum_total_credits": 28.0,
+          "minimum_core_credits": 25.0,
+          "maximum_core_credits": null,
+          "minimum_elective_credits": null,
+          "minimum_core_courses": null,
+          "minimum_elective_courses": null,
+          "has_conditional_requirements": false,
+          "has_manual_requirements": false,
+          "has_unresolved_conflicts": false
+        }
       },
       "source_pages": [
         1,
@@ -511,6 +595,7 @@
           "credits_snapshot": 3.0,
           "requirement_group": "core",
           "requirement_section": "core",
+          "requirement_label": null,
           "program_course_name_snapshot": null,
           "notes": "必選",
           "source_page": 3,
@@ -529,6 +614,7 @@
           "credits_snapshot": 3.0,
           "requirement_group": "core",
           "requirement_section": "core",
+          "requirement_label": null,
           "program_course_name_snapshot": null,
           "notes": "",
           "source_page": 3,
@@ -548,6 +634,7 @@
           "credits_snapshot": 3.0,
           "requirement_group": "core",
           "requirement_section": "core",
+          "requirement_label": null,
           "program_course_name_snapshot": null,
           "notes": "",
           "source_page": 3,
@@ -566,6 +653,7 @@
           "credits_snapshot": 3.0,
           "requirement_group": "core",
           "requirement_section": "core",
+          "requirement_label": null,
           "program_course_name_snapshot": null,
           "notes": "",
           "source_page": 3,
@@ -585,6 +673,7 @@
           "credits_snapshot": 3.0,
           "requirement_group": "core",
           "requirement_section": "core",
+          "requirement_label": null,
           "program_course_name_snapshot": null,
           "notes": "",
           "source_page": 3,
@@ -604,6 +693,7 @@
           "credits_snapshot": 3.0,
           "requirement_group": "core",
           "requirement_section": "core",
+          "requirement_label": null,
           "program_course_name_snapshot": null,
           "notes": "",
           "source_page": 3,
@@ -622,6 +712,7 @@
           "credits_snapshot": 3.0,
           "requirement_group": "core",
           "requirement_section": "core",
+          "requirement_label": null,
           "program_course_name_snapshot": null,
           "notes": "",
           "source_page": 3,
@@ -640,6 +731,7 @@
           "credits_snapshot": 3.0,
           "requirement_group": "core",
           "requirement_section": "core",
+          "requirement_label": null,
           "program_course_name_snapshot": null,
           "notes": "",
           "source_page": 3,
@@ -658,6 +750,7 @@
           "credits_snapshot": 3.0,
           "requirement_group": "core",
           "requirement_section": "core",
+          "requirement_label": null,
           "program_course_name_snapshot": null,
           "notes": "",
           "source_page": 3,
@@ -676,6 +769,7 @@
           "credits_snapshot": 3.0,
           "requirement_group": "core",
           "requirement_section": "core",
+          "requirement_label": null,
           "program_course_name_snapshot": null,
           "notes": "",
           "source_page": 3,
@@ -694,6 +788,7 @@
           "credits_snapshot": 2.0,
           "requirement_group": "core",
           "requirement_section": "core",
+          "requirement_label": null,
           "program_course_name_snapshot": null,
           "notes": "英語授課",
           "source_page": 3,
@@ -712,6 +807,7 @@
           "credits_snapshot": 2.0,
           "requirement_group": "core",
           "requirement_section": "core",
+          "requirement_label": null,
           "program_course_name_snapshot": null,
           "notes": "英語授課",
           "source_page": 3,
@@ -730,6 +826,7 @@
           "credits_snapshot": 2.0,
           "requirement_group": "core",
           "requirement_section": "core",
+          "requirement_label": null,
           "program_course_name_snapshot": null,
           "notes": "英語授課",
           "source_page": 3,
@@ -748,6 +845,7 @@
           "credits_snapshot": 1.0,
           "requirement_group": "core",
           "requirement_section": "core",
+          "requirement_label": null,
           "program_course_name_snapshot": null,
           "notes": "英語授課",
           "source_page": 3,
@@ -766,6 +864,7 @@
           "credits_snapshot": 3.0,
           "requirement_group": "core",
           "requirement_section": "core",
+          "requirement_label": null,
           "program_course_name_snapshot": null,
           "notes": "英語授課",
           "source_page": 3,
@@ -784,8 +883,9 @@
           "credits_snapshot": 3.0,
           "requirement_group": "elective",
           "requirement_section": "elective",
+          "requirement_label": null,
           "program_course_name_snapshot": null,
-          "notes": "任選1門",
+          "notes": "任選1門 選修 課程 研 究 所 專業 輔助 高等計算機結構 電機碩 3 任選 1門",
           "source_page": 3,
           "evidence_match": true,
           "validation_status": "needs_course_code_verification",
@@ -802,8 +902,9 @@
           "credits_snapshot": 3.0,
           "requirement_group": "elective",
           "requirement_section": "elective",
+          "requirement_label": null,
           "program_course_name_snapshot": null,
-          "notes": "任選1門",
+          "notes": "選修 課程 研 究 所 專業 輔助 高等計算機結構 電機碩 3 任選 1門",
           "source_page": 3,
           "evidence_match": true,
           "validation_status": "needs_course_code_verification",
@@ -820,8 +921,9 @@
           "credits_snapshot": 3.0,
           "requirement_group": "elective",
           "requirement_section": "elective",
+          "requirement_label": null,
           "program_course_name_snapshot": null,
-          "notes": "任選1門",
+          "notes": "選修 課程 研 究 所 專業 輔助 高等計算機結構 電機碩 3 任選 1門",
           "source_page": 3,
           "evidence_match": false,
           "validation_status": "needs_course_code_verification",
@@ -838,8 +940,9 @@
           "credits_snapshot": 3.0,
           "requirement_group": "elective",
           "requirement_section": "elective",
+          "requirement_label": null,
           "program_course_name_snapshot": null,
-          "notes": "任選1門",
+          "notes": "選修 課程 研 究 所 專業 輔助 高等計算機結構 電機碩 3 任選 1門",
           "source_page": 3,
           "evidence_match": true,
           "validation_status": "needs_course_code_verification",
@@ -856,8 +959,9 @@
           "credits_snapshot": 3.0,
           "requirement_group": "elective",
           "requirement_section": "elective",
+          "requirement_label": null,
           "program_course_name_snapshot": null,
-          "notes": "任選1門",
+          "notes": "選修 課程 研 究 所 專業 輔助 高等計算機結構 電機碩 3 任選 1門",
           "source_page": 3,
           "evidence_match": false,
           "validation_status": "needs_course_code_verification",
@@ -874,8 +978,9 @@
           "credits_snapshot": 3.0,
           "requirement_group": "elective",
           "requirement_section": "elective",
+          "requirement_label": null,
           "program_course_name_snapshot": null,
-          "notes": "任選1門",
+          "notes": "選修 課程 研 究 所 專業 輔助 高等計算機結構 電機碩 3 任選 1門",
           "source_page": 3,
           "evidence_match": true,
           "validation_status": "needs_course_code_verification",
@@ -892,8 +997,9 @@
           "credits_snapshot": 3.0,
           "requirement_group": "elective",
           "requirement_section": "elective",
+          "requirement_label": null,
           "program_course_name_snapshot": null,
-          "notes": "任選1門",
+          "notes": "選修 課程 研 究 所 專業 輔助 高等計算機結構 電機碩 3 任選 1門",
           "source_page": 3,
           "evidence_match": true,
           "validation_status": "needs_course_code_verification",
@@ -901,9 +1007,59 @@
         }
       ],
       "requirements": {
-        "minimum_total_credits": 33,
-        "core_credits_text_value": 30,
-        "minimum_outside_home_department_credits": 6,
+        "minimum_core_credits": 30.0,
+        "core_credits_text_value": 30.0,
+        "minimum_total_credits": 33.0,
+        "minimum_outside_home_department_credits": 6.0,
+        "credit_constraints": [
+          {
+            "constraint_id": "constraint_5747442d5a0dda35",
+            "kind": "minimum_credits",
+            "scope": {
+              "kind": "catalog_filter",
+              "requirement_groups": [
+                "core"
+              ]
+            },
+            "minimum_credits": 30.0,
+            "requirement_context": "program_completion",
+            "source_page": 3,
+            "source_text": "核心課程〈專業模組課程〉學分數: 30 學分",
+            "validation_status": "source_text_match"
+          },
+          {
+            "constraint_id": "constraint_d65ace8e65d0011d",
+            "kind": "minimum_credits",
+            "scope": {
+              "kind": "program"
+            },
+            "minimum_credits": 33.0,
+            "requirement_context": "program_completion",
+            "source_page": 3,
+            "source_text": "總學分數:至少 33學分",
+            "validation_status": "source_text_match"
+          },
+          {
+            "constraint_id": "constraint_aacd285688c08ff9",
+            "kind": "minimum_credits",
+            "scope": {
+              "kind": "course_eligibility",
+              "excluded_affiliations": [
+                "home_department",
+                "double_major",
+                "minor"
+              ],
+              "excluded_course_roles": [
+                "all"
+              ]
+            },
+            "minimum_credits": 6.0,
+            "requirement_context": "program_completion",
+            "source_page": 4,
+            "source_text": "至少應有6學分不屬於學生本系所",
+            "validation_status": "source_text_match"
+          }
+        ],
         "entry_selection_constraints": [
           {
             "constraint_id": "constraint_58804646797894ab",
@@ -933,10 +1089,22 @@
             "requirement_group": "elective",
             "requirement_section": "elective",
             "source_page": 3,
-            "source_text": "任選1門",
+            "source_text": "選修 課程 研 究 所 專業 輔助 高等計算機結構 電機碩 3 任選 1門",
             "validation_status": "source_text_match"
           }
-        ]
+        ],
+        "completion_summary": {
+          "model_status": "partial",
+          "minimum_total_credits": 33.0,
+          "minimum_core_credits": 30.0,
+          "maximum_core_credits": null,
+          "minimum_elective_credits": null,
+          "minimum_core_courses": null,
+          "minimum_elective_courses": null,
+          "has_conditional_requirements": false,
+          "has_manual_requirements": false,
+          "has_unresolved_conflicts": false
+        }
       },
       "source_pages": [
         3,
@@ -966,6 +1134,7 @@
           "credits_snapshot": 3.0,
           "requirement_group": "core",
           "requirement_section": "core_required",
+          "requirement_label": null,
           "program_course_name_snapshot": null,
           "notes": "必選",
           "source_page": 5,
@@ -984,6 +1153,7 @@
           "credits_snapshot": 3.0,
           "requirement_group": "core",
           "requirement_section": "core_required",
+          "requirement_label": null,
           "program_course_name_snapshot": null,
           "notes": "",
           "source_page": 5,
@@ -1003,6 +1173,7 @@
           "credits_snapshot": 3.0,
           "requirement_group": "core",
           "requirement_section": "core_required",
+          "requirement_label": null,
           "program_course_name_snapshot": null,
           "notes": "",
           "source_page": 5,
@@ -1021,6 +1192,7 @@
           "credits_snapshot": 3.0,
           "requirement_group": "core",
           "requirement_section": "core_required",
+          "requirement_label": null,
           "program_course_name_snapshot": null,
           "notes": "",
           "source_page": 5,
@@ -1040,6 +1212,7 @@
           "credits_snapshot": 3.0,
           "requirement_group": "core",
           "requirement_section": "core_required",
+          "requirement_label": null,
           "program_course_name_snapshot": null,
           "notes": "",
           "source_page": 5,
@@ -1059,6 +1232,7 @@
           "credits_snapshot": 3.0,
           "requirement_group": "core",
           "requirement_section": "core_required",
+          "requirement_label": null,
           "program_course_name_snapshot": null,
           "notes": "",
           "source_page": 5,
@@ -1077,6 +1251,7 @@
           "credits_snapshot": 3.0,
           "requirement_group": "core",
           "requirement_section": "core_required",
+          "requirement_label": null,
           "program_course_name_snapshot": null,
           "notes": "",
           "source_page": 5,
@@ -1095,6 +1270,7 @@
           "credits_snapshot": 3.0,
           "requirement_group": "core",
           "requirement_section": "core_required",
+          "requirement_label": null,
           "program_course_name_snapshot": null,
           "notes": "",
           "source_page": 5,
@@ -1113,6 +1289,7 @@
           "credits_snapshot": 3.0,
           "requirement_group": "core",
           "requirement_section": "core_required",
+          "requirement_label": null,
           "program_course_name_snapshot": null,
           "notes": "",
           "source_page": 5,
@@ -1131,6 +1308,7 @@
           "credits_snapshot": 3.0,
           "requirement_group": "core",
           "requirement_section": "core_required",
+          "requirement_label": null,
           "program_course_name_snapshot": null,
           "notes": "",
           "source_page": 5,
@@ -1149,8 +1327,9 @@
           "credits_snapshot": 3.0,
           "requirement_group": "elective",
           "requirement_section": "elective",
+          "requirement_label": null,
           "program_course_name_snapshot": null,
-          "notes": "任選1門",
+          "notes": "任選1門 選修課 程 研究所 專業 輔助 高等計算機結構 電機碩 3 任選1 門",
           "source_page": 5,
           "evidence_match": true,
           "validation_status": "needs_course_code_verification",
@@ -1167,8 +1346,9 @@
           "credits_snapshot": 3.0,
           "requirement_group": "elective",
           "requirement_section": "elective",
+          "requirement_label": null,
           "program_course_name_snapshot": null,
-          "notes": "任選1門",
+          "notes": "選修課 程 研究所 專業 輔助 高等計算機結構 電機碩 3 任選1 門",
           "source_page": 5,
           "evidence_match": true,
           "validation_status": "needs_course_code_verification",
@@ -1185,8 +1365,9 @@
           "credits_snapshot": 3.0,
           "requirement_group": "elective",
           "requirement_section": "elective",
+          "requirement_label": null,
           "program_course_name_snapshot": null,
-          "notes": "任選1門",
+          "notes": "選修課 程 研究所 專業 輔助 高等計算機結構 電機碩 3 任選1 門",
           "source_page": 5,
           "evidence_match": false,
           "validation_status": "needs_course_code_verification",
@@ -1203,8 +1384,9 @@
           "credits_snapshot": 3.0,
           "requirement_group": "elective",
           "requirement_section": "elective",
+          "requirement_label": null,
           "program_course_name_snapshot": null,
-          "notes": "任選1門",
+          "notes": "選修課 程 研究所 專業 輔助 高等計算機結構 電機碩 3 任選1 門",
           "source_page": 5,
           "evidence_match": true,
           "validation_status": "needs_course_code_verification",
@@ -1221,8 +1403,9 @@
           "credits_snapshot": 3.0,
           "requirement_group": "elective",
           "requirement_section": "elective",
+          "requirement_label": null,
           "program_course_name_snapshot": null,
-          "notes": "任選1門",
+          "notes": "選修課 程 研究所 專業 輔助 高等計算機結構 電機碩 3 任選1 門",
           "source_page": 5,
           "evidence_match": false,
           "validation_status": "needs_course_code_verification",
@@ -1239,8 +1422,9 @@
           "credits_snapshot": 3.0,
           "requirement_group": "elective",
           "requirement_section": "elective",
+          "requirement_label": null,
           "program_course_name_snapshot": null,
-          "notes": "任選1門",
+          "notes": "選修課 程 研究所 專業 輔助 高等計算機結構 電機碩 3 任選1 門",
           "source_page": 5,
           "evidence_match": true,
           "validation_status": "needs_course_code_verification",
@@ -1257,8 +1441,9 @@
           "credits_snapshot": 3.0,
           "requirement_group": "elective",
           "requirement_section": "elective",
+          "requirement_label": null,
           "program_course_name_snapshot": null,
-          "notes": "任選1門",
+          "notes": "選修課 程 研究所 專業 輔助 高等計算機結構 電機碩 3 任選1 門",
           "source_page": 5,
           "evidence_match": true,
           "validation_status": "needs_course_code_verification",
@@ -1266,9 +1451,59 @@
         }
       ],
       "requirements": {
-        "minimum_total_credits": 33,
-        "core_credits_text_value": 30,
-        "minimum_outside_home_department_credits": 6,
+        "minimum_total_credits": 33.0,
+        "minimum_core_credits": 30.0,
+        "core_credits_text_value": 30.0,
+        "minimum_outside_home_department_credits": 6.0,
+        "credit_constraints": [
+          {
+            "constraint_id": "constraint_5747442d5a0dda35",
+            "kind": "minimum_credits",
+            "scope": {
+              "kind": "catalog_filter",
+              "requirement_groups": [
+                "core"
+              ]
+            },
+            "minimum_credits": 30.0,
+            "requirement_context": "program_completion",
+            "source_page": 5,
+            "source_text": "核心課程〈專業模組課程〉學分數: 30 學分",
+            "validation_status": "source_text_match"
+          },
+          {
+            "constraint_id": "constraint_8830d3ec482761dc",
+            "kind": "minimum_credits",
+            "scope": {
+              "kind": "program"
+            },
+            "minimum_credits": 33.0,
+            "requirement_context": "program_completion",
+            "source_page": 5,
+            "source_text": "總學分數:至少33學分",
+            "validation_status": "source_text_match"
+          },
+          {
+            "constraint_id": "constraint_aacd285688c08ff9",
+            "kind": "minimum_credits",
+            "scope": {
+              "kind": "course_eligibility",
+              "excluded_affiliations": [
+                "home_department",
+                "double_major",
+                "minor"
+              ],
+              "excluded_course_roles": [
+                "all"
+              ]
+            },
+            "minimum_credits": 6.0,
+            "requirement_context": "program_completion",
+            "source_page": 5,
+            "source_text": "至少應有6學分不屬於學生本系所",
+            "validation_status": "source_text_match"
+          }
+        ],
         "entry_selection_constraints": [
           {
             "constraint_id": "constraint_89ccceafe1f0d507",
@@ -1298,10 +1533,22 @@
             "requirement_group": "elective",
             "requirement_section": "elective",
             "source_page": 5,
-            "source_text": "任選1門",
+            "source_text": "選修課 程 研究所 專業 輔助 高等計算機結構 電機碩 3 任選1 門",
             "validation_status": "source_text_match"
           }
-        ]
+        ],
+        "completion_summary": {
+          "model_status": "partial",
+          "minimum_total_credits": 33.0,
+          "minimum_core_credits": 30.0,
+          "maximum_core_credits": null,
+          "minimum_elective_credits": null,
+          "minimum_core_courses": null,
+          "minimum_elective_courses": null,
+          "has_conditional_requirements": false,
+          "has_manual_requirements": false,
+          "has_unresolved_conflicts": false
+        }
       },
       "source_pages": [
         5
@@ -1330,6 +1577,7 @@
       "credits_snapshot": 3.0,
       "requirement_group": "core",
       "requirement_section": "core",
+      "requirement_label": null,
       "program_course_name_snapshot": null,
       "notes": "",
       "source_page": 1,
@@ -1348,6 +1596,7 @@
       "credits_snapshot": 3.0,
       "requirement_group": "core",
       "requirement_section": "core",
+      "requirement_label": null,
       "program_course_name_snapshot": null,
       "notes": "",
       "source_page": 1,
@@ -1367,6 +1616,7 @@
       "credits_snapshot": 3.0,
       "requirement_group": "core",
       "requirement_section": "core",
+      "requirement_label": null,
       "program_course_name_snapshot": null,
       "notes": "",
       "source_page": 1,
@@ -1385,6 +1635,7 @@
       "credits_snapshot": 3.0,
       "requirement_group": "core",
       "requirement_section": "core",
+      "requirement_label": null,
       "program_course_name_snapshot": null,
       "notes": "",
       "source_page": 1,
@@ -1404,6 +1655,7 @@
       "credits_snapshot": 3.0,
       "requirement_group": "core",
       "requirement_section": "core",
+      "requirement_label": null,
       "program_course_name_snapshot": null,
       "notes": "",
       "source_page": 1,
@@ -1423,6 +1675,7 @@
       "credits_snapshot": 3.0,
       "requirement_group": "core",
       "requirement_section": "core",
+      "requirement_label": null,
       "program_course_name_snapshot": null,
       "notes": "",
       "source_page": 1,
@@ -1441,6 +1694,7 @@
       "credits_snapshot": 3.0,
       "requirement_group": "core",
       "requirement_section": "core",
+      "requirement_label": null,
       "program_course_name_snapshot": null,
       "notes": "",
       "source_page": 1,
@@ -1459,6 +1713,7 @@
       "credits_snapshot": 3.0,
       "requirement_group": "core",
       "requirement_section": "core",
+      "requirement_label": null,
       "program_course_name_snapshot": null,
       "notes": "",
       "source_page": 1,
@@ -1477,6 +1732,7 @@
       "credits_snapshot": 3.0,
       "requirement_group": "core",
       "requirement_section": "core",
+      "requirement_label": null,
       "program_course_name_snapshot": null,
       "notes": "",
       "source_page": 1,
@@ -1495,6 +1751,7 @@
       "credits_snapshot": 3.0,
       "requirement_group": "core",
       "requirement_section": "core",
+      "requirement_label": null,
       "program_course_name_snapshot": null,
       "notes": "",
       "source_page": 1,
@@ -1513,6 +1770,7 @@
       "credits_snapshot": 2.0,
       "requirement_group": "core",
       "requirement_section": "core",
+      "requirement_label": null,
       "program_course_name_snapshot": null,
       "notes": "英語授課",
       "source_page": 1,
@@ -1531,6 +1789,7 @@
       "credits_snapshot": 2.0,
       "requirement_group": "core",
       "requirement_section": "core",
+      "requirement_label": null,
       "program_course_name_snapshot": null,
       "notes": "英語授課",
       "source_page": 1,
@@ -1549,6 +1808,7 @@
       "credits_snapshot": 2.0,
       "requirement_group": "core",
       "requirement_section": "core",
+      "requirement_label": null,
       "program_course_name_snapshot": null,
       "notes": "英語授課",
       "source_page": 1,
@@ -1567,6 +1827,7 @@
       "credits_snapshot": 1.0,
       "requirement_group": "core",
       "requirement_section": "core",
+      "requirement_label": null,
       "program_course_name_snapshot": null,
       "notes": "英語授課",
       "source_page": 1,
@@ -1585,6 +1846,7 @@
       "credits_snapshot": 3.0,
       "requirement_group": "core",
       "requirement_section": "core",
+      "requirement_label": null,
       "program_course_name_snapshot": null,
       "notes": "英語授課",
       "source_page": 1,
@@ -1603,8 +1865,9 @@
       "credits_snapshot": 3.0,
       "requirement_group": "elective",
       "requirement_section": "elective",
+      "requirement_label": null,
       "program_course_name_snapshot": null,
-      "notes": "任選1門",
+      "notes": "任選1門 選修 課程 研究所 專業 輔助 高等計算機結構 電機碩 3 任選 1門",
       "source_page": 1,
       "evidence_match": true,
       "validation_status": "needs_course_code_verification",
@@ -1621,8 +1884,9 @@
       "credits_snapshot": 3.0,
       "requirement_group": "elective",
       "requirement_section": "elective",
+      "requirement_label": null,
       "program_course_name_snapshot": null,
-      "notes": "任選1門",
+      "notes": "選修 課程 研究所 專業 輔助 高等計算機結構 電機碩 3 任選 1門",
       "source_page": 1,
       "evidence_match": true,
       "validation_status": "needs_course_code_verification",
@@ -1639,8 +1903,9 @@
       "credits_snapshot": 3.0,
       "requirement_group": "elective",
       "requirement_section": "elective",
+      "requirement_label": null,
       "program_course_name_snapshot": null,
-      "notes": "任選1門",
+      "notes": "選修 課程 研究所 專業 輔助 高等計算機結構 電機碩 3 任選 1門",
       "source_page": 1,
       "evidence_match": false,
       "validation_status": "needs_course_code_verification",
@@ -1657,8 +1922,9 @@
       "credits_snapshot": 3.0,
       "requirement_group": "elective",
       "requirement_section": "elective",
+      "requirement_label": null,
       "program_course_name_snapshot": null,
-      "notes": "任選1門",
+      "notes": "選修 課程 研究所 專業 輔助 高等計算機結構 電機碩 3 任選 1門",
       "source_page": 1,
       "evidence_match": true,
       "validation_status": "needs_course_code_verification",
@@ -1675,8 +1941,9 @@
       "credits_snapshot": 3.0,
       "requirement_group": "elective",
       "requirement_section": "elective",
+      "requirement_label": null,
       "program_course_name_snapshot": null,
-      "notes": "任選1門",
+      "notes": "選修 課程 研究所 專業 輔助 高等計算機結構 電機碩 3 任選 1門",
       "source_page": 1,
       "evidence_match": false,
       "validation_status": "needs_course_code_verification",
@@ -1693,8 +1960,9 @@
       "credits_snapshot": 3.0,
       "requirement_group": "elective",
       "requirement_section": "elective",
+      "requirement_label": null,
       "program_course_name_snapshot": null,
-      "notes": "任選1門",
+      "notes": "選修 課程 研究所 專業 輔助 高等計算機結構 電機碩 3 任選 1門",
       "source_page": 1,
       "evidence_match": true,
       "validation_status": "needs_course_code_verification",
@@ -1711,8 +1979,9 @@
       "credits_snapshot": 3.0,
       "requirement_group": "elective",
       "requirement_section": "elective",
+      "requirement_label": null,
       "program_course_name_snapshot": null,
-      "notes": "任選1門",
+      "notes": "選修 課程 研究所 專業 輔助 高等計算機結構 電機碩 3 任選 1門",
       "source_page": 1,
       "evidence_match": true,
       "validation_status": "needs_course_code_verification",
@@ -1720,9 +1989,59 @@
     }
   ],
   "structured_requirements": {
-    "minimum_total_credits": 28,
-    "core_credits_text_value": 25,
-    "minimum_outside_home_department_credits": 6,
+    "minimum_core_credits": 25.0,
+    "core_credits_text_value": 25.0,
+    "minimum_total_credits": 28.0,
+    "minimum_outside_home_department_credits": 6.0,
+    "credit_constraints": [
+      {
+        "constraint_id": "constraint_3bb3075df44a0186",
+        "kind": "minimum_credits",
+        "scope": {
+          "kind": "program"
+        },
+        "minimum_credits": 28.0,
+        "requirement_context": "program_completion",
+        "source_page": 1,
+        "source_text": "總學分數:至少28學分",
+        "validation_status": "source_text_match"
+      },
+      {
+        "constraint_id": "constraint_71b94abb0efd9831",
+        "kind": "minimum_credits",
+        "scope": {
+          "kind": "catalog_filter",
+          "requirement_groups": [
+            "core"
+          ]
+        },
+        "minimum_credits": 25.0,
+        "requirement_context": "program_completion",
+        "source_page": 1,
+        "source_text": "核心課程〈專業模組課程〉學分數: 25 學分",
+        "validation_status": "source_text_match"
+      },
+      {
+        "constraint_id": "constraint_aacd285688c08ff9",
+        "kind": "minimum_credits",
+        "scope": {
+          "kind": "course_eligibility",
+          "excluded_affiliations": [
+            "home_department",
+            "double_major",
+            "minor"
+          ],
+          "excluded_course_roles": [
+            "all"
+          ]
+        },
+        "minimum_credits": 6.0,
+        "requirement_context": "program_completion",
+        "source_page": 2,
+        "source_text": "至少應有6學分不屬於學生本系所",
+        "validation_status": "source_text_match"
+      }
+    ],
     "entry_selection_constraints": [
       {
         "constraint_id": "constraint_a8ff023a8a40d507",
@@ -1752,9 +2071,21 @@
         "requirement_group": "elective",
         "requirement_section": "elective",
         "source_page": 1,
-        "source_text": "任選1門",
+        "source_text": "選修 課程 研究所 專業 輔助 高等計算機結構 電機碩 3 任選 1門",
         "validation_status": "source_text_match"
       }
-    ]
+    ],
+    "completion_summary": {
+      "model_status": "partial",
+      "minimum_total_credits": 28.0,
+      "minimum_core_credits": 25.0,
+      "maximum_core_credits": null,
+      "minimum_elective_credits": null,
+      "minimum_core_courses": null,
+      "minimum_elective_courses": null,
+      "has_conditional_requirements": false,
+      "has_manual_requirements": false,
+      "has_unresolved_conflicts": false
+    }
   }
 }

@@ -1,0 +1,431 @@
+{
+  "schema_version": 1,
+  "academic_version": "115-1",
+  "program_id": "prog_5f523e6fcaf05e21",
+  "based_on": {
+    "pdf_binary_sha256": "3fd8e1b88000e107d4fc515a3bb208720ed029609f3fc3020625da41e00fe650",
+    "normalized_text_sha256": "6540318acf5ba2dbe5b397780256abc1a974576df0b403bc2313fa0d4e9e81ff",
+    "selected_pdf_academic_version": "114-1",
+    "parser_version": "0.3.0",
+    "course_catalog_sha256": "397b249eb00ddd66f119881ec42a7ab44bf19a20ded01e38b353021471d42c10"
+  },
+  "course_catalog": [
+    {
+      "course_code": null,
+      "catalog_entry_id": "entry_2733ddb8b98310e2",
+      "opening_units": [
+        "護理學系"
+      ],
+      "opening_unit_snapshot": "護理學系",
+      "course_name_snapshot": "醫療與護理資訊",
+      "credits_snapshot": 2.0,
+      "requirement_group": "core",
+      "requirement_section": "core",
+      "requirement_label": null,
+      "program_course_name_snapshot": null,
+      "notes": "擇一修習 核 心 課 程 護理學系 醫療與護理資訊 2 擇一修習",
+      "source_page": 1,
+      "evidence_match": true,
+      "validation_status": "needs_course_code_verification",
+      "uncertainty_reason": "Official PDF table does not provide a course code"
+    },
+    {
+      "course_code": null,
+      "catalog_entry_id": "entry_c5583ed5fa554061",
+      "opening_units": [
+        "護理學系"
+      ],
+      "opening_unit_snapshot": "護理學系",
+      "course_name_snapshot": "智慧醫療與AI創新管理",
+      "credits_snapshot": 3.0,
+      "requirement_group": "core",
+      "requirement_section": "core",
+      "requirement_label": null,
+      "program_course_name_snapshot": null,
+      "notes": "擇一修習  護理學系 智慧醫療與AI創新管理 3 擇一修習 核 心 課 程 護理學系 醫療與護理資訊 2 擇一修習",
+      "source_page": 1,
+      "evidence_match": true,
+      "validation_status": "needs_course_code_verification",
+      "uncertainty_reason": "Official PDF table does not provide a course code"
+    },
+    {
+      "course_code": null,
+      "catalog_entry_id": "entry_2f46f23dc496772c",
+      "opening_units": [
+        "護理學系"
+      ],
+      "opening_unit_snapshot": "護理學系",
+      "course_name_snapshot": "關懷與人際互動",
+      "credits_snapshot": 2.0,
+      "requirement_group": "elective",
+      "requirement_section": "elective",
+      "requirement_label": null,
+      "program_course_name_snapshot": null,
+      "notes": "",
+      "source_page": 1,
+      "evidence_match": true,
+      "validation_status": "needs_course_code_verification",
+      "uncertainty_reason": "Official PDF table does not provide a course code"
+    },
+    {
+      "course_code": null,
+      "catalog_entry_id": "entry_dac46f7fa4d0023e",
+      "opening_units": [
+        "護理學系"
+      ],
+      "opening_unit_snapshot": "護理學系",
+      "course_name_snapshot": "人工智慧於醫療科技之運用",
+      "credits_snapshot": 2.0,
+      "requirement_group": "elective",
+      "requirement_section": "elective",
+      "requirement_label": null,
+      "program_course_name_snapshot": null,
+      "notes": "",
+      "source_page": 1,
+      "evidence_match": true,
+      "validation_status": "needs_course_code_verification",
+      "uncertainty_reason": "Official PDF table does not provide a course code"
+    },
+    {
+      "course_code": null,
+      "catalog_entry_id": "entry_44302f743aa2668b",
+      "opening_units": [
+        "護理學系",
+        "跨院選修(醫)"
+      ],
+      "opening_unit_snapshot": "護理學系 / 跨院選修(醫)",
+      "course_name_snapshot": "多元健康管理",
+      "credits_snapshot": 2.0,
+      "requirement_group": "elective",
+      "requirement_section": "elective",
+      "requirement_label": null,
+      "program_course_name_snapshot": null,
+      "notes": "",
+      "source_page": 1,
+      "evidence_match": true,
+      "validation_status": "needs_course_code_verification",
+      "uncertainty_reason": "Official PDF table does not provide a course code"
+    },
+    {
+      "course_code": null,
+      "catalog_entry_id": "entry_3c705da9be5e1ac3",
+      "opening_units": [
+        "醫學院",
+        "護理學系",
+        "跨院選修(醫)"
+      ],
+      "opening_unit_snapshot": "醫學院 / 護理學系 / 跨院選修(醫)",
+      "course_name_snapshot": "深睡的力量:揭開睡眠與健康的面紗",
+      "credits_snapshot": 3.0,
+      "requirement_group": "elective",
+      "requirement_section": "elective",
+      "requirement_label": null,
+      "program_course_name_snapshot": null,
+      "notes": "",
+      "source_page": 1,
+      "evidence_match": true,
+      "validation_status": "needs_course_code_verification",
+      "uncertainty_reason": "Official PDF table does not provide a course code"
+    },
+    {
+      "course_code": null,
+      "catalog_entry_id": "entry_ca48dfa0f8ae1aeb",
+      "opening_units": [
+        "護理學系",
+        "跨院選修(醫)"
+      ],
+      "opening_unit_snapshot": "護理學系 / 跨院選修(醫)",
+      "course_name_snapshot": "氣候變遷下的健康生活學",
+      "credits_snapshot": 2.0,
+      "requirement_group": "elective",
+      "requirement_section": "elective",
+      "requirement_label": null,
+      "program_course_name_snapshot": null,
+      "notes": "",
+      "source_page": 1,
+      "evidence_match": true,
+      "validation_status": "needs_course_code_verification",
+      "uncertainty_reason": "Official PDF table does not provide a course code"
+    },
+    {
+      "course_code": null,
+      "catalog_entry_id": "entry_44c79cad69458b39",
+      "opening_units": [
+        "護理學系"
+      ],
+      "opening_unit_snapshot": "護理學系",
+      "course_name_snapshot": "計算機概論",
+      "credits_snapshot": 2.0,
+      "requirement_group": "elective",
+      "requirement_section": "elective",
+      "requirement_label": null,
+      "program_course_name_snapshot": null,
+      "notes": "",
+      "source_page": 1,
+      "evidence_match": true,
+      "validation_status": "needs_course_code_verification",
+      "uncertainty_reason": "Official PDF table does not provide a course code"
+    },
+    {
+      "course_code": null,
+      "catalog_entry_id": "entry_25db90fd93d1b82e",
+      "opening_units": [
+        "醫科碩"
+      ],
+      "opening_unit_snapshot": "醫科碩",
+      "course_name_snapshot": "高齡AI睡眠及聽損",
+      "credits_snapshot": 2.0,
+      "requirement_group": "elective",
+      "requirement_section": "elective",
+      "requirement_label": null,
+      "program_course_name_snapshot": null,
+      "notes": "",
+      "source_page": 1,
+      "evidence_match": true,
+      "validation_status": "needs_course_code_verification",
+      "uncertainty_reason": "Official PDF table does not provide a course code"
+    },
+    {
+      "course_code": null,
+      "catalog_entry_id": "entry_32f2af58ae1d2499",
+      "opening_units": [
+        "醫學院",
+        "跨院選修(醫)"
+      ],
+      "opening_unit_snapshot": "醫學院 / 跨院選修(醫)",
+      "course_name_snapshot": "智慧長照服務創新開發模式",
+      "credits_snapshot": 3.0,
+      "requirement_group": "elective",
+      "requirement_section": "elective",
+      "requirement_label": null,
+      "program_course_name_snapshot": null,
+      "notes": "",
+      "source_page": 1,
+      "evidence_match": true,
+      "validation_status": "needs_course_code_verification",
+      "uncertainty_reason": "Official PDF table does not provide a course code"
+    },
+    {
+      "course_code": null,
+      "catalog_entry_id": "entry_ad9db5db700a5c47",
+      "opening_units": [
+        "醫學院",
+        "跨院選修(醫)"
+      ],
+      "opening_unit_snapshot": "醫學院 / 跨院選修(醫)",
+      "course_name_snapshot": "危老年代",
+      "credits_snapshot": 2.0,
+      "requirement_group": "elective",
+      "requirement_section": "elective",
+      "requirement_label": null,
+      "program_course_name_snapshot": null,
+      "notes": "",
+      "source_page": 1,
+      "evidence_match": true,
+      "validation_status": "needs_course_code_verification",
+      "uncertainty_reason": "Official PDF table does not provide a course code"
+    },
+    {
+      "course_code": null,
+      "catalog_entry_id": "entry_53ed80c04d5eb858",
+      "opening_units": [
+        "音樂系"
+      ],
+      "opening_unit_snapshot": "音樂系",
+      "course_name_snapshot": "音樂於高齡照護之設計與運用",
+      "credits_snapshot": 3.0,
+      "requirement_group": "elective",
+      "requirement_section": "elective",
+      "requirement_label": null,
+      "program_course_name_snapshot": null,
+      "notes": "",
+      "source_page": 1,
+      "evidence_match": true,
+      "validation_status": "needs_course_code_verification",
+      "uncertainty_reason": "Official PDF table does not provide a course code"
+    },
+    {
+      "course_code": null,
+      "catalog_entry_id": "entry_7026bea998cf7371",
+      "opening_units": [
+        "資工系",
+        "跨院選修(工)"
+      ],
+      "opening_unit_snapshot": "資工系 / 跨院選修(工)",
+      "course_name_snapshot": "人工智慧導論",
+      "credits_snapshot": 3.0,
+      "requirement_group": "elective",
+      "requirement_section": "elective",
+      "requirement_label": null,
+      "program_course_name_snapshot": null,
+      "notes": "",
+      "source_page": 1,
+      "evidence_match": true,
+      "validation_status": "needs_course_code_verification",
+      "uncertainty_reason": "Official PDF table does not provide a course code"
+    },
+    {
+      "course_code": null,
+      "catalog_entry_id": "entry_e46d6812bb72ae05",
+      "opening_units": [
+        "人科學程",
+        "跨院選修(通)"
+      ],
+      "opening_unit_snapshot": "人科學程 / 跨院選修(通)",
+      "course_name_snapshot": "設計思考",
+      "credits_snapshot": 3.0,
+      "requirement_group": "elective",
+      "requirement_section": "elective",
+      "requirement_label": null,
+      "program_course_name_snapshot": null,
+      "notes": "",
+      "source_page": 1,
+      "evidence_match": true,
+      "validation_status": "needs_course_code_verification",
+      "uncertainty_reason": "Official PDF table does not provide a course code"
+    },
+    {
+      "course_code": null,
+      "catalog_entry_id": "entry_b5dd55cc0cc489a3",
+      "opening_units": [
+        "文學院",
+        "跨院選修(文)"
+      ],
+      "opening_unit_snapshot": "文學院 / 跨院選修(文)",
+      "course_name_snapshot": "基礎程式設計應用",
+      "credits_snapshot": 3.0,
+      "requirement_group": "elective",
+      "requirement_section": "elective",
+      "requirement_label": null,
+      "program_course_name_snapshot": null,
+      "notes": "",
+      "source_page": 1,
+      "evidence_match": true,
+      "validation_status": "needs_course_code_verification",
+      "uncertainty_reason": "Official PDF table does not provide a course code"
+    },
+    {
+      "course_code": null,
+      "catalog_entry_id": "entry_d1482f06ad16756f",
+      "opening_units": [
+        "資管碩"
+      ],
+      "opening_unit_snapshot": "資管碩",
+      "course_name_snapshot": "人工智慧",
+      "credits_snapshot": 3.0,
+      "requirement_group": "elective",
+      "requirement_section": "elective",
+      "requirement_label": null,
+      "program_course_name_snapshot": null,
+      "notes": "",
+      "source_page": 1,
+      "evidence_match": true,
+      "validation_status": "needs_course_code_verification",
+      "uncertainty_reason": "Official PDF table does not provide a course code"
+    },
+    {
+      "course_code": null,
+      "catalog_entry_id": "entry_5709450ae795eeeb",
+      "opening_units": [
+        "企管系"
+      ],
+      "opening_unit_snapshot": "企管系",
+      "course_name_snapshot": "科技管理導論",
+      "credits_snapshot": 3.0,
+      "requirement_group": "elective",
+      "requirement_section": "elective",
+      "requirement_label": null,
+      "program_course_name_snapshot": null,
+      "notes": "",
+      "source_page": 1,
+      "evidence_match": true,
+      "validation_status": "needs_course_code_verification",
+      "uncertainty_reason": "Official PDF table does not provide a course code"
+    }
+  ],
+  "structured_requirements": {
+    "minimum_core_credits": 2.0,
+    "core_credits_text_value": 2.0,
+    "minimum_total_credits": 9.0,
+    "minimum_outside_home_department_credits": 3.0,
+    "credit_constraints": [
+      {
+        "constraint_id": "constraint_312ba592cce58c5d",
+        "kind": "minimum_credits",
+        "scope": {
+          "kind": "course_eligibility",
+          "excluded_affiliations": [
+            "home_department",
+            "double_major",
+            "minor"
+          ],
+          "excluded_course_roles": [
+            "all"
+          ]
+        },
+        "minimum_credits": 3.0,
+        "requirement_context": "program_completion",
+        "source_page": 1,
+        "source_text": "至少應有3學分不屬於學生本系所",
+        "validation_status": "source_text_match"
+      },
+      {
+        "constraint_id": "constraint_e4e3ec6325db6e04",
+        "kind": "minimum_credits",
+        "scope": {
+          "kind": "program"
+        },
+        "minimum_credits": 9.0,
+        "requirement_context": "program_completion",
+        "source_page": 1,
+        "source_text": "總學分數:至少 9 學分",
+        "validation_status": "source_text_match"
+      },
+      {
+        "constraint_id": "constraint_e8802c732f814a08",
+        "kind": "minimum_credits",
+        "scope": {
+          "kind": "catalog_filter",
+          "requirement_groups": [
+            "core"
+          ]
+        },
+        "minimum_credits": 2.0,
+        "requirement_context": "program_completion",
+        "source_page": 1,
+        "source_text": "核心課程〈專業模組課程〉學分數: 2 學分",
+        "validation_status": "source_text_match"
+      }
+    ],
+    "entry_selection_constraints": [
+      {
+        "constraint_id": "constraint_9c9463cd0dcf84bf",
+        "kind": "select_entries",
+        "catalog_entry_ids": [
+          "entry_2733ddb8b98310e2",
+          "entry_c5583ed5fa554061"
+        ],
+        "course_names": [
+          "醫療與護理資訊",
+          "智慧醫療與AI創新管理"
+        ],
+        "min_entries": 1,
+        "max_entries": 1,
+        "declared_option_count": null,
+        "option_count_matches": true,
+        "requirement_group": "core",
+        "requirement_section": "core",
+        "source_page": 1,
+        "source_text": "核 心 課 程 護理學系 醫療與護理資訊 2 擇一修習",
+        "validation_status": "source_text_match"
+      }
+    ]
+  },
+  "review_status": "needs_review",
+  "review": {
+    "reviewer": "Brian",
+    "reviewed_at": "2026-08-16T14:14:34Z",
+    "review_note": "智慧醫療與AI創新管理\n門數：1 ～ 1\np.1｜ 護理學系 智慧醫療與AI創新管理 3 擇一修習 沒這個規則吧?",
+    "correction_status": "rechecked"
+  }
+}

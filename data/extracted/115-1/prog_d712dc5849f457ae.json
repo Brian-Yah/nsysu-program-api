@@ -1,5 +1,5 @@
 {
-  "schema_version": "1.0",
+  "schema_version": "1.2",
   "courses": [
     {
       "course_code": "FM617",
@@ -62,6 +62,7 @@
           "credits_snapshot": 3.0,
           "requirement_group": "core",
           "requirement_section": "core",
+          "requirement_label": null,
           "program_course_name_snapshot": null,
           "notes": "必修課",
           "source_page": 1,
@@ -80,6 +81,7 @@
           "credits_snapshot": 3.0,
           "requirement_group": "core",
           "requirement_section": "core",
+          "requirement_label": null,
           "program_course_name_snapshot": null,
           "notes": "每年春季開設/必修課",
           "source_page": 1,
@@ -98,6 +100,7 @@
           "credits_snapshot": 3.0,
           "requirement_group": "core",
           "requirement_section": "core",
+          "requirement_label": null,
           "program_course_name_snapshot": null,
           "notes": "每年秋季開設",
           "source_page": 1,
@@ -116,6 +119,7 @@
           "credits_snapshot": 3.0,
           "requirement_group": "core",
           "requirement_section": "core",
+          "requirement_label": null,
           "program_course_name_snapshot": null,
           "notes": "每年秋季開設",
           "source_page": 1,
@@ -134,6 +138,7 @@
           "credits_snapshot": 3.0,
           "requirement_group": "elective",
           "requirement_section": "elective",
+          "requirement_label": null,
           "program_course_name_snapshot": null,
           "notes": "",
           "source_page": 1,
@@ -152,6 +157,7 @@
           "credits_snapshot": 3.0,
           "requirement_group": "elective",
           "requirement_section": "elective",
+          "requirement_label": null,
           "program_course_name_snapshot": null,
           "notes": "每年春季開設",
           "source_page": 1,
@@ -170,6 +176,7 @@
           "credits_snapshot": 3.0,
           "requirement_group": "elective",
           "requirement_section": "elective",
+          "requirement_label": null,
           "program_course_name_snapshot": null,
           "notes": "每年春季開設",
           "source_page": 1,
@@ -179,9 +186,104 @@
         }
       ],
       "requirements": {
-        "minimum_total_credits": 9,
-        "core_credits_text_value": 6,
-        "minimum_outside_home_department_credits": 3
+        "minimum_core_credits": 6.0,
+        "core_credits_text_value": 6.0,
+        "minimum_outside_home_department_credits": 3.0,
+        "credit_constraints": [
+          {
+            "constraint_id": "constraint_312ba592cce58c5d",
+            "kind": "minimum_credits",
+            "scope": {
+              "kind": "course_eligibility",
+              "excluded_affiliations": [
+                "home_department",
+                "double_major",
+                "minor"
+              ],
+              "excluded_course_roles": [
+                "all"
+              ]
+            },
+            "minimum_credits": 3.0,
+            "requirement_context": "program_completion",
+            "source_page": 1,
+            "source_text": "至少應有3學分不屬於學生本系所",
+            "validation_status": "source_text_match"
+          },
+          {
+            "constraint_id": "constraint_bf7aacced70d28a0",
+            "kind": "minimum_credits",
+            "scope": {
+              "kind": "catalog_filter",
+              "requirement_groups": [
+                "core"
+              ]
+            },
+            "minimum_credits": 6.0,
+            "requirement_context": "program_completion",
+            "source_page": 1,
+            "source_text": "核心課程學分數:6學分",
+            "validation_status": "source_text_match"
+          }
+        ],
+        "source_conflicts": [
+          {
+            "conflict_id": "conflict_441aed2b2a458dd2",
+            "semantic_key": "program.minimum_total_credits",
+            "candidates": [
+              {
+                "candidate_id": "candidate_c07115c50a5696a4",
+                "value": 9.0,
+                "source_evidence": [
+                  {
+                    "source_page": 1,
+                    "source_text": "總學分數:至少9學分",
+                    "validation_status": "source_text_match"
+                  }
+                ]
+              },
+              {
+                "candidate_id": "candidate_ef9332f3c1212557",
+                "value": 11.0,
+                "source_evidence": [
+                  {
+                    "source_page": 1,
+                    "source_text": "總學分數:至少9學分※【微學程】課程規劃至少11學分",
+                    "validation_status": "source_text_match"
+                  }
+                ]
+              }
+            ],
+            "resolution_status": "unresolved",
+            "selected_candidate_id": null,
+            "resolution_note": null
+          }
+        ],
+        "manual_requirements": [
+          {
+            "requirement_id": "requirement_0ab275e67c0cefc4",
+            "kind": "manual_verification",
+            "requirement_type": "certificate",
+            "description": "獲得至少11學分後才有領取微學程證書",
+            "verification_mode": "manual_review",
+            "requirement_context": "certificate",
+            "source_page": 1,
+            "source_text": "獲得至少11學分後才有領取微學程證書",
+            "validation_status": "source_text_match"
+          }
+        ],
+        "completion_summary": {
+          "model_status": "conflicted",
+          "minimum_total_credits": null,
+          "minimum_core_credits": 6.0,
+          "maximum_core_credits": null,
+          "minimum_elective_credits": null,
+          "minimum_core_courses": null,
+          "minimum_elective_courses": null,
+          "has_conditional_requirements": false,
+          "has_manual_requirements": true,
+          "has_unresolved_conflicts": true
+        }
       },
       "source_pages": [
         1
@@ -209,6 +311,7 @@
           "credits_snapshot": 3.0,
           "requirement_group": "core",
           "requirement_section": "core",
+          "requirement_label": null,
           "program_course_name_snapshot": null,
           "notes": "112-1學期開設/必修課",
           "source_page": 2,
@@ -227,6 +330,7 @@
           "credits_snapshot": 2.0,
           "requirement_group": "core",
           "requirement_section": "core",
+          "requirement_label": null,
           "program_course_name_snapshot": null,
           "notes": "112-1學期開設/必修課",
           "source_page": 2,
@@ -245,6 +349,7 @@
           "credits_snapshot": 3.0,
           "requirement_group": "core",
           "requirement_section": "core",
+          "requirement_label": null,
           "program_course_name_snapshot": null,
           "notes": "每年春季開設/必修課",
           "source_page": 2,
@@ -263,6 +368,7 @@
           "credits_snapshot": 3.0,
           "requirement_group": "core",
           "requirement_section": "core",
+          "requirement_label": null,
           "program_course_name_snapshot": null,
           "notes": "每年秋季開設",
           "source_page": 2,
@@ -281,6 +387,7 @@
           "credits_snapshot": 3.0,
           "requirement_group": "core",
           "requirement_section": "core",
+          "requirement_label": null,
           "program_course_name_snapshot": null,
           "notes": "每年秋季開設",
           "source_page": 2,
@@ -299,6 +406,7 @@
           "credits_snapshot": 3.0,
           "requirement_group": "elective",
           "requirement_section": "elective",
+          "requirement_label": null,
           "program_course_name_snapshot": null,
           "notes": "111-2 學期開設",
           "source_page": 2,
@@ -317,6 +425,7 @@
           "credits_snapshot": 3.0,
           "requirement_group": "elective",
           "requirement_section": "elective",
+          "requirement_label": null,
           "program_course_name_snapshot": null,
           "notes": "每年春季開設",
           "source_page": 2,
@@ -335,6 +444,7 @@
           "credits_snapshot": 3.0,
           "requirement_group": "elective",
           "requirement_section": "elective",
+          "requirement_label": null,
           "program_course_name_snapshot": null,
           "notes": "每年春季開設",
           "source_page": 2,
@@ -344,9 +454,84 @@
         }
       ],
       "requirements": {
-        "minimum_total_credits": 11,
-        "core_credits_text_value": 8,
-        "minimum_outside_home_department_credits": 3
+        "minimum_core_credits": 8.0,
+        "core_credits_text_value": 8.0,
+        "minimum_total_credits": 11.0,
+        "minimum_outside_home_department_credits": 3.0,
+        "credit_constraints": [
+          {
+            "constraint_id": "constraint_312ba592cce58c5d",
+            "kind": "minimum_credits",
+            "scope": {
+              "kind": "course_eligibility",
+              "excluded_affiliations": [
+                "home_department",
+                "double_major",
+                "minor"
+              ],
+              "excluded_course_roles": [
+                "all"
+              ]
+            },
+            "minimum_credits": 3.0,
+            "requirement_context": "program_completion",
+            "source_page": 2,
+            "source_text": "至少應有3學分不屬於學生本系所",
+            "validation_status": "source_text_match"
+          },
+          {
+            "constraint_id": "constraint_956d79b98961ecb9",
+            "kind": "minimum_credits",
+            "scope": {
+              "kind": "catalog_filter",
+              "requirement_groups": [
+                "core"
+              ]
+            },
+            "minimum_credits": 8.0,
+            "requirement_context": "program_completion",
+            "source_page": 2,
+            "source_text": "核心課程學分數: 8 學分",
+            "validation_status": "source_text_match"
+          },
+          {
+            "constraint_id": "constraint_ba3179f60d92c3d8",
+            "kind": "minimum_credits",
+            "scope": {
+              "kind": "program"
+            },
+            "minimum_credits": 11.0,
+            "requirement_context": "program_completion",
+            "source_page": 2,
+            "source_text": "總學分數:至少 11 學分",
+            "validation_status": "source_text_match"
+          }
+        ],
+        "manual_requirements": [
+          {
+            "requirement_id": "requirement_0ab275e67c0cefc4",
+            "kind": "manual_verification",
+            "requirement_type": "certificate",
+            "description": "獲得至少11學分後才有領取微學程證書",
+            "verification_mode": "manual_review",
+            "requirement_context": "certificate",
+            "source_page": 2,
+            "source_text": "獲得至少11學分後才有領取微學程證書",
+            "validation_status": "source_text_match"
+          }
+        ],
+        "completion_summary": {
+          "model_status": "partial",
+          "minimum_total_credits": 11.0,
+          "minimum_core_credits": 8.0,
+          "maximum_core_credits": null,
+          "minimum_elective_credits": null,
+          "minimum_core_courses": null,
+          "minimum_elective_courses": null,
+          "has_conditional_requirements": false,
+          "has_manual_requirements": true,
+          "has_unresolved_conflicts": false
+        }
       },
       "source_pages": [
         2
@@ -374,6 +559,7 @@
           "credits_snapshot": 3.0,
           "requirement_group": "core",
           "requirement_section": "core",
+          "requirement_label": null,
           "program_course_name_snapshot": null,
           "notes": "112-1學期開設/必修課",
           "source_page": 3,
@@ -392,6 +578,7 @@
           "credits_snapshot": 2.0,
           "requirement_group": "core",
           "requirement_section": "core",
+          "requirement_label": null,
           "program_course_name_snapshot": null,
           "notes": "112-1學期開設/必修課",
           "source_page": 3,
@@ -410,6 +597,7 @@
           "credits_snapshot": 3.0,
           "requirement_group": "core",
           "requirement_section": "core",
+          "requirement_label": null,
           "program_course_name_snapshot": null,
           "notes": "每年春季開設/必修課",
           "source_page": 3,
@@ -428,6 +616,7 @@
           "credits_snapshot": 3.0,
           "requirement_group": "elective",
           "requirement_section": "elective",
+          "requirement_label": null,
           "program_course_name_snapshot": null,
           "notes": "111-2學期開設",
           "source_page": 3,
@@ -446,6 +635,7 @@
           "credits_snapshot": 3.0,
           "requirement_group": "elective",
           "requirement_section": "elective",
+          "requirement_label": null,
           "program_course_name_snapshot": null,
           "notes": "每年秋季開設",
           "source_page": 3,
@@ -464,6 +654,7 @@
           "credits_snapshot": 3.0,
           "requirement_group": "elective",
           "requirement_section": "elective",
+          "requirement_label": null,
           "program_course_name_snapshot": null,
           "notes": "每年秋季開設",
           "source_page": 3,
@@ -482,6 +673,7 @@
           "credits_snapshot": 3.0,
           "requirement_group": "elective",
           "requirement_section": "elective",
+          "requirement_label": null,
           "program_course_name_snapshot": null,
           "notes": "每年春季開設",
           "source_page": 3,
@@ -500,6 +692,7 @@
           "credits_snapshot": 3.0,
           "requirement_group": "elective",
           "requirement_section": "elective",
+          "requirement_label": null,
           "program_course_name_snapshot": null,
           "notes": "每年春季開設",
           "source_page": 3,
@@ -509,9 +702,84 @@
         }
       ],
       "requirements": {
-        "minimum_total_credits": 11,
-        "core_credits_text_value": 8,
-        "minimum_outside_home_department_credits": 3
+        "minimum_core_credits": 8.0,
+        "core_credits_text_value": 8.0,
+        "minimum_total_credits": 11.0,
+        "minimum_outside_home_department_credits": 3.0,
+        "credit_constraints": [
+          {
+            "constraint_id": "constraint_312ba592cce58c5d",
+            "kind": "minimum_credits",
+            "scope": {
+              "kind": "course_eligibility",
+              "excluded_affiliations": [
+                "home_department",
+                "double_major",
+                "minor"
+              ],
+              "excluded_course_roles": [
+                "all"
+              ]
+            },
+            "minimum_credits": 3.0,
+            "requirement_context": "program_completion",
+            "source_page": 3,
+            "source_text": "至少應有3學分不屬於學生本系所",
+            "validation_status": "source_text_match"
+          },
+          {
+            "constraint_id": "constraint_956d79b98961ecb9",
+            "kind": "minimum_credits",
+            "scope": {
+              "kind": "catalog_filter",
+              "requirement_groups": [
+                "core"
+              ]
+            },
+            "minimum_credits": 8.0,
+            "requirement_context": "program_completion",
+            "source_page": 3,
+            "source_text": "核心課程學分數: 8 學分",
+            "validation_status": "source_text_match"
+          },
+          {
+            "constraint_id": "constraint_f5d0e59c830310d0",
+            "kind": "minimum_credits",
+            "scope": {
+              "kind": "program"
+            },
+            "minimum_credits": 11.0,
+            "requirement_context": "program_completion",
+            "source_page": 3,
+            "source_text": "總學分數:至少 11學分",
+            "validation_status": "source_text_match"
+          }
+        ],
+        "manual_requirements": [
+          {
+            "requirement_id": "requirement_0ab275e67c0cefc4",
+            "kind": "manual_verification",
+            "requirement_type": "certificate",
+            "description": "獲得至少11學分後才有領取微學程證書",
+            "verification_mode": "manual_review",
+            "requirement_context": "certificate",
+            "source_page": 3,
+            "source_text": "獲得至少11學分後才有領取微學程證書",
+            "validation_status": "source_text_match"
+          }
+        ],
+        "completion_summary": {
+          "model_status": "partial",
+          "minimum_total_credits": 11.0,
+          "minimum_core_credits": 8.0,
+          "maximum_core_credits": null,
+          "minimum_elective_credits": null,
+          "minimum_core_courses": null,
+          "minimum_elective_courses": null,
+          "has_conditional_requirements": false,
+          "has_manual_requirements": true,
+          "has_unresolved_conflicts": false
+        }
       },
       "source_pages": [
         3
@@ -539,8 +807,9 @@
           "credits_snapshot": 3.0,
           "requirement_group": "core",
           "requirement_section": "core",
+          "requirement_label": null,
           "program_course_name_snapshot": null,
-          "notes": "CM502、BM678、IB533、FM617為基礎課程,學生擇一修習。 R程式語言、機率統計與商業實務CM502",
+          "notes": "CM502、BM678、IB533、FM617為基礎課程,學生擇一修習。 R程式語言、機率統計與商業實務CM502 核 心 課 程 管理學院 R程式語言、機率統計與商業實 務CM502 3 CM502、BM678、IB533、FM617 為基礎課程,學生擇一修習。",
           "source_page": 4,
           "evidence_match": true,
           "validation_status": "needs_course_code_verification",
@@ -557,8 +826,9 @@
           "credits_snapshot": 3.0,
           "requirement_group": "core",
           "requirement_section": "core",
+          "requirement_label": null,
           "program_course_name_snapshot": null,
-          "notes": "CM502、BM678、IB533、FM617為基礎課程,學生擇一修習。 R程式語言、機率統計與商業實務CM502",
+          "notes": "CM502、BM678、IB533、FM617為基礎課程,學生擇一修習。 R程式語言、機率統計與商業實務CM502 核 心 課 程 管理學院 R程式語言、機率統計與商業實 務CM502 3 CM502、BM678、IB533、FM617 為基礎課程,學生擇一修習。",
           "source_page": 4,
           "evidence_match": true,
           "validation_status": "needs_course_code_verification",
@@ -575,8 +845,9 @@
           "credits_snapshot": 3.0,
           "requirement_group": "core",
           "requirement_section": "core",
+          "requirement_label": null,
           "program_course_name_snapshot": null,
-          "notes": "CM502、BM678、IB533、FM617為基礎課程,學生擇一修習。",
+          "notes": "核 心 課 程 管理學院 R程式語言、機率統計與商業實 務CM502 3 CM502、BM678、IB533、FM617 為基礎課程,學生擇一修習。",
           "source_page": 4,
           "evidence_match": true,
           "validation_status": "needs_course_code_verification",
@@ -593,8 +864,9 @@
           "credits_snapshot": 3.0,
           "requirement_group": "core",
           "requirement_section": "core",
+          "requirement_label": null,
           "program_course_name_snapshot": null,
-          "notes": "CM502、BM678、IB533、FM617為基礎課程,學生擇一修習。",
+          "notes": "核 心 課 程 管理學院 R程式語言、機率統計與商業實 務CM502 3 CM502、BM678、IB533、FM617 為基礎課程,學生擇一修習。",
           "source_page": 4,
           "evidence_match": true,
           "validation_status": "needs_course_code_verification",
@@ -611,8 +883,9 @@
           "credits_snapshot": 3.0,
           "requirement_group": "core",
           "requirement_section": "core",
+          "requirement_label": null,
           "program_course_name_snapshot": null,
-          "notes": "CM502、BM678、IB533、FM617為基礎課程,學生擇一修習。",
+          "notes": "核 心 課 程 管理學院 R程式語言、機率統計與商業實 務CM502 3 CM502、BM678、IB533、FM617 為基礎課程,學生擇一修習。",
           "source_page": 4,
           "evidence_match": true,
           "validation_status": "needs_course_code_verification",
@@ -629,8 +902,9 @@
           "credits_snapshot": 3.0,
           "requirement_group": "core",
           "requirement_section": "core",
+          "requirement_label": null,
           "program_course_name_snapshot": null,
-          "notes": "CM503與MIS572為進階課程,學生擇一修習。 大數據、機器學習與人工智慧CM503",
+          "notes": "CM503與MIS572為進階課程,學生擇一修習。 大數據、機器學習與人工智慧CM503  管理學院 大數據、機器學習與人工智慧 CM503 3 CM503與MIS572為進階課程,學 生擇一修習。",
           "source_page": 4,
           "evidence_match": true,
           "validation_status": "needs_course_code_verification",
@@ -647,8 +921,9 @@
           "credits_snapshot": 3.0,
           "requirement_group": "core",
           "requirement_section": "core",
+          "requirement_label": null,
           "program_course_name_snapshot": null,
-          "notes": "CM503與MIS572為進階課程,學生擇一修習。 大數據、機器學習與人工智慧CM503",
+          "notes": "CM503與MIS572為進階課程,學生擇一修習。 大數據、機器學習與人工智慧CM503  管理學院 大數據、機器學習與人工智慧 CM503 3 CM503與MIS572為進階課程,學 生擇一修習。",
           "source_page": 4,
           "evidence_match": true,
           "validation_status": "needs_course_code_verification",
@@ -665,8 +940,9 @@
           "credits_snapshot": 3.0,
           "requirement_group": "core",
           "requirement_section": "core",
+          "requirement_label": null,
           "program_course_name_snapshot": null,
-          "notes": "CM503與MIS572為進階課程,學生擇一修習。",
+          "notes": " 管理學院 大數據、機器學習與人工智慧 CM503 3 CM503與MIS572為進階課程,學 生擇一修習。",
           "source_page": 4,
           "evidence_match": true,
           "validation_status": "needs_course_code_verification",
@@ -683,8 +959,9 @@
           "credits_snapshot": 3.0,
           "requirement_group": "core",
           "requirement_section": "core",
+          "requirement_label": null,
           "program_course_name_snapshot": null,
-          "notes": "CM506總結性課程 CM503與MIS572為進階課程,學生擇一修習。",
+          "notes": "CM506總結性課程  管理學院 大數據、機器學習與人工智慧 CM503 3 CM503與MIS572為進階課程,學 生擇一修習。",
           "source_page": 4,
           "evidence_match": false,
           "validation_status": "needs_course_code_verification",
@@ -692,9 +969,59 @@
         }
       ],
       "requirements": {
-        "minimum_total_credits": 9,
-        "core_credits_text_value": 9,
-        "minimum_outside_home_department_credits": 3,
+        "minimum_core_credits": 9.0,
+        "core_credits_text_value": 9.0,
+        "minimum_total_credits": 9.0,
+        "minimum_outside_home_department_credits": 3.0,
+        "credit_constraints": [
+          {
+            "constraint_id": "constraint_20e0d8f901c88438",
+            "kind": "minimum_credits",
+            "scope": {
+              "kind": "catalog_filter",
+              "requirement_groups": [
+                "core"
+              ]
+            },
+            "minimum_credits": 9.0,
+            "requirement_context": "program_completion",
+            "source_page": 4,
+            "source_text": "核心課程學分數: 9 學分",
+            "validation_status": "source_text_match"
+          },
+          {
+            "constraint_id": "constraint_312ba592cce58c5d",
+            "kind": "minimum_credits",
+            "scope": {
+              "kind": "course_eligibility",
+              "excluded_affiliations": [
+                "home_department",
+                "double_major",
+                "minor"
+              ],
+              "excluded_course_roles": [
+                "all"
+              ]
+            },
+            "minimum_credits": 3.0,
+            "requirement_context": "program_completion",
+            "source_page": 4,
+            "source_text": "至少應有3學分不屬於學生本系所",
+            "validation_status": "source_text_match"
+          },
+          {
+            "constraint_id": "constraint_e4e3ec6325db6e04",
+            "kind": "minimum_credits",
+            "scope": {
+              "kind": "program"
+            },
+            "minimum_credits": 9.0,
+            "requirement_context": "program_completion",
+            "source_page": 4,
+            "source_text": "總學分數:至少 9 學分",
+            "validation_status": "source_text_match"
+          }
+        ],
         "course_count_constraints": [
           {
             "constraint_id": "constraint_1d8b9f2ac878bd90",
@@ -749,7 +1076,7 @@
             "requirement_group": "core",
             "requirement_section": "core",
             "source_page": 4,
-            "source_text": "CM503與MIS572為進階課程,學生擇一修習。",
+            "source_text": " 管理學院 大數據、機器學習與人工智慧 CM503 3 CM503與MIS572為進階課程,學 生擇一修習。",
             "validation_status": "source_text_match"
           },
           {
@@ -775,10 +1102,22 @@
             "requirement_group": "core",
             "requirement_section": "core",
             "source_page": 4,
-            "source_text": "CM502、BM678、IB533、FM617為基礎課程,學生擇一修習。",
+            "source_text": "核 心 課 程 管理學院 R程式語言、機率統計與商業實 務CM502 3 CM502、BM678、IB533、FM617 為基礎課程,學生擇一修習。",
             "validation_status": "source_text_match"
           }
-        ]
+        ],
+        "completion_summary": {
+          "model_status": "partial",
+          "minimum_total_credits": 9.0,
+          "minimum_core_credits": 9.0,
+          "maximum_core_credits": null,
+          "minimum_elective_credits": null,
+          "minimum_core_courses": null,
+          "minimum_elective_courses": null,
+          "has_conditional_requirements": false,
+          "has_manual_requirements": false,
+          "has_unresolved_conflicts": false
+        }
       },
       "source_pages": [
         4
@@ -808,8 +1147,9 @@
           "credits_snapshot": 3.0,
           "requirement_group": "core",
           "requirement_section": "core",
+          "requirement_label": null,
           "program_course_name_snapshot": null,
-          "notes": "108年春/與「商務數據分析」為相同課程,學生擇一修習。",
+          "notes": "108年春/與「商務數據分析」為相同課程,學生擇一修習。 核 心 課 程 管理學院 R程式語言、機率統計與商業實務 3 108年春/與「商務數據分析」 為相同課程,學生擇一修習。",
           "source_page": 5,
           "evidence_match": true,
           "validation_status": "needs_course_code_verification",
@@ -826,8 +1166,9 @@
           "credits_snapshot": 3.0,
           "requirement_group": "core",
           "requirement_section": "core",
+          "requirement_label": null,
           "program_course_name_snapshot": null,
-          "notes": "108年秋/與「R程式語言」為相同課程,學生擇一修習。",
+          "notes": "108年秋/與「R程式語言」為相同課程,學生擇一修習。  企管碩 商務數據分析 3 108年秋/與「R程式語言」為 相同課程,學生擇一修習。",
           "source_page": 5,
           "evidence_match": true,
           "validation_status": "needs_course_code_verification",
@@ -844,8 +1185,9 @@
           "credits_snapshot": 3.0,
           "requirement_group": "core",
           "requirement_section": "core",
+          "requirement_label": null,
           "program_course_name_snapshot": null,
-          "notes": "108年秋/與「巨量資料分析導論」併班上課,學生擇一修習。",
+          "notes": "108年秋/與「巨量資料分析導論」併班上課,學生擇一修習。  管理學院 大數據、機器學習與人工智慧 3 108年秋/與「巨量資料分析 導論」併班上課,學生擇一修 習。",
           "source_page": 5,
           "evidence_match": true,
           "validation_status": "needs_course_code_verification",
@@ -862,8 +1204,9 @@
           "credits_snapshot": 3.0,
           "requirement_group": "core",
           "requirement_section": "core",
+          "requirement_label": null,
           "program_course_name_snapshot": null,
-          "notes": "108年秋/與「大數據、機器學習與人工智慧」併班上課,學生擇一修習。",
+          "notes": "108年秋/與「大數據、機器學習與人工智慧」併班上課,學生擇一修習。  資管碩 巨量資料分析導論 3 108年秋/與「大數據、機器學 習與人工智慧」併班上課,學 生擇一修習。",
           "source_page": 5,
           "evidence_match": true,
           "validation_status": "needs_course_code_verification",
@@ -880,8 +1223,9 @@
           "credits_snapshot": 3.0,
           "requirement_group": "core",
           "requirement_section": "core",
+          "requirement_label": null,
           "program_course_name_snapshot": null,
-          "notes": "109年春 108年秋/與「大數據、機器學習與人工智慧」併班上課,學生擇一修習。",
+          "notes": "109年春  資管碩 巨量資料分析導論 3 108年秋/與「大數據、機器學 習與人工智慧」併班上課,學 生擇一修習。",
           "source_page": 5,
           "evidence_match": true,
           "validation_status": "needs_course_code_verification",
@@ -889,9 +1233,59 @@
         }
       ],
       "requirements": {
-        "minimum_total_credits": 9,
-        "core_credits_text_value": 9,
-        "minimum_outside_home_department_credits": 3,
+        "minimum_core_credits": 9.0,
+        "core_credits_text_value": 9.0,
+        "minimum_total_credits": 9.0,
+        "minimum_outside_home_department_credits": 3.0,
+        "credit_constraints": [
+          {
+            "constraint_id": "constraint_20e0d8f901c88438",
+            "kind": "minimum_credits",
+            "scope": {
+              "kind": "catalog_filter",
+              "requirement_groups": [
+                "core"
+              ]
+            },
+            "minimum_credits": 9.0,
+            "requirement_context": "program_completion",
+            "source_page": 5,
+            "source_text": "核心課程學分數: 9 學分",
+            "validation_status": "source_text_match"
+          },
+          {
+            "constraint_id": "constraint_312ba592cce58c5d",
+            "kind": "minimum_credits",
+            "scope": {
+              "kind": "course_eligibility",
+              "excluded_affiliations": [
+                "home_department",
+                "double_major",
+                "minor"
+              ],
+              "excluded_course_roles": [
+                "all"
+              ]
+            },
+            "minimum_credits": 3.0,
+            "requirement_context": "program_completion",
+            "source_page": 5,
+            "source_text": "至少應有3學分不屬於學生本系所",
+            "validation_status": "source_text_match"
+          },
+          {
+            "constraint_id": "constraint_e4e3ec6325db6e04",
+            "kind": "minimum_credits",
+            "scope": {
+              "kind": "program"
+            },
+            "minimum_credits": 9.0,
+            "requirement_context": "program_completion",
+            "source_page": 5,
+            "source_text": "總學分數:至少 9 學分",
+            "validation_status": "source_text_match"
+          }
+        ],
         "entry_selection_constraints": [
           {
             "constraint_id": "constraint_1784dd26c9caffdd",
@@ -911,7 +1305,7 @@
             "requirement_group": "core",
             "requirement_section": "core",
             "source_page": 5,
-            "source_text": "108年秋/與「大數據、機器學習與人工智慧」併班上課,學生擇一修習。",
+            "source_text": " 資管碩 巨量資料分析導論 3 108年秋/與「大數據、機器學 習與人工智慧」併班上課,學 生擇一修習。",
             "validation_status": "source_text_match"
           },
           {
@@ -930,7 +1324,7 @@
             "requirement_group": "core",
             "requirement_section": "core",
             "source_page": 5,
-            "source_text": "108年秋/與「R程式語言」為相同課程,學生擇一修習。",
+            "source_text": " 企管碩 商務數據分析 3 108年秋/與「R程式語言」為 相同課程,學生擇一修習。",
             "validation_status": "source_text_match"
           },
           {
@@ -949,7 +1343,7 @@
             "requirement_group": "core",
             "requirement_section": "core",
             "source_page": 5,
-            "source_text": "108年秋/與「巨量資料分析導論」併班上課,學生擇一修習。",
+            "source_text": " 管理學院 大數據、機器學習與人工智慧 3 108年秋/與「巨量資料分析 導論」併班上課,學生擇一修 習。",
             "validation_status": "source_text_match"
           },
           {
@@ -968,10 +1362,22 @@
             "requirement_group": "core",
             "requirement_section": "core",
             "source_page": 5,
-            "source_text": "108年春/與「商務數據分析」為相同課程,學生擇一修習。",
+            "source_text": "核 心 課 程 管理學院 R程式語言、機率統計與商業實務 3 108年春/與「商務數據分析」 為相同課程,學生擇一修習。",
             "validation_status": "source_text_match"
           }
-        ]
+        ],
+        "completion_summary": {
+          "model_status": "partial",
+          "minimum_total_credits": 9.0,
+          "minimum_core_credits": 9.0,
+          "maximum_core_credits": null,
+          "minimum_elective_credits": null,
+          "minimum_core_courses": null,
+          "minimum_elective_courses": null,
+          "has_conditional_requirements": false,
+          "has_manual_requirements": false,
+          "has_unresolved_conflicts": false
+        }
       },
       "source_pages": [
         5
@@ -1000,6 +1406,7 @@
       "credits_snapshot": 3.0,
       "requirement_group": "core",
       "requirement_section": "core",
+      "requirement_label": null,
       "program_course_name_snapshot": null,
       "notes": "必修課",
       "source_page": 1,
@@ -1018,6 +1425,7 @@
       "credits_snapshot": 3.0,
       "requirement_group": "core",
       "requirement_section": "core",
+      "requirement_label": null,
       "program_course_name_snapshot": null,
       "notes": "每年春季開設/必修課",
       "source_page": 1,
@@ -1036,6 +1444,7 @@
       "credits_snapshot": 3.0,
       "requirement_group": "core",
       "requirement_section": "core",
+      "requirement_label": null,
       "program_course_name_snapshot": null,
       "notes": "每年秋季開設",
       "source_page": 1,
@@ -1054,6 +1463,7 @@
       "credits_snapshot": 3.0,
       "requirement_group": "core",
       "requirement_section": "core",
+      "requirement_label": null,
       "program_course_name_snapshot": null,
       "notes": "每年秋季開設",
       "source_page": 1,
@@ -1072,6 +1482,7 @@
       "credits_snapshot": 3.0,
       "requirement_group": "elective",
       "requirement_section": "elective",
+      "requirement_label": null,
       "program_course_name_snapshot": null,
       "notes": "",
       "source_page": 1,
@@ -1090,6 +1501,7 @@
       "credits_snapshot": 3.0,
       "requirement_group": "elective",
       "requirement_section": "elective",
+      "requirement_label": null,
       "program_course_name_snapshot": null,
       "notes": "每年春季開設",
       "source_page": 1,
@@ -1108,6 +1520,7 @@
       "credits_snapshot": 3.0,
       "requirement_group": "elective",
       "requirement_section": "elective",
+      "requirement_label": null,
       "program_course_name_snapshot": null,
       "notes": "每年春季開設",
       "source_page": 1,
@@ -1117,8 +1530,103 @@
     }
   ],
   "structured_requirements": {
-    "minimum_total_credits": 9,
-    "core_credits_text_value": 6,
-    "minimum_outside_home_department_credits": 3
+    "minimum_core_credits": 6.0,
+    "core_credits_text_value": 6.0,
+    "minimum_outside_home_department_credits": 3.0,
+    "credit_constraints": [
+      {
+        "constraint_id": "constraint_312ba592cce58c5d",
+        "kind": "minimum_credits",
+        "scope": {
+          "kind": "course_eligibility",
+          "excluded_affiliations": [
+            "home_department",
+            "double_major",
+            "minor"
+          ],
+          "excluded_course_roles": [
+            "all"
+          ]
+        },
+        "minimum_credits": 3.0,
+        "requirement_context": "program_completion",
+        "source_page": 1,
+        "source_text": "至少應有3學分不屬於學生本系所",
+        "validation_status": "source_text_match"
+      },
+      {
+        "constraint_id": "constraint_bf7aacced70d28a0",
+        "kind": "minimum_credits",
+        "scope": {
+          "kind": "catalog_filter",
+          "requirement_groups": [
+            "core"
+          ]
+        },
+        "minimum_credits": 6.0,
+        "requirement_context": "program_completion",
+        "source_page": 1,
+        "source_text": "核心課程學分數:6學分",
+        "validation_status": "source_text_match"
+      }
+    ],
+    "source_conflicts": [
+      {
+        "conflict_id": "conflict_441aed2b2a458dd2",
+        "semantic_key": "program.minimum_total_credits",
+        "candidates": [
+          {
+            "candidate_id": "candidate_c07115c50a5696a4",
+            "value": 9.0,
+            "source_evidence": [
+              {
+                "source_page": 1,
+                "source_text": "總學分數:至少9學分",
+                "validation_status": "source_text_match"
+              }
+            ]
+          },
+          {
+            "candidate_id": "candidate_ef9332f3c1212557",
+            "value": 11.0,
+            "source_evidence": [
+              {
+                "source_page": 1,
+                "source_text": "總學分數:至少9學分※【微學程】課程規劃至少11學分",
+                "validation_status": "source_text_match"
+              }
+            ]
+          }
+        ],
+        "resolution_status": "unresolved",
+        "selected_candidate_id": null,
+        "resolution_note": null
+      }
+    ],
+    "manual_requirements": [
+      {
+        "requirement_id": "requirement_0ab275e67c0cefc4",
+        "kind": "manual_verification",
+        "requirement_type": "certificate",
+        "description": "獲得至少11學分後才有領取微學程證書",
+        "verification_mode": "manual_review",
+        "requirement_context": "certificate",
+        "source_page": 1,
+        "source_text": "獲得至少11學分後才有領取微學程證書",
+        "validation_status": "source_text_match"
+      }
+    ],
+    "completion_summary": {
+      "model_status": "conflicted",
+      "minimum_total_credits": null,
+      "minimum_core_credits": 6.0,
+      "maximum_core_credits": null,
+      "minimum_elective_credits": null,
+      "minimum_core_courses": null,
+      "minimum_elective_courses": null,
+      "has_conditional_requirements": false,
+      "has_manual_requirements": true,
+      "has_unresolved_conflicts": true
+    }
   }
 }

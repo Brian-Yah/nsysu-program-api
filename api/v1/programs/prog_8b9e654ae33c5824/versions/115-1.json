@@ -23,7 +23,7 @@
       "last_modified": "Tue, 23 Dec 2025 06:52:25 GMT",
       "content_length": 225501
     },
-    "parser_version": "0.2.3",
+    "parser_version": "0.3.0",
     "extractor_versions": {
       "pypdf": "6.10.0",
       "pdfplumber": "0.11.9"
@@ -34,9 +34,7 @@
     "kind": "manual_review",
     "reason": "Extracted candidate awaits approval"
   },
-  "warnings": [
-    "No structured course rows extracted from PDF tables"
-  ],
+  "warnings": [],
   "selected_pdf_academic_version": "114-1",
   "course_catalog": [
     {
@@ -50,6 +48,7 @@
       "credits_snapshot": 3.0,
       "requirement_group": "core",
       "requirement_section": "core",
+      "requirement_label": null,
       "program_course_name_snapshot": null,
       "notes": "",
       "source_page": 1,
@@ -68,6 +67,7 @@
       "credits_snapshot": 3.0,
       "requirement_group": "core",
       "requirement_section": "core",
+      "requirement_label": null,
       "program_course_name_snapshot": null,
       "notes": "「有機光譜概論」和「有機光譜學」之學分不得重複認列",
       "source_page": 1,
@@ -86,6 +86,7 @@
       "credits_snapshot": 3.0,
       "requirement_group": "core",
       "requirement_section": "core",
+      "requirement_label": null,
       "program_course_name_snapshot": null,
       "notes": "",
       "source_page": 1,
@@ -104,6 +105,7 @@
       "credits_snapshot": 3.0,
       "requirement_group": "core",
       "requirement_section": "core",
+      "requirement_label": null,
       "program_course_name_snapshot": null,
       "notes": "",
       "source_page": 1,
@@ -122,6 +124,7 @@
       "credits_snapshot": 3.0,
       "requirement_group": "core",
       "requirement_section": "core",
+      "requirement_label": null,
       "program_course_name_snapshot": null,
       "notes": "",
       "source_page": 1,
@@ -140,6 +143,7 @@
       "credits_snapshot": 3.0,
       "requirement_group": "core",
       "requirement_section": "core",
+      "requirement_label": null,
       "program_course_name_snapshot": null,
       "notes": "",
       "source_page": 1,
@@ -158,6 +162,7 @@
       "credits_snapshot": 3.0,
       "requirement_group": "core",
       "requirement_section": "core",
+      "requirement_label": null,
       "program_course_name_snapshot": null,
       "notes": "",
       "source_page": 1,
@@ -176,6 +181,7 @@
       "credits_snapshot": 3.0,
       "requirement_group": "elective",
       "requirement_section": "elective",
+      "requirement_label": null,
       "program_course_name_snapshot": null,
       "notes": "相同課名之學分僅認列一次",
       "source_page": 1,
@@ -194,6 +200,7 @@
       "credits_snapshot": 3.0,
       "requirement_group": "elective",
       "requirement_section": "elective",
+      "requirement_label": null,
       "program_course_name_snapshot": null,
       "notes": "",
       "source_page": 1,
@@ -212,6 +219,7 @@
       "credits_snapshot": 3.0,
       "requirement_group": "elective",
       "requirement_section": "elective",
+      "requirement_label": null,
       "program_course_name_snapshot": null,
       "notes": "",
       "source_page": 1,
@@ -230,6 +238,7 @@
       "credits_snapshot": 3.0,
       "requirement_group": "elective",
       "requirement_section": "elective",
+      "requirement_label": null,
       "program_course_name_snapshot": null,
       "notes": "",
       "source_page": 1,
@@ -248,6 +257,7 @@
       "credits_snapshot": 3.0,
       "requirement_group": "elective",
       "requirement_section": "elective",
+      "requirement_label": null,
       "program_course_name_snapshot": null,
       "notes": "",
       "source_page": 1,
@@ -266,6 +276,7 @@
       "credits_snapshot": 3.0,
       "requirement_group": "elective",
       "requirement_section": "elective",
+      "requirement_label": null,
       "program_course_name_snapshot": null,
       "notes": "",
       "source_page": 1,
@@ -284,6 +295,7 @@
       "credits_snapshot": 3.0,
       "requirement_group": "elective",
       "requirement_section": "elective",
+      "requirement_label": null,
       "program_course_name_snapshot": null,
       "notes": "",
       "source_page": 1,
@@ -302,6 +314,7 @@
       "credits_snapshot": 3.0,
       "requirement_group": "elective",
       "requirement_section": "elective",
+      "requirement_label": null,
       "program_course_name_snapshot": null,
       "notes": "",
       "source_page": 1,
@@ -320,6 +333,7 @@
       "credits_snapshot": 3.0,
       "requirement_group": "elective",
       "requirement_section": "elective",
+      "requirement_label": null,
       "program_course_name_snapshot": null,
       "notes": "",
       "source_page": 1,
@@ -338,6 +352,7 @@
       "credits_snapshot": 3.0,
       "requirement_group": "elective",
       "requirement_section": "elective",
+      "requirement_label": null,
       "program_course_name_snapshot": null,
       "notes": "",
       "source_page": 1,
@@ -356,6 +371,7 @@
       "credits_snapshot": 3.0,
       "requirement_group": "elective",
       "requirement_section": "elective",
+      "requirement_label": null,
       "program_course_name_snapshot": null,
       "notes": "",
       "source_page": 1,
@@ -374,6 +390,7 @@
       "credits_snapshot": 3.0,
       "requirement_group": "elective",
       "requirement_section": "elective",
+      "requirement_label": null,
       "program_course_name_snapshot": null,
       "notes": "",
       "source_page": 1,
@@ -392,6 +409,7 @@
       "credits_snapshot": 3.0,
       "requirement_group": "elective",
       "requirement_section": "elective",
+      "requirement_label": null,
       "program_course_name_snapshot": null,
       "notes": "",
       "source_page": 1,
@@ -410,6 +428,7 @@
       "credits_snapshot": 3.0,
       "requirement_group": "elective",
       "requirement_section": "elective",
+      "requirement_label": null,
       "program_course_name_snapshot": null,
       "notes": "",
       "source_page": 1,
@@ -428,6 +447,7 @@
       "credits_snapshot": 3.0,
       "requirement_group": "elective",
       "requirement_section": "elective",
+      "requirement_label": null,
       "program_course_name_snapshot": null,
       "notes": "",
       "source_page": 1,
@@ -446,6 +466,7 @@
       "credits_snapshot": 3.0,
       "requirement_group": "elective",
       "requirement_section": "elective",
+      "requirement_label": null,
       "program_course_name_snapshot": null,
       "notes": "",
       "source_page": 1,
@@ -464,6 +485,7 @@
       "credits_snapshot": 3.0,
       "requirement_group": "elective",
       "requirement_section": "elective",
+      "requirement_label": null,
       "program_course_name_snapshot": null,
       "notes": "",
       "source_page": 1,
@@ -482,6 +504,7 @@
       "credits_snapshot": 2.0,
       "requirement_group": "elective",
       "requirement_section": "elective",
+      "requirement_label": null,
       "program_course_name_snapshot": null,
       "notes": "",
       "source_page": 1,
@@ -500,6 +523,7 @@
       "credits_snapshot": 2.0,
       "requirement_group": "elective",
       "requirement_section": "elective",
+      "requirement_label": null,
       "program_course_name_snapshot": null,
       "notes": "",
       "source_page": 1,
@@ -518,6 +542,7 @@
       "credits_snapshot": 2.0,
       "requirement_group": "elective",
       "requirement_section": "elective",
+      "requirement_label": null,
       "program_course_name_snapshot": null,
       "notes": "",
       "source_page": 1,
@@ -527,8 +552,100 @@
     }
   ],
   "structured_requirements": {
-    "minimum_total_credits": 15,
-    "core_credits_text_value": 9,
-    "minimum_outside_home_department_credits": 6
+    "minimum_core_credits": 9.0,
+    "core_credits_text_value": 9.0,
+    "minimum_total_credits": 15.0,
+    "minimum_outside_home_department_credits": 6.0,
+    "credit_constraints": [
+      {
+        "constraint_id": "constraint_20e0d8f901c88438",
+        "kind": "minimum_credits",
+        "scope": {
+          "kind": "catalog_filter",
+          "requirement_groups": [
+            "core"
+          ]
+        },
+        "minimum_credits": 9.0,
+        "requirement_context": "program_completion",
+        "source_page": 1,
+        "source_text": "核心課程學分數: 9 學分",
+        "validation_status": "source_text_match"
+      },
+      {
+        "constraint_id": "constraint_aacd285688c08ff9",
+        "kind": "minimum_credits",
+        "scope": {
+          "kind": "course_eligibility",
+          "excluded_affiliations": [
+            "home_department",
+            "double_major",
+            "minor"
+          ],
+          "excluded_course_roles": [
+            "all"
+          ]
+        },
+        "minimum_credits": 6.0,
+        "requirement_context": "program_completion",
+        "source_page": 1,
+        "source_text": "至少應有6學分不屬於學生本系所",
+        "validation_status": "source_text_match"
+      },
+      {
+        "constraint_id": "constraint_bd923f7c1dde3fd3",
+        "kind": "maximum_counted_credits",
+        "scope": {
+          "kind": "catalog_entries",
+          "catalog_entry_ids": [
+            "entry_7ec975110ff68704",
+            "entry_7dc0fee5187484d2"
+          ]
+        },
+        "maximum_counted_credits": 3.0,
+        "requirement_context": "program_completion",
+        "source_page": 1,
+        "source_text": "有機光譜概論3「有機光譜概論」和「有機光化學碩有機光譜學3譜學」之學分不得重複認列",
+        "validation_status": "source_text_match"
+      },
+      {
+        "constraint_id": "constraint_e7816b364d225856",
+        "kind": "minimum_credits",
+        "scope": {
+          "kind": "program"
+        },
+        "minimum_credits": 15.0,
+        "requirement_context": "program_completion",
+        "source_page": 1,
+        "source_text": "總學分數:至少 15 學分",
+        "validation_status": "source_text_match"
+      }
+    ],
+    "no_double_count_constraints": [
+      {
+        "constraint_id": "constraint_201cce6411dc9453",
+        "kind": "no_double_count",
+        "requirement_groups": [
+          "core",
+          "elective"
+        ],
+        "max_count_per_course": 1,
+        "source_page": 1,
+        "source_text": "【114學年度第1學期起適用】 114.11.4 114學年度第1學期學分學程會議通過 114.12.9第186次教務會議通過 天然藥物合成學程新課程規劃表 開課單位 課 程 名 稱 學分數 備註 核 心 課 程 化學系 有機化學(三) 3 化學系 有機光譜概論 3 「有機光譜概論」和「有機光 化學碩 有機光譜學 3 譜學」之學分不得重複認列 海資系 生藥學 3 化學碩 高等有機化學 3 化學碩 物理有機化學 3 化學碩 天然物合成 3 核心課程學分數： 9 學分 選 修 化學系 生物化學(一) 3 化學系 生物化學(二) 3 生科系 生物化學(一) 3 相同課名之學分僅認列一次 生科系 生物化學(二) 3 海資系 生物化學(一) 3 海資系 生物化學(二) 3 化學系 生物無機化學 3 化學系 生醫技術導論 3 海資系 天然物化學概論 3 海資系 訊息傳遞與藥物開發概論 3 海資系 海洋化學光譜分析 3 海資碩 天然物化學（一） 3 海資碩 色層分析 3 海資碩 分子標靶與天然物開發 3 生技醫藥碩 生技醫藥研發與技術特論 3 生技醫藥碩 大分子藥物開發特論 3 生技醫藥碩 藥物化學（一） 3 生技醫藥碩 藥物開發通論 2 生技醫藥碩 分子藥物設計及合成 2 生技醫藥碩 抗癌藥物現狀與展望 2 總學分數：至少 15 學分 ※【整合學程】課程規劃至少15學分。",
+        "validation_status": "source_text_match"
+      }
+    ],
+    "completion_summary": {
+      "model_status": "partial",
+      "minimum_total_credits": 15.0,
+      "minimum_core_credits": 9.0,
+      "maximum_core_credits": null,
+      "minimum_elective_credits": null,
+      "minimum_core_courses": null,
+      "minimum_elective_courses": null,
+      "has_conditional_requirements": false,
+      "has_manual_requirements": false,
+      "has_unresolved_conflicts": false
+    }
   }
 }

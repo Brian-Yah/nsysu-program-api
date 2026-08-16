@@ -23,7 +23,7 @@
       "last_modified": "Thu, 13 Aug 2026 06:20:58 GMT",
       "content_length": 136856
     },
-    "parser_version": "0.2.3",
+    "parser_version": "0.3.0",
     "extractor_versions": {
       "pypdf": "6.10.0",
       "pdfplumber": "0.11.9"
@@ -34,11 +34,28 @@
     "kind": "manual_review",
     "reason": "Extracted candidate awaits approval"
   },
-  "warnings": [
-    "No structured course rows extracted from PDF tables"
-  ],
+  "warnings": [],
   "selected_pdf_academic_version": "113-1",
   "course_catalog": [
+    {
+      "course_code": null,
+      "catalog_entry_id": "entry_97dd814f49b0118e",
+      "opening_units": [
+        "臺灣大專院校人工智慧學程聯盟"
+      ],
+      "opening_unit_snapshot": "臺灣大專院校人工智慧學程聯盟",
+      "course_name_snapshot": "生成式人工智慧導論",
+      "credits_snapshot": 3.0,
+      "requirement_group": "unspecified",
+      "requirement_section": "unspecified",
+      "requirement_label": "生成式人工智慧導論(1)",
+      "program_course_name_snapshot": "生成式人工智慧導論",
+      "notes": "TAICA 系列課程 人工智慧導論 每一向度至少需修習一門課程。",
+      "source_page": 1,
+      "evidence_match": false,
+      "validation_status": "needs_course_code_verification",
+      "uncertainty_reason": "Official PDF table does not provide a course code"
+    },
     {
       "course_code": null,
       "catalog_entry_id": "entry_97dd814f49b0118e",
@@ -50,8 +67,66 @@
       "credits_snapshot": 3.0,
       "requirement_group": "unspecified",
       "requirement_section": "unspecified",
-      "program_course_name_snapshot": null,
-      "notes": "人工智慧導論",
+      "requirement_label": "生成式人工智慧導論(1)",
+      "program_course_name_snapshot": "生成式人工智慧導論",
+      "notes": "人工智慧導論 每一向度至少需修習一門課程。",
+      "source_page": 1,
+      "evidence_match": true,
+      "validation_status": "needs_course_code_verification",
+      "uncertainty_reason": "Official PDF table does not provide a course code"
+    },
+    {
+      "course_code": null,
+      "catalog_entry_id": "entry_3a80233ac225aeff",
+      "opening_units": [
+        "臺灣大專院校人工智慧學程聯盟"
+      ],
+      "opening_unit_snapshot": "臺灣大專院校人工智慧學程聯盟",
+      "course_name_snapshot": "人工智慧倫理、法律、與社會",
+      "credits_snapshot": 3.0,
+      "requirement_group": "unspecified",
+      "requirement_section": "unspecified",
+      "requirement_label": "人工智慧倫理(2or3)",
+      "program_course_name_snapshot": "人工智慧倫理、法律、與社會",
+      "notes": "TAICA 系列課程 每一向度至少需修習一門課程。",
+      "source_page": 1,
+      "evidence_match": false,
+      "validation_status": "needs_course_code_verification",
+      "uncertainty_reason": "Official PDF table does not provide a course code"
+    },
+    {
+      "course_code": null,
+      "catalog_entry_id": "entry_c1e87bc3b0055a7e",
+      "opening_units": [
+        "臺灣大專院校人工智慧學程聯盟"
+      ],
+      "opening_unit_snapshot": "臺灣大專院校人工智慧學程聯盟",
+      "course_name_snapshot": "使用者中心互動介面設計",
+      "credits_snapshot": 3.0,
+      "requirement_group": "unspecified",
+      "requirement_section": "unspecified",
+      "requirement_label": "智慧人機互動(2or3)",
+      "program_course_name_snapshot": "使用者中心互動介面設計",
+      "notes": "TAICA 系列課程 每一向度至少需修習一門課程。",
+      "source_page": 1,
+      "evidence_match": true,
+      "validation_status": "needs_course_code_verification",
+      "uncertainty_reason": "Official PDF table does not provide a course code"
+    },
+    {
+      "course_code": null,
+      "catalog_entry_id": "entry_07d1898272b82810",
+      "opening_units": [
+        "臺灣大專院校人工智慧學程聯盟"
+      ],
+      "opening_unit_snapshot": "臺灣大專院校人工智慧學程聯盟",
+      "course_name_snapshot": "互動設計與虛擬實境",
+      "credits_snapshot": 3.0,
+      "requirement_group": "unspecified",
+      "requirement_section": "unspecified",
+      "requirement_label": "智慧人機互動(2or3)",
+      "program_course_name_snapshot": "互動設計與虛擬實境",
+      "notes": "TAICA 系列課程 3D內容生成與體感互動 每一向度至少需修習一門課程。",
       "source_page": 1,
       "evidence_match": true,
       "validation_status": "needs_course_code_verification",
@@ -68,10 +143,30 @@
       "credits_snapshot": 3.0,
       "requirement_group": "unspecified",
       "requirement_section": "unspecified",
-      "program_course_name_snapshot": null,
-      "notes": "3D內容生成與體感互動",
+      "requirement_label": "智慧人機互動(2or3)",
+      "program_course_name_snapshot": "互動設計與虛擬實境",
+      "notes": "3D內容生成與體感互動 每一向度至少需修習一門課程。",
       "source_page": 1,
       "evidence_match": false,
+      "validation_status": "needs_course_code_verification",
+      "uncertainty_reason": "Official PDF table does not provide a course code"
+    },
+    {
+      "course_code": null,
+      "catalog_entry_id": "entry_ff85748568cb48ca",
+      "opening_units": [
+        "臺灣大專院校人工智慧學程聯盟"
+      ],
+      "opening_unit_snapshot": "臺灣大專院校人工智慧學程聯盟",
+      "course_name_snapshot": "資料探勘",
+      "credits_snapshot": 3.0,
+      "requirement_group": "unspecified",
+      "requirement_section": "unspecified",
+      "requirement_label": "資料探勘與應用(2or3or4)",
+      "program_course_name_snapshot": "資料探勘",
+      "notes": "TAICA 系列課程 每一向度至少需修習一門課程。",
+      "source_page": 1,
+      "evidence_match": true,
       "validation_status": "needs_course_code_verification",
       "uncertainty_reason": "Official PDF table does not provide a course code"
     },
@@ -86,10 +181,49 @@
       "credits_snapshot": 3.0,
       "requirement_group": "unspecified",
       "requirement_section": "unspecified",
-      "program_course_name_snapshot": null,
-      "notes": "資料探勘",
+      "requirement_label": "資料探勘與應用(2or3or4)",
+      "program_course_name_snapshot": "資料探勘",
+      "notes": "每一向度至少需修習一門課程。",
       "source_page": 1,
       "evidence_match": true,
+      "validation_status": "needs_course_code_verification",
+      "uncertainty_reason": "Official PDF table does not provide a course code"
+    },
+    {
+      "course_code": null,
+      "catalog_entry_id": "entry_8c9fd30828e0e42a",
+      "opening_units": [
+        "臺灣大專院校人工智慧學程聯盟"
+      ],
+      "opening_unit_snapshot": "臺灣大專院校人工智慧學程聯盟",
+      "course_name_snapshot": "大型語言模型",
+      "credits_snapshot": 3.0,
+      "requirement_group": "unspecified",
+      "requirement_section": "unspecified",
+      "requirement_label": "自然語言處理(5)",
+      "program_course_name_snapshot": "大型語言模型",
+      "notes": "TAICA 系列課程 每一向度至少需修習一門課程。",
+      "source_page": 1,
+      "evidence_match": true,
+      "validation_status": "needs_course_code_verification",
+      "uncertainty_reason": "Official PDF table does not provide a course code"
+    },
+    {
+      "course_code": null,
+      "catalog_entry_id": "entry_4b2cc6ecec26adf0",
+      "opening_units": [
+        "臺灣大專院校人工智慧學程聯盟"
+      ],
+      "opening_unit_snapshot": "臺灣大專院校人工智慧學程聯盟",
+      "course_name_snapshot": "深度學習與人類語言處理",
+      "credits_snapshot": 3.0,
+      "requirement_group": "unspecified",
+      "requirement_section": "unspecified",
+      "requirement_label": "自然語言處理(5)",
+      "program_course_name_snapshot": "深度學習與人類語言處理",
+      "notes": "TAICA 系列課程 深度學習 每一向度至少需修習一門課程。",
+      "source_page": 1,
+      "evidence_match": false,
       "validation_status": "needs_course_code_verification",
       "uncertainty_reason": "Official PDF table does not provide a course code"
     },
@@ -104,13 +238,269 @@
       "credits_snapshot": 3.0,
       "requirement_group": "unspecified",
       "requirement_section": "unspecified",
-      "program_course_name_snapshot": null,
-      "notes": "深度學習",
+      "requirement_label": "自然語言處理(5)",
+      "program_course_name_snapshot": "深度學習與人類語言處理",
+      "notes": "深度學習 每一向度至少需修習一門課程。",
       "source_page": 1,
       "evidence_match": true,
       "validation_status": "needs_course_code_verification",
       "uncertainty_reason": "Official PDF table does not provide a course code"
     }
   ],
-  "structured_requirements": {}
+  "structured_requirements": {
+    "minimum_total_credits": 15.0,
+    "minimum_eligible_curriculum_credits": 9.0,
+    "credit_constraints": [
+      {
+        "constraint_id": "constraint_6a9d549d079f1834",
+        "kind": "minimum_credits",
+        "scope": {
+          "kind": "program"
+        },
+        "minimum_credits": 15.0,
+        "requirement_context": "program_completion",
+        "source_page": 1,
+        "source_text": "總學習學分為15學分",
+        "validation_status": "source_text_match"
+      },
+      {
+        "constraint_id": "constraint_6ae3d8246cc8b200",
+        "kind": "minimum_credits",
+        "scope": {
+          "kind": "course_eligibility",
+          "excluded_affiliations": [
+            "major",
+            "minor",
+            "other_program"
+          ],
+          "excluded_course_roles": [
+            "required",
+            "required_elective"
+          ]
+        },
+        "minimum_credits": 9.0,
+        "requirement_context": "certificate",
+        "source_page": 1,
+        "source_text": "須至少有9學分不屬於其主修",
+        "validation_status": "source_text_match"
+      },
+      {
+        "constraint_id": "constraint_be1b9f73774cd59e",
+        "kind": "maximum_counted_credits",
+        "scope": {
+          "kind": "recognized_similar_courses"
+        },
+        "maximum_counted_credits": 3.0,
+        "requirement_context": "certificate",
+        "source_page": 1,
+        "source_text": "性質相近之課程認抵本學程課程,以3學分為上限",
+        "validation_status": "source_text_match"
+      },
+      {
+        "constraint_id": "constraint_9b66216be277c238",
+        "kind": "minimum_credits",
+        "scope": {
+          "kind": "taica_courses"
+        },
+        "minimum_credits": 8.0,
+        "requirement_context": "certificate",
+        "source_page": 2,
+        "source_text": "至少8學分TAICA聯盟認定課程",
+        "validation_status": "source_text_match"
+      },
+      {
+        "constraint_id": "constraint_bb2eb8679a226e49",
+        "kind": "maximum_counted_credits",
+        "scope": {
+          "kind": "cross_program_recognition"
+        },
+        "maximum_counted_credits": 6.0,
+        "requirement_context": "certificate",
+        "source_page": 2,
+        "source_text": "TAICA學程間之學分相互認抵以6學分為上限",
+        "validation_status": "source_text_match"
+      }
+    ],
+    "manual_requirements": [
+      {
+        "requirement_id": "requirement_d9fa625cda55484a",
+        "kind": "manual_verification",
+        "requirement_type": "certificate",
+        "description": "取得TAICA核發學程學分證明",
+        "verification_mode": "manual_review",
+        "requirement_context": "certificate",
+        "source_page": 1,
+        "source_text": "取得TAICA核發學程學分證明",
+        "validation_status": "source_text_match"
+      }
+    ],
+    "course_count_constraints": [
+      {
+        "constraint_id": "constraint_1fbe735e6625c53e",
+        "kind": "course_equivalence",
+        "course_names": [
+          "互動設計與虛擬實境",
+          "3D內容生成與體感互動"
+        ],
+        "min_courses": 1,
+        "max_courses": 1,
+        "requirement_group": "unspecified",
+        "requirement_section": "unspecified",
+        "source_page": 1,
+        "source_text": "3D內容生成與體感互動",
+        "validation_status": "source_text_match"
+      },
+      {
+        "constraint_id": "constraint_3f62c3fb460831c3",
+        "kind": "course_equivalence",
+        "course_names": [
+          "深度學習與人類語言處理",
+          "深度學習"
+        ],
+        "min_courses": 1,
+        "max_courses": 1,
+        "requirement_group": "unspecified",
+        "requirement_section": "unspecified",
+        "source_page": 1,
+        "source_text": "深度學習",
+        "validation_status": "source_text_match"
+      },
+      {
+        "constraint_id": "constraint_f4331b326340264b",
+        "kind": "course_equivalence",
+        "course_names": [
+          "生成式人工智慧導論",
+          "人工智慧導論"
+        ],
+        "min_courses": 1,
+        "max_courses": 1,
+        "requirement_group": "unspecified",
+        "requirement_section": "unspecified",
+        "source_page": 1,
+        "source_text": "人工智慧導論",
+        "validation_status": "source_text_match"
+      }
+    ],
+    "entry_selection_constraints": [
+      {
+        "constraint_id": "constraint_0373bd6cb7fc880d",
+        "kind": "select_entries",
+        "catalog_entry_ids": [
+          "entry_8c9fd30828e0e42a",
+          "entry_4b2cc6ecec26adf0"
+        ],
+        "course_names": [
+          "大型語言模型",
+          "深度學習與人類語言處理",
+          "深度學習"
+        ],
+        "min_entries": 1,
+        "max_entries": null,
+        "declared_option_count": null,
+        "option_count_matches": true,
+        "requirement_group": "unspecified",
+        "requirement_section": "unspecified",
+        "source_page": 1,
+        "source_text": "每一向度至少需修習一門課程。",
+        "validation_status": "source_text_match",
+        "requirement_label": "自然語言處理(5)"
+      },
+      {
+        "constraint_id": "constraint_4f7cd57fab720e6d",
+        "kind": "select_entries",
+        "catalog_entry_ids": [
+          "entry_3a80233ac225aeff"
+        ],
+        "course_names": [
+          "人工智慧倫理、法律、與社會"
+        ],
+        "min_entries": 1,
+        "max_entries": null,
+        "declared_option_count": null,
+        "option_count_matches": true,
+        "requirement_group": "unspecified",
+        "requirement_section": "unspecified",
+        "source_page": 1,
+        "source_text": "每一向度至少需修習一門課程。",
+        "validation_status": "source_text_match",
+        "requirement_label": "人工智慧倫理(2or3)"
+      },
+      {
+        "constraint_id": "constraint_5f549242d9c4bce6",
+        "kind": "select_entries",
+        "catalog_entry_ids": [
+          "entry_c1e87bc3b0055a7e",
+          "entry_07d1898272b82810"
+        ],
+        "course_names": [
+          "使用者中心互動介面設計",
+          "互動設計與虛擬實境",
+          "3D內容生成與體感互動"
+        ],
+        "min_entries": 1,
+        "max_entries": null,
+        "declared_option_count": null,
+        "option_count_matches": true,
+        "requirement_group": "unspecified",
+        "requirement_section": "unspecified",
+        "source_page": 1,
+        "source_text": "每一向度至少需修習一門課程。",
+        "validation_status": "source_text_match",
+        "requirement_label": "智慧人機互動(2or3)"
+      },
+      {
+        "constraint_id": "constraint_7cc02038fb991263",
+        "kind": "select_entries",
+        "catalog_entry_ids": [
+          "entry_ff85748568cb48ca"
+        ],
+        "course_names": [
+          "資料探勘"
+        ],
+        "min_entries": 1,
+        "max_entries": null,
+        "declared_option_count": null,
+        "option_count_matches": true,
+        "requirement_group": "unspecified",
+        "requirement_section": "unspecified",
+        "source_page": 1,
+        "source_text": "每一向度至少需修習一門課程。",
+        "validation_status": "source_text_match",
+        "requirement_label": "資料探勘與應用(2or3or4)"
+      },
+      {
+        "constraint_id": "constraint_e9e4d77d70cf03b4",
+        "kind": "select_entries",
+        "catalog_entry_ids": [
+          "entry_97dd814f49b0118e"
+        ],
+        "course_names": [
+          "生成式人工智慧導論",
+          "人工智慧導論"
+        ],
+        "min_entries": 1,
+        "max_entries": null,
+        "declared_option_count": null,
+        "option_count_matches": true,
+        "requirement_group": "unspecified",
+        "requirement_section": "unspecified",
+        "source_page": 1,
+        "source_text": "每一向度至少需修習一門課程。",
+        "validation_status": "source_text_match",
+        "requirement_label": "生成式人工智慧導論(1)"
+      }
+    ],
+    "completion_summary": {
+      "model_status": "partial",
+      "minimum_total_credits": 15.0,
+      "minimum_core_credits": null,
+      "maximum_core_credits": null,
+      "minimum_elective_credits": null,
+      "minimum_core_courses": null,
+      "minimum_elective_courses": null,
+      "has_conditional_requirements": false,
+      "has_manual_requirements": true,
+      "has_unresolved_conflicts": false
+    }
+  }
 }

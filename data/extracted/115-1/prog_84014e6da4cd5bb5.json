@@ -1,5 +1,5 @@
 {
-  "schema_version": "1.0",
+  "schema_version": "1.2",
   "courses": [],
   "credit_mentions": [
     4,
@@ -40,6 +40,7 @@
           "credits_snapshot": 2.0,
           "requirement_group": "core",
           "requirement_section": "core",
+          "requirement_label": null,
           "program_course_name_snapshot": null,
           "notes": "環保署環境教育人員認證核心科目100100",
           "source_page": 1,
@@ -58,6 +59,7 @@
           "credits_snapshot": 2.0,
           "requirement_group": "core",
           "requirement_section": "core",
+          "requirement_label": null,
           "program_course_name_snapshot": null,
           "notes": "環保署環境教育人員認證核心科目106700",
           "source_page": 1,
@@ -76,6 +78,7 @@
           "credits_snapshot": 1.0,
           "requirement_group": "core",
           "requirement_section": "core",
+          "requirement_label": null,
           "program_course_name_snapshot": null,
           "notes": "",
           "source_page": 1,
@@ -94,6 +97,7 @@
           "credits_snapshot": 1.0,
           "requirement_group": "core",
           "requirement_section": "core",
+          "requirement_label": null,
           "program_course_name_snapshot": null,
           "notes": "",
           "source_page": 1,
@@ -112,6 +116,7 @@
           "credits_snapshot": 1.0,
           "requirement_group": "core",
           "requirement_section": "core",
+          "requirement_label": null,
           "program_course_name_snapshot": null,
           "notes": "",
           "source_page": 1,
@@ -130,6 +135,7 @@
           "credits_snapshot": 2.0,
           "requirement_group": "core",
           "requirement_section": "core",
+          "requirement_label": null,
           "program_course_name_snapshot": null,
           "notes": "",
           "source_page": 1,
@@ -148,6 +154,7 @@
           "credits_snapshot": 2.0,
           "requirement_group": "core",
           "requirement_section": "core",
+          "requirement_label": null,
           "program_course_name_snapshot": null,
           "notes": "",
           "source_page": 1,
@@ -166,6 +173,7 @@
           "credits_snapshot": 3.0,
           "requirement_group": "core",
           "requirement_section": "core",
+          "requirement_label": null,
           "program_course_name_snapshot": null,
           "notes": "",
           "source_page": 1,
@@ -184,6 +192,7 @@
           "credits_snapshot": 2.0,
           "requirement_group": "elective",
           "requirement_section": "elective",
+          "requirement_label": null,
           "program_course_name_snapshot": null,
           "notes": "",
           "source_page": 1,
@@ -202,6 +211,7 @@
           "credits_snapshot": 2.0,
           "requirement_group": "elective",
           "requirement_section": "elective",
+          "requirement_label": null,
           "program_course_name_snapshot": null,
           "notes": "符合環保署採計課程421200",
           "source_page": 1,
@@ -220,6 +230,7 @@
           "credits_snapshot": 2.0,
           "requirement_group": "elective",
           "requirement_section": "elective",
+          "requirement_label": null,
           "program_course_name_snapshot": null,
           "notes": "",
           "source_page": 1,
@@ -238,6 +249,7 @@
           "credits_snapshot": 2.0,
           "requirement_group": "elective",
           "requirement_section": "elective",
+          "requirement_label": null,
           "program_course_name_snapshot": null,
           "notes": "",
           "source_page": 1,
@@ -256,6 +268,7 @@
           "credits_snapshot": 2.0,
           "requirement_group": "elective",
           "requirement_section": "elective",
+          "requirement_label": null,
           "program_course_name_snapshot": null,
           "notes": "",
           "source_page": 1,
@@ -274,6 +287,7 @@
           "credits_snapshot": 2.0,
           "requirement_group": "elective",
           "requirement_section": "elective",
+          "requirement_label": null,
           "program_course_name_snapshot": null,
           "notes": "",
           "source_page": 1,
@@ -292,6 +306,7 @@
           "credits_snapshot": 2.0,
           "requirement_group": "elective",
           "requirement_section": "elective",
+          "requirement_label": null,
           "program_course_name_snapshot": null,
           "notes": "",
           "source_page": 1,
@@ -301,9 +316,86 @@
         }
       ],
       "requirements": {
-        "minimum_total_credits": 9,
-        "core_credits_text_value": 4,
-        "minimum_outside_home_department_credits": 3
+        "minimum_core_credits": 4.0,
+        "core_credits_text_value": 4.0,
+        "minimum_total_credits": 9.0,
+        "minimum_outside_home_department_credits": 3.0,
+        "credit_constraints": [
+          {
+            "constraint_id": "constraint_30e837cc9e4fbf65",
+            "kind": "minimum_credits",
+            "scope": {
+              "kind": "program"
+            },
+            "minimum_credits": 9.0,
+            "requirement_context": "program_completion",
+            "source_page": 1,
+            "source_text": "總學分數:至少9學分(得採計微學分課程,至多2學分)",
+            "validation_status": "source_text_match"
+          },
+          {
+            "constraint_id": "constraint_312ba592cce58c5d",
+            "kind": "minimum_credits",
+            "scope": {
+              "kind": "course_eligibility",
+              "excluded_affiliations": [
+                "home_department",
+                "double_major",
+                "minor"
+              ],
+              "excluded_course_roles": [
+                "all"
+              ]
+            },
+            "minimum_credits": 3.0,
+            "requirement_context": "program_completion",
+            "source_page": 1,
+            "source_text": "至少應有3學分不屬於學生本系所",
+            "validation_status": "source_text_match"
+          },
+          {
+            "constraint_id": "constraint_84b225891d94c772",
+            "kind": "minimum_credits",
+            "scope": {
+              "kind": "catalog_filter",
+              "requirement_groups": [
+                "core"
+              ]
+            },
+            "minimum_credits": 4.0,
+            "requirement_context": "program_completion",
+            "source_page": 1,
+            "source_text": "核心課程學分數:至少 4 學分",
+            "validation_status": "source_text_match"
+          },
+          {
+            "constraint_id": "constraint_8f948c47eb67fd06",
+            "kind": "maximum_counted_credits",
+            "scope": {
+              "kind": "course_attributes",
+              "course_attributes": [
+                "microcredit"
+              ]
+            },
+            "maximum_counted_credits": 2.0,
+            "requirement_context": "program_completion",
+            "source_page": 1,
+            "source_text": "微學分課程西灣學院2學分總學分數:至少9學分(得採計微學分課程,至多2學分",
+            "validation_status": "source_text_match"
+          }
+        ],
+        "completion_summary": {
+          "model_status": "partial",
+          "minimum_total_credits": 9.0,
+          "minimum_core_credits": 4.0,
+          "maximum_core_credits": null,
+          "minimum_elective_credits": null,
+          "minimum_core_courses": null,
+          "minimum_elective_courses": null,
+          "has_conditional_requirements": false,
+          "has_manual_requirements": false,
+          "has_unresolved_conflicts": false
+        }
       },
       "source_pages": [
         1
@@ -331,6 +423,7 @@
           "credits_snapshot": 2.0,
           "requirement_group": "core",
           "requirement_section": "core",
+          "requirement_label": "核心課程I",
           "program_course_name_snapshot": null,
           "notes": "環保署環境教育人員認證核心科目100100 核 心 課 程 ㄧ、核心課程I :環境教育概念(2學分,二擇一必修)   ",
           "source_page": 2,
@@ -349,6 +442,7 @@
           "credits_snapshot": 2.0,
           "requirement_group": "core",
           "requirement_section": "core",
+          "requirement_label": "核心課程I",
           "program_course_name_snapshot": null,
           "notes": "環保署環境教育人員認證核心科目106700 核 心 課 程 ㄧ、核心課程I :環境教育概念(2學分,二擇一必修)   ",
           "source_page": 2,
@@ -367,6 +461,7 @@
           "credits_snapshot": 1.0,
           "requirement_group": "core",
           "requirement_section": "core",
+          "requirement_label": "核心課程II",
           "program_course_name_snapshot": null,
           "notes": " 二、核心課程 II:環境教育實習課程(1學分,服務學習擇一必修)   ",
           "source_page": 2,
@@ -385,6 +480,7 @@
           "credits_snapshot": 1.0,
           "requirement_group": "core",
           "requirement_section": "core",
+          "requirement_label": "核心課程II",
           "program_course_name_snapshot": null,
           "notes": " 二、核心課程 II:環境教育實習課程(1學分,服務學習擇一必修)   ",
           "source_page": 2,
@@ -403,6 +499,7 @@
           "credits_snapshot": 1.0,
           "requirement_group": "core",
           "requirement_section": "core",
+          "requirement_label": "核心課程II",
           "program_course_name_snapshot": null,
           "notes": " 二、核心課程 II:環境教育實習課程(1學分,服務學習擇一必修)   ",
           "source_page": 2,
@@ -421,6 +518,7 @@
           "credits_snapshot": 1.0,
           "requirement_group": "core",
           "requirement_section": "core",
+          "requirement_label": "核心課程II",
           "program_course_name_snapshot": null,
           "notes": "110新增  二、核心課程 II:環境教育實習課程(1學分,服務學習擇一必修)   ",
           "source_page": 2,
@@ -439,6 +537,7 @@
           "credits_snapshot": 2.0,
           "requirement_group": "core",
           "requirement_section": "core",
+          "requirement_label": "核心課程I",
           "program_course_name_snapshot": null,
           "notes": " 三、總結性課程(2學分,二擇一必修;需先修畢核心課程 I和 II,方可修習總結性課 程)   ",
           "source_page": 2,
@@ -457,6 +556,7 @@
           "credits_snapshot": 2.0,
           "requirement_group": "core",
           "requirement_section": "core",
+          "requirement_label": "核心課程I",
           "program_course_name_snapshot": null,
           "notes": " 三、總結性課程(2學分,二擇一必修;需先修畢核心課程 I和 II,方可修習總結性課 程)   ",
           "source_page": 2,
@@ -475,6 +575,7 @@
           "credits_snapshot": 2.0,
           "requirement_group": "elective",
           "requirement_section": "elective",
+          "requirement_label": null,
           "program_course_name_snapshot": null,
           "notes": "",
           "source_page": 2,
@@ -493,6 +594,7 @@
           "credits_snapshot": 2.0,
           "requirement_group": "elective",
           "requirement_section": "elective",
+          "requirement_label": null,
           "program_course_name_snapshot": null,
           "notes": "",
           "source_page": 2,
@@ -511,6 +613,7 @@
           "credits_snapshot": 2.0,
           "requirement_group": "elective",
           "requirement_section": "elective",
+          "requirement_label": null,
           "program_course_name_snapshot": null,
           "notes": "",
           "source_page": 2,
@@ -529,6 +632,7 @@
           "credits_snapshot": 2.0,
           "requirement_group": "elective",
           "requirement_section": "elective",
+          "requirement_label": null,
           "program_course_name_snapshot": null,
           "notes": "符合環保署採計課程421200",
           "source_page": 2,
@@ -547,6 +651,7 @@
           "credits_snapshot": 2.0,
           "requirement_group": "elective",
           "requirement_section": "elective",
+          "requirement_label": null,
           "program_course_name_snapshot": null,
           "notes": "",
           "source_page": 2,
@@ -565,6 +670,7 @@
           "credits_snapshot": 2.0,
           "requirement_group": "elective",
           "requirement_section": "elective",
+          "requirement_label": null,
           "program_course_name_snapshot": null,
           "notes": "",
           "source_page": 2,
@@ -574,9 +680,87 @@
         }
       ],
       "requirements": {
-        "minimum_total_credits": 9,
-        "core_credits_text_value": 5,
-        "minimum_outside_home_department_credits": 3,
+        "minimum_core_credits": 5.0,
+        "core_credits_text_value": 5.0,
+        "minimum_total_credits": 9.0,
+        "minimum_outside_home_department_credits": 3.0,
+        "credit_constraints": [
+          {
+            "constraint_id": "constraint_2406440a7052e8c5",
+            "kind": "maximum_counted_credits",
+            "scope": {
+              "kind": "course_attributes",
+              "course_attributes": [
+                "microcredit"
+              ]
+            },
+            "maximum_counted_credits": 2.0,
+            "requirement_context": "program_completion",
+            "source_page": 2,
+            "source_text": "至多微學分課程",
+            "validation_status": "source_text_match"
+          },
+          {
+            "constraint_id": "constraint_312ba592cce58c5d",
+            "kind": "minimum_credits",
+            "scope": {
+              "kind": "course_eligibility",
+              "excluded_affiliations": [
+                "home_department",
+                "double_major",
+                "minor"
+              ],
+              "excluded_course_roles": [
+                "all"
+              ]
+            },
+            "minimum_credits": 3.0,
+            "requirement_context": "program_completion",
+            "source_page": 2,
+            "source_text": "至少應有3學分不屬於學生本系所",
+            "validation_status": "source_text_match"
+          },
+          {
+            "constraint_id": "constraint_cd39008938217e18",
+            "kind": "minimum_credits",
+            "scope": {
+              "kind": "catalog_filter",
+              "requirement_groups": [
+                "core"
+              ]
+            },
+            "minimum_credits": 5.0,
+            "requirement_context": "program_completion",
+            "source_page": 2,
+            "source_text": "核心課程〈專業模組課程〉學分數: 5 學分",
+            "validation_status": "source_text_match"
+          },
+          {
+            "constraint_id": "constraint_e4e3ec6325db6e04",
+            "kind": "minimum_credits",
+            "scope": {
+              "kind": "program"
+            },
+            "minimum_credits": 9.0,
+            "requirement_context": "program_completion",
+            "source_page": 2,
+            "source_text": "總學分數:至少 9 學分",
+            "validation_status": "source_text_match"
+          }
+        ],
+        "manual_requirements": [
+          {
+            "requirement_id": "requirement_47d2779a3f3c4b32",
+            "kind": "manual_verification",
+            "requirement_type": "prerequisite",
+            "description": "先修畢核心課程",
+            "verification_mode": "manual_review",
+            "requirement_context": "program_completion",
+            "source_page": 2,
+            "source_text": "先修畢核心課程",
+            "validation_status": "source_text_match"
+          }
+        ],
         "entry_selection_constraints": [
           {
             "constraint_id": "constraint_0be5e52f74838f77",
@@ -597,7 +781,9 @@
             "requirement_section": "core",
             "source_page": 2,
             "source_text": " 三、總結性課程(2學分,二擇一必修;需先修畢核心課程 I和 II,方可修習總結性課 程)   ",
-            "validation_status": "source_text_match"
+            "validation_status": "source_text_match",
+            "requirement_label": "核心課程I",
+            "minimum_credits_for_requirement": 2.0
           },
           {
             "constraint_id": "constraint_23fae3bd3b2a3e1d",
@@ -622,7 +808,9 @@
             "requirement_section": "core",
             "source_page": 2,
             "source_text": " 二、核心課程 II:環境教育實習課程(1學分,服務學習擇一必修)   ",
-            "validation_status": "source_text_match"
+            "validation_status": "source_text_match",
+            "requirement_label": "核心課程II",
+            "minimum_credits_for_requirement": 1.0
           },
           {
             "constraint_id": "constraint_71cdd6f6deceee4e",
@@ -643,9 +831,23 @@
             "requirement_section": "core",
             "source_page": 2,
             "source_text": "核 心 課 程 ㄧ、核心課程I :環境教育概念(2學分,二擇一必修)   ",
-            "validation_status": "source_text_match"
+            "validation_status": "source_text_match",
+            "requirement_label": "核心課程I",
+            "minimum_credits_for_requirement": 2.0
           }
-        ]
+        ],
+        "completion_summary": {
+          "model_status": "partial",
+          "minimum_total_credits": 9.0,
+          "minimum_core_credits": 5.0,
+          "maximum_core_credits": null,
+          "minimum_elective_credits": null,
+          "minimum_core_courses": null,
+          "minimum_elective_courses": null,
+          "has_conditional_requirements": false,
+          "has_manual_requirements": true,
+          "has_unresolved_conflicts": false
+        }
       },
       "source_pages": [
         2
@@ -674,6 +876,7 @@
           "credits_snapshot": 2.0,
           "requirement_group": "core",
           "requirement_section": "core",
+          "requirement_label": "核心課程I",
           "program_course_name_snapshot": null,
           "notes": "環保署環境教育人員認證核心科目100100 核 心 課 程 ㄧ、核心課程I :環境教育概念(2學分,二擇一必修)   ",
           "source_page": 3,
@@ -692,6 +895,7 @@
           "credits_snapshot": 2.0,
           "requirement_group": "core",
           "requirement_section": "core",
+          "requirement_label": "核心課程I",
           "program_course_name_snapshot": null,
           "notes": "環保署環境教育人員認證核心科目106700 核 心 課 程 ㄧ、核心課程I :環境教育概念(2學分,二擇一必修)   ",
           "source_page": 3,
@@ -710,6 +914,7 @@
           "credits_snapshot": 1.0,
           "requirement_group": "core",
           "requirement_section": "core",
+          "requirement_label": "核心課程II",
           "program_course_name_snapshot": null,
           "notes": " 二、核心課程 II:環境教育實習課程(1學分,服務學習擇一必修)   ",
           "source_page": 3,
@@ -728,6 +933,7 @@
           "credits_snapshot": 1.0,
           "requirement_group": "core",
           "requirement_section": "core",
+          "requirement_label": "核心課程II",
           "program_course_name_snapshot": null,
           "notes": " 二、核心課程 II:環境教育實習課程(1學分,服務學習擇一必修)   ",
           "source_page": 3,
@@ -746,6 +952,7 @@
           "credits_snapshot": 1.0,
           "requirement_group": "core",
           "requirement_section": "core",
+          "requirement_label": "核心課程II",
           "program_course_name_snapshot": null,
           "notes": " 二、核心課程 II:環境教育實習課程(1學分,服務學習擇一必修)   ",
           "source_page": 3,
@@ -764,6 +971,7 @@
           "credits_snapshot": 2.0,
           "requirement_group": "core",
           "requirement_section": "core",
+          "requirement_label": "核心課程I",
           "program_course_name_snapshot": null,
           "notes": " 三、總結性課程(2學分,二擇一必修;需先修畢核心課程 I和 II,方可修習總結性課 程)   ",
           "source_page": 3,
@@ -782,6 +990,7 @@
           "credits_snapshot": 2.0,
           "requirement_group": "core",
           "requirement_section": "core",
+          "requirement_label": "核心課程I",
           "program_course_name_snapshot": null,
           "notes": " 三、總結性課程(2學分,二擇一必修;需先修畢核心課程 I和 II,方可修習總結性課 程)   ",
           "source_page": 3,
@@ -800,6 +1009,7 @@
           "credits_snapshot": 2.0,
           "requirement_group": "elective",
           "requirement_section": "elective",
+          "requirement_label": null,
           "program_course_name_snapshot": null,
           "notes": "",
           "source_page": 3,
@@ -818,6 +1028,7 @@
           "credits_snapshot": 2.0,
           "requirement_group": "elective",
           "requirement_section": "elective",
+          "requirement_label": null,
           "program_course_name_snapshot": null,
           "notes": "",
           "source_page": 3,
@@ -836,6 +1047,7 @@
           "credits_snapshot": 2.0,
           "requirement_group": "elective",
           "requirement_section": "elective",
+          "requirement_label": null,
           "program_course_name_snapshot": null,
           "notes": "",
           "source_page": 3,
@@ -854,6 +1066,7 @@
           "credits_snapshot": 2.0,
           "requirement_group": "elective",
           "requirement_section": "elective",
+          "requirement_label": null,
           "program_course_name_snapshot": null,
           "notes": "符合環保署採計課程421200",
           "source_page": 3,
@@ -872,6 +1085,7 @@
           "credits_snapshot": 2.0,
           "requirement_group": "elective",
           "requirement_section": "elective",
+          "requirement_label": null,
           "program_course_name_snapshot": null,
           "notes": "",
           "source_page": 3,
@@ -890,6 +1104,7 @@
           "credits_snapshot": 2.0,
           "requirement_group": "elective",
           "requirement_section": "elective",
+          "requirement_label": null,
           "program_course_name_snapshot": null,
           "notes": "",
           "source_page": 3,
@@ -899,9 +1114,87 @@
         }
       ],
       "requirements": {
-        "minimum_total_credits": 9,
-        "core_credits_text_value": 5,
-        "minimum_outside_home_department_credits": 3,
+        "minimum_core_credits": 5.0,
+        "core_credits_text_value": 5.0,
+        "minimum_total_credits": 9.0,
+        "minimum_outside_home_department_credits": 3.0,
+        "credit_constraints": [
+          {
+            "constraint_id": "constraint_312ba592cce58c5d",
+            "kind": "minimum_credits",
+            "scope": {
+              "kind": "course_eligibility",
+              "excluded_affiliations": [
+                "home_department",
+                "double_major",
+                "minor"
+              ],
+              "excluded_course_roles": [
+                "all"
+              ]
+            },
+            "minimum_credits": 3.0,
+            "requirement_context": "program_completion",
+            "source_page": 3,
+            "source_text": "至少應有3學分不屬於學生本系所",
+            "validation_status": "source_text_match"
+          },
+          {
+            "constraint_id": "constraint_84170141d9ff52d1",
+            "kind": "maximum_counted_credits",
+            "scope": {
+              "kind": "course_attributes",
+              "course_attributes": [
+                "microcredit"
+              ]
+            },
+            "maximum_counted_credits": 2.0,
+            "requirement_context": "program_completion",
+            "source_page": 3,
+            "source_text": "至多2微學分課程",
+            "validation_status": "source_text_match"
+          },
+          {
+            "constraint_id": "constraint_cd39008938217e18",
+            "kind": "minimum_credits",
+            "scope": {
+              "kind": "catalog_filter",
+              "requirement_groups": [
+                "core"
+              ]
+            },
+            "minimum_credits": 5.0,
+            "requirement_context": "program_completion",
+            "source_page": 3,
+            "source_text": "核心課程〈專業模組課程〉學分數: 5 學分",
+            "validation_status": "source_text_match"
+          },
+          {
+            "constraint_id": "constraint_e4e3ec6325db6e04",
+            "kind": "minimum_credits",
+            "scope": {
+              "kind": "program"
+            },
+            "minimum_credits": 9.0,
+            "requirement_context": "program_completion",
+            "source_page": 3,
+            "source_text": "總學分數:至少 9 學分",
+            "validation_status": "source_text_match"
+          }
+        ],
+        "manual_requirements": [
+          {
+            "requirement_id": "requirement_47d2779a3f3c4b32",
+            "kind": "manual_verification",
+            "requirement_type": "prerequisite",
+            "description": "先修畢核心課程",
+            "verification_mode": "manual_review",
+            "requirement_context": "program_completion",
+            "source_page": 3,
+            "source_text": "先修畢核心課程",
+            "validation_status": "source_text_match"
+          }
+        ],
         "entry_selection_constraints": [
           {
             "constraint_id": "constraint_07585c7914978b35",
@@ -922,7 +1215,9 @@
             "requirement_section": "core",
             "source_page": 3,
             "source_text": "核 心 課 程 ㄧ、核心課程I :環境教育概念(2學分,二擇一必修)   ",
-            "validation_status": "source_text_match"
+            "validation_status": "source_text_match",
+            "requirement_label": "核心課程I",
+            "minimum_credits_for_requirement": 2.0
           },
           {
             "constraint_id": "constraint_0d907571fb291827",
@@ -945,7 +1240,9 @@
             "requirement_section": "core",
             "source_page": 3,
             "source_text": " 二、核心課程 II:環境教育實習課程(1學分,服務學習擇一必修)   ",
-            "validation_status": "source_text_match"
+            "validation_status": "source_text_match",
+            "requirement_label": "核心課程II",
+            "minimum_credits_for_requirement": 1.0
           },
           {
             "constraint_id": "constraint_92200d16034b1f84",
@@ -966,9 +1263,23 @@
             "requirement_section": "core",
             "source_page": 3,
             "source_text": " 三、總結性課程(2學分,二擇一必修;需先修畢核心課程 I和 II,方可修習總結性課 程)   ",
-            "validation_status": "source_text_match"
+            "validation_status": "source_text_match",
+            "requirement_label": "核心課程I",
+            "minimum_credits_for_requirement": 2.0
           }
-        ]
+        ],
+        "completion_summary": {
+          "model_status": "partial",
+          "minimum_total_credits": 9.0,
+          "minimum_core_credits": 5.0,
+          "maximum_core_credits": null,
+          "minimum_elective_credits": null,
+          "minimum_core_courses": null,
+          "minimum_elective_courses": null,
+          "has_conditional_requirements": false,
+          "has_manual_requirements": true,
+          "has_unresolved_conflicts": false
+        }
       },
       "source_pages": [
         3
@@ -997,6 +1308,7 @@
           "credits_snapshot": 2.0,
           "requirement_group": "core",
           "requirement_section": "core",
+          "requirement_label": "核心課程I",
           "program_course_name_snapshot": null,
           "notes": "環保署環境教育人員認證核心科目100100 核 心 課 程 ㄧ、核心課程I :環境教育概念(2學分,二擇一必修)   ",
           "source_page": 4,
@@ -1015,6 +1327,7 @@
           "credits_snapshot": 2.0,
           "requirement_group": "core",
           "requirement_section": "core",
+          "requirement_label": "核心課程I",
           "program_course_name_snapshot": null,
           "notes": "環保署環境教育人員認證核心科目106700 核 心 課 程 ㄧ、核心課程I :環境教育概念(2學分,二擇一必修)   ",
           "source_page": 4,
@@ -1033,6 +1346,7 @@
           "credits_snapshot": 1.0,
           "requirement_group": "core",
           "requirement_section": "core",
+          "requirement_label": "核心課程II",
           "program_course_name_snapshot": null,
           "notes": " 二、核心課程 II:環境教育實習課程(1學分,服務學習擇一必修)   ",
           "source_page": 4,
@@ -1051,6 +1365,7 @@
           "credits_snapshot": 1.0,
           "requirement_group": "core",
           "requirement_section": "core",
+          "requirement_label": "核心課程II",
           "program_course_name_snapshot": null,
           "notes": " 二、核心課程 II:環境教育實習課程(1學分,服務學習擇一必修)   ",
           "source_page": 4,
@@ -1069,6 +1384,7 @@
           "credits_snapshot": 1.0,
           "requirement_group": "core",
           "requirement_section": "core",
+          "requirement_label": "核心課程II",
           "program_course_name_snapshot": null,
           "notes": " 二、核心課程 II:環境教育實習課程(1學分,服務學習擇一必修)   ",
           "source_page": 4,
@@ -1087,6 +1403,7 @@
           "credits_snapshot": 2.0,
           "requirement_group": "core",
           "requirement_section": "core",
+          "requirement_label": "核心課程I",
           "program_course_name_snapshot": null,
           "notes": " 三、總結性課程(2學分,二擇一必修;需先修畢核心課程 I和 II,方可修習總結性 課程)   ",
           "source_page": 4,
@@ -1105,6 +1422,7 @@
           "credits_snapshot": 2.0,
           "requirement_group": "core",
           "requirement_section": "core",
+          "requirement_label": "核心課程I",
           "program_course_name_snapshot": null,
           "notes": " 三、總結性課程(2學分,二擇一必修;需先修畢核心課程 I和 II,方可修習總結性 課程)   ",
           "source_page": 4,
@@ -1123,6 +1441,7 @@
           "credits_snapshot": 2.0,
           "requirement_group": "elective",
           "requirement_section": "elective",
+          "requirement_label": null,
           "program_course_name_snapshot": null,
           "notes": "",
           "source_page": 4,
@@ -1141,6 +1460,7 @@
           "credits_snapshot": 2.0,
           "requirement_group": "elective",
           "requirement_section": "elective",
+          "requirement_label": null,
           "program_course_name_snapshot": null,
           "notes": "",
           "source_page": 4,
@@ -1159,6 +1479,7 @@
           "credits_snapshot": 2.0,
           "requirement_group": "elective",
           "requirement_section": "elective",
+          "requirement_label": null,
           "program_course_name_snapshot": null,
           "notes": "",
           "source_page": 4,
@@ -1177,6 +1498,7 @@
           "credits_snapshot": 2.0,
           "requirement_group": "elective",
           "requirement_section": "elective",
+          "requirement_label": null,
           "program_course_name_snapshot": null,
           "notes": "符合環保署採計課程421200",
           "source_page": 4,
@@ -1195,6 +1517,7 @@
           "credits_snapshot": 2.0,
           "requirement_group": "elective",
           "requirement_section": "elective",
+          "requirement_label": null,
           "program_course_name_snapshot": null,
           "notes": "",
           "source_page": 4,
@@ -1204,9 +1527,72 @@
         }
       ],
       "requirements": {
-        "minimum_total_credits": 9,
-        "core_credits_text_value": 5,
-        "minimum_outside_home_department_credits": 3,
+        "minimum_core_credits": 5.0,
+        "core_credits_text_value": 5.0,
+        "minimum_total_credits": 9.0,
+        "minimum_outside_home_department_credits": 3.0,
+        "credit_constraints": [
+          {
+            "constraint_id": "constraint_312ba592cce58c5d",
+            "kind": "minimum_credits",
+            "scope": {
+              "kind": "course_eligibility",
+              "excluded_affiliations": [
+                "home_department",
+                "double_major",
+                "minor"
+              ],
+              "excluded_course_roles": [
+                "all"
+              ]
+            },
+            "minimum_credits": 3.0,
+            "requirement_context": "program_completion",
+            "source_page": 4,
+            "source_text": "至少應有3學分不屬於學生本系所",
+            "validation_status": "source_text_match"
+          },
+          {
+            "constraint_id": "constraint_cd39008938217e18",
+            "kind": "minimum_credits",
+            "scope": {
+              "kind": "catalog_filter",
+              "requirement_groups": [
+                "core"
+              ]
+            },
+            "minimum_credits": 5.0,
+            "requirement_context": "program_completion",
+            "source_page": 4,
+            "source_text": "核心課程〈專業模組課程〉學分數: 5 學分",
+            "validation_status": "source_text_match"
+          },
+          {
+            "constraint_id": "constraint_e4e3ec6325db6e04",
+            "kind": "minimum_credits",
+            "scope": {
+              "kind": "program"
+            },
+            "minimum_credits": 9.0,
+            "requirement_context": "program_completion",
+            "source_page": 4,
+            "source_text": "總學分數:至少 9 學分",
+            "validation_status": "source_text_match"
+          }
+        ],
+        "manual_requirements": [
+          {
+            "requirement_id": "requirement_47d2779a3f3c4b32",
+            "kind": "manual_verification",
+            "requirement_type": "prerequisite",
+            "description": "先修畢核心課程",
+            "verification_mode": "manual_review",
+            "requirement_context": "program_completion",
+            "source_page": 4,
+            "source_text": "先修畢核心課程",
+            "validation_status": "source_text_match"
+          }
+        ],
         "entry_selection_constraints": [
           {
             "constraint_id": "constraint_3d7910c7f6a5081c",
@@ -1227,7 +1613,9 @@
             "requirement_section": "core",
             "source_page": 4,
             "source_text": " 三、總結性課程(2學分,二擇一必修;需先修畢核心課程 I和 II,方可修習總結性 課程)   ",
-            "validation_status": "source_text_match"
+            "validation_status": "source_text_match",
+            "requirement_label": "核心課程I",
+            "minimum_credits_for_requirement": 2.0
           },
           {
             "constraint_id": "constraint_4d53c1a6e0045bb9",
@@ -1248,7 +1636,9 @@
             "requirement_section": "core",
             "source_page": 4,
             "source_text": "核 心 課 程 ㄧ、核心課程I :環境教育概念(2學分,二擇一必修)   ",
-            "validation_status": "source_text_match"
+            "validation_status": "source_text_match",
+            "requirement_label": "核心課程I",
+            "minimum_credits_for_requirement": 2.0
           },
           {
             "constraint_id": "constraint_9acb0c6a1b78a622",
@@ -1271,9 +1661,23 @@
             "requirement_section": "core",
             "source_page": 4,
             "source_text": " 二、核心課程 II:環境教育實習課程(1學分,服務學習擇一必修)   ",
-            "validation_status": "source_text_match"
+            "validation_status": "source_text_match",
+            "requirement_label": "核心課程II",
+            "minimum_credits_for_requirement": 1.0
           }
-        ]
+        ],
+        "completion_summary": {
+          "model_status": "partial",
+          "minimum_total_credits": 9.0,
+          "minimum_core_credits": 5.0,
+          "maximum_core_credits": null,
+          "minimum_elective_credits": null,
+          "minimum_core_courses": null,
+          "minimum_elective_courses": null,
+          "has_conditional_requirements": false,
+          "has_manual_requirements": true,
+          "has_unresolved_conflicts": false
+        }
       },
       "source_pages": [
         4
@@ -1302,6 +1706,7 @@
       "credits_snapshot": 2.0,
       "requirement_group": "core",
       "requirement_section": "core",
+      "requirement_label": null,
       "program_course_name_snapshot": null,
       "notes": "環保署環境教育人員認證核心科目100100",
       "source_page": 1,
@@ -1320,6 +1725,7 @@
       "credits_snapshot": 2.0,
       "requirement_group": "core",
       "requirement_section": "core",
+      "requirement_label": null,
       "program_course_name_snapshot": null,
       "notes": "環保署環境教育人員認證核心科目106700",
       "source_page": 1,
@@ -1338,6 +1744,7 @@
       "credits_snapshot": 1.0,
       "requirement_group": "core",
       "requirement_section": "core",
+      "requirement_label": null,
       "program_course_name_snapshot": null,
       "notes": "",
       "source_page": 1,
@@ -1356,6 +1763,7 @@
       "credits_snapshot": 1.0,
       "requirement_group": "core",
       "requirement_section": "core",
+      "requirement_label": null,
       "program_course_name_snapshot": null,
       "notes": "",
       "source_page": 1,
@@ -1374,6 +1782,7 @@
       "credits_snapshot": 1.0,
       "requirement_group": "core",
       "requirement_section": "core",
+      "requirement_label": null,
       "program_course_name_snapshot": null,
       "notes": "",
       "source_page": 1,
@@ -1392,6 +1801,7 @@
       "credits_snapshot": 2.0,
       "requirement_group": "core",
       "requirement_section": "core",
+      "requirement_label": null,
       "program_course_name_snapshot": null,
       "notes": "",
       "source_page": 1,
@@ -1410,6 +1820,7 @@
       "credits_snapshot": 2.0,
       "requirement_group": "core",
       "requirement_section": "core",
+      "requirement_label": null,
       "program_course_name_snapshot": null,
       "notes": "",
       "source_page": 1,
@@ -1428,6 +1839,7 @@
       "credits_snapshot": 3.0,
       "requirement_group": "core",
       "requirement_section": "core",
+      "requirement_label": null,
       "program_course_name_snapshot": null,
       "notes": "",
       "source_page": 1,
@@ -1446,6 +1858,7 @@
       "credits_snapshot": 2.0,
       "requirement_group": "elective",
       "requirement_section": "elective",
+      "requirement_label": null,
       "program_course_name_snapshot": null,
       "notes": "",
       "source_page": 1,
@@ -1464,6 +1877,7 @@
       "credits_snapshot": 2.0,
       "requirement_group": "elective",
       "requirement_section": "elective",
+      "requirement_label": null,
       "program_course_name_snapshot": null,
       "notes": "符合環保署採計課程421200",
       "source_page": 1,
@@ -1482,6 +1896,7 @@
       "credits_snapshot": 2.0,
       "requirement_group": "elective",
       "requirement_section": "elective",
+      "requirement_label": null,
       "program_course_name_snapshot": null,
       "notes": "",
       "source_page": 1,
@@ -1500,6 +1915,7 @@
       "credits_snapshot": 2.0,
       "requirement_group": "elective",
       "requirement_section": "elective",
+      "requirement_label": null,
       "program_course_name_snapshot": null,
       "notes": "",
       "source_page": 1,
@@ -1518,6 +1934,7 @@
       "credits_snapshot": 2.0,
       "requirement_group": "elective",
       "requirement_section": "elective",
+      "requirement_label": null,
       "program_course_name_snapshot": null,
       "notes": "",
       "source_page": 1,
@@ -1536,6 +1953,7 @@
       "credits_snapshot": 2.0,
       "requirement_group": "elective",
       "requirement_section": "elective",
+      "requirement_label": null,
       "program_course_name_snapshot": null,
       "notes": "",
       "source_page": 1,
@@ -1554,6 +1972,7 @@
       "credits_snapshot": 2.0,
       "requirement_group": "elective",
       "requirement_section": "elective",
+      "requirement_label": null,
       "program_course_name_snapshot": null,
       "notes": "",
       "source_page": 1,
@@ -1563,8 +1982,85 @@
     }
   ],
   "structured_requirements": {
-    "minimum_total_credits": 9,
-    "core_credits_text_value": 4,
-    "minimum_outside_home_department_credits": 3
+    "minimum_core_credits": 4.0,
+    "core_credits_text_value": 4.0,
+    "minimum_total_credits": 9.0,
+    "minimum_outside_home_department_credits": 3.0,
+    "credit_constraints": [
+      {
+        "constraint_id": "constraint_30e837cc9e4fbf65",
+        "kind": "minimum_credits",
+        "scope": {
+          "kind": "program"
+        },
+        "minimum_credits": 9.0,
+        "requirement_context": "program_completion",
+        "source_page": 1,
+        "source_text": "總學分數:至少9學分(得採計微學分課程,至多2學分)",
+        "validation_status": "source_text_match"
+      },
+      {
+        "constraint_id": "constraint_312ba592cce58c5d",
+        "kind": "minimum_credits",
+        "scope": {
+          "kind": "course_eligibility",
+          "excluded_affiliations": [
+            "home_department",
+            "double_major",
+            "minor"
+          ],
+          "excluded_course_roles": [
+            "all"
+          ]
+        },
+        "minimum_credits": 3.0,
+        "requirement_context": "program_completion",
+        "source_page": 1,
+        "source_text": "至少應有3學分不屬於學生本系所",
+        "validation_status": "source_text_match"
+      },
+      {
+        "constraint_id": "constraint_84b225891d94c772",
+        "kind": "minimum_credits",
+        "scope": {
+          "kind": "catalog_filter",
+          "requirement_groups": [
+            "core"
+          ]
+        },
+        "minimum_credits": 4.0,
+        "requirement_context": "program_completion",
+        "source_page": 1,
+        "source_text": "核心課程學分數:至少 4 學分",
+        "validation_status": "source_text_match"
+      },
+      {
+        "constraint_id": "constraint_8f948c47eb67fd06",
+        "kind": "maximum_counted_credits",
+        "scope": {
+          "kind": "course_attributes",
+          "course_attributes": [
+            "microcredit"
+          ]
+        },
+        "maximum_counted_credits": 2.0,
+        "requirement_context": "program_completion",
+        "source_page": 1,
+        "source_text": "微學分課程西灣學院2學分總學分數:至少9學分(得採計微學分課程,至多2學分",
+        "validation_status": "source_text_match"
+      }
+    ],
+    "completion_summary": {
+      "model_status": "partial",
+      "minimum_total_credits": 9.0,
+      "minimum_core_credits": 4.0,
+      "maximum_core_credits": null,
+      "minimum_elective_credits": null,
+      "minimum_core_courses": null,
+      "minimum_elective_courses": null,
+      "has_conditional_requirements": false,
+      "has_manual_requirements": false,
+      "has_unresolved_conflicts": false
+    }
   }
 }

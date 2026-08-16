@@ -29,7 +29,7 @@
         "last_modified": "Thu, 13 Aug 2026 06:21:13 GMT",
         "content_length": 141543
       },
-      "parser_version": "0.2.3",
+      "parser_version": "0.3.0",
       "extractor_versions": {
         "pypdf": "6.10.0",
         "pdfplumber": "0.11.9"
@@ -40,11 +40,28 @@
       "kind": "manual_review",
       "reason": "Extracted candidate awaits approval"
     },
-    "warnings": [
-      "No structured course rows extracted from PDF tables"
-    ],
+    "warnings": [],
     "selected_pdf_academic_version": "113-1",
     "course_catalog": [
+      {
+        "course_code": null,
+        "catalog_entry_id": "entry_b12d78ea291dfc57",
+        "opening_units": [
+          "臺灣大專院校人工智慧學程聯盟"
+        ],
+        "opening_unit_snapshot": "臺灣大專院校人工智慧學程聯盟",
+        "course_name_snapshot": "機器學習概論",
+        "credits_snapshot": 3.0,
+        "requirement_group": "unspecified",
+        "requirement_section": "unspecified",
+        "requirement_label": "機器學習(1or2)",
+        "program_course_name_snapshot": "機器學習概論",
+        "notes": "TAICA 系列課程 機器學習 每一向度至少需修習一門課程。",
+        "source_page": 1,
+        "evidence_match": true,
+        "validation_status": "needs_course_code_verification",
+        "uncertainty_reason": "Official PDF table does not provide a course code"
+      },
       {
         "course_code": null,
         "catalog_entry_id": "entry_b12d78ea291dfc57",
@@ -56,8 +73,28 @@
         "credits_snapshot": 3.0,
         "requirement_group": "unspecified",
         "requirement_section": "unspecified",
-        "program_course_name_snapshot": null,
-        "notes": "機器學習",
+        "requirement_label": "機器學習(1or2)",
+        "program_course_name_snapshot": "機器學習概論",
+        "notes": "機器學習 每一向度至少需修習一門課程。",
+        "source_page": 1,
+        "evidence_match": true,
+        "validation_status": "needs_course_code_verification",
+        "uncertainty_reason": "Official PDF table does not provide a course code"
+      },
+      {
+        "course_code": null,
+        "catalog_entry_id": "entry_0d10f3e8aa53c0ac",
+        "opening_units": [
+          "臺灣大專院校人工智慧學程聯盟"
+        ],
+        "opening_unit_snapshot": "臺灣大專院校人工智慧學程聯盟",
+        "course_name_snapshot": "機器學習特論",
+        "credits_snapshot": 3.0,
+        "requirement_group": "unspecified",
+        "requirement_section": "unspecified",
+        "requirement_label": "機器學習(1or2)",
+        "program_course_name_snapshot": "機器學習特論",
+        "notes": "TAICA 系列課程 機器學習導論 每一向度至少需修習一門課程。",
         "source_page": 1,
         "evidence_match": true,
         "validation_status": "needs_course_code_verification",
@@ -74,8 +111,47 @@
         "credits_snapshot": 3.0,
         "requirement_group": "unspecified",
         "requirement_section": "unspecified",
-        "program_course_name_snapshot": null,
-        "notes": "機器學習導論",
+        "requirement_label": "機器學習(1or2)",
+        "program_course_name_snapshot": "機器學習特論",
+        "notes": "機器學習導論 每一向度至少需修習一門課程。",
+        "source_page": 1,
+        "evidence_match": true,
+        "validation_status": "needs_course_code_verification",
+        "uncertainty_reason": "Official PDF table does not provide a course code"
+      },
+      {
+        "course_code": null,
+        "catalog_entry_id": "entry_4e50b8b08351f4eb",
+        "opening_units": [
+          "臺灣大專院校人工智慧學程聯盟"
+        ],
+        "opening_unit_snapshot": "臺灣大專院校人工智慧學程聯盟",
+        "course_name_snapshot": "人工智慧倫理、法律與社會",
+        "credits_snapshot": 3.0,
+        "requirement_group": "unspecified",
+        "requirement_section": "unspecified",
+        "requirement_label": "人工智慧倫理(1or2)",
+        "program_course_name_snapshot": "人工智慧倫理、法律與社會",
+        "notes": "TAICA 系列課程 每一向度至少需修習一門課程。",
+        "source_page": 1,
+        "evidence_match": false,
+        "validation_status": "needs_course_code_verification",
+        "uncertainty_reason": "Official PDF table does not provide a course code"
+      },
+      {
+        "course_code": null,
+        "catalog_entry_id": "entry_0fe7447f17805a8d",
+        "opening_units": [
+          "臺灣大專院校人工智慧學程聯盟"
+        ],
+        "opening_unit_snapshot": "臺灣大專院校人工智慧學程聯盟",
+        "course_name_snapshot": "高等深度學習",
+        "credits_snapshot": 3.0,
+        "requirement_group": "unspecified",
+        "requirement_section": "unspecified",
+        "requirement_label": "深度學習(3or4)",
+        "program_course_name_snapshot": "高等深度學習",
+        "notes": "TAICA 系列課程 深度學習 每一向度至少需修習一門課程。",
         "source_page": 1,
         "evidence_match": true,
         "validation_status": "needs_course_code_verification",
@@ -92,8 +168,28 @@
         "credits_snapshot": 3.0,
         "requirement_group": "unspecified",
         "requirement_section": "unspecified",
-        "program_course_name_snapshot": null,
-        "notes": "深度學習",
+        "requirement_label": "深度學習(3or4)",
+        "program_course_name_snapshot": "高等深度學習",
+        "notes": "深度學習 每一向度至少需修習一門課程。",
+        "source_page": 1,
+        "evidence_match": true,
+        "validation_status": "needs_course_code_verification",
+        "uncertainty_reason": "Official PDF table does not provide a course code"
+      },
+      {
+        "course_code": null,
+        "catalog_entry_id": "entry_ae34f0249bb2266c",
+        "opening_units": [
+          "臺灣大專院校人工智慧學程聯盟"
+        ],
+        "opening_unit_snapshot": "臺灣大專院校人工智慧學程聯盟",
+        "course_name_snapshot": "影像處理",
+        "credits_snapshot": 3.0,
+        "requirement_group": "unspecified",
+        "requirement_section": "unspecified",
+        "requirement_label": "電腦視覺(3or4)",
+        "program_course_name_snapshot": "影像處理",
+        "notes": "TAICA 系列課程 數位影像處理 每一向度至少需修習一門課程。",
         "source_page": 1,
         "evidence_match": true,
         "validation_status": "needs_course_code_verification",
@@ -110,8 +206,28 @@
         "credits_snapshot": 3.0,
         "requirement_group": "unspecified",
         "requirement_section": "unspecified",
-        "program_course_name_snapshot": null,
-        "notes": "數位影像處理",
+        "requirement_label": "電腦視覺(3or4)",
+        "program_course_name_snapshot": "影像處理",
+        "notes": "數位影像處理 每一向度至少需修習一門課程。",
+        "source_page": 1,
+        "evidence_match": true,
+        "validation_status": "needs_course_code_verification",
+        "uncertainty_reason": "Official PDF table does not provide a course code"
+      },
+      {
+        "course_code": null,
+        "catalog_entry_id": "entry_035c9e283c309d3f",
+        "opening_units": [
+          "臺灣大專院校人工智慧學程聯盟"
+        ],
+        "opening_unit_snapshot": "臺灣大專院校人工智慧學程聯盟",
+        "course_name_snapshot": "數位影像處理",
+        "credits_snapshot": 3.0,
+        "requirement_group": "unspecified",
+        "requirement_section": "unspecified",
+        "requirement_label": "電腦視覺(3or4)",
+        "program_course_name_snapshot": "數位影像處理",
+        "notes": "TAICA 系列課程 數位影像處理 每一向度至少需修習一門課程。",
         "source_page": 1,
         "evidence_match": true,
         "validation_status": "needs_course_code_verification",
@@ -128,8 +244,28 @@
         "credits_snapshot": 3.0,
         "requirement_group": "unspecified",
         "requirement_section": "unspecified",
-        "program_course_name_snapshot": null,
-        "notes": "數位影像處理",
+        "requirement_label": "電腦視覺(3or4)",
+        "program_course_name_snapshot": "數位影像處理",
+        "notes": "數位影像處理 每一向度至少需修習一門課程。",
+        "source_page": 1,
+        "evidence_match": true,
+        "validation_status": "needs_course_code_verification",
+        "uncertainty_reason": "Official PDF table does not provide a course code"
+      },
+      {
+        "course_code": null,
+        "catalog_entry_id": "entry_7d2cc1fc13320521",
+        "opening_units": [
+          "臺灣大專院校人工智慧學程聯盟"
+        ],
+        "opening_unit_snapshot": "臺灣大專院校人工智慧學程聯盟",
+        "course_name_snapshot": "電腦視覺與深度學習",
+        "credits_snapshot": 3.0,
+        "requirement_group": "unspecified",
+        "requirement_section": "unspecified",
+        "requirement_label": "電腦視覺(3or4)",
+        "program_course_name_snapshot": "電腦視覺與深度學習",
+        "notes": "TAICA 系列課程 電腦視覺 每一向度至少需修習一門課程。",
         "source_page": 1,
         "evidence_match": true,
         "validation_status": "needs_course_code_verification",
@@ -146,8 +282,28 @@
         "credits_snapshot": 3.0,
         "requirement_group": "unspecified",
         "requirement_section": "unspecified",
-        "program_course_name_snapshot": null,
-        "notes": "電腦視覺",
+        "requirement_label": "電腦視覺(3or4)",
+        "program_course_name_snapshot": "電腦視覺與深度學習",
+        "notes": "電腦視覺 每一向度至少需修習一門課程。",
+        "source_page": 1,
+        "evidence_match": true,
+        "validation_status": "needs_course_code_verification",
+        "uncertainty_reason": "Official PDF table does not provide a course code"
+      },
+      {
+        "course_code": null,
+        "catalog_entry_id": "entry_bb03e32cf8294eb7",
+        "opening_units": [
+          "臺灣大專院校人工智慧學程聯盟"
+        ],
+        "opening_unit_snapshot": "臺灣大專院校人工智慧學程聯盟",
+        "course_name_snapshot": "高等電腦視覺",
+        "credits_snapshot": 3.0,
+        "requirement_group": "unspecified",
+        "requirement_section": "unspecified",
+        "requirement_label": "電腦視覺(3or4)",
+        "program_course_name_snapshot": "高等電腦視覺",
+        "notes": "TAICA 系列課程 深度視覺 每一向度至少需修習一門課程。",
         "source_page": 1,
         "evidence_match": true,
         "validation_status": "needs_course_code_verification",
@@ -164,14 +320,340 @@
         "credits_snapshot": 3.0,
         "requirement_group": "unspecified",
         "requirement_section": "unspecified",
-        "program_course_name_snapshot": null,
-        "notes": "深度視覺",
+        "requirement_label": "電腦視覺(3or4)",
+        "program_course_name_snapshot": "高等電腦視覺",
+        "notes": "深度視覺 每一向度至少需修習一門課程。",
+        "source_page": 1,
+        "evidence_match": true,
+        "validation_status": "needs_course_code_verification",
+        "uncertainty_reason": "Official PDF table does not provide a course code"
+      },
+      {
+        "course_code": null,
+        "catalog_entry_id": "entry_4a380896180ad461",
+        "opening_units": [
+          "臺灣大專院校人工智慧學程聯盟"
+        ],
+        "opening_unit_snapshot": "臺灣大專院校人工智慧學程聯盟",
+        "course_name_snapshot": "人工智慧與智慧醫療",
+        "credits_snapshot": 3.0,
+        "requirement_group": "unspecified",
+        "requirement_section": "unspecified",
+        "requirement_label": "人工智慧影像應用課程(3or4or5)",
+        "program_course_name_snapshot": "人工智慧與智慧醫療",
+        "notes": "TAICA 系列課程 每一向度至少需修習一門課程。",
         "source_page": 1,
         "evidence_match": true,
         "validation_status": "needs_course_code_verification",
         "uncertainty_reason": "Official PDF table does not provide a course code"
       }
     ],
-    "structured_requirements": {}
+    "structured_requirements": {
+      "minimum_total_credits": 15.0,
+      "minimum_eligible_curriculum_credits": 9.0,
+      "credit_constraints": [
+        {
+          "constraint_id": "constraint_6a9d549d079f1834",
+          "kind": "minimum_credits",
+          "scope": {
+            "kind": "program"
+          },
+          "minimum_credits": 15.0,
+          "requirement_context": "program_completion",
+          "source_page": 2,
+          "source_text": "總學習學分為15學分",
+          "validation_status": "source_text_match"
+        },
+        {
+          "constraint_id": "constraint_6ae3d8246cc8b200",
+          "kind": "minimum_credits",
+          "scope": {
+            "kind": "course_eligibility",
+            "excluded_affiliations": [
+              "major",
+              "minor",
+              "other_program"
+            ],
+            "excluded_course_roles": [
+              "required",
+              "required_elective"
+            ]
+          },
+          "minimum_credits": 9.0,
+          "requirement_context": "certificate",
+          "source_page": 2,
+          "source_text": "須至少有9學分不屬於其主修",
+          "validation_status": "source_text_match"
+        },
+        {
+          "constraint_id": "constraint_9b66216be277c238",
+          "kind": "minimum_credits",
+          "scope": {
+            "kind": "taica_courses"
+          },
+          "minimum_credits": 8.0,
+          "requirement_context": "certificate",
+          "source_page": 2,
+          "source_text": "至少8學分TAICA聯盟認定課程",
+          "validation_status": "source_text_match"
+        },
+        {
+          "constraint_id": "constraint_bb2eb8679a226e49",
+          "kind": "maximum_counted_credits",
+          "scope": {
+            "kind": "cross_program_recognition"
+          },
+          "maximum_counted_credits": 6.0,
+          "requirement_context": "certificate",
+          "source_page": 2,
+          "source_text": "TAICA學程間之學分相互認抵以6學分為上限",
+          "validation_status": "source_text_match"
+        },
+        {
+          "constraint_id": "constraint_be1b9f73774cd59e",
+          "kind": "maximum_counted_credits",
+          "scope": {
+            "kind": "recognized_similar_courses"
+          },
+          "maximum_counted_credits": 3.0,
+          "requirement_context": "certificate",
+          "source_page": 2,
+          "source_text": "性質相近之課程認抵本學程課程,以3學分為上限",
+          "validation_status": "source_text_match"
+        }
+      ],
+      "manual_requirements": [
+        {
+          "requirement_id": "requirement_d9fa625cda55484a",
+          "kind": "manual_verification",
+          "requirement_type": "certificate",
+          "description": "取得TAICA核發學程學分證明",
+          "verification_mode": "manual_review",
+          "requirement_context": "certificate",
+          "source_page": 2,
+          "source_text": "取得TAICA核發學程學分證明",
+          "validation_status": "source_text_match"
+        }
+      ],
+      "course_count_constraints": [
+        {
+          "constraint_id": "constraint_0bd209e72760e824",
+          "kind": "course_equivalence",
+          "course_names": [
+            "高等電腦視覺",
+            "深度視覺"
+          ],
+          "min_courses": 1,
+          "max_courses": 1,
+          "requirement_group": "unspecified",
+          "requirement_section": "unspecified",
+          "source_page": 1,
+          "source_text": "深度視覺",
+          "validation_status": "source_text_match"
+        },
+        {
+          "constraint_id": "constraint_580ea30d59532ea8",
+          "kind": "course_equivalence",
+          "course_names": [
+            "機器學習概論",
+            "機器學習"
+          ],
+          "min_courses": 1,
+          "max_courses": 1,
+          "requirement_group": "unspecified",
+          "requirement_section": "unspecified",
+          "source_page": 1,
+          "source_text": "機器學習",
+          "validation_status": "source_text_match"
+        },
+        {
+          "constraint_id": "constraint_587d018bd3fb0b4a",
+          "kind": "course_equivalence",
+          "course_names": [
+            "高等深度學習",
+            "深度學習"
+          ],
+          "min_courses": 1,
+          "max_courses": 1,
+          "requirement_group": "unspecified",
+          "requirement_section": "unspecified",
+          "source_page": 1,
+          "source_text": "深度學習",
+          "validation_status": "source_text_match"
+        },
+        {
+          "constraint_id": "constraint_5fbbf4ab93cb5a32",
+          "kind": "course_equivalence",
+          "course_names": [
+            "機器學習特論",
+            "機器學習導論"
+          ],
+          "min_courses": 1,
+          "max_courses": 1,
+          "requirement_group": "unspecified",
+          "requirement_section": "unspecified",
+          "source_page": 1,
+          "source_text": "機器學習導論",
+          "validation_status": "source_text_match"
+        },
+        {
+          "constraint_id": "constraint_d0453a216be6a88a",
+          "kind": "course_equivalence",
+          "course_names": [
+            "影像處理",
+            "數位影像處理"
+          ],
+          "min_courses": 1,
+          "max_courses": 1,
+          "requirement_group": "unspecified",
+          "requirement_section": "unspecified",
+          "source_page": 1,
+          "source_text": "數位影像處理",
+          "validation_status": "source_text_match"
+        },
+        {
+          "constraint_id": "constraint_fb3644fcdbf6d69d",
+          "kind": "course_equivalence",
+          "course_names": [
+            "電腦視覺與深度學習",
+            "電腦視覺"
+          ],
+          "min_courses": 1,
+          "max_courses": 1,
+          "requirement_group": "unspecified",
+          "requirement_section": "unspecified",
+          "source_page": 1,
+          "source_text": "電腦視覺",
+          "validation_status": "source_text_match"
+        }
+      ],
+      "entry_selection_constraints": [
+        {
+          "constraint_id": "constraint_0869d1aab341e69a",
+          "kind": "select_entries",
+          "catalog_entry_ids": [
+            "entry_4e50b8b08351f4eb"
+          ],
+          "course_names": [
+            "人工智慧倫理、法律與社會"
+          ],
+          "min_entries": 1,
+          "max_entries": null,
+          "declared_option_count": null,
+          "option_count_matches": true,
+          "requirement_group": "unspecified",
+          "requirement_section": "unspecified",
+          "source_page": 2,
+          "source_text": "每一向度至少需修習一門課程。",
+          "validation_status": "source_text_match",
+          "requirement_label": "人工智慧倫理(1or2)"
+        },
+        {
+          "constraint_id": "constraint_45275128c45bb1be",
+          "kind": "select_entries",
+          "catalog_entry_ids": [
+            "entry_b12d78ea291dfc57",
+            "entry_0d10f3e8aa53c0ac"
+          ],
+          "course_names": [
+            "機器學習概論",
+            "機器學習",
+            "機器學習特論",
+            "機器學習導論"
+          ],
+          "min_entries": 1,
+          "max_entries": null,
+          "declared_option_count": null,
+          "option_count_matches": true,
+          "requirement_group": "unspecified",
+          "requirement_section": "unspecified",
+          "source_page": 2,
+          "source_text": "每一向度至少需修習一門課程。",
+          "validation_status": "source_text_match",
+          "requirement_label": "機器學習(1or2)"
+        },
+        {
+          "constraint_id": "constraint_760b80fb4f31dc57",
+          "kind": "select_entries",
+          "catalog_entry_ids": [
+            "entry_4a380896180ad461"
+          ],
+          "course_names": [
+            "人工智慧與智慧醫療"
+          ],
+          "min_entries": 1,
+          "max_entries": null,
+          "declared_option_count": null,
+          "option_count_matches": true,
+          "requirement_group": "unspecified",
+          "requirement_section": "unspecified",
+          "source_page": 2,
+          "source_text": "每一向度至少需修習一門課程。",
+          "validation_status": "source_text_match",
+          "requirement_label": "人工智慧影像應用課程(3or4or5)"
+        },
+        {
+          "constraint_id": "constraint_bbf69e651c4536ca",
+          "kind": "select_entries",
+          "catalog_entry_ids": [
+            "entry_0fe7447f17805a8d"
+          ],
+          "course_names": [
+            "高等深度學習",
+            "深度學習"
+          ],
+          "min_entries": 1,
+          "max_entries": null,
+          "declared_option_count": null,
+          "option_count_matches": true,
+          "requirement_group": "unspecified",
+          "requirement_section": "unspecified",
+          "source_page": 2,
+          "source_text": "每一向度至少需修習一門課程。",
+          "validation_status": "source_text_match",
+          "requirement_label": "深度學習(3or4)"
+        },
+        {
+          "constraint_id": "constraint_c01039dbf18a3e3a",
+          "kind": "select_entries",
+          "catalog_entry_ids": [
+            "entry_ae34f0249bb2266c",
+            "entry_035c9e283c309d3f",
+            "entry_7d2cc1fc13320521",
+            "entry_bb03e32cf8294eb7"
+          ],
+          "course_names": [
+            "影像處理",
+            "數位影像處理",
+            "電腦視覺與深度學習",
+            "電腦視覺",
+            "高等電腦視覺",
+            "深度視覺"
+          ],
+          "min_entries": 1,
+          "max_entries": null,
+          "declared_option_count": null,
+          "option_count_matches": true,
+          "requirement_group": "unspecified",
+          "requirement_section": "unspecified",
+          "source_page": 2,
+          "source_text": "每一向度至少需修習一門課程。",
+          "validation_status": "source_text_match",
+          "requirement_label": "電腦視覺(3or4)"
+        }
+      ],
+      "completion_summary": {
+        "model_status": "partial",
+        "minimum_total_credits": 15.0,
+        "minimum_core_credits": null,
+        "maximum_core_credits": null,
+        "minimum_elective_credits": null,
+        "minimum_core_courses": null,
+        "minimum_elective_courses": null,
+        "has_conditional_requirements": false,
+        "has_manual_requirements": true,
+        "has_unresolved_conflicts": false
+      }
+    }
   }
 }

@@ -1,0 +1,978 @@
+{
+  "schema_version": 1,
+  "academic_version": "115-1",
+  "review_scope": "first_pass",
+  "formal_approval": false,
+  "reviewed_at": "2026-08-16T14:19:51Z",
+  "total": 63,
+  "counts": {
+    "skipped": 8,
+    "cautious_use": 6,
+    "approved": 49,
+    "needs_fix": 0,
+    "unreviewed": 0,
+    "stale": 0
+  },
+  "notice": "Source-pinned first-pass review results. These decisions do not replace the two-person formal approval required for review_status=approved.",
+  "decisions": [
+    {
+      "program_id": "prog_08e51873a84951de",
+      "program_name_zh": "科技與環境英語微學程 English Micro-module: Science, Technology and the Environment 【全英語學程】(Program Taught in English)",
+      "decision": "approved",
+      "reviewer": "Brian",
+      "reviewed_at": "2026-08-16T13:46:35Z",
+      "notes": "",
+      "conflict_choices": {},
+      "based_on": {
+        "pdf_binary_sha256": "aecdf9892021e04891863df3fa7a357347104bd9b83f7e68a535f7d2475636b0",
+        "normalized_text_sha256": "1d27f4f554e973486db32dcd3549b7bef40a7ee5820d91aba1b1c50e55177d2a",
+        "selected_pdf_academic_version": "114-2",
+        "parser_version": "0.3.0"
+      }
+    },
+    {
+      "program_id": "prog_14550fb9cc885968",
+      "program_name_zh": "人權研究整合學程Human Rights Studies Program【全英語學程】(Program Taught in English)",
+      "decision": "cautious_use",
+      "reviewer": "Brian",
+      "reviewed_at": "2026-08-16T13:33:12Z",
+      "notes": "結構複雜",
+      "conflict_choices": {},
+      "based_on": {
+        "pdf_binary_sha256": "1fbc70d356ade77b746c05456a105469234de76ccee2549abc23988ccf17b2c9",
+        "normalized_text_sha256": "fa8002d9e15a6e5253d458532ab07f3065c840078e83acc86b2cb3dc2affbf10",
+        "selected_pdf_academic_version": "112-2",
+        "parser_version": "0.3.0"
+      }
+    },
+    {
+      "program_id": "prog_190e05feb0e25908",
+      "program_name_zh": "【AI聯盟學分學程】人工智慧探索應用學分學程",
+      "decision": "skipped",
+      "reviewer": "Brian",
+      "reviewed_at": "2026-08-16T13:35:38Z",
+      "notes": "",
+      "conflict_choices": {},
+      "based_on": {
+        "pdf_binary_sha256": "7a06b5044309d0104e8550815d7874df3b83fcbcdf5796c97b72111775b6b855",
+        "normalized_text_sha256": "86f705122b638a30df483fd7da6485fec977ed3a72b23a073b7aef0ecc9546b3",
+        "selected_pdf_academic_version": "113-1",
+        "parser_version": "0.3.0"
+      }
+    },
+    {
+      "program_id": "prog_1db9a3a8a7c654a4",
+      "program_name_zh": "臺灣研究學程",
+      "decision": "approved",
+      "reviewer": "Brian",
+      "reviewed_at": "2026-08-16T13:24:45Z",
+      "notes": "",
+      "conflict_choices": {},
+      "based_on": {
+        "pdf_binary_sha256": "ba6dbfa4c15910af1a4f0cf23c6b06d2353784bbb4bffde1b8cbe25e4c626352",
+        "normalized_text_sha256": "1c24c454b9414f5a9264e128d90f31d7118257dbb0dd291f5911359351a98bd1",
+        "selected_pdf_academic_version": "112-1",
+        "parser_version": "0.3.0"
+      }
+    },
+    {
+      "program_id": "prog_201d87e139c750d0",
+      "program_name_zh": "西洋經典文學與文化學程",
+      "decision": "approved",
+      "reviewer": "Brian",
+      "reviewed_at": "2026-08-16T13:36:37Z",
+      "notes": "",
+      "conflict_choices": {},
+      "based_on": {
+        "pdf_binary_sha256": "cc90e315b7b7e91b8bb063a009a595fddf1ddbe076ede904b8e84eaa8e4636c1",
+        "normalized_text_sha256": "af562059eff078b80c7ed7ec9d11cea307ce809bcc2f926d6d373077f5f73674",
+        "selected_pdf_academic_version": "113-1",
+        "parser_version": "0.3.0"
+      }
+    },
+    {
+      "program_id": "prog_258ec7dded99588b",
+      "program_name_zh": "沉浸式體驗技術與應用學程  (★自113年2月1日起停止受理申請修讀學程)",
+      "decision": "approved",
+      "reviewer": "Brian",
+      "reviewed_at": "2026-08-16T13:26:23Z",
+      "notes": "",
+      "conflict_choices": {},
+      "based_on": {
+        "pdf_binary_sha256": "974a77d2b4fad0d3c5b6d8965654067f3d223911a41a241474d5d7ee55009ddd",
+        "normalized_text_sha256": "e8a675368af5975ffb4030b47d0b793429a4a43983599931295d2dc762d57c07",
+        "selected_pdf_academic_version": "113-1",
+        "parser_version": "0.3.0"
+      }
+    },
+    {
+      "program_id": "prog_28089356b34059f9",
+      "program_name_zh": "行銷管理學程",
+      "decision": "approved",
+      "reviewer": "Brian",
+      "reviewed_at": "2026-08-16T13:19:42Z",
+      "notes": "",
+      "conflict_choices": {},
+      "based_on": {
+        "pdf_binary_sha256": "3e8ea950238800e0e6439c2fb63649efd824f827cbbeaf05520e25aa24a37a25",
+        "normalized_text_sha256": "7257f2ded33e378e738c8621fc1fac831bcb6bf345b1c5350df2117bbdbdfd2b",
+        "selected_pdf_academic_version": "109-1",
+        "parser_version": "0.3.0"
+      }
+    },
+    {
+      "program_id": "prog_28d293ce79f652ec",
+      "program_name_zh": "財務管理專業學程",
+      "decision": "approved",
+      "reviewer": "Brian",
+      "reviewed_at": "2026-08-16T14:13:19Z",
+      "notes": "財務管理（一）/財務管理 = 財務管理（一）或 財務管理\n財務管理（二）/財務管理理論 也是",
+      "conflict_choices": {},
+      "based_on": {
+        "pdf_binary_sha256": "2034436a299548c5f25cdc8ba57ca9c56d0dbb9707f515b7badbf2e5dcecec4c",
+        "normalized_text_sha256": "06f18f684b59e63ca4198d753cc41e7e3a8174cb059d4491cab50f3a18854915",
+        "selected_pdf_academic_version": "112-1",
+        "parser_version": "0.3.0",
+        "reviewed_output_sha256": "c5343260c99a8d8b6647fc171a1fa25a84769583772e8eb48b92637c0ba30d52"
+      }
+    },
+    {
+      "program_id": "prog_2e97e1db0dfd5df3",
+      "program_name_zh": "地方發展與永續農業微學程",
+      "decision": "approved",
+      "reviewer": "Brian",
+      "reviewed_at": "2026-08-16T13:46:57Z",
+      "notes": "",
+      "conflict_choices": {},
+      "based_on": {
+        "pdf_binary_sha256": "3d1c943beb7dad4ffa2803ccb0fa0e855114c16d0640e2196f5bfa05b1dbea8e",
+        "normalized_text_sha256": "14fb962511ef6ac01767a1d1731d0eee930a8793b186f281b9d47f65dc3c29e0",
+        "selected_pdf_academic_version": "113-2",
+        "parser_version": "0.3.0"
+      }
+    },
+    {
+      "program_id": "prog_2f383846b9b3526f",
+      "program_name_zh": "環境教育學程",
+      "decision": "approved",
+      "reviewer": "Brian",
+      "reviewed_at": "2026-08-16T13:21:28Z",
+      "notes": "",
+      "conflict_choices": {},
+      "based_on": {
+        "pdf_binary_sha256": "9b3dbf4026b05e339bd73cc8726d04ff594776af5f56c2035d7939b58516da1f",
+        "normalized_text_sha256": "6e36863c7eaf2b68232dae57a177f1ca9d404c44086da2fa227ed79bfca12ac1",
+        "selected_pdf_academic_version": "114-2",
+        "parser_version": "0.3.0"
+      }
+    },
+    {
+      "program_id": "prog_30506ee249be58db",
+      "program_name_zh": "類比射頻IC設計學程",
+      "decision": "approved",
+      "reviewer": "Brian",
+      "reviewed_at": "2026-08-16T13:31:42Z",
+      "notes": "",
+      "conflict_choices": {},
+      "based_on": {
+        "pdf_binary_sha256": "6d9504cce0d3b17985f56fdad949ca682bd4109e0963613a91630157962f41ea",
+        "normalized_text_sha256": "7bb53dbdb6e47cfea3f1ad467e6107978a0dd7def1f4076856f3df6b01af9926",
+        "selected_pdf_academic_version": "113-1",
+        "parser_version": "0.3.0"
+      }
+    },
+    {
+      "program_id": "prog_35d056908b6558ad",
+      "program_name_zh": "數位IC設計學程",
+      "decision": "approved",
+      "reviewer": "Brian",
+      "reviewed_at": "2026-08-16T13:31:05Z",
+      "notes": "",
+      "conflict_choices": {},
+      "based_on": {
+        "pdf_binary_sha256": "0398218e066e01b311891b04efa7b2245e546f4be9db973f3125ec14b5798a02",
+        "normalized_text_sha256": "03015e1519f1decf93ae2addab63188884a51c514e5308884b3123e8957fa348",
+        "selected_pdf_academic_version": "112-2",
+        "parser_version": "0.3.0"
+      }
+    },
+    {
+      "program_id": "prog_38fa876303d75d77",
+      "program_name_zh": "【AI聯盟學分學程】人工智慧資訊安全技術學分學程",
+      "decision": "skipped",
+      "reviewer": "Brian",
+      "reviewed_at": "2026-08-16T13:36:13Z",
+      "notes": "",
+      "conflict_choices": {},
+      "based_on": {
+        "pdf_binary_sha256": "4f70d9d6926feaa3d39ac2d96d519ba957eccd8127f0b46aa86ee7a722029b9c",
+        "normalized_text_sha256": "c2ae5be2618e67f7108613bfadb5be14a1fce9bbbd49c369558ef06962b846c6",
+        "selected_pdf_academic_version": null,
+        "parser_version": "0.3.0"
+      }
+    },
+    {
+      "program_id": "prog_3ba631079b905816",
+      "program_name_zh": "智慧港埠微學程",
+      "decision": "approved",
+      "reviewer": "Brian",
+      "reviewed_at": "2026-08-16T13:42:42Z",
+      "notes": "",
+      "conflict_choices": {},
+      "based_on": {
+        "pdf_binary_sha256": "13f4e43a7b9970b2edba74e1cb317e336fb3474647a8a40918d2402c9884f937",
+        "normalized_text_sha256": "fc2e87b7e13056595c79682babaf6374c762d5445a62182fc69dcaad762554ac",
+        "selected_pdf_academic_version": "112-1",
+        "parser_version": "0.3.0"
+      }
+    },
+    {
+      "program_id": "prog_3d5388114d795ef4",
+      "program_name_zh": "【AI聯盟學分學程】人工智慧自然語言技術學分學程",
+      "decision": "skipped",
+      "reviewer": "Brian",
+      "reviewed_at": "2026-08-16T13:35:59Z",
+      "notes": "",
+      "conflict_choices": {},
+      "based_on": {
+        "pdf_binary_sha256": "ea076801f4579e6be295bbf81c70a15f8d56b1a172c6b1c75eefea20ffd64f22",
+        "normalized_text_sha256": "82ce0739aeed896b86d009ba488be9e67e09af9fd9df8c9620804defcaeeced7",
+        "selected_pdf_academic_version": "113-1",
+        "parser_version": "0.3.0"
+      }
+    },
+    {
+      "program_id": "prog_3e6400714f4f56bc",
+      "program_name_zh": "音樂與高齡照護學程",
+      "decision": "cautious_use",
+      "reviewer": "Brian",
+      "reviewed_at": "2026-08-16T13:26:11Z",
+      "notes": "先修畢本學程之核心課程才可以修 高雄醫學大學心\n理學系 應用心理學實務與實習",
+      "conflict_choices": {},
+      "based_on": {
+        "pdf_binary_sha256": "aaa5d80c918cfbd454025b42bc951fe3e9bc608a02d4660a1a383c4628aed061",
+        "normalized_text_sha256": "8b945018e9592991cec16be7d2a7402ad8c785e94653f43e8d592a1ea9b5a45f",
+        "selected_pdf_academic_version": "113-1",
+        "parser_version": "0.3.0"
+      }
+    },
+    {
+      "program_id": "prog_436bbbd8c91454a4",
+      "program_name_zh": "性別與管理微學程",
+      "decision": "approved",
+      "reviewer": "Brian",
+      "reviewed_at": "2026-08-16T13:43:06Z",
+      "notes": "",
+      "conflict_choices": {},
+      "based_on": {
+        "pdf_binary_sha256": "315391313828b97e49cb3e9009ec62866607c6cf33507d446b2436e630b37aac",
+        "normalized_text_sha256": "734c1a54d93c57b8fa457755a889d98c65d1df52e4b7c534466819b1fa9ad8d8",
+        "selected_pdf_academic_version": "110-1",
+        "parser_version": "0.3.0"
+      }
+    },
+    {
+      "program_id": "prog_478249ff40f05fd9",
+      "program_name_zh": "應用數學學程",
+      "decision": "approved",
+      "reviewer": "Brian",
+      "reviewed_at": "2026-08-16T13:38:00Z",
+      "notes": "",
+      "conflict_choices": {},
+      "based_on": {
+        "pdf_binary_sha256": "a6584cae7123324a08f6034acbf05b4cf7e89ec33cb605edafcafeb6bb283b62",
+        "normalized_text_sha256": "113c82d063b33de937a186e4a3a9d40d7dd2faee5292565c78b9750ad0aa8def",
+        "selected_pdf_academic_version": "105-2",
+        "parser_version": "0.3.0"
+      }
+    },
+    {
+      "program_id": "prog_4795cead391b5d2c",
+      "program_name_zh": "全民國防微學程",
+      "decision": "approved",
+      "reviewer": "Brian",
+      "reviewed_at": "2026-08-16T13:47:25Z",
+      "notes": "",
+      "conflict_choices": {},
+      "based_on": {
+        "pdf_binary_sha256": "043c4b406de6b2a298aad7050e6579935c7deb2f818c666691e518f71ad75555",
+        "normalized_text_sha256": "5ffcce1fc888a21393b9f6b63532d67984876126281299b6d25555e7f84dc266",
+        "selected_pdf_academic_version": "114-1",
+        "parser_version": "0.3.0"
+      }
+    },
+    {
+      "program_id": "prog_4fc4ae1446385354",
+      "program_name_zh": "擁海學程",
+      "decision": "cautious_use",
+      "reviewer": "Brian",
+      "reviewed_at": "2026-08-16T13:27:13Z",
+      "notes": "有點複雜",
+      "conflict_choices": {},
+      "based_on": {
+        "pdf_binary_sha256": "9972e0ecd9298b708e0670bcd284f0b2a6fbf111a690c5a0572164f7270b7a46",
+        "normalized_text_sha256": "d012e1d8150dce3949d0ca9766e6741fe2073450fb5b0fb630f90418b8fa133b",
+        "selected_pdf_academic_version": "112-2",
+        "parser_version": "0.3.0"
+      }
+    },
+    {
+      "program_id": "prog_51f6d4cadcc65af9",
+      "program_name_zh": "全英語通識教育菁英學程 EMI General Education Honors Program  【全英語學程】(Program Taught in English)",
+      "decision": "cautious_use",
+      "reviewer": "Brian",
+      "reviewed_at": "2026-08-16T13:39:50Z",
+      "notes": "課程結構複雜",
+      "conflict_choices": {},
+      "based_on": {
+        "pdf_binary_sha256": "73388872adb51beb5e4a679d9c886435cf6a7a88905d01981cc96178d4f81d91",
+        "normalized_text_sha256": "6be250e7894612952ef982a68596a0bd20fbb3a52feae93fc0f44bad199db617",
+        "selected_pdf_academic_version": "114-2",
+        "parser_version": "0.3.0"
+      }
+    },
+    {
+      "program_id": "prog_58764eb1bb735197",
+      "program_name_zh": "實用英語跨域學程 Practical English Cross-Disciplinary Program 【全英語學程】(Program Taught in English)",
+      "decision": "approved",
+      "reviewer": "Brian",
+      "reviewed_at": "2026-08-16T13:30:22Z",
+      "notes": "",
+      "conflict_choices": {},
+      "based_on": {
+        "pdf_binary_sha256": "feb7440ac9f3dd8a2edc8497720e112dad3aae462af983b7a835922bd09259ef",
+        "normalized_text_sha256": "d4432b7f91e2b03621f8a9c520c6e07290e462df355b34ed236e62e464893f31",
+        "selected_pdf_academic_version": "114-2",
+        "parser_version": "0.3.0"
+      }
+    },
+    {
+      "program_id": "prog_58f7156f3746514c",
+      "program_name_zh": "性別研究學程",
+      "decision": "approved",
+      "reviewer": "Brian",
+      "reviewed_at": "2026-08-16T13:20:18Z",
+      "notes": "",
+      "conflict_choices": {},
+      "based_on": {
+        "pdf_binary_sha256": "dea2ced7b55a031c97f36097adb317a10ae61ef02ff07b08235e87c12aad0eb3",
+        "normalized_text_sha256": "e55f41ff3a62e49f389cd4ac1b3b896140ec5b42b5ba830bcc607a24b292b50c",
+        "selected_pdf_academic_version": "114-2",
+        "parser_version": "0.3.0"
+      }
+    },
+    {
+      "program_id": "prog_5f523e6fcaf05e21",
+      "program_name_zh": "智慧高齡生活微學程",
+      "decision": "approved",
+      "reviewer": "Brian",
+      "reviewed_at": "2026-08-16T14:14:34Z",
+      "notes": "智慧醫療與AI創新管理\n門數：1 ～ 1\np.1｜ 護理學系 智慧醫療與AI創新管理 3 擇一修習 沒這個規則吧?",
+      "conflict_choices": {},
+      "based_on": {
+        "pdf_binary_sha256": "3fd8e1b88000e107d4fc515a3bb208720ed029609f3fc3020625da41e00fe650",
+        "normalized_text_sha256": "6540318acf5ba2dbe5b397780256abc1a974576df0b403bc2313fa0d4e9e81ff",
+        "selected_pdf_academic_version": "114-1",
+        "parser_version": "0.3.0",
+        "reviewed_output_sha256": "dfdf0210224959c40fb97a55d6f08cf22f8ee2172b2203110ab9393ea10b3f69"
+      }
+    },
+    {
+      "program_id": "prog_6563ee7be1805b86",
+      "program_name_zh": "金融科技學程",
+      "decision": "approved",
+      "reviewer": "Brian",
+      "reviewed_at": "2026-08-16T13:23:38Z",
+      "notes": "",
+      "conflict_choices": {},
+      "based_on": {
+        "pdf_binary_sha256": "1dd96c2f985308de83cc688447d0ee0e53cc467780c4e385b6d3f73658fb0a09",
+        "normalized_text_sha256": "e5ad693f8ee1f1f681d883f039498af7ab614d2bd0b045e377ee251001f96b3a",
+        "selected_pdf_academic_version": "113-2",
+        "parser_version": "0.3.0"
+      }
+    },
+    {
+      "program_id": "prog_6cd8c9bf1c955907",
+      "program_name_zh": "印象海味微學程",
+      "decision": "cautious_use",
+      "reviewer": "Brian",
+      "reviewed_at": "2026-08-16T13:46:16Z",
+      "notes": "結構複雜",
+      "conflict_choices": {
+        "conflict_d4b3a22b66d0cc07": "candidate_24792c04579d45bf",
+        "conflict_728edc7e9f9b7e60": "candidate_16708fec895b8a47"
+      },
+      "based_on": {
+        "pdf_binary_sha256": "920da5627df4dd8260fa108ce02226875e0b0d6399bc75fa5d159747bc8908cf",
+        "normalized_text_sha256": "4a94fa6747a652f4784a235742870fa79e3917728a51cac06c66f0421c049ac7",
+        "selected_pdf_academic_version": "113-1",
+        "parser_version": "0.3.0"
+      }
+    },
+    {
+      "program_id": "prog_6f5407da4b4f524c",
+      "program_name_zh": "氣候變遷與調適學程",
+      "decision": "approved",
+      "reviewer": "Brian",
+      "reviewed_at": "2026-08-16T13:22:32Z",
+      "notes": "",
+      "conflict_choices": {},
+      "based_on": {
+        "pdf_binary_sha256": "75ac6e89b210b7e4b212edf79e59c4fd3f843b8c71defaa3f80b618d9690c3b6",
+        "normalized_text_sha256": "7867d878d1ee2710df5401507c5bc0154023590e3495120e188b6dab4409a18d",
+        "selected_pdf_academic_version": "113-1",
+        "parser_version": "0.3.0"
+      }
+    },
+    {
+      "program_id": "prog_6fe63fd4a2735877",
+      "program_name_zh": "【AI聯盟學分學程】人工智慧視覺技術學分學程",
+      "decision": "skipped",
+      "reviewer": "Brian",
+      "reviewed_at": "2026-08-16T13:36:01Z",
+      "notes": "",
+      "conflict_choices": {},
+      "based_on": {
+        "pdf_binary_sha256": "75a45c0c51dbe584f287871b4bc0e63f82691d7900d92a9d9bbb47a2a96d9a1d",
+        "normalized_text_sha256": "8970615d4fcc4fdbddc59871f13404d55b96112938cefc41ec93da664ce69797",
+        "selected_pdf_academic_version": "113-1",
+        "parser_version": "0.3.0"
+      }
+    },
+    {
+      "program_id": "prog_7189acd83f59530a",
+      "program_name_zh": "生物技術學程",
+      "decision": "approved",
+      "reviewer": "Brian",
+      "reviewed_at": "2026-08-16T14:19:51Z",
+      "notes": "選修:生科系\n生藥所\n醫科所\n生物資訊學概論(大學部)\n生物資訊學及其應用\n生物資訊學\n3\n3\n3\n三擇一\n\n並且 海科系(碩) 分子細胞生物學  3 (要英語授課)\n\n生科系\n海資系\n生物技術概論\n生物技術 3 二擇一\n\n海資系 訊息傳遞與藥物開發概\n論 2\n生科系 細胞訊息傳遞學概論 3 三擇一\n生醫所 細胞訊息傳遞與醫藥應\n用 3",
+      "conflict_choices": {},
+      "based_on": {
+        "pdf_binary_sha256": "d0ae6a74063706bc72d9b5169120dc3cedb92de41a0d034a12fa49b153616c38",
+        "normalized_text_sha256": "0a4eb87a88f5d1ca7904da8da6b865158ecec06f5d9169e242ac682eeb07eb75",
+        "selected_pdf_academic_version": "113-2",
+        "parser_version": "0.3.0",
+        "reviewed_output_sha256": "2237a2b0963b3a3833fd1fe8a7f930127f6613e90fd5075a41e0d3d0a7f83129"
+      }
+    },
+    {
+      "program_id": "prog_7adfffe5c6f6544b",
+      "program_name_zh": "生物多樣性學程",
+      "decision": "approved",
+      "reviewer": "Brian",
+      "reviewed_at": "2026-08-16T13:18:33Z",
+      "notes": "",
+      "conflict_choices": {},
+      "based_on": {
+        "pdf_binary_sha256": "8398608ba98ddfca2e4c739314daf6672d2e6804be8cd6bf67ba9a9a37701693",
+        "normalized_text_sha256": "e78c452e880385b0093ba81e313715e3bcb115e2b1edcb748740644f603c01a6",
+        "selected_pdf_academic_version": "107-1",
+        "parser_version": "0.3.0"
+      }
+    },
+    {
+      "program_id": "prog_84014e6da4cd5bb5",
+      "program_name_zh": "實踐環境教育微學程 (★自115年8月1日起停開)",
+      "decision": "approved",
+      "reviewer": "Brian",
+      "reviewed_at": "2026-08-16T13:42:00Z",
+      "notes": "",
+      "conflict_choices": {},
+      "based_on": {
+        "pdf_binary_sha256": "a4235f9f35355a51bc68ff5fe048385bcb6105b9d686d6c00414f1e97b8444f8",
+        "normalized_text_sha256": "00f8836bae4f7c11daba471dfa02ad1fa52a474fade3539c3b95b099853fcff1",
+        "selected_pdf_academic_version": "113-2",
+        "parser_version": "0.3.0"
+      }
+    },
+    {
+      "program_id": "prog_8b9e654ae33c5824",
+      "program_name_zh": "天然藥物合成學程",
+      "decision": "approved",
+      "reviewer": "Brian",
+      "reviewed_at": "2026-08-16T13:28:03Z",
+      "notes": "",
+      "conflict_choices": {},
+      "based_on": {
+        "pdf_binary_sha256": "1bebb7b1350a8f0e4a692e48b0ba04f86a789dee6547d7a9c104523b4839b78d",
+        "normalized_text_sha256": "b61965b19afbf2889abd776a62fefdd74c3929b1d347c9145d92f4bad0a199cc",
+        "selected_pdf_academic_version": "114-1",
+        "parser_version": "0.3.0"
+      }
+    },
+    {
+      "program_id": "prog_8f479dc02d095c9a",
+      "program_name_zh": "日本研究學程",
+      "decision": "skipped",
+      "reviewer": "Brian",
+      "reviewed_at": "2026-08-16T13:17:10Z",
+      "notes": "",
+      "conflict_choices": {},
+      "based_on": {
+        "pdf_binary_sha256": "6c3f400d9a38a877933b152bcbab0d74ba767acf242551811459503de05ac9ca",
+        "normalized_text_sha256": "d8ec450898a18dbe6139e06f8998b6b18be2eccf7d6378c5c9a4389520fedebd",
+        "selected_pdf_academic_version": "114-1",
+        "parser_version": "0.3.0"
+      }
+    },
+    {
+      "program_id": "prog_93ed9ed2a9f95c04",
+      "program_name_zh": "探索海洋國家公園微學程",
+      "decision": "approved",
+      "reviewer": "Brian",
+      "reviewed_at": "2026-08-16T13:48:26Z",
+      "notes": "",
+      "conflict_choices": {},
+      "based_on": {
+        "pdf_binary_sha256": "b1ea20376142cee27cc841372d3d32ecf330dbd5ee48ef46c0eb8590ff7c65d6",
+        "normalized_text_sha256": "8d8995cb8df3147f9108de3f87b8d0d37956bbd0f8f62aeff5e38675c5d81991",
+        "selected_pdf_academic_version": "114-1",
+        "parser_version": "0.3.0"
+      }
+    },
+    {
+      "program_id": "prog_940d059c23cb5f50",
+      "program_name_zh": "南星產業樞紐學程  (★自113年2月1日起停止受理申請修讀學程)",
+      "decision": "approved",
+      "reviewer": "Brian",
+      "reviewed_at": "2026-08-16T13:25:19Z",
+      "notes": "",
+      "conflict_choices": {},
+      "based_on": {
+        "pdf_binary_sha256": "d07e42cdf6978ee62aa9f9f11ece99af4312a73b8e732302b9df1925a35750ba",
+        "normalized_text_sha256": "32bb668e0a1e2f70b41cbb64bc6bd5664f9af391d202a5844a3e5164540d7d70",
+        "selected_pdf_academic_version": "111-1",
+        "parser_version": "0.3.0"
+      }
+    },
+    {
+      "program_id": "prog_9c8e67bbb0db56d7",
+      "program_name_zh": "STREAM 永續發展培力微學程",
+      "decision": "approved",
+      "reviewer": "Brian",
+      "reviewed_at": "2026-08-16T13:44:19Z",
+      "notes": "",
+      "conflict_choices": {},
+      "based_on": {
+        "pdf_binary_sha256": "8938f563ebdc3bcfdb52952bf815a3d0dc22223703aee50858a6613b1079f9e7",
+        "normalized_text_sha256": "8d283bc491e39c2dd11a5d5d4a63a4b9b248d08a237533b68ce1ccf79235f3b6",
+        "selected_pdf_academic_version": "112-2",
+        "parser_version": "0.3.0"
+      }
+    },
+    {
+      "program_id": "prog_9da001957107569d",
+      "program_name_zh": "半導體製程模組學程",
+      "decision": "cautious_use",
+      "reviewer": "Brian",
+      "reviewed_at": "2026-08-16T13:29:07Z",
+      "notes": "結構複雜",
+      "conflict_choices": {},
+      "based_on": {
+        "pdf_binary_sha256": "3fd6af8044ca89c0a411c1ac8df0aef25a6bdbf59805d85bb1bda3006d5dcb0c",
+        "normalized_text_sha256": "c89df705f7e36b9e58d02df37ffcaf1711401d44c9b7a699e511d398704a956c",
+        "selected_pdf_academic_version": "113-2",
+        "parser_version": "0.3.0"
+      }
+    },
+    {
+      "program_id": "prog_9ea6f9f755665f20",
+      "program_name_zh": "醫師科學家微學程 (★自115年8月1日起停開)",
+      "decision": "approved",
+      "reviewer": "Brian",
+      "reviewed_at": "2026-08-16T13:43:35Z",
+      "notes": "",
+      "conflict_choices": {},
+      "based_on": {
+        "pdf_binary_sha256": "0194cc9f88836c2167fae9d06fe988bafc8cc2cb56d600e3f127e07e8c2433a4",
+        "normalized_text_sha256": "0418162fcdee6b078b6be90ac0fd3da1520e7e7641beb7306df2b890d8e26bca",
+        "selected_pdf_academic_version": "112-1",
+        "parser_version": "0.3.0"
+      }
+    },
+    {
+      "program_id": "prog_a39d576a08db534c",
+      "program_name_zh": "海洋永續發展產業科技微學程",
+      "decision": "approved",
+      "reviewer": "Brian",
+      "reviewed_at": "2026-08-16T13:48:49Z",
+      "notes": "",
+      "conflict_choices": {},
+      "based_on": {
+        "pdf_binary_sha256": "14513209b7f49782186c476e935a9126400eda63ccfb10900a2d0f042ca3d748",
+        "normalized_text_sha256": "925353da80a7eccc986a1d7c6d76df0e19b96f67d40ba77746a21356157b9d1a",
+        "selected_pdf_academic_version": "113-2",
+        "parser_version": "0.3.0"
+      }
+    },
+    {
+      "program_id": "prog_a6566219860859f6",
+      "program_name_zh": "國際素養微學程",
+      "decision": "skipped",
+      "reviewer": "Brian",
+      "reviewed_at": "2026-08-16T13:48:35Z",
+      "notes": "",
+      "conflict_choices": {},
+      "based_on": {
+        "pdf_binary_sha256": "c392c68d7fe397d988c38aea700b3abdd0fb254a480d0cc1afb93c006fe5f21d",
+        "normalized_text_sha256": "e702fe430709793507f1ea6146ebc464c34943073cd5666c7817f1b329753df6",
+        "selected_pdf_academic_version": "114-1",
+        "parser_version": "0.3.0"
+      }
+    },
+    {
+      "program_id": "prog_a6cb5946f4a35ace",
+      "program_name_zh": "半導體設備工程學程",
+      "decision": "approved",
+      "reviewer": "Brian",
+      "reviewed_at": "2026-08-16T13:29:54Z",
+      "notes": "",
+      "conflict_choices": {},
+      "based_on": {
+        "pdf_binary_sha256": "7228d29286f5b5ea957a747fa76de80c86fd60b8ed40082bfe49e26c0a760b93",
+        "normalized_text_sha256": "2a831eaf9773412b261820b7a0fa49381fe203d02c610e3a3db5d7a25d8014b3",
+        "selected_pdf_academic_version": "113-2",
+        "parser_version": "0.3.0"
+      }
+    },
+    {
+      "program_id": "prog_ae43d8508d255ad0",
+      "program_name_zh": "海事工程學程",
+      "decision": "approved",
+      "reviewer": "Brian",
+      "reviewed_at": "2026-08-16T13:24:07Z",
+      "notes": "",
+      "conflict_choices": {},
+      "based_on": {
+        "pdf_binary_sha256": "e9279daf26a1d358c7f87c3259780aefdfa58e3c0c067967cd49b9fa147d1041",
+        "normalized_text_sha256": "a196a248e04d5caea11ba868c1be5eeb8ad959418e16234517b8ae209151d392",
+        "selected_pdf_academic_version": "113-1",
+        "parser_version": "0.3.0"
+      }
+    },
+    {
+      "program_id": "prog_b0535aebb56b5535",
+      "program_name_zh": "巨量資料分析學程",
+      "decision": "approved",
+      "reviewer": "Brian",
+      "reviewed_at": "2026-08-16T13:22:07Z",
+      "notes": "",
+      "conflict_choices": {},
+      "based_on": {
+        "pdf_binary_sha256": "e0c910f2ac4604c061340765a5ad732196e41cf7036ef181f0ca8d489f250c66",
+        "normalized_text_sha256": "b060a20c9c2e02600da0a615af6152dd16715a01d2b6fe55dc30580eaf5f4f1d",
+        "selected_pdf_academic_version": "103-2",
+        "parser_version": "0.3.0"
+      }
+    },
+    {
+      "program_id": "prog_b078403838695b4c",
+      "program_name_zh": "綠色港市微學程",
+      "decision": "approved",
+      "reviewer": "Brian",
+      "reviewed_at": "2026-08-16T14:14:18Z",
+      "notes": "人科學程 綠色港市與智慧港埠 3 海工系 海洋與海岸管理 3 二選一",
+      "conflict_choices": {},
+      "based_on": {
+        "pdf_binary_sha256": "01b898d1c1429be4a9d0ca5f420505b415b44afdc4395aa4293db499dfbe66f0",
+        "normalized_text_sha256": "24919897ce8f3123493b8f99000e04d88d5b6bfbdb9eef5f5e1a0e330cf00ca1",
+        "selected_pdf_academic_version": "112-1",
+        "parser_version": "0.3.0",
+        "reviewed_output_sha256": "9a4069639be7bda95398f080e9976a21acbeeb932391ac0506b14ad035808528"
+      }
+    },
+    {
+      "program_id": "prog_b27037639ff15338",
+      "program_name_zh": "【AI聯盟學分學程】人工智慧工業應用學分學程",
+      "decision": "skipped",
+      "reviewer": "Brian",
+      "reviewed_at": "2026-08-16T13:35:54Z",
+      "notes": "",
+      "conflict_choices": {},
+      "based_on": {
+        "pdf_binary_sha256": "bc41e028f31d7f248aabfd607c8dc56e2b3b81963418e38b7a716c5d7409ab31",
+        "normalized_text_sha256": "63ae3ce692090c857e18bfeb1976ce5a32835d626daad9993c0a72056a7f5756",
+        "selected_pdf_academic_version": "113-1",
+        "parser_version": "0.3.0"
+      }
+    },
+    {
+      "program_id": "prog_b5e32570efc25c18",
+      "program_name_zh": "自然科學之程式應用學程",
+      "decision": "approved",
+      "reviewer": "Brian",
+      "reviewed_at": "2026-08-16T13:27:40Z",
+      "notes": "",
+      "conflict_choices": {},
+      "based_on": {
+        "pdf_binary_sha256": "9f33aecf414bfc0c874b926f80a83dd80efe6340180a5bbcd43594d3b7f7755b",
+        "normalized_text_sha256": "f8870bf76d8b2a315af90b2b9feb80ef2dc6a233e9ac045060d73e6d4946d330",
+        "selected_pdf_academic_version": "114-1",
+        "parser_version": "0.3.0"
+      }
+    },
+    {
+      "program_id": "prog_b69b3518e1f050ba",
+      "program_name_zh": "音場技術與情境感受微學程  (★自113年2月1日起停止受理申請修讀學程)",
+      "decision": "approved",
+      "reviewer": "Brian",
+      "reviewed_at": "2026-08-16T13:41:10Z",
+      "notes": "",
+      "conflict_choices": {},
+      "based_on": {
+        "pdf_binary_sha256": "2bfe50da6732ea474b476d58f2857731a6735b8ec543eea0987ba40375f6625e",
+        "normalized_text_sha256": "140eabe81fdf5855882e4ab44f177b82fdb54be20b593a34f674c65891a13230",
+        "selected_pdf_academic_version": "113-1",
+        "parser_version": "0.3.0"
+      }
+    },
+    {
+      "program_id": "prog_b6ba18c54c2d55bc",
+      "program_name_zh": "金融工程學程",
+      "decision": "approved",
+      "reviewer": "Brian",
+      "reviewed_at": "2026-08-16T14:11:44Z",
+      "notes": "人工判斷條件（2）\nmanual_verification · program_completion\n修畢微積分(3學分)且成績及格者,方得\np.6｜修畢微積分(3學分)且成績及格者,方得才可以申請\nmanual_verification · program_completion\n雙主修或輔系學生,則至少\np.6｜雙主修或輔系學生,則至少6學分為非雙主修或輔系系所之學分",
+      "conflict_choices": {},
+      "based_on": {
+        "pdf_binary_sha256": "0d1f3e3d7d308ad94a3bc2abdf2f868786bbbe911fc10d15f856981afe02e92a",
+        "normalized_text_sha256": "fa083b5905f38e474661e1c048c79ba90d204bcab0df66a9cc68b21d7ec7ef8e",
+        "selected_pdf_academic_version": "114-1",
+        "parser_version": "0.3.0",
+        "reviewed_output_sha256": "805567c6698ef0785f55c644c3c56278c19fd67fe8481c4b6a5fdc4afa8e185b"
+      }
+    },
+    {
+      "program_id": "prog_b75f6e30c96451e6",
+      "program_name_zh": "沉浸式體驗內容應用微學程  (★自113年2月1日起停止受理申請修讀學程)",
+      "decision": "approved",
+      "reviewer": "Brian",
+      "reviewed_at": "2026-08-16T13:41:12Z",
+      "notes": "",
+      "conflict_choices": {},
+      "based_on": {
+        "pdf_binary_sha256": "0764aa2d33ec708af1b05d6d8ccb4ec4b15b8e137fd4126eaf2e6fe8977102c2",
+        "normalized_text_sha256": "7daa3ac1f64d548ea3604db7492435f98edcfbfb1cf7f2ba14f5990e712ca5f9",
+        "selected_pdf_academic_version": "113-1",
+        "parser_version": "0.3.0"
+      }
+    },
+    {
+      "program_id": "prog_ba871a0dbfc45161",
+      "program_name_zh": "醫師工程師微學程 (★自115年8月1日起停開)",
+      "decision": "approved",
+      "reviewer": "Brian",
+      "reviewed_at": "2026-08-16T13:43:36Z",
+      "notes": "",
+      "conflict_choices": {},
+      "based_on": {
+        "pdf_binary_sha256": "93a66714f9bf495e6047ad39c7e63811c19a17b70fee19c90fcc736188cee826",
+        "normalized_text_sha256": "8ea858a2a63435257a364b341c485bbed4f45ccd1f153d2a2864b075babbdef8",
+        "selected_pdf_academic_version": "112-2",
+        "parser_version": "0.3.0"
+      }
+    },
+    {
+      "program_id": "prog_c06ac9f32d2e5c0b",
+      "program_name_zh": "全球南方研究微學程",
+      "decision": "approved",
+      "reviewer": "Brian",
+      "reviewed_at": "2026-08-16T13:50:03Z",
+      "notes": "",
+      "conflict_choices": {},
+      "based_on": {
+        "pdf_binary_sha256": "932f2b4e87f2788f7e5a479a3ce0fc50f20ecf358aee9b51be6099c1431afdc7",
+        "normalized_text_sha256": "666a255a0640c3f88466c12eb39de14238aa83414078a5addd1971747eb6f93c",
+        "selected_pdf_academic_version": null,
+        "parser_version": "0.3.0"
+      }
+    },
+    {
+      "program_id": "prog_caa6bbacbed75b3b",
+      "program_name_zh": "永續管理微學程",
+      "decision": "approved",
+      "reviewer": "Brian",
+      "reviewed_at": "2026-08-16T13:41:31Z",
+      "notes": "",
+      "conflict_choices": {},
+      "based_on": {
+        "pdf_binary_sha256": "a4dd9e92c38bc0d6a0f224b4b51f996b97153d30d02b0b168dac9bffdccd356b",
+        "normalized_text_sha256": "f1b9cce4e5b5123aa5ce3389d3ab2fdee39949f2e7626ea691b617fb00445b1d",
+        "selected_pdf_academic_version": "114-1",
+        "parser_version": "0.3.0"
+      }
+    },
+    {
+      "program_id": "prog_d712dc5849f457ae",
+      "program_name_zh": "智慧金融數據分析與創新微學程(原:金融數據分析與創新微學程)",
+      "decision": "approved",
+      "reviewer": "Brian",
+      "reviewed_at": "2026-08-16T14:14:08Z",
+      "notes": "管理學院 商管軟體設計 3  是否需要列入",
+      "conflict_choices": {
+        "conflict_441aed2b2a458dd2": "candidate_ef9332f3c1212557"
+      },
+      "based_on": {
+        "pdf_binary_sha256": "fde2b4c90d16b7ab7eaf82f19f3eedca10cd44698fabfea8255428813d722f63",
+        "normalized_text_sha256": "37561d45da3dd8a21008aed9421cb9ca43c4f9b79bfd292188e28e2d9bbc4d0c",
+        "selected_pdf_academic_version": "114-1",
+        "parser_version": "0.3.0",
+        "reviewed_output_sha256": "615b04ebde021547656bb7e6e14790e9a5223f309cf063b396812b7d93218c22"
+      }
+    },
+    {
+      "program_id": "prog_dfedeea89a855e6c",
+      "program_name_zh": "中文創意跨域應用整合學程",
+      "decision": "approved",
+      "reviewer": "Brian",
+      "reviewed_at": "2026-08-16T13:30:47Z",
+      "notes": "",
+      "conflict_choices": {},
+      "based_on": {
+        "pdf_binary_sha256": "b0c7704d223820fe3210030382ad82bae100504eede978a25fefee6b8d98ad99",
+        "normalized_text_sha256": "2a28f6406db87ec9300610f743250660bdc1280b0c23218fccb42a09a6f6bbed",
+        "selected_pdf_academic_version": "114-2",
+        "parser_version": "0.3.0"
+      }
+    },
+    {
+      "program_id": "prog_e0cebeb568e35264",
+      "program_name_zh": "海洋生物資源開發學程",
+      "decision": "approved",
+      "reviewer": "Brian",
+      "reviewed_at": "2026-08-16T14:13:33Z",
+      "notes": "分子生物學 開課單位 海資系或生科系 有備註xx亦可得都要改",
+      "conflict_choices": {},
+      "based_on": {
+        "pdf_binary_sha256": "054ab760f6215b8aebd1c89a6f84e54bb6728510117bd1a43dc6b8d0412bd87b",
+        "normalized_text_sha256": "e6c3300eeb54892c4a083b30d42b2e01dee9a096f6979b5812ca3d580bcef0d6",
+        "selected_pdf_academic_version": "113-1",
+        "parser_version": "0.3.0",
+        "reviewed_output_sha256": "235237ccc6872e8202fe37be0949278e7899f7db2ed9564ebd1062d5a8ca349d"
+      }
+    },
+    {
+      "program_id": "prog_e2622058c0055c4b",
+      "program_name_zh": "性別與社會微學程",
+      "decision": "approved",
+      "reviewer": "Brian",
+      "reviewed_at": "2026-08-16T13:43:24Z",
+      "notes": "",
+      "conflict_choices": {},
+      "based_on": {
+        "pdf_binary_sha256": "3016063dcf9eb6987ae9768db0c012ec4bc47e5dba96e4ec524b96f44bfb8768",
+        "normalized_text_sha256": "39e0168cd5f6e12ee9ede640c52a3939b9152533951489dc663116338ba7188f",
+        "selected_pdf_academic_version": "112-2",
+        "parser_version": "0.3.0"
+      }
+    },
+    {
+      "program_id": "prog_e36fac8e4f085354",
+      "program_name_zh": "生態想想微學程",
+      "decision": "approved",
+      "reviewer": "Brian",
+      "reviewed_at": "2026-08-16T13:43:53Z",
+      "notes": "",
+      "conflict_choices": {},
+      "based_on": {
+        "pdf_binary_sha256": "45c1dbd4827931e9a47d15b914f0e0b51e6174e6bc6bfa3ebaee771bd8df909b",
+        "normalized_text_sha256": "0ff0e211244f9a73a0e5e27b94665170ecea7ff81c177dd8311ba1c9eb1144e7",
+        "selected_pdf_academic_version": "112-2",
+        "parser_version": "0.3.0"
+      }
+    },
+    {
+      "program_id": "prog_e902d3dcf603529c",
+      "program_name_zh": "與社會交往的表演藝術微學程  (原:創作性戲劇與社群教育微學程)",
+      "decision": "approved",
+      "reviewer": "Brian",
+      "reviewed_at": "2026-08-16T14:13:47Z",
+      "notes": "注意課程名稱空格 e.g.戲劇構 作實踐:古典",
+      "conflict_choices": {},
+      "based_on": {
+        "pdf_binary_sha256": "e837808133900ccaf24f7eae8d0948dafbac0e3a445e38033898e2c81c979d45",
+        "normalized_text_sha256": "9bf806c48146ac2f30aa3f4d653c211a49697dc7b9ee963bffb10273fb4739ca",
+        "selected_pdf_academic_version": "114-1",
+        "parser_version": "0.3.0",
+        "reviewed_output_sha256": "4451acb78ed000873f941509b5820bca69a8d60971a94905fe189cace2a38683"
+      }
+    },
+    {
+      "program_id": "prog_f23e55dec5f55c18",
+      "program_name_zh": "半導體元件學程",
+      "decision": "approved",
+      "reviewer": "Brian",
+      "reviewed_at": "2026-08-16T13:30:02Z",
+      "notes": "",
+      "conflict_choices": {},
+      "based_on": {
+        "pdf_binary_sha256": "231661ae3c0a2b14c1eb0373874dfc089494c302a73472684c9052ab37d5f8de",
+        "normalized_text_sha256": "10daef4ef37383fc8721d7361208576bc200af608118b4cf6c86b9626e3e3803",
+        "selected_pdf_academic_version": "113-2",
+        "parser_version": "0.3.0"
+      }
+    },
+    {
+      "program_id": "prog_f71435ae64a95d79",
+      "program_name_zh": "運輸管理微學程",
+      "decision": "approved",
+      "reviewer": "Brian",
+      "reviewed_at": "2026-08-16T13:41:08Z",
+      "notes": "",
+      "conflict_choices": {},
+      "based_on": {
+        "pdf_binary_sha256": "d9667f9fad35c2d376958fefb9bb08999ccaf7f567a07e6c5bf204753b79c8c0",
+        "normalized_text_sha256": "01e113bb5c022ae6f2dd8733dce4a2b353f9884a028d3f33e3b6a1bb9fdee1d0",
+        "selected_pdf_academic_version": "112-1",
+        "parser_version": "0.3.0"
+      }
+    },
+    {
+      "program_id": "prog_fcabc4f274fd5436",
+      "program_name_zh": "表達性藝術治療學程",
+      "decision": "approved",
+      "reviewer": "Brian",
+      "reviewed_at": "2026-08-16T13:19:10Z",
+      "notes": "",
+      "conflict_choices": {},
+      "based_on": {
+        "pdf_binary_sha256": "5616100b8ab0e2231fd31c8914b6cd9305c4808e65af96a5ba6b3dad47417110",
+        "normalized_text_sha256": "1a80e6428318bd8b45176f5cb0b768a61d11dbfeb129e9cd44c98b171e7d4836",
+        "selected_pdf_academic_version": "113-1",
+        "parser_version": "0.3.0"
+      }
+    },
+    {
+      "program_id": "prog_fd2710ede2ba5cfa",
+      "program_name_zh": "矽光子暨半導體學程(原:矽光子學程)",
+      "decision": "approved",
+      "reviewer": "Brian",
+      "reviewed_at": "2026-08-16T14:13:10Z",
+      "notes": "矽光子\n原理 矽光子\n元件 矽光子\n量測 各課程屬\n性僅採計3\n學分 代表內涵的課程 最多都擇一",
+      "conflict_choices": {},
+      "based_on": {
+        "pdf_binary_sha256": "966b538ec5976865bc0fe32e7231af347be941a6ffe5e2c7e1994083e7c98faa",
+        "normalized_text_sha256": "d803712a28c8f6c90f9ba5fef4618eb27b25451d2ebe08e74a37bb1fd0682d89",
+        "selected_pdf_academic_version": "114-1",
+        "parser_version": "0.3.0",
+        "reviewed_output_sha256": "b9b5eb57ea58d2d0ed8c1bb156f75afe2546138e2fd02b21e2b543d0a905c577"
+      }
+    },
+    {
+      "program_id": "prog_fedeccd728765be3",
+      "program_name_zh": "法國語言、文化與社會學程",
+      "decision": "skipped",
+      "reviewer": "Brian",
+      "reviewed_at": "2026-08-16T13:17:30Z",
+      "notes": "",
+      "conflict_choices": {},
+      "based_on": {
+        "pdf_binary_sha256": "6e9095efd8d499e63a8989dd073fd04051868ce8af9652bc61e72be6bdba7b1e",
+        "normalized_text_sha256": "2ef6ae2b09cc242ede00de473e8d6f559ad794cd058d4826ef9874352a7d5f03",
+        "selected_pdf_academic_version": "114-2",
+        "parser_version": "0.3.0"
+      }
+    }
+  ]
+}

@@ -31,4 +31,6 @@ Pages workflow 只接受手動觸發，具 `pages: write` 與 `id-token: write`�
 
 ## AI structured output
 
-未審核 AI 不會進 published。新增 provider adapter 時須：以環境變數讀 provider、model、key；把 program schema 的 rule 子結構作 structured-output JSON Schema；本地再次驗證；保存模型名稱、prompt/parser version、信心與 warnings；輸出只進 `data/extracted`。reviewer 需逐條比對 PDF 才能升格。
+一般模型產生、但未經稽核的 AI output 不會進 published。新增 provider adapter 時須：以環境變數讀 provider、model、key；把 program schema 的 rule 子結構作 structured-output JSON Schema；本地再次驗證；保存模型名稱、prompt/parser version、信心與 warnings；輸出只進 `data/extracted`。
+
+`ai_approved` 是另一條 fail-closed 流程，只適用於 deterministic parser 判定為無任選、互斥、上限、溢出、人工條件或來源衝突的普通邏輯集合。`data/ai-review/{academic_version}.json` 必須鎖定完整候選集合 hash 與三份隨機 PDF 樣本；來源、parser 結果或候選集合一變即停止 build，不能自動延用舊抽查。

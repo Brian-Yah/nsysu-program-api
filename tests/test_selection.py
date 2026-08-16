@@ -37,10 +37,13 @@ def test_split_wrapped_title_is_not_treated_as_two_courses() -> None:
 
 
 def test_split_explicit_alternatives_in_one_catalog_entry() -> None:
-    names = split_course_names(
-        "電路學(一)、或電路學", 1, "任選4門", "電機系、機電系"
-    )
+    names = split_course_names("電路學(一)、或電路學", 1, "任選4門", "電機系、機電系")
     assert names == ["電路學(一)", "電路學"]
+
+
+def test_split_course_names_supports_minimum_wording_without_crashing() -> None:
+    names = split_course_names("甲課程\n乙課程", 1, "至少選修一門課程", "甲系\n乙系")
+    assert names == ["甲課程", "乙課程"]
 
 
 def test_split_numbered_alternatives_in_one_catalog_entry() -> None:
@@ -167,3 +170,184 @@ def test_named_domain_selection_keeps_domain_groups() -> None:
     ]
     assert constraint["options"][2]["catalog_entry_ids"] == ["entry_c", "entry_d"]
     assert constraint["minimum_credits_per_selected_group"] == 6.0
+
+
+def test_choose_character_variant_is_supported() -> None:
+    first, second = course("甲", "entry_a"), course("乙", "entry_b")
+    rows = [row(0, [first], "二選一"), row(1, [second])]
+    constraint = build_selection_requirements([first, second], rows, [])[
+        "entry_selection_constraints"
+    ][0]
+    assert constraint["min_entries"] == constraint["max_entries"] == 1
+    assert constraint["catalog_entry_ids"] == ["entry_a", "entry_b"]
+
+
+def test_ratio_summary_collects_preceding_rows() -> None:
+    courses = [course(name, f"entry_{name}") for name in ("甲", "乙", "丙", "丁")]
+    rows = [row(index, [value]) for index, value in enumerate(courses)]
+    footer = row(4, [], "核心課程學分數：6學分（4選2）")
+    footer["is_summary"] = True
+    rows.append(footer)
+    constraint = build_selection_requirements(courses, rows, [])["entry_selection_constraints"][0]
+    assert len(constraint["catalog_entry_ids"]) == 4
+    assert constraint["min_entries"] == constraint["max_entries"] == 2
+
+
+def test_group_heading_collects_following_rows_in_same_label() -> None:
+    first, second = course("甲", "entry_a"), course("乙", "entry_b")
+    heading = row(0, [], "核心一(2選1)")
+    heading["requirement_label"] = "核心一"
+    first_row, second_row = row(1, [first]), row(2, [second])
+    first_row["requirement_label"] = second_row["requirement_label"] = "核心一"
+    constraint = build_selection_requirements(
+        [first, second], [heading, first_row, second_row], []
+    )["entry_selection_constraints"][0]
+    assert constraint["catalog_entry_ids"] == ["entry_a", "entry_b"]
+
+
+def test_summary_mention_limits_selection_to_named_subgroup() -> None:
+    ordinary = course("普通選修", "entry_regular")
+    service_a = course("服務學習甲", "entry_service_a")
+    service_b = course("服務學習乙", "entry_service_b")
+    service_a["requirement_label"] = service_b["requirement_label"] = "服務學習課程"
+    ordinary_row = row(0, [ordinary])
+    service_rows = [row(1, [service_a]), row(2, [service_b])]
+    for service_row in service_rows:
+        service_row["requirement_label"] = "服務學習課程"
+    summary = row(3, [], "必修一門全英語服務學習課程")
+    summary["is_summary"] = True
+    constraint = build_selection_requirements(
+        [ordinary, service_a, service_b],
+        [ordinary_row, *service_rows, summary],
+        [],
+    )["entry_selection_constraints"][0]
+    assert constraint["catalog_entry_ids"] == ["entry_service_a", "entry_service_b"]
+    assert constraint["requirement_label"] == "服務學習課程"
+
+
+def test_excess_courses_are_not_rejected_but_count_only_toward_total() -> None:
+    courses = [course(name, f"entry_{name}") for name in ("甲", "乙", "丙")]
+    rows = [
+        row(0, [courses[0]], "三選一，其餘計入總學分數"),
+        row(1, [courses[1]]),
+        row(2, [courses[2]]),
+    ]
+    constraint = build_selection_requirements(courses, rows, [])["entry_selection_constraints"][0]
+    assert constraint["min_entries"] == 1
+    assert constraint["max_entries"] is None
+    assert constraint["max_entries_counted_for_requirement"] == 1
+    assert constraint["excess_credit_destination"] == "program_total"
+
+
+def test_one_additional_course_can_flow_to_elective_credit() -> None:
+    courses = [course(name, f"entry_{name}") for name in ("甲", "乙", "丙")]
+    rows = [
+        row(0, [courses[0]], "必修一門，可多修1門，納入選修學分"),
+        row(1, [courses[1]]),
+        row(2, [courses[2]]),
+    ]
+    constraint = build_selection_requirements(courses, rows, [])["entry_selection_constraints"][
+        0
+    ]
+    assert constraint["min_entries"] == 1
+    assert constraint["max_entries"] == 2
+    assert constraint["max_entries_counted_for_requirement"] == 1
+    assert constraint["excess_credit_destination"] == "elective"
+
+
+def test_other_selected_courses_can_flow_to_elective_without_a_limit() -> None:
+    courses = [course(name, f"entry_{name}") for name in ("甲", "乙", "丙")]
+    rows = [
+        row(0, [courses[0]], "必修一門，其他門可採計選修"),
+        row(1, [courses[1]]),
+        row(2, [courses[2]]),
+    ]
+    constraint = build_selection_requirements(courses, rows, [])["entry_selection_constraints"][
+        0
+    ]
+    assert constraint["max_entries"] is None
+    assert constraint["max_entries_counted_for_requirement"] == 1
+    assert constraint["excess_credit_destination"] == "elective"
+
+
+def test_declared_group_credit_minimum_is_attached_to_selection() -> None:
+    courses = [course(name, f"entry_{name}") for name in ("甲", "乙")]
+    rows = [
+        row(0, [courses[0]], "核心課程II(必修1門,2學分;其他門可採計為選修)"),
+        row(1, [courses[1]]),
+    ]
+    constraint = build_selection_requirements(courses, rows, [])["entry_selection_constraints"][
+        0
+    ]
+    assert constraint["minimum_credits_for_requirement"] == 2
+
+
+def test_capstone_credit_heading_requires_one_matching_entry() -> None:
+    first, second = course("總結甲", "entry_a"), course("總結乙", "entry_b")
+    heading = row(0, [], "四、總結性課程(2學分)")
+    heading["requirement_label"] = "總結性課程"
+    following = [row(1, [first]), row(2, [second])]
+    for item in following:
+        item["requirement_label"] = "總結性課程"
+    constraint = build_selection_requirements(
+        [first, second], [heading, *following], []
+    )["entry_selection_constraints"][0]
+    assert constraint["catalog_entry_ids"] == ["entry_a", "entry_b"]
+    assert constraint["minimum_credits_for_requirement"] == 2
+
+
+def test_at_least_select_course_has_no_maximum() -> None:
+    first, second = course("甲", "entry_a"), course("乙", "entry_b")
+    rows = [row(0, [first], "至少選修一門課程"), row(1, [second])]
+    constraint = build_selection_requirements([first, second], rows, [])[
+        "entry_selection_constraints"
+    ][0]
+    assert constraint["min_entries"] == 1
+    assert constraint["max_entries"] is None
+
+
+def test_declared_option_count_mismatch_is_an_unresolved_source_conflict() -> None:
+    courses = [course(name, f"entry_{name}") for name in ("甲", "乙", "丙")]
+    rows = [row(0, courses, "二擇一")]
+    requirements = build_selection_requirements(courses, rows, [])
+    constraint = requirements["entry_selection_constraints"][0]
+    assert constraint["option_count_matches"] is False
+    conflict = requirements["source_conflicts"][0]
+    assert conflict["semantic_key"] == f"selection.{constraint['constraint_id']}.option_count"
+    assert {candidate["value"] for candidate in conflict["candidates"]} == {2, 3}
+    assert conflict["resolution_status"] == "unresolved"
+
+
+def test_credit_value_before_choose_one_is_not_an_option_count() -> None:
+    first, second = course("甲", "entry_a"), course("乙", "entry_b")
+    rows = [
+        row(0, [first], "甲 2 擇一修習"),
+        row(1, [second], "乙 3 擇一修習"),
+    ]
+    for item in rows:
+        item["notes"] = "擇一修習"
+    requirements = build_selection_requirements([first, second], rows, [])
+    constraint = requirements["entry_selection_constraints"][0]
+    assert constraint["catalog_entry_ids"] == ["entry_a", "entry_b"]
+    assert constraint["declared_option_count"] is None
+    assert "source_conflicts" not in requirements
+
+
+def test_overflow_rule_in_course_note_keeps_extra_entries_in_program_total() -> None:
+    courses = [course(name, f"entry_{name}") for name in ("甲", "乙", "丙")]
+    courses[0]["notes"] = "三選一其餘計入總學分數"
+    rows = [row(index, [item]) for index, item in enumerate(courses)]
+    requirements = build_selection_requirements(courses, rows, [])
+    constraint = next(
+        item
+        for item in requirements["entry_selection_constraints"]
+        if item.get("excess_credit_destination") == "program_total"
+    )
+    assert constraint["catalog_entry_ids"] == [
+        "entry_甲",
+        "entry_乙",
+        "entry_丙",
+    ]
+    assert constraint["min_entries"] == 1
+    assert constraint["max_entries"] is None
+    assert constraint["max_entries_counted_for_requirement"] == 1

@@ -1,5 +1,5 @@
 {
-  "schema_version": "1.0",
+  "schema_version": "1.2",
   "courses": [],
   "credit_mentions": [
     9,
@@ -8,7 +8,8 @@
   "ai_interpretation": null,
   "confidence": "low",
   "warnings": [
-    "Candidate only; not approved for publishing as executable rules"
+    "Candidate only; not approved for publishing as executable rules",
+    "academic_version_unknown"
   ],
   "program_id": "prog_38fa876303d75d77",
   "academic_version": "115-1",
@@ -20,6 +21,44 @@
       "courses": [
         {
           "course_code": null,
+          "catalog_entry_id": "entry_5f9599e9e199208d",
+          "opening_units": [
+            "臺灣大專院校人工智慧學程聯盟"
+          ],
+          "opening_unit_snapshot": "臺灣大專院校人工智慧學程聯盟",
+          "course_name_snapshot": "人工智慧倫理",
+          "credits_snapshot": 3.0,
+          "requirement_group": "unspecified",
+          "requirement_section": "unspecified",
+          "requirement_label": "人工智慧倫理(1)",
+          "program_course_name_snapshot": "人工智慧倫理",
+          "notes": "TAICA 系列課程 每一向度至少需修習一門課程。",
+          "source_page": 1,
+          "evidence_match": false,
+          "validation_status": "needs_course_code_verification",
+          "uncertainty_reason": "Official PDF table does not provide a course code"
+        },
+        {
+          "course_code": null,
+          "catalog_entry_id": "entry_ba25b4a52c7f6fb3",
+          "opening_units": [
+            "臺灣大專院校人工智慧學程聯盟"
+          ],
+          "opening_unit_snapshot": "臺灣大專院校人工智慧學程聯盟",
+          "course_name_snapshot": "網路安全",
+          "credits_snapshot": 3.0,
+          "requirement_group": "unspecified",
+          "requirement_section": "unspecified",
+          "requirement_label": "資訊安全導論(2)",
+          "program_course_name_snapshot": "網路安全",
+          "notes": "TAICA 系列課程 資訊安全 每一向度至少需修習一門課程。",
+          "source_page": 1,
+          "evidence_match": true,
+          "validation_status": "needs_course_code_verification",
+          "uncertainty_reason": "Official PDF table does not provide a course code"
+        },
+        {
+          "course_code": null,
           "catalog_entry_id": "entry_ba25b4a52c7f6fb3",
           "opening_units": [
             "資訊工程學系"
@@ -29,8 +68,9 @@
           "credits_snapshot": 3.0,
           "requirement_group": "unspecified",
           "requirement_section": "unspecified",
-          "program_course_name_snapshot": null,
-          "notes": "資訊安全",
+          "requirement_label": "資訊安全導論(2)",
+          "program_course_name_snapshot": "網路安全",
+          "notes": "資訊安全 每一向度至少需修習一門課程。",
           "source_page": 1,
           "evidence_match": true,
           "validation_status": "needs_course_code_verification",
@@ -38,7 +78,7 @@
         },
         {
           "course_code": null,
-          "catalog_entry_id": "entry_5c711a0193619ece",
+          "catalog_entry_id": "entry_ba25b4a52c7f6fb3",
           "opening_units": [
             "訊工程學系資訊安全碩士"
           ],
@@ -47,8 +87,9 @@
           "credits_snapshot": 3.0,
           "requirement_group": "unspecified",
           "requirement_section": "unspecified",
-          "program_course_name_snapshot": null,
-          "notes": "資訊安全理論與實務",
+          "requirement_label": "資訊安全導論(2)",
+          "program_course_name_snapshot": "網路安全",
+          "notes": "每一向度至少需修習一門課程。",
           "source_page": 1,
           "evidence_match": true,
           "validation_status": "needs_course_code_verification",
@@ -56,7 +97,7 @@
         },
         {
           "course_code": null,
-          "catalog_entry_id": "entry_c2a07a49be273845",
+          "catalog_entry_id": "entry_ba25b4a52c7f6fb3",
           "opening_units": [
             "電機工程學系"
           ],
@@ -65,8 +106,9 @@
           "credits_snapshot": 3.0,
           "requirement_group": "unspecified",
           "requirement_section": "unspecified",
-          "program_course_name_snapshot": null,
-          "notes": "資訊安全概論",
+          "requirement_label": "資訊安全導論(2)",
+          "program_course_name_snapshot": "網路安全",
+          "notes": "每一向度至少需修習一門課程。",
           "source_page": 1,
           "evidence_match": true,
           "validation_status": "needs_course_code_verification",
@@ -74,7 +116,7 @@
         },
         {
           "course_code": null,
-          "catalog_entry_id": "entry_4408f93a73a8c0e9",
+          "catalog_entry_id": "entry_ba25b4a52c7f6fb3",
           "opening_units": [
             "士班資訊管理學系碩士"
           ],
@@ -83,8 +125,28 @@
           "credits_snapshot": 3.0,
           "requirement_group": "unspecified",
           "requirement_section": "unspecified",
-          "program_course_name_snapshot": null,
-          "notes": "網路安全",
+          "requirement_label": "資訊安全導論(2)",
+          "program_course_name_snapshot": "網路安全",
+          "notes": "資訊安全 每一向度至少需修習一門課程。",
+          "source_page": 1,
+          "evidence_match": true,
+          "validation_status": "needs_course_code_verification",
+          "uncertainty_reason": "Official PDF table does not provide a course code"
+        },
+        {
+          "course_code": null,
+          "catalog_entry_id": "entry_1674f6424e2228b8",
+          "opening_units": [
+            "臺灣大專院校人工智慧學程聯盟"
+          ],
+          "opening_unit_snapshot": "臺灣大專院校人工智慧學程聯盟",
+          "course_name_snapshot": "高等深度學習",
+          "credits_snapshot": 3.0,
+          "requirement_group": "unspecified",
+          "requirement_section": "unspecified",
+          "requirement_label": "深度學習(3)",
+          "program_course_name_snapshot": "高等深度學習",
+          "notes": "TAICA 系列課程 深度學習 每一向度至少需修習一門課程。",
           "source_page": 1,
           "evidence_match": true,
           "validation_status": "needs_course_code_verification",
@@ -101,8 +163,9 @@
           "credits_snapshot": 3.0,
           "requirement_group": "unspecified",
           "requirement_section": "unspecified",
-          "program_course_name_snapshot": null,
-          "notes": "深度學習",
+          "requirement_label": "深度學習(3)",
+          "program_course_name_snapshot": "高等深度學習",
+          "notes": "深度學習 每一向度至少需修習一門課程。",
           "source_page": 1,
           "evidence_match": true,
           "validation_status": "needs_course_code_verification",
@@ -110,7 +173,7 @@
         },
         {
           "course_code": null,
-          "catalog_entry_id": "entry_7532bee2cb3fc806",
+          "catalog_entry_id": "entry_1674f6424e2228b8",
           "opening_units": [
             "資訊工程學系碩士班"
           ],
@@ -119,8 +182,9 @@
           "credits_snapshot": 3.0,
           "requirement_group": "unspecified",
           "requirement_section": "unspecified",
-          "program_course_name_snapshot": null,
-          "notes": "深度學習",
+          "requirement_label": "深度學習(3)",
+          "program_course_name_snapshot": "高等深度學習",
+          "notes": "深度學習 每一向度至少需修習一門課程。",
           "source_page": 1,
           "evidence_match": true,
           "validation_status": "needs_course_code_verification",
@@ -128,7 +192,7 @@
         },
         {
           "course_code": null,
-          "catalog_entry_id": "entry_bcd931ffc289df85",
+          "catalog_entry_id": "entry_1674f6424e2228b8",
           "opening_units": [
             "通訊工程研究所碩士班"
           ],
@@ -137,15 +201,497 @@
           "credits_snapshot": 3.0,
           "requirement_group": "unspecified",
           "requirement_section": "unspecified",
-          "program_course_name_snapshot": null,
-          "notes": "深度學習",
+          "requirement_label": "深度學習(3)",
+          "program_course_name_snapshot": "高等深度學習",
+          "notes": "深度學習 每一向度至少需修習一門課程。",
           "source_page": 1,
           "evidence_match": true,
           "validation_status": "needs_course_code_verification",
           "uncertainty_reason": "Official PDF table does not provide a course code"
+        },
+        {
+          "course_code": null,
+          "catalog_entry_id": "entry_1674f6424e2228b8",
+          "opening_units": [
+            "通訊工程研究所碩士班"
+          ],
+          "opening_unit_snapshot": "通訊工程研究所碩士班",
+          "course_name_snapshot": "深度學習理論與應用",
+          "credits_snapshot": 3.0,
+          "requirement_group": "unspecified",
+          "requirement_section": "unspecified",
+          "requirement_label": "深度學習(3)",
+          "program_course_name_snapshot": "高等深度學習",
+          "notes": "每一向度至少需修習一門課程。",
+          "source_page": 1,
+          "evidence_match": true,
+          "validation_status": "needs_course_code_verification",
+          "uncertainty_reason": "Official PDF table does not provide a course code"
+        },
+        {
+          "course_code": null,
+          "catalog_entry_id": "entry_787a5c0e27d9363b",
+          "opening_units": [
+            "臺灣大專院校人工智慧學程聯盟"
+          ],
+          "opening_unit_snapshot": "臺灣大專院校人工智慧學程聯盟",
+          "course_name_snapshot": "密碼與網路安全概論",
+          "credits_snapshot": 3.0,
+          "requirement_group": "unspecified",
+          "requirement_section": "unspecified",
+          "requirement_label": "人工智慧安全與隱私保護(4or5)",
+          "program_course_name_snapshot": "密碼與網路安全概論",
+          "notes": "TAICA 系列課程 每一向度至少需修習一門課程。",
+          "source_page": 1,
+          "evidence_match": false,
+          "validation_status": "needs_course_code_verification",
+          "uncertainty_reason": "Official PDF table does not provide a course code"
+        },
+        {
+          "course_code": null,
+          "catalog_entry_id": "entry_787a5c0e27d9363b",
+          "opening_units": [
+            "通訊工程研究所碩士班"
+          ],
+          "opening_unit_snapshot": "通訊工程研究所碩士班",
+          "course_name_snapshot": "安全密碼協定",
+          "credits_snapshot": 3.0,
+          "requirement_group": "unspecified",
+          "requirement_section": "unspecified",
+          "requirement_label": "人工智慧安全與隱私保護(4or5)",
+          "program_course_name_snapshot": "密碼與網路安全概論",
+          "notes": "每一向度至少需修習一門課程。",
+          "source_page": 1,
+          "evidence_match": true,
+          "validation_status": "needs_course_code_verification",
+          "uncertainty_reason": "Official PDF table does not provide a course code"
+        },
+        {
+          "course_code": null,
+          "catalog_entry_id": "entry_25b6ea9d87b2846c",
+          "opening_units": [
+            "臺灣大專院校人工智慧學程聯盟"
+          ],
+          "opening_unit_snapshot": "臺灣大專院校人工智慧學程聯盟",
+          "course_name_snapshot": "密碼學設計與分析",
+          "credits_snapshot": 3.0,
+          "requirement_group": "unspecified",
+          "requirement_section": "unspecified",
+          "requirement_label": "人工智慧安全與隱私保護(4or5)",
+          "program_course_name_snapshot": "密碼學設計與分析",
+          "notes": "TAICA 系列課程 每一向度至少需修習一門課程。",
+          "source_page": 1,
+          "evidence_match": false,
+          "validation_status": "needs_course_code_verification",
+          "uncertainty_reason": "Official PDF table does not provide a course code"
+        },
+        {
+          "course_code": null,
+          "catalog_entry_id": "entry_25b6ea9d87b2846c",
+          "opening_units": [
+            "通訊工程研究所碩士班"
+          ],
+          "opening_unit_snapshot": "通訊工程研究所碩士班",
+          "course_name_snapshot": "抗量子密碼學應用",
+          "credits_snapshot": 3.0,
+          "requirement_group": "unspecified",
+          "requirement_section": "unspecified",
+          "requirement_label": "人工智慧安全與隱私保護(4or5)",
+          "program_course_name_snapshot": "密碼學設計與分析",
+          "notes": "每一向度至少需修習一門課程。",
+          "source_page": 1,
+          "evidence_match": true,
+          "validation_status": "needs_course_code_verification",
+          "uncertainty_reason": "Official PDF table does not provide a course code"
+        },
+        {
+          "course_code": null,
+          "catalog_entry_id": "entry_457d58b06a03abd3",
+          "opening_units": [
+            "臺灣大專院校人工智慧學程聯盟"
+          ],
+          "opening_unit_snapshot": "臺灣大專院校人工智慧學程聯盟",
+          "course_name_snapshot": "應用密碼學",
+          "credits_snapshot": 3.0,
+          "requirement_group": "unspecified",
+          "requirement_section": "unspecified",
+          "requirement_label": "人工智慧安全與隱私保護(4or5)",
+          "program_course_name_snapshot": "應用密碼學",
+          "notes": "TAICA 系列課程 每一向度至少需修習一門課程。",
+          "source_page": 1,
+          "evidence_match": true,
+          "validation_status": "needs_course_code_verification",
+          "uncertainty_reason": "Official PDF table does not provide a course code"
+        },
+        {
+          "course_code": null,
+          "catalog_entry_id": "entry_457d58b06a03abd3",
+          "opening_units": [
+            "通訊工程研究所碩士班"
+          ],
+          "opening_unit_snapshot": "通訊工程研究所碩士班",
+          "course_name_snapshot": "密碼學",
+          "credits_snapshot": 3.0,
+          "requirement_group": "unspecified",
+          "requirement_section": "unspecified",
+          "requirement_label": "人工智慧安全與隱私保護(4or5)",
+          "program_course_name_snapshot": "應用密碼學",
+          "notes": "每一向度至少需修習一門課程。",
+          "source_page": 1,
+          "evidence_match": true,
+          "validation_status": "needs_course_code_verification",
+          "uncertainty_reason": "Official PDF table does not provide a course code"
+        },
+        {
+          "course_code": null,
+          "catalog_entry_id": "entry_6c64dfa3e057fd0f",
+          "opening_units": [
+            "臺灣大專院校人工智慧學程聯盟"
+          ],
+          "opening_unit_snapshot": "臺灣大專院校人工智慧學程聯盟",
+          "course_name_snapshot": "電腦攻擊與防禦",
+          "credits_snapshot": 3.0,
+          "requirement_group": "unspecified",
+          "requirement_section": "unspecified",
+          "requirement_label": "人工智慧安全與隱私保護(4or5)",
+          "program_course_name_snapshot": "電腦攻擊與防禦",
+          "notes": "TAICA 系列課程 每一向度至少需修習一門課程。",
+          "source_page": 1,
+          "evidence_match": false,
+          "validation_status": "needs_course_code_verification",
+          "uncertainty_reason": "Official PDF table does not provide a course code"
+        },
+        {
+          "course_code": null,
+          "catalog_entry_id": "entry_50e309180c27f27c",
+          "opening_units": [
+            "臺灣大專院校人工智慧學程聯盟"
+          ],
+          "opening_unit_snapshot": "臺灣大專院校人工智慧學程聯盟",
+          "course_name_snapshot": "電腦攻防實務",
+          "credits_snapshot": 3.0,
+          "requirement_group": "unspecified",
+          "requirement_section": "unspecified",
+          "requirement_label": "人工智慧安全與隱私保護(4or5)",
+          "program_course_name_snapshot": "電腦攻防實務",
+          "notes": "TAICA 系列課程 每一向度至少需修習一門課程。",
+          "source_page": 1,
+          "evidence_match": true,
+          "validation_status": "needs_course_code_verification",
+          "uncertainty_reason": "Official PDF table does not provide a course code"
+        },
+        {
+          "course_code": null,
+          "catalog_entry_id": "entry_23c97acc7e8f57cb",
+          "opening_units": [
+            "臺灣大專院校人工智慧學程聯盟"
+          ],
+          "opening_unit_snapshot": "臺灣大專院校人工智慧學程聯盟",
+          "course_name_snapshot": "資安攻防演練",
+          "credits_snapshot": 3.0,
+          "requirement_group": "unspecified",
+          "requirement_section": "unspecified",
+          "requirement_label": "人工智慧安全與隱私保護(4or5)",
+          "program_course_name_snapshot": "資安攻防演練",
+          "notes": "TAICA 系列課程 每一向度至少需修習一門課程。",
+          "source_page": 1,
+          "evidence_match": true,
+          "validation_status": "needs_course_code_verification",
+          "uncertainty_reason": "Official PDF table does not provide a course code"
+        },
+        {
+          "course_code": null,
+          "catalog_entry_id": "entry_f652ca1f9733919d",
+          "opening_units": [
+            "臺灣大專院校人工智慧學程聯盟"
+          ],
+          "opening_unit_snapshot": "臺灣大專院校人工智慧學程聯盟",
+          "course_name_snapshot": "大型語言模型與資訊安全系統",
+          "credits_snapshot": 3.0,
+          "requirement_group": "unspecified",
+          "requirement_section": "unspecified",
+          "requirement_label": "人工智慧於資通訊安全的應用(4or5)",
+          "program_course_name_snapshot": "大型語言模型與資訊安全系統",
+          "notes": "TAICA 系列課程 每一向度至少需修習一門課程。",
+          "source_page": 1,
+          "evidence_match": false,
+          "validation_status": "needs_course_code_verification",
+          "uncertainty_reason": "Official PDF table does not provide a course code"
+        },
+        {
+          "course_code": null,
+          "catalog_entry_id": "entry_86312c37950bd854",
+          "opening_units": [
+            "臺灣大專院校人工智慧學程聯盟"
+          ],
+          "opening_unit_snapshot": "臺灣大專院校人工智慧學程聯盟",
+          "course_name_snapshot": "威脅偵防解析與情資生成實作",
+          "credits_snapshot": 3.0,
+          "requirement_group": "unspecified",
+          "requirement_section": "unspecified",
+          "requirement_label": "人工智慧於資通訊安全的應用(4or5)",
+          "program_course_name_snapshot": "威脅偵防解析與情資生成實作",
+          "notes": "TAICA 系列課程 每一向度至少需修習一門課程。",
+          "source_page": 1,
+          "evidence_match": false,
+          "validation_status": "needs_course_code_verification",
+          "uncertainty_reason": "Official PDF table does not provide a course code"
         }
       ],
-      "requirements": {},
+      "requirements": {
+        "minimum_total_credits": 15.0,
+        "minimum_eligible_curriculum_credits": 9.0,
+        "credit_constraints": [
+          {
+            "constraint_id": "constraint_6a9d549d079f1834",
+            "kind": "minimum_credits",
+            "scope": {
+              "kind": "program"
+            },
+            "minimum_credits": 15.0,
+            "requirement_context": "program_completion",
+            "source_page": 2,
+            "source_text": "總學習學分為15學分",
+            "validation_status": "source_text_match"
+          },
+          {
+            "constraint_id": "constraint_6ae3d8246cc8b200",
+            "kind": "minimum_credits",
+            "scope": {
+              "kind": "course_eligibility",
+              "excluded_affiliations": [
+                "major",
+                "minor",
+                "other_program"
+              ],
+              "excluded_course_roles": [
+                "required",
+                "required_elective"
+              ]
+            },
+            "minimum_credits": 9.0,
+            "requirement_context": "certificate",
+            "source_page": 2,
+            "source_text": "須至少有9學分不屬於其主修",
+            "validation_status": "source_text_match"
+          },
+          {
+            "constraint_id": "constraint_9b66216be277c238",
+            "kind": "minimum_credits",
+            "scope": {
+              "kind": "taica_courses"
+            },
+            "minimum_credits": 8.0,
+            "requirement_context": "certificate",
+            "source_page": 2,
+            "source_text": "至少8學分TAICA聯盟認定課程",
+            "validation_status": "source_text_match"
+          },
+          {
+            "constraint_id": "constraint_bb2eb8679a226e49",
+            "kind": "maximum_counted_credits",
+            "scope": {
+              "kind": "cross_program_recognition"
+            },
+            "maximum_counted_credits": 6.0,
+            "requirement_context": "certificate",
+            "source_page": 2,
+            "source_text": "TAICA學程間之學分相互認抵以6學分為上限",
+            "validation_status": "source_text_match"
+          },
+          {
+            "constraint_id": "constraint_be1b9f73774cd59e",
+            "kind": "maximum_counted_credits",
+            "scope": {
+              "kind": "recognized_similar_courses"
+            },
+            "maximum_counted_credits": 3.0,
+            "requirement_context": "certificate",
+            "source_page": 2,
+            "source_text": "性質相近之課程認抵本學程課程,以3學分為上限",
+            "validation_status": "source_text_match"
+          }
+        ],
+        "manual_requirements": [
+          {
+            "requirement_id": "requirement_d9fa625cda55484a",
+            "kind": "manual_verification",
+            "requirement_type": "certificate",
+            "description": "取得TAICA核發學程學分證明",
+            "verification_mode": "manual_review",
+            "requirement_context": "certificate",
+            "source_page": 2,
+            "source_text": "取得TAICA核發學程學分證明",
+            "validation_status": "source_text_match"
+          }
+        ],
+        "course_count_constraints": [
+          {
+            "constraint_id": "constraint_587d018bd3fb0b4a",
+            "kind": "course_equivalence",
+            "course_names": [
+              "高等深度學習",
+              "深度學習"
+            ],
+            "min_courses": 1,
+            "max_courses": 1,
+            "requirement_group": "unspecified",
+            "requirement_section": "unspecified",
+            "source_page": 1,
+            "source_text": "深度學習",
+            "validation_status": "source_text_match"
+          },
+          {
+            "constraint_id": "constraint_cbefe18cec52e865",
+            "kind": "course_equivalence",
+            "course_names": [
+              "網路安全",
+              "資訊安全"
+            ],
+            "min_courses": 1,
+            "max_courses": 1,
+            "requirement_group": "unspecified",
+            "requirement_section": "unspecified",
+            "source_page": 1,
+            "source_text": "資訊安全",
+            "validation_status": "source_text_match"
+          }
+        ],
+        "entry_selection_constraints": [
+          {
+            "constraint_id": "constraint_5b26ab3f6459a034",
+            "kind": "select_entries",
+            "catalog_entry_ids": [
+              "entry_1674f6424e2228b8"
+            ],
+            "course_names": [
+              "高等深度學習",
+              "深度學習",
+              "深度學習理論與應用"
+            ],
+            "min_entries": 1,
+            "max_entries": null,
+            "declared_option_count": null,
+            "option_count_matches": true,
+            "requirement_group": "unspecified",
+            "requirement_section": "unspecified",
+            "source_page": 2,
+            "source_text": "每一向度至少需修習一門課程。",
+            "validation_status": "source_text_match",
+            "requirement_label": "深度學習(3)"
+          },
+          {
+            "constraint_id": "constraint_8c2fe243c22b611d",
+            "kind": "select_entries",
+            "catalog_entry_ids": [
+              "entry_f652ca1f9733919d",
+              "entry_86312c37950bd854"
+            ],
+            "course_names": [
+              "大型語言模型與資訊安全系統",
+              "威脅偵防解析與情資生成實作"
+            ],
+            "min_entries": 1,
+            "max_entries": null,
+            "declared_option_count": null,
+            "option_count_matches": true,
+            "requirement_group": "unspecified",
+            "requirement_section": "unspecified",
+            "source_page": 2,
+            "source_text": "每一向度至少需修習一門課程。",
+            "validation_status": "source_text_match",
+            "requirement_label": "人工智慧於資通訊安全的應用(4or5)"
+          },
+          {
+            "constraint_id": "constraint_9768b0005de0ae4a",
+            "kind": "select_entries",
+            "catalog_entry_ids": [
+              "entry_5f9599e9e199208d"
+            ],
+            "course_names": [
+              "人工智慧倫理"
+            ],
+            "min_entries": 1,
+            "max_entries": null,
+            "declared_option_count": null,
+            "option_count_matches": true,
+            "requirement_group": "unspecified",
+            "requirement_section": "unspecified",
+            "source_page": 2,
+            "source_text": "每一向度至少需修習一門課程。",
+            "validation_status": "source_text_match",
+            "requirement_label": "人工智慧倫理(1)"
+          },
+          {
+            "constraint_id": "constraint_b0f08f70630a6a12",
+            "kind": "select_entries",
+            "catalog_entry_ids": [
+              "entry_787a5c0e27d9363b",
+              "entry_25b6ea9d87b2846c",
+              "entry_457d58b06a03abd3",
+              "entry_6c64dfa3e057fd0f",
+              "entry_50e309180c27f27c",
+              "entry_23c97acc7e8f57cb"
+            ],
+            "course_names": [
+              "密碼與網路安全概論",
+              "安全密碼協定",
+              "密碼學設計與分析",
+              "抗量子密碼學應用",
+              "應用密碼學",
+              "密碼學",
+              "電腦攻擊與防禦",
+              "電腦攻防實務",
+              "資安攻防演練"
+            ],
+            "min_entries": 1,
+            "max_entries": null,
+            "declared_option_count": null,
+            "option_count_matches": true,
+            "requirement_group": "unspecified",
+            "requirement_section": "unspecified",
+            "source_page": 2,
+            "source_text": "每一向度至少需修習一門課程。",
+            "validation_status": "source_text_match",
+            "requirement_label": "人工智慧安全與隱私保護(4or5)"
+          },
+          {
+            "constraint_id": "constraint_f2aca7838d1885ba",
+            "kind": "select_entries",
+            "catalog_entry_ids": [
+              "entry_ba25b4a52c7f6fb3"
+            ],
+            "course_names": [
+              "網路安全",
+              "資訊安全",
+              "資訊安全理論與實務",
+              "資訊安全概論"
+            ],
+            "min_entries": 1,
+            "max_entries": null,
+            "declared_option_count": null,
+            "option_count_matches": true,
+            "requirement_group": "unspecified",
+            "requirement_section": "unspecified",
+            "source_page": 2,
+            "source_text": "每一向度至少需修習一門課程。",
+            "validation_status": "source_text_match",
+            "requirement_label": "資訊安全導論(2)"
+          }
+        ],
+        "completion_summary": {
+          "model_status": "partial",
+          "minimum_total_credits": 15.0,
+          "minimum_core_credits": null,
+          "maximum_core_credits": null,
+          "minimum_elective_credits": null,
+          "minimum_core_courses": null,
+          "minimum_elective_courses": null,
+          "has_conditional_requirements": false,
+          "has_manual_requirements": true,
+          "has_unresolved_conflicts": false
+        }
+      },
       "source_pages": [
         1,
         2
@@ -153,15 +699,55 @@
       "audit": {
         "compound_rows_needing_review": [],
         "duplicates_removed": 0,
-        "course_count": 7,
+        "course_count": 22,
         "core_count": 0,
         "elective_count": 0,
-        "evidence_matched_count": 7
+        "evidence_matched_count": 16,
+        "course_count_constraints_extracted": 2,
+        "selection_constraints_extracted": 5
       }
     }
   ],
   "selected_pdf_academic_version": null,
   "structured_courses": [
+    {
+      "course_code": null,
+      "catalog_entry_id": "entry_5f9599e9e199208d",
+      "opening_units": [
+        "臺灣大專院校人工智慧學程聯盟"
+      ],
+      "opening_unit_snapshot": "臺灣大專院校人工智慧學程聯盟",
+      "course_name_snapshot": "人工智慧倫理",
+      "credits_snapshot": 3.0,
+      "requirement_group": "unspecified",
+      "requirement_section": "unspecified",
+      "requirement_label": "人工智慧倫理(1)",
+      "program_course_name_snapshot": "人工智慧倫理",
+      "notes": "TAICA 系列課程 每一向度至少需修習一門課程。",
+      "source_page": 1,
+      "evidence_match": false,
+      "validation_status": "needs_course_code_verification",
+      "uncertainty_reason": "Official PDF table does not provide a course code"
+    },
+    {
+      "course_code": null,
+      "catalog_entry_id": "entry_ba25b4a52c7f6fb3",
+      "opening_units": [
+        "臺灣大專院校人工智慧學程聯盟"
+      ],
+      "opening_unit_snapshot": "臺灣大專院校人工智慧學程聯盟",
+      "course_name_snapshot": "網路安全",
+      "credits_snapshot": 3.0,
+      "requirement_group": "unspecified",
+      "requirement_section": "unspecified",
+      "requirement_label": "資訊安全導論(2)",
+      "program_course_name_snapshot": "網路安全",
+      "notes": "TAICA 系列課程 資訊安全 每一向度至少需修習一門課程。",
+      "source_page": 1,
+      "evidence_match": true,
+      "validation_status": "needs_course_code_verification",
+      "uncertainty_reason": "Official PDF table does not provide a course code"
+    },
     {
       "course_code": null,
       "catalog_entry_id": "entry_ba25b4a52c7f6fb3",
@@ -173,8 +759,9 @@
       "credits_snapshot": 3.0,
       "requirement_group": "unspecified",
       "requirement_section": "unspecified",
-      "program_course_name_snapshot": null,
-      "notes": "資訊安全",
+      "requirement_label": "資訊安全導論(2)",
+      "program_course_name_snapshot": "網路安全",
+      "notes": "資訊安全 每一向度至少需修習一門課程。",
       "source_page": 1,
       "evidence_match": true,
       "validation_status": "needs_course_code_verification",
@@ -182,7 +769,7 @@
     },
     {
       "course_code": null,
-      "catalog_entry_id": "entry_5c711a0193619ece",
+      "catalog_entry_id": "entry_ba25b4a52c7f6fb3",
       "opening_units": [
         "訊工程學系資訊安全碩士"
       ],
@@ -191,8 +778,9 @@
       "credits_snapshot": 3.0,
       "requirement_group": "unspecified",
       "requirement_section": "unspecified",
-      "program_course_name_snapshot": null,
-      "notes": "資訊安全理論與實務",
+      "requirement_label": "資訊安全導論(2)",
+      "program_course_name_snapshot": "網路安全",
+      "notes": "每一向度至少需修習一門課程。",
       "source_page": 1,
       "evidence_match": true,
       "validation_status": "needs_course_code_verification",
@@ -200,7 +788,7 @@
     },
     {
       "course_code": null,
-      "catalog_entry_id": "entry_c2a07a49be273845",
+      "catalog_entry_id": "entry_ba25b4a52c7f6fb3",
       "opening_units": [
         "電機工程學系"
       ],
@@ -209,8 +797,9 @@
       "credits_snapshot": 3.0,
       "requirement_group": "unspecified",
       "requirement_section": "unspecified",
-      "program_course_name_snapshot": null,
-      "notes": "資訊安全概論",
+      "requirement_label": "資訊安全導論(2)",
+      "program_course_name_snapshot": "網路安全",
+      "notes": "每一向度至少需修習一門課程。",
       "source_page": 1,
       "evidence_match": true,
       "validation_status": "needs_course_code_verification",
@@ -218,7 +807,7 @@
     },
     {
       "course_code": null,
-      "catalog_entry_id": "entry_4408f93a73a8c0e9",
+      "catalog_entry_id": "entry_ba25b4a52c7f6fb3",
       "opening_units": [
         "士班資訊管理學系碩士"
       ],
@@ -227,8 +816,28 @@
       "credits_snapshot": 3.0,
       "requirement_group": "unspecified",
       "requirement_section": "unspecified",
-      "program_course_name_snapshot": null,
-      "notes": "網路安全",
+      "requirement_label": "資訊安全導論(2)",
+      "program_course_name_snapshot": "網路安全",
+      "notes": "資訊安全 每一向度至少需修習一門課程。",
+      "source_page": 1,
+      "evidence_match": true,
+      "validation_status": "needs_course_code_verification",
+      "uncertainty_reason": "Official PDF table does not provide a course code"
+    },
+    {
+      "course_code": null,
+      "catalog_entry_id": "entry_1674f6424e2228b8",
+      "opening_units": [
+        "臺灣大專院校人工智慧學程聯盟"
+      ],
+      "opening_unit_snapshot": "臺灣大專院校人工智慧學程聯盟",
+      "course_name_snapshot": "高等深度學習",
+      "credits_snapshot": 3.0,
+      "requirement_group": "unspecified",
+      "requirement_section": "unspecified",
+      "requirement_label": "深度學習(3)",
+      "program_course_name_snapshot": "高等深度學習",
+      "notes": "TAICA 系列課程 深度學習 每一向度至少需修習一門課程。",
       "source_page": 1,
       "evidence_match": true,
       "validation_status": "needs_course_code_verification",
@@ -245,8 +854,9 @@
       "credits_snapshot": 3.0,
       "requirement_group": "unspecified",
       "requirement_section": "unspecified",
-      "program_course_name_snapshot": null,
-      "notes": "深度學習",
+      "requirement_label": "深度學習(3)",
+      "program_course_name_snapshot": "高等深度學習",
+      "notes": "深度學習 每一向度至少需修習一門課程。",
       "source_page": 1,
       "evidence_match": true,
       "validation_status": "needs_course_code_verification",
@@ -254,7 +864,7 @@
     },
     {
       "course_code": null,
-      "catalog_entry_id": "entry_7532bee2cb3fc806",
+      "catalog_entry_id": "entry_1674f6424e2228b8",
       "opening_units": [
         "資訊工程學系碩士班"
       ],
@@ -263,8 +873,9 @@
       "credits_snapshot": 3.0,
       "requirement_group": "unspecified",
       "requirement_section": "unspecified",
-      "program_course_name_snapshot": null,
-      "notes": "深度學習",
+      "requirement_label": "深度學習(3)",
+      "program_course_name_snapshot": "高等深度學習",
+      "notes": "深度學習 每一向度至少需修習一門課程。",
       "source_page": 1,
       "evidence_match": true,
       "validation_status": "needs_course_code_verification",
@@ -272,7 +883,7 @@
     },
     {
       "course_code": null,
-      "catalog_entry_id": "entry_bcd931ffc289df85",
+      "catalog_entry_id": "entry_1674f6424e2228b8",
       "opening_units": [
         "通訊工程研究所碩士班"
       ],
@@ -281,13 +892,495 @@
       "credits_snapshot": 3.0,
       "requirement_group": "unspecified",
       "requirement_section": "unspecified",
-      "program_course_name_snapshot": null,
-      "notes": "深度學習",
+      "requirement_label": "深度學習(3)",
+      "program_course_name_snapshot": "高等深度學習",
+      "notes": "深度學習 每一向度至少需修習一門課程。",
       "source_page": 1,
       "evidence_match": true,
       "validation_status": "needs_course_code_verification",
       "uncertainty_reason": "Official PDF table does not provide a course code"
+    },
+    {
+      "course_code": null,
+      "catalog_entry_id": "entry_1674f6424e2228b8",
+      "opening_units": [
+        "通訊工程研究所碩士班"
+      ],
+      "opening_unit_snapshot": "通訊工程研究所碩士班",
+      "course_name_snapshot": "深度學習理論與應用",
+      "credits_snapshot": 3.0,
+      "requirement_group": "unspecified",
+      "requirement_section": "unspecified",
+      "requirement_label": "深度學習(3)",
+      "program_course_name_snapshot": "高等深度學習",
+      "notes": "每一向度至少需修習一門課程。",
+      "source_page": 1,
+      "evidence_match": true,
+      "validation_status": "needs_course_code_verification",
+      "uncertainty_reason": "Official PDF table does not provide a course code"
+    },
+    {
+      "course_code": null,
+      "catalog_entry_id": "entry_787a5c0e27d9363b",
+      "opening_units": [
+        "臺灣大專院校人工智慧學程聯盟"
+      ],
+      "opening_unit_snapshot": "臺灣大專院校人工智慧學程聯盟",
+      "course_name_snapshot": "密碼與網路安全概論",
+      "credits_snapshot": 3.0,
+      "requirement_group": "unspecified",
+      "requirement_section": "unspecified",
+      "requirement_label": "人工智慧安全與隱私保護(4or5)",
+      "program_course_name_snapshot": "密碼與網路安全概論",
+      "notes": "TAICA 系列課程 每一向度至少需修習一門課程。",
+      "source_page": 1,
+      "evidence_match": false,
+      "validation_status": "needs_course_code_verification",
+      "uncertainty_reason": "Official PDF table does not provide a course code"
+    },
+    {
+      "course_code": null,
+      "catalog_entry_id": "entry_787a5c0e27d9363b",
+      "opening_units": [
+        "通訊工程研究所碩士班"
+      ],
+      "opening_unit_snapshot": "通訊工程研究所碩士班",
+      "course_name_snapshot": "安全密碼協定",
+      "credits_snapshot": 3.0,
+      "requirement_group": "unspecified",
+      "requirement_section": "unspecified",
+      "requirement_label": "人工智慧安全與隱私保護(4or5)",
+      "program_course_name_snapshot": "密碼與網路安全概論",
+      "notes": "每一向度至少需修習一門課程。",
+      "source_page": 1,
+      "evidence_match": true,
+      "validation_status": "needs_course_code_verification",
+      "uncertainty_reason": "Official PDF table does not provide a course code"
+    },
+    {
+      "course_code": null,
+      "catalog_entry_id": "entry_25b6ea9d87b2846c",
+      "opening_units": [
+        "臺灣大專院校人工智慧學程聯盟"
+      ],
+      "opening_unit_snapshot": "臺灣大專院校人工智慧學程聯盟",
+      "course_name_snapshot": "密碼學設計與分析",
+      "credits_snapshot": 3.0,
+      "requirement_group": "unspecified",
+      "requirement_section": "unspecified",
+      "requirement_label": "人工智慧安全與隱私保護(4or5)",
+      "program_course_name_snapshot": "密碼學設計與分析",
+      "notes": "TAICA 系列課程 每一向度至少需修習一門課程。",
+      "source_page": 1,
+      "evidence_match": false,
+      "validation_status": "needs_course_code_verification",
+      "uncertainty_reason": "Official PDF table does not provide a course code"
+    },
+    {
+      "course_code": null,
+      "catalog_entry_id": "entry_25b6ea9d87b2846c",
+      "opening_units": [
+        "通訊工程研究所碩士班"
+      ],
+      "opening_unit_snapshot": "通訊工程研究所碩士班",
+      "course_name_snapshot": "抗量子密碼學應用",
+      "credits_snapshot": 3.0,
+      "requirement_group": "unspecified",
+      "requirement_section": "unspecified",
+      "requirement_label": "人工智慧安全與隱私保護(4or5)",
+      "program_course_name_snapshot": "密碼學設計與分析",
+      "notes": "每一向度至少需修習一門課程。",
+      "source_page": 1,
+      "evidence_match": true,
+      "validation_status": "needs_course_code_verification",
+      "uncertainty_reason": "Official PDF table does not provide a course code"
+    },
+    {
+      "course_code": null,
+      "catalog_entry_id": "entry_457d58b06a03abd3",
+      "opening_units": [
+        "臺灣大專院校人工智慧學程聯盟"
+      ],
+      "opening_unit_snapshot": "臺灣大專院校人工智慧學程聯盟",
+      "course_name_snapshot": "應用密碼學",
+      "credits_snapshot": 3.0,
+      "requirement_group": "unspecified",
+      "requirement_section": "unspecified",
+      "requirement_label": "人工智慧安全與隱私保護(4or5)",
+      "program_course_name_snapshot": "應用密碼學",
+      "notes": "TAICA 系列課程 每一向度至少需修習一門課程。",
+      "source_page": 1,
+      "evidence_match": true,
+      "validation_status": "needs_course_code_verification",
+      "uncertainty_reason": "Official PDF table does not provide a course code"
+    },
+    {
+      "course_code": null,
+      "catalog_entry_id": "entry_457d58b06a03abd3",
+      "opening_units": [
+        "通訊工程研究所碩士班"
+      ],
+      "opening_unit_snapshot": "通訊工程研究所碩士班",
+      "course_name_snapshot": "密碼學",
+      "credits_snapshot": 3.0,
+      "requirement_group": "unspecified",
+      "requirement_section": "unspecified",
+      "requirement_label": "人工智慧安全與隱私保護(4or5)",
+      "program_course_name_snapshot": "應用密碼學",
+      "notes": "每一向度至少需修習一門課程。",
+      "source_page": 1,
+      "evidence_match": true,
+      "validation_status": "needs_course_code_verification",
+      "uncertainty_reason": "Official PDF table does not provide a course code"
+    },
+    {
+      "course_code": null,
+      "catalog_entry_id": "entry_6c64dfa3e057fd0f",
+      "opening_units": [
+        "臺灣大專院校人工智慧學程聯盟"
+      ],
+      "opening_unit_snapshot": "臺灣大專院校人工智慧學程聯盟",
+      "course_name_snapshot": "電腦攻擊與防禦",
+      "credits_snapshot": 3.0,
+      "requirement_group": "unspecified",
+      "requirement_section": "unspecified",
+      "requirement_label": "人工智慧安全與隱私保護(4or5)",
+      "program_course_name_snapshot": "電腦攻擊與防禦",
+      "notes": "TAICA 系列課程 每一向度至少需修習一門課程。",
+      "source_page": 1,
+      "evidence_match": false,
+      "validation_status": "needs_course_code_verification",
+      "uncertainty_reason": "Official PDF table does not provide a course code"
+    },
+    {
+      "course_code": null,
+      "catalog_entry_id": "entry_50e309180c27f27c",
+      "opening_units": [
+        "臺灣大專院校人工智慧學程聯盟"
+      ],
+      "opening_unit_snapshot": "臺灣大專院校人工智慧學程聯盟",
+      "course_name_snapshot": "電腦攻防實務",
+      "credits_snapshot": 3.0,
+      "requirement_group": "unspecified",
+      "requirement_section": "unspecified",
+      "requirement_label": "人工智慧安全與隱私保護(4or5)",
+      "program_course_name_snapshot": "電腦攻防實務",
+      "notes": "TAICA 系列課程 每一向度至少需修習一門課程。",
+      "source_page": 1,
+      "evidence_match": true,
+      "validation_status": "needs_course_code_verification",
+      "uncertainty_reason": "Official PDF table does not provide a course code"
+    },
+    {
+      "course_code": null,
+      "catalog_entry_id": "entry_23c97acc7e8f57cb",
+      "opening_units": [
+        "臺灣大專院校人工智慧學程聯盟"
+      ],
+      "opening_unit_snapshot": "臺灣大專院校人工智慧學程聯盟",
+      "course_name_snapshot": "資安攻防演練",
+      "credits_snapshot": 3.0,
+      "requirement_group": "unspecified",
+      "requirement_section": "unspecified",
+      "requirement_label": "人工智慧安全與隱私保護(4or5)",
+      "program_course_name_snapshot": "資安攻防演練",
+      "notes": "TAICA 系列課程 每一向度至少需修習一門課程。",
+      "source_page": 1,
+      "evidence_match": true,
+      "validation_status": "needs_course_code_verification",
+      "uncertainty_reason": "Official PDF table does not provide a course code"
+    },
+    {
+      "course_code": null,
+      "catalog_entry_id": "entry_f652ca1f9733919d",
+      "opening_units": [
+        "臺灣大專院校人工智慧學程聯盟"
+      ],
+      "opening_unit_snapshot": "臺灣大專院校人工智慧學程聯盟",
+      "course_name_snapshot": "大型語言模型與資訊安全系統",
+      "credits_snapshot": 3.0,
+      "requirement_group": "unspecified",
+      "requirement_section": "unspecified",
+      "requirement_label": "人工智慧於資通訊安全的應用(4or5)",
+      "program_course_name_snapshot": "大型語言模型與資訊安全系統",
+      "notes": "TAICA 系列課程 每一向度至少需修習一門課程。",
+      "source_page": 1,
+      "evidence_match": false,
+      "validation_status": "needs_course_code_verification",
+      "uncertainty_reason": "Official PDF table does not provide a course code"
+    },
+    {
+      "course_code": null,
+      "catalog_entry_id": "entry_86312c37950bd854",
+      "opening_units": [
+        "臺灣大專院校人工智慧學程聯盟"
+      ],
+      "opening_unit_snapshot": "臺灣大專院校人工智慧學程聯盟",
+      "course_name_snapshot": "威脅偵防解析與情資生成實作",
+      "credits_snapshot": 3.0,
+      "requirement_group": "unspecified",
+      "requirement_section": "unspecified",
+      "requirement_label": "人工智慧於資通訊安全的應用(4or5)",
+      "program_course_name_snapshot": "威脅偵防解析與情資生成實作",
+      "notes": "TAICA 系列課程 每一向度至少需修習一門課程。",
+      "source_page": 1,
+      "evidence_match": false,
+      "validation_status": "needs_course_code_verification",
+      "uncertainty_reason": "Official PDF table does not provide a course code"
     }
   ],
-  "structured_requirements": {}
+  "structured_requirements": {
+    "minimum_total_credits": 15.0,
+    "minimum_eligible_curriculum_credits": 9.0,
+    "credit_constraints": [
+      {
+        "constraint_id": "constraint_6a9d549d079f1834",
+        "kind": "minimum_credits",
+        "scope": {
+          "kind": "program"
+        },
+        "minimum_credits": 15.0,
+        "requirement_context": "program_completion",
+        "source_page": 2,
+        "source_text": "總學習學分為15學分",
+        "validation_status": "source_text_match"
+      },
+      {
+        "constraint_id": "constraint_6ae3d8246cc8b200",
+        "kind": "minimum_credits",
+        "scope": {
+          "kind": "course_eligibility",
+          "excluded_affiliations": [
+            "major",
+            "minor",
+            "other_program"
+          ],
+          "excluded_course_roles": [
+            "required",
+            "required_elective"
+          ]
+        },
+        "minimum_credits": 9.0,
+        "requirement_context": "certificate",
+        "source_page": 2,
+        "source_text": "須至少有9學分不屬於其主修",
+        "validation_status": "source_text_match"
+      },
+      {
+        "constraint_id": "constraint_9b66216be277c238",
+        "kind": "minimum_credits",
+        "scope": {
+          "kind": "taica_courses"
+        },
+        "minimum_credits": 8.0,
+        "requirement_context": "certificate",
+        "source_page": 2,
+        "source_text": "至少8學分TAICA聯盟認定課程",
+        "validation_status": "source_text_match"
+      },
+      {
+        "constraint_id": "constraint_bb2eb8679a226e49",
+        "kind": "maximum_counted_credits",
+        "scope": {
+          "kind": "cross_program_recognition"
+        },
+        "maximum_counted_credits": 6.0,
+        "requirement_context": "certificate",
+        "source_page": 2,
+        "source_text": "TAICA學程間之學分相互認抵以6學分為上限",
+        "validation_status": "source_text_match"
+      },
+      {
+        "constraint_id": "constraint_be1b9f73774cd59e",
+        "kind": "maximum_counted_credits",
+        "scope": {
+          "kind": "recognized_similar_courses"
+        },
+        "maximum_counted_credits": 3.0,
+        "requirement_context": "certificate",
+        "source_page": 2,
+        "source_text": "性質相近之課程認抵本學程課程,以3學分為上限",
+        "validation_status": "source_text_match"
+      }
+    ],
+    "manual_requirements": [
+      {
+        "requirement_id": "requirement_d9fa625cda55484a",
+        "kind": "manual_verification",
+        "requirement_type": "certificate",
+        "description": "取得TAICA核發學程學分證明",
+        "verification_mode": "manual_review",
+        "requirement_context": "certificate",
+        "source_page": 2,
+        "source_text": "取得TAICA核發學程學分證明",
+        "validation_status": "source_text_match"
+      }
+    ],
+    "course_count_constraints": [
+      {
+        "constraint_id": "constraint_587d018bd3fb0b4a",
+        "kind": "course_equivalence",
+        "course_names": [
+          "高等深度學習",
+          "深度學習"
+        ],
+        "min_courses": 1,
+        "max_courses": 1,
+        "requirement_group": "unspecified",
+        "requirement_section": "unspecified",
+        "source_page": 1,
+        "source_text": "深度學習",
+        "validation_status": "source_text_match"
+      },
+      {
+        "constraint_id": "constraint_cbefe18cec52e865",
+        "kind": "course_equivalence",
+        "course_names": [
+          "網路安全",
+          "資訊安全"
+        ],
+        "min_courses": 1,
+        "max_courses": 1,
+        "requirement_group": "unspecified",
+        "requirement_section": "unspecified",
+        "source_page": 1,
+        "source_text": "資訊安全",
+        "validation_status": "source_text_match"
+      }
+    ],
+    "entry_selection_constraints": [
+      {
+        "constraint_id": "constraint_5b26ab3f6459a034",
+        "kind": "select_entries",
+        "catalog_entry_ids": [
+          "entry_1674f6424e2228b8"
+        ],
+        "course_names": [
+          "高等深度學習",
+          "深度學習",
+          "深度學習理論與應用"
+        ],
+        "min_entries": 1,
+        "max_entries": null,
+        "declared_option_count": null,
+        "option_count_matches": true,
+        "requirement_group": "unspecified",
+        "requirement_section": "unspecified",
+        "source_page": 2,
+        "source_text": "每一向度至少需修習一門課程。",
+        "validation_status": "source_text_match",
+        "requirement_label": "深度學習(3)"
+      },
+      {
+        "constraint_id": "constraint_8c2fe243c22b611d",
+        "kind": "select_entries",
+        "catalog_entry_ids": [
+          "entry_f652ca1f9733919d",
+          "entry_86312c37950bd854"
+        ],
+        "course_names": [
+          "大型語言模型與資訊安全系統",
+          "威脅偵防解析與情資生成實作"
+        ],
+        "min_entries": 1,
+        "max_entries": null,
+        "declared_option_count": null,
+        "option_count_matches": true,
+        "requirement_group": "unspecified",
+        "requirement_section": "unspecified",
+        "source_page": 2,
+        "source_text": "每一向度至少需修習一門課程。",
+        "validation_status": "source_text_match",
+        "requirement_label": "人工智慧於資通訊安全的應用(4or5)"
+      },
+      {
+        "constraint_id": "constraint_9768b0005de0ae4a",
+        "kind": "select_entries",
+        "catalog_entry_ids": [
+          "entry_5f9599e9e199208d"
+        ],
+        "course_names": [
+          "人工智慧倫理"
+        ],
+        "min_entries": 1,
+        "max_entries": null,
+        "declared_option_count": null,
+        "option_count_matches": true,
+        "requirement_group": "unspecified",
+        "requirement_section": "unspecified",
+        "source_page": 2,
+        "source_text": "每一向度至少需修習一門課程。",
+        "validation_status": "source_text_match",
+        "requirement_label": "人工智慧倫理(1)"
+      },
+      {
+        "constraint_id": "constraint_b0f08f70630a6a12",
+        "kind": "select_entries",
+        "catalog_entry_ids": [
+          "entry_787a5c0e27d9363b",
+          "entry_25b6ea9d87b2846c",
+          "entry_457d58b06a03abd3",
+          "entry_6c64dfa3e057fd0f",
+          "entry_50e309180c27f27c",
+          "entry_23c97acc7e8f57cb"
+        ],
+        "course_names": [
+          "密碼與網路安全概論",
+          "安全密碼協定",
+          "密碼學設計與分析",
+          "抗量子密碼學應用",
+          "應用密碼學",
+          "密碼學",
+          "電腦攻擊與防禦",
+          "電腦攻防實務",
+          "資安攻防演練"
+        ],
+        "min_entries": 1,
+        "max_entries": null,
+        "declared_option_count": null,
+        "option_count_matches": true,
+        "requirement_group": "unspecified",
+        "requirement_section": "unspecified",
+        "source_page": 2,
+        "source_text": "每一向度至少需修習一門課程。",
+        "validation_status": "source_text_match",
+        "requirement_label": "人工智慧安全與隱私保護(4or5)"
+      },
+      {
+        "constraint_id": "constraint_f2aca7838d1885ba",
+        "kind": "select_entries",
+        "catalog_entry_ids": [
+          "entry_ba25b4a52c7f6fb3"
+        ],
+        "course_names": [
+          "網路安全",
+          "資訊安全",
+          "資訊安全理論與實務",
+          "資訊安全概論"
+        ],
+        "min_entries": 1,
+        "max_entries": null,
+        "declared_option_count": null,
+        "option_count_matches": true,
+        "requirement_group": "unspecified",
+        "requirement_section": "unspecified",
+        "source_page": 2,
+        "source_text": "每一向度至少需修習一門課程。",
+        "validation_status": "source_text_match",
+        "requirement_label": "資訊安全導論(2)"
+      }
+    ],
+    "completion_summary": {
+      "model_status": "partial",
+      "minimum_total_credits": 15.0,
+      "minimum_core_credits": null,
+      "maximum_core_credits": null,
+      "minimum_elective_credits": null,
+      "minimum_core_courses": null,
+      "minimum_elective_courses": null,
+      "has_conditional_requirements": false,
+      "has_manual_requirements": true,
+      "has_unresolved_conflicts": false
+    }
+  }
 }

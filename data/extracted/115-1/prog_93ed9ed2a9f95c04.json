@@ -1,5 +1,5 @@
 {
-  "schema_version": "1.0",
+  "schema_version": "1.2",
   "courses": [],
   "credit_mentions": [
     9,
@@ -33,8 +33,9 @@
           "credits_snapshot": 2.0,
           "requirement_group": "core",
           "requirement_section": "core",
+          "requirement_label": "核心課程一",
           "program_course_name_snapshot": null,
-          "notes": "",
+          "notes": "核 心 課 程 一、核心課程Ι(必修一門,2學分)    需含國家公園概論或探索海洋國家公園至少一門",
           "source_page": 1,
           "evidence_match": true,
           "validation_status": "needs_course_code_verification",
@@ -51,8 +52,9 @@
           "credits_snapshot": 2.0,
           "requirement_group": "core",
           "requirement_section": "core",
+          "requirement_label": "核心課程一",
           "program_course_name_snapshot": null,
-          "notes": "",
+          "notes": "核 心 課 程 一、核心課程Ι(必修一門,2學分)   ",
           "source_page": 1,
           "evidence_match": true,
           "validation_status": "needs_course_code_verification",
@@ -69,8 +71,9 @@
           "credits_snapshot": 3.0,
           "requirement_group": "core",
           "requirement_section": "core",
+          "requirement_label": "核心課程一",
           "program_course_name_snapshot": null,
-          "notes": "",
+          "notes": "核 心 課 程 一、核心課程Ι(必修一門,2學分)   ",
           "source_page": 1,
           "evidence_match": true,
           "validation_status": "needs_course_code_verification",
@@ -87,8 +90,9 @@
           "credits_snapshot": 2.0,
           "requirement_group": "core",
           "requirement_section": "core",
+          "requirement_label": "核心課程二",
           "program_course_name_snapshot": null,
-          "notes": "",
+          "notes": "需含國家公園概論或探索海洋國家公園至少一門  二、核心課程 Π(必修一門,2學分)   ",
           "source_page": 1,
           "evidence_match": true,
           "validation_status": "needs_course_code_verification",
@@ -105,8 +109,9 @@
           "credits_snapshot": 2.0,
           "requirement_group": "core",
           "requirement_section": "core",
+          "requirement_label": "核心課程二",
           "program_course_name_snapshot": null,
-          "notes": "",
+          "notes": " 二、核心課程 Π(必修一門,2學分)   ",
           "source_page": 1,
           "evidence_match": true,
           "validation_status": "needs_course_code_verification",
@@ -123,6 +128,7 @@
           "credits_snapshot": 2.0,
           "requirement_group": "elective",
           "requirement_section": "elective",
+          "requirement_label": null,
           "program_course_name_snapshot": null,
           "notes": "",
           "source_page": 1,
@@ -141,6 +147,7 @@
           "credits_snapshot": 2.0,
           "requirement_group": "elective",
           "requirement_section": "elective",
+          "requirement_label": null,
           "program_course_name_snapshot": null,
           "notes": "",
           "source_page": 1,
@@ -159,6 +166,7 @@
           "credits_snapshot": 2.0,
           "requirement_group": "elective",
           "requirement_section": "elective",
+          "requirement_label": null,
           "program_course_name_snapshot": null,
           "notes": "",
           "source_page": 1,
@@ -177,6 +185,7 @@
           "credits_snapshot": 2.0,
           "requirement_group": "elective",
           "requirement_section": "elective",
+          "requirement_label": null,
           "program_course_name_snapshot": null,
           "notes": "",
           "source_page": 1,
@@ -195,6 +204,7 @@
           "credits_snapshot": 3.0,
           "requirement_group": "elective",
           "requirement_section": "elective",
+          "requirement_label": null,
           "program_course_name_snapshot": null,
           "notes": "",
           "source_page": 1,
@@ -213,6 +223,7 @@
           "credits_snapshot": 2.0,
           "requirement_group": "elective",
           "requirement_section": "elective",
+          "requirement_label": null,
           "program_course_name_snapshot": null,
           "notes": "",
           "source_page": 1,
@@ -231,6 +242,7 @@
           "credits_snapshot": 2.0,
           "requirement_group": "elective",
           "requirement_section": "elective",
+          "requirement_label": null,
           "program_course_name_snapshot": null,
           "notes": "",
           "source_page": 1,
@@ -249,6 +261,7 @@
           "credits_snapshot": 3.0,
           "requirement_group": "elective",
           "requirement_section": "elective",
+          "requirement_label": null,
           "program_course_name_snapshot": null,
           "notes": "",
           "source_page": 1,
@@ -267,6 +280,7 @@
           "credits_snapshot": 3.0,
           "requirement_group": "elective",
           "requirement_section": "elective",
+          "requirement_label": null,
           "program_course_name_snapshot": null,
           "notes": "",
           "source_page": 1,
@@ -285,6 +299,7 @@
           "credits_snapshot": 3.0,
           "requirement_group": "elective",
           "requirement_section": "elective",
+          "requirement_label": null,
           "program_course_name_snapshot": null,
           "notes": "",
           "source_page": 1,
@@ -294,9 +309,142 @@
         }
       ],
       "requirements": {
-        "minimum_total_credits": 9,
-        "core_credits_text_value": 4,
-        "minimum_outside_home_department_credits": 3
+        "minimum_core_credits": 4.0,
+        "core_credits_text_value": 4.0,
+        "minimum_total_credits": 9.0,
+        "minimum_outside_home_department_credits": 3.0,
+        "credit_constraints": [
+          {
+            "constraint_id": "constraint_312ba592cce58c5d",
+            "kind": "minimum_credits",
+            "scope": {
+              "kind": "course_eligibility",
+              "excluded_affiliations": [
+                "home_department",
+                "double_major",
+                "minor"
+              ],
+              "excluded_course_roles": [
+                "all"
+              ]
+            },
+            "minimum_credits": 3.0,
+            "requirement_context": "program_completion",
+            "source_page": 1,
+            "source_text": "至少應有3學分不屬於學生本系所",
+            "validation_status": "source_text_match"
+          },
+          {
+            "constraint_id": "constraint_37f36e11e318223f",
+            "kind": "minimum_credits",
+            "scope": {
+              "kind": "catalog_filter",
+              "requirement_groups": [
+                "core"
+              ]
+            },
+            "minimum_credits": 4.0,
+            "requirement_context": "program_completion",
+            "source_page": 1,
+            "source_text": "核心課程〈專業模組課程〉學分數: 4 學分 (需含國家公園概論或探索海洋國家公 園至少一門)",
+            "validation_status": "source_text_match"
+          },
+          {
+            "constraint_id": "constraint_e4e3ec6325db6e04",
+            "kind": "minimum_credits",
+            "scope": {
+              "kind": "program"
+            },
+            "minimum_credits": 9.0,
+            "requirement_context": "program_completion",
+            "source_page": 1,
+            "source_text": "總學分數:至少 9 學分",
+            "validation_status": "source_text_match"
+          }
+        ],
+        "entry_selection_constraints": [
+          {
+            "constraint_id": "constraint_13a40fa27947ae6e",
+            "kind": "select_entries",
+            "catalog_entry_ids": [
+              "entry_446373465a3d8ce3",
+              "entry_c5d17f6f87e48d66",
+              "entry_de670e31bdf24805"
+            ],
+            "course_names": [
+              "國家公園概論",
+              "基礎海洋科學",
+              "基礎海洋學"
+            ],
+            "min_entries": 1,
+            "max_entries": null,
+            "declared_option_count": null,
+            "option_count_matches": true,
+            "requirement_group": "core",
+            "requirement_section": "core",
+            "source_page": 1,
+            "source_text": "核 心 課 程 一、核心課程Ι(必修一門,2學分)   ",
+            "validation_status": "source_text_match",
+            "requirement_label": "核心課程一",
+            "minimum_credits_for_requirement": 2.0
+          },
+          {
+            "constraint_id": "constraint_5995e5b7e244bff6",
+            "kind": "select_entries",
+            "catalog_entry_ids": [
+              "entry_446373465a3d8ce3",
+              "entry_a72985bd066e46c0"
+            ],
+            "course_names": [
+              "國家公園概論",
+              "探索海洋國家公園"
+            ],
+            "min_entries": 1,
+            "max_entries": null,
+            "declared_option_count": null,
+            "option_count_matches": true,
+            "requirement_group": "core",
+            "requirement_section": "core",
+            "source_page": 1,
+            "source_text": "需含國家公園概論或探索海洋國家公園至少一門",
+            "validation_status": "source_text_match"
+          },
+          {
+            "constraint_id": "constraint_88c74a7281efb90d",
+            "kind": "select_entries",
+            "catalog_entry_ids": [
+              "entry_a72985bd066e46c0",
+              "entry_6e991830214ffeca"
+            ],
+            "course_names": [
+              "探索海洋國家公園",
+              "海洋生態與海洋科技教育探索"
+            ],
+            "min_entries": 1,
+            "max_entries": null,
+            "declared_option_count": null,
+            "option_count_matches": true,
+            "requirement_group": "core",
+            "requirement_section": "core",
+            "source_page": 1,
+            "source_text": " 二、核心課程 Π(必修一門,2學分)   ",
+            "validation_status": "source_text_match",
+            "requirement_label": "核心課程二",
+            "minimum_credits_for_requirement": 2.0
+          }
+        ],
+        "completion_summary": {
+          "model_status": "partial",
+          "minimum_total_credits": 9.0,
+          "minimum_core_credits": 4.0,
+          "maximum_core_credits": null,
+          "minimum_elective_credits": null,
+          "minimum_core_courses": null,
+          "minimum_elective_courses": null,
+          "has_conditional_requirements": false,
+          "has_manual_requirements": false,
+          "has_unresolved_conflicts": false
+        }
       },
       "source_pages": [
         1
@@ -307,7 +455,8 @@
         "course_count": 15,
         "core_count": 5,
         "elective_count": 10,
-        "evidence_matched_count": 15
+        "evidence_matched_count": 15,
+        "selection_constraints_extracted": 3
       }
     },
     {
@@ -324,8 +473,9 @@
           "credits_snapshot": 2.0,
           "requirement_group": "core",
           "requirement_section": "core",
+          "requirement_label": "核心課程一",
           "program_course_name_snapshot": null,
-          "notes": "113學年度第一學期開設",
+          "notes": "113學年度第一學期開設 核 心 課 程 一、核心課程Ι(必修一門,2學分)   ",
           "source_page": 2,
           "evidence_match": true,
           "validation_status": "needs_course_code_verification",
@@ -342,8 +492,9 @@
           "credits_snapshot": 2.0,
           "requirement_group": "core",
           "requirement_section": "core",
+          "requirement_label": "核心課程一",
           "program_course_name_snapshot": null,
-          "notes": "",
+          "notes": "核 心 課 程 一、核心課程Ι(必修一門,2學分)   ",
           "source_page": 2,
           "evidence_match": true,
           "validation_status": "needs_course_code_verification",
@@ -360,8 +511,9 @@
           "credits_snapshot": 3.0,
           "requirement_group": "core",
           "requirement_section": "core",
+          "requirement_label": "核心課程一",
           "program_course_name_snapshot": null,
-          "notes": "",
+          "notes": "核 心 課 程 一、核心課程Ι(必修一門,2學分)   ",
           "source_page": 2,
           "evidence_match": true,
           "validation_status": "needs_course_code_verification",
@@ -378,8 +530,9 @@
           "credits_snapshot": 2.0,
           "requirement_group": "core",
           "requirement_section": "core",
+          "requirement_label": "核心課程二",
           "program_course_name_snapshot": null,
-          "notes": "113學年度第一學期開設",
+          "notes": "113學年度第一學期開設  二、核心課程 Π(必修一門,2學分)   ",
           "source_page": 2,
           "evidence_match": true,
           "validation_status": "needs_course_code_verification",
@@ -396,8 +549,9 @@
           "credits_snapshot": 2.0,
           "requirement_group": "core",
           "requirement_section": "core",
+          "requirement_label": "核心課程二",
           "program_course_name_snapshot": null,
-          "notes": "",
+          "notes": " 二、核心課程 Π(必修一門,2學分)   ",
           "source_page": 2,
           "evidence_match": true,
           "validation_status": "needs_course_code_verification",
@@ -414,6 +568,7 @@
           "credits_snapshot": 2.0,
           "requirement_group": "elective",
           "requirement_section": "elective",
+          "requirement_label": null,
           "program_course_name_snapshot": null,
           "notes": "",
           "source_page": 2,
@@ -432,6 +587,7 @@
           "credits_snapshot": 2.0,
           "requirement_group": "elective",
           "requirement_section": "elective",
+          "requirement_label": null,
           "program_course_name_snapshot": null,
           "notes": "",
           "source_page": 2,
@@ -450,6 +606,7 @@
           "credits_snapshot": 2.0,
           "requirement_group": "elective",
           "requirement_section": "elective",
+          "requirement_label": null,
           "program_course_name_snapshot": null,
           "notes": "",
           "source_page": 2,
@@ -468,6 +625,7 @@
           "credits_snapshot": 2.0,
           "requirement_group": "elective",
           "requirement_section": "elective",
+          "requirement_label": null,
           "program_course_name_snapshot": null,
           "notes": "",
           "source_page": 2,
@@ -486,6 +644,7 @@
           "credits_snapshot": 3.0,
           "requirement_group": "elective",
           "requirement_section": "elective",
+          "requirement_label": null,
           "program_course_name_snapshot": null,
           "notes": "",
           "source_page": 2,
@@ -504,6 +663,7 @@
           "credits_snapshot": 2.0,
           "requirement_group": "elective",
           "requirement_section": "elective",
+          "requirement_label": null,
           "program_course_name_snapshot": null,
           "notes": "",
           "source_page": 2,
@@ -522,6 +682,7 @@
           "credits_snapshot": 2.0,
           "requirement_group": "elective",
           "requirement_section": "elective",
+          "requirement_label": null,
           "program_course_name_snapshot": null,
           "notes": "",
           "source_page": 2,
@@ -540,6 +701,7 @@
           "credits_snapshot": 3.0,
           "requirement_group": "elective",
           "requirement_section": "elective",
+          "requirement_label": null,
           "program_course_name_snapshot": null,
           "notes": "",
           "source_page": 2,
@@ -558,6 +720,7 @@
           "credits_snapshot": 3.0,
           "requirement_group": "elective",
           "requirement_section": "elective",
+          "requirement_label": null,
           "program_course_name_snapshot": null,
           "notes": "",
           "source_page": 2,
@@ -576,6 +739,7 @@
           "credits_snapshot": 3.0,
           "requirement_group": "elective",
           "requirement_section": "elective",
+          "requirement_label": null,
           "program_course_name_snapshot": null,
           "notes": "",
           "source_page": 2,
@@ -585,9 +749,121 @@
         }
       ],
       "requirements": {
-        "minimum_total_credits": 9,
-        "core_credits_text_value": 4,
-        "minimum_outside_home_department_credits": 3
+        "minimum_core_credits": 4.0,
+        "core_credits_text_value": 4.0,
+        "minimum_total_credits": 9.0,
+        "minimum_outside_home_department_credits": 3.0,
+        "credit_constraints": [
+          {
+            "constraint_id": "constraint_312ba592cce58c5d",
+            "kind": "minimum_credits",
+            "scope": {
+              "kind": "course_eligibility",
+              "excluded_affiliations": [
+                "home_department",
+                "double_major",
+                "minor"
+              ],
+              "excluded_course_roles": [
+                "all"
+              ]
+            },
+            "minimum_credits": 3.0,
+            "requirement_context": "program_completion",
+            "source_page": 2,
+            "source_text": "至少應有3學分不屬於學生本系所",
+            "validation_status": "source_text_match"
+          },
+          {
+            "constraint_id": "constraint_de0a646c26445840",
+            "kind": "minimum_credits",
+            "scope": {
+              "kind": "catalog_filter",
+              "requirement_groups": [
+                "core"
+              ]
+            },
+            "minimum_credits": 4.0,
+            "requirement_context": "program_completion",
+            "source_page": 2,
+            "source_text": "核心課程〈專業模組課程〉學分數: 4 學分",
+            "validation_status": "source_text_match"
+          },
+          {
+            "constraint_id": "constraint_e4e3ec6325db6e04",
+            "kind": "minimum_credits",
+            "scope": {
+              "kind": "program"
+            },
+            "minimum_credits": 9.0,
+            "requirement_context": "program_completion",
+            "source_page": 2,
+            "source_text": "總學分數:至少 9 學分",
+            "validation_status": "source_text_match"
+          }
+        ],
+        "entry_selection_constraints": [
+          {
+            "constraint_id": "constraint_0075a8ab7b43d028",
+            "kind": "select_entries",
+            "catalog_entry_ids": [
+              "entry_e7e5c7e9ef79bb61",
+              "entry_d300c0c41607eb22"
+            ],
+            "course_names": [
+              "探索海洋國家公園",
+              "海洋生態與海洋科技教育探索"
+            ],
+            "min_entries": 1,
+            "max_entries": null,
+            "declared_option_count": null,
+            "option_count_matches": true,
+            "requirement_group": "core",
+            "requirement_section": "core",
+            "source_page": 2,
+            "source_text": " 二、核心課程 Π(必修一門,2學分)   ",
+            "validation_status": "source_text_match",
+            "requirement_label": "核心課程二",
+            "minimum_credits_for_requirement": 2.0
+          },
+          {
+            "constraint_id": "constraint_f0987a0989ebcf7f",
+            "kind": "select_entries",
+            "catalog_entry_ids": [
+              "entry_7cbfb85c96709a12",
+              "entry_a0f63e7e09d1efb1",
+              "entry_ee37c78b2af0dec0"
+            ],
+            "course_names": [
+              "國家公園概論",
+              "基礎海洋科學",
+              "基礎海洋學"
+            ],
+            "min_entries": 1,
+            "max_entries": null,
+            "declared_option_count": null,
+            "option_count_matches": true,
+            "requirement_group": "core",
+            "requirement_section": "core",
+            "source_page": 2,
+            "source_text": "核 心 課 程 一、核心課程Ι(必修一門,2學分)   ",
+            "validation_status": "source_text_match",
+            "requirement_label": "核心課程一",
+            "minimum_credits_for_requirement": 2.0
+          }
+        ],
+        "completion_summary": {
+          "model_status": "partial",
+          "minimum_total_credits": 9.0,
+          "minimum_core_credits": 4.0,
+          "maximum_core_credits": null,
+          "minimum_elective_credits": null,
+          "minimum_core_courses": null,
+          "minimum_elective_courses": null,
+          "has_conditional_requirements": false,
+          "has_manual_requirements": false,
+          "has_unresolved_conflicts": false
+        }
       },
       "source_pages": [
         2
@@ -598,7 +874,8 @@
         "course_count": 15,
         "core_count": 5,
         "elective_count": 10,
-        "evidence_matched_count": 15
+        "evidence_matched_count": 15,
+        "selection_constraints_extracted": 2
       }
     }
   ],
@@ -615,8 +892,9 @@
       "credits_snapshot": 2.0,
       "requirement_group": "core",
       "requirement_section": "core",
+      "requirement_label": "核心課程一",
       "program_course_name_snapshot": null,
-      "notes": "",
+      "notes": "核 心 課 程 一、核心課程Ι(必修一門,2學分)    需含國家公園概論或探索海洋國家公園至少一門",
       "source_page": 1,
       "evidence_match": true,
       "validation_status": "needs_course_code_verification",
@@ -633,8 +911,9 @@
       "credits_snapshot": 2.0,
       "requirement_group": "core",
       "requirement_section": "core",
+      "requirement_label": "核心課程一",
       "program_course_name_snapshot": null,
-      "notes": "",
+      "notes": "核 心 課 程 一、核心課程Ι(必修一門,2學分)   ",
       "source_page": 1,
       "evidence_match": true,
       "validation_status": "needs_course_code_verification",
@@ -651,8 +930,9 @@
       "credits_snapshot": 3.0,
       "requirement_group": "core",
       "requirement_section": "core",
+      "requirement_label": "核心課程一",
       "program_course_name_snapshot": null,
-      "notes": "",
+      "notes": "核 心 課 程 一、核心課程Ι(必修一門,2學分)   ",
       "source_page": 1,
       "evidence_match": true,
       "validation_status": "needs_course_code_verification",
@@ -669,8 +949,9 @@
       "credits_snapshot": 2.0,
       "requirement_group": "core",
       "requirement_section": "core",
+      "requirement_label": "核心課程二",
       "program_course_name_snapshot": null,
-      "notes": "",
+      "notes": "需含國家公園概論或探索海洋國家公園至少一門  二、核心課程 Π(必修一門,2學分)   ",
       "source_page": 1,
       "evidence_match": true,
       "validation_status": "needs_course_code_verification",
@@ -687,8 +968,9 @@
       "credits_snapshot": 2.0,
       "requirement_group": "core",
       "requirement_section": "core",
+      "requirement_label": "核心課程二",
       "program_course_name_snapshot": null,
-      "notes": "",
+      "notes": " 二、核心課程 Π(必修一門,2學分)   ",
       "source_page": 1,
       "evidence_match": true,
       "validation_status": "needs_course_code_verification",
@@ -705,6 +987,7 @@
       "credits_snapshot": 2.0,
       "requirement_group": "elective",
       "requirement_section": "elective",
+      "requirement_label": null,
       "program_course_name_snapshot": null,
       "notes": "",
       "source_page": 1,
@@ -723,6 +1006,7 @@
       "credits_snapshot": 2.0,
       "requirement_group": "elective",
       "requirement_section": "elective",
+      "requirement_label": null,
       "program_course_name_snapshot": null,
       "notes": "",
       "source_page": 1,
@@ -741,6 +1025,7 @@
       "credits_snapshot": 2.0,
       "requirement_group": "elective",
       "requirement_section": "elective",
+      "requirement_label": null,
       "program_course_name_snapshot": null,
       "notes": "",
       "source_page": 1,
@@ -759,6 +1044,7 @@
       "credits_snapshot": 2.0,
       "requirement_group": "elective",
       "requirement_section": "elective",
+      "requirement_label": null,
       "program_course_name_snapshot": null,
       "notes": "",
       "source_page": 1,
@@ -777,6 +1063,7 @@
       "credits_snapshot": 3.0,
       "requirement_group": "elective",
       "requirement_section": "elective",
+      "requirement_label": null,
       "program_course_name_snapshot": null,
       "notes": "",
       "source_page": 1,
@@ -795,6 +1082,7 @@
       "credits_snapshot": 2.0,
       "requirement_group": "elective",
       "requirement_section": "elective",
+      "requirement_label": null,
       "program_course_name_snapshot": null,
       "notes": "",
       "source_page": 1,
@@ -813,6 +1101,7 @@
       "credits_snapshot": 2.0,
       "requirement_group": "elective",
       "requirement_section": "elective",
+      "requirement_label": null,
       "program_course_name_snapshot": null,
       "notes": "",
       "source_page": 1,
@@ -831,6 +1120,7 @@
       "credits_snapshot": 3.0,
       "requirement_group": "elective",
       "requirement_section": "elective",
+      "requirement_label": null,
       "program_course_name_snapshot": null,
       "notes": "",
       "source_page": 1,
@@ -849,6 +1139,7 @@
       "credits_snapshot": 3.0,
       "requirement_group": "elective",
       "requirement_section": "elective",
+      "requirement_label": null,
       "program_course_name_snapshot": null,
       "notes": "",
       "source_page": 1,
@@ -867,6 +1158,7 @@
       "credits_snapshot": 3.0,
       "requirement_group": "elective",
       "requirement_section": "elective",
+      "requirement_label": null,
       "program_course_name_snapshot": null,
       "notes": "",
       "source_page": 1,
@@ -876,8 +1168,141 @@
     }
   ],
   "structured_requirements": {
-    "minimum_total_credits": 9,
-    "core_credits_text_value": 4,
-    "minimum_outside_home_department_credits": 3
+    "minimum_core_credits": 4.0,
+    "core_credits_text_value": 4.0,
+    "minimum_total_credits": 9.0,
+    "minimum_outside_home_department_credits": 3.0,
+    "credit_constraints": [
+      {
+        "constraint_id": "constraint_312ba592cce58c5d",
+        "kind": "minimum_credits",
+        "scope": {
+          "kind": "course_eligibility",
+          "excluded_affiliations": [
+            "home_department",
+            "double_major",
+            "minor"
+          ],
+          "excluded_course_roles": [
+            "all"
+          ]
+        },
+        "minimum_credits": 3.0,
+        "requirement_context": "program_completion",
+        "source_page": 1,
+        "source_text": "至少應有3學分不屬於學生本系所",
+        "validation_status": "source_text_match"
+      },
+      {
+        "constraint_id": "constraint_37f36e11e318223f",
+        "kind": "minimum_credits",
+        "scope": {
+          "kind": "catalog_filter",
+          "requirement_groups": [
+            "core"
+          ]
+        },
+        "minimum_credits": 4.0,
+        "requirement_context": "program_completion",
+        "source_page": 1,
+        "source_text": "核心課程〈專業模組課程〉學分數: 4 學分 (需含國家公園概論或探索海洋國家公 園至少一門)",
+        "validation_status": "source_text_match"
+      },
+      {
+        "constraint_id": "constraint_e4e3ec6325db6e04",
+        "kind": "minimum_credits",
+        "scope": {
+          "kind": "program"
+        },
+        "minimum_credits": 9.0,
+        "requirement_context": "program_completion",
+        "source_page": 1,
+        "source_text": "總學分數:至少 9 學分",
+        "validation_status": "source_text_match"
+      }
+    ],
+    "entry_selection_constraints": [
+      {
+        "constraint_id": "constraint_13a40fa27947ae6e",
+        "kind": "select_entries",
+        "catalog_entry_ids": [
+          "entry_446373465a3d8ce3",
+          "entry_c5d17f6f87e48d66",
+          "entry_de670e31bdf24805"
+        ],
+        "course_names": [
+          "國家公園概論",
+          "基礎海洋科學",
+          "基礎海洋學"
+        ],
+        "min_entries": 1,
+        "max_entries": null,
+        "declared_option_count": null,
+        "option_count_matches": true,
+        "requirement_group": "core",
+        "requirement_section": "core",
+        "source_page": 1,
+        "source_text": "核 心 課 程 一、核心課程Ι(必修一門,2學分)   ",
+        "validation_status": "source_text_match",
+        "requirement_label": "核心課程一",
+        "minimum_credits_for_requirement": 2.0
+      },
+      {
+        "constraint_id": "constraint_5995e5b7e244bff6",
+        "kind": "select_entries",
+        "catalog_entry_ids": [
+          "entry_446373465a3d8ce3",
+          "entry_a72985bd066e46c0"
+        ],
+        "course_names": [
+          "國家公園概論",
+          "探索海洋國家公園"
+        ],
+        "min_entries": 1,
+        "max_entries": null,
+        "declared_option_count": null,
+        "option_count_matches": true,
+        "requirement_group": "core",
+        "requirement_section": "core",
+        "source_page": 1,
+        "source_text": "需含國家公園概論或探索海洋國家公園至少一門",
+        "validation_status": "source_text_match"
+      },
+      {
+        "constraint_id": "constraint_88c74a7281efb90d",
+        "kind": "select_entries",
+        "catalog_entry_ids": [
+          "entry_a72985bd066e46c0",
+          "entry_6e991830214ffeca"
+        ],
+        "course_names": [
+          "探索海洋國家公園",
+          "海洋生態與海洋科技教育探索"
+        ],
+        "min_entries": 1,
+        "max_entries": null,
+        "declared_option_count": null,
+        "option_count_matches": true,
+        "requirement_group": "core",
+        "requirement_section": "core",
+        "source_page": 1,
+        "source_text": " 二、核心課程 Π(必修一門,2學分)   ",
+        "validation_status": "source_text_match",
+        "requirement_label": "核心課程二",
+        "minimum_credits_for_requirement": 2.0
+      }
+    ],
+    "completion_summary": {
+      "model_status": "partial",
+      "minimum_total_credits": 9.0,
+      "minimum_core_credits": 4.0,
+      "maximum_core_credits": null,
+      "minimum_elective_credits": null,
+      "minimum_core_courses": null,
+      "minimum_elective_courses": null,
+      "has_conditional_requirements": false,
+      "has_manual_requirements": false,
+      "has_unresolved_conflicts": false
+    }
   }
 }

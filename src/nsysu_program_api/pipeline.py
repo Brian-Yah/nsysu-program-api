@@ -4,8 +4,10 @@ import json
 from collections import Counter
 from pathlib import Path
 
+from .ai_review import apply_ai_review_audit, simple_logic_disqualifiers
 from .core import (
     CATALOG_URL,
+    DATA_REVISION,
     PARSER_VERSION,
     SCHEMA_VERSION,
     Fetcher,
@@ -21,6 +23,8 @@ from .core import (
     write_json,
 )
 from .graduation import build_graduation_api
+from .requirements import finalize_completion_summary, select_applicable_rule_version
+from .reviewed import apply_reviewed_override
 
 
 def fetch_catalog(root: Path, academic_version: str, user_agent: str) -> dict:
@@ -36,7 +40,7 @@ def fetch_catalog(root: Path, academic_version: str, user_agent: str) -> dict:
     catalog = {
         "schema_version": SCHEMA_VERSION,
         "academic_version": academic_version,
-        "data_revision": 1,
+        "data_revision": DATA_REVISION,
         "retrieved_at": retrieved_at,
         "source": {
             "url": CATALOG_URL,
@@ -57,12 +61,17 @@ def fetch_catalog(root: Path, academic_version: str, user_agent: str) -> dict:
 def process_pdfs(root: Path, catalog: dict, user_agent: str, reuse_cache: bool = False) -> dict:
     fetcher = Fetcher(user_agent)
     version = catalog["academic_version"]
+    catalog["schema_version"] = SCHEMA_VERSION
+    catalog["data_revision"] = DATA_REVISION
     cache = root / "cache" / "pdf"
     cache.mkdir(parents=True, exist_ok=True)
     stats = Counter()
     failures = []
     runtime_extractors = extractor_versions()
     for program in catalog["programs"]:
+        # Parser diagnostics describe only the current extraction pass. Keeping
+        # prior-run values would make fixed PDFs continue to look broken.
+        program["warnings"] = []
         if not program.get("coordinator") and "\n" in (program.get("responsible_unit") or ""):
             program["responsible_unit"], program["coordinator"] = split_responsible(
                 program["responsible_unit"]
@@ -107,10 +116,10 @@ def process_pdfs(root: Path, catalog: dict, user_agent: str, reuse_cache: bool =
             }
             source["normalized_text_sha256"] = sha256(text.encode()) if text else None
             extracted = extract_candidate(text)
-            latest_structured = next(
-                (version for version in rule_versions if version["courses"]),
-                {"pdf_academic_version": None, "courses": [], "requirements": {}},
+            latest_structured, version_warnings = select_applicable_rule_version(
+                rule_versions, version
             )
+            warnings.extend(version_warnings)
             program["selected_pdf_academic_version"] = latest_structured["pdf_academic_version"]
             program["course_catalog"] = latest_structured["courses"]
             program["structured_requirements"] = latest_structured["requirements"]
@@ -178,7 +187,7 @@ def process_pdfs(root: Path, catalog: dict, user_agent: str, reuse_cache: bool =
 
 
 def approve_source_only(root: Path, catalog: dict) -> list[dict]:
-    """Publish catalog metadata; rules remain explicit manual_review, never AI-approved."""
+    """Write the already classified catalog to published storage."""
     version = catalog["academic_version"]
     published = []
     for source in catalog["programs"]:
@@ -217,6 +226,7 @@ def build_api(root: Path, version: str) -> dict:
     source_catalog = load_json(root / "data" / "source" / version / "catalog.json", None)
     if not source_catalog:
         raise RuntimeError(f"missing source catalog for {version}")
+    reviewed_program_count = 0
     for program in source_catalog["programs"]:
         extracted = load_json(
             root / "data" / "extracted" / version / f"{program['program_id']}.json",
@@ -225,6 +235,16 @@ def build_api(root: Path, version: str) -> dict:
         program["selected_pdf_academic_version"] = extracted.get("selected_pdf_academic_version")
         program["course_catalog"] = extracted.get("structured_courses", [])
         program["structured_requirements"] = extracted.get("structured_requirements", {})
+        if apply_reviewed_override(root, version, program):
+            reviewed_program_count += 1
+    ai_approved_program_count = apply_ai_review_audit(
+        root, version, source_catalog["programs"]
+    )
+    for program in source_catalog["programs"]:
+        finalize_completion_summary(
+            program["structured_requirements"],
+            approved=program.get("review_status") in {"approved", "ai_approved"},
+        )
     programs = approve_source_only(root, source_catalog)
     errors = {p["program_id"]: e for p in programs if (e := validate_program(p))}
     if errors:
@@ -262,14 +282,39 @@ def build_api(root: Path, version: str) -> dict:
                 "program": program,
             },
         )
+    manual_review_programs = []
+    for program in programs:
+        if program.get("review_status") in {"approved", "ai_approved"}:
+            continue
+        manual_review_programs.append(
+            {
+                "program_id": program["program_id"],
+                "name_zh": program["name_zh"],
+                "type": program["type"],
+                "status": program["status"],
+                "review_status": program["review_status"],
+                "model_status": program.get("structured_requirements", {})
+                .get("completion_summary", {})
+                .get("model_status"),
+                "reasons": simple_logic_disqualifiers(program),
+            }
+        )
+    write_json(
+        root / "reports" / f"manual-review-{version}.json",
+        {
+            "generated_at": now_iso(),
+            "academic_version": version,
+            "ai_approved_count": ai_approved_program_count,
+            "manual_review_count": len(manual_review_programs),
+            "programs": manual_review_programs,
+        },
+    )
     schema_src = root / "schemas" / "program.schema.json"
     schema_dest = api / "schemas" / "program.schema.json"
     schema_dest.parent.mkdir(parents=True, exist_ok=True)
     schema_dest.write_text(schema_src.read_text(encoding="utf-8"), encoding="utf-8")
     entry_year = version.split("-", 1)[0]
-    graduation_source = (
-        root / "data" / "graduation-requirements" / entry_year / "bachelor.json"
-    )
+    graduation_source = root / "data" / "graduation-requirements" / entry_year / "bachelor.json"
     graduation_index = (
         build_graduation_api(root, entry_year) if graduation_source.exists() else None
     )
@@ -280,6 +325,19 @@ def build_api(root: Path, version: str) -> dict:
         "generated_at": now_iso(),
         "program_count": len(programs),
         "active_program_count": sum(p["status"] == "active" for p in programs),
+        "rule_model_version": "1.1",
+        "reviewed_program_count": reviewed_program_count,
+        "ai_approved_program_count": ai_approved_program_count,
+        "manual_review_program_count": len(manual_review_programs),
+        "unresolved_source_conflict_count": sum(
+            sum(
+                conflict.get("resolution_status") == "unresolved"
+                for conflict in program.get("structured_requirements", {}).get(
+                    "source_conflicts", []
+                )
+            )
+            for program in programs
+        ),
         "paths": {
             "latest": "latest/programs.json",
             "schema": "schemas/program.schema.json",
@@ -290,9 +348,7 @@ def build_api(root: Path, version: str) -> dict:
         },
     }
     if graduation_index:
-        manifest["graduation_requirement_department_count"] = graduation_index[
-            "department_count"
-        ]
+        manifest["graduation_requirement_department_count"] = graduation_index["department_count"]
     write_json(api / "manifest.json", manifest)
     return manifest
 
@@ -321,6 +377,23 @@ def semantic_diff(old: dict, new: dict) -> dict:
                         "field": f"source.{field}",
                         "old": old_by[pid].get("source", {}).get(field),
                         "new": new_by[pid].get("source", {}).get(field),
+                    }
+                )
+        for field in ("structured_requirements", "rules", "course_catalog"):
+            old_value = old_by[pid].get(field)
+            new_value = new_by[pid].get(field)
+            if old_value != new_value:
+                old_digest = sha256(
+                    json.dumps(old_value, ensure_ascii=False, sort_keys=True).encode()
+                )
+                new_digest = sha256(
+                    json.dumps(new_value, ensure_ascii=False, sort_keys=True).encode()
+                )
+                changes.append(
+                    {
+                        "field": field,
+                        "old_sha256": old_digest,
+                        "new_sha256": new_digest,
                     }
                 )
         if changes:
