@@ -23,7 +23,7 @@
       "last_modified": "Wed, 01 Jul 2026 06:03:16 GMT",
       "content_length": 196270
     },
-    "parser_version": "0.3.0",
+    "parser_version": "0.4.0",
     "extractor_versions": {
       "pypdf": "6.10.0",
       "pdfplumber": "0.11.9"
@@ -335,7 +335,7 @@
       "requirement_section": "elective",
       "requirement_label": null,
       "program_course_name_snapshot": null,
-      "notes": "全英授課",
+      "notes": "全英授課 PM2.5 氣膠生醫科學海洋生物概論",
       "source_page": 1,
       "evidence_match": true,
       "validation_status": "needs_course_code_verification",
@@ -343,7 +343,7 @@
     },
     {
       "course_code": null,
-      "catalog_entry_id": "entry_d988136b5a23f95f_1",
+      "catalog_entry_id": "entry_d988136b5a23f95f",
       "opening_units": [
         "跨院選修(理)"
       ],
@@ -354,11 +354,12 @@
       "requirement_section": "elective",
       "requirement_label": null,
       "program_course_name_snapshot": null,
-      "notes": "全英授課全英授課",
+      "notes": "全英授課全英授課 PM2.5 氣膠生醫科學海洋生物概論",
       "source_page": 1,
       "evidence_match": true,
       "validation_status": "needs_course_code_verification",
-      "uncertainty_reason": "Official PDF table does not provide a course code"
+      "uncertainty_reason": "Official PDF table does not provide a course code",
+      "catalog_entry_group_id": "entry_d988136b5a23f95f"
     },
     {
       "course_code": null,
@@ -373,15 +374,16 @@
       "requirement_section": "elective",
       "requirement_label": null,
       "program_course_name_snapshot": null,
-      "notes": "全英授課全英授課",
+      "notes": "全英授課全英授課 海洋生物概論鯨豚保育生物學 PM2.5 氣膠生醫科學海洋生物概論",
       "source_page": 1,
       "evidence_match": true,
       "validation_status": "needs_course_code_verification",
-      "uncertainty_reason": "Official PDF table does not provide a course code"
+      "uncertainty_reason": "Official PDF table does not provide a course code",
+      "catalog_entry_group_id": "entry_d988136b5a23f95f"
     },
     {
       "course_code": null,
-      "catalog_entry_id": "entry_e39a4c35c32feea3_1",
+      "catalog_entry_id": "entry_e39a4c35c32feea3",
       "opening_units": [
         "跨院選修(海)"
       ],
@@ -392,11 +394,12 @@
       "requirement_section": "elective",
       "requirement_label": null,
       "program_course_name_snapshot": null,
-      "notes": "全英授課全英授課",
+      "notes": "全英授課全英授課 海洋生物概論鯨豚保育生物學 PM2.5 氣膠生醫科學海洋生物概論",
       "source_page": 1,
       "evidence_match": true,
       "validation_status": "needs_course_code_verification",
-      "uncertainty_reason": "Official PDF table does not provide a course code"
+      "uncertainty_reason": "Official PDF table does not provide a course code",
+      "catalog_entry_group_id": "entry_e39a4c35c32feea3"
     },
     {
       "course_code": null,
@@ -411,11 +414,12 @@
       "requirement_section": "elective",
       "requirement_label": null,
       "program_course_name_snapshot": null,
-      "notes": "全英授課全英授課",
+      "notes": "全英授課全英授課 海洋生物概論鯨豚保育生物學",
       "source_page": 1,
       "evidence_match": true,
       "validation_status": "needs_course_code_verification",
-      "uncertainty_reason": "Official PDF table does not provide a course code"
+      "uncertainty_reason": "Official PDF table does not provide a course code",
+      "catalog_entry_group_id": "entry_e39a4c35c32feea3"
     },
     {
       "course_code": null,
@@ -449,7 +453,7 @@
       "requirement_section": "elective",
       "requirement_label": null,
       "program_course_name_snapshot": null,
-      "notes": "全英授課",
+      "notes": "全英授課 環境健康大數據資料分析暨視覺化實務人人都是科學家",
       "source_page": 1,
       "evidence_match": false,
       "validation_status": "needs_course_code_verification",
@@ -457,7 +461,7 @@
     },
     {
       "course_code": null,
-      "catalog_entry_id": "entry_fbbbdf7cdedf3f43_1",
+      "catalog_entry_id": "entry_fbbbdf7cdedf3f43",
       "opening_units": [
         "跨院選修(醫)"
       ],
@@ -468,11 +472,12 @@
       "requirement_section": "elective",
       "requirement_label": null,
       "program_course_name_snapshot": null,
-      "notes": "全英授課全英授課",
+      "notes": "全英授課全英授課 環境健康大數據資料分析暨視覺化實務人人都是科學家",
       "source_page": 1,
       "evidence_match": false,
       "validation_status": "needs_course_code_verification",
-      "uncertainty_reason": "Official PDF table does not provide a course code"
+      "uncertainty_reason": "Official PDF table does not provide a course code",
+      "catalog_entry_group_id": "entry_fbbbdf7cdedf3f43"
     },
     {
       "course_code": null,
@@ -487,11 +492,12 @@
       "requirement_section": "elective",
       "requirement_label": null,
       "program_course_name_snapshot": null,
-      "notes": "全英授課全英授課",
+      "notes": "全英授課全英授課 環境健康大數據資料分析暨視覺化實務人人都是科學家",
       "source_page": 1,
       "evidence_match": true,
       "validation_status": "needs_course_code_verification",
-      "uncertainty_reason": "Official PDF table does not provide a course code"
+      "uncertainty_reason": "Official PDF table does not provide a course code",
+      "catalog_entry_group_id": "entry_fbbbdf7cdedf3f43"
     },
     {
       "course_code": null,
@@ -604,6 +610,53 @@
         "validation_status": "source_text_match"
       }
     ],
+    "course_count_constraints": [
+      {
+        "constraint_id": "constraint_4b9a79e9e1ed7d69",
+        "kind": "course_equivalence",
+        "course_names": [
+          "海洋生物概論",
+          "鯨豚保育生物學"
+        ],
+        "min_courses": 1,
+        "max_courses": 1,
+        "requirement_group": "elective",
+        "requirement_section": "elective",
+        "source_page": 1,
+        "source_text": "海洋生物概論鯨豚保育生物學",
+        "validation_status": "source_text_match"
+      },
+      {
+        "constraint_id": "constraint_a530c563f8f71621",
+        "kind": "course_equivalence",
+        "course_names": [
+          "PM2.5 氣膠生醫科學",
+          "海洋生物概論"
+        ],
+        "min_courses": 1,
+        "max_courses": 1,
+        "requirement_group": "elective",
+        "requirement_section": "elective",
+        "source_page": 1,
+        "source_text": "PM2.5 氣膠生醫科學海洋生物概論",
+        "validation_status": "source_text_match"
+      },
+      {
+        "constraint_id": "constraint_d771aa19d87281a9",
+        "kind": "course_equivalence",
+        "course_names": [
+          "環境健康大數據資料分析暨視覺化實務",
+          "人人都是科學家"
+        ],
+        "min_courses": 1,
+        "max_courses": 1,
+        "requirement_group": "elective",
+        "requirement_section": "elective",
+        "source_page": 1,
+        "source_text": "環境健康大數據資料分析暨視覺化實務人人都是科學家",
+        "validation_status": "source_text_match"
+      }
+    ],
     "completion_summary": {
       "model_status": "partial",
       "minimum_total_credits": 9.0,
@@ -614,7 +667,14 @@
       "minimum_elective_courses": null,
       "has_conditional_requirements": false,
       "has_manual_requirements": false,
+      "has_completion_manual_requirements": false,
+      "has_certificate_requirements": false,
+      "has_credit_recognition_requirements": false,
       "has_unresolved_conflicts": false
     }
-  }
+  },
+  "institutional_policy_ids": [
+    "nsysu_program_policy_2026_08_16"
+  ],
+  "institutional_policy_applied_rule_ids": []
 }

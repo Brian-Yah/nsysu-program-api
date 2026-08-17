@@ -1,5 +1,5 @@
 {
-  "schema_version": "1.2",
+  "schema_version": "1.3",
   "courses": [
     {
       "course_code": "GLISHACADEMIC",
@@ -1246,36 +1246,91 @@
         ],
         "manual_requirements": [
           {
-            "requirement_id": "requirement_c5615d1752df9120",
+            "requirement_id": "requirement_ae55d061d659f4f3",
             "kind": "manual_verification",
             "requirement_type": "course_eligibility",
-            "description": "為相同課程,不得重複修習",
+            "description": "跨院EAP 3 TECHNOLOGY( ADVANCED LEVEL) 科技英文閱讀 基礎教育中心 ENGLISH READING FOR SCIENCE AND TECHNOLOGY 為相同課程,不得重複修習, 科技英文閱讀(中高級) 3 僅能認列其中一門。",
             "verification_mode": "manual_review",
             "requirement_context": "program_completion",
             "source_page": 1,
-            "source_text": "為相同課程,不得重複修習",
+            "source_text": "跨院EAP 3 TECHNOLOGY( ADVANCED LEVEL) 科技英文閱讀 基礎教育中心 ENGLISH READING FOR SCIENCE AND TECHNOLOGY 為相同課程,不得重複修習, 科技英文閱讀(中高級) 3 僅能認列其中一門。",
             "validation_status": "source_text_match"
           },
           {
-            "requirement_id": "requirement_75079d10d34bfbfb",
+            "requirement_id": "requirement_07f01e9d097a3179",
             "kind": "manual_verification",
             "requirement_type": "course_eligibility",
-            "description": "相同課名以中文授課者,不採計",
+            "description": "IMPROVING 跨院EAP COMMUNICATION SKILLS 3 THROUGH FUNCTIONAL ENGLISH(INTERMEDIATE LEVEL) 通過體驗式學習自信地說英語 SPEAKING ENGLISH WITH 基礎教育中心 3 CONFIDENCE THROUGH EXPERIENTIAL LEARNING 通過體驗式學習自信地說英語 為相同課程,不得重複修習, (中級) 僅能認列其中一門。",
             "verification_mode": "manual_review",
             "requirement_context": "program_completion",
-            "source_page": 5,
-            "source_text": "相同課名以中文授課者,不採計",
+            "source_page": 2,
+            "source_text": "IMPROVING 跨院EAP COMMUNICATION SKILLS 3 THROUGH FUNCTIONAL ENGLISH(INTERMEDIATE LEVEL) 通過體驗式學習自信地說英語 SPEAKING ENGLISH WITH 基礎教育中心 3 CONFIDENCE THROUGH EXPERIENTIAL LEARNING 通過體驗式學習自信地說英語 為相同課程,不得重複修習, (中級) 僅能認列其中一門。",
             "validation_status": "source_text_match"
           },
           {
-            "requirement_id": "requirement_cb82cae63b015617",
+            "requirement_id": "requirement_30d0819042b4bf76",
             "kind": "manual_verification",
             "requirement_type": "course_eligibility",
-            "description": "英語授課者,方得",
+            "description": "從英語課程學習多元文化 DEVELOPING 基礎教育中心 MULTICULTURAL 3 AWARENESS IN ENGLISH CLASSROOM 從英語課程學習多元文化(中高 為相同課程,不得重複修習, 級) 僅能認列其中一門。",
+            "verification_mode": "manual_review",
+            "requirement_context": "program_completion",
+            "source_page": 2,
+            "source_text": "從英語課程學習多元文化 DEVELOPING 基礎教育中心 MULTICULTURAL 3 AWARENESS IN ENGLISH CLASSROOM 從英語課程學習多元文化(中高 為相同課程,不得重複修習, 級) 僅能認列其中一門。",
+            "validation_status": "source_text_match"
+          },
+          {
+            "requirement_id": "requirement_a29f1eff0b21a396",
+            "kind": "manual_verification",
+            "requirement_type": "course_eligibility",
+            "description": "EXPERIENTIAL LEARNING(INTERMEDIATE LEVEL) 通過體驗式學習自信地說英語 跨院 EAP 3 (中高級) 核心課程〈專業模組課程〉學分數:6學分 選 2 修 觀光英語 基礎教育中心 3 TOURISM ENGLISH 成功的英文寫作 為相同課程,不得重複修習, 基礎教育中心 WRITING FOR SUCCESS IN 3 僅能認列其中一門。",
+            "verification_mode": "manual_review",
+            "requirement_context": "program_completion",
+            "source_page": 2,
+            "source_text": "EXPERIENTIAL LEARNING(INTERMEDIATE LEVEL) 通過體驗式學習自信地說英語 跨院 EAP 3 (中高級) 核心課程〈專業模組課程〉學分數:6學分 選 2 修 觀光英語 基礎教育中心 3 TOURISM ENGLISH 成功的英文寫作 為相同課程,不得重複修習, 基礎教育中心 WRITING FOR SUCCESS IN 3 僅能認列其中一門。",
+            "validation_status": "source_text_match"
+          },
+          {
+            "requirement_id": "requirement_fb3da24a4ec59d3f",
+            "kind": "manual_verification",
+            "requirement_type": "course_eligibility",
+            "description": "DEVELOPING 跨院ESP MULTICULTURAL 3 AWARENESS IN ENGLISH CLASSROOM(HIGH- INTERMEDIATE LEVEL) 透過實用性英語增進溝通能力 IMPROVING 基礎教育中心 COMMUNICATION SKILLS 3 THROUGH FUNCTIONAL ENGLISH 透過實用性英語增進溝通能力 為相同課程,不得重複修習, (中級) 僅能認列其中一門。",
+            "verification_mode": "manual_review",
+            "requirement_context": "program_completion",
+            "source_page": 2,
+            "source_text": "DEVELOPING 跨院ESP MULTICULTURAL 3 AWARENESS IN ENGLISH CLASSROOM(HIGH- INTERMEDIATE LEVEL) 透過實用性英語增進溝通能力 IMPROVING 基礎教育中心 COMMUNICATION SKILLS 3 THROUGH FUNCTIONAL ENGLISH 透過實用性英語增進溝通能力 為相同課程,不得重複修習, (中級) 僅能認列其中一門。",
+            "validation_status": "source_text_match"
+          },
+          {
+            "requirement_id": "requirement_42c9215cbf0d1be2",
+            "kind": "manual_verification",
+            "requirement_type": "course_eligibility",
+            "description": "成功的英文寫作(中級) WRITING FOR SUCCESS IN 跨院EAP ENGLISH(INTERMEDIATE LEVEL) 成功的英文寫作(中高級) WRITING FOR SUCCESS IN 跨院EAP ENGLISH (HIGH- INTERMEDIATE LEVEL) 英文商業書信 基礎教育中心 ENGLISH BUSINESS CORRESPONDENCE 英文商業書信(中級) 為相同課程,不得重複修習, 3 ENGLISH BUSINESS 僅能認列其中一門。",
+            "verification_mode": "manual_review",
+            "requirement_context": "program_completion",
+            "source_page": 3,
+            "source_text": "成功的英文寫作(中級) WRITING FOR SUCCESS IN 跨院EAP ENGLISH(INTERMEDIATE LEVEL) 成功的英文寫作(中高級) WRITING FOR SUCCESS IN 跨院EAP ENGLISH (HIGH- INTERMEDIATE LEVEL) 英文商業書信 基礎教育中心 ENGLISH BUSINESS CORRESPONDENCE 英文商業書信(中級) 為相同課程,不得重複修習, 3 ENGLISH BUSINESS 僅能認列其中一門。",
+            "validation_status": "source_text_match"
+          },
+          {
+            "requirement_id": "requirement_db36d8f264de6f96",
+            "kind": "manual_verification",
+            "requirement_type": "course_eligibility",
+            "description": "相同課名以中文授課者,不採計 學程學分。",
             "verification_mode": "manual_review",
             "requirement_context": "program_completion",
             "source_page": 5,
-            "source_text": "英語授課者,方得",
+            "source_text": "相同課名以中文授課者,不採計 學程學分。",
+            "validation_status": "source_text_match"
+          },
+          {
+            "requirement_id": "requirement_ee45d794c660920d",
+            "kind": "manual_verification",
+            "requirement_type": "course_eligibility",
+            "description": "2. 當學期課程開設為英語授課者,方得認列本學程學分。",
+            "verification_mode": "manual_review",
+            "requirement_context": "program_completion",
+            "source_page": 5,
+            "source_text": "2. 當學期課程開設為英語授課者,方得認列本學程學分。",
             "validation_status": "source_text_match"
           }
         ],
@@ -1303,6 +1358,9 @@
           "minimum_elective_courses": null,
           "has_conditional_requirements": false,
           "has_manual_requirements": true,
+          "has_completion_manual_requirements": true,
+          "has_certificate_requirements": false,
+          "has_credit_recognition_requirements": false,
           "has_unresolved_conflicts": false
         }
       },
@@ -2111,25 +2169,25 @@
         ],
         "manual_requirements": [
           {
-            "requirement_id": "requirement_75079d10d34bfbfb",
+            "requirement_id": "requirement_db36d8f264de6f96",
             "kind": "manual_verification",
             "requirement_type": "course_eligibility",
-            "description": "相同課名以中文授課者,不採計",
+            "description": "相同課名以中文授課者,不採計 學程學分。",
             "verification_mode": "manual_review",
             "requirement_context": "program_completion",
             "source_page": 9,
-            "source_text": "相同課名以中文授課者,不採計",
+            "source_text": "相同課名以中文授課者,不採計 學程學分。",
             "validation_status": "source_text_match"
           },
           {
-            "requirement_id": "requirement_cb82cae63b015617",
+            "requirement_id": "requirement_ee45d794c660920d",
             "kind": "manual_verification",
             "requirement_type": "course_eligibility",
-            "description": "英語授課者,方得",
+            "description": "2. 當學期課程開設為英語授課者,方得認列本學程學分。",
             "verification_mode": "manual_review",
             "requirement_context": "program_completion",
             "source_page": 9,
-            "source_text": "英語授課者,方得",
+            "source_text": "2. 當學期課程開設為英語授課者,方得認列本學程學分。",
             "validation_status": "source_text_match"
           }
         ],
@@ -2143,6 +2201,9 @@
           "minimum_elective_courses": null,
           "has_conditional_requirements": false,
           "has_manual_requirements": true,
+          "has_completion_manual_requirements": true,
+          "has_certificate_requirements": false,
+          "has_credit_recognition_requirements": false,
           "has_unresolved_conflicts": false
         }
       },
@@ -2990,6 +3051,9 @@
           "minimum_elective_courses": null,
           "has_conditional_requirements": true,
           "has_manual_requirements": true,
+          "has_completion_manual_requirements": true,
+          "has_certificate_requirements": false,
+          "has_credit_recognition_requirements": false,
           "has_unresolved_conflicts": false
         }
       },
@@ -3767,6 +3831,9 @@
           "minimum_elective_courses": null,
           "has_conditional_requirements": false,
           "has_manual_requirements": false,
+          "has_completion_manual_requirements": false,
+          "has_certificate_requirements": false,
+          "has_credit_recognition_requirements": false,
           "has_unresolved_conflicts": false
         }
       },
@@ -4458,6 +4525,9 @@
           "minimum_elective_courses": null,
           "has_conditional_requirements": false,
           "has_manual_requirements": false,
+          "has_completion_manual_requirements": false,
+          "has_certificate_requirements": false,
+          "has_credit_recognition_requirements": false,
           "has_unresolved_conflicts": false
         }
       },
@@ -5189,58 +5259,58 @@
         ],
         "manual_requirements": [
           {
-            "requirement_id": "requirement_7571c1a48fdf3aa7",
+            "requirement_id": "requirement_2332436932ef20d8",
             "kind": "manual_verification",
             "requirement_type": "course_eligibility",
-            "description": "為相同課程,不得重複修3級)習,僅能認列其中一門",
+            "description": "級) DEVELOPING MULTICULTURAL 跨院ESP AWARENESS IN ENGLISH CLASSROOM(HIGH-INTERMEDIATE LEVEL) 透過實用性英語增進溝通能力 基礎教育中心 THROUGH FUNCTIONAL ENGLISH(INTERMEDIATE LEVEL) 透過實用性英語增進溝通能力(中 為相同課程,不得重複修 3 級) 習,僅能認列其中一門。",
             "verification_mode": "manual_review",
             "requirement_context": "program_completion",
             "source_page": 22,
-            "source_text": "為相同課程,不得重複修3級)習,僅能認列其中一門",
+            "source_text": "級) DEVELOPING MULTICULTURAL 跨院ESP AWARENESS IN ENGLISH CLASSROOM(HIGH-INTERMEDIATE LEVEL) 透過實用性英語增進溝通能力 基礎教育中心 THROUGH FUNCTIONAL ENGLISH(INTERMEDIATE LEVEL) 透過實用性英語增進溝通能力(中 為相同課程,不得重複修 3 級) 習,僅能認列其中一門。",
             "validation_status": "source_text_match"
           },
           {
-            "requirement_id": "requirement_8eda50dece0f25a8",
+            "requirement_id": "requirement_50133000aff4c433",
             "kind": "manual_verification",
             "requirement_type": "course_eligibility",
-            "description": "為相同課程,不得重複修通過體驗式學習自信地說英語(中3習,僅能認列其中一門",
+            "description": "112.5.24第176次教務會議通過 實用英語跨域學程新課程規劃表 22 開課單位 課 程 名 稱 學分數 備註 核 心 課 程 從英語課程學習多元文化 DEVELOPING MULTICULTURAL 基礎教育中心 AWARENESS IN ENGLISH CLASSROOM(HIGH- INTERMEDIATE LEVEL) 為相同課程,不得重複修 從英語課程學習多元文化(中高 3 習,僅能認列其中一門。",
             "verification_mode": "manual_review",
             "requirement_context": "program_completion",
             "source_page": 22,
-            "source_text": "為相同課程,不得重複修通過體驗式學習自信地說英語(中3習,僅能認列其中一門",
+            "source_text": "112.5.24第176次教務會議通過 實用英語跨域學程新課程規劃表 22 開課單位 課 程 名 稱 學分數 備註 核 心 課 程 從英語課程學習多元文化 DEVELOPING MULTICULTURAL 基礎教育中心 AWARENESS IN ENGLISH CLASSROOM(HIGH- INTERMEDIATE LEVEL) 為相同課程,不得重複修 從英語課程學習多元文化(中高 3 習,僅能認列其中一門。",
             "validation_status": "source_text_match"
           },
           {
-            "requirement_id": "requirement_e929412de423f968",
+            "requirement_id": "requirement_f6aec860affe070f",
             "kind": "manual_verification",
             "requirement_type": "course_eligibility",
-            "description": "為相同課程,不得重複修從英語課程學習多元文化(中高3習,僅能認列其中一門",
+            "description": "跨院EAP IMPROVING COMMUNICATION SKILLS THROUGH FUNCTIONAL ENGLISH(INTERMEDIATE LEVEL) 通過體驗式學習自信地說英語 SPEAKING ENGLISH WITH CONFIDENCE THROUGH 基礎教育中心 3 EXPERIENTIAL LEARNING(INTERMEDIATE LEVEL) 為相同課程,不得重複修 通過體驗式學習自信地說英語(中 3 習,僅能認列其中一門 級) SPEAKING ENGLISH WITH 跨院EAP CONFIDENCE THROUGH EXPERIENTIAL LEARNING(INTERMEDIATE LEVEL) 英文學術寫作 基礎教育中心 3 ENGLISH ACADEMIC WRITING",
             "verification_mode": "manual_review",
             "requirement_context": "program_completion",
             "source_page": 22,
-            "source_text": "為相同課程,不得重複修從英語課程學習多元文化(中高3習,僅能認列其中一門",
+            "source_text": "跨院EAP IMPROVING COMMUNICATION SKILLS THROUGH FUNCTIONAL ENGLISH(INTERMEDIATE LEVEL) 通過體驗式學習自信地說英語 SPEAKING ENGLISH WITH CONFIDENCE THROUGH 基礎教育中心 3 EXPERIENTIAL LEARNING(INTERMEDIATE LEVEL) 為相同課程,不得重複修 通過體驗式學習自信地說英語(中 3 習,僅能認列其中一門 級) SPEAKING ENGLISH WITH 跨院EAP CONFIDENCE THROUGH EXPERIENTIAL LEARNING(INTERMEDIATE LEVEL) 英文學術寫作 基礎教育中心 3 ENGLISH ACADEMIC WRITING",
             "validation_status": "source_text_match"
           },
           {
-            "requirement_id": "requirement_5efade6ab5c853a3",
+            "requirement_id": "requirement_45c94078d267da94",
             "kind": "manual_verification",
             "requirement_type": "course_eligibility",
-            "description": "為相同課程,不得重複修英文商業書信(中級)3習,僅能認列其中一門",
+            "description": "WRITING FOR SUCCESS IN 跨院EAP ENGLISH(INTERMEDIATE LEVEL) 高雄社會與文化 博雅教育中心 KAOHSIUNG SOCIETY AND 3 CULTURE 基礎教育中心 科技英文閱讀 ENGLISH READING FOR 3 SCIENCE AND TECHNOLOGY 科技英文閱讀(中高級) 3 相同課程,不得重複修 ENGLISH READING FOR 習,僅能認列其中一門 跨院EAP SCIENCE AND TECHNOLOGY (HIGH-INTERMEDIATE LEVEL) 英文商業書信 基礎教育中心 ENGLISH BUSINESS CORRESPONDENCE 為相同課程,不得重複修 英文商業書信(中級) 3 習,僅能認列其中一門。",
             "verification_mode": "manual_review",
             "requirement_context": "program_completion",
             "source_page": 23,
-            "source_text": "為相同課程,不得重複修英文商業書信(中級)3習,僅能認列其中一門",
+            "source_text": "WRITING FOR SUCCESS IN 跨院EAP ENGLISH(INTERMEDIATE LEVEL) 高雄社會與文化 博雅教育中心 KAOHSIUNG SOCIETY AND 3 CULTURE 基礎教育中心 科技英文閱讀 ENGLISH READING FOR 3 SCIENCE AND TECHNOLOGY 科技英文閱讀(中高級) 3 相同課程,不得重複修 ENGLISH READING FOR 習,僅能認列其中一門 跨院EAP SCIENCE AND TECHNOLOGY (HIGH-INTERMEDIATE LEVEL) 英文商業書信 基礎教育中心 ENGLISH BUSINESS CORRESPONDENCE 為相同課程,不得重複修 英文商業書信(中級) 3 習,僅能認列其中一門。",
             "validation_status": "source_text_match"
           },
           {
-            "requirement_id": "requirement_aa722f88b60164d9",
+            "requirement_id": "requirement_d8e33a368dd63ed1",
             "kind": "manual_verification",
             "requirement_type": "course_eligibility",
-            "description": "為相同課程,不得重複修成功的英語寫作(中級)3習,僅能認列其中一門",
+            "description": "增進跨文化溝通技能(中高級) 3 ENHANCING CROSS- 跨院 EAP CULTURAL COMMUNICATION SKILLS (HIGH- INTERMEDIATE LEVEL) 跨院 EAP 演說與辯論(高級) 3 PUBLIC SPEECH AND DEBATE (ADVANCED LEVEL) 核心課程〈專業模組課程〉學分數:6學分 選 23 修 科技英文 英語文(選) ENGLISH FOR SCIENCE AND 3 TECHNOLOGY 觀光英語 基礎教育中心 3 TOURISM ENGLISH 成功的英文寫作 基礎教育中心 WRITING FOR SUCCESS IN 3 ENGLISH 為相同課程,不得重複修 成功的英語寫作(中級) 3 習,僅能認列其中一門。",
             "verification_mode": "manual_review",
             "requirement_context": "program_completion",
             "source_page": 23,
-            "source_text": "為相同課程,不得重複修成功的英語寫作(中級)3習,僅能認列其中一門",
+            "source_text": "增進跨文化溝通技能(中高級) 3 ENHANCING CROSS- 跨院 EAP CULTURAL COMMUNICATION SKILLS (HIGH- INTERMEDIATE LEVEL) 跨院 EAP 演說與辯論(高級) 3 PUBLIC SPEECH AND DEBATE (ADVANCED LEVEL) 核心課程〈專業模組課程〉學分數:6學分 選 23 修 科技英文 英語文(選) ENGLISH FOR SCIENCE AND 3 TECHNOLOGY 觀光英語 基礎教育中心 3 TOURISM ENGLISH 成功的英文寫作 基礎教育中心 WRITING FOR SUCCESS IN 3 ENGLISH 為相同課程,不得重複修 成功的英語寫作(中級) 3 習,僅能認列其中一門。",
             "validation_status": "source_text_match"
           }
         ],
@@ -5254,6 +5324,9 @@
           "minimum_elective_courses": null,
           "has_conditional_requirements": false,
           "has_manual_requirements": true,
+          "has_completion_manual_requirements": true,
+          "has_certificate_requirements": false,
+          "has_credit_recognition_requirements": false,
           "has_unresolved_conflicts": false
         }
       },
@@ -5579,14 +5652,36 @@
         ],
         "manual_requirements": [
           {
-            "requirement_id": "requirement_c5615d1752df9120",
+            "requirement_id": "requirement_26cac6fe8914b816",
             "kind": "manual_verification",
             "requirement_type": "course_eligibility",
-            "description": "為相同課程,不得重複修習",
+            "description": "DEVELOPING 跨院 ESP MULTICULTURAL AWARENESS IN ENGLISH CLASSROOM(HIGH- INTERMEDIATE LEVEL) 透過實用性英語增進溝通能力 IMPROVING 基礎教育中心 COMMUNICATION SKILLS THROUGH FUNCTIONAL ENGLISH 透過實用性英語增進溝通能力 為相同課程,不得重複修習, 3 (中級) 僅能認列其中一門。",
             "verification_mode": "manual_review",
             "requirement_context": "program_completion",
             "source_page": 26,
-            "source_text": "為相同課程,不得重複修習",
+            "source_text": "DEVELOPING 跨院 ESP MULTICULTURAL AWARENESS IN ENGLISH CLASSROOM(HIGH- INTERMEDIATE LEVEL) 透過實用性英語增進溝通能力 IMPROVING 基礎教育中心 COMMUNICATION SKILLS THROUGH FUNCTIONAL ENGLISH 透過實用性英語增進溝通能力 為相同課程,不得重複修習, 3 (中級) 僅能認列其中一門。",
+            "validation_status": "source_text_match"
+          },
+          {
+            "requirement_id": "requirement_eadd853229fabff6",
+            "kind": "manual_verification",
+            "requirement_type": "course_eligibility",
+            "description": "111.12.5 第174次教務會議通過 實用英語跨域學程新課程規劃表 26 開課單位 課 程 名 稱 學分數 備註 核 心 課 程 從英語課程學習多元文化 DEVELOPING 基礎教育中心 MULTICULTURAL AWARENESS IN ENGLISH CLASSROOM 從英語課程學習多元文化(中 為相同課程,不得重複修習, 3 高級) 僅能認列其中一門。",
+            "verification_mode": "manual_review",
+            "requirement_context": "program_completion",
+            "source_page": 26,
+            "source_text": "111.12.5 第174次教務會議通過 實用英語跨域學程新課程規劃表 26 開課單位 課 程 名 稱 學分數 備註 核 心 課 程 從英語課程學習多元文化 DEVELOPING 基礎教育中心 MULTICULTURAL AWARENESS IN ENGLISH CLASSROOM 從英語課程學習多元文化(中 為相同課程,不得重複修習, 3 高級) 僅能認列其中一門。",
+            "validation_status": "source_text_match"
+          },
+          {
+            "requirement_id": "requirement_e595aede76f8d2a6",
+            "kind": "manual_verification",
+            "requirement_type": "course_eligibility",
+            "description": "核心課程〈專業模組課程〉學分數:6學分 27 科技英文 英語文(選) ENGLISH FOR SCIENCE AND TECHNOLOGY 觀光英語 基礎教育中心 3 TOURISM ENGLISH 成功的英文寫作 基礎教育中心 WRITING FOR SUCCESS IN 3 ENGLISH 高雄社會與文化 博雅教育中心 KAOHSIUNG SOCIETY AND 3 CULTURE 基礎教育中心 科技英文閱讀 ENGLISH READING FOR 3 SCIENCE AND TECHNOLOGY 英文商業書信 基礎教育中心 ENGLISH BUSINESS CORRESPONDENCE 為相同課程,不得重複修習, 英文商業書信(中級) 3 僅能認列其中一門。",
+            "verification_mode": "manual_review",
+            "requirement_context": "program_completion",
+            "source_page": 27,
+            "source_text": "核心課程〈專業模組課程〉學分數:6學分 27 科技英文 英語文(選) ENGLISH FOR SCIENCE AND TECHNOLOGY 觀光英語 基礎教育中心 3 TOURISM ENGLISH 成功的英文寫作 基礎教育中心 WRITING FOR SUCCESS IN 3 ENGLISH 高雄社會與文化 博雅教育中心 KAOHSIUNG SOCIETY AND 3 CULTURE 基礎教育中心 科技英文閱讀 ENGLISH READING FOR 3 SCIENCE AND TECHNOLOGY 英文商業書信 基礎教育中心 ENGLISH BUSINESS CORRESPONDENCE 為相同課程,不得重複修習, 英文商業書信(中級) 3 僅能認列其中一門。",
             "validation_status": "source_text_match"
           }
         ],
@@ -5614,6 +5709,9 @@
           "minimum_elective_courses": null,
           "has_conditional_requirements": false,
           "has_manual_requirements": true,
+          "has_completion_manual_requirements": true,
+          "has_certificate_requirements": false,
+          "has_credit_recognition_requirements": false,
           "has_unresolved_conflicts": false
         }
       },
@@ -5911,6 +6009,9 @@
           "minimum_elective_courses": null,
           "has_conditional_requirements": false,
           "has_manual_requirements": false,
+          "has_completion_manual_requirements": false,
+          "has_certificate_requirements": false,
+          "has_credit_recognition_requirements": false,
           "has_unresolved_conflicts": false
         }
       },
@@ -6129,6 +6230,9 @@
           "minimum_elective_courses": null,
           "has_conditional_requirements": false,
           "has_manual_requirements": false,
+          "has_completion_manual_requirements": false,
+          "has_certificate_requirements": false,
+          "has_credit_recognition_requirements": false,
           "has_unresolved_conflicts": false
         }
       },
@@ -7007,36 +7111,91 @@
     ],
     "manual_requirements": [
       {
-        "requirement_id": "requirement_c5615d1752df9120",
+        "requirement_id": "requirement_ae55d061d659f4f3",
         "kind": "manual_verification",
         "requirement_type": "course_eligibility",
-        "description": "為相同課程,不得重複修習",
+        "description": "跨院EAP 3 TECHNOLOGY( ADVANCED LEVEL) 科技英文閱讀 基礎教育中心 ENGLISH READING FOR SCIENCE AND TECHNOLOGY 為相同課程,不得重複修習, 科技英文閱讀(中高級) 3 僅能認列其中一門。",
         "verification_mode": "manual_review",
         "requirement_context": "program_completion",
         "source_page": 1,
-        "source_text": "為相同課程,不得重複修習",
+        "source_text": "跨院EAP 3 TECHNOLOGY( ADVANCED LEVEL) 科技英文閱讀 基礎教育中心 ENGLISH READING FOR SCIENCE AND TECHNOLOGY 為相同課程,不得重複修習, 科技英文閱讀(中高級) 3 僅能認列其中一門。",
         "validation_status": "source_text_match"
       },
       {
-        "requirement_id": "requirement_75079d10d34bfbfb",
+        "requirement_id": "requirement_07f01e9d097a3179",
         "kind": "manual_verification",
         "requirement_type": "course_eligibility",
-        "description": "相同課名以中文授課者,不採計",
+        "description": "IMPROVING 跨院EAP COMMUNICATION SKILLS 3 THROUGH FUNCTIONAL ENGLISH(INTERMEDIATE LEVEL) 通過體驗式學習自信地說英語 SPEAKING ENGLISH WITH 基礎教育中心 3 CONFIDENCE THROUGH EXPERIENTIAL LEARNING 通過體驗式學習自信地說英語 為相同課程,不得重複修習, (中級) 僅能認列其中一門。",
         "verification_mode": "manual_review",
         "requirement_context": "program_completion",
-        "source_page": 5,
-        "source_text": "相同課名以中文授課者,不採計",
+        "source_page": 2,
+        "source_text": "IMPROVING 跨院EAP COMMUNICATION SKILLS 3 THROUGH FUNCTIONAL ENGLISH(INTERMEDIATE LEVEL) 通過體驗式學習自信地說英語 SPEAKING ENGLISH WITH 基礎教育中心 3 CONFIDENCE THROUGH EXPERIENTIAL LEARNING 通過體驗式學習自信地說英語 為相同課程,不得重複修習, (中級) 僅能認列其中一門。",
         "validation_status": "source_text_match"
       },
       {
-        "requirement_id": "requirement_cb82cae63b015617",
+        "requirement_id": "requirement_30d0819042b4bf76",
         "kind": "manual_verification",
         "requirement_type": "course_eligibility",
-        "description": "英語授課者,方得",
+        "description": "從英語課程學習多元文化 DEVELOPING 基礎教育中心 MULTICULTURAL 3 AWARENESS IN ENGLISH CLASSROOM 從英語課程學習多元文化(中高 為相同課程,不得重複修習, 級) 僅能認列其中一門。",
+        "verification_mode": "manual_review",
+        "requirement_context": "program_completion",
+        "source_page": 2,
+        "source_text": "從英語課程學習多元文化 DEVELOPING 基礎教育中心 MULTICULTURAL 3 AWARENESS IN ENGLISH CLASSROOM 從英語課程學習多元文化(中高 為相同課程,不得重複修習, 級) 僅能認列其中一門。",
+        "validation_status": "source_text_match"
+      },
+      {
+        "requirement_id": "requirement_a29f1eff0b21a396",
+        "kind": "manual_verification",
+        "requirement_type": "course_eligibility",
+        "description": "EXPERIENTIAL LEARNING(INTERMEDIATE LEVEL) 通過體驗式學習自信地說英語 跨院 EAP 3 (中高級) 核心課程〈專業模組課程〉學分數:6學分 選 2 修 觀光英語 基礎教育中心 3 TOURISM ENGLISH 成功的英文寫作 為相同課程,不得重複修習, 基礎教育中心 WRITING FOR SUCCESS IN 3 僅能認列其中一門。",
+        "verification_mode": "manual_review",
+        "requirement_context": "program_completion",
+        "source_page": 2,
+        "source_text": "EXPERIENTIAL LEARNING(INTERMEDIATE LEVEL) 通過體驗式學習自信地說英語 跨院 EAP 3 (中高級) 核心課程〈專業模組課程〉學分數:6學分 選 2 修 觀光英語 基礎教育中心 3 TOURISM ENGLISH 成功的英文寫作 為相同課程,不得重複修習, 基礎教育中心 WRITING FOR SUCCESS IN 3 僅能認列其中一門。",
+        "validation_status": "source_text_match"
+      },
+      {
+        "requirement_id": "requirement_fb3da24a4ec59d3f",
+        "kind": "manual_verification",
+        "requirement_type": "course_eligibility",
+        "description": "DEVELOPING 跨院ESP MULTICULTURAL 3 AWARENESS IN ENGLISH CLASSROOM(HIGH- INTERMEDIATE LEVEL) 透過實用性英語增進溝通能力 IMPROVING 基礎教育中心 COMMUNICATION SKILLS 3 THROUGH FUNCTIONAL ENGLISH 透過實用性英語增進溝通能力 為相同課程,不得重複修習, (中級) 僅能認列其中一門。",
+        "verification_mode": "manual_review",
+        "requirement_context": "program_completion",
+        "source_page": 2,
+        "source_text": "DEVELOPING 跨院ESP MULTICULTURAL 3 AWARENESS IN ENGLISH CLASSROOM(HIGH- INTERMEDIATE LEVEL) 透過實用性英語增進溝通能力 IMPROVING 基礎教育中心 COMMUNICATION SKILLS 3 THROUGH FUNCTIONAL ENGLISH 透過實用性英語增進溝通能力 為相同課程,不得重複修習, (中級) 僅能認列其中一門。",
+        "validation_status": "source_text_match"
+      },
+      {
+        "requirement_id": "requirement_42c9215cbf0d1be2",
+        "kind": "manual_verification",
+        "requirement_type": "course_eligibility",
+        "description": "成功的英文寫作(中級) WRITING FOR SUCCESS IN 跨院EAP ENGLISH(INTERMEDIATE LEVEL) 成功的英文寫作(中高級) WRITING FOR SUCCESS IN 跨院EAP ENGLISH (HIGH- INTERMEDIATE LEVEL) 英文商業書信 基礎教育中心 ENGLISH BUSINESS CORRESPONDENCE 英文商業書信(中級) 為相同課程,不得重複修習, 3 ENGLISH BUSINESS 僅能認列其中一門。",
+        "verification_mode": "manual_review",
+        "requirement_context": "program_completion",
+        "source_page": 3,
+        "source_text": "成功的英文寫作(中級) WRITING FOR SUCCESS IN 跨院EAP ENGLISH(INTERMEDIATE LEVEL) 成功的英文寫作(中高級) WRITING FOR SUCCESS IN 跨院EAP ENGLISH (HIGH- INTERMEDIATE LEVEL) 英文商業書信 基礎教育中心 ENGLISH BUSINESS CORRESPONDENCE 英文商業書信(中級) 為相同課程,不得重複修習, 3 ENGLISH BUSINESS 僅能認列其中一門。",
+        "validation_status": "source_text_match"
+      },
+      {
+        "requirement_id": "requirement_db36d8f264de6f96",
+        "kind": "manual_verification",
+        "requirement_type": "course_eligibility",
+        "description": "相同課名以中文授課者,不採計 學程學分。",
         "verification_mode": "manual_review",
         "requirement_context": "program_completion",
         "source_page": 5,
-        "source_text": "英語授課者,方得",
+        "source_text": "相同課名以中文授課者,不採計 學程學分。",
+        "validation_status": "source_text_match"
+      },
+      {
+        "requirement_id": "requirement_ee45d794c660920d",
+        "kind": "manual_verification",
+        "requirement_type": "course_eligibility",
+        "description": "2. 當學期課程開設為英語授課者,方得認列本學程學分。",
+        "verification_mode": "manual_review",
+        "requirement_context": "program_completion",
+        "source_page": 5,
+        "source_text": "2. 當學期課程開設為英語授課者,方得認列本學程學分。",
         "validation_status": "source_text_match"
       }
     ],
@@ -7064,6 +7223,9 @@
       "minimum_elective_courses": null,
       "has_conditional_requirements": false,
       "has_manual_requirements": true,
+      "has_completion_manual_requirements": true,
+      "has_certificate_requirements": false,
+      "has_credit_recognition_requirements": false,
       "has_unresolved_conflicts": false
     }
   }

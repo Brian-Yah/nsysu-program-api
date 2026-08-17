@@ -13,6 +13,17 @@
     "status": {"enum": ["active", "discontinued", "suspended", "unknown"]},
     "academic_version": {"type": "string", "pattern": "^[0-9]{3}-(?:1|2|S)$"},
     "review_status": {"enum": ["source_only", "needs_review", "ai_approved", "approved", "rejected"]},
+    "institutional_policy_ids": {
+      "type": "array",
+      "items": {"type": "string", "minLength": 1},
+      "minItems": 1,
+      "uniqueItems": true
+    },
+    "institutional_policy_applied_rule_ids": {
+      "type": "array",
+      "items": {"type": "string", "minLength": 1},
+      "uniqueItems": true
+    },
     "review": {"type": "object"},
     "source_pdf": {"type": ["string", "null"], "format": "uri"},
     "source": {
@@ -112,6 +123,7 @@
       "properties": {
         "course_code": {"type": ["string", "null"]},
         "catalog_entry_id": {"type": "string", "pattern": "^entry_[a-f0-9]{16}(?:_[1-9][0-9]*)?$"},
+        "catalog_entry_group_id": {"type": "string", "pattern": "^entry_[a-f0-9]{16}(?:_[1-9][0-9]*)?$"},
         "opening_units": {"type": "array", "items": {"type": "string"}, "minItems": 1},
         "opening_unit_snapshot": {"type": "string"},
         "course_name_snapshot": {"type": "string", "minLength": 1},
@@ -266,7 +278,7 @@
         {"if": {"properties": {"kind": {"const": "catalog_entries"}}}, "then": {"required": ["catalog_entry_ids"]}}
       ],
       "properties": {
-        "kind": {"enum": ["program", "catalog_filter", "requirement_labels", "outside_home_department", "course_eligibility", "taica_courses", "recognized_similar_courses", "cross_program_recognition", "course_attributes", "opening_units", "program_course_names", "catalog_entries"]},
+        "kind": {"enum": ["program", "professional_module", "catalog_filter", "requirement_labels", "outside_home_department", "course_eligibility", "taica_courses", "recognized_similar_courses", "cross_program_recognition", "course_attributes", "opening_units", "program_course_names", "catalog_entries"]},
         "requirement_groups": {
           "type": "array",
           "items": {"enum": ["core", "elective", "unspecified"]},
@@ -312,7 +324,7 @@
         "recognition_required": {"type": "boolean"},
         "student_categories": {
           "type": "array",
-          "items": {"enum": ["cross_college_bachelor"]},
+          "items": {"enum": ["cross_college_bachelor", "general_student", "double_major_or_minor_student"]},
           "minItems": 1,
           "uniqueItems": true
         },
@@ -346,7 +358,7 @@
     "completionSummary": {
       "type": "object",
       "additionalProperties": false,
-      "required": ["model_status", "minimum_total_credits", "minimum_core_credits", "maximum_core_credits", "minimum_elective_credits", "minimum_core_courses", "minimum_elective_courses", "has_conditional_requirements", "has_manual_requirements", "has_unresolved_conflicts"],
+      "required": ["model_status", "minimum_total_credits", "minimum_core_credits", "maximum_core_credits", "minimum_elective_credits", "minimum_core_courses", "minimum_elective_courses", "has_conditional_requirements", "has_manual_requirements", "has_completion_manual_requirements", "has_certificate_requirements", "has_credit_recognition_requirements", "has_unresolved_conflicts"],
       "properties": {
         "model_status": {"enum": ["complete", "partial", "conflicted"]},
         "minimum_total_credits": {"type": ["number", "null"], "minimum": 0},
@@ -357,6 +369,9 @@
         "minimum_elective_courses": {"type": ["integer", "null"], "minimum": 1},
         "has_conditional_requirements": {"type": "boolean"},
         "has_manual_requirements": {"type": "boolean"},
+        "has_completion_manual_requirements": {"type": "boolean"},
+        "has_certificate_requirements": {"type": "boolean"},
+        "has_credit_recognition_requirements": {"type": "boolean"},
         "has_unresolved_conflicts": {"type": "boolean"}
       }
     },
@@ -381,8 +396,14 @@
     "creditConstraint": {
       "type": "object",
       "additionalProperties": false,
-      "required": ["constraint_id", "kind", "scope", "requirement_context", "source_page", "source_text", "validation_status"],
+      "required": ["constraint_id", "kind", "scope", "requirement_context", "source_text", "validation_status"],
       "allOf": [
+        {
+          "anyOf": [
+            {"required": ["source_page"]},
+            {"required": ["source_url"]}
+          ]
+        },
         {
           "if": {"properties": {"kind": {"const": "minimum_credits"}}},
           "then": {"required": ["minimum_credits"]}
@@ -405,8 +426,10 @@
         "excess_credit_destination": {"enum": ["program_total", "elective"]},
         "minimum_qualifying_courses": {"type": "integer", "minimum": 1},
         "minimum_credits_per_qualifying_course": {"type": "number", "minimum": 0},
-        "requirement_context": {"enum": ["program_completion", "certificate"]},
+        "requirement_context": {"enum": ["program_completion", "certificate", "credit_recognition", "program_application"]},
         "source_page": {"type": "integer", "minimum": 1},
+        "source_url": {"type": "string", "format": "uri"},
+        "source_kind": {"enum": ["program_pdf", "institutional_catalog"]},
         "source_text": {"type": "string", "minLength": 1},
         "validation_status": {"enum": ["source_text_match", "human_verified"]}
       }
@@ -429,7 +452,7 @@
         "requirement_type": {"enum": ["activity_hours", "activity_count", "workshop_attendance", "service_learning", "report", "certificate", "prerequisite", "approval", "recognition", "student_condition", "course_eligibility", "credit_cap", "curriculum_exception", "other"]},
         "description": {"type": "string", "minLength": 1},
         "verification_mode": {"const": "manual_review"},
-        "requirement_context": {"enum": ["program_completion", "certificate"]},
+        "requirement_context": {"enum": ["program_completion", "certificate", "credit_recognition", "program_application"]},
         "minimum_count": {"type": "integer", "minimum": 1},
         "minimum_hours": {"type": "number", "exclusiveMinimum": 0},
         "satisfaction": {"enum": ["all_of", "any_of"]},

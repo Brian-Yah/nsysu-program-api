@@ -1,5 +1,5 @@
 {
-  "schema_version": "1.2",
+  "schema_version": "1.3",
   "courses": [],
   "credit_mentions": [
     15,
@@ -1442,6 +1442,9 @@
           "minimum_elective_courses": null,
           "has_conditional_requirements": false,
           "has_manual_requirements": false,
+          "has_completion_manual_requirements": false,
+          "has_certificate_requirements": false,
+          "has_credit_recognition_requirements": false,
           "has_unresolved_conflicts": false
         }
       },
@@ -2857,6 +2860,9 @@
           "minimum_elective_courses": null,
           "has_conditional_requirements": false,
           "has_manual_requirements": false,
+          "has_completion_manual_requirements": false,
+          "has_certificate_requirements": false,
+          "has_credit_recognition_requirements": false,
           "has_unresolved_conflicts": false
         }
       },
@@ -4072,25 +4078,25 @@
         ],
         "manual_requirements": [
           {
-            "requirement_id": "requirement_01a251924b9cca6d",
-            "kind": "manual_verification",
-            "requirement_type": "certificate",
-            "description": "申請核發學程證書",
-            "verification_mode": "manual_review",
-            "requirement_context": "certificate",
-            "source_page": 9,
-            "source_text": "申請核發學程證書",
-            "validation_status": "source_text_match"
-          },
-          {
-            "requirement_id": "requirement_8f493dd7ea7a259e",
+            "requirement_id": "requirement_5dbbdefba22d6e67",
             "kind": "manual_verification",
             "requirement_type": "student_condition",
-            "description": "雙主修及輔系所開設之課程至多",
+            "description": "其中屬於就讀系所、雙主修及輔系所開設之課程至多 以9學分計;",
             "verification_mode": "manual_review",
             "requirement_context": "program_completion",
             "source_page": 9,
-            "source_text": "雙主修及輔系所開設之課程至多",
+            "source_text": "其中屬於就讀系所、雙主修及輔系所開設之課程至多 以9學分計;",
+            "validation_status": "source_text_match"
+          },
+          {
+            "requirement_id": "requirement_eb2514913f2dd196",
+            "kind": "manual_verification",
+            "requirement_type": "certificate",
+            "description": "三、修滿學程規定之科目及學分者,依本校相關規定申請核發學程證書。",
+            "verification_mode": "manual_review",
+            "requirement_context": "certificate",
+            "source_page": 9,
+            "source_text": "三、修滿學程規定之科目及學分者,依本校相關規定申請核發學程證書。",
             "validation_status": "source_text_match"
           }
         ],
@@ -4104,6 +4110,9 @@
           "minimum_elective_courses": null,
           "has_conditional_requirements": true,
           "has_manual_requirements": true,
+          "has_completion_manual_requirements": true,
+          "has_certificate_requirements": true,
+          "has_credit_recognition_requirements": false,
           "has_unresolved_conflicts": false
         }
       },
@@ -5505,25 +5514,25 @@
         ],
         "manual_requirements": [
           {
-            "requirement_id": "requirement_01a251924b9cca6d",
-            "kind": "manual_verification",
-            "requirement_type": "certificate",
-            "description": "申請核發學程證書",
-            "verification_mode": "manual_review",
-            "requirement_context": "certificate",
-            "source_page": 13,
-            "source_text": "申請核發學程證書",
-            "validation_status": "source_text_match"
-          },
-          {
-            "requirement_id": "requirement_8f493dd7ea7a259e",
+            "requirement_id": "requirement_be1a24519d6583a8",
             "kind": "manual_verification",
             "requirement_type": "student_condition",
-            "description": "雙主修及輔系所開設之課程至多",
+            "description": "其中屬於就讀系所、雙主修及 輔系所開設之課程至多以 9 學分計;",
             "verification_mode": "manual_review",
             "requirement_context": "program_completion",
             "source_page": 13,
-            "source_text": "雙主修及輔系所開設之課程至多",
+            "source_text": "其中屬於就讀系所、雙主修及 輔系所開設之課程至多以 9 學分計;",
+            "validation_status": "source_text_match"
+          },
+          {
+            "requirement_id": "requirement_eb2514913f2dd196",
+            "kind": "manual_verification",
+            "requirement_type": "certificate",
+            "description": "三、修滿學程規定之科目及學分者,依本校相關規定申請核發學程證書。",
+            "verification_mode": "manual_review",
+            "requirement_context": "certificate",
+            "source_page": 13,
+            "source_text": "三、修滿學程規定之科目及學分者,依本校相關規定申請核發學程證書。",
             "validation_status": "source_text_match"
           }
         ],
@@ -5537,6 +5546,9 @@
           "minimum_elective_courses": null,
           "has_conditional_requirements": true,
           "has_manual_requirements": true,
+          "has_completion_manual_requirements": true,
+          "has_certificate_requirements": true,
+          "has_credit_recognition_requirements": false,
           "has_unresolved_conflicts": false
         }
       },
@@ -6972,6 +6984,9 @@
       "minimum_elective_courses": null,
       "has_conditional_requirements": false,
       "has_manual_requirements": false,
+      "has_completion_manual_requirements": false,
+      "has_certificate_requirements": false,
+      "has_credit_recognition_requirements": false,
       "has_unresolved_conflicts": false
     }
   }

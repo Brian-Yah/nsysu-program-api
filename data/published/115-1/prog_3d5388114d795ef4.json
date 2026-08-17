@@ -23,7 +23,7 @@
       "last_modified": "Thu, 13 Aug 2026 06:20:58 GMT",
       "content_length": 136856
     },
-    "parser_version": "0.3.0",
+    "parser_version": "0.4.0",
     "extractor_versions": {
       "pypdf": "6.10.0",
       "pdfplumber": "0.11.9"
@@ -40,6 +40,7 @@
     {
       "course_code": null,
       "catalog_entry_id": "entry_97dd814f49b0118e",
+      "catalog_entry_group_id": "entry_97dd814f49b0118e",
       "opening_units": [
         "臺灣大專院校人工智慧學程聯盟"
       ],
@@ -58,7 +59,7 @@
     },
     {
       "course_code": null,
-      "catalog_entry_id": "entry_97dd814f49b0118e",
+      "catalog_entry_id": "entry_97dd814f49b0118e_2",
       "opening_units": [
         "資訊工程學系"
       ],
@@ -69,15 +70,17 @@
       "requirement_section": "unspecified",
       "requirement_label": "生成式人工智慧導論(1)",
       "program_course_name_snapshot": "生成式人工智慧導論",
-      "notes": "人工智慧導論 每一向度至少需修習一門課程。",
+      "notes": "人工智慧導論",
       "source_page": 1,
       "evidence_match": true,
       "validation_status": "needs_course_code_verification",
-      "uncertainty_reason": "Official PDF table does not provide a course code"
+      "uncertainty_reason": "Official PDF table does not provide a course code",
+      "catalog_entry_group_id": "entry_97dd814f49b0118e"
     },
     {
       "course_code": null,
       "catalog_entry_id": "entry_3a80233ac225aeff",
+      "catalog_entry_group_id": "entry_3a80233ac225aeff",
       "opening_units": [
         "臺灣大專院校人工智慧學程聯盟"
       ],
@@ -97,6 +100,7 @@
     {
       "course_code": null,
       "catalog_entry_id": "entry_c1e87bc3b0055a7e",
+      "catalog_entry_group_id": "entry_c1e87bc3b0055a7e",
       "opening_units": [
         "臺灣大專院校人工智慧學程聯盟"
       ],
@@ -116,6 +120,7 @@
     {
       "course_code": null,
       "catalog_entry_id": "entry_07d1898272b82810",
+      "catalog_entry_group_id": "entry_07d1898272b82810",
       "opening_units": [
         "臺灣大專院校人工智慧學程聯盟"
       ],
@@ -134,7 +139,7 @@
     },
     {
       "course_code": null,
-      "catalog_entry_id": "entry_07d1898272b82810",
+      "catalog_entry_id": "entry_07d1898272b82810_2",
       "opening_units": [
         "電機工程學系碩士班"
       ],
@@ -145,15 +150,17 @@
       "requirement_section": "unspecified",
       "requirement_label": "智慧人機互動(2or3)",
       "program_course_name_snapshot": "互動設計與虛擬實境",
-      "notes": "3D內容生成與體感互動 每一向度至少需修習一門課程。",
+      "notes": "3D內容生成與體感互動",
       "source_page": 1,
       "evidence_match": false,
       "validation_status": "needs_course_code_verification",
-      "uncertainty_reason": "Official PDF table does not provide a course code"
+      "uncertainty_reason": "Official PDF table does not provide a course code",
+      "catalog_entry_group_id": "entry_07d1898272b82810"
     },
     {
       "course_code": null,
       "catalog_entry_id": "entry_ff85748568cb48ca",
+      "catalog_entry_group_id": "entry_ff85748568cb48ca",
       "opening_units": [
         "臺灣大專院校人工智慧學程聯盟"
       ],
@@ -172,7 +179,7 @@
     },
     {
       "course_code": null,
-      "catalog_entry_id": "entry_ff85748568cb48ca",
+      "catalog_entry_id": "entry_ff85748568cb48ca_2",
       "opening_units": [
         "資訊工程學系"
       ],
@@ -183,15 +190,17 @@
       "requirement_section": "unspecified",
       "requirement_label": "資料探勘與應用(2or3or4)",
       "program_course_name_snapshot": "資料探勘",
-      "notes": "每一向度至少需修習一門課程。",
+      "notes": "",
       "source_page": 1,
       "evidence_match": true,
       "validation_status": "needs_course_code_verification",
-      "uncertainty_reason": "Official PDF table does not provide a course code"
+      "uncertainty_reason": "Official PDF table does not provide a course code",
+      "catalog_entry_group_id": "entry_ff85748568cb48ca"
     },
     {
       "course_code": null,
       "catalog_entry_id": "entry_8c9fd30828e0e42a",
+      "catalog_entry_group_id": "entry_8c9fd30828e0e42a",
       "opening_units": [
         "臺灣大專院校人工智慧學程聯盟"
       ],
@@ -211,6 +220,7 @@
     {
       "course_code": null,
       "catalog_entry_id": "entry_4b2cc6ecec26adf0",
+      "catalog_entry_group_id": "entry_4b2cc6ecec26adf0",
       "opening_units": [
         "臺灣大專院校人工智慧學程聯盟"
       ],
@@ -229,7 +239,7 @@
     },
     {
       "course_code": null,
-      "catalog_entry_id": "entry_4b2cc6ecec26adf0",
+      "catalog_entry_id": "entry_4b2cc6ecec26adf0_2",
       "opening_units": [
         "資訊工程學系碩士班資訊管理學系碩士班"
       ],
@@ -240,11 +250,12 @@
       "requirement_section": "unspecified",
       "requirement_label": "自然語言處理(5)",
       "program_course_name_snapshot": "深度學習與人類語言處理",
-      "notes": "深度學習 每一向度至少需修習一門課程。",
+      "notes": "深度學習",
       "source_page": 1,
       "evidence_match": true,
       "validation_status": "needs_course_code_verification",
-      "uncertainty_reason": "Official PDF table does not provide a course code"
+      "uncertainty_reason": "Official PDF table does not provide a course code",
+      "catalog_entry_group_id": "entry_4b2cc6ecec26adf0"
     }
   ],
   "structured_requirements": {
@@ -319,18 +330,50 @@
         "source_page": 2,
         "source_text": "TAICA學程間之學分相互認抵以6學分為上限",
         "validation_status": "source_text_match"
+      },
+      {
+        "constraint_id": "constraint_8d1998e6605b1f14",
+        "kind": "minimum_credits",
+        "scope": {
+          "kind": "course_eligibility",
+          "excluded_affiliations": [
+            "home_department",
+            "double_major",
+            "minor"
+          ],
+          "excluded_course_roles": [
+            "all"
+          ]
+        },
+        "requirement_context": "program_completion",
+        "source_kind": "institutional_catalog",
+        "source_url": "https://ctdr.nsysu.edu.tw/class2.php",
+        "source_text": "至少六學分不得屬於學生本系所、雙主修及輔系課程。",
+        "validation_status": "source_text_match",
+        "minimum_credits": 6
       }
     ],
     "manual_requirements": [
       {
-        "requirement_id": "requirement_d9fa625cda55484a",
+        "requirement_id": "requirement_016851d5d64f4404",
         "kind": "manual_verification",
         "requirement_type": "certificate",
-        "description": "取得TAICA核發學程學分證明",
+        "description": "3.學生欲取得TAICA核發學程學分證明之修課規定: (1)本學分學程共計需修習15學分,學生所修課程中,須至少有9 學分不屬於其主修、輔系 或其他學分學程之必修或必選課程(亦即非屬於任何一門必修或必選修課程),方得核發本 學程學分證明。",
         "verification_mode": "manual_review",
         "requirement_context": "certificate",
         "source_page": 1,
-        "source_text": "取得TAICA核發學程學分證明",
+        "source_text": "3.學生欲取得TAICA核發學程學分證明之修課規定: (1)本學分學程共計需修習15學分,學生所修課程中,須至少有9 學分不屬於其主修、輔系 或其他學分學程之必修或必選課程(亦即非屬於任何一門必修或必選修課程),方得核發本 學程學分證明。",
+        "validation_status": "source_text_match"
+      },
+      {
+        "requirement_id": "requirement_8324f3338080f93e",
+        "kind": "manual_verification",
+        "requirement_type": "certificate",
+        "description": "(3)若學生欲申取得TAICA核發學程學分證明者,須於該學程中修習至少8學分TAICA聯盟 認定課程(包括主導課程、鏡像課程及衛星課程)。",
+        "verification_mode": "manual_review",
+        "requirement_context": "certificate",
+        "source_page": 2,
+        "source_text": "(3)若學生欲申取得TAICA核發學程學分證明者,須於該學程中修習至少8學分TAICA聯盟 認定課程(包括主導課程、鏡像課程及衛星課程)。",
         "validation_status": "source_text_match"
       }
     ],
@@ -500,7 +543,16 @@
       "minimum_elective_courses": null,
       "has_conditional_requirements": false,
       "has_manual_requirements": true,
+      "has_completion_manual_requirements": false,
+      "has_certificate_requirements": true,
+      "has_credit_recognition_requirements": false,
       "has_unresolved_conflicts": false
     }
-  }
+  },
+  "institutional_policy_ids": [
+    "nsysu_program_policy_2026_08_16"
+  ],
+  "institutional_policy_applied_rule_ids": [
+    "integrated_outside_minimum"
+  ]
 }

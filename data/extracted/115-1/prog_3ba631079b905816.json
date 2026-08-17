@@ -1,5 +1,5 @@
 {
-  "schema_version": "1.2",
+  "schema_version": "1.3",
   "courses": [],
   "credit_mentions": [
     9,
@@ -261,6 +261,9 @@
           "minimum_elective_courses": null,
           "has_conditional_requirements": false,
           "has_manual_requirements": true,
+          "has_completion_manual_requirements": true,
+          "has_certificate_requirements": false,
+          "has_credit_recognition_requirements": false,
           "has_unresolved_conflicts": false
         }
       },
@@ -469,14 +472,14 @@
         ],
         "manual_requirements": [
           {
-            "requirement_id": "requirement_334355dd23178900",
+            "requirement_id": "requirement_465631635fe0a59f",
             "kind": "manual_verification",
             "requirement_type": "workshop_attendance",
-            "description": "需參加至少一系列ORCA共學群的微學分系列工作坊",
+            "description": "修讀本學期需參加至少一系列ORCA共學群的微學分系列工作坊",
             "verification_mode": "manual_review",
             "requirement_context": "program_completion",
             "source_page": 2,
-            "source_text": "需參加至少一系列ORCA共學群的微學分系列工作坊",
+            "source_text": "修讀本學期需參加至少一系列ORCA共學群的微學分系列工作坊",
             "validation_status": "source_text_match"
           }
         ],
@@ -490,6 +493,9 @@
           "minimum_elective_courses": null,
           "has_conditional_requirements": false,
           "has_manual_requirements": true,
+          "has_completion_manual_requirements": true,
+          "has_certificate_requirements": false,
+          "has_credit_recognition_requirements": false,
           "has_unresolved_conflicts": false
         }
       },
@@ -747,6 +753,9 @@
       "minimum_elective_courses": null,
       "has_conditional_requirements": false,
       "has_manual_requirements": true,
+      "has_completion_manual_requirements": true,
+      "has_certificate_requirements": false,
+      "has_credit_recognition_requirements": false,
       "has_unresolved_conflicts": false
     }
   }

@@ -1,5 +1,5 @@
 {
-  "schema_version": "1.2",
+  "schema_version": "1.3",
   "courses": [
     {
       "course_code": "VLSI",
@@ -56,11 +56,12 @@
           "source_page": 1,
           "evidence_match": true,
           "validation_status": "needs_course_code_verification",
-          "uncertainty_reason": "Official PDF table does not provide a course code"
+          "uncertainty_reason": "Official PDF table does not provide a course code",
+          "catalog_entry_group_id": "entry_0798fd37049677ec"
         },
         {
           "course_code": null,
-          "catalog_entry_id": "entry_0798fd37049677ec",
+          "catalog_entry_id": "entry_0798fd37049677ec_2",
           "opening_units": [
             "電機系",
             "跨院選修(工)",
@@ -73,11 +74,12 @@
           "requirement_section": "core",
           "requirement_label": null,
           "program_course_name_snapshot": null,
-          "notes": "任選4門 電路學(一)、或電路學 核 心 課 程 電機系/跨院選修(工)、機電系 電路學(一)、或電路學 3 任選4門",
+          "notes": "任選4門 電路學(一)、或電路學",
           "source_page": 1,
           "evidence_match": true,
           "validation_status": "needs_course_code_verification",
-          "uncertainty_reason": "Official PDF table does not provide a course code"
+          "uncertainty_reason": "Official PDF table does not provide a course code",
+          "catalog_entry_group_id": "entry_0798fd37049677ec"
         },
         {
           "course_code": null,
@@ -100,11 +102,12 @@
           "source_page": 1,
           "evidence_match": true,
           "validation_status": "needs_course_code_verification",
-          "uncertainty_reason": "Official PDF table does not provide a course code"
+          "uncertainty_reason": "Official PDF table does not provide a course code",
+          "catalog_entry_group_id": "entry_19ad2c0646f80fdd"
         },
         {
           "course_code": null,
-          "catalog_entry_id": "entry_19ad2c0646f80fdd",
+          "catalog_entry_id": "entry_19ad2c0646f80fdd_2",
           "opening_units": [
             "電機系",
             "跨院選修(工)",
@@ -119,11 +122,12 @@
           "requirement_section": "core",
           "requirement_label": null,
           "program_course_name_snapshot": null,
-          "notes": "電子學(一)、或數位電子學 核 心 課 程 電機系/跨院選修(工)、機電系 電路學(一)、或電路學 3 任選4門",
+          "notes": "電子學(一)、或數位電子學",
           "source_page": 1,
           "evidence_match": true,
           "validation_status": "needs_course_code_verification",
-          "uncertainty_reason": "Official PDF table does not provide a course code"
+          "uncertainty_reason": "Official PDF table does not provide a course code",
+          "catalog_entry_group_id": "entry_19ad2c0646f80fdd"
         },
         {
           "course_code": null,
@@ -168,11 +172,12 @@
           "source_page": 1,
           "evidence_match": true,
           "validation_status": "needs_course_code_verification",
-          "uncertainty_reason": "Official PDF table does not provide a course code"
+          "uncertainty_reason": "Official PDF table does not provide a course code",
+          "catalog_entry_group_id": "entry_109657803d9cc617"
         },
         {
           "course_code": null,
-          "catalog_entry_id": "entry_109657803d9cc617",
+          "catalog_entry_id": "entry_109657803d9cc617_2",
           "opening_units": [
             "電機系",
             "跨院選修(工)",
@@ -187,11 +192,12 @@
           "requirement_section": "core",
           "requirement_label": null,
           "program_course_name_snapshot": null,
-          "notes": "電子學(二)、或應用電子學 核 心 課 程 電機系/跨院選修(工)、機電系 電路學(一)、或電路學 3 任選4門",
+          "notes": "電子學(二)、或應用電子學",
           "source_page": 1,
           "evidence_match": true,
           "validation_status": "needs_course_code_verification",
-          "uncertainty_reason": "Official PDF table does not provide a course code"
+          "uncertainty_reason": "Official PDF table does not provide a course code",
+          "catalog_entry_group_id": "entry_109657803d9cc617"
         },
         {
           "course_code": null,
@@ -231,11 +237,12 @@
           "source_page": 1,
           "evidence_match": true,
           "validation_status": "needs_course_code_verification",
-          "uncertainty_reason": "Official PDF table does not provide a course code"
+          "uncertainty_reason": "Official PDF table does not provide a course code",
+          "catalog_entry_group_id": "entry_300b187530cb2ded"
         },
         {
           "course_code": null,
-          "catalog_entry_id": "entry_300b187530cb2ded",
+          "catalog_entry_id": "entry_300b187530cb2ded_2",
           "opening_units": [
             "電機系",
             "跨院選修(工)",
@@ -248,11 +255,12 @@
           "requirement_section": "core",
           "requirement_label": null,
           "program_course_name_snapshot": null,
-          "notes": "訊號與系統、或信號與系統 核 心 課 程 電機系/跨院選修(工)、機電系 電路學(一)、或電路學 3 任選4門",
+          "notes": "訊號與系統、或信號與系統",
           "source_page": 1,
           "evidence_match": true,
           "validation_status": "needs_course_code_verification",
-          "uncertainty_reason": "Official PDF table does not provide a course code"
+          "uncertainty_reason": "Official PDF table does not provide a course code",
+          "catalog_entry_group_id": "entry_300b187530cb2ded"
         },
         {
           "course_code": null,
@@ -371,11 +379,12 @@
           "source_page": 1,
           "evidence_match": true,
           "validation_status": "needs_course_code_verification",
-          "uncertainty_reason": "Official PDF table does not provide a course code"
+          "uncertainty_reason": "Official PDF table does not provide a course code",
+          "catalog_entry_group_id": "entry_904720210d1483cc"
         },
         {
           "course_code": null,
-          "catalog_entry_id": "entry_904720210d1483cc",
+          "catalog_entry_id": "entry_904720210d1483cc_2",
           "opening_units": [
             "電機系",
             "光電系",
@@ -388,11 +397,12 @@
           "requirement_section": "elective",
           "requirement_label": null,
           "program_course_name_snapshot": null,
-          "notes": "任選1門 半導體元件(一)、半導體物理、或半導體元件  電機系、光電系、材光碩 半導體元件(一)、半導體物 理、或半導體元件 3 任選1門",
+          "notes": "任選1門 半導體元件(一)、半導體物理、或半導體元件",
           "source_page": 1,
           "evidence_match": true,
           "validation_status": "needs_course_code_verification",
-          "uncertainty_reason": "Official PDF table does not provide a course code"
+          "uncertainty_reason": "Official PDF table does not provide a course code",
+          "catalog_entry_group_id": "entry_904720210d1483cc"
         },
         {
           "course_code": null,
@@ -415,11 +425,12 @@
           "source_page": 1,
           "evidence_match": true,
           "validation_status": "needs_course_code_verification",
-          "uncertainty_reason": "Official PDF table does not provide a course code"
+          "uncertainty_reason": "Official PDF table does not provide a course code",
+          "catalog_entry_group_id": "entry_e3d435ecce2ad6a7"
         },
         {
           "course_code": null,
-          "catalog_entry_id": "entry_e3d435ecce2ad6a7",
+          "catalog_entry_id": "entry_e3d435ecce2ad6a7_2",
           "opening_units": [
             "電機系",
             "物理系",
@@ -434,15 +445,16 @@
           "requirement_section": "elective",
           "requirement_label": null,
           "program_course_name_snapshot": null,
-          "notes": "微電子技術、或半導體奈米元件製造技術、或半導體製程設備與技術  電機系、光電系、材光碩 半導體元件(一)、半導體物 理、或半導體元件 3 任選1門",
+          "notes": "微電子技術、或半導體奈米元件製造技術、或半導體製程設備與技術",
           "source_page": 1,
           "evidence_match": false,
           "validation_status": "needs_course_code_verification",
-          "uncertainty_reason": "Official PDF table does not provide a course code"
+          "uncertainty_reason": "Official PDF table does not provide a course code",
+          "catalog_entry_group_id": "entry_e3d435ecce2ad6a7"
         },
         {
           "course_code": null,
-          "catalog_entry_id": "entry_e3d435ecce2ad6a7",
+          "catalog_entry_id": "entry_e3d435ecce2ad6a7_3",
           "opening_units": [
             "電機系",
             "物理系",
@@ -457,11 +469,12 @@
           "requirement_section": "elective",
           "requirement_label": null,
           "program_course_name_snapshot": null,
-          "notes": "微電子技術、或半導體奈米元件製造技術、或半導體製程設備與技術  電機系、光電系、材光碩 半導體元件(一)、半導體物 理、或半導體元件 3 任選1門",
+          "notes": "微電子技術、或半導體奈米元件製造技術、或半導體製程設備與技術",
           "source_page": 1,
           "evidence_match": false,
           "validation_status": "needs_course_code_verification",
-          "uncertainty_reason": "Official PDF table does not provide a course code"
+          "uncertainty_reason": "Official PDF table does not provide a course code",
+          "catalog_entry_group_id": "entry_e3d435ecce2ad6a7"
         },
         {
           "course_code": null,
@@ -785,6 +798,9 @@
           "minimum_elective_courses": null,
           "has_conditional_requirements": false,
           "has_manual_requirements": false,
+          "has_completion_manual_requirements": false,
+          "has_certificate_requirements": false,
+          "has_credit_recognition_requirements": false,
           "has_unresolved_conflicts": false
         }
       },
@@ -823,11 +839,12 @@
           "source_page": 2,
           "evidence_match": true,
           "validation_status": "needs_course_code_verification",
-          "uncertainty_reason": "Official PDF table does not provide a course code"
+          "uncertainty_reason": "Official PDF table does not provide a course code",
+          "catalog_entry_group_id": "entry_b1cb3544b25a2747"
         },
         {
           "course_code": null,
-          "catalog_entry_id": "entry_b1cb3544b25a2747",
+          "catalog_entry_id": "entry_b1cb3544b25a2747_2",
           "opening_units": [
             "電機系",
             "機電系"
@@ -839,11 +856,12 @@
           "requirement_section": "core",
           "requirement_label": null,
           "program_course_name_snapshot": null,
-          "notes": "任選4門 電路學(一)、或電路學 核 心 課 程 電機系、機電系 電路學(一)、或電路學 3 任選4門",
+          "notes": "任選4門 電路學(一)、或電路學",
           "source_page": 2,
           "evidence_match": true,
           "validation_status": "needs_course_code_verification",
-          "uncertainty_reason": "Official PDF table does not provide a course code"
+          "uncertainty_reason": "Official PDF table does not provide a course code",
+          "catalog_entry_group_id": "entry_b1cb3544b25a2747"
         },
         {
           "course_code": null,
@@ -865,11 +883,12 @@
           "source_page": 2,
           "evidence_match": true,
           "validation_status": "needs_course_code_verification",
-          "uncertainty_reason": "Official PDF table does not provide a course code"
+          "uncertainty_reason": "Official PDF table does not provide a course code",
+          "catalog_entry_group_id": "entry_9ee81182226e0d56"
         },
         {
           "course_code": null,
-          "catalog_entry_id": "entry_9ee81182226e0d56",
+          "catalog_entry_id": "entry_9ee81182226e0d56_2",
           "opening_units": [
             "電機系",
             "材光系",
@@ -883,11 +902,12 @@
           "requirement_section": "core",
           "requirement_label": null,
           "program_course_name_snapshot": null,
-          "notes": "電子學(一)、或數位電子學 核 心 課 程 電機系、機電系 電路學(一)、或電路學 3 任選4門",
+          "notes": "電子學(一)、或數位電子學",
           "source_page": 2,
           "evidence_match": true,
           "validation_status": "needs_course_code_verification",
-          "uncertainty_reason": "Official PDF table does not provide a course code"
+          "uncertainty_reason": "Official PDF table does not provide a course code",
+          "catalog_entry_group_id": "entry_9ee81182226e0d56"
         },
         {
           "course_code": null,
@@ -930,11 +950,12 @@
           "source_page": 2,
           "evidence_match": true,
           "validation_status": "needs_course_code_verification",
-          "uncertainty_reason": "Official PDF table does not provide a course code"
+          "uncertainty_reason": "Official PDF table does not provide a course code",
+          "catalog_entry_group_id": "entry_592efd23e59e12a8"
         },
         {
           "course_code": null,
-          "catalog_entry_id": "entry_592efd23e59e12a8",
+          "catalog_entry_id": "entry_592efd23e59e12a8_2",
           "opening_units": [
             "電機系",
             "材光系",
@@ -948,11 +969,12 @@
           "requirement_section": "core",
           "requirement_label": null,
           "program_course_name_snapshot": null,
-          "notes": "電子學(二)、或應用電子學 核 心 課 程 電機系、機電系 電路學(一)、或電路學 3 任選4門",
+          "notes": "電子學(二)、或應用電子學",
           "source_page": 2,
           "evidence_match": true,
           "validation_status": "needs_course_code_verification",
-          "uncertainty_reason": "Official PDF table does not provide a course code"
+          "uncertainty_reason": "Official PDF table does not provide a course code",
+          "catalog_entry_group_id": "entry_592efd23e59e12a8"
         },
         {
           "course_code": null,
@@ -991,11 +1013,12 @@
           "source_page": 2,
           "evidence_match": true,
           "validation_status": "needs_course_code_verification",
-          "uncertainty_reason": "Official PDF table does not provide a course code"
+          "uncertainty_reason": "Official PDF table does not provide a course code",
+          "catalog_entry_group_id": "entry_2b2da1d71fbe9683"
         },
         {
           "course_code": null,
-          "catalog_entry_id": "entry_2b2da1d71fbe9683",
+          "catalog_entry_id": "entry_2b2da1d71fbe9683_2",
           "opening_units": [
             "電機系",
             "光電系"
@@ -1007,11 +1030,12 @@
           "requirement_section": "core",
           "requirement_label": null,
           "program_course_name_snapshot": null,
-          "notes": "訊號與系統、或信號與系統 核 心 課 程 電機系、機電系 電路學(一)、或電路學 3 任選4門",
+          "notes": "訊號與系統、或信號與系統",
           "source_page": 2,
           "evidence_match": true,
           "validation_status": "needs_course_code_verification",
-          "uncertainty_reason": "Official PDF table does not provide a course code"
+          "uncertainty_reason": "Official PDF table does not provide a course code",
+          "catalog_entry_group_id": "entry_2b2da1d71fbe9683"
         },
         {
           "course_code": null,
@@ -1130,11 +1154,12 @@
           "source_page": 2,
           "evidence_match": true,
           "validation_status": "needs_course_code_verification",
-          "uncertainty_reason": "Official PDF table does not provide a course code"
+          "uncertainty_reason": "Official PDF table does not provide a course code",
+          "catalog_entry_group_id": "entry_2da96494da1de7cc"
         },
         {
           "course_code": null,
-          "catalog_entry_id": "entry_2da96494da1de7cc",
+          "catalog_entry_id": "entry_2da96494da1de7cc_2",
           "opening_units": [
             "電機系",
             "光電系",
@@ -1147,11 +1172,12 @@
           "requirement_section": "elective",
           "requirement_label": null,
           "program_course_name_snapshot": null,
-          "notes": "任選1門 半導體元件(一)、半導體物理、或半導體元件  電機系、光電系、材光碩 半導體元件(一)、半導體物 理、或半導體元件 3 任選1門",
+          "notes": "任選1門 半導體元件(一)、半導體物理、或半導體元件",
           "source_page": 2,
           "evidence_match": true,
           "validation_status": "needs_course_code_verification",
-          "uncertainty_reason": "Official PDF table does not provide a course code"
+          "uncertainty_reason": "Official PDF table does not provide a course code",
+          "catalog_entry_group_id": "entry_2da96494da1de7cc"
         },
         {
           "course_code": null,
@@ -1173,11 +1199,12 @@
           "source_page": 2,
           "evidence_match": true,
           "validation_status": "needs_course_code_verification",
-          "uncertainty_reason": "Official PDF table does not provide a course code"
+          "uncertainty_reason": "Official PDF table does not provide a course code",
+          "catalog_entry_group_id": "entry_3c25bacb76b58e03"
         },
         {
           "course_code": null,
-          "catalog_entry_id": "entry_3c25bacb76b58e03",
+          "catalog_entry_id": "entry_3c25bacb76b58e03_2",
           "opening_units": [
             "電機系",
             "物理系",
@@ -1191,15 +1218,16 @@
           "requirement_section": "elective",
           "requirement_label": null,
           "program_course_name_snapshot": null,
-          "notes": "微電子技術、或半導體奈米元件製造技術、或半導體製程設備與技術  電機系、光電系、材光碩 半導體元件(一)、半導體物 理、或半導體元件 3 任選1門",
+          "notes": "微電子技術、或半導體奈米元件製造技術、或半導體製程設備與技術",
           "source_page": 2,
           "evidence_match": false,
           "validation_status": "needs_course_code_verification",
-          "uncertainty_reason": "Official PDF table does not provide a course code"
+          "uncertainty_reason": "Official PDF table does not provide a course code",
+          "catalog_entry_group_id": "entry_3c25bacb76b58e03"
         },
         {
           "course_code": null,
-          "catalog_entry_id": "entry_3c25bacb76b58e03",
+          "catalog_entry_id": "entry_3c25bacb76b58e03_3",
           "opening_units": [
             "電機系",
             "物理系",
@@ -1213,11 +1241,12 @@
           "requirement_section": "elective",
           "requirement_label": null,
           "program_course_name_snapshot": null,
-          "notes": "微電子技術、或半導體奈米元件製造技術、或半導體製程設備與技術  電機系、光電系、材光碩 半導體元件(一)、半導體物 理、或半導體元件 3 任選1門",
+          "notes": "微電子技術、或半導體奈米元件製造技術、或半導體製程設備與技術",
           "source_page": 2,
           "evidence_match": false,
           "validation_status": "needs_course_code_verification",
-          "uncertainty_reason": "Official PDF table does not provide a course code"
+          "uncertainty_reason": "Official PDF table does not provide a course code",
+          "catalog_entry_group_id": "entry_3c25bacb76b58e03"
         },
         {
           "course_code": null,
@@ -1541,6 +1570,9 @@
           "minimum_elective_courses": null,
           "has_conditional_requirements": false,
           "has_manual_requirements": false,
+          "has_completion_manual_requirements": false,
+          "has_certificate_requirements": false,
+          "has_credit_recognition_requirements": false,
           "has_unresolved_conflicts": false
         }
       },
@@ -1579,11 +1611,12 @@
           "source_page": 3,
           "evidence_match": true,
           "validation_status": "needs_course_code_verification",
-          "uncertainty_reason": "Official PDF table does not provide a course code"
+          "uncertainty_reason": "Official PDF table does not provide a course code",
+          "catalog_entry_group_id": "entry_ef3435261963d5cf"
         },
         {
           "course_code": null,
-          "catalog_entry_id": "entry_ef3435261963d5cf",
+          "catalog_entry_id": "entry_ef3435261963d5cf_2",
           "opening_units": [
             "電機系",
             "機電系"
@@ -1599,7 +1632,8 @@
           "source_page": 3,
           "evidence_match": true,
           "validation_status": "needs_course_code_verification",
-          "uncertainty_reason": "Official PDF table does not provide a course code"
+          "uncertainty_reason": "Official PDF table does not provide a course code",
+          "catalog_entry_group_id": "entry_ef3435261963d5cf"
         },
         {
           "course_code": null,
@@ -1621,11 +1655,12 @@
           "source_page": 3,
           "evidence_match": true,
           "validation_status": "needs_course_code_verification",
-          "uncertainty_reason": "Official PDF table does not provide a course code"
+          "uncertainty_reason": "Official PDF table does not provide a course code",
+          "catalog_entry_group_id": "entry_be6046f9debbac79"
         },
         {
           "course_code": null,
-          "catalog_entry_id": "entry_be6046f9debbac79",
+          "catalog_entry_id": "entry_be6046f9debbac79_2",
           "opening_units": [
             "電機系",
             "材光系",
@@ -1643,7 +1678,8 @@
           "source_page": 3,
           "evidence_match": false,
           "validation_status": "needs_course_code_verification",
-          "uncertainty_reason": "Official PDF table does not provide a course code"
+          "uncertainty_reason": "Official PDF table does not provide a course code",
+          "catalog_entry_group_id": "entry_be6046f9debbac79"
         },
         {
           "course_code": null,
@@ -1686,11 +1722,12 @@
           "source_page": 3,
           "evidence_match": true,
           "validation_status": "needs_course_code_verification",
-          "uncertainty_reason": "Official PDF table does not provide a course code"
+          "uncertainty_reason": "Official PDF table does not provide a course code",
+          "catalog_entry_group_id": "entry_80bbb93619dc0c36"
         },
         {
           "course_code": null,
-          "catalog_entry_id": "entry_80bbb93619dc0c36",
+          "catalog_entry_id": "entry_80bbb93619dc0c36_2",
           "opening_units": [
             "電機系",
             "材光系",
@@ -1708,7 +1745,8 @@
           "source_page": 3,
           "evidence_match": false,
           "validation_status": "needs_course_code_verification",
-          "uncertainty_reason": "Official PDF table does not provide a course code"
+          "uncertainty_reason": "Official PDF table does not provide a course code",
+          "catalog_entry_group_id": "entry_80bbb93619dc0c36"
         },
         {
           "course_code": null,
@@ -1747,11 +1785,12 @@
           "source_page": 3,
           "evidence_match": true,
           "validation_status": "needs_course_code_verification",
-          "uncertainty_reason": "Official PDF table does not provide a course code"
+          "uncertainty_reason": "Official PDF table does not provide a course code",
+          "catalog_entry_group_id": "entry_3651ba0141eb6f4b"
         },
         {
           "course_code": null,
-          "catalog_entry_id": "entry_3651ba0141eb6f4b",
+          "catalog_entry_id": "entry_3651ba0141eb6f4b_2",
           "opening_units": [
             "電機系",
             "光電系"
@@ -1767,7 +1806,8 @@
           "source_page": 3,
           "evidence_match": true,
           "validation_status": "needs_course_code_verification",
-          "uncertainty_reason": "Official PDF table does not provide a course code"
+          "uncertainty_reason": "Official PDF table does not provide a course code",
+          "catalog_entry_group_id": "entry_3651ba0141eb6f4b"
         },
         {
           "course_code": null,
@@ -1885,11 +1925,12 @@
           "source_page": 3,
           "evidence_match": true,
           "validation_status": "needs_course_code_verification",
-          "uncertainty_reason": "Official PDF table does not provide a course code"
+          "uncertainty_reason": "Official PDF table does not provide a course code",
+          "catalog_entry_group_id": "entry_d07506ce083bc9b1"
         },
         {
           "course_code": null,
-          "catalog_entry_id": "entry_d07506ce083bc9b1",
+          "catalog_entry_id": "entry_d07506ce083bc9b1_2",
           "opening_units": [
             "電機系",
             "光電系",
@@ -1902,11 +1943,12 @@
           "requirement_section": "elective",
           "requirement_label": null,
           "program_course_name_snapshot": null,
-          "notes": "任選 1門 半導體元件(一)、半導體物理、或半導體元件    半導體元件(一)、半導體 物理、或半導體元件 電機系、光電 系、材光碩 3 任選 1 門",
+          "notes": "任選 1門 半導體元件(一)、半導體物理、或半導體元件",
           "source_page": 3,
           "evidence_match": true,
           "validation_status": "needs_course_code_verification",
-          "uncertainty_reason": "Official PDF table does not provide a course code"
+          "uncertainty_reason": "Official PDF table does not provide a course code",
+          "catalog_entry_group_id": "entry_d07506ce083bc9b1"
         },
         {
           "course_code": null,
@@ -1928,11 +1970,12 @@
           "source_page": 3,
           "evidence_match": true,
           "validation_status": "needs_course_code_verification",
-          "uncertainty_reason": "Official PDF table does not provide a course code"
+          "uncertainty_reason": "Official PDF table does not provide a course code",
+          "catalog_entry_group_id": "entry_3cbd35bfa31a6252"
         },
         {
           "course_code": null,
-          "catalog_entry_id": "entry_3cbd35bfa31a6252",
+          "catalog_entry_id": "entry_3cbd35bfa31a6252_2",
           "opening_units": [
             "電機系",
             "物理系",
@@ -1946,15 +1989,16 @@
           "requirement_section": "elective",
           "requirement_label": null,
           "program_course_name_snapshot": null,
-          "notes": "微電子技術、或半導體奈米元件製造技術、或半導體製程設備與技術    半導體元件(一)、半導體 物理、或半導體元件 電機系、光電 系、材光碩 3 任選 1 門",
+          "notes": "微電子技術、或半導體奈米元件製造技術、或半導體製程設備與技術",
           "source_page": 3,
           "evidence_match": false,
           "validation_status": "needs_course_code_verification",
-          "uncertainty_reason": "Official PDF table does not provide a course code"
+          "uncertainty_reason": "Official PDF table does not provide a course code",
+          "catalog_entry_group_id": "entry_3cbd35bfa31a6252"
         },
         {
           "course_code": null,
-          "catalog_entry_id": "entry_3cbd35bfa31a6252",
+          "catalog_entry_id": "entry_3cbd35bfa31a6252_3",
           "opening_units": [
             "電機系",
             "物理系",
@@ -1968,11 +2012,12 @@
           "requirement_section": "elective",
           "requirement_label": null,
           "program_course_name_snapshot": null,
-          "notes": "微電子技術、或半導體奈米元件製造技術、或半導體製程設備與技術    半導體元件(一)、半導體 物理、或半導體元件 電機系、光電 系、材光碩 3 任選 1 門",
+          "notes": "微電子技術、或半導體奈米元件製造技術、或半導體製程設備與技術",
           "source_page": 3,
           "evidence_match": false,
           "validation_status": "needs_course_code_verification",
-          "uncertainty_reason": "Official PDF table does not provide a course code"
+          "uncertainty_reason": "Official PDF table does not provide a course code",
+          "catalog_entry_group_id": "entry_3cbd35bfa31a6252"
         },
         {
           "course_code": null,
@@ -2238,6 +2283,9 @@
           "minimum_elective_courses": null,
           "has_conditional_requirements": false,
           "has_manual_requirements": false,
+          "has_completion_manual_requirements": false,
+          "has_certificate_requirements": false,
+          "has_credit_recognition_requirements": false,
           "has_unresolved_conflicts": false
         }
       },
@@ -2277,11 +2325,12 @@
       "source_page": 1,
       "evidence_match": true,
       "validation_status": "needs_course_code_verification",
-      "uncertainty_reason": "Official PDF table does not provide a course code"
+      "uncertainty_reason": "Official PDF table does not provide a course code",
+      "catalog_entry_group_id": "entry_0798fd37049677ec"
     },
     {
       "course_code": null,
-      "catalog_entry_id": "entry_0798fd37049677ec",
+      "catalog_entry_id": "entry_0798fd37049677ec_2",
       "opening_units": [
         "電機系",
         "跨院選修(工)",
@@ -2294,11 +2343,12 @@
       "requirement_section": "core",
       "requirement_label": null,
       "program_course_name_snapshot": null,
-      "notes": "任選4門 電路學(一)、或電路學 核 心 課 程 電機系/跨院選修(工)、機電系 電路學(一)、或電路學 3 任選4門",
+      "notes": "任選4門 電路學(一)、或電路學",
       "source_page": 1,
       "evidence_match": true,
       "validation_status": "needs_course_code_verification",
-      "uncertainty_reason": "Official PDF table does not provide a course code"
+      "uncertainty_reason": "Official PDF table does not provide a course code",
+      "catalog_entry_group_id": "entry_0798fd37049677ec"
     },
     {
       "course_code": null,
@@ -2321,11 +2371,12 @@
       "source_page": 1,
       "evidence_match": true,
       "validation_status": "needs_course_code_verification",
-      "uncertainty_reason": "Official PDF table does not provide a course code"
+      "uncertainty_reason": "Official PDF table does not provide a course code",
+      "catalog_entry_group_id": "entry_19ad2c0646f80fdd"
     },
     {
       "course_code": null,
-      "catalog_entry_id": "entry_19ad2c0646f80fdd",
+      "catalog_entry_id": "entry_19ad2c0646f80fdd_2",
       "opening_units": [
         "電機系",
         "跨院選修(工)",
@@ -2340,11 +2391,12 @@
       "requirement_section": "core",
       "requirement_label": null,
       "program_course_name_snapshot": null,
-      "notes": "電子學(一)、或數位電子學 核 心 課 程 電機系/跨院選修(工)、機電系 電路學(一)、或電路學 3 任選4門",
+      "notes": "電子學(一)、或數位電子學",
       "source_page": 1,
       "evidence_match": true,
       "validation_status": "needs_course_code_verification",
-      "uncertainty_reason": "Official PDF table does not provide a course code"
+      "uncertainty_reason": "Official PDF table does not provide a course code",
+      "catalog_entry_group_id": "entry_19ad2c0646f80fdd"
     },
     {
       "course_code": null,
@@ -2389,11 +2441,12 @@
       "source_page": 1,
       "evidence_match": true,
       "validation_status": "needs_course_code_verification",
-      "uncertainty_reason": "Official PDF table does not provide a course code"
+      "uncertainty_reason": "Official PDF table does not provide a course code",
+      "catalog_entry_group_id": "entry_109657803d9cc617"
     },
     {
       "course_code": null,
-      "catalog_entry_id": "entry_109657803d9cc617",
+      "catalog_entry_id": "entry_109657803d9cc617_2",
       "opening_units": [
         "電機系",
         "跨院選修(工)",
@@ -2408,11 +2461,12 @@
       "requirement_section": "core",
       "requirement_label": null,
       "program_course_name_snapshot": null,
-      "notes": "電子學(二)、或應用電子學 核 心 課 程 電機系/跨院選修(工)、機電系 電路學(一)、或電路學 3 任選4門",
+      "notes": "電子學(二)、或應用電子學",
       "source_page": 1,
       "evidence_match": true,
       "validation_status": "needs_course_code_verification",
-      "uncertainty_reason": "Official PDF table does not provide a course code"
+      "uncertainty_reason": "Official PDF table does not provide a course code",
+      "catalog_entry_group_id": "entry_109657803d9cc617"
     },
     {
       "course_code": null,
@@ -2452,11 +2506,12 @@
       "source_page": 1,
       "evidence_match": true,
       "validation_status": "needs_course_code_verification",
-      "uncertainty_reason": "Official PDF table does not provide a course code"
+      "uncertainty_reason": "Official PDF table does not provide a course code",
+      "catalog_entry_group_id": "entry_300b187530cb2ded"
     },
     {
       "course_code": null,
-      "catalog_entry_id": "entry_300b187530cb2ded",
+      "catalog_entry_id": "entry_300b187530cb2ded_2",
       "opening_units": [
         "電機系",
         "跨院選修(工)",
@@ -2469,11 +2524,12 @@
       "requirement_section": "core",
       "requirement_label": null,
       "program_course_name_snapshot": null,
-      "notes": "訊號與系統、或信號與系統 核 心 課 程 電機系/跨院選修(工)、機電系 電路學(一)、或電路學 3 任選4門",
+      "notes": "訊號與系統、或信號與系統",
       "source_page": 1,
       "evidence_match": true,
       "validation_status": "needs_course_code_verification",
-      "uncertainty_reason": "Official PDF table does not provide a course code"
+      "uncertainty_reason": "Official PDF table does not provide a course code",
+      "catalog_entry_group_id": "entry_300b187530cb2ded"
     },
     {
       "course_code": null,
@@ -2592,11 +2648,12 @@
       "source_page": 1,
       "evidence_match": true,
       "validation_status": "needs_course_code_verification",
-      "uncertainty_reason": "Official PDF table does not provide a course code"
+      "uncertainty_reason": "Official PDF table does not provide a course code",
+      "catalog_entry_group_id": "entry_904720210d1483cc"
     },
     {
       "course_code": null,
-      "catalog_entry_id": "entry_904720210d1483cc",
+      "catalog_entry_id": "entry_904720210d1483cc_2",
       "opening_units": [
         "電機系",
         "光電系",
@@ -2609,11 +2666,12 @@
       "requirement_section": "elective",
       "requirement_label": null,
       "program_course_name_snapshot": null,
-      "notes": "任選1門 半導體元件(一)、半導體物理、或半導體元件  電機系、光電系、材光碩 半導體元件(一)、半導體物 理、或半導體元件 3 任選1門",
+      "notes": "任選1門 半導體元件(一)、半導體物理、或半導體元件",
       "source_page": 1,
       "evidence_match": true,
       "validation_status": "needs_course_code_verification",
-      "uncertainty_reason": "Official PDF table does not provide a course code"
+      "uncertainty_reason": "Official PDF table does not provide a course code",
+      "catalog_entry_group_id": "entry_904720210d1483cc"
     },
     {
       "course_code": null,
@@ -2636,11 +2694,12 @@
       "source_page": 1,
       "evidence_match": true,
       "validation_status": "needs_course_code_verification",
-      "uncertainty_reason": "Official PDF table does not provide a course code"
+      "uncertainty_reason": "Official PDF table does not provide a course code",
+      "catalog_entry_group_id": "entry_e3d435ecce2ad6a7"
     },
     {
       "course_code": null,
-      "catalog_entry_id": "entry_e3d435ecce2ad6a7",
+      "catalog_entry_id": "entry_e3d435ecce2ad6a7_2",
       "opening_units": [
         "電機系",
         "物理系",
@@ -2655,15 +2714,16 @@
       "requirement_section": "elective",
       "requirement_label": null,
       "program_course_name_snapshot": null,
-      "notes": "微電子技術、或半導體奈米元件製造技術、或半導體製程設備與技術  電機系、光電系、材光碩 半導體元件(一)、半導體物 理、或半導體元件 3 任選1門",
+      "notes": "微電子技術、或半導體奈米元件製造技術、或半導體製程設備與技術",
       "source_page": 1,
       "evidence_match": false,
       "validation_status": "needs_course_code_verification",
-      "uncertainty_reason": "Official PDF table does not provide a course code"
+      "uncertainty_reason": "Official PDF table does not provide a course code",
+      "catalog_entry_group_id": "entry_e3d435ecce2ad6a7"
     },
     {
       "course_code": null,
-      "catalog_entry_id": "entry_e3d435ecce2ad6a7",
+      "catalog_entry_id": "entry_e3d435ecce2ad6a7_3",
       "opening_units": [
         "電機系",
         "物理系",
@@ -2678,11 +2738,12 @@
       "requirement_section": "elective",
       "requirement_label": null,
       "program_course_name_snapshot": null,
-      "notes": "微電子技術、或半導體奈米元件製造技術、或半導體製程設備與技術  電機系、光電系、材光碩 半導體元件(一)、半導體物 理、或半導體元件 3 任選1門",
+      "notes": "微電子技術、或半導體奈米元件製造技術、或半導體製程設備與技術",
       "source_page": 1,
       "evidence_match": false,
       "validation_status": "needs_course_code_verification",
-      "uncertainty_reason": "Official PDF table does not provide a course code"
+      "uncertainty_reason": "Official PDF table does not provide a course code",
+      "catalog_entry_group_id": "entry_e3d435ecce2ad6a7"
     },
     {
       "course_code": null,
@@ -3006,6 +3067,9 @@
       "minimum_elective_courses": null,
       "has_conditional_requirements": false,
       "has_manual_requirements": false,
+      "has_completion_manual_requirements": false,
+      "has_certificate_requirements": false,
+      "has_credit_recognition_requirements": false,
       "has_unresolved_conflicts": false
     }
   }

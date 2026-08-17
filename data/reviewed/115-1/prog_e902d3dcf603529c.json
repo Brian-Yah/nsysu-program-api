@@ -6,8 +6,8 @@
     "pdf_binary_sha256": "e837808133900ccaf24f7eae8d0948dafbac0e3a445e38033898e2c81c979d45",
     "normalized_text_sha256": "9bf806c48146ac2f30aa3f4d653c211a49697dc7b9ee963bffb10273fb4739ca",
     "selected_pdf_academic_version": "114-1",
-    "parser_version": "0.3.0",
-    "course_catalog_sha256": "81fa75176a9ab4c88bac754c650317f67bdc9314e7706965e86a70861b168739"
+    "parser_version": "0.4.0",
+    "course_catalog_sha256": "f1c93c1963984866cff5617459d85a13201cde156cc30c0386c338e867c00008"
   },
   "course_catalog": [
     {
@@ -146,6 +146,7 @@
     {
       "course_code": null,
       "catalog_entry_id": "entry_8674670521d2d10c",
+      "catalog_entry_group_id": "entry_8674670521d2d10c",
       "opening_units": [
         "劇藝系"
       ],
@@ -164,7 +165,8 @@
     },
     {
       "course_code": null,
-      "catalog_entry_id": "entry_8674670521d2d10c",
+      "catalog_entry_id": "entry_8674670521d2d10c_2",
+      "catalog_entry_group_id": "entry_8674670521d2d10c",
       "opening_units": [
         "劇藝系"
       ],
@@ -183,7 +185,8 @@
     },
     {
       "course_code": null,
-      "catalog_entry_id": "entry_8674670521d2d10c",
+      "catalog_entry_id": "entry_8674670521d2d10c_3",
+      "catalog_entry_group_id": "entry_8674670521d2d10c",
       "opening_units": [
         "劇藝系"
       ],

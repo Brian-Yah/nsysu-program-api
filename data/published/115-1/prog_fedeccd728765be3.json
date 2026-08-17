@@ -23,7 +23,7 @@
       "last_modified": "Wed, 01 Jul 2026 06:12:16 GMT",
       "content_length": 268503
     },
-    "parser_version": "0.3.0",
+    "parser_version": "0.4.0",
     "extractor_versions": {
       "pypdf": "6.10.0",
       "pdfplumber": "0.11.9"
@@ -1253,124 +1253,124 @@
     ],
     "manual_requirements": [
       {
-        "requirement_id": "requirement_2c397ac1e54ad9d4",
+        "requirement_id": "requirement_987666696b5069fb",
         "kind": "manual_verification",
         "requirement_type": "recognition",
-        "description": "DELF)A2及者可申請抵免6學分",
+        "description": "115.5.21第188次教務會議通過 法國語言、文化與社會學程新課程規劃表 1 開課單位 課 程 名 稱 學分數 備註 核 心 課 程 外文系 法文(一) 3  通過法文鑑定(DELF)A2及 者可申請抵免6學分,抵免學 分僅可計算於法文學程內但 外文系 法文(二) 3 不列入學生之畢業學分數。",
+        "verification_mode": "manual_review",
+        "requirement_context": "credit_recognition",
+        "source_page": 1,
+        "source_text": "115.5.21第188次教務會議通過 法國語言、文化與社會學程新課程規劃表 1 開課單位 課 程 名 稱 學分數 備註 核 心 課 程 外文系 法文(一) 3  通過法文鑑定(DELF)A2及 者可申請抵免6學分,抵免學 分僅可計算於法文學程內但 外文系 法文(二) 3 不列入學生之畢業學分數。",
+        "validation_status": "source_text_match"
+      },
+      {
+        "requirement_id": "requirement_b08d9fa3c97ccc2b",
+        "kind": "manual_verification",
+        "requirement_type": "curriculum_exception",
+        "description": "115.5.21第188次教務會議通過 法國語言、文化與社會學程新課程規劃表 1 開課單位 課 程 名 稱 學分數 備註 核 心 課 程 外文系 法文(一) 3  通過法文鑑定(DELF)A2及 者可申請抵免6學分,抵免學 分僅可計算於法文學程內但 外文系 法文(二) 3 不列入學生之畢業學分數。",
         "verification_mode": "manual_review",
         "requirement_context": "program_completion",
         "source_page": 1,
-        "source_text": "DELF)A2及者可申請抵免6學分",
+        "source_text": "115.5.21第188次教務會議通過 法國語言、文化與社會學程新課程規劃表 1 開課單位 課 程 名 稱 學分數 備註 核 心 課 程 外文系 法文(一) 3  通過法文鑑定(DELF)A2及 者可申請抵免6學分,抵免學 分僅可計算於法文學程內但 外文系 法文(二) 3 不列入學生之畢業學分數。",
         "validation_status": "source_text_match"
       },
       {
-        "requirement_id": "requirement_b28e3addfb780840",
-        "kind": "manual_verification",
-        "requirement_type": "curriculum_exception",
-        "description": "抵免6學分,抵免學分僅可計算於法文學程內但外文系法文(二)3不列入學生之畢業學分",
-        "verification_mode": "manual_review",
-        "requirement_context": "program_completion",
-        "source_page": 1,
-        "source_text": "抵免6學分,抵免學分僅可計算於法文學程內但外文系法文(二)3不列入學生之畢業學分",
-        "validation_status": "source_text_match"
-      },
-      {
-        "requirement_id": "requirement_2281f6f572de4e92",
-        "kind": "manual_verification",
-        "requirement_type": "curriculum_exception",
-        "description": "111學年度以前申請修習法國語言、文化與社會學程的學生,可將法文一(一)及法文一(二)列入核心學分",
-        "verification_mode": "manual_review",
-        "requirement_context": "program_completion",
-        "source_page": 3,
-        "source_text": "111學年度以前申請修習法國語言、文化與社會學程的學生,可將法文一(一)及法文一(二)列入核心學分",
-        "validation_status": "source_text_match"
-      },
-      {
-        "requirement_id": "requirement_540347e7dc429f30",
-        "kind": "manual_verification",
-        "requirement_type": "curriculum_exception",
-        "description": "107學年度以前申請修習法文學程的學生,可將「通識專題講座:美學與文化識讀」與「藝術與全球文化識讀」列入選修學分中",
-        "verification_mode": "manual_review",
-        "requirement_context": "program_completion",
-        "source_page": 3,
-        "source_text": "107學年度以前申請修習法文學程的學生,可將「通識專題講座:美學與文化識讀」與「藝術與全球文化識讀」列入選修學分中",
-        "validation_status": "source_text_match"
-      },
-      {
-        "requirement_id": "requirement_5d69ef0efb44137c",
-        "kind": "manual_verification",
-        "requirement_type": "curriculum_exception",
-        "description": "113-1學期(含)以前申請修習法國語言、文化與社會學程的學生,可將「西洋文化典故」列入核心課程學分中",
-        "verification_mode": "manual_review",
-        "requirement_context": "program_completion",
-        "source_page": 3,
-        "source_text": "113-1學期(含)以前申請修習法國語言、文化與社會學程的學生,可將「西洋文化典故」列入核心課程學分中",
-        "validation_status": "source_text_match"
-      },
-      {
-        "requirement_id": "requirement_632a5b198272e166",
-        "kind": "manual_verification",
-        "requirement_type": "curriculum_exception",
-        "description": "110學年度以前申請休習本學程之學生若修習核心課程超過12學分,多餘的核心課程學分數可以納入選修學分",
-        "verification_mode": "manual_review",
-        "requirement_context": "program_completion",
-        "source_page": 3,
-        "source_text": "110學年度以前申請休習本學程之學生若修習核心課程超過12學分,多餘的核心課程學分數可以納入選修學分",
-        "validation_status": "source_text_match"
-      },
-      {
-        "requirement_id": "requirement_bc4e941e620a481f",
-        "kind": "manual_verification",
-        "requirement_type": "curriculum_exception",
-        "description": "109學年度以前申請修習法國語言、文化與社會學程的學生,可將「觀光英文」、「尼采與當代歐陸思潮」、「巴塔耶哲學」、「愛與共同體」、「權力關係之外-傅科哲學與主體性的改革」、「德希達:世界主義與他者論述」、及「意識形態與歷史」列入選修學分中",
-        "verification_mode": "manual_review",
-        "requirement_context": "program_completion",
-        "source_page": 3,
-        "source_text": "109學年度以前申請修習法國語言、文化與社會學程的學生,可將「觀光英文」、「尼采與當代歐陸思潮」、「巴塔耶哲學」、「愛與共同體」、「權力關係之外-傅科哲學與主體性的改革」、「德希達:世界主義與他者論述」、及「意識形態與歷史」列入選修學分中",
-        "validation_status": "source_text_match"
-      },
-      {
-        "requirement_id": "requirement_c01db5dbc892edd8",
+        "requirement_id": "requirement_08f59ef87a946d16",
         "kind": "manual_verification",
         "requirement_type": "recognition",
-        "description": "入學前曾修習本學程規劃之課程,得提經學程負責人認定",
+        "description": "※ 修讀本學程學生倘入學前曾修習本學程規劃之課程,得提經學程負責人認定後抵免之。",
         "verification_mode": "manual_review",
-        "requirement_context": "program_completion",
+        "requirement_context": "credit_recognition",
         "source_page": 3,
-        "source_text": "入學前曾修習本學程規劃之課程,得提經學程負責人認定",
+        "source_text": "※ 修讀本學程學生倘入學前曾修習本學程規劃之課程,得提經學程負責人認定後抵免之。",
         "validation_status": "source_text_match"
       },
       {
-        "requirement_id": "requirement_e4f905017904aef5",
+        "requirement_id": "requirement_0ed5017ee46faccc",
         "kind": "manual_verification",
         "requirement_type": "curriculum_exception",
-        "description": "114學年度(含)以前加入學程之學生可將「進階英文閱讀:英美詩歌賞析(高級)」、「歐洲藝術與世界文化交流」、「美國文學:1865以前」、「英國文學:1660以前」、及「英國文學:1660-1800」計入選修學分",
+        "description": "※ 114學年度(含)以前加入學程之學生可將「歐美小說賞析」列入核心課程學分。",
         "verification_mode": "manual_review",
         "requirement_context": "program_completion",
         "source_page": 3,
-        "source_text": "114學年度(含)以前加入學程之學生可將「進階英文閱讀:英美詩歌賞析(高級)」、「歐洲藝術與世界文化交流」、「美國文學:1865以前」、「英國文學:1660以前」、及「英國文學:1660-1800」計入選修學分",
+        "source_text": "※ 114學年度(含)以前加入學程之學生可將「歐美小說賞析」列入核心課程學分。",
         "validation_status": "source_text_match"
       },
       {
-        "requirement_id": "requirement_f080d95017554b9e",
+        "requirement_id": "requirement_18dd416cffb23c23",
         "kind": "manual_verification",
         "requirement_type": "curriculum_exception",
-        "description": "114學年度(含)以前加入學程之學生可將「歐美小說賞析」列入核心課程學分",
+        "description": "※ 109學年度以前申請修習法國語言、文化與社會學程的學生,可將「觀光英文」、「尼采與 當代歐陸思潮」、「巴塔耶哲學」、「愛與共同體」、「權力關係之外-傅科哲學與主體性的改 革」、「德希達:世界主義與他者論述」、及「意識形態與歷史」列入選修學分中。",
         "verification_mode": "manual_review",
         "requirement_context": "program_completion",
         "source_page": 3,
-        "source_text": "114學年度(含)以前加入學程之學生可將「歐美小說賞析」列入核心課程學分",
+        "source_text": "※ 109學年度以前申請修習法國語言、文化與社會學程的學生,可將「觀光英文」、「尼采與 當代歐陸思潮」、「巴塔耶哲學」、「愛與共同體」、「權力關係之外-傅科哲學與主體性的改 革」、「德希達:世界主義與他者論述」、及「意識形態與歷史」列入選修學分中。",
         "validation_status": "source_text_match"
       },
       {
-        "requirement_id": "requirement_fe3be87ea7e545d6",
+        "requirement_id": "requirement_4519a67c91f03c69",
         "kind": "manual_verification",
         "requirement_type": "curriculum_exception",
-        "description": "112學年度以前申請修習法國語言、文化與社會學程的學生,可將「西洋文化典故」、「法國語言與文化」及「歐美經典短篇小說」列入核心課程學分中",
+        "description": "※ 107學年度以前申請修習法文學程的學生,可將「通識專題講座:美學與文化識讀」與 「藝術與全球文化識讀」列入選修學分中。",
         "verification_mode": "manual_review",
         "requirement_context": "program_completion",
         "source_page": 3,
-        "source_text": "112學年度以前申請修習法國語言、文化與社會學程的學生,可將「西洋文化典故」、「法國語言與文化」及「歐美經典短篇小說」列入核心課程學分中",
+        "source_text": "※ 107學年度以前申請修習法文學程的學生,可將「通識專題講座:美學與文化識讀」與 「藝術與全球文化識讀」列入選修學分中。",
+        "validation_status": "source_text_match"
+      },
+      {
+        "requirement_id": "requirement_48a83354bf13f8ca",
+        "kind": "manual_verification",
+        "requirement_type": "curriculum_exception",
+        "description": "※ 112學年度以前申請修習法國語言、文化與社會學程的學生,可將「西洋文化典故」、「法 國語言與文化」及「歐美經典短篇小說」列入核心課程學分中。",
+        "verification_mode": "manual_review",
+        "requirement_context": "program_completion",
+        "source_page": 3,
+        "source_text": "※ 112學年度以前申請修習法國語言、文化與社會學程的學生,可將「西洋文化典故」、「法 國語言與文化」及「歐美經典短篇小說」列入核心課程學分中。",
+        "validation_status": "source_text_match"
+      },
+      {
+        "requirement_id": "requirement_70a3287daa6ea143",
+        "kind": "manual_verification",
+        "requirement_type": "curriculum_exception",
+        "description": "※ 110 學年度以前申請休習本學程之學生若修習核心課程超過 12 學分,多餘的核心課程學 分數可以納入選修學分計算。",
+        "verification_mode": "manual_review",
+        "requirement_context": "program_completion",
+        "source_page": 3,
+        "source_text": "※ 110 學年度以前申請休習本學程之學生若修習核心課程超過 12 學分,多餘的核心課程學 分數可以納入選修學分計算。",
+        "validation_status": "source_text_match"
+      },
+      {
+        "requirement_id": "requirement_7e3b973c21ac0da7",
+        "kind": "manual_verification",
+        "requirement_type": "curriculum_exception",
+        "description": "※ 114學年度(含)以前加入學程之學生可將「進階英文閱讀:英美詩歌賞析(高級)」、「歐洲 藝術與世界文化交流」、「美國文學:1865 以前」、「英國文學:1660 以前」、及「英國文 學:1660-1800」計入選修學分。",
+        "verification_mode": "manual_review",
+        "requirement_context": "program_completion",
+        "source_page": 3,
+        "source_text": "※ 114學年度(含)以前加入學程之學生可將「進階英文閱讀:英美詩歌賞析(高級)」、「歐洲 藝術與世界文化交流」、「美國文學:1865 以前」、「英國文學:1660 以前」、及「英國文 學:1660-1800」計入選修學分。",
+        "validation_status": "source_text_match"
+      },
+      {
+        "requirement_id": "requirement_8d5816eda8dd10cf",
+        "kind": "manual_verification",
+        "requirement_type": "curriculum_exception",
+        "description": "※ 113-1學期(含)以前申請修習法國語言、文化與社會學程的學生,可將「西洋文化典故」 列入核心課程學分中。",
+        "verification_mode": "manual_review",
+        "requirement_context": "program_completion",
+        "source_page": 3,
+        "source_text": "※ 113-1學期(含)以前申請修習法國語言、文化與社會學程的學生,可將「西洋文化典故」 列入核心課程學分中。",
+        "validation_status": "source_text_match"
+      },
+      {
+        "requirement_id": "requirement_8d8a2fc801498be7",
+        "kind": "manual_verification",
+        "requirement_type": "curriculum_exception",
+        "description": "※ 111學年度以前申請修習法國語言、文化與社會學程的學生,可將法文一(一)及法文一 (二)列入核心學分;",
+        "verification_mode": "manual_review",
+        "requirement_context": "program_completion",
+        "source_page": 3,
+        "source_text": "※ 111學年度以前申請修習法國語言、文化與社會學程的學生,可將法文一(一)及法文一 (二)列入核心學分;",
         "validation_status": "source_text_match"
       }
     ],
@@ -1384,7 +1384,14 @@
       "minimum_elective_courses": null,
       "has_conditional_requirements": false,
       "has_manual_requirements": true,
+      "has_completion_manual_requirements": true,
+      "has_certificate_requirements": false,
+      "has_credit_recognition_requirements": true,
       "has_unresolved_conflicts": false
     }
-  }
+  },
+  "institutional_policy_ids": [
+    "nsysu_program_policy_2026_08_16"
+  ],
+  "institutional_policy_applied_rule_ids": []
 }

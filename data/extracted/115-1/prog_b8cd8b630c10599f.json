@@ -1,5 +1,5 @@
 {
-  "schema_version": "1.2",
+  "schema_version": "1.3",
   "courses": [],
   "credit_mentions": [
     21,
@@ -387,6 +387,9 @@
           "minimum_elective_courses": null,
           "has_conditional_requirements": false,
           "has_manual_requirements": false,
+          "has_completion_manual_requirements": false,
+          "has_certificate_requirements": false,
+          "has_credit_recognition_requirements": false,
           "has_unresolved_conflicts": false
         }
       },
@@ -702,14 +705,14 @@
         ],
         "manual_requirements": [
           {
-            "requirement_id": "requirement_8bde86f1cf55ae6e",
+            "requirement_id": "requirement_df40d7b2451679bf",
             "kind": "manual_verification",
             "requirement_type": "prerequisite",
-            "description": "先修課程",
+            "description": "108.12.10第162次教務會議通過 會計學程新課程規劃表 2 開課單位 課 程 名 稱 學分數 備註 核 心 課 程 企管系/財管系 財務管理/財務管理(一) 3 先修課程會計學(一)及會計 企管系/財管系 中級會計學(一) 3 學(二) 先修課程會計學(一)及會計 企管系/財管系 中級會計學(二) 3 學(二) 核心課程學分數: 9 學分 選 修 企管系/財管系 成本會計學 3 企管系/財管系 高等會計學(一) 3 企管系/財管系 高等會計學(二 ) 3 企管系/財管系 會計實務 3 企管系/財管系 管理會計 3 企管系/財管系 會計資訊系統 3 企管系/財管系 稅務會計 3 企管系/財管系 審計學 3 企管系/財管系 財務報表分析 3 總學分數:至少21學分",
             "verification_mode": "manual_review",
             "requirement_context": "program_completion",
             "source_page": 2,
-            "source_text": "先修課程",
+            "source_text": "108.12.10第162次教務會議通過 會計學程新課程規劃表 2 開課單位 課 程 名 稱 學分數 備註 核 心 課 程 企管系/財管系 財務管理/財務管理(一) 3 先修課程會計學(一)及會計 企管系/財管系 中級會計學(一) 3 學(二) 先修課程會計學(一)及會計 企管系/財管系 中級會計學(二) 3 學(二) 核心課程學分數: 9 學分 選 修 企管系/財管系 成本會計學 3 企管系/財管系 高等會計學(一) 3 企管系/財管系 高等會計學(二 ) 3 企管系/財管系 會計實務 3 企管系/財管系 管理會計 3 企管系/財管系 會計資訊系統 3 企管系/財管系 稅務會計 3 企管系/財管系 審計學 3 企管系/財管系 財務報表分析 3 總學分數:至少21學分",
             "validation_status": "source_text_match"
           }
         ],
@@ -723,6 +726,9 @@
           "minimum_elective_courses": null,
           "has_conditional_requirements": false,
           "has_manual_requirements": true,
+          "has_completion_manual_requirements": true,
+          "has_certificate_requirements": false,
+          "has_credit_recognition_requirements": false,
           "has_unresolved_conflicts": false
         }
       },
@@ -1106,6 +1112,9 @@
       "minimum_elective_courses": null,
       "has_conditional_requirements": false,
       "has_manual_requirements": false,
+      "has_completion_manual_requirements": false,
+      "has_certificate_requirements": false,
+      "has_credit_recognition_requirements": false,
       "has_unresolved_conflicts": false
     }
   }

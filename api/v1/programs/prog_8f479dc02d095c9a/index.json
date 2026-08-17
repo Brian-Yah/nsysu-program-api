@@ -29,7 +29,7 @@
         "last_modified": "Tue, 23 Dec 2025 06:56:05 GMT",
         "content_length": 360369
       },
-      "parser_version": "0.3.0",
+      "parser_version": "0.4.0",
       "extractor_versions": {
         "pypdf": "6.10.0",
         "pdfplumber": "0.11.9"
@@ -1640,80 +1640,80 @@
       ],
       "manual_requirements": [
         {
-          "requirement_id": "requirement_0e9b757ed848d00f",
+          "requirement_id": "requirement_0f6c9f40b7ca6495",
           "kind": "manual_verification",
           "requirement_type": "curriculum_exception",
-          "description": "抵免之學分僅可計算於日本研究學程內,但不列入學生之畢業學分",
+          "description": "3. 抵免之學分僅可計算於日本研究學程內,但不列入學生之畢業學分數。",
           "verification_mode": "manual_review",
           "requirement_context": "program_completion",
           "source_page": 3,
-          "source_text": "抵免之學分僅可計算於日本研究學程內,但不列入學生之畢業學分",
+          "source_text": "3. 抵免之學分僅可計算於日本研究學程內,但不列入學生之畢業學分數。",
           "validation_status": "source_text_match"
         },
         {
-          "requirement_id": "requirement_1b97bc4b0c982516",
+          "requirement_id": "requirement_2f3ebd4b6f06f7c2",
+          "kind": "manual_verification",
+          "requirement_type": "curriculum_exception",
+          "description": "6. 日本籍學生得檢具證明文件(護照)提出免修日文一(一)、日文一(二)、日文二 (一)、日文二(二),但仍須修習其他核心或選修課程補足免修之學分數。",
+          "verification_mode": "manual_review",
+          "requirement_context": "program_completion",
+          "source_page": 3,
+          "source_text": "6. 日本籍學生得檢具證明文件(護照)提出免修日文一(一)、日文一(二)、日文二 (一)、日文二(二),但仍須修習其他核心或選修課程補足免修之學分數。",
+          "validation_status": "source_text_match"
+        },
+        {
+          "requirement_id": "requirement_3c63e1fea5e7fca4",
           "kind": "manual_verification",
           "requirement_type": "recognition",
-          "description": "JLPT)3級、新制日本語能力試驗(JLPT)N4級或第二外語能力測驗(SELPT)基礎級A2者,可申請抵免核心課程12學分",
+          "description": "四、修讀本學程學生倘入學前曾修習本學程規劃之課程,得提經學程負責人認定後抵免 之。",
           "verification_mode": "manual_review",
-          "requirement_context": "program_completion",
+          "requirement_context": "credit_recognition",
           "source_page": 3,
-          "source_text": "JLPT)3級、新制日本語能力試驗(JLPT)N4級或第二外語能力測驗(SELPT)基礎級A2者,可申請抵免核心課程12學分",
+          "source_text": "四、修讀本學程學生倘入學前曾修習本學程規劃之課程,得提經學程負責人認定後抵免 之。",
           "validation_status": "source_text_match"
         },
         {
-          "requirement_id": "requirement_5f1e3e83c955e961",
+          "requirement_id": "requirement_4bc480402c9dad0f",
+          "kind": "manual_verification",
+          "requirement_type": "recognition",
+          "description": "1. 通過舊制日本語能力試驗(JLPT)4級、新制日本語能力試驗(JLPT)N5級或第二外 語能力測驗(SELPT)基礎級A1者可申請抵免核心課程日文一(一)、日文一(二), 6學分。",
+          "verification_mode": "manual_review",
+          "requirement_context": "credit_recognition",
+          "source_page": 3,
+          "source_text": "1. 通過舊制日本語能力試驗(JLPT)4級、新制日本語能力試驗(JLPT)N5級或第二外 語能力測驗(SELPT)基礎級A1者可申請抵免核心課程日文一(一)、日文一(二), 6學分。",
+          "validation_status": "source_text_match"
+        },
+        {
+          "requirement_id": "requirement_729de5cdf3daf040",
+          "kind": "manual_verification",
+          "requirement_type": "recognition",
+          "description": "2. 通過舊制日本語能力試驗(JLPT)3級、新制日本語能力試驗(JLPT)N4級或第二外 語能力測驗(SELPT)基礎級A2者,可申請抵免核心課程12學分。",
+          "verification_mode": "manual_review",
+          "requirement_context": "credit_recognition",
+          "source_page": 3,
+          "source_text": "2. 通過舊制日本語能力試驗(JLPT)3級、新制日本語能力試驗(JLPT)N4級或第二外 語能力測驗(SELPT)基礎級A2者,可申請抵免核心課程12學分。",
+          "validation_status": "source_text_match"
+        },
+        {
+          "requirement_id": "requirement_9e88c5d3ce3a01fa",
           "kind": "manual_verification",
           "requirement_type": "certificate",
-          "description": "申請證書",
+          "description": "若發生學生在申請證書之前所修的 某門課在申請證書時已被從該年度的課程表刪除之情形,則以該學生從入學開始到申 請學程證書為止的這段期間內學程所核定可修習之課程為證書核准之依據。",
           "verification_mode": "manual_review",
           "requirement_context": "certificate",
           "source_page": 3,
-          "source_text": "申請證書",
+          "source_text": "若發生學生在申請證書之前所修的 某門課在申請證書時已被從該年度的課程表刪除之情形,則以該學生從入學開始到申 請學程證書為止的這段期間內學程所核定可修習之課程為證書核准之依據。",
           "validation_status": "source_text_match"
         },
         {
-          "requirement_id": "requirement_c01db5dbc892edd8",
-          "kind": "manual_verification",
-          "requirement_type": "recognition",
-          "description": "入學前曾修習本學程規劃之課程,得提經學程負責人認定",
-          "verification_mode": "manual_review",
-          "requirement_context": "program_completion",
-          "source_page": 3,
-          "source_text": "入學前曾修習本學程規劃之課程,得提經學程負責人認定",
-          "validation_status": "source_text_match"
-        },
-        {
-          "requirement_id": "requirement_c8d37a7814581d48",
+          "requirement_id": "requirement_b628c7248385afa3",
           "kind": "manual_verification",
           "requirement_type": "curriculum_exception",
-          "description": "日本籍學生得檢具證明文件(護照)提出免修",
+          "description": "同程度課程不得重複計算為核心學分(如:同時修日文一(一) 和商用日文(一)只能將其中一門課納為核心課程,另一門課得計入選修學分)。",
           "verification_mode": "manual_review",
           "requirement_context": "program_completion",
           "source_page": 3,
-          "source_text": "日本籍學生得檢具證明文件(護照)提出免修",
-          "validation_status": "source_text_match"
-        },
-        {
-          "requirement_id": "requirement_ef0d69e4273bd2d0",
-          "kind": "manual_verification",
-          "requirement_type": "curriculum_exception",
-          "description": "同程度課程不得重複",
-          "verification_mode": "manual_review",
-          "requirement_context": "program_completion",
-          "source_page": 3,
-          "source_text": "同程度課程不得重複",
-          "validation_status": "source_text_match"
-        },
-        {
-          "requirement_id": "requirement_ef4f47f30932a510",
-          "kind": "manual_verification",
-          "requirement_type": "recognition",
-          "description": "JLPT)4級、新制日本語能力試驗(JLPT)N5級或第二外語能力測驗(SELPT)基礎級A1者可申請抵免核心課程日文一(一)、日文一(二),6學分",
-          "verification_mode": "manual_review",
-          "requirement_context": "program_completion",
-          "source_page": 3,
-          "source_text": "JLPT)4級、新制日本語能力試驗(JLPT)N5級或第二外語能力測驗(SELPT)基礎級A1者可申請抵免核心課程日文一(一)、日文一(二),6學分",
+          "source_text": "同程度課程不得重複計算為核心學分(如:同時修日文一(一) 和商用日文(一)只能將其中一門課納為核心課程,另一門課得計入選修學分)。",
           "validation_status": "source_text_match"
         }
       ],
@@ -1741,8 +1741,15 @@
         "minimum_elective_courses": null,
         "has_conditional_requirements": false,
         "has_manual_requirements": true,
+        "has_completion_manual_requirements": true,
+        "has_certificate_requirements": true,
+        "has_credit_recognition_requirements": true,
         "has_unresolved_conflicts": false
       }
-    }
+    },
+    "institutional_policy_ids": [
+      "nsysu_program_policy_2026_08_16"
+    ],
+    "institutional_policy_applied_rule_ids": []
   }
 }

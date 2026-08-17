@@ -1,5 +1,5 @@
 {
-  "schema_version": "1.2",
+  "schema_version": "1.3",
   "courses": [
     {
       "course_code": "PYTHON",
@@ -2020,25 +2020,36 @@
         ],
         "manual_requirements": [
           {
-            "requirement_id": "requirement_547ce000e246a231",
+            "requirement_id": "requirement_151c6730d74a77cd",
             "kind": "manual_verification",
-            "requirement_type": "prerequisite",
-            "description": "修畢微積分(3學分)且成績及格者,方得",
+            "requirement_type": "curriculum_exception",
+            "description": "原已核准修習學生,亦得追 溯適用之。",
             "verification_mode": "manual_review",
             "requirement_context": "program_completion",
             "source_page": 6,
-            "source_text": "修畢微積分(3學分)且成績及格者,方得",
+            "source_text": "原已核准修習學生,亦得追 溯適用之。",
             "validation_status": "source_text_match"
           },
           {
-            "requirement_id": "requirement_65927e27140bb40e",
+            "requirement_id": "requirement_bec98bd73d0f6b90",
             "kind": "manual_verification",
-            "requirement_type": "student_condition",
-            "description": "雙主修或輔系學生,則至少",
+            "requirement_type": "prerequisite",
+            "description": "1. 修畢微積分(3 學分)且成績及格者,方得申請修讀本學程。",
             "verification_mode": "manual_review",
             "requirement_context": "program_completion",
             "source_page": 6,
-            "source_text": "雙主修或輔系學生,則至少",
+            "source_text": "1. 修畢微積分(3 學分)且成績及格者,方得申請修讀本學程。",
+            "validation_status": "source_text_match"
+          },
+          {
+            "requirement_id": "requirement_c93ae084a5099a59",
+            "kind": "manual_verification",
+            "requirement_type": "student_condition",
+            "description": "若為雙 主修或輔系學生,則至少應修滿 6 學分之課程不得屬於其原主修系所、雙主修或輔系。",
+            "verification_mode": "manual_review",
+            "requirement_context": "program_completion",
+            "source_page": 6,
+            "source_text": "若為雙 主修或輔系學生,則至少應修滿 6 學分之課程不得屬於其原主修系所、雙主修或輔系。",
             "validation_status": "source_text_match"
           }
         ],
@@ -2138,6 +2149,9 @@
           "minimum_elective_courses": null,
           "has_conditional_requirements": true,
           "has_manual_requirements": true,
+          "has_completion_manual_requirements": true,
+          "has_certificate_requirements": false,
+          "has_credit_recognition_requirements": false,
           "has_unresolved_conflicts": false
         }
       },
@@ -3399,14 +3413,25 @@
         ],
         "manual_requirements": [
           {
-            "requirement_id": "requirement_8bde86f1cf55ae6e",
+            "requirement_id": "requirement_538561adec414854",
             "kind": "manual_verification",
             "requirement_type": "prerequisite",
-            "description": "先修課程",
+            "description": "1. 修畢微積分(3學分)且成績及格為先修課程。",
             "verification_mode": "manual_review",
             "requirement_context": "program_completion",
             "source_page": 10,
-            "source_text": "先修課程",
+            "source_text": "1. 修畢微積分(3學分)且成績及格為先修課程。",
+            "validation_status": "source_text_match"
+          },
+          {
+            "requirement_id": "requirement_6bdc7d4dacef4466",
+            "kind": "manual_verification",
+            "requirement_type": "curriculum_exception",
+            "description": "學生適用,原已核准修習學生,亦 得追溯適用之。",
+            "verification_mode": "manual_review",
+            "requirement_context": "program_completion",
+            "source_page": 10,
+            "source_text": "學生適用,原已核准修習學生,亦 得追溯適用之。",
             "validation_status": "source_text_match"
           }
         ],
@@ -3420,6 +3445,9 @@
           "minimum_elective_courses": null,
           "has_conditional_requirements": false,
           "has_manual_requirements": true,
+          "has_completion_manual_requirements": true,
+          "has_certificate_requirements": false,
+          "has_credit_recognition_requirements": false,
           "has_unresolved_conflicts": false
         }
       },
@@ -4435,14 +4463,25 @@
         ],
         "manual_requirements": [
           {
-            "requirement_id": "requirement_8bde86f1cf55ae6e",
+            "requirement_id": "requirement_538561adec414854",
             "kind": "manual_verification",
             "requirement_type": "prerequisite",
-            "description": "先修課程",
+            "description": "1. 修畢微積分(3學分)且成績及格為先修課程。",
             "verification_mode": "manual_review",
             "requirement_context": "program_completion",
             "source_page": 14,
-            "source_text": "先修課程",
+            "source_text": "1. 修畢微積分(3學分)且成績及格為先修課程。",
+            "validation_status": "source_text_match"
+          },
+          {
+            "requirement_id": "requirement_cc10406f9bf05306",
+            "kind": "manual_verification",
+            "requirement_type": "curriculum_exception",
+            "description": "學生適用,原已核准修習學 生,亦得追溯適用之。",
+            "verification_mode": "manual_review",
+            "requirement_context": "program_completion",
+            "source_page": 14,
+            "source_text": "學生適用,原已核准修習學 生,亦得追溯適用之。",
             "validation_status": "source_text_match"
           }
         ],
@@ -4470,6 +4509,9 @@
           "minimum_elective_courses": null,
           "has_conditional_requirements": false,
           "has_manual_requirements": true,
+          "has_completion_manual_requirements": true,
+          "has_certificate_requirements": false,
+          "has_credit_recognition_requirements": false,
           "has_unresolved_conflicts": false
         }
       },
@@ -5510,14 +5552,25 @@
         ],
         "manual_requirements": [
           {
-            "requirement_id": "requirement_8bde86f1cf55ae6e",
+            "requirement_id": "requirement_538561adec414854",
             "kind": "manual_verification",
             "requirement_type": "prerequisite",
-            "description": "先修課程",
+            "description": "1. 修畢微積分(3學分)且成績及格為先修課程。",
             "verification_mode": "manual_review",
             "requirement_context": "program_completion",
             "source_page": 17,
-            "source_text": "先修課程",
+            "source_text": "1. 修畢微積分(3學分)且成績及格為先修課程。",
+            "validation_status": "source_text_match"
+          },
+          {
+            "requirement_id": "requirement_b56a4b659c9a986c",
+            "kind": "manual_verification",
+            "requirement_type": "curriculum_exception",
+            "description": "學生適用,原已核准修習 學生,亦得追溯適用之。",
+            "verification_mode": "manual_review",
+            "requirement_context": "program_completion",
+            "source_page": 17,
+            "source_text": "學生適用,原已核准修習 學生,亦得追溯適用之。",
             "validation_status": "source_text_match"
           }
         ],
@@ -5531,6 +5584,9 @@
           "minimum_elective_courses": null,
           "has_conditional_requirements": false,
           "has_manual_requirements": true,
+          "has_completion_manual_requirements": true,
+          "has_certificate_requirements": false,
+          "has_credit_recognition_requirements": false,
           "has_unresolved_conflicts": false
         }
       },
@@ -6553,14 +6609,25 @@
         ],
         "manual_requirements": [
           {
-            "requirement_id": "requirement_8bde86f1cf55ae6e",
+            "requirement_id": "requirement_c022240baa09b2e9",
             "kind": "manual_verification",
             "requirement_type": "prerequisite",
-            "description": "先修課程",
+            "description": "1.修畢微積分(6學分)且成績及格為先修課程。",
             "verification_mode": "manual_review",
             "requirement_context": "program_completion",
             "source_page": 20,
-            "source_text": "先修課程",
+            "source_text": "1.修畢微積分(6學分)且成績及格為先修課程。",
+            "validation_status": "source_text_match"
+          },
+          {
+            "requirement_id": "requirement_cc10406f9bf05306",
+            "kind": "manual_verification",
+            "requirement_type": "curriculum_exception",
+            "description": "學生適用,原已核准修習學 生,亦得追溯適用之。",
+            "verification_mode": "manual_review",
+            "requirement_context": "program_completion",
+            "source_page": 20,
+            "source_text": "學生適用,原已核准修習學 生,亦得追溯適用之。",
             "validation_status": "source_text_match"
           }
         ],
@@ -6574,6 +6641,9 @@
           "minimum_elective_courses": null,
           "has_conditional_requirements": false,
           "has_manual_requirements": true,
+          "has_completion_manual_requirements": true,
+          "has_certificate_requirements": false,
+          "has_credit_recognition_requirements": false,
           "has_unresolved_conflicts": false
         }
       },
@@ -7475,14 +7545,25 @@
         ],
         "manual_requirements": [
           {
-            "requirement_id": "requirement_8bde86f1cf55ae6e",
+            "requirement_id": "requirement_b56a4b659c9a986c",
             "kind": "manual_verification",
-            "requirement_type": "prerequisite",
-            "description": "先修課程",
+            "requirement_type": "curriculum_exception",
+            "description": "學生適用,原已核准修習 學生,亦得追溯適用之。",
             "verification_mode": "manual_review",
             "requirement_context": "program_completion",
             "source_page": 23,
-            "source_text": "先修課程",
+            "source_text": "學生適用,原已核准修習 學生,亦得追溯適用之。",
+            "validation_status": "source_text_match"
+          },
+          {
+            "requirement_id": "requirement_f6fbd210262853a1",
+            "kind": "manual_verification",
+            "requirement_type": "prerequisite",
+            "description": "6. 修畢微積分(6 學分)且成績及格為先修課程。",
+            "verification_mode": "manual_review",
+            "requirement_context": "program_completion",
+            "source_page": 23,
+            "source_text": "6. 修畢微積分(6 學分)且成績及格為先修課程。",
             "validation_status": "source_text_match"
           }
         ],
@@ -7496,6 +7577,9 @@
           "minimum_elective_courses": null,
           "has_conditional_requirements": false,
           "has_manual_requirements": true,
+          "has_completion_manual_requirements": true,
+          "has_certificate_requirements": false,
+          "has_credit_recognition_requirements": false,
           "has_unresolved_conflicts": false
         }
       },
@@ -9492,25 +9576,36 @@
     ],
     "manual_requirements": [
       {
-        "requirement_id": "requirement_547ce000e246a231",
+        "requirement_id": "requirement_151c6730d74a77cd",
         "kind": "manual_verification",
-        "requirement_type": "prerequisite",
-        "description": "修畢微積分(3學分)且成績及格者,方得",
+        "requirement_type": "curriculum_exception",
+        "description": "原已核准修習學生,亦得追 溯適用之。",
         "verification_mode": "manual_review",
         "requirement_context": "program_completion",
         "source_page": 6,
-        "source_text": "修畢微積分(3學分)且成績及格者,方得",
+        "source_text": "原已核准修習學生,亦得追 溯適用之。",
         "validation_status": "source_text_match"
       },
       {
-        "requirement_id": "requirement_65927e27140bb40e",
+        "requirement_id": "requirement_bec98bd73d0f6b90",
         "kind": "manual_verification",
-        "requirement_type": "student_condition",
-        "description": "雙主修或輔系學生,則至少",
+        "requirement_type": "prerequisite",
+        "description": "1. 修畢微積分(3 學分)且成績及格者,方得申請修讀本學程。",
         "verification_mode": "manual_review",
         "requirement_context": "program_completion",
         "source_page": 6,
-        "source_text": "雙主修或輔系學生,則至少",
+        "source_text": "1. 修畢微積分(3 學分)且成績及格者,方得申請修讀本學程。",
+        "validation_status": "source_text_match"
+      },
+      {
+        "requirement_id": "requirement_c93ae084a5099a59",
+        "kind": "manual_verification",
+        "requirement_type": "student_condition",
+        "description": "若為雙 主修或輔系學生,則至少應修滿 6 學分之課程不得屬於其原主修系所、雙主修或輔系。",
+        "verification_mode": "manual_review",
+        "requirement_context": "program_completion",
+        "source_page": 6,
+        "source_text": "若為雙 主修或輔系學生,則至少應修滿 6 學分之課程不得屬於其原主修系所、雙主修或輔系。",
         "validation_status": "source_text_match"
       }
     ],
@@ -9610,6 +9705,9 @@
       "minimum_elective_courses": null,
       "has_conditional_requirements": true,
       "has_manual_requirements": true,
+      "has_completion_manual_requirements": true,
+      "has_certificate_requirements": false,
+      "has_credit_recognition_requirements": false,
       "has_unresolved_conflicts": false
     }
   }

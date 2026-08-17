@@ -20,7 +20,17 @@ for path in (root / "data/published").glob("*/*.json"):
     errors.extend(f"{path}: {error.message}" for error in validator.iter_errors(data))
     courses = data.get("course_catalog", [])
     course_names = {course.get("course_name_snapshot") for course in courses}
-    entry_ids = {course.get("catalog_entry_id") for course in courses}
+    entry_id_list = [course.get("catalog_entry_id") for course in courses]
+    entry_ids = set(entry_id_list)
+    if len(entry_id_list) != len(entry_ids):
+        errors.append(f"{path}: duplicate catalog_entry_id")
+    for course in courses:
+        group_id = course.get("catalog_entry_group_id")
+        if group_id and group_id not in entry_ids:
+            errors.append(
+                f"{path}: {course.get('catalog_entry_id')} references missing "
+                f"catalog_entry_group_id {group_id}"
+            )
     program_course_names = {
         course.get("program_course_name_snapshot")
         for course in courses
@@ -238,6 +248,22 @@ if errors:
     print("\n".join(errors))
     sys.exit(1)
 print(f"Validated {len(ids)} published programs")
+
+policy_schema = json.loads(
+    (root / "schemas/institutional-policy.schema.json").read_text(encoding="utf-8")
+)
+policy = json.loads(
+    (root / "data/policies/program-requirements.json").read_text(encoding="utf-8")
+)
+policy_errors = list(
+    Draft202012Validator(
+        policy_schema, format_checker=FormatChecker()
+    ).iter_errors(policy)
+)
+if policy_errors:
+    print("\n".join(f"institutional policy: {error.message}" for error in policy_errors))
+    sys.exit(1)
+print("Validated institutional program policy")
 
 requirement_schema_path = root / "schemas/graduation-requirement.schema.json"
 collection_schema_path = root / "schemas/graduation-requirements.schema.json"

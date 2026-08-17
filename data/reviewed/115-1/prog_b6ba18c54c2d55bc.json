@@ -6,7 +6,7 @@
     "pdf_binary_sha256": "0d1f3e3d7d308ad94a3bc2abdf2f868786bbbe911fc10d15f856981afe02e92a",
     "normalized_text_sha256": "fa083b5905f38e474661e1c048c79ba90d204bcab0df66a9cc68b21d7ec7ef8e",
     "selected_pdf_academic_version": "114-1",
-    "parser_version": "0.3.0",
+    "parser_version": "0.4.0",
     "course_catalog_sha256": "b9a4ccc66bc860fcadaadf9d1705b35e4b703d78ebca4cd70267d251ed21fb0a"
   },
   "course_catalog": [
@@ -1969,12 +1969,13 @@
         "scope": {
           "kind": "course_eligibility",
           "excluded_affiliations": [
-            "home_department",
-            "double_major",
-            "minor"
+            "home_department"
           ],
           "excluded_course_roles": [
             "all"
+          ],
+          "student_categories": [
+            "general_student"
           ]
         },
         "minimum_credits": 9.0,
@@ -1982,6 +1983,29 @@
         "source_page": 6,
         "source_text": "其中至少9學分須為非屬學生原主修",
         "validation_status": "source_text_match"
+      },
+      {
+        "constraint_id": "constraint_f120ab82976a82d1",
+        "kind": "minimum_credits",
+        "scope": {
+          "kind": "course_eligibility",
+          "excluded_affiliations": [
+            "home_department",
+            "double_major",
+            "minor"
+          ],
+          "excluded_course_roles": [
+            "all"
+          ],
+          "student_categories": [
+            "double_major_or_minor_student"
+          ]
+        },
+        "minimum_credits": 6.0,
+        "requirement_context": "program_completion",
+        "source_page": 6,
+        "source_text": "若為雙主修或輔系學生，至少6學分不得屬於原主修、雙主修或輔系。",
+        "validation_status": "human_verified"
       }
     ],
     "manual_requirements": [

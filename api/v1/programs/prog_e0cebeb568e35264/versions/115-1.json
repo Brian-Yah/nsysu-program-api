@@ -23,7 +23,7 @@
       "last_modified": "Tue, 24 Dec 2024 07:17:44 GMT",
       "content_length": 101041
     },
-    "parser_version": "0.3.0",
+    "parser_version": "0.4.0",
     "extractor_versions": {
       "pypdf": "6.10.0",
       "pdfplumber": "0.11.9"
@@ -523,43 +523,41 @@
         "source_page": 1,
         "source_text": "總學分數:選修課程32學分,完成專業學程條件至少必修加選修課程需達 18 學分",
         "validation_status": "source_text_match"
-      }
-    ],
-    "manual_requirements": [
-      {
-        "requirement_id": "requirement_1a0cfb28821b45c8",
-        "kind": "manual_verification",
-        "requirement_type": "student_condition",
-        "description": "碩士班學生:含修習專業模組課程至少",
-        "verification_mode": "manual_review",
-        "requirement_context": "program_completion",
-        "source_page": 1,
-        "source_text": "碩士班學生:含修習專業模組課程至少",
-        "validation_status": "source_text_match"
       },
       {
-        "requirement_id": "requirement_1e52c23a2d06fdcc",
-        "kind": "manual_verification",
-        "requirement_type": "student_condition",
-        "description": "跨院修讀之學士班學生:修習專業模組課程至少",
-        "verification_mode": "manual_review",
+        "constraint_id": "constraint_07d9b6d3aefd1c74",
+        "kind": "minimum_credits",
+        "scope": {
+          "kind": "professional_module"
+        },
         "requirement_context": "program_completion",
-        "source_page": 1,
-        "source_text": "跨院修讀之學士班學生:修習專業模組課程至少",
-        "validation_status": "source_text_match"
+        "source_kind": "institutional_catalog",
+        "source_url": "https://ctdr.nsysu.edu.tw/class2.php",
+        "source_text": "專業模組課程至少九學分。",
+        "validation_status": "source_text_match",
+        "minimum_credits": 9
       },
       {
-        "requirement_id": "requirement_804936c704930777",
-        "kind": "manual_verification",
-        "requirement_type": "student_condition",
-        "description": "同院跨系(所)修讀之學士班學生:修習專業模組課程至少",
-        "verification_mode": "manual_review",
+        "constraint_id": "constraint_e4361bba192ba1f7",
+        "kind": "maximum_counted_credits",
+        "scope": {
+          "kind": "course_attributes",
+          "course_attributes": [
+            "cross_college_general_education"
+          ],
+          "student_categories": [
+            "cross_college_bachelor"
+          ]
+        },
         "requirement_context": "program_completion",
-        "source_page": 1,
-        "source_text": "同院跨系(所)修讀之學士班學生:修習專業模組課程至少",
-        "validation_status": "source_text_match"
+        "source_kind": "institutional_catalog",
+        "source_url": "https://ctdr.nsysu.edu.tw/class2.php",
+        "source_text": "跨院修讀之學士班學生，其他課程至多六學分以跨院選修學分抵免。",
+        "validation_status": "source_text_match",
+        "maximum_counted_credits": 6
       }
     ],
+    "manual_requirements": [],
     "course_count_constraints": [
       {
         "constraint_id": "constraint_30253c9f9c23657e",
@@ -645,8 +643,11 @@
       "minimum_elective_credits": null,
       "minimum_core_courses": null,
       "minimum_elective_courses": null,
-      "has_conditional_requirements": true,
-      "has_manual_requirements": true,
+      "has_conditional_requirements": false,
+      "has_manual_requirements": false,
+      "has_completion_manual_requirements": false,
+      "has_certificate_requirements": false,
+      "has_credit_recognition_requirements": false,
       "has_unresolved_conflicts": false
     }
   },
@@ -656,5 +657,12 @@
     "review_note": "分子生物學 開課單位 海資系或生科系 有備註xx亦可得都要改",
     "correction_status": "rechecked",
     "override_path": "data/reviewed/115-1/prog_e0cebeb568e35264.json"
-  }
+  },
+  "institutional_policy_ids": [
+    "nsysu_program_policy_2026_08_16"
+  ],
+  "institutional_policy_applied_rule_ids": [
+    "professional_module_minimum",
+    "professional_cross_college_elective_cap"
+  ]
 }

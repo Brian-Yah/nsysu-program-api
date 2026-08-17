@@ -23,7 +23,7 @@
       "last_modified": "Fri, 31 May 2024 06:55:37 GMT",
       "content_length": 177779
     },
-    "parser_version": "0.3.0",
+    "parser_version": "0.4.0",
     "extractor_versions": {
       "pypdf": "6.10.0",
       "pdfplumber": "0.11.9"
@@ -436,39 +436,39 @@
     ],
     "manual_requirements": [
       {
-        "requirement_id": "requirement_7427cec6921fc4b3",
-        "kind": "manual_verification",
-        "requirement_type": "report",
-        "description": "須提交一份關於他們在學習或實際工作中遇到的關鍵問題、挑戰或悖論的最終批判性反思",
-        "verification_mode": "manual_review",
-        "requirement_context": "certificate",
-        "source_page": 2,
-        "source_text": "須提交一份關於他們在學習或實際工作中遇到的關鍵問題、挑戰或悖論的最終批判性反思",
-        "validation_status": "source_text_match"
-      },
-      {
-        "requirement_id": "requirement_bc6643795a94e5c3",
+        "requirement_id": "requirement_9720781609e109f3",
         "kind": "manual_verification",
         "requirement_type": "activity_count",
-        "description": "須參加五項",
+        "description": "1)學生必須參加五項與人權相關之課外活動,包括講座、座談會、會議、研討會、展覽或 其他公共節目。",
         "verification_mode": "manual_review",
         "requirement_context": "certificate",
         "source_page": 2,
-        "source_text": "須參加五項",
+        "source_text": "1)學生必須參加五項與人權相關之課外活動,包括講座、座談會、會議、研討會、展覽或 其他公共節目。",
         "validation_status": "source_text_match",
         "minimum_count": 5
       },
       {
-        "requirement_id": "requirement_de22299c3257042c",
+        "requirement_id": "requirement_b85a14b8f851fbc8",
         "kind": "manual_verification",
         "requirement_type": "activity_hours",
-        "description": "至少十五小時",
+        "description": "2)學生必須通過實習、領導或參與學生倡議或社區項目,在人權領域從事至少十五小時的 持續工作。",
         "verification_mode": "manual_review",
         "requirement_context": "certificate",
         "source_page": 2,
-        "source_text": "至少十五小時",
+        "source_text": "2)學生必須通過實習、領導或參與學生倡議或社區項目,在人權領域從事至少十五小時的 持續工作。",
         "validation_status": "source_text_match",
         "minimum_hours": 15.0
+      },
+      {
+        "requirement_id": "requirement_c7f8f7c1fc02897f",
+        "kind": "manual_verification",
+        "requirement_type": "report",
+        "description": "3)學生必須提交一份關於他們在學習或實際工作中遇到的關鍵問題、挑戰或悖論的最終批 判性反思論文。",
+        "verification_mode": "manual_review",
+        "requirement_context": "certificate",
+        "source_page": 2,
+        "source_text": "3)學生必須提交一份關於他們在學習或實際工作中遇到的關鍵問題、挑戰或悖論的最終批 判性反思論文。",
+        "validation_status": "source_text_match"
       }
     ],
     "completion_summary": {
@@ -481,7 +481,14 @@
       "minimum_elective_courses": null,
       "has_conditional_requirements": false,
       "has_manual_requirements": true,
+      "has_completion_manual_requirements": false,
+      "has_certificate_requirements": true,
+      "has_credit_recognition_requirements": false,
       "has_unresolved_conflicts": false
     }
-  }
+  },
+  "institutional_policy_ids": [
+    "nsysu_program_policy_2026_08_16"
+  ],
+  "institutional_policy_applied_rule_ids": []
 }

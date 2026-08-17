@@ -23,7 +23,7 @@
       "last_modified": "Wed, 01 Jul 2026 06:12:39 GMT",
       "content_length": 517899
     },
-    "parser_version": "0.3.0",
+    "parser_version": "0.4.0",
     "extractor_versions": {
       "pypdf": "6.10.0",
       "pdfplumber": "0.11.9"
@@ -3647,36 +3647,36 @@
     ],
     "manual_requirements": [
       {
-        "requirement_id": "requirement_47d2779a3f3c4b32",
+        "requirement_id": "requirement_e55b9db036afd2ee",
         "kind": "manual_verification",
         "requirement_type": "prerequisite",
-        "description": "先修畢核心課程",
+        "description": "三、總結性課程(2學分,需先修畢核心課程 I和 II,方才可修習總結性課程) 海科院 環境教育實踐推廣 2 社會系 環境社會學 3 符合環保署採計課程103300 博雅向度六 海洋生態與海洋科技教育探索 2 符合環保署採計課程",
         "verification_mode": "manual_review",
         "requirement_context": "program_completion",
         "source_page": 1,
-        "source_text": "先修畢核心課程",
+        "source_text": "三、總結性課程(2學分,需先修畢核心課程 I和 II,方才可修習總結性課程) 海科院 環境教育實踐推廣 2 社會系 環境社會學 3 符合環保署採計課程103300 博雅向度六 海洋生態與海洋科技教育探索 2 符合環保署採計課程",
         "validation_status": "source_text_match"
       },
       {
-        "requirement_id": "requirement_74fa7c5fe21e08c2",
+        "requirement_id": "requirement_c7f41c52f0315105",
         "kind": "manual_verification",
         "requirement_type": "certificate",
-        "description": "申請環保署環境教育教學人員認證",
+        "description": "※ 完成本學程全部領域選修 18 學分之學生可申請環保署環境教育行政人員認證",
         "verification_mode": "manual_review",
         "requirement_context": "certificate",
         "source_page": 9,
-        "source_text": "申請環保署環境教育教學人員認證",
+        "source_text": "※ 完成本學程全部領域選修 18 學分之學生可申請環保署環境教育行政人員認證",
         "validation_status": "source_text_match"
       },
       {
-        "requirement_id": "requirement_952ae1a5a855d213",
+        "requirement_id": "requirement_fdf431f90d6cbca1",
         "kind": "manual_verification",
         "requirement_type": "certificate",
-        "description": "申請環保署環境教育行政人員認證",
+        "description": "※ 完成本學程擇一領域選修 18 學分之學生可申請環保署環境教育教學人員認證。",
         "verification_mode": "manual_review",
         "requirement_context": "certificate",
         "source_page": 9,
-        "source_text": "申請環保署環境教育行政人員認證",
+        "source_text": "※ 完成本學程擇一領域選修 18 學分之學生可申請環保署環境教育教學人員認證。",
         "validation_status": "source_text_match"
       }
     ],
@@ -3761,7 +3761,14 @@
       "minimum_elective_courses": null,
       "has_conditional_requirements": false,
       "has_manual_requirements": true,
+      "has_completion_manual_requirements": true,
+      "has_certificate_requirements": true,
+      "has_credit_recognition_requirements": false,
       "has_unresolved_conflicts": false
     }
-  }
+  },
+  "institutional_policy_ids": [
+    "nsysu_program_policy_2026_08_16"
+  ],
+  "institutional_policy_applied_rule_ids": []
 }

@@ -1,5 +1,5 @@
 {
-  "schema_version": "1.2",
+  "schema_version": "1.3",
   "courses": [
     {
       "course_code": "PBT",
@@ -92,11 +92,12 @@
           "source_page": 1,
           "evidence_match": true,
           "validation_status": "needs_course_code_verification",
-          "uncertainty_reason": "Official PDF table does not provide a course code"
+          "uncertainty_reason": "Official PDF table does not provide a course code",
+          "catalog_entry_group_id": "entry_15e0ce48a950d87e"
         },
         {
           "course_code": null,
-          "catalog_entry_id": "entry_15e0ce48a950d87e",
+          "catalog_entry_id": "entry_15e0ce48a950d87e_2",
           "opening_units": [
             "高雄醫學大學心理學系"
           ],
@@ -111,11 +112,12 @@
           "source_page": 1,
           "evidence_match": true,
           "validation_status": "needs_course_code_verification",
-          "uncertainty_reason": "Official PDF table does not provide a course code"
+          "uncertainty_reason": "Official PDF table does not provide a course code",
+          "catalog_entry_group_id": "entry_15e0ce48a950d87e"
         },
         {
           "course_code": null,
-          "catalog_entry_id": "entry_15e0ce48a950d87e",
+          "catalog_entry_id": "entry_15e0ce48a950d87e_3",
           "opening_units": [
             "高雄醫學大學心理學系"
           ],
@@ -130,7 +132,8 @@
           "source_page": 1,
           "evidence_match": true,
           "validation_status": "needs_course_code_verification",
-          "uncertainty_reason": "Official PDF table does not provide a course code"
+          "uncertainty_reason": "Official PDF table does not provide a course code",
+          "catalog_entry_group_id": "entry_15e0ce48a950d87e"
         },
         {
           "course_code": null,
@@ -386,6 +389,9 @@
           "minimum_elective_courses": null,
           "has_conditional_requirements": false,
           "has_manual_requirements": false,
+          "has_completion_manual_requirements": false,
+          "has_certificate_requirements": false,
+          "has_credit_recognition_requirements": false,
           "has_unresolved_conflicts": false
         }
       },
@@ -441,11 +447,12 @@
           "source_page": 2,
           "evidence_match": true,
           "validation_status": "needs_course_code_verification",
-          "uncertainty_reason": "Official PDF table does not provide a course code"
+          "uncertainty_reason": "Official PDF table does not provide a course code",
+          "catalog_entry_group_id": "entry_14068a58d52c6e31"
         },
         {
           "course_code": null,
-          "catalog_entry_id": "entry_14068a58d52c6e31",
+          "catalog_entry_id": "entry_14068a58d52c6e31_2",
           "opening_units": [
             "高雄醫學大學心理學系"
           ],
@@ -456,11 +463,12 @@
           "requirement_section": "core",
           "requirement_label": null,
           "program_course_name_snapshot": null,
-          "notes": "任選一門課 性格心理學、發展心理學或變態心理學  高雄醫學大學 心理學系 性格心理學、發展心理學或變態 心理學 3 任選一門課",
+          "notes": "任選一門課 性格心理學、發展心理學或變態心理學",
           "source_page": 2,
           "evidence_match": true,
           "validation_status": "needs_course_code_verification",
-          "uncertainty_reason": "Official PDF table does not provide a course code"
+          "uncertainty_reason": "Official PDF table does not provide a course code",
+          "catalog_entry_group_id": "entry_14068a58d52c6e31"
         },
         {
           "course_code": null,
@@ -701,6 +709,9 @@
           "minimum_elective_courses": null,
           "has_conditional_requirements": false,
           "has_manual_requirements": false,
+          "has_completion_manual_requirements": false,
+          "has_certificate_requirements": false,
+          "has_credit_recognition_requirements": false,
           "has_unresolved_conflicts": false
         }
       },
@@ -757,11 +768,12 @@
           "source_page": 3,
           "evidence_match": true,
           "validation_status": "needs_course_code_verification",
-          "uncertainty_reason": "Official PDF table does not provide a course code"
+          "uncertainty_reason": "Official PDF table does not provide a course code",
+          "catalog_entry_group_id": "entry_bea3fdf767f7b397"
         },
         {
           "course_code": null,
-          "catalog_entry_id": "entry_bea3fdf767f7b397",
+          "catalog_entry_id": "entry_bea3fdf767f7b397_2",
           "opening_units": [
             "高雄醫學大學心理學系"
           ],
@@ -772,11 +784,12 @@
           "requirement_section": "core",
           "requirement_label": null,
           "program_course_name_snapshot": null,
-          "notes": "任選一門課 性格心理學、發展心理學或變態心理學  高雄醫學大學 心理學系 性格心理學、發展心理學或變態心 理學 3 任選一門課",
+          "notes": "任選一門課 性格心理學、發展心理學或變態心理學",
           "source_page": 3,
           "evidence_match": true,
           "validation_status": "needs_course_code_verification",
-          "uncertainty_reason": "Official PDF table does not provide a course code"
+          "uncertainty_reason": "Official PDF table does not provide a course code",
+          "catalog_entry_group_id": "entry_bea3fdf767f7b397"
         },
         {
           "course_code": null,
@@ -1017,6 +1030,9 @@
           "minimum_elective_courses": null,
           "has_conditional_requirements": false,
           "has_manual_requirements": false,
+          "has_completion_manual_requirements": false,
+          "has_certificate_requirements": false,
+          "has_credit_recognition_requirements": false,
           "has_unresolved_conflicts": false
         }
       },
@@ -1273,6 +1289,9 @@
           "minimum_elective_courses": null,
           "has_conditional_requirements": false,
           "has_manual_requirements": false,
+          "has_completion_manual_requirements": false,
+          "has_certificate_requirements": false,
+          "has_credit_recognition_requirements": false,
           "has_unresolved_conflicts": false
         }
       },
@@ -1346,11 +1365,12 @@
       "source_page": 1,
       "evidence_match": true,
       "validation_status": "needs_course_code_verification",
-      "uncertainty_reason": "Official PDF table does not provide a course code"
+      "uncertainty_reason": "Official PDF table does not provide a course code",
+      "catalog_entry_group_id": "entry_15e0ce48a950d87e"
     },
     {
       "course_code": null,
-      "catalog_entry_id": "entry_15e0ce48a950d87e",
+      "catalog_entry_id": "entry_15e0ce48a950d87e_2",
       "opening_units": [
         "高雄醫學大學心理學系"
       ],
@@ -1365,11 +1385,12 @@
       "source_page": 1,
       "evidence_match": true,
       "validation_status": "needs_course_code_verification",
-      "uncertainty_reason": "Official PDF table does not provide a course code"
+      "uncertainty_reason": "Official PDF table does not provide a course code",
+      "catalog_entry_group_id": "entry_15e0ce48a950d87e"
     },
     {
       "course_code": null,
-      "catalog_entry_id": "entry_15e0ce48a950d87e",
+      "catalog_entry_id": "entry_15e0ce48a950d87e_3",
       "opening_units": [
         "高雄醫學大學心理學系"
       ],
@@ -1384,7 +1405,8 @@
       "source_page": 1,
       "evidence_match": true,
       "validation_status": "needs_course_code_verification",
-      "uncertainty_reason": "Official PDF table does not provide a course code"
+      "uncertainty_reason": "Official PDF table does not provide a course code",
+      "catalog_entry_group_id": "entry_15e0ce48a950d87e"
     },
     {
       "course_code": null,
@@ -1640,6 +1662,9 @@
       "minimum_elective_courses": null,
       "has_conditional_requirements": false,
       "has_manual_requirements": false,
+      "has_completion_manual_requirements": false,
+      "has_certificate_requirements": false,
+      "has_credit_recognition_requirements": false,
       "has_unresolved_conflicts": false
     }
   }

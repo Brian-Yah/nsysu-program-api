@@ -1,5 +1,5 @@
 {
-  "schema_version": "1.2",
+  "schema_version": "1.3",
   "courses": [],
   "credit_mentions": [
     18,
@@ -487,14 +487,14 @@
         ],
         "manual_requirements": [
           {
-            "requirement_id": "requirement_0a67b08530372679",
+            "requirement_id": "requirement_e278025022609552",
             "kind": "manual_verification",
             "requirement_type": "recognition",
-            "description": "同名或同質課程認抵",
+            "description": "※ 核心課程以財管系之開課課程為主,但可以財管所、企管系(所)同名或同質課程認抵。",
             "verification_mode": "manual_review",
-            "requirement_context": "program_completion",
+            "requirement_context": "credit_recognition",
             "source_page": 1,
-            "source_text": "同名或同質課程認抵",
+            "source_text": "※ 核心課程以財管系之開課課程為主,但可以財管所、企管系(所)同名或同質課程認抵。",
             "validation_status": "source_text_match"
           }
         ],
@@ -508,6 +508,9 @@
           "minimum_elective_courses": null,
           "has_conditional_requirements": false,
           "has_manual_requirements": true,
+          "has_completion_manual_requirements": false,
+          "has_certificate_requirements": false,
+          "has_credit_recognition_requirements": true,
           "has_unresolved_conflicts": false
         }
       },
@@ -916,6 +919,9 @@
           "minimum_elective_courses": null,
           "has_conditional_requirements": false,
           "has_manual_requirements": false,
+          "has_completion_manual_requirements": false,
+          "has_certificate_requirements": false,
+          "has_credit_recognition_requirements": false,
           "has_unresolved_conflicts": false
         }
       },
@@ -1897,36 +1903,36 @@
         ],
         "manual_requirements": [
           {
-            "requirement_id": "requirement_435dcc1f524b57f1",
+            "requirement_id": "requirement_1c824bb04e97c884",
             "kind": "manual_verification",
             "requirement_type": "student_condition",
-            "description": "同院跨系所修讀之學士班學生:應",
+            "description": "(三)碩士班學生:應修習專業模組課程至少十五學分,其中可包含跨院選修內由財管所開設 之當前財金問題分析。",
             "verification_mode": "manual_review",
             "requirement_context": "program_completion",
             "source_page": 4,
-            "source_text": "同院跨系所修讀之學士班學生:應",
+            "source_text": "(三)碩士班學生:應修習專業模組課程至少十五學分,其中可包含跨院選修內由財管所開設 之當前財金問題分析。",
             "validation_status": "source_text_match"
           },
           {
-            "requirement_id": "requirement_4c38ae3d6f303635",
+            "requirement_id": "requirement_b3551e5dd96b35da",
             "kind": "manual_verification",
             "requirement_type": "student_condition",
-            "description": "跨院修讀之學士班學生:得修習專業學程所屬學院之開設跨院通識相關課程至多",
+            "description": "(二)同院跨系所修讀之學士班學生:應含修習專業模組課程至少九學分,其它六學分得由跨 院選修或專業模組課程修習。",
             "verification_mode": "manual_review",
             "requirement_context": "program_completion",
             "source_page": 4,
-            "source_text": "跨院修讀之學士班學生:得修習專業學程所屬學院之開設跨院通識相關課程至多",
+            "source_text": "(二)同院跨系所修讀之學士班學生:應含修習專業模組課程至少九學分,其它六學分得由跨 院選修或專業模組課程修習。",
             "validation_status": "source_text_match"
           },
           {
-            "requirement_id": "requirement_d63b6f8e86229570",
+            "requirement_id": "requirement_df701e1c0c21dbd2",
             "kind": "manual_verification",
             "requirement_type": "student_condition",
-            "description": "碩士班學生:應",
+            "description": "二、各學制學生應修習學分數原則如下: (一)跨院修讀之學士班學生:得修習專業學程所屬學院之開設跨院通識相關課程至多六學 分,並修習專業模組課程至少九學分。",
             "verification_mode": "manual_review",
             "requirement_context": "program_completion",
             "source_page": 4,
-            "source_text": "碩士班學生:應",
+            "source_text": "二、各學制學生應修習學分數原則如下: (一)跨院修讀之學士班學生:得修習專業學程所屬學院之開設跨院通識相關課程至多六學 分,並修習專業模組課程至少九學分。",
             "validation_status": "source_text_match"
           }
         ],
@@ -1940,6 +1946,9 @@
           "minimum_elective_courses": null,
           "has_conditional_requirements": true,
           "has_manual_requirements": true,
+          "has_completion_manual_requirements": true,
+          "has_certificate_requirements": false,
+          "has_credit_recognition_requirements": false,
           "has_unresolved_conflicts": false
         }
       },
@@ -2757,36 +2766,36 @@
         ],
         "manual_requirements": [
           {
-            "requirement_id": "requirement_435dcc1f524b57f1",
+            "requirement_id": "requirement_207dcb249eb918ce",
             "kind": "manual_verification",
             "requirement_type": "student_condition",
-            "description": "同院跨系所修讀之學士班學生:應",
+            "description": "(三)碩士班學生:應修習專業模組課程至少十五學分,其中可包含跨院選修內由財 管所開設之當前財金問題分析。",
             "verification_mode": "manual_review",
             "requirement_context": "program_completion",
             "source_page": 6,
-            "source_text": "同院跨系所修讀之學士班學生:應",
+            "source_text": "(三)碩士班學生:應修習專業模組課程至少十五學分,其中可包含跨院選修內由財 管所開設之當前財金問題分析。",
             "validation_status": "source_text_match"
           },
           {
-            "requirement_id": "requirement_4c38ae3d6f303635",
+            "requirement_id": "requirement_854047d22208de08",
             "kind": "manual_verification",
             "requirement_type": "student_condition",
-            "description": "跨院修讀之學士班學生:得修習專業學程所屬學院之開設跨院通識相關課程至多",
+            "description": "二、各學制學生應修習學分數原則如下: (一)跨院修讀之學士班學生:得修習專業學程所屬學院之開設跨院通識相關課程至 多六學分,並修習專業模組課程至少九學分。",
             "verification_mode": "manual_review",
             "requirement_context": "program_completion",
             "source_page": 6,
-            "source_text": "跨院修讀之學士班學生:得修習專業學程所屬學院之開設跨院通識相關課程至多",
+            "source_text": "二、各學制學生應修習學分數原則如下: (一)跨院修讀之學士班學生:得修習專業學程所屬學院之開設跨院通識相關課程至 多六學分,並修習專業模組課程至少九學分。",
             "validation_status": "source_text_match"
           },
           {
-            "requirement_id": "requirement_d63b6f8e86229570",
+            "requirement_id": "requirement_b3551e5dd96b35da",
             "kind": "manual_verification",
             "requirement_type": "student_condition",
-            "description": "碩士班學生:應",
+            "description": "(二)同院跨系所修讀之學士班學生:應含修習專業模組課程至少九學分,其它六學分得由跨 院選修或專業模組課程修習。",
             "verification_mode": "manual_review",
             "requirement_context": "program_completion",
             "source_page": 6,
-            "source_text": "碩士班學生:應",
+            "source_text": "(二)同院跨系所修讀之學士班學生:應含修習專業模組課程至少九學分,其它六學分得由跨 院選修或專業模組課程修習。",
             "validation_status": "source_text_match"
           }
         ],
@@ -2800,6 +2809,9 @@
           "minimum_elective_courses": null,
           "has_conditional_requirements": true,
           "has_manual_requirements": true,
+          "has_completion_manual_requirements": true,
+          "has_certificate_requirements": false,
+          "has_credit_recognition_requirements": false,
           "has_unresolved_conflicts": false
         }
       },
@@ -3280,14 +3292,14 @@
     ],
     "manual_requirements": [
       {
-        "requirement_id": "requirement_0a67b08530372679",
+        "requirement_id": "requirement_e278025022609552",
         "kind": "manual_verification",
         "requirement_type": "recognition",
-        "description": "同名或同質課程認抵",
+        "description": "※ 核心課程以財管系之開課課程為主,但可以財管所、企管系(所)同名或同質課程認抵。",
         "verification_mode": "manual_review",
-        "requirement_context": "program_completion",
+        "requirement_context": "credit_recognition",
         "source_page": 1,
-        "source_text": "同名或同質課程認抵",
+        "source_text": "※ 核心課程以財管系之開課課程為主,但可以財管所、企管系(所)同名或同質課程認抵。",
         "validation_status": "source_text_match"
       }
     ],
@@ -3301,6 +3313,9 @@
       "minimum_elective_courses": null,
       "has_conditional_requirements": false,
       "has_manual_requirements": true,
+      "has_completion_manual_requirements": false,
+      "has_certificate_requirements": false,
+      "has_credit_recognition_requirements": true,
       "has_unresolved_conflicts": false
     }
   }

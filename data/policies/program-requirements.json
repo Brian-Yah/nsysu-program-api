@@ -1,0 +1,108 @@
+{
+  "schema_version": "1.0",
+  "policy_id": "nsysu_program_policy_2026_08_16",
+  "name_zh": "國立中山大學學程修習通用規定",
+  "effective_academic_version": "115-1",
+  "source": {
+    "kind": "institutional_catalog",
+    "url": "https://ctdr.nsysu.edu.tw/class2.php",
+    "retrieved_at": "2026-08-15T10:05:39Z",
+    "binary_sha256": "5940ab5fe3892788510475bf5a6ca21adcb6665d896267cda0e607f1421ccf66"
+  },
+  "program_type_rules": {
+    "integrated_program": [
+      {
+        "rule_id": "integrated_total_minimum",
+        "kind": "minimum_credits",
+        "scope": {"kind": "program"},
+        "minimum_credits": 15,
+        "source_text": "整合學程須修習十五學分以上。"
+      },
+      {
+        "rule_id": "integrated_outside_minimum",
+        "kind": "minimum_credits",
+        "scope": {
+          "kind": "course_eligibility",
+          "excluded_affiliations": ["home_department", "double_major", "minor"],
+          "excluded_course_roles": ["all"]
+        },
+        "minimum_credits": 6,
+        "source_text": "至少六學分不得屬於學生本系所、雙主修及輔系課程。"
+      }
+    ],
+    "department_professional_program": [
+      {
+        "rule_id": "professional_total_minimum",
+        "kind": "minimum_credits",
+        "scope": {"kind": "program"},
+        "minimum_credits": 15,
+        "source_text": "學系（所）專業學程須修習十五學分以上。"
+      },
+      {
+        "rule_id": "professional_module_minimum",
+        "kind": "minimum_credits",
+        "scope": {"kind": "professional_module"},
+        "minimum_credits": 9,
+        "source_text": "專業模組課程至少九學分。"
+      },
+      {
+        "rule_id": "professional_cross_college_elective_cap",
+        "kind": "maximum_counted_credits",
+        "scope": {
+          "kind": "course_attributes",
+          "course_attributes": ["cross_college_general_education"],
+          "student_categories": ["cross_college_bachelor"]
+        },
+        "maximum_counted_credits": 6,
+        "source_text": "跨院修讀之學士班學生，其他課程至多六學分以跨院選修學分抵免。"
+      }
+    ],
+    "micro_program": [
+      {
+        "rule_id": "micro_total_minimum",
+        "kind": "minimum_credits",
+        "scope": {"kind": "program"},
+        "minimum_credits": 9,
+        "source_text": "微學程須修習九學分以上。"
+      },
+      {
+        "rule_id": "micro_outside_minimum",
+        "kind": "minimum_credits",
+        "scope": {
+          "kind": "course_eligibility",
+          "excluded_affiliations": ["home_department", "double_major", "minor"],
+          "excluded_course_roles": ["all"]
+        },
+        "minimum_credits": 3,
+        "source_text": "至少三學分不得屬於學生本系所、雙主修及輔系課程。"
+      }
+    ]
+  },
+  "administrative_rules": [
+    {
+      "rule_id": "discontinued_program_rights",
+      "requirement_context": "credit_recognition",
+      "description": "學程停開後，已核准修讀學生仍可依原規定完成，修課權益不受影響。"
+    },
+    {
+      "rule_id": "curriculum_transition_recognition",
+      "requirement_context": "credit_recognition",
+      "description": "已修畢但後來刪除的課程仍可認列；新舊課程規劃表所列課程原則上均可認列。"
+    },
+    {
+      "rule_id": "off_table_course_approval",
+      "requirement_context": "credit_recognition",
+      "description": "未列於新舊課程規劃表的課程，須經學程負責人同意後才可認列。"
+    },
+    {
+      "rule_id": "online_application",
+      "requirement_context": "program_application",
+      "description": "學程全年均可線上申請，學生申請學程數量不限。"
+    },
+    {
+      "rule_id": "certificate_application",
+      "requirement_context": "certificate",
+      "description": "修畢規定學分後，須於畢業前依行事曆公告期限申辦學程證書並經核准。"
+    }
+  ]
+}

@@ -23,7 +23,7 @@
       "last_modified": "Tue, 27 May 2025 02:20:01 GMT",
       "content_length": 239907
     },
-    "parser_version": "0.3.0",
+    "parser_version": "0.4.0",
     "extractor_versions": {
       "pypdf": "6.10.0",
       "pdfplumber": "0.11.9"
@@ -1393,6 +1393,9 @@
       "minimum_elective_courses": null,
       "has_conditional_requirements": false,
       "has_manual_requirements": true,
+      "has_completion_manual_requirements": true,
+      "has_certificate_requirements": false,
+      "has_credit_recognition_requirements": false,
       "has_unresolved_conflicts": false
     }
   },
@@ -1402,5 +1405,9 @@
     "review_note": "選修:生科系\n生藥所\n醫科所\n生物資訊學概論(大學部)\n生物資訊學及其應用\n生物資訊學\n3\n3\n3\n三擇一\n\n並且 海科系(碩) 分子細胞生物學  3 (要英語授課)\n\n生科系\n海資系\n生物技術概論\n生物技術 3 二擇一\n\n海資系 訊息傳遞與藥物開發概\n論 2\n生科系 細胞訊息傳遞學概論 3 三擇一\n生醫所 細胞訊息傳遞與醫藥應\n用 3",
     "correction_status": "rechecked",
     "override_path": "data/reviewed/115-1/prog_7189acd83f59530a.json"
-  }
+  },
+  "institutional_policy_ids": [
+    "nsysu_program_policy_2026_08_16"
+  ],
+  "institutional_policy_applied_rule_ids": []
 }

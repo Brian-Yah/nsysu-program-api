@@ -1,5 +1,5 @@
 {
-  "schema_version": "1.2",
+  "schema_version": "1.3",
   "courses": [],
   "credit_mentions": [
     9,
@@ -613,6 +613,9 @@
           "minimum_elective_courses": null,
           "has_conditional_requirements": false,
           "has_manual_requirements": false,
+          "has_completion_manual_requirements": false,
+          "has_certificate_requirements": false,
+          "has_credit_recognition_requirements": false,
           "has_unresolved_conflicts": false
         }
       },
@@ -1147,14 +1150,25 @@
         ],
         "manual_requirements": [
           {
-            "requirement_id": "requirement_e3984eb58f9c9bf2",
+            "requirement_id": "requirement_33aaa2dcfacbe296",
+            "kind": "manual_verification",
+            "requirement_type": "recognition",
+            "description": "4.修讀本學程學生,其以前修習課程及學分數之抵免,由本學程負責人認定。",
+            "verification_mode": "manual_review",
+            "requirement_context": "credit_recognition",
+            "source_page": 4,
+            "source_text": "4.修讀本學程學生,其以前修習課程及學分數之抵免,由本學程負責人認定。",
+            "validation_status": "source_text_match"
+          },
+          {
+            "requirement_id": "requirement_d75c950cb7d3257b",
             "kind": "manual_verification",
             "requirement_type": "approval",
-            "description": "抵免,由本學程負責人認定",
+            "description": "4.修讀本學程學生,其以前修習課程及學分數之抵免,由本學程負責人認定。",
             "verification_mode": "manual_review",
-            "requirement_context": "program_completion",
+            "requirement_context": "credit_recognition",
             "source_page": 4,
-            "source_text": "抵免,由本學程負責人認定",
+            "source_text": "4.修讀本學程學生,其以前修習課程及學分數之抵免,由本學程負責人認定。",
             "validation_status": "source_text_match"
           }
         ],
@@ -1168,6 +1182,9 @@
           "minimum_elective_courses": null,
           "has_conditional_requirements": false,
           "has_manual_requirements": true,
+          "has_completion_manual_requirements": false,
+          "has_certificate_requirements": false,
+          "has_credit_recognition_requirements": true,
           "has_unresolved_conflicts": false
         }
       },
@@ -1691,14 +1708,14 @@
         ],
         "manual_requirements": [
           {
-            "requirement_id": "requirement_78c39b6270b020b6",
+            "requirement_id": "requirement_27c8b699a6930a79",
             "kind": "manual_verification",
             "requirement_type": "approval",
-            "description": "抵免由本學程負責人認定",
+            "description": "4 修讀本學程學生 其 前修習課程及學分數 抵免由本學程負責人認定",
             "verification_mode": "manual_review",
-            "requirement_context": "program_completion",
+            "requirement_context": "credit_recognition",
             "source_page": 8,
-            "source_text": "抵免由本學程負責人認定",
+            "source_text": "4 修讀本學程學生 其 前修習課程及學分數 抵免由本學程負責人認定",
             "validation_status": "source_text_match"
           }
         ],
@@ -1712,6 +1729,9 @@
           "minimum_elective_courses": null,
           "has_conditional_requirements": false,
           "has_manual_requirements": true,
+          "has_completion_manual_requirements": false,
+          "has_certificate_requirements": false,
+          "has_credit_recognition_requirements": true,
           "has_unresolved_conflicts": false
         }
       },
@@ -2322,6 +2342,9 @@
       "minimum_elective_courses": null,
       "has_conditional_requirements": false,
       "has_manual_requirements": false,
+      "has_completion_manual_requirements": false,
+      "has_certificate_requirements": false,
+      "has_credit_recognition_requirements": false,
       "has_unresolved_conflicts": false
     }
   }

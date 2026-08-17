@@ -1,5 +1,5 @@
 {
-  "schema_version": "1.2",
+  "schema_version": "1.3",
   "courses": [
     {
       "course_code": "PYTHON",
@@ -30,6 +30,7 @@
         {
           "course_code": null,
           "catalog_entry_id": "entry_a7570d6548953bcf",
+          "catalog_entry_group_id": "entry_a7570d6548953bcf",
           "opening_units": [
             "臺灣大專院校人工智慧學程聯盟"
           ],
@@ -48,7 +49,7 @@
         },
         {
           "course_code": null,
-          "catalog_entry_id": "entry_a7570d6548953bcf",
+          "catalog_entry_id": "entry_a7570d6548953bcf_2",
           "opening_units": [
             "資訊工程學系"
           ],
@@ -59,15 +60,17 @@
           "requirement_section": "unspecified",
           "requirement_label": "程式設計(1or2)",
           "program_course_name_snapshot": "Python程式設計入門",
-          "notes": "Python 程式設計 每一向度至少需修習一門課程。",
+          "notes": "Python 程式設計",
           "source_page": 1,
           "evidence_match": true,
           "validation_status": "needs_course_code_verification",
-          "uncertainty_reason": "Official PDF table does not provide a course code"
+          "uncertainty_reason": "Official PDF table does not provide a course code",
+          "catalog_entry_group_id": "entry_a7570d6548953bcf"
         },
         {
           "course_code": null,
           "catalog_entry_id": "entry_a3c33bcda9b7e9dc",
+          "catalog_entry_group_id": "entry_a3c33bcda9b7e9dc",
           "opening_units": [
             "臺灣大專院校人工智慧學程聯盟"
           ],
@@ -86,7 +89,7 @@
         },
         {
           "course_code": null,
-          "catalog_entry_id": "entry_a3c33bcda9b7e9dc",
+          "catalog_entry_id": "entry_a3c33bcda9b7e9dc_2",
           "opening_units": [
             "資訊管理學系"
           ],
@@ -97,15 +100,17 @@
           "requirement_section": "unspecified",
           "requirement_label": "程式設計(1or2)",
           "program_course_name_snapshot": "程式設計(一)",
-          "notes": "程式設計 每一向度至少需修習一門課程。",
+          "notes": "程式設計",
           "source_page": 1,
           "evidence_match": true,
           "validation_status": "needs_course_code_verification",
-          "uncertainty_reason": "Official PDF table does not provide a course code"
+          "uncertainty_reason": "Official PDF table does not provide a course code",
+          "catalog_entry_group_id": "entry_a3c33bcda9b7e9dc"
         },
         {
           "course_code": null,
           "catalog_entry_id": "entry_32d9eb599208cc59",
+          "catalog_entry_group_id": "entry_32d9eb599208cc59",
           "opening_units": [
             "臺灣大專院校人工智慧學程聯盟"
           ],
@@ -124,7 +129,7 @@
         },
         {
           "course_code": null,
-          "catalog_entry_id": "entry_32d9eb599208cc59",
+          "catalog_entry_id": "entry_32d9eb599208cc59_2",
           "opening_units": [
             "電機工程學系"
           ],
@@ -135,15 +140,17 @@
           "requirement_section": "unspecified",
           "requirement_label": "程式設計(1or2)",
           "program_course_name_snapshot": "計算機概論與程式設計",
-          "notes": "計算機概論 每一向度至少需修習一門課程。",
+          "notes": "計算機概論",
           "source_page": 1,
           "evidence_match": true,
           "validation_status": "needs_course_code_verification",
-          "uncertainty_reason": "Official PDF table does not provide a course code"
+          "uncertainty_reason": "Official PDF table does not provide a course code",
+          "catalog_entry_group_id": "entry_32d9eb599208cc59"
         },
         {
           "course_code": null,
           "catalog_entry_id": "entry_3a666fd0e50a7494",
+          "catalog_entry_group_id": "entry_3a666fd0e50a7494",
           "opening_units": [
             "臺灣大專院校人工智慧學程聯盟"
           ],
@@ -162,7 +169,7 @@
         },
         {
           "course_code": null,
-          "catalog_entry_id": "entry_3a666fd0e50a7494",
+          "catalog_entry_id": "entry_3a666fd0e50a7494_2",
           "opening_units": [
             "應用數學系"
           ],
@@ -173,15 +180,17 @@
           "requirement_section": "unspecified",
           "requirement_label": "程式設計(1or2)",
           "program_course_name_snapshot": "計算機程式設計",
-          "notes": "計算機程式 每一向度至少需修習一門課程。",
+          "notes": "計算機程式",
           "source_page": 1,
           "evidence_match": true,
           "validation_status": "needs_course_code_verification",
-          "uncertainty_reason": "Official PDF table does not provide a course code"
+          "uncertainty_reason": "Official PDF table does not provide a course code",
+          "catalog_entry_group_id": "entry_3a666fd0e50a7494"
         },
         {
           "course_code": null,
           "catalog_entry_id": "entry_be7fd847ea11e4fb",
+          "catalog_entry_group_id": "entry_be7fd847ea11e4fb",
           "opening_units": [
             "臺灣大專院校人工智慧學程聯盟"
           ],
@@ -200,7 +209,7 @@
         },
         {
           "course_code": null,
-          "catalog_entry_id": "entry_be7fd847ea11e4fb",
+          "catalog_entry_id": "entry_be7fd847ea11e4fb_2",
           "opening_units": [
             "財務管理學系"
           ],
@@ -211,15 +220,17 @@
           "requirement_section": "unspecified",
           "requirement_label": "機率(1or2)",
           "program_course_name_snapshot": "統計",
-          "notes": "統計學(一) 每一向度至少需修習一門課程。",
+          "notes": "統計學(一)",
           "source_page": 1,
           "evidence_match": true,
           "validation_status": "needs_course_code_verification",
-          "uncertainty_reason": "Official PDF table does not provide a course code"
+          "uncertainty_reason": "Official PDF table does not provide a course code",
+          "catalog_entry_group_id": "entry_be7fd847ea11e4fb"
         },
         {
           "course_code": null,
           "catalog_entry_id": "entry_99138fa6af2188fa",
+          "catalog_entry_group_id": "entry_99138fa6af2188fa",
           "opening_units": [
             "臺灣大專院校人工智慧學程聯盟"
           ],
@@ -238,7 +249,7 @@
         },
         {
           "course_code": null,
-          "catalog_entry_id": "entry_99138fa6af2188fa",
+          "catalog_entry_id": "entry_99138fa6af2188fa_2",
           "opening_units": [
             "電機工程學系"
           ],
@@ -249,15 +260,17 @@
           "requirement_section": "unspecified",
           "requirement_label": "機率(1or2)",
           "program_course_name_snapshot": "機率與統計",
-          "notes": "每一向度至少需修習一門課程。",
+          "notes": "",
           "source_page": 1,
           "evidence_match": true,
           "validation_status": "needs_course_code_verification",
-          "uncertainty_reason": "Official PDF table does not provide a course code"
+          "uncertainty_reason": "Official PDF table does not provide a course code",
+          "catalog_entry_group_id": "entry_99138fa6af2188fa"
         },
         {
           "course_code": null,
           "catalog_entry_id": "entry_26a6853f60b514b6",
+          "catalog_entry_group_id": "entry_26a6853f60b514b6",
           "opening_units": [
             "臺灣大專院校人工智慧學程聯盟"
           ],
@@ -276,7 +289,7 @@
         },
         {
           "course_code": null,
-          "catalog_entry_id": "entry_26a6853f60b514b6",
+          "catalog_entry_id": "entry_26a6853f60b514b6_2",
           "opening_units": [
             "應用數學系碩士班"
           ],
@@ -287,15 +300,17 @@
           "requirement_section": "unspecified",
           "requirement_label": "機率(1or2)",
           "program_course_name_snapshot": "機率模型與數據科學",
-          "notes": "數據科學實務與創新 每一向度至少需修習一門課程。",
+          "notes": "數據科學實務與創新",
           "source_page": 1,
           "evidence_match": true,
           "validation_status": "needs_course_code_verification",
-          "uncertainty_reason": "Official PDF table does not provide a course code"
+          "uncertainty_reason": "Official PDF table does not provide a course code",
+          "catalog_entry_group_id": "entry_26a6853f60b514b6"
         },
         {
           "course_code": null,
           "catalog_entry_id": "entry_e2df07fdb59038e2",
+          "catalog_entry_group_id": "entry_e2df07fdb59038e2",
           "opening_units": [
             "臺灣大專院校人工智慧學程聯盟"
           ],
@@ -314,7 +329,7 @@
         },
         {
           "course_code": null,
-          "catalog_entry_id": "entry_e2df07fdb59038e2",
+          "catalog_entry_id": "entry_e2df07fdb59038e2_2",
           "opening_units": [
             "應用數學系"
           ],
@@ -325,15 +340,17 @@
           "requirement_section": "unspecified",
           "requirement_label": "機率(1or2)",
           "program_course_name_snapshot": "機率與資料導論",
-          "notes": "機率論(二) 每一向度至少需修習一門課程。",
+          "notes": "機率論(二)",
           "source_page": 1,
           "evidence_match": true,
           "validation_status": "needs_course_code_verification",
-          "uncertainty_reason": "Official PDF table does not provide a course code"
+          "uncertainty_reason": "Official PDF table does not provide a course code",
+          "catalog_entry_group_id": "entry_e2df07fdb59038e2"
         },
         {
           "course_code": null,
           "catalog_entry_id": "entry_6c81670e7a458b49",
+          "catalog_entry_group_id": "entry_6c81670e7a458b49",
           "opening_units": [
             "臺灣大專院校人工智慧學程聯盟"
           ],
@@ -352,7 +369,7 @@
         },
         {
           "course_code": null,
-          "catalog_entry_id": "entry_6c81670e7a458b49",
+          "catalog_entry_id": "entry_6c81670e7a458b49_2",
           "opening_units": [
             "資訊管理學系碩士班"
           ],
@@ -363,15 +380,17 @@
           "requirement_section": "unspecified",
           "requirement_label": "人工智慧導論(3or4)",
           "program_course_name_snapshot": "人工智慧",
-          "notes": "每一向度至少需修習一門課程。",
+          "notes": "",
           "source_page": 1,
           "evidence_match": true,
           "validation_status": "needs_course_code_verification",
-          "uncertainty_reason": "Official PDF table does not provide a course code"
+          "uncertainty_reason": "Official PDF table does not provide a course code",
+          "catalog_entry_group_id": "entry_6c81670e7a458b49"
         },
         {
           "course_code": null,
           "catalog_entry_id": "entry_a205b4ee2fc3fec1",
+          "catalog_entry_group_id": "entry_a205b4ee2fc3fec1",
           "opening_units": [
             "臺灣大專院校人工智慧學程聯盟"
           ],
@@ -390,7 +409,7 @@
         },
         {
           "course_code": null,
-          "catalog_entry_id": "entry_a205b4ee2fc3fec1",
+          "catalog_entry_id": "entry_a205b4ee2fc3fec1_2",
           "opening_units": [
             "資訊工程學系"
           ],
@@ -401,15 +420,17 @@
           "requirement_section": "unspecified",
           "requirement_label": "人工智慧導論(3or4)",
           "program_course_name_snapshot": "人工智慧導論與實作",
-          "notes": "人工智慧導論 每一向度至少需修習一門課程。",
+          "notes": "人工智慧導論",
           "source_page": 1,
           "evidence_match": true,
           "validation_status": "needs_course_code_verification",
-          "uncertainty_reason": "Official PDF table does not provide a course code"
+          "uncertainty_reason": "Official PDF table does not provide a course code",
+          "catalog_entry_group_id": "entry_a205b4ee2fc3fec1"
         },
         {
           "course_code": null,
           "catalog_entry_id": "entry_80ff0ba53c2c84df",
+          "catalog_entry_group_id": "entry_80ff0ba53c2c84df",
           "opening_units": [
             "臺灣大專院校人工智慧學程聯盟"
           ],
@@ -428,7 +449,7 @@
         },
         {
           "course_code": null,
-          "catalog_entry_id": "entry_80ff0ba53c2c84df",
+          "catalog_entry_id": "entry_80ff0ba53c2c84df_2",
           "opening_units": [
             "博雅向度四<科技與社會>"
           ],
@@ -439,15 +460,17 @@
           "requirement_section": "unspecified",
           "requirement_label": "人工智慧導論(3or4)",
           "program_course_name_snapshot": "人工智慧概論",
-          "notes": "每一向度至少需修習一門課程。",
+          "notes": "",
           "source_page": 1,
           "evidence_match": true,
           "validation_status": "needs_course_code_verification",
-          "uncertainty_reason": "Official PDF table does not provide a course code"
+          "uncertainty_reason": "Official PDF table does not provide a course code",
+          "catalog_entry_group_id": "entry_80ff0ba53c2c84df"
         },
         {
           "course_code": null,
           "catalog_entry_id": "entry_0b663aac57bf8d15",
+          "catalog_entry_group_id": "entry_0b663aac57bf8d15",
           "opening_units": [
             "臺灣大專院校人工智慧學程聯盟"
           ],
@@ -466,7 +489,7 @@
         },
         {
           "course_code": null,
-          "catalog_entry_id": "entry_0b663aac57bf8d15",
+          "catalog_entry_id": "entry_0b663aac57bf8d15_2",
           "opening_units": [
             "人力資源管理研究所碩士在職專班"
           ],
@@ -477,15 +500,17 @@
           "requirement_section": "unspecified",
           "requirement_label": "人工智慧導論(3or4)",
           "program_course_name_snapshot": "人工智慧模型設計與應用",
-          "notes": "人工智慧在測驗下的相關應用與發展 每一向度至少需修習一門課程。",
+          "notes": "人工智慧在測驗下的相關應用與發展",
           "source_page": 1,
           "evidence_match": false,
           "validation_status": "needs_course_code_verification",
-          "uncertainty_reason": "Official PDF table does not provide a course code"
+          "uncertainty_reason": "Official PDF table does not provide a course code",
+          "catalog_entry_group_id": "entry_0b663aac57bf8d15"
         },
         {
           "course_code": null,
           "catalog_entry_id": "entry_05557d88dd442871",
+          "catalog_entry_group_id": "entry_05557d88dd442871",
           "opening_units": [
             "臺灣大專院校人工智慧學程聯盟"
           ],
@@ -504,7 +529,7 @@
         },
         {
           "course_code": null,
-          "catalog_entry_id": "entry_05557d88dd442871",
+          "catalog_entry_id": "entry_05557d88dd442871_2",
           "opening_units": [
             "企業管理學系企業管理碩士班"
           ],
@@ -515,15 +540,17 @@
           "requirement_section": "unspecified",
           "requirement_label": "人工智慧導論(3or4)",
           "program_course_name_snapshot": "人工智慧運算與應用",
-          "notes": "人工智慧工具應用 每一向度至少需修習一門課程。",
+          "notes": "人工智慧工具應用",
           "source_page": 1,
           "evidence_match": true,
           "validation_status": "needs_course_code_verification",
-          "uncertainty_reason": "Official PDF table does not provide a course code"
+          "uncertainty_reason": "Official PDF table does not provide a course code",
+          "catalog_entry_group_id": "entry_05557d88dd442871"
         },
         {
           "course_code": null,
           "catalog_entry_id": "entry_cb79480969e92c4a",
+          "catalog_entry_group_id": "entry_cb79480969e92c4a",
           "opening_units": [
             "臺灣大專院校人工智慧學程聯盟"
           ],
@@ -543,6 +570,7 @@
         {
           "course_code": null,
           "catalog_entry_id": "entry_8b7aaf74108d3368",
+          "catalog_entry_group_id": "entry_8b7aaf74108d3368",
           "opening_units": [
             "臺灣大專院校人工智慧學程聯盟"
           ],
@@ -561,7 +589,7 @@
         },
         {
           "course_code": null,
-          "catalog_entry_id": "entry_8b7aaf74108d3368",
+          "catalog_entry_id": "entry_8b7aaf74108d3368_2",
           "opening_units": [
             "資訊管理學系碩士班"
           ],
@@ -572,11 +600,12 @@
           "requirement_section": "unspecified",
           "requirement_label": "人工智慧應用課程(4or5)",
           "program_course_name_snapshot": "金融科技導論",
-          "notes": "金融科技 每一向度至少需修習一門課程。",
+          "notes": "金融科技",
           "source_page": 1,
           "evidence_match": true,
           "validation_status": "needs_course_code_verification",
-          "uncertainty_reason": "Official PDF table does not provide a course code"
+          "uncertainty_reason": "Official PDF table does not provide a course code",
+          "catalog_entry_group_id": "entry_8b7aaf74108d3368"
         }
       ],
       "requirements": {
@@ -655,14 +684,25 @@
         ],
         "manual_requirements": [
           {
-            "requirement_id": "requirement_d9fa625cda55484a",
+            "requirement_id": "requirement_890ade22b4b670a5",
             "kind": "manual_verification",
             "requirement_type": "certificate",
-            "description": "取得TAICA核發學程學分證明",
+            "description": "3.學生欲取得TAICA核發學程學分證明之修課規定: (1)本學分學程共計需修習15學分,學生所修課程中,須至少有9 學分不屬於其主修、輔系或其 他學分學程之必修或必選課程(亦即非屬於任何一門必修或必選修課程),方得核發本學程學 分證明。",
             "verification_mode": "manual_review",
             "requirement_context": "certificate",
             "source_page": 2,
-            "source_text": "取得TAICA核發學程學分證明",
+            "source_text": "3.學生欲取得TAICA核發學程學分證明之修課規定: (1)本學分學程共計需修習15學分,學生所修課程中,須至少有9 學分不屬於其主修、輔系或其 他學分學程之必修或必選課程(亦即非屬於任何一門必修或必選修課程),方得核發本學程學 分證明。",
+            "validation_status": "source_text_match"
+          },
+          {
+            "requirement_id": "requirement_f5564159d9fc1161",
+            "kind": "manual_verification",
+            "requirement_type": "certificate",
+            "description": "(3)若學生欲申取得TAICA核發學程學分證明者,須於該學程中修習至少8學分TAICA聯盟認定 課程(包括主導課程、鏡像課程及衛星課程)。",
+            "verification_mode": "manual_review",
+            "requirement_context": "certificate",
+            "source_page": 2,
+            "source_text": "(3)若學生欲申取得TAICA核發學程學分證明者,須於該學程中修習至少8學分TAICA聯盟認定 課程(包括主導課程、鏡像課程及衛星課程)。",
             "validation_status": "source_text_match"
           }
         ],
@@ -976,6 +1016,9 @@
           "minimum_elective_courses": null,
           "has_conditional_requirements": false,
           "has_manual_requirements": true,
+          "has_completion_manual_requirements": false,
+          "has_certificate_requirements": true,
+          "has_credit_recognition_requirements": false,
           "has_unresolved_conflicts": false
         }
       },
@@ -1000,6 +1043,7 @@
     {
       "course_code": null,
       "catalog_entry_id": "entry_a7570d6548953bcf",
+      "catalog_entry_group_id": "entry_a7570d6548953bcf",
       "opening_units": [
         "臺灣大專院校人工智慧學程聯盟"
       ],
@@ -1018,7 +1062,7 @@
     },
     {
       "course_code": null,
-      "catalog_entry_id": "entry_a7570d6548953bcf",
+      "catalog_entry_id": "entry_a7570d6548953bcf_2",
       "opening_units": [
         "資訊工程學系"
       ],
@@ -1029,15 +1073,17 @@
       "requirement_section": "unspecified",
       "requirement_label": "程式設計(1or2)",
       "program_course_name_snapshot": "Python程式設計入門",
-      "notes": "Python 程式設計 每一向度至少需修習一門課程。",
+      "notes": "Python 程式設計",
       "source_page": 1,
       "evidence_match": true,
       "validation_status": "needs_course_code_verification",
-      "uncertainty_reason": "Official PDF table does not provide a course code"
+      "uncertainty_reason": "Official PDF table does not provide a course code",
+      "catalog_entry_group_id": "entry_a7570d6548953bcf"
     },
     {
       "course_code": null,
       "catalog_entry_id": "entry_a3c33bcda9b7e9dc",
+      "catalog_entry_group_id": "entry_a3c33bcda9b7e9dc",
       "opening_units": [
         "臺灣大專院校人工智慧學程聯盟"
       ],
@@ -1056,7 +1102,7 @@
     },
     {
       "course_code": null,
-      "catalog_entry_id": "entry_a3c33bcda9b7e9dc",
+      "catalog_entry_id": "entry_a3c33bcda9b7e9dc_2",
       "opening_units": [
         "資訊管理學系"
       ],
@@ -1067,15 +1113,17 @@
       "requirement_section": "unspecified",
       "requirement_label": "程式設計(1or2)",
       "program_course_name_snapshot": "程式設計(一)",
-      "notes": "程式設計 每一向度至少需修習一門課程。",
+      "notes": "程式設計",
       "source_page": 1,
       "evidence_match": true,
       "validation_status": "needs_course_code_verification",
-      "uncertainty_reason": "Official PDF table does not provide a course code"
+      "uncertainty_reason": "Official PDF table does not provide a course code",
+      "catalog_entry_group_id": "entry_a3c33bcda9b7e9dc"
     },
     {
       "course_code": null,
       "catalog_entry_id": "entry_32d9eb599208cc59",
+      "catalog_entry_group_id": "entry_32d9eb599208cc59",
       "opening_units": [
         "臺灣大專院校人工智慧學程聯盟"
       ],
@@ -1094,7 +1142,7 @@
     },
     {
       "course_code": null,
-      "catalog_entry_id": "entry_32d9eb599208cc59",
+      "catalog_entry_id": "entry_32d9eb599208cc59_2",
       "opening_units": [
         "電機工程學系"
       ],
@@ -1105,15 +1153,17 @@
       "requirement_section": "unspecified",
       "requirement_label": "程式設計(1or2)",
       "program_course_name_snapshot": "計算機概論與程式設計",
-      "notes": "計算機概論 每一向度至少需修習一門課程。",
+      "notes": "計算機概論",
       "source_page": 1,
       "evidence_match": true,
       "validation_status": "needs_course_code_verification",
-      "uncertainty_reason": "Official PDF table does not provide a course code"
+      "uncertainty_reason": "Official PDF table does not provide a course code",
+      "catalog_entry_group_id": "entry_32d9eb599208cc59"
     },
     {
       "course_code": null,
       "catalog_entry_id": "entry_3a666fd0e50a7494",
+      "catalog_entry_group_id": "entry_3a666fd0e50a7494",
       "opening_units": [
         "臺灣大專院校人工智慧學程聯盟"
       ],
@@ -1132,7 +1182,7 @@
     },
     {
       "course_code": null,
-      "catalog_entry_id": "entry_3a666fd0e50a7494",
+      "catalog_entry_id": "entry_3a666fd0e50a7494_2",
       "opening_units": [
         "應用數學系"
       ],
@@ -1143,15 +1193,17 @@
       "requirement_section": "unspecified",
       "requirement_label": "程式設計(1or2)",
       "program_course_name_snapshot": "計算機程式設計",
-      "notes": "計算機程式 每一向度至少需修習一門課程。",
+      "notes": "計算機程式",
       "source_page": 1,
       "evidence_match": true,
       "validation_status": "needs_course_code_verification",
-      "uncertainty_reason": "Official PDF table does not provide a course code"
+      "uncertainty_reason": "Official PDF table does not provide a course code",
+      "catalog_entry_group_id": "entry_3a666fd0e50a7494"
     },
     {
       "course_code": null,
       "catalog_entry_id": "entry_be7fd847ea11e4fb",
+      "catalog_entry_group_id": "entry_be7fd847ea11e4fb",
       "opening_units": [
         "臺灣大專院校人工智慧學程聯盟"
       ],
@@ -1170,7 +1222,7 @@
     },
     {
       "course_code": null,
-      "catalog_entry_id": "entry_be7fd847ea11e4fb",
+      "catalog_entry_id": "entry_be7fd847ea11e4fb_2",
       "opening_units": [
         "財務管理學系"
       ],
@@ -1181,15 +1233,17 @@
       "requirement_section": "unspecified",
       "requirement_label": "機率(1or2)",
       "program_course_name_snapshot": "統計",
-      "notes": "統計學(一) 每一向度至少需修習一門課程。",
+      "notes": "統計學(一)",
       "source_page": 1,
       "evidence_match": true,
       "validation_status": "needs_course_code_verification",
-      "uncertainty_reason": "Official PDF table does not provide a course code"
+      "uncertainty_reason": "Official PDF table does not provide a course code",
+      "catalog_entry_group_id": "entry_be7fd847ea11e4fb"
     },
     {
       "course_code": null,
       "catalog_entry_id": "entry_99138fa6af2188fa",
+      "catalog_entry_group_id": "entry_99138fa6af2188fa",
       "opening_units": [
         "臺灣大專院校人工智慧學程聯盟"
       ],
@@ -1208,7 +1262,7 @@
     },
     {
       "course_code": null,
-      "catalog_entry_id": "entry_99138fa6af2188fa",
+      "catalog_entry_id": "entry_99138fa6af2188fa_2",
       "opening_units": [
         "電機工程學系"
       ],
@@ -1219,15 +1273,17 @@
       "requirement_section": "unspecified",
       "requirement_label": "機率(1or2)",
       "program_course_name_snapshot": "機率與統計",
-      "notes": "每一向度至少需修習一門課程。",
+      "notes": "",
       "source_page": 1,
       "evidence_match": true,
       "validation_status": "needs_course_code_verification",
-      "uncertainty_reason": "Official PDF table does not provide a course code"
+      "uncertainty_reason": "Official PDF table does not provide a course code",
+      "catalog_entry_group_id": "entry_99138fa6af2188fa"
     },
     {
       "course_code": null,
       "catalog_entry_id": "entry_26a6853f60b514b6",
+      "catalog_entry_group_id": "entry_26a6853f60b514b6",
       "opening_units": [
         "臺灣大專院校人工智慧學程聯盟"
       ],
@@ -1246,7 +1302,7 @@
     },
     {
       "course_code": null,
-      "catalog_entry_id": "entry_26a6853f60b514b6",
+      "catalog_entry_id": "entry_26a6853f60b514b6_2",
       "opening_units": [
         "應用數學系碩士班"
       ],
@@ -1257,15 +1313,17 @@
       "requirement_section": "unspecified",
       "requirement_label": "機率(1or2)",
       "program_course_name_snapshot": "機率模型與數據科學",
-      "notes": "數據科學實務與創新 每一向度至少需修習一門課程。",
+      "notes": "數據科學實務與創新",
       "source_page": 1,
       "evidence_match": true,
       "validation_status": "needs_course_code_verification",
-      "uncertainty_reason": "Official PDF table does not provide a course code"
+      "uncertainty_reason": "Official PDF table does not provide a course code",
+      "catalog_entry_group_id": "entry_26a6853f60b514b6"
     },
     {
       "course_code": null,
       "catalog_entry_id": "entry_e2df07fdb59038e2",
+      "catalog_entry_group_id": "entry_e2df07fdb59038e2",
       "opening_units": [
         "臺灣大專院校人工智慧學程聯盟"
       ],
@@ -1284,7 +1342,7 @@
     },
     {
       "course_code": null,
-      "catalog_entry_id": "entry_e2df07fdb59038e2",
+      "catalog_entry_id": "entry_e2df07fdb59038e2_2",
       "opening_units": [
         "應用數學系"
       ],
@@ -1295,15 +1353,17 @@
       "requirement_section": "unspecified",
       "requirement_label": "機率(1or2)",
       "program_course_name_snapshot": "機率與資料導論",
-      "notes": "機率論(二) 每一向度至少需修習一門課程。",
+      "notes": "機率論(二)",
       "source_page": 1,
       "evidence_match": true,
       "validation_status": "needs_course_code_verification",
-      "uncertainty_reason": "Official PDF table does not provide a course code"
+      "uncertainty_reason": "Official PDF table does not provide a course code",
+      "catalog_entry_group_id": "entry_e2df07fdb59038e2"
     },
     {
       "course_code": null,
       "catalog_entry_id": "entry_6c81670e7a458b49",
+      "catalog_entry_group_id": "entry_6c81670e7a458b49",
       "opening_units": [
         "臺灣大專院校人工智慧學程聯盟"
       ],
@@ -1322,7 +1382,7 @@
     },
     {
       "course_code": null,
-      "catalog_entry_id": "entry_6c81670e7a458b49",
+      "catalog_entry_id": "entry_6c81670e7a458b49_2",
       "opening_units": [
         "資訊管理學系碩士班"
       ],
@@ -1333,15 +1393,17 @@
       "requirement_section": "unspecified",
       "requirement_label": "人工智慧導論(3or4)",
       "program_course_name_snapshot": "人工智慧",
-      "notes": "每一向度至少需修習一門課程。",
+      "notes": "",
       "source_page": 1,
       "evidence_match": true,
       "validation_status": "needs_course_code_verification",
-      "uncertainty_reason": "Official PDF table does not provide a course code"
+      "uncertainty_reason": "Official PDF table does not provide a course code",
+      "catalog_entry_group_id": "entry_6c81670e7a458b49"
     },
     {
       "course_code": null,
       "catalog_entry_id": "entry_a205b4ee2fc3fec1",
+      "catalog_entry_group_id": "entry_a205b4ee2fc3fec1",
       "opening_units": [
         "臺灣大專院校人工智慧學程聯盟"
       ],
@@ -1360,7 +1422,7 @@
     },
     {
       "course_code": null,
-      "catalog_entry_id": "entry_a205b4ee2fc3fec1",
+      "catalog_entry_id": "entry_a205b4ee2fc3fec1_2",
       "opening_units": [
         "資訊工程學系"
       ],
@@ -1371,15 +1433,17 @@
       "requirement_section": "unspecified",
       "requirement_label": "人工智慧導論(3or4)",
       "program_course_name_snapshot": "人工智慧導論與實作",
-      "notes": "人工智慧導論 每一向度至少需修習一門課程。",
+      "notes": "人工智慧導論",
       "source_page": 1,
       "evidence_match": true,
       "validation_status": "needs_course_code_verification",
-      "uncertainty_reason": "Official PDF table does not provide a course code"
+      "uncertainty_reason": "Official PDF table does not provide a course code",
+      "catalog_entry_group_id": "entry_a205b4ee2fc3fec1"
     },
     {
       "course_code": null,
       "catalog_entry_id": "entry_80ff0ba53c2c84df",
+      "catalog_entry_group_id": "entry_80ff0ba53c2c84df",
       "opening_units": [
         "臺灣大專院校人工智慧學程聯盟"
       ],
@@ -1398,7 +1462,7 @@
     },
     {
       "course_code": null,
-      "catalog_entry_id": "entry_80ff0ba53c2c84df",
+      "catalog_entry_id": "entry_80ff0ba53c2c84df_2",
       "opening_units": [
         "博雅向度四<科技與社會>"
       ],
@@ -1409,15 +1473,17 @@
       "requirement_section": "unspecified",
       "requirement_label": "人工智慧導論(3or4)",
       "program_course_name_snapshot": "人工智慧概論",
-      "notes": "每一向度至少需修習一門課程。",
+      "notes": "",
       "source_page": 1,
       "evidence_match": true,
       "validation_status": "needs_course_code_verification",
-      "uncertainty_reason": "Official PDF table does not provide a course code"
+      "uncertainty_reason": "Official PDF table does not provide a course code",
+      "catalog_entry_group_id": "entry_80ff0ba53c2c84df"
     },
     {
       "course_code": null,
       "catalog_entry_id": "entry_0b663aac57bf8d15",
+      "catalog_entry_group_id": "entry_0b663aac57bf8d15",
       "opening_units": [
         "臺灣大專院校人工智慧學程聯盟"
       ],
@@ -1436,7 +1502,7 @@
     },
     {
       "course_code": null,
-      "catalog_entry_id": "entry_0b663aac57bf8d15",
+      "catalog_entry_id": "entry_0b663aac57bf8d15_2",
       "opening_units": [
         "人力資源管理研究所碩士在職專班"
       ],
@@ -1447,15 +1513,17 @@
       "requirement_section": "unspecified",
       "requirement_label": "人工智慧導論(3or4)",
       "program_course_name_snapshot": "人工智慧模型設計與應用",
-      "notes": "人工智慧在測驗下的相關應用與發展 每一向度至少需修習一門課程。",
+      "notes": "人工智慧在測驗下的相關應用與發展",
       "source_page": 1,
       "evidence_match": false,
       "validation_status": "needs_course_code_verification",
-      "uncertainty_reason": "Official PDF table does not provide a course code"
+      "uncertainty_reason": "Official PDF table does not provide a course code",
+      "catalog_entry_group_id": "entry_0b663aac57bf8d15"
     },
     {
       "course_code": null,
       "catalog_entry_id": "entry_05557d88dd442871",
+      "catalog_entry_group_id": "entry_05557d88dd442871",
       "opening_units": [
         "臺灣大專院校人工智慧學程聯盟"
       ],
@@ -1474,7 +1542,7 @@
     },
     {
       "course_code": null,
-      "catalog_entry_id": "entry_05557d88dd442871",
+      "catalog_entry_id": "entry_05557d88dd442871_2",
       "opening_units": [
         "企業管理學系企業管理碩士班"
       ],
@@ -1485,15 +1553,17 @@
       "requirement_section": "unspecified",
       "requirement_label": "人工智慧導論(3or4)",
       "program_course_name_snapshot": "人工智慧運算與應用",
-      "notes": "人工智慧工具應用 每一向度至少需修習一門課程。",
+      "notes": "人工智慧工具應用",
       "source_page": 1,
       "evidence_match": true,
       "validation_status": "needs_course_code_verification",
-      "uncertainty_reason": "Official PDF table does not provide a course code"
+      "uncertainty_reason": "Official PDF table does not provide a course code",
+      "catalog_entry_group_id": "entry_05557d88dd442871"
     },
     {
       "course_code": null,
       "catalog_entry_id": "entry_cb79480969e92c4a",
+      "catalog_entry_group_id": "entry_cb79480969e92c4a",
       "opening_units": [
         "臺灣大專院校人工智慧學程聯盟"
       ],
@@ -1513,6 +1583,7 @@
     {
       "course_code": null,
       "catalog_entry_id": "entry_8b7aaf74108d3368",
+      "catalog_entry_group_id": "entry_8b7aaf74108d3368",
       "opening_units": [
         "臺灣大專院校人工智慧學程聯盟"
       ],
@@ -1531,7 +1602,7 @@
     },
     {
       "course_code": null,
-      "catalog_entry_id": "entry_8b7aaf74108d3368",
+      "catalog_entry_id": "entry_8b7aaf74108d3368_2",
       "opening_units": [
         "資訊管理學系碩士班"
       ],
@@ -1542,11 +1613,12 @@
       "requirement_section": "unspecified",
       "requirement_label": "人工智慧應用課程(4or5)",
       "program_course_name_snapshot": "金融科技導論",
-      "notes": "金融科技 每一向度至少需修習一門課程。",
+      "notes": "金融科技",
       "source_page": 1,
       "evidence_match": true,
       "validation_status": "needs_course_code_verification",
-      "uncertainty_reason": "Official PDF table does not provide a course code"
+      "uncertainty_reason": "Official PDF table does not provide a course code",
+      "catalog_entry_group_id": "entry_8b7aaf74108d3368"
     }
   ],
   "structured_requirements": {
@@ -1625,14 +1697,25 @@
     ],
     "manual_requirements": [
       {
-        "requirement_id": "requirement_d9fa625cda55484a",
+        "requirement_id": "requirement_890ade22b4b670a5",
         "kind": "manual_verification",
         "requirement_type": "certificate",
-        "description": "取得TAICA核發學程學分證明",
+        "description": "3.學生欲取得TAICA核發學程學分證明之修課規定: (1)本學分學程共計需修習15學分,學生所修課程中,須至少有9 學分不屬於其主修、輔系或其 他學分學程之必修或必選課程(亦即非屬於任何一門必修或必選修課程),方得核發本學程學 分證明。",
         "verification_mode": "manual_review",
         "requirement_context": "certificate",
         "source_page": 2,
-        "source_text": "取得TAICA核發學程學分證明",
+        "source_text": "3.學生欲取得TAICA核發學程學分證明之修課規定: (1)本學分學程共計需修習15學分,學生所修課程中,須至少有9 學分不屬於其主修、輔系或其 他學分學程之必修或必選課程(亦即非屬於任何一門必修或必選修課程),方得核發本學程學 分證明。",
+        "validation_status": "source_text_match"
+      },
+      {
+        "requirement_id": "requirement_f5564159d9fc1161",
+        "kind": "manual_verification",
+        "requirement_type": "certificate",
+        "description": "(3)若學生欲申取得TAICA核發學程學分證明者,須於該學程中修習至少8學分TAICA聯盟認定 課程(包括主導課程、鏡像課程及衛星課程)。",
+        "verification_mode": "manual_review",
+        "requirement_context": "certificate",
+        "source_page": 2,
+        "source_text": "(3)若學生欲申取得TAICA核發學程學分證明者,須於該學程中修習至少8學分TAICA聯盟認定 課程(包括主導課程、鏡像課程及衛星課程)。",
         "validation_status": "source_text_match"
       }
     ],
@@ -1946,6 +2029,9 @@
       "minimum_elective_courses": null,
       "has_conditional_requirements": false,
       "has_manual_requirements": true,
+      "has_completion_manual_requirements": false,
+      "has_certificate_requirements": true,
+      "has_credit_recognition_requirements": false,
       "has_unresolved_conflicts": false
     }
   }

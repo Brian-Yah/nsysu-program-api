@@ -1,5 +1,5 @@
 {
-  "schema_version": "1.2",
+  "schema_version": "1.3",
   "courses": [],
   "credit_mentions": [
     2,
@@ -843,6 +843,9 @@
           "minimum_elective_courses": null,
           "has_conditional_requirements": false,
           "has_manual_requirements": false,
+          "has_completion_manual_requirements": false,
+          "has_certificate_requirements": false,
+          "has_credit_recognition_requirements": false,
           "has_unresolved_conflicts": false
         }
       },
@@ -1662,6 +1665,9 @@
           "minimum_elective_courses": null,
           "has_conditional_requirements": false,
           "has_manual_requirements": false,
+          "has_completion_manual_requirements": false,
+          "has_certificate_requirements": false,
+          "has_credit_recognition_requirements": false,
           "has_unresolved_conflicts": false
         }
       },
@@ -2329,6 +2335,9 @@
           "minimum_elective_courses": null,
           "has_conditional_requirements": false,
           "has_manual_requirements": false,
+          "has_completion_manual_requirements": false,
+          "has_certificate_requirements": false,
+          "has_credit_recognition_requirements": false,
           "has_unresolved_conflicts": false
         }
       },
@@ -3034,6 +3043,9 @@
           "minimum_elective_courses": null,
           "has_conditional_requirements": false,
           "has_manual_requirements": false,
+          "has_completion_manual_requirements": false,
+          "has_certificate_requirements": false,
+          "has_credit_recognition_requirements": false,
           "has_unresolved_conflicts": false
         }
       },
@@ -3739,6 +3751,9 @@
           "minimum_elective_courses": null,
           "has_conditional_requirements": false,
           "has_manual_requirements": false,
+          "has_completion_manual_requirements": false,
+          "has_certificate_requirements": false,
+          "has_credit_recognition_requirements": false,
           "has_unresolved_conflicts": false
         }
       },
@@ -4462,14 +4477,14 @@
         ],
         "manual_requirements": [
           {
-            "requirement_id": "requirement_2efb412f3e3e9776",
+            "requirement_id": "requirement_522b4d703c7c1245",
             "kind": "manual_verification",
             "requirement_type": "service_learning",
-            "description": "應西灣學院1用服務學習",
+            "description": "三、核心課程 Ш(必修一門,1學分) 服務學習(三):環境教育服務與 西灣學院 1 推廣 服務學習(三):海洋資源實務應 西灣學院 1 用 服務學習(三):永續發展與服務 西灣學院 1 體驗 核心課程學分數: 3 學分 選 修 西灣學院 臺灣海岸環境 2 西灣學院 環境倫理與環境政策 2 更換課名 西灣學院 地球科學 2 西灣學院 都市農業與永續發展 2 生科系 氣候變遷對生物多樣性的影響 3 生科系 生物多樣性與保育 2 海科系 古海洋學概論 3 海科系 古氣候學概論 3 海科系 海岸地質學 3 海科系 海洋系統科學(一) 2 海科系 海洋系統科學(二) 2 海科系 海洋地質概論 2 海科系 物理海洋概論 2 海科系 海洋微體古生物學 2 海科系 海洋微體古生物學實習 1 海工系 生態工程與實務 3 海工系 海洋與海岸管理 3 海工系 海岸開發及保育工程 3 海工系 永續海岸 3",
             "verification_mode": "manual_review",
             "requirement_context": "program_completion",
             "source_page": 11,
-            "source_text": "應西灣學院1用服務學習",
+            "source_text": "三、核心課程 Ш(必修一門,1學分) 服務學習(三):環境教育服務與 西灣學院 1 推廣 服務學習(三):海洋資源實務應 西灣學院 1 用 服務學習(三):永續發展與服務 西灣學院 1 體驗 核心課程學分數: 3 學分 選 修 西灣學院 臺灣海岸環境 2 西灣學院 環境倫理與環境政策 2 更換課名 西灣學院 地球科學 2 西灣學院 都市農業與永續發展 2 生科系 氣候變遷對生物多樣性的影響 3 生科系 生物多樣性與保育 2 海科系 古海洋學概論 3 海科系 古氣候學概論 3 海科系 海岸地質學 3 海科系 海洋系統科學(一) 2 海科系 海洋系統科學(二) 2 海科系 海洋地質概論 2 海科系 物理海洋概論 2 海科系 海洋微體古生物學 2 海科系 海洋微體古生物學實習 1 海工系 生態工程與實務 3 海工系 海洋與海岸管理 3 海工系 海岸開發及保育工程 3 海工系 永續海岸 3",
             "validation_status": "source_text_match"
           }
         ],
@@ -4558,6 +4573,9 @@
           "minimum_elective_courses": null,
           "has_conditional_requirements": false,
           "has_manual_requirements": true,
+          "has_completion_manual_requirements": true,
+          "has_certificate_requirements": false,
+          "has_credit_recognition_requirements": false,
           "has_unresolved_conflicts": false
         }
       },
@@ -5281,14 +5299,14 @@
         ],
         "manual_requirements": [
           {
-            "requirement_id": "requirement_2e604877850309db",
+            "requirement_id": "requirement_c3de8dc88b941a36",
             "kind": "manual_verification",
             "requirement_type": "service_learning",
-            "description": "應通識中心1用服務學習",
+            "description": "三、核心課程 Ш(必修一門,1學分) 服務學習(三):環境教育服務與 通識中心 1 推廣 服務學習(三):海洋資源實務應 通識中心 1 用 服務學習(三):永續發展與服務 通識中心 1 新增 體驗 核心課程學分數: 5 學分 選 修 通識中心 臺灣海岸環境 2 通識中心 環境倫理 2 通識中心 地球科學 2 通識中心 都市農業與永續發展 2 新增 生科系 氣候變遷對生物多樣性的影響 3 新增 生科系 生物多樣性與保育 2 海科系 古海洋學概論 3 海科系 古氣候學概論 3 海科系 海岸地質學 3 海科系 海洋系統科學(一) 2 海科系 海洋系統科學(二) 2 海科系 海洋地質概論 2 海科系 物理海洋概論 2 海科系 海洋微體古生物學 2 海科系 海洋微體古生物學實習 1 海工系 生態工程與實務 3 海工系 海洋與海岸管理 3 海工系 海岸開發及保育工程 3 海工系 永續海岸 3",
             "verification_mode": "manual_review",
             "requirement_context": "program_completion",
             "source_page": 13,
-            "source_text": "應通識中心1用服務學習",
+            "source_text": "三、核心課程 Ш(必修一門,1學分) 服務學習(三):環境教育服務與 通識中心 1 推廣 服務學習(三):海洋資源實務應 通識中心 1 用 服務學習(三):永續發展與服務 通識中心 1 新增 體驗 核心課程學分數: 5 學分 選 修 通識中心 臺灣海岸環境 2 通識中心 環境倫理 2 通識中心 地球科學 2 通識中心 都市農業與永續發展 2 新增 生科系 氣候變遷對生物多樣性的影響 3 新增 生科系 生物多樣性與保育 2 海科系 古海洋學概論 3 海科系 古氣候學概論 3 海科系 海岸地質學 3 海科系 海洋系統科學(一) 2 海科系 海洋系統科學(二) 2 海科系 海洋地質概論 2 海科系 物理海洋概論 2 海科系 海洋微體古生物學 2 海科系 海洋微體古生物學實習 1 海工系 生態工程與實務 3 海工系 海洋與海岸管理 3 海工系 海岸開發及保育工程 3 海工系 永續海岸 3",
             "validation_status": "source_text_match"
           }
         ],
@@ -5377,6 +5395,9 @@
           "minimum_elective_courses": null,
           "has_conditional_requirements": false,
           "has_manual_requirements": true,
+          "has_completion_manual_requirements": true,
+          "has_certificate_requirements": false,
+          "has_credit_recognition_requirements": false,
           "has_unresolved_conflicts": false
         }
       },
@@ -6198,6 +6219,9 @@
       "minimum_elective_courses": null,
       "has_conditional_requirements": false,
       "has_manual_requirements": false,
+      "has_completion_manual_requirements": false,
+      "has_certificate_requirements": false,
+      "has_credit_recognition_requirements": false,
       "has_unresolved_conflicts": false
     }
   }

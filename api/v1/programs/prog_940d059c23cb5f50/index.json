@@ -29,7 +29,7 @@
         "last_modified": "Tue, 09 Jan 2024 03:50:30 GMT",
         "content_length": 307980
       },
-      "parser_version": "0.3.0",
+      "parser_version": "0.4.0",
       "extractor_versions": {
         "pypdf": "6.10.0",
         "pdfplumber": "0.11.9"
@@ -1457,8 +1457,15 @@
         "minimum_elective_courses": null,
         "has_conditional_requirements": false,
         "has_manual_requirements": false,
+        "has_completion_manual_requirements": false,
+        "has_certificate_requirements": false,
+        "has_credit_recognition_requirements": false,
         "has_unresolved_conflicts": false
       }
-    }
+    },
+    "institutional_policy_ids": [
+      "nsysu_program_policy_2026_08_16"
+    ],
+    "institutional_policy_applied_rule_ids": []
   }
 }

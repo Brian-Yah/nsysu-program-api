@@ -1,5 +1,5 @@
 {
-  "schema_version": "1.2",
+  "schema_version": "1.3",
   "courses": [],
   "credit_mentions": [
     9,
@@ -377,6 +377,19 @@
             "validation_status": "source_text_match"
           }
         ],
+        "manual_requirements": [
+          {
+            "requirement_id": "requirement_a2744f91a1f7b076",
+            "kind": "manual_verification",
+            "requirement_type": "recognition",
+            "description": "可以「教育部閩南語語言能力認證」中級以上成績認列核 心課程,唯不能抵免本微學程總學分,另需選修3學分課程。",
+            "verification_mode": "manual_review",
+            "requirement_context": "credit_recognition",
+            "source_page": 1,
+            "source_text": "可以「教育部閩南語語言能力認證」中級以上成績認列核 心課程,唯不能抵免本微學程總學分,另需選修3學分課程。",
+            "validation_status": "source_text_match"
+          }
+        ],
         "completion_summary": {
           "model_status": "partial",
           "minimum_total_credits": 9.0,
@@ -386,7 +399,10 @@
           "minimum_core_courses": null,
           "minimum_elective_courses": null,
           "has_conditional_requirements": false,
-          "has_manual_requirements": false,
+          "has_manual_requirements": true,
+          "has_completion_manual_requirements": false,
+          "has_certificate_requirements": false,
+          "has_credit_recognition_requirements": true,
           "has_unresolved_conflicts": false
         }
       },
@@ -726,6 +742,19 @@
             "validation_status": "source_text_match"
           }
         ],
+        "manual_requirements": [
+          {
+            "requirement_id": "requirement_a2744f91a1f7b076",
+            "kind": "manual_verification",
+            "requirement_type": "recognition",
+            "description": "可以「教育部閩南語語言能力認證」中級以上成績認列核 心課程,唯不能抵免本微學程總學分,另需選修3學分課程。",
+            "verification_mode": "manual_review",
+            "requirement_context": "credit_recognition",
+            "source_page": 2,
+            "source_text": "可以「教育部閩南語語言能力認證」中級以上成績認列核 心課程,唯不能抵免本微學程總學分,另需選修3學分課程。",
+            "validation_status": "source_text_match"
+          }
+        ],
         "completion_summary": {
           "model_status": "partial",
           "minimum_total_credits": 9.0,
@@ -735,7 +764,10 @@
           "minimum_core_courses": null,
           "minimum_elective_courses": null,
           "has_conditional_requirements": false,
-          "has_manual_requirements": false,
+          "has_manual_requirements": true,
+          "has_completion_manual_requirements": false,
+          "has_certificate_requirements": false,
+          "has_credit_recognition_requirements": true,
           "has_unresolved_conflicts": false
         }
       },
@@ -1056,6 +1088,19 @@
             "validation_status": "source_text_match"
           }
         ],
+        "manual_requirements": [
+          {
+            "requirement_id": "requirement_2f20966651e0fbbf",
+            "kind": "manual_verification",
+            "requirement_type": "recognition",
+            "description": "可以「教育部閩南語語言能力認證」中級以上成績認列核 心課程,唯不能抵免本微學程總學分,另需選修 3學分課程。",
+            "verification_mode": "manual_review",
+            "requirement_context": "credit_recognition",
+            "source_page": 3,
+            "source_text": "可以「教育部閩南語語言能力認證」中級以上成績認列核 心課程,唯不能抵免本微學程總學分,另需選修 3學分課程。",
+            "validation_status": "source_text_match"
+          }
+        ],
         "completion_summary": {
           "model_status": "partial",
           "minimum_total_credits": 9.0,
@@ -1065,7 +1110,10 @@
           "minimum_core_courses": null,
           "minimum_elective_courses": null,
           "has_conditional_requirements": false,
-          "has_manual_requirements": false,
+          "has_manual_requirements": true,
+          "has_completion_manual_requirements": false,
+          "has_certificate_requirements": false,
+          "has_credit_recognition_requirements": true,
           "has_unresolved_conflicts": false
         }
       },
@@ -1367,6 +1415,19 @@
             "validation_status": "source_text_match"
           }
         ],
+        "manual_requirements": [
+          {
+            "requirement_id": "requirement_15f17ee06887f5c4",
+            "kind": "manual_verification",
+            "requirement_type": "recognition",
+            "description": "可以「教育部閩南語語言能力認證」中級以上成績認 列核心課程,唯不能抵免本微學程總學分(另需選修 3學分課程),亦不能計入畢 業學分。",
+            "verification_mode": "manual_review",
+            "requirement_context": "credit_recognition",
+            "source_page": 4,
+            "source_text": "可以「教育部閩南語語言能力認證」中級以上成績認 列核心課程,唯不能抵免本微學程總學分(另需選修 3學分課程),亦不能計入畢 業學分。",
+            "validation_status": "source_text_match"
+          }
+        ],
         "completion_summary": {
           "model_status": "partial",
           "minimum_total_credits": 9.0,
@@ -1376,7 +1437,10 @@
           "minimum_core_courses": null,
           "minimum_elective_courses": null,
           "has_conditional_requirements": false,
-          "has_manual_requirements": false,
+          "has_manual_requirements": true,
+          "has_completion_manual_requirements": false,
+          "has_certificate_requirements": false,
+          "has_credit_recognition_requirements": true,
           "has_unresolved_conflicts": false
         }
       },
@@ -1669,6 +1733,9 @@
           "minimum_elective_courses": null,
           "has_conditional_requirements": false,
           "has_manual_requirements": false,
+          "has_completion_manual_requirements": false,
+          "has_certificate_requirements": false,
+          "has_credit_recognition_requirements": false,
           "has_unresolved_conflicts": false
         }
       },
@@ -1923,6 +1990,9 @@
           "minimum_elective_courses": null,
           "has_conditional_requirements": false,
           "has_manual_requirements": false,
+          "has_completion_manual_requirements": false,
+          "has_certificate_requirements": false,
+          "has_credit_recognition_requirements": false,
           "has_unresolved_conflicts": false
         }
       },
@@ -2140,6 +2210,9 @@
           "minimum_elective_courses": null,
           "has_conditional_requirements": false,
           "has_manual_requirements": false,
+          "has_completion_manual_requirements": false,
+          "has_certificate_requirements": false,
+          "has_credit_recognition_requirements": false,
           "has_unresolved_conflicts": false
         }
       },
@@ -2498,6 +2571,19 @@
         "validation_status": "source_text_match"
       }
     ],
+    "manual_requirements": [
+      {
+        "requirement_id": "requirement_a2744f91a1f7b076",
+        "kind": "manual_verification",
+        "requirement_type": "recognition",
+        "description": "可以「教育部閩南語語言能力認證」中級以上成績認列核 心課程,唯不能抵免本微學程總學分,另需選修3學分課程。",
+        "verification_mode": "manual_review",
+        "requirement_context": "credit_recognition",
+        "source_page": 1,
+        "source_text": "可以「教育部閩南語語言能力認證」中級以上成績認列核 心課程,唯不能抵免本微學程總學分,另需選修3學分課程。",
+        "validation_status": "source_text_match"
+      }
+    ],
     "completion_summary": {
       "model_status": "partial",
       "minimum_total_credits": 9.0,
@@ -2507,7 +2593,10 @@
       "minimum_core_courses": null,
       "minimum_elective_courses": null,
       "has_conditional_requirements": false,
-      "has_manual_requirements": false,
+      "has_manual_requirements": true,
+      "has_completion_manual_requirements": false,
+      "has_certificate_requirements": false,
+      "has_credit_recognition_requirements": true,
       "has_unresolved_conflicts": false
     }
   }

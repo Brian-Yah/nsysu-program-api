@@ -23,7 +23,7 @@
       "last_modified": "Wed, 20 Dec 2023 02:33:51 GMT",
       "content_length": 354370
     },
-    "parser_version": "0.3.0",
+    "parser_version": "0.4.0",
     "extractor_versions": {
       "pypdf": "6.10.0",
       "pdfplumber": "0.11.9"
@@ -835,14 +835,14 @@
     ],
     "manual_requirements": [
       {
-        "requirement_id": "requirement_255faaa9a5a8335b",
+        "requirement_id": "requirement_f066caf999c301b5",
         "kind": "manual_verification",
         "requirement_type": "service_learning",
-        "description": "修習西灣學院服務學習",
+        "description": "西灣學院 探詢建築工藝中的高雄故事 3 向度四、英語授課 外文系 觀光英語 3 大學部、英語授課 西灣學院 台灣政經發展 3 向度三、英語授課 政經系 中國政治經濟發展 3 大學部 西灣學院 人權與現代社會:台灣與中國 3 向度三、英語授課 的路徑 西灣學院 服務學習(三):史蹟導覽 1 服務學習限大二以上修 習 西灣學院 服務學習(三):文化設計與 1 服務學習限大二以上修 社區實作 習 西灣學院 後疫情時代的國際政治 3 大學部、英語授課 政經系 全球化、自由貿易及跨國移民 3 大學部、英語授課 導論 總學分數:至少 15 學分",
         "verification_mode": "manual_review",
         "requirement_context": "program_completion",
         "source_page": 3,
-        "source_text": "修習西灣學院服務學習",
+        "source_text": "西灣學院 探詢建築工藝中的高雄故事 3 向度四、英語授課 外文系 觀光英語 3 大學部、英語授課 西灣學院 台灣政經發展 3 向度三、英語授課 政經系 中國政治經濟發展 3 大學部 西灣學院 人權與現代社會:台灣與中國 3 向度三、英語授課 的路徑 西灣學院 服務學習(三):史蹟導覽 1 服務學習限大二以上修 習 西灣學院 服務學習(三):文化設計與 1 服務學習限大二以上修 社區實作 習 西灣學院 後疫情時代的國際政治 3 大學部、英語授課 政經系 全球化、自由貿易及跨國移民 3 大學部、英語授課 導論 總學分數:至少 15 學分",
         "validation_status": "source_text_match"
       }
     ],
@@ -856,7 +856,14 @@
       "minimum_elective_courses": null,
       "has_conditional_requirements": false,
       "has_manual_requirements": true,
+      "has_completion_manual_requirements": true,
+      "has_certificate_requirements": false,
+      "has_credit_recognition_requirements": false,
       "has_unresolved_conflicts": false
     }
-  }
+  },
+  "institutional_policy_ids": [
+    "nsysu_program_policy_2026_08_16"
+  ],
+  "institutional_policy_applied_rule_ids": []
 }

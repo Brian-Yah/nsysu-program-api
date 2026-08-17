@@ -3,8 +3,8 @@
   "policy_version": "simple-logic-v1",
   "audit_status": "passed",
   "reviewed_at": "2026-08-16",
-  "candidate_count": 79,
-  "candidate_set_sha256": "b149878b12c6d500da9a80517894d4c1c8816ec51db307088e70aab1c2b31870",
+  "candidate_count": 77,
+  "candidate_set_sha256": "b0379537d0df955641f74ee1f9665c6f0b0e39ce7c4e5a4107ec606301353187",
   "selection_method": "cryptographically random sample without replacement",
   "criteria": [
     "active program with no parser warning",

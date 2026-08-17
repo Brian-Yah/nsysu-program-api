@@ -4,7 +4,11 @@ import json
 from collections import Counter
 from pathlib import Path
 
-from .ai_review import apply_ai_review_audit, simple_logic_disqualifiers
+from .ai_review import (
+    apply_ai_review_audit,
+    review_reason_details,
+    simple_logic_disqualifiers,
+)
 from .core import (
     CATALOG_URL,
     DATA_REVISION,
@@ -23,6 +27,11 @@ from .core import (
     write_json,
 )
 from .graduation import build_graduation_api
+from .institutional import (
+    apply_institutional_policy,
+    load_institutional_policy,
+    publish_institutional_policy,
+)
 from .requirements import finalize_completion_summary, select_applicable_rule_version
 from .reviewed import apply_reviewed_override
 
@@ -227,6 +236,7 @@ def build_api(root: Path, version: str) -> dict:
     if not source_catalog:
         raise RuntimeError(f"missing source catalog for {version}")
     reviewed_program_count = 0
+    institutional_policy = load_institutional_policy(root)
     for program in source_catalog["programs"]:
         extracted = load_json(
             root / "data" / "extracted" / version / f"{program['program_id']}.json",
@@ -237,6 +247,7 @@ def build_api(root: Path, version: str) -> dict:
         program["structured_requirements"] = extracted.get("structured_requirements", {})
         if apply_reviewed_override(root, version, program):
             reviewed_program_count += 1
+        apply_institutional_policy(program, institutional_policy)
     ai_approved_program_count = apply_ai_review_audit(
         root, version, source_catalog["programs"]
     )
@@ -250,6 +261,7 @@ def build_api(root: Path, version: str) -> dict:
     if errors:
         raise RuntimeError(f"validation errors: {json.dumps(errors, ensure_ascii=False)}")
     api = root / "api" / "v1"
+    publish_institutional_policy(root, api, institutional_policy)
     envelope = {
         "schema_version": SCHEMA_VERSION,
         "academic_version": version,
@@ -286,6 +298,7 @@ def build_api(root: Path, version: str) -> dict:
     for program in programs:
         if program.get("review_status") in {"approved", "ai_approved"}:
             continue
+        reasons = simple_logic_disqualifiers(program)
         manual_review_programs.append(
             {
                 "program_id": program["program_id"],
@@ -296,7 +309,8 @@ def build_api(root: Path, version: str) -> dict:
                 "model_status": program.get("structured_requirements", {})
                 .get("completion_summary", {})
                 .get("model_status"),
-                "reasons": simple_logic_disqualifiers(program),
+                "reasons": reasons,
+                "reason_details": review_reason_details(program, reasons),
             }
         )
     write_json(
@@ -313,6 +327,10 @@ def build_api(root: Path, version: str) -> dict:
     schema_dest = api / "schemas" / "program.schema.json"
     schema_dest.parent.mkdir(parents=True, exist_ok=True)
     schema_dest.write_text(schema_src.read_text(encoding="utf-8"), encoding="utf-8")
+    policy_schema_src = root / "schemas" / "institutional-policy.schema.json"
+    (api / "schemas" / "institutional-policy.schema.json").write_text(
+        policy_schema_src.read_text(encoding="utf-8"), encoding="utf-8"
+    )
     entry_year = version.split("-", 1)[0]
     graduation_source = root / "data" / "graduation-requirements" / entry_year / "bachelor.json"
     graduation_index = (
@@ -325,7 +343,7 @@ def build_api(root: Path, version: str) -> dict:
         "generated_at": now_iso(),
         "program_count": len(programs),
         "active_program_count": sum(p["status"] == "active" for p in programs),
-        "rule_model_version": "1.1",
+        "rule_model_version": "1.2",
         "reviewed_program_count": reviewed_program_count,
         "ai_approved_program_count": ai_approved_program_count,
         "manual_review_program_count": len(manual_review_programs),
@@ -341,10 +359,12 @@ def build_api(root: Path, version: str) -> dict:
         "paths": {
             "latest": "latest/programs.json",
             "schema": "schemas/program.schema.json",
+            "program_requirements_policy_schema": "schemas/institutional-policy.schema.json",
             "semester": f"semesters/{version}/programs.json",
             "graduation_requirements": (
                 "graduation-requirements/index.json" if graduation_index else None
             ),
+            "program_requirements_policy": "policies/program-requirements.json",
         },
     }
     if graduation_index:

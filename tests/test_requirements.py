@@ -294,6 +294,46 @@ def test_course_titles_and_version_boilerplate_are_not_manual_requirements() -> 
     assert manual == []
 
 
+def test_language_certificate_recognition_is_preserved_without_blocking_completion() -> None:
+    manual = extract_manual_requirements(
+        [
+            (
+                1,
+                "教育部閩南語語言能力認證中級以上成績可認列核心課程，"
+                "但不能抵免本微學程總學分。",
+            )
+        ]
+    )
+    assert len(manual) == 1
+    assert manual[0]["requirement_type"] == "recognition"
+    assert manual[0]["requirement_context"] == "credit_recognition"
+    assert "不能抵免本微學程總學分" in manual[0]["description"]
+
+
+def test_prior_course_teacher_recognition_is_preserved() -> None:
+    manual = extract_manual_requirements(
+        [
+            (
+                1,
+                "修讀本學程學生其以前修習課程及學分數之抵免，"
+                "由本學程相關課程授課教師認定。",
+            )
+        ]
+    )
+    assert len(manual) == 1
+    assert manual[0]["requirement_type"] == "recognition"
+    assert manual[0]["requirement_context"] == "credit_recognition"
+
+
+def test_retroactive_curriculum_clause_is_preserved() -> None:
+    manual = extract_manual_requirements(
+        [(1, "新規定自113學年度起適用，原已核准修習學生亦得追溯適用之。")]
+    )
+    assert len(manual) == 1
+    assert manual[0]["requirement_type"] == "curriculum_exception"
+    assert manual[0]["requirement_context"] == "program_completion"
+
+
 def test_course_table_fragments_are_not_service_or_report_requirements() -> None:
     manual = extract_manual_requirements(
         [

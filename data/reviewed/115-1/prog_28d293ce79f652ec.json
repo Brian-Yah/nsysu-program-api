@@ -6,7 +6,7 @@
     "pdf_binary_sha256": "2034436a299548c5f25cdc8ba57ca9c56d0dbb9707f515b7badbf2e5dcecec4c",
     "normalized_text_sha256": "06f18f684b59e63ca4198d753cc41e7e3a8174cb059d4491cab50f3a18854915",
     "selected_pdf_academic_version": "112-1",
-    "parser_version": "0.3.0",
+    "parser_version": "0.4.0",
     "course_catalog_sha256": "9a056b36692e3d77b880b90c9f0838261b1f9acee295c8a59aa7b049ed95e14d"
   },
   "course_catalog": [
@@ -528,11 +528,11 @@
         "requirement_id": "requirement_0a67b08530372679",
         "kind": "manual_verification",
         "requirement_type": "recognition",
-        "description": "同名或同質課程認抵",
+        "description": "核心課程原則上以財管系開設課程為主；財管所或企管系（所）開設的同名或同質課程，是否可認抵核心課程須人工確認。",
         "verification_mode": "manual_review",
         "requirement_context": "program_completion",
         "source_page": 1,
-        "source_text": "同名或同質課程認抵",
+        "source_text": "核心課程以財管系所開設課程為主，也可以財管所、企管系（所）同名或同質課程認抵。",
         "validation_status": "source_text_match"
       }
     ],

@@ -59,7 +59,11 @@ function renderQueue() {
   updateProgress();
 }
 
-function sourceText(rule) { return rule.source_text ? `<div class="evidence">p.${esc(rule.source_page)}｜${esc(rule.source_text)}</div>` : ""; }
+function sourceText(rule) {
+  if (!rule.source_text) return "";
+  const location = rule.source_url ? `<a href="${esc(rule.source_url)}" target="_blank" rel="noreferrer">校級規定</a>` : `p.${esc(rule.source_page)}`;
+  return `<div class="evidence">${location}｜${esc(rule.source_text)}</div>`;
+}
 function scopeText(scope={}) {
   if (scope.kind === "program") return "全學程";
   if (scope.kind === "catalog_filter") return (scope.requirement_groups || []).join(" / ") || "課程目錄";
@@ -79,7 +83,8 @@ function renderConflict(conflict) {
 
 function renderRules() {
   const p = state.current.program, r = p.structured_requirements || {}, s = r.completion_summary || {};
-  const reasons = state.queue.programs.find(x => x.program_id === p.program_id)?.reasons || [];
+  const queueItem = state.queue.programs.find(x => x.program_id === p.program_id) || {};
+  const reasons = queueItem.reasons || [], reasonDetails = queueItem.reason_details || [];
   const credit = r.credit_constraints || [], selections = [
     ...(r.entry_selection_constraints || []), ...(r.course_count_constraints || []),
     ...(r.named_group_selection_constraints || []), ...(r.program_course_selection_constraints || [])
@@ -97,6 +102,7 @@ function renderRules() {
       <div class="summary-card"><span>課程數</span><strong>${p.course_catalog?.length || 0}</strong></div>
     </div>
     <div class="chips">${reasons.map(x => `<span class="chip">${esc(labels[x] || x)}</span>`).join("")}</div>
+    ${reasonDetails.length ? `<section class="rule-section"><h3>為什麼需要人工確認</h3>${reasonDetails.map(reason => `<div class="rule"><strong>${esc(reason.title)}</strong>${reason.details?.length ? `<ul>${reason.details.map(detail => `<li>${esc(detail)}</li>`).join("")}</ul>` : ""}${reason.additional_detail_count ? `<div class="evidence">另有 ${n(reason.additional_detail_count)} 項同類證據，請在下方規則區逐筆查看。</div>` : ""}</div>`).join("")}</section>` : ""}
     ${unresolvedConflicts.length ? `<section class="rule-section"><h3>⚠ 官方來源衝突（${unresolvedConflicts.length}）</h3>${unresolvedConflicts.map(renderConflict).join("")}</section>` : ""}
     ${resolvedConflicts.length ? `<section class="rule-section"><h3>已解決的來源差異（${resolvedConflicts.length}）</h3>${resolvedConflicts.map(renderConflict).join("")}</section>` : ""}
     <section class="rule-section"><h3>學分規則（${credit.length}）</h3>${credit.length ? credit.map(x => `<div class="rule"><code>${esc(x.kind)} · ${esc(scopeText(x.scope))}</code><br>最低 ${n(x.minimum_credits)}／最高採計 ${n(x.maximum_counted_credits)}${sourceText(x)}</div>`).join("") : '<div class="rule">無</div>'}</section>

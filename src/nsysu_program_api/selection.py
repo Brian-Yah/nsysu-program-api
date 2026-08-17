@@ -144,7 +144,12 @@ def _unique(values: list[str]) -> list[str]:
 
 
 def _row_entry_ids(row: dict) -> list[str]:
-    return _unique([course["catalog_entry_id"] for course in row.get("courses", [])])
+    return _unique(
+        [
+            course.get("catalog_entry_group_id") or course["catalog_entry_id"]
+            for course in row.get("courses", [])
+        ]
+    )
 
 
 def _row_course_names(row: dict) -> list[str]:
@@ -407,7 +412,9 @@ def build_selection_requirements(
         row_courses = row.get("courses", [])
         entry_groups: dict[str, list[dict]] = {}
         for course in row_courses:
-            entry_groups.setdefault(course["catalog_entry_id"], []).append(course)
+            entry_groups.setdefault(
+                course.get("catalog_entry_group_id") or course["catalog_entry_id"], []
+            ).append(course)
         for entry_courses in entry_groups.values():
             if len(entry_courses) > 1:
                 constraint = _course_selection_constraint(

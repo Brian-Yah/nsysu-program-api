@@ -1,5 +1,5 @@
 {
-  "schema_version": "1.2",
+  "schema_version": "1.3",
   "courses": [],
   "credit_mentions": [
     15,
@@ -829,14 +829,14 @@
         ],
         "manual_requirements": [
           {
-            "requirement_id": "requirement_255faaa9a5a8335b",
+            "requirement_id": "requirement_f066caf999c301b5",
             "kind": "manual_verification",
             "requirement_type": "service_learning",
-            "description": "修習西灣學院服務學習",
+            "description": "西灣學院 探詢建築工藝中的高雄故事 3 向度四、英語授課 外文系 觀光英語 3 大學部、英語授課 西灣學院 台灣政經發展 3 向度三、英語授課 政經系 中國政治經濟發展 3 大學部 西灣學院 人權與現代社會:台灣與中國 3 向度三、英語授課 的路徑 西灣學院 服務學習(三):史蹟導覽 1 服務學習限大二以上修 習 西灣學院 服務學習(三):文化設計與 1 服務學習限大二以上修 社區實作 習 西灣學院 後疫情時代的國際政治 3 大學部、英語授課 政經系 全球化、自由貿易及跨國移民 3 大學部、英語授課 導論 總學分數:至少 15 學分",
             "verification_mode": "manual_review",
             "requirement_context": "program_completion",
             "source_page": 3,
-            "source_text": "修習西灣學院服務學習",
+            "source_text": "西灣學院 探詢建築工藝中的高雄故事 3 向度四、英語授課 外文系 觀光英語 3 大學部、英語授課 西灣學院 台灣政經發展 3 向度三、英語授課 政經系 中國政治經濟發展 3 大學部 西灣學院 人權與現代社會:台灣與中國 3 向度三、英語授課 的路徑 西灣學院 服務學習(三):史蹟導覽 1 服務學習限大二以上修 習 西灣學院 服務學習(三):文化設計與 1 服務學習限大二以上修 社區實作 習 西灣學院 後疫情時代的國際政治 3 大學部、英語授課 政經系 全球化、自由貿易及跨國移民 3 大學部、英語授課 導論 總學分數:至少 15 學分",
             "validation_status": "source_text_match"
           }
         ],
@@ -850,6 +850,9 @@
           "minimum_elective_courses": null,
           "has_conditional_requirements": false,
           "has_manual_requirements": true,
+          "has_completion_manual_requirements": true,
+          "has_certificate_requirements": false,
+          "has_credit_recognition_requirements": false,
           "has_unresolved_conflicts": false
         }
       },
@@ -1820,25 +1823,36 @@
         ],
         "manual_requirements": [
           {
-            "requirement_id": "requirement_78e4bcce1f020df1",
+            "requirement_id": "requirement_e1c7163af899316d",
             "kind": "manual_verification",
             "requirement_type": "service_learning",
-            "description": "修習的生態對話西灣學院服務學習",
+            "description": "三、海洋與自然生態課群 中文系 海洋文化民俗誌 2 大學部 西灣學院 海洋永續:海洋文學與海洋科學 2 向度六限大二以上修習 的生態對話 西灣學院 服務學習(三):提升臺灣海洋 1 服務學習限大二以上修習 能見度 5",
             "verification_mode": "manual_review",
             "requirement_context": "program_completion",
             "source_page": 5,
-            "source_text": "修習的生態對話西灣學院服務學習",
+            "source_text": "三、海洋與自然生態課群 中文系 海洋文化民俗誌 2 大學部 西灣學院 海洋永續:海洋文學與海洋科學 2 向度六限大二以上修習 的生態對話 西灣學院 服務學習(三):提升臺灣海洋 1 服務學習限大二以上修習 能見度 5",
             "validation_status": "source_text_match"
           },
           {
-            "requirement_id": "requirement_255faaa9a5a8335b",
+            "requirement_id": "requirement_78930524f4afc456",
             "kind": "manual_verification",
             "requirement_type": "service_learning",
-            "description": "修習西灣學院服務學習",
+            "description": "四、區域與全球課群 西灣學院 日本社會與文化 2 向度三限大二以上修習 西灣學院 台日文化比較研究 3 大學部 西灣學院 現代日本社會與宗教 3 向度三限大二以上修習 社會系 東南亞歷史與文化 3 大學部、英語授課 西灣學院 東方哲學思想 3 向度二限大二以上修習 西灣學院 在地空間美學之探討 2 向度一限大二以上修習 西灣學院 探詢建築工藝中的高雄故事 3 向度四限大二以上修習、英 語授課 外文系 觀光英語 3 大學部、英語授課 政經系 中國政治經濟發展 3 大學部 西灣學院 服務學習(三):史蹟導覽 1 服務學習限大二以上修習 西灣學院 服務學習(三):文化設計與社 1 服務學習限大二以上修習 區實作 政經系 全球化、自由貿易及跨國移民導 3 大學部、英語授課 論 西灣學院 服務學習(三):國際志工服務 1 服務學習限大二以上修習 課程 亞太所 亞太區域經濟 3 研究所 總學分數:至少 15 學分",
             "verification_mode": "manual_review",
             "requirement_context": "program_completion",
             "source_page": 6,
-            "source_text": "修習西灣學院服務學習",
+            "source_text": "四、區域與全球課群 西灣學院 日本社會與文化 2 向度三限大二以上修習 西灣學院 台日文化比較研究 3 大學部 西灣學院 現代日本社會與宗教 3 向度三限大二以上修習 社會系 東南亞歷史與文化 3 大學部、英語授課 西灣學院 東方哲學思想 3 向度二限大二以上修習 西灣學院 在地空間美學之探討 2 向度一限大二以上修習 西灣學院 探詢建築工藝中的高雄故事 3 向度四限大二以上修習、英 語授課 外文系 觀光英語 3 大學部、英語授課 政經系 中國政治經濟發展 3 大學部 西灣學院 服務學習(三):史蹟導覽 1 服務學習限大二以上修習 西灣學院 服務學習(三):文化設計與社 1 服務學習限大二以上修習 區實作 政經系 全球化、自由貿易及跨國移民導 3 大學部、英語授課 論 西灣學院 服務學習(三):國際志工服務 1 服務學習限大二以上修習 課程 亞太所 亞太區域經濟 3 研究所 總學分數:至少 15 學分",
+            "validation_status": "source_text_match"
+          },
+          {
+            "requirement_id": "requirement_ee2c27824014c8e8",
+            "kind": "manual_verification",
+            "requirement_type": "service_learning",
+            "description": "西灣學院 服務學習(三):海洋資源實務 1 服務學習限大二以上修習 應用 海資系 海洋生物多樣性導論 2 大學部 西灣學院 海權與海洋事務 2 向度四限大二以上修習 西灣學院 海洋生態與海洋科技教育探索 2 向度六限大二以上修習 西灣學院 氣候變遷與調適 3 向度六限大二以上修習 西灣學院 服務學習(三):臺灣獼猴生態 1 服務學習限大二以上修習 宣導 西灣學院 本地植物學 2 向度五限大二以上修習",
+            "verification_mode": "manual_review",
+            "requirement_context": "program_completion",
+            "source_page": 6,
+            "source_text": "西灣學院 服務學習(三):海洋資源實務 1 服務學習限大二以上修習 應用 海資系 海洋生物多樣性導論 2 大學部 西灣學院 海權與海洋事務 2 向度四限大二以上修習 西灣學院 海洋生態與海洋科技教育探索 2 向度六限大二以上修習 西灣學院 氣候變遷與調適 3 向度六限大二以上修習 西灣學院 服務學習(三):臺灣獼猴生態 1 服務學習限大二以上修習 宣導 西灣學院 本地植物學 2 向度五限大二以上修習",
             "validation_status": "source_text_match"
           }
         ],
@@ -1852,6 +1866,9 @@
           "minimum_elective_courses": null,
           "has_conditional_requirements": false,
           "has_manual_requirements": true,
+          "has_completion_manual_requirements": true,
+          "has_certificate_requirements": false,
+          "has_credit_recognition_requirements": false,
           "has_unresolved_conflicts": false
         }
       },
@@ -2765,25 +2782,25 @@
         ],
         "manual_requirements": [
           {
-            "requirement_id": "requirement_b85d745ae2c4549f",
+            "requirement_id": "requirement_abda3f30a248ea93",
             "kind": "manual_verification",
             "requirement_type": "service_learning",
-            "description": "修習學的生態對話西灣學院服務學習",
+            "description": "三、海洋與自然生態課群 中文系 海洋文化民俗誌 2 大學部 西灣學院 海洋永續:海洋文學與海洋科 2 向度六限大二以上修習 學的生態對話 西灣學院 服務學習(三):提升臺灣海 1 服務學習限大二以上修習 洋能見度 西灣學院 服務學習(三):海洋資源實 1 服務學習限大二以上修習 務應用 海資系 海洋生物多樣性導論 2 大學部 西灣學院 海權與海洋事務 2 向度四限大二以上修習 西灣學院 海洋生態與海洋科技教育探索 2 向度六限大二以上修習 西灣學院 氣候變遷與調適 3 向度六限大二以上修習 西灣學院 服務學習(三):臺灣獼猴生 1 服務學習限大二以上修習 態宣導 西灣學院 本地植物學 2 向度五限大二以上修習",
             "verification_mode": "manual_review",
             "requirement_context": "program_completion",
             "source_page": 8,
-            "source_text": "修習學的生態對話西灣學院服務學習",
+            "source_text": "三、海洋與自然生態課群 中文系 海洋文化民俗誌 2 大學部 西灣學院 海洋永續:海洋文學與海洋科 2 向度六限大二以上修習 學的生態對話 西灣學院 服務學習(三):提升臺灣海 1 服務學習限大二以上修習 洋能見度 西灣學院 服務學習(三):海洋資源實 1 服務學習限大二以上修習 務應用 海資系 海洋生物多樣性導論 2 大學部 西灣學院 海權與海洋事務 2 向度四限大二以上修習 西灣學院 海洋生態與海洋科技教育探索 2 向度六限大二以上修習 西灣學院 氣候變遷與調適 3 向度六限大二以上修習 西灣學院 服務學習(三):臺灣獼猴生 1 服務學習限大二以上修習 態宣導 西灣學院 本地植物學 2 向度五限大二以上修習",
             "validation_status": "source_text_match"
           },
           {
-            "requirement_id": "requirement_255faaa9a5a8335b",
+            "requirement_id": "requirement_12ff99a746c725d8",
             "kind": "manual_verification",
             "requirement_type": "service_learning",
-            "description": "修習西灣學院服務學習",
+            "description": "西灣學院 日本社會與文化 2 向度三限大二以上修習 西灣學院 台日文化比較研究 3 大學部 西灣學院 現代日本社會與宗教 3 向度三限大二以上修習 社會系 東南亞歷史與文化 3 大學部、英語授課 西灣學院 東方哲學思想 3 向度二限大二以上修習 西灣學院 在地空間美學之探討 2 向度一限大二以上修習 西灣學院 探詢建築工藝中的高雄故事 3 向度四限大二以上修習、英 語授課 外文系 觀光英語 3 大學部、英語授課 政經系 中國政治經濟發展 3 大學部 西灣學院 服務學習(三):史蹟導覽 1 服務學習限大二以上修習 西灣學院 服務學習(三):文化設計與 1 服務學習限大二以上修習 社區實作 政經系 全球化、自由貿易及跨國移民 3 大學部、英語授課 導論 西灣學院 服務學習(三):國際志工服 1 服務學習限大二以上修習 務課程 亞太所 亞太區域經濟 3 研究所 總學分數:至少 15 學分",
             "verification_mode": "manual_review",
             "requirement_context": "program_completion",
             "source_page": 9,
-            "source_text": "修習西灣學院服務學習",
+            "source_text": "西灣學院 日本社會與文化 2 向度三限大二以上修習 西灣學院 台日文化比較研究 3 大學部 西灣學院 現代日本社會與宗教 3 向度三限大二以上修習 社會系 東南亞歷史與文化 3 大學部、英語授課 西灣學院 東方哲學思想 3 向度二限大二以上修習 西灣學院 在地空間美學之探討 2 向度一限大二以上修習 西灣學院 探詢建築工藝中的高雄故事 3 向度四限大二以上修習、英 語授課 外文系 觀光英語 3 大學部、英語授課 政經系 中國政治經濟發展 3 大學部 西灣學院 服務學習(三):史蹟導覽 1 服務學習限大二以上修習 西灣學院 服務學習(三):文化設計與 1 服務學習限大二以上修習 社區實作 政經系 全球化、自由貿易及跨國移民 3 大學部、英語授課 導論 西灣學院 服務學習(三):國際志工服 1 服務學習限大二以上修習 務課程 亞太所 亞太區域經濟 3 研究所 總學分數:至少 15 學分",
             "validation_status": "source_text_match"
           }
         ],
@@ -2797,6 +2814,9 @@
           "minimum_elective_courses": null,
           "has_conditional_requirements": false,
           "has_manual_requirements": true,
+          "has_completion_manual_requirements": true,
+          "has_certificate_requirements": false,
+          "has_credit_recognition_requirements": false,
           "has_unresolved_conflicts": false
         }
       },
@@ -3710,25 +3730,25 @@
         ],
         "manual_requirements": [
           {
-            "requirement_id": "requirement_78e4bcce1f020df1",
+            "requirement_id": "requirement_607568672da9cab9",
             "kind": "manual_verification",
             "requirement_type": "service_learning",
-            "description": "修習的生態對話西灣學院服務學習",
+            "description": "三、海洋與自然生態課群 西灣學院 海洋文化 3 向度三限大二以上修習 中文系 海洋文化民俗誌 2 大學部 西灣學院 海洋永續:海洋文學與海洋科學 2 向度六限大二以上修習 的生態對話 西灣學院 服務學習(三):提升臺灣海洋 1 服務學習限大二以上修習 能見度 西灣學院 服務學習(三):海洋資源實務 1 服務學習限大二以上修習 應用 海資系 海洋生物多樣性導論 2 大學部 西灣學院 海權與海洋事務 2 向度四限大二以上修習 西灣學院 海洋生態與海洋科技教育探索 2 向度六限大二以上修習 西灣學院 氣候變遷與調適 3 向度六限大二以上修習 西灣學院 服務學習(三):臺灣獼猴生態 1 服務學習限大二以上修習 宣導 西灣學院 本地植物學 2 向度五限大二以上修習",
             "verification_mode": "manual_review",
             "requirement_context": "program_completion",
             "source_page": 11,
-            "source_text": "修習的生態對話西灣學院服務學習",
+            "source_text": "三、海洋與自然生態課群 西灣學院 海洋文化 3 向度三限大二以上修習 中文系 海洋文化民俗誌 2 大學部 西灣學院 海洋永續:海洋文學與海洋科學 2 向度六限大二以上修習 的生態對話 西灣學院 服務學習(三):提升臺灣海洋 1 服務學習限大二以上修習 能見度 西灣學院 服務學習(三):海洋資源實務 1 服務學習限大二以上修習 應用 海資系 海洋生物多樣性導論 2 大學部 西灣學院 海權與海洋事務 2 向度四限大二以上修習 西灣學院 海洋生態與海洋科技教育探索 2 向度六限大二以上修習 西灣學院 氣候變遷與調適 3 向度六限大二以上修習 西灣學院 服務學習(三):臺灣獼猴生態 1 服務學習限大二以上修習 宣導 西灣學院 本地植物學 2 向度五限大二以上修習",
             "validation_status": "source_text_match"
           },
           {
-            "requirement_id": "requirement_255faaa9a5a8335b",
+            "requirement_id": "requirement_3e392d102481e2b9",
             "kind": "manual_verification",
             "requirement_type": "service_learning",
-            "description": "修習西灣學院服務學習",
+            "description": "西灣學院 現代日本社會與宗教 3 向度三限大二以上修習 社會系 東南亞歷史與文化 3 大學部、英語授課 西灣學院 東方哲學思想(一) 2 向度二限大二以上修習 西灣學院 在地空間美學之探討 2 向度一限大二以上修習 社會系 南臺灣研究 3 大學部 西灣學院 探詢建築工藝中的高雄故事 3 向度四限大二以上修習、英 語授課 外文系 觀光英語 3 大學部、英語授課 政經系 中國政治經濟發展 3 大學部 西灣學院 服務學習(三):史蹟導覽 1 服務學習限大二以上修習 西灣學院 服務學習(三):文化設計與社 1 服務學習限大二以上修習 區實作 政經系 全球化、自由貿易及跨國移民導 3 大學部、英語授課 論 西灣學院 服務學習(三):國際志工服務 1 服務學習限大二以上修習 課程 亞太所 亞太區域經濟 3 研究所 總學分數:至少 15 學分",
             "verification_mode": "manual_review",
             "requirement_context": "program_completion",
             "source_page": 12,
-            "source_text": "修習西灣學院服務學習",
+            "source_text": "西灣學院 現代日本社會與宗教 3 向度三限大二以上修習 社會系 東南亞歷史與文化 3 大學部、英語授課 西灣學院 東方哲學思想(一) 2 向度二限大二以上修習 西灣學院 在地空間美學之探討 2 向度一限大二以上修習 社會系 南臺灣研究 3 大學部 西灣學院 探詢建築工藝中的高雄故事 3 向度四限大二以上修習、英 語授課 外文系 觀光英語 3 大學部、英語授課 政經系 中國政治經濟發展 3 大學部 西灣學院 服務學習(三):史蹟導覽 1 服務學習限大二以上修習 西灣學院 服務學習(三):文化設計與社 1 服務學習限大二以上修習 區實作 政經系 全球化、自由貿易及跨國移民導 3 大學部、英語授課 論 西灣學院 服務學習(三):國際志工服務 1 服務學習限大二以上修習 課程 亞太所 亞太區域經濟 3 研究所 總學分數:至少 15 學分",
             "validation_status": "source_text_match"
           }
         ],
@@ -3742,6 +3762,9 @@
           "minimum_elective_courses": null,
           "has_conditional_requirements": false,
           "has_manual_requirements": true,
+          "has_completion_manual_requirements": true,
+          "has_certificate_requirements": false,
+          "has_credit_recognition_requirements": false,
           "has_unresolved_conflicts": false
         }
       },
@@ -5111,14 +5134,14 @@
         ],
         "manual_requirements": [
           {
-            "requirement_id": "requirement_78e4bcce1f020df1",
+            "requirement_id": "requirement_6471c4dd72c40a11",
             "kind": "manual_verification",
             "requirement_type": "service_learning",
-            "description": "修習的生態對話西灣學院服務學習",
+            "description": "三、海洋與自然生態課群 西灣學院 海洋文化 3 向度三限大二以上修習 中文系 海洋文化民俗誌 2 大學部 西灣學院 海洋永續:海洋文學與海洋科學 2 向度六限大二以上修習 的生態對話 西灣學院 服務學習(三):提升臺灣海洋 1 服務學習限大二以上修習 能見度 西灣學院 服務學習(三):海洋資源實務 1 服務學習限大二以上修習 應用 海資系 海洋生物多樣性導論 2 大學部 西灣學院 海權與海洋事務 2 向度四限大二以上修習 西灣學院 海洋生態與海洋科技教育探索 2 向度六限大二以上修習 西灣學院 氣候變遷與調適 2 向度六限大二以上修習 西灣學院 服務學習(三):臺灣獼猴生態 1 服務學習限大二以上修習 宣導 西灣學院 本地植物學 2 向度五限大二以上修習",
             "verification_mode": "manual_review",
             "requirement_context": "program_completion",
             "source_page": 14,
-            "source_text": "修習的生態對話西灣學院服務學習",
+            "source_text": "三、海洋與自然生態課群 西灣學院 海洋文化 3 向度三限大二以上修習 中文系 海洋文化民俗誌 2 大學部 西灣學院 海洋永續:海洋文學與海洋科學 2 向度六限大二以上修習 的生態對話 西灣學院 服務學習(三):提升臺灣海洋 1 服務學習限大二以上修習 能見度 西灣學院 服務學習(三):海洋資源實務 1 服務學習限大二以上修習 應用 海資系 海洋生物多樣性導論 2 大學部 西灣學院 海權與海洋事務 2 向度四限大二以上修習 西灣學院 海洋生態與海洋科技教育探索 2 向度六限大二以上修習 西灣學院 氣候變遷與調適 2 向度六限大二以上修習 西灣學院 服務學習(三):臺灣獼猴生態 1 服務學習限大二以上修習 宣導 西灣學院 本地植物學 2 向度五限大二以上修習",
             "validation_status": "source_text_match"
           }
         ],
@@ -5132,6 +5155,9 @@
           "minimum_elective_courses": null,
           "has_conditional_requirements": false,
           "has_manual_requirements": true,
+          "has_completion_manual_requirements": true,
+          "has_certificate_requirements": false,
+          "has_credit_recognition_requirements": false,
           "has_unresolved_conflicts": false
         }
       },
@@ -5950,14 +5976,14 @@
     ],
     "manual_requirements": [
       {
-        "requirement_id": "requirement_255faaa9a5a8335b",
+        "requirement_id": "requirement_f066caf999c301b5",
         "kind": "manual_verification",
         "requirement_type": "service_learning",
-        "description": "修習西灣學院服務學習",
+        "description": "西灣學院 探詢建築工藝中的高雄故事 3 向度四、英語授課 外文系 觀光英語 3 大學部、英語授課 西灣學院 台灣政經發展 3 向度三、英語授課 政經系 中國政治經濟發展 3 大學部 西灣學院 人權與現代社會:台灣與中國 3 向度三、英語授課 的路徑 西灣學院 服務學習(三):史蹟導覽 1 服務學習限大二以上修 習 西灣學院 服務學習(三):文化設計與 1 服務學習限大二以上修 社區實作 習 西灣學院 後疫情時代的國際政治 3 大學部、英語授課 政經系 全球化、自由貿易及跨國移民 3 大學部、英語授課 導論 總學分數:至少 15 學分",
         "verification_mode": "manual_review",
         "requirement_context": "program_completion",
         "source_page": 3,
-        "source_text": "修習西灣學院服務學習",
+        "source_text": "西灣學院 探詢建築工藝中的高雄故事 3 向度四、英語授課 外文系 觀光英語 3 大學部、英語授課 西灣學院 台灣政經發展 3 向度三、英語授課 政經系 中國政治經濟發展 3 大學部 西灣學院 人權與現代社會:台灣與中國 3 向度三、英語授課 的路徑 西灣學院 服務學習(三):史蹟導覽 1 服務學習限大二以上修 習 西灣學院 服務學習(三):文化設計與 1 服務學習限大二以上修 社區實作 習 西灣學院 後疫情時代的國際政治 3 大學部、英語授課 政經系 全球化、自由貿易及跨國移民 3 大學部、英語授課 導論 總學分數:至少 15 學分",
         "validation_status": "source_text_match"
       }
     ],
@@ -5971,6 +5997,9 @@
       "minimum_elective_courses": null,
       "has_conditional_requirements": false,
       "has_manual_requirements": true,
+      "has_completion_manual_requirements": true,
+      "has_certificate_requirements": false,
+      "has_credit_recognition_requirements": false,
       "has_unresolved_conflicts": false
     }
   }

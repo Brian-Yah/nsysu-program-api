@@ -1,0 +1,71 @@
+{
+  "$schema": "https://json-schema.org/draft/2020-12/schema",
+  "$id": "https://brian-yah.github.io/nsysu-program-api/api/v1/schemas/institutional-policy.schema.json",
+  "title": "NSYSU Institutional Program Policy",
+  "type": "object",
+  "additionalProperties": false,
+  "required": ["schema_version", "policy_id", "name_zh", "effective_academic_version", "source", "program_type_rules", "administrative_rules"],
+  "properties": {
+    "schema_version": {"const": "1.0"},
+    "policy_id": {"type": "string", "minLength": 1},
+    "name_zh": {"type": "string", "minLength": 1},
+    "effective_academic_version": {"type": "string", "pattern": "^[0-9]{3}-(?:1|2|S)$"},
+    "source": {
+      "type": "object",
+      "additionalProperties": false,
+      "required": ["kind", "url", "retrieved_at", "binary_sha256"],
+      "properties": {
+        "kind": {"const": "institutional_catalog"},
+        "url": {"type": "string", "format": "uri"},
+        "retrieved_at": {"type": "string", "format": "date-time"},
+        "binary_sha256": {"type": "string", "pattern": "^[a-f0-9]{64}$"}
+      }
+    },
+    "program_type_rules": {
+      "type": "object",
+      "required": ["integrated_program", "department_professional_program", "micro_program"],
+      "additionalProperties": false,
+      "properties": {
+        "integrated_program": {"$ref": "#/$defs/typeRules"},
+        "department_professional_program": {"$ref": "#/$defs/typeRules"},
+        "micro_program": {"$ref": "#/$defs/typeRules"}
+      }
+    },
+    "administrative_rules": {
+      "type": "array",
+      "minItems": 1,
+      "items": {
+        "type": "object",
+        "additionalProperties": false,
+        "required": ["rule_id", "requirement_context", "description"],
+        "properties": {
+          "rule_id": {"type": "string", "minLength": 1},
+          "requirement_context": {"enum": ["certificate", "credit_recognition", "program_application"]},
+          "description": {"type": "string", "minLength": 10}
+        }
+      }
+    }
+  },
+  "$defs": {
+    "typeRules": {
+      "type": "array",
+      "minItems": 1,
+      "items": {
+        "type": "object",
+        "required": ["rule_id", "kind", "scope", "source_text"],
+        "properties": {
+          "rule_id": {"type": "string", "minLength": 1},
+          "kind": {"enum": ["minimum_credits", "maximum_counted_credits"]},
+          "scope": {"type": "object", "required": ["kind"]},
+          "minimum_credits": {"type": "number", "minimum": 0},
+          "maximum_counted_credits": {"type": "number", "minimum": 0},
+          "source_text": {"type": "string", "minLength": 1}
+        },
+        "allOf": [
+          {"if": {"properties": {"kind": {"const": "minimum_credits"}}}, "then": {"required": ["minimum_credits"]}},
+          {"if": {"properties": {"kind": {"const": "maximum_counted_credits"}}}, "then": {"required": ["maximum_counted_credits"]}}
+        ]
+      }
+    }
+  }
+}

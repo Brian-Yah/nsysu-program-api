@@ -1,5 +1,5 @@
 {
-  "schema_version": "1.2",
+  "schema_version": "1.3",
   "courses": [],
   "credit_mentions": [
     4,
@@ -394,6 +394,9 @@
           "minimum_elective_courses": null,
           "has_conditional_requirements": false,
           "has_manual_requirements": false,
+          "has_completion_manual_requirements": false,
+          "has_certificate_requirements": false,
+          "has_credit_recognition_requirements": false,
           "has_unresolved_conflicts": false
         }
       },
@@ -750,14 +753,14 @@
         ],
         "manual_requirements": [
           {
-            "requirement_id": "requirement_47d2779a3f3c4b32",
+            "requirement_id": "requirement_00cce77dce0b39d1",
             "kind": "manual_verification",
             "requirement_type": "prerequisite",
-            "description": "先修畢核心課程",
+            "description": "需先修畢核心課程 I和 II,方可修習總結性課 程) 海科院 環境教育實踐推廣 2 海科院 環境教育實踐推廣專題 2 核心課程〈專業模組課程〉學分數: 5 學分 選 修 博雅向度六 環境變遷與生態保育 2 博雅向度六 氣候變遷與調適 2 博雅向度六 海洋生態與海洋科技教育探索 2 博雅向度五 生物多樣性的世界 2 符合環保署採計課程421200 用影像說故事:探索科技、社會與 博雅向度四 2 環境 依各系所及 至多 微學分課程 西灣學院 2學分 總學分數:至少 9 學分",
             "verification_mode": "manual_review",
             "requirement_context": "program_completion",
             "source_page": 2,
-            "source_text": "先修畢核心課程",
+            "source_text": "需先修畢核心課程 I和 II,方可修習總結性課 程) 海科院 環境教育實踐推廣 2 海科院 環境教育實踐推廣專題 2 核心課程〈專業模組課程〉學分數: 5 學分 選 修 博雅向度六 環境變遷與生態保育 2 博雅向度六 氣候變遷與調適 2 博雅向度六 海洋生態與海洋科技教育探索 2 博雅向度五 生物多樣性的世界 2 符合環保署採計課程421200 用影像說故事:探索科技、社會與 博雅向度四 2 環境 依各系所及 至多 微學分課程 西灣學院 2學分 總學分數:至少 9 學分",
             "validation_status": "source_text_match"
           }
         ],
@@ -846,6 +849,9 @@
           "minimum_elective_courses": null,
           "has_conditional_requirements": false,
           "has_manual_requirements": true,
+          "has_completion_manual_requirements": true,
+          "has_certificate_requirements": false,
+          "has_credit_recognition_requirements": false,
           "has_unresolved_conflicts": false
         }
       },
@@ -1184,14 +1190,14 @@
         ],
         "manual_requirements": [
           {
-            "requirement_id": "requirement_47d2779a3f3c4b32",
+            "requirement_id": "requirement_5b917506691efabc",
             "kind": "manual_verification",
             "requirement_type": "prerequisite",
-            "description": "先修畢核心課程",
+            "description": "需先修畢核心課程 I和 II,方可修習總結性課 程) 海科院 環境教育實踐推廣 2 海科院 環境教育實踐推廣專題 2 核心課程〈專業模組課程〉學分數: 5 學分 選 修 博雅向度六 環境變遷與生態保育 2 博雅向度六 氣候變遷與調適 2 博雅向度六 海洋生態與海洋科技教育探索 2 博雅向度五 生物多樣性的世界 2 符合環保署採計課程421200 用影像說故事:探索科技、社會與 博雅向度四 2 環境 依各系所及 至多 2 微學分課程 西灣學院 學分 總學分數:至少 9 學分",
             "verification_mode": "manual_review",
             "requirement_context": "program_completion",
             "source_page": 3,
-            "source_text": "先修畢核心課程",
+            "source_text": "需先修畢核心課程 I和 II,方可修習總結性課 程) 海科院 環境教育實踐推廣 2 海科院 環境教育實踐推廣專題 2 核心課程〈專業模組課程〉學分數: 5 學分 選 修 博雅向度六 環境變遷與生態保育 2 博雅向度六 氣候變遷與調適 2 博雅向度六 海洋生態與海洋科技教育探索 2 博雅向度五 生物多樣性的世界 2 符合環保署採計課程421200 用影像說故事:探索科技、社會與 博雅向度四 2 環境 依各系所及 至多 2 微學分課程 西灣學院 學分 總學分數:至少 9 學分",
             "validation_status": "source_text_match"
           }
         ],
@@ -1278,6 +1284,9 @@
           "minimum_elective_courses": null,
           "has_conditional_requirements": false,
           "has_manual_requirements": true,
+          "has_completion_manual_requirements": true,
+          "has_certificate_requirements": false,
+          "has_credit_recognition_requirements": false,
           "has_unresolved_conflicts": false
         }
       },
@@ -1582,14 +1591,14 @@
         ],
         "manual_requirements": [
           {
-            "requirement_id": "requirement_47d2779a3f3c4b32",
+            "requirement_id": "requirement_cb60ef2ad0538124",
             "kind": "manual_verification",
             "requirement_type": "prerequisite",
-            "description": "先修畢核心課程",
+            "description": "需先修畢核心課程 I和 II,方可修習總結性 課程) 海科院 環境教育實踐推廣 2 海科院 環境教育實踐推廣專題 2 核心課程〈專業模組課程〉學分數: 5 學分 選 修 博雅向度六 環境變遷與生態保育 2 博雅向度六 氣候變遷與調適 2 博雅向度六 海洋生態與海洋科技教育探索 2 符合環保署採計課程 博雅向度五 生物多樣性的世界 2 421200 用影像說故事:探索科技、社會與 博雅向度四 2 環境 總學分數:至少 9 學分",
             "verification_mode": "manual_review",
             "requirement_context": "program_completion",
             "source_page": 4,
-            "source_text": "先修畢核心課程",
+            "source_text": "需先修畢核心課程 I和 II,方可修習總結性 課程) 海科院 環境教育實踐推廣 2 海科院 環境教育實踐推廣專題 2 核心課程〈專業模組課程〉學分數: 5 學分 選 修 博雅向度六 環境變遷與生態保育 2 博雅向度六 氣候變遷與調適 2 博雅向度六 海洋生態與海洋科技教育探索 2 符合環保署採計課程 博雅向度五 生物多樣性的世界 2 421200 用影像說故事:探索科技、社會與 博雅向度四 2 環境 總學分數:至少 9 學分",
             "validation_status": "source_text_match"
           }
         ],
@@ -1676,6 +1685,9 @@
           "minimum_elective_courses": null,
           "has_conditional_requirements": false,
           "has_manual_requirements": true,
+          "has_completion_manual_requirements": true,
+          "has_certificate_requirements": false,
+          "has_credit_recognition_requirements": false,
           "has_unresolved_conflicts": false
         }
       },
@@ -2060,6 +2072,9 @@
       "minimum_elective_courses": null,
       "has_conditional_requirements": false,
       "has_manual_requirements": false,
+      "has_completion_manual_requirements": false,
+      "has_certificate_requirements": false,
+      "has_credit_recognition_requirements": false,
       "has_unresolved_conflicts": false
     }
   }

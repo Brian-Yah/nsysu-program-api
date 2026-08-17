@@ -23,7 +23,7 @@
       "last_modified": "Tue, 23 Dec 2025 06:55:22 GMT",
       "content_length": 239765
     },
-    "parser_version": "0.3.0",
+    "parser_version": "0.4.0",
     "extractor_versions": {
       "pypdf": "6.10.0",
       "pdfplumber": "0.11.9"
@@ -173,6 +173,7 @@
     {
       "course_code": null,
       "catalog_entry_id": "entry_8674670521d2d10c",
+      "catalog_entry_group_id": "entry_8674670521d2d10c",
       "opening_units": [
         "劇藝系"
       ],
@@ -191,7 +192,8 @@
     },
     {
       "course_code": null,
-      "catalog_entry_id": "entry_8674670521d2d10c",
+      "catalog_entry_id": "entry_8674670521d2d10c_2",
+      "catalog_entry_group_id": "entry_8674670521d2d10c",
       "opening_units": [
         "劇藝系"
       ],
@@ -210,7 +212,8 @@
     },
     {
       "course_code": null,
-      "catalog_entry_id": "entry_8674670521d2d10c",
+      "catalog_entry_id": "entry_8674670521d2d10c_3",
+      "catalog_entry_group_id": "entry_8674670521d2d10c",
       "opening_units": [
         "劇藝系"
       ],
@@ -546,6 +549,9 @@
       "minimum_elective_courses": null,
       "has_conditional_requirements": false,
       "has_manual_requirements": false,
+      "has_completion_manual_requirements": false,
+      "has_certificate_requirements": false,
+      "has_credit_recognition_requirements": false,
       "has_unresolved_conflicts": false
     }
   },
@@ -555,5 +561,9 @@
     "review_note": "注意課程名稱空格 e.g.戲劇構 作實踐:古典",
     "correction_status": "rechecked",
     "override_path": "data/reviewed/115-1/prog_e902d3dcf603529c.json"
-  }
+  },
+  "institutional_policy_ids": [
+    "nsysu_program_policy_2026_08_16"
+  ],
+  "institutional_policy_applied_rule_ids": []
 }

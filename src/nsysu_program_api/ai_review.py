@@ -100,6 +100,95 @@ def simple_logic_disqualifiers(program: dict) -> list[str]:
     return sorted(set(reasons))
 
 
+REASON_TITLES = {
+    "not_active": "學程不是啟用狀態",
+    "parser_warning": "PDF 解析仍有警告",
+    "empty_course_catalog": "未擷取到課程",
+    "missing_total_minimum": "缺少總學分下限",
+    "entry_selection_constraints": "有任選／至少選課規則",
+    "course_count_constraints": "有同名、等價或課程門數限制",
+    "program_course_selection_constraints": "有學程科目層級選擇規則",
+    "named_group_selection_constraints": "有命名群組選擇規則",
+    "no_double_count_constraints": "有不得重複採計規則",
+    "manual_requirements": "有需依學生情況或外部證明判斷的條件",
+    "source_conflicts": "官方文件內有尚未解決的數量衝突",
+    "non_standard_credit_constraint": "有上限、特定範圍或條件式學分規則",
+    "unclassified_course": "仍有課程無法歸入核心或選修",
+    "special_rule_text_in_course_note": "課程備註含任選、上限或互斥文字",
+    "human_review_override": "本筆已套用人工修正版，仍需覆核修正內容",
+    "maximum_core_credits": "有核心學分上限",
+    "minimum_core_courses": "有核心最低門數",
+    "minimum_elective_courses": "有選修最低門數",
+}
+
+
+def review_reason_details(program: dict, reasons: list[str] | None = None) -> list[dict]:
+    """Return concrete, reviewer-facing explanations instead of opaque codes."""
+    reasons = reasons or simple_logic_disqualifiers(program)
+    requirements = program.get("structured_requirements", {})
+    details = []
+    collections = {
+        "entry_selection_constraints": "entry_selection_constraints",
+        "course_count_constraints": "course_count_constraints",
+        "program_course_selection_constraints": "program_course_selection_constraints",
+        "named_group_selection_constraints": "named_group_selection_constraints",
+        "no_double_count_constraints": "no_double_count_constraints",
+    }
+    for reason in reasons:
+        evidence: list[str] = []
+        if reason in collections:
+            for item in requirements.get(collections[reason], []):
+                source = re.sub(r"\s+", " ", item.get("source_text", "")).strip()
+                if source:
+                    evidence.append(source)
+        elif reason == "manual_requirements":
+            for item in requirements.get("manual_requirements", []):
+                context = item.get("requirement_context", "program_completion")
+                description = re.sub(r"\s+", " ", item.get("description", "")).strip()
+                if description:
+                    evidence.append(f"[{context}] {description}")
+        elif reason == "source_conflicts":
+            for conflict in requirements.get("source_conflicts", []):
+                if conflict.get("resolution_status") != "resolved":
+                    values = ", ".join(
+                        str(candidate.get("value"))
+                        for candidate in conflict.get("candidates", [])
+                    )
+                    evidence.append(f"{conflict.get('semantic_key')}: 候選值 {values}")
+        elif reason == "non_standard_credit_constraint":
+            for item in requirements.get("credit_constraints", []):
+                if not _is_simple_credit_constraint(item):
+                    source = re.sub(r"\s+", " ", item.get("source_text", "")).strip()
+                    if source:
+                        evidence.append(source)
+        elif reason == "special_rule_text_in_course_note":
+            evidence.extend(
+                re.sub(r"\s+", " ", course.get("notes", "")).strip()
+                for course in program.get("course_catalog", [])
+                if SPECIAL_NOTE_PATTERN.search(course.get("notes") or "")
+            )
+        elif reason == "parser_warning":
+            evidence.extend(str(value) for value in program.get("warnings", []))
+        elif reason == "unclassified_course":
+            names = [
+                course.get("course_name_snapshot", "")
+                for course in program.get("course_catalog", [])
+                if course.get("requirement_group") not in {"core", "elective"}
+            ]
+            if names:
+                evidence.append(f"{len(names)} 門：" + "、".join(names[:8]))
+        unique_evidence = list(dict.fromkeys(value for value in evidence if value))
+        details.append(
+            {
+                "code": reason,
+                "title": REASON_TITLES.get(reason, reason),
+                "details": unique_evidence[:8],
+                "additional_detail_count": max(0, len(unique_evidence) - 8),
+            }
+        )
+    return details
+
+
 def simple_logic_candidate_ids(programs: list[dict]) -> list[str]:
     return sorted(
         program["program_id"]

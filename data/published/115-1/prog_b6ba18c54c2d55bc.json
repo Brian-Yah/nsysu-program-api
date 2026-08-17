@@ -23,7 +23,7 @@
       "last_modified": "Tue, 23 Dec 2025 07:00:52 GMT",
       "content_length": 425077
     },
-    "parser_version": "0.3.0",
+    "parser_version": "0.4.0",
     "extractor_versions": {
       "pypdf": "6.10.0",
       "pdfplumber": "0.11.9"
@@ -1996,6 +1996,50 @@
         "scope": {
           "kind": "course_eligibility",
           "excluded_affiliations": [
+            "home_department"
+          ],
+          "excluded_course_roles": [
+            "all"
+          ],
+          "student_categories": [
+            "general_student"
+          ]
+        },
+        "minimum_credits": 9.0,
+        "requirement_context": "program_completion",
+        "source_page": 6,
+        "source_text": "其中至少9學分須為非屬學生原主修",
+        "validation_status": "source_text_match"
+      },
+      {
+        "constraint_id": "constraint_f120ab82976a82d1",
+        "kind": "minimum_credits",
+        "scope": {
+          "kind": "course_eligibility",
+          "excluded_affiliations": [
+            "home_department",
+            "double_major",
+            "minor"
+          ],
+          "excluded_course_roles": [
+            "all"
+          ],
+          "student_categories": [
+            "double_major_or_minor_student"
+          ]
+        },
+        "minimum_credits": 6.0,
+        "requirement_context": "program_completion",
+        "source_page": 6,
+        "source_text": "若為雙主修或輔系學生，至少6學分不得屬於原主修、雙主修或輔系。",
+        "validation_status": "human_verified"
+      },
+      {
+        "constraint_id": "constraint_8d1998e6605b1f14",
+        "kind": "minimum_credits",
+        "scope": {
+          "kind": "course_eligibility",
+          "excluded_affiliations": [
             "home_department",
             "double_major",
             "minor"
@@ -2004,11 +2048,12 @@
             "all"
           ]
         },
-        "minimum_credits": 9.0,
         "requirement_context": "program_completion",
-        "source_page": 6,
-        "source_text": "其中至少9學分須為非屬學生原主修",
-        "validation_status": "source_text_match"
+        "source_kind": "institutional_catalog",
+        "source_url": "https://ctdr.nsysu.edu.tw/class2.php",
+        "source_text": "至少六學分不得屬於學生本系所、雙主修及輔系課程。",
+        "validation_status": "source_text_match",
+        "minimum_credits": 6
       }
     ],
     "manual_requirements": [
@@ -2131,6 +2176,9 @@
       "minimum_elective_courses": null,
       "has_conditional_requirements": true,
       "has_manual_requirements": true,
+      "has_completion_manual_requirements": true,
+      "has_certificate_requirements": false,
+      "has_credit_recognition_requirements": false,
       "has_unresolved_conflicts": false
     }
   },
@@ -2140,5 +2188,11 @@
     "review_note": "人工判斷條件（2）\nmanual_verification · program_completion\n修畢微積分(3學分)且成績及格者,方得\np.6｜修畢微積分(3學分)且成績及格者,方得才可以申請\nmanual_verification · program_completion\n雙主修或輔系學生,則至少\np.6｜雙主修或輔系學生,則至少6學分為非雙主修或輔系系所之學分",
     "correction_status": "rechecked",
     "override_path": "data/reviewed/115-1/prog_b6ba18c54c2d55bc.json"
-  }
+  },
+  "institutional_policy_ids": [
+    "nsysu_program_policy_2026_08_16"
+  ],
+  "institutional_policy_applied_rule_ids": [
+    "integrated_outside_minimum"
+  ]
 }

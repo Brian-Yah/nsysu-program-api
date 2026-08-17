@@ -24,7 +24,7 @@ def test_all_published_models_are_internally_referenced_and_current() -> None:
     assert len(paths) == 142
     for path in paths:
         program = json.loads(path.read_text(encoding="utf-8"))
-        assert program["source"]["parser_version"] == "0.3.0"
+        assert program["source"]["parser_version"] == "0.4.0"
         assert not any(
             "No structured course rows extracted" in warning
             for warning in program.get("warnings", [])
@@ -56,7 +56,7 @@ def test_ai_approved_programs_are_simple_and_conflict_free() -> None:
     ai_approved = [
         program for program in programs if program["review_status"] == "ai_approved"
     ]
-    assert len(ai_approved) == 79
+    assert len(ai_approved) == 77
     forbidden = (
         "entry_selection_constraints",
         "course_count_constraints",

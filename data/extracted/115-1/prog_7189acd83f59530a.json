@@ -1,5 +1,5 @@
 {
-  "schema_version": "1.2",
+  "schema_version": "1.3",
   "courses": [],
   "credit_mentions": [
     15,
@@ -89,11 +89,12 @@
           "source_page": 1,
           "evidence_match": true,
           "validation_status": "needs_course_code_verification",
-          "uncertainty_reason": "Official PDF table does not provide a course code"
+          "uncertainty_reason": "Official PDF table does not provide a course code",
+          "catalog_entry_group_id": "entry_6764abc86ab7f65a"
         },
         {
           "course_code": null,
-          "catalog_entry_id": "entry_6764abc86ab7f65a",
+          "catalog_entry_id": "entry_6764abc86ab7f65a_2",
           "opening_units": [
             "生科系",
             "海資系"
@@ -109,7 +110,8 @@
           "source_page": 1,
           "evidence_match": true,
           "validation_status": "needs_course_code_verification",
-          "uncertainty_reason": "Official PDF table does not provide a course code"
+          "uncertainty_reason": "Official PDF table does not provide a course code",
+          "catalog_entry_group_id": "entry_6764abc86ab7f65a"
         },
         {
           "course_code": null,
@@ -438,7 +440,7 @@
         },
         {
           "course_code": null,
-          "catalog_entry_id": "entry_04e04e45838df5c4_1",
+          "catalog_entry_id": "entry_04e04e45838df5c4",
           "opening_units": [
             "生科系",
             "生藥所",
@@ -451,11 +453,12 @@
           "requirement_section": "elective",
           "requirement_label": null,
           "program_course_name_snapshot": null,
-          "notes": "三擇一",
+          "notes": "三擇一 生物資訊學概論(大學部)生物資訊學及其應用生物資訊學",
           "source_page": 1,
           "evidence_match": true,
           "validation_status": "needs_course_code_verification",
-          "uncertainty_reason": "Official PDF table does not provide a course code"
+          "uncertainty_reason": "Official PDF table does not provide a course code",
+          "catalog_entry_group_id": "entry_04e04e45838df5c4"
         },
         {
           "course_code": null,
@@ -472,11 +475,12 @@
           "requirement_section": "elective",
           "requirement_label": null,
           "program_course_name_snapshot": null,
-          "notes": "三擇一",
+          "notes": "三擇一 生物資訊學概論(大學部)生物資訊學及其應用生物資訊學",
           "source_page": 1,
           "evidence_match": true,
           "validation_status": "needs_course_code_verification",
-          "uncertainty_reason": "Official PDF table does not provide a course code"
+          "uncertainty_reason": "Official PDF table does not provide a course code",
+          "catalog_entry_group_id": "entry_04e04e45838df5c4"
         },
         {
           "course_code": null,
@@ -493,11 +497,12 @@
           "requirement_section": "elective",
           "requirement_label": null,
           "program_course_name_snapshot": null,
-          "notes": "三擇一",
+          "notes": "三擇一 生物資訊學概論(大學部)生物資訊學及其應用生物資訊學",
           "source_page": 1,
           "evidence_match": true,
           "validation_status": "needs_course_code_verification",
-          "uncertainty_reason": "Official PDF table does not provide a course code"
+          "uncertainty_reason": "Official PDF table does not provide a course code",
+          "catalog_entry_group_id": "entry_04e04e45838df5c4"
         },
         {
           "course_code": null,
@@ -1298,6 +1303,22 @@
         ],
         "course_count_constraints": [
           {
+            "constraint_id": "constraint_1222a0724414791c",
+            "kind": "course_equivalence",
+            "course_names": [
+              "生物資訊學概論(大學部)",
+              "生物資訊學及其應用",
+              "生物資訊學"
+            ],
+            "min_courses": 1,
+            "max_courses": 1,
+            "requirement_group": "elective",
+            "requirement_section": "elective",
+            "source_page": 1,
+            "source_text": "生物資訊學概論(大學部)生物資訊學及其應用生物資訊學",
+            "validation_status": "source_text_match"
+          },
+          {
             "constraint_id": "constraint_4da0253f138db85b",
             "kind": "course_equivalence",
             "course_names": [
@@ -1323,6 +1344,9 @@
           "minimum_elective_courses": null,
           "has_conditional_requirements": false,
           "has_manual_requirements": false,
+          "has_completion_manual_requirements": false,
+          "has_certificate_requirements": false,
+          "has_credit_recognition_requirements": false,
           "has_unresolved_conflicts": false
         }
       },
@@ -1338,7 +1362,7 @@
         "core_count": 4,
         "elective_count": 59,
         "evidence_matched_count": 58,
-        "course_count_constraints_extracted": 1
+        "course_count_constraints_extracted": 2
       }
     },
     {
@@ -1402,11 +1426,12 @@
           "source_page": 4,
           "evidence_match": true,
           "validation_status": "needs_course_code_verification",
-          "uncertainty_reason": "Official PDF table does not provide a course code"
+          "uncertainty_reason": "Official PDF table does not provide a course code",
+          "catalog_entry_group_id": "entry_a96bc44d1823fbbe"
         },
         {
           "course_code": null,
-          "catalog_entry_id": "entry_a96bc44d1823fbbe",
+          "catalog_entry_id": "entry_a96bc44d1823fbbe_2",
           "opening_units": [
             "生科系",
             "海資系"
@@ -1422,7 +1447,8 @@
           "source_page": 4,
           "evidence_match": true,
           "validation_status": "needs_course_code_verification",
-          "uncertainty_reason": "Official PDF table does not provide a course code"
+          "uncertainty_reason": "Official PDF table does not provide a course code",
+          "catalog_entry_group_id": "entry_a96bc44d1823fbbe"
         },
         {
           "course_code": null,
@@ -1751,7 +1777,7 @@
         },
         {
           "course_code": null,
-          "catalog_entry_id": "entry_25dec0a8fe91b591_1",
+          "catalog_entry_id": "entry_25dec0a8fe91b591",
           "opening_units": [
             "生科系",
             "生藥所",
@@ -1764,11 +1790,12 @@
           "requirement_section": "elective",
           "requirement_label": null,
           "program_course_name_snapshot": null,
-          "notes": "三擇一",
+          "notes": "三擇一 生物資訊學概論(大學部)生物資訊學及其應用生物資訊學",
           "source_page": 4,
           "evidence_match": true,
           "validation_status": "needs_course_code_verification",
-          "uncertainty_reason": "Official PDF table does not provide a course code"
+          "uncertainty_reason": "Official PDF table does not provide a course code",
+          "catalog_entry_group_id": "entry_25dec0a8fe91b591"
         },
         {
           "course_code": null,
@@ -1785,11 +1812,12 @@
           "requirement_section": "elective",
           "requirement_label": null,
           "program_course_name_snapshot": null,
-          "notes": "三擇一",
+          "notes": "三擇一 生物資訊學概論(大學部)生物資訊學及其應用生物資訊學",
           "source_page": 4,
           "evidence_match": true,
           "validation_status": "needs_course_code_verification",
-          "uncertainty_reason": "Official PDF table does not provide a course code"
+          "uncertainty_reason": "Official PDF table does not provide a course code",
+          "catalog_entry_group_id": "entry_25dec0a8fe91b591"
         },
         {
           "course_code": null,
@@ -1806,11 +1834,12 @@
           "requirement_section": "elective",
           "requirement_label": null,
           "program_course_name_snapshot": null,
-          "notes": "三擇一",
+          "notes": "三擇一 生物資訊學概論(大學部)生物資訊學及其應用生物資訊學",
           "source_page": 4,
           "evidence_match": true,
           "validation_status": "needs_course_code_verification",
-          "uncertainty_reason": "Official PDF table does not provide a course code"
+          "uncertainty_reason": "Official PDF table does not provide a course code",
+          "catalog_entry_group_id": "entry_25dec0a8fe91b591"
         },
         {
           "course_code": null,
@@ -2611,6 +2640,22 @@
         ],
         "course_count_constraints": [
           {
+            "constraint_id": "constraint_1222a0724414791c",
+            "kind": "course_equivalence",
+            "course_names": [
+              "生物資訊學概論(大學部)",
+              "生物資訊學及其應用",
+              "生物資訊學"
+            ],
+            "min_courses": 1,
+            "max_courses": 1,
+            "requirement_group": "elective",
+            "requirement_section": "elective",
+            "source_page": 4,
+            "source_text": "生物資訊學概論(大學部)生物資訊學及其應用生物資訊學",
+            "validation_status": "source_text_match"
+          },
+          {
             "constraint_id": "constraint_4da0253f138db85b",
             "kind": "course_equivalence",
             "course_names": [
@@ -2636,6 +2681,9 @@
           "minimum_elective_courses": null,
           "has_conditional_requirements": false,
           "has_manual_requirements": false,
+          "has_completion_manual_requirements": false,
+          "has_certificate_requirements": false,
+          "has_credit_recognition_requirements": false,
           "has_unresolved_conflicts": false
         }
       },
@@ -2650,7 +2698,7 @@
         "core_count": 4,
         "elective_count": 59,
         "evidence_matched_count": 63,
-        "course_count_constraints_extracted": 1
+        "course_count_constraints_extracted": 2
       }
     },
     {
@@ -2714,11 +2762,12 @@
           "source_page": 6,
           "evidence_match": true,
           "validation_status": "needs_course_code_verification",
-          "uncertainty_reason": "Official PDF table does not provide a course code"
+          "uncertainty_reason": "Official PDF table does not provide a course code",
+          "catalog_entry_group_id": "entry_4d9152f50ecf9687"
         },
         {
           "course_code": null,
-          "catalog_entry_id": "entry_4d9152f50ecf9687",
+          "catalog_entry_id": "entry_4d9152f50ecf9687_2",
           "opening_units": [
             "生科系",
             "海資系"
@@ -2734,7 +2783,8 @@
           "source_page": 6,
           "evidence_match": true,
           "validation_status": "needs_course_code_verification",
-          "uncertainty_reason": "Official PDF table does not provide a course code"
+          "uncertainty_reason": "Official PDF table does not provide a course code",
+          "catalog_entry_group_id": "entry_4d9152f50ecf9687"
         },
         {
           "course_code": null,
@@ -3082,7 +3132,7 @@
         },
         {
           "course_code": null,
-          "catalog_entry_id": "entry_9430b37d8ad88ffb_1",
+          "catalog_entry_id": "entry_9430b37d8ad88ffb",
           "opening_units": [
             "生科系",
             "生藥所",
@@ -3095,11 +3145,12 @@
           "requirement_section": "elective",
           "requirement_label": null,
           "program_course_name_snapshot": null,
-          "notes": "三擇一",
+          "notes": "三擇一 生物資訊學概論(大學部)生物資訊學及其應用生物資訊學",
           "source_page": 6,
           "evidence_match": true,
           "validation_status": "needs_course_code_verification",
-          "uncertainty_reason": "Official PDF table does not provide a course code"
+          "uncertainty_reason": "Official PDF table does not provide a course code",
+          "catalog_entry_group_id": "entry_9430b37d8ad88ffb"
         },
         {
           "course_code": null,
@@ -3116,11 +3167,12 @@
           "requirement_section": "elective",
           "requirement_label": null,
           "program_course_name_snapshot": null,
-          "notes": "三擇一",
+          "notes": "三擇一 生物資訊學概論(大學部)生物資訊學及其應用生物資訊學",
           "source_page": 6,
           "evidence_match": true,
           "validation_status": "needs_course_code_verification",
-          "uncertainty_reason": "Official PDF table does not provide a course code"
+          "uncertainty_reason": "Official PDF table does not provide a course code",
+          "catalog_entry_group_id": "entry_9430b37d8ad88ffb"
         },
         {
           "course_code": null,
@@ -3137,11 +3189,12 @@
           "requirement_section": "elective",
           "requirement_label": null,
           "program_course_name_snapshot": null,
-          "notes": "三擇一",
+          "notes": "三擇一 生物資訊學概論(大學部)生物資訊學及其應用生物資訊學",
           "source_page": 6,
           "evidence_match": true,
           "validation_status": "needs_course_code_verification",
-          "uncertainty_reason": "Official PDF table does not provide a course code"
+          "uncertainty_reason": "Official PDF table does not provide a course code",
+          "catalog_entry_group_id": "entry_9430b37d8ad88ffb"
         },
         {
           "course_code": null,
@@ -3942,6 +3995,22 @@
         ],
         "course_count_constraints": [
           {
+            "constraint_id": "constraint_1222a0724414791c",
+            "kind": "course_equivalence",
+            "course_names": [
+              "生物資訊學概論(大學部)",
+              "生物資訊學及其應用",
+              "生物資訊學"
+            ],
+            "min_courses": 1,
+            "max_courses": 1,
+            "requirement_group": "elective",
+            "requirement_section": "elective",
+            "source_page": 6,
+            "source_text": "生物資訊學概論(大學部)生物資訊學及其應用生物資訊學",
+            "validation_status": "source_text_match"
+          },
+          {
             "constraint_id": "constraint_4da0253f138db85b",
             "kind": "course_equivalence",
             "course_names": [
@@ -3967,6 +4036,9 @@
           "minimum_elective_courses": null,
           "has_conditional_requirements": false,
           "has_manual_requirements": false,
+          "has_completion_manual_requirements": false,
+          "has_certificate_requirements": false,
+          "has_credit_recognition_requirements": false,
           "has_unresolved_conflicts": false
         }
       },
@@ -3982,7 +4054,7 @@
         "core_count": 4,
         "elective_count": 60,
         "evidence_matched_count": 64,
-        "course_count_constraints_extracted": 1
+        "course_count_constraints_extracted": 2
       }
     },
     {
@@ -4046,11 +4118,12 @@
           "source_page": 9,
           "evidence_match": true,
           "validation_status": "needs_course_code_verification",
-          "uncertainty_reason": "Official PDF table does not provide a course code"
+          "uncertainty_reason": "Official PDF table does not provide a course code",
+          "catalog_entry_group_id": "entry_95399bfb4e6c4bd6"
         },
         {
           "course_code": null,
-          "catalog_entry_id": "entry_95399bfb4e6c4bd6",
+          "catalog_entry_id": "entry_95399bfb4e6c4bd6_2",
           "opening_units": [
             "生科系",
             "海資系"
@@ -4066,7 +4139,8 @@
           "source_page": 9,
           "evidence_match": true,
           "validation_status": "needs_course_code_verification",
-          "uncertainty_reason": "Official PDF table does not provide a course code"
+          "uncertainty_reason": "Official PDF table does not provide a course code",
+          "catalog_entry_group_id": "entry_95399bfb4e6c4bd6"
         },
         {
           "course_code": null,
@@ -4468,11 +4542,12 @@
           "source_page": 9,
           "evidence_match": true,
           "validation_status": "needs_course_code_verification",
-          "uncertainty_reason": "Official PDF table does not provide a course code"
+          "uncertainty_reason": "Official PDF table does not provide a course code",
+          "catalog_entry_group_id": "entry_2c4d16e752ac1c78"
         },
         {
           "course_code": null,
-          "catalog_entry_id": "entry_2c4d16e752ac1c78",
+          "catalog_entry_id": "entry_2c4d16e752ac1c78_2",
           "opening_units": [
             "生科系",
             "生醫所"
@@ -4488,7 +4563,8 @@
           "source_page": 9,
           "evidence_match": true,
           "validation_status": "needs_course_code_verification",
-          "uncertainty_reason": "Official PDF table does not provide a course code"
+          "uncertainty_reason": "Official PDF table does not provide a course code",
+          "catalog_entry_group_id": "entry_2c4d16e752ac1c78"
         },
         {
           "course_code": null,
@@ -5234,6 +5310,9 @@
           "minimum_elective_courses": null,
           "has_conditional_requirements": false,
           "has_manual_requirements": false,
+          "has_completion_manual_requirements": false,
+          "has_certificate_requirements": false,
+          "has_credit_recognition_requirements": false,
           "has_unresolved_conflicts": false
         }
       },
@@ -5311,11 +5390,12 @@
           "source_page": 11,
           "evidence_match": true,
           "validation_status": "needs_course_code_verification",
-          "uncertainty_reason": "Official PDF table does not provide a course code"
+          "uncertainty_reason": "Official PDF table does not provide a course code",
+          "catalog_entry_group_id": "entry_7a169e4d9f595d9d"
         },
         {
           "course_code": null,
-          "catalog_entry_id": "entry_7a169e4d9f595d9d",
+          "catalog_entry_id": "entry_7a169e4d9f595d9d_2",
           "opening_units": [
             "生科系",
             "海資系"
@@ -5331,7 +5411,8 @@
           "source_page": 11,
           "evidence_match": true,
           "validation_status": "needs_course_code_verification",
-          "uncertainty_reason": "Official PDF table does not provide a course code"
+          "uncertainty_reason": "Official PDF table does not provide a course code",
+          "catalog_entry_group_id": "entry_7a169e4d9f595d9d"
         },
         {
           "course_code": null,
@@ -5774,7 +5855,7 @@
         },
         {
           "course_code": null,
-          "catalog_entry_id": "entry_4f0822591297fa05_1",
+          "catalog_entry_id": "entry_4f0822591297fa05",
           "opening_units": [
             "生科系",
             "生醫所"
@@ -5786,11 +5867,12 @@
           "requirement_section": "elective",
           "requirement_label": null,
           "program_course_name_snapshot": null,
-          "notes": "二擇一",
+          "notes": "二擇一 生物資訊學概論(大學部)生物資訊學(碩)",
           "source_page": 11,
           "evidence_match": true,
           "validation_status": "needs_course_code_verification",
-          "uncertainty_reason": "Official PDF table does not provide a course code"
+          "uncertainty_reason": "Official PDF table does not provide a course code",
+          "catalog_entry_group_id": "entry_4f0822591297fa05"
         },
         {
           "course_code": null,
@@ -5806,11 +5888,12 @@
           "requirement_section": "elective",
           "requirement_label": null,
           "program_course_name_snapshot": null,
-          "notes": "二擇一",
+          "notes": "二擇一 生物資訊學概論(大學部)生物資訊學(碩)",
           "source_page": 11,
           "evidence_match": true,
           "validation_status": "needs_course_code_verification",
-          "uncertainty_reason": "Official PDF table does not provide a course code"
+          "uncertainty_reason": "Official PDF table does not provide a course code",
+          "catalog_entry_group_id": "entry_4f0822591297fa05"
         },
         {
           "course_code": null,
@@ -6744,6 +6827,21 @@
             "source_page": 11,
             "source_text": "生物技術概論生物技術",
             "validation_status": "source_text_match"
+          },
+          {
+            "constraint_id": "constraint_efec216f6b0869dd",
+            "kind": "course_equivalence",
+            "course_names": [
+              "生物資訊學概論(大學部)",
+              "生物資訊學(碩)"
+            ],
+            "min_courses": 1,
+            "max_courses": 1,
+            "requirement_group": "elective",
+            "requirement_section": "elective",
+            "source_page": 11,
+            "source_text": "生物資訊學概論(大學部)生物資訊學(碩)",
+            "validation_status": "source_text_match"
           }
         ],
         "completion_summary": {
@@ -6756,6 +6854,9 @@
           "minimum_elective_courses": null,
           "has_conditional_requirements": false,
           "has_manual_requirements": false,
+          "has_completion_manual_requirements": false,
+          "has_certificate_requirements": false,
+          "has_credit_recognition_requirements": false,
           "has_unresolved_conflicts": false
         }
       },
@@ -6771,7 +6872,7 @@
         "core_count": 4,
         "elective_count": 70,
         "evidence_matched_count": 74,
-        "course_count_constraints_extracted": 1
+        "course_count_constraints_extracted": 2
       }
     }
   ],
@@ -6835,11 +6936,12 @@
       "source_page": 1,
       "evidence_match": true,
       "validation_status": "needs_course_code_verification",
-      "uncertainty_reason": "Official PDF table does not provide a course code"
+      "uncertainty_reason": "Official PDF table does not provide a course code",
+      "catalog_entry_group_id": "entry_6764abc86ab7f65a"
     },
     {
       "course_code": null,
-      "catalog_entry_id": "entry_6764abc86ab7f65a",
+      "catalog_entry_id": "entry_6764abc86ab7f65a_2",
       "opening_units": [
         "生科系",
         "海資系"
@@ -6855,7 +6957,8 @@
       "source_page": 1,
       "evidence_match": true,
       "validation_status": "needs_course_code_verification",
-      "uncertainty_reason": "Official PDF table does not provide a course code"
+      "uncertainty_reason": "Official PDF table does not provide a course code",
+      "catalog_entry_group_id": "entry_6764abc86ab7f65a"
     },
     {
       "course_code": null,
@@ -7184,7 +7287,7 @@
     },
     {
       "course_code": null,
-      "catalog_entry_id": "entry_04e04e45838df5c4_1",
+      "catalog_entry_id": "entry_04e04e45838df5c4",
       "opening_units": [
         "生科系",
         "生藥所",
@@ -7197,11 +7300,12 @@
       "requirement_section": "elective",
       "requirement_label": null,
       "program_course_name_snapshot": null,
-      "notes": "三擇一",
+      "notes": "三擇一 生物資訊學概論(大學部)生物資訊學及其應用生物資訊學",
       "source_page": 1,
       "evidence_match": true,
       "validation_status": "needs_course_code_verification",
-      "uncertainty_reason": "Official PDF table does not provide a course code"
+      "uncertainty_reason": "Official PDF table does not provide a course code",
+      "catalog_entry_group_id": "entry_04e04e45838df5c4"
     },
     {
       "course_code": null,
@@ -7218,11 +7322,12 @@
       "requirement_section": "elective",
       "requirement_label": null,
       "program_course_name_snapshot": null,
-      "notes": "三擇一",
+      "notes": "三擇一 生物資訊學概論(大學部)生物資訊學及其應用生物資訊學",
       "source_page": 1,
       "evidence_match": true,
       "validation_status": "needs_course_code_verification",
-      "uncertainty_reason": "Official PDF table does not provide a course code"
+      "uncertainty_reason": "Official PDF table does not provide a course code",
+      "catalog_entry_group_id": "entry_04e04e45838df5c4"
     },
     {
       "course_code": null,
@@ -7239,11 +7344,12 @@
       "requirement_section": "elective",
       "requirement_label": null,
       "program_course_name_snapshot": null,
-      "notes": "三擇一",
+      "notes": "三擇一 生物資訊學概論(大學部)生物資訊學及其應用生物資訊學",
       "source_page": 1,
       "evidence_match": true,
       "validation_status": "needs_course_code_verification",
-      "uncertainty_reason": "Official PDF table does not provide a course code"
+      "uncertainty_reason": "Official PDF table does not provide a course code",
+      "catalog_entry_group_id": "entry_04e04e45838df5c4"
     },
     {
       "course_code": null,
@@ -8044,6 +8150,22 @@
     ],
     "course_count_constraints": [
       {
+        "constraint_id": "constraint_1222a0724414791c",
+        "kind": "course_equivalence",
+        "course_names": [
+          "生物資訊學概論(大學部)",
+          "生物資訊學及其應用",
+          "生物資訊學"
+        ],
+        "min_courses": 1,
+        "max_courses": 1,
+        "requirement_group": "elective",
+        "requirement_section": "elective",
+        "source_page": 1,
+        "source_text": "生物資訊學概論(大學部)生物資訊學及其應用生物資訊學",
+        "validation_status": "source_text_match"
+      },
+      {
         "constraint_id": "constraint_4da0253f138db85b",
         "kind": "course_equivalence",
         "course_names": [
@@ -8069,6 +8191,9 @@
       "minimum_elective_courses": null,
       "has_conditional_requirements": false,
       "has_manual_requirements": false,
+      "has_completion_manual_requirements": false,
+      "has_certificate_requirements": false,
+      "has_credit_recognition_requirements": false,
       "has_unresolved_conflicts": false
     }
   }

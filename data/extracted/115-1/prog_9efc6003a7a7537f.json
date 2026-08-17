@@ -1,5 +1,5 @@
 {
-  "schema_version": "1.2",
+  "schema_version": "1.3",
   "courses": [
     {
       "course_code": "WEB",
@@ -418,6 +418,30 @@
             "validation_status": "source_text_match"
           }
         ],
+        "manual_requirements": [
+          {
+            "requirement_id": "requirement_8feaf67b704fdda2",
+            "kind": "manual_verification",
+            "requirement_type": "curriculum_exception",
+            "description": "3.以上課程相關規定之修改自113學年度第二學期起核准修習學生適用,原已核准修習 學生,亦得追溯適用之。",
+            "verification_mode": "manual_review",
+            "requirement_context": "program_completion",
+            "source_page": 2,
+            "source_text": "3.以上課程相關規定之修改自113學年度第二學期起核准修習學生適用,原已核准修習 學生,亦得追溯適用之。",
+            "validation_status": "source_text_match"
+          },
+          {
+            "requirement_id": "requirement_db3f0aec3d614375",
+            "kind": "manual_verification",
+            "requirement_type": "recognition",
+            "description": "2.修讀本學程學生,其以前修習課程及學分數之抵免,由本學程相關課程授課教師認 定。",
+            "verification_mode": "manual_review",
+            "requirement_context": "credit_recognition",
+            "source_page": 2,
+            "source_text": "2.修讀本學程學生,其以前修習課程及學分數之抵免,由本學程相關課程授課教師認 定。",
+            "validation_status": "source_text_match"
+          }
+        ],
         "completion_summary": {
           "model_status": "partial",
           "minimum_total_credits": 27.0,
@@ -427,7 +451,10 @@
           "minimum_core_courses": null,
           "minimum_elective_courses": null,
           "has_conditional_requirements": false,
-          "has_manual_requirements": false,
+          "has_manual_requirements": true,
+          "has_completion_manual_requirements": true,
+          "has_certificate_requirements": false,
+          "has_credit_recognition_requirements": true,
           "has_unresolved_conflicts": false
         }
       },
@@ -864,6 +891,30 @@
             "validation_status": "source_text_match"
           }
         ],
+        "manual_requirements": [
+          {
+            "requirement_id": "requirement_8feaf67b704fdda2",
+            "kind": "manual_verification",
+            "requirement_type": "curriculum_exception",
+            "description": "3.以上課程相關規定之修改自113學年度第二學期起核准修習學生適用,原已核准修習 學生,亦得追溯適用之。",
+            "verification_mode": "manual_review",
+            "requirement_context": "program_completion",
+            "source_page": 4,
+            "source_text": "3.以上課程相關規定之修改自113學年度第二學期起核准修習學生適用,原已核准修習 學生,亦得追溯適用之。",
+            "validation_status": "source_text_match"
+          },
+          {
+            "requirement_id": "requirement_db3f0aec3d614375",
+            "kind": "manual_verification",
+            "requirement_type": "recognition",
+            "description": "2.修讀本學程學生,其以前修習課程及學分數之抵免,由本學程相關課程授課教師認 定。",
+            "verification_mode": "manual_review",
+            "requirement_context": "credit_recognition",
+            "source_page": 4,
+            "source_text": "2.修讀本學程學生,其以前修習課程及學分數之抵免,由本學程相關課程授課教師認 定。",
+            "validation_status": "source_text_match"
+          }
+        ],
         "completion_summary": {
           "model_status": "partial",
           "minimum_total_credits": 27.0,
@@ -873,7 +924,10 @@
           "minimum_core_courses": null,
           "minimum_elective_courses": null,
           "has_conditional_requirements": false,
-          "has_manual_requirements": false,
+          "has_manual_requirements": true,
+          "has_completion_manual_requirements": true,
+          "has_certificate_requirements": false,
+          "has_credit_recognition_requirements": true,
           "has_unresolved_conflicts": false
         }
       },
@@ -1326,6 +1380,30 @@
             "validation_status": "source_text_match"
           }
         ],
+        "manual_requirements": [
+          {
+            "requirement_id": "requirement_68f1f4352711608b",
+            "kind": "manual_verification",
+            "requirement_type": "curriculum_exception",
+            "description": "4.以上課程相關規定之修改自112學年度第二學期起核准修習學生適用,原已核准修習 學生,亦得追溯適用之。",
+            "verification_mode": "manual_review",
+            "requirement_context": "program_completion",
+            "source_page": 6,
+            "source_text": "4.以上課程相關規定之修改自112學年度第二學期起核准修習學生適用,原已核准修習 學生,亦得追溯適用之。",
+            "validation_status": "source_text_match"
+          },
+          {
+            "requirement_id": "requirement_ec888660c0b7d30a",
+            "kind": "manual_verification",
+            "requirement_type": "recognition",
+            "description": "3.修讀本學程學生,其以前修習課程及學分數之抵免,由本學程相關課程授課教師認 定。",
+            "verification_mode": "manual_review",
+            "requirement_context": "credit_recognition",
+            "source_page": 6,
+            "source_text": "3.修讀本學程學生,其以前修習課程及學分數之抵免,由本學程相關課程授課教師認 定。",
+            "validation_status": "source_text_match"
+          }
+        ],
         "completion_summary": {
           "model_status": "partial",
           "minimum_total_credits": 27.0,
@@ -1335,7 +1413,10 @@
           "minimum_core_courses": null,
           "minimum_elective_courses": null,
           "has_conditional_requirements": false,
-          "has_manual_requirements": false,
+          "has_manual_requirements": true,
+          "has_completion_manual_requirements": true,
+          "has_certificate_requirements": false,
+          "has_credit_recognition_requirements": true,
           "has_unresolved_conflicts": false
         }
       },
@@ -1767,6 +1848,30 @@
             "validation_status": "source_text_match"
           }
         ],
+        "manual_requirements": [
+          {
+            "requirement_id": "requirement_08f03f169f6d8cb9",
+            "kind": "manual_verification",
+            "requirement_type": "recognition",
+            "description": "2.修讀本學程學生,其以前修習課程及學分數之抵免,由本學程相關課程授課教師認定。",
+            "verification_mode": "manual_review",
+            "requirement_context": "credit_recognition",
+            "source_page": 8,
+            "source_text": "2.修讀本學程學生,其以前修習課程及學分數之抵免,由本學程相關課程授課教師認定。",
+            "validation_status": "source_text_match"
+          },
+          {
+            "requirement_id": "requirement_6511ebd86c618aab",
+            "kind": "manual_verification",
+            "requirement_type": "curriculum_exception",
+            "description": "3.以上課程相關規定之修改自104學年度第一學期起核准修習學生適用,原已核准修習學生, 亦得追溯適用之。",
+            "verification_mode": "manual_review",
+            "requirement_context": "program_completion",
+            "source_page": 8,
+            "source_text": "3.以上課程相關規定之修改自104學年度第一學期起核准修習學生適用,原已核准修習學生, 亦得追溯適用之。",
+            "validation_status": "source_text_match"
+          }
+        ],
         "completion_summary": {
           "model_status": "partial",
           "minimum_total_credits": 27.0,
@@ -1776,7 +1881,10 @@
           "minimum_core_courses": null,
           "minimum_elective_courses": null,
           "has_conditional_requirements": false,
-          "has_manual_requirements": false,
+          "has_manual_requirements": true,
+          "has_completion_manual_requirements": true,
+          "has_certificate_requirements": false,
+          "has_credit_recognition_requirements": true,
           "has_unresolved_conflicts": false
         }
       },
@@ -2174,6 +2282,30 @@
         "validation_status": "source_text_match"
       }
     ],
+    "manual_requirements": [
+      {
+        "requirement_id": "requirement_8feaf67b704fdda2",
+        "kind": "manual_verification",
+        "requirement_type": "curriculum_exception",
+        "description": "3.以上課程相關規定之修改自113學年度第二學期起核准修習學生適用,原已核准修習 學生,亦得追溯適用之。",
+        "verification_mode": "manual_review",
+        "requirement_context": "program_completion",
+        "source_page": 2,
+        "source_text": "3.以上課程相關規定之修改自113學年度第二學期起核准修習學生適用,原已核准修習 學生,亦得追溯適用之。",
+        "validation_status": "source_text_match"
+      },
+      {
+        "requirement_id": "requirement_db3f0aec3d614375",
+        "kind": "manual_verification",
+        "requirement_type": "recognition",
+        "description": "2.修讀本學程學生,其以前修習課程及學分數之抵免,由本學程相關課程授課教師認 定。",
+        "verification_mode": "manual_review",
+        "requirement_context": "credit_recognition",
+        "source_page": 2,
+        "source_text": "2.修讀本學程學生,其以前修習課程及學分數之抵免,由本學程相關課程授課教師認 定。",
+        "validation_status": "source_text_match"
+      }
+    ],
     "completion_summary": {
       "model_status": "partial",
       "minimum_total_credits": 27.0,
@@ -2183,7 +2315,10 @@
       "minimum_core_courses": null,
       "minimum_elective_courses": null,
       "has_conditional_requirements": false,
-      "has_manual_requirements": false,
+      "has_manual_requirements": true,
+      "has_completion_manual_requirements": true,
+      "has_certificate_requirements": false,
+      "has_credit_recognition_requirements": true,
       "has_unresolved_conflicts": false
     }
   }

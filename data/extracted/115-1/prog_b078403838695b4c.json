@@ -1,5 +1,5 @@
 {
-  "schema_version": "1.2",
+  "schema_version": "1.3",
   "courses": [],
   "credit_mentions": [
     9,
@@ -250,14 +250,14 @@
         ],
         "manual_requirements": [
           {
-            "requirement_id": "requirement_2fe85e3adddde4d2",
+            "requirement_id": "requirement_5f80bc0ea37dd22f",
             "kind": "manual_verification",
             "requirement_type": "workshop_attendance",
-            "description": "至少9學分,參加至少一場「海洋與島嶼環境變遷」共學群的微學分工作坊",
+            "description": "112.12.12第178次教務會議通過 綠色港市微學程新課程規劃表 1 開課單位 課 程 名 稱 學分數 備註 核 心 課 程 人科學程 綠色港市與智慧港埠 3 二選一 海工系 海洋與海岸管理 3 核心課程學分數: 3學分 選 修 人科學程 都市環境概論 3 博雅向度三 都市營造與空間規劃 3 社科院 永續都市環境行為及心理學 3 海工系 海岸開發及保育工程 3 海工系 船舶施工規劃 3 海工系 港灣工程(含設計實例) 3 公事所 都市空間探討 3 總學分數:至少 9 學分,參加至少一場「海洋與島嶼環境變遷」共學群的微學分工 作坊,或規劃與港市相關之個人化(U)學程",
             "verification_mode": "manual_review",
             "requirement_context": "program_completion",
             "source_page": 1,
-            "source_text": "至少9學分,參加至少一場「海洋與島嶼環境變遷」共學群的微學分工作坊",
+            "source_text": "112.12.12第178次教務會議通過 綠色港市微學程新課程規劃表 1 開課單位 課 程 名 稱 學分數 備註 核 心 課 程 人科學程 綠色港市與智慧港埠 3 二選一 海工系 海洋與海岸管理 3 核心課程學分數: 3學分 選 修 人科學程 都市環境概論 3 博雅向度三 都市營造與空間規劃 3 社科院 永續都市環境行為及心理學 3 海工系 海岸開發及保育工程 3 海工系 船舶施工規劃 3 海工系 港灣工程(含設計實例) 3 公事所 都市空間探討 3 總學分數:至少 9 學分,參加至少一場「海洋與島嶼環境變遷」共學群的微學分工 作坊,或規劃與港市相關之個人化(U)學程",
             "validation_status": "source_text_match",
             "minimum_count": 1
           }
@@ -272,6 +272,9 @@
           "minimum_elective_courses": null,
           "has_conditional_requirements": false,
           "has_manual_requirements": true,
+          "has_completion_manual_requirements": true,
+          "has_certificate_requirements": false,
+          "has_credit_recognition_requirements": false,
           "has_unresolved_conflicts": false
         }
       },
@@ -442,14 +445,14 @@
         ],
         "manual_requirements": [
           {
-            "requirement_id": "requirement_334355dd23178900",
+            "requirement_id": "requirement_c4bd34bf82eee613",
             "kind": "manual_verification",
             "requirement_type": "workshop_attendance",
-            "description": "需參加至少一系列ORCA共學群的微學分系列工作坊",
+            "description": "修讀本學期需參加至少一系列 ORCA 共學群的微學分系列 工作坊",
             "verification_mode": "manual_review",
             "requirement_context": "program_completion",
             "source_page": 2,
-            "source_text": "需參加至少一系列ORCA共學群的微學分系列工作坊",
+            "source_text": "修讀本學期需參加至少一系列 ORCA 共學群的微學分系列 工作坊",
             "validation_status": "source_text_match"
           }
         ],
@@ -463,6 +466,9 @@
           "minimum_elective_courses": null,
           "has_conditional_requirements": false,
           "has_manual_requirements": true,
+          "has_completion_manual_requirements": true,
+          "has_certificate_requirements": false,
+          "has_credit_recognition_requirements": false,
           "has_unresolved_conflicts": false
         }
       },
@@ -709,14 +715,14 @@
     ],
     "manual_requirements": [
       {
-        "requirement_id": "requirement_2fe85e3adddde4d2",
+        "requirement_id": "requirement_5f80bc0ea37dd22f",
         "kind": "manual_verification",
         "requirement_type": "workshop_attendance",
-        "description": "至少9學分,參加至少一場「海洋與島嶼環境變遷」共學群的微學分工作坊",
+        "description": "112.12.12第178次教務會議通過 綠色港市微學程新課程規劃表 1 開課單位 課 程 名 稱 學分數 備註 核 心 課 程 人科學程 綠色港市與智慧港埠 3 二選一 海工系 海洋與海岸管理 3 核心課程學分數: 3學分 選 修 人科學程 都市環境概論 3 博雅向度三 都市營造與空間規劃 3 社科院 永續都市環境行為及心理學 3 海工系 海岸開發及保育工程 3 海工系 船舶施工規劃 3 海工系 港灣工程(含設計實例) 3 公事所 都市空間探討 3 總學分數:至少 9 學分,參加至少一場「海洋與島嶼環境變遷」共學群的微學分工 作坊,或規劃與港市相關之個人化(U)學程",
         "verification_mode": "manual_review",
         "requirement_context": "program_completion",
         "source_page": 1,
-        "source_text": "至少9學分,參加至少一場「海洋與島嶼環境變遷」共學群的微學分工作坊",
+        "source_text": "112.12.12第178次教務會議通過 綠色港市微學程新課程規劃表 1 開課單位 課 程 名 稱 學分數 備註 核 心 課 程 人科學程 綠色港市與智慧港埠 3 二選一 海工系 海洋與海岸管理 3 核心課程學分數: 3學分 選 修 人科學程 都市環境概論 3 博雅向度三 都市營造與空間規劃 3 社科院 永續都市環境行為及心理學 3 海工系 海岸開發及保育工程 3 海工系 船舶施工規劃 3 海工系 港灣工程(含設計實例) 3 公事所 都市空間探討 3 總學分數:至少 9 學分,參加至少一場「海洋與島嶼環境變遷」共學群的微學分工 作坊,或規劃與港市相關之個人化(U)學程",
         "validation_status": "source_text_match",
         "minimum_count": 1
       }
@@ -731,6 +737,9 @@
       "minimum_elective_courses": null,
       "has_conditional_requirements": false,
       "has_manual_requirements": true,
+      "has_completion_manual_requirements": true,
+      "has_certificate_requirements": false,
+      "has_credit_recognition_requirements": false,
       "has_unresolved_conflicts": false
     }
   }

@@ -1,8 +1,8 @@
 {
-  "generated_at": "2026-08-16T14:22:24Z",
+  "generated_at": "2026-08-17T03:50:00Z",
   "academic_version": "115-1",
-  "ai_approved_count": 79,
-  "manual_review_count": 63,
+  "ai_approved_count": 77,
+  "manual_review_count": 65,
   "programs": [
     {
       "program_id": "prog_b6ba18c54c2d55bc",
@@ -15,7 +15,58 @@
         "course_count_constraints",
         "human_review_override",
         "manual_requirements",
+        "non_standard_credit_constraint",
         "special_rule_text_in_course_note"
+      ],
+      "reason_details": [
+        {
+          "code": "course_count_constraints",
+          "title": "有同名、等價或課程門數限制",
+          "details": [
+            "機率論(一)、機率論(二)、機率與統計、機率模式與應用、機率學等課程至多採認一科。",
+            "線性代數、線性代數(一)、線性代數(二)等課程至多採認一科。",
+            "統計學、統計學(一)、統計學(二)、高等統計學等課程至多採認一科。",
+            "財務管理、財務管理(一)、財務管理(二)、財務管理概論、財務管理理論等課程至多採認一科。",
+            "經濟學概論、經濟學、經濟學(一)、經濟學(二)、經濟學原理(一)、經濟學原理(二)、個體經濟學、個體經濟學(一)、個體經濟學(二)、總體經濟學、總體經濟學(一)、總體經濟學(二)等課程至多採認一科。"
+          ],
+          "additional_detail_count": 0
+        },
+        {
+          "code": "human_review_override",
+          "title": "本筆已套用人工修正版，仍需覆核修正內容",
+          "details": [],
+          "additional_detail_count": 0
+        },
+        {
+          "code": "manual_requirements",
+          "title": "有需依學生情況或外部證明判斷的條件",
+          "details": [
+            "[program_completion] 修畢微積分 3 學分且成績及格，方得申請修讀本學程。",
+            "[program_completion] 一般學生至少 9 學分須為非屬原主修系所之課程；雙主修或輔系學生則至少 6 學分不得屬於原主修、雙主修或輔系。"
+          ],
+          "additional_detail_count": 0
+        },
+        {
+          "code": "non_standard_credit_constraint",
+          "title": "有上限、特定範圍或條件式學分規則",
+          "details": [
+            "其中至少9學分須為非屬學生原主修",
+            "若為雙主修或輔系學生，至少6學分不得屬於原主修、雙主修或輔系。"
+          ],
+          "additional_detail_count": 0
+        },
+        {
+          "code": "special_rule_text_in_course_note",
+          "title": "課程備註含任選、上限或互斥文字",
+          "details": [
+            "線性代數、線性代數(一)、線性代數(二)等課程至多採認一科。",
+            "機率論(一)、機率論(二)、機率與統計、機率模式與應用、機率學等課程至多採認一科。",
+            "統計學、統計學(一)、統計學(二)、高等統計學等課程至多採認一科。",
+            "財務管理概論、財務管理理論等課程至多採認 財務管理、財務管理(一)、財務管理(二)、財務管理概論、財務管理理論等課程至多採認一科。",
+            "個體經濟學、個體經濟學(一)、個體經濟學 經濟學概論、經濟學、經濟學(一)、經濟學(二)、經濟學原理(一)、經濟學原理(二)、個體經濟學、個體經濟學(一)、個體經濟學(二)、總體經濟學、總體經濟學(一)、總體經濟學(二)等課程至多採認一科。"
+          ],
+          "additional_detail_count": 0
+        }
       ]
     },
     {
@@ -30,6 +81,63 @@
         "human_review_override",
         "manual_requirements",
         "special_rule_text_in_course_note"
+      ],
+      "reason_details": [
+        {
+          "code": "entry_selection_constraints",
+          "title": "有任選／至少選課規則",
+          "details": [
+            "生科系 生物技術概論 3；海資系 生物技術 3，二擇一",
+            "生物資訊學概論(大學部)、生物資訊學及其應用、生物資訊學，三擇一",
+            "訊息傳遞與藥物開發概論、細胞訊息傳遞學概論、細胞訊息傳遞與醫藥應用，三擇一"
+          ],
+          "additional_detail_count": 0
+        },
+        {
+          "code": "human_review_override",
+          "title": "本筆已套用人工修正版，仍需覆核修正內容",
+          "details": [],
+          "additional_detail_count": 0
+        },
+        {
+          "code": "manual_requirements",
+          "title": "有需依學生情況或外部證明判斷的條件",
+          "details": [
+            "[program_completion] 分子細胞生物學僅限英語授課之課程得採計。"
+          ],
+          "additional_detail_count": 0
+        },
+        {
+          "code": "special_rule_text_in_course_note",
+          "title": "課程備註含任選、上限或互斥文字",
+          "details": [
+            "二擇一 生物技術概論生物技術",
+            "三擇一"
+          ],
+          "additional_detail_count": 0
+        }
+      ]
+    },
+    {
+      "program_id": "prog_9efc6003a7a7537f",
+      "name_zh": "軟體工程學程",
+      "type": "integrated_program",
+      "status": "active",
+      "review_status": "needs_review",
+      "model_status": "partial",
+      "reasons": [
+        "manual_requirements"
+      ],
+      "reason_details": [
+        {
+          "code": "manual_requirements",
+          "title": "有需依學生情況或外部證明判斷的條件",
+          "details": [
+            "[program_completion] 3.以上課程相關規定之修改自113學年度第二學期起核准修習學生適用,原已核准修習 學生,亦得追溯適用之。",
+            "[credit_recognition] 2.修讀本學程學生,其以前修習課程及學分數之抵免,由本學程相關課程授課教師認 定。"
+          ],
+          "additional_detail_count": 0
+        }
       ]
     },
     {
@@ -43,6 +151,39 @@
         "manual_requirements",
         "no_double_count_constraints",
         "non_standard_credit_constraint"
+      ],
+      "reason_details": [
+        {
+          "code": "manual_requirements",
+          "title": "有需依學生情況或外部證明判斷的條件",
+          "details": [
+            "[program_completion] 3. 抵免之學分僅可計算於日本研究學程內,但不列入學生之畢業學分數。",
+            "[program_completion] 6. 日本籍學生得檢具證明文件(護照)提出免修日文一(一)、日文一(二)、日文二 (一)、日文二(二),但仍須修習其他核心或選修課程補足免修之學分數。",
+            "[credit_recognition] 四、修讀本學程學生倘入學前曾修習本學程規劃之課程,得提經學程負責人認定後抵免 之。",
+            "[credit_recognition] 1. 通過舊制日本語能力試驗(JLPT)4級、新制日本語能力試驗(JLPT)N5級或第二外 語能力測驗(SELPT)基礎級A1者可申請抵免核心課程日文一(一)、日文一(二), 6學分。",
+            "[credit_recognition] 2. 通過舊制日本語能力試驗(JLPT)3級、新制日本語能力試驗(JLPT)N4級或第二外 語能力測驗(SELPT)基礎級A2者,可申請抵免核心課程12學分。",
+            "[certificate] 若發生學生在申請證書之前所修的 某門課在申請證書時已被從該年度的課程表刪除之情形,則以該學生從入學開始到申 請學程證書為止的這段期間內學程所核定可修習之課程為證書核准之依據。",
+            "[program_completion] 同程度課程不得重複計算為核心學分(如:同時修日文一(一) 和商用日文(一)只能將其中一門課納為核心課程,另一門課得計入選修學分)。"
+          ],
+          "additional_detail_count": 0
+        },
+        {
+          "code": "no_double_count_constraints",
+          "title": "有不得重複採計規則",
+          "details": [
+            "同程度課程不得重複計算為核心學分（如：同時修日文一（一） 和商用日文（一）只能將其中一門課納為核心課程，另一門課得計入選修學分）。"
+          ],
+          "additional_detail_count": 0
+        },
+        {
+          "code": "non_standard_credit_constraint",
+          "title": "有上限、特定範圍或條件式學分規則",
+          "details": [
+            "同程度課程不得重複計算為核心學分",
+            "核心課程超過12學分,多餘的核心課程學分數可以納入選修學分"
+          ],
+          "additional_detail_count": 0
+        }
       ]
     },
     {
@@ -54,6 +195,23 @@
       "model_status": "partial",
       "reasons": [
         "manual_requirements"
+      ],
+      "reason_details": [
+        {
+          "code": "manual_requirements",
+          "title": "有需依學生情況或外部證明判斷的條件",
+          "details": [
+            "[credit_recognition] 115.5.21第188次教務會議通過 法國語言、文化與社會學程新課程規劃表 1 開課單位 課 程 名 稱 學分數 備註 核 心 課 程 外文系 法文(一) 3  通過法文鑑定(DELF)A2及 者可申請抵免6學分,抵免學 分僅可計算於法文學程內但 外文系 法文(二) 3 不列入學生之畢業學分數。",
+            "[program_completion] 115.5.21第188次教務會議通過 法國語言、文化與社會學程新課程規劃表 1 開課單位 課 程 名 稱 學分數 備註 核 心 課 程 外文系 法文(一) 3  通過法文鑑定(DELF)A2及 者可申請抵免6學分,抵免學 分僅可計算於法文學程內但 外文系 法文(二) 3 不列入學生之畢業學分數。",
+            "[credit_recognition] ※ 修讀本學程學生倘入學前曾修習本學程規劃之課程,得提經學程負責人認定後抵免之。",
+            "[program_completion] ※ 114學年度(含)以前加入學程之學生可將「歐美小說賞析」列入核心課程學分。",
+            "[program_completion] ※ 109學年度以前申請修習法國語言、文化與社會學程的學生,可將「觀光英文」、「尼采與 當代歐陸思潮」、「巴塔耶哲學」、「愛與共同體」、「權力關係之外-傅科哲學與主體性的改 革」、「德希達:世界主義與他者論述」、及「意識形態與歷史」列入選修學分中。",
+            "[program_completion] ※ 107學年度以前申請修習法文學程的學生,可將「通識專題講座:美學與文化識讀」與 「藝術與全球文化識讀」列入選修學分中。",
+            "[program_completion] ※ 112學年度以前申請修習法國語言、文化與社會學程的學生,可將「西洋文化典故」、「法 國語言與文化」及「歐美經典短篇小說」列入核心課程學分中。",
+            "[program_completion] ※ 110 學年度以前申請休習本學程之學生若修習核心課程超過 12 學分,多餘的核心課程學 分數可以納入選修學分計算。"
+          ],
+          "additional_detail_count": 3
+        }
       ]
     },
     {
@@ -66,6 +224,30 @@
       "reasons": [
         "entry_selection_constraints",
         "special_rule_text_in_course_note"
+      ],
+      "reason_details": [
+        {
+          "code": "entry_selection_constraints",
+          "title": "有任選／至少選課規則",
+          "details": [
+            "核心課程III (必修1門,1學分;其他門可採計為選修之學分)",
+            "核心課程 II (必修 1門,2學分;其他門可採計為選修之學分)",
+            "核 心 課 程 核心課程 I (必修 1門,2學分)",
+            "總結性課程 (必修1門,2學分)"
+          ],
+          "additional_detail_count": 0
+        },
+        {
+          "code": "special_rule_text_in_course_note",
+          "title": "課程備註含任選、上限或互斥文字",
+          "details": [
+            "核 心 課 程 核心課程 I (必修 1門,2學分)",
+            "核心課程 II (必修 1門,2學分;其他門可採計為選修之學分)",
+            "核心課程III (必修1門,1學分;其他門可採計為選修之學分)",
+            "總結性課程 (必修1門,2學分)"
+          ],
+          "additional_detail_count": 0
+        }
       ]
     },
     {
@@ -78,6 +260,24 @@
       "reasons": [
         "course_count_constraints",
         "special_rule_text_in_course_note"
+      ],
+      "reason_details": [
+        {
+          "code": "course_count_constraints",
+          "title": "有同名、等價或課程門數限制",
+          "details": [
+            "性格心理學發展心理學認知心理學"
+          ],
+          "additional_detail_count": 0
+        },
+        {
+          "code": "special_rule_text_in_course_note",
+          "title": "課程備註含任選、上限或互斥文字",
+          "details": [
+            "任選一門課 性格心理學發展心理學認知心理學 高雄醫學大學 心理學系 性格心理學 發展心理學 認知心理學 3 任選一門課"
+          ],
+          "additional_detail_count": 0
+        }
       ]
     },
     {
@@ -90,6 +290,24 @@
       "reasons": [
         "entry_selection_constraints",
         "special_rule_text_in_course_note"
+      ],
+      "reason_details": [
+        {
+          "code": "entry_selection_constraints",
+          "title": "有任選／至少選課規則",
+          "details": [
+            "核心課程學分數: 6 學分(核心課程任選二門)"
+          ],
+          "additional_detail_count": 0
+        },
+        {
+          "code": "special_rule_text_in_course_note",
+          "title": "課程備註含任選、上限或互斥文字",
+          "details": [
+            "核心課程學分數: 6 學分(核心課程任選二門)"
+          ],
+          "additional_detail_count": 0
+        }
       ]
     },
     {
@@ -102,6 +320,25 @@
       "reasons": [
         "entry_selection_constraints",
         "special_rule_text_in_course_note"
+      ],
+      "reason_details": [
+        {
+          "code": "entry_selection_constraints",
+          "title": "有任選／至少選課規則",
+          "details": [
+            "三選一其餘計入總學分"
+          ],
+          "additional_detail_count": 0
+        },
+        {
+          "code": "special_rule_text_in_course_note",
+          "title": "課程備註含任選、上限或互斥文字",
+          "details": [
+            "三選一其餘計入總學分數",
+            "三選一其餘計入總學分"
+          ],
+          "additional_detail_count": 0
+        }
       ]
     },
     {
@@ -115,6 +352,40 @@
         "entry_selection_constraints",
         "manual_requirements",
         "special_rule_text_in_course_note"
+      ],
+      "reason_details": [
+        {
+          "code": "entry_selection_constraints",
+          "title": "有任選／至少選課規則",
+          "details": [
+            "核 心 課 程 ㄧ、核心課程 I :環境教育概念(必修 3 門,6 學分)",
+            "二、核心課程 II:環境教育實習課程(1 學分,服務學習擇一必修)"
+          ],
+          "additional_detail_count": 0
+        },
+        {
+          "code": "manual_requirements",
+          "title": "有需依學生情況或外部證明判斷的條件",
+          "details": [
+            "[program_completion] 三、總結性課程(2學分,需先修畢核心課程 I和 II,方才可修習總結性課程) 海科院 環境教育實踐推廣 2 社會系 環境社會學 3 符合環保署採計課程103300 博雅向度六 海洋生態與海洋科技教育探索 2 符合環保署採計課程",
+            "[certificate] ※ 完成本學程全部領域選修 18 學分之學生可申請環保署環境教育行政人員認證",
+            "[certificate] ※ 完成本學程擇一領域選修 18 學分之學生可申請環保署環境教育教學人員認證。"
+          ],
+          "additional_detail_count": 0
+        },
+        {
+          "code": "special_rule_text_in_course_note",
+          "title": "課程備註含任選、上限或互斥文字",
+          "details": [
+            "環保署環境教育人員認證核心科目100100 核 心 課 程 ㄧ、核心課程 I :環境教育概念(必修 3 門,6 學分)",
+            "環保署環境教育人員認證核心科目106700 核 心 課 程 ㄧ、核心課程 I :環境教育概念(必修 3 門,6 學分)",
+            "行政院環境保護署環境保護人員訓練所於中華民國109年3月10日發函公告,同意本校「環境倫理與環境政策」課程採計為環境教育人員認證核心科目「環境倫理」學分 核 心 課 程 ㄧ、核心課程 I :環境教育概念(必修 3 門,6 學分)",
+            "符合環保署採計課程112200 核 心 課 程 ㄧ、核心課程 I :環境教育概念(必修 3 門,6 學分)",
+            "符合環保署採計課程202800 核 心 課 程 ㄧ、核心課程 I :環境教育概念(必修 3 門,6 學分)",
+            "符合環保署採計課程207600 核 心 課 程 ㄧ、核心課程 I :環境教育概念(必修 3 門,6 學分)"
+          ],
+          "additional_detail_count": 0
+        }
       ]
     },
     {
@@ -126,6 +397,16 @@
       "model_status": "partial",
       "reasons": [
         "non_standard_credit_constraint"
+      ],
+      "reason_details": [
+        {
+          "code": "non_standard_credit_constraint",
+          "title": "有上限、特定範圍或條件式學分規則",
+          "details": [
+            "經認可與本學程相關之線上課程(如Coursera或edX),最多可折抵6學分"
+          ],
+          "additional_detail_count": 0
+        }
       ]
     },
     {
@@ -138,6 +419,25 @@
       "reasons": [
         "entry_selection_constraints",
         "special_rule_text_in_course_note"
+      ],
+      "reason_details": [
+        {
+          "code": "entry_selection_constraints",
+          "title": "有任選／至少選課規則",
+          "details": [
+            "核 心 課 程 核心課程Ι(必修一門,2學分)"
+          ],
+          "additional_detail_count": 0
+        },
+        {
+          "code": "special_rule_text_in_course_note",
+          "title": "課程備註含任選、上限或互斥文字",
+          "details": [
+            "核 心 課 程 核心課程Ι(必修一門,2學分)",
+            "新增 核 心 課 程 核心課程Ι(必修一門,2學分)"
+          ],
+          "additional_detail_count": 0
+        }
       ]
     },
     {
@@ -150,6 +450,25 @@
       "reasons": [
         "manual_requirements",
         "non_standard_credit_constraint"
+      ],
+      "reason_details": [
+        {
+          "code": "manual_requirements",
+          "title": "有需依學生情況或外部證明判斷的條件",
+          "details": [
+            "[program_completion] ※ 自108學年度第一學期起,不認列財管所學生選修企管所之「證券市場分析」課程",
+            "[program_completion] ※ 欄位中若有*加註,該欄課程修習兩門(含)以上時,學分數僅以一門課程(3 學分)計算。"
+          ],
+          "additional_detail_count": 0
+        },
+        {
+          "code": "non_standard_credit_constraint",
+          "title": "有上限、特定範圍或條件式學分規則",
+          "details": [
+            "核心課程中至少應有3學分不屬於學生本系所"
+          ],
+          "additional_detail_count": 0
+        }
       ]
     },
     {
@@ -161,6 +480,16 @@
       "model_status": "partial",
       "reasons": [
         "entry_selection_constraints"
+      ],
+      "reason_details": [
+        {
+          "code": "entry_selection_constraints",
+          "title": "有任選／至少選課規則",
+          "details": [
+            "核心課程學分數:必修6學分擇二選修,超出學分可列入總學分數計算。"
+          ],
+          "additional_detail_count": 0
+        }
       ]
     },
     {
@@ -172,6 +501,16 @@
       "model_status": "partial",
       "reasons": [
         "manual_requirements"
+      ],
+      "reason_details": [
+        {
+          "code": "manual_requirements",
+          "title": "有需依學生情況或外部證明判斷的條件",
+          "details": [
+            "[program_completion] 西灣學院 探詢建築工藝中的高雄故事 3 向度四、英語授課 外文系 觀光英語 3 大學部、英語授課 西灣學院 台灣政經發展 3 向度三、英語授課 政經系 中國政治經濟發展 3 大學部 西灣學院 人權與現代社會:台灣與中國 3 向度三、英語授課 的路徑 西灣學院 服務學習(三):史蹟導覽 1 服務學習限大二以上修 習 西灣學院 服務學習(三):文化設計與 1 服務學習限大二以上修 社區實作 習 西灣學院 後疫情時代的國際政治 3 大學部、英語授課 政經系 全球化、自由貿易及跨國移民 3 大學部、英語授課 導論 總學分數:至少 15 學分"
+          ],
+          "additional_detail_count": 0
+        }
       ]
     },
     {
@@ -183,6 +522,14 @@
       "model_status": "partial",
       "reasons": [
         "not_active"
+      ],
+      "reason_details": [
+        {
+          "code": "not_active",
+          "title": "學程不是啟用狀態",
+          "details": [],
+          "additional_detail_count": 0
+        }
       ]
     },
     {
@@ -194,6 +541,16 @@
       "model_status": "partial",
       "reasons": [
         "manual_requirements"
+      ],
+      "reason_details": [
+        {
+          "code": "manual_requirements",
+          "title": "有需依學生情況或外部證明判斷的條件",
+          "details": [
+            "[program_completion] 113.12.12第182次教務會議通過 音樂與高齡照護學程新課程規劃表 1 開課單位 課 程 名 稱 學分數 備註 核 心 課 程 高雄醫學大學心 普通心理學 3 理學系 醫學科技研究所 智慧長照創新服務開發模式 3 需先選修普通心理學,始得 高雄醫學大學醫 諮商理論與技術 2 修課 社系 *異動開課系所及學分數 高雄醫學大學醫 需先選修諮商理論與技術, 諮商理論與實務 2 社系 始得修課 後醫學系 與老共舞 3 核心課程學分數: 6 學分 選 修 音樂學系 音樂治療 2 音樂學系 音樂心理學 2 高雄醫學大學心 性格心理學 3 理學系 高雄醫學大學心 發展心理學 3 理學系 音樂學系 表達性藝術治療個案討論 3 音樂於高齡照護之設計與運 音樂學系 3 用 音樂學系 音樂與律動於樂齡之運用 3 後醫學系 危老年代 2 後醫學系 神經心理學 3 高雄醫學大學心 需先修畢本學程之核心課程6 應用心理學實務與實習 3 理學系 學分,始得修課 總學分數:至少 15 學分"
+          ],
+          "additional_detail_count": 0
+        }
       ]
     },
     {
@@ -205,6 +562,14 @@
       "model_status": "partial",
       "reasons": [
         "not_active"
+      ],
+      "reason_details": [
+        {
+          "code": "not_active",
+          "title": "學程不是啟用狀態",
+          "details": [],
+          "additional_detail_count": 0
+        }
       ]
     },
     {
@@ -218,6 +583,36 @@
         "entry_selection_constraints",
         "maximum_core_credits",
         "special_rule_text_in_course_note"
+      ],
+      "reason_details": [
+        {
+          "code": "entry_selection_constraints",
+          "title": "有任選／至少選課規則",
+          "details": [
+            "ㄧ、核心課程 I :海洋基礎課程(必修 1 門,2 學分) 可多修 1 門,納入選修學分",
+            "三、核心課程 III:進階課程(必修 1 門,1 或 2 或 3 學分)",
+            "四、總結性課程(2 學分)",
+            "二、核心課程 II:海洋數據分析(必修 1 門,2 或 3 學分)可多修 1 門,納入選修學分"
+          ],
+          "additional_detail_count": 0
+        },
+        {
+          "code": "maximum_core_credits",
+          "title": "有核心學分上限",
+          "details": [],
+          "additional_detail_count": 0
+        },
+        {
+          "code": "special_rule_text_in_course_note",
+          "title": "課程備註含任選、上限或互斥文字",
+          "details": [
+            "ㄧ、核心課程 I :海洋基礎課程(必修 1 門,2 學分) 可多修 1 門,納入選修學分",
+            "二、核心課程 II:海洋數據分析(必修 1 門,2 或 3 學分)可多修 1 門,納入選修學分",
+            "三、核心課程 III:進階課程(必修 1 門,1 或 2 或 3 學分)",
+            "學士班或碩士班 三、核心課程 III:進階課程(必修 1 門,1 或 2 或 3 學分)"
+          ],
+          "additional_detail_count": 0
+        }
       ]
     },
     {
@@ -229,6 +624,17 @@
       "model_status": "partial",
       "reasons": [
         "manual_requirements"
+      ],
+      "reason_details": [
+        {
+          "code": "manual_requirements",
+          "title": "有需依學生情況或外部證明判斷的條件",
+          "details": [
+            "[program_completion] 凡於 114學年度第 1學期(含)前已取得該課程學分者,可將其計入選修學分。",
+            "[program_completion] ※資管系開設之「WEB 程式設計」課程,自114 學年度第 2學期起,將從本學程課程架構 中移除。"
+          ],
+          "additional_detail_count": 0
+        }
       ]
     },
     {
@@ -242,6 +648,32 @@
         "no_double_count_constraints",
         "non_standard_credit_constraint",
         "special_rule_text_in_course_note"
+      ],
+      "reason_details": [
+        {
+          "code": "no_double_count_constraints",
+          "title": "有不得重複採計規則",
+          "details": [
+            "【114學年度第1學期起適用】 114.11.4 114學年度第1學期學分學程會議通過 114.12.9第186次教務會議通過 天然藥物合成學程新課程規劃表 開課單位 課 程 名 稱 學分數 備註 核 心 課 程 化學系 有機化學(三) 3 化學系 有機光譜概論 3 「有機光譜概論」和「有機光 化學碩 有機光譜學 3 譜學」之學分不得重複認列 海資系 生藥學 3 化學碩 高等有機化學 3 化學碩 物理有機化學 3 化學碩 天然物合成 3 核心課程學分數： 9 學分 選 修 化學系 生物化學(一) 3 化學系 生物化學(二) 3 生科系 生物化學(一) 3 相同課名之學分僅認列一次 生科系 生物化學(二) 3 海資系 生物化學(一) 3 海資系 生物化學(二) 3 化學系 生物無機化學 3 化學系 生醫技術導論 3 海資系 天然物化學概論 3 海資系 訊息傳遞與藥物開發概論 3 海資系 海洋化學光譜分析 3 海資碩 天然物化學（一） 3 海資碩 色層分析 3 海資碩 分子標靶與天然物開發 3 生技醫藥碩 生技醫藥研發與技術特論 3 生技醫藥碩 大分子藥物開發特論 3 生技醫藥碩 藥物化學（一） 3 生技醫藥碩 藥物開發通論 2 生技醫藥碩 分子藥物設計及合成 2 生技醫藥碩 抗癌藥物現狀與展望 2 總學分數：至少 15 學分 ※【整合學程】課程規劃至少15學分。"
+          ],
+          "additional_detail_count": 0
+        },
+        {
+          "code": "non_standard_credit_constraint",
+          "title": "有上限、特定範圍或條件式學分規則",
+          "details": [
+            "有機光譜概論3「有機光譜概論」和「有機光化學碩有機光譜學3譜學」之學分不得重複認列"
+          ],
+          "additional_detail_count": 0
+        },
+        {
+          "code": "special_rule_text_in_course_note",
+          "title": "課程備註含任選、上限或互斥文字",
+          "details": [
+            "「有機光譜概論」和「有機光譜學」之學分不得重複認列"
+          ],
+          "additional_detail_count": 0
+        }
       ]
     },
     {
@@ -257,6 +689,51 @@
         "non_standard_credit_constraint",
         "program_course_selection_constraints",
         "special_rule_text_in_course_note"
+      ],
+      "reason_details": [
+        {
+          "code": "course_count_constraints",
+          "title": "有同名、等價或課程門數限制",
+          "details": [
+            "每一學程科目僅採計一門課程學分。"
+          ],
+          "additional_detail_count": 0
+        },
+        {
+          "code": "no_double_count_constraints",
+          "title": "有不得重複採計規則",
+          "details": [
+            "學生可使用「核心課程（必修/必選修）」之學 分抵免專業選修學分，惟不得重複計入學程核心課程學分。"
+          ],
+          "additional_detail_count": 0
+        },
+        {
+          "code": "non_standard_credit_constraint",
+          "title": "有上限、特定範圍或條件式學分規則",
+          "details": [
+            "核心課程(必修)學分數: 6 學分",
+            "核心課程(必選修)學分數: 18 學分"
+          ],
+          "additional_detail_count": 0
+        },
+        {
+          "code": "program_course_selection_constraints",
+          "title": "有學程科目層級選擇規則",
+          "details": [
+            "核 心 課 程 ( 必 修 ) 半導體製 程 半導體製程導論 機電系 3 1. 每一學程科目僅採 計一門課程學分。 2.核心(必修)13學程 科目應選2門課程。",
+            "核 程 ( 必 心 選 修 課 ) 固態物理 導論 固態物理導論(一) 物理系 3 1. 每一學程科目僅 採計一門課程學分。 2. 核心(必選修)15 學 程科目應選 6 門課",
+            "選 修 微電子工 程 微電子技術 電機系 3 1. 每一學程科目僅採 計一門課程學分。 2. 選修11學程科目應 選3門課程。"
+          ],
+          "additional_detail_count": 0
+        },
+        {
+          "code": "special_rule_text_in_course_note",
+          "title": "課程備註含任選、上限或互斥文字",
+          "details": [
+            "1. 每一學程科目僅採計一門課程學分。2.核心(必修)13學程科目應選2門課程。"
+          ],
+          "additional_detail_count": 0
+        }
       ]
     },
     {
@@ -272,6 +749,51 @@
         "non_standard_credit_constraint",
         "program_course_selection_constraints",
         "special_rule_text_in_course_note"
+      ],
+      "reason_details": [
+        {
+          "code": "course_count_constraints",
+          "title": "有同名、等價或課程門數限制",
+          "details": [
+            "每一學程科目僅採計一門課程學分。"
+          ],
+          "additional_detail_count": 0
+        },
+        {
+          "code": "no_double_count_constraints",
+          "title": "有不得重複採計規則",
+          "details": [
+            "學生可使用「核心課程（必選修）」之學分抵免專業選 修學分，惟不得重複計入學程核心課程學分。"
+          ],
+          "additional_detail_count": 0
+        },
+        {
+          "code": "non_standard_credit_constraint",
+          "title": "有上限、特定範圍或條件式學分規則",
+          "details": [
+            "核心課程(必修)學分數: 6 學分",
+            "核心課程(必選修)學分數: 18 學分"
+          ],
+          "additional_detail_count": 0
+        },
+        {
+          "code": "program_course_selection_constraints",
+          "title": "有學程科目層級選擇規則",
+          "details": [
+            "核 心 課 程 ( 必 選 修 ) 半導體製程 半導體製程導論 機電系 3 1.每一學程科目 僅採計一門課 程學分。 2. 核 心 ( 必 選 修)13學程科目 應選6門課程。",
+            "核 心 課 程 ( 必 修 ) 半導體製程設 備與技術 半導體製程設備與技術 機電所 3 1.每一學程科目 僅採計一門課 程學分。 2.核心(必修)2 學程科目應選2 門課程。",
+            "選 修 半導體元件物 理 半導體元件(一) 電機系 3 1.每一學程科目 僅採計一門課 程學分。 2.選修8學程科 目 應 選 3 門 課 程。"
+          ],
+          "additional_detail_count": 0
+        },
+        {
+          "code": "special_rule_text_in_course_note",
+          "title": "課程備註含任選、上限或互斥文字",
+          "details": [
+            "1.每一學程科目僅採計一門課程學分。2.核心(必修)2學程科目應選2門課程。"
+          ],
+          "additional_detail_count": 0
+        }
       ]
     },
     {
@@ -287,6 +809,51 @@
         "non_standard_credit_constraint",
         "program_course_selection_constraints",
         "special_rule_text_in_course_note"
+      ],
+      "reason_details": [
+        {
+          "code": "course_count_constraints",
+          "title": "有同名、等價或課程門數限制",
+          "details": [
+            "每一學程科目僅採計一門課程學分。"
+          ],
+          "additional_detail_count": 0
+        },
+        {
+          "code": "no_double_count_constraints",
+          "title": "有不得重複採計規則",
+          "details": [
+            "學生可使用「核心課程（必選修）」之學分抵免專業選修學 分，惟不得重複計入學程核心課程學分。"
+          ],
+          "additional_detail_count": 0
+        },
+        {
+          "code": "non_standard_credit_constraint",
+          "title": "有上限、特定範圍或條件式學分規則",
+          "details": [
+            "核心課程(必修)學分數: 9 學分",
+            "核心課程(必選修)學分數: 15 學分"
+          ],
+          "additional_detail_count": 0
+        },
+        {
+          "code": "program_course_selection_constraints",
+          "title": "有學程科目層級選擇規則",
+          "details": [
+            "核 心 課 程 ( 必 選 修 ) 固態物理導論 固態物理 材光系 3 1.每一學程科目 僅採計一門課程 學分。 2. 核 心 ( 必 選 修)11學程科目應 選5門課程。",
+            "核 心 課 程 ( 必 修 ) 半導體元件物理 半導體元件(一) 電機系 3 1.每一學程科目 僅採計一門課程 學分。 2.核心(必修)3學 程科目應選3門 課程。",
+            "選 修 量子力學導論 量子力學 物理所 3 1.每一學程科目 僅採計一門課程 學分。 2.選修13學程科 目應選3門課程。"
+          ],
+          "additional_detail_count": 0
+        },
+        {
+          "code": "special_rule_text_in_course_note",
+          "title": "課程備註含任選、上限或互斥文字",
+          "details": [
+            "1.每一學程科目僅採計一門課程學分。2.核心(必修)3學程科目應選3門課程。"
+          ],
+          "additional_detail_count": 0
+        }
       ]
     },
     {
@@ -301,6 +868,53 @@
         "no_double_count_constraints",
         "non_standard_credit_constraint",
         "special_rule_text_in_course_note"
+      ],
+      "reason_details": [
+        {
+          "code": "manual_requirements",
+          "title": "有需依學生情況或外部證明判斷的條件",
+          "details": [
+            "[program_completion] 跨院EAP 3 TECHNOLOGY( ADVANCED LEVEL) 科技英文閱讀 基礎教育中心 ENGLISH READING FOR SCIENCE AND TECHNOLOGY 為相同課程,不得重複修習, 科技英文閱讀(中高級) 3 僅能認列其中一門。",
+            "[program_completion] IMPROVING 跨院EAP COMMUNICATION SKILLS 3 THROUGH FUNCTIONAL ENGLISH(INTERMEDIATE LEVEL) 通過體驗式學習自信地說英語 SPEAKING ENGLISH WITH 基礎教育中心 3 CONFIDENCE THROUGH EXPERIENTIAL LEARNING 通過體驗式學習自信地說英語 為相同課程,不得重複修習, (中級) 僅能認列其中一門。",
+            "[program_completion] 從英語課程學習多元文化 DEVELOPING 基礎教育中心 MULTICULTURAL 3 AWARENESS IN ENGLISH CLASSROOM 從英語課程學習多元文化(中高 為相同課程,不得重複修習, 級) 僅能認列其中一門。",
+            "[program_completion] EXPERIENTIAL LEARNING(INTERMEDIATE LEVEL) 通過體驗式學習自信地說英語 跨院 EAP 3 (中高級) 核心課程〈專業模組課程〉學分數:6學分 選 2 修 觀光英語 基礎教育中心 3 TOURISM ENGLISH 成功的英文寫作 為相同課程,不得重複修習, 基礎教育中心 WRITING FOR SUCCESS IN 3 僅能認列其中一門。",
+            "[program_completion] DEVELOPING 跨院ESP MULTICULTURAL 3 AWARENESS IN ENGLISH CLASSROOM(HIGH- INTERMEDIATE LEVEL) 透過實用性英語增進溝通能力 IMPROVING 基礎教育中心 COMMUNICATION SKILLS 3 THROUGH FUNCTIONAL ENGLISH 透過實用性英語增進溝通能力 為相同課程,不得重複修習, (中級) 僅能認列其中一門。",
+            "[program_completion] 成功的英文寫作(中級) WRITING FOR SUCCESS IN 跨院EAP ENGLISH(INTERMEDIATE LEVEL) 成功的英文寫作(中高級) WRITING FOR SUCCESS IN 跨院EAP ENGLISH (HIGH- INTERMEDIATE LEVEL) 英文商業書信 基礎教育中心 ENGLISH BUSINESS CORRESPONDENCE 英文商業書信(中級) 為相同課程,不得重複修習, 3 ENGLISH BUSINESS 僅能認列其中一門。",
+            "[program_completion] 相同課名以中文授課者,不採計 學程學分。",
+            "[program_completion] 2. 當學期課程開設為英語授課者,方得認列本學程學分。"
+          ],
+          "additional_detail_count": 0
+        },
+        {
+          "code": "no_double_count_constraints",
+          "title": "有不得重複採計規則",
+          "details": [
+            "從英語課程學習多元文化 DEVELOPING 基礎教育中心 MULTICULTURAL 3 AWARENESS IN ENGLISH CLASSROOM 從英語課程學習多元文化（中高 為相同課程，不得重複修習， 級） 僅能認列其中一門。"
+          ],
+          "additional_detail_count": 0
+        },
+        {
+          "code": "non_standard_credit_constraint",
+          "title": "有上限、特定範圍或條件式學分規則",
+          "details": [
+            "基礎教育中心 科技英文閱讀 ENGLISH READING FOR SCIENCE AND TECHNOLOGY 3 為相同課程,不得重複修習, 僅能認列其中一門。適用所有 核准修習本學程學生。",
+            "基礎教育中心 從英語課程學習多元文化 DEVELOPING MULTICULTURAL AWARENESS IN ENGLISH CLASSROOM 3 為相同課程,不得重複修習, 僅能認列其中一門。",
+            "基礎教育中心 透過實用性英語增進溝通能力 IMPROVING COMMUNICATION SKILLS THROUGH FUNCTIONAL ENGLISH 3 為相同課程,不得重複修習, 僅能認列其中一門。",
+            "基礎教育中心 成功的英文寫作 WRITING FOR SUCCESS IN ENGLISH 3 為相同課程,不得重複修習, 僅能認列其中一門。",
+            "基礎教育中心 通過體驗式學習自信地說英語 SPEAKING ENGLISH WITH CONFIDENCE THROUGH EXPERIENTIAL LEARNING 3 為相同課程,不得重複修習, 僅能認列其中一門。 適用所有核准修習本學程學 生。",
+            "基礎教育中心 英文商業書信 ENGLISH BUSINESS CORRESPONDENCE 3 為相同課程,不得重複修習, 僅能認列其中一門。"
+          ],
+          "additional_detail_count": 0
+        },
+        {
+          "code": "special_rule_text_in_course_note",
+          "title": "課程備註含任選、上限或互斥文字",
+          "details": [
+            "為相同課程,不得重複修習,僅能認列其中一門。適用所有核准修習本學程學生。",
+            "為相同課程,不得重複修習,僅能認列其中一門。"
+          ],
+          "additional_detail_count": 0
+        }
       ]
     },
     {
@@ -312,6 +926,16 @@
       "model_status": "partial",
       "reasons": [
         "named_group_selection_constraints"
+      ],
+      "reason_details": [
+        {
+          "code": "named_group_selection_constraints",
+          "title": "有命名群組選擇規則",
+          "details": [
+            "核 心 課 程 中文系 中國文學史(一)(二) 6 中文系基礎必修課程 文學/思想/語言文字 三領域擇一修習 至少 6 學分"
+          ],
+          "additional_detail_count": 0
+        }
       ]
     },
     {
@@ -324,6 +948,25 @@
       "reasons": [
         "entry_selection_constraints",
         "special_rule_text_in_course_note"
+      ],
+      "reason_details": [
+        {
+          "code": "entry_selection_constraints",
+          "title": "有任選／至少選課規則",
+          "details": [
+            "選修 課程 研究所 專業 輔助 高等計算機結構 電機碩 3 任選 1門"
+          ],
+          "additional_detail_count": 0
+        },
+        {
+          "code": "special_rule_text_in_course_note",
+          "title": "課程備註含任選、上限或互斥文字",
+          "details": [
+            "任選1門 選修 課程 研究所 專業 輔助 高等計算機結構 電機碩 3 任選 1門",
+            "選修 課程 研究所 專業 輔助 高等計算機結構 電機碩 3 任選 1門"
+          ],
+          "additional_detail_count": 0
+        }
       ]
     },
     {
@@ -337,6 +980,48 @@
         "course_count_constraints",
         "entry_selection_constraints",
         "special_rule_text_in_course_note"
+      ],
+      "reason_details": [
+        {
+          "code": "course_count_constraints",
+          "title": "有同名、等價或課程門數限制",
+          "details": [
+            "電子學(一)、或數位電子學",
+            "微電子技術、或半導體奈米元件製造技術、或半導體製程設備與技術",
+            "電子學(二)、或應用電子學",
+            "電路學(一)、或電路學",
+            "訊號與系統、或信號與系統",
+            "半導體元件(一)、半導體物理、或半導體元件"
+          ],
+          "additional_detail_count": 0
+        },
+        {
+          "code": "entry_selection_constraints",
+          "title": "有任選／至少選課規則",
+          "details": [
+            "核 心 課 程 電機系/跨院選修(工)、機電系 電路學(一)、或電路學 3 任選4門",
+            "電機碩、IC設計所 通訊介面 IC設計 3 任選1門",
+            "選 修 電機系 通訊系統 3 任選1門",
+            "電機碩/資工碩、IC設計所 高等類比積體電路設計 3 任選2門",
+            "電機系、光電系、材光碩 半導體元件(一)、半導體物 理、或半導體元件 3 任選1門"
+          ],
+          "additional_detail_count": 0
+        },
+        {
+          "code": "special_rule_text_in_course_note",
+          "title": "課程備註含任選、上限或互斥文字",
+          "details": [
+            "任選4門 電路學(一)、或電路學 核 心 課 程 電機系/跨院選修(工)、機電系 電路學(一)、或電路學 3 任選4門",
+            "任選4門 電路學(一)、或電路學",
+            "電子學(一)、或數位電子學 核 心 課 程 電機系/跨院選修(工)、機電系 電路學(一)、或電路學 3 任選4門",
+            "核 心 課 程 電機系/跨院選修(工)、機電系 電路學(一)、或電路學 3 任選4門",
+            "電子學(二)、或應用電子學 核 心 課 程 電機系/跨院選修(工)、機電系 電路學(一)、或電路學 3 任選4門",
+            "訊號與系統、或信號與系統 核 心 課 程 電機系/跨院選修(工)、機電系 電路學(一)、或電路學 3 任選4門",
+            "任選2門 電機碩/資工碩、IC設計所 高等類比積體電路設計 3 任選2門",
+            "電機碩/資工碩、IC設計所 高等類比積體電路設計 3 任選2門"
+          ],
+          "additional_detail_count": 7
+        }
       ]
     },
     {
@@ -348,6 +1033,18 @@
       "model_status": "partial",
       "reasons": [
         "manual_requirements"
+      ],
+      "reason_details": [
+        {
+          "code": "manual_requirements",
+          "title": "有需依學生情況或外部證明判斷的條件",
+          "details": [
+            "[certificate] 1)學生必須參加五項與人權相關之課外活動,包括講座、座談會、會議、研討會、展覽或 其他公共節目。",
+            "[certificate] 2)學生必須通過實習、領導或參與學生倡議或社區項目,在人權領域從事至少十五小時的 持續工作。",
+            "[certificate] 3)學生必須提交一份關於他們在學習或實際工作中遇到的關鍵問題、挑戰或悖論的最終批 判性反思論文。"
+          ],
+          "additional_detail_count": 0
+        }
       ]
     },
     {
@@ -361,6 +1058,30 @@
         "course_count_constraints",
         "human_review_override",
         "non_standard_credit_constraint"
+      ],
+      "reason_details": [
+        {
+          "code": "course_count_constraints",
+          "title": "有同名、等價或課程門數限制",
+          "details": [
+            "各課程屬性僅採計3學分"
+          ],
+          "additional_detail_count": 0
+        },
+        {
+          "code": "human_review_override",
+          "title": "本筆已套用人工修正版，仍需覆核修正內容",
+          "details": [],
+          "additional_detail_count": 0
+        },
+        {
+          "code": "non_standard_credit_constraint",
+          "title": "有上限、特定範圍或條件式學分規則",
+          "details": [
+            "核 心 課 程 矽光子 原理 光電碩 光電子學(英) 3 各課程屬 性僅採計3 學分"
+          ],
+          "additional_detail_count": 0
+        }
       ]
     },
     {
@@ -377,6 +1098,74 @@
         "non_standard_credit_constraint",
         "special_rule_text_in_course_note",
         "unclassified_course"
+      ],
+      "reason_details": [
+        {
+          "code": "course_count_constraints",
+          "title": "有同名、等價或課程門數限制",
+          "details": [
+            "數據科學實務與創新",
+            "程式設計",
+            "人工智慧導論",
+            "機率論(二)",
+            "計算機概論",
+            "Python 程式設計",
+            "金融科技",
+            "統計學(一)"
+          ],
+          "additional_detail_count": 3
+        },
+        {
+          "code": "entry_selection_constraints",
+          "title": "有任選／至少選課規則",
+          "details": [
+            "每一向度至少需修習一門課程。"
+          ],
+          "additional_detail_count": 0
+        },
+        {
+          "code": "manual_requirements",
+          "title": "有需依學生情況或外部證明判斷的條件",
+          "details": [
+            "[certificate] 3.學生欲取得TAICA核發學程學分證明之修課規定: (1)本學分學程共計需修習15學分,學生所修課程中,須至少有9 學分不屬於其主修、輔系或其 他學分學程之必修或必選課程(亦即非屬於任何一門必修或必選修課程),方得核發本學程學 分證明。",
+            "[certificate] (3)若學生欲申取得TAICA核發學程學分證明者,須於該學程中修習至少8學分TAICA聯盟認定 課程(包括主導課程、鏡像課程及衛星課程)。"
+          ],
+          "additional_detail_count": 0
+        },
+        {
+          "code": "non_standard_credit_constraint",
+          "title": "有上限、特定範圍或條件式學分規則",
+          "details": [
+            "須至少有9學分不屬於其主修",
+            "至少8學分TAICA聯盟認定課程",
+            "TAICA學程間之學分相互認抵以6學分為上限",
+            "性質相近之課程認抵本學程課程,以3學分為上限"
+          ],
+          "additional_detail_count": 0
+        },
+        {
+          "code": "special_rule_text_in_course_note",
+          "title": "課程備註含任選、上限或互斥文字",
+          "details": [
+            "TAICA 系列課程 Python 程式設計 每一向度至少需修習一門課程。",
+            "TAICA 系列課程 程式設計 每一向度至少需修習一門課程。",
+            "TAICA 系列課程 計算機概論 每一向度至少需修習一門課程。",
+            "TAICA 系列課程 計算機程式 每一向度至少需修習一門課程。",
+            "TAICA 系列課程 統計學(一) 每一向度至少需修習一門課程。",
+            "TAICA 系列課程 每一向度至少需修習一門課程。",
+            "TAICA 系列課程 數據科學實務與創新 每一向度至少需修習一門課程。",
+            "TAICA 系列課程 機率論(二) 每一向度至少需修習一門課程。"
+          ],
+          "additional_detail_count": 4
+        },
+        {
+          "code": "unclassified_course",
+          "title": "仍有課程無法歸入核心或選修",
+          "details": [
+            "29 門：Python程式設計入門、Python 程式設計、程式設計(一)、程式設計、計算機概論與程式設計、計算機概論、計算機程式設計、計算機程式"
+          ],
+          "additional_detail_count": 0
+        }
       ]
     },
     {
@@ -393,6 +1182,72 @@
         "non_standard_credit_constraint",
         "special_rule_text_in_course_note",
         "unclassified_course"
+      ],
+      "reason_details": [
+        {
+          "code": "course_count_constraints",
+          "title": "有同名、等價或課程門數限制",
+          "details": [
+            "機器學習",
+            "進階資料探勘",
+            "機器學習導論",
+            "智慧製造專題",
+            "應用統計方法",
+            "智慧製造與監測技術"
+          ],
+          "additional_detail_count": 0
+        },
+        {
+          "code": "entry_selection_constraints",
+          "title": "有任選／至少選課規則",
+          "details": [
+            "每一向度至少需修習一門課程。"
+          ],
+          "additional_detail_count": 0
+        },
+        {
+          "code": "manual_requirements",
+          "title": "有需依學生情況或外部證明判斷的條件",
+          "details": [
+            "[certificate] 3.學生欲取得TAICA核發學程學分證明之修課規定: (1)本學分學程共計需修習15學分,學生所修課程中,須至少有9 學分不屬於其主修、輔系 1",
+            "[certificate] 或其他學分學程之必修或必選課程(亦即非屬於任何一門必修或必選修課程),方得核發本 學程學分證明。",
+            "[certificate] (3)若學生欲申取得TAICA核發學程學分證明者,須於該學程中修習至少8學分TAICA聯盟 認定課程(包括主導課程、鏡像課程及衛星課程)。"
+          ],
+          "additional_detail_count": 0
+        },
+        {
+          "code": "non_standard_credit_constraint",
+          "title": "有上限、特定範圍或條件式學分規則",
+          "details": [
+            "須至少有9學分不屬於其主修",
+            "至少8學分TAICA聯盟認定課程",
+            "TAICA學程間之學分相互認抵以6學分為上限",
+            "性質相近之課程認抵本學程課程,以3學分為上限"
+          ],
+          "additional_detail_count": 0
+        },
+        {
+          "code": "special_rule_text_in_course_note",
+          "title": "課程備註含任選、上限或互斥文字",
+          "details": [
+            "TAICA 系列課程 每一向度至少需修習一門課程。",
+            "TAICA 系列課程 應用統計方法 每一向度至少需修習一門課程。",
+            "TAICA 系列課程 進階資料探勘 每一向度至少需修習一門課程。",
+            "TAICA 系列課程 機器學習 每一向度至少需修習一門課程。",
+            "TAICA 系列課程 機器學習導論 每一向度至少需修習一門課程。",
+            "TAICA 系列課程 智慧製造與監測技術 每一向度至少需修習一門課程。",
+            "TAICA 系列課程 智慧製造專題 每一向度至少需修習一門課程。"
+          ],
+          "additional_detail_count": 0
+        },
+        {
+          "code": "unclassified_course",
+          "title": "仍有課程無法歸入核心或選修",
+          "details": [
+            "20 門：機率與統計、機率與統計、統計方法、應用統計方法、資料探勘與應用、進階資料探勘、資料探勘、資料探勘"
+          ],
+          "additional_detail_count": 0
+        }
       ]
     },
     {
@@ -409,6 +1264,65 @@
         "non_standard_credit_constraint",
         "special_rule_text_in_course_note",
         "unclassified_course"
+      ],
+      "reason_details": [
+        {
+          "code": "course_count_constraints",
+          "title": "有同名、等價或課程門數限制",
+          "details": [
+            "3D內容生成與體感互動",
+            "深度學習",
+            "人工智慧導論"
+          ],
+          "additional_detail_count": 0
+        },
+        {
+          "code": "entry_selection_constraints",
+          "title": "有任選／至少選課規則",
+          "details": [
+            "每一向度至少需修習一門課程。"
+          ],
+          "additional_detail_count": 0
+        },
+        {
+          "code": "manual_requirements",
+          "title": "有需依學生情況或外部證明判斷的條件",
+          "details": [
+            "[certificate] 3.學生欲取得TAICA核發學程學分證明之修課規定: (1)本學分學程共計需修習15學分,學生所修課程中,須至少有9 學分不屬於其主修、輔系 或其他學分學程之必修或必選課程(亦即非屬於任何一門必修或必選修課程),方得核發本 學程學分證明。",
+            "[certificate] (3)若學生欲申取得TAICA核發學程學分證明者,須於該學程中修習至少8學分TAICA聯盟 認定課程(包括主導課程、鏡像課程及衛星課程)。"
+          ],
+          "additional_detail_count": 0
+        },
+        {
+          "code": "non_standard_credit_constraint",
+          "title": "有上限、特定範圍或條件式學分規則",
+          "details": [
+            "須至少有9學分不屬於其主修",
+            "性質相近之課程認抵本學程課程,以3學分為上限",
+            "至少8學分TAICA聯盟認定課程",
+            "TAICA學程間之學分相互認抵以6學分為上限"
+          ],
+          "additional_detail_count": 0
+        },
+        {
+          "code": "special_rule_text_in_course_note",
+          "title": "課程備註含任選、上限或互斥文字",
+          "details": [
+            "TAICA 系列課程 人工智慧導論 每一向度至少需修習一門課程。",
+            "TAICA 系列課程 每一向度至少需修習一門課程。",
+            "TAICA 系列課程 3D內容生成與體感互動 每一向度至少需修習一門課程。",
+            "TAICA 系列課程 深度學習 每一向度至少需修習一門課程。"
+          ],
+          "additional_detail_count": 0
+        },
+        {
+          "code": "unclassified_course",
+          "title": "仍有課程無法歸入核心或選修",
+          "details": [
+            "11 門：生成式人工智慧導論、人工智慧導論、人工智慧倫理、法律、與社會、使用者中心互動介面設計、互動設計與虛擬實境、3D內容生成與體感互動、資料探勘、資料探勘"
+          ],
+          "additional_detail_count": 0
+        }
       ]
     },
     {
@@ -425,6 +1339,71 @@
         "non_standard_credit_constraint",
         "special_rule_text_in_course_note",
         "unclassified_course"
+      ],
+      "reason_details": [
+        {
+          "code": "course_count_constraints",
+          "title": "有同名、等價或課程門數限制",
+          "details": [
+            "深度視覺",
+            "機器學習",
+            "深度學習",
+            "機器學習導論",
+            "數位影像處理",
+            "電腦視覺"
+          ],
+          "additional_detail_count": 0
+        },
+        {
+          "code": "entry_selection_constraints",
+          "title": "有任選／至少選課規則",
+          "details": [
+            "每一向度至少需修習一門課程。"
+          ],
+          "additional_detail_count": 0
+        },
+        {
+          "code": "manual_requirements",
+          "title": "有需依學生情況或外部證明判斷的條件",
+          "details": [
+            "[certificate] 3.學生欲取得TAICA核發學程學分證明之修課規定: (1)本學分學程共計需修習15學分,學生所修課程中,須至少有9 學分不屬於其主修、輔系 或其他學分學程之必修或必選課程(亦即非屬於任何一門必修或必選修課程),方得核發本 學程學分證明。",
+            "[certificate] (3)若學生欲申取得TAICA核發學程學分證明者,須於該學程中修習至少8學分TAICA聯盟 認定課程(包括主導課程、鏡像課程及衛星課程)。"
+          ],
+          "additional_detail_count": 0
+        },
+        {
+          "code": "non_standard_credit_constraint",
+          "title": "有上限、特定範圍或條件式學分規則",
+          "details": [
+            "須至少有9學分不屬於其主修",
+            "至少8學分TAICA聯盟認定課程",
+            "TAICA學程間之學分相互認抵以6學分為上限",
+            "性質相近之課程認抵本學程課程,以3學分為上限"
+          ],
+          "additional_detail_count": 0
+        },
+        {
+          "code": "special_rule_text_in_course_note",
+          "title": "課程備註含任選、上限或互斥文字",
+          "details": [
+            "TAICA 系列課程 機器學習 每一向度至少需修習一門課程。",
+            "TAICA 系列課程 機器學習導論 每一向度至少需修習一門課程。",
+            "TAICA 系列課程 每一向度至少需修習一門課程。",
+            "TAICA 系列課程 深度學習 每一向度至少需修習一門課程。",
+            "TAICA 系列課程 數位影像處理 每一向度至少需修習一門課程。",
+            "TAICA 系列課程 電腦視覺 每一向度至少需修習一門課程。",
+            "TAICA 系列課程 深度視覺 每一向度至少需修習一門課程。"
+          ],
+          "additional_detail_count": 0
+        },
+        {
+          "code": "unclassified_course",
+          "title": "仍有課程無法歸入核心或選修",
+          "details": [
+            "16 門：機器學習概論、機器學習、機器學習特論、機器學習導論、人工智慧倫理、法律與社會、高等深度學習、深度學習、影像處理"
+          ],
+          "additional_detail_count": 0
+        }
       ]
     },
     {
@@ -442,6 +1421,71 @@
         "parser_warning",
         "special_rule_text_in_course_note",
         "unclassified_course"
+      ],
+      "reason_details": [
+        {
+          "code": "course_count_constraints",
+          "title": "有同名、等價或課程門數限制",
+          "details": [
+            "深度學習",
+            "資訊安全"
+          ],
+          "additional_detail_count": 0
+        },
+        {
+          "code": "entry_selection_constraints",
+          "title": "有任選／至少選課規則",
+          "details": [
+            "每一向度至少需修習一門課程。"
+          ],
+          "additional_detail_count": 0
+        },
+        {
+          "code": "manual_requirements",
+          "title": "有需依學生情況或外部證明判斷的條件",
+          "details": [
+            "[certificate] 3.學生欲取得TAICA核發學程學分證明之修課規定: (1)本學分學程共計需修習15學分,學生所修課程中,須至少有9 學分不屬於其主修、輔系 或其他學分學程之必修或必選課程(亦即非屬於任何一門必修或必選修課程),方得核發本 學程學分證明。",
+            "[certificate] (3)若學生欲申取得TAICA核發學程學分證明者,須於該學程中修習至少8學分TAICA聯盟 認定課程(包括主導課程、鏡像課程及衛星課程)。"
+          ],
+          "additional_detail_count": 0
+        },
+        {
+          "code": "non_standard_credit_constraint",
+          "title": "有上限、特定範圍或條件式學分規則",
+          "details": [
+            "須至少有9學分不屬於其主修",
+            "至少8學分TAICA聯盟認定課程",
+            "TAICA學程間之學分相互認抵以6學分為上限",
+            "性質相近之課程認抵本學程課程,以3學分為上限"
+          ],
+          "additional_detail_count": 0
+        },
+        {
+          "code": "parser_warning",
+          "title": "PDF 解析仍有警告",
+          "details": [
+            "academic_version_unknown"
+          ],
+          "additional_detail_count": 0
+        },
+        {
+          "code": "special_rule_text_in_course_note",
+          "title": "課程備註含任選、上限或互斥文字",
+          "details": [
+            "TAICA 系列課程 每一向度至少需修習一門課程。",
+            "TAICA 系列課程 資訊安全 每一向度至少需修習一門課程。",
+            "TAICA 系列課程 深度學習 每一向度至少需修習一門課程。"
+          ],
+          "additional_detail_count": 0
+        },
+        {
+          "code": "unclassified_course",
+          "title": "仍有課程無法歸入核心或選修",
+          "details": [
+            "22 門：人工智慧倫理、網路安全、資訊安全、資訊安全理論與實務、資訊安全概論、網路安全、高等深度學習、深度學習"
+          ],
+          "additional_detail_count": 0
+        }
       ]
     },
     {
@@ -453,9 +1497,43 @@
       "model_status": "partial",
       "reasons": [
         "entry_selection_constraints",
-        "manual_requirements",
         "non_standard_credit_constraint",
         "special_rule_text_in_course_note"
+      ],
+      "reason_details": [
+        {
+          "code": "entry_selection_constraints",
+          "title": "有任選／至少選課規則",
+          "details": [
+            "外文系 美國文學:1865以前 3 美國文學課程2選1",
+            "專 業 模 組 課 程 外文系 歐洲文學:1350-1800 3 歐洲文學課程2選1",
+            "外文系 英國文學:1660以前 3 英國文學課程4選1"
+          ],
+          "additional_detail_count": 0
+        },
+        {
+          "code": "non_standard_credit_constraint",
+          "title": "有上限、特定範圍或條件式學分規則",
+          "details": [
+            "其它至多九學分得以通識跨院選修學分抵免",
+            "專業模組課程至少九學分。",
+            "跨院修讀之學士班學生，其他課程至多六學分以跨院選修學分抵免。"
+          ],
+          "additional_detail_count": 0
+        },
+        {
+          "code": "special_rule_text_in_course_note",
+          "title": "課程備註含任選、上限或互斥文字",
+          "details": [
+            "歐洲文學課程2選1 專 業 模 組 課 程 外文系 歐洲文學:1350-1800 3 歐洲文學課程2選1",
+            "專 業 模 組 課 程 外文系 歐洲文學:1350-1800 3 歐洲文學課程2選1",
+            "英國文學課程4選1 外文系 英國文學:1660以前 3 英國文學課程4選1",
+            "外文系 英國文學:1660以前 3 英國文學課程4選1",
+            "美國文學課程2選1 外文系 美國文學:1865以前 3 美國文學課程2選1",
+            "外文系 美國文學:1865以前 3 美國文學課程2選1"
+          ],
+          "additional_detail_count": 0
+        }
       ]
     },
     {
@@ -469,7 +1547,51 @@
         "course_count_constraints",
         "human_review_override",
         "manual_requirements",
+        "non_standard_credit_constraint",
         "unclassified_course"
+      ],
+      "reason_details": [
+        {
+          "code": "course_count_constraints",
+          "title": "有同名、等價或課程門數限制",
+          "details": [
+            "財務管理(一)/財務管理",
+            "財務管理(二)/財務管理理論",
+            "金融市場/金融市場理論與實務"
+          ],
+          "additional_detail_count": 0
+        },
+        {
+          "code": "human_review_override",
+          "title": "本筆已套用人工修正版，仍需覆核修正內容",
+          "details": [],
+          "additional_detail_count": 0
+        },
+        {
+          "code": "manual_requirements",
+          "title": "有需依學生情況或外部證明判斷的條件",
+          "details": [
+            "[program_completion] 核心課程原則上以財管系開設課程為主；財管所或企管系（所）開設的同名或同質課程，是否可認抵核心課程須人工確認。"
+          ],
+          "additional_detail_count": 0
+        },
+        {
+          "code": "non_standard_credit_constraint",
+          "title": "有上限、特定範圍或條件式學分規則",
+          "details": [
+            "專業模組課程至少九學分。",
+            "跨院修讀之學士班學生，其他課程至多六學分以跨院選修學分抵免。"
+          ],
+          "additional_detail_count": 0
+        },
+        {
+          "code": "unclassified_course",
+          "title": "仍有課程無法歸入核心或選修",
+          "details": [
+            "26 門：財務管理(一)、財務管理、財務管理(二)、財務管理理論、財務報表分析、期貨與選擇權概論、投資學、金融市場"
+          ],
+          "additional_detail_count": 0
+        }
       ]
     },
     {
@@ -480,8 +1602,19 @@
       "review_status": "needs_review",
       "model_status": "partial",
       "reasons": [
-        "manual_requirements",
         "non_standard_credit_constraint"
+      ],
+      "reason_details": [
+        {
+          "code": "non_standard_credit_constraint",
+          "title": "有上限、特定範圍或條件式學分規則",
+          "details": [
+            "其它至多九學分得以通識跨院選修學分抵免",
+            "專業模組課程至少九學分。",
+            "跨院修讀之學士班學生，其他課程至多六學分以跨院選修學分抵免。"
+          ],
+          "additional_detail_count": 0
+        }
       ]
     },
     {
@@ -494,8 +1627,36 @@
       "reasons": [
         "course_count_constraints",
         "human_review_override",
-        "manual_requirements",
         "non_standard_credit_constraint"
+      ],
+      "reason_details": [
+        {
+          "code": "course_count_constraints",
+          "title": "有同名、等價或課程門數限制",
+          "details": [
+            "生科系分子生物學亦可",
+            "生科系生物技術概論亦可",
+            "生科系細胞訊息傳遞學概論亦可",
+            "生科系動物生理學亦可"
+          ],
+          "additional_detail_count": 0
+        },
+        {
+          "code": "human_review_override",
+          "title": "本筆已套用人工修正版，仍需覆核修正內容",
+          "details": [],
+          "additional_detail_count": 0
+        },
+        {
+          "code": "non_standard_credit_constraint",
+          "title": "有上限、特定範圍或條件式學分規則",
+          "details": [
+            "其它至多九學分得以通識跨院選修學分抵免",
+            "專業模組課程至少九學分。",
+            "跨院修讀之學士班學生，其他課程至多六學分以跨院選修學分抵免。"
+          ],
+          "additional_detail_count": 0
+        }
       ]
     },
     {
@@ -510,6 +1671,71 @@
         "manual_requirements",
         "non_standard_credit_constraint",
         "special_rule_text_in_course_note"
+      ],
+      "reason_details": [
+        {
+          "code": "entry_selection_constraints",
+          "title": "有任選／至少選課規則",
+          "details": [
+            "總學分數:至少16學分。必修一門全英語服務學習課程。"
+          ],
+          "additional_detail_count": 0
+        },
+        {
+          "code": "manual_requirements",
+          "title": "有需依學生情況或外部證明判斷的條件",
+          "details": [
+            "[program_completion] 2.當學期課程開設為英語授課者,方得認列本學程學分。",
+            "[program_completion] 相同課名以中文授課者,不採計 學程學分。"
+          ],
+          "additional_detail_count": 0
+        },
+        {
+          "code": "non_standard_credit_constraint",
+          "title": "有上限、特定範圍或條件式學分規則",
+          "details": [
+            "基礎教育中心 從英語課程學習多元文化 DEVELOPING MULTICULTURAL AWARENESS IN ENGLISH CLASSROOM 3 為相同課程,不得重 複修習,僅能認列其 中一門。",
+            "基礎教育中心 透過實用性英語增進溝通能力 COMMUNICATION SKILLS THROUGH FUNCTIONAL ENGLISH 3 為相同課程,不得重 複修習,僅能認列其 中一門。",
+            "基礎教育中心 通過體驗式學習自信地說英語 SPEAKING ENGLISH WITH CONFIDENCE THROUGH EXPERIENTIAL LEARNING 3 為相同課程,不得重 複修習,僅能認列其 中一門。 適用所有核准修習本 學程學生。",
+            "選 修 基礎教育中心 成功的英文寫作 WRITING FOR SUCCESS IN ENGLISH 3 為相同課程,不得重 複修習,僅能認列其 中一門。適用所有核 准修習本學程學生。",
+            "總學分數:至少16學分。必修一門全英語服務學習課程。",
+            "專業模組課程至少九學分。",
+            "跨院修讀之學士班學生，其他課程至多六學分以跨院選修學分抵免。"
+          ],
+          "additional_detail_count": 0
+        },
+        {
+          "code": "special_rule_text_in_course_note",
+          "title": "課程備註含任選、上限或互斥文字",
+          "details": [
+            "為相同課程,不得重複修習,僅能認列其中一門。適用所有核准修習本學程學生。",
+            "為相同課程,不得重複修習,僅能認列其中一門。",
+            "總學分數:至少16學分。必修一門全英語服務學習課程。",
+            "適用所有核准修習本學程學生。 總學分數:至少16學分。必修一門全英語服務學習課程。"
+          ],
+          "additional_detail_count": 0
+        }
+      ]
+    },
+    {
+      "program_id": "prog_3621f2793d4255a7",
+      "name_zh": "臺灣閩南語文書寫應用與創作微學程(原:台灣閩南語文書寫應用與創作微學程)",
+      "type": "micro_program",
+      "status": "active",
+      "review_status": "needs_review",
+      "model_status": "partial",
+      "reasons": [
+        "manual_requirements"
+      ],
+      "reason_details": [
+        {
+          "code": "manual_requirements",
+          "title": "有需依學生情況或外部證明判斷的條件",
+          "details": [
+            "[credit_recognition] 可以「教育部閩南語語言能力認證」中級以上成績認列核 心課程,唯不能抵免本微學程總學分,另需選修3學分課程。"
+          ],
+          "additional_detail_count": 0
+        }
       ]
     },
     {
@@ -522,6 +1748,22 @@
       "reasons": [
         "entry_selection_constraints",
         "human_review_override"
+      ],
+      "reason_details": [
+        {
+          "code": "entry_selection_constraints",
+          "title": "有任選／至少選課規則",
+          "details": [
+            "劇藝系 戲劇構作導論 2 戲劇構作系列課程擇一,2學 分,包括戲劇構作導論、戲劇構 作實踐:古典、戲劇構作實踐:中 古與近代、戲劇構作實踐:現當 代"
+          ],
+          "additional_detail_count": 0
+        },
+        {
+          "code": "human_review_override",
+          "title": "本筆已套用人工修正版，仍需覆核修正內容",
+          "details": [],
+          "additional_detail_count": 0
+        }
       ]
     },
     {
@@ -533,6 +1775,14 @@
       "model_status": "partial",
       "reasons": [
         "not_active"
+      ],
+      "reason_details": [
+        {
+          "code": "not_active",
+          "title": "學程不是啟用狀態",
+          "details": [],
+          "additional_detail_count": 0
+        }
       ]
     },
     {
@@ -544,6 +1794,14 @@
       "model_status": "partial",
       "reasons": [
         "not_active"
+      ],
+      "reason_details": [
+        {
+          "code": "not_active",
+          "title": "學程不是啟用狀態",
+          "details": [],
+          "additional_detail_count": 0
+        }
       ]
     },
     {
@@ -555,6 +1813,14 @@
       "model_status": "partial",
       "reasons": [
         "not_active"
+      ],
+      "reason_details": [
+        {
+          "code": "not_active",
+          "title": "學程不是啟用狀態",
+          "details": [],
+          "additional_detail_count": 0
+        }
       ]
     },
     {
@@ -566,6 +1832,17 @@
       "model_status": "partial",
       "reasons": [
         "non_standard_credit_constraint"
+      ],
+      "reason_details": [
+        {
+          "code": "non_standard_credit_constraint",
+          "title": "有上限、特定範圍或條件式學分規則",
+          "details": [
+            "核心課程學分數: 4學分,A ̧ B類至少各2學分",
+            "總學分數:C+D至少3學分,A+B+C+D 至少共9學分"
+          ],
+          "additional_detail_count": 0
+        }
       ]
     },
     {
@@ -579,6 +1856,28 @@
         "human_review_override",
         "manual_requirements",
         "source_conflicts"
+      ],
+      "reason_details": [
+        {
+          "code": "human_review_override",
+          "title": "本筆已套用人工修正版，仍需覆核修正內容",
+          "details": [],
+          "additional_detail_count": 0
+        },
+        {
+          "code": "manual_requirements",
+          "title": "有需依學生情況或外部證明判斷的條件",
+          "details": [
+            "[certificate] 獲得至少11學分後才有領取微學程證書"
+          ],
+          "additional_detail_count": 0
+        },
+        {
+          "code": "source_conflicts",
+          "title": "官方文件內有尚未解決的數量衝突",
+          "details": [],
+          "additional_detail_count": 0
+        }
       ]
     },
     {
@@ -591,6 +1890,22 @@
       "reasons": [
         "non_standard_credit_constraint",
         "not_active"
+      ],
+      "reason_details": [
+        {
+          "code": "non_standard_credit_constraint",
+          "title": "有上限、特定範圍或條件式學分規則",
+          "details": [
+            "微學分課程西灣學院2學分總學分數:至少9學分(得採計微學分課程,至多2學分"
+          ],
+          "additional_detail_count": 0
+        },
+        {
+          "code": "not_active",
+          "title": "學程不是啟用狀態",
+          "details": [],
+          "additional_detail_count": 0
+        }
       ]
     },
     {
@@ -605,6 +1920,38 @@
         "human_review_override",
         "manual_requirements",
         "special_rule_text_in_course_note"
+      ],
+      "reason_details": [
+        {
+          "code": "entry_selection_constraints",
+          "title": "有任選／至少選課規則",
+          "details": [
+            "人科學程 綠色港市與智慧港埠 3；海工系 海洋與海岸管理 3，二選一"
+          ],
+          "additional_detail_count": 0
+        },
+        {
+          "code": "human_review_override",
+          "title": "本筆已套用人工修正版，仍需覆核修正內容",
+          "details": [],
+          "additional_detail_count": 0
+        },
+        {
+          "code": "manual_requirements",
+          "title": "有需依學生情況或外部證明判斷的條件",
+          "details": [
+            "[program_completion] 至少9學分,參加至少一場「海洋與島嶼環境變遷」共學群的微學分工作坊"
+          ],
+          "additional_detail_count": 0
+        },
+        {
+          "code": "special_rule_text_in_course_note",
+          "title": "課程備註含任選、上限或互斥文字",
+          "details": [
+            "二選一"
+          ],
+          "additional_detail_count": 0
+        }
       ]
     },
     {
@@ -616,6 +1963,16 @@
       "model_status": "partial",
       "reasons": [
         "manual_requirements"
+      ],
+      "reason_details": [
+        {
+          "code": "manual_requirements",
+          "title": "有需依學生情況或外部證明判斷的條件",
+          "details": [
+            "[program_completion] 參加至少一場「海洋與島嶼環境變遷」共學群的微學分工作坊，或規劃與港市相關之個人化(U)學程"
+          ],
+          "additional_detail_count": 0
+        }
       ]
     },
     {
@@ -630,6 +1987,39 @@
         "minimum_core_courses",
         "minimum_elective_courses",
         "special_rule_text_in_course_note"
+      ],
+      "reason_details": [
+        {
+          "code": "entry_selection_constraints",
+          "title": "有任選／至少選課規則",
+          "details": [
+            "選修課程至少兩門",
+            "核心課程至少一門"
+          ],
+          "additional_detail_count": 0
+        },
+        {
+          "code": "minimum_core_courses",
+          "title": "有核心最低門數",
+          "details": [],
+          "additional_detail_count": 0
+        },
+        {
+          "code": "minimum_elective_courses",
+          "title": "有選修最低門數",
+          "details": [],
+          "additional_detail_count": 0
+        },
+        {
+          "code": "special_rule_text_in_course_note",
+          "title": "課程備註含任選、上限或互斥文字",
+          "details": [
+            "二選一 核心課程至少一門",
+            "核心課程至少一門",
+            "選修課程至少兩門"
+          ],
+          "additional_detail_count": 0
+        }
       ]
     },
     {
@@ -642,6 +2032,25 @@
       "reasons": [
         "entry_selection_constraints",
         "special_rule_text_in_course_note"
+      ],
+      "reason_details": [
+        {
+          "code": "entry_selection_constraints",
+          "title": "有任選／至少選課規則",
+          "details": [
+            "二選一其餘計入總學分"
+          ],
+          "additional_detail_count": 0
+        },
+        {
+          "code": "special_rule_text_in_course_note",
+          "title": "課程備註含任選、上限或互斥文字",
+          "details": [
+            "二選一其餘計入總學分數",
+            "二選一其餘計入總學分"
+          ],
+          "additional_detail_count": 0
+        }
       ]
     },
     {
@@ -653,6 +2062,14 @@
       "model_status": "partial",
       "reasons": [
         "not_active"
+      ],
+      "reason_details": [
+        {
+          "code": "not_active",
+          "title": "學程不是啟用狀態",
+          "details": [],
+          "additional_detail_count": 0
+        }
       ]
     },
     {
@@ -664,6 +2081,14 @@
       "model_status": "partial",
       "reasons": [
         "not_active"
+      ],
+      "reason_details": [
+        {
+          "code": "not_active",
+          "title": "學程不是啟用狀態",
+          "details": [],
+          "additional_detail_count": 0
+        }
       ]
     },
     {
@@ -676,6 +2101,28 @@
       "reasons": [
         "entry_selection_constraints",
         "special_rule_text_in_course_note"
+      ],
+      "reason_details": [
+        {
+          "code": "entry_selection_constraints",
+          "title": "有任選／至少選課規則",
+          "details": [
+            "人科學程 設計思考 3 設計思考(3)、創意思考與問題 解決(3)或創造力與社會創新(3) 三擇一",
+            "核 心 課 程 生科系 生態學 3 生態學(3)或生物多樣性與保育 (2) 二擇一"
+          ],
+          "additional_detail_count": 0
+        },
+        {
+          "code": "special_rule_text_in_course_note",
+          "title": "課程備註含任選、上限或互斥文字",
+          "details": [
+            "生態學(3)或生物多樣性與保育(2) 二擇一 核 心 課 程 生科系 生態學 3 生態學(3)或生物多樣性與保育 (2) 二擇一",
+            "核 心 課 程 生科系 生態學 3 生態學(3)或生物多樣性與保育 (2) 二擇一",
+            "設計思考(3)、創意思考與問題解決(3)或創造力與社會創新(3)三擇一 人科學程 設計思考 3 設計思考(3)、創意思考與問題 解決(3)或創造力與社會創新(3) 三擇一",
+            "人科學程 設計思考 3 設計思考(3)、創意思考與問題 解決(3)或創造力與社會創新(3) 三擇一"
+          ],
+          "additional_detail_count": 0
+        }
       ]
     },
     {
@@ -687,6 +2134,16 @@
       "model_status": "partial",
       "reasons": [
         "non_standard_credit_constraint"
+      ],
+      "reason_details": [
+        {
+          "code": "non_standard_credit_constraint",
+          "title": "有上限、特定範圍或條件式學分規則",
+          "details": [
+            "博雅向度六:自然環境、生態及其至多3學西灣學院永續分"
+          ],
+          "additional_detail_count": 0
+        }
       ]
     },
     {
@@ -702,6 +2159,49 @@
         "non_standard_credit_constraint",
         "source_conflicts",
         "special_rule_text_in_course_note"
+      ],
+      "reason_details": [
+        {
+          "code": "entry_selection_constraints",
+          "title": "有任選／至少選課規則",
+          "details": [
+            "核 心 課 程 ㄧ、核心課程I:水產食品及營養相關概念課程(2-3學分,七擇一必修,其他課程 可計入選修學分)",
+            "二、核心課程 II:海洋生物資源概念課程(2學分,六擇一必修,其他課程可計入 選修學分)"
+          ],
+          "additional_detail_count": 0
+        },
+        {
+          "code": "maximum_core_credits",
+          "title": "有核心學分上限",
+          "details": [],
+          "additional_detail_count": 0
+        },
+        {
+          "code": "non_standard_credit_constraint",
+          "title": "有上限、特定範圍或條件式學分規則",
+          "details": [
+            "至多海洋相關微學分課程"
+          ],
+          "additional_detail_count": 0
+        },
+        {
+          "code": "source_conflicts",
+          "title": "官方文件內有尚未解決的數量衝突",
+          "details": [
+            "selection.constraint_54a0369b9fba35e5.option_count: 候選值 7, 8",
+            "selection.constraint_dbe2ad40a9a86a06.option_count: 候選值 6, 5"
+          ],
+          "additional_detail_count": 0
+        },
+        {
+          "code": "special_rule_text_in_course_note",
+          "title": "課程備註含任選、上限或互斥文字",
+          "details": [
+            "核 心 課 程 ㄧ、核心課程I:水產食品及營養相關概念課程(2-3學分,七擇一必修,其他課程 可計入選修學分)",
+            "二、核心課程 II:海洋生物資源概念課程(2學分,六擇一必修,其他課程可計入 選修學分)"
+          ],
+          "additional_detail_count": 0
+        }
       ]
     },
     {
@@ -712,7 +2212,28 @@
       "review_status": "needs_review",
       "model_status": "partial",
       "reasons": [
+        "course_count_constraints",
         "non_standard_credit_constraint"
+      ],
+      "reason_details": [
+        {
+          "code": "course_count_constraints",
+          "title": "有同名、等價或課程門數限制",
+          "details": [
+            "海洋生物概論鯨豚保育生物學",
+            "PM2.5 氣膠生醫科學海洋生物概論",
+            "環境健康大數據資料分析暨視覺化實務人人都是科學家"
+          ],
+          "additional_detail_count": 0
+        },
+        {
+          "code": "non_standard_credit_constraint",
+          "title": "有上限、特定範圍或條件式學分規則",
+          "details": [
+            "微學分課程,至多1學分"
+          ],
+          "additional_detail_count": 0
+        }
       ]
     },
     {
@@ -724,6 +2245,16 @@
       "model_status": "partial",
       "reasons": [
         "non_standard_credit_constraint"
+      ],
+      "reason_details": [
+        {
+          "code": "non_standard_credit_constraint",
+          "title": "有上限、特定範圍或條件式學分規則",
+          "details": [
+            "核心課程〈專業模組課程〉學分數:至少6 學分 (核心一至少3學分,核心二至少3學分)"
+          ],
+          "additional_detail_count": 0
+        }
       ]
     },
     {
@@ -736,6 +2267,25 @@
       "reasons": [
         "entry_selection_constraints",
         "non_standard_credit_constraint"
+      ],
+      "reason_details": [
+        {
+          "code": "entry_selection_constraints",
+          "title": "有任選／至少選課規則",
+          "details": [
+            "核 心 課 程 A類 教育軍事訓練相關課程(至少擇一修習)",
+            "B類 急救課程(至少擇一修習)"
+          ],
+          "additional_detail_count": 0
+        },
+        {
+          "code": "non_standard_credit_constraint",
+          "title": "有上限、特定範圍或條件式學分規則",
+          "details": [
+            "至多2務學習教育全民國防相關微學分課程"
+          ],
+          "additional_detail_count": 0
+        }
       ]
     },
     {
@@ -748,6 +2298,29 @@
       "reasons": [
         "entry_selection_constraints",
         "special_rule_text_in_course_note"
+      ],
+      "reason_details": [
+        {
+          "code": "entry_selection_constraints",
+          "title": "有任選／至少選課規則",
+          "details": [
+            "核 心 課 程 一、核心課程Ι(必修一門,2學分)",
+            "需含國家公園概論或探索海洋國家公園至少一門",
+            "二、核心課程 Π(必修一門,2學分)"
+          ],
+          "additional_detail_count": 0
+        },
+        {
+          "code": "special_rule_text_in_course_note",
+          "title": "課程備註含任選、上限或互斥文字",
+          "details": [
+            "核 心 課 程 一、核心課程Ι(必修一門,2學分) 需含國家公園概論或探索海洋國家公園至少一門",
+            "核 心 課 程 一、核心課程Ι(必修一門,2學分)",
+            "需含國家公園概論或探索海洋國家公園至少一門 二、核心課程 Π(必修一門,2學分)",
+            "二、核心課程 Π(必修一門,2學分)"
+          ],
+          "additional_detail_count": 0
+        }
       ]
     },
     {
@@ -761,6 +2334,38 @@
         "entry_selection_constraints",
         "maximum_core_credits",
         "special_rule_text_in_course_note"
+      ],
+      "reason_details": [
+        {
+          "code": "entry_selection_constraints",
+          "title": "有任選／至少選課規則",
+          "details": [
+            "核 心 課 程 核心一 (至少選修一門課程)",
+            "核心二 (至少選修一門課程)"
+          ],
+          "additional_detail_count": 0
+        },
+        {
+          "code": "maximum_core_credits",
+          "title": "有核心學分上限",
+          "details": [],
+          "additional_detail_count": 0
+        },
+        {
+          "code": "special_rule_text_in_course_note",
+          "title": "課程備註含任選、上限或互斥文字",
+          "details": [
+            "博雅向度一<美學(感)與文化詮釋> 核 心 課 程 核心一 (至少選修一門課程)",
+            "博雅向度一,英語授課 核 心 課 程 核心一 (至少選修一門課程)",
+            "博雅向度二<哲學與道德思維> 核 心 課 程 核心一 (至少選修一門課程)",
+            "博雅向度二 核 心 課 程 核心一 (至少選修一門課程)",
+            "博雅向度三<公民與全球視野> 核 心 課 程 核心一 (至少選修一門課程)",
+            "博雅向度三 核 心 課 程 核心一 (至少選修一門課程)",
+            "跨院選修(社),英語授課 核 心 課 程 核心一 (至少選修一門課程)",
+            "應用性課程 核 心 課 程 核心一 (至少選修一門課程)"
+          ],
+          "additional_detail_count": 7
+        }
       ]
     },
     {
@@ -773,6 +2378,29 @@
       "reasons": [
         "entry_selection_constraints",
         "special_rule_text_in_course_note"
+      ],
+      "reason_details": [
+        {
+          "code": "entry_selection_constraints",
+          "title": "有任選／至少選課規則",
+          "details": [
+            "核 心 課 程 一、核心課程 I (必修一門,其他課程可計入選修學分)",
+            "二、核心課程 II (必修一門,其他課程可計入選修學分)"
+          ],
+          "additional_detail_count": 0
+        },
+        {
+          "code": "special_rule_text_in_course_note",
+          "title": "課程備註含任選、上限或互斥文字",
+          "details": [
+            "114 學年度第二學 核 心 課 程 一、核心課程 I (必修一門,其他課程可計入選修學分)",
+            "MRSC114 核 心 課 程 一、核心課程 I (必修一門,其他課程可計入選修學分)",
+            "MRSC102 核 心 課 程 一、核心課程 I (必修一門,其他課程可計入選修學分)",
+            "114 學年度第二學 二、核心課程 II (必修一門,其他課程可計入選修學分)",
+            "GEAE260 2 二、核心課程 II (必修一門,其他課程可計入選修學分)"
+          ],
+          "additional_detail_count": 0
+        }
       ]
     },
     {
@@ -785,6 +2413,22 @@
       "reasons": [
         "entry_selection_constraints",
         "human_review_override"
+      ],
+      "reason_details": [
+        {
+          "code": "entry_selection_constraints",
+          "title": "有任選／至少選課規則",
+          "details": [
+            "核 心 課 程 護理學系 醫療與護理資訊 2 擇一修習"
+          ],
+          "additional_detail_count": 0
+        },
+        {
+          "code": "human_review_override",
+          "title": "本筆已套用人工修正版，仍需覆核修正內容",
+          "details": [],
+          "additional_detail_count": 0
+        }
       ]
     },
     {
@@ -796,6 +2440,16 @@
       "model_status": "partial",
       "reasons": [
         "parser_warning"
+      ],
+      "reason_details": [
+        {
+          "code": "parser_warning",
+          "title": "PDF 解析仍有警告",
+          "details": [
+            "academic_version_unknown"
+          ],
+          "additional_detail_count": 0
+        }
       ]
     }
   ]

@@ -23,7 +23,7 @@
       "last_modified": "Tue, 27 May 2025 02:09:55 GMT",
       "content_length": 268141
     },
-    "parser_version": "0.3.0",
+    "parser_version": "0.4.0",
     "extractor_versions": {
       "pypdf": "6.10.0",
       "pdfplumber": "0.11.9"
@@ -1054,25 +1054,25 @@
     ],
     "manual_requirements": [
       {
-        "requirement_id": "requirement_379bf49930e4166b",
+        "requirement_id": "requirement_63102db2e25d84a7",
         "kind": "manual_verification",
         "requirement_type": "course_eligibility",
-        "description": "自108學年度第一學期起,不認列財管所學生選修企管所之「證券市場分析」課程",
+        "description": "※ 自108學年度第一學期起,不認列財管所學生選修企管所之「證券市場分析」課程",
         "verification_mode": "manual_review",
         "requirement_context": "program_completion",
         "source_page": 2,
-        "source_text": "自108學年度第一學期起,不認列財管所學生選修企管所之「證券市場分析」課程",
+        "source_text": "※ 自108學年度第一學期起,不認列財管所學生選修企管所之「證券市場分析」課程",
         "validation_status": "source_text_match"
       },
       {
-        "requirement_id": "requirement_e14c564e2d2534ef",
+        "requirement_id": "requirement_76719352c67d690d",
         "kind": "manual_verification",
         "requirement_type": "credit_cap",
-        "description": "欄位中若有*加註,該欄課程修習兩門(含)以上時,學分數僅以一門課程(3學分)計算",
+        "description": "※ 欄位中若有*加註,該欄課程修習兩門(含)以上時,學分數僅以一門課程(3 學分)計算。",
         "verification_mode": "manual_review",
         "requirement_context": "program_completion",
         "source_page": 2,
-        "source_text": "欄位中若有*加註,該欄課程修習兩門(含)以上時,學分數僅以一門課程(3學分)計算",
+        "source_text": "※ 欄位中若有*加註,該欄課程修習兩門(含)以上時,學分數僅以一門課程(3 學分)計算。",
         "validation_status": "source_text_match"
       }
     ],
@@ -1086,7 +1086,14 @@
       "minimum_elective_courses": null,
       "has_conditional_requirements": false,
       "has_manual_requirements": true,
+      "has_completion_manual_requirements": true,
+      "has_certificate_requirements": false,
+      "has_credit_recognition_requirements": false,
       "has_unresolved_conflicts": false
     }
-  }
+  },
+  "institutional_policy_ids": [
+    "nsysu_program_policy_2026_08_16"
+  ],
+  "institutional_policy_applied_rule_ids": []
 }

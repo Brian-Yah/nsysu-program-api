@@ -30,6 +30,8 @@ python scripts/validate.py
 - `programs/{program_id}/index.json`：單一學程與版本清單。
 - `programs/{program_id}/versions/115-1.json`：指定學程版本。
 - `schemas/program.schema.json`：JSON Schema。
+- `policies/program-requirements.json`：校級學程通用規定及來源版本。
+- `schemas/institutional-policy.schema.json`：校級通用規定 Schema。
 - `graduation-requirements/index.json`：最低畢業學分資料集索引。
 - `graduation-requirements/latest/bachelor.json`：最新入學年度全部學士班。
 - `graduation-requirements/115/bachelor/{department_code}.json`：指定年度與系所。
@@ -38,6 +40,7 @@ python scripts/validate.py
 ```bash
 curl -fsSL https://brian-yah.github.io/nsysu-program-api/api/v1/manifest.json
 curl -fsSL https://brian-yah.github.io/nsysu-program-api/api/v1/semesters/115-1/programs.json
+curl -fsSL https://brian-yah.github.io/nsysu-program-api/api/v1/policies/program-requirements.json
 curl -fsSL https://brian-yah.github.io/nsysu-program-api/api/v1/graduation-requirements/115/bachelor/B4020.json
 ```
 
@@ -45,9 +48,9 @@ curl -fsSL https://brian-yah.github.io/nsysu-program-api/api/v1/graduation-requi
 
 ```json
 {
-  "schema_version": "1.2",
+  "schema_version": "1.3",
   "academic_version": "115-1",
-  "data_revision": 6,
+  "data_revision": 7,
   "retrieved_at": "2026-08-15T00:00:00Z",
   "programs": []
 }
@@ -63,13 +66,17 @@ ClearGrad 或其他 consumer 應固定 academic version 或 release、檢查 man
 
 `structured_requirements` 會分開保存最低完成門檻、官方宣告的課程池、分類學分、entry 任選、課程互斥、命名領域、不可重複採計、人工驗證條件及官方來源衝突。consumer 應優先讀 `completion_summary`、`credit_constraints` 與各 selection constraints；`core_credits_text_value` 僅為相容舊版的最低核心學分 mirror，已標示 deprecated。STREAM 的核心課程池 15 學分與最低核心 3 學分不再混用；海洋天然物的課程池 31 學分與完成門檻 12 學分亦分欄保存。
 
+每筆學程的 `institutional_policy_ids` 會連結校級通用規定。整合學程至少 15 學分且有 6 學分不得屬於本系所、雙主修或輔系；微學程相對門檻為 9／3 學分；學系（所）專業學程至少 15 學分、專業模組至少 9 學分，跨院修讀學士班學生以跨院選修抵免的其他學分至多 6 學分。build 只在個別 PDF 缺漏或較寬鬆時補入校級限制；若 PDF 有更高門檻，保留較高門檻而不重複產生同語意 constraint。
+
 `completion_summary.model_status` 只有在 `complete` 時才能單獨用於自動判定。`ai_approved` 的普通規則模型可為 `complete`，但 consumer 仍可依產品風險政策要求人工 `approved`。`partial` 表示仍有 `manual_requirements` 或尚待目標式審核；`conflicted` 表示官方文件本身有未解衝突，此時相應 minimum 為 `null`，UI 必須顯示「需人工確認」。AI 聯盟五學程另保存五向度各至少一門、總學分 15、TAICA 證明的系外 9／聯盟課程 8 學分門檻，以及認抵上限。
 
 抽樣稽核保存在 `data/ai-review/115-1.json`；其候選數、候選 ID 集合 hash、三份樣本 PDF/text hash 或所選版本只要改變，build 就會 fail closed。其餘待審項目會輸出到 `reports/manual-review-115-1.json`。
 
-`manual_requirements.requirement_context` 區分一般 `program_completion` 與額外 `certificate` 條件。證書活動、時數或報告不得反向阻擋一般學程完成；consumer 若要判斷證書資格，才需另行評估 certificate context。
+`manual_requirements.requirement_context` 區分 `program_completion`、`certificate`、`credit_recognition` 與 `program_application`。證書、抵免或申請程序不得反向阻擋一般學程完成；consumer 只在對應情境才評估該 context。`completion_summary` 另列各類人工規則旗標，避免把「可申請抵免」誤當每位學生都必須完成的條件。
 
-consumer 應以 `catalog_entry_id`、`requirement_label`、`program_course_name_snapshot` 與 constraint 內的穩定 ID 計算，不能只累加畫面上的全部課程。`max_entries: null` 只代表沒有修課上限；若同時有 `max_entries_counted_for_requirement` 與 `excess_credit_destination`，額外課仍可修，但只能流向指定的核心／選修／學程總學分桶。
+consumer 應以唯一的 `catalog_entry_id`、`requirement_label`、`program_course_name_snapshot` 與 constraint 內的穩定 ID 計算，不能只累加畫面上的全部課程。同一表格項目的替代課另以 `catalog_entry_group_id` 連結，不能把共用群組誤判成重複課程。`max_entries: null` 只代表沒有修課上限；若同時有 `max_entries_counted_for_requirement` 與 `excess_credit_destination`，額外課仍可修，但只能流向指定的核心／選修／學程總學分桶。
+
+全量稽核可執行 `python scripts/audit_program_rules.py --strict` 與 `python scripts/audit_special_rule_coverage.py --strict`。前者檢查校級門檻、重複 constraint／課程 ID、孤立等價組與模糊人工說明；後者反查所選 PDF 版本內任選、上限、互斥、溢出、條件與學年例外是否至少有對應結構化規則。
 
 若 `option_count_matches` 為 `false`，表示 PDF 宣告的選項數與實際表列數不一致；consumer 應保留全部表列課程並提示人工確認，不得自行刪除選項。
 

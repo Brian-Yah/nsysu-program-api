@@ -21,9 +21,9 @@ from .requirements import extract_completion_requirements, finalize_completion_s
 from .selection import build_selection_requirements, constraint_id, split_course_names
 
 CATALOG_URL = "https://ctdr.nsysu.edu.tw/class2.php"
-SCHEMA_VERSION = "1.2"
-PARSER_VERSION = "0.3.0"
-DATA_REVISION = 6
+SCHEMA_VERSION = "1.3"
+PARSER_VERSION = "0.4.0"
+DATA_REVISION = 7
 NAMESPACE = uuid.UUID("a441fd7d-a05f-4f28-8bb7-7ccbdd0a6cab")
 TYPE_NAMES = {
     0: "integrated_program",
@@ -887,6 +887,7 @@ def extract_pdf_tables(pdf_path: Path) -> tuple[list[dict], list[str]]:
                             canonical_record = {
                                 "course_code": None,
                                 "catalog_entry_id": current_program_course_entry_id,
+                                "catalog_entry_group_id": current_program_course_entry_id,
                                 "opening_units": ["臺灣大專院校人工智慧學程聯盟"],
                                 "opening_unit_snapshot": "臺灣大專院校人工智慧學程聯盟",
                                 "course_name_snapshot": current_program_course,
@@ -965,10 +966,13 @@ def extract_pdf_tables(pdf_path: Path) -> tuple[list[dict], list[str]]:
                             course_names, expanded_credits, strict=True
                         ):
                             course_index = len(row_metadata["courses"])
+                            unique_entry_base = (
+                                default_entry_id if series_layout else base_entry_id
+                            )
                             entry_id = (
-                                f"{base_entry_id}_{course_index + 1}"
-                                if len(credit_values) > 1 and not series_layout
-                                else base_entry_id
+                                f"{unique_entry_base}_{course_index + 1}"
+                                if course_index > 0
+                                else unique_entry_base
                             )
                             record = {
                                 "course_code": None,
@@ -989,6 +993,8 @@ def extract_pdf_tables(pdf_path: Path) -> tuple[list[dict], list[str]]:
                                     "Official PDF table does not provide a course code"
                                 ),
                             }
+                            if series_layout or len(course_names) > 1:
+                                record["catalog_entry_group_id"] = base_entry_id
                             version["courses"].append(record)
                             row_metadata["courses"].append(record)
     except Exception as exc:

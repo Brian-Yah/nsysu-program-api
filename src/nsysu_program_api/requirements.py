@@ -732,6 +732,10 @@ MANUAL_RULE_TYPES = (
             r"外語中心.{0,400}?可申請抵免.{0,200}?"
             r"(?:不可抵免畢業學分|"
             r"可申請抵免法文[（(]二[）)])|"
+            r"(?:語言能力認證|語言認證).{0,160}?"
+            r"(?:認列|採計|抵免).{0,80}?(?:核心課程|學分)|"
+            r"(?:以前修習課程及學分數之抵免).{0,100}?"
+            r"(?:授課教師|學程負責人).{0,30}?認定|"
             r"(?:認抵|抵免|抵認|採計).{0,30}?(?:審查|通過))",
             re.I,
         ),
@@ -773,6 +777,7 @@ MANUAL_RULE_TYPES = (
             r"\d{3}(?:-\d)?(?:學年度|學期).{0,30}?前已取得"
             r".{0,100}?(?:列入|計入|採計).{0,60}?學分(?:中)?|"
             r"已取得者.{0,60}?仍可計入)"
+            r"|原已核准修習學生.{0,30}?追溯適用"
         ),
     ),
 )
@@ -1219,7 +1224,13 @@ def extract_manual_requirements(pages: list[tuple[int, str]]) -> list[dict]:
                     fragment
                 ) > 500:
                     continue
-                matched_description = _display_text(match.group(0))
+                # The narrow regex span is useful for extracting numbers, but it
+                # is often too terse for a reviewer (for example, only
+                # "至少十五小時"). Preserve the complete official sentence as
+                # the human-facing description while keeping it bounded.
+                matched_description = _display_text(fragment)
+                if len(matched_description) > 500:
+                    matched_description = _display_text(match.group(0))
                 identity = (requirement_type, _compact(matched_description))
                 if identity in seen:
                     continue
@@ -1235,7 +1246,15 @@ def extract_manual_requirements(pages: list[tuple[int, str]]) -> list[dict]:
                     "requirement_context": (
                         "certificate"
                         if certificate_page or requirement_type == "certificate"
-                        else "program_completion"
+                        else (
+                            "credit_recognition"
+                            if requirement_type == "recognition"
+                            or (
+                                requirement_type == "approval"
+                                and re.search(r"抵免|認抵|認列", compact)
+                            )
+                            else "program_completion"
+                        )
                     ),
                     **_evidence(page, matched_description),
                 }
@@ -1314,5 +1333,12 @@ def finalize_completion_summary(requirements: dict, *, approved: bool = False) -
             for item in completion_manual
         ),
         "has_manual_requirements": bool(manual),
+        "has_completion_manual_requirements": bool(completion_manual),
+        "has_certificate_requirements": any(
+            item.get("requirement_context") == "certificate" for item in manual
+        ),
+        "has_credit_recognition_requirements": any(
+            item.get("requirement_context") == "credit_recognition" for item in manual
+        ),
         "has_unresolved_conflicts": unresolved,
     }

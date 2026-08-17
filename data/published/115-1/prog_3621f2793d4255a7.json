@@ -23,16 +23,16 @@
       "last_modified": "Tue, 23 Dec 2025 06:53:36 GMT",
       "content_length": 278632
     },
-    "parser_version": "0.3.0",
+    "parser_version": "0.4.0",
     "extractor_versions": {
       "pypdf": "6.10.0",
       "pdfplumber": "0.11.9"
     }
   },
-  "review_status": "ai_approved",
+  "review_status": "needs_review",
   "rules": {
     "kind": "manual_review",
-    "reason": "Legacy course-code evaluator is unavailable; AI-Approved status applies to structured_requirements"
+    "reason": "Extracted candidate awaits approval"
   },
   "warnings": [],
   "selected_pdf_academic_version": "114-1",
@@ -377,8 +377,21 @@
         "validation_status": "source_text_match"
       }
     ],
+    "manual_requirements": [
+      {
+        "requirement_id": "requirement_a2744f91a1f7b076",
+        "kind": "manual_verification",
+        "requirement_type": "recognition",
+        "description": "可以「教育部閩南語語言能力認證」中級以上成績認列核 心課程,唯不能抵免本微學程總學分,另需選修3學分課程。",
+        "verification_mode": "manual_review",
+        "requirement_context": "credit_recognition",
+        "source_page": 1,
+        "source_text": "可以「教育部閩南語語言能力認證」中級以上成績認列核 心課程,唯不能抵免本微學程總學分,另需選修3學分課程。",
+        "validation_status": "source_text_match"
+      }
+    ],
     "completion_summary": {
-      "model_status": "complete",
+      "model_status": "partial",
       "minimum_total_credits": 9.0,
       "minimum_core_credits": 3.0,
       "maximum_core_credits": null,
@@ -386,15 +399,15 @@
       "minimum_core_courses": null,
       "minimum_elective_courses": null,
       "has_conditional_requirements": false,
-      "has_manual_requirements": false,
+      "has_manual_requirements": true,
+      "has_completion_manual_requirements": false,
+      "has_certificate_requirements": false,
+      "has_credit_recognition_requirements": true,
       "has_unresolved_conflicts": false
     }
   },
-  "review": {
-    "method": "random_sampled_simple_logic",
-    "policy_version": "simple-logic-v1",
-    "audit_path": "data/ai-review/115-1.json",
-    "candidate_count": 79,
-    "sample_size": 3
-  }
+  "institutional_policy_ids": [
+    "nsysu_program_policy_2026_08_16"
+  ],
+  "institutional_policy_applied_rule_ids": []
 }

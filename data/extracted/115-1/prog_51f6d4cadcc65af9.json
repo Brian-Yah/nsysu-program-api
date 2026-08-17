@@ -1,5 +1,5 @@
 {
-  "schema_version": "1.2",
+  "schema_version": "1.3",
   "courses": [
     {
       "course_code": "SOCIO-CULTURAL",
@@ -1250,25 +1250,25 @@
         ],
         "manual_requirements": [
           {
-            "requirement_id": "requirement_75079d10d34bfbfb",
+            "requirement_id": "requirement_aa838e7a6e4d44b3",
             "kind": "manual_verification",
             "requirement_type": "course_eligibility",
-            "description": "相同課名以中文授課者,不採計",
+            "description": "2.當學期課程開設為英語授課者,方得認列本學程學分。",
             "verification_mode": "manual_review",
             "requirement_context": "program_completion",
             "source_page": 4,
-            "source_text": "相同課名以中文授課者,不採計",
+            "source_text": "2.當學期課程開設為英語授課者,方得認列本學程學分。",
             "validation_status": "source_text_match"
           },
           {
-            "requirement_id": "requirement_cb82cae63b015617",
+            "requirement_id": "requirement_db36d8f264de6f96",
             "kind": "manual_verification",
             "requirement_type": "course_eligibility",
-            "description": "英語授課者,方得",
+            "description": "相同課名以中文授課者,不採計 學程學分。",
             "verification_mode": "manual_review",
             "requirement_context": "program_completion",
             "source_page": 4,
-            "source_text": "英語授課者,方得",
+            "source_text": "相同課名以中文授課者,不採計 學程學分。",
             "validation_status": "source_text_match"
           }
         ],
@@ -1312,6 +1312,9 @@
           "minimum_elective_courses": null,
           "has_conditional_requirements": false,
           "has_manual_requirements": true,
+          "has_completion_manual_requirements": true,
+          "has_certificate_requirements": false,
+          "has_credit_recognition_requirements": false,
           "has_unresolved_conflicts": false
         }
       },
@@ -2099,25 +2102,25 @@
         ],
         "manual_requirements": [
           {
-            "requirement_id": "requirement_75079d10d34bfbfb",
+            "requirement_id": "requirement_db36d8f264de6f96",
             "kind": "manual_verification",
             "requirement_type": "course_eligibility",
-            "description": "相同課名以中文授課者,不採計",
+            "description": "相同課名以中文授課者,不採計 學程學分。",
             "verification_mode": "manual_review",
             "requirement_context": "program_completion",
             "source_page": 8,
-            "source_text": "相同課名以中文授課者,不採計",
+            "source_text": "相同課名以中文授課者,不採計 學程學分。",
             "validation_status": "source_text_match"
           },
           {
-            "requirement_id": "requirement_cb82cae63b015617",
+            "requirement_id": "requirement_ee45d794c660920d",
             "kind": "manual_verification",
             "requirement_type": "course_eligibility",
-            "description": "英語授課者,方得",
+            "description": "2. 當學期課程開設為英語授課者,方得認列本學程學分。",
             "verification_mode": "manual_review",
             "requirement_context": "program_completion",
             "source_page": 8,
-            "source_text": "英語授課者,方得",
+            "source_text": "2. 當學期課程開設為英語授課者,方得認列本學程學分。",
             "validation_status": "source_text_match"
           }
         ],
@@ -2161,6 +2164,9 @@
           "minimum_elective_courses": null,
           "has_conditional_requirements": false,
           "has_manual_requirements": true,
+          "has_completion_manual_requirements": true,
+          "has_certificate_requirements": false,
+          "has_credit_recognition_requirements": false,
           "has_unresolved_conflicts": false
         }
       },
@@ -2746,69 +2752,69 @@
         ],
         "manual_requirements": [
           {
-            "requirement_id": "requirement_1a0cfb28821b45c8",
-            "kind": "manual_verification",
-            "requirement_type": "student_condition",
-            "description": "碩士班學生:含修習專業模組課程至少",
-            "verification_mode": "manual_review",
-            "requirement_context": "program_completion",
-            "source_page": 11,
-            "source_text": "碩士班學生:含修習專業模組課程至少",
-            "validation_status": "source_text_match"
-          },
-          {
-            "requirement_id": "requirement_1e52c23a2d06fdcc",
-            "kind": "manual_verification",
-            "requirement_type": "student_condition",
-            "description": "跨院修讀之學士班學生:修習專業模組課程至少",
-            "verification_mode": "manual_review",
-            "requirement_context": "program_completion",
-            "source_page": 11,
-            "source_text": "跨院修讀之學士班學生:修習專業模組課程至少",
-            "validation_status": "source_text_match"
-          },
-          {
-            "requirement_id": "requirement_75079d10d34bfbfb",
+            "requirement_id": "requirement_3303550f3ca7b83e",
             "kind": "manual_verification",
             "requirement_type": "course_eligibility",
-            "description": "相同課名以中文授課者,不採計",
+            "description": "相同課名以中文授課者,不採 計學程學分。",
             "verification_mode": "manual_review",
             "requirement_context": "program_completion",
             "source_page": 11,
-            "source_text": "相同課名以中文授課者,不採計",
+            "source_text": "相同課名以中文授課者,不採 計學程學分。",
             "validation_status": "source_text_match"
           },
           {
-            "requirement_id": "requirement_804936c704930777",
+            "requirement_id": "requirement_34f7d7b381389b74",
             "kind": "manual_verification",
             "requirement_type": "student_condition",
-            "description": "同院跨系(所)修讀之學士班學生:修習專業模組課程至少",
+            "description": "2.同院跨系(所)修讀之學士班學生:修習專業模組課程至少九學分,其它學分得由學程負 責人規劃,學生得依其自行選讀。",
             "verification_mode": "manual_review",
             "requirement_context": "program_completion",
             "source_page": 11,
-            "source_text": "同院跨系(所)修讀之學士班學生:修習專業模組課程至少",
+            "source_text": "2.同院跨系(所)修讀之學士班學生:修習專業模組課程至少九學分,其它學分得由學程負 責人規劃,學生得依其自行選讀。",
             "validation_status": "source_text_match"
           },
           {
-            "requirement_id": "requirement_8b2039799f17d886",
+            "requirement_id": "requirement_3a4d15f2db5ccb22",
+            "kind": "manual_verification",
+            "requirement_type": "course_eligibility",
+            "description": "4.當學期課程開設為英語授課者,方得認列本學程學分。",
+            "verification_mode": "manual_review",
+            "requirement_context": "program_completion",
+            "source_page": 11,
+            "source_text": "4.當學期課程開設為英語授課者,方得認列本學程學分。",
+            "validation_status": "source_text_match"
+          },
+          {
+            "requirement_id": "requirement_518de77409f23b7e",
             "kind": "manual_verification",
             "requirement_type": "service_learning",
-            "description": "需修習1學分全英語服務學習",
+            "description": "1.跨院修讀之學士班學生:修習專業模組課程至少九學分,選修課程6學分,另需修習1 學分全英語服務學習課程,總共16學分。",
             "verification_mode": "manual_review",
             "requirement_context": "program_completion",
             "source_page": 11,
-            "source_text": "需修習1學分全英語服務學習",
+            "source_text": "1.跨院修讀之學士班學生:修習專業模組課程至少九學分,選修課程6學分,另需修習1 學分全英語服務學習課程,總共16學分。",
             "validation_status": "source_text_match"
           },
           {
-            "requirement_id": "requirement_cb82cae63b015617",
+            "requirement_id": "requirement_783a9f3f9d0f7975",
             "kind": "manual_verification",
-            "requirement_type": "course_eligibility",
-            "description": "英語授課者,方得",
+            "requirement_type": "student_condition",
+            "description": "1.跨院修讀之學士班學生:修習專業模組課程至少九學分,選修課程6學分,另需修習1 學分全英語服務學習課程,總共16學分。",
             "verification_mode": "manual_review",
             "requirement_context": "program_completion",
             "source_page": 11,
-            "source_text": "英語授課者,方得",
+            "source_text": "1.跨院修讀之學士班學生:修習專業模組課程至少九學分,選修課程6學分,另需修習1 學分全英語服務學習課程,總共16學分。",
+            "validation_status": "source_text_match"
+          },
+          {
+            "requirement_id": "requirement_fcbab71f57156580",
+            "kind": "manual_verification",
+            "requirement_type": "student_condition",
+            "description": "3.碩士班學生:含修習專業模組課程至少九學分,其它學分得由學程負責人規劃,學生 得依其自行選讀。",
+            "verification_mode": "manual_review",
+            "requirement_context": "program_completion",
+            "source_page": 11,
+            "source_text": "3.碩士班學生:含修習專業模組課程至少九學分,其它學分得由學程負責人規劃,學生 得依其自行選讀。",
             "validation_status": "source_text_match"
           }
         ],
@@ -2875,6 +2881,9 @@
           "minimum_elective_courses": null,
           "has_conditional_requirements": true,
           "has_manual_requirements": true,
+          "has_completion_manual_requirements": true,
+          "has_certificate_requirements": false,
+          "has_credit_recognition_requirements": false,
           "has_unresolved_conflicts": false
         }
       },
@@ -3385,58 +3394,58 @@
         ],
         "manual_requirements": [
           {
-            "requirement_id": "requirement_1e52c23a2d06fdcc",
+            "requirement_id": "requirement_96fdd6f8767ed177",
             "kind": "manual_verification",
             "requirement_type": "student_condition",
-            "description": "跨院修讀之學士班學生:修習專業模組課程至少",
+            "description": "1.跨院修讀之學士班學生:修習專業模組課程至少九學分,選修課程 6 學分,另需修習",
             "verification_mode": "manual_review",
             "requirement_context": "program_completion",
             "source_page": 13,
-            "source_text": "跨院修讀之學士班學生:修習專業模組課程至少",
+            "source_text": "1.跨院修讀之學士班學生:修習專業模組課程至少九學分,選修課程 6 學分,另需修習",
             "validation_status": "source_text_match"
           },
           {
-            "requirement_id": "requirement_1a0cfb28821b45c8",
-            "kind": "manual_verification",
-            "requirement_type": "student_condition",
-            "description": "碩士班學生:含修習專業模組課程至少",
-            "verification_mode": "manual_review",
-            "requirement_context": "program_completion",
-            "source_page": 14,
-            "source_text": "碩士班學生:含修習專業模組課程至少",
-            "validation_status": "source_text_match"
-          },
-          {
-            "requirement_id": "requirement_75079d10d34bfbfb",
+            "requirement_id": "requirement_3303550f3ca7b83e",
             "kind": "manual_verification",
             "requirement_type": "course_eligibility",
-            "description": "相同課名以中文授課者,不採計",
+            "description": "相同課名以中文授課者,不採 計學程學分。",
             "verification_mode": "manual_review",
             "requirement_context": "program_completion",
             "source_page": 14,
-            "source_text": "相同課名以中文授課者,不採計",
+            "source_text": "相同課名以中文授課者,不採 計學程學分。",
             "validation_status": "source_text_match"
           },
           {
-            "requirement_id": "requirement_804936c704930777",
+            "requirement_id": "requirement_34f7d7b381389b74",
             "kind": "manual_verification",
             "requirement_type": "student_condition",
-            "description": "同院跨系(所)修讀之學士班學生:修習專業模組課程至少",
+            "description": "2.同院跨系(所)修讀之學士班學生:修習專業模組課程至少九學分,其它學分得由學程負 責人規劃,學生得依其自行選讀。",
             "verification_mode": "manual_review",
             "requirement_context": "program_completion",
             "source_page": 14,
-            "source_text": "同院跨系(所)修讀之學士班學生:修習專業模組課程至少",
+            "source_text": "2.同院跨系(所)修讀之學士班學生:修習專業模組課程至少九學分,其它學分得由學程負 責人規劃,學生得依其自行選讀。",
             "validation_status": "source_text_match"
           },
           {
-            "requirement_id": "requirement_cb82cae63b015617",
+            "requirement_id": "requirement_3a4d15f2db5ccb22",
             "kind": "manual_verification",
             "requirement_type": "course_eligibility",
-            "description": "英語授課者,方得",
+            "description": "4.當學期課程開設為英語授課者,方得認列本學程學分。",
             "verification_mode": "manual_review",
             "requirement_context": "program_completion",
             "source_page": 14,
-            "source_text": "英語授課者,方得",
+            "source_text": "4.當學期課程開設為英語授課者,方得認列本學程學分。",
+            "validation_status": "source_text_match"
+          },
+          {
+            "requirement_id": "requirement_fcbab71f57156580",
+            "kind": "manual_verification",
+            "requirement_type": "student_condition",
+            "description": "3.碩士班學生:含修習專業模組課程至少九學分,其它學分得由學程負責人規劃,學生 得依其自行選讀。",
+            "verification_mode": "manual_review",
+            "requirement_context": "program_completion",
+            "source_page": 14,
+            "source_text": "3.碩士班學生:含修習專業模組課程至少九學分,其它學分得由學程負責人規劃,學生 得依其自行選讀。",
             "validation_status": "source_text_match"
           }
         ],
@@ -3497,6 +3506,9 @@
           "minimum_elective_courses": null,
           "has_conditional_requirements": true,
           "has_manual_requirements": true,
+          "has_completion_manual_requirements": true,
+          "has_certificate_requirements": false,
+          "has_credit_recognition_requirements": false,
           "has_unresolved_conflicts": false
         }
       },
@@ -4134,69 +4146,69 @@
         ],
         "manual_requirements": [
           {
-            "requirement_id": "requirement_1a0cfb28821b45c8",
+            "requirement_id": "requirement_240849d77546f9db",
             "kind": "manual_verification",
             "requirement_type": "student_condition",
-            "description": "碩士班學生:含修習專業模組課程至少",
+            "description": "2.同院跨系(所)修讀之學士班學生:修習專業模組課程至少九學分,其它學分得由學程 負責人規劃,學生得依其自行選讀。",
             "verification_mode": "manual_review",
             "requirement_context": "program_completion",
             "source_page": 17,
-            "source_text": "碩士班學生:含修習專業模組課程至少",
+            "source_text": "2.同院跨系(所)修讀之學士班學生:修習專業模組課程至少九學分,其它學分得由學程 負責人規劃,學生得依其自行選讀。",
             "validation_status": "source_text_match"
           },
           {
-            "requirement_id": "requirement_1e52c23a2d06fdcc",
-            "kind": "manual_verification",
-            "requirement_type": "student_condition",
-            "description": "跨院修讀之學士班學生:修習專業模組課程至少",
-            "verification_mode": "manual_review",
-            "requirement_context": "program_completion",
-            "source_page": 17,
-            "source_text": "跨院修讀之學士班學生:修習專業模組課程至少",
-            "validation_status": "source_text_match"
-          },
-          {
-            "requirement_id": "requirement_75079d10d34bfbfb",
+            "requirement_id": "requirement_309677ec53b250dc",
             "kind": "manual_verification",
             "requirement_type": "course_eligibility",
-            "description": "相同課名以中文授課者,不採計",
+            "description": "相同課名以中文授課者,不 採計學程學分。",
             "verification_mode": "manual_review",
             "requirement_context": "program_completion",
             "source_page": 17,
-            "source_text": "相同課名以中文授課者,不採計",
+            "source_text": "相同課名以中文授課者,不 採計學程學分。",
             "validation_status": "source_text_match"
           },
           {
-            "requirement_id": "requirement_804936c704930777",
+            "requirement_id": "requirement_3a4d15f2db5ccb22",
             "kind": "manual_verification",
-            "requirement_type": "student_condition",
-            "description": "同院跨系(所)修讀之學士班學生:修習專業模組課程至少",
+            "requirement_type": "course_eligibility",
+            "description": "4.當學期課程開設為英語授課者,方得認列本學程學分。",
             "verification_mode": "manual_review",
             "requirement_context": "program_completion",
             "source_page": 17,
-            "source_text": "同院跨系(所)修讀之學士班學生:修習專業模組課程至少",
+            "source_text": "4.當學期課程開設為英語授課者,方得認列本學程學分。",
             "validation_status": "source_text_match"
           },
           {
-            "requirement_id": "requirement_8b2039799f17d886",
+            "requirement_id": "requirement_58b2e91f06f1908a",
             "kind": "manual_verification",
             "requirement_type": "service_learning",
-            "description": "需修習1學分全英語服務學習",
+            "description": "1.跨院修讀之學士班學生:修習專業模組課程至少九學分,選修課程6學分,另需修習 1學分全英語服務學習課程,總共16學分。",
             "verification_mode": "manual_review",
             "requirement_context": "program_completion",
             "source_page": 17,
-            "source_text": "需修習1學分全英語服務學習",
+            "source_text": "1.跨院修讀之學士班學生:修習專業模組課程至少九學分,選修課程6學分,另需修習 1學分全英語服務學習課程,總共16學分。",
             "validation_status": "source_text_match"
           },
           {
-            "requirement_id": "requirement_cb82cae63b015617",
+            "requirement_id": "requirement_97e70c6d57bc6f59",
             "kind": "manual_verification",
-            "requirement_type": "course_eligibility",
-            "description": "英語授課者,方得",
+            "requirement_type": "student_condition",
+            "description": "3.碩士班學生:含修習專業模組課程至少九學分,其它學分得由學程負責人規劃,學 生得依其自行選讀。",
             "verification_mode": "manual_review",
             "requirement_context": "program_completion",
             "source_page": 17,
-            "source_text": "英語授課者,方得",
+            "source_text": "3.碩士班學生:含修習專業模組課程至少九學分,其它學分得由學程負責人規劃,學 生得依其自行選讀。",
+            "validation_status": "source_text_match"
+          },
+          {
+            "requirement_id": "requirement_dbdd05b4d1bc81e5",
+            "kind": "manual_verification",
+            "requirement_type": "student_condition",
+            "description": "1.跨院修讀之學士班學生:修習專業模組課程至少九學分,選修課程6學分,另需修習 1學分全英語服務學習課程,總共16學分。",
+            "verification_mode": "manual_review",
+            "requirement_context": "program_completion",
+            "source_page": 17,
+            "source_text": "1.跨院修讀之學士班學生:修習專業模組課程至少九學分,選修課程6學分,另需修習 1學分全英語服務學習課程,總共16學分。",
             "validation_status": "source_text_match"
           }
         ],
@@ -4238,6 +4250,9 @@
           "minimum_elective_courses": null,
           "has_conditional_requirements": true,
           "has_manual_requirements": true,
+          "has_completion_manual_requirements": true,
+          "has_certificate_requirements": false,
+          "has_credit_recognition_requirements": false,
           "has_unresolved_conflicts": false
         }
       },
@@ -4875,69 +4890,69 @@
         ],
         "manual_requirements": [
           {
-            "requirement_id": "requirement_1a0cfb28821b45c8",
-            "kind": "manual_verification",
-            "requirement_type": "student_condition",
-            "description": "碩士班學生:含修習專業模組課程至少",
-            "verification_mode": "manual_review",
-            "requirement_context": "program_completion",
-            "source_page": 20,
-            "source_text": "碩士班學生:含修習專業模組課程至少",
-            "validation_status": "source_text_match"
-          },
-          {
-            "requirement_id": "requirement_1e52c23a2d06fdcc",
-            "kind": "manual_verification",
-            "requirement_type": "student_condition",
-            "description": "跨院修讀之學士班學生:修習專業模組課程至少",
-            "verification_mode": "manual_review",
-            "requirement_context": "program_completion",
-            "source_page": 20,
-            "source_text": "跨院修讀之學士班學生:修習專業模組課程至少",
-            "validation_status": "source_text_match"
-          },
-          {
-            "requirement_id": "requirement_75079d10d34bfbfb",
+            "requirement_id": "requirement_3303550f3ca7b83e",
             "kind": "manual_verification",
             "requirement_type": "course_eligibility",
-            "description": "相同課名以中文授課者,不採計",
+            "description": "相同課名以中文授課者,不採 計學程學分。",
             "verification_mode": "manual_review",
             "requirement_context": "program_completion",
             "source_page": 20,
-            "source_text": "相同課名以中文授課者,不採計",
+            "source_text": "相同課名以中文授課者,不採 計學程學分。",
             "validation_status": "source_text_match"
           },
           {
-            "requirement_id": "requirement_804936c704930777",
+            "requirement_id": "requirement_34f7d7b381389b74",
             "kind": "manual_verification",
             "requirement_type": "student_condition",
-            "description": "同院跨系(所)修讀之學士班學生:修習專業模組課程至少",
+            "description": "2.同院跨系(所)修讀之學士班學生:修習專業模組課程至少九學分,其它學分得由學程負 責人規劃,學生得依其自行選讀。",
             "verification_mode": "manual_review",
             "requirement_context": "program_completion",
             "source_page": 20,
-            "source_text": "同院跨系(所)修讀之學士班學生:修習專業模組課程至少",
+            "source_text": "2.同院跨系(所)修讀之學士班學生:修習專業模組課程至少九學分,其它學分得由學程負 責人規劃,學生得依其自行選讀。",
             "validation_status": "source_text_match"
           },
           {
-            "requirement_id": "requirement_8b2039799f17d886",
+            "requirement_id": "requirement_3a4d15f2db5ccb22",
+            "kind": "manual_verification",
+            "requirement_type": "course_eligibility",
+            "description": "4.當學期課程開設為英語授課者,方得認列本學程學分。",
+            "verification_mode": "manual_review",
+            "requirement_context": "program_completion",
+            "source_page": 20,
+            "source_text": "4.當學期課程開設為英語授課者,方得認列本學程學分。",
+            "validation_status": "source_text_match"
+          },
+          {
+            "requirement_id": "requirement_a85d1227c525e8a8",
+            "kind": "manual_verification",
+            "requirement_type": "student_condition",
+            "description": "1.跨院修讀之學士班學生:修習專業模組課程至少九學分,選修課程 6 學分,另需修習 1學分全英語服務學習課程,總共16學分。",
+            "verification_mode": "manual_review",
+            "requirement_context": "program_completion",
+            "source_page": 20,
+            "source_text": "1.跨院修讀之學士班學生:修習專業模組課程至少九學分,選修課程 6 學分,另需修習 1學分全英語服務學習課程,總共16學分。",
+            "validation_status": "source_text_match"
+          },
+          {
+            "requirement_id": "requirement_fcbab71f57156580",
+            "kind": "manual_verification",
+            "requirement_type": "student_condition",
+            "description": "3.碩士班學生:含修習專業模組課程至少九學分,其它學分得由學程負責人規劃,學生 得依其自行選讀。",
+            "verification_mode": "manual_review",
+            "requirement_context": "program_completion",
+            "source_page": 20,
+            "source_text": "3.碩士班學生:含修習專業模組課程至少九學分,其它學分得由學程負責人規劃,學生 得依其自行選讀。",
+            "validation_status": "source_text_match"
+          },
+          {
+            "requirement_id": "requirement_fd441dbc9ce1843e",
             "kind": "manual_verification",
             "requirement_type": "service_learning",
-            "description": "需修習1學分全英語服務學習",
+            "description": "1.跨院修讀之學士班學生:修習專業模組課程至少九學分,選修課程 6 學分,另需修習 1學分全英語服務學習課程,總共16學分。",
             "verification_mode": "manual_review",
             "requirement_context": "program_completion",
             "source_page": 20,
-            "source_text": "需修習1學分全英語服務學習",
-            "validation_status": "source_text_match"
-          },
-          {
-            "requirement_id": "requirement_cb82cae63b015617",
-            "kind": "manual_verification",
-            "requirement_type": "course_eligibility",
-            "description": "英語授課者,方得",
-            "verification_mode": "manual_review",
-            "requirement_context": "program_completion",
-            "source_page": 20,
-            "source_text": "英語授課者,方得",
+            "source_text": "1.跨院修讀之學士班學生:修習專業模組課程至少九學分,選修課程 6 學分,另需修習 1學分全英語服務學習課程,總共16學分。",
             "validation_status": "source_text_match"
           }
         ],
@@ -4979,6 +4994,9 @@
           "minimum_elective_courses": null,
           "has_conditional_requirements": true,
           "has_manual_requirements": true,
+          "has_completion_manual_requirements": true,
+          "has_certificate_requirements": false,
+          "has_credit_recognition_requirements": false,
           "has_unresolved_conflicts": false
         }
       },
@@ -5467,69 +5485,69 @@
         ],
         "manual_requirements": [
           {
-            "requirement_id": "requirement_1f622fa0dca49b44",
+            "requirement_id": "requirement_7ba0cde82252bd85",
             "kind": "manual_verification",
             "requirement_type": "course_eligibility",
-            "description": "為相同課程,不得重複修透過實用性英語增進溝通能3習,僅能認列其中一門",
+            "description": "111.12.5 第174次教務會議通過 全英語通識教育菁英學程新課程規劃表 開課單位 課 程 名 稱 學分數 備註 核 心 課 程 透過實用性英語增進溝通能 力 基礎教育中心 IMPROVING COMMUNICATION SKILLS THROUGH FUNCTIONAL ENGLISH 為相同課程,不得重複修 透過實用性英語增進溝通能 3 習,僅能認列其中一門。",
             "verification_mode": "manual_review",
             "requirement_context": "program_completion",
             "source_page": 21,
-            "source_text": "為相同課程,不得重複修透過實用性英語增進溝通能3習,僅能認列其中一門",
+            "source_text": "111.12.5 第174次教務會議通過 全英語通識教育菁英學程新課程規劃表 開課單位 課 程 名 稱 學分數 備註 核 心 課 程 透過實用性英語增進溝通能 力 基礎教育中心 IMPROVING COMMUNICATION SKILLS THROUGH FUNCTIONAL ENGLISH 為相同課程,不得重複修 透過實用性英語增進溝通能 3 習,僅能認列其中一門。",
             "validation_status": "source_text_match"
           },
           {
-            "requirement_id": "requirement_4fbf6c5436127b60",
+            "requirement_id": "requirement_93ed4948f15a1173",
             "kind": "manual_verification",
             "requirement_type": "course_eligibility",
-            "description": "為相同課程,不得重複修3高級)習,僅能認列其中一門",
+            "description": "力(中級) IMPROVING 跨院 EAP COMMUNICATION SKILLS THROUGH FUNCTIONAL ENGLISH(INTERMEDIATE LEVEL) 從英語課程學習多元文化 DEVELOPING 基礎教育中心 MULTICULTURAL AWARENESS IN ENGLISH CLASSROOM 從英語課程學習多元文化(中 為相同課程,不得重複修 3 高級) 習,僅能認列其中一門。",
             "verification_mode": "manual_review",
             "requirement_context": "program_completion",
             "source_page": 21,
-            "source_text": "為相同課程,不得重複修3高級)習,僅能認列其中一門",
+            "source_text": "力(中級) IMPROVING 跨院 EAP COMMUNICATION SKILLS THROUGH FUNCTIONAL ENGLISH(INTERMEDIATE LEVEL) 從英語課程學習多元文化 DEVELOPING 基礎教育中心 MULTICULTURAL AWARENESS IN ENGLISH CLASSROOM 從英語課程學習多元文化(中 為相同課程,不得重複修 3 高級) 習,僅能認列其中一門。",
             "validation_status": "source_text_match"
           },
           {
-            "requirement_id": "requirement_1a0cfb28821b45c8",
+            "requirement_id": "requirement_07d407198eb547c2",
             "kind": "manual_verification",
             "requirement_type": "student_condition",
-            "description": "碩士班學生:含修習專業模組課程至少",
+            "description": "3.碩士班學生:含修習專業模組課程至少九學分,其它學分得由學程負責人規劃,學生得 依其自行選讀。",
             "verification_mode": "manual_review",
             "requirement_context": "program_completion",
             "source_page": 23,
-            "source_text": "碩士班學生:含修習專業模組課程至少",
+            "source_text": "3.碩士班學生:含修習專業模組課程至少九學分,其它學分得由學程負責人規劃,學生得 依其自行選讀。",
             "validation_status": "source_text_match"
           },
           {
-            "requirement_id": "requirement_1e52c23a2d06fdcc",
+            "requirement_id": "requirement_233e5b618a3dd957",
             "kind": "manual_verification",
             "requirement_type": "student_condition",
-            "description": "跨院修讀之學士班學生:修習專業模組課程至少",
+            "description": "1.跨院修讀之學士班學生:修習專業模組課程至少九學分,選修課程 6 學分,另需修習 1 學分全英語服務學習課程,總共16學分。",
             "verification_mode": "manual_review",
             "requirement_context": "program_completion",
             "source_page": 23,
-            "source_text": "跨院修讀之學士班學生:修習專業模組課程至少",
+            "source_text": "1.跨院修讀之學士班學生:修習專業模組課程至少九學分,選修課程 6 學分,另需修習 1 學分全英語服務學習課程,總共16學分。",
             "validation_status": "source_text_match"
           },
           {
-            "requirement_id": "requirement_804936c704930777",
-            "kind": "manual_verification",
-            "requirement_type": "student_condition",
-            "description": "同院跨系(所)修讀之學士班學生:修習專業模組課程至少",
-            "verification_mode": "manual_review",
-            "requirement_context": "program_completion",
-            "source_page": 23,
-            "source_text": "同院跨系(所)修讀之學士班學生:修習專業模組課程至少",
-            "validation_status": "source_text_match"
-          },
-          {
-            "requirement_id": "requirement_8b2039799f17d886",
+            "requirement_id": "requirement_aac3479fa253fe32",
             "kind": "manual_verification",
             "requirement_type": "service_learning",
-            "description": "需修習1學分全英語服務學習",
+            "description": "1.跨院修讀之學士班學生:修習專業模組課程至少九學分,選修課程 6 學分,另需修習 1 學分全英語服務學習課程,總共16學分。",
             "verification_mode": "manual_review",
             "requirement_context": "program_completion",
             "source_page": 23,
-            "source_text": "需修習1學分全英語服務學習",
+            "source_text": "1.跨院修讀之學士班學生:修習專業模組課程至少九學分,選修課程 6 學分,另需修習 1 學分全英語服務學習課程,總共16學分。",
+            "validation_status": "source_text_match"
+          },
+          {
+            "requirement_id": "requirement_fb78c4fa229ee19f",
+            "kind": "manual_verification",
+            "requirement_type": "student_condition",
+            "description": "2.同院跨系(所)修讀之學士班學生:修習專業模組課程至少九學分,其它學分得由學程負責 人規劃,學生得依其自行選讀。",
+            "verification_mode": "manual_review",
+            "requirement_context": "program_completion",
+            "source_page": 23,
+            "source_text": "2.同院跨系(所)修讀之學士班學生:修習專業模組課程至少九學分,其它學分得由學程負責 人規劃,學生得依其自行選讀。",
             "validation_status": "source_text_match"
           }
         ],
@@ -5569,6 +5587,9 @@
           "minimum_elective_courses": null,
           "has_conditional_requirements": true,
           "has_manual_requirements": true,
+          "has_completion_manual_requirements": true,
+          "has_certificate_requirements": false,
+          "has_credit_recognition_requirements": false,
           "has_unresolved_conflicts": false
         }
       },
@@ -6000,59 +6021,59 @@
         ],
         "manual_requirements": [
           {
-            "requirement_id": "requirement_1a0cfb28821b45c8",
+            "requirement_id": "requirement_07d407198eb547c2",
             "kind": "manual_verification",
             "requirement_type": "student_condition",
-            "description": "碩士班學生:含修習專業模組課程至少",
+            "description": "3.碩士班學生:含修習專業模組課程至少九學分,其它學分得由學程負責人規劃,學生得 依其自行選讀。",
             "verification_mode": "manual_review",
             "requirement_context": "program_completion",
             "source_page": 25,
-            "source_text": "碩士班學生:含修習專業模組課程至少",
+            "source_text": "3.碩士班學生:含修習專業模組課程至少九學分,其它學分得由學程負責人規劃,學生得 依其自行選讀。",
             "validation_status": "source_text_match"
           },
           {
-            "requirement_id": "requirement_1e52c23a2d06fdcc",
+            "requirement_id": "requirement_42572cb600f5241d",
             "kind": "manual_verification",
             "requirement_type": "student_condition",
-            "description": "跨院修讀之學士班學生:修習專業模組課程至少",
+            "description": "1.跨院修讀之學士班學生:修習專業模組課程至少九學分,選修課程6學分,另需修習1學分 全英語服務學習課程,總共16學分。",
             "verification_mode": "manual_review",
             "requirement_context": "program_completion",
             "source_page": 25,
-            "source_text": "跨院修讀之學士班學生:修習專業模組課程至少",
+            "source_text": "1.跨院修讀之學士班學生:修習專業模組課程至少九學分,選修課程6學分,另需修習1學分 全英語服務學習課程,總共16學分。",
             "validation_status": "source_text_match"
           },
           {
-            "requirement_id": "requirement_286aba8d4b73c73b",
+            "requirement_id": "requirement_9f59586fa2ae9c6a",
+            "kind": "manual_verification",
+            "requirement_type": "service_learning",
+            "description": "1.跨院修讀之學士班學生:修習專業模組課程至少九學分,選修課程6學分,另需修習1學分 全英語服務學習課程,總共16學分。",
+            "verification_mode": "manual_review",
+            "requirement_context": "program_completion",
+            "source_page": 25,
+            "source_text": "1.跨院修讀之學士班學生:修習專業模組課程至少九學分,選修課程6學分,另需修習1學分 全英語服務學習課程,總共16學分。",
+            "validation_status": "source_text_match"
+          },
+          {
+            "requirement_id": "requirement_cf95f5df6d8e8413",
             "kind": "manual_verification",
             "requirement_type": "activity_count",
-            "description": "需參加至少一場",
+            "description": "4. 選讀學程之學生需參加至少一場學程成果發表會。",
             "verification_mode": "manual_review",
             "requirement_context": "program_completion",
             "source_page": 25,
-            "source_text": "需參加至少一場",
+            "source_text": "4. 選讀學程之學生需參加至少一場學程成果發表會。",
             "validation_status": "source_text_match",
             "minimum_count": 1
           },
           {
-            "requirement_id": "requirement_804936c704930777",
+            "requirement_id": "requirement_fb78c4fa229ee19f",
             "kind": "manual_verification",
             "requirement_type": "student_condition",
-            "description": "同院跨系(所)修讀之學士班學生:修習專業模組課程至少",
+            "description": "2.同院跨系(所)修讀之學士班學生:修習專業模組課程至少九學分,其它學分得由學程負責 人規劃,學生得依其自行選讀。",
             "verification_mode": "manual_review",
             "requirement_context": "program_completion",
             "source_page": 25,
-            "source_text": "同院跨系(所)修讀之學士班學生:修習專業模組課程至少",
-            "validation_status": "source_text_match"
-          },
-          {
-            "requirement_id": "requirement_8b2039799f17d886",
-            "kind": "manual_verification",
-            "requirement_type": "service_learning",
-            "description": "需修習1學分全英語服務學習",
-            "verification_mode": "manual_review",
-            "requirement_context": "program_completion",
-            "source_page": 25,
-            "source_text": "需修習1學分全英語服務學習",
+            "source_text": "2.同院跨系(所)修讀之學士班學生:修習專業模組課程至少九學分,其它學分得由學程負責 人規劃,學生得依其自行選讀。",
             "validation_status": "source_text_match"
           }
         ],
@@ -6088,6 +6109,9 @@
           "minimum_elective_courses": null,
           "has_conditional_requirements": true,
           "has_manual_requirements": true,
+          "has_completion_manual_requirements": true,
+          "has_certificate_requirements": false,
+          "has_credit_recognition_requirements": false,
           "has_unresolved_conflicts": false
         }
       },
@@ -6444,60 +6468,60 @@
         ],
         "manual_requirements": [
           {
-            "requirement_id": "requirement_1a0cfb28821b45c8",
+            "requirement_id": "requirement_07d407198eb547c2",
             "kind": "manual_verification",
             "requirement_type": "student_condition",
-            "description": "碩士班學生:含修習專業模組課程至少",
+            "description": "3.碩士班學生:含修習專業模組課程至少九學分,其它學分得由學程負責人規劃,學生得 依其自行選讀。",
             "verification_mode": "manual_review",
             "requirement_context": "program_completion",
             "source_page": 27,
-            "source_text": "碩士班學生:含修習專業模組課程至少",
+            "source_text": "3.碩士班學生:含修習專業模組課程至少九學分,其它學分得由學程負責人規劃,學生得 依其自行選讀。",
             "validation_status": "source_text_match"
           },
           {
-            "requirement_id": "requirement_1e52c23a2d06fdcc",
+            "requirement_id": "requirement_34f7d7b381389b74",
             "kind": "manual_verification",
             "requirement_type": "student_condition",
-            "description": "跨院修讀之學士班學生:修習專業模組課程至少",
+            "description": "2.同院跨系(所)修讀之學士班學生:修習專業模組課程至少九學分,其它學分得由學程負 責人規劃,學生得依其自行選讀。",
             "verification_mode": "manual_review",
             "requirement_context": "program_completion",
             "source_page": 27,
-            "source_text": "跨院修讀之學士班學生:修習專業模組課程至少",
+            "source_text": "2.同院跨系(所)修讀之學士班學生:修習專業模組課程至少九學分,其它學分得由學程負 責人規劃,學生得依其自行選讀。",
             "validation_status": "source_text_match"
           },
           {
-            "requirement_id": "requirement_2e1ba398b3916995",
-            "kind": "manual_verification",
-            "requirement_type": "activity_count",
-            "description": "至少一次",
-            "verification_mode": "manual_review",
-            "requirement_context": "program_completion",
-            "source_page": 27,
-            "source_text": "至少一次",
-            "validation_status": "source_text_match",
-            "minimum_count": 1
-          },
-          {
-            "requirement_id": "requirement_5e2744ca84b58c1a",
+            "requirement_id": "requirement_83f5b3c946633e38",
             "kind": "manual_verification",
             "requirement_type": "service_learning",
-            "description": "須參加學程指定全英語服務學習",
+            "description": "※ 修讀本學程學生須參加學程指定全英語服務學習課程,並參加至少一次學程成果發表會。",
             "verification_mode": "manual_review",
             "requirement_context": "program_completion",
             "source_page": 27,
-            "source_text": "須參加學程指定全英語服務學習",
+            "source_text": "※ 修讀本學程學生須參加學程指定全英語服務學習課程,並參加至少一次學程成果發表會。",
             "validation_status": "source_text_match"
           },
           {
-            "requirement_id": "requirement_804936c704930777",
+            "requirement_id": "requirement_bd76a1af25d7024c",
             "kind": "manual_verification",
             "requirement_type": "student_condition",
-            "description": "同院跨系(所)修讀之學士班學生:修習專業模組課程至少",
+            "description": "1.跨院修讀之學士班學生:修習專業模組課程至少九學分,其它至多九學分得以通識跨院 選修學分抵免。",
             "verification_mode": "manual_review",
             "requirement_context": "program_completion",
             "source_page": 27,
-            "source_text": "同院跨系(所)修讀之學士班學生:修習專業模組課程至少",
+            "source_text": "1.跨院修讀之學士班學生:修習專業模組課程至少九學分,其它至多九學分得以通識跨院 選修學分抵免。",
             "validation_status": "source_text_match"
+          },
+          {
+            "requirement_id": "requirement_fe4d63ff26561d02",
+            "kind": "manual_verification",
+            "requirement_type": "activity_count",
+            "description": "※ 修讀本學程學生須參加學程指定全英語服務學習課程,並參加至少一次學程成果發表會。",
+            "verification_mode": "manual_review",
+            "requirement_context": "program_completion",
+            "source_page": 27,
+            "source_text": "※ 修讀本學程學生須參加學程指定全英語服務學習課程,並參加至少一次學程成果發表會。",
+            "validation_status": "source_text_match",
+            "minimum_count": 1
           }
         ],
         "completion_summary": {
@@ -6510,6 +6534,9 @@
           "minimum_elective_courses": null,
           "has_conditional_requirements": true,
           "has_manual_requirements": true,
+          "has_completion_manual_requirements": true,
+          "has_certificate_requirements": false,
+          "has_credit_recognition_requirements": false,
           "has_unresolved_conflicts": false
         }
       },
@@ -7314,25 +7341,25 @@
     ],
     "manual_requirements": [
       {
-        "requirement_id": "requirement_75079d10d34bfbfb",
+        "requirement_id": "requirement_aa838e7a6e4d44b3",
         "kind": "manual_verification",
         "requirement_type": "course_eligibility",
-        "description": "相同課名以中文授課者,不採計",
+        "description": "2.當學期課程開設為英語授課者,方得認列本學程學分。",
         "verification_mode": "manual_review",
         "requirement_context": "program_completion",
         "source_page": 4,
-        "source_text": "相同課名以中文授課者,不採計",
+        "source_text": "2.當學期課程開設為英語授課者,方得認列本學程學分。",
         "validation_status": "source_text_match"
       },
       {
-        "requirement_id": "requirement_cb82cae63b015617",
+        "requirement_id": "requirement_db36d8f264de6f96",
         "kind": "manual_verification",
         "requirement_type": "course_eligibility",
-        "description": "英語授課者,方得",
+        "description": "相同課名以中文授課者,不採計 學程學分。",
         "verification_mode": "manual_review",
         "requirement_context": "program_completion",
         "source_page": 4,
-        "source_text": "英語授課者,方得",
+        "source_text": "相同課名以中文授課者,不採計 學程學分。",
         "validation_status": "source_text_match"
       }
     ],
@@ -7376,6 +7403,9 @@
       "minimum_elective_courses": null,
       "has_conditional_requirements": false,
       "has_manual_requirements": true,
+      "has_completion_manual_requirements": true,
+      "has_certificate_requirements": false,
+      "has_credit_recognition_requirements": false,
       "has_unresolved_conflicts": false
     }
   }

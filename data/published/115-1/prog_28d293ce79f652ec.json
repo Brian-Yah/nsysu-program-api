@@ -23,7 +23,7 @@
       "last_modified": "Wed, 20 Dec 2023 02:45:17 GMT",
       "content_length": 285132
     },
-    "parser_version": "0.3.0",
+    "parser_version": "0.4.0",
     "extractor_versions": {
       "pypdf": "6.10.0",
       "pdfplumber": "0.11.9"
@@ -548,6 +548,38 @@
         "source_page": 1,
         "source_text": "總學分數:至少修課 18學分",
         "validation_status": "source_text_match"
+      },
+      {
+        "constraint_id": "constraint_07d9b6d3aefd1c74",
+        "kind": "minimum_credits",
+        "scope": {
+          "kind": "professional_module"
+        },
+        "requirement_context": "program_completion",
+        "source_kind": "institutional_catalog",
+        "source_url": "https://ctdr.nsysu.edu.tw/class2.php",
+        "source_text": "專業模組課程至少九學分。",
+        "validation_status": "source_text_match",
+        "minimum_credits": 9
+      },
+      {
+        "constraint_id": "constraint_e4361bba192ba1f7",
+        "kind": "maximum_counted_credits",
+        "scope": {
+          "kind": "course_attributes",
+          "course_attributes": [
+            "cross_college_general_education"
+          ],
+          "student_categories": [
+            "cross_college_bachelor"
+          ]
+        },
+        "requirement_context": "program_completion",
+        "source_kind": "institutional_catalog",
+        "source_url": "https://ctdr.nsysu.edu.tw/class2.php",
+        "source_text": "跨院修讀之學士班學生，其他課程至多六學分以跨院選修學分抵免。",
+        "validation_status": "source_text_match",
+        "maximum_counted_credits": 6
       }
     ],
     "manual_requirements": [
@@ -555,11 +587,11 @@
         "requirement_id": "requirement_0a67b08530372679",
         "kind": "manual_verification",
         "requirement_type": "recognition",
-        "description": "同名或同質課程認抵",
+        "description": "核心課程原則上以財管系開設課程為主；財管所或企管系（所）開設的同名或同質課程，是否可認抵核心課程須人工確認。",
         "verification_mode": "manual_review",
         "requirement_context": "program_completion",
         "source_page": 1,
-        "source_text": "同名或同質課程認抵",
+        "source_text": "核心課程以財管系所開設課程為主，也可以財管所、企管系（所）同名或同質課程認抵。",
         "validation_status": "source_text_match"
       }
     ],
@@ -632,6 +664,9 @@
       "minimum_elective_courses": null,
       "has_conditional_requirements": false,
       "has_manual_requirements": true,
+      "has_completion_manual_requirements": true,
+      "has_certificate_requirements": false,
+      "has_credit_recognition_requirements": false,
       "has_unresolved_conflicts": false
     }
   },
@@ -641,5 +676,12 @@
     "review_note": "財務管理（一）/財務管理 = 財務管理（一）或 財務管理\n財務管理（二）/財務管理理論 也是",
     "correction_status": "rechecked",
     "override_path": "data/reviewed/115-1/prog_28d293ce79f652ec.json"
-  }
+  },
+  "institutional_policy_ids": [
+    "nsysu_program_policy_2026_08_16"
+  ],
+  "institutional_policy_applied_rule_ids": [
+    "professional_module_minimum",
+    "professional_cross_college_elective_cap"
+  ]
 }

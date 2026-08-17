@@ -1,5 +1,5 @@
 {
-  "schema_version": "1.2",
+  "schema_version": "1.3",
   "courses": [
     {
       "course_code": "PYTHON",
@@ -730,25 +730,25 @@
         ],
         "manual_requirements": [
           {
-            "requirement_id": "requirement_2e543f446fb01967",
+            "requirement_id": "requirement_9937f2479bd9acc5",
             "kind": "manual_verification",
             "requirement_type": "curriculum_exception",
-            "description": "114學年度第1學期(含)前已取得該課程學分者,可將其計入選修學分",
+            "description": "凡於 114學年度第 1學期(含)前已取得該課程學分者,可將其計入選修學分。",
             "verification_mode": "manual_review",
             "requirement_context": "program_completion",
             "source_page": 2,
-            "source_text": "114學年度第1學期(含)前已取得該課程學分者,可將其計入選修學分",
+            "source_text": "凡於 114學年度第 1學期(含)前已取得該課程學分者,可將其計入選修學分。",
             "validation_status": "source_text_match"
           },
           {
-            "requirement_id": "requirement_861a61dfb934e0c2",
+            "requirement_id": "requirement_d88aaa8307798e50",
             "kind": "manual_verification",
             "requirement_type": "curriculum_exception",
-            "description": "自114學年度第2學期起,將從本學程課程架構中移除",
+            "description": "※資管系開設之「WEB 程式設計」課程,自114 學年度第 2學期起,將從本學程課程架構 中移除。",
             "verification_mode": "manual_review",
             "requirement_context": "program_completion",
             "source_page": 2,
-            "source_text": "自114學年度第2學期起,將從本學程課程架構中移除",
+            "source_text": "※資管系開設之「WEB 程式設計」課程,自114 學年度第 2學期起,將從本學程課程架構 中移除。",
             "validation_status": "source_text_match"
           }
         ],
@@ -762,6 +762,9 @@
           "minimum_elective_courses": null,
           "has_conditional_requirements": false,
           "has_manual_requirements": true,
+          "has_completion_manual_requirements": true,
+          "has_certificate_requirements": false,
+          "has_credit_recognition_requirements": false,
           "has_unresolved_conflicts": false
         }
       },
@@ -1474,6 +1477,9 @@
           "minimum_elective_courses": null,
           "has_conditional_requirements": false,
           "has_manual_requirements": false,
+          "has_completion_manual_requirements": false,
+          "has_certificate_requirements": false,
+          "has_credit_recognition_requirements": false,
           "has_unresolved_conflicts": false
         }
       },
@@ -2204,6 +2210,9 @@
           "minimum_elective_courses": null,
           "has_conditional_requirements": false,
           "has_manual_requirements": false,
+          "has_completion_manual_requirements": false,
+          "has_certificate_requirements": false,
+          "has_credit_recognition_requirements": false,
           "has_unresolved_conflicts": false
         }
       },
@@ -2934,6 +2943,9 @@
           "minimum_elective_courses": null,
           "has_conditional_requirements": false,
           "has_manual_requirements": false,
+          "has_completion_manual_requirements": false,
+          "has_certificate_requirements": false,
+          "has_credit_recognition_requirements": false,
           "has_unresolved_conflicts": false
         }
       },
@@ -3172,6 +3184,9 @@
           "minimum_elective_courses": null,
           "has_conditional_requirements": false,
           "has_manual_requirements": false,
+          "has_completion_manual_requirements": false,
+          "has_certificate_requirements": false,
+          "has_credit_recognition_requirements": false,
           "has_unresolved_conflicts": false
         }
       },
@@ -3856,25 +3871,25 @@
     ],
     "manual_requirements": [
       {
-        "requirement_id": "requirement_2e543f446fb01967",
+        "requirement_id": "requirement_9937f2479bd9acc5",
         "kind": "manual_verification",
         "requirement_type": "curriculum_exception",
-        "description": "114學年度第1學期(含)前已取得該課程學分者,可將其計入選修學分",
+        "description": "凡於 114學年度第 1學期(含)前已取得該課程學分者,可將其計入選修學分。",
         "verification_mode": "manual_review",
         "requirement_context": "program_completion",
         "source_page": 2,
-        "source_text": "114學年度第1學期(含)前已取得該課程學分者,可將其計入選修學分",
+        "source_text": "凡於 114學年度第 1學期(含)前已取得該課程學分者,可將其計入選修學分。",
         "validation_status": "source_text_match"
       },
       {
-        "requirement_id": "requirement_861a61dfb934e0c2",
+        "requirement_id": "requirement_d88aaa8307798e50",
         "kind": "manual_verification",
         "requirement_type": "curriculum_exception",
-        "description": "自114學年度第2學期起,將從本學程課程架構中移除",
+        "description": "※資管系開設之「WEB 程式設計」課程,自114 學年度第 2學期起,將從本學程課程架構 中移除。",
         "verification_mode": "manual_review",
         "requirement_context": "program_completion",
         "source_page": 2,
-        "source_text": "自114學年度第2學期起,將從本學程課程架構中移除",
+        "source_text": "※資管系開設之「WEB 程式設計」課程,自114 學年度第 2學期起,將從本學程課程架構 中移除。",
         "validation_status": "source_text_match"
       }
     ],
@@ -3888,6 +3903,9 @@
       "minimum_elective_courses": null,
       "has_conditional_requirements": false,
       "has_manual_requirements": true,
+      "has_completion_manual_requirements": true,
+      "has_certificate_requirements": false,
+      "has_credit_recognition_requirements": false,
       "has_unresolved_conflicts": false
     }
   }

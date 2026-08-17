@@ -22,7 +22,9 @@
 - `no_double_count_constraints`：同一課程不得在核心與選修重複計入。
 - `credit_constraints`：學程、核心／選修、A/B/C/D 等命名分類、系外與 TAICA 證明的最低或最多採計學分。
 - `course_pools`：官方表列課程池的宣告學分；不是完成門檻。
-- `manual_requirements`：活動、工作坊、服務學習、報告、先修、核准、認證及學生身分類別等不能安全自動判定的條件；`requirement_context` 區分一般學程完成與額外證書資格。
+- `manual_requirements`：活動、工作坊、服務學習、報告、先修、核准、認證及學生身分類別等不能安全自動判定的條件；`requirement_context` 區分一般完成、證書、學分認抵與學程申請。
+- `institutional_policy_ids`：套用的校級通用規定版本；完整內容由 `api/v1/policies/program-requirements.json` 提供。
+- `catalog_entry_group_id`：同一規劃表項目中的替代／等價課群；每門課仍有唯一 `catalog_entry_id`。
 - `source_conflicts`：同一官方文件的候選規則互相衝突；未解決時不得輸出單一 canonical minimum。
 
 每筆保留穩定 `constraint_id`、來源頁、原文與驗證狀態。`declared_option_count` 與 `option_count_matches` 同時保存 PDF 宣告數和實際表列數；不一致時不得猜測或刪課。

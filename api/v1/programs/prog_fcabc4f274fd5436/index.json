@@ -29,7 +29,7 @@
         "last_modified": "Tue, 24 Dec 2024 07:14:19 GMT",
         "content_length": 106599
       },
-      "parser_version": "0.3.0",
+      "parser_version": "0.4.0",
       "extractor_versions": {
         "pypdf": "6.10.0",
         "pdfplumber": "0.11.9"
@@ -98,11 +98,12 @@
         "source_page": 1,
         "evidence_match": true,
         "validation_status": "needs_course_code_verification",
-        "uncertainty_reason": "Official PDF table does not provide a course code"
+        "uncertainty_reason": "Official PDF table does not provide a course code",
+        "catalog_entry_group_id": "entry_15e0ce48a950d87e"
       },
       {
         "course_code": null,
-        "catalog_entry_id": "entry_15e0ce48a950d87e",
+        "catalog_entry_id": "entry_15e0ce48a950d87e_2",
         "opening_units": [
           "高雄醫學大學心理學系"
         ],
@@ -117,11 +118,12 @@
         "source_page": 1,
         "evidence_match": true,
         "validation_status": "needs_course_code_verification",
-        "uncertainty_reason": "Official PDF table does not provide a course code"
+        "uncertainty_reason": "Official PDF table does not provide a course code",
+        "catalog_entry_group_id": "entry_15e0ce48a950d87e"
       },
       {
         "course_code": null,
-        "catalog_entry_id": "entry_15e0ce48a950d87e",
+        "catalog_entry_id": "entry_15e0ce48a950d87e_3",
         "opening_units": [
           "高雄醫學大學心理學系"
         ],
@@ -136,7 +138,8 @@
         "source_page": 1,
         "evidence_match": true,
         "validation_status": "needs_course_code_verification",
-        "uncertainty_reason": "Official PDF table does not provide a course code"
+        "uncertainty_reason": "Official PDF table does not provide a course code",
+        "catalog_entry_group_id": "entry_15e0ce48a950d87e"
       },
       {
         "course_code": null,
@@ -392,8 +395,15 @@
         "minimum_elective_courses": null,
         "has_conditional_requirements": false,
         "has_manual_requirements": false,
+        "has_completion_manual_requirements": false,
+        "has_certificate_requirements": false,
+        "has_credit_recognition_requirements": false,
         "has_unresolved_conflicts": false
       }
-    }
+    },
+    "institutional_policy_ids": [
+      "nsysu_program_policy_2026_08_16"
+    ],
+    "institutional_policy_applied_rule_ids": []
   }
 }

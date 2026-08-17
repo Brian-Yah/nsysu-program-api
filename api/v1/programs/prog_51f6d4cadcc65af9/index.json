@@ -29,7 +29,7 @@
         "last_modified": "Wed, 01 Jul 2026 06:10:31 GMT",
         "content_length": 250435
       },
-      "parser_version": "0.3.0",
+      "parser_version": "0.4.0",
       "extractor_versions": {
         "pypdf": "6.10.0",
         "pdfplumber": "0.11.9"
@@ -824,29 +824,61 @@
           "source_page": 4,
           "source_text": "至少應有6學分不屬於學生本系所",
           "validation_status": "source_text_match"
+        },
+        {
+          "constraint_id": "constraint_07d9b6d3aefd1c74",
+          "kind": "minimum_credits",
+          "scope": {
+            "kind": "professional_module"
+          },
+          "requirement_context": "program_completion",
+          "source_kind": "institutional_catalog",
+          "source_url": "https://ctdr.nsysu.edu.tw/class2.php",
+          "source_text": "專業模組課程至少九學分。",
+          "validation_status": "source_text_match",
+          "minimum_credits": 9
+        },
+        {
+          "constraint_id": "constraint_e4361bba192ba1f7",
+          "kind": "maximum_counted_credits",
+          "scope": {
+            "kind": "course_attributes",
+            "course_attributes": [
+              "cross_college_general_education"
+            ],
+            "student_categories": [
+              "cross_college_bachelor"
+            ]
+          },
+          "requirement_context": "program_completion",
+          "source_kind": "institutional_catalog",
+          "source_url": "https://ctdr.nsysu.edu.tw/class2.php",
+          "source_text": "跨院修讀之學士班學生，其他課程至多六學分以跨院選修學分抵免。",
+          "validation_status": "source_text_match",
+          "maximum_counted_credits": 6
         }
       ],
       "manual_requirements": [
         {
-          "requirement_id": "requirement_75079d10d34bfbfb",
+          "requirement_id": "requirement_aa838e7a6e4d44b3",
           "kind": "manual_verification",
           "requirement_type": "course_eligibility",
-          "description": "相同課名以中文授課者,不採計",
+          "description": "2.當學期課程開設為英語授課者,方得認列本學程學分。",
           "verification_mode": "manual_review",
           "requirement_context": "program_completion",
           "source_page": 4,
-          "source_text": "相同課名以中文授課者,不採計",
+          "source_text": "2.當學期課程開設為英語授課者,方得認列本學程學分。",
           "validation_status": "source_text_match"
         },
         {
-          "requirement_id": "requirement_cb82cae63b015617",
+          "requirement_id": "requirement_db36d8f264de6f96",
           "kind": "manual_verification",
           "requirement_type": "course_eligibility",
-          "description": "英語授課者,方得",
+          "description": "相同課名以中文授課者,不採計 學程學分。",
           "verification_mode": "manual_review",
           "requirement_context": "program_completion",
           "source_page": 4,
-          "source_text": "英語授課者,方得",
+          "source_text": "相同課名以中文授課者,不採計 學程學分。",
           "validation_status": "source_text_match"
         }
       ],
@@ -890,8 +922,18 @@
         "minimum_elective_courses": null,
         "has_conditional_requirements": false,
         "has_manual_requirements": true,
+        "has_completion_manual_requirements": true,
+        "has_certificate_requirements": false,
+        "has_credit_recognition_requirements": false,
         "has_unresolved_conflicts": false
       }
-    }
+    },
+    "institutional_policy_ids": [
+      "nsysu_program_policy_2026_08_16"
+    ],
+    "institutional_policy_applied_rule_ids": [
+      "professional_module_minimum",
+      "professional_cross_college_elective_cap"
+    ]
   }
 }

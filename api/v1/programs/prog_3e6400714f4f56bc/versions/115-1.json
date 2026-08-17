@@ -23,7 +23,7 @@
       "last_modified": "Tue, 24 Dec 2024 07:16:46 GMT",
       "content_length": 134897
     },
-    "parser_version": "0.3.0",
+    "parser_version": "0.4.0",
     "extractor_versions": {
       "pypdf": "6.10.0",
       "pdfplumber": "0.11.9"
@@ -379,14 +379,14 @@
     ],
     "manual_requirements": [
       {
-        "requirement_id": "requirement_4206b5bf91bbb4ea",
+        "requirement_id": "requirement_5b2d6fa910a7e88c",
         "kind": "manual_verification",
         "requirement_type": "prerequisite",
-        "description": "先修畢本學程之核心課程",
+        "description": "113.12.12第182次教務會議通過 音樂與高齡照護學程新課程規劃表 1 開課單位 課 程 名 稱 學分數 備註 核 心 課 程 高雄醫學大學心 普通心理學 3 理學系 醫學科技研究所 智慧長照創新服務開發模式 3 需先選修普通心理學,始得 高雄醫學大學醫 諮商理論與技術 2 修課 社系 *異動開課系所及學分數 高雄醫學大學醫 需先選修諮商理論與技術, 諮商理論與實務 2 社系 始得修課 後醫學系 與老共舞 3 核心課程學分數: 6 學分 選 修 音樂學系 音樂治療 2 音樂學系 音樂心理學 2 高雄醫學大學心 性格心理學 3 理學系 高雄醫學大學心 發展心理學 3 理學系 音樂學系 表達性藝術治療個案討論 3 音樂於高齡照護之設計與運 音樂學系 3 用 音樂學系 音樂與律動於樂齡之運用 3 後醫學系 危老年代 2 後醫學系 神經心理學 3 高雄醫學大學心 需先修畢本學程之核心課程6 應用心理學實務與實習 3 理學系 學分,始得修課 總學分數:至少 15 學分",
         "verification_mode": "manual_review",
         "requirement_context": "program_completion",
         "source_page": 1,
-        "source_text": "先修畢本學程之核心課程",
+        "source_text": "113.12.12第182次教務會議通過 音樂與高齡照護學程新課程規劃表 1 開課單位 課 程 名 稱 學分數 備註 核 心 課 程 高雄醫學大學心 普通心理學 3 理學系 醫學科技研究所 智慧長照創新服務開發模式 3 需先選修普通心理學,始得 高雄醫學大學醫 諮商理論與技術 2 修課 社系 *異動開課系所及學分數 高雄醫學大學醫 需先選修諮商理論與技術, 諮商理論與實務 2 社系 始得修課 後醫學系 與老共舞 3 核心課程學分數: 6 學分 選 修 音樂學系 音樂治療 2 音樂學系 音樂心理學 2 高雄醫學大學心 性格心理學 3 理學系 高雄醫學大學心 發展心理學 3 理學系 音樂學系 表達性藝術治療個案討論 3 音樂於高齡照護之設計與運 音樂學系 3 用 音樂學系 音樂與律動於樂齡之運用 3 後醫學系 危老年代 2 後醫學系 神經心理學 3 高雄醫學大學心 需先修畢本學程之核心課程6 應用心理學實務與實習 3 理學系 學分,始得修課 總學分數:至少 15 學分",
         "validation_status": "source_text_match"
       }
     ],
@@ -400,7 +400,14 @@
       "minimum_elective_courses": null,
       "has_conditional_requirements": false,
       "has_manual_requirements": true,
+      "has_completion_manual_requirements": true,
+      "has_certificate_requirements": false,
+      "has_credit_recognition_requirements": false,
       "has_unresolved_conflicts": false
     }
-  }
+  },
+  "institutional_policy_ids": [
+    "nsysu_program_policy_2026_08_16"
+  ],
+  "institutional_policy_applied_rule_ids": []
 }
