@@ -1,5 +1,11 @@
 # Changelog
 
+## v0.5.0 — 2026-08-20
+
+- 新增 GitHub Pages 靜態畢業規則 API：113+ 校級共同規則及 113 年應用數學系、國際經營管理全英語學士學位學程兩份代表性系所規則。
+- 支援必修與選修門檻、建議年級學期、替代課、N 選 M、跨分類、先修、不可重複採計、人工審核與特殊入學加修學分。
+- 新增兩份 JSON Schema、reference 語意驗證、fixture tests 及 deterministic static builder；正式規則不從當學期課表推導。
+
 ## v0.3.0 — 2026-08-16
 
 - 將 schema 升至 1.2、115-1 `data_revision` 升至 6，分開課程池與最低完成學分，並新增 completion summary、分類學分、人工條件及官方來源衝突。

@@ -1,0 +1,307 @@
+{
+  "schema_version": "1.0",
+  "rule_set_id": "nsysu-113-bachelor-B2040",
+  "rule_type": "department",
+  "entry_year": "113",
+  "degree_level": "bachelor",
+  "department_code": "B2040",
+  "department_name_zh": "應用數學系",
+  "department_name_en": "Department of Applied Mathematics",
+  "common_rule_ref": "../../common/113-plus.json",
+  "review_status": "manual_review_required",
+  "reviewed_at": "2026-08-20",
+  "coverage": "partial",
+  "credit_requirements": {
+    "minimum_graduation_credits": 128,
+    "minimum_required_credits": null,
+    "minimum_elective_credits": null,
+    "minimum_department_elective_credits": null,
+    "minimum_department_professional_credits": 67
+  },
+  "sources": [
+    {
+      "source_id": "applied-math-113",
+      "title": "國立中山大學應用數學系必修科目表（113學年度入學新生適用）",
+      "url": "https://rpb28.nsysu.edu.tw/static/file/183/1183/img/1373/113B-0.pdf",
+      "document_type": "pdf",
+      "reviewed_at": "2026-08-20",
+      "sha256": "9bd8f5245dbae0d8d975a18ae19c55ee5cc2786746a52e6a2fd0527fa80fe19a",
+      "pages": [1]
+    }
+  ],
+  "courses": [
+    {
+      "course_id": "am_calculus_1",
+      "canonical_name_zh": "微積分（一）",
+      "canonical_name_en": null,
+      "known_aliases": [],
+      "credits": 4,
+      "curriculumRequirement": "department_required",
+      "recommendedYear": 1,
+      "recommendedSemester": "fall",
+      "source_document": "applied-math-113",
+      "notes": ["官方必修表未提供英文課名，故不自行翻譯。"],
+      "alternatives": [],
+      "manual_review_required": false
+    },
+    {
+      "course_id": "am_linear_algebra_1",
+      "canonical_name_zh": "線性代數（一）",
+      "canonical_name_en": null,
+      "known_aliases": [],
+      "credits": 3,
+      "curriculumRequirement": "department_required",
+      "recommendedYear": 1,
+      "recommendedSemester": "fall",
+      "source_document": "applied-math-113",
+      "notes": ["官方必修表未提供英文課名，故不自行翻譯。"],
+      "alternatives": [],
+      "manual_review_required": false
+    },
+    {
+      "course_id": "am_intro_mathematics",
+      "canonical_name_zh": "數學導論（一）",
+      "canonical_name_en": null,
+      "known_aliases": [
+        {
+          "name": "數學導論",
+          "language": "zh"
+        }
+      ],
+      "credits": 3,
+      "curriculumRequirement": "department_required",
+      "recommendedYear": 1,
+      "recommendedSemester": "fall",
+      "source_document": "applied-math-113",
+      "notes": ["官方必修表未提供英文課名，故不自行翻譯。"],
+      "alternatives": [],
+      "manual_review_required": false
+    },
+    {
+      "course_id": "am_calculus_2",
+      "canonical_name_zh": "微積分（二）",
+      "canonical_name_en": null,
+      "known_aliases": [],
+      "credits": 4,
+      "curriculumRequirement": "department_required",
+      "recommendedYear": 1,
+      "recommendedSemester": "spring",
+      "source_document": "applied-math-113",
+      "notes": ["官方必修表未提供英文課名，故不自行翻譯。"],
+      "alternatives": [],
+      "manual_review_required": false
+    },
+    {
+      "course_id": "am_linear_algebra_2",
+      "canonical_name_zh": "線性代數（二）",
+      "canonical_name_en": null,
+      "known_aliases": [],
+      "credits": 3,
+      "curriculumRequirement": "department_required",
+      "recommendedYear": 1,
+      "recommendedSemester": "spring",
+      "source_document": "applied-math-113",
+      "notes": ["官方必修表未提供英文課名，故不自行翻譯。"],
+      "alternatives": [],
+      "manual_review_required": false
+    },
+    {
+      "course_id": "am_computer_programming",
+      "canonical_name_zh": "計算機程式",
+      "canonical_name_en": null,
+      "known_aliases": [],
+      "credits": 3,
+      "curriculumRequirement": "department_required",
+      "recommendedYear": 1,
+      "recommendedSemester": "spring",
+      "source_document": "applied-math-113",
+      "notes": ["官方必修表未提供英文課名，故不自行翻譯。"],
+      "alternatives": [],
+      "manual_review_required": false
+    },
+    {
+      "course_id": "am_advanced_calculus_1",
+      "canonical_name_zh": "高等微積分（一）",
+      "canonical_name_en": null,
+      "known_aliases": [],
+      "credits": 4,
+      "curriculumRequirement": "department_required",
+      "recommendedYear": 2,
+      "recommendedSemester": "fall",
+      "source_document": "applied-math-113",
+      "notes": ["官方必修表未提供英文課名，故不自行翻譯。"],
+      "alternatives": [],
+      "manual_review_required": false
+    },
+    {
+      "course_id": "am_probability_1",
+      "canonical_name_zh": "機率論（一）",
+      "canonical_name_en": null,
+      "known_aliases": [],
+      "credits": 3,
+      "curriculumRequirement": "department_required",
+      "recommendedYear": 2,
+      "recommendedSemester": "fall",
+      "source_document": "applied-math-113",
+      "notes": ["官方必修表未提供英文課名，故不自行翻譯。"],
+      "alternatives": [],
+      "manual_review_required": false
+    },
+    {
+      "course_id": "am_discrete_mathematics_1",
+      "canonical_name_zh": "離散數學（一）",
+      "canonical_name_en": null,
+      "known_aliases": [],
+      "credits": 3,
+      "curriculumRequirement": "department_required",
+      "recommendedYear": 2,
+      "recommendedSemester": "fall",
+      "source_document": "applied-math-113",
+      "notes": ["官方必修表未提供英文課名，故不自行翻譯。"],
+      "alternatives": [],
+      "manual_review_required": false
+    },
+    {
+      "course_id": "am_advanced_calculus_2",
+      "canonical_name_zh": "高等微積分（二）",
+      "canonical_name_en": null,
+      "known_aliases": [],
+      "credits": 4,
+      "curriculumRequirement": "department_required",
+      "recommendedYear": 2,
+      "recommendedSemester": "spring",
+      "source_document": "applied-math-113",
+      "notes": ["官方必修表未提供英文課名，故不自行翻譯。"],
+      "alternatives": [],
+      "manual_review_required": false
+    },
+    {
+      "course_id": "am_differential_equations_1",
+      "canonical_name_zh": "微分方程（一）",
+      "canonical_name_en": null,
+      "known_aliases": [],
+      "credits": 3,
+      "curriculumRequirement": "department_required",
+      "recommendedYear": 2,
+      "recommendedSemester": "spring",
+      "source_document": "applied-math-113",
+      "notes": ["官方必修表未提供英文課名，故不自行翻譯。"],
+      "alternatives": [],
+      "manual_review_required": false
+    },
+    {
+      "course_id": "am_statistics_1",
+      "canonical_name_zh": "統計學（一）",
+      "canonical_name_en": null,
+      "known_aliases": [],
+      "credits": 3,
+      "curriculumRequirement": "department_required",
+      "recommendedYear": 2,
+      "recommendedSemester": "spring",
+      "source_document": "applied-math-113",
+      "notes": ["官方必修表未提供英文課名，故不自行翻譯。"],
+      "alternatives": [],
+      "manual_review_required": false
+    },
+    {
+      "course_id": "am_algebra_1",
+      "canonical_name_zh": "代數學（一）",
+      "canonical_name_en": null,
+      "known_aliases": [],
+      "credits": null,
+      "curriculumRequirement": "department_group_elective",
+      "recommendedYear": null,
+      "recommendedSemester": null,
+      "source_document": "applied-math-113",
+      "notes": ["官方修課規定確認為三門必選群組之一，但該段未標示學分與建議學期。"],
+      "alternatives": [],
+      "manual_review_required": true
+    },
+    {
+      "course_id": "am_complex_analysis_1",
+      "canonical_name_zh": "複變函數論（一）",
+      "canonical_name_en": null,
+      "known_aliases": [],
+      "credits": null,
+      "curriculumRequirement": "department_group_elective",
+      "recommendedYear": null,
+      "recommendedSemester": null,
+      "source_document": "applied-math-113",
+      "notes": ["官方修課規定確認為三門必選群組之一，但該段未標示學分與建議學期。"],
+      "alternatives": [],
+      "manual_review_required": true
+    },
+    {
+      "course_id": "am_numerical_analysis_1",
+      "canonical_name_zh": "數值分析（一）",
+      "canonical_name_en": null,
+      "known_aliases": [],
+      "credits": null,
+      "curriculumRequirement": "department_group_elective",
+      "recommendedYear": null,
+      "recommendedSemester": null,
+      "source_document": "applied-math-113",
+      "notes": ["官方修課規定確認為三門必選群組之一，但該段未標示學分與建議學期。"],
+      "alternatives": [],
+      "manual_review_required": true
+    }
+  ],
+  "course_groups": [
+    {
+      "group_id": "am_required_choice_2_of_3",
+      "name_zh": "本系必選群組",
+      "name_en": null,
+      "rule_kind": "choose_n_from_m",
+      "course_ids": ["am_algebra_1", "am_complex_analysis_1", "am_numerical_analysis_1"],
+      "minimum_courses": 2,
+      "maximum_courses": null,
+      "minimum_credits": null,
+      "category_requirements": [],
+      "counts_toward": "required",
+      "source_document": "applied-math-113",
+      "manual_review_required": false,
+      "notes": ["三門至少選修二門且成績及格取得學分；未設定修課上限。"]
+    }
+  ],
+  "prerequisites": [],
+  "non_duplicated_counting_groups": [],
+  "manual_review_rules": [
+    {
+      "rule_id": "am_required_credit_total_not_explicit",
+      "description": "官方表列最低畢業學分128與必修比重53.12%，但未直接發布最低必修學分數。",
+      "reason": "不得以百分比乘算後自行宣稱為官方最低必修學分。",
+      "source_document": "applied-math-113",
+      "resolution": "取得系辦正式修業規定後再填入minimum_required_credits；目前維持null。"
+    },
+    {
+      "rule_id": "am_elective_minimum_not_separately_published",
+      "description": "官方表僅明載本系專業必選修課程不得低於67學分，未分列單獨的本系選修最低學分。",
+      "reason": "不得以最低畢業學分減去必修學分自行推導系選修門檻。",
+      "source_document": "applied-math-113",
+      "resolution": "由系辦或最新正式修業規定確認後再填入minimum_department_elective_credits。"
+    },
+    {
+      "rule_id": "am_english_track_delivery_language",
+      "description": "英語組之本系專業必修課程應修習全英語課程。",
+      "reason": "是否為全英語授課屬於實際開課班別屬性，不能由課名推斷。",
+      "source_document": "applied-math-113",
+      "resolution": "逐門以正式課程大綱或系辦紀錄人工確認授課語言。"
+    },
+    {
+      "rule_id": "am_international_or_interdisciplinary_learning",
+      "description": "109學年度起入學學生須符合至少一項國際或跨域學習畢業條件。",
+      "reason": "交換、研修時數、學程證書與系所審查同意均需校方紀錄。",
+      "source_document": "applied-math-113",
+      "resolution": "畢業審查時查核交換、研修、輔系、雙主修或學程完成證明。"
+    }
+  ],
+  "additional_credit_rules": [
+    {
+      "rule_id": "am_foreign_secondary_grade2_equivalent",
+      "admission_statuses": ["國外或香港澳門地區同級同類學校畢業年級相當於國內高級中等學校二年級，並以同等學力入學"],
+      "additional_credits": 12,
+      "source_document": "applied-math-113",
+      "notes": ["在本系原訂畢業應修學分之外增加12學分。"]
+    }
+  ]
+}

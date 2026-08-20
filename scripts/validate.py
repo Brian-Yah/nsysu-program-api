@@ -7,6 +7,11 @@ from pathlib import Path
 from jsonschema import Draft202012Validator, FormatChecker
 from referencing import Registry, Resource
 
+from nsysu_program_api.graduation_rules import (
+    validate_common_references,
+    validate_department_references,
+)
+
 root = Path(__file__).resolve().parents[1]
 schema = json.loads((root / "schemas/program.schema.json").read_text(encoding="utf-8"))
 validator = Draft202012Validator(schema, format_checker=FormatChecker())
@@ -301,3 +306,48 @@ if (
         print("\n".join(graduation_errors))
         sys.exit(1)
     print(f"Validated {graduation_count} graduation requirements")
+
+common_rule_schema_path = root / "schemas/graduation-common-rule.schema.json"
+department_rule_schema_path = root / "schemas/graduation-department-rule.schema.json"
+graduation_rules_root = root / "data/graduation-rules"
+if (
+    common_rule_schema_path.exists()
+    and department_rule_schema_path.exists()
+    and graduation_rules_root.exists()
+):
+    common_rule_schema = json.loads(common_rule_schema_path.read_text(encoding="utf-8"))
+    department_rule_schema = json.loads(
+        department_rule_schema_path.read_text(encoding="utf-8")
+    )
+    common_rule_validator = Draft202012Validator(
+        common_rule_schema, format_checker=FormatChecker()
+    )
+    department_rule_validator = Draft202012Validator(
+        department_rule_schema, format_checker=FormatChecker()
+    )
+    graduation_rule_errors = []
+    common_path = graduation_rules_root / "common/113-plus.json"
+    common_rule = json.loads(common_path.read_text(encoding="utf-8"))
+    graduation_rule_errors.extend(
+        f"{common_path}: {error.message}"
+        for error in common_rule_validator.iter_errors(common_rule)
+    )
+    graduation_rule_errors.extend(
+        f"{common_path}: {error}" for error in validate_common_references(common_rule)
+    )
+    department_rule_count = 0
+    for path in graduation_rules_root.glob("[0-9][0-9][0-9]/bachelor/*.json"):
+        department_rule_count += 1
+        department_rule = json.loads(path.read_text(encoding="utf-8"))
+        graduation_rule_errors.extend(
+            f"{path}: {error.message}"
+            for error in department_rule_validator.iter_errors(department_rule)
+        )
+        graduation_rule_errors.extend(
+            f"{path}: {error}"
+            for error in validate_department_references(department_rule)
+        )
+    if graduation_rule_errors:
+        print("\n".join(graduation_rule_errors))
+        sys.exit(1)
+    print(f"Validated common rules and {department_rule_count} department graduation rules")

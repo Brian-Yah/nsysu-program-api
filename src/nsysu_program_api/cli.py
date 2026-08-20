@@ -8,6 +8,7 @@ from pathlib import Path
 from .core import load_json, write_json
 from .evaluator import evaluate
 from .graduation import build_graduation_api, fetch_graduation_requirements
+from .graduation_rules import build_graduation_rules_api
 from .pipeline import build_api, fetch_catalog, process_pdfs, semantic_diff
 
 
@@ -20,7 +21,7 @@ def main() -> None:
         "--user-agent",
         default=os.getenv(
             "NSYSU_API_USER_AGENT",
-            "nsysu-program-api/0.4.0 (+https://github.com/Brian-Yah/nsysu-program-api)",
+            "nsysu-program-api/0.5.0 (+https://github.com/Brian-Yah/nsysu-program-api)",
         ),
     )
     sub = parser.add_subparsers(dest="command", required=True)
@@ -30,6 +31,7 @@ def main() -> None:
     sub.add_parser("build")
     sub.add_parser("graduation-fetch")
     sub.add_parser("graduation-build")
+    sub.add_parser("graduation-rules-build")
     diff = sub.add_parser("diff")
     diff.add_argument("old", type=Path)
     diff.add_argument("new", type=Path)
@@ -62,6 +64,8 @@ def main() -> None:
         }
     elif args.command == "graduation-build":
         result = build_graduation_api(root, args.entry_year)
+    elif args.command == "graduation-rules-build":
+        result = build_graduation_rules_api(root)
     elif args.command == "diff":
         result = semantic_diff(load_json(args.old, {}), load_json(args.new, {}))
         if args.output:

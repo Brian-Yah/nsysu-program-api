@@ -1,0 +1,41 @@
+{
+  "schema_version": "1.0",
+  "latest_entry_year": "113",
+  "entry_years": [
+    "113"
+  ],
+  "degree_levels": [
+    "bachelor"
+  ],
+  "department_count": 2,
+  "reviewed_department_count": 0,
+  "manual_review_required_department_count": 2,
+  "paths": {
+    "common_113_plus": "common/113-plus.json",
+    "department_template": "{entry_year}/bachelor/{department_code}.json",
+    "common_schema": "../schemas/graduation-common-rule.schema.json",
+    "department_schema": "../schemas/graduation-department-rule.schema.json"
+  },
+  "departments": [
+    {
+      "entry_year": "113",
+      "degree_level": "bachelor",
+      "department_code": "B2040",
+      "department_name_zh": "應用數學系",
+      "department_name_en": "Department of Applied Mathematics",
+      "review_status": "manual_review_required",
+      "coverage": "partial",
+      "path": "113/bachelor/B2040.json"
+    },
+    {
+      "entry_year": "113",
+      "degree_level": "bachelor",
+      "department_code": "B4610",
+      "department_name_zh": "國際經營管理全英語學士學位學程",
+      "department_name_en": "International Business Bachelor Program",
+      "review_status": "manual_review_required",
+      "coverage": "partial",
+      "path": "113/bachelor/B4610.json"
+    }
+  ]
+}

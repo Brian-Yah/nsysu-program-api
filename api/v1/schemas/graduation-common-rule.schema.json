@@ -1,0 +1,374 @@
+{
+  "$schema": "https://json-schema.org/draft/2020-12/schema",
+  "$id": "https://brian-yah.github.io/nsysu-program-api/api/v1/schemas/graduation-common-rule.schema.json",
+  "title": "NSYSU Common Graduation Rules",
+  "type": "object",
+  "required": [
+    "schema_version",
+    "rule_set_id",
+    "rule_type",
+    "effective_entry_year",
+    "review_status",
+    "reviewed_at",
+    "sources",
+    "requirements"
+  ],
+  "properties": {
+    "schema_version": {"const": "1.0"},
+    "rule_set_id": {"type": "string", "minLength": 1},
+    "rule_type": {"const": "common"},
+    "effective_entry_year": {
+      "type": "object",
+      "required": ["minimum", "maximum"],
+      "properties": {
+        "minimum": {"type": "string", "pattern": "^[0-9]{3}$"},
+        "maximum": {"type": ["string", "null"], "pattern": "^[0-9]{3}$"}
+      },
+      "additionalProperties": false
+    },
+    "review_status": {"enum": ["reviewed", "manual_review_required"]},
+    "reviewed_at": {"type": "string", "format": "date"},
+    "sources": {
+      "type": "array",
+      "minItems": 1,
+      "items": {"$ref": "#/$defs/sourceDocument"}
+    },
+    "requirements": {
+      "type": "object",
+      "required": [
+        "language_literacy",
+        "cross_college",
+        "liberal_arts",
+        "experiential_courses",
+        "sport_and_health",
+        "english_proficiency_certification",
+        "international_or_interdisciplinary_learning",
+        "credit_exclusions"
+      ],
+      "properties": {
+        "language_literacy": {"$ref": "#/$defs/languageLiteracy"},
+        "cross_college": {"$ref": "#/$defs/crossCollege"},
+        "liberal_arts": {"$ref": "#/$defs/liberalArts"},
+        "experiential_courses": {"$ref": "#/$defs/experientialCourses"},
+        "sport_and_health": {"$ref": "#/$defs/sportAndHealth"},
+        "english_proficiency_certification": {"$ref": "#/$defs/manualCapableRule"},
+        "international_or_interdisciplinary_learning": {"$ref": "#/$defs/manualCapableRule"},
+        "credit_exclusions": {
+          "type": "array",
+          "minItems": 3,
+          "items": {"$ref": "#/$defs/creditExclusion"}
+        }
+      },
+      "additionalProperties": false
+    }
+  },
+  "additionalProperties": false,
+  "$defs": {
+    "sourceDocument": {
+      "type": "object",
+      "required": [
+        "source_id",
+        "title",
+        "url",
+        "document_type",
+        "effective_from_entry_year",
+        "reviewed_at",
+        "sha256"
+      ],
+      "properties": {
+        "source_id": {"type": "string", "pattern": "^[a-z0-9_-]+$"},
+        "title": {"type": "string", "minLength": 1},
+        "url": {"type": "string", "format": "uri"},
+        "document_type": {"enum": ["pdf", "html"]},
+        "effective_from_entry_year": {
+          "type": ["string", "null"],
+          "pattern": "^[0-9]{3}$"
+        },
+        "reviewed_at": {"type": "string", "format": "date"},
+        "sha256": {"type": ["string", "null"], "pattern": "^[a-f0-9]{64}$"},
+        "pages": {
+          "type": "array",
+          "items": {"type": "integer", "minimum": 1},
+          "uniqueItems": true
+        },
+        "notes": {"type": ["string", "null"]}
+      },
+      "additionalProperties": false
+    },
+    "sourceRefs": {
+      "type": "array",
+      "minItems": 1,
+      "items": {"type": "string", "pattern": "^[a-z0-9_-]+$"},
+      "uniqueItems": true
+    },
+    "courseIdentity": {
+      "type": "object",
+      "required": [
+        "canonical_name_zh",
+        "canonical_name_en",
+        "known_aliases",
+        "credits",
+        "curriculumRequirement",
+        "recommendedYear",
+        "recommendedSemester",
+        "source_document",
+        "notes"
+      ],
+      "properties": {
+        "canonical_name_zh": {"type": "string", "minLength": 1},
+        "canonical_name_en": {"type": ["string", "null"]},
+        "known_aliases": {"type": "array", "items": {"type": "string"}, "uniqueItems": true},
+        "credits": {"type": "number", "exclusiveMinimum": 0},
+        "curriculumRequirement": {"const": "common_required"},
+        "recommendedYear": {"type": ["integer", "null"], "minimum": 1},
+        "recommendedSemester": {
+          "enum": ["fall", "spring", "summer", "either", null]
+        },
+        "source_document": {"type": "string", "pattern": "^[a-z0-9_-]+$"},
+        "notes": {"type": "array", "items": {"type": "string"}}
+      },
+      "additionalProperties": false
+    },
+    "languageLiteracy": {
+      "type": "object",
+      "required": ["minimum_credits", "chinese", "english", "eap_esp"],
+      "properties": {
+        "minimum_credits": {"const": 6},
+        "chinese": {"$ref": "#/$defs/courseIdentity"},
+        "english": {"$ref": "#/$defs/courseIdentity"},
+        "eap_esp": {
+          "type": "object",
+          "required": [
+            "minimum_courses",
+            "minimum_credits",
+            "counts_toward",
+            "outside_home_college_required",
+            "source_refs"
+          ],
+          "properties": {
+            "minimum_courses": {"const": 1},
+            "minimum_credits": {"const": 3},
+            "counts_toward": {"const": "cross_college"},
+            "outside_home_college_required": {"const": true},
+            "source_refs": {"$ref": "#/$defs/sourceRefs"}
+          },
+          "additionalProperties": false
+        }
+      },
+      "additionalProperties": false
+    },
+    "crossCollege": {
+      "type": "object",
+      "required": [
+        "minimum_credits",
+        "outside_home_college_required",
+        "approved_course_required",
+        "local_language_certification_maximum_exemption_credits",
+        "source_refs"
+      ],
+      "properties": {
+        "minimum_credits": {"const": 8},
+        "outside_home_college_required": {"const": true},
+        "approved_course_required": {"const": true},
+        "local_language_certification_maximum_exemption_credits": {"const": 2},
+        "source_refs": {"$ref": "#/$defs/sourceRefs"}
+      },
+      "additionalProperties": false
+    },
+    "liberalArts": {
+      "type": "object",
+      "required": [
+        "minimum_credits",
+        "minimum_dimensions",
+        "maximum_credits_counted_toward_minimum_graduation",
+        "dimensions",
+        "college_specific_rules",
+        "source_refs"
+      ],
+      "properties": {
+        "minimum_credits": {"const": 13},
+        "minimum_dimensions": {"const": 4},
+        "maximum_credits_counted_toward_minimum_graduation": {"const": 19},
+        "dimensions": {
+          "type": "array",
+          "minItems": 6,
+          "maxItems": 6,
+          "items": {
+            "type": "object",
+            "required": ["dimension", "name_zh", "name_en"],
+            "properties": {
+              "dimension": {"type": "integer", "minimum": 1, "maximum": 6},
+              "name_zh": {"type": "string", "minLength": 1},
+              "name_en": {"type": "string", "minLength": 1}
+            },
+            "additionalProperties": false
+          }
+        },
+        "college_specific_rules": {
+          "type": "array",
+          "minItems": 3,
+          "items": {
+            "type": "object",
+            "required": ["college_groups", "dimension_5", "dimension_6", "combined_maximum_credits"],
+            "properties": {
+              "college_groups": {"type": "array", "minItems": 1, "items": {"type": "string"}},
+              "dimension_5": {
+                "type": "object",
+                "required": ["minimum_credits"],
+                "properties": {"minimum_credits": {"type": ["number", "null"], "minimum": 0}},
+                "additionalProperties": false
+              },
+              "dimension_6": {
+                "type": "object",
+                "required": ["minimum_credits"],
+                "properties": {"minimum_credits": {"type": ["number", "null"], "minimum": 0}},
+                "additionalProperties": false
+              },
+              "combined_maximum_credits": {"type": ["number", "null"], "minimum": 0}
+            },
+            "additionalProperties": false
+          }
+        },
+        "source_refs": {"$ref": "#/$defs/sourceRefs"}
+      },
+      "additionalProperties": false
+    },
+    "experientialCourses": {
+      "type": "object",
+      "required": ["minimum_credits", "service_learning", "university_way", "application_courses"],
+      "properties": {
+        "minimum_credits": {"const": 1},
+        "service_learning": {
+          "type": "object",
+          "required": ["required_credits", "maximum_credits_counted_toward_minimum_graduation", "source_refs"],
+          "properties": {
+            "required_credits": {"const": 1},
+            "maximum_credits_counted_toward_minimum_graduation": {"const": 1},
+            "source_refs": {"$ref": "#/$defs/sourceRefs"}
+          },
+          "additionalProperties": false
+        },
+        "university_way": {
+          "type": "object",
+          "required": ["required_events", "credits", "grading", "source_refs"],
+          "properties": {
+            "required_events": {"const": 6},
+            "credits": {"const": 0},
+            "grading": {"const": "pass_fail"},
+            "source_refs": {"$ref": "#/$defs/sourceRefs"}
+          },
+          "additionalProperties": false
+        },
+        "application_courses": {
+          "type": "object",
+          "required": [
+            "optional",
+            "maximum_counted_courses",
+            "second_and_later_count_toward_minimum_graduation",
+            "military_courses_eligible",
+            "liberal_arts_minimum_if_used",
+            "source_refs"
+          ],
+          "properties": {
+            "optional": {"const": true},
+            "maximum_counted_courses": {"const": 1},
+            "second_and_later_count_toward_minimum_graduation": {"const": false},
+            "military_courses_eligible": {"const": false},
+            "liberal_arts_minimum_if_used": {"const": 12},
+            "source_refs": {"$ref": "#/$defs/sourceRefs"}
+          },
+          "additionalProperties": false
+        }
+      },
+      "additionalProperties": false
+    },
+    "sportAndHealth": {
+      "type": "object",
+      "required": [
+        "required_credits",
+        "count_toward_minimum_graduation",
+        "composition",
+        "special_admission_compositions",
+        "source_refs"
+      ],
+      "properties": {
+        "required_credits": {"const": 4},
+        "count_toward_minimum_graduation": {"const": false},
+        "composition": {
+          "type": "array",
+          "minItems": 3,
+          "items": {
+            "type": "object",
+            "required": ["name_zh", "name_en", "credits"],
+            "properties": {
+              "name_zh": {"type": "string", "minLength": 1},
+              "name_en": {"type": ["string", "null"]},
+              "credits": {"type": "number", "exclusiveMinimum": 0}
+            },
+            "additionalProperties": false
+          }
+        },
+        "special_admission_compositions": {
+          "type": "array",
+          "minItems": 1,
+          "items": {
+            "type": "object",
+            "required": ["admission_status", "required_credits", "count_toward_minimum_graduation", "composition"],
+            "properties": {
+              "admission_status": {"type": "string", "minLength": 1},
+              "required_credits": {"type": "number", "exclusiveMinimum": 0},
+              "count_toward_minimum_graduation": {"const": false},
+              "composition": {
+                "type": "array",
+                "minItems": 1,
+                "items": {
+                  "type": "object",
+                  "required": ["name_zh", "name_en", "credits"],
+                  "properties": {
+                    "name_zh": {"type": "string", "minLength": 1},
+                    "name_en": {"type": ["string", "null"]},
+                    "credits": {"type": "number", "exclusiveMinimum": 0}
+                  },
+                  "additionalProperties": false
+                }
+              }
+            },
+            "additionalProperties": false
+          }
+        },
+        "source_refs": {"$ref": "#/$defs/sourceRefs"}
+      },
+      "additionalProperties": false
+    },
+    "manualCapableRule": {
+      "type": "object",
+      "required": ["required", "verification_status", "description", "source_refs"],
+      "properties": {
+        "required": {"const": true},
+        "verification_status": {"enum": ["reviewed", "manual_review_required"]},
+        "description": {"type": "string", "minLength": 1},
+        "source_refs": {"$ref": "#/$defs/sourceRefs"},
+        "options": {"type": "array", "items": {"type": "object"}}
+      },
+      "additionalProperties": false
+    },
+    "creditExclusion": {
+      "type": "object",
+      "required": [
+        "category",
+        "count_toward_minimum_graduation",
+        "verification_status",
+        "source_refs",
+        "notes"
+      ],
+      "properties": {
+        "category": {"enum": ["education_program", "sport", "military"]},
+        "count_toward_minimum_graduation": {"const": false},
+        "verification_status": {"enum": ["reviewed", "manual_review_required"]},
+        "source_refs": {"$ref": "#/$defs/sourceRefs"},
+        "notes": {"type": "string", "minLength": 1}
+      },
+      "additionalProperties": false
+    }
+  }
+}

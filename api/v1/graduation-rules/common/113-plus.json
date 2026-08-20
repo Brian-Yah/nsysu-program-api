@@ -1,0 +1,375 @@
+{
+  "schema_version": "1.0",
+  "rule_set_id": "nsysu-common-graduation-113-plus",
+  "rule_type": "common",
+  "effective_entry_year": {
+    "minimum": "113",
+    "maximum": null
+  },
+  "review_status": "manual_review_required",
+  "reviewed_at": "2026-08-20",
+  "sources": [
+    {
+      "source_id": "common-113-plus",
+      "title": "國立中山大學通識教育課程架構（適用113學年度含以後入學學生）",
+      "url": "https://rpb133.nsysu.edu.tw/static/file/29/1029/img/4427/824669194.pdf",
+      "document_type": "pdf",
+      "effective_from_entry_year": "113",
+      "reviewed_at": "2026-08-20",
+      "sha256": "648fd3f52dbf591b004014129b474b5aa39acda649f5bd71abd2fada12e72e8f",
+      "pages": [
+        1,
+        2
+      ],
+      "notes": "第180次教務會議修正通過；本檔為113+共同通識規則的主要來源。"
+    },
+    {
+      "source_id": "english-113-plus",
+      "title": "國立中山大學學士班學生英文能力培育要點（113學年度起入學學生適用）",
+      "url": "https://rpb133.nsysu.edu.tw/static/file/29/1029/img/4427/840378989.pdf",
+      "document_type": "pdf",
+      "effective_from_entry_year": "113",
+      "reviewed_at": "2026-08-20",
+      "sha256": "75dadf9d893c2868f4971ab1aefe73652cfef26ee41d99eafe514a404d116b2a",
+      "pages": [
+        1,
+        2,
+        3,
+        4
+      ],
+      "notes": "確認英語文、EAP/ESP、分級、抵免及英語文能力標準認證為畢業條件；認證實施細則另訂。"
+    },
+    {
+      "source_id": "oaa-course-faq",
+      "title": "國立中山大學教務處選課問題FAQ",
+      "url": "https://oaa.nsysu.edu.tw/var/file/3/1003/img/1590/2388409.htm",
+      "document_type": "html",
+      "effective_from_entry_year": null,
+      "reviewed_at": "2026-08-20",
+      "sha256": null,
+      "pages": [],
+      "notes": "FAQ明載教育學程、體育與軍訓學分排除，但頁面未標示113+生效版本，因此相關規則保留人工確認。"
+    },
+    {
+      "source_id": "applied-math-113",
+      "title": "國立中山大學應用數學系必修科目表（113學年度入學新生適用）",
+      "url": "https://rpb28.nsysu.edu.tw/static/file/183/1183/img/1373/113B-0.pdf",
+      "document_type": "pdf",
+      "effective_from_entry_year": "113",
+      "reviewed_at": "2026-08-20",
+      "sha256": "9bd8f5245dbae0d8d975a18ae19c55ee5cc2786746a52e6a2fd0527fa80fe19a",
+      "pages": [
+        1
+      ],
+      "notes": "用於核對109+國際或跨域學習共同畢業條件。"
+    },
+    {
+      "source_id": "ibba-113",
+      "title": "國立中山大學國際經營管理全英語學士學位學程必修科目表（113學年度入學新生適用）",
+      "url": "https://rpb78.nsysu.edu.tw/static/file/239/1239/img/IBBAcoursestructure_applyforAcademicYear2024students.pdf",
+      "document_type": "pdf",
+      "effective_from_entry_year": "113",
+      "reviewed_at": "2026-08-20",
+      "sha256": "5a0e502218e434e0c0fca1b6512c4dd8f6235d8c9afe393c22a08fc989a8a65b",
+      "pages": [
+        1,
+        2,
+        3,
+        4
+      ],
+      "notes": "用於核對共同規則的官方英文名稱及國際或跨域學習條件。"
+    }
+  ],
+  "requirements": {
+    "language_literacy": {
+      "minimum_credits": 6,
+      "chinese": {
+        "canonical_name_zh": "中文思辨與表達",
+        "canonical_name_en": "Critical Thinking and Expression in Chinese",
+        "known_aliases": [
+          "中文思辨與表達（一）",
+          "中文思辨與表達（二）"
+        ],
+        "credits": 3,
+        "curriculumRequirement": "common_required",
+        "recommendedYear": null,
+        "recommendedSemester": "either",
+        "source_document": "common-113-plus",
+        "notes": [
+          "中文思辨與表達（一）、（二）依修課規劃任選一門。",
+          "符合國家語言發展法界定之語言課程3學分得依規定抵免。"
+        ]
+      },
+      "english": {
+        "canonical_name_zh": "英語文",
+        "canonical_name_en": "General English Courses",
+        "known_aliases": [
+          "語文素養：英語文"
+        ],
+        "credits": 3,
+        "curriculumRequirement": "common_required",
+        "recommendedYear": null,
+        "recommendedSemester": "either",
+        "source_document": "english-113-plus",
+        "notes": [
+          "非外文系學士班學生依英文能力培育要點分級修習。",
+          "外文系學生另依外文系規定辦理。"
+        ]
+      },
+      "eap_esp": {
+        "minimum_courses": 1,
+        "minimum_credits": 3,
+        "counts_toward": "cross_college",
+        "outside_home_college_required": true,
+        "source_refs": [
+          "common-113-plus",
+          "english-113-plus"
+        ]
+      }
+    },
+    "cross_college": {
+      "minimum_credits": 8,
+      "outside_home_college_required": true,
+      "approved_course_required": true,
+      "local_language_certification_maximum_exemption_credits": 2,
+      "source_refs": [
+        "common-113-plus"
+      ]
+    },
+    "liberal_arts": {
+      "minimum_credits": 13,
+      "minimum_dimensions": 4,
+      "maximum_credits_counted_toward_minimum_graduation": 19,
+      "dimensions": [
+        {
+          "dimension": 1,
+          "name_zh": "美學（感）與文化詮釋",
+          "name_en": "Aesthetic and Cultural Understanding"
+        },
+        {
+          "dimension": 2,
+          "name_zh": "道德哲學與生命教育",
+          "name_en": "Moral Philosophy and Life Bioethics"
+        },
+        {
+          "dimension": 3,
+          "name_zh": "公民與全球視野",
+          "name_en": "Global Perspectives and Citizenship"
+        },
+        {
+          "dimension": 4,
+          "name_zh": "科技與社會",
+          "name_en": "Science, Technology and Society"
+        },
+        {
+          "dimension": 5,
+          "name_zh": "物質與生命世界本質",
+          "name_en": "Physical Science and Our Living World"
+        },
+        {
+          "dimension": 6,
+          "name_zh": "自然環境、生態及其永續",
+          "name_en": "Natural Environment, Ecology and Sustainable Management"
+        }
+      ],
+      "college_specific_rules": [
+        {
+          "college_groups": [
+            "理學院",
+            "工學院",
+            "海洋科學學院",
+            "醫學院"
+          ],
+          "dimension_5": {
+            "minimum_credits": null
+          },
+          "dimension_6": {
+            "minimum_credits": null
+          },
+          "combined_maximum_credits": 6
+        },
+        {
+          "college_groups": [
+            "文學院",
+            "管理學院",
+            "社會科學院"
+          ],
+          "dimension_5": {
+            "minimum_credits": 2
+          },
+          "dimension_6": {
+            "minimum_credits": 2
+          },
+          "combined_maximum_credits": null
+        },
+        {
+          "college_groups": [
+            "西灣學院"
+          ],
+          "dimension_5": {
+            "minimum_credits": null
+          },
+          "dimension_6": {
+            "minimum_credits": null
+          },
+          "combined_maximum_credits": null
+        }
+      ],
+      "source_refs": [
+        "common-113-plus",
+        "ibba-113"
+      ]
+    },
+    "experiential_courses": {
+      "minimum_credits": 1,
+      "service_learning": {
+        "required_credits": 1,
+        "maximum_credits_counted_toward_minimum_graduation": 1,
+        "source_refs": [
+          "common-113-plus"
+        ]
+      },
+      "university_way": {
+        "required_events": 6,
+        "credits": 0,
+        "grading": "pass_fail",
+        "source_refs": [
+          "common-113-plus"
+        ]
+      },
+      "application_courses": {
+        "optional": true,
+        "maximum_counted_courses": 1,
+        "second_and_later_count_toward_minimum_graduation": false,
+        "military_courses_eligible": false,
+        "liberal_arts_minimum_if_used": 12,
+        "source_refs": [
+          "common-113-plus"
+        ]
+      }
+    },
+    "sport_and_health": {
+      "required_credits": 4,
+      "count_toward_minimum_graduation": false,
+      "composition": [
+        {
+          "name_zh": "運動與健康：體適能",
+          "name_en": null,
+          "credits": 1
+        },
+        {
+          "name_zh": "運動與健康：初級游泳",
+          "name_en": null,
+          "credits": 1
+        },
+        {
+          "name_zh": "其他必修運動與健康課程",
+          "name_en": null,
+          "credits": 2
+        }
+      ],
+      "special_admission_compositions": [
+        {
+          "admission_status": "運動績優管道入學",
+          "required_credits": 8,
+          "count_toward_minimum_graduation": false,
+          "composition": [
+            {
+              "name_zh": "運動與健康：體適能",
+              "name_en": null,
+              "credits": 1
+            },
+            {
+              "name_zh": "運動與健康：初級游泳",
+              "name_en": null,
+              "credits": 1
+            },
+            {
+              "name_zh": "運動與健康：初級集訓班（二學期）",
+              "name_en": null,
+              "credits": 2
+            },
+            {
+              "name_zh": "運動與健康：進階集訓班（二學期）",
+              "name_en": null,
+              "credits": 4
+            }
+          ]
+        }
+      ],
+      "source_refs": [
+        "common-113-plus"
+      ]
+    },
+    "english_proficiency_certification": {
+      "required": true,
+      "verification_status": "manual_review_required",
+      "description": "畢業前須通過本校英語文能力標準認證；113+英文能力培育要點明載認證為畢業條件，但認證實施細則另訂，consumer不得僅憑課程完成狀態自動判定。",
+      "source_refs": [
+        "common-113-plus",
+        "english-113-plus"
+      ],
+      "options": []
+    },
+    "international_or_interdisciplinary_learning": {
+      "required": true,
+      "verification_status": "manual_review_required",
+      "description": "109學年度起學士班學生原則上應完成至少一項國際學習或跨域學習條件；個別系所可能有更嚴格或不同執行方式，須以該生系所必修科目表人工確認。",
+      "source_refs": [
+        "applied-math-113",
+        "ibba-113"
+      ],
+      "options": [
+        {
+          "kind": "international_learning",
+          "any_of": [
+            "出國交換或研修至少一學期",
+            "完成所屬學系審查同意之國外研修課程至少2學分",
+            "完成國外研修計畫且學習時數至少36小時"
+          ]
+        },
+        {
+          "kind": "interdisciplinary_learning",
+          "any_of": [
+            "取得本校或他校一個輔系",
+            "取得雙主修",
+            "取得教育學程",
+            "完成具跨院合作性質之微學程",
+            "完成整合學程（含個人化學程）",
+            "完成跨系所專業學程"
+          ]
+        }
+      ]
+    },
+    "credit_exclusions": [
+      {
+        "category": "education_program",
+        "count_toward_minimum_graduation": false,
+        "verification_status": "manual_review_required",
+        "source_refs": [
+          "oaa-course-faq"
+        ],
+        "notes": "官方FAQ明載不計入最低畢業學分，但頁面未標示適用入學年度，需由教務單位或系所確認113+適用性。"
+      },
+      {
+        "category": "sport",
+        "count_toward_minimum_graduation": false,
+        "verification_status": "reviewed",
+        "source_refs": [
+          "common-113-plus"
+        ],
+        "notes": "必修4學分計入修習總學分數，但不計入各學系最低畢業學分。"
+      },
+      {
+        "category": "military",
+        "count_toward_minimum_graduation": false,
+        "verification_status": "manual_review_required",
+        "source_refs": [
+          "common-113-plus",
+          "oaa-course-faq"
+        ],
+        "notes": "113+架構明載軍訓不得作為應用性課程；官方FAQ另載軍訓不納入畢業總學分，但未標示113+生效版本，故保留人工確認。"
+      }
+    ]
+  }
+}

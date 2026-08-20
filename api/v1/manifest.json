@@ -16,7 +16,9 @@
     "program_requirements_policy_schema": "schemas/institutional-policy.schema.json",
     "semester": "semesters/115-1/programs.json",
     "graduation_requirements": "graduation-requirements/index.json",
+    "graduation_rules": "graduation-rules/index.json",
     "program_requirements_policy": "policies/program-requirements.json"
   },
-  "graduation_requirement_department_count": 28
+  "graduation_requirement_department_count": 28,
+  "graduation_rule_department_count": 2
 }

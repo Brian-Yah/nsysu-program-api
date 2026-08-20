@@ -1,0 +1,350 @@
+{
+  "schema_version": "1.0",
+  "rule_set_id": "nsysu-113-bachelor-B4610",
+  "rule_type": "department",
+  "entry_year": "113",
+  "degree_level": "bachelor",
+  "department_code": "B4610",
+  "department_name_zh": "國際經營管理全英語學士學位學程",
+  "department_name_en": "International Business Bachelor Program",
+  "common_rule_ref": "../../common/113-plus.json",
+  "review_status": "manual_review_required",
+  "reviewed_at": "2026-08-20",
+  "coverage": "partial",
+  "credit_requirements": {
+    "minimum_graduation_credits": 128,
+    "minimum_required_credits": 66,
+    "minimum_elective_credits": 62,
+    "minimum_department_elective_credits": null,
+    "minimum_department_professional_credits": 38
+  },
+  "sources": [
+    {
+      "source_id": "ibba-113",
+      "title": "國立中山大學國際經營管理全英語學士學位學程必修科目表（113學年度入學新生適用）",
+      "url": "https://rpb78.nsysu.edu.tw/static/file/239/1239/img/IBBAcoursestructure_applyforAcademicYear2024students.pdf",
+      "document_type": "pdf",
+      "reviewed_at": "2026-08-20",
+      "sha256": "5a0e502218e434e0c0fca1b6512c4dd8f6235d8c9afe393c22a08fc989a8a65b",
+      "pages": [1, 2, 3, 4]
+    }
+  ],
+  "courses": [
+    {
+      "course_id": "ibba_calculus",
+      "canonical_name_zh": "微積分",
+      "canonical_name_en": "Calculus",
+      "known_aliases": [],
+      "credits": 3,
+      "curriculumRequirement": "department_required",
+      "recommendedYear": 1,
+      "recommendedSemester": "fall",
+      "source_document": "ibba-113",
+      "notes": [],
+      "alternatives": [],
+      "manual_review_required": false
+    },
+    {
+      "course_id": "ibba_economics_1",
+      "canonical_name_zh": "經濟學（一）",
+      "canonical_name_en": "Economics (I)",
+      "known_aliases": [],
+      "credits": 3,
+      "curriculumRequirement": "department_required",
+      "recommendedYear": 1,
+      "recommendedSemester": "fall",
+      "source_document": "ibba-113",
+      "notes": [],
+      "alternatives": [],
+      "manual_review_required": false
+    },
+    {
+      "course_id": "ibba_accounting_1",
+      "canonical_name_zh": "會計學（一）",
+      "canonical_name_en": "Accounting (I)",
+      "known_aliases": [],
+      "credits": 3,
+      "curriculumRequirement": "department_required",
+      "recommendedYear": 1,
+      "recommendedSemester": "fall",
+      "source_document": "ibba-113",
+      "notes": [],
+      "alternatives": [],
+      "manual_review_required": false
+    },
+    {
+      "course_id": "ibba_intro_international_business",
+      "canonical_name_zh": "國際企業概論",
+      "canonical_name_en": "Introduction to International Business",
+      "known_aliases": [],
+      "credits": 3,
+      "curriculumRequirement": "department_required",
+      "recommendedYear": 1,
+      "recommendedSemester": "fall",
+      "source_document": "ibba-113",
+      "notes": [],
+      "alternatives": [],
+      "manual_review_required": false
+    },
+    {
+      "course_id": "ibba_economics_2",
+      "canonical_name_zh": "經濟學（二）",
+      "canonical_name_en": "Economics (II)",
+      "known_aliases": [],
+      "credits": 3,
+      "curriculumRequirement": "department_required",
+      "recommendedYear": 1,
+      "recommendedSemester": "spring",
+      "source_document": "ibba-113",
+      "notes": [],
+      "alternatives": [],
+      "manual_review_required": false
+    },
+    {
+      "course_id": "ibba_accounting_2",
+      "canonical_name_zh": "會計學（二）",
+      "canonical_name_en": "Accounting (II)",
+      "known_aliases": [],
+      "credits": 3,
+      "curriculumRequirement": "department_required",
+      "recommendedYear": 1,
+      "recommendedSemester": "spring",
+      "source_document": "ibba-113",
+      "notes": [],
+      "alternatives": [],
+      "manual_review_required": false
+    },
+    {
+      "course_id": "ibba_statistics",
+      "canonical_name_zh": "統計學",
+      "canonical_name_en": "Statistics",
+      "known_aliases": [],
+      "credits": 3,
+      "curriculumRequirement": "department_required",
+      "recommendedYear": 2,
+      "recommendedSemester": "fall",
+      "source_document": "ibba-113",
+      "notes": [],
+      "alternatives": [],
+      "manual_review_required": false
+    },
+    {
+      "course_id": "ibba_intercultural_communication",
+      "canonical_name_zh": "跨文化溝通",
+      "canonical_name_en": "Intercultural Communication",
+      "known_aliases": [],
+      "credits": 3,
+      "curriculumRequirement": "department_required",
+      "recommendedYear": 2,
+      "recommendedSemester": "fall",
+      "source_document": "ibba-113",
+      "notes": [],
+      "alternatives": [],
+      "manual_review_required": false
+    },
+    {
+      "course_id": "ibba_business_english",
+      "canonical_name_zh": "商用英語簡報與寫作",
+      "canonical_name_en": "Business Writing and Presenting in English",
+      "known_aliases": [],
+      "credits": 3,
+      "curriculumRequirement": "department_required",
+      "recommendedYear": 2,
+      "recommendedSemester": "fall",
+      "source_document": "ibba-113",
+      "notes": [],
+      "alternatives": [],
+      "manual_review_required": false
+    },
+    {
+      "course_id": "ibba_business_law",
+      "canonical_name_zh": "商事法",
+      "canonical_name_en": "Business Law",
+      "known_aliases": [],
+      "credits": 2,
+      "curriculumRequirement": "department_required",
+      "recommendedYear": 2,
+      "recommendedSemester": "spring",
+      "source_document": "ibba-113",
+      "notes": [],
+      "alternatives": [],
+      "manual_review_required": false
+    },
+    {
+      "course_id": "ibba_marketing_management",
+      "canonical_name_zh": "行銷管理",
+      "canonical_name_en": "Marketing Management",
+      "known_aliases": [],
+      "credits": 3,
+      "curriculumRequirement": "department_group_elective",
+      "recommendedYear": 2,
+      "recommendedSemester": "fall",
+      "source_document": "ibba-113",
+      "notes": [],
+      "alternatives": [],
+      "manual_review_required": false
+    },
+    {
+      "course_id": "ibba_financial_management",
+      "canonical_name_zh": "財務管理",
+      "canonical_name_en": "Financial Management",
+      "known_aliases": [],
+      "credits": 3,
+      "curriculumRequirement": "department_group_elective",
+      "recommendedYear": 2,
+      "recommendedSemester": "spring",
+      "source_document": "ibba-113",
+      "notes": [],
+      "alternatives": [],
+      "manual_review_required": false
+    },
+    {
+      "course_id": "ibba_human_resource_management",
+      "canonical_name_zh": "人力資源管理",
+      "canonical_name_en": "Human Resource Management",
+      "known_aliases": [],
+      "credits": 3,
+      "curriculumRequirement": "department_group_elective",
+      "recommendedYear": 1,
+      "recommendedSemester": "spring",
+      "source_document": "ibba-113",
+      "notes": [],
+      "alternatives": [],
+      "manual_review_required": false
+    },
+    {
+      "course_id": "ibba_management_information_systems",
+      "canonical_name_zh": "管理資訊系統",
+      "canonical_name_en": "Management Information Systems",
+      "known_aliases": [
+        {
+          "name": "企業資訊系統",
+          "language": "zh"
+        }
+      ],
+      "credits": 3,
+      "curriculumRequirement": "department_group_elective",
+      "recommendedYear": 2,
+      "recommendedSemester": "spring",
+      "source_document": "ibba-113",
+      "notes": [],
+      "alternatives": [],
+      "manual_review_required": false
+    },
+    {
+      "course_id": "ibba_production_operations_management",
+      "canonical_name_zh": "生產與作業管理",
+      "canonical_name_en": "Production and Operations Management",
+      "known_aliases": [],
+      "credits": 3,
+      "curriculumRequirement": "department_group_elective",
+      "recommendedYear": 2,
+      "recommendedSemester": "spring",
+      "source_document": "ibba-113",
+      "notes": [],
+      "alternatives": [],
+      "manual_review_required": false
+    },
+    {
+      "course_id": "ibba_international_business_ethics",
+      "canonical_name_zh": "國際商管倫理觀的理論與實務",
+      "canonical_name_en": "The Theory and Practice of Ethics in International Business Management",
+      "known_aliases": [],
+      "credits": 1,
+      "curriculumRequirement": "graduation_condition_required",
+      "recommendedYear": null,
+      "recommendedSemester": null,
+      "source_document": "ibba-113",
+      "notes": ["112學年度起本學程學生須參加此英語授課課程方得畢業。"],
+      "alternatives": [],
+      "manual_review_required": false
+    }
+  ],
+  "course_groups": [
+    {
+      "group_id": "ibba_core_choose_3_of_5",
+      "name_zh": "系專業核心課程",
+      "name_en": "Core Courses",
+      "rule_kind": "choose_n_from_m",
+      "course_ids": [
+        "ibba_marketing_management",
+        "ibba_financial_management",
+        "ibba_human_resource_management",
+        "ibba_management_information_systems",
+        "ibba_production_operations_management"
+      ],
+      "minimum_courses": 3,
+      "maximum_courses": null,
+      "minimum_credits": 9,
+      "category_requirements": [],
+      "counts_toward": "required",
+      "source_document": "ibba-113",
+      "manual_review_required": false,
+      "notes": ["五門任選三門；未設定修課上限，額外修課是否歸類選修仍依系所審查。"]
+    },
+    {
+      "group_id": "ibba_emi_liberal_arts_minimum",
+      "name_zh": "全英語博雅向度課程",
+      "name_en": "EMI Liberal Arts Courses",
+      "rule_kind": "minimum_credits",
+      "course_ids": [],
+      "minimum_courses": null,
+      "maximum_courses": null,
+      "minimum_credits": 6,
+      "maximum_counted_credits": null,
+      "category_requirements": [
+        {
+          "category": "全英語博雅向度課程",
+          "minimum_courses": null,
+          "minimum_credits": 6
+        }
+      ],
+      "counts_toward": "graduation_total",
+      "source_document": "ibba-113",
+      "manual_review_required": true,
+      "notes": ["須由正式課程屬性確認為全英語授課及博雅向度課程，不能只看課名。"]
+    },
+    {
+      "group_id": "ibba_chinese_taught_elective_cap",
+      "name_zh": "中文授課選修課採計上限",
+      "name_en": "Chinese-taught Elective Credit Cap",
+      "rule_kind": "maximum_counted_credits",
+      "course_ids": [],
+      "minimum_courses": null,
+      "maximum_courses": null,
+      "minimum_credits": null,
+      "maximum_counted_credits": 30,
+      "category_requirements": [],
+      "counts_toward": "elective",
+      "source_document": "ibba-113",
+      "manual_review_required": true,
+      "notes": ["選修原則採計英語授課及第二外語教學課程；中文授課選修課至多採計30學分。"]
+    }
+  ],
+  "prerequisites": [],
+  "non_duplicated_counting_groups": [],
+  "manual_review_rules": [
+    {
+      "rule_id": "ibba_overseas_exchange",
+      "description": "本籍生畢業前須至海外交換至少一學年，修習非中文授課且學士級以上課程；返校後申請抵免至少18至24學分或6門課。",
+      "reason": "交換期間、授課語言、課程層級及返校抵免結果皆需官方紀錄，不能只由已修課名稱自動判斷。",
+      "source_document": "ibba-113",
+      "resolution": "查核交換紀錄、國外成績單及教務處核定之交換抵免表。"
+    },
+    {
+      "rule_id": "ibba_international_or_interdisciplinary_learning",
+      "description": "109學年度起入學學生須符合至少一項國際或跨域學習畢業條件。",
+      "reason": "交換、研修時數、學程證書與系所審查同意均需校方紀錄。",
+      "source_document": "ibba-113",
+      "resolution": "畢業審查時查核交換、研修、輔系、雙主修或學程完成證明。"
+    },
+    {
+      "rule_id": "ibba_featured_elective_module_counting",
+      "description": "官方課程地圖列出三個特色選修模組及參考課程，但必修科目表未設定每模組最低門數或學分。",
+      "reason": "不得從課程地圖版面推導不存在的跨模組門檻。",
+      "source_document": "ibba-113",
+      "resolution": "僅作課程規劃提示；若系所另有模組完成門檻，須取得正式修業規定後新增。"
+    }
+  ],
+  "additional_credit_rules": []
+}

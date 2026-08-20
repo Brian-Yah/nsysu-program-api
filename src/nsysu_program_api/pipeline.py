@@ -27,6 +27,7 @@ from .core import (
     write_json,
 )
 from .graduation import build_graduation_api
+from .graduation_rules import build_graduation_rules_api
 from .institutional import (
     apply_institutional_policy,
     load_institutional_policy,
@@ -336,6 +337,10 @@ def build_api(root: Path, version: str) -> dict:
     graduation_index = (
         build_graduation_api(root, entry_year) if graduation_source.exists() else None
     )
+    graduation_rules_source = root / "data" / "graduation-rules" / "common" / "113-plus.json"
+    graduation_rules_index = (
+        build_graduation_rules_api(root) if graduation_rules_source.exists() else None
+    )
     manifest = {
         "schema_version": SCHEMA_VERSION,
         "latest_academic_version": version,
@@ -364,11 +369,14 @@ def build_api(root: Path, version: str) -> dict:
             "graduation_requirements": (
                 "graduation-requirements/index.json" if graduation_index else None
             ),
+            "graduation_rules": "graduation-rules/index.json" if graduation_rules_index else None,
             "program_requirements_policy": "policies/program-requirements.json",
         },
     }
     if graduation_index:
         manifest["graduation_requirement_department_count"] = graduation_index["department_count"]
+    if graduation_rules_index:
+        manifest["graduation_rule_department_count"] = graduation_rules_index["department_count"]
     write_json(api / "manifest.json", manifest)
     return manifest
 
