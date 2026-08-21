@@ -324,13 +324,6 @@
       "reason": "是否為全英語授課屬於實際開課班別屬性，不能由課名推斷。",
       "source_document": "applied-math-113",
       "resolution": "逐門以正式課程大綱或系辦紀錄人工確認授課語言。"
-    },
-    {
-      "rule_id": "am_international_or_interdisciplinary_learning",
-      "description": "109學年度起入學學生須符合至少一項國際或跨域學習畢業條件。",
-      "reason": "交換、研修時數、學程證書與系所審查同意均需校方紀錄。",
-      "source_document": "applied-math-113",
-      "resolution": "畢業審查時查核交換、研修、輔系、雙主修或學程完成證明。"
     }
   ],
   "additional_credit_rules": [

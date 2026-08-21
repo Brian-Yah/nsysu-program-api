@@ -48,7 +48,7 @@
         "minimum_department_professional_credits"
       ],
       "properties": {
-        "minimum_graduation_credits": {"type": "number", "exclusiveMinimum": 0},
+        "minimum_graduation_credits": {"type": ["number", "null"], "exclusiveMinimum": 0},
         "minimum_required_credits": {"type": ["number", "null"], "minimum": 0},
         "minimum_elective_credits": {"type": ["number", "null"], "minimum": 0},
         "minimum_department_elective_credits": {"type": ["number", "null"], "minimum": 0},

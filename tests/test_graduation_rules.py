@@ -6,6 +6,7 @@ from pathlib import Path
 
 from jsonschema import Draft202012Validator, FormatChecker
 
+from nsysu_program_api.graduation_rule_fetch import parse_official_department_rule
 from nsysu_program_api.graduation_rules import (
     build_graduation_rules_api,
     validate_common_references,
@@ -13,6 +14,39 @@ from nsysu_program_api.graduation_rules import (
 )
 
 ROOT = Path(__file__).resolve().parents[1]
+EXPECTED_113_DEPARTMENT_CODES = {
+    "B1010",
+    "B1020",
+    "B1030",
+    "B1060",
+    "B2010",
+    "B2020",
+    "B2030",
+    "B2040",
+    "B3010",
+    "B3020",
+    "B3040",
+    "B3080",
+    "B3090",
+    "B3100",
+    "B3240",
+    "B4010",
+    "B4020",
+    "B4030",
+    "B4610",
+    "B5020",
+    "B5040",
+    "B5090",
+    "B5610",
+    "B6060",
+    "B6090",
+    "B7020",
+    "B7610",
+    "B7620",
+    "B8010",
+    "B8060",
+    "B8070",
+}
 
 
 def load(path: Path) -> dict:
@@ -172,6 +206,115 @@ def test_department_schema_supports_requested_relationships() -> None:
     assert validate_department_references(rule) == []
 
 
+def test_official_table_parser_builds_courses_groups_and_manual_rules() -> None:
+    def row(values: list[str]) -> str:
+        return "<tr>" + "".join(f"<td>{value}</td>" for value in values) + "</tr>"
+
+    empty_semesters = [""] * 12
+    html = "<table>" + "".join(
+        [
+            row(["國立中山大學必修科目表（113學年度入學新生適用）"]),
+            row(["系所別：測試學系"]),
+            row(
+                ["專<br>業<br>必<br>修", "一般必修", "程式設計", "3", *([""] * 11), "", "", ""]
+            ),
+            row(["資料結構", "", "", "", "3", *([""] * 8), "", "", ""]),
+            row(["分組必修", "【A】：計 2 科任選 1 科"]),
+            row(["人工智慧", *empty_semesters[:6], "3", *empty_semesters[7:], "A", "2", "1"]),
+            row(["資料探勘", *empty_semesters[:7], "3", *empty_semesters[8:], "A", "2", "1"]),
+            row(["最低畢<br>業學分數", "128", "必修比重", "50%"]),
+            row(
+                [
+                    "修課<br>規定",
+                    "1.通識教育課程必修28學分。2.專業必修科目計30學分。"
+                    "3.本系選修課程至少修習24學分。4.國外同級學校畢業年級相當"
+                    "國內高中二年級者應增加12學分。5.本系選修課程至少修習24學分。",
+                ]
+            ),
+            row(["備註", "特殊資格須由系所人工審核。"]),
+        ]
+    ) + "</table>"
+
+    rule = parse_official_department_rule(
+        html,
+        entry_year="113",
+        department_code="B9990",
+        department_name="測試學系",
+        source_url="https://example.test/B9990",
+        source_hash="a" * 64,
+        reviewed_at="2026-08-21",
+    )
+
+    assert rule["credit_requirements"]["minimum_graduation_credits"] == 128
+    assert rule["credit_requirements"]["minimum_department_professional_credits"] == 30
+    assert rule["credit_requirements"]["minimum_department_elective_credits"] == 24
+    assert len(rule["courses"]) == 4
+    assert rule["courses"][0]["recommendedYear"] == 1
+    assert rule["courses"][0]["recommendedSemester"] == "fall"
+    assert rule["courses"][1]["recommendedYear"] == 2
+    assert rule["course_groups"][0]["minimum_courses"] == 1
+    assert len(rule["course_groups"][0]["course_ids"]) == 2
+    assert rule["additional_credit_rules"][0]["additional_credits"] == 12
+    assert any("特殊資格" in item["description"] for item in rule["manual_review_rules"])
+    descriptions = [item["description"] for item in rule["manual_review_rules"]]
+    assert not any("通識教育課程必修28學分" in value for value in descriptions)
+    assert not any("應增加12學分" in value for value in descriptions)
+    assert sum("本系選修課程至少修習24學分" in value for value in descriptions) == 1
+    assert schema_errors("graduation-department-rule.schema.json", rule) == []
+    assert validate_department_references(rule) == []
+
+
+def test_zero_credit_graduation_condition_is_not_published_as_course_credit() -> None:
+    def row(values: list[str]) -> str:
+        return "<tr>" + "".join(f"<td>{value}</td>" for value in values) + "</tr>"
+
+    html = "<table>" + "".join(
+        [
+            row(["專<br>業<br>必<br>修", "", "畢業條件", "0", *([""] * 11), "", "", ""]),
+            row(["最低畢業學分數", "128"]),
+        ]
+    ) + "</table>"
+    rule = parse_official_department_rule(
+        html,
+        entry_year="113",
+        department_code="B9999",
+        department_name="測試學系",
+        source_url="https://example.test/B9999",
+        source_hash="a" * 64,
+        reviewed_at="2026-08-21",
+    )
+
+    course = rule["courses"][0]
+    assert course["credits"] is None
+    assert course["manual_review_required"] is True
+    assert any("表列為0學分" in note for note in course["notes"])
+
+
+def test_unknown_minimum_is_allowed_only_for_partial_manual_rule() -> None:
+    rule = load(ROOT / "data/graduation-rules/113/bachelor/B2040.json")
+    rule["credit_requirements"]["minimum_graduation_credits"] = None
+    rule["courses"] = []
+    rule["course_groups"] = []
+    assert schema_errors("graduation-department-rule.schema.json", rule) == []
+    assert validate_department_references(rule) == []
+
+    rule["manual_review_rules"] = []
+    errors = validate_department_references(rule)
+    assert "unknown minimum_graduation_credits requires partial manual review rules" in errors
+    assert "empty course rules require partial manual review rules" in errors
+
+
+def test_113_department_fixtures_cover_all_official_bachelor_codes() -> None:
+    paths = sorted((ROOT / "data/graduation-rules/113/bachelor").glob("*.json"))
+    rules = [load(path) for path in paths]
+
+    assert len(rules) == 31
+    assert {rule["department_code"] for rule in rules} == EXPECTED_113_DEPARTMENT_CODES
+    for rule in rules:
+        assert schema_errors("graduation-department-rule.schema.json", rule) == []
+        assert validate_department_references(rule) == []
+
+
 def test_builder_publishes_static_paths_and_removes_stale_file(tmp_path: Path) -> None:
     for name in (
         "graduation-common-rule.schema.json",
@@ -187,7 +330,10 @@ def test_builder_publishes_static_paths_and_removes_stale_file(tmp_path: Path) -
 
     index = build_graduation_rules_api(tmp_path)
 
-    assert index["department_count"] == 2
+    expected_count = len(
+        list((tmp_path / "data/graduation-rules").glob("[0-9][0-9][0-9]/bachelor/*.json"))
+    )
+    assert index["department_count"] == expected_count
     assert (tmp_path / "api/v1/graduation-rules/common/113-plus.json").exists()
     assert (tmp_path / "api/v1/graduation-rules/113/bachelor/B2040.json").exists()
     assert (tmp_path / "api/v1/graduation-rules/113/bachelor/B4610.json").exists()

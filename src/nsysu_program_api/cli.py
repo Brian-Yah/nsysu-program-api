@@ -8,6 +8,7 @@ from pathlib import Path
 from .core import load_json, write_json
 from .evaluator import evaluate
 from .graduation import build_graduation_api, fetch_graduation_requirements
+from .graduation_rule_fetch import fetch_department_graduation_rules
 from .graduation_rules import build_graduation_rules_api
 from .pipeline import build_api, fetch_catalog, process_pdfs, semantic_diff
 
@@ -31,6 +32,7 @@ def main() -> None:
     sub.add_parser("build")
     sub.add_parser("graduation-fetch")
     sub.add_parser("graduation-build")
+    sub.add_parser("graduation-rules-fetch")
     sub.add_parser("graduation-rules-build")
     diff = sub.add_parser("diff")
     diff.add_argument("old", type=Path)
@@ -64,6 +66,12 @@ def main() -> None:
         }
     elif args.command == "graduation-build":
         result = build_graduation_api(root, args.entry_year)
+    elif args.command == "graduation-rules-fetch":
+        fetched = fetch_department_graduation_rules(
+            root, args.entry_year, args.user_agent
+        )
+        fetched["api"] = build_graduation_rules_api(root)
+        result = fetched
     elif args.command == "graduation-rules-build":
         result = build_graduation_rules_api(root)
     elif args.command == "diff":

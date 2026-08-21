@@ -21,6 +21,24 @@ def validate_department_references(rule: dict) -> list[str]:
     source_id_set = set(source_ids)
     course_id_set = set(course_ids)
 
+    minimum_graduation_credits = rule.get("credit_requirements", {}).get(
+        "minimum_graduation_credits"
+    )
+    if minimum_graduation_credits is None and (
+        rule.get("review_status") != "manual_review_required"
+        or rule.get("coverage") != "partial"
+        or not rule.get("manual_review_rules")
+    ):
+        errors.append(
+            "unknown minimum_graduation_credits requires partial manual review rules"
+        )
+    if not rule.get("courses") and (
+        rule.get("review_status") != "manual_review_required"
+        or rule.get("coverage") != "partial"
+        or not rule.get("manual_review_rules")
+    ):
+        errors.append("empty course rules require partial manual review rules")
+
     for label, values in (
         ("source_id", source_ids),
         ("course_id", course_ids),
