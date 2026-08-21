@@ -1,0 +1,504 @@
+{
+  "schema_version": "1.0",
+  "rule_set_id": "nsysu-113-bachelor-B3020",
+  "rule_type": "department",
+  "entry_year": "113",
+  "degree_level": "bachelor",
+  "department_code": "B3020",
+  "department_name_zh": "機械與機電工程學系",
+  "department_name_en": null,
+  "common_rule_ref": "../../common/113-plus.json",
+  "review_status": "manual_review_required",
+  "reviewed_at": "2026-08-21",
+  "coverage": "partial",
+  "credit_requirements": {
+    "minimum_graduation_credits": 137,
+    "minimum_required_credits": null,
+    "minimum_elective_credits": null,
+    "minimum_department_elective_credits": 24.0,
+    "minimum_department_professional_credits": 67.0
+  },
+  "sources": [
+    {
+      "source_id": "official-required-subjects-113-b3020",
+      "title": "國立中山大學必修科目表（113學年度入學新生適用）－機械與機電工程學系",
+      "url": "https://selcrs.nsysu.edu.tw/stu_query/crs_mst_qry/crs_mst_query.asp?action=3&YY1=113&DPT1=B3020",
+      "document_type": "html",
+      "reviewed_at": "2026-08-21",
+      "sha256": "0fe416fb7832413721f653450f0cfc87f57d003d1f625d41f9a70665f335b1dd"
+    }
+  ],
+  "courses": [
+    {
+      "course_id": "b3020_2aaf9e0aaeee",
+      "canonical_name_zh": "微積分(一)",
+      "canonical_name_en": null,
+      "known_aliases": [],
+      "credits": 3.0,
+      "curriculumRequirement": "department_core",
+      "recommendedYear": 1,
+      "recommendedSemester": "fall",
+      "source_document": "official-required-subjects-113-b3020",
+      "notes": [
+        "官方必修科目表未提供英文課名，故不自行翻譯。"
+      ],
+      "alternatives": [],
+      "manual_review_required": false
+    },
+    {
+      "course_id": "b3020_d71b2a68da9f",
+      "canonical_name_zh": "應用力學(一)",
+      "canonical_name_en": null,
+      "known_aliases": [],
+      "credits": 3.0,
+      "curriculumRequirement": "department_core",
+      "recommendedYear": 1,
+      "recommendedSemester": "fall",
+      "source_document": "official-required-subjects-113-b3020",
+      "notes": [
+        "官方必修科目表未提供英文課名，故不自行翻譯。"
+      ],
+      "alternatives": [],
+      "manual_review_required": false
+    },
+    {
+      "course_id": "b3020_eb5869f0ae49",
+      "canonical_name_zh": "工程電腦程式",
+      "canonical_name_en": null,
+      "known_aliases": [],
+      "credits": 3.0,
+      "curriculumRequirement": "department_core",
+      "recommendedYear": 1,
+      "recommendedSemester": "fall",
+      "source_document": "official-required-subjects-113-b3020",
+      "notes": [
+        "官方必修科目表未提供英文課名，故不自行翻譯。"
+      ],
+      "alternatives": [],
+      "manual_review_required": false
+    },
+    {
+      "course_id": "b3020_13a156b7afbf",
+      "canonical_name_zh": "圖學",
+      "canonical_name_en": null,
+      "known_aliases": [],
+      "credits": 2.0,
+      "curriculumRequirement": "department_core",
+      "recommendedYear": 1,
+      "recommendedSemester": "fall",
+      "source_document": "official-required-subjects-113-b3020",
+      "notes": [
+        "官方必修科目表未提供英文課名，故不自行翻譯。"
+      ],
+      "alternatives": [],
+      "manual_review_required": false
+    },
+    {
+      "course_id": "b3020_5ec94acb3906",
+      "canonical_name_zh": "微積分(二)",
+      "canonical_name_en": null,
+      "known_aliases": [],
+      "credits": 3.0,
+      "curriculumRequirement": "department_core",
+      "recommendedYear": 1,
+      "recommendedSemester": "spring",
+      "source_document": "official-required-subjects-113-b3020",
+      "notes": [
+        "官方必修科目表未提供英文課名，故不自行翻譯。"
+      ],
+      "alternatives": [],
+      "manual_review_required": false
+    },
+    {
+      "course_id": "b3020_ba538aa46689",
+      "canonical_name_zh": "普通物理(二)",
+      "canonical_name_en": null,
+      "known_aliases": [],
+      "credits": 3.0,
+      "curriculumRequirement": "department_core",
+      "recommendedYear": 1,
+      "recommendedSemester": "spring",
+      "source_document": "official-required-subjects-113-b3020",
+      "notes": [
+        "官方必修科目表未提供英文課名，故不自行翻譯。"
+      ],
+      "alternatives": [],
+      "manual_review_required": false
+    },
+    {
+      "course_id": "b3020_41ce86ee4ff4",
+      "canonical_name_zh": "機電材料",
+      "canonical_name_en": null,
+      "known_aliases": [],
+      "credits": 3.0,
+      "curriculumRequirement": "department_core",
+      "recommendedYear": 1,
+      "recommendedSemester": "spring",
+      "source_document": "official-required-subjects-113-b3020",
+      "notes": [
+        "官方必修科目表未提供英文課名，故不自行翻譯。"
+      ],
+      "alternatives": [],
+      "manual_review_required": false
+    },
+    {
+      "course_id": "b3020_c8d5cd3f1f10",
+      "canonical_name_zh": "應用力學(二)",
+      "canonical_name_en": null,
+      "known_aliases": [],
+      "credits": 3.0,
+      "curriculumRequirement": "department_core",
+      "recommendedYear": 1,
+      "recommendedSemester": "spring",
+      "source_document": "official-required-subjects-113-b3020",
+      "notes": [
+        "官方必修科目表未提供英文課名，故不自行翻譯。"
+      ],
+      "alternatives": [],
+      "manual_review_required": false
+    },
+    {
+      "course_id": "b3020_b14ad2e9b150",
+      "canonical_name_zh": "工程數學(一)",
+      "canonical_name_en": null,
+      "known_aliases": [],
+      "credits": 3.0,
+      "curriculumRequirement": "department_core",
+      "recommendedYear": 2,
+      "recommendedSemester": "fall",
+      "source_document": "official-required-subjects-113-b3020",
+      "notes": [
+        "官方必修科目表未提供英文課名，故不自行翻譯。"
+      ],
+      "alternatives": [],
+      "manual_review_required": false
+    },
+    {
+      "course_id": "b3020_8168f9ed4ad5",
+      "canonical_name_zh": "電路學",
+      "canonical_name_en": null,
+      "known_aliases": [],
+      "credits": 3.0,
+      "curriculumRequirement": "department_core",
+      "recommendedYear": 2,
+      "recommendedSemester": "fall",
+      "source_document": "official-required-subjects-113-b3020",
+      "notes": [
+        "官方必修科目表未提供英文課名，故不自行翻譯。"
+      ],
+      "alternatives": [],
+      "manual_review_required": false
+    },
+    {
+      "course_id": "b3020_1de2b59dff52",
+      "canonical_name_zh": "熱力學",
+      "canonical_name_en": null,
+      "known_aliases": [],
+      "credits": 3.0,
+      "curriculumRequirement": "department_core",
+      "recommendedYear": 2,
+      "recommendedSemester": "fall",
+      "source_document": "official-required-subjects-113-b3020",
+      "notes": [
+        "官方必修科目表未提供英文課名，故不自行翻譯。"
+      ],
+      "alternatives": [],
+      "manual_review_required": false
+    },
+    {
+      "course_id": "b3020_3b50f7b61cb5",
+      "canonical_name_zh": "精密機械製造",
+      "canonical_name_en": null,
+      "known_aliases": [],
+      "credits": 3.0,
+      "curriculumRequirement": "department_core",
+      "recommendedYear": 2,
+      "recommendedSemester": "fall",
+      "source_document": "official-required-subjects-113-b3020",
+      "notes": [
+        "官方必修科目表未提供英文課名，故不自行翻譯。"
+      ],
+      "alternatives": [],
+      "manual_review_required": false
+    },
+    {
+      "course_id": "b3020_97dfaac3a484",
+      "canonical_name_zh": "材料力學",
+      "canonical_name_en": null,
+      "known_aliases": [],
+      "credits": 3.0,
+      "curriculumRequirement": "department_core",
+      "recommendedYear": 2,
+      "recommendedSemester": "fall",
+      "source_document": "official-required-subjects-113-b3020",
+      "notes": [
+        "官方必修科目表未提供英文課名，故不自行翻譯。"
+      ],
+      "alternatives": [],
+      "manual_review_required": false
+    },
+    {
+      "course_id": "b3020_0b8a26d6da99",
+      "canonical_name_zh": "工程數學(二)",
+      "canonical_name_en": null,
+      "known_aliases": [],
+      "credits": 3.0,
+      "curriculumRequirement": "department_core",
+      "recommendedYear": 2,
+      "recommendedSemester": "spring",
+      "source_document": "official-required-subjects-113-b3020",
+      "notes": [
+        "官方必修科目表未提供英文課名，故不自行翻譯。"
+      ],
+      "alternatives": [],
+      "manual_review_required": false
+    },
+    {
+      "course_id": "b3020_8c77d1660165",
+      "canonical_name_zh": "機動學",
+      "canonical_name_en": null,
+      "known_aliases": [],
+      "credits": 3.0,
+      "curriculumRequirement": "department_core",
+      "recommendedYear": 2,
+      "recommendedSemester": "spring",
+      "source_document": "official-required-subjects-113-b3020",
+      "notes": [
+        "官方必修科目表未提供英文課名，故不自行翻譯。"
+      ],
+      "alternatives": [],
+      "manual_review_required": false
+    },
+    {
+      "course_id": "b3020_ebb4126783d9",
+      "canonical_name_zh": "應用電子學",
+      "canonical_name_en": null,
+      "known_aliases": [],
+      "credits": 3.0,
+      "curriculumRequirement": "department_core",
+      "recommendedYear": 2,
+      "recommendedSemester": "spring",
+      "source_document": "official-required-subjects-113-b3020",
+      "notes": [
+        "官方必修科目表未提供英文課名，故不自行翻譯。"
+      ],
+      "alternatives": [],
+      "manual_review_required": false
+    },
+    {
+      "course_id": "b3020_a73b56b6209d",
+      "canonical_name_zh": "流體力學",
+      "canonical_name_en": null,
+      "known_aliases": [],
+      "credits": 3.0,
+      "curriculumRequirement": "department_core",
+      "recommendedYear": 2,
+      "recommendedSemester": "spring",
+      "source_document": "official-required-subjects-113-b3020",
+      "notes": [
+        "官方必修科目表未提供英文課名，故不自行翻譯。"
+      ],
+      "alternatives": [],
+      "manual_review_required": false
+    },
+    {
+      "course_id": "b3020_3f066ca8cfdc",
+      "canonical_name_zh": "微機電製程實務",
+      "canonical_name_en": null,
+      "known_aliases": [],
+      "credits": 2.0,
+      "curriculumRequirement": "department_core",
+      "recommendedYear": 2,
+      "recommendedSemester": "spring",
+      "source_document": "official-required-subjects-113-b3020",
+      "notes": [
+        "官方必修科目表未提供英文課名，故不自行翻譯。"
+      ],
+      "alternatives": [],
+      "manual_review_required": false
+    },
+    {
+      "course_id": "b3020_33006ed02a6f",
+      "canonical_name_zh": "機械設計原理(一)",
+      "canonical_name_en": null,
+      "known_aliases": [],
+      "credits": 3.0,
+      "curriculumRequirement": "department_core",
+      "recommendedYear": 3,
+      "recommendedSemester": "fall",
+      "source_document": "official-required-subjects-113-b3020",
+      "notes": [
+        "官方必修科目表未提供英文課名，故不自行翻譯。"
+      ],
+      "alternatives": [],
+      "manual_review_required": false
+    },
+    {
+      "course_id": "b3020_10dbbffed4e5",
+      "canonical_name_zh": "熱傳學",
+      "canonical_name_en": null,
+      "known_aliases": [],
+      "credits": 3.0,
+      "curriculumRequirement": "department_core",
+      "recommendedYear": 3,
+      "recommendedSemester": "fall",
+      "source_document": "official-required-subjects-113-b3020",
+      "notes": [
+        "官方必修科目表未提供英文課名，故不自行翻譯。"
+      ],
+      "alternatives": [],
+      "manual_review_required": false
+    },
+    {
+      "course_id": "b3020_4629073d1bbd",
+      "canonical_name_zh": "自動控制",
+      "canonical_name_en": null,
+      "known_aliases": [],
+      "credits": 3.0,
+      "curriculumRequirement": "department_core",
+      "recommendedYear": 3,
+      "recommendedSemester": "fall",
+      "source_document": "official-required-subjects-113-b3020",
+      "notes": [
+        "官方必修科目表未提供英文課名，故不自行翻譯。"
+      ],
+      "alternatives": [],
+      "manual_review_required": false
+    },
+    {
+      "course_id": "b3020_aa62b5352862",
+      "canonical_name_zh": "電子電路實驗",
+      "canonical_name_en": null,
+      "known_aliases": [],
+      "credits": 1.0,
+      "curriculumRequirement": "department_core",
+      "recommendedYear": 3,
+      "recommendedSemester": "fall",
+      "source_document": "official-required-subjects-113-b3020",
+      "notes": [
+        "官方必修科目表未提供英文課名，故不自行翻譯。"
+      ],
+      "alternatives": [],
+      "manual_review_required": false
+    },
+    {
+      "course_id": "b3020_df780d4bef3f",
+      "canonical_name_zh": "機械製造實驗",
+      "canonical_name_en": null,
+      "known_aliases": [],
+      "credits": 1.0,
+      "curriculumRequirement": "department_core",
+      "recommendedYear": 3,
+      "recommendedSemester": "fall",
+      "source_document": "official-required-subjects-113-b3020",
+      "notes": [
+        "官方必修科目表未提供英文課名，故不自行翻譯。"
+      ],
+      "alternatives": [],
+      "manual_review_required": false
+    },
+    {
+      "course_id": "b3020_5c3de1d5b64f",
+      "canonical_name_zh": "固力實驗",
+      "canonical_name_en": null,
+      "known_aliases": [],
+      "credits": 1.0,
+      "curriculumRequirement": "department_core",
+      "recommendedYear": 3,
+      "recommendedSemester": "spring",
+      "source_document": "official-required-subjects-113-b3020",
+      "notes": [
+        "官方必修科目表未提供英文課名，故不自行翻譯。"
+      ],
+      "alternatives": [],
+      "manual_review_required": false
+    },
+    {
+      "course_id": "b3020_f695ca47ffd2",
+      "canonical_name_zh": "控制實驗",
+      "canonical_name_en": null,
+      "known_aliases": [],
+      "credits": 1.0,
+      "curriculumRequirement": "department_core",
+      "recommendedYear": 3,
+      "recommendedSemester": "spring",
+      "source_document": "official-required-subjects-113-b3020",
+      "notes": [
+        "官方必修科目表未提供英文課名，故不自行翻譯。"
+      ],
+      "alternatives": [],
+      "manual_review_required": false
+    },
+    {
+      "course_id": "b3020_3106bad856de",
+      "canonical_name_zh": "熱流實驗",
+      "canonical_name_en": null,
+      "known_aliases": [],
+      "credits": 1.0,
+      "curriculumRequirement": "department_core",
+      "recommendedYear": 3,
+      "recommendedSemester": "spring",
+      "source_document": "official-required-subjects-113-b3020",
+      "notes": [
+        "官方必修科目表未提供英文課名，故不自行翻譯。"
+      ],
+      "alternatives": [],
+      "manual_review_required": false
+    },
+    {
+      "course_id": "b3020_57754e8e34f8",
+      "canonical_name_zh": "機電實務專案",
+      "canonical_name_en": null,
+      "known_aliases": [],
+      "credits": 1.0,
+      "curriculumRequirement": "department_core",
+      "recommendedYear": 3,
+      "recommendedSemester": "spring",
+      "source_document": "official-required-subjects-113-b3020",
+      "notes": [
+        "官方必修科目表未提供英文課名，故不自行翻譯。"
+      ],
+      "alternatives": [],
+      "manual_review_required": false
+    }
+  ],
+  "course_groups": [],
+  "prerequisites": [],
+  "non_duplicated_counting_groups": [],
+  "manual_review_rules": [
+    {
+      "rule_id": "b3020_official_table_review_pending",
+      "description": "官方必修科目表已轉為結構化候選，但尚未完成逐列雙人覆核。",
+      "reason": "自動解析可保存表格內容，不能單獨證明跨欄、附註與特殊身分條件已完整建模。",
+      "source_document": "official-required-subjects-113-b3020",
+      "resolution": "逐列對照官方表，確認課名、學分、建議學期、分組與所有附註後再改為reviewed。"
+    },
+    {
+      "rule_id": "b3020_course_regulation_01",
+      "description": "3.本系學生需修畢本系專業必修67學分及本系專業選修至少24學分。",
+      "reason": "這是系所特有條款，可能包含組別、領域、授課語言、檢定、抵免或審查條件，現有課程完成狀態不足以自動證明。",
+      "source_document": "official-required-subjects-113-b3020",
+      "resolution": "依本條所述身分與課程屬性逐項查核；在ClearGrad尚未支援對應屬性前，不可自動標示已完成。"
+    },
+    {
+      "rule_id": "b3020_course_regulation_02",
+      "description": "4.全英語組修課規定:本系專業必修應修習全英語課程(「機電實務專案」1學分除外),及本系專業選修24學分中至少選修12學分全英語課程,專業必修課程第三次修習始可改修一般生之該課程。",
+      "reason": "這是系所特有條款，可能包含組別、領域、授課語言、檢定、抵免或審查條件，現有課程完成狀態不足以自動證明。",
+      "source_document": "official-required-subjects-113-b3020",
+      "resolution": "依本條所述身分與課程屬性逐項查核；在ClearGrad尚未支援對應屬性前，不可自動標示已完成。"
+    }
+  ],
+  "additional_credit_rules": [
+    {
+      "rule_id": "b3020_foreign_secondary_grade2_equivalent",
+      "admission_statuses": [
+        "國外或香港澳門地區同級同類學校畢業年級相當於國內高級中等學校二年級，並以同等學力入學"
+      ],
+      "additional_credits": 12,
+      "source_document": "official-required-subjects-113-b3020",
+      "notes": [
+        "官方修課規定明載在原訂畢業應修學分之外增加12學分。"
+      ]
+    }
+  ]
+}

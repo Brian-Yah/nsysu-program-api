@@ -1,0 +1,504 @@
+{
+  "schema_version": "1.0",
+  "rule_set_id": "nsysu-113-bachelor-B3090",
+  "rule_type": "department",
+  "entry_year": "113",
+  "degree_level": "bachelor",
+  "department_code": "B3090",
+  "department_name_zh": "光電工程學系",
+  "department_name_en": null,
+  "common_rule_ref": "../../common/113-plus.json",
+  "review_status": "manual_review_required",
+  "reviewed_at": "2026-08-21",
+  "coverage": "partial",
+  "credit_requirements": {
+    "minimum_graduation_credits": 134,
+    "minimum_required_credits": null,
+    "minimum_elective_credits": null,
+    "minimum_department_elective_credits": 27.0,
+    "minimum_department_professional_credits": null
+  },
+  "sources": [
+    {
+      "source_id": "official-required-subjects-113-b3090",
+      "title": "國立中山大學必修科目表（113學年度入學新生適用）－光電工程學系",
+      "url": "https://selcrs.nsysu.edu.tw/stu_query/crs_mst_qry/crs_mst_query.asp?action=3&YY1=113&DPT1=B3090",
+      "document_type": "html",
+      "reviewed_at": "2026-08-21",
+      "sha256": "9fa6ac86424608dc066fdeba106585d346d834c636311c8a942674a056f24143"
+    }
+  ],
+  "courses": [
+    {
+      "course_id": "b3090_d68d585dd2b2",
+      "canonical_name_zh": "普通物理(一)",
+      "canonical_name_en": null,
+      "known_aliases": [],
+      "credits": 3.0,
+      "curriculumRequirement": "department_core",
+      "recommendedYear": 1,
+      "recommendedSemester": "fall",
+      "source_document": "official-required-subjects-113-b3090",
+      "notes": [
+        "官方必修科目表未提供英文課名，故不自行翻譯。"
+      ],
+      "alternatives": [],
+      "manual_review_required": false
+    },
+    {
+      "course_id": "b3090_965a3745dbbf",
+      "canonical_name_zh": "普通物理實驗(一)",
+      "canonical_name_en": null,
+      "known_aliases": [],
+      "credits": 1.0,
+      "curriculumRequirement": "department_core",
+      "recommendedYear": 1,
+      "recommendedSemester": "fall",
+      "source_document": "official-required-subjects-113-b3090",
+      "notes": [
+        "官方必修科目表未提供英文課名，故不自行翻譯。"
+      ],
+      "alternatives": [],
+      "manual_review_required": false
+    },
+    {
+      "course_id": "b3090_2aaf9e0aaeee",
+      "canonical_name_zh": "微積分(一)",
+      "canonical_name_en": null,
+      "known_aliases": [],
+      "credits": 3.0,
+      "curriculumRequirement": "department_core",
+      "recommendedYear": 1,
+      "recommendedSemester": "fall",
+      "source_document": "official-required-subjects-113-b3090",
+      "notes": [
+        "官方必修科目表未提供英文課名，故不自行翻譯。"
+      ],
+      "alternatives": [],
+      "manual_review_required": false
+    },
+    {
+      "course_id": "b3090_ba538aa46689",
+      "canonical_name_zh": "普通物理(二)",
+      "canonical_name_en": null,
+      "known_aliases": [],
+      "credits": 3.0,
+      "curriculumRequirement": "department_core",
+      "recommendedYear": 1,
+      "recommendedSemester": "spring",
+      "source_document": "official-required-subjects-113-b3090",
+      "notes": [
+        "官方必修科目表未提供英文課名，故不自行翻譯。"
+      ],
+      "alternatives": [],
+      "manual_review_required": false
+    },
+    {
+      "course_id": "b3090_b6f3cf9f1fa3",
+      "canonical_name_zh": "普通物理實驗(二)",
+      "canonical_name_en": null,
+      "known_aliases": [],
+      "credits": 1.0,
+      "curriculumRequirement": "department_core",
+      "recommendedYear": 1,
+      "recommendedSemester": "spring",
+      "source_document": "official-required-subjects-113-b3090",
+      "notes": [
+        "官方必修科目表未提供英文課名，故不自行翻譯。"
+      ],
+      "alternatives": [],
+      "manual_review_required": false
+    },
+    {
+      "course_id": "b3090_5ec94acb3906",
+      "canonical_name_zh": "微積分(二)",
+      "canonical_name_en": null,
+      "known_aliases": [],
+      "credits": 3.0,
+      "curriculumRequirement": "department_core",
+      "recommendedYear": 1,
+      "recommendedSemester": "spring",
+      "source_document": "official-required-subjects-113-b3090",
+      "notes": [
+        "官方必修科目表未提供英文課名，故不自行翻譯。"
+      ],
+      "alternatives": [],
+      "manual_review_required": false
+    },
+    {
+      "course_id": "b3090_b14ad2e9b150",
+      "canonical_name_zh": "工程數學(一)",
+      "canonical_name_en": null,
+      "known_aliases": [],
+      "credits": 3.0,
+      "curriculumRequirement": "department_core",
+      "recommendedYear": 1,
+      "recommendedSemester": "spring",
+      "source_document": "official-required-subjects-113-b3090",
+      "notes": [
+        "官方必修科目表未提供英文課名，故不自行翻譯。"
+      ],
+      "alternatives": [],
+      "manual_review_required": false
+    },
+    {
+      "course_id": "b3090_c718f5a2f76e",
+      "canonical_name_zh": "普通化學",
+      "canonical_name_en": null,
+      "known_aliases": [],
+      "credits": 3.0,
+      "curriculumRequirement": "department_core",
+      "recommendedYear": 1,
+      "recommendedSemester": "spring",
+      "source_document": "official-required-subjects-113-b3090",
+      "notes": [
+        "官方必修科目表未提供英文課名，故不自行翻譯。"
+      ],
+      "alternatives": [],
+      "manual_review_required": false
+    },
+    {
+      "course_id": "b3090_2749ed68443f",
+      "canonical_name_zh": "電子學(一)",
+      "canonical_name_en": null,
+      "known_aliases": [],
+      "credits": 3.0,
+      "curriculumRequirement": "department_core",
+      "recommendedYear": 2,
+      "recommendedSemester": "fall",
+      "source_document": "official-required-subjects-113-b3090",
+      "notes": [
+        "官方必修科目表未提供英文課名，故不自行翻譯。"
+      ],
+      "alternatives": [],
+      "manual_review_required": false
+    },
+    {
+      "course_id": "b3090_27fbf1584067",
+      "canonical_name_zh": "電子學實驗(一)",
+      "canonical_name_en": null,
+      "known_aliases": [],
+      "credits": 1.0,
+      "curriculumRequirement": "department_core",
+      "recommendedYear": 2,
+      "recommendedSemester": "fall",
+      "source_document": "official-required-subjects-113-b3090",
+      "notes": [
+        "官方必修科目表未提供英文課名，故不自行翻譯。"
+      ],
+      "alternatives": [],
+      "manual_review_required": false
+    },
+    {
+      "course_id": "b3090_0b8a26d6da99",
+      "canonical_name_zh": "工程數學(二)",
+      "canonical_name_en": null,
+      "known_aliases": [],
+      "credits": 3.0,
+      "curriculumRequirement": "department_core",
+      "recommendedYear": 2,
+      "recommendedSemester": "fall",
+      "source_document": "official-required-subjects-113-b3090",
+      "notes": [
+        "官方必修科目表未提供英文課名，故不自行翻譯。"
+      ],
+      "alternatives": [],
+      "manual_review_required": false
+    },
+    {
+      "course_id": "b3090_acc6e42daabc",
+      "canonical_name_zh": "電磁學(一)",
+      "canonical_name_en": null,
+      "known_aliases": [],
+      "credits": 3.0,
+      "curriculumRequirement": "department_core",
+      "recommendedYear": 2,
+      "recommendedSemester": "fall",
+      "source_document": "official-required-subjects-113-b3090",
+      "notes": [
+        "官方必修科目表未提供英文課名，故不自行翻譯。"
+      ],
+      "alternatives": [],
+      "manual_review_required": false
+    },
+    {
+      "course_id": "b3090_0fc05efb742c",
+      "canonical_name_zh": "幾何光學",
+      "canonical_name_en": null,
+      "known_aliases": [],
+      "credits": 3.0,
+      "curriculumRequirement": "department_core",
+      "recommendedYear": 2,
+      "recommendedSemester": "fall",
+      "source_document": "official-required-subjects-113-b3090",
+      "notes": [
+        "官方必修科目表未提供英文課名，故不自行翻譯。"
+      ],
+      "alternatives": [],
+      "manual_review_required": false
+    },
+    {
+      "course_id": "b3090_91e502d9e4ab",
+      "canonical_name_zh": "幾何光學實驗",
+      "canonical_name_en": null,
+      "known_aliases": [],
+      "credits": 1.0,
+      "curriculumRequirement": "department_core",
+      "recommendedYear": 2,
+      "recommendedSemester": "spring",
+      "source_document": "official-required-subjects-113-b3090",
+      "notes": [
+        "官方必修科目表未提供英文課名，故不自行翻譯。"
+      ],
+      "alternatives": [],
+      "manual_review_required": false
+    },
+    {
+      "course_id": "b3090_446534563c0d",
+      "canonical_name_zh": "電子學(二)",
+      "canonical_name_en": null,
+      "known_aliases": [],
+      "credits": 3.0,
+      "curriculumRequirement": "department_core",
+      "recommendedYear": 2,
+      "recommendedSemester": "spring",
+      "source_document": "official-required-subjects-113-b3090",
+      "notes": [
+        "官方必修科目表未提供英文課名，故不自行翻譯。"
+      ],
+      "alternatives": [],
+      "manual_review_required": false
+    },
+    {
+      "course_id": "b3090_072e8b413a07",
+      "canonical_name_zh": "電子學實驗(二)",
+      "canonical_name_en": null,
+      "known_aliases": [],
+      "credits": 1.0,
+      "curriculumRequirement": "department_core",
+      "recommendedYear": 2,
+      "recommendedSemester": "spring",
+      "source_document": "official-required-subjects-113-b3090",
+      "notes": [
+        "官方必修科目表未提供英文課名，故不自行翻譯。"
+      ],
+      "alternatives": [],
+      "manual_review_required": false
+    },
+    {
+      "course_id": "b3090_694727b5334d",
+      "canonical_name_zh": "電磁學(二)",
+      "canonical_name_en": null,
+      "known_aliases": [],
+      "credits": 3.0,
+      "curriculumRequirement": "department_core",
+      "recommendedYear": 2,
+      "recommendedSemester": "spring",
+      "source_document": "official-required-subjects-113-b3090",
+      "notes": [
+        "官方必修科目表未提供英文課名，故不自行翻譯。"
+      ],
+      "alternatives": [],
+      "manual_review_required": false
+    },
+    {
+      "course_id": "b3090_83229d78e25a",
+      "canonical_name_zh": "物理光學",
+      "canonical_name_en": null,
+      "known_aliases": [],
+      "credits": 3.0,
+      "curriculumRequirement": "department_core",
+      "recommendedYear": 2,
+      "recommendedSemester": "spring",
+      "source_document": "official-required-subjects-113-b3090",
+      "notes": [
+        "官方必修科目表未提供英文課名，故不自行翻譯。"
+      ],
+      "alternatives": [],
+      "manual_review_required": false
+    },
+    {
+      "course_id": "b3090_63381e3c6887",
+      "canonical_name_zh": "物理光學實驗",
+      "canonical_name_en": null,
+      "known_aliases": [],
+      "credits": 1.0,
+      "curriculumRequirement": "department_core",
+      "recommendedYear": 3,
+      "recommendedSemester": "fall",
+      "source_document": "official-required-subjects-113-b3090",
+      "notes": [
+        "官方必修科目表未提供英文課名，故不自行翻譯。"
+      ],
+      "alternatives": [],
+      "manual_review_required": false
+    },
+    {
+      "course_id": "b3090_37f3564b8184",
+      "canonical_name_zh": "光子學",
+      "canonical_name_en": null,
+      "known_aliases": [],
+      "credits": 3.0,
+      "curriculumRequirement": "department_core",
+      "recommendedYear": 3,
+      "recommendedSemester": "fall",
+      "source_document": "official-required-subjects-113-b3090",
+      "notes": [
+        "官方必修科目表未提供英文課名，故不自行翻譯。"
+      ],
+      "alternatives": [],
+      "manual_review_required": false
+    },
+    {
+      "course_id": "b3090_76cde3688a5b",
+      "canonical_name_zh": "光子學實驗",
+      "canonical_name_en": null,
+      "known_aliases": [],
+      "credits": 1.0,
+      "curriculumRequirement": "department_core",
+      "recommendedYear": 3,
+      "recommendedSemester": "spring",
+      "source_document": "official-required-subjects-113-b3090",
+      "notes": [
+        "官方必修科目表未提供英文課名，故不自行翻譯。"
+      ],
+      "alternatives": [],
+      "manual_review_required": false
+    },
+    {
+      "course_id": "b3090_59fe4a3bdadb",
+      "canonical_name_zh": "近代物理",
+      "canonical_name_en": null,
+      "known_aliases": [],
+      "credits": 3.0,
+      "curriculumRequirement": "department_core",
+      "recommendedYear": 3,
+      "recommendedSemester": "fall",
+      "source_document": "official-required-subjects-113-b3090",
+      "notes": [
+        "官方必修科目表未提供英文課名，故不自行翻譯。"
+      ],
+      "alternatives": [],
+      "manual_review_required": false
+    },
+    {
+      "course_id": "b3090_716a561dc67a",
+      "canonical_name_zh": "光電工程專題(一)",
+      "canonical_name_en": null,
+      "known_aliases": [],
+      "credits": 1.0,
+      "curriculumRequirement": "department_core",
+      "recommendedYear": 3,
+      "recommendedSemester": "fall",
+      "source_document": "official-required-subjects-113-b3090",
+      "notes": [
+        "官方必修科目表未提供英文課名，故不自行翻譯。"
+      ],
+      "alternatives": [],
+      "manual_review_required": false
+    },
+    {
+      "course_id": "b3090_661137f803aa",
+      "canonical_name_zh": "光電工程專題(二)",
+      "canonical_name_en": null,
+      "known_aliases": [],
+      "credits": 1.0,
+      "curriculumRequirement": "department_core",
+      "recommendedYear": 3,
+      "recommendedSemester": "spring",
+      "source_document": "official-required-subjects-113-b3090",
+      "notes": [
+        "官方必修科目表未提供英文課名，故不自行翻譯。"
+      ],
+      "alternatives": [],
+      "manual_review_required": false
+    },
+    {
+      "course_id": "b3090_a60aa064158d",
+      "canonical_name_zh": "光電科技與工程倫理",
+      "canonical_name_en": null,
+      "known_aliases": [],
+      "credits": 1.0,
+      "curriculumRequirement": "department_core",
+      "recommendedYear": 2,
+      "recommendedSemester": "fall",
+      "source_document": "official-required-subjects-113-b3090",
+      "notes": [
+        "官方必修科目表未提供英文課名，故不自行翻譯。"
+      ],
+      "alternatives": [],
+      "manual_review_required": false
+    },
+    {
+      "course_id": "b3090_5abc2f6e64ce",
+      "canonical_name_zh": "計算機程式",
+      "canonical_name_en": null,
+      "known_aliases": [],
+      "credits": 3.0,
+      "curriculumRequirement": "department_core",
+      "recommendedYear": 1,
+      "recommendedSemester": "fall",
+      "source_document": "official-required-subjects-113-b3090",
+      "notes": [
+        "官方必修科目表未提供英文課名，故不自行翻譯。"
+      ],
+      "alternatives": [],
+      "manual_review_required": false
+    },
+    {
+      "course_id": "b3090_49a7a7ee9a40",
+      "canonical_name_zh": "信號與系統",
+      "canonical_name_en": null,
+      "known_aliases": [],
+      "credits": 3.0,
+      "curriculumRequirement": "department_core",
+      "recommendedYear": 2,
+      "recommendedSemester": "spring",
+      "source_document": "official-required-subjects-113-b3090",
+      "notes": [
+        "官方必修科目表未提供英文課名，故不自行翻譯。"
+      ],
+      "alternatives": [],
+      "manual_review_required": false
+    }
+  ],
+  "course_groups": [],
+  "prerequisites": [],
+  "non_duplicated_counting_groups": [],
+  "manual_review_rules": [
+    {
+      "rule_id": "b3090_official_table_review_pending",
+      "description": "官方必修科目表已轉為結構化候選，但尚未完成逐列雙人覆核。",
+      "reason": "自動解析可保存表格內容，不能單獨證明跨欄、附註與特殊身分條件已完整建模。",
+      "source_document": "official-required-subjects-113-b3090",
+      "resolution": "逐列對照官方表，確認課名、學分、建議學期、分組與所有附註後再改為reviewed。"
+    },
+    {
+      "rule_id": "b3090_course_regulation_01",
+      "description": "3.專業必修科目:61學分。 專業選修課程:不得少於27學分(大學部專業選修課程共區分3個領域,每1個領域至少修2門課程,共計6學分)。 除選修本系開設大學部專業選修課程外,以下本系研究所課程亦可認列於27學分中(積體光電元件原理與設計、光電子元件應用、進階半導體物理與元件、雷射工程物理、繞射光學、材料表面分析技術、檢測技術在光電上的應用、有機太陽能電池、半導體雷射原理與應用、半導體光電元件)。",
+      "reason": "這是系所特有條款，可能包含組別、領域、授課語言、檢定、抵免或審查條件，現有課程完成狀態不足以自動證明。",
+      "source_document": "official-required-subjects-113-b3090",
+      "resolution": "依本條所述身分與課程屬性逐項查核；在ClearGrad尚未支援對應屬性前，不可自動標示已完成。"
+    },
+    {
+      "rule_id": "b3090_course_regulation_02",
+      "description": "4.全英語組修課規定:本系專業必修應全數修習全英語課程,修習第三次起不在此限。",
+      "reason": "這是系所特有條款，可能包含組別、領域、授課語言、檢定、抵免或審查條件，現有課程完成狀態不足以自動證明。",
+      "source_document": "official-required-subjects-113-b3090",
+      "resolution": "依本條所述身分與課程屬性逐項查核；在ClearGrad尚未支援對應屬性前，不可自動標示已完成。"
+    }
+  ],
+  "additional_credit_rules": [
+    {
+      "rule_id": "b3090_foreign_secondary_grade2_equivalent",
+      "admission_statuses": [
+        "國外或香港澳門地區同級同類學校畢業年級相當於國內高級中等學校二年級，並以同等學力入學"
+      ],
+      "additional_credits": 12,
+      "source_document": "official-required-subjects-113-b3090",
+      "notes": [
+        "官方修課規定明載在原訂畢業應修學分之外增加12學分。"
+      ]
+    }
+  ]
+}

@@ -1,0 +1,353 @@
+{
+  "schema_version": "1.0",
+  "rule_set_id": "nsysu-113-bachelor-B6090",
+  "rule_type": "department",
+  "entry_year": "113",
+  "degree_level": "bachelor",
+  "department_code": "B6090",
+  "department_name_zh": "社會學系",
+  "department_name_en": null,
+  "common_rule_ref": "../../common/113-plus.json",
+  "review_status": "manual_review_required",
+  "reviewed_at": "2026-08-21",
+  "coverage": "partial",
+  "credit_requirements": {
+    "minimum_graduation_credits": 128,
+    "minimum_required_credits": null,
+    "minimum_elective_credits": null,
+    "minimum_department_elective_credits": 65.0,
+    "minimum_department_professional_credits": null
+  },
+  "sources": [
+    {
+      "source_id": "official-required-subjects-113-b6090",
+      "title": "國立中山大學必修科目表（113學年度入學新生適用）－社會學系",
+      "url": "https://selcrs.nsysu.edu.tw/stu_query/crs_mst_qry/crs_mst_query.asp?action=3&YY1=113&DPT1=B6090",
+      "document_type": "html",
+      "reviewed_at": "2026-08-21",
+      "sha256": "24768021948d40a05eae3a7dfa488092dbccac4b2a1bc7f21f551226a5b69084"
+    }
+  ],
+  "courses": [
+    {
+      "course_id": "b6090_9f47ae77027c",
+      "canonical_name_zh": "閱讀與寫作",
+      "canonical_name_en": null,
+      "known_aliases": [],
+      "credits": 3.0,
+      "curriculumRequirement": "department_core",
+      "recommendedYear": 1,
+      "recommendedSemester": "fall",
+      "source_document": "official-required-subjects-113-b6090",
+      "notes": [
+        "官方必修科目表未提供英文課名，故不自行翻譯。"
+      ],
+      "alternatives": [],
+      "manual_review_required": false
+    },
+    {
+      "course_id": "b6090_553824065b59",
+      "canonical_name_zh": "社會學(一)",
+      "canonical_name_en": null,
+      "known_aliases": [],
+      "credits": 3.0,
+      "curriculumRequirement": "department_core",
+      "recommendedYear": 1,
+      "recommendedSemester": "fall",
+      "source_document": "official-required-subjects-113-b6090",
+      "notes": [
+        "官方必修科目表未提供英文課名，故不自行翻譯。"
+      ],
+      "alternatives": [],
+      "manual_review_required": false
+    },
+    {
+      "course_id": "b6090_6fd943fd1416",
+      "canonical_name_zh": "社會學實習(一)",
+      "canonical_name_en": null,
+      "known_aliases": [],
+      "credits": 1.0,
+      "curriculumRequirement": "department_core",
+      "recommendedYear": 1,
+      "recommendedSemester": "fall",
+      "source_document": "official-required-subjects-113-b6090",
+      "notes": [
+        "官方必修科目表未提供英文課名，故不自行翻譯。"
+      ],
+      "alternatives": [],
+      "manual_review_required": false
+    },
+    {
+      "course_id": "b6090_f8568c32dcf5",
+      "canonical_name_zh": "社會學(二)",
+      "canonical_name_en": null,
+      "known_aliases": [],
+      "credits": 3.0,
+      "curriculumRequirement": "department_core",
+      "recommendedYear": 1,
+      "recommendedSemester": "spring",
+      "source_document": "official-required-subjects-113-b6090",
+      "notes": [
+        "官方必修科目表未提供英文課名，故不自行翻譯。"
+      ],
+      "alternatives": [],
+      "manual_review_required": false
+    },
+    {
+      "course_id": "b6090_eb5bf8fae4e6",
+      "canonical_name_zh": "社會學實習(二)",
+      "canonical_name_en": null,
+      "known_aliases": [],
+      "credits": 1.0,
+      "curriculumRequirement": "department_core",
+      "recommendedYear": 1,
+      "recommendedSemester": "spring",
+      "source_document": "official-required-subjects-113-b6090",
+      "notes": [
+        "官方必修科目表未提供英文課名，故不自行翻譯。"
+      ],
+      "alternatives": [],
+      "manual_review_required": false
+    },
+    {
+      "course_id": "b6090_ff93f1fc6db5",
+      "canonical_name_zh": "社會學質性研究方法(一)",
+      "canonical_name_en": null,
+      "known_aliases": [],
+      "credits": 3.0,
+      "curriculumRequirement": "department_core",
+      "recommendedYear": 3,
+      "recommendedSemester": "fall",
+      "source_document": "official-required-subjects-113-b6090",
+      "notes": [
+        "官方必修科目表未提供英文課名，故不自行翻譯。"
+      ],
+      "alternatives": [],
+      "manual_review_required": false
+    },
+    {
+      "course_id": "b6090_e3ef777b5a8e",
+      "canonical_name_zh": "社會理論(一)",
+      "canonical_name_en": null,
+      "known_aliases": [],
+      "credits": 3.0,
+      "curriculumRequirement": "department_core",
+      "recommendedYear": 2,
+      "recommendedSemester": "fall",
+      "source_document": "official-required-subjects-113-b6090",
+      "notes": [
+        "官方必修科目表未提供英文課名，故不自行翻譯。"
+      ],
+      "alternatives": [],
+      "manual_review_required": false
+    },
+    {
+      "course_id": "b6090_e62e26e04fc3",
+      "canonical_name_zh": "社會統計(一)",
+      "canonical_name_en": null,
+      "known_aliases": [],
+      "credits": 3.0,
+      "curriculumRequirement": "department_core",
+      "recommendedYear": 2,
+      "recommendedSemester": "fall",
+      "source_document": "official-required-subjects-113-b6090",
+      "notes": [
+        "官方必修科目表未提供英文課名，故不自行翻譯。"
+      ],
+      "alternatives": [],
+      "manual_review_required": false
+    },
+    {
+      "course_id": "b6090_5e9855544b0e",
+      "canonical_name_zh": "社會統計實習(一)",
+      "canonical_name_en": null,
+      "known_aliases": [],
+      "credits": 1.0,
+      "curriculumRequirement": "department_core",
+      "recommendedYear": 2,
+      "recommendedSemester": "fall",
+      "source_document": "official-required-subjects-113-b6090",
+      "notes": [
+        "官方必修科目表未提供英文課名，故不自行翻譯。"
+      ],
+      "alternatives": [],
+      "manual_review_required": false
+    },
+    {
+      "course_id": "b6090_7c397fca8b91",
+      "canonical_name_zh": "社會理論(二)",
+      "canonical_name_en": null,
+      "known_aliases": [],
+      "credits": 3.0,
+      "curriculumRequirement": "department_core",
+      "recommendedYear": 2,
+      "recommendedSemester": "spring",
+      "source_document": "official-required-subjects-113-b6090",
+      "notes": [
+        "官方必修科目表未提供英文課名，故不自行翻譯。"
+      ],
+      "alternatives": [],
+      "manual_review_required": false
+    },
+    {
+      "course_id": "b6090_87c33a46621c",
+      "canonical_name_zh": "南方社會學",
+      "canonical_name_en": null,
+      "known_aliases": [],
+      "credits": 3.0,
+      "curriculumRequirement": "department_core",
+      "recommendedYear": 3,
+      "recommendedSemester": "fall",
+      "source_document": "official-required-subjects-113-b6090",
+      "notes": [
+        "官方必修科目表未提供英文課名，故不自行翻譯。"
+      ],
+      "alternatives": [],
+      "manual_review_required": false
+    },
+    {
+      "course_id": "b6090_ae832fbca695",
+      "canonical_name_zh": "社會統計(二)",
+      "canonical_name_en": null,
+      "known_aliases": [],
+      "credits": 3.0,
+      "curriculumRequirement": "department_group_elective",
+      "recommendedYear": 2,
+      "recommendedSemester": "spring",
+      "source_document": "official-required-subjects-113-b6090",
+      "notes": [
+        "官方必修科目表未提供英文課名，故不自行翻譯。"
+      ],
+      "alternatives": [],
+      "manual_review_required": false
+    },
+    {
+      "course_id": "b6090_72e9bf2b1b01",
+      "canonical_name_zh": "社會統計實習(二)",
+      "canonical_name_en": null,
+      "known_aliases": [],
+      "credits": 1.0,
+      "curriculumRequirement": "department_group_elective",
+      "recommendedYear": 2,
+      "recommendedSemester": "spring",
+      "source_document": "official-required-subjects-113-b6090",
+      "notes": [
+        "官方必修科目表未提供英文課名，故不自行翻譯。"
+      ],
+      "alternatives": [],
+      "manual_review_required": false
+    },
+    {
+      "course_id": "b6090_6ca63608411e",
+      "canonical_name_zh": "社會學質性研究方法(二)",
+      "canonical_name_en": null,
+      "known_aliases": [],
+      "credits": 3.0,
+      "curriculumRequirement": "department_group_elective",
+      "recommendedYear": 3,
+      "recommendedSemester": "spring",
+      "source_document": "official-required-subjects-113-b6090",
+      "notes": [
+        "官方必修科目表未提供英文課名，故不自行翻譯。"
+      ],
+      "alternatives": [],
+      "manual_review_required": false
+    }
+  ],
+  "course_groups": [
+    {
+      "group_id": "b6090_group_a",
+      "name_zh": "社統組（A組）",
+      "name_en": null,
+      "rule_kind": "choose_n_from_m",
+      "course_ids": [
+        "b6090_ae832fbca695",
+        "b6090_72e9bf2b1b01"
+      ],
+      "minimum_courses": 2,
+      "maximum_courses": null,
+      "minimum_credits": null,
+      "maximum_counted_credits": null,
+      "category_requirements": [],
+      "counts_toward": "required",
+      "source_document": "official-required-subjects-113-b6090",
+      "manual_review_required": true,
+      "notes": [
+        "【A 】:計 2 科任選 2 科",
+        "此組為學籍軌道別必修，只能套用學生所屬組別；不得同時強制所有組別。"
+      ]
+    },
+    {
+      "group_id": "b6090_group_b",
+      "name_zh": "質性組（B組）",
+      "name_en": null,
+      "rule_kind": "choose_n_from_m",
+      "course_ids": [
+        "b6090_6ca63608411e"
+      ],
+      "minimum_courses": 1,
+      "maximum_courses": null,
+      "minimum_credits": null,
+      "maximum_counted_credits": null,
+      "category_requirements": [],
+      "counts_toward": "required",
+      "source_document": "official-required-subjects-113-b6090",
+      "manual_review_required": true,
+      "notes": [
+        "此組為學籍軌道別必修，只能套用學生所屬組別；不得同時強制所有組別。"
+      ]
+    }
+  ],
+  "prerequisites": [],
+  "non_duplicated_counting_groups": [],
+  "manual_review_rules": [
+    {
+      "rule_id": "b6090_official_table_review_pending",
+      "description": "官方必修科目表已轉為結構化候選，但尚未完成逐列雙人覆核。",
+      "reason": "自動解析可保存表格內容，不能單獨證明跨欄、附註與特殊身分條件已完整建模。",
+      "source_document": "official-required-subjects-113-b6090",
+      "resolution": "逐列對照官方表，確認課名、學分、建議學期、分組與所有附註後再改為reviewed。"
+    },
+    {
+      "rule_id": "b6090_course_regulation_01",
+      "description": "2.專業必修:A:社統組31學分、B:質性組30學分(必修二選一,兩組全選亦可)。",
+      "reason": "這是系所特有條款，可能包含組別、領域、授課語言、檢定、抵免或審查條件，現有課程完成狀態不足以自動證明。",
+      "source_document": "official-required-subjects-113-b6090",
+      "resolution": "依本條所述身分與課程屬性逐項查核；在ClearGrad尚未支援對應屬性前，不可自動標示已完成。"
+    },
+    {
+      "rule_id": "b6090_course_regulation_02",
+      "description": "3.專業選修65學分(至少選修本系開設之6門課且跨2領域)。",
+      "reason": "這是系所特有條款，可能包含組別、領域、授課語言、檢定、抵免或審查條件，現有課程完成狀態不足以自動證明。",
+      "source_document": "official-required-subjects-113-b6090",
+      "resolution": "依本條所述身分與課程屬性逐項查核；在ClearGrad尚未支援對應屬性前，不可自動標示已完成。"
+    },
+    {
+      "rule_id": "b6090_course_regulation_03",
+      "description": "4.規定選修課程6學分 (四選二,可計入專業選修學分數)。",
+      "reason": "這是系所特有條款，可能包含組別、領域、授課語言、檢定、抵免或審查條件，現有課程完成狀態不足以自動證明。",
+      "source_document": "official-required-subjects-113-b6090",
+      "resolution": "依本條所述身分與課程屬性逐項查核；在ClearGrad尚未支援對應屬性前，不可自動標示已完成。"
+    },
+    {
+      "rule_id": "b6090_curriculum_track_selection",
+      "description": "官方表同時列出多個學籍軌道，各軌道的必修課與學分數不同。",
+      "reason": "未知學生所屬組別時，同時套用A、B組會虛增必修要求。",
+      "source_document": "official-required-subjects-113-b6090",
+      "resolution": "先由學生選擇或從學籍取得組別，只套用對應軌道的course_group。"
+    }
+  ],
+  "additional_credit_rules": [
+    {
+      "rule_id": "b6090_foreign_secondary_grade2_equivalent",
+      "admission_statuses": [
+        "國外或香港澳門地區同級同類學校畢業年級相當於國內高級中等學校二年級，並以同等學力入學"
+      ],
+      "additional_credits": 12,
+      "source_document": "official-required-subjects-113-b6090",
+      "notes": [
+        "官方修課規定明載在原訂畢業應修學分之外增加12學分。"
+      ]
+    }
+  ]
+}

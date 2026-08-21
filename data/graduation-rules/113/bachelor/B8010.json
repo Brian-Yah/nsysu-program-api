@@ -1,0 +1,1481 @@
+{
+  "schema_version": "1.0",
+  "rule_set_id": "nsysu-113-bachelor-B8010",
+  "rule_type": "department",
+  "entry_year": "113",
+  "degree_level": "bachelor",
+  "department_code": "B8010",
+  "department_name_zh": "學士後醫學系",
+  "department_name_en": null,
+  "common_rule_ref": "../../common/113-plus.json",
+  "review_status": "manual_review_required",
+  "reviewed_at": "2026-08-21",
+  "coverage": "partial",
+  "credit_requirements": {
+    "minimum_graduation_credits": 174,
+    "minimum_required_credits": null,
+    "minimum_elective_credits": 4.0,
+    "minimum_department_elective_credits": 2.0,
+    "minimum_department_professional_credits": null
+  },
+  "sources": [
+    {
+      "source_id": "official-required-subjects-113-b8010",
+      "title": "國立中山大學必修科目表（113學年度入學新生適用）－學士後醫學系",
+      "url": "https://selcrs.nsysu.edu.tw/stu_query/crs_mst_qry/crs_mst_query.asp?action=3&YY1=113&DPT1=B8010",
+      "document_type": "html",
+      "reviewed_at": "2026-08-21",
+      "sha256": "2f046208e8375cae349f6c3aa67b9dba4680a17cf32066abaca6c286dfaf0cf6"
+    }
+  ],
+  "courses": [
+    {
+      "course_id": "b8010_da01ab9623b7",
+      "canonical_name_zh": "習醫之道",
+      "canonical_name_en": null,
+      "known_aliases": [],
+      "credits": 0.5,
+      "curriculumRequirement": "department_core",
+      "recommendedYear": 1,
+      "recommendedSemester": "fall",
+      "source_document": "official-required-subjects-113-b8010",
+      "notes": [
+        "官方必修科目表未提供英文課名，故不自行翻譯。"
+      ],
+      "alternatives": [],
+      "manual_review_required": false
+    },
+    {
+      "course_id": "b8010_cdc324173e37",
+      "canonical_name_zh": "生物化學",
+      "canonical_name_en": null,
+      "known_aliases": [],
+      "credits": 2.0,
+      "curriculumRequirement": "department_core",
+      "recommendedYear": 1,
+      "recommendedSemester": "fall",
+      "source_document": "official-required-subjects-113-b8010",
+      "notes": [
+        "官方必修科目表未提供英文課名，故不自行翻譯。"
+      ],
+      "alternatives": [],
+      "manual_review_required": false
+    },
+    {
+      "course_id": "b8010_0080f5a1033d",
+      "canonical_name_zh": "大體解剖學",
+      "canonical_name_en": null,
+      "known_aliases": [],
+      "credits": 4.0,
+      "curriculumRequirement": "department_core",
+      "recommendedYear": 1,
+      "recommendedSemester": "fall",
+      "source_document": "official-required-subjects-113-b8010",
+      "notes": [
+        "官方必修科目表未提供英文課名，故不自行翻譯。"
+      ],
+      "alternatives": [],
+      "manual_review_required": false
+    },
+    {
+      "course_id": "b8010_d31cd333c453",
+      "canonical_name_zh": "大體解剖學實驗",
+      "canonical_name_en": null,
+      "known_aliases": [],
+      "credits": 3.0,
+      "curriculumRequirement": "department_core",
+      "recommendedYear": 1,
+      "recommendedSemester": "fall",
+      "source_document": "official-required-subjects-113-b8010",
+      "notes": [
+        "官方必修科目表未提供英文課名，故不自行翻譯。"
+      ],
+      "alternatives": [],
+      "manual_review_required": false
+    },
+    {
+      "course_id": "b8010_e60f839bb414",
+      "canonical_name_zh": "醫學生理學導論",
+      "canonical_name_en": null,
+      "known_aliases": [],
+      "credits": 1.0,
+      "curriculumRequirement": "department_core",
+      "recommendedYear": 1,
+      "recommendedSemester": "fall",
+      "source_document": "official-required-subjects-113-b8010",
+      "notes": [
+        "官方必修科目表未提供英文課名，故不自行翻譯。"
+      ],
+      "alternatives": [],
+      "manual_review_required": false
+    },
+    {
+      "course_id": "b8010_f03cf9e44295",
+      "canonical_name_zh": "藥理學導論",
+      "canonical_name_en": null,
+      "known_aliases": [],
+      "credits": 1.0,
+      "curriculumRequirement": "department_core",
+      "recommendedYear": 1,
+      "recommendedSemester": "fall",
+      "source_document": "official-required-subjects-113-b8010",
+      "notes": [
+        "官方必修科目表未提供英文課名，故不自行翻譯。"
+      ],
+      "alternatives": [],
+      "manual_review_required": false
+    },
+    {
+      "course_id": "b8010_5ab079b7ebc5",
+      "canonical_name_zh": "組織病理學導論",
+      "canonical_name_en": null,
+      "known_aliases": [],
+      "credits": 1.0,
+      "curriculumRequirement": "department_core",
+      "recommendedYear": 1,
+      "recommendedSemester": "fall",
+      "source_document": "official-required-subjects-113-b8010",
+      "notes": [
+        "官方必修科目表未提供英文課名，故不自行翻譯。"
+      ],
+      "alternatives": [],
+      "manual_review_required": false
+    },
+    {
+      "course_id": "b8010_d0414a3c7000",
+      "canonical_name_zh": "醫學寄生蟲學",
+      "canonical_name_en": null,
+      "known_aliases": [],
+      "credits": 1.0,
+      "curriculumRequirement": "department_core",
+      "recommendedYear": 1,
+      "recommendedSemester": "fall",
+      "source_document": "official-required-subjects-113-b8010",
+      "notes": [
+        "官方必修科目表未提供英文課名，故不自行翻譯。"
+      ],
+      "alternatives": [],
+      "manual_review_required": false
+    },
+    {
+      "course_id": "b8010_b7333584013b",
+      "canonical_name_zh": "醫學影像學原理",
+      "canonical_name_en": null,
+      "known_aliases": [],
+      "credits": 0.5,
+      "curriculumRequirement": "department_core",
+      "recommendedYear": 1,
+      "recommendedSemester": "fall",
+      "source_document": "official-required-subjects-113-b8010",
+      "notes": [
+        "官方必修科目表未提供英文課名，故不自行翻譯。"
+      ],
+      "alternatives": [],
+      "manual_review_required": false
+    },
+    {
+      "course_id": "b8010_e52983c0fd99",
+      "canonical_name_zh": "人類免疫學導論",
+      "canonical_name_en": null,
+      "known_aliases": [],
+      "credits": 1.0,
+      "curriculumRequirement": "department_core",
+      "recommendedYear": 1,
+      "recommendedSemester": "fall",
+      "source_document": "official-required-subjects-113-b8010",
+      "notes": [
+        "官方必修科目表未提供英文課名，故不自行翻譯。"
+      ],
+      "alternatives": [],
+      "manual_review_required": false
+    },
+    {
+      "course_id": "b8010_c57c758dc0d6",
+      "canonical_name_zh": "醫用微生物學導論",
+      "canonical_name_en": null,
+      "known_aliases": [],
+      "credits": 2.0,
+      "curriculumRequirement": "department_core",
+      "recommendedYear": 1,
+      "recommendedSemester": "fall",
+      "source_document": "official-required-subjects-113-b8010",
+      "notes": [
+        "官方必修科目表未提供英文課名，故不自行翻譯。"
+      ],
+      "alternatives": [],
+      "manual_review_required": false
+    },
+    {
+      "course_id": "b8010_b021190f6c2d",
+      "canonical_name_zh": "宿主感染、免疫與血液基礎醫學",
+      "canonical_name_en": null,
+      "known_aliases": [],
+      "credits": 1.5,
+      "curriculumRequirement": "department_core",
+      "recommendedYear": 1,
+      "recommendedSemester": "fall",
+      "source_document": "official-required-subjects-113-b8010",
+      "notes": [
+        "官方必修科目表未提供英文課名，故不自行翻譯。"
+      ],
+      "alternatives": [],
+      "manual_review_required": false
+    },
+    {
+      "course_id": "b8010_23e254fee269",
+      "canonical_name_zh": "宿主感染、免疫與血液臨床醫學",
+      "canonical_name_en": null,
+      "known_aliases": [],
+      "credits": 2.0,
+      "curriculumRequirement": "department_core",
+      "recommendedYear": 1,
+      "recommendedSemester": "fall",
+      "source_document": "official-required-subjects-113-b8010",
+      "notes": [
+        "官方必修科目表未提供英文課名，故不自行翻譯。"
+      ],
+      "alternatives": [],
+      "manual_review_required": false
+    },
+    {
+      "course_id": "b8010_a64923c6921c",
+      "canonical_name_zh": "醫學心理學",
+      "canonical_name_en": null,
+      "known_aliases": [],
+      "credits": 1.0,
+      "curriculumRequirement": "department_core",
+      "recommendedYear": 1,
+      "recommendedSemester": "fall",
+      "source_document": "official-required-subjects-113-b8010",
+      "notes": [
+        "官方必修科目表未提供英文課名，故不自行翻譯。"
+      ],
+      "alternatives": [],
+      "manual_review_required": false
+    },
+    {
+      "course_id": "b8010_b75c53178fb2",
+      "canonical_name_zh": "人文藝術與生命哲學(一)",
+      "canonical_name_en": null,
+      "known_aliases": [],
+      "credits": 1.0,
+      "curriculumRequirement": "department_core",
+      "recommendedYear": 1,
+      "recommendedSemester": "fall",
+      "source_document": "official-required-subjects-113-b8010",
+      "notes": [
+        "官方必修科目表未提供英文課名，故不自行翻譯。"
+      ],
+      "alternatives": [],
+      "manual_review_required": false
+    },
+    {
+      "course_id": "b8010_257e261b10c2",
+      "canonical_name_zh": "溝通與專業素養(一)",
+      "canonical_name_en": null,
+      "known_aliases": [],
+      "credits": 0.5,
+      "curriculumRequirement": "department_core",
+      "recommendedYear": 1,
+      "recommendedSemester": "fall",
+      "source_document": "official-required-subjects-113-b8010",
+      "notes": [
+        "官方必修科目表未提供英文課名，故不自行翻譯。"
+      ],
+      "alternatives": [],
+      "manual_review_required": false
+    },
+    {
+      "course_id": "b8010_030151d43702",
+      "canonical_name_zh": "臨床技能(一)",
+      "canonical_name_en": null,
+      "known_aliases": [],
+      "credits": null,
+      "curriculumRequirement": "department_core",
+      "recommendedYear": 1,
+      "recommendedSemester": "either",
+      "source_document": "official-required-subjects-113-b8010",
+      "notes": [
+        "官方必修科目表未提供英文課名，故不自行翻譯。",
+        "官方同一列有多個學期／學分配置（1年fall=0.5、1年spring=0.5），不得合併猜測單科學分。"
+      ],
+      "alternatives": [],
+      "manual_review_required": true
+    },
+    {
+      "course_id": "b8010_7f3072ccac67",
+      "canonical_name_zh": "肌肉骨骼皮膚系統基礎醫學",
+      "canonical_name_en": null,
+      "known_aliases": [],
+      "credits": 3.0,
+      "curriculumRequirement": "department_core",
+      "recommendedYear": 1,
+      "recommendedSemester": "spring",
+      "source_document": "official-required-subjects-113-b8010",
+      "notes": [
+        "官方必修科目表未提供英文課名，故不自行翻譯。"
+      ],
+      "alternatives": [],
+      "manual_review_required": false
+    },
+    {
+      "course_id": "b8010_fd29c3079cfb",
+      "canonical_name_zh": "肌肉骨骼皮膚系統臨床醫學",
+      "canonical_name_en": null,
+      "known_aliases": [],
+      "credits": 2.0,
+      "curriculumRequirement": "department_core",
+      "recommendedYear": 1,
+      "recommendedSemester": "spring",
+      "source_document": "official-required-subjects-113-b8010",
+      "notes": [
+        "官方必修科目表未提供英文課名，故不自行翻譯。"
+      ],
+      "alternatives": [],
+      "manual_review_required": false
+    },
+    {
+      "course_id": "b8010_3bcf9ff872d6",
+      "canonical_name_zh": "神經系統基礎醫學",
+      "canonical_name_en": null,
+      "known_aliases": [],
+      "credits": 2.0,
+      "curriculumRequirement": "department_core",
+      "recommendedYear": 1,
+      "recommendedSemester": "spring",
+      "source_document": "official-required-subjects-113-b8010",
+      "notes": [
+        "官方必修科目表未提供英文課名，故不自行翻譯。"
+      ],
+      "alternatives": [],
+      "manual_review_required": false
+    },
+    {
+      "course_id": "b8010_ae6f50eda748",
+      "canonical_name_zh": "神經系統臨床醫學",
+      "canonical_name_en": null,
+      "known_aliases": [],
+      "credits": 2.0,
+      "curriculumRequirement": "department_core",
+      "recommendedYear": 1,
+      "recommendedSemester": "spring",
+      "source_document": "official-required-subjects-113-b8010",
+      "notes": [
+        "官方必修科目表未提供英文課名，故不自行翻譯。"
+      ],
+      "alternatives": [],
+      "manual_review_required": false
+    },
+    {
+      "course_id": "b8010_f04f55762ce3",
+      "canonical_name_zh": "特殊感官系統基礎醫學",
+      "canonical_name_en": null,
+      "known_aliases": [],
+      "credits": 1.0,
+      "curriculumRequirement": "department_core",
+      "recommendedYear": 1,
+      "recommendedSemester": "spring",
+      "source_document": "official-required-subjects-113-b8010",
+      "notes": [
+        "官方必修科目表未提供英文課名，故不自行翻譯。"
+      ],
+      "alternatives": [],
+      "manual_review_required": false
+    },
+    {
+      "course_id": "b8010_e15e0e26418e",
+      "canonical_name_zh": "特殊感官系統臨床醫學",
+      "canonical_name_en": null,
+      "known_aliases": [],
+      "credits": 1.0,
+      "curriculumRequirement": "department_core",
+      "recommendedYear": 1,
+      "recommendedSemester": "spring",
+      "source_document": "official-required-subjects-113-b8010",
+      "notes": [
+        "官方必修科目表未提供英文課名，故不自行翻譯。"
+      ],
+      "alternatives": [],
+      "manual_review_required": false
+    },
+    {
+      "course_id": "b8010_50932ea7ad65",
+      "canonical_name_zh": "精神與心理",
+      "canonical_name_en": null,
+      "known_aliases": [],
+      "credits": 1.5,
+      "curriculumRequirement": "department_core",
+      "recommendedYear": 1,
+      "recommendedSemester": "spring",
+      "source_document": "official-required-subjects-113-b8010",
+      "notes": [
+        "官方必修科目表未提供英文課名，故不自行翻譯。"
+      ],
+      "alternatives": [],
+      "manual_review_required": false
+    },
+    {
+      "course_id": "b8010_3bca3a89a3f1",
+      "canonical_name_zh": "溝通與專業素養(二)",
+      "canonical_name_en": null,
+      "known_aliases": [],
+      "credits": 0.5,
+      "curriculumRequirement": "department_core",
+      "recommendedYear": 1,
+      "recommendedSemester": "spring",
+      "source_document": "official-required-subjects-113-b8010",
+      "notes": [
+        "官方必修科目表未提供英文課名，故不自行翻譯。"
+      ],
+      "alternatives": [],
+      "manual_review_required": false
+    },
+    {
+      "course_id": "b8010_391243741a8f",
+      "canonical_name_zh": "偏鄉服務學習",
+      "canonical_name_en": null,
+      "known_aliases": [],
+      "credits": null,
+      "curriculumRequirement": "department_core",
+      "recommendedYear": 1,
+      "recommendedSemester": "spring",
+      "source_document": "official-required-subjects-113-b8010",
+      "notes": [
+        "官方必修科目表未提供英文課名，故不自行翻譯。",
+        "官方表列為0學分畢業條件，credits保留null。"
+      ],
+      "alternatives": [],
+      "manual_review_required": true
+    },
+    {
+      "course_id": "b8010_b841b2414db7",
+      "canonical_name_zh": "公共衛生與流行病學",
+      "canonical_name_en": null,
+      "known_aliases": [],
+      "credits": 2.0,
+      "curriculumRequirement": "department_core",
+      "recommendedYear": 1,
+      "recommendedSemester": "spring",
+      "source_document": "official-required-subjects-113-b8010",
+      "notes": [
+        "官方必修科目表未提供英文課名，故不自行翻譯。"
+      ],
+      "alternatives": [],
+      "manual_review_required": false
+    },
+    {
+      "course_id": "b8010_be64e6ffe2c3",
+      "canonical_name_zh": "生物統計",
+      "canonical_name_en": null,
+      "known_aliases": [],
+      "credits": 2.0,
+      "curriculumRequirement": "department_core",
+      "recommendedYear": 1,
+      "recommendedSemester": "spring",
+      "source_document": "official-required-subjects-113-b8010",
+      "notes": [
+        "官方必修科目表未提供英文課名，故不自行翻譯。"
+      ],
+      "alternatives": [],
+      "manual_review_required": false
+    },
+    {
+      "course_id": "b8010_3cba0adbf0bd",
+      "canonical_name_zh": "人文藝術與生命哲學(二)",
+      "canonical_name_en": null,
+      "known_aliases": [],
+      "credits": 1.0,
+      "curriculumRequirement": "department_core",
+      "recommendedYear": 1,
+      "recommendedSemester": "spring",
+      "source_document": "official-required-subjects-113-b8010",
+      "notes": [
+        "官方必修科目表未提供英文課名，故不自行翻譯。"
+      ],
+      "alternatives": [],
+      "manual_review_required": false
+    },
+    {
+      "course_id": "b8010_0e68ad2c9e25",
+      "canonical_name_zh": "創新科技與健康照護",
+      "canonical_name_en": null,
+      "known_aliases": [],
+      "credits": 2.0,
+      "curriculumRequirement": "department_core",
+      "recommendedYear": 1,
+      "recommendedSemester": "spring",
+      "source_document": "official-required-subjects-113-b8010",
+      "notes": [
+        "官方必修科目表未提供英文課名，故不自行翻譯。"
+      ],
+      "alternatives": [],
+      "manual_review_required": false
+    },
+    {
+      "course_id": "b8010_a86c60961975",
+      "canonical_name_zh": "生命教育",
+      "canonical_name_en": null,
+      "known_aliases": [],
+      "credits": 1.0,
+      "curriculumRequirement": "department_core",
+      "recommendedYear": 1,
+      "recommendedSemester": "spring",
+      "source_document": "official-required-subjects-113-b8010",
+      "notes": [
+        "官方必修科目表未提供英文課名，故不自行翻譯。"
+      ],
+      "alternatives": [],
+      "manual_review_required": false
+    },
+    {
+      "course_id": "b8010_a8b1255d78e0",
+      "canonical_name_zh": "臨床技能(二)",
+      "canonical_name_en": null,
+      "known_aliases": [],
+      "credits": 1.0,
+      "curriculumRequirement": "department_core",
+      "recommendedYear": 2,
+      "recommendedSemester": "fall",
+      "source_document": "official-required-subjects-113-b8010",
+      "notes": [
+        "官方必修科目表未提供英文課名，故不自行翻譯。"
+      ],
+      "alternatives": [],
+      "manual_review_required": false
+    },
+    {
+      "course_id": "b8010_b87c8d1be286",
+      "canonical_name_zh": "溝通與專業素養(三)",
+      "canonical_name_en": null,
+      "known_aliases": [],
+      "credits": 1.0,
+      "curriculumRequirement": "department_core",
+      "recommendedYear": 2,
+      "recommendedSemester": "fall",
+      "source_document": "official-required-subjects-113-b8010",
+      "notes": [
+        "官方必修科目表未提供英文課名，故不自行翻譯。"
+      ],
+      "alternatives": [],
+      "manual_review_required": false
+    },
+    {
+      "course_id": "b8010_7793422eaa37",
+      "canonical_name_zh": "照護科技跨域專題(一)",
+      "canonical_name_en": null,
+      "known_aliases": [],
+      "credits": 1.0,
+      "curriculumRequirement": "department_core",
+      "recommendedYear": 2,
+      "recommendedSemester": "fall",
+      "source_document": "official-required-subjects-113-b8010",
+      "notes": [
+        "官方必修科目表未提供英文課名，故不自行翻譯。"
+      ],
+      "alternatives": [],
+      "manual_review_required": false
+    },
+    {
+      "course_id": "b8010_ea4e0da39edc",
+      "canonical_name_zh": "心臟血管基礎醫學",
+      "canonical_name_en": null,
+      "known_aliases": [],
+      "credits": 3.0,
+      "curriculumRequirement": "department_core",
+      "recommendedYear": 2,
+      "recommendedSemester": "fall",
+      "source_document": "official-required-subjects-113-b8010",
+      "notes": [
+        "官方必修科目表未提供英文課名，故不自行翻譯。"
+      ],
+      "alternatives": [],
+      "manual_review_required": false
+    },
+    {
+      "course_id": "b8010_7f9a63405856",
+      "canonical_name_zh": "心臟血管臨床醫學",
+      "canonical_name_en": null,
+      "known_aliases": [],
+      "credits": 2.0,
+      "curriculumRequirement": "department_core",
+      "recommendedYear": 2,
+      "recommendedSemester": "fall",
+      "source_document": "official-required-subjects-113-b8010",
+      "notes": [
+        "官方必修科目表未提供英文課名，故不自行翻譯。"
+      ],
+      "alternatives": [],
+      "manual_review_required": false
+    },
+    {
+      "course_id": "b8010_003b9d0c6042",
+      "canonical_name_zh": "呼吸系統基礎醫學",
+      "canonical_name_en": null,
+      "known_aliases": [],
+      "credits": 2.0,
+      "curriculumRequirement": "department_core",
+      "recommendedYear": 2,
+      "recommendedSemester": "fall",
+      "source_document": "official-required-subjects-113-b8010",
+      "notes": [
+        "官方必修科目表未提供英文課名，故不自行翻譯。"
+      ],
+      "alternatives": [],
+      "manual_review_required": false
+    },
+    {
+      "course_id": "b8010_b7c46e54e063",
+      "canonical_name_zh": "呼吸系統臨床醫學",
+      "canonical_name_en": null,
+      "known_aliases": [],
+      "credits": 2.0,
+      "curriculumRequirement": "department_core",
+      "recommendedYear": 2,
+      "recommendedSemester": "fall",
+      "source_document": "official-required-subjects-113-b8010",
+      "notes": [
+        "官方必修科目表未提供英文課名，故不自行翻譯。"
+      ],
+      "alternatives": [],
+      "manual_review_required": false
+    },
+    {
+      "course_id": "b8010_0b15c7d0aa81",
+      "canonical_name_zh": "消化系統基礎醫學",
+      "canonical_name_en": null,
+      "known_aliases": [],
+      "credits": 2.0,
+      "curriculumRequirement": "department_core",
+      "recommendedYear": 2,
+      "recommendedSemester": "fall",
+      "source_document": "official-required-subjects-113-b8010",
+      "notes": [
+        "官方必修科目表未提供英文課名，故不自行翻譯。"
+      ],
+      "alternatives": [],
+      "manual_review_required": false
+    },
+    {
+      "course_id": "b8010_bd1cc63e4b62",
+      "canonical_name_zh": "消化系統臨床醫學",
+      "canonical_name_en": null,
+      "known_aliases": [],
+      "credits": 2.0,
+      "curriculumRequirement": "department_core",
+      "recommendedYear": 2,
+      "recommendedSemester": "fall",
+      "source_document": "official-required-subjects-113-b8010",
+      "notes": [
+        "官方必修科目表未提供英文課名，故不自行翻譯。"
+      ],
+      "alternatives": [],
+      "manual_review_required": false
+    },
+    {
+      "course_id": "b8010_e273c7e77d21",
+      "canonical_name_zh": "腎臟與泌尿系統基礎醫學",
+      "canonical_name_en": null,
+      "known_aliases": [],
+      "credits": 2.0,
+      "curriculumRequirement": "department_core",
+      "recommendedYear": 2,
+      "recommendedSemester": "fall",
+      "source_document": "official-required-subjects-113-b8010",
+      "notes": [
+        "官方必修科目表未提供英文課名，故不自行翻譯。"
+      ],
+      "alternatives": [],
+      "manual_review_required": false
+    },
+    {
+      "course_id": "b8010_2d1b644e2fec",
+      "canonical_name_zh": "腎臟與泌尿系統臨床醫學",
+      "canonical_name_en": null,
+      "known_aliases": [],
+      "credits": 2.0,
+      "curriculumRequirement": "department_core",
+      "recommendedYear": 2,
+      "recommendedSemester": "fall",
+      "source_document": "official-required-subjects-113-b8010",
+      "notes": [
+        "官方必修科目表未提供英文課名，故不自行翻譯。"
+      ],
+      "alternatives": [],
+      "manual_review_required": false
+    },
+    {
+      "course_id": "b8010_1fd880665ea9",
+      "canonical_name_zh": "腫瘤學",
+      "canonical_name_en": null,
+      "known_aliases": [],
+      "credits": 1.0,
+      "curriculumRequirement": "department_core",
+      "recommendedYear": 2,
+      "recommendedSemester": "fall",
+      "source_document": "official-required-subjects-113-b8010",
+      "notes": [
+        "官方必修科目表未提供英文課名，故不自行翻譯。"
+      ],
+      "alternatives": [],
+      "manual_review_required": false
+    },
+    {
+      "course_id": "b8010_aeb6611d1639",
+      "canonical_name_zh": "實證醫學",
+      "canonical_name_en": null,
+      "known_aliases": [],
+      "credits": 1.0,
+      "curriculumRequirement": "department_core",
+      "recommendedYear": 2,
+      "recommendedSemester": "fall",
+      "source_document": "official-required-subjects-113-b8010",
+      "notes": [
+        "官方必修科目表未提供英文課名，故不自行翻譯。"
+      ],
+      "alternatives": [],
+      "manual_review_required": false
+    },
+    {
+      "course_id": "b8010_fa96f2f728e6",
+      "canonical_name_zh": "臨床技能(三)",
+      "canonical_name_en": null,
+      "known_aliases": [],
+      "credits": 1.0,
+      "curriculumRequirement": "department_core",
+      "recommendedYear": 2,
+      "recommendedSemester": "spring",
+      "source_document": "official-required-subjects-113-b8010",
+      "notes": [
+        "官方必修科目表未提供英文課名，故不自行翻譯。"
+      ],
+      "alternatives": [],
+      "manual_review_required": false
+    },
+    {
+      "course_id": "b8010_a77680858c93",
+      "canonical_name_zh": "溝通與專業素養(四)",
+      "canonical_name_en": null,
+      "known_aliases": [],
+      "credits": 1.0,
+      "curriculumRequirement": "department_core",
+      "recommendedYear": 2,
+      "recommendedSemester": "spring",
+      "source_document": "official-required-subjects-113-b8010",
+      "notes": [
+        "官方必修科目表未提供英文課名，故不自行翻譯。"
+      ],
+      "alternatives": [],
+      "manual_review_required": false
+    },
+    {
+      "course_id": "b8010_cb1ccc9cbc68",
+      "canonical_name_zh": "照護科技跨域專題(二)",
+      "canonical_name_en": null,
+      "known_aliases": [],
+      "credits": 1.0,
+      "curriculumRequirement": "department_core",
+      "recommendedYear": 2,
+      "recommendedSemester": "spring",
+      "source_document": "official-required-subjects-113-b8010",
+      "notes": [
+        "官方必修科目表未提供英文課名，故不自行翻譯。"
+      ],
+      "alternatives": [],
+      "manual_review_required": false
+    },
+    {
+      "course_id": "b8010_6a8b6fab2132",
+      "canonical_name_zh": "新陳代謝與內分泌基礎醫學",
+      "canonical_name_en": null,
+      "known_aliases": [],
+      "credits": 2.0,
+      "curriculumRequirement": "department_core",
+      "recommendedYear": 2,
+      "recommendedSemester": "spring",
+      "source_document": "official-required-subjects-113-b8010",
+      "notes": [
+        "官方必修科目表未提供英文課名，故不自行翻譯。"
+      ],
+      "alternatives": [],
+      "manual_review_required": false
+    },
+    {
+      "course_id": "b8010_17009221c64c",
+      "canonical_name_zh": "新陳代謝與內分泌臨床醫學",
+      "canonical_name_en": null,
+      "known_aliases": [],
+      "credits": 2.0,
+      "curriculumRequirement": "department_core",
+      "recommendedYear": 2,
+      "recommendedSemester": "spring",
+      "source_document": "official-required-subjects-113-b8010",
+      "notes": [
+        "官方必修科目表未提供英文課名，故不自行翻譯。"
+      ],
+      "alternatives": [],
+      "manual_review_required": false
+    },
+    {
+      "course_id": "b8010_68c5a28d6bfe",
+      "canonical_name_zh": "生殖與遺傳基礎醫學",
+      "canonical_name_en": null,
+      "known_aliases": [],
+      "credits": 2.0,
+      "curriculumRequirement": "department_core",
+      "recommendedYear": 2,
+      "recommendedSemester": "spring",
+      "source_document": "official-required-subjects-113-b8010",
+      "notes": [
+        "官方必修科目表未提供英文課名，故不自行翻譯。"
+      ],
+      "alternatives": [],
+      "manual_review_required": false
+    },
+    {
+      "course_id": "b8010_073608a8018e",
+      "canonical_name_zh": "生殖與遺傳臨床醫學",
+      "canonical_name_en": null,
+      "known_aliases": [],
+      "credits": 2.0,
+      "curriculumRequirement": "department_core",
+      "recommendedYear": 2,
+      "recommendedSemester": "spring",
+      "source_document": "official-required-subjects-113-b8010",
+      "notes": [
+        "官方必修科目表未提供英文課名，故不自行翻譯。"
+      ],
+      "alternatives": [],
+      "manual_review_required": false
+    },
+    {
+      "course_id": "b8010_7e1c08155f78",
+      "canonical_name_zh": "成長與兒童醫學基礎醫學",
+      "canonical_name_en": null,
+      "known_aliases": [],
+      "credits": 2.0,
+      "curriculumRequirement": "department_core",
+      "recommendedYear": 2,
+      "recommendedSemester": "spring",
+      "source_document": "official-required-subjects-113-b8010",
+      "notes": [
+        "官方必修科目表未提供英文課名，故不自行翻譯。"
+      ],
+      "alternatives": [],
+      "manual_review_required": false
+    },
+    {
+      "course_id": "b8010_815b780fe05e",
+      "canonical_name_zh": "成長與兒童醫學臨床醫學",
+      "canonical_name_en": null,
+      "known_aliases": [],
+      "credits": 2.0,
+      "curriculumRequirement": "department_core",
+      "recommendedYear": 2,
+      "recommendedSemester": "spring",
+      "source_document": "official-required-subjects-113-b8010",
+      "notes": [
+        "官方必修科目表未提供英文課名，故不自行翻譯。"
+      ],
+      "alternatives": [],
+      "manual_review_required": false
+    },
+    {
+      "course_id": "b8010_ce75ec65aaf4",
+      "canonical_name_zh": "老化與高齡醫學基礎醫學",
+      "canonical_name_en": null,
+      "known_aliases": [],
+      "credits": 2.0,
+      "curriculumRequirement": "department_core",
+      "recommendedYear": 2,
+      "recommendedSemester": "spring",
+      "source_document": "official-required-subjects-113-b8010",
+      "notes": [
+        "官方必修科目表未提供英文課名，故不自行翻譯。"
+      ],
+      "alternatives": [],
+      "manual_review_required": false
+    },
+    {
+      "course_id": "b8010_1808571ae922",
+      "canonical_name_zh": "老化與高齡醫學臨床醫學",
+      "canonical_name_en": null,
+      "known_aliases": [],
+      "credits": 2.0,
+      "curriculumRequirement": "department_core",
+      "recommendedYear": 2,
+      "recommendedSemester": "spring",
+      "source_document": "official-required-subjects-113-b8010",
+      "notes": [
+        "官方必修科目表未提供英文課名，故不自行翻譯。"
+      ],
+      "alternatives": [],
+      "manual_review_required": false
+    },
+    {
+      "course_id": "b8010_17f4bcbdb41b",
+      "canonical_name_zh": "家庭、社區、預防與偏鄉醫療實務",
+      "canonical_name_en": null,
+      "known_aliases": [],
+      "credits": 2.0,
+      "curriculumRequirement": "department_core",
+      "recommendedYear": 2,
+      "recommendedSemester": "spring",
+      "source_document": "official-required-subjects-113-b8010",
+      "notes": [
+        "官方必修科目表未提供英文課名，故不自行翻譯。"
+      ],
+      "alternatives": [],
+      "manual_review_required": false
+    },
+    {
+      "course_id": "b8010_4de7f92d98d4",
+      "canonical_name_zh": "急重症醫學",
+      "canonical_name_en": null,
+      "known_aliases": [],
+      "credits": 1.0,
+      "curriculumRequirement": "department_core",
+      "recommendedYear": 3,
+      "recommendedSemester": "fall",
+      "source_document": "official-required-subjects-113-b8010",
+      "notes": [
+        "官方必修科目表未提供英文課名，故不自行翻譯。"
+      ],
+      "alternatives": [],
+      "manual_review_required": false
+    },
+    {
+      "course_id": "b8010_ebdfa2ab3082",
+      "canonical_name_zh": "醫療政策與法律",
+      "canonical_name_en": null,
+      "known_aliases": [],
+      "credits": 1.0,
+      "curriculumRequirement": "department_core",
+      "recommendedYear": 3,
+      "recommendedSemester": "fall",
+      "source_document": "official-required-subjects-113-b8010",
+      "notes": [
+        "官方必修科目表未提供英文課名，故不自行翻譯。"
+      ],
+      "alternatives": [],
+      "manual_review_required": false
+    },
+    {
+      "course_id": "b8010_5d3659f40357",
+      "canonical_name_zh": "臨床營養學",
+      "canonical_name_en": null,
+      "known_aliases": [],
+      "credits": 1.0,
+      "curriculumRequirement": "department_core",
+      "recommendedYear": 3,
+      "recommendedSemester": "fall",
+      "source_document": "official-required-subjects-113-b8010",
+      "notes": [
+        "官方必修科目表未提供英文課名，故不自行翻譯。"
+      ],
+      "alternatives": [],
+      "manual_review_required": false
+    },
+    {
+      "course_id": "b8010_90ded76c4b7d",
+      "canonical_name_zh": "麻醉學",
+      "canonical_name_en": null,
+      "known_aliases": [],
+      "credits": 1.0,
+      "curriculumRequirement": "department_core",
+      "recommendedYear": 3,
+      "recommendedSemester": "fall",
+      "source_document": "official-required-subjects-113-b8010",
+      "notes": [
+        "官方必修科目表未提供英文課名，故不自行翻譯。"
+      ],
+      "alternatives": [],
+      "manual_review_required": false
+    },
+    {
+      "course_id": "b8010_2cd9c8062588",
+      "canonical_name_zh": "醫學倫理",
+      "canonical_name_en": null,
+      "known_aliases": [],
+      "credits": 1.0,
+      "curriculumRequirement": "department_core",
+      "recommendedYear": 3,
+      "recommendedSemester": "fall",
+      "source_document": "official-required-subjects-113-b8010",
+      "notes": [
+        "官方必修科目表未提供英文課名，故不自行翻譯。"
+      ],
+      "alternatives": [],
+      "manual_review_required": false
+    },
+    {
+      "course_id": "b8010_c286dc0fcb90",
+      "canonical_name_zh": "內科學實習(一)",
+      "canonical_name_en": null,
+      "known_aliases": [],
+      "credits": 6.0,
+      "curriculumRequirement": "department_core",
+      "recommendedYear": 3,
+      "recommendedSemester": "fall",
+      "source_document": "official-required-subjects-113-b8010",
+      "notes": [
+        "官方必修科目表未提供英文課名，故不自行翻譯。"
+      ],
+      "alternatives": [],
+      "manual_review_required": false
+    },
+    {
+      "course_id": "b8010_3eff498481ef",
+      "canonical_name_zh": "外科學實習(一)",
+      "canonical_name_en": null,
+      "known_aliases": [],
+      "credits": 6.0,
+      "curriculumRequirement": "department_core",
+      "recommendedYear": 3,
+      "recommendedSemester": "fall",
+      "source_document": "official-required-subjects-113-b8010",
+      "notes": [
+        "官方必修科目表未提供英文課名，故不自行翻譯。"
+      ],
+      "alternatives": [],
+      "manual_review_required": false
+    },
+    {
+      "course_id": "b8010_a79acc475e5a",
+      "canonical_name_zh": "婦產科學實習(一)",
+      "canonical_name_en": null,
+      "known_aliases": [],
+      "credits": 4.0,
+      "curriculumRequirement": "department_core",
+      "recommendedYear": 3,
+      "recommendedSemester": "fall",
+      "source_document": "official-required-subjects-113-b8010",
+      "notes": [
+        "官方必修科目表未提供英文課名，故不自行翻譯。"
+      ],
+      "alternatives": [],
+      "manual_review_required": false
+    },
+    {
+      "course_id": "b8010_8dcefab72ffd",
+      "canonical_name_zh": "兒科學實習(一)",
+      "canonical_name_en": null,
+      "known_aliases": [],
+      "credits": 4.0,
+      "curriculumRequirement": "department_core",
+      "recommendedYear": 3,
+      "recommendedSemester": "fall",
+      "source_document": "official-required-subjects-113-b8010",
+      "notes": [
+        "官方必修科目表未提供英文課名，故不自行翻譯。"
+      ],
+      "alternatives": [],
+      "manual_review_required": false
+    },
+    {
+      "course_id": "b8010_d01c64cbaea5",
+      "canonical_name_zh": "臨床實習選修(一)",
+      "canonical_name_en": null,
+      "known_aliases": [],
+      "credits": 6.0,
+      "curriculumRequirement": "department_core",
+      "recommendedYear": 3,
+      "recommendedSemester": "spring",
+      "source_document": "official-required-subjects-113-b8010",
+      "notes": [
+        "官方必修科目表未提供英文課名，故不自行翻譯。"
+      ],
+      "alternatives": [],
+      "manual_review_required": false
+    },
+    {
+      "course_id": "b8010_d48c36f678ef",
+      "canonical_name_zh": "影像醫學科實習",
+      "canonical_name_en": null,
+      "known_aliases": [],
+      "credits": 2.0,
+      "curriculumRequirement": "department_core",
+      "recommendedYear": 3,
+      "recommendedSemester": "spring",
+      "source_document": "official-required-subjects-113-b8010",
+      "notes": [
+        "官方必修科目表未提供英文課名，故不自行翻譯。"
+      ],
+      "alternatives": [],
+      "manual_review_required": false
+    },
+    {
+      "course_id": "b8010_8c624a2495be",
+      "canonical_name_zh": "神經科學實習",
+      "canonical_name_en": null,
+      "known_aliases": [],
+      "credits": 2.0,
+      "curriculumRequirement": "department_core",
+      "recommendedYear": 3,
+      "recommendedSemester": "spring",
+      "source_document": "official-required-subjects-113-b8010",
+      "notes": [
+        "官方必修科目表未提供英文課名，故不自行翻譯。"
+      ],
+      "alternatives": [],
+      "manual_review_required": false
+    },
+    {
+      "course_id": "b8010_42146921de7f",
+      "canonical_name_zh": "精神科學實習",
+      "canonical_name_en": null,
+      "known_aliases": [],
+      "credits": 2.0,
+      "curriculumRequirement": "department_core",
+      "recommendedYear": 3,
+      "recommendedSemester": "spring",
+      "source_document": "official-required-subjects-113-b8010",
+      "notes": [
+        "官方必修科目表未提供英文課名，故不自行翻譯。"
+      ],
+      "alternatives": [],
+      "manual_review_required": false
+    },
+    {
+      "course_id": "b8010_d4642d36d13c",
+      "canonical_name_zh": "復健科學實習",
+      "canonical_name_en": null,
+      "known_aliases": [],
+      "credits": 2.0,
+      "curriculumRequirement": "department_core",
+      "recommendedYear": 3,
+      "recommendedSemester": "spring",
+      "source_document": "official-required-subjects-113-b8010",
+      "notes": [
+        "官方必修科目表未提供英文課名，故不自行翻譯。"
+      ],
+      "alternatives": [],
+      "manual_review_required": false
+    },
+    {
+      "course_id": "b8010_af856cc83b86",
+      "canonical_name_zh": "家庭醫學實習",
+      "canonical_name_en": null,
+      "known_aliases": [],
+      "credits": 2.0,
+      "curriculumRequirement": "department_core",
+      "recommendedYear": 3,
+      "recommendedSemester": "spring",
+      "source_document": "official-required-subjects-113-b8010",
+      "notes": [
+        "官方必修科目表未提供英文課名，故不自行翻譯。"
+      ],
+      "alternatives": [],
+      "manual_review_required": false
+    },
+    {
+      "course_id": "b8010_cb098930f836",
+      "canonical_name_zh": "臨床技能測驗(一)",
+      "canonical_name_en": null,
+      "known_aliases": [],
+      "credits": null,
+      "curriculumRequirement": "department_core",
+      "recommendedYear": 3,
+      "recommendedSemester": "spring",
+      "source_document": "official-required-subjects-113-b8010",
+      "notes": [
+        "官方必修科目表未提供英文課名，故不自行翻譯。",
+        "官方表列為0學分畢業條件，credits保留null。"
+      ],
+      "alternatives": [],
+      "manual_review_required": true
+    },
+    {
+      "course_id": "b8010_1d694aae0ddd",
+      "canonical_name_zh": "法醫學",
+      "canonical_name_en": null,
+      "known_aliases": [],
+      "credits": 0.5,
+      "curriculumRequirement": "department_core",
+      "recommendedYear": 3,
+      "recommendedSemester": "spring",
+      "source_document": "official-required-subjects-113-b8010",
+      "notes": [
+        "官方必修科目表未提供英文課名，故不自行翻譯。"
+      ],
+      "alternatives": [],
+      "manual_review_required": false
+    },
+    {
+      "course_id": "b8010_c59382d8693c",
+      "canonical_name_zh": "口腔醫學概論",
+      "canonical_name_en": null,
+      "known_aliases": [],
+      "credits": 0.5,
+      "curriculumRequirement": "department_core",
+      "recommendedYear": 3,
+      "recommendedSemester": "spring",
+      "source_document": "official-required-subjects-113-b8010",
+      "notes": [
+        "官方必修科目表未提供英文課名，故不自行翻譯。"
+      ],
+      "alternatives": [],
+      "manual_review_required": false
+    },
+    {
+      "course_id": "b8010_9e2507a328cb",
+      "canonical_name_zh": "溝通與專業素養(五)",
+      "canonical_name_en": null,
+      "known_aliases": [],
+      "credits": 1.0,
+      "curriculumRequirement": "department_core",
+      "recommendedYear": 3,
+      "recommendedSemester": "spring",
+      "source_document": "official-required-subjects-113-b8010",
+      "notes": [
+        "官方必修科目表未提供英文課名，故不自行翻譯。"
+      ],
+      "alternatives": [],
+      "manual_review_required": false
+    },
+    {
+      "course_id": "b8010_3db67f6cb194",
+      "canonical_name_zh": "醫學專題研究",
+      "canonical_name_en": null,
+      "known_aliases": [],
+      "credits": 1.0,
+      "curriculumRequirement": "department_core",
+      "recommendedYear": 4,
+      "recommendedSemester": "fall",
+      "source_document": "official-required-subjects-113-b8010",
+      "notes": [
+        "官方必修科目表未提供英文課名，故不自行翻譯。"
+      ],
+      "alternatives": [],
+      "manual_review_required": false
+    },
+    {
+      "course_id": "b8010_f14ae569b46b",
+      "canonical_name_zh": "內科學實習(二)",
+      "canonical_name_en": null,
+      "known_aliases": [],
+      "credits": 6.0,
+      "curriculumRequirement": "department_core",
+      "recommendedYear": 4,
+      "recommendedSemester": "fall",
+      "source_document": "official-required-subjects-113-b8010",
+      "notes": [
+        "官方必修科目表未提供英文課名，故不自行翻譯。"
+      ],
+      "alternatives": [],
+      "manual_review_required": false
+    },
+    {
+      "course_id": "b8010_87283c1360b3",
+      "canonical_name_zh": "外科學實習(二)",
+      "canonical_name_en": null,
+      "known_aliases": [],
+      "credits": 6.0,
+      "curriculumRequirement": "department_core",
+      "recommendedYear": 4,
+      "recommendedSemester": "fall",
+      "source_document": "official-required-subjects-113-b8010",
+      "notes": [
+        "官方必修科目表未提供英文課名，故不自行翻譯。"
+      ],
+      "alternatives": [],
+      "manual_review_required": false
+    },
+    {
+      "course_id": "b8010_9a940c67b7d3",
+      "canonical_name_zh": "婦產科學實習(二)",
+      "canonical_name_en": null,
+      "known_aliases": [],
+      "credits": 3.0,
+      "curriculumRequirement": "department_core",
+      "recommendedYear": 4,
+      "recommendedSemester": "fall",
+      "source_document": "official-required-subjects-113-b8010",
+      "notes": [
+        "官方必修科目表未提供英文課名，故不自行翻譯。"
+      ],
+      "alternatives": [],
+      "manual_review_required": false
+    },
+    {
+      "course_id": "b8010_435bd01b2143",
+      "canonical_name_zh": "兒科學實習(二)",
+      "canonical_name_en": null,
+      "known_aliases": [],
+      "credits": 3.0,
+      "curriculumRequirement": "department_core",
+      "recommendedYear": 4,
+      "recommendedSemester": "fall",
+      "source_document": "official-required-subjects-113-b8010",
+      "notes": [
+        "官方必修科目表未提供英文課名，故不自行翻譯。"
+      ],
+      "alternatives": [],
+      "manual_review_required": false
+    },
+    {
+      "course_id": "b8010_c012a75c5001",
+      "canonical_name_zh": "急診科學實習",
+      "canonical_name_en": null,
+      "known_aliases": [],
+      "credits": 2.0,
+      "curriculumRequirement": "department_core",
+      "recommendedYear": 4,
+      "recommendedSemester": "fall",
+      "source_document": "official-required-subjects-113-b8010",
+      "notes": [
+        "官方必修科目表未提供英文課名，故不自行翻譯。"
+      ],
+      "alternatives": [],
+      "manual_review_required": false
+    },
+    {
+      "course_id": "b8010_708791e1b882",
+      "canonical_name_zh": "社區與偏鄉實習",
+      "canonical_name_en": null,
+      "known_aliases": [],
+      "credits": 4.0,
+      "curriculumRequirement": "department_core",
+      "recommendedYear": 4,
+      "recommendedSemester": "spring",
+      "source_document": "official-required-subjects-113-b8010",
+      "notes": [
+        "官方必修科目表未提供英文課名，故不自行翻譯。"
+      ],
+      "alternatives": [],
+      "manual_review_required": false
+    },
+    {
+      "course_id": "b8010_508b90e107ef",
+      "canonical_name_zh": "皮膚科學實習",
+      "canonical_name_en": null,
+      "known_aliases": [],
+      "credits": 2.0,
+      "curriculumRequirement": "department_core",
+      "recommendedYear": 4,
+      "recommendedSemester": "spring",
+      "source_document": "official-required-subjects-113-b8010",
+      "notes": [
+        "官方必修科目表未提供英文課名，故不自行翻譯。"
+      ],
+      "alternatives": [],
+      "manual_review_required": false
+    },
+    {
+      "course_id": "b8010_6f6d9d78a963",
+      "canonical_name_zh": "耳鼻喉科學實習",
+      "canonical_name_en": null,
+      "known_aliases": [],
+      "credits": 2.0,
+      "curriculumRequirement": "department_core",
+      "recommendedYear": 4,
+      "recommendedSemester": "spring",
+      "source_document": "official-required-subjects-113-b8010",
+      "notes": [
+        "官方必修科目表未提供英文課名，故不自行翻譯。"
+      ],
+      "alternatives": [],
+      "manual_review_required": false
+    },
+    {
+      "course_id": "b8010_a7062d337f6f",
+      "canonical_name_zh": "泌尿學科實習",
+      "canonical_name_en": null,
+      "known_aliases": [],
+      "credits": 2.0,
+      "curriculumRequirement": "department_core",
+      "recommendedYear": 4,
+      "recommendedSemester": "spring",
+      "source_document": "official-required-subjects-113-b8010",
+      "notes": [
+        "官方必修科目表未提供英文課名，故不自行翻譯。"
+      ],
+      "alternatives": [],
+      "manual_review_required": false
+    },
+    {
+      "course_id": "b8010_66698e26510a",
+      "canonical_name_zh": "眼科學科實習",
+      "canonical_name_en": null,
+      "known_aliases": [],
+      "credits": 2.0,
+      "curriculumRequirement": "department_core",
+      "recommendedYear": 4,
+      "recommendedSemester": "spring",
+      "source_document": "official-required-subjects-113-b8010",
+      "notes": [
+        "官方必修科目表未提供英文課名，故不自行翻譯。"
+      ],
+      "alternatives": [],
+      "manual_review_required": false
+    },
+    {
+      "course_id": "b8010_35fc1e54538a",
+      "canonical_name_zh": "骨科學科實習",
+      "canonical_name_en": null,
+      "known_aliases": [],
+      "credits": 2.0,
+      "curriculumRequirement": "department_core",
+      "recommendedYear": 4,
+      "recommendedSemester": "spring",
+      "source_document": "official-required-subjects-113-b8010",
+      "notes": [
+        "官方必修科目表未提供英文課名，故不自行翻譯。"
+      ],
+      "alternatives": [],
+      "manual_review_required": false
+    },
+    {
+      "course_id": "b8010_ed0fc7b64971",
+      "canonical_name_zh": "臨床實習選修(二)",
+      "canonical_name_en": null,
+      "known_aliases": [],
+      "credits": 4.0,
+      "curriculumRequirement": "department_core",
+      "recommendedYear": 4,
+      "recommendedSemester": "spring",
+      "source_document": "official-required-subjects-113-b8010",
+      "notes": [
+        "官方必修科目表未提供英文課名，故不自行翻譯。"
+      ],
+      "alternatives": [],
+      "manual_review_required": false
+    },
+    {
+      "course_id": "b8010_9cde7dadffdf",
+      "canonical_name_zh": "臨床技能測驗(二)",
+      "canonical_name_en": null,
+      "known_aliases": [],
+      "credits": null,
+      "curriculumRequirement": "department_core",
+      "recommendedYear": 4,
+      "recommendedSemester": "spring",
+      "source_document": "official-required-subjects-113-b8010",
+      "notes": [
+        "官方必修科目表未提供英文課名，故不自行翻譯。",
+        "官方表列為0學分畢業條件，credits保留null。"
+      ],
+      "alternatives": [],
+      "manual_review_required": true
+    }
+  ],
+  "course_groups": [],
+  "prerequisites": [],
+  "non_duplicated_counting_groups": [],
+  "manual_review_rules": [
+    {
+      "rule_id": "b8010_official_table_review_pending",
+      "description": "官方必修科目表已轉為結構化候選，但尚未完成逐列雙人覆核。",
+      "reason": "自動解析可保存表格內容，不能單獨證明跨欄、附註與特殊身分條件已完整建模。",
+      "source_document": "official-required-subjects-113-b8010",
+      "resolution": "逐列對照官方表，確認課名、學分、建議學期、分組與所有附註後再改為reviewed。"
+    },
+    {
+      "rule_id": "b8010_course_regulation_01",
+      "description": "一、學士後醫學系一般醫學組學生須修滿必修168學分,不包含照護科技跨域專題(一)及照護科技跨域專題(二)此 2門課程;智慧醫療組學生須修滿必修170學分,須包含照護科技跨域專題(一)及照護科技跨域專題(二)此2門課 程。 二、學士後醫學系一般醫學組及智慧醫療組之兩組學生皆須修滿選修4學分(須含後醫系專業選修至少2學分)方可畢業。 三、偏鄉服務學習為必修0學分,學生須完成100小時之偏鄉服務學習課程;臨床技能測驗(一)、臨床技能測驗( 二)為必修0學分,學生須通過臨床技能之模擬考。上述3門必修0學分課程皆完成及通過後方可畢業。 四、學士後醫學系學生應修之必修課程,均須修習本系開設之課程,不得以本校其他系所或外校課程替代。如因特殊 情況,需經相關學科授課教師、學科主任及系主任同意後,以個案處理。 五、學士後醫學系學生需修畢一、二年級必修課程,始得修習三年級以上之實習課程。 六、三年級及四年級實習課程採學年課運作方式,醫學生須於該學年度完成輪訓實習,俟下學期末進行當學年度實習課程成績核算。 七、學生學習歷程檔案(含自主學習之課程要求)為教師評量學生學習成效及輔導學生之參考依據,學士後醫學系學 生應配合學系要求,建立及維護個人學習歷程檔案資料。",
+      "reason": "這是系所特有條款，可能包含組別、領域、授課語言、檢定、抵免或審查條件，現有課程完成狀態不足以自動證明。",
+      "source_document": "official-required-subjects-113-b8010",
+      "resolution": "依本條所述身分與課程屬性逐項查核；在ClearGrad尚未支援對應屬性前，不可自動標示已完成。"
+    }
+  ],
+  "additional_credit_rules": []
+}

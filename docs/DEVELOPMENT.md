@@ -17,6 +17,7 @@ python -m nsysu_program_api.cli --root . build
 python -m nsysu_program_api.cli --root . diff old.json new.json --output reports/diff.json
 python -m nsysu_program_api.cli --root . --entry-year 115 graduation-fetch
 python -m nsysu_program_api.cli --root . --entry-year 115 graduation-build
+python -m nsysu_program_api.cli --root . --entry-year 113 graduation-rules-fetch
 python -m nsysu_program_api.cli --root . graduation-rules-build
 ```
 
@@ -24,7 +25,7 @@ python -m nsysu_program_api.cli --root . graduation-rules-build
 
 `graduation-fetch` 從公開必修科目表枚舉 `B` 開頭的學士班代碼，逐系讀取最低畢業學分；0 學分及該年度無表的舊制代碼只進 unavailable 清單。`graduation-build` 產生年度、latest、全量及單系端點，並清除單系目錄中已失效的舊 JSON。
 
-`graduation-rules-build` 不連網，只將已審核的 `data/graduation-rules/` 來源建成 GitHub Pages 靜態 JSON，並複製兩份 schema。新增系所前須取得對應入學年度的正式必修科目表或修業規定；不得從當學期開課目錄反推規則。無正式證據的欄位應為 `null`，並以具體的 `manual_review_rules` 說明缺少什麼、為何不能自動判定及如何完成人工確認。
+`graduation-rules-fetch` 從校方正式必修科目表依入學年度建立系所層候選規則，保留既有人工整理檔，不以自動結果覆寫。表格可安全確認的課名、學分、建議年級學期及分組應選數會結構化；修課規定、備註、合併欄位歧義及無該年度表格的系所均保留為 `manual_review_required`。`graduation-rules-build` 不連網，只將 `data/graduation-rules/` 建成 GitHub Pages 靜態 JSON，並複製兩份 schema。不得從當學期開課目錄反推規則；無正式證據的欄位應為 `null`，並以具體的 `manual_review_rules` 說明缺少什麼、為何不能自動判定及如何完成人工確認。
 
 ## GitHub Actions and Pages
 
