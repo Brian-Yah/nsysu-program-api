@@ -337,9 +337,11 @@ def build_api(root: Path, version: str) -> dict:
     graduation_index = (
         build_graduation_api(root, entry_year) if graduation_source.exists() else None
     )
-    graduation_rules_source = root / "data" / "graduation-rules" / "common" / "113-plus.json"
+    graduation_rules_source = root / "data" / "graduation-rules" / "common"
     graduation_rules_index = (
-        build_graduation_rules_api(root) if graduation_rules_source.exists() else None
+        build_graduation_rules_api(root)
+        if graduation_rules_source.exists() and any(graduation_rules_source.glob("*.json"))
+        else None
     )
     manifest = {
         "schema_version": SCHEMA_VERSION,

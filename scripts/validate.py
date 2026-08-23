@@ -326,15 +326,18 @@ if (
         department_rule_schema, format_checker=FormatChecker()
     )
     graduation_rule_errors = []
-    common_path = graduation_rules_root / "common/113-plus.json"
-    common_rule = json.loads(common_path.read_text(encoding="utf-8"))
-    graduation_rule_errors.extend(
-        f"{common_path}: {error.message}"
-        for error in common_rule_validator.iter_errors(common_rule)
-    )
-    graduation_rule_errors.extend(
-        f"{common_path}: {error}" for error in validate_common_references(common_rule)
-    )
+    common_rule_count = 0
+    for common_path in sorted((graduation_rules_root / "common").glob("*.json")):
+        common_rule_count += 1
+        common_rule = json.loads(common_path.read_text(encoding="utf-8"))
+        graduation_rule_errors.extend(
+            f"{common_path}: {error.message}"
+            for error in common_rule_validator.iter_errors(common_rule)
+        )
+        graduation_rule_errors.extend(
+            f"{common_path}: {error}"
+            for error in validate_common_references(common_rule)
+        )
     department_rule_count = 0
     for path in graduation_rules_root.glob("[0-9][0-9][0-9]/bachelor/*.json"):
         department_rule_count += 1
@@ -350,4 +353,7 @@ if (
     if graduation_rule_errors:
         print("\n".join(graduation_rule_errors))
         sys.exit(1)
-    print(f"Validated common rules and {department_rule_count} department graduation rules")
+    print(
+        f"Validated {common_rule_count} common rules and "
+        f"{department_rule_count} department graduation rules"
+    )

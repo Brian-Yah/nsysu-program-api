@@ -34,7 +34,7 @@
     "department_code": {"type": "string", "pattern": "^B[A-Z0-9]{4}$"},
     "department_name_zh": {"type": "string", "minLength": 1},
     "department_name_en": {"type": ["string", "null"]},
-    "common_rule_ref": {"type": ["string", "null"], "pattern": "^\\.\\./\\.\\./common/[0-9]{3}-plus\\.json$"},
+    "common_rule_ref": {"type": ["string", "null"], "pattern": "^\\.\\./\\.\\./common/[0-9]{3}(?:-plus)?\\.json$"},
     "review_status": {"enum": ["reviewed", "ai_approved", "manual_review_required"]},
     "reviewed_at": {"type": "string", "format": "date"},
     "coverage": {"enum": ["complete", "partial"]},

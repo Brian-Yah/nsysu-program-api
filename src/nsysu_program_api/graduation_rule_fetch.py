@@ -43,6 +43,15 @@ PROFESSIONAL_CATEGORY_MARKERS = (
 )
 
 
+def common_rule_ref_for_entry_year(entry_year: str) -> str | None:
+    year = int(entry_year)
+    if year == 112:
+        return "../../common/112.json"
+    if year >= 113:
+        return "../../common/113-plus.json"
+    return None
+
+
 def _compact(value: str) -> str:
     return " ".join(unicodedata.normalize("NFKC", value).replace("\xa0", " ").split())
 
@@ -560,9 +569,7 @@ def parse_official_department_rule(
         "department_code": department_code,
         "department_name_zh": department_name,
         "department_name_en": None,
-        "common_rule_ref": (
-            "../../common/113-plus.json" if int(entry_year) >= 113 else None
-        ),
+        "common_rule_ref": common_rule_ref_for_entry_year(entry_year),
         "review_status": "manual_review_required",
         "reviewed_at": reviewed_at,
         "coverage": "partial",

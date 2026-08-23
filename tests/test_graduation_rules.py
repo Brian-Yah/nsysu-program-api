@@ -102,6 +102,27 @@ def test_common_113_plus_fixture() -> None:
     }
 
 
+def test_common_112_fixture_is_versioned_independently() -> None:
+    common = load(ROOT / "data/graduation-rules/common/112.json")
+    assert schema_errors("graduation-common-rule.schema.json", common) == []
+    assert validate_common_references(common) == []
+    assert common["effective_entry_year"] == {"minimum": "112", "maximum": "112"}
+
+    requirements = common["requirements"]
+    assert requirements["language_literacy"]["chinese"]["credits"] == 3
+    assert requirements["language_literacy"]["english"]["credits"] == 3
+    assert requirements["language_literacy"]["eap_esp"]["minimum_courses"] == 1
+    assert requirements["cross_college"]["minimum_credits"] == 8
+    assert requirements["liberal_arts"]["minimum_credits"] == 13
+    assert requirements["liberal_arts"]["minimum_dimensions"] == 4
+    science_colleges = requirements["liberal_arts"]["college_specific_rules"][0]
+    assert science_colleges["college_groups"] == ["理學院", "工學院", "海洋科學學院"]
+    assert "醫學院" not in science_colleges["college_groups"]
+    assert requirements["experiential_courses"]["university_way"]["required_events"] == 6
+    assert requirements["sport_and_health"]["required_credits"] == 4
+    assert requirements["english_proficiency_certification"]["required"] is True
+
+
 def test_applied_math_113_fixture() -> None:
     rule = load(ROOT / "data/graduation-rules/113/bachelor/B2040.json")
     assert schema_errors("graduation-department-rule.schema.json", rule) == []
@@ -294,7 +315,7 @@ def test_zero_credit_graduation_condition_is_not_published_as_course_credit() ->
     assert any("表列為0學分" in note for note in course["notes"])
 
 
-def test_112_department_rule_does_not_inherit_113_plus_common_rules() -> None:
+def test_112_department_rule_uses_112_common_rules() -> None:
     html = """
     <table>
       <tr><td>專<br>業<br>必<br>修</td><td></td><td>程式設計</td><td>3</td>
@@ -313,7 +334,7 @@ def test_112_department_rule_does_not_inherit_113_plus_common_rules() -> None:
         reviewed_at="2026-08-22",
     )
 
-    assert rule["common_rule_ref"] is None
+    assert rule["common_rule_ref"] == "../../common/112.json"
     assert rule["credit_requirements"]["minimum_graduation_credits"] == 128
     assert schema_errors("graduation-department-rule.schema.json", rule) == []
 
@@ -399,6 +420,11 @@ def test_builder_publishes_static_paths_and_removes_stale_file(tmp_path: Path) -
         list((tmp_path / "data/graduation-rules").glob("[0-9][0-9][0-9]/bachelor/*.json"))
     )
     assert index["department_count"] == expected_count
+    assert index["paths"]["common_by_entry_year"] == {
+        "112": "common/112.json",
+        "113_plus": "common/113-plus.json",
+    }
+    assert (tmp_path / "api/v1/graduation-rules/common/112.json").exists()
     assert (tmp_path / "api/v1/graduation-rules/common/113-plus.json").exists()
     assert (tmp_path / "api/v1/graduation-rules/113/bachelor/B2040.json").exists()
     assert (tmp_path / "api/v1/graduation-rules/113/bachelor/B4610.json").exists()
@@ -409,6 +435,11 @@ def test_builder_publishes_static_paths_and_removes_stale_file(tmp_path: Path) -
     assert (department_path.parent / department["common_rule_ref"]).resolve() == (
         tmp_path / "api/v1/graduation-rules/common/113-plus.json"
     ).resolve()
+    department_112_path = tmp_path / "api/v1/graduation-rules/112/bachelor/B2040.json"
+    department_112 = load(department_112_path)
+    assert (
+        department_112_path.parent / department_112["common_rule_ref"]
+    ).resolve() == (tmp_path / "api/v1/graduation-rules/common/112.json").resolve()
 
 
 def test_builder_applies_complete_pinned_graduation_ai_review(tmp_path: Path) -> None:

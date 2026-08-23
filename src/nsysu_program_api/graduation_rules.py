@@ -154,13 +154,18 @@ def validate_common_references(rule: dict) -> list[str]:
 
 def build_graduation_rules_api(root: Path) -> dict:
     source_root = root / "data" / "graduation-rules"
-    common_path = source_root / "common" / "113-plus.json"
-    common = load_json(common_path, None)
-    if not common:
-        raise RuntimeError(f"missing common graduation rules: {common_path}")
-    common_errors = validate_common_references(common)
-    if common_errors:
-        raise RuntimeError("; ".join(common_errors))
+    common_paths = sorted((source_root / "common").glob("*.json"))
+    if not common_paths:
+        raise RuntimeError(f"missing common graduation rules: {source_root / 'common'}")
+    common_rules: list[tuple[Path, dict]] = []
+    for common_path in common_paths:
+        common = load_json(common_path, None)
+        if not common:
+            raise RuntimeError(f"invalid common graduation rules: {common_path}")
+        common_errors = validate_common_references(common)
+        if common_errors:
+            raise RuntimeError(f"{common_path}: {'; '.join(common_errors)}")
+        common_rules.append((common_path, common))
 
     department_paths = sorted(source_root.glob("[0-9][0-9][0-9]/bachelor/*.json"))
     departments: list[dict] = []
@@ -185,7 +190,12 @@ def build_graduation_rules_api(root: Path) -> dict:
                 )
 
     api = root / "api" / "v1" / "graduation-rules"
-    write_json(api / "common" / "113-plus.json", common)
+    expected_common_names = {path.name for path, _ in common_rules}
+    for common_path, common in common_rules:
+        write_json(api / "common" / common_path.name, common)
+    for path in (api / "common").glob("*.json"):
+        if path.name not in expected_common_names:
+            path.unlink()
     expected_by_year: dict[str, set[str]] = {}
     for rule in departments:
         year = rule["entry_year"]
@@ -249,6 +259,11 @@ def build_graduation_rules_api(root: Path) -> dict:
             rule.get("review_status") == "manual_review_required" for rule in departments
         ),
         "paths": {
+            "common_by_entry_year": {
+                "112": "common/112.json",
+                "113_plus": "common/113-plus.json",
+            },
+            "common_112": "common/112.json",
             "common_113_plus": "common/113-plus.json",
             "department_template": "{entry_year}/bachelor/{department_code}.json",
             "latest_department_template": (

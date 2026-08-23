@@ -41,7 +41,7 @@ Consumer 判斷 `entry_selection_constraints` 時，必須逐條檢查 `selected
 
 ## 畢業規則 API
 
-`graduation-rules/common/113-plus.json` 是 113 學年度起入學者的校級共同層；`graduation-rules/{entry_year}/bachelor/{department_code}.json` 是系所層，目前涵蓋 112–115。113 起的系所檔以相對 `common_rule_ref` 連回共同層，consumer 必須合併評估，系所規則不會複製共同規則。112 的共同規則尚未完成正式來源建模，故 `common_rule_ref` 為 `null`，consumer 不得以 113+ 規則代替。
+`graduation-rules/common/112.json` 是 112 學年度入學者的校級共同層；`graduation-rules/common/113-plus.json` 是 113 學年度起入學者的共同層；`graduation-rules/{entry_year}/bachelor/{department_code}.json` 是系所層，目前涵蓋 112–115。系所檔以相對 `common_rule_ref` 連回對應年度的共同層，consumer 必須合併評估，系所規則不會複製共同規則。112 與 113+ 是獨立版本，不得以其中一版代替另一版。
 
 官方年度選單是可用版本的唯一發現來源；排程每週從 112 起同步到官方最新年度。單一來源 hash 不變時沿用原規則與審核；來源有一般增刪時重建，若課表由有變無、課程列驟減超過一半、最低畢業學分消失，或全年度課表／最低學分覆蓋低於 75%，建置必須 fail closed，維持上一個 Pages 版本。
 

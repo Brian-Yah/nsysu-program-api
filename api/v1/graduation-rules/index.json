@@ -45,6 +45,11 @@
   "ai_approved_department_count": 20,
   "manual_review_required_department_count": 104,
   "paths": {
+    "common_by_entry_year": {
+      "112": "common/112.json",
+      "113_plus": "common/113-plus.json"
+    },
+    "common_112": "common/112.json",
     "common_113_plus": "common/113-plus.json",
     "department_template": "{entry_year}/bachelor/{department_code}.json",
     "latest_department_template": "115/bachelor/{department_code}.json",
