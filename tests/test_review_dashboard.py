@@ -20,6 +20,78 @@ def test_queue_contains_remaining_conflicted_program() -> None:
     assert sum(item["conflict_count"] for item in conflicted) == 2
 
 
+def test_graduation_queue_contains_only_blocked_departments() -> None:
+    payload = review_dashboard.graduation_queue_payload("113")
+    assert payload["total"] == 11
+    assert sum(payload["counts"].values()) == 11
+    needs_evidence = {
+        item["department_code"]
+        for item in payload["departments"]
+        if item["needs_official_evidence"]
+    }
+    assert needs_evidence == {"B3080", "B5610", "B7020", "B7620", "B8070"}
+    assert all(item["reason_details"] for item in payload["departments"])
+
+
+def test_graduation_missing_source_approval_requires_official_evidence(
+    monkeypatch: pytest.MonkeyPatch, tmp_path: Path
+) -> None:
+    rule = {
+        "department_code": "B0000",
+        "department_name_zh": "測試學系",
+        "sources": [],
+        "ai_review": {"blocking_reasons": ["course_table_unavailable"]},
+    }
+    audit = {
+        "policy_version": "test-v1",
+        "ruleset_sha256": "rules",
+        "departments": [
+            {"department_code": "B0000", "decision": "manual_review_required"}
+        ],
+    }
+    monkeypatch.setattr(review_dashboard, "ROOT", tmp_path)
+    rule_path = (
+        tmp_path
+        / "api"
+        / "v1"
+        / "graduation-rules"
+        / "113"
+        / "bachelor"
+        / "B0000.json"
+    )
+    rule_path.parent.mkdir(parents=True)
+    rule_path.write_text(json.dumps(rule), encoding="utf-8")
+    audit_path = tmp_path / "reports" / "graduation-ai-audit-113.json"
+    audit_path.parent.mkdir(parents=True)
+    audit_path.write_text(json.dumps(audit), encoding="utf-8")
+
+    with pytest.raises(ValueError, match="official evidence URL is required"):
+        review_dashboard.save_graduation_decision(
+            "113",
+            "B0000",
+            {
+                "decision": "approved",
+                "reviewer": "Reviewer",
+                "notes": "已確認",
+            },
+        )
+
+    decision = review_dashboard.save_graduation_decision(
+        "113",
+        "B0000",
+        {
+            "decision": "approved",
+            "reviewer": "Reviewer",
+            "notes": "官方 PDF 第 2 頁列出課表與最低學分",
+            "evidence_url": "https://example.nsysu.edu.tw/rules.pdf",
+        },
+    )
+    assert decision["evidence_url"] == "https://example.nsysu.edu.tw/rules.pdf"
+    assert review_dashboard.graduation_is_stale(decision, "113", rule, audit) is False
+    rule["department_name_zh"] = "變更後名稱"
+    assert review_dashboard.graduation_is_stale(decision, "113", rule, audit) is True
+
+
 def test_cautious_use_requires_notes(monkeypatch: pytest.MonkeyPatch, tmp_path: Path) -> None:
     program = {
         "program_id": "prog_0000000000000000",

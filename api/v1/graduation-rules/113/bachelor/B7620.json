@@ -41,5 +41,36 @@
       "resolution": "向系辦取得該入學年度正式必修科目表或修業規定後補建。"
     }
   ],
-  "additional_credit_rules": []
+  "additional_credit_rules": [],
+  "ai_review": {
+    "policy_version": "graduation-rules-complete-v1",
+    "reviewed_at": "2026-08-22",
+    "audit_path": "data/graduation-ai-review/113.json",
+    "decision": "manual_review_required",
+    "source_hashes": {
+      "official-required-subjects-113-b7620": "21a1c5e21661117857f51afb53c3a9a554c640983747a0c221261c8a9c737321"
+    },
+    "blocking_reasons": [
+      "course_table_unavailable",
+      "empty_course_table",
+      "missing_minimum_graduation_credits"
+    ],
+    "blocking_reason_details": [
+      {
+        "code": "course_table_unavailable",
+        "message": "官方該入學年度查詢頁沒有提供可解析的系所專業課程表。"
+      },
+      {
+        "code": "empty_course_table",
+        "message": "目前沒有任何正式系所課程列，不能從當學期開課資料推測。"
+      },
+      {
+        "code": "missing_minimum_graduation_credits",
+        "message": "官方來源未提供可確認的最低畢業學分。"
+      }
+    ],
+    "manual_evaluation_rule_ids": [
+      "b7620_course_table_unavailable"
+    ]
+  }
 }

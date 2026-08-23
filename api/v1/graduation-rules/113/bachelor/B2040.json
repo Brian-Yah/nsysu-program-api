@@ -338,5 +338,38 @@
         "在本系原訂畢業應修學分之外增加12學分。"
       ]
     }
-  ]
+  ],
+  "ai_review": {
+    "policy_version": "graduation-rules-complete-v1",
+    "reviewed_at": "2026-08-22",
+    "audit_path": "data/graduation-ai-review/113.json",
+    "decision": "manual_review_required",
+    "source_hashes": {
+      "applied-math-113": "9bd8f5245dbae0d8d975a18ae19c55ee5cc2786746a52e6a2fd0527fa80fe19a"
+    },
+    "blocking_reasons": [
+      "course_credit_unknown",
+      "course_row_requires_review",
+      "non_generated_source_requires_review"
+    ],
+    "blocking_reason_details": [
+      {
+        "code": "course_credit_unknown",
+        "message": "至少一門課在官方文件中沒有可唯一判定的學分。"
+      },
+      {
+        "code": "course_row_requires_review",
+        "message": "至少一門課有零學分、多學期配置或同名列差異。"
+      },
+      {
+        "code": "non_generated_source_requires_review",
+        "message": "此規則來自獨立PDF人工建模，尚未納入HTML逐列重現稽核。"
+      }
+    ],
+    "manual_evaluation_rule_ids": [
+      "am_required_credit_total_not_explicit",
+      "am_elective_minimum_not_separately_published",
+      "am_english_track_delivery_language"
+    ]
+  }
 }

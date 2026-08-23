@@ -352,5 +352,32 @@
       "resolution": "僅作課程規劃提示；若系所另有模組完成門檻，須取得正式修業規定後新增。"
     }
   ],
-  "additional_credit_rules": []
+  "additional_credit_rules": [],
+  "ai_review": {
+    "policy_version": "graduation-rules-complete-v1",
+    "reviewed_at": "2026-08-22",
+    "audit_path": "data/graduation-ai-review/113.json",
+    "decision": "manual_review_required",
+    "source_hashes": {
+      "ibba-113": "5a0e502218e434e0c0fca1b6512c4dd8f6235d8c9afe393c22a08fc989a8a65b"
+    },
+    "blocking_reasons": [
+      "course_group_requires_review",
+      "non_generated_source_requires_review"
+    ],
+    "blocking_reason_details": [
+      {
+        "code": "course_group_requires_review",
+        "message": "課群宣告門數、表列數量或學生軌道仍需確認。"
+      },
+      {
+        "code": "non_generated_source_requires_review",
+        "message": "此規則來自獨立PDF人工建模，尚未納入HTML逐列重現稽核。"
+      }
+    ],
+    "manual_evaluation_rule_ids": [
+      "ibba_overseas_exchange",
+      "ibba_featured_elective_module_counting"
+    ]
+  }
 }

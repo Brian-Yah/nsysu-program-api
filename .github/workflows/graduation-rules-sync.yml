@@ -1,0 +1,52 @@
+name: Sync and deploy graduation rules API
+on:
+  schedule:
+    - cron: "41 3 * * 1"
+  workflow_dispatch:
+permissions:
+  contents: read
+  pages: write
+  id-token: write
+concurrency:
+  group: pages
+  cancel-in-progress: false
+jobs:
+  sync-and-deploy:
+    environment:
+      name: github-pages
+      url: ${{ steps.deployment.outputs.page_url }}
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v5
+      - uses: actions/setup-python@v5
+        with: {python-version: "3.12", cache: pip}
+      - run: pip install -e ".[dev]"
+      - name: Discover official years and sync 112 through latest
+        env:
+          NSYSU_API_USER_AGENT: nsysu-program-api-graduation-sync/1.0 (+${{ github.server_url }}/${{ github.repository }})
+          NSYSU_API_TIMEOUT: "75"
+          NSYSU_API_ATTEMPTS: "5"
+        run: |
+          python -m nsysu_program_api.cli \
+            --root . \
+            --start-entry-year 112 \
+            graduation-rules-sync > reports/graduation-rules-sync.json
+      - run: python scripts/validate.py
+      - run: pytest -q
+      - uses: actions/configure-pages@v5
+      - name: Stage Pages site
+        shell: bash
+        run: |
+          mkdir -p site/api
+          cp -R api/v1 site/api/v1
+      - uses: actions/upload-pages-artifact@v3
+        with: {path: site}
+      - id: deployment
+        uses: actions/deploy-pages@v4
+      - uses: actions/upload-artifact@v4
+        if: always()
+        with:
+          name: graduation-rules-sync-${{ github.run_id }}
+          path: reports/graduation-rules-sync.json
+          retention-days: 30
+          if-no-files-found: warn

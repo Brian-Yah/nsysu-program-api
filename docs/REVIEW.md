@@ -29,6 +29,26 @@ python scripts/review_dashboard.py --academic-version 115-1 --export-results
 結果寫入 `reports/manual-review-results-115-1.json`。此報告保存第一階段判斷，仍不等同
 雙人覆核的正式 `approved`。
 
+## 畢業規則證據審核
+
+針對 113 年入學、仍為 `manual_review_required` 的系所執行：
+
+```powershell
+python scripts/review_dashboard.py --scope graduation
+```
+
+此模式只列出 AI 完整稽核後仍受阻的系所，並顯示待確認課程、課群、人工規則、
+官方來源與阻擋原因。審核紀錄寫入 `data/graduation-review-decisions/113/`，並固定：
+
+- 完整規則集 hash 與 AI 審核 policy 版本。
+- 該系所發布 JSON hash。
+- 每份官方來源 hash。
+
+任一項改變，舊審核會自動標記過期。對缺少官方課表或最低畢業學分的系所，若選擇
+「證據支持」，必須貼上另一份中山大學官方文件網址並在備註寫明頁碼或表格位置。
+審核結果是待整合的第一階段證據，不會直接將 API 改為 `ai_approved`；仍須把新來源
+納入資料模型、重新執行線上稽核、schema validation 與 fixture tests。
+
 1. 開啟 `reports/initial-115-1.json` 與 `reports/semantic-diff.json`，先處理下載／擷取失敗及 OCR 待辦。
 2. 對照 `data/extracted/115-1/{program_id}.json` 的 raw text 與官方 PDF；記錄頁碼、表格、總學分、群組、跨系院、替代、上限、重複採計與核准條件。
 3. 課程以課號為主。課名只輔助；更名、舊課號放 aliases，沒有正式依據的跨版本認列只能列 recognition candidate 或 `manual_review`。

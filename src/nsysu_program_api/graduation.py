@@ -46,6 +46,30 @@ class DepartmentOptionParser(HTMLParser):
             self._in_department_select = False
 
 
+class EntryYearOptionParser(HTMLParser):
+    def __init__(self) -> None:
+        super().__init__(convert_charrefs=True)
+        self.entry_years: list[str] = []
+        self._in_year_select = False
+        self._option_value: str | None = None
+
+    def handle_starttag(self, tag: str, attrs: list[tuple[str, str | None]]) -> None:
+        attributes = dict(attrs)
+        if tag.lower() == "select":
+            self._in_year_select = attributes.get("name") == "YY1"
+        elif tag.lower() == "option" and self._in_year_select:
+            self._option_value = attributes.get("value")
+
+    def handle_endtag(self, tag: str) -> None:
+        if tag.lower() == "option" and self._option_value is not None:
+            value = self._option_value.strip()
+            if re.fullmatch(r"\d{3}", value) and value not in self.entry_years:
+                self.entry_years.append(value)
+            self._option_value = None
+        elif tag.lower() == "select" and self._in_year_select:
+            self._in_year_select = False
+
+
 class RequirementTableParser(HTMLParser):
     def __init__(self) -> None:
         super().__init__(convert_charrefs=True)
@@ -108,6 +132,13 @@ def parse_department_options(html: str, degree_prefix: str = "B") -> list[dict[s
         for department in parser.departments
         if department["department_code"].startswith(degree_prefix)
     ]
+
+
+def parse_entry_year_options(html: str) -> list[str]:
+    parser = EntryYearOptionParser()
+    parser.feed(html)
+    parser.close()
+    return sorted(parser.entry_years, key=int)
 
 
 def parse_graduation_requirement(html: str) -> dict[str, int | float | None] | None:
@@ -207,35 +238,160 @@ def fetch_graduation_requirements(
     return dataset
 
 
-def build_graduation_api(root: Path, entry_year: str) -> dict:
-    dataset = load_json(
-        root / "data" / "graduation-requirements" / entry_year / "bachelor.json", None
+def materialize_graduation_requirements_from_rules(
+    root: Path,
+    entry_year: str,
+    source_index_sha256: str,
+) -> dict:
+    """Build the compact setup API from the same pinned official rule sources."""
+    if not re.fullmatch(r"\d{3}", entry_year):
+        raise ValueError("entry_year must be a three-digit ROC academic year")
+    if not re.fullmatch(r"[a-f0-9]{64}", source_index_sha256):
+        raise ValueError("source_index_sha256 must be a SHA-256 hex digest")
+    rule_paths = sorted(
+        (root / "data" / "graduation-rules" / entry_year / "bachelor").glob(
+            "*.json"
+        )
     )
-    if not dataset:
+    if not rule_paths:
+        raise RuntimeError(f"missing department rules for entry year {entry_year}")
+
+    existing = load_json(
+        root / "data" / "graduation-requirements" / entry_year / "bachelor.json",
+        {},
+    )
+    existing_by_code = {
+        item["department_code"]: item for item in existing.get("requirements", [])
+    }
+    retrieved_at = now_iso()
+    requirements = []
+    unavailable = []
+    for path in rule_paths:
+        rule = load_json(path, {})
+        code = rule["department_code"]
+        minimum = rule.get("credit_requirements", {}).get(
+            "minimum_graduation_credits"
+        )
+        if minimum is None:
+            unavailable.append(
+                {
+                    "department_code": code,
+                    "department_name": rule["department_name_zh"],
+                    "reason": "official rule does not provide minimum graduation credits",
+                }
+            )
+            continue
+        sources = rule.get("sources", [])
+        if not sources or not sources[0].get("sha256"):
+            raise RuntimeError(f"{entry_year} {code} lacks a pinned official source")
+        source = sources[0]
+        previous = existing_by_code.get(code, {})
+        previous_ratio = (
+            previous.get("required_course_ratio")
+            if previous.get("minimum_graduation_credits") == minimum
+            else None
+        )
+        requirements.append(
+            {
+                "department_code": code,
+                "department_name": rule["department_name_zh"],
+                "degree_level": "bachelor",
+                "entry_academic_year": entry_year,
+                "minimum_graduation_credits": int(minimum),
+                "required_course_ratio": previous_ratio,
+                "source": {
+                    "url": source["url"],
+                    "retrieved_at": retrieved_at,
+                    "binary_sha256": source["sha256"],
+                    "http_status": 200,
+                    "parser_version": f"graduation-rules-{GRADUATION_PARSER_VERSION}",
+                },
+            }
+        )
+
+    dataset = {
+        "schema_version": SCHEMA_VERSION,
+        "entry_academic_year": entry_year,
+        "degree_level": "bachelor",
+        "retrieved_at": retrieved_at,
+        "department_count": len(requirements),
+        "requirements": requirements,
+        "unavailable_departments": unavailable,
+        "source": {
+            "index_url": DEPARTMENT_INDEX_URL,
+            "index_binary_sha256": source_index_sha256,
+            "parser_version": f"graduation-rules-{GRADUATION_PARSER_VERSION}",
+        },
+    }
+    write_json(
+        root / "data" / "graduation-requirements" / entry_year / "bachelor.json",
+        dataset,
+    )
+    return dataset
+
+
+def build_graduation_api(root: Path, entry_year: str) -> dict:
+    source_root = root / "data" / "graduation-requirements"
+    datasets = [
+        load_json(path, {})
+        for path in sorted(source_root.glob("[0-9][0-9][0-9]/bachelor.json"))
+    ]
+    datasets = [dataset for dataset in datasets if dataset]
+    if not datasets:
         raise RuntimeError(f"missing graduation requirements for entry year {entry_year}")
+    by_year = {dataset["entry_academic_year"]: dataset for dataset in datasets}
+    if entry_year not in by_year:
+        raise RuntimeError(f"missing graduation requirements for entry year {entry_year}")
+    years = sorted(by_year, key=int)
+    latest_year = years[-1]
+    latest = by_year[latest_year]
     api = root / "api" / "v1" / "graduation-requirements"
-    write_json(api / entry_year / "bachelor.json", dataset)
-    write_json(api / "latest" / "bachelor.json", dataset)
-    expected_codes = {item["department_code"] for item in dataset["requirements"]}
-    for directory in (api / entry_year / "bachelor", api / "latest" / "bachelor"):
+    for year in years:
+        dataset = by_year[year]
+        write_json(api / year / "bachelor.json", dataset)
+        expected_codes = {item["department_code"] for item in dataset["requirements"]}
+        directory = api / year / "bachelor"
         directory.mkdir(parents=True, exist_ok=True)
         for path in directory.glob("*.json"):
             if path.stem not in expected_codes:
                 path.unlink()
-    for requirement in dataset["requirements"]:
-        code = requirement["department_code"]
-        write_json(api / entry_year / "bachelor" / f"{code}.json", requirement)
-        write_json(api / "latest" / "bachelor" / f"{code}.json", requirement)
+        for requirement in dataset["requirements"]:
+            write_json(
+                directory / f"{requirement['department_code']}.json", requirement
+            )
+
+    write_json(api / "latest" / "bachelor.json", latest)
+    latest_codes = {item["department_code"] for item in latest["requirements"]}
+    latest_directory = api / "latest" / "bachelor"
+    latest_directory.mkdir(parents=True, exist_ok=True)
+    for path in latest_directory.glob("*.json"):
+        if path.stem not in latest_codes:
+            path.unlink()
+    for requirement in latest["requirements"]:
+        write_json(
+            latest_directory / f"{requirement['department_code']}.json", requirement
+        )
 
     index = {
         "schema_version": SCHEMA_VERSION,
-        "latest_entry_academic_year": entry_year,
+        "latest_entry_academic_year": latest_year,
+        "entry_academic_years": years,
         "degree_levels": ["bachelor"],
-        "department_count": dataset["department_count"],
+        "department_count": latest["department_count"],
+        "entry_year_summary": [
+            {
+                "entry_academic_year": year,
+                "department_count": by_year[year]["department_count"],
+                "unavailable_department_count": len(
+                    by_year[year].get("unavailable_departments", [])
+                ),
+            }
+            for year in years
+        ],
         "paths": {
             "latest_bachelor": "latest/bachelor.json",
-            "year_bachelor": f"{entry_year}/bachelor.json",
-            "department_template": f"{entry_year}/bachelor/{{department_code}}.json",
+            "year_bachelor_template": "{entry_year}/bachelor.json",
+            "department_template": "{entry_year}/bachelor/{department_code}.json",
             "requirement_schema": "../schemas/graduation-requirement.schema.json",
             "collection_schema": "../schemas/graduation-requirements.schema.json",
         },

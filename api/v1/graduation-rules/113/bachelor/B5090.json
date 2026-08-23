@@ -8,9 +8,9 @@
   "department_name_zh": "海洋科學系",
   "department_name_en": null,
   "common_rule_ref": "../../common/113-plus.json",
-  "review_status": "manual_review_required",
+  "review_status": "ai_approved",
   "reviewed_at": "2026-08-21",
-  "coverage": "partial",
+  "coverage": "complete",
   "credit_requirements": {
     "minimum_graduation_credits": 128,
     "minimum_required_credits": null,
@@ -291,13 +291,6 @@
   "non_duplicated_counting_groups": [],
   "manual_review_rules": [
     {
-      "rule_id": "b5090_official_table_review_pending",
-      "description": "官方必修科目表已轉為結構化候選，但尚未完成逐列雙人覆核。",
-      "reason": "自動解析可保存表格內容，不能單獨證明跨欄、附註與特殊身分條件已完整建模。",
-      "source_document": "official-required-subjects-113-b5090",
-      "resolution": "逐列對照官方表，確認課名、學分、建議學期、分組與所有附註後再改為reviewed。"
-    },
-    {
       "rule_id": "b5090_course_regulation_01",
       "description": "3.專業必修科目計38學分,院核心必修課程計4學分。",
       "reason": "這是系所特有條款，可能包含組別、領域、授課語言、檢定、抵免或審查條件，現有課程完成狀態不足以自動證明。",
@@ -331,5 +324,21 @@
         "官方修課規定明載在原訂畢業應修學分之外增加12學分。"
       ]
     }
-  ]
+  ],
+  "ai_review": {
+    "policy_version": "graduation-rules-complete-v1",
+    "reviewed_at": "2026-08-22",
+    "audit_path": "data/graduation-ai-review/113.json",
+    "decision": "ai_approved",
+    "source_hashes": {
+      "official-required-subjects-113-b5090": "6e4cbfea3f68c817cf0a6532c0f182bd0fb20bde9b13c72899aa1078d8242bec"
+    },
+    "blocking_reasons": [],
+    "blocking_reason_details": [],
+    "manual_evaluation_rule_ids": [
+      "b5090_course_regulation_01",
+      "b5090_course_regulation_02",
+      "b5090_course_regulation_03"
+    ]
+  }
 }

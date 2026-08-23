@@ -1,0 +1,45 @@
+{
+  "schema_version": "1.0",
+  "rule_set_id": "nsysu-112-bachelor-B7620",
+  "rule_type": "department",
+  "entry_year": "112",
+  "degree_level": "bachelor",
+  "department_code": "B7620",
+  "department_name_zh": "國際跨域學士學位學程原住民族專班",
+  "department_name_en": null,
+  "common_rule_ref": null,
+  "review_status": "manual_review_required",
+  "reviewed_at": "2026-08-22",
+  "coverage": "partial",
+  "credit_requirements": {
+    "minimum_graduation_credits": null,
+    "minimum_required_credits": null,
+    "minimum_elective_credits": null,
+    "minimum_department_elective_credits": null,
+    "minimum_department_professional_credits": null
+  },
+  "sources": [
+    {
+      "source_id": "official-required-subjects-112-b7620",
+      "title": "國立中山大學必修科目表（112學年度入學新生適用）－國際跨域學士學位學程原住民族專班",
+      "url": "https://selcrs.nsysu.edu.tw/stu_query/crs_mst_qry/crs_mst_query.asp?action=3&YY1=112&DPT1=B7620",
+      "document_type": "html",
+      "reviewed_at": "2026-08-22",
+      "sha256": "31b2101e504277ddfe682e9ce3a615ba35f84bb9ee74a34053c0d769c6410649"
+    }
+  ],
+  "courses": [],
+  "course_groups": [],
+  "prerequisites": [],
+  "non_duplicated_counting_groups": [],
+  "manual_review_rules": [
+    {
+      "rule_id": "b7620_course_table_unavailable",
+      "description": "官方查詢頁未提供112學年度可解析的系所專業課程表。",
+      "reason": "沒有正式課程列時不得從當學期開課目錄推測畢業規則。",
+      "source_document": "official-required-subjects-112-b7620",
+      "resolution": "向系辦取得該入學年度正式必修科目表或修業規定後補建。"
+    }
+  ],
+  "additional_credit_rules": []
+}

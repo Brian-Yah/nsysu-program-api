@@ -37,12 +37,18 @@ Consumer 判斷 `entry_selection_constraints` 時，必須逐條檢查 `selected
 
 `credit_constraints.scope` 是判斷採計資格的語意範圍，可使用課程群組、分類標籤、開課單位、課程屬性、catalog entries、TAICA 課程、相近課程認抵或學生 curriculum affiliation/role。TAICA 的「不屬主修、輔系或其他學程必修／必選」不是單純開課系所判斷，consumer 不得改用 opening unit 近似。
 
-最低畢業學分是獨立資料集，以 `entry_academic_year`、`degree_level`、`department_code` 組成查詢鍵。`minimum_graduation_credits` 只接受大於 0 的整數；`required_course_ratio` 可為 null。每筆保留官方結果 URL、binary hash、取得時間、HTTP status 及畢業門檻 parser version。系所名稱只供顯示，不應取代穩定的校方系所代碼。
+最低畢業學分是獨立資料集，以 `entry_academic_year`、`degree_level`、`department_code` 組成查詢鍵，目前涵蓋 112–115 並隨官方年度選單擴充。`minimum_graduation_credits` 只接受大於 0 的整數；`required_course_ratio` 可為 null。每筆保留官方結果 URL、binary hash、取得時間、HTTP status 及畢業門檻 parser version。系所名稱只供顯示，不應取代穩定的校方系所代碼；`latest` 只供當年度新生，不得替舊生自動選用。
 
 ## 畢業規則 API
 
-`graduation-rules/common/113-plus.json` 是 113 學年度起入學者的校級共同層；`graduation-rules/{entry_year}/bachelor/{department_code}.json` 是系所層。系所檔以相對 `common_rule_ref` 連回共同層，consumer 必須合併評估，系所規則不會複製共同規則。
+`graduation-rules/common/113-plus.json` 是 113 學年度起入學者的校級共同層；`graduation-rules/{entry_year}/bachelor/{department_code}.json` 是系所層，目前涵蓋 112–115。113 起的系所檔以相對 `common_rule_ref` 連回共同層，consumer 必須合併評估，系所規則不會複製共同規則。112 的共同規則尚未完成正式來源建模，故 `common_rule_ref` 為 `null`，consumer 不得以 113+ 規則代替。
+
+官方年度選單是可用版本的唯一發現來源；排程每週從 112 起同步到官方最新年度。單一來源 hash 不變時沿用原規則與審核；來源有一般增刪時重建，若課表由有變無、課程列驟減超過一半、最低畢業學分消失，或全年度課表／最低學分覆蓋低於 75%，建置必須 fail closed，維持上一個 Pages 版本。
 
 系所課程以穩定 `course_id` 連接 `course_groups`、`prerequisites` 與 `non_duplicated_counting_groups`。`course_groups.rule_kind` 支援 `choose_n_from_m`、最低學分、跨分類及 all-of；替代課放在每門課的 `alternatives`。每門課都保存中英文正式名稱、已知別名、學分、`curriculumRequirement`、建議年級學期、來源文件及備註。官方文件沒有英文名稱或學分時必須使用 `null`，不得自行翻譯或由當學期課表補值。
 
 `manual_review_rules` 必須說明原始規則、無法自動執行的原因及人工確認方式；含任何未解人工規則的檔案使用 `review_status: manual_review_required`。`additional_credit_rules` 只保存官方明列的特殊入學身分加修學分。JSON Schema 驗證型別與必填欄位，建置器另驗證所有 source/course/group reference、ID 唯一性及門數上下限。
+
+系所畢業規則的 `review_status: ai_approved` 表示完整的官方來源 hash 與解析後 ruleset 已由 `graduation-rules-complete-v1` 稽核鎖定，且課程列、學分、課群與人工條款分類全部通過。它不代表所有條件都能自動計算：`ai_review.manual_evaluation_rule_ids` 仍列出需依學生身分、授課屬性或系所核准人工判斷的已驗證規則。來源 hash、課程、學分、課群或候選集合只要改變，build 必須 fail closed，重新回到審核流程。
+
+`ai_review.blocking_reason_details` 提供未通過系所的機器碼與人類可讀原因。缺少正式課表、最低畢業學分、單科學分，或課群宣告與表列數量不一致時，不得以當學期課程目錄補值，也不得只把狀態字串改成 `ai_approved`。

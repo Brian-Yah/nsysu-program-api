@@ -419,5 +419,48 @@
         "官方修課規定明載在原訂畢業應修學分之外增加12學分。"
       ]
     }
-  ]
+  ],
+  "ai_review": {
+    "policy_version": "graduation-rules-complete-v1",
+    "reviewed_at": "2026-08-22",
+    "audit_path": "data/graduation-ai-review/113.json",
+    "decision": "manual_review_required",
+    "source_hashes": {
+      "official-required-subjects-113-b1030": "992d4fc5fd2f0d1651d1f368d54124a4c067f2578c7b73fe53a6cd75d2345e3b"
+    },
+    "blocking_reasons": [
+      "course_credit_unknown",
+      "course_group_requires_review",
+      "course_row_requires_review",
+      "parser_warnings"
+    ],
+    "blocking_reason_details": [
+      {
+        "code": "course_credit_unknown",
+        "message": "至少一門課在官方文件中沒有可唯一判定的學分。"
+      },
+      {
+        "code": "course_group_requires_review",
+        "message": "課群宣告門數、表列數量或學生軌道仍需確認。"
+      },
+      {
+        "code": "course_row_requires_review",
+        "message": "至少一門課有零學分、多學期配置或同名列差異。"
+      },
+      {
+        "code": "parser_warnings",
+        "message": "官方表格宣告與安全解析結果不一致。"
+      }
+    ],
+    "manual_evaluation_rule_ids": [
+      "b1030_official_table_review_pending",
+      "b1030_course_regulation_01",
+      "b1030_course_regulation_02",
+      "b1030_course_regulation_03",
+      "b1030_course_regulation_04",
+      "b1030_course_regulation_05",
+      "b1030_course_regulation_06",
+      "b1030_parser_warnings"
+    ]
+  }
 }

@@ -1,0 +1,577 @@
+{
+  "entry_year": "113",
+  "policy_version": "graduation-rules-complete-v1",
+  "audit_status": "passed",
+  "reviewed_at": "2026-08-22",
+  "department_count": 31,
+  "ruleset_sha256": "ef3a8012f717bdb739c610600925c6faf5ac770b1da1b31649171dc08e967203",
+  "online_errors": [],
+  "departments": [
+    {
+      "department_code": "B1010",
+      "department_name_zh": "中國文學系",
+      "decision": "ai_approved",
+      "source_hashes": {
+        "official-required-subjects-113-b1010": "55904e3040741385652cdeb361b4e92502d80a119fbcb97eb690370053238d43"
+      },
+      "blocking_reasons": [],
+      "checks": {
+        "official_source_hash_matched": true,
+        "parser_roundtrip_matched": true,
+        "course_rows_reviewed": true,
+        "credit_requirements_reviewed": true,
+        "course_groups_reviewed": true,
+        "manual_rules_classified": true
+      }
+    },
+    {
+      "department_code": "B1020",
+      "department_name_zh": "外國語文學系",
+      "decision": "ai_approved",
+      "source_hashes": {
+        "official-required-subjects-113-b1020": "2828db4a7abb6dae6a748b6d2e5cae68adfbf4d2750db82090d22640ab9be4bd"
+      },
+      "blocking_reasons": [],
+      "checks": {
+        "official_source_hash_matched": true,
+        "parser_roundtrip_matched": true,
+        "course_rows_reviewed": true,
+        "credit_requirements_reviewed": true,
+        "course_groups_reviewed": true,
+        "manual_rules_classified": true
+      }
+    },
+    {
+      "department_code": "B1030",
+      "department_name_zh": "音樂學系",
+      "decision": "manual_review_required",
+      "source_hashes": {
+        "official-required-subjects-113-b1030": "992d4fc5fd2f0d1651d1f368d54124a4c067f2578c7b73fe53a6cd75d2345e3b"
+      },
+      "blocking_reasons": [
+        "course_credit_unknown",
+        "course_group_requires_review",
+        "course_row_requires_review",
+        "parser_warnings"
+      ],
+      "checks": {
+        "official_source_hash_matched": true,
+        "parser_roundtrip_matched": true,
+        "course_rows_reviewed": false,
+        "credit_requirements_reviewed": false,
+        "course_groups_reviewed": false,
+        "manual_rules_classified": false
+      }
+    },
+    {
+      "department_code": "B1060",
+      "department_name_zh": "劇場藝術學系",
+      "decision": "ai_approved",
+      "source_hashes": {
+        "official-required-subjects-113-b1060": "0088ac1127e232be0d32fda9c02f6a982aa19a367657e05f7165ef60fb1cef12"
+      },
+      "blocking_reasons": [],
+      "checks": {
+        "official_source_hash_matched": true,
+        "parser_roundtrip_matched": true,
+        "course_rows_reviewed": true,
+        "credit_requirements_reviewed": true,
+        "course_groups_reviewed": true,
+        "manual_rules_classified": true
+      }
+    },
+    {
+      "department_code": "B2010",
+      "department_name_zh": "生物科學系",
+      "decision": "ai_approved",
+      "source_hashes": {
+        "official-required-subjects-113-b2010": "4e07bb22485b8b9ced6e4faa698a4dde796f5109cb2a6891cb26aac959bb8a7a"
+      },
+      "blocking_reasons": [],
+      "checks": {
+        "official_source_hash_matched": true,
+        "parser_roundtrip_matched": true,
+        "course_rows_reviewed": true,
+        "credit_requirements_reviewed": true,
+        "course_groups_reviewed": true,
+        "manual_rules_classified": true
+      }
+    },
+    {
+      "department_code": "B2020",
+      "department_name_zh": "化學系",
+      "decision": "ai_approved",
+      "source_hashes": {
+        "official-required-subjects-113-b2020": "148f19f3fa82184d1bd8e77a4da1317be0b8f35e7be63932cf68501f6fb6e3bb"
+      },
+      "blocking_reasons": [],
+      "checks": {
+        "official_source_hash_matched": true,
+        "parser_roundtrip_matched": true,
+        "course_rows_reviewed": true,
+        "credit_requirements_reviewed": true,
+        "course_groups_reviewed": true,
+        "manual_rules_classified": true
+      }
+    },
+    {
+      "department_code": "B2030",
+      "department_name_zh": "物理學系",
+      "decision": "manual_review_required",
+      "source_hashes": {
+        "official-required-subjects-113-b2030": "bf726fca81c3ccb5c704ff7497809c6033db3620b1a7fd3dbce118307f52ab17"
+      },
+      "blocking_reasons": [
+        "course_group_requires_review"
+      ],
+      "checks": {
+        "official_source_hash_matched": true,
+        "parser_roundtrip_matched": true,
+        "course_rows_reviewed": false,
+        "credit_requirements_reviewed": false,
+        "course_groups_reviewed": false,
+        "manual_rules_classified": false
+      }
+    },
+    {
+      "department_code": "B2040",
+      "department_name_zh": "應用數學系",
+      "decision": "manual_review_required",
+      "source_hashes": {
+        "applied-math-113": "9bd8f5245dbae0d8d975a18ae19c55ee5cc2786746a52e6a2fd0527fa80fe19a"
+      },
+      "blocking_reasons": [
+        "course_credit_unknown",
+        "course_row_requires_review",
+        "non_generated_source_requires_review"
+      ],
+      "checks": {
+        "official_source_hash_matched": true,
+        "parser_roundtrip_matched": false,
+        "course_rows_reviewed": false,
+        "credit_requirements_reviewed": false,
+        "course_groups_reviewed": false,
+        "manual_rules_classified": false
+      }
+    },
+    {
+      "department_code": "B3010",
+      "department_name_zh": "電機工程學系",
+      "decision": "ai_approved",
+      "source_hashes": {
+        "official-required-subjects-113-b3010": "6292c11579b81ac82860e266275886a655877f3055acb1fcf1585653518f5e56"
+      },
+      "blocking_reasons": [],
+      "checks": {
+        "official_source_hash_matched": true,
+        "parser_roundtrip_matched": true,
+        "course_rows_reviewed": true,
+        "credit_requirements_reviewed": true,
+        "course_groups_reviewed": true,
+        "manual_rules_classified": true
+      }
+    },
+    {
+      "department_code": "B3020",
+      "department_name_zh": "機械與機電工程學系",
+      "decision": "ai_approved",
+      "source_hashes": {
+        "official-required-subjects-113-b3020": "0fe416fb7832413721f653450f0cfc87f57d003d1f625d41f9a70665f335b1dd"
+      },
+      "blocking_reasons": [],
+      "checks": {
+        "official_source_hash_matched": true,
+        "parser_roundtrip_matched": true,
+        "course_rows_reviewed": true,
+        "credit_requirements_reviewed": true,
+        "course_groups_reviewed": true,
+        "manual_rules_classified": true
+      }
+    },
+    {
+      "department_code": "B3040",
+      "department_name_zh": "資訊工程學系",
+      "decision": "ai_approved",
+      "source_hashes": {
+        "official-required-subjects-113-b3040": "36c78dca9aee5a28b1df9cfd65617c1a08f835e5a24a04dec578f11b0ae81a58"
+      },
+      "blocking_reasons": [],
+      "checks": {
+        "official_source_hash_matched": true,
+        "parser_roundtrip_matched": true,
+        "course_rows_reviewed": true,
+        "credit_requirements_reviewed": true,
+        "course_groups_reviewed": true,
+        "manual_rules_classified": true
+      }
+    },
+    {
+      "department_code": "B3080",
+      "department_name_zh": "材料與光電工程學系",
+      "decision": "manual_review_required",
+      "source_hashes": {
+        "official-required-subjects-113-b3080": "ccc13fc1ffec8e5f4feef68a9b205a1f94bdf5fb917ed8bbaa40a2bacaa1a9a1"
+      },
+      "blocking_reasons": [
+        "course_table_unavailable",
+        "empty_course_table",
+        "missing_minimum_graduation_credits"
+      ],
+      "checks": {
+        "official_source_hash_matched": true,
+        "parser_roundtrip_matched": true,
+        "course_rows_reviewed": false,
+        "credit_requirements_reviewed": false,
+        "course_groups_reviewed": false,
+        "manual_rules_classified": false
+      }
+    },
+    {
+      "department_code": "B3090",
+      "department_name_zh": "光電工程學系",
+      "decision": "ai_approved",
+      "source_hashes": {
+        "official-required-subjects-113-b3090": "9fa6ac86424608dc066fdeba106585d346d834c636311c8a942674a056f24143"
+      },
+      "blocking_reasons": [],
+      "checks": {
+        "official_source_hash_matched": true,
+        "parser_roundtrip_matched": true,
+        "course_rows_reviewed": true,
+        "credit_requirements_reviewed": true,
+        "course_groups_reviewed": true,
+        "manual_rules_classified": true
+      }
+    },
+    {
+      "department_code": "B3100",
+      "department_name_zh": "材料與光電科學學系",
+      "decision": "ai_approved",
+      "source_hashes": {
+        "official-required-subjects-113-b3100": "1945f81d3fef5205ebf74be97e58f545f7bb426d3ab31a6e04839fdc4a84710b"
+      },
+      "blocking_reasons": [],
+      "checks": {
+        "official_source_hash_matched": true,
+        "parser_roundtrip_matched": true,
+        "course_rows_reviewed": true,
+        "credit_requirements_reviewed": true,
+        "course_groups_reviewed": true,
+        "manual_rules_classified": true
+      }
+    },
+    {
+      "department_code": "B3240",
+      "department_name_zh": "資訊工程學系全英語學士班",
+      "decision": "ai_approved",
+      "source_hashes": {
+        "official-required-subjects-113-b3240": "c839e57ef032c73db8ef98d81cc289310b1249674ff82d581653d204592df0b8"
+      },
+      "blocking_reasons": [],
+      "checks": {
+        "official_source_hash_matched": true,
+        "parser_roundtrip_matched": true,
+        "course_rows_reviewed": true,
+        "credit_requirements_reviewed": true,
+        "course_groups_reviewed": true,
+        "manual_rules_classified": true
+      }
+    },
+    {
+      "department_code": "B4010",
+      "department_name_zh": "企業管理學系",
+      "decision": "ai_approved",
+      "source_hashes": {
+        "official-required-subjects-113-b4010": "f39afadcfe889dbc3d836f234e325c4c4b0837893feef31319634cbf752a9648"
+      },
+      "blocking_reasons": [],
+      "checks": {
+        "official_source_hash_matched": true,
+        "parser_roundtrip_matched": true,
+        "course_rows_reviewed": true,
+        "credit_requirements_reviewed": true,
+        "course_groups_reviewed": true,
+        "manual_rules_classified": true
+      }
+    },
+    {
+      "department_code": "B4020",
+      "department_name_zh": "資訊管理學系",
+      "decision": "ai_approved",
+      "source_hashes": {
+        "official-required-subjects-113-b4020": "19c03e083b8d40c3f64bb996a037b1b92d63ad185b1b4c8fa21b319380d1a71c"
+      },
+      "blocking_reasons": [],
+      "checks": {
+        "official_source_hash_matched": true,
+        "parser_roundtrip_matched": true,
+        "course_rows_reviewed": true,
+        "credit_requirements_reviewed": true,
+        "course_groups_reviewed": true,
+        "manual_rules_classified": true
+      }
+    },
+    {
+      "department_code": "B4030",
+      "department_name_zh": "財務管理學系",
+      "decision": "ai_approved",
+      "source_hashes": {
+        "official-required-subjects-113-b4030": "9510b1ddfb2eafd5fcde8f20b57194645010503c4d46b1dce1a35a2b00794476"
+      },
+      "blocking_reasons": [],
+      "checks": {
+        "official_source_hash_matched": true,
+        "parser_roundtrip_matched": true,
+        "course_rows_reviewed": true,
+        "credit_requirements_reviewed": true,
+        "course_groups_reviewed": true,
+        "manual_rules_classified": true
+      }
+    },
+    {
+      "department_code": "B4610",
+      "department_name_zh": "國際經營管理全英語學士學位學程",
+      "decision": "manual_review_required",
+      "source_hashes": {
+        "ibba-113": "5a0e502218e434e0c0fca1b6512c4dd8f6235d8c9afe393c22a08fc989a8a65b"
+      },
+      "blocking_reasons": [
+        "course_group_requires_review",
+        "non_generated_source_requires_review"
+      ],
+      "checks": {
+        "official_source_hash_matched": true,
+        "parser_roundtrip_matched": false,
+        "course_rows_reviewed": false,
+        "credit_requirements_reviewed": false,
+        "course_groups_reviewed": false,
+        "manual_rules_classified": false
+      }
+    },
+    {
+      "department_code": "B5020",
+      "department_name_zh": "海洋生物科技暨資源學系",
+      "decision": "ai_approved",
+      "source_hashes": {
+        "official-required-subjects-113-b5020": "a5b69f7f60e6800fd6f2e3268ea6c5f84ebe1a1f493da99e601d3397d7a17601"
+      },
+      "blocking_reasons": [],
+      "checks": {
+        "official_source_hash_matched": true,
+        "parser_roundtrip_matched": true,
+        "course_rows_reviewed": true,
+        "credit_requirements_reviewed": true,
+        "course_groups_reviewed": true,
+        "manual_rules_classified": true
+      }
+    },
+    {
+      "department_code": "B5040",
+      "department_name_zh": "海洋環境及工程學系",
+      "decision": "ai_approved",
+      "source_hashes": {
+        "official-required-subjects-113-b5040": "4a0b403c5f4d45f7798524e6f6066ea9463ab35db7d909b7507d849c8414697d"
+      },
+      "blocking_reasons": [],
+      "checks": {
+        "official_source_hash_matched": true,
+        "parser_roundtrip_matched": true,
+        "course_rows_reviewed": true,
+        "credit_requirements_reviewed": true,
+        "course_groups_reviewed": true,
+        "manual_rules_classified": true
+      }
+    },
+    {
+      "department_code": "B5090",
+      "department_name_zh": "海洋科學系",
+      "decision": "ai_approved",
+      "source_hashes": {
+        "official-required-subjects-113-b5090": "6e4cbfea3f68c817cf0a6532c0f182bd0fb20bde9b13c72899aa1078d8242bec"
+      },
+      "blocking_reasons": [],
+      "checks": {
+        "official_source_hash_matched": true,
+        "parser_roundtrip_matched": true,
+        "course_rows_reviewed": true,
+        "credit_requirements_reviewed": true,
+        "course_groups_reviewed": true,
+        "manual_rules_classified": true
+      }
+    },
+    {
+      "department_code": "B5610",
+      "department_name_zh": "海洋科學學士學位學程",
+      "decision": "manual_review_required",
+      "source_hashes": {
+        "official-required-subjects-113-b5610": "f82b3489cb315527e74f276f8e415dde607d3a0fbbf5b9af17f930c37e2296ee"
+      },
+      "blocking_reasons": [
+        "course_table_unavailable",
+        "empty_course_table",
+        "missing_minimum_graduation_credits"
+      ],
+      "checks": {
+        "official_source_hash_matched": true,
+        "parser_roundtrip_matched": true,
+        "course_rows_reviewed": false,
+        "credit_requirements_reviewed": false,
+        "course_groups_reviewed": false,
+        "manual_rules_classified": false
+      }
+    },
+    {
+      "department_code": "B6060",
+      "department_name_zh": "政治經濟學系",
+      "decision": "ai_approved",
+      "source_hashes": {
+        "official-required-subjects-113-b6060": "61417c6a5f0797a1b748b7fe2d8688fe3c26da963d97563c3e80b041f9b67f51"
+      },
+      "blocking_reasons": [],
+      "checks": {
+        "official_source_hash_matched": true,
+        "parser_roundtrip_matched": true,
+        "course_rows_reviewed": true,
+        "credit_requirements_reviewed": true,
+        "course_groups_reviewed": true,
+        "manual_rules_classified": true
+      }
+    },
+    {
+      "department_code": "B6090",
+      "department_name_zh": "社會學系",
+      "decision": "manual_review_required",
+      "source_hashes": {
+        "official-required-subjects-113-b6090": "24768021948d40a05eae3a7dfa488092dbccac4b2a1bc7f21f551226a5b69084"
+      },
+      "blocking_reasons": [
+        "course_group_requires_review"
+      ],
+      "checks": {
+        "official_source_hash_matched": true,
+        "parser_roundtrip_matched": true,
+        "course_rows_reviewed": false,
+        "credit_requirements_reviewed": false,
+        "course_groups_reviewed": false,
+        "manual_rules_classified": false
+      }
+    },
+    {
+      "department_code": "B7020",
+      "department_name_zh": "人文暨科技跨領域學系",
+      "decision": "manual_review_required",
+      "source_hashes": {
+        "official-required-subjects-113-b7020": "769a3a0869fdd97e5ae4f8c4f7071904e5fe3c4c52f81818698c3f5fdb9e659c"
+      },
+      "blocking_reasons": [
+        "course_table_unavailable",
+        "empty_course_table",
+        "missing_minimum_graduation_credits"
+      ],
+      "checks": {
+        "official_source_hash_matched": true,
+        "parser_roundtrip_matched": true,
+        "course_rows_reviewed": false,
+        "credit_requirements_reviewed": false,
+        "course_groups_reviewed": false,
+        "manual_rules_classified": false
+      }
+    },
+    {
+      "department_code": "B7610",
+      "department_name_zh": "人文暨科技跨領域學士學位學程",
+      "decision": "ai_approved",
+      "source_hashes": {
+        "official-required-subjects-113-b7610": "8e31f17a37cb58e0257f12731a967719246518f3c3ac2d3eb862de1fd42fc42f"
+      },
+      "blocking_reasons": [],
+      "checks": {
+        "official_source_hash_matched": true,
+        "parser_roundtrip_matched": true,
+        "course_rows_reviewed": true,
+        "credit_requirements_reviewed": true,
+        "course_groups_reviewed": true,
+        "manual_rules_classified": true
+      }
+    },
+    {
+      "department_code": "B7620",
+      "department_name_zh": "國際跨域學士學位學程原住民族專班",
+      "decision": "manual_review_required",
+      "source_hashes": {
+        "official-required-subjects-113-b7620": "21a1c5e21661117857f51afb53c3a9a554c640983747a0c221261c8a9c737321"
+      },
+      "blocking_reasons": [
+        "course_table_unavailable",
+        "empty_course_table",
+        "missing_minimum_graduation_credits"
+      ],
+      "checks": {
+        "official_source_hash_matched": true,
+        "parser_roundtrip_matched": true,
+        "course_rows_reviewed": false,
+        "credit_requirements_reviewed": false,
+        "course_groups_reviewed": false,
+        "manual_rules_classified": false
+      }
+    },
+    {
+      "department_code": "B8010",
+      "department_name_zh": "學士後醫學系",
+      "decision": "manual_review_required",
+      "source_hashes": {
+        "official-required-subjects-113-b8010": "2f046208e8375cae349f6c3aa67b9dba4680a17cf32066abaca6c286dfaf0cf6"
+      },
+      "blocking_reasons": [
+        "course_credit_unknown",
+        "course_row_requires_review"
+      ],
+      "checks": {
+        "official_source_hash_matched": true,
+        "parser_roundtrip_matched": true,
+        "course_rows_reviewed": false,
+        "credit_requirements_reviewed": false,
+        "course_groups_reviewed": false,
+        "manual_rules_classified": false
+      }
+    },
+    {
+      "department_code": "B8060",
+      "department_name_zh": "生物醫學科技學系全英語學士班",
+      "decision": "ai_approved",
+      "source_hashes": {
+        "official-required-subjects-113-b8060": "0be014d8531a1d229bfd1d12959ae441910a3b17ddc9b37e3ef26015b5ad97cf"
+      },
+      "blocking_reasons": [],
+      "checks": {
+        "official_source_hash_matched": true,
+        "parser_roundtrip_matched": true,
+        "course_rows_reviewed": true,
+        "credit_requirements_reviewed": true,
+        "course_groups_reviewed": true,
+        "manual_rules_classified": true
+      }
+    },
+    {
+      "department_code": "B8070",
+      "department_name_zh": "護理學系",
+      "decision": "manual_review_required",
+      "source_hashes": {
+        "official-required-subjects-113-b8070": "95d632fde703958112b92487fa2cff4310f1912101de2a285173d2c5ea65c147"
+      },
+      "blocking_reasons": [
+        "course_table_unavailable",
+        "empty_course_table",
+        "missing_minimum_graduation_credits"
+      ],
+      "checks": {
+        "official_source_hash_matched": true,
+        "parser_roundtrip_matched": true,
+        "course_rows_reviewed": false,
+        "credit_requirements_reviewed": false,
+        "course_groups_reviewed": false,
+        "manual_rules_classified": false
+      }
+    }
+  ]
+}

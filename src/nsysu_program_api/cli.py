@@ -8,7 +8,10 @@ from pathlib import Path
 from .core import load_json, write_json
 from .evaluator import evaluate
 from .graduation import build_graduation_api, fetch_graduation_requirements
-from .graduation_rule_fetch import fetch_department_graduation_rules
+from .graduation_rule_fetch import (
+    fetch_department_graduation_rules,
+    sync_department_graduation_rules,
+)
 from .graduation_rules import build_graduation_rules_api
 from .pipeline import build_api, fetch_catalog, process_pdfs, semantic_diff
 
@@ -18,6 +21,8 @@ def main() -> None:
     parser.add_argument("--root", type=Path, default=Path.cwd())
     parser.add_argument("--academic-version", default="115-1")
     parser.add_argument("--entry-year", default="115")
+    parser.add_argument("--start-entry-year", default="112")
+    parser.add_argument("--end-entry-year")
     parser.add_argument(
         "--user-agent",
         default=os.getenv(
@@ -33,6 +38,7 @@ def main() -> None:
     sub.add_parser("graduation-fetch")
     sub.add_parser("graduation-build")
     sub.add_parser("graduation-rules-fetch")
+    sub.add_parser("graduation-rules-sync")
     sub.add_parser("graduation-rules-build")
     diff = sub.add_parser("diff")
     diff.add_argument("old", type=Path)
@@ -72,6 +78,18 @@ def main() -> None:
         )
         fetched["api"] = build_graduation_rules_api(root)
         result = fetched
+    elif args.command == "graduation-rules-sync":
+        synced = sync_department_graduation_rules(
+            root,
+            args.user_agent,
+            start_entry_year=args.start_entry_year,
+            end_entry_year=args.end_entry_year,
+        )
+        synced["graduation_requirements_api"] = build_graduation_api(
+            root, synced["latest_entry_year"]
+        )
+        synced["graduation_rules_api"] = build_graduation_rules_api(root)
+        result = synced
     elif args.command == "graduation-rules-build":
         result = build_graduation_rules_api(root)
     elif args.command == "diff":

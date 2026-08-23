@@ -1,0 +1,463 @@
+{
+  "schema_version": "1.0",
+  "rule_set_id": "nsysu-115-bachelor-B8060",
+  "rule_type": "department",
+  "entry_year": "115",
+  "degree_level": "bachelor",
+  "department_code": "B8060",
+  "department_name_zh": "生物醫學科技學系全英語學士班",
+  "department_name_en": null,
+  "common_rule_ref": "../../common/113-plus.json",
+  "review_status": "manual_review_required",
+  "reviewed_at": "2026-08-22",
+  "coverage": "partial",
+  "credit_requirements": {
+    "minimum_graduation_credits": 128,
+    "minimum_required_credits": null,
+    "minimum_elective_credits": null,
+    "minimum_department_elective_credits": 33.0,
+    "minimum_department_professional_credits": 61.0
+  },
+  "sources": [
+    {
+      "source_id": "official-required-subjects-115-b8060",
+      "title": "國立中山大學必修科目表（115學年度入學新生適用）－生物醫學科技學系全英語學士班",
+      "url": "https://selcrs.nsysu.edu.tw/stu_query/crs_mst_qry/crs_mst_query.asp?action=3&YY1=115&DPT1=B8060",
+      "document_type": "html",
+      "reviewed_at": "2026-08-22",
+      "sha256": "abfbfa946fe8a6d883d09cea13b6fdf81f384666258ad2c3e00d905b20ef7a67"
+    }
+  ],
+  "courses": [
+    {
+      "course_id": "b8060_d68d585dd2b2",
+      "canonical_name_zh": "普通物理(一)",
+      "canonical_name_en": null,
+      "known_aliases": [],
+      "credits": 3.0,
+      "curriculumRequirement": "department_core",
+      "recommendedYear": 1,
+      "recommendedSemester": "fall",
+      "source_document": "official-required-subjects-115-b8060",
+      "notes": [
+        "官方必修科目表未提供英文課名，故不自行翻譯。"
+      ],
+      "alternatives": [],
+      "manual_review_required": false
+    },
+    {
+      "course_id": "b8060_965a3745dbbf",
+      "canonical_name_zh": "普通物理實驗(一)",
+      "canonical_name_en": null,
+      "known_aliases": [],
+      "credits": 1.0,
+      "curriculumRequirement": "department_core",
+      "recommendedYear": 1,
+      "recommendedSemester": "fall",
+      "source_document": "official-required-subjects-115-b8060",
+      "notes": [
+        "官方必修科目表未提供英文課名，故不自行翻譯。"
+      ],
+      "alternatives": [],
+      "manual_review_required": false
+    },
+    {
+      "course_id": "b8060_9507450bd5c5",
+      "canonical_name_zh": "普通生物學",
+      "canonical_name_en": null,
+      "known_aliases": [],
+      "credits": 3.0,
+      "curriculumRequirement": "department_core",
+      "recommendedYear": 1,
+      "recommendedSemester": "fall",
+      "source_document": "official-required-subjects-115-b8060",
+      "notes": [
+        "官方必修科目表未提供英文課名，故不自行翻譯。"
+      ],
+      "alternatives": [],
+      "manual_review_required": false
+    },
+    {
+      "course_id": "b8060_2b7ba2145a67",
+      "canonical_name_zh": "普通生物學實驗",
+      "canonical_name_en": null,
+      "known_aliases": [],
+      "credits": 1.0,
+      "curriculumRequirement": "department_core",
+      "recommendedYear": 1,
+      "recommendedSemester": "fall",
+      "source_document": "official-required-subjects-115-b8060",
+      "notes": [
+        "官方必修科目表未提供英文課名，故不自行翻譯。"
+      ],
+      "alternatives": [],
+      "manual_review_required": false
+    },
+    {
+      "course_id": "b8060_2aaf9e0aaeee",
+      "canonical_name_zh": "微積分(一)",
+      "canonical_name_en": null,
+      "known_aliases": [],
+      "credits": 3.0,
+      "curriculumRequirement": "department_core",
+      "recommendedYear": 1,
+      "recommendedSemester": "fall",
+      "source_document": "official-required-subjects-115-b8060",
+      "notes": [
+        "官方必修科目表未提供英文課名，故不自行翻譯。"
+      ],
+      "alternatives": [],
+      "manual_review_required": false
+    },
+    {
+      "course_id": "b8060_d73cef4013f6",
+      "canonical_name_zh": "材料科學導論",
+      "canonical_name_en": null,
+      "known_aliases": [],
+      "credits": 3.0,
+      "curriculumRequirement": "department_core",
+      "recommendedYear": 1,
+      "recommendedSemester": "fall",
+      "source_document": "official-required-subjects-115-b8060",
+      "notes": [
+        "官方必修科目表未提供英文課名，故不自行翻譯。"
+      ],
+      "alternatives": [],
+      "manual_review_required": false
+    },
+    {
+      "course_id": "b8060_c718f5a2f76e",
+      "canonical_name_zh": "普通化學",
+      "canonical_name_en": null,
+      "known_aliases": [],
+      "credits": 3.0,
+      "curriculumRequirement": "department_core",
+      "recommendedYear": 1,
+      "recommendedSemester": "spring",
+      "source_document": "official-required-subjects-115-b8060",
+      "notes": [
+        "官方必修科目表未提供英文課名，故不自行翻譯。"
+      ],
+      "alternatives": [],
+      "manual_review_required": false
+    },
+    {
+      "course_id": "b8060_0c74d45f7607",
+      "canonical_name_zh": "普通化學實驗",
+      "canonical_name_en": null,
+      "known_aliases": [],
+      "credits": 1.0,
+      "curriculumRequirement": "department_core",
+      "recommendedYear": 1,
+      "recommendedSemester": "spring",
+      "source_document": "official-required-subjects-115-b8060",
+      "notes": [
+        "官方必修科目表未提供英文課名，故不自行翻譯。"
+      ],
+      "alternatives": [],
+      "manual_review_required": false
+    },
+    {
+      "course_id": "b8060_5abc2f6e64ce",
+      "canonical_name_zh": "計算機程式",
+      "canonical_name_en": null,
+      "known_aliases": [],
+      "credits": 3.0,
+      "curriculumRequirement": "department_core",
+      "recommendedYear": 1,
+      "recommendedSemester": "spring",
+      "source_document": "official-required-subjects-115-b8060",
+      "notes": [
+        "官方必修科目表未提供英文課名，故不自行翻譯。"
+      ],
+      "alternatives": [],
+      "manual_review_required": false
+    },
+    {
+      "course_id": "b8060_d3499ba3246c",
+      "canonical_name_zh": "奈米生物科技概論",
+      "canonical_name_en": null,
+      "known_aliases": [],
+      "credits": 3.0,
+      "curriculumRequirement": "department_core",
+      "recommendedYear": 1,
+      "recommendedSemester": "spring",
+      "source_document": "official-required-subjects-115-b8060",
+      "notes": [
+        "官方必修科目表未提供英文課名，故不自行翻譯。"
+      ],
+      "alternatives": [],
+      "manual_review_required": false
+    },
+    {
+      "course_id": "b8060_9fcaad8152c4",
+      "canonical_name_zh": "生醫訊號處理",
+      "canonical_name_en": null,
+      "known_aliases": [],
+      "credits": 3.0,
+      "curriculumRequirement": "department_core",
+      "recommendedYear": 2,
+      "recommendedSemester": "fall",
+      "source_document": "official-required-subjects-115-b8060",
+      "notes": [
+        "官方必修科目表未提供英文課名，故不自行翻譯。"
+      ],
+      "alternatives": [],
+      "manual_review_required": false
+    },
+    {
+      "course_id": "b8060_0ce1e015db74",
+      "canonical_name_zh": "有機化學",
+      "canonical_name_en": null,
+      "known_aliases": [],
+      "credits": 3.0,
+      "curriculumRequirement": "department_core",
+      "recommendedYear": 2,
+      "recommendedSemester": "fall",
+      "source_document": "official-required-subjects-115-b8060",
+      "notes": [
+        "官方必修科目表未提供英文課名，故不自行翻譯。"
+      ],
+      "alternatives": [],
+      "manual_review_required": false
+    },
+    {
+      "course_id": "b8060_decba4cb1d38",
+      "canonical_name_zh": "生物醫學科技導論",
+      "canonical_name_en": null,
+      "known_aliases": [],
+      "credits": 2.0,
+      "curriculumRequirement": "department_core",
+      "recommendedYear": 2,
+      "recommendedSemester": "fall",
+      "source_document": "official-required-subjects-115-b8060",
+      "notes": [
+        "官方必修科目表未提供英文課名，故不自行翻譯。"
+      ],
+      "alternatives": [],
+      "manual_review_required": false
+    },
+    {
+      "course_id": "b8060_fe5e186921c0",
+      "canonical_name_zh": "統計學",
+      "canonical_name_en": null,
+      "known_aliases": [],
+      "credits": 3.0,
+      "curriculumRequirement": "department_core",
+      "recommendedYear": 2,
+      "recommendedSemester": "spring",
+      "source_document": "official-required-subjects-115-b8060",
+      "notes": [
+        "官方必修科目表未提供英文課名，故不自行翻譯。"
+      ],
+      "alternatives": [],
+      "manual_review_required": false
+    },
+    {
+      "course_id": "b8060_cdc324173e37",
+      "canonical_name_zh": "生物化學",
+      "canonical_name_en": null,
+      "known_aliases": [],
+      "credits": 3.0,
+      "curriculumRequirement": "department_core",
+      "recommendedYear": 2,
+      "recommendedSemester": "spring",
+      "source_document": "official-required-subjects-115-b8060",
+      "notes": [
+        "官方必修科目表未提供英文課名，故不自行翻譯。"
+      ],
+      "alternatives": [],
+      "manual_review_required": false
+    },
+    {
+      "course_id": "b8060_3312f85e86b1",
+      "canonical_name_zh": "解剖學(含實驗)",
+      "canonical_name_en": null,
+      "known_aliases": [],
+      "credits": 3.0,
+      "curriculumRequirement": "department_core",
+      "recommendedYear": 2,
+      "recommendedSemester": "spring",
+      "source_document": "official-required-subjects-115-b8060",
+      "notes": [
+        "官方必修科目表未提供英文課名，故不自行翻譯。"
+      ],
+      "alternatives": [],
+      "manual_review_required": false
+    },
+    {
+      "course_id": "b8060_3bef8d901fff",
+      "canonical_name_zh": "醫學影像處理",
+      "canonical_name_en": null,
+      "known_aliases": [],
+      "credits": 3.0,
+      "curriculumRequirement": "department_core",
+      "recommendedYear": 2,
+      "recommendedSemester": "spring",
+      "source_document": "official-required-subjects-115-b8060",
+      "notes": [
+        "官方必修科目表未提供英文課名，故不自行翻譯。"
+      ],
+      "alternatives": [],
+      "manual_review_required": false
+    },
+    {
+      "course_id": "b8060_347778599f64",
+      "canonical_name_zh": "分子生物學",
+      "canonical_name_en": null,
+      "known_aliases": [],
+      "credits": 3.0,
+      "curriculumRequirement": "department_core",
+      "recommendedYear": 3,
+      "recommendedSemester": "fall",
+      "source_document": "official-required-subjects-115-b8060",
+      "notes": [
+        "官方必修科目表未提供英文課名，故不自行翻譯。"
+      ],
+      "alternatives": [],
+      "manual_review_required": false
+    },
+    {
+      "course_id": "b8060_ed664ea2387a",
+      "canonical_name_zh": "機器學習與實作",
+      "canonical_name_en": null,
+      "known_aliases": [],
+      "credits": 3.0,
+      "curriculumRequirement": "department_core",
+      "recommendedYear": 3,
+      "recommendedSemester": "fall",
+      "source_document": "official-required-subjects-115-b8060",
+      "notes": [
+        "官方必修科目表未提供英文課名，故不自行翻譯。"
+      ],
+      "alternatives": [],
+      "manual_review_required": false
+    },
+    {
+      "course_id": "b8060_80dec021a466",
+      "canonical_name_zh": "細胞生物學",
+      "canonical_name_en": null,
+      "known_aliases": [],
+      "credits": 3.0,
+      "curriculumRequirement": "department_core",
+      "recommendedYear": 3,
+      "recommendedSemester": "fall",
+      "source_document": "official-required-subjects-115-b8060",
+      "notes": [
+        "官方必修科目表未提供英文課名，故不自行翻譯。"
+      ],
+      "alternatives": [],
+      "manual_review_required": false
+    },
+    {
+      "course_id": "b8060_70edfbd8641b",
+      "canonical_name_zh": "生理學",
+      "canonical_name_en": null,
+      "known_aliases": [],
+      "credits": 3.0,
+      "curriculumRequirement": "department_core",
+      "recommendedYear": 3,
+      "recommendedSemester": "spring",
+      "source_document": "official-required-subjects-115-b8060",
+      "notes": [
+        "官方必修科目表未提供英文課名，故不自行翻譯。"
+      ],
+      "alternatives": [],
+      "manual_review_required": false
+    },
+    {
+      "course_id": "b8060_5aae37268bbe",
+      "canonical_name_zh": "生物醫學科技實務",
+      "canonical_name_en": null,
+      "known_aliases": [],
+      "credits": 1.0,
+      "curriculumRequirement": "department_core",
+      "recommendedYear": 3,
+      "recommendedSemester": "spring",
+      "source_document": "official-required-subjects-115-b8060",
+      "notes": [
+        "官方必修科目表未提供英文課名，故不自行翻譯。"
+      ],
+      "alternatives": [],
+      "manual_review_required": false
+    },
+    {
+      "course_id": "b8060_286a3a052889",
+      "canonical_name_zh": "生物資訊學",
+      "canonical_name_en": null,
+      "known_aliases": [],
+      "credits": 3.0,
+      "curriculumRequirement": "department_core",
+      "recommendedYear": 3,
+      "recommendedSemester": "spring",
+      "source_document": "official-required-subjects-115-b8060",
+      "notes": [
+        "官方必修科目表未提供英文課名，故不自行翻譯。"
+      ],
+      "alternatives": [],
+      "manual_review_required": false
+    },
+    {
+      "course_id": "b8060_ffa47a887d0a",
+      "canonical_name_zh": "書報討論",
+      "canonical_name_en": null,
+      "known_aliases": [],
+      "credits": 1.0,
+      "curriculumRequirement": "department_core",
+      "recommendedYear": 4,
+      "recommendedSemester": "fall",
+      "source_document": "official-required-subjects-115-b8060",
+      "notes": [
+        "官方必修科目表未提供英文課名，故不自行翻譯。"
+      ],
+      "alternatives": [],
+      "manual_review_required": false
+    }
+  ],
+  "course_groups": [],
+  "prerequisites": [],
+  "non_duplicated_counting_groups": [],
+  "manual_review_rules": [
+    {
+      "rule_id": "b8060_official_table_review_pending",
+      "description": "官方必修科目表已轉為結構化候選，但尚未完成逐列雙人覆核。",
+      "reason": "自動解析可保存表格內容，不能單獨證明跨欄、附註與特殊身分條件已完整建模。",
+      "source_document": "official-required-subjects-115-b8060",
+      "resolution": "逐列對照官方表，確認課名、學分、建議學期、分組與所有附註後再改為reviewed。"
+    },
+    {
+      "rule_id": "b8060_course_regulation_01",
+      "description": "3.本系最低畢業學分數:128;本系專業必修61學分。",
+      "reason": "這是系所特有條款，可能包含組別、領域、授課語言、檢定、抵免或審查條件，現有課程完成狀態不足以自動證明。",
+      "source_document": "official-required-subjects-115-b8060",
+      "resolution": "依本條所述身分與課程屬性逐項查核；在ClearGrad尚未支援對應屬性前，不可自動標示已完成。"
+    },
+    {
+      "rule_id": "b8060_course_regulation_02",
+      "description": "4.最低畢業學分數內,至少包含本系選修課程33學分,本系專業選修需跨組選修至少2門課。",
+      "reason": "這是系所特有條款，可能包含組別、領域、授課語言、檢定、抵免或審查條件，現有課程完成狀態不足以自動證明。",
+      "source_document": "official-required-subjects-115-b8060",
+      "resolution": "依本條所述身分與課程屬性逐項查核；在ClearGrad尚未支援對應屬性前，不可自動標示已完成。"
+    },
+    {
+      "rule_id": "b8060_course_regulation_03",
+      "description": "5.本系專業必修應修習全英語課程,專業必修課程第三次修習始可改修中文課程。",
+      "reason": "這是系所特有條款，可能包含組別、領域、授課語言、檢定、抵免或審查條件，現有課程完成狀態不足以自動證明。",
+      "source_document": "official-required-subjects-115-b8060",
+      "resolution": "依本條所述身分與課程屬性逐項查核；在ClearGrad尚未支援對應屬性前，不可自動標示已完成。"
+    }
+  ],
+  "additional_credit_rules": [
+    {
+      "rule_id": "b8060_foreign_secondary_grade2_equivalent",
+      "admission_statuses": [
+        "國外或香港澳門地區同級同類學校畢業年級相當於國內高級中等學校二年級，並以同等學力入學"
+      ],
+      "additional_credits": 12,
+      "source_document": "official-required-subjects-115-b8060",
+      "notes": [
+        "官方修課規定明載在原訂畢業應修學分之外增加12學分。"
+      ]
+    }
+  ]
+}

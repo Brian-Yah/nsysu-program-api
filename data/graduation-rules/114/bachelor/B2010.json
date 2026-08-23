@@ -1,0 +1,479 @@
+{
+  "schema_version": "1.0",
+  "rule_set_id": "nsysu-114-bachelor-B2010",
+  "rule_type": "department",
+  "entry_year": "114",
+  "degree_level": "bachelor",
+  "department_code": "B2010",
+  "department_name_zh": "生物科學系",
+  "department_name_en": null,
+  "common_rule_ref": "../../common/113-plus.json",
+  "review_status": "manual_review_required",
+  "reviewed_at": "2026-08-22",
+  "coverage": "partial",
+  "credit_requirements": {
+    "minimum_graduation_credits": 128,
+    "minimum_required_credits": null,
+    "minimum_elective_credits": null,
+    "minimum_department_elective_credits": null,
+    "minimum_department_professional_credits": 45.0
+  },
+  "sources": [
+    {
+      "source_id": "official-required-subjects-114-b2010",
+      "title": "國立中山大學必修科目表（114學年度入學新生適用）－生物科學系",
+      "url": "https://selcrs.nsysu.edu.tw/stu_query/crs_mst_qry/crs_mst_query.asp?action=3&YY1=114&DPT1=B2010",
+      "document_type": "html",
+      "reviewed_at": "2026-08-22",
+      "sha256": "2d17e4520b89acb5ab04f7ca07cc4e551ee6d356ddccb8e007f2d360554f9c5e"
+    }
+  ],
+  "courses": [
+    {
+      "course_id": "b2010_8d76cf76546a",
+      "canonical_name_zh": "普通生物學(一)",
+      "canonical_name_en": null,
+      "known_aliases": [],
+      "credits": 4.0,
+      "curriculumRequirement": "department_core",
+      "recommendedYear": 1,
+      "recommendedSemester": "fall",
+      "source_document": "official-required-subjects-114-b2010",
+      "notes": [
+        "官方必修科目表未提供英文課名，故不自行翻譯。"
+      ],
+      "alternatives": [],
+      "manual_review_required": false
+    },
+    {
+      "course_id": "b2010_d0b3f94bfbc3",
+      "canonical_name_zh": "普通生物學(二)",
+      "canonical_name_en": null,
+      "known_aliases": [],
+      "credits": 4.0,
+      "curriculumRequirement": "department_core",
+      "recommendedYear": 1,
+      "recommendedSemester": "spring",
+      "source_document": "official-required-subjects-114-b2010",
+      "notes": [
+        "官方必修科目表未提供英文課名，故不自行翻譯。"
+      ],
+      "alternatives": [],
+      "manual_review_required": false
+    },
+    {
+      "course_id": "b2010_dcc2fb91521e",
+      "canonical_name_zh": "普通生物學實驗(一)",
+      "canonical_name_en": null,
+      "known_aliases": [],
+      "credits": 1.0,
+      "curriculumRequirement": "department_core",
+      "recommendedYear": 1,
+      "recommendedSemester": "fall",
+      "source_document": "official-required-subjects-114-b2010",
+      "notes": [
+        "官方必修科目表未提供英文課名，故不自行翻譯。"
+      ],
+      "alternatives": [],
+      "manual_review_required": false
+    },
+    {
+      "course_id": "b2010_fb20ddb77856",
+      "canonical_name_zh": "普通生物學實驗(二)",
+      "canonical_name_en": null,
+      "known_aliases": [],
+      "credits": 1.0,
+      "curriculumRequirement": "department_core",
+      "recommendedYear": 1,
+      "recommendedSemester": "spring",
+      "source_document": "official-required-subjects-114-b2010",
+      "notes": [
+        "官方必修科目表未提供英文課名，故不自行翻譯。"
+      ],
+      "alternatives": [],
+      "manual_review_required": false
+    },
+    {
+      "course_id": "b2010_c718f5a2f76e",
+      "canonical_name_zh": "普通化學",
+      "canonical_name_en": null,
+      "known_aliases": [],
+      "credits": 3.0,
+      "curriculumRequirement": "department_core",
+      "recommendedYear": 1,
+      "recommendedSemester": "fall",
+      "source_document": "official-required-subjects-114-b2010",
+      "notes": [
+        "官方必修科目表未提供英文課名，故不自行翻譯。"
+      ],
+      "alternatives": [],
+      "manual_review_required": false
+    },
+    {
+      "course_id": "b2010_0c74d45f7607",
+      "canonical_name_zh": "普通化學實驗",
+      "canonical_name_en": null,
+      "known_aliases": [],
+      "credits": 1.0,
+      "curriculumRequirement": "department_core",
+      "recommendedYear": 1,
+      "recommendedSemester": "fall",
+      "source_document": "official-required-subjects-114-b2010",
+      "notes": [
+        "官方必修科目表未提供英文課名，故不自行翻譯。"
+      ],
+      "alternatives": [],
+      "manual_review_required": false
+    },
+    {
+      "course_id": "b2010_61a6baa4af7a",
+      "canonical_name_zh": "有機化學(一)",
+      "canonical_name_en": null,
+      "known_aliases": [],
+      "credits": 2.0,
+      "curriculumRequirement": "department_core",
+      "recommendedYear": 1,
+      "recommendedSemester": "spring",
+      "source_document": "official-required-subjects-114-b2010",
+      "notes": [
+        "官方必修科目表未提供英文課名，故不自行翻譯。"
+      ],
+      "alternatives": [],
+      "manual_review_required": false
+    },
+    {
+      "course_id": "b2010_801623003a7f",
+      "canonical_name_zh": "有機化學實驗(一)",
+      "canonical_name_en": null,
+      "known_aliases": [],
+      "credits": 1.0,
+      "curriculumRequirement": "department_core",
+      "recommendedYear": 1,
+      "recommendedSemester": "spring",
+      "source_document": "official-required-subjects-114-b2010",
+      "notes": [
+        "官方必修科目表未提供英文課名，故不自行翻譯。"
+      ],
+      "alternatives": [],
+      "manual_review_required": false
+    },
+    {
+      "course_id": "b2010_1dbfb639d736",
+      "canonical_name_zh": "微積分",
+      "canonical_name_en": null,
+      "known_aliases": [],
+      "credits": 3.0,
+      "curriculumRequirement": "department_core",
+      "recommendedYear": 1,
+      "recommendedSemester": "fall",
+      "source_document": "official-required-subjects-114-b2010",
+      "notes": [
+        "官方必修科目表未提供英文課名，故不自行翻譯。"
+      ],
+      "alternatives": [],
+      "manual_review_required": false
+    },
+    {
+      "course_id": "b2010_51b9943fa639",
+      "canonical_name_zh": "基礎物理",
+      "canonical_name_en": null,
+      "known_aliases": [],
+      "credits": 3.0,
+      "curriculumRequirement": "department_core",
+      "recommendedYear": 1,
+      "recommendedSemester": "spring",
+      "source_document": "official-required-subjects-114-b2010",
+      "notes": [
+        "官方必修科目表未提供英文課名，故不自行翻譯。"
+      ],
+      "alternatives": [],
+      "manual_review_required": false
+    },
+    {
+      "course_id": "b2010_aa46a909f2c2",
+      "canonical_name_zh": "有機化學(二)",
+      "canonical_name_en": null,
+      "known_aliases": [],
+      "credits": 2.0,
+      "curriculumRequirement": "department_core",
+      "recommendedYear": 2,
+      "recommendedSemester": "fall",
+      "source_document": "official-required-subjects-114-b2010",
+      "notes": [
+        "官方必修科目表未提供英文課名，故不自行翻譯。"
+      ],
+      "alternatives": [],
+      "manual_review_required": false
+    },
+    {
+      "course_id": "b2010_0db2799fe954",
+      "canonical_name_zh": "有機化學實驗(二)",
+      "canonical_name_en": null,
+      "known_aliases": [],
+      "credits": 1.0,
+      "curriculumRequirement": "department_core",
+      "recommendedYear": 2,
+      "recommendedSemester": "fall",
+      "source_document": "official-required-subjects-114-b2010",
+      "notes": [
+        "官方必修科目表未提供英文課名，故不自行翻譯。"
+      ],
+      "alternatives": [],
+      "manual_review_required": false
+    },
+    {
+      "course_id": "b2010_f00ebbc73592",
+      "canonical_name_zh": "生物化學(一)",
+      "canonical_name_en": null,
+      "known_aliases": [],
+      "credits": 3.0,
+      "curriculumRequirement": "department_core",
+      "recommendedYear": 2,
+      "recommendedSemester": "fall",
+      "source_document": "official-required-subjects-114-b2010",
+      "notes": [
+        "官方必修科目表未提供英文課名，故不自行翻譯。"
+      ],
+      "alternatives": [],
+      "manual_review_required": false
+    },
+    {
+      "course_id": "b2010_7cad093dbe84",
+      "canonical_name_zh": "生物統計學",
+      "canonical_name_en": null,
+      "known_aliases": [],
+      "credits": 3.0,
+      "curriculumRequirement": "department_core",
+      "recommendedYear": 2,
+      "recommendedSemester": "fall",
+      "source_document": "official-required-subjects-114-b2010",
+      "notes": [
+        "官方必修科目表未提供英文課名，故不自行翻譯。"
+      ],
+      "alternatives": [],
+      "manual_review_required": false
+    },
+    {
+      "course_id": "b2010_d41c9195e0be",
+      "canonical_name_zh": "生物技術實驗",
+      "canonical_name_en": null,
+      "known_aliases": [],
+      "credits": 2.0,
+      "curriculumRequirement": "department_core",
+      "recommendedYear": 2,
+      "recommendedSemester": "spring",
+      "source_document": "official-required-subjects-114-b2010",
+      "notes": [
+        "官方必修科目表未提供英文課名，故不自行翻譯。"
+      ],
+      "alternatives": [],
+      "manual_review_required": false
+    },
+    {
+      "course_id": "b2010_d1a89772d57b",
+      "canonical_name_zh": "生態學",
+      "canonical_name_en": null,
+      "known_aliases": [],
+      "credits": 3.0,
+      "curriculumRequirement": "department_core",
+      "recommendedYear": 2,
+      "recommendedSemester": "spring",
+      "source_document": "official-required-subjects-114-b2010",
+      "notes": [
+        "官方必修科目表未提供英文課名，故不自行翻譯。"
+      ],
+      "alternatives": [],
+      "manual_review_required": false
+    },
+    {
+      "course_id": "b2010_4fee556b6447",
+      "canonical_name_zh": "書報討論(一)",
+      "canonical_name_en": null,
+      "known_aliases": [],
+      "credits": 1.0,
+      "curriculumRequirement": "department_core",
+      "recommendedYear": 4,
+      "recommendedSemester": "fall",
+      "source_document": "official-required-subjects-114-b2010",
+      "notes": [
+        "官方必修科目表未提供英文課名，故不自行翻譯。"
+      ],
+      "alternatives": [],
+      "manual_review_required": false
+    },
+    {
+      "course_id": "b2010_e347d7b985e6",
+      "canonical_name_zh": "書報討論(二)",
+      "canonical_name_en": null,
+      "known_aliases": [],
+      "credits": 1.0,
+      "curriculumRequirement": "department_core",
+      "recommendedYear": 4,
+      "recommendedSemester": "spring",
+      "source_document": "official-required-subjects-114-b2010",
+      "notes": [
+        "官方必修科目表未提供英文課名，故不自行翻譯。"
+      ],
+      "alternatives": [],
+      "manual_review_required": false
+    },
+    {
+      "course_id": "b2010_198381a8c784",
+      "canonical_name_zh": "遺傳學",
+      "canonical_name_en": null,
+      "known_aliases": [],
+      "credits": 3.0,
+      "curriculumRequirement": "department_group_elective",
+      "recommendedYear": 2,
+      "recommendedSemester": "spring",
+      "source_document": "official-required-subjects-114-b2010",
+      "notes": [
+        "官方必修科目表未提供英文課名，故不自行翻譯。"
+      ],
+      "alternatives": [],
+      "manual_review_required": false
+    },
+    {
+      "course_id": "b2010_347778599f64",
+      "canonical_name_zh": "分子生物學",
+      "canonical_name_en": null,
+      "known_aliases": [],
+      "credits": 3.0,
+      "curriculumRequirement": "department_group_elective",
+      "recommendedYear": 3,
+      "recommendedSemester": "fall",
+      "source_document": "official-required-subjects-114-b2010",
+      "notes": [
+        "官方必修科目表未提供英文課名，故不自行翻譯。"
+      ],
+      "alternatives": [],
+      "manual_review_required": false
+    },
+    {
+      "course_id": "b2010_bf08a01b9584",
+      "canonical_name_zh": "演化生物學",
+      "canonical_name_en": null,
+      "known_aliases": [],
+      "credits": 3.0,
+      "curriculumRequirement": "department_group_elective",
+      "recommendedYear": 3,
+      "recommendedSemester": "fall",
+      "source_document": "official-required-subjects-114-b2010",
+      "notes": [
+        "官方必修科目表未提供英文課名，故不自行翻譯。"
+      ],
+      "alternatives": [],
+      "manual_review_required": false
+    },
+    {
+      "course_id": "b2010_80dec021a466",
+      "canonical_name_zh": "細胞生物學",
+      "canonical_name_en": null,
+      "known_aliases": [],
+      "credits": 3.0,
+      "curriculumRequirement": "department_group_elective",
+      "recommendedYear": 3,
+      "recommendedSemester": "spring",
+      "source_document": "official-required-subjects-114-b2010",
+      "notes": [
+        "官方必修科目表未提供英文課名，故不自行翻譯。"
+      ],
+      "alternatives": [],
+      "manual_review_required": false
+    }
+  ],
+  "course_groups": [
+    {
+      "group_id": "b2010_group_a",
+      "name_zh": "分組必修 (選修學程)（A組）",
+      "name_en": null,
+      "rule_kind": "choose_n_from_m",
+      "course_ids": [
+        "b2010_198381a8c784",
+        "b2010_347778599f64"
+      ],
+      "minimum_courses": 1,
+      "maximum_courses": null,
+      "minimum_credits": null,
+      "maximum_counted_credits": null,
+      "category_requirements": [],
+      "counts_toward": "required",
+      "source_document": "official-required-subjects-114-b2010",
+      "manual_review_required": false,
+      "notes": [
+        "【A 】:計 2 科任選 1 科"
+      ]
+    },
+    {
+      "group_id": "b2010_group_b",
+      "name_zh": "分組必修 (選修學程)（B組）",
+      "name_en": null,
+      "rule_kind": "choose_n_from_m",
+      "course_ids": [
+        "b2010_bf08a01b9584",
+        "b2010_80dec021a466"
+      ],
+      "minimum_courses": 1,
+      "maximum_courses": null,
+      "minimum_credits": null,
+      "maximum_counted_credits": null,
+      "category_requirements": [],
+      "counts_toward": "required",
+      "source_document": "official-required-subjects-114-b2010",
+      "manual_review_required": false,
+      "notes": []
+    }
+  ],
+  "prerequisites": [],
+  "non_duplicated_counting_groups": [],
+  "manual_review_rules": [
+    {
+      "rule_id": "b2010_official_table_review_pending",
+      "description": "官方必修科目表已轉為結構化候選，但尚未完成逐列雙人覆核。",
+      "reason": "自動解析可保存表格內容，不能單獨證明跨欄、附註與特殊身分條件已完整建模。",
+      "source_document": "official-required-subjects-114-b2010",
+      "resolution": "逐列對照官方表，確認課名、學分、建議學期、分組與所有附註後再改為reviewed。"
+    },
+    {
+      "rule_id": "b2010_course_regulation_01",
+      "description": "3.專業必修科目計45學分。A、B類組科目均需必修一科。A組為遺傳學或分子生物學(二選一)、B組為細胞生物學或演化生物學(二選一)。",
+      "reason": "這是系所特有條款，可能包含組別、領域、授課語言、檢定、抵免或審查條件，現有課程完成狀態不足以自動證明。",
+      "source_document": "official-required-subjects-114-b2010",
+      "resolution": "依本條所述身分與課程屬性逐項查核；在ClearGrad尚未支援對應屬性前，不可自動標示已完成。"
+    },
+    {
+      "rule_id": "b2010_course_regulation_02",
+      "description": "4.本系必選群組:植物生理學、動物生理學,以上2門課至少選擇1門,且成績及格取得學分。",
+      "reason": "這是系所特有條款，可能包含組別、領域、授課語言、檢定、抵免或審查條件，現有課程完成狀態不足以自動證明。",
+      "source_document": "official-required-subjects-114-b2010",
+      "resolution": "依本條所述身分與課程屬性逐項查核；在ClearGrad尚未支援對應屬性前，不可自動標示已完成。"
+    },
+    {
+      "rule_id": "b2010_course_regulation_03",
+      "description": "5.本系專業必選修課程,不得低於64學分【不含普通化學、普通化學實驗、微積分、基礎物理、有機化學(一)、(二)、有機化學實驗(一)、(二),計16學分】。",
+      "reason": "這是系所特有條款，可能包含組別、領域、授課語言、檢定、抵免或審查條件，現有課程完成狀態不足以自動證明。",
+      "source_document": "official-required-subjects-114-b2010",
+      "resolution": "依本條所述身分與課程屬性逐項查核；在ClearGrad尚未支援對應屬性前，不可自動標示已完成。"
+    },
+    {
+      "rule_id": "b2010_course_regulation_05",
+      "description": "7.英語組修課規定:本系專業必修課程(實驗課程除外)應修習全英語課程。",
+      "reason": "這是系所特有條款，可能包含組別、領域、授課語言、檢定、抵免或審查條件，現有課程完成狀態不足以自動證明。",
+      "source_document": "official-required-subjects-114-b2010",
+      "resolution": "依本條所述身分與課程屬性逐項查核；在ClearGrad尚未支援對應屬性前，不可自動標示已完成。"
+    }
+  ],
+  "additional_credit_rules": [
+    {
+      "rule_id": "b2010_foreign_secondary_grade2_equivalent",
+      "admission_statuses": [
+        "國外或香港澳門地區同級同類學校畢業年級相當於國內高級中等學校二年級，並以同等學力入學"
+      ],
+      "additional_credits": 12,
+      "source_document": "official-required-subjects-114-b2010",
+      "notes": [
+        "官方修課規定明載在原訂畢業應修學分之外增加12學分。"
+      ]
+    }
+  ]
+}

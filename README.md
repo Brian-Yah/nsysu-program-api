@@ -34,10 +34,10 @@ python scripts/validate.py
 - `schemas/institutional-policy.schema.json`：校級通用規定 Schema。
 - `graduation-requirements/index.json`：最低畢業學分資料集索引。
 - `graduation-requirements/latest/bachelor.json`：最新入學年度全部學士班。
-- `graduation-requirements/115/bachelor/{department_code}.json`：指定年度與系所。
+- `graduation-requirements/{entry_year}/bachelor/{department_code}.json`：112 起指定入學年度與系所的最低畢業學分。
 - `schemas/graduation-requirement.schema.json`：單一系所畢業學分 Schema。
 - `graduation-rules/common/113-plus.json`：113 學年度起入學者的校級共同畢業規則。
-- `graduation-rules/113/bachelor/{department_code}.json`：指定入學年度與系所的完整畢業規則。
+- `graduation-rules/{entry_year}/bachelor/{department_code}.json`：112 起各入學年度與系所的畢業規則。
 - `schemas/graduation-common-rule.schema.json`：校級共同畢業規則 Schema。
 - `schemas/graduation-department-rule.schema.json`：系所畢業規則 Schema。
 
@@ -47,7 +47,7 @@ curl -fsSL https://brian-yah.github.io/nsysu-program-api/api/v1/semesters/115-1/
 curl -fsSL https://brian-yah.github.io/nsysu-program-api/api/v1/policies/program-requirements.json
 curl -fsSL https://brian-yah.github.io/nsysu-program-api/api/v1/graduation-requirements/115/bachelor/B4020.json
 curl -fsSL https://brian-yah.github.io/nsysu-program-api/api/v1/graduation-rules/common/113-plus.json
-curl -fsSL https://brian-yah.github.io/nsysu-program-api/api/v1/graduation-rules/113/bachelor/B2040.json
+curl -fsSL https://brian-yah.github.io/nsysu-program-api/api/v1/graduation-rules/115/bachelor/B2040.json
 ```
 
 回應 envelope：
@@ -86,9 +86,9 @@ consumer 應以唯一的 `catalog_entry_id`、`requirement_label`、`program_cou
 
 若 `option_count_matches` 為 `false`，表示 PDF 宣告的選項數與實際表列數不一致；consumer 應保留全部表列課程並提示人工確認，不得自行刪除選項。
 
-初次設定最低畢業學分時，consumer 應以「入學年度＋學制＋校方系所代碼」查詢。例如 `B4020` 是資訊管理學系；115 學年度端點回傳 `minimum_graduation_credits: 135`。若查無系所或來源暫時不可用，UI 應要求使用者確認或手動輸入，不得靜默回退成 128。
+初次設定最低畢業學分時，consumer 應以「入學年度＋學制＋校方系所代碼」查詢。例如 `B4020` 是資訊管理學系；115 學年度端點回傳 `minimum_graduation_credits: 135`。索引的 `latest_entry_academic_year` 只適用當年度新生，舊生必須使用自己的入學年度。若查無系所或來源暫時不可用，UI 應要求使用者確認或手動輸入，不得靜默回退成 128。
 
-畢業規則 API 與上述最低學分 API 分離：前者保存校級共同要求、必修課、建議年級學期、替代課、N 選 M、跨分類條件、先修、不可重複採計、特殊入學加修及人工審核條件。113 年首批提供應用數學系 `B2040` 與國際經營管理全英語學士學位學程 `B4610`。規則只採正式課程結構或修業文件；當學期課表不得用來推定畢業規則。官方文件未確認的課名、學分、門檻或動態資格一律保留 `null` 或 `manual_review_required`，consumer 不得把它當成已自動通過。
+畢業規則 API 與上述最低學分 API 分離：前者保存校級共同要求、必修課、建議年級學期、替代課、N 選 M、跨分類條件、先修、不可重複採計、特殊入學加修及人工審核條件。目前依官方入學年度選單提供 112–115、每年 31 個系所；每週自動偵測新年度並更新。規則只採正式課程結構或修業文件；當學期課表不得用來推定畢業規則。官方文件未確認的課名、學分、門檻或動態資格一律保留 `null` 或 `manual_review_required`，consumer 不得把它當成已自動通過。112 入學者不會誤套 113+ 校級共同規則，因此其 `common_rule_ref` 暫為 `null`，直到 112 校級共同規定另經正式來源建模。
 
 ## 完成度 evaluator
 

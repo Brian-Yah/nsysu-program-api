@@ -1,0 +1,52 @@
+{
+  "schema_version": "1.0",
+  "rule_set_id": "nsysu-114-bachelor-B5610",
+  "rule_type": "department",
+  "entry_year": "114",
+  "degree_level": "bachelor",
+  "department_code": "B5610",
+  "department_name_zh": "海洋科學學士學位學程",
+  "department_name_en": null,
+  "common_rule_ref": "../../common/113-plus.json",
+  "review_status": "manual_review_required",
+  "reviewed_at": "2026-08-22",
+  "coverage": "partial",
+  "credit_requirements": {
+    "minimum_graduation_credits": null,
+    "minimum_required_credits": null,
+    "minimum_elective_credits": null,
+    "minimum_department_elective_credits": 40.0,
+    "minimum_department_professional_credits": 44.0
+  },
+  "sources": [
+    {
+      "source_id": "official-required-subjects-114-b5610",
+      "title": "國立中山大學必修科目表（114學年度入學新生適用）－海洋科學學士學位學程",
+      "url": "https://selcrs.nsysu.edu.tw/stu_query/crs_mst_qry/crs_mst_query.asp?action=3&YY1=114&DPT1=B5610",
+      "document_type": "html",
+      "reviewed_at": "2026-08-22",
+      "sha256": "617deea02f6de1522ebae0d91a05b59825f2b66e3a4ca527bbe016e1fe74c348"
+    }
+  ],
+  "courses": [],
+  "course_groups": [],
+  "prerequisites": [],
+  "non_duplicated_counting_groups": [],
+  "manual_review_rules": [
+    {
+      "rule_id": "b5610_course_regulation_01",
+      "description": "3.專業必修科目計44學分。修習本學程開設選修課程不得低於40學分,且至少需選修三個領域各10學分以上課程(含海生所、海地化所、海下海物所及海事所開設之講授類課程)。",
+      "reason": "這是系所特有條款，可能包含組別、領域、授課語言、檢定、抵免或審查條件，現有課程完成狀態不足以自動證明。",
+      "source_document": "official-required-subjects-114-b5610",
+      "resolution": "依本條所述身分與課程屬性逐項查核；在ClearGrad尚未支援對應屬性前，不可自動標示已完成。"
+    },
+    {
+      "rule_id": "b5610_course_table_unavailable",
+      "description": "官方查詢頁未提供114學年度可解析的系所專業課程表。",
+      "reason": "沒有正式課程列時不得從當學期開課目錄推測畢業規則。",
+      "source_document": "official-required-subjects-114-b5610",
+      "resolution": "向系辦取得該入學年度正式必修科目表或修業規定後補建。"
+    }
+  ],
+  "additional_credit_rules": []
+}

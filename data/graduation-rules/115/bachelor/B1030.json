@@ -1,0 +1,423 @@
+{
+  "schema_version": "1.0",
+  "rule_set_id": "nsysu-115-bachelor-B1030",
+  "rule_type": "department",
+  "entry_year": "115",
+  "degree_level": "bachelor",
+  "department_code": "B1030",
+  "department_name_zh": "音樂學系",
+  "department_name_en": null,
+  "common_rule_ref": "../../common/113-plus.json",
+  "review_status": "manual_review_required",
+  "reviewed_at": "2026-08-22",
+  "coverage": "partial",
+  "credit_requirements": {
+    "minimum_graduation_credits": 128,
+    "minimum_required_credits": null,
+    "minimum_elective_credits": null,
+    "minimum_department_elective_credits": null,
+    "minimum_department_professional_credits": null
+  },
+  "sources": [
+    {
+      "source_id": "official-required-subjects-115-b1030",
+      "title": "國立中山大學必修科目表（115學年度入學新生適用）－音樂學系",
+      "url": "https://selcrs.nsysu.edu.tw/stu_query/crs_mst_qry/crs_mst_query.asp?action=3&YY1=115&DPT1=B1030",
+      "document_type": "html",
+      "reviewed_at": "2026-08-22",
+      "sha256": "765ee824333d551591d9c1f1c094150782256d9c234ec4bb9ece464f5e8f1001"
+    }
+  ],
+  "courses": [
+    {
+      "course_id": "b1030_4cc43045e080",
+      "canonical_name_zh": "音樂基礎訓練(一)",
+      "canonical_name_en": null,
+      "known_aliases": [],
+      "credits": 1.0,
+      "curriculumRequirement": "department_core",
+      "recommendedYear": 1,
+      "recommendedSemester": "fall",
+      "source_document": "official-required-subjects-115-b1030",
+      "notes": [
+        "官方必修科目表未提供英文課名，故不自行翻譯。"
+      ],
+      "alternatives": [],
+      "manual_review_required": false
+    },
+    {
+      "course_id": "b1030_03460559c6e0",
+      "canonical_name_zh": "音樂基礎訓練(二)",
+      "canonical_name_en": null,
+      "known_aliases": [],
+      "credits": 1.0,
+      "curriculumRequirement": "department_core",
+      "recommendedYear": 1,
+      "recommendedSemester": "spring",
+      "source_document": "official-required-subjects-115-b1030",
+      "notes": [
+        "官方必修科目表未提供英文課名，故不自行翻譯。"
+      ],
+      "alternatives": [],
+      "manual_review_required": false
+    },
+    {
+      "course_id": "b1030_dbc9219df184",
+      "canonical_name_zh": "調性音樂理論與分析(一)",
+      "canonical_name_en": null,
+      "known_aliases": [],
+      "credits": 2.0,
+      "curriculumRequirement": "department_core",
+      "recommendedYear": 1,
+      "recommendedSemester": "fall",
+      "source_document": "official-required-subjects-115-b1030",
+      "notes": [
+        "官方必修科目表未提供英文課名，故不自行翻譯。"
+      ],
+      "alternatives": [],
+      "manual_review_required": false
+    },
+    {
+      "course_id": "b1030_ae2ec9367fcc",
+      "canonical_name_zh": "調性音樂理論與分析(二)",
+      "canonical_name_en": null,
+      "known_aliases": [],
+      "credits": 2.0,
+      "curriculumRequirement": "department_core",
+      "recommendedYear": 1,
+      "recommendedSemester": "spring",
+      "source_document": "official-required-subjects-115-b1030",
+      "notes": [
+        "官方必修科目表未提供英文課名，故不自行翻譯。"
+      ],
+      "alternatives": [],
+      "manual_review_required": false
+    },
+    {
+      "course_id": "b1030_059f9c5d71f1",
+      "canonical_name_zh": "調性音樂理論與分析(三)",
+      "canonical_name_en": null,
+      "known_aliases": [],
+      "credits": 2.0,
+      "curriculumRequirement": "department_core",
+      "recommendedYear": 2,
+      "recommendedSemester": "fall",
+      "source_document": "official-required-subjects-115-b1030",
+      "notes": [
+        "官方必修科目表未提供英文課名，故不自行翻譯。"
+      ],
+      "alternatives": [],
+      "manual_review_required": false
+    },
+    {
+      "course_id": "b1030_8a5eb0b9a33d",
+      "canonical_name_zh": "調性音樂理論與分析(四)",
+      "canonical_name_en": null,
+      "known_aliases": [],
+      "credits": 2.0,
+      "curriculumRequirement": "department_core",
+      "recommendedYear": 2,
+      "recommendedSemester": "spring",
+      "source_document": "official-required-subjects-115-b1030",
+      "notes": [
+        "官方必修科目表未提供英文課名，故不自行翻譯。"
+      ],
+      "alternatives": [],
+      "manual_review_required": false
+    },
+    {
+      "course_id": "b1030_b3a580133b0b",
+      "canonical_name_zh": "音樂基礎訓練(三)",
+      "canonical_name_en": null,
+      "known_aliases": [],
+      "credits": 1.0,
+      "curriculumRequirement": "department_core",
+      "recommendedYear": 2,
+      "recommendedSemester": "fall",
+      "source_document": "official-required-subjects-115-b1030",
+      "notes": [
+        "官方必修科目表未提供英文課名，故不自行翻譯。"
+      ],
+      "alternatives": [],
+      "manual_review_required": false
+    },
+    {
+      "course_id": "b1030_5fa8223098ae",
+      "canonical_name_zh": "音樂基礎訓練(四)",
+      "canonical_name_en": null,
+      "known_aliases": [],
+      "credits": 1.0,
+      "curriculumRequirement": "department_core",
+      "recommendedYear": 2,
+      "recommendedSemester": "spring",
+      "source_document": "official-required-subjects-115-b1030",
+      "notes": [
+        "官方必修科目表未提供英文課名，故不自行翻譯。"
+      ],
+      "alternatives": [],
+      "manual_review_required": false
+    },
+    {
+      "course_id": "b1030_b88b0f2bf51e",
+      "canonical_name_zh": "西洋音樂史(一)",
+      "canonical_name_en": null,
+      "known_aliases": [],
+      "credits": 2.0,
+      "curriculumRequirement": "department_core",
+      "recommendedYear": 2,
+      "recommendedSemester": "fall",
+      "source_document": "official-required-subjects-115-b1030",
+      "notes": [
+        "官方必修科目表未提供英文課名，故不自行翻譯。"
+      ],
+      "alternatives": [],
+      "manual_review_required": false
+    },
+    {
+      "course_id": "b1030_b703fcb14b5a",
+      "canonical_name_zh": "西洋音樂史(二)",
+      "canonical_name_en": null,
+      "known_aliases": [],
+      "credits": 2.0,
+      "curriculumRequirement": "department_core",
+      "recommendedYear": 2,
+      "recommendedSemester": "spring",
+      "source_document": "official-required-subjects-115-b1030",
+      "notes": [
+        "官方必修科目表未提供英文課名，故不自行翻譯。"
+      ],
+      "alternatives": [],
+      "manual_review_required": false
+    },
+    {
+      "course_id": "b1030_4e1a7a541cbb",
+      "canonical_name_zh": "西洋音樂史(三)",
+      "canonical_name_en": null,
+      "known_aliases": [],
+      "credits": 3.0,
+      "curriculumRequirement": "department_core",
+      "recommendedYear": 3,
+      "recommendedSemester": "fall",
+      "source_document": "official-required-subjects-115-b1030",
+      "notes": [
+        "官方必修科目表未提供英文課名，故不自行翻譯。"
+      ],
+      "alternatives": [],
+      "manual_review_required": false
+    },
+    {
+      "course_id": "b1030_e55cd05ed681",
+      "canonical_name_zh": "合奏",
+      "canonical_name_en": null,
+      "known_aliases": [],
+      "credits": null,
+      "curriculumRequirement": "department_group_elective",
+      "recommendedYear": null,
+      "recommendedSemester": "either",
+      "source_document": "official-required-subjects-115-b1030",
+      "notes": [
+        "官方必修科目表未提供英文課名，故不自行翻譯。",
+        "官方同一列有多個學期／學分配置（1年fall=2、1年spring=2、2年fall=2、2年spring=2、3年fall=2、3年spring=2、4年fall=2、4年spring=2），不得合併猜測單科學分。"
+      ],
+      "alternatives": [],
+      "manual_review_required": true
+    },
+    {
+      "course_id": "b1030_a13f4f69b82e",
+      "canonical_name_zh": "合唱",
+      "canonical_name_en": null,
+      "known_aliases": [],
+      "credits": null,
+      "curriculumRequirement": "department_group_elective",
+      "recommendedYear": null,
+      "recommendedSemester": "either",
+      "source_document": "official-required-subjects-115-b1030",
+      "notes": [
+        "官方必修科目表未提供英文課名，故不自行翻譯。",
+        "官方同一列有多個學期／學分配置（1年fall=2、1年spring=2、2年fall=2、2年spring=2、3年fall=2、3年spring=2、4年fall=2、4年spring=2），不得合併猜測單科學分。"
+      ],
+      "alternatives": [],
+      "manual_review_required": true
+    },
+    {
+      "course_id": "b1030_361a30cda9e8",
+      "canonical_name_zh": "主修",
+      "canonical_name_en": null,
+      "known_aliases": [],
+      "credits": null,
+      "curriculumRequirement": "department_group_elective",
+      "recommendedYear": null,
+      "recommendedSemester": "either",
+      "source_document": "official-required-subjects-115-b1030",
+      "notes": [
+        "官方必修科目表未提供英文課名，故不自行翻譯。",
+        "官方同一列有多個學期／學分配置（1年fall=2、1年spring=2、2年fall=2、2年spring=2、3年fall=2、3年spring=2、4年fall=2、4年spring=2），不得合併猜測單科學分。"
+      ],
+      "alternatives": [],
+      "manual_review_required": true
+    },
+    {
+      "course_id": "b1030_c722874d8fe0",
+      "canonical_name_zh": "主修(創作與應用)",
+      "canonical_name_en": null,
+      "known_aliases": [],
+      "credits": null,
+      "curriculumRequirement": "department_group_elective",
+      "recommendedYear": null,
+      "recommendedSemester": "either",
+      "source_document": "official-required-subjects-115-b1030",
+      "notes": [
+        "官方必修科目表未提供英文課名，故不自行翻譯。",
+        "官方同一列有多個學期／學分配置（1年fall=3、1年spring=3、2年fall=3、2年spring=3），不得合併猜測單科學分。"
+      ],
+      "alternatives": [],
+      "manual_review_required": true
+    },
+    {
+      "course_id": "b1030_26f16d6851c0",
+      "canonical_name_zh": "主修(作曲)",
+      "canonical_name_en": null,
+      "known_aliases": [],
+      "credits": null,
+      "curriculumRequirement": "department_group_elective",
+      "recommendedYear": null,
+      "recommendedSemester": "either",
+      "source_document": "official-required-subjects-115-b1030",
+      "notes": [
+        "官方必修科目表未提供英文課名，故不自行翻譯。",
+        "官方同一列有多個學期／學分配置（3年fall=2、3年spring=2、4年fall=2、4年spring=2），不得合併猜測單科學分。"
+      ],
+      "alternatives": [],
+      "manual_review_required": true
+    },
+    {
+      "course_id": "b1030_db307d3d140f",
+      "canonical_name_zh": "主修(製作)",
+      "canonical_name_en": null,
+      "known_aliases": [],
+      "credits": null,
+      "curriculumRequirement": "department_group_elective",
+      "recommendedYear": null,
+      "recommendedSemester": "either",
+      "source_document": "official-required-subjects-115-b1030",
+      "notes": [
+        "官方必修科目表未提供英文課名，故不自行翻譯。",
+        "官方同一列有多個學期／學分配置（3年fall=2、3年spring=2、4年fall=2、4年spring=2），不得合併猜測單科學分。"
+      ],
+      "alternatives": [],
+      "manual_review_required": true
+    },
+    {
+      "course_id": "b1030_dc45a0a84de5",
+      "canonical_name_zh": "畢業製作",
+      "canonical_name_en": null,
+      "known_aliases": [],
+      "credits": null,
+      "curriculumRequirement": "department_group_elective",
+      "recommendedYear": 4,
+      "recommendedSemester": "either",
+      "source_document": "official-required-subjects-115-b1030",
+      "notes": [
+        "官方必修科目表未提供英文課名，故不自行翻譯。",
+        "官方表列為0學分畢業條件，credits保留null。"
+      ],
+      "alternatives": [],
+      "manual_review_required": true
+    }
+  ],
+  "course_groups": [
+    {
+      "group_id": "b1030_group_i",
+      "name_zh": "分組必修 (選修學程)（I組）",
+      "name_en": null,
+      "rule_kind": "choose_n_from_m",
+      "course_ids": [
+        "b1030_dc45a0a84de5"
+      ],
+      "minimum_courses": 1,
+      "maximum_courses": null,
+      "minimum_credits": null,
+      "maximum_counted_credits": null,
+      "category_requirements": [],
+      "counts_toward": "required",
+      "source_document": "official-required-subjects-115-b1030",
+      "manual_review_required": true,
+      "notes": [
+        "官方宣告2科，表列解析為1科；保留全部表列課程並人工確認。"
+      ]
+    }
+  ],
+  "prerequisites": [],
+  "non_duplicated_counting_groups": [],
+  "manual_review_rules": [
+    {
+      "rule_id": "b1030_official_table_review_pending",
+      "description": "官方必修科目表已轉為結構化候選，但尚未完成逐列雙人覆核。",
+      "reason": "自動解析可保存表格內容，不能單獨證明跨欄、附註與特殊身分條件已完整建模。",
+      "source_document": "official-required-subjects-115-b1030",
+      "resolution": "逐列對照官方表，確認課名、學分、建議學期、分組與所有附註後再改為reviewed。"
+    },
+    {
+      "rule_id": "b1030_course_regulation_01",
+      "description": "3.本系最低畢業學分數128學分。創作與應用組本系專業必修學分為47學分;其他主修本系專業必修學分為43學分。",
+      "reason": "這是系所特有條款，可能包含組別、領域、授課語言、檢定、抵免或審查條件，現有課程完成狀態不足以自動證明。",
+      "source_document": "official-required-subjects-115-b1030",
+      "resolution": "依本條所述身分與課程屬性逐項查核；在ClearGrad尚未支援對應屬性前，不可自動標示已完成。"
+    },
+    {
+      "rule_id": "b1030_course_regulation_02",
+      "description": "4.創作與應用組本系選修學分不得少於24學分;其他主修本系選修學分不得少於28學分。 畢業前,主修課程至少須修得12學分;創作與應用組主修課程至少須修得16學分,且單學期以選修一科為限。 創作與應用組一、二年級主修課程為『主修(創作與應用)』(3學分);三、四年級則分『主修(作曲)或主修(製作)』(2學分)二種課程以供選擇。創作與應用組學生必須修滿四學期的『主修(創作與應用)』課程,始得修習『主修(作曲)』或『主修(製作)』課程。",
+      "reason": "這是系所特有條款，可能包含組別、領域、授課語言、檢定、抵免或審查條件，現有課程完成狀態不足以自動證明。",
+      "source_document": "official-required-subjects-115-b1030",
+      "resolution": "依本條所述身分與課程屬性逐項查核；在ClearGrad尚未支援對應屬性前，不可自動標示已完成。"
+    },
+    {
+      "rule_id": "b1030_course_regulation_03",
+      "description": "5.合奏(唱)課程至少須修得12學分。創作與應用組得用「爵士樂團合奏(一)」1學分、「爵士樂團合奏(二)」1學分,二門課程抵免「合奏」2學分或「合唱」2學分課程,最多抵免2學分。",
+      "reason": "這是系所特有條款，可能包含組別、領域、授課語言、檢定、抵免或審查條件，現有課程完成狀態不足以自動證明。",
+      "source_document": "official-required-subjects-115-b1030",
+      "resolution": "依本條所述身分與課程屬性逐項查核；在ClearGrad尚未支援對應屬性前，不可自動標示已完成。"
+    },
+    {
+      "rule_id": "b1030_course_regulation_04",
+      "description": "6.主修課程至多修習8學期,前6學期為必修課程,第7學期及第8學期之主修課程為本系選修課程;合奏(唱)課程前6學期為必修課程,第7學期及第8學期之主修課程為本系選修課程。",
+      "reason": "這是系所特有條款，可能包含組別、領域、授課語言、檢定、抵免或審查條件，現有課程完成狀態不足以自動證明。",
+      "source_document": "official-required-subjects-115-b1030",
+      "resolution": "依本條所述身分與課程屬性逐項查核；在ClearGrad尚未支援對應屬性前，不可自動標示已完成。"
+    },
+    {
+      "rule_id": "b1030_course_regulation_05",
+      "description": "7.「畢業製作」課程以P/F計分,只修習一學期,通過後始符合畢業資格。",
+      "reason": "這是系所特有條款，可能包含組別、領域、授課語言、檢定、抵免或審查條件，現有課程完成狀態不足以自動證明。",
+      "source_document": "official-required-subjects-115-b1030",
+      "resolution": "依本條所述身分與課程屬性逐項查核；在ClearGrad尚未支援對應屬性前，不可自動標示已完成。"
+    },
+    {
+      "rule_id": "b1030_course_regulation_06",
+      "description": "8.展演類課程以修習12學分為上限。",
+      "reason": "這是系所特有條款，可能包含組別、領域、授課語言、檢定、抵免或審查條件，現有課程完成狀態不足以自動證明。",
+      "source_document": "official-required-subjects-115-b1030",
+      "resolution": "依本條所述身分與課程屬性逐項查核；在ClearGrad尚未支援對應屬性前，不可自動標示已完成。"
+    },
+    {
+      "rule_id": "b1030_parser_warnings",
+      "description": "分組A要求6門，但僅解析到1門。；分組B要求6門，但僅解析到1門。；分組E要求6門，但僅解析到1門。；分組F要求4門，但僅解析到1門。；分組G要求2門，但僅解析到1門。；分組H要求2門，但僅解析到1門。",
+      "reason": "官方表格宣告與可安全解析的欄位不一致。",
+      "source_document": "official-required-subjects-115-b1030",
+      "resolution": "人工檢視原表合併欄位與分組列，在確認前不得自動判定該分組。"
+    }
+  ],
+  "additional_credit_rules": [
+    {
+      "rule_id": "b1030_foreign_secondary_grade2_equivalent",
+      "admission_statuses": [
+        "國外或香港澳門地區同級同類學校畢業年級相當於國內高級中等學校二年級，並以同等學力入學"
+      ],
+      "additional_credits": 12,
+      "source_document": "official-required-subjects-115-b1030",
+      "notes": [
+        "官方修課規定明載在原訂畢業應修學分之外增加12學分。"
+      ]
+    }
+  ]
+}

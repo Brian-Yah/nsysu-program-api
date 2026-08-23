@@ -377,6 +377,12 @@ def build_api(root: Path, version: str) -> dict:
         manifest["graduation_requirement_department_count"] = graduation_index["department_count"]
     if graduation_rules_index:
         manifest["graduation_rule_department_count"] = graduation_rules_index["department_count"]
+        manifest["graduation_rule_ai_approved_department_count"] = graduation_rules_index[
+            "ai_approved_department_count"
+        ]
+        manifest["graduation_rule_manual_review_required_department_count"] = (
+            graduation_rules_index["manual_review_required_department_count"]
+        )
     write_json(api / "manifest.json", manifest)
     return manifest
 

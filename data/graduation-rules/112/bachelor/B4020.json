@@ -1,0 +1,870 @@
+{
+  "schema_version": "1.0",
+  "rule_set_id": "nsysu-112-bachelor-B4020",
+  "rule_type": "department",
+  "entry_year": "112",
+  "degree_level": "bachelor",
+  "department_code": "B4020",
+  "department_name_zh": "資訊管理學系",
+  "department_name_en": null,
+  "common_rule_ref": null,
+  "review_status": "manual_review_required",
+  "reviewed_at": "2026-08-22",
+  "coverage": "partial",
+  "credit_requirements": {
+    "minimum_graduation_credits": 135,
+    "minimum_required_credits": null,
+    "minimum_elective_credits": null,
+    "minimum_department_elective_credits": null,
+    "minimum_department_professional_credits": 63.0
+  },
+  "sources": [
+    {
+      "source_id": "official-required-subjects-112-b4020",
+      "title": "國立中山大學必修科目表（112學年度入學新生適用）－資訊管理學系",
+      "url": "https://selcrs.nsysu.edu.tw/stu_query/crs_mst_qry/crs_mst_query.asp?action=3&YY1=112&DPT1=B4020",
+      "document_type": "html",
+      "reviewed_at": "2026-08-22",
+      "sha256": "2a1d0d82cbe150e0dc5941be525407c5ee80d817be2238fbfd6db8596670f705"
+    }
+  ],
+  "courses": [
+    {
+      "course_id": "b4020_117429738d48",
+      "canonical_name_zh": "會計學(一)",
+      "canonical_name_en": null,
+      "known_aliases": [],
+      "credits": 3.0,
+      "curriculumRequirement": "department_core",
+      "recommendedYear": 1,
+      "recommendedSemester": "fall",
+      "source_document": "official-required-subjects-112-b4020",
+      "notes": [
+        "官方必修科目表未提供英文課名，故不自行翻譯。"
+      ],
+      "alternatives": [],
+      "manual_review_required": false
+    },
+    {
+      "course_id": "b4020_1dbfb639d736",
+      "canonical_name_zh": "微積分",
+      "canonical_name_en": null,
+      "known_aliases": [],
+      "credits": 3.0,
+      "curriculumRequirement": "department_core",
+      "recommendedYear": 1,
+      "recommendedSemester": "fall",
+      "source_document": "official-required-subjects-112-b4020",
+      "notes": [
+        "官方必修科目表未提供英文課名，故不自行翻譯。"
+      ],
+      "alternatives": [],
+      "manual_review_required": false
+    },
+    {
+      "course_id": "b4020_3ec5ff6b8fb8",
+      "canonical_name_zh": "計算機概論",
+      "canonical_name_en": null,
+      "known_aliases": [],
+      "credits": 3.0,
+      "curriculumRequirement": "department_core",
+      "recommendedYear": 1,
+      "recommendedSemester": "fall",
+      "source_document": "official-required-subjects-112-b4020",
+      "notes": [
+        "官方必修科目表未提供英文課名，故不自行翻譯。"
+      ],
+      "alternatives": [],
+      "manual_review_required": false
+    },
+    {
+      "course_id": "b4020_a3783a65e72b",
+      "canonical_name_zh": "資訊經濟學",
+      "canonical_name_en": null,
+      "known_aliases": [],
+      "credits": 3.0,
+      "curriculumRequirement": "department_core",
+      "recommendedYear": 1,
+      "recommendedSemester": "fall",
+      "source_document": "official-required-subjects-112-b4020",
+      "notes": [
+        "官方必修科目表未提供英文課名，故不自行翻譯。"
+      ],
+      "alternatives": [],
+      "manual_review_required": false
+    },
+    {
+      "course_id": "b4020_dd91378f4b08",
+      "canonical_name_zh": "管理學",
+      "canonical_name_en": null,
+      "known_aliases": [],
+      "credits": 3.0,
+      "curriculumRequirement": "department_core",
+      "recommendedYear": 1,
+      "recommendedSemester": "spring",
+      "source_document": "official-required-subjects-112-b4020",
+      "notes": [
+        "官方必修科目表未提供英文課名，故不自行翻譯。"
+      ],
+      "alternatives": [],
+      "manual_review_required": false
+    },
+    {
+      "course_id": "b4020_0fbb7f06dda6",
+      "canonical_name_zh": "程式設計",
+      "canonical_name_en": null,
+      "known_aliases": [],
+      "credits": 3.0,
+      "curriculumRequirement": "department_core",
+      "recommendedYear": 1,
+      "recommendedSemester": "spring",
+      "source_document": "official-required-subjects-112-b4020",
+      "notes": [
+        "官方必修科目表未提供英文課名，故不自行翻譯。"
+      ],
+      "alternatives": [],
+      "manual_review_required": false
+    },
+    {
+      "course_id": "b4020_2edb5a23ba2a",
+      "canonical_name_zh": "管理數學",
+      "canonical_name_en": null,
+      "known_aliases": [],
+      "credits": 3.0,
+      "curriculumRequirement": "department_core",
+      "recommendedYear": 1,
+      "recommendedSemester": "spring",
+      "source_document": "official-required-subjects-112-b4020",
+      "notes": [
+        "官方必修科目表未提供英文課名，故不自行翻譯。"
+      ],
+      "alternatives": [],
+      "manual_review_required": false
+    },
+    {
+      "course_id": "b4020_8139113b74d2",
+      "canonical_name_zh": "統計學(一)",
+      "canonical_name_en": null,
+      "known_aliases": [],
+      "credits": 3.0,
+      "curriculumRequirement": "department_core",
+      "recommendedYear": 2,
+      "recommendedSemester": "fall",
+      "source_document": "official-required-subjects-112-b4020",
+      "notes": [
+        "官方必修科目表未提供英文課名，故不自行翻譯。"
+      ],
+      "alternatives": [],
+      "manual_review_required": false
+    },
+    {
+      "course_id": "b4020_319e719ce36a",
+      "canonical_name_zh": "資料結構",
+      "canonical_name_en": null,
+      "known_aliases": [],
+      "credits": 3.0,
+      "curriculumRequirement": "department_core",
+      "recommendedYear": 2,
+      "recommendedSemester": "fall",
+      "source_document": "official-required-subjects-112-b4020",
+      "notes": [
+        "官方必修科目表未提供英文課名，故不自行翻譯。"
+      ],
+      "alternatives": [],
+      "manual_review_required": false
+    },
+    {
+      "course_id": "b4020_57b0eda10952",
+      "canonical_name_zh": "WEB程式設計",
+      "canonical_name_en": null,
+      "known_aliases": [],
+      "credits": 3.0,
+      "curriculumRequirement": "department_core",
+      "recommendedYear": 2,
+      "recommendedSemester": "fall",
+      "source_document": "official-required-subjects-112-b4020",
+      "notes": [
+        "官方必修科目表未提供英文課名，故不自行翻譯。"
+      ],
+      "alternatives": [],
+      "manual_review_required": false
+    },
+    {
+      "course_id": "b4020_9d524765eff1",
+      "canonical_name_zh": "資料庫管理",
+      "canonical_name_en": null,
+      "known_aliases": [],
+      "credits": 3.0,
+      "curriculumRequirement": "department_core",
+      "recommendedYear": 2,
+      "recommendedSemester": "spring",
+      "source_document": "official-required-subjects-112-b4020",
+      "notes": [
+        "官方必修科目表未提供英文課名，故不自行翻譯。"
+      ],
+      "alternatives": [],
+      "manual_review_required": false
+    },
+    {
+      "course_id": "b4020_bd938922f09c",
+      "canonical_name_zh": "管理資訊系統",
+      "canonical_name_en": null,
+      "known_aliases": [],
+      "credits": 3.0,
+      "curriculumRequirement": "department_core",
+      "recommendedYear": 2,
+      "recommendedSemester": "spring",
+      "source_document": "official-required-subjects-112-b4020",
+      "notes": [
+        "官方必修科目表未提供英文課名，故不自行翻譯。"
+      ],
+      "alternatives": [],
+      "manual_review_required": false
+    },
+    {
+      "course_id": "b4020_704c601d55f4",
+      "canonical_name_zh": "統計資料分析",
+      "canonical_name_en": null,
+      "known_aliases": [],
+      "credits": 3.0,
+      "curriculumRequirement": "department_core",
+      "recommendedYear": 2,
+      "recommendedSemester": "spring",
+      "source_document": "official-required-subjects-112-b4020",
+      "notes": [
+        "官方必修科目表未提供英文課名，故不自行翻譯。"
+      ],
+      "alternatives": [],
+      "manual_review_required": false
+    },
+    {
+      "course_id": "b4020_d8b895eb70d8",
+      "canonical_name_zh": "系統分析與設計",
+      "canonical_name_en": null,
+      "known_aliases": [],
+      "credits": 3.0,
+      "curriculumRequirement": "department_core",
+      "recommendedYear": 3,
+      "recommendedSemester": "fall",
+      "source_document": "official-required-subjects-112-b4020",
+      "notes": [
+        "官方必修科目表未提供英文課名，故不自行翻譯。"
+      ],
+      "alternatives": [],
+      "manual_review_required": false
+    },
+    {
+      "course_id": "b4020_13158b4afa06",
+      "canonical_name_zh": "企業資料通訊",
+      "canonical_name_en": null,
+      "known_aliases": [],
+      "credits": 3.0,
+      "curriculumRequirement": "department_core",
+      "recommendedYear": 3,
+      "recommendedSemester": "fall",
+      "source_document": "official-required-subjects-112-b4020",
+      "notes": [
+        "官方必修科目表未提供英文課名，故不自行翻譯。"
+      ],
+      "alternatives": [],
+      "manual_review_required": false
+    },
+    {
+      "course_id": "b4020_7ae4127bd351",
+      "canonical_name_zh": "巨量資料分析導論",
+      "canonical_name_en": null,
+      "known_aliases": [],
+      "credits": 3.0,
+      "curriculumRequirement": "department_core",
+      "recommendedYear": 3,
+      "recommendedSemester": "fall",
+      "source_document": "official-required-subjects-112-b4020",
+      "notes": [
+        "官方必修科目表未提供英文課名，故不自行翻譯。"
+      ],
+      "alternatives": [],
+      "manual_review_required": false
+    },
+    {
+      "course_id": "b4020_b943dee575dd",
+      "canonical_name_zh": "電子商務",
+      "canonical_name_en": null,
+      "known_aliases": [],
+      "credits": 3.0,
+      "curriculumRequirement": "department_core",
+      "recommendedYear": 3,
+      "recommendedSemester": "spring",
+      "source_document": "official-required-subjects-112-b4020",
+      "notes": [
+        "官方必修科目表未提供英文課名，故不自行翻譯。"
+      ],
+      "alternatives": [],
+      "manual_review_required": false
+    },
+    {
+      "course_id": "b4020_3abf0adea462",
+      "canonical_name_zh": "資訊管理個案研討",
+      "canonical_name_en": null,
+      "known_aliases": [],
+      "credits": 3.0,
+      "curriculumRequirement": "department_core",
+      "recommendedYear": 4,
+      "recommendedSemester": "fall",
+      "source_document": "official-required-subjects-112-b4020",
+      "notes": [
+        "官方必修科目表未提供英文課名，故不自行翻譯。"
+      ],
+      "alternatives": [],
+      "manual_review_required": false
+    },
+    {
+      "course_id": "b4020_5b1b8c74b0c8",
+      "canonical_name_zh": "管理資訊系統專案(一)",
+      "canonical_name_en": null,
+      "known_aliases": [],
+      "credits": 3.0,
+      "curriculumRequirement": "department_group_elective",
+      "recommendedYear": 3,
+      "recommendedSemester": "spring",
+      "source_document": "official-required-subjects-112-b4020",
+      "notes": [
+        "官方必修科目表未提供英文課名，故不自行翻譯。"
+      ],
+      "alternatives": [],
+      "manual_review_required": false
+    },
+    {
+      "course_id": "b4020_5da5416128be",
+      "canonical_name_zh": "企業流程專案(一)",
+      "canonical_name_en": null,
+      "known_aliases": [],
+      "credits": 3.0,
+      "curriculumRequirement": "department_group_elective",
+      "recommendedYear": 3,
+      "recommendedSemester": "spring",
+      "source_document": "official-required-subjects-112-b4020",
+      "notes": [
+        "官方必修科目表未提供英文課名，故不自行翻譯。"
+      ],
+      "alternatives": [],
+      "manual_review_required": false
+    },
+    {
+      "course_id": "b4020_20e71c578cb5",
+      "canonical_name_zh": "智慧型系統專案(一)",
+      "canonical_name_en": null,
+      "known_aliases": [],
+      "credits": 3.0,
+      "curriculumRequirement": "department_group_elective",
+      "recommendedYear": 3,
+      "recommendedSemester": "spring",
+      "source_document": "official-required-subjects-112-b4020",
+      "notes": [
+        "官方必修科目表未提供英文課名，故不自行翻譯。"
+      ],
+      "alternatives": [],
+      "manual_review_required": false
+    },
+    {
+      "course_id": "b4020_6cf6b3d881f4",
+      "canonical_name_zh": "多媒體系統專案(一)",
+      "canonical_name_en": null,
+      "known_aliases": [],
+      "credits": 3.0,
+      "curriculumRequirement": "department_group_elective",
+      "recommendedYear": 3,
+      "recommendedSemester": "spring",
+      "source_document": "official-required-subjects-112-b4020",
+      "notes": [
+        "官方必修科目表未提供英文課名，故不自行翻譯。"
+      ],
+      "alternatives": [],
+      "manual_review_required": false
+    },
+    {
+      "course_id": "b4020_4372d8d2451a",
+      "canonical_name_zh": "電子商務專案(一)",
+      "canonical_name_en": null,
+      "known_aliases": [],
+      "credits": 3.0,
+      "curriculumRequirement": "department_group_elective",
+      "recommendedYear": 3,
+      "recommendedSemester": "spring",
+      "source_document": "official-required-subjects-112-b4020",
+      "notes": [
+        "官方必修科目表未提供英文課名，故不自行翻譯。"
+      ],
+      "alternatives": [],
+      "manual_review_required": false
+    },
+    {
+      "course_id": "b4020_f4511912880d",
+      "canonical_name_zh": "產銷資訊系統專案(一)",
+      "canonical_name_en": null,
+      "known_aliases": [],
+      "credits": 3.0,
+      "curriculumRequirement": "department_group_elective",
+      "recommendedYear": 3,
+      "recommendedSemester": "spring",
+      "source_document": "official-required-subjects-112-b4020",
+      "notes": [
+        "官方必修科目表未提供英文課名，故不自行翻譯。"
+      ],
+      "alternatives": [],
+      "manual_review_required": false
+    },
+    {
+      "course_id": "b4020_5d80607fcebb",
+      "canonical_name_zh": "資料庫系統專案(一)",
+      "canonical_name_en": null,
+      "known_aliases": [],
+      "credits": 3.0,
+      "curriculumRequirement": "department_group_elective",
+      "recommendedYear": 3,
+      "recommendedSemester": "spring",
+      "source_document": "official-required-subjects-112-b4020",
+      "notes": [
+        "官方必修科目表未提供英文課名，故不自行翻譯。"
+      ],
+      "alternatives": [],
+      "manual_review_required": false
+    },
+    {
+      "course_id": "b4020_5392e06fa016",
+      "canonical_name_zh": "多媒體網路專案(一)",
+      "canonical_name_en": null,
+      "known_aliases": [],
+      "credits": 3.0,
+      "curriculumRequirement": "department_group_elective",
+      "recommendedYear": 3,
+      "recommendedSemester": "spring",
+      "source_document": "official-required-subjects-112-b4020",
+      "notes": [
+        "官方必修科目表未提供英文課名，故不自行翻譯。"
+      ],
+      "alternatives": [],
+      "manual_review_required": false
+    },
+    {
+      "course_id": "b4020_0dc0fd32b116",
+      "canonical_name_zh": "決策支援系統專案(一)",
+      "canonical_name_en": null,
+      "known_aliases": [],
+      "credits": 3.0,
+      "curriculumRequirement": "department_group_elective",
+      "recommendedYear": 3,
+      "recommendedSemester": "spring",
+      "source_document": "official-required-subjects-112-b4020",
+      "notes": [
+        "官方必修科目表未提供英文課名，故不自行翻譯。"
+      ],
+      "alternatives": [],
+      "manual_review_required": false
+    },
+    {
+      "course_id": "b4020_fcda1253e707",
+      "canonical_name_zh": "企業內部網路專案(一)",
+      "canonical_name_en": null,
+      "known_aliases": [],
+      "credits": 3.0,
+      "curriculumRequirement": "department_group_elective",
+      "recommendedYear": 3,
+      "recommendedSemester": "spring",
+      "source_document": "official-required-subjects-112-b4020",
+      "notes": [
+        "官方必修科目表未提供英文課名，故不自行翻譯。"
+      ],
+      "alternatives": [],
+      "manual_review_required": false
+    },
+    {
+      "course_id": "b4020_77a2125f1927",
+      "canonical_name_zh": "管理資訊系統專案(二)",
+      "canonical_name_en": null,
+      "known_aliases": [],
+      "credits": 3.0,
+      "curriculumRequirement": "department_group_elective",
+      "recommendedYear": 4,
+      "recommendedSemester": "fall",
+      "source_document": "official-required-subjects-112-b4020",
+      "notes": [
+        "官方必修科目表未提供英文課名，故不自行翻譯。"
+      ],
+      "alternatives": [],
+      "manual_review_required": false
+    },
+    {
+      "course_id": "b4020_24dc950f0ef6",
+      "canonical_name_zh": "企業流程專案(二)",
+      "canonical_name_en": null,
+      "known_aliases": [],
+      "credits": 3.0,
+      "curriculumRequirement": "department_group_elective",
+      "recommendedYear": 4,
+      "recommendedSemester": "fall",
+      "source_document": "official-required-subjects-112-b4020",
+      "notes": [
+        "官方必修科目表未提供英文課名，故不自行翻譯。"
+      ],
+      "alternatives": [],
+      "manual_review_required": false
+    },
+    {
+      "course_id": "b4020_e58bfac7b9ea",
+      "canonical_name_zh": "智慧型系統專案(二)",
+      "canonical_name_en": null,
+      "known_aliases": [],
+      "credits": 3.0,
+      "curriculumRequirement": "department_group_elective",
+      "recommendedYear": 4,
+      "recommendedSemester": "fall",
+      "source_document": "official-required-subjects-112-b4020",
+      "notes": [
+        "官方必修科目表未提供英文課名，故不自行翻譯。"
+      ],
+      "alternatives": [],
+      "manual_review_required": false
+    },
+    {
+      "course_id": "b4020_1f4b6c686362",
+      "canonical_name_zh": "多媒體系統專案(二)",
+      "canonical_name_en": null,
+      "known_aliases": [],
+      "credits": 3.0,
+      "curriculumRequirement": "department_group_elective",
+      "recommendedYear": 4,
+      "recommendedSemester": "fall",
+      "source_document": "official-required-subjects-112-b4020",
+      "notes": [
+        "官方必修科目表未提供英文課名，故不自行翻譯。"
+      ],
+      "alternatives": [],
+      "manual_review_required": false
+    },
+    {
+      "course_id": "b4020_13ef75725f8f",
+      "canonical_name_zh": "電子商務專案(二)",
+      "canonical_name_en": null,
+      "known_aliases": [],
+      "credits": 3.0,
+      "curriculumRequirement": "department_group_elective",
+      "recommendedYear": 4,
+      "recommendedSemester": "fall",
+      "source_document": "official-required-subjects-112-b4020",
+      "notes": [
+        "官方必修科目表未提供英文課名，故不自行翻譯。"
+      ],
+      "alternatives": [],
+      "manual_review_required": false
+    },
+    {
+      "course_id": "b4020_dfc087a46e97",
+      "canonical_name_zh": "產銷資訊系統專案(二)",
+      "canonical_name_en": null,
+      "known_aliases": [],
+      "credits": 3.0,
+      "curriculumRequirement": "department_group_elective",
+      "recommendedYear": 4,
+      "recommendedSemester": "fall",
+      "source_document": "official-required-subjects-112-b4020",
+      "notes": [
+        "官方必修科目表未提供英文課名，故不自行翻譯。"
+      ],
+      "alternatives": [],
+      "manual_review_required": false
+    },
+    {
+      "course_id": "b4020_d1990f9ab852",
+      "canonical_name_zh": "資料庫系統專案(二)",
+      "canonical_name_en": null,
+      "known_aliases": [],
+      "credits": 3.0,
+      "curriculumRequirement": "department_group_elective",
+      "recommendedYear": 4,
+      "recommendedSemester": "fall",
+      "source_document": "official-required-subjects-112-b4020",
+      "notes": [
+        "官方必修科目表未提供英文課名，故不自行翻譯。"
+      ],
+      "alternatives": [],
+      "manual_review_required": false
+    },
+    {
+      "course_id": "b4020_6862360769a9",
+      "canonical_name_zh": "多媒體網路專案(二)",
+      "canonical_name_en": null,
+      "known_aliases": [],
+      "credits": 3.0,
+      "curriculumRequirement": "department_group_elective",
+      "recommendedYear": 4,
+      "recommendedSemester": "fall",
+      "source_document": "official-required-subjects-112-b4020",
+      "notes": [
+        "官方必修科目表未提供英文課名，故不自行翻譯。"
+      ],
+      "alternatives": [],
+      "manual_review_required": false
+    },
+    {
+      "course_id": "b4020_92ed9cadaa8e",
+      "canonical_name_zh": "決策支援系統專案(二)",
+      "canonical_name_en": null,
+      "known_aliases": [],
+      "credits": 3.0,
+      "curriculumRequirement": "department_group_elective",
+      "recommendedYear": 4,
+      "recommendedSemester": "fall",
+      "source_document": "official-required-subjects-112-b4020",
+      "notes": [
+        "官方必修科目表未提供英文課名，故不自行翻譯。"
+      ],
+      "alternatives": [],
+      "manual_review_required": false
+    },
+    {
+      "course_id": "b4020_4be9b9adc690",
+      "canonical_name_zh": "企業內部網路專案(二)",
+      "canonical_name_en": null,
+      "known_aliases": [],
+      "credits": 3.0,
+      "curriculumRequirement": "department_group_elective",
+      "recommendedYear": 4,
+      "recommendedSemester": "fall",
+      "source_document": "official-required-subjects-112-b4020",
+      "notes": [
+        "官方必修科目表未提供英文課名，故不自行翻譯。"
+      ],
+      "alternatives": [],
+      "manual_review_required": false
+    },
+    {
+      "course_id": "b4020_1d9a84c15b1c",
+      "canonical_name_zh": "商事法",
+      "canonical_name_en": null,
+      "known_aliases": [],
+      "credits": 2.0,
+      "curriculumRequirement": "department_group_elective",
+      "recommendedYear": 2,
+      "recommendedSemester": "spring",
+      "source_document": "official-required-subjects-112-b4020",
+      "notes": [
+        "官方必修科目表未提供英文課名，故不自行翻譯。"
+      ],
+      "alternatives": [],
+      "manual_review_required": false
+    },
+    {
+      "course_id": "b4020_44c9e613e3fd",
+      "canonical_name_zh": "組織行為學",
+      "canonical_name_en": null,
+      "known_aliases": [],
+      "credits": 3.0,
+      "curriculumRequirement": "department_group_elective",
+      "recommendedYear": 2,
+      "recommendedSemester": "spring",
+      "source_document": "official-required-subjects-112-b4020",
+      "notes": [
+        "官方必修科目表未提供英文課名，故不自行翻譯。"
+      ],
+      "alternatives": [],
+      "manual_review_required": false
+    },
+    {
+      "course_id": "b4020_697b3cc95d47",
+      "canonical_name_zh": "行銷管理",
+      "canonical_name_en": null,
+      "known_aliases": [],
+      "credits": 3.0,
+      "curriculumRequirement": "department_group_elective",
+      "recommendedYear": 3,
+      "recommendedSemester": "fall",
+      "source_document": "official-required-subjects-112-b4020",
+      "notes": [
+        "官方必修科目表未提供英文課名，故不自行翻譯。"
+      ],
+      "alternatives": [],
+      "manual_review_required": false
+    },
+    {
+      "course_id": "b4020_fc8e4c3d78b4",
+      "canonical_name_zh": "生產與作業管理",
+      "canonical_name_en": null,
+      "known_aliases": [],
+      "credits": 3.0,
+      "curriculumRequirement": "department_group_elective",
+      "recommendedYear": 3,
+      "recommendedSemester": "fall",
+      "source_document": "official-required-subjects-112-b4020",
+      "notes": [
+        "官方必修科目表未提供英文課名，故不自行翻譯。"
+      ],
+      "alternatives": [],
+      "manual_review_required": false
+    },
+    {
+      "course_id": "b4020_1df37ac5200c",
+      "canonical_name_zh": "財務管理",
+      "canonical_name_en": null,
+      "known_aliases": [],
+      "credits": 3.0,
+      "curriculumRequirement": "department_group_elective",
+      "recommendedYear": 4,
+      "recommendedSemester": "spring",
+      "source_document": "official-required-subjects-112-b4020",
+      "notes": [
+        "官方必修科目表未提供英文課名，故不自行翻譯。"
+      ],
+      "alternatives": [],
+      "manual_review_required": false
+    },
+    {
+      "course_id": "b4020_92dd424b6da8",
+      "canonical_name_zh": "人工智慧應用與管理",
+      "canonical_name_en": null,
+      "known_aliases": [],
+      "credits": 3.0,
+      "curriculumRequirement": "department_group_elective",
+      "recommendedYear": 2,
+      "recommendedSemester": "fall",
+      "source_document": "official-required-subjects-112-b4020",
+      "notes": [
+        "官方必修科目表未提供英文課名，故不自行翻譯。"
+      ],
+      "alternatives": [],
+      "manual_review_required": false
+    }
+  ],
+  "course_groups": [
+    {
+      "group_id": "b4020_group_a",
+      "name_zh": "分組必修 (選修學程)（A組）",
+      "name_en": null,
+      "rule_kind": "choose_n_from_m",
+      "course_ids": [
+        "b4020_5b1b8c74b0c8",
+        "b4020_5da5416128be",
+        "b4020_20e71c578cb5",
+        "b4020_6cf6b3d881f4",
+        "b4020_4372d8d2451a",
+        "b4020_f4511912880d",
+        "b4020_5d80607fcebb",
+        "b4020_5392e06fa016",
+        "b4020_0dc0fd32b116",
+        "b4020_fcda1253e707"
+      ],
+      "minimum_courses": 1,
+      "maximum_courses": null,
+      "minimum_credits": null,
+      "maximum_counted_credits": null,
+      "category_requirements": [],
+      "counts_toward": "required",
+      "source_document": "official-required-subjects-112-b4020",
+      "manual_review_required": false,
+      "notes": [
+        "【A 】:計 10 科任選 1 科"
+      ]
+    },
+    {
+      "group_id": "b4020_group_b",
+      "name_zh": "分組必修 (選修學程)（B組）",
+      "name_en": null,
+      "rule_kind": "choose_n_from_m",
+      "course_ids": [
+        "b4020_77a2125f1927",
+        "b4020_24dc950f0ef6",
+        "b4020_e58bfac7b9ea",
+        "b4020_1f4b6c686362",
+        "b4020_13ef75725f8f",
+        "b4020_dfc087a46e97",
+        "b4020_d1990f9ab852",
+        "b4020_6862360769a9",
+        "b4020_92ed9cadaa8e",
+        "b4020_4be9b9adc690"
+      ],
+      "minimum_courses": 1,
+      "maximum_courses": null,
+      "minimum_credits": null,
+      "maximum_counted_credits": null,
+      "category_requirements": [],
+      "counts_toward": "required",
+      "source_document": "official-required-subjects-112-b4020",
+      "manual_review_required": false,
+      "notes": []
+    },
+    {
+      "group_id": "b4020_group_c",
+      "name_zh": "分組必修 (選修學程)（C組）",
+      "name_en": null,
+      "rule_kind": "choose_n_from_m",
+      "course_ids": [
+        "b4020_1d9a84c15b1c",
+        "b4020_44c9e613e3fd",
+        "b4020_697b3cc95d47",
+        "b4020_fc8e4c3d78b4",
+        "b4020_1df37ac5200c",
+        "b4020_92dd424b6da8"
+      ],
+      "minimum_courses": 1,
+      "maximum_courses": null,
+      "minimum_credits": null,
+      "maximum_counted_credits": null,
+      "category_requirements": [],
+      "counts_toward": "required",
+      "source_document": "official-required-subjects-112-b4020",
+      "manual_review_required": false,
+      "notes": []
+    }
+  ],
+  "prerequisites": [],
+  "non_duplicated_counting_groups": [],
+  "manual_review_rules": [
+    {
+      "rule_id": "b4020_official_table_review_pending",
+      "description": "官方必修科目表已轉為結構化候選，但尚未完成逐列雙人覆核。",
+      "reason": "自動解析可保存表格內容，不能單獨證明跨欄、附註與特殊身分條件已完整建模。",
+      "source_document": "official-required-subjects-112-b4020",
+      "resolution": "逐列對照官方表，確認課名、學分、建議學期、分組與所有附註後再改為reviewed。"
+    },
+    {
+      "rule_id": "b4020_course_regulation_01",
+      "description": "1.專業必修科目計63學分。",
+      "reason": "這是系所特有條款，可能包含組別、領域、授課語言、檢定、抵免或審查條件，現有課程完成狀態不足以自動證明。",
+      "source_document": "official-required-subjects-112-b4020",
+      "resolution": "依本條所述身分與課程屬性逐項查核；在ClearGrad尚未支援對應屬性前，不可自動標示已完成。"
+    },
+    {
+      "rule_id": "b4020_course_regulation_02",
+      "description": "2.專案一與專案二各為十選一課程:",
+      "reason": "這是系所特有條款，可能包含組別、領域、授課語言、檢定、抵免或審查條件，現有課程完成狀態不足以自動證明。",
+      "source_document": "official-required-subjects-112-b4020",
+      "resolution": "依本條所述身分與課程屬性逐項查核；在ClearGrad尚未支援對應屬性前，不可自動標示已完成。"
+    },
+    {
+      "rule_id": "b4020_course_regulation_03",
+      "description": "3.資管專業課程(六選一): 財務管理(3)組織行為學(3)行銷管理(3)生產與作業管理(3)商事法(2)人工智慧應用與管理(3)",
+      "reason": "這是系所特有條款，可能包含組別、領域、授課語言、檢定、抵免或審查條件，現有課程完成狀態不足以自動證明。",
+      "source_document": "official-required-subjects-112-b4020",
+      "resolution": "依本條所述身分與課程屬性逐項查核；在ClearGrad尚未支援對應屬性前，不可自動標示已完成。"
+    },
+    {
+      "rule_id": "b4020_course_regulation_05",
+      "description": "5.110學年起凡本系學生均須參加國立中山大學管理學院開設之「倫理與社會責任的理論與實務」課程方得畢業。",
+      "reason": "這是系所特有條款，可能包含組別、領域、授課語言、檢定、抵免或審查條件，現有課程完成狀態不足以自動證明。",
+      "source_document": "official-required-subjects-112-b4020",
+      "resolution": "依本條所述身分與課程屬性逐項查核；在ClearGrad尚未支援對應屬性前，不可自動標示已完成。"
+    }
+  ],
+  "additional_credit_rules": [
+    {
+      "rule_id": "b4020_foreign_secondary_grade2_equivalent",
+      "admission_statuses": [
+        "國外或香港澳門地區同級同類學校畢業年級相當於國內高級中等學校二年級，並以同等學力入學"
+      ],
+      "additional_credits": 12,
+      "source_document": "official-required-subjects-112-b4020",
+      "notes": [
+        "官方修課規定明載在原訂畢業應修學分之外增加12學分。"
+      ]
+    }
+  ]
+}

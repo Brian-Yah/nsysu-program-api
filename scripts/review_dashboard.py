@@ -20,6 +20,8 @@ ROOT = Path(__file__).resolve().parents[1]
 ASSET_ROOT = ROOT / "review-dashboard"
 PROGRAM_ID_PATTERN = re.compile(r"^prog_[0-9a-f]{16}$")
 VERSION_PATTERN = re.compile(r"^[0-9]{3}-[12]$")
+ENTRY_YEAR_PATTERN = re.compile(r"^[0-9]{3}$")
+DEPARTMENT_CODE_PATTERN = re.compile(r"^B[0-9]{4}$")
 DECISIONS = {"approved", "cautious_use", "needs_fix", "skipped"}
 MAX_BODY_SIZE = 64 * 1024
 
@@ -58,6 +60,216 @@ def decision_path(version: str, program_id: str) -> Path:
     if not PROGRAM_ID_PATTERN.fullmatch(program_id):
         raise ValueError("invalid program id")
     return ROOT / "data" / "review-decisions" / version / f"{program_id}.json"
+
+
+def validate_entry_year(entry_year: str) -> str:
+    if not ENTRY_YEAR_PATTERN.fullmatch(entry_year):
+        raise ValueError("invalid entry year")
+    return entry_year
+
+
+def graduation_rule_path(entry_year: str, department_code: str) -> Path:
+    validate_entry_year(entry_year)
+    if not DEPARTMENT_CODE_PATTERN.fullmatch(department_code):
+        raise ValueError("invalid department code")
+    return (
+        ROOT
+        / "api"
+        / "v1"
+        / "graduation-rules"
+        / entry_year
+        / "bachelor"
+        / f"{department_code}.json"
+    )
+
+
+def graduation_decision_path(entry_year: str, department_code: str) -> Path:
+    validate_entry_year(entry_year)
+    if not DEPARTMENT_CODE_PATTERN.fullmatch(department_code):
+        raise ValueError("invalid department code")
+    return (
+        ROOT
+        / "data"
+        / "graduation-review-decisions"
+        / entry_year
+        / f"{department_code}.json"
+    )
+
+
+def graduation_source_snapshot(entry_year: str, rule: dict, audit: dict) -> dict:
+    rule_bytes = json.dumps(
+        rule, ensure_ascii=False, sort_keys=True, separators=(",", ":")
+    ).encode()
+    return {
+        "entry_year": entry_year,
+        "policy_version": audit.get("policy_version"),
+        "ruleset_sha256": audit.get("ruleset_sha256"),
+        "department_rule_sha256": hashlib.sha256(rule_bytes).hexdigest(),
+        "official_source_hashes": {
+            source.get("source_id"): source.get("sha256")
+            for source in rule.get("sources", [])
+            if source.get("source_id")
+        },
+    }
+
+
+def graduation_is_stale(decision: dict | None, entry_year: str, rule: dict, audit: dict) -> bool:
+    return bool(
+        decision
+        and decision.get("based_on") != graduation_source_snapshot(entry_year, rule, audit)
+    )
+
+
+def graduation_queue_payload(entry_year: str) -> dict:
+    validate_entry_year(entry_year)
+    audit_path = ROOT / "reports" / f"graduation-ai-audit-{entry_year}.json"
+    audit = load_json(audit_path)
+    if not audit:
+        raise FileNotFoundError(f"missing graduation audit report: {audit_path}")
+
+    departments = []
+    counts = {decision: 0 for decision in DECISIONS}
+    counts["unreviewed"] = 0
+    counts["stale"] = 0
+    for audited in audit.get("departments", []):
+        if audited.get("decision") != "manual_review_required":
+            continue
+        department_code = audited["department_code"]
+        rule = load_json(graduation_rule_path(entry_year, department_code))
+        if not rule:
+            raise FileNotFoundError(department_code)
+        decision = load_json(graduation_decision_path(entry_year, department_code))
+        stale = graduation_is_stale(decision, entry_year, rule, audit)
+        decision_name = decision.get("decision") if decision else None
+        if stale:
+            counts["stale"] += 1
+        elif decision_name in DECISIONS:
+            counts[decision_name] += 1
+        else:
+            counts["unreviewed"] += 1
+
+        ai_review = rule.get("ai_review", {})
+        reasons = ai_review.get("blocking_reasons", audited.get("blocking_reasons", []))
+        sources = rule.get("sources", [])
+        departments.append(
+            {
+                "department_code": department_code,
+                "department_name_zh": rule.get("department_name_zh"),
+                "decision": decision_name,
+                "decision_note": decision.get("notes", "") if decision else "",
+                "reviewer": decision.get("reviewer", "") if decision else "",
+                "reviewed_at": decision.get("reviewed_at") if decision else None,
+                "decision_stale": stale,
+                "reasons": reasons,
+                "reason_details": ai_review.get("blocking_reason_details", []),
+                "course_count": len(rule.get("courses", [])),
+                "review_course_count": sum(
+                    bool(course.get("manual_review_required"))
+                    for course in rule.get("courses", [])
+                ),
+                "course_group_count": len(rule.get("course_groups", [])),
+                "review_course_group_count": sum(
+                    bool(group.get("manual_review_required"))
+                    for group in rule.get("course_groups", [])
+                ),
+                "manual_rule_count": len(rule.get("manual_review_rules", [])),
+                "source_url": sources[0].get("url") if sources else None,
+                "source_title": sources[0].get("title") if sources else None,
+                "needs_official_evidence": any(
+                    reason
+                    in {
+                        "course_table_unavailable",
+                        "empty_course_table",
+                        "missing_minimum_graduation_credits",
+                    }
+                    for reason in reasons
+                ),
+            }
+        )
+    return {
+        "entry_year": entry_year,
+        "generated_at": audit.get("reviewed_at"),
+        "ruleset_sha256": audit.get("ruleset_sha256"),
+        "total": len(departments),
+        "counts": counts,
+        "departments": departments,
+    }
+
+
+def graduation_department_payload(entry_year: str, department_code: str) -> dict:
+    audit_path = ROOT / "reports" / f"graduation-ai-audit-{entry_year}.json"
+    audit = load_json(audit_path)
+    if not audit:
+        raise FileNotFoundError(f"missing graduation audit report: {audit_path}")
+    rule = load_json(graduation_rule_path(entry_year, department_code))
+    if not rule:
+        raise FileNotFoundError(department_code)
+    decision = load_json(graduation_decision_path(entry_year, department_code))
+    sources = rule.get("sources", [])
+    return {
+        "rule": rule,
+        "decision": decision,
+        "decision_stale": graduation_is_stale(decision, entry_year, rule, audit),
+        "source_url": sources[0].get("url") if sources else None,
+    }
+
+
+def save_graduation_decision(entry_year: str, department_code: str, body: dict) -> dict:
+    audit_path = ROOT / "reports" / f"graduation-ai-audit-{entry_year}.json"
+    audit = load_json(audit_path)
+    if not audit:
+        raise FileNotFoundError(f"missing graduation audit report: {audit_path}")
+    rule = load_json(graduation_rule_path(entry_year, department_code))
+    if not rule:
+        raise FileNotFoundError(department_code)
+
+    decision = body.get("decision")
+    if decision not in DECISIONS:
+        raise ValueError("invalid decision")
+    reviewer = str(body.get("reviewer") or "").strip()
+    if not reviewer:
+        raise ValueError("reviewer is required")
+    notes = str(body.get("notes") or "").strip()
+    if decision in {"approved", "cautious_use", "needs_fix"} and not notes:
+        raise ValueError("notes are required for this decision")
+    evidence_url = str(body.get("evidence_url") or "").strip()
+    if evidence_url:
+        parsed = urlparse(evidence_url)
+        if parsed.scheme not in {"http", "https"} or not parsed.netloc:
+            raise ValueError("evidence URL must be an HTTP(S) URL")
+
+    reasons = rule.get("ai_review", {}).get("blocking_reasons", [])
+    source_missing = any(
+        reason
+        in {
+            "course_table_unavailable",
+            "empty_course_table",
+            "missing_minimum_graduation_credits",
+        }
+        for reason in reasons
+    )
+    if decision == "approved" and source_missing and not evidence_url:
+        raise ValueError("official evidence URL is required for missing source data")
+
+    record = {
+        "schema_version": 1,
+        "entry_year": entry_year,
+        "degree_level": "bachelor",
+        "department_code": department_code,
+        "department_name_zh": rule.get("department_name_zh"),
+        "decision": decision,
+        "reviewer": reviewer,
+        "reviewed_at": datetime.now(UTC).isoformat(timespec="seconds").replace("+00:00", "Z"),
+        "notes": notes,
+        "evidence_url": evidence_url or None,
+        "based_on": graduation_source_snapshot(entry_year, rule, audit),
+        "notice": (
+            "Source-pinned first-pass evidence review. This record does not automatically "
+            "change review_status or bypass schema and official-source verification."
+        ),
+    }
+    write_json_atomic(graduation_decision_path(entry_year, department_code), record)
+    return record
 
 
 def current_source_snapshot(program: dict) -> dict:
@@ -281,9 +493,20 @@ class ReviewHandler(BaseHTTPRequestHandler):
             if parsed.path == "/api/queue":
                 self.send_json(queue_payload(version))
                 return
+            if parsed.path == "/api/graduation/queue":
+                entry_year = query.get("entry_year", ["113"])[0]
+                self.send_json(graduation_queue_payload(entry_year))
+                return
             if parsed.path.startswith("/api/program/"):
                 program_id = unquote(parsed.path.removeprefix("/api/program/"))
                 self.send_json(program_payload(version, program_id))
+                return
+            if parsed.path.startswith("/api/graduation/department/"):
+                department_code = unquote(
+                    parsed.path.removeprefix("/api/graduation/department/")
+                )
+                entry_year = query.get("entry_year", ["113"])[0]
+                self.send_json(graduation_department_payload(entry_year, department_code))
                 return
             if parsed.path.startswith("/pdf/"):
                 filename = unquote(parsed.path.removeprefix("/pdf/"))
@@ -291,8 +514,21 @@ class ReviewHandler(BaseHTTPRequestHandler):
                     raise ValueError("invalid PDF path")
                 self.send_file(ROOT / "cache" / "pdf" / filename, "application/pdf")
                 return
-            asset_name = "index.html" if parsed.path in {"", "/"} else parsed.path.lstrip("/")
-            if asset_name not in {"index.html", "app.js", "style.css"}:
+            if parsed.path in {"", "/"}:
+                asset_name = (
+                    "graduation.html"
+                    if query.get("scope", [""])[0] == "graduation"
+                    else "index.html"
+                )
+            else:
+                asset_name = parsed.path.lstrip("/")
+            if asset_name not in {
+                "index.html",
+                "app.js",
+                "graduation.html",
+                "graduation.js",
+                "style.css",
+            }:
                 self.send_error(HTTPStatus.NOT_FOUND)
                 return
             self.send_file(ASSET_ROOT / asset_name)
@@ -305,6 +541,26 @@ class ReviewHandler(BaseHTTPRequestHandler):
 
     def do_POST(self) -> None:  # noqa: N802
         parsed = urlparse(self.path)
+        graduation_match = re.fullmatch(
+            r"/api/graduation/decision/(B[0-9]{4})", parsed.path
+        )
+        if graduation_match:
+            try:
+                length = int(self.headers.get("Content-Length", "0"))
+                if length <= 0 or length > MAX_BODY_SIZE:
+                    raise ValueError("invalid request size")
+                body = json.loads(self.rfile.read(length))
+                entry_year = parse_qs(parsed.query).get("entry_year", ["113"])[0]
+                self.send_json(
+                    save_graduation_decision(
+                        entry_year, graduation_match.group(1), body
+                    )
+                )
+            except (ValueError, json.JSONDecodeError) as exc:
+                self.send_json({"error": str(exc)}, HTTPStatus.BAD_REQUEST)
+            except FileNotFoundError as exc:
+                self.send_json({"error": str(exc)}, HTTPStatus.NOT_FOUND)
+            return
         match = re.fullmatch(r"/api/decision/(prog_[0-9a-f]{16})", parsed.path)
         if not match:
             self.send_error(HTTPStatus.NOT_FOUND)
@@ -325,6 +581,7 @@ class ReviewHandler(BaseHTTPRequestHandler):
 def main() -> None:
     parser = argparse.ArgumentParser(description="Run the local NSYSU program review dashboard")
     parser.add_argument("--academic-version", default="115-1")
+    parser.add_argument("--scope", choices=("program", "graduation"), default="program")
     parser.add_argument("--export-results", action="store_true")
     parser.add_argument("--host", default="127.0.0.1")
     parser.add_argument("--port", type=int, default=8765)
@@ -339,7 +596,8 @@ def main() -> None:
     if args.host not in {"127.0.0.1", "localhost", "::1"}:
         parser.error("review dashboard may only bind to localhost")
     server = ThreadingHTTPServer((args.host, args.port), ReviewHandler)
-    url = f"http://127.0.0.1:{server.server_port}/"
+    suffix = "?scope=graduation" if args.scope == "graduation" else ""
+    url = f"http://127.0.0.1:{server.server_port}/{suffix}"
     print(f"Review dashboard: {url}")
     print("Press Ctrl+C to stop.")
     if not args.no_open:

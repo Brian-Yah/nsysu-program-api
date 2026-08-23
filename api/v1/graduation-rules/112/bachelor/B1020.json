@@ -1,0 +1,749 @@
+{
+  "schema_version": "1.0",
+  "rule_set_id": "nsysu-112-bachelor-B1020",
+  "rule_type": "department",
+  "entry_year": "112",
+  "degree_level": "bachelor",
+  "department_code": "B1020",
+  "department_name_zh": "外國語文學系",
+  "department_name_en": null,
+  "common_rule_ref": null,
+  "review_status": "manual_review_required",
+  "reviewed_at": "2026-08-22",
+  "coverage": "partial",
+  "credit_requirements": {
+    "minimum_graduation_credits": 128,
+    "minimum_required_credits": null,
+    "minimum_elective_credits": null,
+    "minimum_department_elective_credits": 30.0,
+    "minimum_department_professional_credits": 55.0
+  },
+  "sources": [
+    {
+      "source_id": "official-required-subjects-112-b1020",
+      "title": "國立中山大學必修科目表（112學年度入學新生適用）－外國語文學系",
+      "url": "https://selcrs.nsysu.edu.tw/stu_query/crs_mst_qry/crs_mst_query.asp?action=3&YY1=112&DPT1=B1020",
+      "document_type": "html",
+      "reviewed_at": "2026-08-22",
+      "sha256": "0a662f53d4b84ec4e05c8013e064138a0b62f75b294a21f2ef174d8e39a02507"
+    }
+  ],
+  "courses": [
+    {
+      "course_id": "b1020_485c3dab9f18",
+      "canonical_name_zh": "英文閱讀",
+      "canonical_name_en": null,
+      "known_aliases": [],
+      "credits": 3.0,
+      "curriculumRequirement": "department_core",
+      "recommendedYear": 1,
+      "recommendedSemester": "fall",
+      "source_document": "official-required-subjects-112-b1020",
+      "notes": [
+        "官方必修科目表未提供英文課名，故不自行翻譯。"
+      ],
+      "alternatives": [],
+      "manual_review_required": false
+    },
+    {
+      "course_id": "b1020_b1b151ccee32",
+      "canonical_name_zh": "學術英文閱讀",
+      "canonical_name_en": null,
+      "known_aliases": [],
+      "credits": 3.0,
+      "curriculumRequirement": "department_core",
+      "recommendedYear": 1,
+      "recommendedSemester": "spring",
+      "source_document": "official-required-subjects-112-b1020",
+      "notes": [
+        "官方必修科目表未提供英文課名，故不自行翻譯。"
+      ],
+      "alternatives": [],
+      "manual_review_required": false
+    },
+    {
+      "course_id": "b1020_228308f2a654",
+      "canonical_name_zh": "英語聽力一(一)",
+      "canonical_name_en": null,
+      "known_aliases": [],
+      "credits": 1.0,
+      "curriculumRequirement": "department_core",
+      "recommendedYear": 1,
+      "recommendedSemester": "fall",
+      "source_document": "official-required-subjects-112-b1020",
+      "notes": [
+        "官方必修科目表未提供英文課名，故不自行翻譯。"
+      ],
+      "alternatives": [],
+      "manual_review_required": false
+    },
+    {
+      "course_id": "b1020_5c11111945ec",
+      "canonical_name_zh": "英語聽力一(二)",
+      "canonical_name_en": null,
+      "known_aliases": [],
+      "credits": 1.0,
+      "curriculumRequirement": "department_core",
+      "recommendedYear": 1,
+      "recommendedSemester": "spring",
+      "source_document": "official-required-subjects-112-b1020",
+      "notes": [
+        "官方必修科目表未提供英文課名，故不自行翻譯。"
+      ],
+      "alternatives": [],
+      "manual_review_required": false
+    },
+    {
+      "course_id": "b1020_1ef4b09801b2",
+      "canonical_name_zh": "英語口語訓練一(一)",
+      "canonical_name_en": null,
+      "known_aliases": [],
+      "credits": 2.0,
+      "curriculumRequirement": "department_core",
+      "recommendedYear": 1,
+      "recommendedSemester": "fall",
+      "source_document": "official-required-subjects-112-b1020",
+      "notes": [
+        "官方必修科目表未提供英文課名，故不自行翻譯。"
+      ],
+      "alternatives": [],
+      "manual_review_required": false
+    },
+    {
+      "course_id": "b1020_b856491bb866",
+      "canonical_name_zh": "英語口語訓練一(二)",
+      "canonical_name_en": null,
+      "known_aliases": [],
+      "credits": 2.0,
+      "curriculumRequirement": "department_core",
+      "recommendedYear": 1,
+      "recommendedSemester": "spring",
+      "source_document": "official-required-subjects-112-b1020",
+      "notes": [
+        "官方必修科目表未提供英文課名，故不自行翻譯。"
+      ],
+      "alternatives": [],
+      "manual_review_required": false
+    },
+    {
+      "course_id": "b1020_cfbbfa92720f",
+      "canonical_name_zh": "英文寫作一(一)",
+      "canonical_name_en": null,
+      "known_aliases": [],
+      "credits": 2.0,
+      "curriculumRequirement": "department_core",
+      "recommendedYear": 1,
+      "recommendedSemester": "fall",
+      "source_document": "official-required-subjects-112-b1020",
+      "notes": [
+        "官方必修科目表未提供英文課名，故不自行翻譯。"
+      ],
+      "alternatives": [],
+      "manual_review_required": false
+    },
+    {
+      "course_id": "b1020_e2ce26acc64b",
+      "canonical_name_zh": "英文寫作一(二)",
+      "canonical_name_en": null,
+      "known_aliases": [],
+      "credits": 2.0,
+      "curriculumRequirement": "department_core",
+      "recommendedYear": 1,
+      "recommendedSemester": "spring",
+      "source_document": "official-required-subjects-112-b1020",
+      "notes": [
+        "官方必修科目表未提供英文課名，故不自行翻譯。"
+      ],
+      "alternatives": [],
+      "manual_review_required": false
+    },
+    {
+      "course_id": "b1020_d8f4d253d5a7",
+      "canonical_name_zh": "西洋文學概論(一)",
+      "canonical_name_en": null,
+      "known_aliases": [],
+      "credits": 3.0,
+      "curriculumRequirement": "department_core",
+      "recommendedYear": 1,
+      "recommendedSemester": "fall",
+      "source_document": "official-required-subjects-112-b1020",
+      "notes": [
+        "官方必修科目表未提供英文課名，故不自行翻譯。"
+      ],
+      "alternatives": [],
+      "manual_review_required": false
+    },
+    {
+      "course_id": "b1020_6385c3bb0c85",
+      "canonical_name_zh": "西洋文學概論(二)",
+      "canonical_name_en": null,
+      "known_aliases": [],
+      "credits": 3.0,
+      "curriculumRequirement": "department_core",
+      "recommendedYear": 1,
+      "recommendedSemester": "spring",
+      "source_document": "official-required-subjects-112-b1020",
+      "notes": [
+        "官方必修科目表未提供英文課名，故不自行翻譯。"
+      ],
+      "alternatives": [],
+      "manual_review_required": false
+    },
+    {
+      "course_id": "b1020_f9bc026a920f",
+      "canonical_name_zh": "文學作品導讀(一)",
+      "canonical_name_en": null,
+      "known_aliases": [],
+      "credits": 3.0,
+      "curriculumRequirement": "department_core",
+      "recommendedYear": 1,
+      "recommendedSemester": "fall",
+      "source_document": "official-required-subjects-112-b1020",
+      "notes": [
+        "官方必修科目表未提供英文課名，故不自行翻譯。"
+      ],
+      "alternatives": [],
+      "manual_review_required": false
+    },
+    {
+      "course_id": "b1020_878d0de00eeb",
+      "canonical_name_zh": "文學作品導讀(二)",
+      "canonical_name_en": null,
+      "known_aliases": [],
+      "credits": 3.0,
+      "curriculumRequirement": "department_core",
+      "recommendedYear": 1,
+      "recommendedSemester": "spring",
+      "source_document": "official-required-subjects-112-b1020",
+      "notes": [
+        "官方必修科目表未提供英文課名，故不自行翻譯。"
+      ],
+      "alternatives": [],
+      "manual_review_required": false
+    },
+    {
+      "course_id": "b1020_08fc348cb966",
+      "canonical_name_zh": "英語聽力二(一)",
+      "canonical_name_en": null,
+      "known_aliases": [],
+      "credits": 1.0,
+      "curriculumRequirement": "department_core",
+      "recommendedYear": 2,
+      "recommendedSemester": "fall",
+      "source_document": "official-required-subjects-112-b1020",
+      "notes": [
+        "官方必修科目表未提供英文課名，故不自行翻譯。"
+      ],
+      "alternatives": [],
+      "manual_review_required": false
+    },
+    {
+      "course_id": "b1020_e108e66798ad",
+      "canonical_name_zh": "英語聽力二(二)",
+      "canonical_name_en": null,
+      "known_aliases": [],
+      "credits": 1.0,
+      "curriculumRequirement": "department_core",
+      "recommendedYear": 2,
+      "recommendedSemester": "spring",
+      "source_document": "official-required-subjects-112-b1020",
+      "notes": [
+        "官方必修科目表未提供英文課名，故不自行翻譯。"
+      ],
+      "alternatives": [],
+      "manual_review_required": false
+    },
+    {
+      "course_id": "b1020_860dfdfa2697",
+      "canonical_name_zh": "英語口語訓練二(一)",
+      "canonical_name_en": null,
+      "known_aliases": [],
+      "credits": 2.0,
+      "curriculumRequirement": "department_core",
+      "recommendedYear": 2,
+      "recommendedSemester": "fall",
+      "source_document": "official-required-subjects-112-b1020",
+      "notes": [
+        "官方必修科目表未提供英文課名，故不自行翻譯。"
+      ],
+      "alternatives": [],
+      "manual_review_required": false
+    },
+    {
+      "course_id": "b1020_fbd5082b5974",
+      "canonical_name_zh": "英語口語訓練二(二)",
+      "canonical_name_en": null,
+      "known_aliases": [],
+      "credits": 2.0,
+      "curriculumRequirement": "department_core",
+      "recommendedYear": 2,
+      "recommendedSemester": "spring",
+      "source_document": "official-required-subjects-112-b1020",
+      "notes": [
+        "官方必修科目表未提供英文課名，故不自行翻譯。"
+      ],
+      "alternatives": [],
+      "manual_review_required": false
+    },
+    {
+      "course_id": "b1020_c521d5a88ccb",
+      "canonical_name_zh": "英文寫作二(一)",
+      "canonical_name_en": null,
+      "known_aliases": [],
+      "credits": 2.0,
+      "curriculumRequirement": "department_core",
+      "recommendedYear": 2,
+      "recommendedSemester": "fall",
+      "source_document": "official-required-subjects-112-b1020",
+      "notes": [
+        "官方必修科目表未提供英文課名，故不自行翻譯。"
+      ],
+      "alternatives": [],
+      "manual_review_required": false
+    },
+    {
+      "course_id": "b1020_21bc881e688a",
+      "canonical_name_zh": "英文寫作二(二)",
+      "canonical_name_en": null,
+      "known_aliases": [],
+      "credits": 2.0,
+      "curriculumRequirement": "department_core",
+      "recommendedYear": 2,
+      "recommendedSemester": "spring",
+      "source_document": "official-required-subjects-112-b1020",
+      "notes": [
+        "官方必修科目表未提供英文課名，故不自行翻譯。"
+      ],
+      "alternatives": [],
+      "manual_review_required": false
+    },
+    {
+      "course_id": "b1020_4f89ddb99457",
+      "canonical_name_zh": "英語語言學概論(一)",
+      "canonical_name_en": null,
+      "known_aliases": [],
+      "credits": 3.0,
+      "curriculumRequirement": "department_core",
+      "recommendedYear": 2,
+      "recommendedSemester": "fall",
+      "source_document": "official-required-subjects-112-b1020",
+      "notes": [
+        "官方必修科目表未提供英文課名，故不自行翻譯。"
+      ],
+      "alternatives": [],
+      "manual_review_required": false
+    },
+    {
+      "course_id": "b1020_2d203c1cdd22",
+      "canonical_name_zh": "英語語言學概論(二)",
+      "canonical_name_en": null,
+      "known_aliases": [],
+      "credits": 3.0,
+      "curriculumRequirement": "department_core",
+      "recommendedYear": 2,
+      "recommendedSemester": "spring",
+      "source_document": "official-required-subjects-112-b1020",
+      "notes": [
+        "官方必修科目表未提供英文課名，故不自行翻譯。"
+      ],
+      "alternatives": [],
+      "manual_review_required": false
+    },
+    {
+      "course_id": "b1020_5f62a55fa974",
+      "canonical_name_zh": "進階英文寫作",
+      "canonical_name_en": null,
+      "known_aliases": [],
+      "credits": 2.0,
+      "curriculumRequirement": "department_core",
+      "recommendedYear": 3,
+      "recommendedSemester": "fall",
+      "source_document": "official-required-subjects-112-b1020",
+      "notes": [
+        "官方必修科目表未提供英文課名，故不自行翻譯。"
+      ],
+      "alternatives": [],
+      "manual_review_required": false
+    },
+    {
+      "course_id": "b1020_6a4f978f77c9",
+      "canonical_name_zh": "英國文學:1660以前",
+      "canonical_name_en": null,
+      "known_aliases": [],
+      "credits": 3.0,
+      "curriculumRequirement": "department_group_elective",
+      "recommendedYear": 2,
+      "recommendedSemester": "fall",
+      "source_document": "official-required-subjects-112-b1020",
+      "notes": [
+        "官方必修科目表未提供英文課名，故不自行翻譯。"
+      ],
+      "alternatives": [],
+      "manual_review_required": false
+    },
+    {
+      "course_id": "b1020_53164fe9d006",
+      "canonical_name_zh": "英國文學:1660-1800",
+      "canonical_name_en": null,
+      "known_aliases": [],
+      "credits": 3.0,
+      "curriculumRequirement": "department_group_elective",
+      "recommendedYear": 2,
+      "recommendedSemester": "spring",
+      "source_document": "official-required-subjects-112-b1020",
+      "notes": [
+        "官方必修科目表未提供英文課名，故不自行翻譯。"
+      ],
+      "alternatives": [],
+      "manual_review_required": false
+    },
+    {
+      "course_id": "b1020_294442632d27",
+      "canonical_name_zh": "英國文學:1800-1900",
+      "canonical_name_en": null,
+      "known_aliases": [],
+      "credits": 3.0,
+      "curriculumRequirement": "department_group_elective",
+      "recommendedYear": 3,
+      "recommendedSemester": "fall",
+      "source_document": "official-required-subjects-112-b1020",
+      "notes": [
+        "官方必修科目表未提供英文課名，故不自行翻譯。"
+      ],
+      "alternatives": [],
+      "manual_review_required": false
+    },
+    {
+      "course_id": "b1020_92f24c57c529",
+      "canonical_name_zh": "英國文學:1900以後",
+      "canonical_name_en": null,
+      "known_aliases": [],
+      "credits": 3.0,
+      "curriculumRequirement": "department_group_elective",
+      "recommendedYear": 3,
+      "recommendedSemester": "spring",
+      "source_document": "official-required-subjects-112-b1020",
+      "notes": [
+        "官方必修科目表未提供英文課名，故不自行翻譯。"
+      ],
+      "alternatives": [],
+      "manual_review_required": false
+    },
+    {
+      "course_id": "b1020_d6737d7f5eaf",
+      "canonical_name_zh": "美國文學:1865以前",
+      "canonical_name_en": null,
+      "known_aliases": [],
+      "credits": 3.0,
+      "curriculumRequirement": "department_group_elective",
+      "recommendedYear": 4,
+      "recommendedSemester": "fall",
+      "source_document": "official-required-subjects-112-b1020",
+      "notes": [
+        "官方必修科目表未提供英文課名，故不自行翻譯。"
+      ],
+      "alternatives": [],
+      "manual_review_required": false
+    },
+    {
+      "course_id": "b1020_ef8741cb9e57",
+      "canonical_name_zh": "美國文學:1865以後",
+      "canonical_name_en": null,
+      "known_aliases": [],
+      "credits": 3.0,
+      "curriculumRequirement": "department_group_elective",
+      "recommendedYear": 4,
+      "recommendedSemester": "spring",
+      "source_document": "official-required-subjects-112-b1020",
+      "notes": [
+        "官方必修科目表未提供英文課名，故不自行翻譯。"
+      ],
+      "alternatives": [],
+      "manual_review_required": false
+    },
+    {
+      "course_id": "b1020_7846203be13f",
+      "canonical_name_zh": "歐洲文學:1350-1800",
+      "canonical_name_en": null,
+      "known_aliases": [],
+      "credits": 3.0,
+      "curriculumRequirement": "department_group_elective",
+      "recommendedYear": 2,
+      "recommendedSemester": "fall",
+      "source_document": "official-required-subjects-112-b1020",
+      "notes": [
+        "官方必修科目表未提供英文課名，故不自行翻譯。"
+      ],
+      "alternatives": [],
+      "manual_review_required": false
+    },
+    {
+      "course_id": "b1020_6779878d417d",
+      "canonical_name_zh": "歐洲文學:1800以後",
+      "canonical_name_en": null,
+      "known_aliases": [],
+      "credits": 3.0,
+      "curriculumRequirement": "department_group_elective",
+      "recommendedYear": 2,
+      "recommendedSemester": "spring",
+      "source_document": "official-required-subjects-112-b1020",
+      "notes": [
+        "官方必修科目表未提供英文課名，故不自行翻譯。"
+      ],
+      "alternatives": [],
+      "manual_review_required": false
+    },
+    {
+      "course_id": "b1020_c8466cd6a53d",
+      "canonical_name_zh": "日文(一)",
+      "canonical_name_en": null,
+      "known_aliases": [],
+      "credits": 3.0,
+      "curriculumRequirement": "department_group_elective",
+      "recommendedYear": 2,
+      "recommendedSemester": "fall",
+      "source_document": "official-required-subjects-112-b1020",
+      "notes": [
+        "官方必修科目表未提供英文課名，故不自行翻譯。"
+      ],
+      "alternatives": [],
+      "manual_review_required": false
+    },
+    {
+      "course_id": "b1020_84f668ad55ef",
+      "canonical_name_zh": "西班牙文(一)",
+      "canonical_name_en": null,
+      "known_aliases": [],
+      "credits": 3.0,
+      "curriculumRequirement": "department_group_elective",
+      "recommendedYear": 2,
+      "recommendedSemester": "fall",
+      "source_document": "official-required-subjects-112-b1020",
+      "notes": [
+        "官方必修科目表未提供英文課名，故不自行翻譯。"
+      ],
+      "alternatives": [],
+      "manual_review_required": false
+    },
+    {
+      "course_id": "b1020_db85753818e0",
+      "canonical_name_zh": "法文(一)",
+      "canonical_name_en": null,
+      "known_aliases": [],
+      "credits": 3.0,
+      "curriculumRequirement": "department_group_elective",
+      "recommendedYear": 2,
+      "recommendedSemester": "fall",
+      "source_document": "official-required-subjects-112-b1020",
+      "notes": [
+        "官方必修科目表未提供英文課名，故不自行翻譯。"
+      ],
+      "alternatives": [],
+      "manual_review_required": false
+    },
+    {
+      "course_id": "b1020_8e7de6738b36",
+      "canonical_name_zh": "德文(一)",
+      "canonical_name_en": null,
+      "known_aliases": [],
+      "credits": 3.0,
+      "curriculumRequirement": "department_group_elective",
+      "recommendedYear": 2,
+      "recommendedSemester": "fall",
+      "source_document": "official-required-subjects-112-b1020",
+      "notes": [
+        "官方必修科目表未提供英文課名，故不自行翻譯。"
+      ],
+      "alternatives": [],
+      "manual_review_required": false
+    },
+    {
+      "course_id": "b1020_a4c9e804ce6f",
+      "canonical_name_zh": "俄文(一)",
+      "canonical_name_en": null,
+      "known_aliases": [],
+      "credits": 3.0,
+      "curriculumRequirement": "department_group_elective",
+      "recommendedYear": 2,
+      "recommendedSemester": "fall",
+      "source_document": "official-required-subjects-112-b1020",
+      "notes": [
+        "官方必修科目表未提供英文課名，故不自行翻譯。"
+      ],
+      "alternatives": [],
+      "manual_review_required": false
+    }
+  ],
+  "course_groups": [
+    {
+      "group_id": "b1020_group_a",
+      "name_zh": "分組必修 (選修學程)（A組）",
+      "name_en": null,
+      "rule_kind": "choose_n_from_m",
+      "course_ids": [
+        "b1020_6a4f978f77c9",
+        "b1020_53164fe9d006",
+        "b1020_294442632d27",
+        "b1020_92f24c57c529"
+      ],
+      "minimum_courses": 2,
+      "maximum_courses": null,
+      "minimum_credits": null,
+      "maximum_counted_credits": null,
+      "category_requirements": [],
+      "counts_toward": "required",
+      "source_document": "official-required-subjects-112-b1020",
+      "manual_review_required": false,
+      "notes": [
+        "【A 】:計 4 科任選 2 科"
+      ]
+    },
+    {
+      "group_id": "b1020_group_b",
+      "name_zh": "分組必修 (選修學程)（B組）",
+      "name_en": null,
+      "rule_kind": "choose_n_from_m",
+      "course_ids": [
+        "b1020_d6737d7f5eaf",
+        "b1020_ef8741cb9e57"
+      ],
+      "minimum_courses": 1,
+      "maximum_courses": null,
+      "minimum_credits": null,
+      "maximum_counted_credits": null,
+      "category_requirements": [],
+      "counts_toward": "required",
+      "source_document": "official-required-subjects-112-b1020",
+      "manual_review_required": false,
+      "notes": []
+    },
+    {
+      "group_id": "b1020_group_c",
+      "name_zh": "分組必修 (選修學程)（C組）",
+      "name_en": null,
+      "rule_kind": "choose_n_from_m",
+      "course_ids": [
+        "b1020_7846203be13f",
+        "b1020_6779878d417d"
+      ],
+      "minimum_courses": 1,
+      "maximum_courses": null,
+      "minimum_credits": null,
+      "maximum_counted_credits": null,
+      "category_requirements": [],
+      "counts_toward": "required",
+      "source_document": "official-required-subjects-112-b1020",
+      "manual_review_required": false,
+      "notes": []
+    },
+    {
+      "group_id": "b1020_group_d",
+      "name_zh": "分組必修 (選修學程)（D組）",
+      "name_en": null,
+      "rule_kind": "choose_n_from_m",
+      "course_ids": [
+        "b1020_c8466cd6a53d",
+        "b1020_84f668ad55ef",
+        "b1020_db85753818e0",
+        "b1020_8e7de6738b36",
+        "b1020_a4c9e804ce6f"
+      ],
+      "minimum_courses": 1,
+      "maximum_courses": null,
+      "minimum_credits": null,
+      "maximum_counted_credits": null,
+      "category_requirements": [],
+      "counts_toward": "required",
+      "source_document": "official-required-subjects-112-b1020",
+      "manual_review_required": false,
+      "notes": []
+    }
+  ],
+  "prerequisites": [],
+  "non_duplicated_counting_groups": [],
+  "manual_review_rules": [
+    {
+      "rule_id": "b1020_official_table_review_pending",
+      "description": "官方必修科目表已轉為結構化候選，但尚未完成逐列雙人覆核。",
+      "reason": "自動解析可保存表格內容，不能單獨證明跨欄、附註與特殊身分條件已完整建模。",
+      "source_document": "official-required-subjects-112-b1020",
+      "resolution": "逐列對照官方表，確認課名、學分、建議學期、分組與所有附註後再改為reviewed。"
+    },
+    {
+      "rule_id": "b1020_course_regulation_01",
+      "description": "3. 專業必修科目計55學分 ,不含「英文閱讀」、「學術英文閱讀」。「英文閱讀」列計於通識教育課程英語文必修學分,「學術英文閱讀」列計通識教育跨院選修學術英文(EAP)/專業英文(ESP)課程學分。",
+      "reason": "這是系所特有條款，可能包含組別、領域、授課語言、檢定、抵免或審查條件，現有課程完成狀態不足以自動證明。",
+      "source_document": "official-required-subjects-112-b1020",
+      "resolution": "依本條所述身分與課程屬性逐項查核；在ClearGrad尚未支援對應屬性前，不可自動標示已完成。"
+    },
+    {
+      "rule_id": "b1020_course_regulation_02",
+      "description": "4. 本系專業選修課程至少30學分。第二外語課程得列為系專業30選修課程,但至多計入6學分,其餘得併入本系任意選修學分計算;電腦及管理課程不得併入計算。",
+      "reason": "這是系所特有條款，可能包含組別、領域、授課語言、檢定、抵免或審查條件，現有課程完成狀態不足以自動證明。",
+      "source_document": "official-required-subjects-112-b1020",
+      "resolution": "依本條所述身分與課程屬性逐項查核；在ClearGrad尚未支援對應屬性前，不可自動標示已完成。"
+    },
+    {
+      "rule_id": "b1020_course_regulation_03",
+      "description": "5. 西灣學院開設之跨院選修學術英文(EAP)或專業英文(ESP)課程,不得併入本系選修學分計算。",
+      "reason": "這是系所特有條款，可能包含組別、領域、授課語言、檢定、抵免或審查條件，現有課程完成狀態不足以自動證明。",
+      "source_document": "official-required-subjects-112-b1020",
+      "resolution": "依本條所述身分與課程屬性逐項查核；在ClearGrad尚未支援對應屬性前，不可自動標示已完成。"
+    },
+    {
+      "rule_id": "b1020_course_regulation_04",
+      "description": "6. 專業必修科目表:A組為英國文學等4科任選2科;B組為美國文學等2科任選1科;C組為歐洲文學等2科任選1科;D組為第二外語課程等5科任選1科",
+      "reason": "這是系所特有條款，可能包含組別、領域、授課語言、檢定、抵免或審查條件，現有課程完成狀態不足以自動證明。",
+      "source_document": "official-required-subjects-112-b1020",
+      "resolution": "依本條所述身分與課程屬性逐項查核；在ClearGrad尚未支援對應屬性前，不可自動標示已完成。"
+    },
+    {
+      "rule_id": "b1020_course_regulation_05",
+      "description": "7. 英文畢業門檻:",
+      "reason": "這是系所特有條款，可能包含組別、領域、授課語言、檢定、抵免或審查條件，現有課程完成狀態不足以自動證明。",
+      "source_document": "official-required-subjects-112-b1020",
+      "resolution": "依本條所述身分與課程屬性逐項查核；在ClearGrad尚未支援對應屬性前，不可自動標示已完成。"
+    },
+    {
+      "rule_id": "b1020_course_regulation_06",
+      "description": "7.1 學生應於畢業前通過英文檢定考試始能畢業,通過標準如下,擇一使用: A. GEPT高級初試 B. TOEFL(ITP)550(含)以上 C. TOEFL(iBT)79(含)以上 D. IELTS國際英語測驗6級(含)以上 E. TOEIC聽讀測驗800(含)以上,或說寫測驗320(含)以上 F. 培力英語能力檢定聽讀測驗230(含)以上,或說寫測驗620(含)以上",
+      "reason": "這是系所特有條款，可能包含組別、領域、授課語言、檢定、抵免或審查條件，現有課程完成狀態不足以自動證明。",
+      "source_document": "official-required-subjects-112-b1020",
+      "resolution": "依本條所述身分與課程屬性逐項查核；在ClearGrad尚未支援對應屬性前，不可自動標示已完成。"
+    },
+    {
+      "rule_id": "b1020_course_regulation_07",
+      "description": "7.2 未通過本標準者,可持在學時之英文檢定成績單至外文系辦理成績登錄後,選修本系開設之下列課程一門,作為補救課程,如:「高級英文閱讀(一)」、「高級英文閱讀(二)」、「英語演說與辯論」、「應用英語與溝通」等課程,且修習該課程及格。該課程學分不列入畢業學分(128學分)內。",
+      "reason": "這是系所特有條款，可能包含組別、領域、授課語言、檢定、抵免或審查條件，現有課程完成狀態不足以自動證明。",
+      "source_document": "official-required-subjects-112-b1020",
+      "resolution": "依本條所述身分與課程屬性逐項查核；在ClearGrad尚未支援對應屬性前，不可自動標示已完成。"
+    },
+    {
+      "rule_id": "b1020_course_regulation_08",
+      "description": "7.3 凡本系來自英語系國家,如:英國、美國、加拿大、澳洲、紐西蘭、愛爾蘭、南非等七國,以英語為母語之外籍生,入學時於本系所舉辦之英語能力測驗,總成績達850(含)以上者,視同符合本系英文畢業門檻之規定。",
+      "reason": "這是系所特有條款，可能包含組別、領域、授課語言、檢定、抵免或審查條件，現有課程完成狀態不足以自動證明。",
+      "source_document": "official-required-subjects-112-b1020",
+      "resolution": "依本條所述身分與課程屬性逐項查核；在ClearGrad尚未支援對應屬性前，不可自動標示已完成。"
+    },
+    {
+      "rule_id": "b1020_course_regulation_09",
+      "description": "7.4 本系身心障礙管道入學生之英文畢業門檻,得比照英語文教學中心身心障礙管道入學生之規定,提會議個案討論辦理。",
+      "reason": "這是系所特有條款，可能包含組別、領域、授課語言、檢定、抵免或審查條件，現有課程完成狀態不足以自動證明。",
+      "source_document": "official-required-subjects-112-b1020",
+      "resolution": "依本條所述身分與課程屬性逐項查核；在ClearGrad尚未支援對應屬性前，不可自動標示已完成。"
+    }
+  ],
+  "additional_credit_rules": [
+    {
+      "rule_id": "b1020_foreign_secondary_grade2_equivalent",
+      "admission_statuses": [
+        "國外或香港澳門地區同級同類學校畢業年級相當於國內高級中等學校二年級，並以同等學力入學"
+      ],
+      "additional_credits": 12,
+      "source_document": "official-required-subjects-112-b1020",
+      "notes": [
+        "官方修課規定明載在原訂畢業應修學分之外增加12學分。"
+      ]
+    }
+  ]
+}

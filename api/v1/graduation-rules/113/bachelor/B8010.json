@@ -1477,5 +1477,32 @@
       "resolution": "依本條所述身分與課程屬性逐項查核；在ClearGrad尚未支援對應屬性前，不可自動標示已完成。"
     }
   ],
-  "additional_credit_rules": []
+  "additional_credit_rules": [],
+  "ai_review": {
+    "policy_version": "graduation-rules-complete-v1",
+    "reviewed_at": "2026-08-22",
+    "audit_path": "data/graduation-ai-review/113.json",
+    "decision": "manual_review_required",
+    "source_hashes": {
+      "official-required-subjects-113-b8010": "2f046208e8375cae349f6c3aa67b9dba4680a17cf32066abaca6c286dfaf0cf6"
+    },
+    "blocking_reasons": [
+      "course_credit_unknown",
+      "course_row_requires_review"
+    ],
+    "blocking_reason_details": [
+      {
+        "code": "course_credit_unknown",
+        "message": "至少一門課在官方文件中沒有可唯一判定的學分。"
+      },
+      {
+        "code": "course_row_requires_review",
+        "message": "至少一門課有零學分、多學期配置或同名列差異。"
+      }
+    ],
+    "manual_evaluation_rule_ids": [
+      "b8010_official_table_review_pending",
+      "b8010_course_regulation_01"
+    ]
+  }
 }

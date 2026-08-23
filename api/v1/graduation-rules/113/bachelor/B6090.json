@@ -349,5 +349,30 @@
         "官方修課規定明載在原訂畢業應修學分之外增加12學分。"
       ]
     }
-  ]
+  ],
+  "ai_review": {
+    "policy_version": "graduation-rules-complete-v1",
+    "reviewed_at": "2026-08-22",
+    "audit_path": "data/graduation-ai-review/113.json",
+    "decision": "manual_review_required",
+    "source_hashes": {
+      "official-required-subjects-113-b6090": "24768021948d40a05eae3a7dfa488092dbccac4b2a1bc7f21f551226a5b69084"
+    },
+    "blocking_reasons": [
+      "course_group_requires_review"
+    ],
+    "blocking_reason_details": [
+      {
+        "code": "course_group_requires_review",
+        "message": "課群宣告門數、表列數量或學生軌道仍需確認。"
+      }
+    ],
+    "manual_evaluation_rule_ids": [
+      "b6090_official_table_review_pending",
+      "b6090_course_regulation_01",
+      "b6090_course_regulation_02",
+      "b6090_course_regulation_03",
+      "b6090_curriculum_track_selection"
+    ]
+  }
 }

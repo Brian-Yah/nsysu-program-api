@@ -1,14 +1,42 @@
 {
   "schema_version": "1.3",
   "latest_entry_academic_year": "115",
+  "entry_academic_years": [
+    "112",
+    "113",
+    "114",
+    "115"
+  ],
   "degree_levels": [
     "bachelor"
   ],
   "department_count": 28,
+  "entry_year_summary": [
+    {
+      "entry_academic_year": "112",
+      "department_count": 25,
+      "unavailable_department_count": 6
+    },
+    {
+      "entry_academic_year": "113",
+      "department_count": 26,
+      "unavailable_department_count": 5
+    },
+    {
+      "entry_academic_year": "114",
+      "department_count": 28,
+      "unavailable_department_count": 3
+    },
+    {
+      "entry_academic_year": "115",
+      "department_count": 28,
+      "unavailable_department_count": 3
+    }
+  ],
   "paths": {
     "latest_bachelor": "latest/bachelor.json",
-    "year_bachelor": "115/bachelor.json",
-    "department_template": "115/bachelor/{department_code}.json",
+    "year_bachelor_template": "{entry_year}/bachelor.json",
+    "department_template": "{entry_year}/bachelor/{department_code}.json",
     "requirement_schema": "../schemas/graduation-requirement.schema.json",
     "collection_schema": "../schemas/graduation-requirements.schema.json"
   }

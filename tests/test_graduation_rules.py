@@ -6,7 +6,11 @@ from pathlib import Path
 
 from jsonschema import Draft202012Validator, FormatChecker
 
-from nsysu_program_api.graduation_rule_fetch import parse_official_department_rule
+from nsysu_program_api.graduation_rule_fetch import (
+    graduation_rule_coverage,
+    graduation_rule_regression_errors,
+    parse_official_department_rule,
+)
 from nsysu_program_api.graduation_rules import (
     build_graduation_rules_api,
     validate_common_references,
@@ -290,6 +294,67 @@ def test_zero_credit_graduation_condition_is_not_published_as_course_credit() ->
     assert any("表列為0學分" in note for note in course["notes"])
 
 
+def test_112_department_rule_does_not_inherit_113_plus_common_rules() -> None:
+    html = """
+    <table>
+      <tr><td>專<br>業<br>必<br>修</td><td></td><td>程式設計</td><td>3</td>
+      <td></td><td></td><td></td><td></td><td></td><td></td><td></td><td></td>
+      <td></td><td></td><td></td><td></td><td></td><td></td></tr>
+      <tr><td>最低畢業學分數</td><td>128</td></tr>
+    </table>
+    """
+    rule = parse_official_department_rule(
+        html,
+        entry_year="112",
+        department_code="B9998",
+        department_name="測試學系",
+        source_url="https://example.test/B9998",
+        source_hash="a" * 64,
+        reviewed_at="2026-08-22",
+    )
+
+    assert rule["common_rule_ref"] is None
+    assert rule["credit_requirements"]["minimum_graduation_credits"] == 128
+    assert schema_errors("graduation-department-rule.schema.json", rule) == []
+
+
+def test_graduation_sync_rejects_suspicious_data_loss() -> None:
+    previous = {
+        "courses": [{"course_id": str(index)} for index in range(20)],
+        "credit_requirements": {"minimum_graduation_credits": 128},
+    }
+    candidate = {
+        "courses": [{"course_id": str(index)} for index in range(5)],
+        "credit_requirements": {"minimum_graduation_credits": None},
+    }
+    assert graduation_rule_regression_errors(previous, candidate) == [
+        "course row count dropped from 20 to 5",
+        "minimum graduation credits disappeared",
+    ]
+
+    ordinary_official_change = {
+        "courses": [{"course_id": str(index)} for index in range(18)],
+        "credit_requirements": {"minimum_graduation_credits": 130},
+    }
+    assert graduation_rule_regression_errors(previous, ordinary_official_change) == []
+
+
+def test_graduation_coverage_reports_course_and_minimum_availability() -> None:
+    coverage = graduation_rule_coverage(
+        [
+            {
+                "courses": [{"course_id": "one"}],
+                "credit_requirements": {"minimum_graduation_credits": 128},
+            },
+            {"courses": [], "credit_requirements": {"minimum_graduation_credits": None}},
+        ]
+    )
+    assert coverage["department_count"] == 2
+    assert coverage["with_course_table_count"] == 1
+    assert coverage["with_minimum_graduation_credits_count"] == 1
+    assert coverage["course_table_coverage_ratio"] == 0.5
+
+
 def test_unknown_minimum_is_allowed_only_for_partial_manual_rule() -> None:
     rule = load(ROOT / "data/graduation-rules/113/bachelor/B2040.json")
     rule["credit_requirements"]["minimum_graduation_credits"] = None
@@ -344,3 +409,53 @@ def test_builder_publishes_static_paths_and_removes_stale_file(tmp_path: Path) -
     assert (department_path.parent / department["common_rule_ref"]).resolve() == (
         tmp_path / "api/v1/graduation-rules/common/113-plus.json"
     ).resolve()
+
+
+def test_builder_applies_complete_pinned_graduation_ai_review(tmp_path: Path) -> None:
+    for name in (
+        "graduation-common-rule.schema.json",
+        "graduation-department-rule.schema.json",
+    ):
+        destination = tmp_path / "schemas" / name
+        destination.parent.mkdir(parents=True, exist_ok=True)
+        shutil.copyfile(ROOT / "schemas" / name, destination)
+    shutil.copytree(ROOT / "data/graduation-rules", tmp_path / "data/graduation-rules")
+    shutil.copytree(
+        ROOT / "data/graduation-ai-review",
+        tmp_path / "data/graduation-ai-review",
+    )
+
+    index = build_graduation_rules_api(tmp_path)
+
+    expected_rules = list(
+        (tmp_path / "data/graduation-rules").glob(
+            "[0-9][0-9][0-9]/bachelor/*.json"
+        )
+    )
+    expected_years = sorted({path.parents[1].name for path in expected_rules})
+    assert index["department_count"] == len(expected_rules)
+    assert set(index["entry_years"]) >= {"112", "113", "114", "115"}
+    assert index["entry_years"] == expected_years
+    assert index["latest_entry_year"] == expected_years[-1]
+    assert index["ai_approved_department_count"] == 20
+    assert index["manual_review_required_department_count"] == len(expected_rules) - 20
+    for path in (tmp_path / "api/v1/graduation-rules/113/bachelor").glob("*.json"):
+        published = load(path)
+        assert schema_errors("graduation-department-rule.schema.json", published) == []
+        assert validate_department_references(published) == []
+    approved = load(tmp_path / "api/v1/graduation-rules/113/bachelor/B1010.json")
+    assert approved["review_status"] == "ai_approved"
+    assert approved["coverage"] == "complete"
+    assert approved["ai_review"]["decision"] == "ai_approved"
+    assert not any(
+        item["rule_id"].endswith("_official_table_review_pending")
+        for item in approved["manual_review_rules"]
+    )
+    assert schema_errors("graduation-department-rule.schema.json", approved) == []
+    assert validate_department_references(approved) == []
+
+    blocked = load(tmp_path / "api/v1/graduation-rules/113/bachelor/B3080.json")
+    assert blocked["review_status"] == "manual_review_required"
+    assert blocked["coverage"] == "partial"
+    assert blocked["ai_review"]["blocking_reason_details"]
+    assert schema_errors("graduation-department-rule.schema.json", blocked) == []

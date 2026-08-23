@@ -1,0 +1,96 @@
+<!doctype html>
+<html lang="zh-Hant">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>NSYSU 畢業規則證據審核台</title>
+  <link rel="stylesheet" href="/style.css">
+</head>
+<body>
+  <header class="topbar">
+    <div>
+      <p class="eyebrow">NSYSU GRADUATION RULES API · 113</p>
+      <h1>畢業規則證據審核台</h1>
+    </div>
+    <div class="top-actions">
+      <a class="scope-link" href="/">切換至學程審核</a>
+      <label>審核人 <input id="reviewer" autocomplete="name" placeholder="請輸入姓名"></label>
+      <span id="saveState" class="save-state">尚未儲存</span>
+    </div>
+  </header>
+
+  <main class="workspace">
+    <aside class="queue-panel">
+      <div class="progress-wrap">
+        <div class="progress-copy"><span id="progressText">載入中…</span><span id="progressPercent"></span></div>
+        <div class="progress-track"><div id="progressBar"></div></div>
+      </div>
+      <div class="filters">
+        <input id="search" type="search" placeholder="搜尋系所或代碼">
+        <select id="statusFilter" aria-label="狀態篩選">
+          <option value="pending">待審（含過期）</option>
+          <option value="needs_evidence">只看缺官方資料</option>
+          <option value="all">全部</option>
+          <option value="approved">證據支持</option>
+          <option value="cautious_use">小心使用</option>
+          <option value="needs_fix">需要修正</option>
+          <option value="skipped">暫緩</option>
+        </select>
+      </div>
+      <div id="queue" class="queue" aria-live="polite"></div>
+    </aside>
+
+    <section class="pdf-panel">
+      <div class="panel-head">
+        <div>
+          <span class="panel-kicker">官方來源／待補證據</span>
+          <strong id="sourceLabel">選擇一個系所</strong>
+        </div>
+        <a id="sourceLink" class="link-button" target="_blank" rel="noreferrer">另開來源 ↗</a>
+      </div>
+      <iframe id="pdfFrame" title="官方畢業規則來源"></iframe>
+      <div id="pdfEmpty" class="empty">尚未載入來源</div>
+    </section>
+
+    <section class="review-panel">
+      <div class="program-head">
+        <div>
+          <p id="departmentMeta" class="eyebrow"></p>
+          <h2 id="departmentName">選擇左側系所開始審核</h2>
+        </div>
+        <span id="modelBadge" class="badge"></span>
+      </div>
+      <div id="staleNotice" class="notice danger hidden">規則、來源雜湊或 AI 稽核版本已改變，舊審核已過期。</div>
+      <div id="evidenceNotice" class="notice caution hidden">官方查詢頁缺少完整課表或最低畢業學分。若標記「證據支持」，必須貼上另一份中山大學官方文件網址。</div>
+
+      <div class="decision-box graduation-decision-box">
+        <div class="decision-note-row">
+          <label for="evidenceUrl">證據網址</label>
+          <input id="evidenceUrl" type="url" placeholder="https://...（請優先提供 nsysu.edu.tw 官方文件）">
+        </div>
+        <div class="decision-note-row">
+          <label for="notes">審核備註</label>
+          <textarea id="notes" rows="2" placeholder="請寫明正確規則、學分、組別，或指出文件頁碼／表格位置。"></textarea>
+        </div>
+        <div class="decision-actions">
+          <button class="decision approved" data-decision="approved"><kbd>A</kbd> 證據支持</button>
+          <button class="decision cautious" data-decision="cautious_use"><kbd>C</kbd> 基本正確但小心使用</button>
+          <button class="decision fix" data-decision="needs_fix"><kbd>F</kbd> 需要修正</button>
+          <button class="decision skip" data-decision="skipped"><kbd>S</kbd> 暫緩</button>
+        </div>
+        <p class="fine-print">這是來源鎖定的第一階段證據審核；不會直接把 API 改成 AI-Approved。</p>
+      </div>
+
+      <nav class="tabs" aria-label="資料頁籤">
+        <button class="tab active" data-tab="issues">待確認</button>
+        <button class="tab" data-tab="courses">課程</button>
+        <button class="tab" data-tab="rules">規則</button>
+        <button class="tab" data-tab="raw">JSON</button>
+      </nav>
+      <div id="content" class="content"><div class="empty">從左側選擇待審系所</div></div>
+    </section>
+  </main>
+  <div id="toast" role="status"></div>
+  <script src="/graduation.js" defer></script>
+</body>
+</html>

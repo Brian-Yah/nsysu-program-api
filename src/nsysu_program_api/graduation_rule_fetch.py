@@ -1,6 +1,7 @@
 from __future__ import annotations
 
 import hashlib
+import math
 import re
 import unicodedata
 from pathlib import Path
@@ -10,12 +11,15 @@ from .core import Fetcher, load_json, now_iso, sha256, write_json
 from .graduation import (
     DEPARTMENT_INDEX_URL,
     RequirementTableParser,
+    materialize_graduation_requirements_from_rules,
     parse_department_options,
+    parse_entry_year_options,
     parse_graduation_requirement,
     requirement_url,
 )
 
 GRADUATION_RULE_PARSER_VERSION = "1.0.0"
+MINIMUM_DEPARTMENT_COVERAGE_RATIO = 0.75
 SEMESTERS = ("fall", "spring", "summer")
 COMMON_CATEGORY_MARKERS = (
     "通識",
@@ -197,6 +201,49 @@ def _manual_rule(
         "reason": reason,
         "source_document": source_id,
         "resolution": resolution,
+    }
+
+
+def graduation_rule_regression_errors(previous: dict, candidate: dict) -> list[str]:
+    """Reject suspicious source regressions while allowing ordinary official edits."""
+    errors: list[str] = []
+    previous_courses = len(previous.get("courses", []))
+    candidate_courses = len(candidate.get("courses", []))
+    if previous_courses and not candidate_courses:
+        errors.append("course table changed from non-empty to empty")
+    elif previous_courses >= 10 and candidate_courses < math.ceil(previous_courses * 0.5):
+        errors.append(
+            f"course row count dropped from {previous_courses} to {candidate_courses}"
+        )
+    previous_minimum = previous.get("credit_requirements", {}).get(
+        "minimum_graduation_credits"
+    )
+    candidate_minimum = candidate.get("credit_requirements", {}).get(
+        "minimum_graduation_credits"
+    )
+    if previous_minimum is not None and candidate_minimum is None:
+        errors.append("minimum graduation credits disappeared")
+    return errors
+
+
+def graduation_rule_coverage(rules: list[dict[str, Any]]) -> dict[str, int | float]:
+    department_count = len(rules)
+    with_courses = sum(bool(rule.get("courses")) for rule in rules)
+    with_minimum = sum(
+        rule.get("credit_requirements", {}).get("minimum_graduation_credits")
+        is not None
+        for rule in rules
+    )
+    return {
+        "department_count": department_count,
+        "with_course_table_count": with_courses,
+        "with_minimum_graduation_credits_count": with_minimum,
+        "course_table_coverage_ratio": (
+            with_courses / department_count if department_count else 0.0
+        ),
+        "minimum_credit_coverage_ratio": (
+            with_minimum / department_count if department_count else 0.0
+        ),
     }
 
 
@@ -513,7 +560,9 @@ def parse_official_department_rule(
         "department_code": department_code,
         "department_name_zh": department_name,
         "department_name_en": None,
-        "common_rule_ref": "../../common/113-plus.json",
+        "common_rule_ref": (
+            "../../common/113-plus.json" if int(entry_year) >= 113 else None
+        ),
         "review_status": "manual_review_required",
         "reviewed_at": reviewed_at,
         "coverage": "partial",
@@ -569,6 +618,7 @@ def fetch_department_graduation_rules(
     destination = root / "data" / "graduation-rules" / entry_year / "bachelor"
     generated: list[tuple[Path, dict[str, Any]]] = []
     preserved: list[str] = []
+    unchanged: list[str] = []
     failures: list[str] = []
     reviewed_at = now_iso()[:10]
     for department in departments:
@@ -586,6 +636,15 @@ def fetch_department_graduation_rules(
         url = requirement_url(entry_year, code)
         try:
             response = fetcher.get(url)
+            response_hash = sha256(response.body)
+            if path.is_file():
+                current = load_json(path, {})
+                current_hashes = {
+                    source.get("sha256") for source in current.get("sources", [])
+                }
+                if current_hashes == {response_hash}:
+                    unchanged.append(code)
+                    continue
             html = response.body.decode("utf-8", errors="strict")
             rule = parse_official_department_rule(
                 html,
@@ -593,14 +652,45 @@ def fetch_department_graduation_rules(
                 department_code=code,
                 department_name=department["department_name"],
                 source_url=response.url,
-                source_hash=sha256(response.body),
+                source_hash=response_hash,
                 reviewed_at=reviewed_at,
             )
+            if path.is_file():
+                current = load_json(path, {})
+                regressions = graduation_rule_regression_errors(current, rule)
+                if regressions:
+                    failures.append(f"{code}: " + "; ".join(regressions))
+                    continue
             generated.append((path, rule))
         except (RuntimeError, UnicodeDecodeError, ValueError) as error:
             failures.append(f"{code}: {error}")
     if failures:
         raise RuntimeError("failed to fetch detailed graduation rules: " + "; ".join(failures))
+    generated_by_code = {rule["department_code"]: rule for _, rule in generated}
+    candidate_rules = []
+    for department in departments:
+        code = department["department_code"]
+        candidate = generated_by_code.get(code)
+        if candidate is None:
+            candidate = load_json(destination / f"{code}.json", {})
+        if not candidate:
+            raise RuntimeError(f"missing candidate graduation rule for {entry_year} {code}")
+        candidate_rules.append(candidate)
+    coverage = graduation_rule_coverage(candidate_rules)
+    required_coverage = math.ceil(
+        coverage["department_count"] * MINIMUM_DEPARTMENT_COVERAGE_RATIO
+    )
+    if coverage["with_course_table_count"] < required_coverage:
+        raise RuntimeError(
+            f"{entry_year} course-table coverage fell below safety floor: "
+            f"{coverage['with_course_table_count']}/{coverage['department_count']}"
+        )
+    if coverage["with_minimum_graduation_credits_count"] < required_coverage:
+        raise RuntimeError(
+            f"{entry_year} minimum-credit coverage fell below safety floor: "
+            f"{coverage['with_minimum_graduation_credits_count']}/"
+            f"{coverage['department_count']}"
+        )
     for path, rule in generated:
         write_json(path, rule)
     return {
@@ -608,8 +698,70 @@ def fetch_department_graduation_rules(
         "department_count": len(departments),
         "generated_count": len(generated),
         "preserved_count": len(preserved),
+        "unchanged_count": len(unchanged),
         "preserved_departments": preserved,
+        "unchanged_departments": unchanged,
         "parser_version": GRADUATION_RULE_PARSER_VERSION,
+        "source_index_url": DEPARTMENT_INDEX_URL,
+        "source_index_sha256": sha256(index_response.body),
+        "quality": coverage,
+    }
+
+
+def sync_department_graduation_rules(
+    root: Path,
+    user_agent: str,
+    *,
+    start_entry_year: str = "112",
+    end_entry_year: str | None = None,
+    preserve_existing: bool = True,
+) -> dict[str, Any]:
+    if not re.fullmatch(r"\d{3}", start_entry_year):
+        raise ValueError("start_entry_year must be a three-digit ROC academic year")
+    if end_entry_year is not None and not re.fullmatch(r"\d{3}", end_entry_year):
+        raise ValueError("end_entry_year must be a three-digit ROC academic year")
+    if end_entry_year is not None and int(end_entry_year) < int(start_entry_year):
+        raise ValueError("end_entry_year cannot be earlier than start_entry_year")
+
+    index_response = Fetcher(user_agent).get(DEPARTMENT_INDEX_URL)
+    official_years = parse_entry_year_options(
+        index_response.body.decode("utf-8", errors="strict")
+    )
+    selected_years = [
+        year
+        for year in official_years
+        if int(year) >= int(start_entry_year)
+        and (end_entry_year is None or int(year) <= int(end_entry_year))
+    ]
+    if not selected_years:
+        raise RuntimeError(
+            f"official index has no entry years from {start_entry_year}"
+            + (f" through {end_entry_year}" if end_entry_year else "")
+        )
+
+    results = []
+    for year in selected_years:
+        results.append(
+            fetch_department_graduation_rules(
+                root,
+                year,
+                user_agent,
+                preserve_existing=preserve_existing,
+            )
+        )
+    for result in results:
+        materialize_graduation_requirements_from_rules(
+            root,
+            result["entry_year"],
+            result["source_index_sha256"],
+        )
+    return {
+        "start_entry_year": start_entry_year,
+        "end_entry_year": end_entry_year,
+        "official_entry_years": official_years,
+        "synced_entry_years": selected_years,
+        "latest_entry_year": selected_years[-1],
+        "years": results,
         "source_index_url": DEPARTMENT_INDEX_URL,
         "source_index_sha256": sha256(index_response.body),
     }

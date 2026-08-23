@@ -3,7 +3,9 @@ from pathlib import Path
 from nsysu_program_api.core import write_json
 from nsysu_program_api.graduation import (
     build_graduation_api,
+    materialize_graduation_requirements_from_rules,
     parse_department_options,
+    parse_entry_year_options,
     parse_graduation_requirement,
     requirement_url,
 )
@@ -21,6 +23,19 @@ def test_department_options_filter_degree_level():
         {"department_code": "B4020", "department_name": "資訊管理學系"},
         {"department_code": "B8070", "department_name": "護理學系"},
     ]
+
+
+def test_entry_year_options_are_discovered_from_official_selector():
+    html = """
+    <select name="YY1">
+      <option value=115>115</option>
+      <option value=114>114</option>
+      <option value=113>113</option>
+      <option value=112>112</option>
+      <option value=bad>請選擇</option>
+    </select>
+    """
+    assert parse_entry_year_options(html) == ["112", "113", "114", "115"]
 
 
 def test_parse_minimum_graduation_credits():
@@ -92,3 +107,29 @@ def test_build_graduation_api_writes_collection_and_department(tmp_path: Path):
     assert (tmp_path / "api/v1/graduation-requirements/115/bachelor/B4020.json").exists()
     assert (tmp_path / "api/v1/graduation-requirements/latest/bachelor/B4020.json").exists()
     assert not stale.exists()
+
+
+def test_materialize_compact_requirement_from_pinned_department_rule(tmp_path: Path):
+    rule = {
+        "department_code": "B4020",
+        "department_name_zh": "資訊管理學系",
+        "credit_requirements": {"minimum_graduation_credits": 135},
+        "sources": [
+            {
+                "url": requirement_url("112", "B4020"),
+                "sha256": "a" * 64,
+            }
+        ],
+    }
+    write_json(
+        tmp_path / "data/graduation-rules/112/bachelor/B4020.json", rule
+    )
+    dataset = materialize_graduation_requirements_from_rules(
+        tmp_path, "112", "b" * 64
+    )
+
+    assert dataset["department_count"] == 1
+    requirement = dataset["requirements"][0]
+    assert requirement["minimum_graduation_credits"] == 135
+    assert requirement["required_course_ratio"] is None
+    assert requirement["source"]["binary_sha256"] == "a" * 64

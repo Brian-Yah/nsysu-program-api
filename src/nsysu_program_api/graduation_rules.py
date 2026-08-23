@@ -4,6 +4,11 @@ import shutil
 from pathlib import Path
 
 from .core import load_json, write_json
+from .graduation_ai_review import (
+    PENDING_REVIEW_SUFFIX,
+    apply_graduation_ai_review_audit,
+    graduation_rule_disqualifiers,
+)
 
 SCHEMA_VERSION = "1.0"
 COMMON_SCHEMA = "graduation-common-rule.schema.json"
@@ -107,6 +112,20 @@ def validate_department_references(rule: dict) -> list[str]:
             f"additional credit rule {additional.get('rule_id')}",
             additional.get("source_document"),
         )
+    if rule.get("review_status") == "ai_approved":
+        review = rule.get("ai_review", {})
+        if rule.get("coverage") != "complete":
+            errors.append("ai_approved rule requires complete coverage")
+        if review.get("decision") != "ai_approved":
+            errors.append("ai_approved rule requires matching ai_review decision")
+        blockers = graduation_rule_disqualifiers(rule)
+        if blockers:
+            errors.append(f"ai_approved rule has blockers {blockers}")
+        if any(
+            str(item.get("rule_id") or "").endswith(PENDING_REVIEW_SUFFIX)
+            for item in rule.get("manual_review_rules", [])
+        ):
+            errors.append("ai_approved rule still contains pending table review")
     return errors
 
 
@@ -154,6 +173,17 @@ def build_graduation_rules_api(root: Path) -> dict:
             raise RuntimeError(f"{path}: {'; '.join(errors)}")
         departments.append(rule)
 
+    approved_by_ai = 0
+    for year in sorted({rule["entry_year"] for rule in departments}):
+        year_rules = [rule for rule in departments if rule["entry_year"] == year]
+        approved_by_ai += apply_graduation_ai_review_audit(root, year, year_rules)
+        for rule in year_rules:
+            errors = validate_department_references(rule)
+            if errors:
+                raise RuntimeError(
+                    f"AI-reviewed {rule['department_code']}: {'; '.join(errors)}"
+                )
+
     api = root / "api" / "v1" / "graduation-rules"
     write_json(api / "common" / "113-plus.json", common)
     expected_by_year: dict[str, set[str]] = {}
@@ -180,10 +210,40 @@ def build_graduation_rules_api(root: Path) -> dict:
         "schema_version": SCHEMA_VERSION,
         "latest_entry_year": years[-1] if years else None,
         "entry_years": years,
+        "entry_year_summary": [
+            {
+                "entry_year": year,
+                "department_count": sum(
+                    rule["entry_year"] == year for rule in departments
+                ),
+                "minimum_graduation_credits_available_count": sum(
+                    rule["entry_year"] == year
+                    and rule.get("credit_requirements", {}).get(
+                        "minimum_graduation_credits"
+                    )
+                    is not None
+                    for rule in departments
+                ),
+                "ai_approved_department_count": sum(
+                    rule["entry_year"] == year
+                    and rule.get("review_status") == "ai_approved"
+                    for rule in departments
+                ),
+                "manual_review_required_department_count": sum(
+                    rule["entry_year"] == year
+                    and rule.get("review_status") == "manual_review_required"
+                    for rule in departments
+                ),
+            }
+            for year in years
+        ],
         "degree_levels": ["bachelor"],
         "department_count": len(departments),
         "reviewed_department_count": sum(
             rule.get("review_status") == "reviewed" for rule in departments
+        ),
+        "ai_approved_department_count": sum(
+            rule.get("review_status") == "ai_approved" for rule in departments
         ),
         "manual_review_required_department_count": sum(
             rule.get("review_status") == "manual_review_required" for rule in departments
@@ -191,6 +251,9 @@ def build_graduation_rules_api(root: Path) -> dict:
         "paths": {
             "common_113_plus": "common/113-plus.json",
             "department_template": "{entry_year}/bachelor/{department_code}.json",
+            "latest_department_template": (
+                f"{years[-1]}/bachelor/{{department_code}}.json" if years else None
+            ),
             "common_schema": "../schemas/graduation-common-rule.schema.json",
             "department_schema": "../schemas/graduation-department-rule.schema.json",
         },
@@ -203,10 +266,15 @@ def build_graduation_rules_api(root: Path) -> dict:
                 "department_name_en": rule["department_name_en"],
                 "review_status": rule["review_status"],
                 "coverage": rule["coverage"],
+                "blocking_reasons": rule.get("ai_review", {}).get(
+                    "blocking_reason_details", []
+                ),
                 "path": (f"{rule['entry_year']}/bachelor/{rule['department_code']}.json"),
             }
             for rule in departments
         ],
     }
     write_json(api / "index.json", index)
+    if approved_by_ai != index["ai_approved_department_count"]:
+        raise RuntimeError("AI-approved graduation-rule count does not match index")
     return index

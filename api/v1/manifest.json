@@ -2,7 +2,7 @@
   "schema_version": "1.3",
   "latest_academic_version": "115-1",
   "data_revision": 7,
-  "generated_at": "2026-08-17T03:50:00Z",
+  "generated_at": "2026-08-22T15:34:53Z",
   "program_count": 142,
   "active_program_count": 134,
   "rule_model_version": "1.2",
@@ -20,5 +20,7 @@
     "program_requirements_policy": "policies/program-requirements.json"
   },
   "graduation_requirement_department_count": 28,
-  "graduation_rule_department_count": 2
+  "graduation_rule_department_count": 124,
+  "graduation_rule_ai_approved_department_count": 20,
+  "graduation_rule_manual_review_required_department_count": 104
 }
