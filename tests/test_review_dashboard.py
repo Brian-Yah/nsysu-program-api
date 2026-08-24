@@ -22,14 +22,14 @@ def test_queue_contains_remaining_conflicted_program() -> None:
 
 def test_graduation_queue_contains_only_blocked_departments() -> None:
     payload = review_dashboard.graduation_queue_payload("113")
-    assert payload["total"] == 11
-    assert sum(payload["counts"].values()) == 11
+    assert payload["total"] == 6
+    assert sum(payload["counts"].values()) == 6
     needs_evidence = {
         item["department_code"]
         for item in payload["departments"]
         if item["needs_official_evidence"]
     }
-    assert needs_evidence == {"B3080", "B5610", "B7020", "B7620", "B8070"}
+    assert needs_evidence == set()
     assert all(item["reason_details"] for item in payload["departments"])
 
 

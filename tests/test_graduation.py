@@ -2,7 +2,9 @@ from pathlib import Path
 
 from nsysu_program_api.core import write_json
 from nsysu_program_api.graduation import (
+    active_departments_for_entry_year,
     build_graduation_api,
+    department_is_active_for_entry_year,
     materialize_graduation_requirements_from_rules,
     parse_department_options,
     parse_entry_year_options,
@@ -36,6 +38,32 @@ def test_entry_year_options_are_discovered_from_official_selector():
     </select>
     """
     assert parse_entry_year_options(html) == ["112", "113", "114", "115"]
+
+
+def test_department_lifecycle_filters_global_selector_by_entry_year():
+    departments = [
+        {"department_code": "B3080", "department_name": "舊材光"},
+        {"department_code": "B5090", "department_name": "海洋科學系"},
+        {"department_code": "B7020", "department_name": "人文暨科技跨領域學系"},
+        {"department_code": "B7610", "department_name": "人科學程"},
+        {"department_code": "B7620", "department_name": "原民專班"},
+        {"department_code": "B8060", "department_name": "生醫全英班"},
+        {"department_code": "B8070", "department_name": "護理學系"},
+    ]
+
+    assert {item["department_code"] for item in active_departments_for_entry_year(
+        departments, "112"
+    )} == {"B5090", "B7610"}
+    assert {item["department_code"] for item in active_departments_for_entry_year(
+        departments, "113"
+    )} == {"B5090", "B7610", "B8060"}
+    assert {item["department_code"] for item in active_departments_for_entry_year(
+        departments, "114"
+    )} == {"B5090", "B7610", "B7620", "B8060", "B8070"}
+    assert {item["department_code"] for item in active_departments_for_entry_year(
+        departments, "115"
+    )} == {"B5090", "B7020", "B7620", "B8060", "B8070"}
+    assert department_is_active_for_entry_year("B4020", "112") is True
 
 
 def test_parse_minimum_graduation_credits():

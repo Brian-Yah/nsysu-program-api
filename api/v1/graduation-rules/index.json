@@ -10,40 +10,40 @@
   "entry_year_summary": [
     {
       "entry_year": "112",
-      "department_count": 31,
+      "department_count": 25,
       "minimum_graduation_credits_available_count": 25,
       "ai_approved_department_count": 0,
-      "manual_review_required_department_count": 31
+      "manual_review_required_department_count": 25
     },
     {
       "entry_year": "113",
-      "department_count": 31,
+      "department_count": 26,
       "minimum_graduation_credits_available_count": 26,
       "ai_approved_department_count": 20,
-      "manual_review_required_department_count": 11
+      "manual_review_required_department_count": 6
     },
     {
       "entry_year": "114",
-      "department_count": 31,
+      "department_count": 28,
       "minimum_graduation_credits_available_count": 28,
       "ai_approved_department_count": 0,
-      "manual_review_required_department_count": 31
+      "manual_review_required_department_count": 28
     },
     {
       "entry_year": "115",
-      "department_count": 31,
+      "department_count": 28,
       "minimum_graduation_credits_available_count": 28,
       "ai_approved_department_count": 0,
-      "manual_review_required_department_count": 31
+      "manual_review_required_department_count": 28
     }
   ],
   "degree_levels": [
     "bachelor"
   ],
-  "department_count": 124,
+  "department_count": 107,
   "reviewed_department_count": 0,
   "ai_approved_department_count": 20,
-  "manual_review_required_department_count": 104,
+  "manual_review_required_department_count": 87,
   "paths": {
     "common_by_entry_year": {
       "112": "common/112.json",
@@ -181,17 +181,6 @@
     {
       "entry_year": "112",
       "degree_level": "bachelor",
-      "department_code": "B3080",
-      "department_name_zh": "材料與光電工程學系",
-      "department_name_en": null,
-      "review_status": "manual_review_required",
-      "coverage": "partial",
-      "blocking_reasons": [],
-      "path": "112/bachelor/B3080.json"
-    },
-    {
-      "entry_year": "112",
-      "degree_level": "bachelor",
       "department_code": "B3090",
       "department_name_zh": "光電工程學系",
       "department_name_en": null,
@@ -302,17 +291,6 @@
     {
       "entry_year": "112",
       "degree_level": "bachelor",
-      "department_code": "B5610",
-      "department_name_zh": "海洋科學學士學位學程",
-      "department_name_en": null,
-      "review_status": "manual_review_required",
-      "coverage": "partial",
-      "blocking_reasons": [],
-      "path": "112/bachelor/B5610.json"
-    },
-    {
-      "entry_year": "112",
-      "degree_level": "bachelor",
       "department_code": "B6060",
       "department_name_zh": "政治經濟學系",
       "department_name_en": null,
@@ -335,17 +313,6 @@
     {
       "entry_year": "112",
       "degree_level": "bachelor",
-      "department_code": "B7020",
-      "department_name_zh": "人文暨科技跨領域學系",
-      "department_name_en": null,
-      "review_status": "manual_review_required",
-      "coverage": "partial",
-      "blocking_reasons": [],
-      "path": "112/bachelor/B7020.json"
-    },
-    {
-      "entry_year": "112",
-      "degree_level": "bachelor",
       "department_code": "B7610",
       "department_name_zh": "人文暨科技跨領域學士學位學程",
       "department_name_en": null,
@@ -357,17 +324,6 @@
     {
       "entry_year": "112",
       "degree_level": "bachelor",
-      "department_code": "B7620",
-      "department_name_zh": "國際跨域學士學位學程原住民族專班",
-      "department_name_en": null,
-      "review_status": "manual_review_required",
-      "coverage": "partial",
-      "blocking_reasons": [],
-      "path": "112/bachelor/B7620.json"
-    },
-    {
-      "entry_year": "112",
-      "degree_level": "bachelor",
       "department_code": "B8010",
       "department_name_zh": "學士後醫學系",
       "department_name_en": null,
@@ -375,28 +331,6 @@
       "coverage": "partial",
       "blocking_reasons": [],
       "path": "112/bachelor/B8010.json"
-    },
-    {
-      "entry_year": "112",
-      "degree_level": "bachelor",
-      "department_code": "B8060",
-      "department_name_zh": "生物醫學科技學系全英語學士班",
-      "department_name_en": null,
-      "review_status": "manual_review_required",
-      "coverage": "partial",
-      "blocking_reasons": [],
-      "path": "112/bachelor/B8060.json"
-    },
-    {
-      "entry_year": "112",
-      "degree_level": "bachelor",
-      "department_code": "B8070",
-      "department_name_zh": "護理學系",
-      "department_name_en": null,
-      "review_status": "manual_review_required",
-      "coverage": "partial",
-      "blocking_reasons": [],
-      "path": "112/bachelor/B8070.json"
     },
     {
       "entry_year": "113",
@@ -557,30 +491,6 @@
     {
       "entry_year": "113",
       "degree_level": "bachelor",
-      "department_code": "B3080",
-      "department_name_zh": "材料與光電工程學系",
-      "department_name_en": null,
-      "review_status": "manual_review_required",
-      "coverage": "partial",
-      "blocking_reasons": [
-        {
-          "code": "course_table_unavailable",
-          "message": "官方該入學年度查詢頁沒有提供可解析的系所專業課程表。"
-        },
-        {
-          "code": "empty_course_table",
-          "message": "目前沒有任何正式系所課程列，不能從當學期開課資料推測。"
-        },
-        {
-          "code": "missing_minimum_graduation_credits",
-          "message": "官方來源未提供可確認的最低畢業學分。"
-        }
-      ],
-      "path": "113/bachelor/B3080.json"
-    },
-    {
-      "entry_year": "113",
-      "degree_level": "bachelor",
       "department_code": "B3090",
       "department_name_zh": "光電工程學系",
       "department_name_en": null,
@@ -700,30 +610,6 @@
     {
       "entry_year": "113",
       "degree_level": "bachelor",
-      "department_code": "B5610",
-      "department_name_zh": "海洋科學學士學位學程",
-      "department_name_en": null,
-      "review_status": "manual_review_required",
-      "coverage": "partial",
-      "blocking_reasons": [
-        {
-          "code": "course_table_unavailable",
-          "message": "官方該入學年度查詢頁沒有提供可解析的系所專業課程表。"
-        },
-        {
-          "code": "empty_course_table",
-          "message": "目前沒有任何正式系所課程列，不能從當學期開課資料推測。"
-        },
-        {
-          "code": "missing_minimum_graduation_credits",
-          "message": "官方來源未提供可確認的最低畢業學分。"
-        }
-      ],
-      "path": "113/bachelor/B5610.json"
-    },
-    {
-      "entry_year": "113",
-      "degree_level": "bachelor",
       "department_code": "B6060",
       "department_name_zh": "政治經濟學系",
       "department_name_en": null,
@@ -751,30 +637,6 @@
     {
       "entry_year": "113",
       "degree_level": "bachelor",
-      "department_code": "B7020",
-      "department_name_zh": "人文暨科技跨領域學系",
-      "department_name_en": null,
-      "review_status": "manual_review_required",
-      "coverage": "partial",
-      "blocking_reasons": [
-        {
-          "code": "course_table_unavailable",
-          "message": "官方該入學年度查詢頁沒有提供可解析的系所專業課程表。"
-        },
-        {
-          "code": "empty_course_table",
-          "message": "目前沒有任何正式系所課程列，不能從當學期開課資料推測。"
-        },
-        {
-          "code": "missing_minimum_graduation_credits",
-          "message": "官方來源未提供可確認的最低畢業學分。"
-        }
-      ],
-      "path": "113/bachelor/B7020.json"
-    },
-    {
-      "entry_year": "113",
-      "degree_level": "bachelor",
       "department_code": "B7610",
       "department_name_zh": "人文暨科技跨領域學士學位學程",
       "department_name_en": null,
@@ -782,30 +644,6 @@
       "coverage": "complete",
       "blocking_reasons": [],
       "path": "113/bachelor/B7610.json"
-    },
-    {
-      "entry_year": "113",
-      "degree_level": "bachelor",
-      "department_code": "B7620",
-      "department_name_zh": "國際跨域學士學位學程原住民族專班",
-      "department_name_en": null,
-      "review_status": "manual_review_required",
-      "coverage": "partial",
-      "blocking_reasons": [
-        {
-          "code": "course_table_unavailable",
-          "message": "官方該入學年度查詢頁沒有提供可解析的系所專業課程表。"
-        },
-        {
-          "code": "empty_course_table",
-          "message": "目前沒有任何正式系所課程列，不能從當學期開課資料推測。"
-        },
-        {
-          "code": "missing_minimum_graduation_credits",
-          "message": "官方來源未提供可確認的最低畢業學分。"
-        }
-      ],
-      "path": "113/bachelor/B7620.json"
     },
     {
       "entry_year": "113",
@@ -837,30 +675,6 @@
       "coverage": "complete",
       "blocking_reasons": [],
       "path": "113/bachelor/B8060.json"
-    },
-    {
-      "entry_year": "113",
-      "degree_level": "bachelor",
-      "department_code": "B8070",
-      "department_name_zh": "護理學系",
-      "department_name_en": null,
-      "review_status": "manual_review_required",
-      "coverage": "partial",
-      "blocking_reasons": [
-        {
-          "code": "course_table_unavailable",
-          "message": "官方該入學年度查詢頁沒有提供可解析的系所專業課程表。"
-        },
-        {
-          "code": "empty_course_table",
-          "message": "目前沒有任何正式系所課程列，不能從當學期開課資料推測。"
-        },
-        {
-          "code": "missing_minimum_graduation_credits",
-          "message": "官方來源未提供可確認的最低畢業學分。"
-        }
-      ],
-      "path": "113/bachelor/B8070.json"
     },
     {
       "entry_year": "114",
@@ -986,17 +800,6 @@
     {
       "entry_year": "114",
       "degree_level": "bachelor",
-      "department_code": "B3080",
-      "department_name_zh": "材料與光電工程學系",
-      "department_name_en": null,
-      "review_status": "manual_review_required",
-      "coverage": "partial",
-      "blocking_reasons": [],
-      "path": "114/bachelor/B3080.json"
-    },
-    {
-      "entry_year": "114",
-      "degree_level": "bachelor",
       "department_code": "B3090",
       "department_name_zh": "光電工程學系",
       "department_name_en": null,
@@ -1107,17 +910,6 @@
     {
       "entry_year": "114",
       "degree_level": "bachelor",
-      "department_code": "B5610",
-      "department_name_zh": "海洋科學學士學位學程",
-      "department_name_en": null,
-      "review_status": "manual_review_required",
-      "coverage": "partial",
-      "blocking_reasons": [],
-      "path": "114/bachelor/B5610.json"
-    },
-    {
-      "entry_year": "114",
-      "degree_level": "bachelor",
       "department_code": "B6060",
       "department_name_zh": "政治經濟學系",
       "department_name_en": null,
@@ -1136,17 +928,6 @@
       "coverage": "partial",
       "blocking_reasons": [],
       "path": "114/bachelor/B6090.json"
-    },
-    {
-      "entry_year": "114",
-      "degree_level": "bachelor",
-      "department_code": "B7020",
-      "department_name_zh": "人文暨科技跨領域學系",
-      "department_name_en": null,
-      "review_status": "manual_review_required",
-      "coverage": "partial",
-      "blocking_reasons": [],
-      "path": "114/bachelor/B7020.json"
     },
     {
       "entry_year": "114",
@@ -1327,17 +1108,6 @@
     {
       "entry_year": "115",
       "degree_level": "bachelor",
-      "department_code": "B3080",
-      "department_name_zh": "材料與光電工程學系",
-      "department_name_en": null,
-      "review_status": "manual_review_required",
-      "coverage": "partial",
-      "blocking_reasons": [],
-      "path": "115/bachelor/B3080.json"
-    },
-    {
-      "entry_year": "115",
-      "degree_level": "bachelor",
       "department_code": "B3090",
       "department_name_zh": "光電工程學系",
       "department_name_en": null,
@@ -1448,17 +1218,6 @@
     {
       "entry_year": "115",
       "degree_level": "bachelor",
-      "department_code": "B5610",
-      "department_name_zh": "海洋科學學士學位學程",
-      "department_name_en": null,
-      "review_status": "manual_review_required",
-      "coverage": "partial",
-      "blocking_reasons": [],
-      "path": "115/bachelor/B5610.json"
-    },
-    {
-      "entry_year": "115",
-      "degree_level": "bachelor",
       "department_code": "B6060",
       "department_name_zh": "政治經濟學系",
       "department_name_en": null,
@@ -1488,17 +1247,6 @@
       "coverage": "partial",
       "blocking_reasons": [],
       "path": "115/bachelor/B7020.json"
-    },
-    {
-      "entry_year": "115",
-      "degree_level": "bachelor",
-      "department_code": "B7610",
-      "department_name_zh": "人文暨科技跨領域學士學位學程",
-      "department_name_en": null,
-      "review_status": "manual_review_required",
-      "coverage": "partial",
-      "blocking_reasons": [],
-      "path": "115/bachelor/B7610.json"
     },
     {
       "entry_year": "115",

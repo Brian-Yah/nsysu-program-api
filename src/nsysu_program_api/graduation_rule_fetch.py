@@ -11,6 +11,7 @@ from .core import Fetcher, load_json, now_iso, sha256, write_json
 from .graduation import (
     DEPARTMENT_INDEX_URL,
     RequirementTableParser,
+    active_departments_for_entry_year,
     materialize_graduation_requirements_from_rules,
     parse_department_options,
     parse_entry_year_options,
@@ -613,9 +614,10 @@ def fetch_department_graduation_rules(
         raise ValueError("entry_year must be a three-digit ROC academic year")
     fetcher = Fetcher(user_agent)
     index_response = fetcher.get(DEPARTMENT_INDEX_URL)
-    departments = parse_department_options(
+    all_departments = parse_department_options(
         index_response.body.decode("utf-8", errors="strict")
     )
+    departments = active_departments_for_entry_year(all_departments, entry_year)
     if not departments:
         raise RuntimeError("official department index returned no bachelor departments")
     codes = [item["department_code"] for item in departments]
@@ -623,6 +625,10 @@ def fetch_department_graduation_rules(
         raise RuntimeError("official department index contains duplicate bachelor codes")
 
     destination = root / "data" / "graduation-rules" / entry_year / "bachelor"
+    active_codes = {item["department_code"] for item in departments}
+    excluded_inactive = [
+        item for item in all_departments if item["department_code"] not in active_codes
+    ]
     generated: list[tuple[Path, dict[str, Any]]] = []
     preserved: list[str] = []
     unchanged: list[str] = []
@@ -698,6 +704,11 @@ def fetch_department_graduation_rules(
             f"{coverage['with_minimum_graduation_credits_count']}/"
             f"{coverage['department_count']}"
         )
+    # Cleanup is intentionally delayed until every active rule passed fetch,
+    # regression and coverage checks. A temporary upstream outage must not delete
+    # the last known good files.
+    for department in excluded_inactive:
+        (destination / f"{department['department_code']}.json").unlink(missing_ok=True)
     for path, rule in generated:
         write_json(path, rule)
     return {
@@ -711,6 +722,7 @@ def fetch_department_graduation_rules(
         "parser_version": GRADUATION_RULE_PARSER_VERSION,
         "source_index_url": DEPARTMENT_INDEX_URL,
         "source_index_sha256": sha256(index_response.body),
+        "excluded_inactive_departments": excluded_inactive,
         "quality": coverage,
     }
 

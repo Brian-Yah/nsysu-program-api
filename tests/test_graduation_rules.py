@@ -30,7 +30,6 @@ EXPECTED_113_DEPARTMENT_CODES = {
     "B3010",
     "B3020",
     "B3040",
-    "B3080",
     "B3090",
     "B3100",
     "B3240",
@@ -41,15 +40,11 @@ EXPECTED_113_DEPARTMENT_CODES = {
     "B5020",
     "B5040",
     "B5090",
-    "B5610",
     "B6060",
     "B6090",
-    "B7020",
     "B7610",
-    "B7620",
     "B8010",
     "B8060",
-    "B8070",
 }
 
 
@@ -390,15 +385,34 @@ def test_unknown_minimum_is_allowed_only_for_partial_manual_rule() -> None:
     assert "empty course rules require partial manual review rules" in errors
 
 
-def test_113_department_fixtures_cover_all_official_bachelor_codes() -> None:
+def test_113_department_fixtures_cover_all_active_bachelor_codes() -> None:
     paths = sorted((ROOT / "data/graduation-rules/113/bachelor").glob("*.json"))
     rules = [load(path) for path in paths]
 
-    assert len(rules) == 31
+    assert len(rules) == 26
     assert {rule["department_code"] for rule in rules} == EXPECTED_113_DEPARTMENT_CODES
     for rule in rules:
         assert schema_errors("graduation-department-rule.schema.json", rule) == []
         assert validate_department_references(rule) == []
+
+
+def test_department_fixture_counts_follow_verified_lifecycles() -> None:
+    expected_counts = {"112": 25, "113": 26, "114": 28, "115": 28}
+    excluded = {
+        "112": {"B3080", "B5610", "B7020", "B7620", "B8060", "B8070"},
+        "113": {"B3080", "B5610", "B7020", "B7620", "B8070"},
+        "114": {"B3080", "B5610", "B7020"},
+        "115": {"B3080", "B5610", "B7610"},
+    }
+    for year, expected_count in expected_counts.items():
+        codes = {
+            path.stem
+            for path in (ROOT / "data/graduation-rules" / year / "bachelor").glob(
+                "*.json"
+            )
+        }
+        assert len(codes) == expected_count
+        assert codes.isdisjoint(excluded[year])
 
 
 def test_builder_publishes_static_paths_and_removes_stale_file(tmp_path: Path) -> None:
@@ -485,7 +499,7 @@ def test_builder_applies_complete_pinned_graduation_ai_review(tmp_path: Path) ->
     assert schema_errors("graduation-department-rule.schema.json", approved) == []
     assert validate_department_references(approved) == []
 
-    blocked = load(tmp_path / "api/v1/graduation-rules/113/bachelor/B3080.json")
+    blocked = load(tmp_path / "api/v1/graduation-rules/113/bachelor/B1030.json")
     assert blocked["review_status"] == "manual_review_required"
     assert blocked["coverage"] == "partial"
     assert blocked["ai_review"]["blocking_reason_details"]

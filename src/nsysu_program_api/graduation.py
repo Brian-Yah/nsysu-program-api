@@ -12,6 +12,43 @@ DEPARTMENT_INDEX_URL = "https://selcrs.nsysu.edu.tw/stu_query/crs_mst_qry/crs_ms
 REQUIREMENTS_URL = "https://selcrs.nsysu.edu.tw/stu_query/crs_mst_qry/crs_mst_query.asp"
 GRADUATION_PARSER_VERSION = "1.0.0"
 
+# The official selector is a global list and includes retired departments as well as
+# departments that did not yet exist for an older entry year.  These ranges are
+# pinned to official institutional-history evidence so a HTTP 200 skeleton page is
+# never mistaken for an active curriculum.
+DEPARTMENT_ENTRY_YEAR_RANGES: dict[str, tuple[int | None, int | None]] = {
+    "B3080": (None, 96),  # renamed/split into B3090 and B3100 from year 97
+    "B5610": (None, 101),  # merged into B5090 from year 102
+    "B7020": (115, None),  # successor department to B7610
+    "B7610": (None, 114),  # stopped admitting students after year 114
+    "B7620": (114, None),  # established in year 114
+    "B8060": (113, None),  # established in year 113
+    "B8070": (114, None),  # established in year 114
+}
+
+
+def department_is_active_for_entry_year(department_code: str, entry_year: str) -> bool:
+    """Return whether a global-selector department applies to this entry year."""
+    if not re.fullmatch(r"\d{3}", entry_year):
+        raise ValueError("entry_year must be a three-digit ROC academic year")
+    bounds = DEPARTMENT_ENTRY_YEAR_RANGES.get(department_code)
+    if bounds is None:
+        return True
+    first_year, last_year = bounds
+    year = int(entry_year)
+    return (first_year is None or year >= first_year) and (last_year is None or year <= last_year)
+
+
+def active_departments_for_entry_year(
+    departments: list[dict[str, str]], entry_year: str
+) -> list[dict[str, str]]:
+    """Filter the official global selector using verified department lifecycles."""
+    return [
+        department
+        for department in departments
+        if department_is_active_for_entry_year(department["department_code"], entry_year)
+    ]
+
 
 class DepartmentOptionParser(HTMLParser):
     def __init__(self) -> None:
@@ -178,8 +215,11 @@ def fetch_graduation_requirements(
     retrieved_at = now_iso()
     fetcher = Fetcher(user_agent)
     index_response = fetcher.get(DEPARTMENT_INDEX_URL)
-    departments = parse_department_options(
-        index_response.body.decode("utf-8", errors="replace"), degree_prefix
+    departments = active_departments_for_entry_year(
+        parse_department_options(
+            index_response.body.decode("utf-8", errors="replace"), degree_prefix
+        ),
+        entry_year,
     )
     if not departments:
         raise RuntimeError(f"no departments found with prefix {degree_prefix!r}")
