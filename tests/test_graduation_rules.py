@@ -4,6 +4,7 @@ import json
 import shutil
 from pathlib import Path
 
+import pytest
 from jsonschema import Draft202012Validator, FormatChecker
 
 from nsysu_program_api.graduation_rule_fetch import (
@@ -483,8 +484,21 @@ def test_builder_applies_complete_pinned_graduation_ai_review(tmp_path: Path) ->
     assert index["entry_years"] == expected_years
     assert index["latest_entry_year"] == expected_years[-1]
     assert index["ai_approved_department_count"] == 20
-    assert index["manual_review_required_department_count"] == len(expected_rules) - 20
-    for path in (tmp_path / "api/v1/graduation-rules/113/bachelor").glob("*.json"):
+    # Human-approved source rules are neither AI approvals nor pending reviews.
+    reviewed_sources = {
+        path.relative_to(tmp_path / "data/graduation-rules"): load(path)
+        for path in expected_rules
+        if load(path)["review_status"] == "reviewed"
+    }
+    assert index["reviewed_department_count"] == len(reviewed_sources)
+    assert index["manual_review_required_department_count"] == (
+        len(expected_rules) - 20 - len(reviewed_sources)
+    )
+    for relative_path, source in reviewed_sources.items():
+        assert load(tmp_path / "api/v1/graduation-rules" / relative_path) == source
+    for path in (tmp_path / "api/v1/graduation-rules").glob(
+        "[0-9][0-9][0-9]/bachelor/*.json"
+    ):
         published = load(path)
         assert schema_errors("graduation-department-rule.schema.json", published) == []
         assert validate_department_references(published) == []
@@ -504,3 +518,91 @@ def test_builder_applies_complete_pinned_graduation_ai_review(tmp_path: Path) ->
     assert blocked["coverage"] == "partial"
     assert blocked["ai_review"]["blocking_reason_details"]
     assert schema_errors("graduation-department-rule.schema.json", blocked) == []
+
+
+@pytest.mark.parametrize("reviewed_count", [0, 1, 2])
+def test_builder_counts_human_reviews_separately_from_ai_and_pending(
+    tmp_path: Path, reviewed_count: int
+) -> None:
+    for name in (
+        "graduation-common-rule.schema.json",
+        "graduation-department-rule.schema.json",
+    ):
+        destination = tmp_path / "schemas" / name
+        destination.parent.mkdir(parents=True, exist_ok=True)
+        shutil.copyfile(ROOT / "schemas" / name, destination)
+
+    source_root = tmp_path / "data/graduation-rules"
+    for directory in ("common", "113"):
+        shutil.copytree(ROOT / "data/graduation-rules" / directory, source_root / directory)
+    audit_path = tmp_path / "data/graduation-ai-review/113.json"
+    audit_path.parent.mkdir(parents=True, exist_ok=True)
+    shutil.copyfile(ROOT / "data/graduation-ai-review/113.json", audit_path)
+
+    # Keep the pinned 113 AI audit intact; model later community approvals in
+    # separate cohorts, independent of the live fixtures' current review status.
+    expected_rules = {}
+    for position, year in enumerate(("114", "115")):
+        relative_path = Path(year) / "bachelor/B4010.json"
+        rule = load(ROOT / "data/graduation-rules" / relative_path)
+        rule.pop("ai_review", None)
+        rule["manual_review_rules"] = [
+            item for item in rule["manual_review_rules"]
+            if not item["rule_id"].endswith("_official_table_review_pending")
+        ]
+        # Substantive manual evaluation rules must survive publication.
+        assert rule["manual_review_rules"]
+        if position < reviewed_count:
+            rule["review_status"] = "reviewed"
+            rule["coverage"] = "complete"
+            rule["reviewed_at"] = "2026-08-31"
+        else:
+            rule["review_status"] = "manual_review_required"
+            rule["coverage"] = "partial"
+            rule["manual_review_rules"].append({
+                "rule_id": "b4010_official_table_review_pending",
+                "description": "Pending table review fixture.",
+                "reason": "Awaiting review.",
+                "source_document": rule["sources"][0]["source_id"],
+                "resolution": "Review each official course row before approval.",
+            })
+        destination = source_root / relative_path
+        destination.parent.mkdir(parents=True, exist_ok=True)
+        destination.write_text(json.dumps(rule, ensure_ascii=False), encoding="utf-8")
+        expected_rules[relative_path] = rule
+
+    total = len(list(source_root.glob("[0-9][0-9][0-9]/bachelor/*.json")))
+    # Rebuilding must preserve approvals and produce identical counts.
+    for _ in range(2):
+        index = build_graduation_rules_api(tmp_path)
+        assert index["department_count"] == total
+        assert index["reviewed_department_count"] == reviewed_count
+        assert index["ai_approved_department_count"] == 20
+        assert index["manual_review_required_department_count"] == total - 20 - reviewed_count
+        assert sum(
+            index[f"{status}_department_count"]
+            for status in ("reviewed", "ai_approved", "manual_review_required")
+        ) == total
+        assert load(tmp_path / "api/v1/graduation-rules/index.json") == index
+        for relative_path, expected in expected_rules.items():
+            published = load(tmp_path / "api/v1/graduation-rules" / relative_path)
+            assert published == expected
+            assert load(source_root / relative_path) == expected
+            assert schema_errors("graduation-department-rule.schema.json", published) == []
+            assert validate_department_references(published) == []
+            entry = next(
+                item for item in index["departments"]
+                if item["entry_year"] == expected["entry_year"]
+                and item["department_code"] == expected["department_code"]
+            )
+            assert entry["review_status"] == expected["review_status"]
+            assert entry["coverage"] == expected["coverage"]
+            summary = next(
+                item for item in index["entry_year_summary"]
+                if item["entry_year"] == expected["entry_year"]
+            )
+            assert summary["department_count"] == 1
+            assert summary["ai_approved_department_count"] == 0
+            assert summary["manual_review_required_department_count"] == int(
+                expected["review_status"] == "manual_review_required"
+            )
